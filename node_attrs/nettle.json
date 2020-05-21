@@ -1,0 +1,203 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/206831267.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Compiler",
+    "migrator_version":0
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/215802066.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/256753546.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"ArchRebuild",
+    "migrator_version":1,
+    "name":"aarch64 and ppc64le addition"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "compiler_stack":"comp7",
+  "max_py_ver":"37",
+  "max_r_ver":"35",
+  "provider":{
+   "linux_aarch64":"azure",
+   "linux_ppc64le":"azure"
+  }
+ },
+ "feedstock_name":"nettle",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"Nettle is a low-level cryptographic library that is designed to fit easily in more or less any context. In crypto toolkits for object-oriented languages (C++, Python, Pike, ...), in applications like LSH or GNUPG, or even in kernel space. Simple, fast, extensible JSON encoder/decoder for Python",
+   "dev_url":"https://git.lysator.liu.se/nettle/nettle",
+   "doc_url":"https://www.lysator.liu.se/~nisse/nettle/nettle.html",
+   "home":"https://www.lysator.liu.se/~nisse/nettle/",
+   "license":"GPL 2 and LGPL3",
+   "license_family":"GPL",
+   "license_file":"/LICENSE",
+   "summary":"Nettle is a low-level cryptographic library that is designed to fit easily in more or less any context"
+  },
+  "build":{
+   "number":"1002",
+   "run_exports":[
+    "nettle",
+    "nettle",
+    "nettle"
+   ],
+   "skip":true
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "sachalau",
+    "sachalau",
+    "sachalau"
+   ]
+  },
+  "package":{
+   "name":"nettle",
+   "version":"3.4.1"
+  },
+  "requirements":{
+   "build":[
+    "c_compiler_stub",
+    "autoconf",
+    "m4",
+    "make",
+    "c_compiler_stub",
+    "autoconf",
+    "m4",
+    "make",
+    "c_compiler_stub",
+    "autoconf",
+    "m4",
+    "make"
+   ]
+  },
+  "source":{
+   "fn":"nettle-3.4.1.tar.gz",
+   "patches":null,
+   "sha256":"f941cf1535cd5d1819be5ccae5babef01f6db611f9b5a777bae9c7604b8a92ad",
+   "url":"https://ftp.gnu.org/gnu/nettle/nettle-3.4.1.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "test -f ${PREFIX}/lib/libnettle${SHLIB_EXT}",
+    "test -f ${PREFIX}/lib/libhogweed${SHLIB_EXT}",
+    "test -f ${PREFIX}/lib/libnettle.a",
+    "test -f ${PREFIX}/lib/libhogweed.a",
+    "test -f ${PREFIX}/lib/libnettle${SHLIB_EXT}",
+    "test -f ${PREFIX}/lib/libhogweed${SHLIB_EXT}",
+    "test -f ${PREFIX}/lib/libnettle.a",
+    "test -f ${PREFIX}/lib/libhogweed.a",
+    "test -f ${PREFIX}/lib/libnettle${SHLIB_EXT}",
+    "test -f ${PREFIX}/lib/libhogweed${SHLIB_EXT}",
+    "test -f ${PREFIX}/lib/libnettle.a",
+    "test -f ${PREFIX}/lib/libhogweed.a"
+   ],
+   "downstreams":[
+    "gnutls",
+    "gnutls",
+    "gnutls"
+   ]
+  }
+ },
+ "name":"nettle",
+ "new_version":false,
+ "pinning_version":"2019.02.24",
+ "raw_meta_yaml":"{% set name = \"nettle\" %}\n{% set version = \"3.4.1\" %}\n{% set sha256 = \"f941cf1535cd5d1819be5ccae5babef01f6db611f9b5a777bae9c7604b8a92ad\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  fn: {{ name }}-{{ version }}.tar.gz\n  url: https://ftp.gnu.org/gnu/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n  patches:\n    - dlopen_test.patch  # [osx]\n\nbuild:\n  number: 1002\n  skip: True  # [win]\n  run_exports:\n    # https://abi-laboratory.pro/?view=timeline&l=nettle\n    - {{ pin_subpackage('nettle', max_pin='x.x') }}\n\nrequirements:\n  build:\n    - {{ compiler('c') }}\n    - autoconf\n    - m4\n    - make\n\ntest:\n  commands:\n    - test -f ${PREFIX}/lib/libnettle${SHLIB_EXT}\n    - test -f ${PREFIX}/lib/libhogweed${SHLIB_EXT}\n    - test -f ${PREFIX}/lib/libnettle.a\n    - test -f ${PREFIX}/lib/libhogweed.a\n  downstreams:\n    - gnutls\n\nabout:\n  home: https://www.lysator.liu.se/~nisse/nettle/\n  license: GPL 2 and LGPL3\n  license_family: GPL\n  license_file: '{{ environ[\"RECIPE_DIR\"] }}/LICENSE'\n  summary: 'Nettle is a low-level cryptographic library that is designed to fit easily in more or less any context'\n  description: 'Nettle is a low-level cryptographic library that is designed to fit easily in more or less any context. In crypto toolkits for object-oriented languages (C++, Python, Pike, ...), in applications like LSH or GNUPG, or even in kernel space. Simple, fast, extensible JSON encoder/decoder for Python'\n\n  doc_url: https://www.lysator.liu.se/~nisse/nettle/nettle.html\n  dev_url: https://git.lysator.liu.se/nettle/nettle\n\nextra:\n  recipe-maintainers:\n    - sachalau\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "autoconf",
+   "c_compiler_stub",
+   "m4",
+   "make"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "autoconf",
+    "c_compiler_stub",
+    "m4",
+    "make"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.2.14",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "autoconf",
+    "c_compiler_stub",
+    "m4",
+    "make"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://ftp.gnu.org/gnu/nettle/nettle-3.4.1.tar.gz",
+ "version":"3.4.1"
+}

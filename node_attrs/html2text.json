@@ -1,0 +1,147 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/363703653.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2020.1.16"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"html2text",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"https://github.com/Alir3z4/html2text/",
+   "license":"GNU General Public (GPL)",
+   "license_family":"LGPL",
+   "license_file":"COPYING",
+   "summary":"Turn HTML into equivalent Markdown-structured text."
+  },
+  "build":{
+   "entry_points":[
+    "html2text = html2text.cli:main",
+    "html2text = html2text.cli:main",
+    "html2text = html2text.cli:main"
+   ],
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . --no-deps --ignore-installed -vvv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "nehaljwani",
+    "nehaljwani",
+    "nehaljwani"
+   ]
+  },
+  "package":{
+   "name":"html2text",
+   "version":"2020.1.16"
+  },
+  "requirements":{
+   "host":[
+    "pip",
+    "python >=3.5",
+    "pip",
+    "python >=3.5",
+    "pip",
+    "python >=3.5"
+   ],
+   "run":[
+    "python >=3.5",
+    "python >=3.5",
+    "python >=3.5"
+   ]
+  },
+  "source":{
+   "sha256":"e296318e16b059ddb97f7a8a1d6a5c1d7af4544049a01e261731d2d5cc277bbb",
+   "url":"https://pypi.io/packages/source/h/html2text/html2text-2020.1.16.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "html2text --help",
+    "html2text --help",
+    "html2text --help"
+   ],
+   "imports":[
+    "html2text",
+    "html2text",
+    "html2text"
+   ]
+  }
+ },
+ "name":"html2text",
+ "new_version":"2020.1.16",
+ "pinning_version":"2020.01.10",
+ "raw_meta_yaml":"{% set name = \"html2text\" %}\n{% set version = \"2020.1.16\" %}\n\npackage:\n  name: \"{{ name|lower }}\"\n  version: \"{{ version }}\"\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: e296318e16b059ddb97f7a8a1d6a5c1d7af4544049a01e261731d2d5cc277bbb\n\nbuild:\n  number: 0\n  noarch: python\n  entry_points:\n    - html2text = html2text.cli:main\n  script: \"{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vvv\"\n\nrequirements:\n  host:\n    - pip\n    - python >=3.5\n  run:\n    - python >=3.5\n\ntest:\n  imports:\n    - html2text\n  commands:\n    - html2text --help\n\nabout:\n  home: https://github.com/Alir3z4/html2text/\n  license: GNU General Public (GPL)\n  license_family: LGPL\n  license_file: COPYING\n  summary: Turn HTML into equivalent Markdown-structured text.\n\nextra:\n  recipe-maintainers:\n    - nehaljwani\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "pip",
+   "python"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.6.5",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3.5"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "python >=3.5"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/h/html2text/html2text-2019.9.26.tar.gz",
+ "version":"2020.1.16"
+}

@@ -1,0 +1,204 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/234905038.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/306307297.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Rebuild",
+    "migrator_version":0,
+    "name":"gdal-3.0.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "compiler_stack":"comp7",
+  "max_py_ver":"37",
+  "max_r_ver":"35"
+ },
+ "feedstock_name":"rios",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"http://rioshome.org/",
+   "license":"GPL-3.0",
+   "license_file":"LICENSE.txt",
+   "summary":"Raster I/O simplification, a set of Python modules built on top of GDAL to simplify processing raster data, including data with Raster Attribute Tables."
+  },
+  "build":{
+   "entry_points":[
+    "testrios.py = rios.riostests.riostestutils:testAll",
+    "riosprintstats.py = rios.cmdline.riosprintstats:main",
+    "rioscalcstats.py = rios.cmdline.rioscalcstats:main",
+    "testrios.py = rios.riostests.riostestutils:testAll",
+    "riosprintstats.py = rios.cmdline.riosprintstats:main",
+    "rioscalcstats.py = rios.cmdline.rioscalcstats:main",
+    "testrios.py = rios.riostests.riostestutils:testAll",
+    "riosprintstats.py = rios.cmdline.riosprintstats:main",
+    "rioscalcstats.py = rios.cmdline.rioscalcstats:main"
+   ],
+   "noarch":"python",
+   "number":"0",
+   "script":[
+    " setup.py install",
+    " setup.py install",
+    " setup.py install"
+   ]
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "gillins",
+    "danclewley",
+    "neilflood",
+    "gillins",
+    "danclewley",
+    "neilflood",
+    "gillins",
+    "danclewley",
+    "neilflood"
+   ]
+  },
+  "package":{
+   "name":"rios",
+   "version":"1.4.10"
+  },
+  "requirements":{
+   "host":[
+    "python",
+    "python",
+    "python"
+   ],
+   "run":[
+    "python",
+    "numpy",
+    "gdal",
+    "python",
+    "numpy",
+    "gdal",
+    "python",
+    "numpy",
+    "gdal"
+   ]
+  },
+  "source":{
+   "fn":"rios-1.4.10.tar.gz",
+   "patches":[
+    "nocmdline.patch",
+    "nocmdline.patch",
+    "nocmdline.patch"
+   ],
+   "sha256":"6324acccc6018f9e06c40370bc366dc459890e8c09d26e0ebd245f6fd46dad71",
+   "url":"https://github.com/ubarsc/rios/releases/download/rios-1.4.10/rios-1.4.10.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "testrios.py",
+    "rioscalcstats.py -h",
+    "riosprintstats.py -h",
+    "testrios.py",
+    "rioscalcstats.py -h",
+    "riosprintstats.py -h",
+    "conda inspect linkages -p $PREFIX rios",
+    "conda inspect objects -p $PREFIX rios",
+    "testrios.py",
+    "rioscalcstats.py -h",
+    "riosprintstats.py -h",
+    "conda inspect linkages -p $PREFIX rios"
+   ],
+   "imports":[
+    "rios",
+    "rios",
+    "rios"
+   ]
+  }
+ },
+ "name":"rios",
+ "new_version":false,
+ "pinning_version":"2019.08.11",
+ "raw_meta_yaml":"{% set version = \"1.4.10\" %}\n\npackage:\n  name: rios\n  version: {{ version }}\n\nsource:\n  fn: rios-{{ version }}.tar.gz\n  url: https://github.com/ubarsc/rios/releases/download/rios-{{ version }}/rios-{{ version }}.tar.gz\n  sha256: 6324acccc6018f9e06c40370bc366dc459890e8c09d26e0ebd245f6fd46dad71\n  patches:\n    # Don't install the command line progs, use entry point instead\n    # Setting the env vars doesn't work for noarch packages.\n    - nocmdline.patch\n\nbuild:\n  noarch: python\n  number: 0\n  script:\n    - \"{{ PYTHON }} setup.py install\"\n  entry_points:\n    - testrios.py = rios.riostests.riostestutils:testAll\n    - riosprintstats.py = rios.cmdline.riosprintstats:main\n    - rioscalcstats.py = rios.cmdline.rioscalcstats:main\n\nrequirements:\n  host:\n    - python\n  run:\n    - python\n    - numpy\n    - gdal\n\ntest:\n  imports:\n    - rios\n  commands:\n    - testrios.py\n    - rioscalcstats.py -h\n    - riosprintstats.py -h\n    - conda inspect linkages -p $PREFIX rios  # [not win]\n    - conda inspect objects -p $PREFIX rios  # [osx]\n\nabout:\n  home: http://rioshome.org/\n  license: GPL-3.0\n  license_file: LICENSE.txt\n  summary: 'Raster I/O simplification, a set of Python modules built on top of GDAL to simplify processing raster data, including data with Raster Attribute Tables.'\n\nextra:\n  recipe-maintainers: \n    - gillins\n    - danclewley\n    - neilflood\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "gdal",
+   "numpy",
+   "python"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "gdal",
+    "numpy",
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.4.1",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "gdal",
+    "numpy",
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://bitbucket.org/chchrsc/rios/downloads/rios-1.4.8.tar.gz",
+ "version":"1.4.10"
+}

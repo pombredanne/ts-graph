@@ -1,0 +1,157 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/361586433.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.3.9"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/364954811.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.3.10"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"validobj",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"Validobj is library that takes semistructured data (for example JSON and YAML\nconfiguration files) and converts it to more structured Python objects. It\nplaces the emphasis on:\n\n  - [Good error messages](https://validobj.readthedocs.io/en/latest/errors.html)\n    (rather than avoiding extra work in the error handling\n    code).\n  - Schema defined in terms of\n    [dataclasses](https://docs.python.org/3/library/dataclasses.html) and other\n    high level objects such as\n    [enums](https://docs.python.org/3/library/enum.html), as well as a subset of\n    the [typing](https://docs.python.org/3/library/typing.html) module.\n  - Simplicity of implementation (rather than full generality).\n\nValidobj requires Python 3.7 and has no other dependencies.\n",
+   "dev_url":"https://github.com/Zaharid/validobj",
+   "doc_url":"https://validobj.readthedocs.io/",
+   "home":"https://github.com/Zaharid/validobj",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"LICENSE",
+   "summary":"Validobj gives you valid objects"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":"flit install"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "Zaharid",
+    "Zaharid",
+    "Zaharid"
+   ]
+  },
+  "package":{
+   "name":"validobj",
+   "version":"0.3.10"
+  },
+  "requirements":{
+   "host":[
+    "python >=3.7",
+    "flit",
+    "python >=3.7",
+    "flit",
+    "python >=3.7",
+    "flit"
+   ],
+   "run":[
+    "python >=3.7",
+    "python >=3.7",
+    "python >=3.7"
+   ]
+  },
+  "source":{
+   "sha256":"6b9688201377b43785d41d65387fbffa83fc60bcf68c9eaeb7f5e49d4f0a15fe",
+   "url":"https://pypi.io/packages/source/v/validobj/validobj-0.3.10.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "validobj",
+    "validobj",
+    "validobj"
+   ]
+  }
+ },
+ "name":"validobj",
+ "new_version":"0.3.10",
+ "pinning_version":"2020.01.10",
+ "raw_meta_yaml":"{% set name = \"validobj\" %}\n{% set version = \"0.3.10\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: 6b9688201377b43785d41d65387fbffa83fc60bcf68c9eaeb7f5e49d4f0a15fe\n\nbuild:\n  noarch: python\n  number: 0\n  script: \"flit install\"\n\nrequirements:\n  host:\n    - python >=3.7\n    - flit\n  run:\n    - python >=3.7\n\ntest:\n  imports:\n    - validobj\n\nabout:\n  home: https://github.com/Zaharid/validobj\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE\n  summary: 'Validobj gives you valid objects'\n\n  description: |\n    Validobj is library that takes semistructured data (for example JSON and YAML\n    configuration files) and converts it to more structured Python objects. It\n    places the emphasis on:\n\n      - [Good error messages](https://validobj.readthedocs.io/en/latest/errors.html)\n        (rather than avoiding extra work in the error handling\n        code).\n      - Schema defined in terms of\n        [dataclasses](https://docs.python.org/3/library/dataclasses.html) and other\n        high level objects such as\n        [enums](https://docs.python.org/3/library/enum.html), as well as a subset of\n        the [typing](https://docs.python.org/3/library/typing.html) module.\n      - Simplicity of implementation (rather than full generality).\n\n    Validobj requires Python 3.7 and has no other dependencies.\n  doc_url: https://validobj.readthedocs.io/\n  dev_url: https://github.com/Zaharid/validobj\n\nextra:\n  recipe-maintainers:\n    - Zaharid\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "flit",
+   "python"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "flit",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.6.5",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "flit",
+    "python >=3.7"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "python >=3.7"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/v/validobj/validobj-0.3.8.tar.gz",
+ "version":"0.3.10"
+}

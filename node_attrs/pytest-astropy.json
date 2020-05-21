@@ -1,0 +1,262 @@
+{
+ "PRed":[
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.4.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/233593070.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.5.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/332374787.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.6.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/352525403.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.7.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/363590718.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.8.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"pytest-astropy",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"This is a meta-package that pulls in the dependencies that are used by\nastropy and some affiliated packages for testing. It can also be used for\ntesting packages that are not affiliated with the Astropy project.\n",
+   "dev_url":"https://github.com/astropy/pytest-astropy",
+   "doc_url":"https://github.com/astropy/pytest-astropy",
+   "home":"https://github.com/astropy/pytest-astropy",
+   "license":"BSD",
+   "license_file":"LICENSE.rst",
+   "summary":"Meta-package containing dependencies for testing Astropy"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":"-m pip install . --no-deps -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "astrofrog-conda-forge",
+    "drdavella",
+    "mwcraig",
+    "astrofrog-conda-forge",
+    "drdavella",
+    "mwcraig",
+    "astrofrog-conda-forge",
+    "drdavella",
+    "mwcraig"
+   ]
+  },
+  "package":{
+   "name":"pytest-astropy",
+   "version":"0.7.0"
+  },
+  "requirements":{
+   "build":[
+    "python",
+    "pip",
+    "python",
+    "pip",
+    "python",
+    "pip"
+   ],
+   "run":[
+    "python",
+    "pytest >=3.1",
+    "pytest-openfiles >=0.3.1",
+    "pytest-remotedata >=0.3.1",
+    "pytest-doctestplus >=0.2.0",
+    "pytest-arraydiff >=0.1",
+    "pytest-astropy-header >=0.1",
+    "hypothesis",
+    "python",
+    "pytest >=3.1",
+    "pytest-openfiles >=0.3.1",
+    "pytest-remotedata >=0.3.1",
+    "pytest-doctestplus >=0.2.0",
+    "pytest-arraydiff >=0.1",
+    "pytest-astropy-header >=0.1",
+    "hypothesis",
+    "python",
+    "pytest >=3.1",
+    "pytest-openfiles >=0.3.1",
+    "pytest-remotedata >=0.3.1",
+    "pytest-doctestplus >=0.2.0",
+    "pytest-arraydiff >=0.1",
+    "pytest-astropy-header >=0.1",
+    "hypothesis"
+   ]
+  },
+  "source":{
+   "fn":"pytest-astropy-0.7.0.tar.gz",
+   "sha256":"0e383262b2f9c2ef456cdd612cb0c485430a6a2530e3d5662e8930702e0bdd44",
+   "url":"https://pypi.io/packages/source/p/pytest-astropy/pytest-astropy-0.7.0.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "pytest_remotedata",
+    "pytest_doctestplus",
+    "pytest_openfiles",
+    "pytest_arraydiff",
+    "pytest_remotedata",
+    "pytest_doctestplus",
+    "pytest_openfiles",
+    "pytest_arraydiff",
+    "pytest_remotedata",
+    "pytest_doctestplus",
+    "pytest_openfiles",
+    "pytest_arraydiff"
+   ]
+  }
+ },
+ "name":"pytest-astropy",
+ "new_version":"0.8.0",
+ "pinning_version":"2020.01.10",
+ "raw_meta_yaml":"{% set name = \"pytest-astropy\" %}\n{% set version = \"0.7.0\" %}\n{% set git_url = \"https://github.com/astropy/pytest-astropy\" %}\n{% set sha256 = \"0e383262b2f9c2ef456cdd612cb0c485430a6a2530e3d5662e8930702e0bdd44\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  fn: {{ name }}-{{ version }}.tar.gz\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 0\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  build:\n    - python\n    - pip\n  run:\n    - python\n    - pytest >=3.1\n    - pytest-openfiles >=0.3.1\n    - pytest-remotedata >=0.3.1\n    - pytest-doctestplus >=0.2.0\n    - pytest-arraydiff >=0.1\n    - pytest-astropy-header >=0.1\n    - hypothesis\n\ntest:\n  imports:\n    - pytest_remotedata\n    - pytest_doctestplus\n    - pytest_openfiles\n    - pytest_arraydiff\n\nabout:\n  home: {{ git_url }}\n  license: BSD\n  license_file: LICENSE.rst\n  summary: 'Meta-package containing dependencies for testing Astropy'\n  description: |\n    This is a meta-package that pulls in the dependencies that are used by\n    astropy and some affiliated packages for testing. It can also be used for\n    testing packages that are not affiliated with the Astropy project.\n  doc_url: {{ git_url }}\n  dev_url: {{ git_url }}\n\nextra:\n  recipe-maintainers:\n    - astrofrog-conda-forge\n    - drdavella\n    - mwcraig\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "hypothesis",
+   "pip",
+   "pytest",
+   "pytest-arraydiff",
+   "pytest-astropy-header",
+   "pytest-doctestplus",
+   "pytest-openfiles",
+   "pytest-remotedata",
+   "python"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "hypothesis",
+    "pytest",
+    "pytest-arraydiff",
+    "pytest-astropy-header",
+    "pytest-doctestplus",
+    "pytest-openfiles",
+    "pytest-remotedata",
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.6.5",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "hypothesis",
+    "pytest >=3.1",
+    "pytest-arraydiff >=0.1",
+    "pytest-astropy-header >=0.1",
+    "pytest-doctestplus >=0.2.0",
+    "pytest-openfiles >=0.3.1",
+    "pytest-remotedata >=0.3.1",
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/p/pytest-astropy/pytest-astropy-0.5.0.tar.gz",
+ "version":"0.7.0"
+}

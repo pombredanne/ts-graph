@@ -1,0 +1,489 @@
+{
+ "PRed":[
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.56_0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/206118389.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Compiler",
+    "migrator_version":0
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/231991447.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/298806748.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"RBaseRebuild",
+    "migrator_version":0,
+    "name":"r-base-3.6.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/356495321.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.62_2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/366414436.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.63_0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/379813598.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.63_2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/382064967.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.63_3"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/412715337.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":2,
+    "migrator_version":0,
+    "name":"r400"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/416969845.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.64_1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "bot":{
+   "automerge":true
+  },
+  "provider":{
+   "win":"azure"
+  }
+ },
+ "feedstock_name":"r-spatstat",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"http://www.spatstat.org",
+   "license":"GPL-2",
+   "license_family":"GPL2",
+   "license_file":[
+    "/lib/R/share/licenses/GPL-2",
+    "/lib/R/share/licenses/GPL-2",
+    "/lib/R/share/licenses/GPL-2"
+   ],
+   "summary":"Comprehensive open-source toolbox for analysing Spatial Point Patterns. Focused mainly on two-dimensional point patterns, including multitype/marked points, in any spatial region. Also supports three-dimensional point patterns, space-time point patterns in any number of dimensions, point patterns on a linear network, and patterns of other geometrical objects. Supports spatial covariate data such as pixel images. Contains over 2000 functions for plotting spatial data, exploratory data analysis, model-fitting, simulation, spatial sampling, model diagnostics, and formal inference. Data types include point patterns, line segment patterns, spatial windows, pixel images, tessellations, and linear networks. Exploratory methods include quadrat counts, K-functions and their simulation envelopes, nearest neighbour distance and empty space statistics, Fry plots, pair correlation function, kernel smoothed intensity, relative risk estimation with cross-validated bandwidth selection, mark correlation functions, segregation indices, mark dependence diagnostics, and kernel estimates of covariate effects. Formal hypothesis tests of random pattern (chi-squared, Kolmogorov-Smirnov, Monte Carlo, Diggle-Cressie-Loosmore-Ford, Dao-Genton, two-stage Monte Carlo) and tests for covariate effects (Cox-Berman-Waller-Lawson, Kolmogorov-Smirnov, ANOVA) are also supported. Parametric models can be fitted to point pattern data using the functions ppm(), kppm(), slrm(), dppm() similar to glm(). Types of models include Poisson, Gibbs and Cox point processes, Neyman-Scott cluster processes, and determinantal point processes. Models may involve dependence on covariates, inter-point interaction, cluster formation and dependence on marks. Models are fitted by maximum likelihood, logistic regression, minimum contrast, and composite likelihood methods. A model can be fitted to a list of point patterns (replicated point pattern data) using the function mppm(). The model can include random effects and fixed effects depending on the experimental design, in addition to all the features listed above. Fitted point process models can be simulated, automatically. Formal hypothesis tests of a fitted model are supported (likelihood ratio test, analysis of deviance, Monte Carlo tests) along with basic tools for model selection (stepwise(), AIC()) and variable selection (sdr). Tools for validating the fitted model include simulation envelopes, residuals, residual plots and Q-Q plots, leverage and influence diagnostics, partial residuals, and added variable plots."
+  },
+  "build":{
+   "merge_build_host":true,
+   "number":"0",
+   "rpaths":[
+    "lib/R/lib/",
+    "lib/",
+    "lib/R/lib/",
+    "lib/",
+    "lib/R/lib/",
+    "lib/"
+   ]
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "ocefpaf",
+    "conda-forge/r",
+    "ocefpaf",
+    "conda-forge/r",
+    "ocefpaf",
+    "conda-forge/r"
+   ]
+  },
+  "package":{
+   "name":"r-spatstat",
+   "version":"1.64_1"
+  },
+  "requirements":{
+   "build":[
+    "m2w64_c_compiler_stub",
+    "m2w64_cxx_compiler_stub",
+    "filesystem",
+    "make",
+    "sed",
+    "coreutils",
+    "zip",
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "make",
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "make"
+   ],
+   "host":[
+    "r-base",
+    "r-spatstat.data >=1.4_2",
+    "r-nlme",
+    "r-rpart",
+    "r-spatstat.utils >=1.17_0",
+    "r-mgcv",
+    "r-matrix",
+    "r-deldir >=0.0_21",
+    "r-abind",
+    "r-tensor",
+    "r-polyclip >=1.10_0",
+    "r-goftest >=1.2_2",
+    "r-base",
+    "r-spatstat.data >=1.4_2",
+    "r-nlme",
+    "r-rpart",
+    "r-spatstat.utils >=1.17_0",
+    "r-mgcv",
+    "r-matrix",
+    "r-deldir >=0.0_21",
+    "r-abind",
+    "r-tensor",
+    "r-polyclip >=1.10_0",
+    "r-goftest >=1.2_2",
+    "r-base",
+    "r-spatstat.data >=1.4_2",
+    "r-nlme",
+    "r-rpart",
+    "r-spatstat.utils >=1.17_0",
+    "r-mgcv",
+    "r-matrix",
+    "r-deldir >=0.0_21",
+    "r-abind",
+    "r-tensor",
+    "r-polyclip >=1.10_0",
+    "r-goftest >=1.2_2"
+   ],
+   "run":[
+    "r-base",
+    "gcc-libs",
+    "r-spatstat.data >=1.4_2",
+    "r-nlme",
+    "r-rpart",
+    "r-spatstat.utils >=1.17_0",
+    "r-mgcv",
+    "r-matrix",
+    "r-deldir >=0.0_21",
+    "r-abind",
+    "r-tensor",
+    "r-polyclip >=1.10_0",
+    "r-goftest >=1.2_2",
+    "r-base",
+    "r-spatstat.data >=1.4_2",
+    "r-nlme",
+    "r-rpart",
+    "r-spatstat.utils >=1.17_0",
+    "r-mgcv",
+    "r-matrix",
+    "r-deldir >=0.0_21",
+    "r-abind",
+    "r-tensor",
+    "r-polyclip >=1.10_0",
+    "r-goftest >=1.2_2",
+    "r-base",
+    "r-spatstat.data >=1.4_2",
+    "r-nlme",
+    "r-rpart",
+    "r-spatstat.utils >=1.17_0",
+    "r-mgcv",
+    "r-matrix",
+    "r-deldir >=0.0_21",
+    "r-abind",
+    "r-tensor",
+    "r-polyclip >=1.10_0",
+    "r-goftest >=1.2_2"
+   ]
+  },
+  "source":{
+   "sha256":"ca3fc7d0d6b7a83fd045a7502bf03c6871fa1ab2cf411647c438fd99b4eb551a",
+   "url":[
+    "https://cran.r-project.org/src/contrib/spatstat_1.64-1.tar.gz",
+    "https://cran.r-project.org/src/contrib/Archive/spatstat/spatstat_1.64-1.tar.gz",
+    "https://cran.r-project.org/src/contrib/spatstat_1.64-1.tar.gz",
+    "https://cran.r-project.org/src/contrib/Archive/spatstat/spatstat_1.64-1.tar.gz",
+    "https://cran.r-project.org/src/contrib/spatstat_1.64-1.tar.gz",
+    "https://cran.r-project.org/src/contrib/Archive/spatstat/spatstat_1.64-1.tar.gz"
+   ]
+  },
+  "test":{
+   "commands":[
+    "\"%R%\" -e \"library('spatstat')\"",
+    "$R -e \"library('spatstat')\"",
+    "$R -e \"library('spatstat')\""
+   ]
+  }
+ },
+ "name":"r-spatstat",
+ "new_version":"1.64_1",
+ "new_version_attempts":{
+  "1.64_1":1
+ },
+ "new_version_errors":{},
+ "pinning_version":"2020.05.12.18.03.58",
+ "raw_meta_yaml":"{% set version = \"1.64-1\" %}\n{% set posix = 'm2-' if win else '' %}\n{% set native = 'm2w64-' if win else '' %}\n\npackage:\n  name: r-spatstat\n  version: {{ version|replace(\"-\", \"_\") }}\n\nsource:\n  url:\n    - {{ cran_mirror }}/src/contrib/spatstat_{{ version }}.tar.gz\n    - {{ cran_mirror }}/src/contrib/Archive/spatstat/spatstat_{{ version }}.tar.gz\n  sha256: ca3fc7d0d6b7a83fd045a7502bf03c6871fa1ab2cf411647c438fd99b4eb551a\n\nbuild:\n  merge_build_host: true  # [win]\n  number: 0\n  rpaths:\n    - lib/R/lib/\n    - lib/\n\nrequirements:\n  build:\n    - {{ compiler('c') }}              # [not win]\n    - {{ compiler('m2w64_c') }}        # [win]\n    - {{ compiler('cxx') }}            # [not win]\n    - {{ compiler('m2w64_cxx') }}      # [win]\n    - {{ posix }}filesystem        # [win]\n    - {{ posix }}make\n    - {{ posix }}sed               # [win]\n    - {{ posix }}coreutils         # [win]\n    - {{ posix }}zip               # [win]\n  host:\n    - r-base\n    - r-spatstat.data >=1.4_2\n    - r-nlme\n    - r-rpart\n    - r-spatstat.utils >=1.17_0\n    - r-mgcv\n    - r-matrix\n    - r-deldir >=0.0_21\n    - r-abind\n    - r-tensor\n    - r-polyclip >=1.10_0\n    - r-goftest >=1.2_2\n  run:\n    - r-base\n    - {{ native }}gcc-libs         # [win]\n    - r-spatstat.data >=1.4_2\n    - r-nlme\n    - r-rpart\n    - r-spatstat.utils >=1.17_0\n    - r-mgcv\n    - r-matrix\n    - r-deldir >=0.0_21\n    - r-abind\n    - r-tensor\n    - r-polyclip >=1.10_0\n    - r-goftest >=1.2_2\n\ntest:\n  commands:\n    - $R -e \"library('spatstat')\"           # [not win]\n    - \"\\\"%R%\\\" -e \\\"library('spatstat')\\\"\"  # [win]\n\nabout:\n  home: http://www.spatstat.org\n  license: GPL-2\n  summary: Comprehensive open-source toolbox for analysing Spatial Point Patterns. Focused mainly on two-dimensional point patterns, including multitype/marked points, in any spatial region. Also supports three-dimensional point patterns, space-time point patterns in any number of dimensions, point patterns on a linear network,\n    and patterns of other geometrical objects. Supports spatial covariate data such as pixel images. Contains over 2000 functions for plotting spatial data, exploratory data analysis, model-fitting, simulation, spatial sampling, model diagnostics, and formal inference. Data types include point patterns, line segment patterns,\n    spatial windows, pixel images, tessellations, and linear networks. Exploratory methods include quadrat counts, K-functions and their simulation envelopes, nearest neighbour distance and empty space statistics, Fry plots, pair correlation function, kernel smoothed intensity, relative risk estimation with cross-validated\n    bandwidth selection, mark correlation functions, segregation indices, mark dependence diagnostics, and kernel estimates of covariate effects. Formal hypothesis tests of random pattern (chi-squared, Kolmogorov-Smirnov, Monte Carlo, Diggle-Cressie-Loosmore-Ford, Dao-Genton, two-stage Monte Carlo) and tests for covariate\n    effects (Cox-Berman-Waller-Lawson, Kolmogorov-Smirnov, ANOVA) are also supported. Parametric models can be fitted to point pattern data using the functions ppm(), kppm(), slrm(), dppm() similar to glm(). Types of models include Poisson, Gibbs and Cox point processes, Neyman-Scott cluster processes, and determinantal\n    point processes. Models may involve dependence on covariates, inter-point interaction, cluster formation and dependence on marks. Models are fitted by maximum likelihood, logistic regression, minimum contrast, and composite likelihood methods. A model can be fitted to a list of point patterns (replicated point pattern\n    data) using the function mppm(). The model can include random effects and fixed effects depending on the experimental design, in addition to all the features listed above. Fitted point process models can be simulated, automatically. Formal hypothesis tests of a fitted model are supported (likelihood ratio test, analysis\n    of deviance, Monte Carlo tests) along with basic tools for model selection (stepwise(), AIC()) and variable selection (sdr). Tools for validating the fitted model include simulation envelopes, residuals, residual plots and Q-Q plots, leverage and influence diagnostics, partial residuals, and added variable plots.\n  license_family: GPL2\n  license_file:\n    - {{ environ[\"PREFIX\"] }}/lib/R/share/licenses/GPL-2\n\nextra:\n  recipe-maintainers:\n    - ocefpaf\n    - conda-forge/r\n\n# Package: spatstat\n# Version: 1.61-0\n# Date: 2019-09-12\n# Title: Spatial Point Pattern Analysis, Model-Fitting, Simulation, Tests\n# Author: Adrian Baddeley <Adrian.Baddeley@curtin.edu.au>, Rolf Turner <r.turner@auckland.ac.nz> and Ege Rubak <rubak@math.aau.dk>, with substantial contributions of code by Kasper Klitgaard Berthelsen; Ottmar Cronie; Tilman Davies; Yongtao Guan; Ute Hahn; Abdollah Jalilian; Marie-Colette van Lieshout; Greg McSwiggan; Tuomas Rajala; Suman Rakshit; Dominic Schuhmacher; Rasmus Waagepetersen; and Hangsheng Wang. Additional contributions by M. Adepeju; C. Anderson; Q.W. Ang; R. Arellano; J. Astrom; M. Austenfeld; S. Azaele; M. Baddeley; C. Beale; M. Bell; R. Bernhardt; T. Bendtsen; A. Bevan; B. Biggerstaff; A. Bilgrau; L. Bischof; C. Biscio; R. Bivand; J.M. Blanco Moreno; F. Bonneu; J. Brown; J. Burgos; S. Byers; Y.M. Chang; J.B. Chen; I. Chernayavsky; Y.C. Chin; B. Christensen; L. Cobo Sanchez; J.-F. Coeurjolly; K. Colyvas; H. Commenges; R. Constantine; R. Corria Ainslie; R. Cotton; M. de la Cruz; P. Dalgaard; M. D'Antuono; S. Das; P.J. Diggle; P. Donnelly; I. Dryden; S. Eglen; A. El-Gabbas; B. Fandohan; O. Flores; E.D. Ford; P. Forbes; S. Frank; J. Franklin; N. Funwi-Gabga; O. Garcia; A. Gault; J. Geldmann; M. Genton; S. Ghalandarayeshi; J. Gilbey; J. Goldstick; P. Grabarnik; C. Graf; U. Hahn; A. Hardegen; M.B. Hansen; M. Hazelton; J. Heikkinen; M. Hering; M. Herrmann; M. Hesselbarth; P. Hewson; H. Heydarian; K. Hingee; K. Hornik; P. Hunziker; J. Hywood; R. Ihaka; C. Icos; A. Jammalamadaka; R. John-Chandran; D. Johnson; M. Khanmohammadi; R. Klaver; P. Kovesi; L. Kozmian-Ledward; M. Kuhn; J. Laake; R.A. Lamb; F. Lavancier; T. Lawrence; T. Lazauskas; J. Lee; G.P. Leser; A. Li; H.T. Li; G. Limitsios; A. Lister; B. Madin; M. Maechler; J. Marcus; K. Marchikanti; R. Mark; J. Mateu; P. McCullagh; U. Mehlig; F. Mestre; S. Meyer; X.C. Mi; L. De Middeleer; R.K. Milne; E. Miranda; J. Moller; I. Moncada; M. Moradi; V. Morera Pujol; E. Mudrak; G.M. Nair; N. Najari; N. Nava; L.S. Nielsen; F. Nunes; J.R. Nyengaard; J. Oehlschlaegel; T. Onkelinx; S. O'Riordan; E. Parilov; J. Picka; N. Picard; T. Pollington; M. Porter; S. Protsiv; A. Raftery; S. Rakshit; B. Ramage; P. Ramon; X. Raynaud; N. Read; M. Reiter; I. Renner; T.O. Richardson; B.D. Ripley; E. Rosenbaum; B. Rowlingson; J. Rudokas; J. Rudge; C. Ryan; F. Safavimanesh; A. Sarkka; C. Schank; K. Schladitz; S. Schutte; B.T. Scott; O. Semboli; F. Semecurbe; V. Shcherbakov; G.C. Shen; P. Shi; H.-J. Ship; T.L. Silva; I.-M. Sintorn; Y. Song; M. Spiess; M. Stevenson; K. Stucki; J. Sulavik; M. Sumner; P. Surovy; B. Taylor; T. Thorarinsdottir; L. Torres; B. Turlach; T. Tvedebrink; K. Ummer; M. Uppala; A. van Burgel; T. Verbeke; M. Vihtakari; A. Villers; F. Vinatier; S. Voss; S. Wagner; H. Wang; H. Wendrock; J. Wild; C. Witthoft; S. Wong; M. Woringer; L. Yates; M.E. Zamboni and A. Zeileis.\n# Maintainer: Adrian Baddeley <Adrian.Baddeley@curtin.edu.au>\n# Depends: R (>= 3.3.0), spatstat.data (>= 1.4-0), stats, graphics, grDevices, utils, methods, nlme, rpart\n# Imports: spatstat.utils (>= 1.13-0), mgcv, Matrix, deldir (>= 0.0-21), abind, tensor, polyclip (>= 1.10-0), goftest\n# Suggests: sm, maptools, gsl, locfit, spatial, rpanel, tkrplot, RandomFields (>= 3.1.24.1), RandomFieldsUtils(>= 0.3.3.1), fftwtools (>= 0.9-8)\n# Description: Comprehensive open-source toolbox for analysing Spatial Point Patterns. Focused mainly on two-dimensional point patterns, including multitype/marked points, in any spatial region. Also supports three-dimensional point patterns, space-time point patterns in any number of dimensions, point patterns on a linear network, and patterns of other geometrical objects. Supports spatial covariate data such as pixel images. Contains over 2000 functions for plotting spatial data, exploratory data analysis, model-fitting, simulation, spatial sampling, model diagnostics, and formal inference. Data types include point patterns, line segment patterns, spatial windows, pixel images, tessellations, and linear networks. Exploratory methods include quadrat counts, K-functions and their simulation envelopes, nearest neighbour distance and empty space statistics, Fry plots, pair correlation function, kernel smoothed intensity, relative risk estimation with cross-validated bandwidth selection, mark correlation functions, segregation indices, mark dependence diagnostics, and kernel estimates of covariate effects. Formal hypothesis tests of random pattern (chi-squared, Kolmogorov-Smirnov, Monte Carlo, Diggle-Cressie-Loosmore-Ford, Dao-Genton, two-stage Monte Carlo) and tests for covariate effects (Cox-Berman-Waller-Lawson, Kolmogorov-Smirnov, ANOVA) are also supported. Parametric models can be fitted to point pattern data using the functions ppm(), kppm(), slrm(), dppm() similar to glm(). Types of models include Poisson, Gibbs and Cox point processes, Neyman-Scott cluster processes, and determinantal point processes. Models may involve dependence on covariates, inter-point interaction, cluster formation and dependence on marks. Models are fitted by maximum likelihood, logistic regression, minimum contrast, and composite likelihood methods. A model can be fitted to a list of point patterns (replicated point pattern data) using the function mppm(). The model can include random effects and fixed effects depending on the experimental design, in addition to all the features listed above. Fitted point process models can be simulated, automatically. Formal hypothesis tests of a fitted model are supported (likelihood ratio test, analysis of deviance, Monte Carlo tests) along with basic tools for model selection (stepwise(), AIC()) and variable selection (sdr). Tools for validating the fitted model include simulation envelopes, residuals, residual plots and Q-Q plots, leverage and influence diagnostics, partial residuals, and added variable plots.\n# License: GPL (>= 2)\n# URL: http://www.spatstat.org\n# LazyData: true\n# NeedsCompilation: yes\n# ByteCompile: true\n# BugReports: https://github.com/spatstat/spatstat/issues\n# Packaged: 2019-09-12 07:51:49 UTC; adrian\n# Repository: CRAN\n# Date/Publication: 2019-09-22 18:20:03 UTC\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "c_compiler_stub",
+   "coreutils",
+   "cxx_compiler_stub",
+   "filesystem",
+   "gcc-libs",
+   "m2w64_c_compiler_stub",
+   "m2w64_cxx_compiler_stub",
+   "make",
+   "r-abind",
+   "r-base",
+   "r-deldir",
+   "r-goftest",
+   "r-matrix",
+   "r-mgcv",
+   "r-nlme",
+   "r-polyclip",
+   "r-rpart",
+   "r-spatstat.data",
+   "r-spatstat.utils",
+   "r-tensor",
+   "sed",
+   "zip"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "coreutils",
+    "cxx_compiler_stub",
+    "filesystem",
+    "m2w64_c_compiler_stub",
+    "m2w64_cxx_compiler_stub",
+    "make",
+    "sed",
+    "zip"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "r-abind",
+    "r-base",
+    "r-deldir",
+    "r-goftest",
+    "r-matrix",
+    "r-mgcv",
+    "r-nlme",
+    "r-polyclip",
+    "r-rpart",
+    "r-spatstat.data",
+    "r-spatstat.utils",
+    "r-tensor"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "gcc-libs",
+    "r-abind",
+    "r-base",
+    "r-deldir",
+    "r-goftest",
+    "r-matrix",
+    "r-mgcv",
+    "r-nlme",
+    "r-polyclip",
+    "r-rpart",
+    "r-spatstat.data",
+    "r-spatstat.utils",
+    "r-tensor"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.7.0\n",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "coreutils",
+    "cxx_compiler_stub",
+    "filesystem",
+    "m2w64_c_compiler_stub",
+    "m2w64_cxx_compiler_stub",
+    "make",
+    "sed",
+    "zip"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "r-abind",
+    "r-base",
+    "r-deldir >=0.0_21",
+    "r-goftest >=1.2_2",
+    "r-matrix",
+    "r-mgcv",
+    "r-nlme",
+    "r-polyclip >=1.10_0",
+    "r-rpart",
+    "r-spatstat.data >=1.4_2",
+    "r-spatstat.utils >=1.17_0",
+    "r-tensor"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "gcc-libs",
+    "r-abind",
+    "r-base",
+    "r-deldir >=0.0_21",
+    "r-goftest >=1.2_2",
+    "r-matrix",
+    "r-mgcv",
+    "r-nlme",
+    "r-polyclip >=1.10_0",
+    "r-rpart",
+    "r-spatstat.data >=1.4_2",
+    "r-spatstat.utils >=1.17_0",
+    "r-tensor"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":[
+  "https://cran.r-project.org/src/contrib/spatstat_1.60-1.tar.gz",
+  "https://cran.r-project.org/src/contrib/Archive/spatstat/spatstat_1.60-1.tar.gz",
+  "https://cran.r-project.org/src/contrib/spatstat_1.60-1.tar.gz",
+  "https://cran.r-project.org/src/contrib/Archive/spatstat/spatstat_1.60-1.tar.gz",
+  "https://cran.r-project.org/src/contrib/spatstat_1.60-1.tar.gz",
+  "https://cran.r-project.org/src/contrib/Archive/spatstat/spatstat_1.60-1.tar.gz"
+ ],
+ "version":"1.64_1"
+}

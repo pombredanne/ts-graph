@@ -1,0 +1,154 @@
+{
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"pandasdmx",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "dev_url":"https://github.com/dr-leo/pandasdmx",
+   "doc_url":"https://pandasdmx.readthedocs.io/",
+   "home":"https://github.com/dr-leo/pandasdmx",
+   "license":"Apache-2.0",
+   "license_family":"APACHE",
+   "license_file":"LICENSE",
+   "summary":"Statistical Data and Metadata eXchange (SDMX) for the Python data ecosystem"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . --no-deps -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "dr-leo",
+    "dr-leo",
+    "dr-leo"
+   ]
+  },
+  "package":{
+   "name":"pandasdmx",
+   "version":"1.0.0"
+  },
+  "requirements":{
+   "host":[
+    "python >=3.7",
+    "flit >=2.3",
+    "pip",
+    "python >=3.7",
+    "flit >=2.3",
+    "pip",
+    "python >=3.7",
+    "flit >=2.3",
+    "pip"
+   ],
+   "run":[
+    "python >=3.7",
+    "lxml >=3.6",
+    "pandas >=0.24",
+    "pydantic >=1.1",
+    "requests >=2.7",
+    "python >=3.7",
+    "lxml >=3.6",
+    "pandas >=0.24",
+    "pydantic >=1.1",
+    "requests >=2.7",
+    "python >=3.7",
+    "lxml >=3.6",
+    "pandas >=0.24",
+    "pydantic >=1.1",
+    "requests >=2.7"
+   ]
+  },
+  "source":{
+   "sha256":"799d53f8c8a49321fc92d8bf0f6bf7101b0ffe14c7f2768aef33776b7eae48f6",
+   "url":"https://pypi.io/packages/source/p/pandaSDMX/pandaSDMX-1.0.0.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "pandasdmx",
+    "pandasdmx.reader.sdmxml",
+    "pandasdmx.writer",
+    "pandasdmx",
+    "pandasdmx.reader.sdmxml",
+    "pandasdmx.writer",
+    "pandasdmx",
+    "pandasdmx.reader.sdmxml",
+    "pandasdmx.writer"
+   ]
+  }
+ },
+ "name":"pandasdmx",
+ "new_version":"1.0.0",
+ "raw_meta_yaml":"{% set name = \"pandaSDMX\" %}\n{% set version = \"1.0.0\" %}\n\npackage:\n  name: \"{{ name|lower }}\"\n  version: \"{{ version }}\"\n\nsource:\n  url: \"https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\"\n  sha256: 799d53f8c8a49321fc92d8bf0f6bf7101b0ffe14c7f2768aef33776b7eae48f6\n\nbuild:\n  number: 0\n  noarch: python\n  script: \"{{ PYTHON }} -m pip install . --no-deps -vv\" \n\nrequirements:\n  host:\n    - python >=3.7\n    - flit >=2.3\n    - pip\n  run:\n    - python >=3.7\n    - lxml >=3.6\n    - pandas >=0.24\n    - pydantic >=1.1\n    - requests >=2.7\n\ntest:\n  imports:\n    - pandasdmx\n    - pandasdmx.reader.sdmxml\n    - pandasdmx.writer\n    \nabout:\n  home: \"https://github.com/dr-leo/pandasdmx\"\n  license: Apache-2.0\n  license_family: APACHE\n  license_file: LICENSE \n  summary: \"Statistical Data and Metadata eXchange (SDMX) for the Python data ecosystem\"\n  doc_url: \"https://pandasdmx.readthedocs.io/\" \n  dev_url: \"https://github.com/dr-leo/pandasdmx\" \n\nextra:\n  recipe-maintainers:\n    - dr-leo\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "flit",
+   "lxml",
+   "pandas",
+   "pip",
+   "pydantic",
+   "python",
+   "requests"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "flit",
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "lxml",
+    "pandas",
+    "pydantic",
+    "python",
+    "requests"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "flit >=2.3",
+    "pip",
+    "python >=3.7"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "lxml >=3.6",
+    "pandas >=0.24",
+    "pydantic >=1.1",
+    "python >=3.7",
+    "requests >=2.7"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/p/pandaSDMX/pandaSDMX-1.0.0.tar.gz",
+ "version":"1.0.0"
+}

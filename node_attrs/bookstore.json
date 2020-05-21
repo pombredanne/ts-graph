@@ -1,0 +1,233 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/304503288.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.4.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/304936021.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.4.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/347958636.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.5.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/350830384.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.5.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"bookstore",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"bookstore provides tooling and workflow recommendations for storing,\nscheduling, and publishing notebooks.\n",
+   "dev_url":"https://github.com/nteract/bookstore",
+   "doc_url":"http://bookstore.readthedocs.io/",
+   "home":"http://github.com/nteract/bookstore",
+   "license":"BSD",
+   "license_family":"BSD",
+   "license_file":"LICENSE",
+   "summary":"Storage Workflows for Notebooks"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "MSeal",
+    "mpacer",
+    "willingc",
+    "rgbkrk",
+    "captainsafia",
+    "MSeal",
+    "mpacer",
+    "willingc",
+    "rgbkrk",
+    "captainsafia",
+    "MSeal",
+    "mpacer",
+    "willingc",
+    "rgbkrk",
+    "captainsafia"
+   ]
+  },
+  "package":{
+   "name":"bookstore",
+   "version":"2.5.1"
+  },
+  "requirements":{
+   "host":[
+    "python >=3.6",
+    "pip",
+    "python >=3.6",
+    "pip",
+    "python >=3.6",
+    "pip"
+   ],
+   "run":[
+    "python >=3.6",
+    "future",
+    "ipython >=5.0",
+    "notebook",
+    "tornado >=5.1.1",
+    "aiobotocore",
+    "python >=3.6",
+    "future",
+    "ipython >=5.0",
+    "notebook",
+    "tornado >=5.1.1",
+    "aiobotocore",
+    "python >=3.6",
+    "future",
+    "ipython >=5.0",
+    "notebook",
+    "tornado >=5.1.1",
+    "aiobotocore"
+   ]
+  },
+  "source":{
+   "sha256":"b37324cfd3ea9622c5bd4d53b9698c897d2306f884b6ac4ebf33945120cf1c78",
+   "url":"https://pypi.io/packages/source/b/bookstore/bookstore-2.5.1.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "bookstore",
+    "bookstore",
+    "bookstore"
+   ]
+  }
+ },
+ "name":"bookstore",
+ "new_version":"2.5.1",
+ "pinning_version":"2019.12.02",
+ "raw_meta_yaml":"{% set name = \"bookstore\" %}\n{% set version = \"2.5.1\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: b37324cfd3ea9622c5bd4d53b9698c897d2306f884b6ac4ebf33945120cf1c78\nbuild:\n  number: 0\n  noarch: python\n  script: \"{{ PYTHON }} -m pip install . -vv\"\n\nrequirements:\n  host:\n    - python >=3.6\n    - pip\n  run:\n    - python >=3.6\n    - future\n    - ipython >=5.0\n    - notebook\n    - tornado >=5.1.1\n    - aiobotocore\n\ntest:\n  imports:\n    - bookstore\n\nabout:\n  home: http://github.com/nteract/bookstore\n  license: BSD\n  license_family: BSD\n  license_file: LICENSE\n  summary: 'Storage Workflows for Notebooks'\n  description: |\n    bookstore provides tooling and workflow recommendations for storing,\n    scheduling, and publishing notebooks.\n  doc_url: http://bookstore.readthedocs.io/\n  dev_url: https://github.com/nteract/bookstore\n\nextra:\n  recipe-maintainers:\n    - MSeal\n    - mpacer\n    - willingc\n    - rgbkrk\n    - captainsafia\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "aiobotocore",
+   "future",
+   "ipython",
+   "notebook",
+   "pip",
+   "python",
+   "tornado"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "aiobotocore",
+    "future",
+    "ipython",
+    "notebook",
+    "python",
+    "tornado"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.6.3",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3.6"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "aiobotocore",
+    "future",
+    "ipython >=5.0",
+    "notebook",
+    "python >=3.6",
+    "tornado >=5.1.1"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/b/bookstore/bookstore-2.4.1.tar.gz",
+ "version":"2.5.1"
+}

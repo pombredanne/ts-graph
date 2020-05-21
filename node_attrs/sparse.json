@@ -1,0 +1,237 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/215021841.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.4.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/261361932.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.7.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/311029776.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.8.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/366308254.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.9.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/417362705.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.10.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"sparse",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"sparse implements sparse multidimensional arrays on top of Numpy\nand scipy.sparse. It tries to mimic Numpy's ndarray API.\n",
+   "dev_url":"https://github.com/pydata/sparse",
+   "doc_url":"https://sparse.pydata.org/en/0.10.0/",
+   "home":"https://github.com/pydata/sparse",
+   "license":"BSD-3-Clause",
+   "license_family":"BSD",
+   "license_file":"LICENSE",
+   "summary":"Sparse multi-dimensional arrays for the PyData ecosystem"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":"-m pip install . -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "hameerabbasi",
+    "mrocklin",
+    "jakevdp",
+    "hameerabbasi",
+    "mrocklin",
+    "jakevdp",
+    "hameerabbasi",
+    "mrocklin",
+    "jakevdp"
+   ]
+  },
+  "package":{
+   "name":"sparse",
+   "version":"0.10.0"
+  },
+  "requirements":{
+   "build":[
+    "python >=3.5",
+    "pip",
+    "python >=3.5",
+    "pip",
+    "python >=3.5",
+    "pip"
+   ],
+   "run":[
+    "python >=3.5",
+    "numpy >=1.13",
+    "scipy >=0.19",
+    "numba >=0.49",
+    "python >=3.5",
+    "numpy >=1.13",
+    "scipy >=0.19",
+    "numba >=0.49",
+    "python >=3.5",
+    "numpy >=1.13",
+    "scipy >=0.19",
+    "numba >=0.49"
+   ]
+  },
+  "source":{
+   "fn":"sparse-0.10.0.tar.gz",
+   "sha256":"2e68c10f3163e2622b537776fcde72f00dadecbafdecacb71ee8e5234c24d501",
+   "url":"https://github.com/pydata/sparse/archive/0.10.0.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "sparse",
+    "sparse",
+    "sparse"
+   ]
+  }
+ },
+ "name":"sparse",
+ "new_version":"0.10.0",
+ "new_version_attempts":{
+  "0.10.0":1
+ },
+ "new_version_errors":{},
+ "pinning_version":"2020.05.12.18.03.58",
+ "raw_meta_yaml":"{% set name = \"sparse\" %}\n{% set version = \"0.10.0\" %}\n{% set sha256 = \"2e68c10f3163e2622b537776fcde72f00dadecbafdecacb71ee8e5234c24d501\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  fn: {{ name }}-{{ version }}.tar.gz\n  url: https://github.com/pydata/{{ name }}/archive/{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 0\n  script: {{ PYTHON }} -m pip install . -vv\n\nrequirements:\n  build:\n    - python >=3.5\n    - pip\n  run:\n    - python >=3.5\n    - numpy >=1.13\n    - scipy >=0.19\n    - numba >=0.49\n\ntest:\n  imports:\n    - sparse\n\nabout:\n  home: https://github.com/pydata/sparse\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: LICENSE\n  summary: Sparse multi-dimensional arrays for the PyData ecosystem\n\n  description: |\n    sparse implements sparse multidimensional arrays on top of Numpy\n    and scipy.sparse. It tries to mimic Numpy's ndarray API.\n  doc_url: https://sparse.pydata.org/en/{{ version }}/\n  dev_url: https://github.com/pydata/sparse\n\nextra:\n  recipe-maintainers:\n    - hameerabbasi\n    - mrocklin\n    - jakevdp\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "numba",
+   "numpy",
+   "pip",
+   "python",
+   "scipy"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "numba",
+    "numpy",
+    "python",
+    "scipy"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.7.1\n",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3.5"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "numba >=0.49",
+    "numpy >=1.13",
+    "python >=3.5",
+    "scipy >=0.19"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://github.com/pydata/sparse/archive/0.8.0.tar.gz",
+ "version":"0.10.0"
+}

@@ -1,0 +1,136 @@
+{
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"jupyterlab_templates",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"Notebook templates\n",
+   "dev_url":"https://github.com/jpmorganchase/jupyterlab_templates",
+   "home":"https://github.com/jpmorganchase/jupyterlab_templates",
+   "license":"Apache-2.0",
+   "license_family":"Apache",
+   "license_file":"LICENSE",
+   "summary":"Notebook templates"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "timkpaine",
+    "timkpaine",
+    "timkpaine"
+   ]
+  },
+  "package":{
+   "name":"jupyterlab_templates",
+   "version":"0.2.3"
+  },
+  "requirements":{
+   "host":[
+    "python >=3.7",
+    "pip",
+    "nodejs",
+    "jupyter-packaging",
+    "python >=3.7",
+    "pip",
+    "nodejs",
+    "jupyter-packaging",
+    "python >=3.7",
+    "pip",
+    "nodejs",
+    "jupyter-packaging"
+   ],
+   "run":[
+    "python >=3.7",
+    "jupyterlab >=1.0.0",
+    "python >=3.7",
+    "jupyterlab >=1.0.0",
+    "python >=3.7",
+    "jupyterlab >=1.0.0"
+   ]
+  },
+  "source":{
+   "sha256":"0e8cb27fb1221b40f0a9a88dc0e945fc707444f2109c3a2b019804046a19de2d",
+   "url":"https://pypi.io/packages/source/j/jupyterlab_templates/jupyterlab_templates-0.2.3.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "jupyterlab_templates",
+    "jupyterlab_templates",
+    "jupyterlab_templates"
+   ]
+  }
+ },
+ "name":"jupyterlab_templates",
+ "new_version":"0.2.3",
+ "raw_meta_yaml":"{% set name = \"jupyterlab_templates\" %}\n{% set version = \"0.2.3\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: 0e8cb27fb1221b40f0a9a88dc0e945fc707444f2109c3a2b019804046a19de2d\n\nbuild:\n  number: 0\n  noarch: python\n  script: \"{{ PYTHON }} -m pip install . -vv\"\n\nrequirements:\n  host:\n    - python >=3.7\n    - pip\n    - nodejs\n    - jupyter-packaging\n  run:\n    - python >=3.7\n    - jupyterlab >=1.0.0\n\ntest:\n  imports:\n    - jupyterlab_templates\n\nabout:\n  home: https://github.com/jpmorganchase/jupyterlab_templates\n  license: Apache-2.0\n  license_family: Apache\n  license_file: LICENSE\n  summary: 'Notebook templates'\n\n  description: |\n    Notebook templates\n  dev_url: https://github.com/jpmorganchase/jupyterlab_templates\n\nextra:\n  recipe-maintainers:\n    - timkpaine\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "jupyter-packaging",
+   "jupyterlab",
+   "nodejs",
+   "pip",
+   "python"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "jupyter-packaging",
+    "nodejs",
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "jupyterlab",
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "jupyter-packaging",
+    "nodejs",
+    "pip",
+    "python >=3.7"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "jupyterlab >=1.0.0",
+    "python >=3.7"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/j/jupyterlab_templates/jupyterlab_templates-0.2.3.tar.gz",
+ "version":"0.2.3"
+}

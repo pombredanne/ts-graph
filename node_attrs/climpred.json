@@ -1,0 +1,227 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/354312278.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.2.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/360133779.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.2.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"climpred",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "dev_url":"https://github.com/bradyrx/climpred",
+   "doc_url":"http://climpred.readthedocs.io/",
+   "home":"http://github.com/bradyrx/climpred",
+   "license":"MIT",
+   "license_file":"LICENSE.txt",
+   "summary":"an xarray wrapper for analysis of ensemble forecast models for climate prediction"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"1",
+   "script":" -m pip install . -vv --no-deps"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "bradyrx",
+    "bradyrx",
+    "bradyrx"
+   ]
+  },
+  "package":{
+   "name":"climpred",
+   "version":"2.0.0"
+  },
+  "requirements":{
+   "host":[
+    "python >3.5",
+    "pip",
+    "setuptools_scm",
+    "setuptools_scm_git_archive",
+    "python >3.5",
+    "pip",
+    "setuptools_scm",
+    "setuptools_scm_git_archive",
+    "python >3.5",
+    "pip",
+    "setuptools_scm",
+    "setuptools_scm_git_archive"
+   ],
+   "run":[
+    "python >3.5",
+    "eofs",
+    "matplotlib-base",
+    "netcdf4",
+    "numpy",
+    "pandas",
+    "scipy",
+    "tqdm",
+    "xarray >=0.14.1",
+    "xrft",
+    "xskillscore >=0.0.12",
+    "python >3.5",
+    "eofs",
+    "matplotlib-base",
+    "netcdf4",
+    "numpy",
+    "pandas",
+    "scipy",
+    "tqdm",
+    "xarray >=0.14.1",
+    "xrft",
+    "xskillscore >=0.0.12",
+    "python >3.5",
+    "eofs",
+    "matplotlib-base",
+    "netcdf4",
+    "numpy",
+    "pandas",
+    "scipy",
+    "tqdm",
+    "xarray >=0.14.1",
+    "xrft",
+    "xskillscore >=0.0.12"
+   ]
+  },
+  "source":{
+   "sha256":"106061c8357ee12bdc9f824f2df9e675a0b118c9c2eee004ba629a1b3a36abae",
+   "url":"https://pypi.io/packages/source/c/climpred/climpred-2.0.0.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "climpred",
+    "climpred",
+    "climpred"
+   ]
+  }
+ },
+ "name":"climpred",
+ "new_version":"2.0.0",
+ "pinning_version":"2020.01.07",
+ "raw_meta_yaml":"{% set name = \"climpred\" %}\n{% set version = \"2.0.0\" %}\n\npackage:\n  name: {{ name }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: 106061c8357ee12bdc9f824f2df9e675a0b118c9c2eee004ba629a1b3a36abae\n\nbuild:\n  number: 1\n  noarch: python\n  script: \"{{ PYTHON }} -m pip install . -vv --no-deps\"\n\nrequirements:\n  host:\n    - python >3.5\n    - pip\n    - setuptools_scm\n    - setuptools_scm_git_archive\n  run:\n    - python >3.5\n    - eofs\n    - matplotlib-base\n    - netcdf4\n    - numpy\n    - pandas\n    - scipy\n    - tqdm\n    - xarray >=0.14.1\n    - xrft\n    - xskillscore >=0.0.12\n\ntest:\n  imports:\n    - climpred \n\nabout:\n  home: http://github.com/bradyrx/climpred\n  license: MIT\n  license_file: LICENSE.txt\n  summary: 'an xarray wrapper for analysis of ensemble forecast models for climate prediction'\n  doc_url: http://climpred.readthedocs.io/\n  dev_url: https://github.com/bradyrx/climpred\n\nextra:\n  recipe-maintainers:\n    - bradyrx \n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "eofs",
+   "matplotlib-base",
+   "netcdf4",
+   "numpy",
+   "pandas",
+   "pip",
+   "python",
+   "scipy",
+   "setuptools_scm",
+   "setuptools_scm_git_archive",
+   "tqdm",
+   "xarray",
+   "xrft",
+   "xskillscore"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python",
+    "setuptools_scm",
+    "setuptools_scm_git_archive"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "eofs",
+    "matplotlib-base",
+    "netcdf4",
+    "numpy",
+    "pandas",
+    "python",
+    "scipy",
+    "tqdm",
+    "xarray",
+    "xrft",
+    "xskillscore"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.6.5",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >3.5",
+    "setuptools_scm",
+    "setuptools_scm_git_archive"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "eofs",
+    "matplotlib-base",
+    "netcdf4",
+    "numpy",
+    "pandas",
+    "python >3.5",
+    "scipy",
+    "tqdm",
+    "xarray >=0.14.1",
+    "xrft",
+    "xskillscore >=0.0.12"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/c/climpred/climpred-1.0.1.tar.gz",
+ "version":"2.0.0"
+}

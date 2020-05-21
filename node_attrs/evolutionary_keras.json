@@ -1,0 +1,154 @@
+{
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"evolutionary_keras",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"https://github.com/N3PDF/evolutionary_keras",
+   "license":"GPL-3.0",
+   "license_family":"GPL",
+   "license_file":"LICENSE",
+   "summary":"evolution_keras implements Genetic Algorithms for Keras"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"1",
+   "script":" -m pip install . -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "scarlehoff",
+    "scarrazza",
+    "roystegeman",
+    "scarlehoff",
+    "scarrazza",
+    "roystegeman",
+    "scarlehoff",
+    "scarrazza",
+    "roystegeman"
+   ]
+  },
+  "package":{
+   "name":"evolutionary_keras",
+   "version":"1.0.0"
+  },
+  "requirements":{
+   "host":[
+    "python >=3.6",
+    "pip",
+    "python >=3.6",
+    "pip",
+    "python >=3.6",
+    "pip"
+   ],
+   "run":[
+    "python >=3.6",
+    "keras",
+    "numpy",
+    "python >=3.6",
+    "keras",
+    "numpy",
+    "python >=3.6",
+    "keras",
+    "numpy"
+   ]
+  },
+  "source":{
+   "sha256":"39dc8ff742cea271b67605c029fb0ae66bbfa1cc2dd5574ee372d0ed81234a83",
+   "url":"https://github.com/N3PDF/evolutionary_keras/archive/v1.0.0.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "pytest --pyargs evolutionary_keras",
+    "pytest --pyargs evolutionary_keras",
+    "pytest --pyargs evolutionary_keras"
+   ],
+   "imports":[
+    "evolutionary_keras",
+    "evolutionary_keras",
+    "evolutionary_keras"
+   ],
+   "requires":[
+    "pytest",
+    "pytest",
+    "pytest"
+   ]
+  }
+ },
+ "name":"evolutionary_keras",
+ "new_version":"1.0.1",
+ "new_version_attempts":{
+  "1.0.1":735
+ },
+ "new_version_errors":{
+  "1.0.1":"The recipe did not change in the version migration, a URL did not hash, or there is jinja2 syntax the bot cannot handle!\n\nPlease check the URLs in your recipe with version '1.0.1' to make sure they exist!\n\nWe also found the following errors:\n\n - could not hash URL template 'https://github.com/N3PDF/evolutionary_keras/archive/v{{ version }}.tar.gz'\n"
+ },
+ "raw_meta_yaml":"{% set name = \"evolutionary_keras\" %}\n{% set version = \"1.0.0\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://github.com/N3PDF/evolutionary_keras/archive/v{{ version }}.tar.gz\n  sha256: 39dc8ff742cea271b67605c029fb0ae66bbfa1cc2dd5574ee372d0ed81234a83\n\nbuild:\n  number: 1\n  script: \"{{ PYTHON }} -m pip install . -vv\"\n  noarch: python\n\nrequirements:\n  host:\n    - python >=3.6\n    - pip\n  run:\n    - python >=3.6\n    - keras\n    - numpy\n\ntest:\n  imports:\n    - evolutionary_keras\n  requires:\n    - pytest\n  commands:\n    - pytest --pyargs evolutionary_keras\n\nabout:\n  home: https://github.com/N3PDF/evolutionary_keras\n  license: GPL-3.0\n  license_family: GPL\n  license_file: LICENSE\n  summary: \"evolution_keras implements Genetic Algorithms for Keras\"\n\nextra:\n  recipe-maintainers:\n    - scarlehoff\n    - scarrazza\n    - roystegeman\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "keras",
+   "numpy",
+   "pip",
+   "python"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "keras",
+    "numpy",
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "pytest"
+   ]
+  }
+ },
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3.6"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "keras",
+    "numpy",
+    "python >=3.6"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "pytest"
+   ]
+  }
+ },
+ "url":"https://github.com/N3PDF/evolutionary_keras/archive/v1.0.0.tar.gz",
+ "version":"1.0.0"
+}

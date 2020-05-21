@@ -1,0 +1,238 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/317320960.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.6.5"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/320463109.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.6.6"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/388054278.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.0.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/410744708.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.1.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/413092049.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.1.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"crystals",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"crystals provides data structure to manipulate crystal structures, including parsing\ncrystal files, determining symmetries, and accessing atomic information.\n",
+   "dev_url":"https://github.com/LaurentRDC/crystals",
+   "doc_url":"https://crystals.readthedocs.io/",
+   "home":"https://crystals.readthedocs.io",
+   "license":"BSD 3-Clause",
+   "license_family":"BSD",
+   "license_file":"LICENSE",
+   "summary":"Data structures for crystallography"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":"-m pip install . --no-deps -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "LaurentRDC",
+    "LaurentRDC",
+    "LaurentRDC"
+   ]
+  },
+  "package":{
+   "name":"crystals",
+   "version":"1.1.1"
+  },
+  "requirements":{
+   "build":[
+    "python >=3.6",
+    "pip",
+    "python >=3.6",
+    "pip",
+    "python >=3.6",
+    "pip"
+   ],
+   "run":[
+    "python >=3.6",
+    "numpy >=1.13, <2",
+    "spglib >=1.14, <2",
+    "pycifrw >=4.4.1, <5",
+    "requests >=2, <3",
+    "python >=3.6",
+    "numpy >=1.13, <2",
+    "spglib >=1.14, <2",
+    "pycifrw >=4.4.1, <5",
+    "requests >=2, <3",
+    "python >=3.6",
+    "numpy >=1.13, <2",
+    "spglib >=1.14, <2",
+    "pycifrw >=4.4.1, <5",
+    "requests >=2, <3"
+   ]
+  },
+  "source":{
+   "fn":"crystals-1.1.1.tar.gz",
+   "sha256":"68d9f52b464ac8e5d733036bdf24f3409b868276a827549d84f3f4dacb61d504",
+   "url":"https://pypi.io/packages/source/c/crystals/crystals-1.1.1.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "crystals",
+    "crystals",
+    "crystals"
+   ]
+  }
+ },
+ "name":"crystals",
+ "new_version":"1.1.1",
+ "new_version_attempts":{
+  "1.1.0":1,
+  "1.1.1":1
+ },
+ "new_version_errors":{},
+ "pinning_version":"2020.05.04.05.46.47",
+ "raw_meta_yaml":"{% set version = \"1.1.1\" %}\n\npackage:\n  name: crystals\n  version: {{ version }}\n\nsource:\n  fn: crystals-{{ version }}.tar.gz\n  url: https://pypi.io/packages/source/c/crystals/crystals-{{ version }}.tar.gz\n  sha256: 68d9f52b464ac8e5d733036bdf24f3409b868276a827549d84f3f4dacb61d504\n\nbuild:\n  noarch: python\n  number: 0\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  build:\n    - python >=3.6 # requires pathlib\n    - pip\n  run:\n    - python >=3.6\n    - numpy >=1.13, <2\n    - spglib >=1.14, <2\n    - pycifrw >=4.4.1, <5\n    - requests >=2, <3\n\ntest:\n  imports:\n    - crystals\n\nabout:\n  home: https://crystals.readthedocs.io\n  license: BSD 3-Clause\n  license_family: BSD\n  license_file: LICENSE\n  summary: Data structures for crystallography\n  description: |\n    crystals provides data structure to manipulate crystal structures, including parsing \n    crystal files, determining symmetries, and accessing atomic information.\n  doc_url: https://crystals.readthedocs.io/\n  dev_url: https://github.com/LaurentRDC/crystals\n\nextra:\n  recipe-maintainers:\n    - LaurentRDC\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "numpy",
+   "pip",
+   "pycifrw",
+   "python",
+   "requests",
+   "spglib"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "numpy",
+    "pycifrw",
+    "python",
+    "requests",
+    "spglib"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.7.0\n",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3.6"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "numpy >=1.13, <2",
+    "pycifrw >=4.4.1, <5",
+    "python >=3.6",
+    "requests >=2, <3",
+    "spglib >=1.14, <2"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/c/crystals/crystals-0.6.4.tar.gz",
+ "version":"1.1.1"
+}

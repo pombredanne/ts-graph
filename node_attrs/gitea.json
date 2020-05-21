@@ -1,0 +1,113 @@
+{
+ "bad":"Upstream: Error getting upstream version",
+ "conda-forge.yml":{},
+ "feedstock_name":"gitea",
+ "meta_yaml":{
+  "about":{
+   "description":"The goal of this project is to make the easiest, fastest, and most\npainless way of setting up a self-hosted Git service.\n",
+   "dev_url":"https://github.com/go-gitea/gitea",
+   "doc_url":"https://docs.gitea.io",
+   "home":"https://gitea.io",
+   "license":"MIT",
+   "summary":"Git with a cup of tea"
+  },
+  "build":{
+   "binary_relocation":false,
+   "number":"0",
+   "script":[
+    "curl -Lo %LIBRARY_BIN%\\gitea.exe https://dl.gitea.io/gitea/1.2/gitea-1.2-windows-4.0-amd64.exe",
+    "curl -Lo $PREFIX/bin/gitea https://dl.gitea.io/gitea/1.2/gitea-1.2-darwin-10.6-amd64",
+    "chmod +x $PREFIX/bin/gitea",
+    "curl -Lo $PREFIX/bin/gitea https://dl.gitea.io/gitea/1.2/gitea-1.2-linux-amd64",
+    "chmod +x $PREFIX/bin/gitea"
+   ]
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "nehaljwani",
+    "nehaljwani",
+    "nehaljwani"
+   ]
+  },
+  "package":{
+   "name":"gitea",
+   "version":"1.2"
+  },
+  "requirements":{
+   "build":[
+    "curl",
+    "curl",
+    "curl"
+   ],
+   "run":[
+    "git",
+    "git",
+    "git"
+   ]
+  },
+  "test":{
+   "commands":[
+    "gitea --help",
+    "gitea --help",
+    "gitea --help"
+   ]
+  }
+ },
+ "name":"gitea",
+ "new_version":false,
+ "raw_meta_yaml":"{% set name = \"gitea\" %}\n{% set version = \"1.2\" %}\n\npackage:\n  name: gitea\n  version: {{ version }}\n\nbuild:\n  number: 0\n  binary_relocation: False\n  script:\n    - curl -Lo $PREFIX/bin/gitea https://dl.gitea.io/gitea/{{ version }}/gitea-{{ version }}-linux-amd64  # [linux64]\n    - curl -Lo $PREFIX/bin/gitea https://dl.gitea.io/gitea/{{ version }}/gitea-{{ version }}-linux-386  # [linux32]\n    - curl -Lo $PREFIX/bin/gitea https://dl.gitea.io/gitea/{{ version }}/gitea-{{ version }}-darwin-10.6-amd64  # [osx]\n    - curl -Lo %LIBRARY_BIN%\\gitea.exe https://dl.gitea.io/gitea/{{ version }}/gitea-{{ version }}-windows-4.0-amd64.exe  # [win64]\n    - curl -Lo %LIBRARY_BIN%\\gitea.exe https://dl.gitea.io/gitea/{{ version }}/gitea-{{ version }}-windows-4.0-386.exe  # [win32]\n    - chmod +x $PREFIX/bin/gitea  # [unix]\n\nrequirements:\n  build:\n    - curl\n  run:\n    - git\n\ntest:\n  commands:\n    - gitea --help\n\nabout:\n  home: https://gitea.io\n  license: MIT\n  summary: Git with a cup of tea\n  description: |\n      The goal of this project is to make the easiest, fastest, and most\n      painless way of setting up a self-hosted Git service.\n  dev_url: https://github.com/go-gitea/gitea\n  doc_url: https://docs.gitea.io\n\nextra:\n  recipe-maintainers:\n    - nehaljwani\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "curl",
+   "git"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "curl"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "git"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "strong_exports":false,
+ "time":1568135286.7319648,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "curl"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "git"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "version":"1.2"
+}

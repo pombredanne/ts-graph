@@ -1,0 +1,1027 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/416899054.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"pypy"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/416901248.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"python38"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"faiss-split",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"Faiss is a library for efficient similarity search and clustering of dense vectors.\nIt contains algorithms that search in sets of vectors of any size, up to ones that\npossibly do not fit in RAM. It also contains supporting code for evaluation and\nparameter tuning. Faiss is written in C++ with complete wrappers for Python/numpy.\nSome of the most useful algorithms are implemented on the GPU. It is developed by\n[Facebook AI Research](https://research.fb.com/category/facebook-ai-research-fair/).\n\nFor best performance, the maintainers of the package\n[recommend](https://github.com/conda-forge/staged-recipes/pull/11337#issuecomment-623718460)\nusing the MKL implementation of blas/lapack. You can ensure that this is installed\nby adding \"libblas =*=mkl\" to your dependencies.\n",
+   "dev_url":"https://github.com/facebookresearch/faiss",
+   "doc_url":"https://rawgit.com/facebookresearch/faiss/master/docs/html/annotated.html",
+   "home":"https://github.com/facebookresearch/faiss",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"LICENSE",
+   "summary":"A library for efficient similarity search and clustering of dense vectors."
+  },
+  "build":{
+   "number":"0",
+   "skip":true
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "h-vetinari",
+    "h-vetinari",
+    "h-vetinari"
+   ]
+  },
+  "outputs":[
+   {
+    "build":{
+     "string":"gpu"
+    },
+    "name":"faiss-proc",
+    "test":{
+     "commands":[
+      "exit 0"
+     ]
+    },
+    "version":"1.0.0"
+   },
+   {
+    "build":{
+     "run_exports":[
+      "libfaiss",
+      "libfaiss =*=*_gpu"
+     ],
+     "string":"h_0_gpu"
+    },
+    "name":"libfaiss",
+    "requirements":{
+     "build":[
+      "cxx_compiler_stub",
+      "cuda_compiler_stub",
+      "cmake",
+      "llvm-openmp",
+      "autotools_clang_conda"
+     ],
+     "host":[
+      "libblas",
+      "liblapack"
+     ],
+     "run":[
+      "libblas",
+      "liblapack"
+     ],
+     "run_constrained":[
+      "faiss-proc * gpu"
+     ]
+    },
+    "script":"build-lib.bat",
+    "test":{
+     "commands":[
+      "if not exist %PREFIX%\\\\Library\\\\bin\\\\libfaiss.dll exit 1",
+      "if exist %PREFIX%\\\\Library\\\\lib\\\\libfaiss.lib exit 1",
+      "if not exist %LIBRARY_INC%\\\\faiss\\\\AutoTune.h exit 1",
+      "if not exist %LIBRARY_INC%\\\\faiss\\\\clone_index.h exit 1",
+      "if not exist %LIBRARY_INC%\\\\faiss\\\\Clustering.h exit 1",
+      "if not exist %LIBRARY_INC%\\\\faiss\\\\DirectMap.h exit 1",
+      "if not exist %LIBRARY_INC%\\\\faiss\\\\Index.h exit 1",
+      "if not exist %LIBRARY_INC%\\\\faiss\\\\Index2Layer.h exit 1",
+      "if not exist %LIBRARY_INC%\\\\faiss\\\\IndexBinary.h exit 1",
+      "if not exist %LIBRARY_INC%\\\\faiss\\\\IndexBinaryFlat.h exit 1",
+      "if not exist %LIBRARY_INC%\\\\faiss\\\\IndexBinaryFromFloat.h exit 1",
+      "if not exist %LIBRARY_INC%\\\\faiss\\\\IndexBinaryHash.h exit 1",
+      "if not exist %LIBRARY_INC%\\\\faiss\\\\IndexBinaryHNSW.h exit 1",
+      "if not exist %LIBRARY_INC%\\\\faiss\\\\IndexBinaryIVF.h exit 1",
+      "if not exist %LIBRARY_INC%\\\\faiss\\\\IndexFlat.h exit 1",
+      "if not exist %LIBRARY_INC%\\\\faiss\\\\IndexHNSW.h exit 1",
+      "if not exist %LIBRARY_INC%\\\\faiss\\\\IndexIVF.h exit 1",
+      "if not exist %LIBRARY_INC%\\\\faiss\\\\IndexIVFFlat.h exit 1",
+      "if not exist %LIBRARY_INC%\\\\faiss\\\\IndexIVFPQ.h exit 1",
+      "if not exist %LIBRARY_INC%\\\\faiss\\\\IndexIVFPQR.h exit 1",
+      "if not exist %LIBRARY_INC%\\\\faiss\\\\IndexIVFSpectralHash.h exit 1",
+      "if not exist %LIBRARY_INC%\\\\faiss\\\\IndexLattice.h exit 1",
+      "if not exist %LIBRARY_INC%\\\\faiss\\\\IndexLSH.h exit 1",
+      "if not exist %LIBRARY_INC%\\\\faiss\\\\IndexPQ.h exit 1",
+      "if not exist %LIBRARY_INC%\\\\faiss\\\\IndexPreTransform.h exit 1",
+      "if not exist %LIBRARY_INC%\\\\faiss\\\\IndexReplicas.h exit 1",
+      "if not exist %LIBRARY_INC%\\\\faiss\\\\IndexScalarQuantizer.h exit 1",
+      "if not exist %LIBRARY_INC%\\\\faiss\\\\IndexShards.h exit 1",
+      "if not exist %LIBRARY_INC%\\\\faiss\\\\index_factory.h exit 1",
+      "if not exist %LIBRARY_INC%\\\\faiss\\\\index_io.h exit 1",
+      "if not exist %LIBRARY_INC%\\\\faiss\\\\InvertedLists.h exit 1",
+      "if not exist %LIBRARY_INC%\\\\faiss\\\\IVFlib.h exit 1",
+      "if not exist %LIBRARY_INC%\\\\faiss\\\\MatrixStats.h exit 1",
+      "if not exist %LIBRARY_INC%\\\\faiss\\\\MetaIndexes.h exit 1",
+      "if not exist %LIBRARY_INC%\\\\faiss\\\\MetricType.h exit 1",
+      "if not exist %LIBRARY_INC%\\\\faiss\\\\OnDiskInvertedLists.h exit 1",
+      "if not exist %LIBRARY_INC%\\\\faiss\\\\VectorTransform.h exit 1",
+      "if not exist %LIBRARY_INC%\\\\faiss\\\\impl\\AuxIndexStructures.h exit 1",
+      "if not exist %LIBRARY_INC%\\\\faiss\\\\impl\\FaissAssert.h exit 1",
+      "if not exist %LIBRARY_INC%\\\\faiss\\\\impl\\FaissException.h exit 1",
+      "if not exist %LIBRARY_INC%\\\\faiss\\\\impl\\HNSW.h exit 1",
+      "if not exist %LIBRARY_INC%\\\\faiss\\\\impl\\io.h exit 1",
+      "if not exist %LIBRARY_INC%\\\\faiss\\\\impl\\lattice_Zn.h exit 1",
+      "if not exist %LIBRARY_INC%\\\\faiss\\\\impl\\PolysemousTraining.h exit 1",
+      "if not exist %LIBRARY_INC%\\\\faiss\\\\impl\\ProductQuantizer-inl.h exit 1",
+      "if not exist %LIBRARY_INC%\\\\faiss\\\\impl\\ProductQuantizer.h exit 1",
+      "if not exist %LIBRARY_INC%\\\\faiss\\\\impl\\ScalarQuantizer.h exit 1",
+      "if not exist %LIBRARY_INC%\\\\faiss\\\\impl\\ThreadedIndex-inl.h exit 1",
+      "if not exist %LIBRARY_INC%\\\\faiss\\\\impl\\ThreadedIndex.h exit 1",
+      "if not exist %LIBRARY_INC%\\\\faiss\\\\utils\\distances.h exit 1",
+      "if not exist %LIBRARY_INC%\\\\faiss\\\\utils\\extra_distances.h exit 1",
+      "if not exist %LIBRARY_INC%\\\\faiss\\\\utils\\hamming-inl.h exit 1",
+      "if not exist %LIBRARY_INC%\\\\faiss\\\\utils\\hamming.h exit 1",
+      "if not exist %LIBRARY_INC%\\\\faiss\\\\utils\\Heap.h exit 1",
+      "if not exist %LIBRARY_INC%\\\\faiss\\\\utils\\random.h exit 1",
+      "if not exist %LIBRARY_INC%\\\\faiss\\\\utils\\utils.h exit 1",
+      "if not exist %LIBRARY_INC%\\\\faiss\\\\utils\\WorkerThread.h exit 1",
+      "if not exist %LIBRARY_INC%\\\\faiss\\\\gpu\\GpuAutoTune.h exit 1",
+      "if not exist %LIBRARY_INC%\\\\faiss\\\\gpu\\GpuCloner.h exit 1",
+      "if not exist %LIBRARY_INC%\\\\faiss\\\\gpu\\GpuClonerOptions.h exit 1",
+      "if not exist %LIBRARY_INC%\\\\faiss\\\\gpu\\GpuDistance.h exit 1",
+      "if not exist %LIBRARY_INC%\\\\faiss\\\\gpu\\GpuFaissAssert.h exit 1",
+      "if not exist %LIBRARY_INC%\\\\faiss\\\\gpu\\GpuIndex.h exit 1",
+      "if not exist %LIBRARY_INC%\\\\faiss\\\\gpu\\GpuIndexBinaryFlat.h exit 1",
+      "if not exist %LIBRARY_INC%\\\\faiss\\\\gpu\\GpuIndexFlat.h exit 1",
+      "if not exist %LIBRARY_INC%\\\\faiss\\\\gpu\\GpuIndexIVF.h exit 1",
+      "if not exist %LIBRARY_INC%\\\\faiss\\\\gpu\\GpuIndexIVFFlat.h exit 1",
+      "if not exist %LIBRARY_INC%\\\\faiss\\\\gpu\\GpuIndexIVFPQ.h exit 1",
+      "if not exist %LIBRARY_INC%\\\\faiss\\\\gpu\\GpuIndexIVFScalarQuantizer.h exit 1",
+      "if not exist %LIBRARY_INC%\\\\faiss\\\\gpu\\GpuIndicesOptions.h exit 1",
+      "if not exist %LIBRARY_INC%\\\\faiss\\\\gpu\\GpuResources.h exit 1",
+      "if not exist %LIBRARY_INC%\\\\faiss\\\\gpu\\StandardGpuResources.h exit 1",
+      "if not exist %LIBRARY_INC%\\\\faiss\\\\gpu\\impl\\RemapIndices.h exit 1",
+      "if not exist %LIBRARY_INC%\\\\faiss\\\\gpu\\impl\\BinaryDistance.cuh exit 1",
+      "if not exist %LIBRARY_INC%\\\\faiss\\\\gpu\\impl\\BinaryFlatIndex.cuh exit 1",
+      "if not exist %LIBRARY_INC%\\\\faiss\\\\gpu\\impl\\BroadcastSum.cuh exit 1",
+      "if not exist %LIBRARY_INC%\\\\faiss\\\\gpu\\impl\\Distance.cuh exit 1",
+      "if not exist %LIBRARY_INC%\\\\faiss\\\\gpu\\impl\\DistanceUtils.cuh exit 1",
+      "if not exist %LIBRARY_INC%\\\\faiss\\\\gpu\\impl\\FlatIndex.cuh exit 1",
+      "if not exist %LIBRARY_INC%\\\\faiss\\\\gpu\\impl\\GeneralDistance.cuh exit 1",
+      "if not exist %LIBRARY_INC%\\\\faiss\\\\gpu\\impl\\GpuScalarQuantizer.cuh exit 1",
+      "if not exist %LIBRARY_INC%\\\\faiss\\\\gpu\\impl\\IVFAppend.cuh exit 1",
+      "if not exist %LIBRARY_INC%\\\\faiss\\\\gpu\\impl\\IVFBase.cuh exit 1",
+      "if not exist %LIBRARY_INC%\\\\faiss\\\\gpu\\impl\\IVFFlat.cuh exit 1",
+      "if not exist %LIBRARY_INC%\\\\faiss\\\\gpu\\impl\\IVFFlatScan.cuh exit 1",
+      "if not exist %LIBRARY_INC%\\\\faiss\\\\gpu\\impl\\IVFPQ.cuh exit 1",
+      "if not exist %LIBRARY_INC%\\\\faiss\\\\gpu\\impl\\IVFUtils.cuh exit 1",
+      "if not exist %LIBRARY_INC%\\\\faiss\\\\gpu\\impl\\L2Norm.cuh exit 1",
+      "if not exist %LIBRARY_INC%\\\\faiss\\\\gpu\\impl\\L2Select.cuh exit 1",
+      "if not exist %LIBRARY_INC%\\\\faiss\\\\gpu\\impl\\Metrics.cuh exit 1",
+      "if not exist %LIBRARY_INC%\\\\faiss\\\\gpu\\impl\\PQCodeDistances-inl.cuh exit 1",
+      "if not exist %LIBRARY_INC%\\\\faiss\\\\gpu\\impl\\PQCodeDistances.cuh exit 1",
+      "if not exist %LIBRARY_INC%\\\\faiss\\\\gpu\\impl\\PQCodeLoad.cuh exit 1",
+      "if not exist %LIBRARY_INC%\\\\faiss\\\\gpu\\impl\\PQScanMultiPassNoPrecomputed-inl.cuh exit 1",
+      "if not exist %LIBRARY_INC%\\\\faiss\\\\gpu\\impl\\PQScanMultiPassNoPrecomputed.cuh exit 1",
+      "if not exist %LIBRARY_INC%\\\\faiss\\\\gpu\\impl\\PQScanMultiPassPrecomputed.cuh exit 1",
+      "if not exist %LIBRARY_INC%\\\\faiss\\\\gpu\\impl\\VectorResidual.cuh exit 1",
+      "if not exist %LIBRARY_INC%\\\\faiss\\\\gpu\\utils\\DeviceMemory.h exit 1",
+      "if not exist %LIBRARY_INC%\\\\faiss\\\\gpu\\utils\\DeviceUtils.h exit 1",
+      "if not exist %LIBRARY_INC%\\\\faiss\\\\gpu\\utils\\MemorySpace.h exit 1",
+      "if not exist %LIBRARY_INC%\\\\faiss\\\\gpu\\utils\\StackDeviceMemory.h exit 1",
+      "if not exist %LIBRARY_INC%\\\\faiss\\\\gpu\\utils\\StaticUtils.h exit 1",
+      "if not exist %LIBRARY_INC%\\\\faiss\\\\gpu\\utils\\Timer.h exit 1",
+      "if not exist %LIBRARY_INC%\\\\faiss\\\\gpu\\utils\\BlockSelectKernel.cuh exit 1",
+      "if not exist %LIBRARY_INC%\\\\faiss\\\\gpu\\utils\\Comparators.cuh exit 1",
+      "if not exist %LIBRARY_INC%\\\\faiss\\\\gpu\\utils\\ConversionOperators.cuh exit 1",
+      "if not exist %LIBRARY_INC%\\\\faiss\\\\gpu\\utils\\CopyUtils.cuh exit 1",
+      "if not exist %LIBRARY_INC%\\\\faiss\\\\gpu\\utils\\DeviceDefs.cuh exit 1",
+      "if not exist %LIBRARY_INC%\\\\faiss\\\\gpu\\utils\\DeviceTensor-inl.cuh exit 1",
+      "if not exist %LIBRARY_INC%\\\\faiss\\\\gpu\\utils\\DeviceTensor.cuh exit 1",
+      "if not exist %LIBRARY_INC%\\\\faiss\\\\gpu\\utils\\DeviceVector.cuh exit 1",
+      "if not exist %LIBRARY_INC%\\\\faiss\\\\gpu\\utils\\Float16.cuh exit 1",
+      "if not exist %LIBRARY_INC%\\\\faiss\\\\gpu\\utils\\HostTensor-inl.cuh exit 1",
+      "if not exist %LIBRARY_INC%\\\\faiss\\\\gpu\\utils\\HostTensor.cuh exit 1",
+      "if not exist %LIBRARY_INC%\\\\faiss\\\\gpu\\utils\\Limits.cuh exit 1",
+      "if not exist %LIBRARY_INC%\\\\faiss\\\\gpu\\utils\\LoadStoreOperators.cuh exit 1",
+      "if not exist %LIBRARY_INC%\\\\faiss\\\\gpu\\utils\\MathOperators.cuh exit 1",
+      "if not exist %LIBRARY_INC%\\\\faiss\\\\gpu\\utils\\MatrixMult-inl.cuh exit 1",
+      "if not exist %LIBRARY_INC%\\\\faiss\\\\gpu\\utils\\MatrixMult.cuh exit 1",
+      "if not exist %LIBRARY_INC%\\\\faiss\\\\gpu\\utils\\MergeNetworkBlock.cuh exit 1",
+      "if not exist %LIBRARY_INC%\\\\faiss\\\\gpu\\utils\\MergeNetworkUtils.cuh exit 1",
+      "if not exist %LIBRARY_INC%\\\\faiss\\\\gpu\\utils\\MergeNetworkWarp.cuh exit 1",
+      "if not exist %LIBRARY_INC%\\\\faiss\\\\gpu\\utils\\NoTypeTensor.cuh exit 1",
+      "if not exist %LIBRARY_INC%\\\\faiss\\\\gpu\\utils\\Pair.cuh exit 1",
+      "if not exist %LIBRARY_INC%\\\\faiss\\\\gpu\\utils\\PtxUtils.cuh exit 1",
+      "if not exist %LIBRARY_INC%\\\\faiss\\\\gpu\\utils\\ReductionOperators.cuh exit 1",
+      "if not exist %LIBRARY_INC%\\\\faiss\\\\gpu\\utils\\Reductions.cuh exit 1",
+      "if not exist %LIBRARY_INC%\\\\faiss\\\\gpu\\utils\\Select.cuh exit 1",
+      "if not exist %LIBRARY_INC%\\\\faiss\\\\gpu\\utils\\Tensor-inl.cuh exit 1",
+      "if not exist %LIBRARY_INC%\\\\faiss\\\\gpu\\utils\\Tensor.cuh exit 1",
+      "if not exist %LIBRARY_INC%\\\\faiss\\\\gpu\\utils\\ThrustAllocator.cuh exit 1",
+      "if not exist %LIBRARY_INC%\\\\faiss\\\\gpu\\utils\\Transpose.cuh exit 1",
+      "if not exist %LIBRARY_INC%\\\\faiss\\\\gpu\\utils\\WarpSelectKernel.cuh exit 1",
+      "if not exist %LIBRARY_INC%\\\\faiss\\\\gpu\\utils\\WarpShuffles.cuh exit 1"
+     ]
+    }
+   },
+   {
+    "build":{
+     "string":"pyh_0_gpu"
+    },
+    "name":"faiss",
+    "requirements":{
+     "build":[
+      "cxx_compiler_stub",
+      "cuda_compiler_stub",
+      "swig",
+      "cmake",
+      "autotools_clang_conda"
+     ],
+     "host":[
+      "python",
+      "pip",
+      "numpy =1.14.*",
+      "libfaiss =1.6.3=*_gpu",
+      "libblas",
+      "liblapack",
+      "llvm-openmp"
+     ],
+     "run":[
+      "libfaiss =1.6.3=*_gpu",
+      "numpy"
+     ],
+     "run_constrained":[
+      "faiss-proc * gpu"
+     ]
+    },
+    "script":"build-pkg.bat",
+    "test":{
+     "commands":[
+      "python conda/faiss/run_test.py",
+      "python conda/faiss-gpu/run_test.py",
+      "python -m unittest discover tests"
+     ],
+     "imports":[
+      "faiss"
+     ],
+     "requires":[
+      "blas =*=mkl",
+      "scipy"
+     ],
+     "source_files":[
+      "tests/",
+      "conda/faiss/run_test.py",
+      "conda/faiss-gpu/run_test.py"
+     ]
+    }
+   },
+   {
+    "build":{
+     "skip":true,
+     "string":"py_0"
+    },
+    "name":"faiss-cpu",
+    "requirements":{
+     "host":[
+      "python"
+     ],
+     "run":[
+      "faiss =1.6.3=*_cpu"
+     ]
+    },
+    "test":{
+     "commands":[
+      "exit 0"
+     ]
+    }
+   },
+   {
+    "build":{
+     "string":"py_0"
+    },
+    "name":"faiss-gpu",
+    "requirements":{
+     "host":[
+      "python"
+     ],
+     "run":[
+      "faiss =1.6.3=*_gpu"
+     ]
+    },
+    "test":{
+     "commands":[
+      "exit 0"
+     ]
+    }
+   },
+   {
+    "build":{
+     "string":"gpu"
+    },
+    "name":"faiss-proc",
+    "test":{
+     "commands":[
+      "exit 0"
+     ]
+    },
+    "version":"1.0.0"
+   },
+   {
+    "build":{
+     "run_exports":[
+      "libfaiss",
+      "libfaiss =*=*_gpu"
+     ],
+     "string":"h_0_gpu"
+    },
+    "name":"libfaiss",
+    "requirements":{
+     "build":[
+      "cxx_compiler_stub",
+      "cuda_compiler_stub",
+      "cmake",
+      "llvm-openmp"
+     ],
+     "host":[
+      "libblas",
+      "liblapack"
+     ],
+     "run":[
+      "libblas",
+      "liblapack"
+     ],
+     "run_constrained":[
+      "faiss-proc * gpu"
+     ]
+    },
+    "script":"build-lib.sh",
+    "test":{
+     "commands":[
+      "test -f $PREFIX/lib/libfaiss.dylib",
+      "test ! -f $PREFIX/lib/libfaiss.a",
+      "conda inspect linkages -p $PREFIX $PKG_NAME",
+      "conda inspect objects -p $PREFIX $PKG_NAME",
+      "test -f $PREFIX/include/faiss/AutoTune.h",
+      "test -f $PREFIX/include/faiss/clone_index.h",
+      "test -f $PREFIX/include/faiss/Clustering.h",
+      "test -f $PREFIX/include/faiss/DirectMap.h",
+      "test -f $PREFIX/include/faiss/Index.h",
+      "test -f $PREFIX/include/faiss/Index2Layer.h",
+      "test -f $PREFIX/include/faiss/IndexBinary.h",
+      "test -f $PREFIX/include/faiss/IndexBinaryFlat.h",
+      "test -f $PREFIX/include/faiss/IndexBinaryFromFloat.h",
+      "test -f $PREFIX/include/faiss/IndexBinaryHash.h",
+      "test -f $PREFIX/include/faiss/IndexBinaryHNSW.h",
+      "test -f $PREFIX/include/faiss/IndexBinaryIVF.h",
+      "test -f $PREFIX/include/faiss/IndexFlat.h",
+      "test -f $PREFIX/include/faiss/IndexHNSW.h",
+      "test -f $PREFIX/include/faiss/IndexIVF.h",
+      "test -f $PREFIX/include/faiss/IndexIVFFlat.h",
+      "test -f $PREFIX/include/faiss/IndexIVFPQ.h",
+      "test -f $PREFIX/include/faiss/IndexIVFPQR.h",
+      "test -f $PREFIX/include/faiss/IndexIVFSpectralHash.h",
+      "test -f $PREFIX/include/faiss/IndexLattice.h",
+      "test -f $PREFIX/include/faiss/IndexLSH.h",
+      "test -f $PREFIX/include/faiss/IndexPQ.h",
+      "test -f $PREFIX/include/faiss/IndexPreTransform.h",
+      "test -f $PREFIX/include/faiss/IndexReplicas.h",
+      "test -f $PREFIX/include/faiss/IndexScalarQuantizer.h",
+      "test -f $PREFIX/include/faiss/IndexShards.h",
+      "test -f $PREFIX/include/faiss/index_factory.h",
+      "test -f $PREFIX/include/faiss/index_io.h",
+      "test -f $PREFIX/include/faiss/InvertedLists.h",
+      "test -f $PREFIX/include/faiss/IVFlib.h",
+      "test -f $PREFIX/include/faiss/MatrixStats.h",
+      "test -f $PREFIX/include/faiss/MetaIndexes.h",
+      "test -f $PREFIX/include/faiss/MetricType.h",
+      "test -f $PREFIX/include/faiss/OnDiskInvertedLists.h",
+      "test -f $PREFIX/include/faiss/VectorTransform.h",
+      "test -f $PREFIX/include/faiss/impl/AuxIndexStructures.h",
+      "test -f $PREFIX/include/faiss/impl/FaissAssert.h",
+      "test -f $PREFIX/include/faiss/impl/FaissException.h",
+      "test -f $PREFIX/include/faiss/impl/HNSW.h",
+      "test -f $PREFIX/include/faiss/impl/io.h",
+      "test -f $PREFIX/include/faiss/impl/lattice_Zn.h",
+      "test -f $PREFIX/include/faiss/impl/PolysemousTraining.h",
+      "test -f $PREFIX/include/faiss/impl/ProductQuantizer-inl.h",
+      "test -f $PREFIX/include/faiss/impl/ProductQuantizer.h",
+      "test -f $PREFIX/include/faiss/impl/ScalarQuantizer.h",
+      "test -f $PREFIX/include/faiss/impl/ThreadedIndex-inl.h",
+      "test -f $PREFIX/include/faiss/impl/ThreadedIndex.h",
+      "test -f $PREFIX/include/faiss/utils/distances.h",
+      "test -f $PREFIX/include/faiss/utils/extra_distances.h",
+      "test -f $PREFIX/include/faiss/utils/hamming-inl.h",
+      "test -f $PREFIX/include/faiss/utils/hamming.h",
+      "test -f $PREFIX/include/faiss/utils/Heap.h",
+      "test -f $PREFIX/include/faiss/utils/random.h",
+      "test -f $PREFIX/include/faiss/utils/utils.h",
+      "test -f $PREFIX/include/faiss/utils/WorkerThread.h",
+      "test -f $PREFIX/include/faiss/gpu/GpuAutoTune.h",
+      "test -f $PREFIX/include/faiss/gpu/GpuCloner.h",
+      "test -f $PREFIX/include/faiss/gpu/GpuClonerOptions.h",
+      "test -f $PREFIX/include/faiss/gpu/GpuDistance.h",
+      "test -f $PREFIX/include/faiss/gpu/GpuFaissAssert.h",
+      "test -f $PREFIX/include/faiss/gpu/GpuIndex.h",
+      "test -f $PREFIX/include/faiss/gpu/GpuIndexBinaryFlat.h",
+      "test -f $PREFIX/include/faiss/gpu/GpuIndexFlat.h",
+      "test -f $PREFIX/include/faiss/gpu/GpuIndexIVF.h",
+      "test -f $PREFIX/include/faiss/gpu/GpuIndexIVFFlat.h",
+      "test -f $PREFIX/include/faiss/gpu/GpuIndexIVFPQ.h",
+      "test -f $PREFIX/include/faiss/gpu/GpuIndexIVFScalarQuantizer.h",
+      "test -f $PREFIX/include/faiss/gpu/GpuIndicesOptions.h",
+      "test -f $PREFIX/include/faiss/gpu/GpuResources.h",
+      "test -f $PREFIX/include/faiss/gpu/StandardGpuResources.h",
+      "test -f $PREFIX/include/faiss/gpu/impl/RemapIndices.h",
+      "test -f $PREFIX/include/faiss/gpu/impl/BinaryDistance.cuh",
+      "test -f $PREFIX/include/faiss/gpu/impl/BinaryFlatIndex.cuh",
+      "test -f $PREFIX/include/faiss/gpu/impl/BroadcastSum.cuh",
+      "test -f $PREFIX/include/faiss/gpu/impl/Distance.cuh",
+      "test -f $PREFIX/include/faiss/gpu/impl/DistanceUtils.cuh",
+      "test -f $PREFIX/include/faiss/gpu/impl/FlatIndex.cuh",
+      "test -f $PREFIX/include/faiss/gpu/impl/GeneralDistance.cuh",
+      "test -f $PREFIX/include/faiss/gpu/impl/GpuScalarQuantizer.cuh",
+      "test -f $PREFIX/include/faiss/gpu/impl/IVFAppend.cuh",
+      "test -f $PREFIX/include/faiss/gpu/impl/IVFBase.cuh",
+      "test -f $PREFIX/include/faiss/gpu/impl/IVFFlat.cuh",
+      "test -f $PREFIX/include/faiss/gpu/impl/IVFFlatScan.cuh",
+      "test -f $PREFIX/include/faiss/gpu/impl/IVFPQ.cuh",
+      "test -f $PREFIX/include/faiss/gpu/impl/IVFUtils.cuh",
+      "test -f $PREFIX/include/faiss/gpu/impl/L2Norm.cuh",
+      "test -f $PREFIX/include/faiss/gpu/impl/L2Select.cuh",
+      "test -f $PREFIX/include/faiss/gpu/impl/Metrics.cuh",
+      "test -f $PREFIX/include/faiss/gpu/impl/PQCodeDistances-inl.cuh",
+      "test -f $PREFIX/include/faiss/gpu/impl/PQCodeDistances.cuh",
+      "test -f $PREFIX/include/faiss/gpu/impl/PQCodeLoad.cuh",
+      "test -f $PREFIX/include/faiss/gpu/impl/PQScanMultiPassNoPrecomputed-inl.cuh",
+      "test -f $PREFIX/include/faiss/gpu/impl/PQScanMultiPassNoPrecomputed.cuh",
+      "test -f $PREFIX/include/faiss/gpu/impl/PQScanMultiPassPrecomputed.cuh",
+      "test -f $PREFIX/include/faiss/gpu/impl/VectorResidual.cuh",
+      "test -f $PREFIX/include/faiss/gpu/utils/DeviceMemory.h",
+      "test -f $PREFIX/include/faiss/gpu/utils/DeviceUtils.h",
+      "test -f $PREFIX/include/faiss/gpu/utils/MemorySpace.h",
+      "test -f $PREFIX/include/faiss/gpu/utils/StackDeviceMemory.h",
+      "test -f $PREFIX/include/faiss/gpu/utils/StaticUtils.h",
+      "test -f $PREFIX/include/faiss/gpu/utils/Timer.h",
+      "test -f $PREFIX/include/faiss/gpu/utils/BlockSelectKernel.cuh",
+      "test -f $PREFIX/include/faiss/gpu/utils/Comparators.cuh",
+      "test -f $PREFIX/include/faiss/gpu/utils/ConversionOperators.cuh",
+      "test -f $PREFIX/include/faiss/gpu/utils/CopyUtils.cuh",
+      "test -f $PREFIX/include/faiss/gpu/utils/DeviceDefs.cuh",
+      "test -f $PREFIX/include/faiss/gpu/utils/DeviceTensor-inl.cuh",
+      "test -f $PREFIX/include/faiss/gpu/utils/DeviceTensor.cuh",
+      "test -f $PREFIX/include/faiss/gpu/utils/DeviceVector.cuh",
+      "test -f $PREFIX/include/faiss/gpu/utils/Float16.cuh",
+      "test -f $PREFIX/include/faiss/gpu/utils/HostTensor-inl.cuh",
+      "test -f $PREFIX/include/faiss/gpu/utils/HostTensor.cuh",
+      "test -f $PREFIX/include/faiss/gpu/utils/Limits.cuh",
+      "test -f $PREFIX/include/faiss/gpu/utils/LoadStoreOperators.cuh",
+      "test -f $PREFIX/include/faiss/gpu/utils/MathOperators.cuh",
+      "test -f $PREFIX/include/faiss/gpu/utils/MatrixMult-inl.cuh",
+      "test -f $PREFIX/include/faiss/gpu/utils/MatrixMult.cuh",
+      "test -f $PREFIX/include/faiss/gpu/utils/MergeNetworkBlock.cuh",
+      "test -f $PREFIX/include/faiss/gpu/utils/MergeNetworkUtils.cuh",
+      "test -f $PREFIX/include/faiss/gpu/utils/MergeNetworkWarp.cuh",
+      "test -f $PREFIX/include/faiss/gpu/utils/NoTypeTensor.cuh",
+      "test -f $PREFIX/include/faiss/gpu/utils/Pair.cuh",
+      "test -f $PREFIX/include/faiss/gpu/utils/PtxUtils.cuh",
+      "test -f $PREFIX/include/faiss/gpu/utils/ReductionOperators.cuh",
+      "test -f $PREFIX/include/faiss/gpu/utils/Reductions.cuh",
+      "test -f $PREFIX/include/faiss/gpu/utils/Select.cuh",
+      "test -f $PREFIX/include/faiss/gpu/utils/Tensor-inl.cuh",
+      "test -f $PREFIX/include/faiss/gpu/utils/Tensor.cuh",
+      "test -f $PREFIX/include/faiss/gpu/utils/ThrustAllocator.cuh",
+      "test -f $PREFIX/include/faiss/gpu/utils/Transpose.cuh",
+      "test -f $PREFIX/include/faiss/gpu/utils/WarpSelectKernel.cuh",
+      "test -f $PREFIX/include/faiss/gpu/utils/WarpShuffles.cuh"
+     ]
+    }
+   },
+   {
+    "build":{
+     "string":"pyh_0_gpu"
+    },
+    "name":"faiss",
+    "requirements":{
+     "build":[
+      "cxx_compiler_stub",
+      "cuda_compiler_stub",
+      "swig",
+      "cmake"
+     ],
+     "host":[
+      "python",
+      "pip",
+      "numpy =1.14.*",
+      "libfaiss =1.6.3=*_gpu",
+      "libblas",
+      "liblapack",
+      "llvm-openmp"
+     ],
+     "run":[
+      "libfaiss =1.6.3=*_gpu",
+      "numpy"
+     ],
+     "run_constrained":[
+      "faiss-proc * gpu"
+     ]
+    },
+    "script":"build-pkg.sh",
+    "test":{
+     "commands":[
+      "python conda/faiss/run_test.py",
+      "python conda/faiss-gpu/run_test.py",
+      "python -m unittest discover tests"
+     ],
+     "imports":[
+      "faiss"
+     ],
+     "requires":[
+      "blas =*=mkl",
+      "scipy"
+     ],
+     "source_files":[
+      "tests/",
+      "conda/faiss/run_test.py",
+      "conda/faiss-gpu/run_test.py"
+     ]
+    }
+   },
+   {
+    "build":{
+     "skip":true,
+     "string":"py_0"
+    },
+    "name":"faiss-cpu",
+    "requirements":{
+     "host":[
+      "python"
+     ],
+     "run":[
+      "faiss =1.6.3=*_cpu"
+     ]
+    },
+    "test":{
+     "commands":[
+      "exit 0"
+     ]
+    }
+   },
+   {
+    "build":{
+     "string":"py_0"
+    },
+    "name":"faiss-gpu",
+    "requirements":{
+     "host":[
+      "python"
+     ],
+     "run":[
+      "faiss =1.6.3=*_gpu"
+     ]
+    },
+    "test":{
+     "commands":[
+      "exit 0"
+     ]
+    }
+   },
+   {
+    "build":{
+     "string":"gpu"
+    },
+    "name":"faiss-proc",
+    "test":{
+     "commands":[
+      "exit 0"
+     ]
+    },
+    "version":"1.0.0"
+   },
+   {
+    "build":{
+     "run_exports":[
+      "libfaiss",
+      "libfaiss =*=*_gpu"
+     ],
+     "string":"h_0_gpu"
+    },
+    "name":"libfaiss",
+    "requirements":{
+     "build":[
+      "cxx_compiler_stub",
+      "cuda_compiler_stub",
+      "cmake",
+      "libgomp"
+     ],
+     "host":[
+      "libblas",
+      "liblapack"
+     ],
+     "run":[
+      "libblas",
+      "liblapack"
+     ],
+     "run_constrained":[
+      "faiss-proc * gpu"
+     ]
+    },
+    "script":"build-lib.sh",
+    "test":{
+     "commands":[
+      "test -f $PREFIX/lib/libfaiss.so",
+      "test ! -f $PREFIX/lib/libfaiss.a",
+      "conda inspect linkages -p $PREFIX $PKG_NAME",
+      "test -f $PREFIX/include/faiss/AutoTune.h",
+      "test -f $PREFIX/include/faiss/clone_index.h",
+      "test -f $PREFIX/include/faiss/Clustering.h",
+      "test -f $PREFIX/include/faiss/DirectMap.h",
+      "test -f $PREFIX/include/faiss/Index.h",
+      "test -f $PREFIX/include/faiss/Index2Layer.h",
+      "test -f $PREFIX/include/faiss/IndexBinary.h",
+      "test -f $PREFIX/include/faiss/IndexBinaryFlat.h",
+      "test -f $PREFIX/include/faiss/IndexBinaryFromFloat.h",
+      "test -f $PREFIX/include/faiss/IndexBinaryHash.h",
+      "test -f $PREFIX/include/faiss/IndexBinaryHNSW.h",
+      "test -f $PREFIX/include/faiss/IndexBinaryIVF.h",
+      "test -f $PREFIX/include/faiss/IndexFlat.h",
+      "test -f $PREFIX/include/faiss/IndexHNSW.h",
+      "test -f $PREFIX/include/faiss/IndexIVF.h",
+      "test -f $PREFIX/include/faiss/IndexIVFFlat.h",
+      "test -f $PREFIX/include/faiss/IndexIVFPQ.h",
+      "test -f $PREFIX/include/faiss/IndexIVFPQR.h",
+      "test -f $PREFIX/include/faiss/IndexIVFSpectralHash.h",
+      "test -f $PREFIX/include/faiss/IndexLattice.h",
+      "test -f $PREFIX/include/faiss/IndexLSH.h",
+      "test -f $PREFIX/include/faiss/IndexPQ.h",
+      "test -f $PREFIX/include/faiss/IndexPreTransform.h",
+      "test -f $PREFIX/include/faiss/IndexReplicas.h",
+      "test -f $PREFIX/include/faiss/IndexScalarQuantizer.h",
+      "test -f $PREFIX/include/faiss/IndexShards.h",
+      "test -f $PREFIX/include/faiss/index_factory.h",
+      "test -f $PREFIX/include/faiss/index_io.h",
+      "test -f $PREFIX/include/faiss/InvertedLists.h",
+      "test -f $PREFIX/include/faiss/IVFlib.h",
+      "test -f $PREFIX/include/faiss/MatrixStats.h",
+      "test -f $PREFIX/include/faiss/MetaIndexes.h",
+      "test -f $PREFIX/include/faiss/MetricType.h",
+      "test -f $PREFIX/include/faiss/OnDiskInvertedLists.h",
+      "test -f $PREFIX/include/faiss/VectorTransform.h",
+      "test -f $PREFIX/include/faiss/impl/AuxIndexStructures.h",
+      "test -f $PREFIX/include/faiss/impl/FaissAssert.h",
+      "test -f $PREFIX/include/faiss/impl/FaissException.h",
+      "test -f $PREFIX/include/faiss/impl/HNSW.h",
+      "test -f $PREFIX/include/faiss/impl/io.h",
+      "test -f $PREFIX/include/faiss/impl/lattice_Zn.h",
+      "test -f $PREFIX/include/faiss/impl/PolysemousTraining.h",
+      "test -f $PREFIX/include/faiss/impl/ProductQuantizer-inl.h",
+      "test -f $PREFIX/include/faiss/impl/ProductQuantizer.h",
+      "test -f $PREFIX/include/faiss/impl/ScalarQuantizer.h",
+      "test -f $PREFIX/include/faiss/impl/ThreadedIndex-inl.h",
+      "test -f $PREFIX/include/faiss/impl/ThreadedIndex.h",
+      "test -f $PREFIX/include/faiss/utils/distances.h",
+      "test -f $PREFIX/include/faiss/utils/extra_distances.h",
+      "test -f $PREFIX/include/faiss/utils/hamming-inl.h",
+      "test -f $PREFIX/include/faiss/utils/hamming.h",
+      "test -f $PREFIX/include/faiss/utils/Heap.h",
+      "test -f $PREFIX/include/faiss/utils/random.h",
+      "test -f $PREFIX/include/faiss/utils/utils.h",
+      "test -f $PREFIX/include/faiss/utils/WorkerThread.h",
+      "test -f $PREFIX/include/faiss/gpu/GpuAutoTune.h",
+      "test -f $PREFIX/include/faiss/gpu/GpuCloner.h",
+      "test -f $PREFIX/include/faiss/gpu/GpuClonerOptions.h",
+      "test -f $PREFIX/include/faiss/gpu/GpuDistance.h",
+      "test -f $PREFIX/include/faiss/gpu/GpuFaissAssert.h",
+      "test -f $PREFIX/include/faiss/gpu/GpuIndex.h",
+      "test -f $PREFIX/include/faiss/gpu/GpuIndexBinaryFlat.h",
+      "test -f $PREFIX/include/faiss/gpu/GpuIndexFlat.h",
+      "test -f $PREFIX/include/faiss/gpu/GpuIndexIVF.h",
+      "test -f $PREFIX/include/faiss/gpu/GpuIndexIVFFlat.h",
+      "test -f $PREFIX/include/faiss/gpu/GpuIndexIVFPQ.h",
+      "test -f $PREFIX/include/faiss/gpu/GpuIndexIVFScalarQuantizer.h",
+      "test -f $PREFIX/include/faiss/gpu/GpuIndicesOptions.h",
+      "test -f $PREFIX/include/faiss/gpu/GpuResources.h",
+      "test -f $PREFIX/include/faiss/gpu/StandardGpuResources.h",
+      "test -f $PREFIX/include/faiss/gpu/impl/RemapIndices.h",
+      "test -f $PREFIX/include/faiss/gpu/impl/BinaryDistance.cuh",
+      "test -f $PREFIX/include/faiss/gpu/impl/BinaryFlatIndex.cuh",
+      "test -f $PREFIX/include/faiss/gpu/impl/BroadcastSum.cuh",
+      "test -f $PREFIX/include/faiss/gpu/impl/Distance.cuh",
+      "test -f $PREFIX/include/faiss/gpu/impl/DistanceUtils.cuh",
+      "test -f $PREFIX/include/faiss/gpu/impl/FlatIndex.cuh",
+      "test -f $PREFIX/include/faiss/gpu/impl/GeneralDistance.cuh",
+      "test -f $PREFIX/include/faiss/gpu/impl/GpuScalarQuantizer.cuh",
+      "test -f $PREFIX/include/faiss/gpu/impl/IVFAppend.cuh",
+      "test -f $PREFIX/include/faiss/gpu/impl/IVFBase.cuh",
+      "test -f $PREFIX/include/faiss/gpu/impl/IVFFlat.cuh",
+      "test -f $PREFIX/include/faiss/gpu/impl/IVFFlatScan.cuh",
+      "test -f $PREFIX/include/faiss/gpu/impl/IVFPQ.cuh",
+      "test -f $PREFIX/include/faiss/gpu/impl/IVFUtils.cuh",
+      "test -f $PREFIX/include/faiss/gpu/impl/L2Norm.cuh",
+      "test -f $PREFIX/include/faiss/gpu/impl/L2Select.cuh",
+      "test -f $PREFIX/include/faiss/gpu/impl/Metrics.cuh",
+      "test -f $PREFIX/include/faiss/gpu/impl/PQCodeDistances-inl.cuh",
+      "test -f $PREFIX/include/faiss/gpu/impl/PQCodeDistances.cuh",
+      "test -f $PREFIX/include/faiss/gpu/impl/PQCodeLoad.cuh",
+      "test -f $PREFIX/include/faiss/gpu/impl/PQScanMultiPassNoPrecomputed-inl.cuh",
+      "test -f $PREFIX/include/faiss/gpu/impl/PQScanMultiPassNoPrecomputed.cuh",
+      "test -f $PREFIX/include/faiss/gpu/impl/PQScanMultiPassPrecomputed.cuh",
+      "test -f $PREFIX/include/faiss/gpu/impl/VectorResidual.cuh",
+      "test -f $PREFIX/include/faiss/gpu/utils/DeviceMemory.h",
+      "test -f $PREFIX/include/faiss/gpu/utils/DeviceUtils.h",
+      "test -f $PREFIX/include/faiss/gpu/utils/MemorySpace.h",
+      "test -f $PREFIX/include/faiss/gpu/utils/StackDeviceMemory.h",
+      "test -f $PREFIX/include/faiss/gpu/utils/StaticUtils.h",
+      "test -f $PREFIX/include/faiss/gpu/utils/Timer.h",
+      "test -f $PREFIX/include/faiss/gpu/utils/BlockSelectKernel.cuh",
+      "test -f $PREFIX/include/faiss/gpu/utils/Comparators.cuh",
+      "test -f $PREFIX/include/faiss/gpu/utils/ConversionOperators.cuh",
+      "test -f $PREFIX/include/faiss/gpu/utils/CopyUtils.cuh",
+      "test -f $PREFIX/include/faiss/gpu/utils/DeviceDefs.cuh",
+      "test -f $PREFIX/include/faiss/gpu/utils/DeviceTensor-inl.cuh",
+      "test -f $PREFIX/include/faiss/gpu/utils/DeviceTensor.cuh",
+      "test -f $PREFIX/include/faiss/gpu/utils/DeviceVector.cuh",
+      "test -f $PREFIX/include/faiss/gpu/utils/Float16.cuh",
+      "test -f $PREFIX/include/faiss/gpu/utils/HostTensor-inl.cuh",
+      "test -f $PREFIX/include/faiss/gpu/utils/HostTensor.cuh",
+      "test -f $PREFIX/include/faiss/gpu/utils/Limits.cuh",
+      "test -f $PREFIX/include/faiss/gpu/utils/LoadStoreOperators.cuh",
+      "test -f $PREFIX/include/faiss/gpu/utils/MathOperators.cuh",
+      "test -f $PREFIX/include/faiss/gpu/utils/MatrixMult-inl.cuh",
+      "test -f $PREFIX/include/faiss/gpu/utils/MatrixMult.cuh",
+      "test -f $PREFIX/include/faiss/gpu/utils/MergeNetworkBlock.cuh",
+      "test -f $PREFIX/include/faiss/gpu/utils/MergeNetworkUtils.cuh",
+      "test -f $PREFIX/include/faiss/gpu/utils/MergeNetworkWarp.cuh",
+      "test -f $PREFIX/include/faiss/gpu/utils/NoTypeTensor.cuh",
+      "test -f $PREFIX/include/faiss/gpu/utils/Pair.cuh",
+      "test -f $PREFIX/include/faiss/gpu/utils/PtxUtils.cuh",
+      "test -f $PREFIX/include/faiss/gpu/utils/ReductionOperators.cuh",
+      "test -f $PREFIX/include/faiss/gpu/utils/Reductions.cuh",
+      "test -f $PREFIX/include/faiss/gpu/utils/Select.cuh",
+      "test -f $PREFIX/include/faiss/gpu/utils/Tensor-inl.cuh",
+      "test -f $PREFIX/include/faiss/gpu/utils/Tensor.cuh",
+      "test -f $PREFIX/include/faiss/gpu/utils/ThrustAllocator.cuh",
+      "test -f $PREFIX/include/faiss/gpu/utils/Transpose.cuh",
+      "test -f $PREFIX/include/faiss/gpu/utils/WarpSelectKernel.cuh",
+      "test -f $PREFIX/include/faiss/gpu/utils/WarpShuffles.cuh"
+     ]
+    }
+   },
+   {
+    "build":{
+     "string":"pyh_0_gpu"
+    },
+    "name":"faiss",
+    "requirements":{
+     "build":[
+      "cxx_compiler_stub",
+      "cuda_compiler_stub",
+      "swig",
+      "cmake"
+     ],
+     "host":[
+      "python",
+      "pip",
+      "numpy =1.14.*",
+      "libfaiss =1.6.3=*_gpu",
+      "libblas",
+      "liblapack",
+      "libgomp"
+     ],
+     "run":[
+      "libfaiss =1.6.3=*_gpu",
+      "numpy"
+     ],
+     "run_constrained":[
+      "faiss-proc * gpu"
+     ]
+    },
+    "script":"build-pkg.sh",
+    "test":{
+     "commands":[
+      "python conda/faiss/run_test.py",
+      "python conda/faiss-gpu/run_test.py",
+      "python -m unittest discover tests"
+     ],
+     "imports":[
+      "faiss"
+     ],
+     "requires":[
+      "blas =*=mkl",
+      "scipy"
+     ],
+     "source_files":[
+      "tests/",
+      "conda/faiss/run_test.py",
+      "conda/faiss-gpu/run_test.py"
+     ]
+    }
+   },
+   {
+    "build":{
+     "skip":true,
+     "string":"py_0"
+    },
+    "name":"faiss-cpu",
+    "requirements":{
+     "host":[
+      "python"
+     ],
+     "run":[
+      "faiss =1.6.3=*_cpu"
+     ]
+    },
+    "test":{
+     "commands":[
+      "exit 0"
+     ]
+    }
+   },
+   {
+    "build":{
+     "string":"py_0"
+    },
+    "name":"faiss-gpu",
+    "requirements":{
+     "host":[
+      "python"
+     ],
+     "run":[
+      "faiss =1.6.3=*_gpu"
+     ]
+    },
+    "test":{
+     "commands":[
+      "exit 0"
+     ]
+    }
+   }
+  ],
+  "package":{
+   "name":"faiss-split",
+   "version":"1.6.3"
+  },
+  "requirements":{
+   "build":[
+    "cxx_compiler_stub",
+    "cxx_compiler_stub",
+    "cxx_compiler_stub"
+   ]
+  },
+  "source":{
+   "patches":[
+    "patches/0001-change-python-Makefile-to-point-to-libfaiss.-SHLIB_E.patch",
+    "patches/0002-remove-fPIC-flag-for-msvc-compat.patch",
+    "patches/0001-change-python-Makefile-to-point-to-libfaiss.-SHLIB_E.patch",
+    "patches/0001-change-python-Makefile-to-point-to-libfaiss.-SHLIB_E.patch"
+   ],
+   "sha256":"e1a41c159f0b896975fbb133e0240a233af5c9286c09a28fde6aefff5336e542",
+   "url":"https://github.com/facebookresearch/faiss/archive/v1.6.3.tar.gz"
+  }
+ },
+ "name":"faiss-split",
+ "new_version":"1.6.3",
+ "outputs_names":[
+  "faiss",
+  "faiss-cpu",
+  "faiss-gpu",
+  "faiss-proc",
+  "libfaiss"
+ ],
+ "pinning_version":"2020.05.11.16.49.47",
+ "raw_meta_yaml":"{% set version = \"1.6.3\" %}\n{% set number = 0 %}\n{% set faiss_proc_type = \"gpu\" if cuda_compiler_version != \"None\" else \"cpu\" %}\n\n# headers for upstream-folders './*.h', 'impl/*.h', 'utils/*.h'\n# gpu adds headers in 'gpu/*.h', 'gpu/impl/*.(cu)?h', 'gpu/utils/*.(cu)?h'\n{% set headers = [\n    'AutoTune.h', 'clone_index.h', 'Clustering.h', 'DirectMap.h', 'Index.h', 'Index2Layer.h',\n    'IndexBinary.h', 'IndexBinaryFlat.h', 'IndexBinaryFromFloat.h', 'IndexBinaryHash.h',\n    'IndexBinaryHNSW.h', 'IndexBinaryIVF.h', 'IndexFlat.h', 'IndexHNSW.h', 'IndexIVF.h',\n    'IndexIVFFlat.h', 'IndexIVFPQ.h', 'IndexIVFPQR.h', 'IndexIVFSpectralHash.h', 'IndexLattice.h',\n    'IndexLSH.h', 'IndexPQ.h', 'IndexPreTransform.h', 'IndexReplicas.h', 'IndexScalarQuantizer.h',\n    'IndexShards.h', 'index_factory.h', 'index_io.h', 'InvertedLists.h', 'IVFlib.h',\n    'MatrixStats.h', 'MetaIndexes.h', 'MetricType.h', 'OnDiskInvertedLists.h', 'VectorTransform.h',\n    'impl/AuxIndexStructures.h', 'impl/FaissAssert.h', 'impl/FaissException.h', 'impl/HNSW.h',\n    'impl/io.h', 'impl/lattice_Zn.h', 'impl/PolysemousTraining.h', 'impl/ProductQuantizer-inl.h',\n    'impl/ProductQuantizer.h', 'impl/ScalarQuantizer.h', 'impl/ThreadedIndex-inl.h',\n    'impl/ThreadedIndex.h',\n    'utils/distances.h', 'utils/extra_distances.h', 'utils/hamming-inl.h', 'utils/hamming.h',\n    'utils/Heap.h', 'utils/random.h', 'utils/utils.h', 'utils/WorkerThread.h'\n] + (cuda_compiler_version != \"None\") * [\n    'gpu/GpuAutoTune.h', 'gpu/GpuCloner.h', 'gpu/GpuClonerOptions.h', 'gpu/GpuDistance.h',\n    'gpu/GpuFaissAssert.h', 'gpu/GpuIndex.h', 'gpu/GpuIndexBinaryFlat.h', 'gpu/GpuIndexFlat.h',\n    'gpu/GpuIndexIVF.h', 'gpu/GpuIndexIVFFlat.h', 'gpu/GpuIndexIVFPQ.h',\n    'gpu/GpuIndexIVFScalarQuantizer.h', 'gpu/GpuIndicesOptions.h', 'gpu/GpuResources.h',\n    'gpu/StandardGpuResources.h',\n    'gpu/impl/RemapIndices.h', 'gpu/impl/BinaryDistance.cuh', 'gpu/impl/BinaryFlatIndex.cuh',\n    'gpu/impl/BroadcastSum.cuh', 'gpu/impl/Distance.cuh', 'gpu/impl/DistanceUtils.cuh',\n    'gpu/impl/FlatIndex.cuh', 'gpu/impl/GeneralDistance.cuh', 'gpu/impl/GpuScalarQuantizer.cuh',\n    'gpu/impl/IVFAppend.cuh', 'gpu/impl/IVFBase.cuh', 'gpu/impl/IVFFlat.cuh',\n    'gpu/impl/IVFFlatScan.cuh', 'gpu/impl/IVFPQ.cuh', 'gpu/impl/IVFUtils.cuh',\n    'gpu/impl/L2Norm.cuh', 'gpu/impl/L2Select.cuh', 'gpu/impl/Metrics.cuh',\n    'gpu/impl/PQCodeDistances-inl.cuh', 'gpu/impl/PQCodeDistances.cuh', 'gpu/impl/PQCodeLoad.cuh',\n    'gpu/impl/PQScanMultiPassNoPrecomputed-inl.cuh', 'gpu/impl/PQScanMultiPassNoPrecomputed.cuh',\n    'gpu/impl/PQScanMultiPassPrecomputed.cuh', 'gpu/impl/VectorResidual.cuh',\n    'gpu/utils/DeviceMemory.h', 'gpu/utils/DeviceUtils.h', 'gpu/utils/MemorySpace.h',\n    'gpu/utils/StackDeviceMemory.h', 'gpu/utils/StaticUtils.h', 'gpu/utils/Timer.h',\n    'gpu/utils/BlockSelectKernel.cuh', 'gpu/utils/Comparators.cuh',\n    'gpu/utils/ConversionOperators.cuh', 'gpu/utils/CopyUtils.cuh', 'gpu/utils/DeviceDefs.cuh',\n    'gpu/utils/DeviceTensor-inl.cuh', 'gpu/utils/DeviceTensor.cuh', 'gpu/utils/DeviceVector.cuh',\n    'gpu/utils/Float16.cuh', 'gpu/utils/HostTensor-inl.cuh', 'gpu/utils/HostTensor.cuh',\n    'gpu/utils/Limits.cuh', 'gpu/utils/LoadStoreOperators.cuh', 'gpu/utils/MathOperators.cuh',\n    'gpu/utils/MatrixMult-inl.cuh', 'gpu/utils/MatrixMult.cuh', 'gpu/utils/MergeNetworkBlock.cuh',\n    'gpu/utils/MergeNetworkUtils.cuh', 'gpu/utils/MergeNetworkWarp.cuh',\n    'gpu/utils/NoTypeTensor.cuh', 'gpu/utils/Pair.cuh', 'gpu/utils/PtxUtils.cuh',\n    'gpu/utils/ReductionOperators.cuh', 'gpu/utils/Reductions.cuh', 'gpu/utils/Select.cuh',\n    'gpu/utils/Tensor-inl.cuh', 'gpu/utils/Tensor.cuh', 'gpu/utils/ThrustAllocator.cuh',\n    'gpu/utils/Transpose.cuh', 'gpu/utils/WarpSelectKernel.cuh', 'gpu/utils/WarpShuffles.cuh'\n] %}\n\npackage:\n  name: faiss-split\n  version: {{ version }}\n\nsource:\n  url: https://github.com/facebookresearch/faiss/archive/v{{ version }}.tar.gz\n  sha256: e1a41c159f0b896975fbb133e0240a233af5c9286c09a28fde6aefff5336e542\n  patches:\n    - patches/0001-change-python-Makefile-to-point-to-libfaiss.-SHLIB_E.patch\n    - patches/0002-remove-fPIC-flag-for-msvc-compat.patch  # [win]\n\nbuild:\n  number: {{ number }}\n  # TODO: figure out compiler errors on windows\n  skip: true                      # [win]\n  # TODO: remove this to retry building GPU on the feedstock\n  skip: true                      # [cuda_compiler_version != \"None\"]\n\nrequirements:\n  build:\n    - {{ compiler('cxx') }}\n\noutputs:\n  # A meta-package to select CPU or GPU build for faiss.\n  - name: faiss-proc\n    version: 1.0.0\n    build:\n      string: {{ faiss_proc_type }}\n    test:\n      commands:\n        - exit 0\n\n  - name: libfaiss\n    script: build-lib.sh          # [not win]\n    script: build-lib.bat         # [win]\n    build:\n      string: \"h{{ PKG_HASH }}_{{ number }}_{{ faiss_proc_type }}\"\n      run_exports:\n        # faiss follows SemVer, so restrict packages built with libfaiss to use\n        # at least the same version at runtime, but below the next major version.\n        # (matches default arguments/behaviour of `pin_compatible`: min_pin='x.x.x.x.x.x', max_pin='x')\n        - {{ pin_compatible('libfaiss') }}\n        # additionally, we need to ensure matching proc-type\n        - libfaiss =*=*_{{ faiss_proc_type }}\n    requirements:\n      build:\n        - {{ compiler('cxx') }}\n        - {{ compiler('cuda') }}  # [cuda_compiler_version != \"None\"]\n        - cmake\n        - libgomp                 # [linux]\n        - llvm-openmp             # [osx or win]\n        - autotools_clang_conda   # [win]\n      host:\n        - libblas\n        - liblapack\n      run:\n        - libblas\n        - liblapack\n      run_constrained:\n        - faiss-proc * {{ faiss_proc_type }}\n\n    test:\n      commands:\n        # shared\n        - test -f $PREFIX/lib/libfaiss.so                           # [linux]\n        - test -f $PREFIX/lib/libfaiss.dylib                        # [osx]\n        - if not exist %PREFIX%\\\\Library\\\\bin\\\\libfaiss.dll exit 1  # [win]\n\n        # absence of static libraries\n        - test ! -f $PREFIX/lib/libfaiss.a                          # [not win]\n        - if exist %PREFIX%\\\\Library\\\\lib\\\\libfaiss.lib exit 1      # [win]\n\n        # conda tools\n        - conda inspect linkages -p $PREFIX $PKG_NAME               # [not win]\n        - conda inspect objects -p $PREFIX $PKG_NAME                # [osx]\n\n        # headers\n        {% for each_header in headers %}\n        - test -f $PREFIX/include/faiss/{{ each_header }}                                    # [unix]\n        - if not exist %LIBRARY_INC%\\\\faiss\\\\{{ \"\\\\\".join(each_header.split(\"/\")) }} exit 1  # [win]\n        {% endfor %}\n\n  - name: faiss\n    script: build-pkg.sh          # [not win]\n    script: build-pkg.bat         # [win]\n    build:\n      string: \"py{{ CONDA_PY }}h{{ PKG_HASH }}_{{ number }}_{{ faiss_proc_type }}\"\n    requirements:\n      build:\n        - {{ compiler('cxx') }}\n        - {{ compiler('cuda') }}  # [cuda_compiler_version != \"None\"]\n        - swig\n        - cmake\n        - autotools_clang_conda   # [win]\n      host:\n        - python\n        - pip\n        - numpy =1.14.*\n        - libfaiss ={{ version }}=*_{{ faiss_proc_type }}\n        - libblas\n        - liblapack\n        - libgomp                 # [linux]\n        - llvm-openmp             # [osx or win]\n      run:\n        - libfaiss ={{ version }}=*_{{ faiss_proc_type }}\n        - {{ pin_compatible('numpy') }}\n      run_constrained:\n        - faiss-proc * {{ faiss_proc_type }}\n\n    test:\n      requires:\n        # trying to test all blas-variants runs into conda/conda-build#3947\n        # - blas * *{{ blas_impl }}\n        # testing with MKL, as upstream considers this the most important\n        - blas =*=mkl\n        # this is necessary for a single test in the test suite\n        - scipy\n      source_files:\n        - tests/\n        - conda/faiss/run_test.py\n        - conda/faiss-gpu/run_test.py\n      imports:\n        - faiss\n      commands:\n        - python conda/faiss/run_test.py\n        - python conda/faiss-gpu/run_test.py  # [cuda_compiler_version != \"None\"]\n        - python -m unittest discover tests\n\n  # for compatibility with (& ease of migration from) existing packages in the pytorch channel\n  - name: faiss-cpu\n    build:\n      string: \"py{{ CONDA_PY }}_{{ number }}\"\n      skip: true  # [cuda_compiler_version != \"None\"]\n    requirements:\n      host:\n        - python\n      run:\n        - faiss ={{ version }}=*_cpu\n    test:\n      commands:\n        - exit 0\n\n  - name: faiss-gpu\n    build:\n      string: \"py{{ CONDA_PY }}_{{ number }}\"\n      skip: true  # [cuda_compiler_version == \"None\"]\n    requirements:\n      host:\n        - python\n      run:\n        - faiss ={{ version }}=*_gpu\n    test:\n      commands:\n        - exit 0\n\nabout:\n  home: https://github.com/facebookresearch/faiss\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE\n  summary: 'A library for efficient similarity search and clustering of dense vectors.'\n\n  description: |\n    Faiss is a library for efficient similarity search and clustering of dense vectors.\n    It contains algorithms that search in sets of vectors of any size, up to ones that\n    possibly do not fit in RAM. It also contains supporting code for evaluation and\n    parameter tuning. Faiss is written in C++ with complete wrappers for Python/numpy.\n    Some of the most useful algorithms are implemented on the GPU. It is developed by\n    [Facebook AI Research](https://research.fb.com/category/facebook-ai-research-fair/).\n\n    For best performance, the maintainers of the package\n    [recommend](https://github.com/conda-forge/staged-recipes/pull/11337#issuecomment-623718460)\n    using the MKL implementation of blas/lapack. You can ensure that this is installed\n    by adding \"libblas =*=mkl\" to your dependencies.\n  doc_url: https://rawgit.com/facebookresearch/faiss/master/docs/html/annotated.html\n  dev_url: https://github.com/facebookresearch/faiss\n\nextra:\n  recipe-maintainers:\n    - h-vetinari\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "autotools_clang_conda",
+   "cmake",
+   "cuda_compiler_stub",
+   "cxx_compiler_stub",
+   "faiss",
+   "libblas",
+   "libfaiss",
+   "libgomp",
+   "liblapack",
+   "llvm-openmp",
+   "numpy",
+   "pip",
+   "python",
+   "swig"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "autotools_clang_conda",
+    "cmake",
+    "cuda_compiler_stub",
+    "cxx_compiler_stub",
+    "libgomp",
+    "llvm-openmp",
+    "swig"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "libblas",
+    "libfaiss",
+    "libgomp",
+    "liblapack",
+    "llvm-openmp",
+    "numpy",
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "faiss",
+    "libblas",
+    "libfaiss",
+    "liblapack",
+    "numpy"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "blas",
+    "scipy"
+   ]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.7.0\n",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "autotools_clang_conda",
+    "cmake",
+    "cuda_compiler_stub",
+    "cxx_compiler_stub",
+    "libgomp",
+    "llvm-openmp",
+    "swig"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "libblas",
+    "libfaiss =1.6.3=*_gpu",
+    "libgomp",
+    "liblapack",
+    "llvm-openmp",
+    "numpy =1.14.*",
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "faiss =1.6.3=*_cpu",
+    "faiss =1.6.3=*_gpu",
+    "libblas",
+    "libfaiss =1.6.3=*_gpu",
+    "liblapack",
+    "numpy"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "blas =*=mkl",
+    "scipy"
+   ]
+  }
+ },
+ "url":"https://github.com/facebookresearch/faiss/archive/v1.6.3.tar.gz",
+ "version":"1.6.3"
+}

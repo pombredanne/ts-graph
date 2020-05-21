@@ -1,0 +1,143 @@
+{
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"typer",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"Typer is library for building CLI applications that users will love using and developers will love creating. Based on Python 3.6+ type hints.\n\nThe key features are:\n\nIntuitive to write: Great editor support. Completion everywhere. Less time debugging. Designed to be easy to use and learn. Less time reading docs.\nEasy to use: It's easy to use for the final users. Automatic help, and automatic completion for all shells.\nShort: Minimize code duplication. Multiple features from each parameter declaration. Fewer bugs.\nStart simple: The simplest example adds only 2 lines of code to your app: 1 import, 1 function call.\nGrow large: Grow in complexity as much as you want, create arbitrarily complex trees of commands and groups of subcommands, with options and arguments.\n",
+   "dev_url":"https://github.com/tiangolo/typer",
+   "doc_url":"https://typer.tiangolo.com/",
+   "home":"https://github.com/tiangolo/typer",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"LICENSE",
+   "summary":"A library for building CLI applications "
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "dfornika",
+    "dfornika",
+    "dfornika"
+   ]
+  },
+  "package":{
+   "name":"typer",
+   "version":"0.2.1"
+  },
+  "requirements":{
+   "host":[
+    "python >=3.6",
+    "pip",
+    "flit-core",
+    "python >=3.6",
+    "pip",
+    "flit-core",
+    "python >=3.6",
+    "pip",
+    "flit-core"
+   ],
+   "run":[
+    "python >=3.6",
+    "click",
+    "colorama",
+    "shellingham",
+    "python >=3.6",
+    "click",
+    "colorama",
+    "shellingham",
+    "python >=3.6",
+    "click",
+    "colorama",
+    "shellingham"
+   ]
+  },
+  "source":{
+   "sha256":"a8c49418f20c1d1b04a34424dded86cebf1f87042a8e448c6faa63cf38b9c0af",
+   "url":"https://pypi.io/packages/source/t/typer/typer-0.2.1.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "typer",
+    "typer",
+    "typer"
+   ]
+  }
+ },
+ "name":"typer",
+ "new_version":"0.2.1",
+ "raw_meta_yaml":"{% set name = \"typer\" %}\n{% set version = \"0.2.1\" %}\n{% set sha256 = \"a8c49418f20c1d1b04a34424dded86cebf1f87042a8e448c6faa63cf38b9c0af\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 0\n  script: \"{{ PYTHON }} -m pip install . -vv\"\n\nrequirements:\n  host:\n    - python >=3.6\n    - pip\n    - flit-core\n  run:\n    - python >=3.6\n    - click\n    - colorama\n    - shellingham\n\ntest:\n  imports:\n    - typer\n\nabout:\n  home: https://github.com/tiangolo/typer\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE\n  summary: 'A library for building CLI applications '\n\n  description: |\n    Typer is library for building CLI applications that users will love using and developers will love creating. Based on Python 3.6+ type hints.\n\n    The key features are:\n\n    Intuitive to write: Great editor support. Completion everywhere. Less time debugging. Designed to be easy to use and learn. Less time reading docs.\n    Easy to use: It's easy to use for the final users. Automatic help, and automatic completion for all shells.\n    Short: Minimize code duplication. Multiple features from each parameter declaration. Fewer bugs.\n    Start simple: The simplest example adds only 2 lines of code to your app: 1 import, 1 function call.\n    Grow large: Grow in complexity as much as you want, create arbitrarily complex trees of commands and groups of subcommands, with options and arguments.\n\n  doc_url: https://typer.tiangolo.com/\n  dev_url: https://github.com/tiangolo/typer\n\nextra:\n  recipe-maintainers:\n    - dfornika\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "click",
+   "colorama",
+   "flit-core",
+   "pip",
+   "python",
+   "shellingham"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "flit-core",
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "click",
+    "colorama",
+    "python",
+    "shellingham"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "flit-core",
+    "pip",
+    "python >=3.6"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "click",
+    "colorama",
+    "python >=3.6",
+    "shellingham"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/t/typer/typer-0.2.1.tar.gz",
+ "version":"0.2.1"
+}

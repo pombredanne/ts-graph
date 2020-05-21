@@ -1,0 +1,276 @@
+{
+ "PRed":[
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.4.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/198504769.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Compiler",
+    "migrator_version":0
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/217857213.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/248249325.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.5.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/305889152.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.5.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "compiler_stack":"comp7",
+  "max_py_ver":"37",
+  "max_r_ver":"35"
+ },
+ "feedstock_name":"nfft",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"http://www.nfft.org/",
+   "license":"GPLv2",
+   "summary":"Non-equispaced fast Fourier transform (NFFT) library"
+  },
+  "build":{
+   "number":"0",
+   "skip":true
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "ghisvail",
+    "grlee77",
+    "kohr-h",
+    "ghisvail",
+    "grlee77",
+    "kohr-h",
+    "ghisvail",
+    "grlee77",
+    "kohr-h"
+   ]
+  },
+  "package":{
+   "name":"nfft",
+   "version":"3.5.1"
+  },
+  "requirements":{
+   "build":[
+    "c_compiler_stub",
+    "libtool",
+    "autoconf",
+    "automake",
+    "c_compiler_stub",
+    "libtool",
+    "autoconf",
+    "automake",
+    "c_compiler_stub",
+    "libtool",
+    "autoconf",
+    "automake"
+   ],
+   "host":[
+    "fftw",
+    "cunit",
+    "ncurses",
+    "llvm-openmp",
+    "fftw",
+    "cunit",
+    "ncurses",
+    "fftw",
+    "cunit",
+    "ncurses"
+   ],
+   "run":[
+    "fftw",
+    "llvm-openmp",
+    "fftw",
+    "fftw"
+   ]
+  },
+  "source":{
+   "fn":"nfft-3.5.1.tar.gz",
+   "sha256":"bb95b2c240c6d972d4bb20740751a8efeba8b48b3be1d61fd59883909776fee3",
+   "url":"https://github.com/NFFT/nfft/releases/download/3.5.1/nfft-3.5.1.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "test -f ${PREFIX}/lib/libnfft3.a",
+    "test -f ${PREFIX}/lib/libnfft3f.a",
+    "test -f ${PREFIX}/lib/libnfft3l.a",
+    "test -f ${PREFIX}/lib/libnfft3_threads.a",
+    "test -f ${PREFIX}/lib/libnfft3f_threads.a",
+    "test -f ${PREFIX}/lib/libnfft3l_threads.a",
+    "test -f ${PREFIX}/lib/libnfft3.a",
+    "test -f ${PREFIX}/lib/libnfft3f.a",
+    "test -f ${PREFIX}/lib/libnfft3l.a",
+    "test -f ${PREFIX}/lib/libnfft3.dylib",
+    "test -f ${PREFIX}/lib/libnfft3f.dylib",
+    "test -f ${PREFIX}/lib/libnfft3l.dylib",
+    "test -f ${PREFIX}/lib/libnfft3_threads.a",
+    "test -f ${PREFIX}/lib/libnfft3f_threads.a",
+    "test -f ${PREFIX}/lib/libnfft3l_threads.a",
+    "test -f ${PREFIX}/lib/libnfft3_threads.dylib",
+    "test -f ${PREFIX}/lib/libnfft3f_threads.dylib",
+    "test -f ${PREFIX}/lib/libnfft3l_threads.dylib",
+    "test -f ${PREFIX}/lib/libnfft3.a",
+    "test -f ${PREFIX}/lib/libnfft3f.a",
+    "test -f ${PREFIX}/lib/libnfft3l.a",
+    "test -f ${PREFIX}/lib/libnfft3.so",
+    "test -f ${PREFIX}/lib/libnfft3f.so",
+    "test -f ${PREFIX}/lib/libnfft3l.so",
+    "test -f ${PREFIX}/lib/libnfft3_threads.a",
+    "test -f ${PREFIX}/lib/libnfft3f_threads.a",
+    "test -f ${PREFIX}/lib/libnfft3l_threads.a",
+    "test -f ${PREFIX}/lib/libnfft3_threads.so",
+    "test -f ${PREFIX}/lib/libnfft3f_threads.so",
+    "test -f ${PREFIX}/lib/libnfft3l_threads.so"
+   ]
+  }
+ },
+ "name":"nfft",
+ "new_version":"3.5.1",
+ "pinning_version":"2019.08.08",
+ "raw_meta_yaml":"{% set version = \"3.5.1\" %}\n\npackage:\n  name: nfft\n  version: {{ version }}\n\nsource:\n  fn: nfft-{{ version }}.tar.gz\n  url: https://github.com/NFFT/nfft/releases/download/{{ version }}/nfft-{{ version }}.tar.gz\n  sha256: bb95b2c240c6d972d4bb20740751a8efeba8b48b3be1d61fd59883909776fee3\n\nbuild:\n  number: 0\n  skip: True  # [win]\n\nrequirements:\n  build:\n    - {{ compiler('c') }}\n    - libtool\n    - autoconf\n    - automake\n  host:\n{% if not compiler('c').startswith(\"toolchain\") %}\n    - llvm-openmp  # [osx]\n{% else %}\n    - openmp 4.0.*  # [osx]\n{% endif %}\n    - fftw\n    - cunit\n    - ncurses\n  run:\n{% if not compiler('c').startswith(\"toolchain\") %}\n    - llvm-openmp  # [osx]\n{% else %}\n    - openmp 4.0.*  # [osx]\n{% endif %}\n    - fftw\n\ntest:\n  commands:\n    - test -f ${PREFIX}/lib/libnfft3.a\n    - test -f ${PREFIX}/lib/libnfft3f.a\n    - test -f ${PREFIX}/lib/libnfft3l.a\n    - test -f ${PREFIX}/lib/libnfft3.so  # [linux]\n    - test -f ${PREFIX}/lib/libnfft3f.so  # [linux]\n    - test -f ${PREFIX}/lib/libnfft3l.so  # [linux]\n    - test -f ${PREFIX}/lib/libnfft3.dylib  # [osx]\n    - test -f ${PREFIX}/lib/libnfft3f.dylib  # [osx]\n    - test -f ${PREFIX}/lib/libnfft3l.dylib  # [osx]\n    - test -f ${PREFIX}/lib/libnfft3_threads.a\n    - test -f ${PREFIX}/lib/libnfft3f_threads.a\n    - test -f ${PREFIX}/lib/libnfft3l_threads.a\n    - test -f ${PREFIX}/lib/libnfft3_threads.so  # [linux]\n    - test -f ${PREFIX}/lib/libnfft3f_threads.so  # [linux]\n    - test -f ${PREFIX}/lib/libnfft3l_threads.so  # [linux]\n    - test -f ${PREFIX}/lib/libnfft3_threads.dylib  # [osx]\n    - test -f ${PREFIX}/lib/libnfft3f_threads.dylib  # [osx]\n    - test -f ${PREFIX}/lib/libnfft3l_threads.dylib  # [osx]\n\nabout:\n  home: http://www.nfft.org/\n  license: GPLv2\n  summary: Non-equispaced fast Fourier transform (NFFT) library\n\nextra:\n  recipe-maintainers:\n    - ghisvail\n    - grlee77\n    - kohr-h\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "autoconf",
+   "automake",
+   "c_compiler_stub",
+   "cunit",
+   "fftw",
+   "libtool",
+   "llvm-openmp",
+   "ncurses"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "autoconf",
+    "automake",
+    "c_compiler_stub",
+    "libtool"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "cunit",
+    "fftw",
+    "llvm-openmp",
+    "ncurses"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "fftw",
+    "llvm-openmp"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.4.1",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "autoconf",
+    "automake",
+    "c_compiler_stub",
+    "libtool"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "cunit",
+    "fftw",
+    "llvm-openmp",
+    "ncurses"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "fftw",
+    "llvm-openmp"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://github.com/NFFT/nfft/releases/download/3.5.1/nfft-3.5.1.tar.gz",
+ "version":"3.5.1"
+}

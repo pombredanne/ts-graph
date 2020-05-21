@@ -1,0 +1,278 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/289343225.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Rebuild",
+    "migrator_version":0,
+    "name":"gsl-2.5"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/327272913.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.5.3"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/367408965.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.6.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/371549172.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"gsl26"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"plumed",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"PLUMED is an open source library for free energy calculations in\nmolecular systems which works together with some of the most\npopular molecular dynamics engines.\n",
+   "dev_url":"https://github.com/plumed/plumed2",
+   "doc_url":"https://www.plumed.org/doc",
+   "home":"http://www.plumed.org/",
+   "license":"LGPL-3.0",
+   "license_family":"GPL",
+   "license_file":"COPYING.LESSER",
+   "summary":"Free energy calculations in molecular systems"
+  },
+  "build":{
+   "number":"2",
+   "skip":true
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "GiovanniBussi",
+    "GiovanniBussi",
+    "GiovanniBussi"
+   ]
+  },
+  "package":{
+   "name":"plumed",
+   "version":"2.6.0"
+  },
+  "requirements":{
+   "build":[
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "make",
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "llvm-openmp",
+    "make",
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "make",
+    "vim"
+   ],
+   "host":[
+    "fftw",
+    "gsl",
+    "libblas",
+    "liblapack",
+    "xdrfile",
+    "zlib",
+    "fftw",
+    "gsl",
+    "libblas",
+    "liblapack",
+    "llvm-openmp",
+    "xdrfile",
+    "zlib",
+    "fftw",
+    "gsl",
+    "libblas",
+    "liblapack",
+    "xdrfile",
+    "zlib"
+   ],
+   "run":[
+    "gawk",
+    "gawk",
+    "llvm-openmp",
+    "gawk"
+   ]
+  },
+  "source":{
+   "sha256":"3d57ae460607a49547ef38a52c4ac93493a3966857c352280a9c05f5dcdb1820",
+   "url":"https://github.com/plumed/plumed2/archive/v2.6.0.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "plumed info --root",
+    "plumed info --long-version",
+    "plumed-patch -h",
+    "plumed config has external_blas external_lapack fftw gsl xdrfile zlib",
+    "$PREFIX/lib/plumed/plumed-runtime -h",
+    "test -f $PREFIX/lib/libplumed$SHLIB_EXT",
+    "test -f $PREFIX/lib/libplumedWrapper.a",
+    "test -f $PREFIX/lib/libplumedKernel$SHLIB_EXT",
+    "conda inspect linkages -p $PREFIX $PKG_NAME",
+    "plumed info --root",
+    "plumed info --long-version",
+    "plumed-patch -h",
+    "plumed config has external_blas external_lapack fftw gsl xdrfile zlib",
+    "$PREFIX/lib/plumed/plumed-runtime -h",
+    "test -f $PREFIX/lib/libplumed$SHLIB_EXT",
+    "test -f $PREFIX/lib/libplumedWrapper.a",
+    "test -f $PREFIX/lib/libplumedKernel$SHLIB_EXT",
+    "conda inspect linkages -p $PREFIX $PKG_NAME",
+    "conda inspect objects -p $PREFIX $PKG_NAME",
+    "plumed info --root",
+    "plumed info --long-version",
+    "plumed-patch -h",
+    "plumed config has external_blas external_lapack fftw gsl xdrfile zlib",
+    "$PREFIX/lib/plumed/plumed-runtime -h",
+    "test -f $PREFIX/lib/libplumed$SHLIB_EXT",
+    "test -f $PREFIX/lib/libplumedWrapper.a",
+    "test -f $PREFIX/lib/libplumedKernel$SHLIB_EXT",
+    "conda inspect linkages -p $PREFIX $PKG_NAME"
+   ]
+  }
+ },
+ "name":"plumed",
+ "new_version":"2.6.0",
+ "pinning_version":"2020.01.28",
+ "raw_meta_yaml":"{% set name = \"plumed\" %}\n{% set version = \"2.6.0\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://github.com/plumed/plumed2/archive/v{{ version }}.tar.gz\n  sha256: 3d57ae460607a49547ef38a52c4ac93493a3966857c352280a9c05f5dcdb1820\n\nbuild:\n  number: 2\n  skip: True  # [win]\n# Most programs should link libplumedWrapper.a so that libplumedKernel.so will be loaded\n# with dlopen. There is no need for pinning thus.\n# Programs linking libplumed.so should pin to min_pin='x.x', max_pin='x'.\n# Programs linking libplumedKernel.so should pin to min_pin='x.x.x'. max_pin='x.x.x'.\n\nrequirements:\n  build:\n    - {{ compiler('c') }}\n    - {{ compiler('cxx') }}\n    - llvm-openmp  # [osx]\n    - make\n# xxd is provided by package vim and used during build\n    - vim  # [linux]\n  host:\n    - fftw\n    - gsl\n    - libblas\n    - liblapack\n    - llvm-openmp  # [osx]\n    - xdrfile\n    - zlib\n  run:\n    - gawk\n    - llvm-openmp  # [osx]\n\ntest:\n  commands:\n    - plumed info --root\n    - plumed info --long-version\n    - plumed-patch -h\n    - plumed config has external_blas external_lapack fftw gsl xdrfile zlib\n    - $PREFIX/lib/plumed/plumed-runtime -h\n    - test -f $PREFIX/lib/libplumed$SHLIB_EXT\n    - test -f $PREFIX/lib/libplumedWrapper.a\n    - test -f $PREFIX/lib/libplumedKernel$SHLIB_EXT\n    - conda inspect linkages -p $PREFIX $PKG_NAME\n    - conda inspect objects -p $PREFIX $PKG_NAME  # [osx]\n\nabout:\n  home: http://www.plumed.org/\n  license: LGPL-3.0\n  license_family: GPL\n  license_file: COPYING.LESSER\n  summary: 'Free energy calculations in molecular systems'\n  description: |\n    PLUMED is an open source library for free energy calculations in\n    molecular systems which works together with some of the most\n    popular molecular dynamics engines.\n  doc_url: https://www.plumed.org/doc\n  dev_url: https://github.com/plumed/plumed2\n\nextra:\n  recipe-maintainers:\n    - GiovanniBussi\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "c_compiler_stub",
+   "cxx_compiler_stub",
+   "fftw",
+   "gawk",
+   "gsl",
+   "libblas",
+   "liblapack",
+   "llvm-openmp",
+   "make",
+   "vim",
+   "xdrfile",
+   "zlib"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "llvm-openmp",
+    "make",
+    "vim"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "fftw",
+    "gsl",
+    "libblas",
+    "liblapack",
+    "llvm-openmp",
+    "xdrfile",
+    "zlib"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "gawk",
+    "llvm-openmp"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.6.7",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "llvm-openmp",
+    "make",
+    "vim"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "fftw",
+    "gsl",
+    "libblas",
+    "liblapack",
+    "llvm-openmp",
+    "xdrfile",
+    "zlib"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "gawk",
+    "llvm-openmp"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://github.com/plumed/plumed2/archive/v2.5.2.tar.gz",
+ "version":"2.6.0"
+}

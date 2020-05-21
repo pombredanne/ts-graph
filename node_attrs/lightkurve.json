@@ -1,0 +1,620 @@
+{
+ "PRed":[
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.0.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.0.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.1.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.1.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/323480245.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.2.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/330698199.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.3.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/340279713.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.4.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/342367066.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.4.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/343769284.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.5.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/344773970.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.5.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/349600573.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.5.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/353719166.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.6.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/368830109.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.7.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/372754671.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.8.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/374869783.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MatplotlibBase",
+    "migrator_version":0,
+    "name":"matplotlib-to-matplotlib-base"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/379908200.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.9.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/393879298.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.9.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/418281172.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.10.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"lightkurve",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"Lightkurve is a community-developed, open-source Python package which offers\na beautiful and user-friendly way to analyze astronomical flux time series data,\nin particular the pixels and lightcurves obtained by NASA's Kepler and TESS exoplanet missions.\n",
+   "dev_url":"https://github.com/KeplerGO/lightkurve",
+   "doc_url":"https://docs.lightkurve.org",
+   "home":"https://docs.lightkurve.org",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"LICENSE",
+   "summary":"A friendly package for Kepler & TESS time series analysis in Python."
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":"-m pip install . --no-deps --ignore-installed --no-cache-dir -vvv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "gully",
+    "pkgw",
+    "barentsen",
+    "gully",
+    "pkgw",
+    "barentsen",
+    "gully",
+    "pkgw",
+    "barentsen"
+   ]
+  },
+  "package":{
+   "name":"lightkurve",
+   "version":"1.10.0"
+  },
+  "requirements":{
+   "host":[
+    "python",
+    "pip",
+    "pytest-runner",
+    "astropy >=1.3",
+    "astroquery >=0.3.9",
+    "beautifulsoup4",
+    "matplotlib-base >=1.5.3",
+    "numpy >=1.11",
+    "oktopus",
+    "pandas",
+    "bokeh >=1.0",
+    "requests",
+    "scipy >=0.19.0",
+    "tqdm >=4.25.0",
+    "scikit-learn",
+    "pybind11",
+    "celerite",
+    "uncertainties",
+    "patsy >=0.5.1",
+    "fbpca >=1.0",
+    "python",
+    "pip",
+    "pytest-runner",
+    "astropy >=1.3",
+    "astroquery >=0.3.9",
+    "beautifulsoup4",
+    "matplotlib-base >=1.5.3",
+    "numpy >=1.11",
+    "oktopus",
+    "pandas",
+    "bokeh >=1.0",
+    "requests",
+    "scipy >=0.19.0",
+    "tqdm >=4.25.0",
+    "scikit-learn",
+    "pybind11",
+    "celerite",
+    "uncertainties",
+    "patsy >=0.5.1",
+    "fbpca >=1.0",
+    "python",
+    "pip",
+    "pytest-runner",
+    "astropy >=1.3",
+    "astroquery >=0.3.9",
+    "beautifulsoup4",
+    "matplotlib-base >=1.5.3",
+    "numpy >=1.11",
+    "oktopus",
+    "pandas",
+    "bokeh >=1.0",
+    "requests",
+    "scipy >=0.19.0",
+    "tqdm >=4.25.0",
+    "scikit-learn",
+    "pybind11",
+    "celerite",
+    "uncertainties",
+    "patsy >=0.5.1",
+    "fbpca >=1.0"
+   ],
+   "run":[
+    "python",
+    "astropy >=1.3",
+    "astroquery >=0.3.9",
+    "beautifulsoup4",
+    "matplotlib-base >=1.5.3",
+    "numpy >=1.11",
+    "oktopus",
+    "pandas",
+    "bokeh >=1.0",
+    "requests",
+    "scipy >=0.19.0",
+    "tqdm >=4.25.0",
+    "scikit-learn",
+    "pybind11",
+    "celerite",
+    "uncertainties",
+    "patsy >=0.5.1",
+    "fbpca >=1.0",
+    "python",
+    "astropy >=1.3",
+    "astroquery >=0.3.9",
+    "beautifulsoup4",
+    "matplotlib-base >=1.5.3",
+    "numpy >=1.11",
+    "oktopus",
+    "pandas",
+    "bokeh >=1.0",
+    "requests",
+    "scipy >=0.19.0",
+    "tqdm >=4.25.0",
+    "scikit-learn",
+    "pybind11",
+    "celerite",
+    "uncertainties",
+    "patsy >=0.5.1",
+    "fbpca >=1.0",
+    "python",
+    "astropy >=1.3",
+    "astroquery >=0.3.9",
+    "beautifulsoup4",
+    "matplotlib-base >=1.5.3",
+    "numpy >=1.11",
+    "oktopus",
+    "pandas",
+    "bokeh >=1.0",
+    "requests",
+    "scipy >=0.19.0",
+    "tqdm >=4.25.0",
+    "scikit-learn",
+    "pybind11",
+    "celerite",
+    "uncertainties",
+    "patsy >=0.5.1",
+    "fbpca >=1.0"
+   ]
+  },
+  "source":{
+   "sha256":"2acd9e3b7b33fd9bf83e08157cd4a1b673e04815520bb9f9cfcd34aadd18f3c4",
+   "url":"https://pypi.io/packages/source/l/lightkurve/lightkurve-1.10.0.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "lightkurve",
+    "lightkurve",
+    "lightkurve"
+   ]
+  }
+ },
+ "name":"lightkurve",
+ "new_version":"1.10.0",
+ "new_version_attempts":{
+  "1.10.0":1
+ },
+ "new_version_errors":{},
+ "pinning_version":"2020.05.14.17.14.20",
+ "raw_meta_yaml":"{% set name = \"lightkurve\" %}\n{% set version = \"1.10.0\" %}\n{% set sha256 = \"2acd9e3b7b33fd9bf83e08157cd4a1b673e04815520bb9f9cfcd34aadd18f3c4\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 0\n  script: {{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv\n\nrequirements:\n  host:\n    - python\n    - pip\n    - pytest-runner\n    - astropy >=1.3\n    - astroquery >=0.3.9\n    - beautifulsoup4\n    - matplotlib-base >=1.5.3\n    - numpy >=1.11\n    - oktopus\n    - pandas\n    - bokeh >=1.0\n    - requests\n    - scipy >=0.19.0\n    - tqdm >=4.25.0\n    - scikit-learn\n    - pybind11\n    - celerite\n    - uncertainties\n    - patsy >=0.5.1\n    - fbpca >=1.0\n  run:\n    - python\n    - astropy >=1.3\n    - astroquery >=0.3.9\n    - beautifulsoup4\n    - matplotlib-base >=1.5.3\n    - numpy >=1.11\n    - oktopus\n    - pandas\n    - bokeh >=1.0\n    - requests\n    - scipy >=0.19.0\n    - tqdm >=4.25.0\n    - scikit-learn\n    - pybind11\n    - celerite\n    - uncertainties\n    - patsy >=0.5.1\n    - fbpca >=1.0\ntest:\n  imports:\n    - lightkurve\n\nabout:\n  home: https://docs.lightkurve.org\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE\n  summary: A friendly package for Kepler & TESS time series analysis in Python.\n\n  description: |\n    Lightkurve is a community-developed, open-source Python package which offers \n    a beautiful and user-friendly way to analyze astronomical flux time series data, \n    in particular the pixels and lightcurves obtained by NASA's Kepler and TESS exoplanet missions.\n  doc_url: https://docs.lightkurve.org\n  dev_url: https://github.com/KeplerGO/lightkurve\n\nextra:\n  recipe-maintainers:\n    - gully\n    - pkgw\n    - barentsen\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "astropy",
+   "astroquery",
+   "beautifulsoup4",
+   "bokeh",
+   "celerite",
+   "fbpca",
+   "matplotlib-base",
+   "numpy",
+   "oktopus",
+   "pandas",
+   "patsy",
+   "pip",
+   "pybind11",
+   "pytest-runner",
+   "python",
+   "requests",
+   "scikit-learn",
+   "scipy",
+   "tqdm",
+   "uncertainties"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "astropy",
+    "astroquery",
+    "beautifulsoup4",
+    "bokeh",
+    "celerite",
+    "fbpca",
+    "matplotlib-base",
+    "numpy",
+    "oktopus",
+    "pandas",
+    "patsy",
+    "pip",
+    "pybind11",
+    "pytest-runner",
+    "python",
+    "requests",
+    "scikit-learn",
+    "scipy",
+    "tqdm",
+    "uncertainties"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "astropy",
+    "astroquery",
+    "beautifulsoup4",
+    "bokeh",
+    "celerite",
+    "fbpca",
+    "matplotlib-base",
+    "numpy",
+    "oktopus",
+    "pandas",
+    "patsy",
+    "pybind11",
+    "python",
+    "requests",
+    "scikit-learn",
+    "scipy",
+    "tqdm",
+    "uncertainties"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.7.1\n",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "astropy >=1.3",
+    "astroquery >=0.3.9",
+    "beautifulsoup4",
+    "bokeh >=1.0",
+    "celerite",
+    "fbpca >=1.0",
+    "matplotlib-base >=1.5.3",
+    "numpy >=1.11",
+    "oktopus",
+    "pandas",
+    "patsy >=0.5.1",
+    "pip",
+    "pybind11",
+    "pytest-runner",
+    "python",
+    "requests",
+    "scikit-learn",
+    "scipy >=0.19.0",
+    "tqdm >=4.25.0",
+    "uncertainties"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "astropy >=1.3",
+    "astroquery >=0.3.9",
+    "beautifulsoup4",
+    "bokeh >=1.0",
+    "celerite",
+    "fbpca >=1.0",
+    "matplotlib-base >=1.5.3",
+    "numpy >=1.11",
+    "oktopus",
+    "pandas",
+    "patsy >=0.5.1",
+    "pybind11",
+    "python",
+    "requests",
+    "scikit-learn",
+    "scipy >=0.19.0",
+    "tqdm >=4.25.0",
+    "uncertainties"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/l/lightkurve/lightkurve-1.1.1.tar.gz",
+ "version":"1.10.0"
+}

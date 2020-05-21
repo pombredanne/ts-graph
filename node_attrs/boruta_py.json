@@ -1,0 +1,134 @@
+{
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"boruta_py",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"https://github.com/scikit-learn-contrib/boruta_py",
+   "license":"BSD-3-Clause",
+   "license_family":"BSD",
+   "license_file":"LICENSE",
+   "summary":"Python Implementation of Boruta Feature Selection"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "Ingvar-Y",
+    "Ingvar-Y",
+    "Ingvar-Y"
+   ]
+  },
+  "package":{
+   "name":"boruta_py",
+   "version":"0.3"
+  },
+  "requirements":{
+   "host":[
+    "python",
+    "pip",
+    "python",
+    "pip",
+    "python",
+    "pip"
+   ],
+   "run":[
+    "numpy >=1.10.4",
+    "python",
+    "scikit-learn >=0.17.1",
+    "scipy >=0.17.0",
+    "numpy >=1.10.4",
+    "python",
+    "scikit-learn >=0.17.1",
+    "scipy >=0.17.0",
+    "numpy >=1.10.4",
+    "python",
+    "scikit-learn >=0.17.1",
+    "scipy >=0.17.0"
+   ]
+  },
+  "source":{
+   "sha256":"06d42882a57a4db912e5b7b0b887427fbb6ee7e331d0c7c1f7c06a6658c99831",
+   "url":"https://pypi.io/packages/source/B/Boruta/Boruta-0.3.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "boruta",
+    "boruta",
+    "boruta"
+   ]
+  }
+ },
+ "name":"boruta_py",
+ "new_version":"0.3",
+ "raw_meta_yaml":"{% set version = \"0.3\" %}\n\npackage:\n  name: boruta_py\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/B/Boruta/Boruta-{{ version }}.tar.gz\n  sha256: 06d42882a57a4db912e5b7b0b887427fbb6ee7e331d0c7c1f7c06a6658c99831\n\nbuild:\n  noarch: python\n  number: 0\n  script: \"{{ PYTHON }} -m pip install . -vv\"\n\nrequirements:\n  host:\n    - python\n    - pip\n  run:\n    - numpy >=1.10.4\n    - python\n    - scikit-learn >=0.17.1\n    - scipy >=0.17.0\n\ntest:\n  imports:\n    - boruta\n\nabout:\n  home: https://github.com/scikit-learn-contrib/boruta_py\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: LICENSE\n  summary: 'Python Implementation of Boruta Feature Selection'\n\nextra:\n  recipe-maintainers:\n    - Ingvar-Y\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "numpy",
+   "pip",
+   "python",
+   "scikit-learn",
+   "scipy"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "numpy",
+    "python",
+    "scikit-learn",
+    "scipy"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "numpy >=1.10.4",
+    "python",
+    "scikit-learn >=0.17.1",
+    "scipy >=0.17.0"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/B/Boruta/Boruta-0.3.tar.gz",
+ "version":"0.3"
+}

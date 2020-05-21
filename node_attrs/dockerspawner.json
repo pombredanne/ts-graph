@@ -1,0 +1,178 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/257443652.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.11.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/273446320.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.11.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"dockerspawner",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"https://github.com/jupyterhub/dockerspawner",
+   "license":"BSD-3-Clause",
+   "license_family":"BSD",
+   "license_file":"LICENSE",
+   "summary":"Spawns JupyterHub single user servers in Docker containers "
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install --no-deps --ignore-installed --no-cache-dir -vv ."
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "dhirschfeld",
+    "rzillman",
+    "minrk",
+    "dhirschfeld",
+    "rzillman",
+    "minrk",
+    "dhirschfeld",
+    "rzillman",
+    "minrk"
+   ]
+  },
+  "package":{
+   "name":"dockerspawner",
+   "version":"0.11.1"
+  },
+  "requirements":{
+   "host":[
+    "python >=3.5",
+    "pip",
+    "python >=3.5",
+    "pip",
+    "python >=3.5",
+    "pip"
+   ],
+   "run":[
+    "python >=3.5",
+    "docker-py",
+    "escapism",
+    "jupyterhub >=0.4",
+    "python >=3.5",
+    "docker-py",
+    "escapism",
+    "jupyterhub >=0.4",
+    "python >=3.5",
+    "docker-py",
+    "escapism",
+    "jupyterhub >=0.4"
+   ]
+  },
+  "source":{
+   "sha256":"83fd8ee012bb32432cb57bd408ff65534749aed8696648e6ac029a87fc474928",
+   "url":"https://pypi.io/packages/source/d/dockerspawner/dockerspawner-0.11.1.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "dockerspawner",
+    "dockerspawner",
+    "dockerspawner"
+   ]
+  }
+ },
+ "name":"dockerspawner",
+ "new_version":"0.11.1",
+ "pinning_version":"2019.04.24",
+ "raw_meta_yaml":"{% set name = \"dockerspawner\" %}\n{% set version = \"0.11.1\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: 83fd8ee012bb32432cb57bd408ff65534749aed8696648e6ac029a87fc474928\n\nbuild:\n  noarch: python\n  number: 0\n  script: \"{{ PYTHON }} -m pip install --no-deps --ignore-installed --no-cache-dir -vv .\"\n\nrequirements:\n  host:\n    - python >=3.5\n    - pip\n  run:\n    - python >=3.5\n    - docker-py\n    - escapism\n    - jupyterhub >=0.4\n\ntest:\n  imports:\n    - dockerspawner\n\nabout:\n  home: https://github.com/jupyterhub/dockerspawner\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: LICENSE\n  summary: 'Spawns JupyterHub single user servers in Docker containers '\n\nextra:\n  recipe-maintainers:\n    - dhirschfeld\n    - rzillman\n    - minrk\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "docker-py",
+   "escapism",
+   "jupyterhub",
+   "pip",
+   "python"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "docker-py",
+    "escapism",
+    "jupyterhub",
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.3.3",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3.5"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "docker-py",
+    "escapism",
+    "jupyterhub >=0.4",
+    "python >=3.5"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/d/dockerspawner/dockerspawner-0.11.1.tar.gz",
+ "version":"0.11.1"
+}

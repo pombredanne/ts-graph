@@ -1,0 +1,599 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/201500222.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"18.7.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/221516659.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/222838536.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"18.9.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/256486031.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"ArchRebuild",
+    "migrator_version":1,
+    "name":"aarch64 and ppc64le addition"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/269169490.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"19.2.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/285831044.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"19.2.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/304532738.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"19.7.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/336030094.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"python38"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/339246619.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"19.10.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/391591196.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"20.3.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "provider":{
+   "linux_aarch64":"azure",
+   "linux_ppc64le":"azure",
+   "win":"azure"
+  }
+ },
+ "feedstock_name":"twisted",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"Twisted is an event-driven networking engine written in Python.\nIt runs on Python 2 and an ever growing subset also works with Python 3.\n",
+   "dev_url":"https://github.com/twisted/twisted",
+   "doc_source_url":"https://github.com/twisted/twisted/blob/trunk/docs/index.rst",
+   "doc_url":"http://twistedmatrix.com/documents/current/",
+   "home":"http://twistedmatrix.com/",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"LICENSE",
+   "summary":"An asynchronous networking framework written in Python"
+  },
+  "build":{
+   "entry_points":[
+    "ckeygen = twisted.conch.scripts.ckeygen:run",
+    "cftp = twisted.conch.scripts.cftp:run",
+    "conch = twisted.conch.scripts.conch:run",
+    "mailmail = twisted.mail.scripts.mailmail:run",
+    "pyhtmlizer = twisted.scripts.htmlizer:run",
+    "tkconch = twisted.conch.scripts.tkconch:run",
+    "trial = twisted.scripts.trial:run",
+    "twist = twisted.application.twist._twist:Twist.main",
+    "twistd = twisted.scripts.twistd:run",
+    "ckeygen = twisted.conch.scripts.ckeygen:run",
+    "cftp = twisted.conch.scripts.cftp:run",
+    "conch = twisted.conch.scripts.conch:run",
+    "mailmail = twisted.mail.scripts.mailmail:run",
+    "pyhtmlizer = twisted.scripts.htmlizer:run",
+    "tkconch = twisted.conch.scripts.tkconch:run",
+    "trial = twisted.scripts.trial:run",
+    "twist = twisted.application.twist._twist:Twist.main",
+    "twistd = twisted.scripts.twistd:run",
+    "ckeygen = twisted.conch.scripts.ckeygen:run",
+    "cftp = twisted.conch.scripts.cftp:run",
+    "conch = twisted.conch.scripts.conch:run",
+    "mailmail = twisted.mail.scripts.mailmail:run",
+    "pyhtmlizer = twisted.scripts.htmlizer:run",
+    "tkconch = twisted.conch.scripts.tkconch:run",
+    "trial = twisted.scripts.trial:run",
+    "twist = twisted.application.twist._twist:Twist.main",
+    "twistd = twisted.scripts.twistd:run"
+   ],
+   "number":"0",
+   "script":[
+    "del src\\twisted\\internet\\iocpreactor\\iocpsupport\\iocpsupport.c",
+    "pushd src\\twisted\\internet\\iocpreactor\\iocpsupport",
+    "cythonize -a -i iocpsupport.pyx",
+    "popd",
+    "-m pip install . --no-deps -vv",
+    "-m pip install . --no-deps -vv",
+    "-m pip install . --no-deps -vv"
+   ]
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "nehaljwani",
+    "ocefpaf",
+    "nehaljwani",
+    "ocefpaf",
+    "nehaljwani",
+    "ocefpaf"
+   ]
+  },
+  "package":{
+   "name":"twisted",
+   "version":"20.3.0"
+  },
+  "requirements":{
+   "build":[
+    "c_compiler_stub",
+    "c_compiler_stub",
+    "c_compiler_stub"
+   ],
+   "host":[
+    "python",
+    "pip",
+    "cython",
+    "incremental >=16.10.1",
+    "python",
+    "pip",
+    "cython",
+    "incremental >=16.10.1",
+    "python",
+    "pip",
+    "cython",
+    "incremental >=16.10.1"
+   ],
+   "run":[
+    "python",
+    "pip",
+    "attrs >=17.4.0",
+    "automat >=0.3.0",
+    "constantly >=15.1",
+    "hyperlink >=17.1.1",
+    "incremental >=16.10.1",
+    "pyhamcrest >=1.9.0",
+    "zope.interface >=4.4.2",
+    "pywin32",
+    "bcrypt",
+    "cryptography >=1.5",
+    "pyasn1",
+    "idna >=0.6,!=2.3",
+    "pyopenssl >=16.0.0",
+    "service_identity >=18.1.0",
+    "python",
+    "pip",
+    "attrs >=17.4.0",
+    "automat >=0.3.0",
+    "constantly >=15.1",
+    "hyperlink >=17.1.1",
+    "incremental >=16.10.1",
+    "pyhamcrest >=1.9.0",
+    "zope.interface >=4.4.2",
+    "bcrypt",
+    "cryptography >=1.5",
+    "pyasn1",
+    "idna >=0.6,!=2.3",
+    "pyopenssl >=16.0.0",
+    "service_identity >=18.1.0",
+    "python",
+    "pip",
+    "attrs >=17.4.0",
+    "automat >=0.3.0",
+    "constantly >=15.1",
+    "hyperlink >=17.1.1",
+    "incremental >=16.10.1",
+    "pyhamcrest >=1.9.0",
+    "zope.interface >=4.4.2",
+    "bcrypt",
+    "cryptography >=1.5",
+    "pyasn1",
+    "idna >=0.6,!=2.3",
+    "pyopenssl >=16.0.0",
+    "service_identity >=18.1.0"
+   ],
+   "run_constrained":[
+    "pyserial >=3.0",
+    "h2 >=3.0,<4.0",
+    "priority >=1.1.0,<2.0",
+    "pyserial >=3.0",
+    "pyobjc-core",
+    "pyobjc-framework-cocoa",
+    "h2 >=3.0,<4.0",
+    "priority >=1.1.0,<2.0",
+    "pyserial >=3.0",
+    "h2 >=3.0,<4.0",
+    "priority >=1.1.0,<2.0"
+   ]
+  },
+  "source":{
+   "sha256":"d72c55b5d56e176563b91d11952d13b01af8725c623e498db5507b6614fc1e10",
+   "url":"https://pypi.io/packages/source/T/Twisted/Twisted-20.3.0.tar.bz2"
+  },
+  "test":{
+   "commands":[
+    "ckeygen --help",
+    "pyhtmlizer --help",
+    "tkconch --help",
+    "trial --help",
+    "twist --help",
+    "twistd --help",
+    "ckeygen --help",
+    "cftp --help",
+    "conch --help",
+    "pyhtmlizer --help",
+    "trial --help",
+    "twist --help",
+    "twistd --help",
+    "ckeygen --help",
+    "cftp --help",
+    "conch --help",
+    "pyhtmlizer --help",
+    "trial --help",
+    "twist --help",
+    "twistd --help"
+   ],
+   "imports":[
+    "twisted",
+    "twisted._threads",
+    "twisted.application",
+    "twisted.application.runner",
+    "twisted.application.twist",
+    "twisted.conch",
+    "twisted.conch.client",
+    "twisted.conch.insults",
+    "twisted.conch.openssh_compat",
+    "twisted.conch.scripts",
+    "twisted.conch.ssh",
+    "twisted.conch.ui",
+    "twisted.cred",
+    "twisted.enterprise",
+    "twisted.internet",
+    "twisted.internet.iocpreactor",
+    "twisted.logger",
+    "twisted.mail",
+    "twisted.mail.scripts",
+    "twisted.names",
+    "twisted.pair",
+    "twisted.persisted",
+    "twisted.plugins",
+    "twisted.positioning",
+    "twisted.protocols",
+    "twisted.protocols.haproxy",
+    "twisted.python",
+    "twisted.runner",
+    "twisted.scripts",
+    "twisted.spread",
+    "twisted.tap",
+    "twisted.trial",
+    "twisted.trial._dist",
+    "twisted.web",
+    "twisted.web._auth",
+    "twisted.words",
+    "twisted.words.im",
+    "twisted.words.protocols",
+    "twisted.words.protocols.jabber",
+    "twisted.words.xish",
+    "twisted",
+    "twisted._threads",
+    "twisted.application",
+    "twisted.application.runner",
+    "twisted.application.twist",
+    "twisted.conch",
+    "twisted.conch.client",
+    "twisted.conch.insults",
+    "twisted.conch.openssh_compat",
+    "twisted.conch.scripts",
+    "twisted.conch.ssh",
+    "twisted.conch.ui",
+    "twisted.cred",
+    "twisted.enterprise",
+    "twisted.internet",
+    "twisted.logger",
+    "twisted.mail",
+    "twisted.mail.scripts",
+    "twisted.names",
+    "twisted.pair",
+    "twisted.persisted",
+    "twisted.plugins",
+    "twisted.positioning",
+    "twisted.protocols",
+    "twisted.protocols.haproxy",
+    "twisted.python",
+    "twisted.runner",
+    "twisted.scripts",
+    "twisted.spread",
+    "twisted.tap",
+    "twisted.trial",
+    "twisted.trial._dist",
+    "twisted.web",
+    "twisted.web._auth",
+    "twisted.words",
+    "twisted.words.im",
+    "twisted.words.protocols",
+    "twisted.words.protocols.jabber",
+    "twisted.words.xish",
+    "twisted",
+    "twisted._threads",
+    "twisted.application",
+    "twisted.application.runner",
+    "twisted.application.twist",
+    "twisted.conch",
+    "twisted.conch.client",
+    "twisted.conch.insults",
+    "twisted.conch.openssh_compat",
+    "twisted.conch.scripts",
+    "twisted.conch.ssh",
+    "twisted.conch.ui",
+    "twisted.cred",
+    "twisted.enterprise",
+    "twisted.internet",
+    "twisted.logger",
+    "twisted.mail",
+    "twisted.mail.scripts",
+    "twisted.names",
+    "twisted.pair",
+    "twisted.persisted",
+    "twisted.plugins",
+    "twisted.positioning",
+    "twisted.protocols",
+    "twisted.protocols.haproxy",
+    "twisted.python",
+    "twisted.runner",
+    "twisted.scripts",
+    "twisted.spread",
+    "twisted.tap",
+    "twisted.trial",
+    "twisted.trial._dist",
+    "twisted.web",
+    "twisted.web._auth",
+    "twisted.words",
+    "twisted.words.im",
+    "twisted.words.protocols",
+    "twisted.words.protocols.jabber",
+    "twisted.words.xish"
+   ]
+  }
+ },
+ "name":"twisted",
+ "new_version":"20.3.0",
+ "pinning_version":"2020.03.20",
+ "raw_meta_yaml":"{% set version = \"20.3.0\" %}\n\npackage:\n  name: twisted\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/T/Twisted/Twisted-{{ version }}.tar.bz2\n  sha256: d72c55b5d56e176563b91d11952d13b01af8725c623e498db5507b6614fc1e10\n\nbuild:\n  number: 0\n  entry_points:\n    - ckeygen = twisted.conch.scripts.ckeygen:run\n    - cftp = twisted.conch.scripts.cftp:run\n    - conch = twisted.conch.scripts.conch:run\n    - mailmail = twisted.mail.scripts.mailmail:run\n    - pyhtmlizer = twisted.scripts.htmlizer:run\n    - tkconch = twisted.conch.scripts.tkconch:run\n    - trial = twisted.scripts.trial:run\n    - twist = twisted.application.twist._twist:Twist.main\n    - twistd = twisted.scripts.twistd:run\n  script:\n    - del src\\twisted\\internet\\iocpreactor\\iocpsupport\\iocpsupport.c  # [win]\n    - pushd src\\twisted\\internet\\iocpreactor\\iocpsupport  # [win]\n    - cythonize -a -i iocpsupport.pyx  # [win]\n    - popd  # [win]\n    - {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  build:\n    - {{ compiler('c') }}\n  host:\n    - python\n    - pip\n    - cython\n    - incremental >=16.10.1\n  run:\n    - python\n    - pip\n    - attrs >=17.4.0\n    - automat >=0.3.0\n    - constantly >=15.1\n    - hyperlink >=17.1.1\n    - incremental >=16.10.1\n    - pyhamcrest >=1.9.0\n    - zope.interface >=4.4.2\n    - pywin32  # [win]\n    # conch deps\n    - bcrypt\n    - cryptography >=1.5\n    - pyasn1\n    # tls deps\n    - idna >=0.6,!=2.3\n    - pyopenssl >=16.0.0\n    - service_identity >=18.1.0\n  run_constrained:\n    # Moved all the crypto and tls stuff under 'run'\n    - soappy  # [py2k and win]\n    - pyserial >=3.0\n    - pyobjc-core  # [osx]\n    - pyobjc-framework-cocoa  # [osx]\n    # - pyobjc-framework-CFNetwork  # [osx]\n    - h2 >=3.0,<4.0\n    - priority >=1.1.0,<2.0\n\ntest:\n  imports:\n    - twisted\n    - twisted._threads\n    - twisted.application\n    - twisted.application.runner\n    - twisted.application.twist\n    - twisted.conch\n    - twisted.conch.client\n    - twisted.conch.insults\n    - twisted.conch.openssh_compat\n    - twisted.conch.scripts\n    - twisted.conch.ssh\n    - twisted.conch.ui\n    - twisted.cred\n    - twisted.enterprise\n    - twisted.internet\n    - twisted.internet.iocpreactor  # [win]\n    - twisted.logger\n    - twisted.mail\n    - twisted.mail.scripts\n    - twisted.names\n    - twisted.news  # [py2k]\n    - twisted.pair\n    - twisted.persisted\n    - twisted.plugins\n    - twisted.positioning\n    - twisted.protocols\n    - twisted.protocols.haproxy\n    - twisted.python\n    - twisted.runner\n    - twisted.scripts\n    - twisted.spread\n    - twisted.tap\n    - twisted.trial\n    - twisted.trial._dist\n    - twisted.web\n    - twisted.web._auth\n    - twisted.words\n    - twisted.words.im\n    - twisted.words.protocols\n    - twisted.words.protocols.jabber\n    - twisted.words.xish\n  commands:\n    - ckeygen --help\n    # https://twistedmatrix.com/trac/ticket/1679\n    - cftp --help  # [not win]\n    - conch --help  # [not win]\n    # not sure how to test this one\n    # - mailmail --help\n    - pyhtmlizer --help\n    # Requires $DISPLAY (xvfb-run?)\n    - tkconch --help  # [win]\n    - trial --help\n    - twist --help\n    - twistd --help\n\nabout:\n  home: http://twistedmatrix.com/\n  license: MIT\n  license_file: LICENSE\n  license_family: MIT\n  summary: An asynchronous networking framework written in Python\n  description: |\n    Twisted is an event-driven networking engine written in Python.\n    It runs on Python 2 and an ever growing subset also works with Python 3.\n  doc_url: http://twistedmatrix.com/documents/current/\n  doc_source_url: https://github.com/twisted/twisted/blob/trunk/docs/index.rst\n  dev_url: https://github.com/twisted/twisted\n\nextra:\n  recipe-maintainers:\n    - nehaljwani\n    - ocefpaf\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "attrs",
+   "automat",
+   "bcrypt",
+   "c_compiler_stub",
+   "constantly",
+   "cryptography",
+   "cython",
+   "hyperlink",
+   "idna",
+   "incremental",
+   "pip",
+   "pyasn1",
+   "pyhamcrest",
+   "pyopenssl",
+   "python",
+   "pywin32",
+   "service_identity",
+   "zope.interface"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "cython",
+    "incremental",
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "attrs",
+    "automat",
+    "bcrypt",
+    "constantly",
+    "cryptography",
+    "hyperlink",
+    "idna",
+    "incremental",
+    "pip",
+    "pyasn1",
+    "pyhamcrest",
+    "pyopenssl",
+    "python",
+    "pywin32",
+    "service_identity",
+    "zope.interface"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.6.14",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "cython",
+    "incremental >=16.10.1",
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "attrs >=17.4.0",
+    "automat >=0.3.0",
+    "bcrypt",
+    "constantly >=15.1",
+    "cryptography >=1.5",
+    "hyperlink >=17.1.1",
+    "idna >=0.6,!=2.3",
+    "incremental >=16.10.1",
+    "pip",
+    "pyasn1",
+    "pyhamcrest >=1.9.0",
+    "pyopenssl >=16.0.0",
+    "python",
+    "pywin32",
+    "service_identity >=18.1.0",
+    "zope.interface >=4.4.2"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/T/Twisted/Twisted-19.7.0.tar.bz2",
+ "version":"20.3.0"
+}

@@ -1,0 +1,691 @@
+{
+ "PRed":[
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.7.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/224549071.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.7.4"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/233364567.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/256642192.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.7.5"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/263813574.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.7.6"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/269342406.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Rebuild",
+    "migrator_version":0,
+    "name":"proj4-6.0.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/276980926.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Rebuild",
+    "migrator_version":0,
+    "name":"qt-5.9.7"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/280783975.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.8.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/280864400.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Rebuild",
+    "migrator_version":0,
+    "name":"proj4-6.1.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/284186211.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Rebuild",
+    "migrator_version":0,
+    "name":"pyqt-5.9.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/298941506.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.8.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/307067648.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Rebuild",
+    "migrator_version":0,
+    "name":"proj4-6.1.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/307656889.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.8.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/324610968.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.8.3"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/325360871.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Rebuild",
+    "migrator_version":0,
+    "name":"qt-5.12"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/333044212.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.9.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/346460322.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"python38"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/375168737.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MatplotlibBase",
+    "migrator_version":0,
+    "name":"matplotlib-to-matplotlib-base"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "compiler_stack":"comp7",
+  "max_py_ver":"37",
+  "max_r_ver":"35",
+  "provider":{
+   "win":"azure"
+  }
+ },
+ "feedstock_name":"mss",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"MSS - Mission Support System\n\nDocumentation:\n* https://mss.rtfd.io\n* http://www.geosci-model-dev.net/5/55/2012/gmd-5-55-2012.pdf\n\nSoftware for planning research Aircraft Missions.\nFor discussion of the possibilites of the research flights,\nthe Mission Support System (MSS) was developed.\nThis software helps to review a big amount of metereological and\nmodel data by viewing the forecasted parameters of interest along possible regions\nof a proposed flight path. Data and possible flight paths can\nbe displayed on a hoizontal view (map projection) or on a vertical\nview (along the proposed flight path). Flight paths can be constructed\nand modified on these views. Exchange through a waypoint table is also possible.\n",
+   "home":"https://bitbucket.org/wxmetvis/mss",
+   "license":"Apache 2.0",
+   "license_family":"APACHE",
+   "license_file":"LICENSE",
+   "summary":"A QT application and a OGC web server to plan atmospheric research flights."
+  },
+  "build":{
+   "entry_points":[
+    "mss = mslib.msui.mss_pyui:main",
+    "mswms = mslib.mswms.mswms:main",
+    "mswms_demodata = mslib.mswms.demodata:main",
+    "mscolab = mslib.mscolab.server:main",
+    "mscolab_demodata = mslib.mscolab.demodata:main",
+    "mscolab_add_permissions = mslib.mscolab.add_bulk_permissions:main",
+    "mss = mslib.msui.mss_pyui:main",
+    "mswms = mslib.mswms.mswms:main",
+    "mswms_demodata = mslib.mswms.demodata:main",
+    "mscolab = mslib.mscolab.server:main",
+    "mscolab_demodata = mslib.mscolab.demodata:main",
+    "mscolab_add_permissions = mslib.mscolab.add_bulk_permissions:main",
+    "mss = mslib.msui.mss_pyui:main",
+    "mswms = mslib.mswms.mswms:main",
+    "mswms_demodata = mslib.mswms.demodata:main",
+    "mscolab = mslib.mscolab.server:main",
+    "mscolab_demodata = mslib.mscolab.demodata:main",
+    "mscolab_add_permissions = mslib.mscolab.add_bulk_permissions:main"
+   ],
+   "number":"1",
+   "script":" -m pip install . --no-deps -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "ReimarBauer",
+    "ReimarBauer",
+    "ReimarBauer"
+   ]
+  },
+  "package":{
+   "name":"mss",
+   "version":"1.9.2"
+  },
+  "requirements":{
+   "host":[
+    "python",
+    "pip",
+    "future",
+    "menuinst",
+    "python",
+    "pip",
+    "future",
+    "python",
+    "pip",
+    "future"
+   ],
+   "run":[
+    "python",
+    "defusedxml",
+    "menuinst",
+    "basemap >=1.2.0",
+    "chameleon",
+    "execnet",
+    "isodate",
+    "lxml",
+    "netcdf4",
+    "hdf4",
+    "pillow >=5,<6",
+    "pytz",
+    "pyqt >=5,<6",
+    "qt >=5,<6",
+    "requests",
+    "scipy",
+    "skyfield >=1.12",
+    "tk",
+    "owslib",
+    "unicodecsv",
+    "fs_filepicker",
+    "cftime >=1.0.1",
+    "matplotlib ==3.0.2",
+    "proj4 <6",
+    "flask",
+    "flask-httpauth",
+    "werkzeug",
+    "flask-socketio",
+    "flask-sqlalchemy",
+    "passlib",
+    "gitpython",
+    "git",
+    "psycopg2",
+    "validate_email",
+    "multidict",
+    "pint",
+    "python-socketio >=4.4.0",
+    "python",
+    "defusedxml",
+    "basemap >=1.2.0",
+    "chameleon",
+    "execnet",
+    "isodate",
+    "lxml",
+    "netcdf4",
+    "hdf4",
+    "pillow >=5,<6",
+    "pytz",
+    "pyqt >=5,<6",
+    "qt >=5,<6",
+    "requests",
+    "scipy",
+    "skyfield >=1.12",
+    "tk",
+    "owslib",
+    "unicodecsv",
+    "fs_filepicker",
+    "cftime >=1.0.1",
+    "matplotlib ==3.0.2",
+    "proj4 <6",
+    "flask",
+    "flask-httpauth",
+    "werkzeug",
+    "flask-socketio",
+    "flask-sqlalchemy",
+    "passlib",
+    "gitpython",
+    "git",
+    "psycopg2",
+    "validate_email",
+    "multidict",
+    "pint",
+    "python-socketio >=4.4.0",
+    "python",
+    "defusedxml",
+    "basemap >=1.2.0",
+    "chameleon",
+    "execnet",
+    "isodate",
+    "lxml",
+    "netcdf4",
+    "hdf4",
+    "pillow >=5,<6",
+    "pytz",
+    "pyqt >=5,<6",
+    "qt >=5,<6",
+    "requests",
+    "scipy",
+    "skyfield >=1.12",
+    "tk",
+    "owslib",
+    "unicodecsv",
+    "fs_filepicker",
+    "cftime >=1.0.1",
+    "matplotlib ==3.0.2",
+    "proj4 <6",
+    "flask",
+    "flask-httpauth",
+    "werkzeug",
+    "flask-socketio",
+    "flask-sqlalchemy",
+    "passlib",
+    "gitpython",
+    "git",
+    "psycopg2",
+    "validate_email",
+    "multidict",
+    "pint",
+    "python-socketio >=4.4.0"
+   ]
+  },
+  "source":{
+   "patches":[
+    "mss_pyui_set_proj_lib_data_dir.patch",
+    "mss_pyui_set_proj_lib_data_dir.patch",
+    "mss_pyui_set_proj_lib_data_dir.patch"
+   ],
+   "sha256":"48ba67130e387b002934f4c16a3495a01baf4ecbef0b3995b7c815364816f66c",
+   "url":"https://bitbucket.org/wxmetvis/mss/get/1.9.2.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "mswms -h",
+    "mss -h",
+    "mscolab_demodata -h",
+    "mswms -h",
+    "mss -h",
+    "mscolab_demodata -h",
+    "mswms -h",
+    "mss -h",
+    "mscolab_demodata -h"
+   ],
+   "imports":[
+    "mslib",
+    "mslib",
+    "mslib"
+   ]
+  }
+ },
+ "name":"mss",
+ "new_version":"1.9.0",
+ "pinning_version":"2020.02.12",
+ "raw_meta_yaml":"{% set version = \"1.9.2\" %}\n\npackage:\n  name: mss\n  version: {{ version }}\n\nsource:\n  url: https://bitbucket.org/wxmetvis/mss/get/{{ version }}.tar.gz\n  sha256: 48ba67130e387b002934f4c16a3495a01baf4ecbef0b3995b7c815364816f66c\n  patches:\n    # start without environment by a application menu needs a PROJ_LIB env too\n    - mss_pyui_set_proj_lib_data_dir.patch\n\nbuild:\n  skip: true  # [py27]\n  number: 1\n  script: \"{{ PYTHON }} -m pip install . --no-deps -vv\"  # [not win]\n  entry_points:\n    - mss = mslib.msui.mss_pyui:main\n    - mswms = mslib.mswms.mswms:main\n    - mswms_demodata = mslib.mswms.demodata:main\n    - mscolab = mslib.mscolab.server:main\n    - mscolab_demodata = mslib.mscolab.demodata:main\n    - mscolab_add_permissions = mslib.mscolab.add_bulk_permissions:main\n\nrequirements:\n  host:\n    - python\n    - pip\n    - future\n    - menuinst  # [win]\n  run:\n    - python\n    - defusedxml\n    - menuinst  # [win]\n    - basemap >=1.2.0\n    - chameleon\n    - execnet\n    - isodate\n    - lxml\n    - netcdf4\n    - hdf4\n    - pillow >=5,<6\n    - pytz\n    - pyqt >=5,<6\n    - qt >=5,<6\n    - requests\n    - scipy\n    - skyfield >=1.12\n    - tk\n    - owslib\n    - unicodecsv\n    - fs_filepicker\n    - cftime >=1.0.1\n    - matplotlib ==3.0.2\n    - proj4 <6\n    - flask\n    - flask-httpauth\n    - werkzeug\n    - flask-socketio\n    - flask-sqlalchemy\n    - passlib\n    - gitpython\n    - git\n    - psycopg2\n    - validate_email\n    - multidict\n    - pint\n    - python-socketio >=4.4.0\n\ntest:\n  imports:\n    - mslib\n  commands:\n    - mswms -h\n    - mss -h\n    - mscolab_demodata -h\n\nabout:\n  summary: 'A QT application and a OGC web server to plan atmospheric research flights.'\n  home: https://bitbucket.org/wxmetvis/mss\n  license: \"Apache 2.0\"\n  license_family: \"APACHE\"\n  license_file: LICENSE\n  description: |\n    MSS - Mission Support System\n\n    Documentation:\n    * https://mss.rtfd.io\n    * http://www.geosci-model-dev.net/5/55/2012/gmd-5-55-2012.pdf\n\n    Software for planning research Aircraft Missions.\n    For discussion of the possibilites of the research flights,\n    the Mission Support System (MSS) was developed.\n    This software helps to review a big amount of metereological and\n    model data by viewing the forecasted parameters of interest along possible regions\n    of a proposed flight path. Data and possible flight paths can\n    be displayed on a hoizontal view (map projection) or on a vertical\n    view (along the proposed flight path). Flight paths can be constructed\n    and modified on these views. Exchange through a waypoint table is also possible.\n\nextra:\n  recipe-maintainers:\n    - ReimarBauer\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "basemap",
+   "cftime",
+   "chameleon",
+   "defusedxml",
+   "execnet",
+   "flask",
+   "flask-httpauth",
+   "flask-socketio",
+   "flask-sqlalchemy",
+   "fs_filepicker",
+   "future",
+   "git",
+   "gitpython",
+   "hdf4",
+   "isodate",
+   "lxml",
+   "matplotlib",
+   "menuinst",
+   "multidict",
+   "netcdf4",
+   "owslib",
+   "passlib",
+   "pillow",
+   "pint",
+   "pip",
+   "proj4",
+   "psycopg2",
+   "pyqt",
+   "python",
+   "python-socketio",
+   "pytz",
+   "qt",
+   "requests",
+   "scipy",
+   "skyfield",
+   "tk",
+   "unicodecsv",
+   "validate_email",
+   "werkzeug"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "future",
+    "menuinst",
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "basemap",
+    "cftime",
+    "chameleon",
+    "defusedxml",
+    "execnet",
+    "flask",
+    "flask-httpauth",
+    "flask-socketio",
+    "flask-sqlalchemy",
+    "fs_filepicker",
+    "git",
+    "gitpython",
+    "hdf4",
+    "isodate",
+    "lxml",
+    "matplotlib",
+    "menuinst",
+    "multidict",
+    "netcdf4",
+    "owslib",
+    "passlib",
+    "pillow",
+    "pint",
+    "proj4",
+    "psycopg2",
+    "pyqt",
+    "python",
+    "python-socketio",
+    "pytz",
+    "qt",
+    "requests",
+    "scipy",
+    "skyfield",
+    "tk",
+    "unicodecsv",
+    "validate_email",
+    "werkzeug"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.6.8",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "future",
+    "menuinst",
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "basemap >=1.2.0",
+    "cftime >=1.0.1",
+    "chameleon",
+    "defusedxml",
+    "execnet",
+    "flask",
+    "flask-httpauth",
+    "flask-socketio",
+    "flask-sqlalchemy",
+    "fs_filepicker",
+    "git",
+    "gitpython",
+    "hdf4",
+    "isodate",
+    "lxml",
+    "matplotlib ==3.0.2",
+    "menuinst",
+    "multidict",
+    "netcdf4",
+    "owslib",
+    "passlib",
+    "pillow >=5,<6",
+    "pint",
+    "proj4 <6",
+    "psycopg2",
+    "pyqt >=5,<6",
+    "python",
+    "python-socketio >=4.4.0",
+    "pytz",
+    "qt >=5,<6",
+    "requests",
+    "scipy",
+    "skyfield >=1.12",
+    "tk",
+    "unicodecsv",
+    "validate_email",
+    "werkzeug"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://bitbucket.org/wxmetvis/mss/get/1.8.2.tar.gz",
+ "version":"1.9.2"
+}

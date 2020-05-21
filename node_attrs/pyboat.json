@@ -1,0 +1,287 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/409533790.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MatplotlibBase",
+    "migrator_version":0,
+    "name":"matplotlib-to-matplotlib-base"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/410403356.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.7.4.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/410618080.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.7.4.3"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "head":{
+     "ref":"<this_is_not_a_branch>"
+    },
+    "state":"closed"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.7.4.4"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/418133812.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.7.6"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/419462874.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.7.6.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"pyboat",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"Interactive time-frequency analysis for biological data\nusing wavelets. Features optimal sinc filter for\ndetrending and provides phase, period and amplitude\nextraction of non-stationary oscillatory signals.",
+   "dev_url":"https://github.com/tensionhead/pyboat",
+   "home":"https://github.com/tensionhead/pyboat",
+   "license":"GPL-3.0-or-later",
+   "license_file":"LICENSE",
+   "summary":"pyBOAT - A Biological Oscillations Analysis Toolkit"
+  },
+  "app":{
+   "entry":"pyBOAT",
+   "icon":"logo_96x96.png",
+   "summary":"pyBOAT GUI - Interactive wavelet analysis for biological data. Provides phase, period and amplitude extraction of non-stationary oscillatory signals.'",
+   "type":"desk"
+  },
+  "build":{
+   "entry_points":[
+    "pyboat = pyboat:main",
+    "pyboat = pyboat:main",
+    "pyboat = pyboat:main"
+   ],
+   "noarch":"python",
+   "number":"0",
+   "script":"-m pip install . -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "tensionhead",
+    "tensionhead",
+    "tensionhead"
+   ]
+  },
+  "package":{
+   "name":"pyboat",
+   "version":"0.7.6.1"
+  },
+  "requirements":{
+   "host":[
+    "pip",
+    "python",
+    "flit-core >=2.3",
+    "pip",
+    "python",
+    "flit-core >=2.3",
+    "pip",
+    "python",
+    "flit-core >=2.3"
+   ],
+   "run":[
+    "matplotlib >=3.1",
+    "numpy >=1.18",
+    "pandas >=0.25",
+    "pyqt >=5.9",
+    "python",
+    "scipy >=1.4",
+    "flit-core >=2.3",
+    "matplotlib >=3.1",
+    "numpy >=1.18",
+    "pandas >=0.25",
+    "pyqt >=5.9",
+    "python",
+    "scipy >=1.4",
+    "flit-core >=2.3",
+    "matplotlib >=3.1",
+    "numpy >=1.18",
+    "pandas >=0.25",
+    "pyqt >=5.9",
+    "python",
+    "scipy >=1.4",
+    "flit-core >=2.3"
+   ]
+  },
+  "source":{
+   "sha256":"99edf181c840789a43388d8a6e163d56bf32ab78705797bc138734e5c7d843be",
+   "url":"https://pypi.io/packages/source/p/pyboat/pyboat-0.7.6.1.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "pyboat",
+    "pyboat",
+    "pyboat"
+   ]
+  }
+ },
+ "name":"pyboat",
+ "new_version":"0.7.6.1",
+ "new_version_attempts":{
+  "0.7.4.1":1,
+  "0.7.4.2":1,
+  "0.7.4.3":1,
+  "0.7.4.4":1,
+  "0.7.6":1,
+  "0.7.6.1":1
+ },
+ "new_version_errors":{},
+ "pinning_version":"2020.05.18.07.24.43",
+ "raw_meta_yaml":"{% set name = \"pyboat\" %}\n{% set version = \"0.7.6.1\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: 99edf181c840789a43388d8a6e163d56bf32ab78705797bc138734e5c7d843be\n\nbuild:\n  number: 0\n  noarch: python\n  entry_points:\n    - pyboat = pyboat:main\n  script: {{ PYTHON }} -m pip install . -vv\n\nrequirements:\n  host:\n    - pip\n    - python\n    - flit-core >=2.3\n  run:\n    - matplotlib >=3.1\n    - numpy >=1.18\n    - pandas >=0.25\n    - pyqt >=5.9\n    - python\n    - scipy >=1.4\n    - flit-core >=2.3\n\ntest:\n  imports:\n    - pyboat\n\napp:\n  entry: pyBOAT\n  summary: pyBOAT GUI - Interactive wavelet analysis for biological data. Provides phase, period and amplitude extraction of non-stationary oscillatory signals.'\n  type: desk\n  icon: logo_96x96.png\n\nabout:\n  home: https://github.com/tensionhead/pyboat\n  license: GPL-3.0-or-later\n  license_file: LICENSE\n  summary: pyBOAT - A Biological Oscillations Analysis Toolkit\n  description: \"Interactive time-frequency analysis for biological data\\nusing wavelets. Features optimal sinc filter for\\ndetrending and provides phase, period and amplitude\\nextraction of non-stationary oscillatory signals.\"\n  dev_url: https://github.com/tensionhead/pyboat\n\nextra:\n  recipe-maintainers:\n    - tensionhead\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "flit-core",
+   "matplotlib",
+   "numpy",
+   "pandas",
+   "pip",
+   "pyqt",
+   "python",
+   "scipy"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "flit-core",
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "flit-core",
+    "matplotlib",
+    "numpy",
+    "pandas",
+    "pyqt",
+    "python",
+    "scipy"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.7.2\n",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "flit-core >=2.3",
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "flit-core >=2.3",
+    "matplotlib >=3.1",
+    "numpy >=1.18",
+    "pandas >=0.25",
+    "pyqt >=5.9",
+    "python",
+    "scipy >=1.4"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/p/pyboat/pyboat-0.7.3.tar.gz",
+ "version":"0.7.6.1"
+}

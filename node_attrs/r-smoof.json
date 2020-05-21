@@ -1,0 +1,391 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/363668483.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.6.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/370110960.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.6.0.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/376501018.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.6.0.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/413854922.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":2,
+    "migrator_version":0,
+    "name":"r400"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "bot":{
+   "automerge":true
+  },
+  "provider":{
+   "win":"azure"
+  }
+ },
+ "feedstock_name":"r-smoof",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"https://github.com/jakobbossek/smoof",
+   "license":"BSD_2_clause",
+   "license_family":"BSD",
+   "license_file":[
+    "/lib/R/share/licenses/BSD_2_clause",
+    "LICENSE",
+    "/lib/R/share/licenses/BSD_2_clause",
+    "LICENSE",
+    "/lib/R/share/licenses/BSD_2_clause",
+    "LICENSE"
+   ],
+   "summary":"Provides generators for a high number of both single- and multi- objective test functions which are frequently used for the benchmarking of (numerical) optimization algorithms. Moreover, it offers a set of convenient functions to generate, plot and work with objective functions."
+  },
+  "build":{
+   "merge_build_host":true,
+   "number":"1",
+   "rpaths":[
+    "lib/R/lib/",
+    "lib/",
+    "lib/R/lib/",
+    "lib/",
+    "lib/R/lib/",
+    "lib/"
+   ]
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "conda-forge/r",
+    "khughitt",
+    "conda-forge/r",
+    "khughitt",
+    "conda-forge/r",
+    "khughitt"
+   ]
+  },
+  "package":{
+   "name":"r-smoof",
+   "version":"1.6.0.2"
+  },
+  "requirements":{
+   "build":[
+    "m2w64_c_compiler_stub",
+    "m2w64_cxx_compiler_stub",
+    "filesystem",
+    "make",
+    "sed",
+    "coreutils",
+    "zip",
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "make",
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "make"
+   ],
+   "host":[
+    "r-base",
+    "r-bbmisc >=1.6",
+    "r-paramhelpers >=1.8",
+    "r-rcolorbrewer",
+    "r-rjsonio",
+    "r-rcpp >=0.11.0",
+    "r-rcpparmadillo",
+    "r-checkmate >=1.1",
+    "r-ggplot2 >=2.2.1",
+    "r-mco",
+    "r-plot3d",
+    "r-plotly",
+    "r-base",
+    "r-bbmisc >=1.6",
+    "r-paramhelpers >=1.8",
+    "r-rcolorbrewer",
+    "r-rjsonio",
+    "r-rcpp >=0.11.0",
+    "r-rcpparmadillo",
+    "r-checkmate >=1.1",
+    "r-ggplot2 >=2.2.1",
+    "r-mco",
+    "r-plot3d",
+    "r-plotly",
+    "r-base",
+    "r-bbmisc >=1.6",
+    "r-paramhelpers >=1.8",
+    "r-rcolorbrewer",
+    "r-rjsonio",
+    "r-rcpp >=0.11.0",
+    "r-rcpparmadillo",
+    "r-checkmate >=1.1",
+    "r-ggplot2 >=2.2.1",
+    "r-mco",
+    "r-plot3d",
+    "r-plotly"
+   ],
+   "run":[
+    "r-base",
+    "gcc-libs",
+    "r-bbmisc >=1.6",
+    "r-paramhelpers >=1.8",
+    "r-rcolorbrewer",
+    "r-rjsonio",
+    "r-rcpp >=0.11.0",
+    "r-rcpparmadillo",
+    "r-checkmate >=1.1",
+    "r-ggplot2 >=2.2.1",
+    "r-mco",
+    "r-plot3d",
+    "r-plotly",
+    "r-base",
+    "r-bbmisc >=1.6",
+    "r-paramhelpers >=1.8",
+    "r-rcolorbrewer",
+    "r-rjsonio",
+    "r-rcpp >=0.11.0",
+    "r-rcpparmadillo",
+    "r-checkmate >=1.1",
+    "r-ggplot2 >=2.2.1",
+    "r-mco",
+    "r-plot3d",
+    "r-plotly",
+    "r-base",
+    "r-bbmisc >=1.6",
+    "r-paramhelpers >=1.8",
+    "r-rcolorbrewer",
+    "r-rjsonio",
+    "r-rcpp >=0.11.0",
+    "r-rcpparmadillo",
+    "r-checkmate >=1.1",
+    "r-ggplot2 >=2.2.1",
+    "r-mco",
+    "r-plot3d",
+    "r-plotly"
+   ]
+  },
+  "source":{
+   "sha256":"d82dba9702eade00afb84c2c12167de6cec790be7d23ac227f8fe705bdcefc93",
+   "url":[
+    "https://cran.r-project.org/src/contrib/smoof_1.6.0.2.tar.gz",
+    "https://cran.r-project.org/src/contrib/Archive/smoof/smoof_1.6.0.2.tar.gz",
+    "https://cran.r-project.org/src/contrib/smoof_1.6.0.2.tar.gz",
+    "https://cran.r-project.org/src/contrib/Archive/smoof/smoof_1.6.0.2.tar.gz",
+    "https://cran.r-project.org/src/contrib/smoof_1.6.0.2.tar.gz",
+    "https://cran.r-project.org/src/contrib/Archive/smoof/smoof_1.6.0.2.tar.gz"
+   ]
+  },
+  "test":{
+   "commands":[
+    "\"%R%\" -e \"library('smoof')\"",
+    "$R -e \"library('smoof')\"",
+    "$R -e \"library('smoof')\""
+   ]
+  }
+ },
+ "name":"r-smoof",
+ "new_version":"1.6.0.2",
+ "pinning_version":"2020.05.04.19.59.17",
+ "raw_meta_yaml":"{% set version = \"1.6.0.2\" %}\n{% set posix = 'm2-' if win else '' %}\n{% set native = 'm2w64-' if win else '' %}\n\npackage:\n  name: r-smoof\n  version: {{ version|replace(\"-\", \"_\") }}\n\nsource:\n  url:\n    - {{ cran_mirror }}/src/contrib/smoof_{{ version }}.tar.gz\n    - {{ cran_mirror }}/src/contrib/Archive/smoof/smoof_{{ version }}.tar.gz\n  sha256: d82dba9702eade00afb84c2c12167de6cec790be7d23ac227f8fe705bdcefc93\n\nbuild:\n  merge_build_host: True  # [win]\n  number: 1\n  rpaths:\n    - lib/R/lib/\n    - lib/\n\nrequirements:\n  build:\n    - {{ compiler('c') }}              # [not win]\n    - {{ compiler('m2w64_c') }}        # [win]\n    - {{ compiler('cxx') }}            # [not win]\n    - {{ compiler('m2w64_cxx') }}      # [win]\n    - {{ posix }}filesystem        # [win]\n    - {{ posix }}make\n    - {{ posix }}sed               # [win]\n    - {{ posix }}coreutils         # [win]\n    - {{ posix }}zip               # [win]\n  host:\n    - r-base\n    - r-bbmisc >=1.6\n    - r-paramhelpers >=1.8\n    - r-rcolorbrewer\n    - r-rjsonio\n    - r-rcpp >=0.11.0\n    - r-rcpparmadillo\n    - r-checkmate >=1.1\n    - r-ggplot2 >=2.2.1\n    - r-mco\n    - r-plot3d\n    - r-plotly\n  run:\n    - r-base\n    - {{ native }}gcc-libs         # [win]\n    - r-bbmisc >=1.6\n    - r-paramhelpers >=1.8\n    - r-rcolorbrewer\n    - r-rjsonio\n    - r-rcpp >=0.11.0\n    - r-rcpparmadillo\n    - r-checkmate >=1.1\n    - r-ggplot2 >=2.2.1\n    - r-mco\n    - r-plot3d\n    - r-plotly\n\ntest:\n  commands:\n    - $R -e \"library('smoof')\"           # [not win]\n    - \"\\\"%R%\\\" -e \\\"library('smoof')\\\"\"  # [win]\n\nabout:\n  home: https://github.com/jakobbossek/smoof\n  license: BSD_2_clause\n  summary: Provides generators for a high number of both single- and multi- objective test functions\n    which are frequently used for the benchmarking of (numerical) optimization algorithms.\n    Moreover, it offers a set of convenient functions to generate, plot and work with\n    objective functions.\n  license_family: BSD\n  license_file:\n    - '{{ environ[\"PREFIX\"] }}/lib/R/share/licenses/BSD_2_clause'\n    - LICENSE\n\nextra:\n  recipe-maintainers:\n    - conda-forge/r\n    - khughitt\n\n# Package: smoof\n# Type: Package\n# Title: Single and Multi-Objective Optimization Test Functions\n# Description: Provides generators for a high number of both single- and multi- objective test functions which are frequently used for the benchmarking of (numerical) optimization algorithms. Moreover, it offers a set of convenient functions to generate, plot and work with objective functions.\n# Version: 1.5.1\n# Date: 2017-08-10\n# Authors@R: c(person(\"Jakob\", \"Bossek\", email = \"j.bossek@gmail.com\", role = c(\"aut\", \"cre\")), person(\"Pascal\", \"Kerschke\", email = \"kerschke@uni-muenster.de\", role = \"ctb\"))\n# URL: https://github.com/jakobbossek/smoof\n# BugReports: https://github.com/jakobbossek/smoof/issues\n# License: BSD_2_clause + file LICENSE\n# Depends: ParamHelpers (>= 1.8), BBmisc (>= 1.6), checkmate (>= 1.1)\n# Imports: ggplot2 (>= 2.2.1), RColorBrewer, plot3D, plotly, mco, Rcpp (>= 0.11.0), RJSONIO\n# Suggests: testthat, rPython (>= 0.0-5)\n# LazyData: yes\n# ByteCompile: yes\n# LinkingTo: Rcpp, RcppArmadillo\n# RoxygenNote: 6.0.1\n# NeedsCompilation: yes\n# Packaged: 2017-08-14 11:28:14 UTC; jboss\n# Author: Jakob Bossek [aut, cre], Pascal Kerschke [ctb]\n# Maintainer: Jakob Bossek <j.bossek@gmail.com>\n# Repository: CRAN\n# Date/Publication: 2017-08-14 13:07:08 UTC\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "c_compiler_stub",
+   "coreutils",
+   "cxx_compiler_stub",
+   "filesystem",
+   "gcc-libs",
+   "m2w64_c_compiler_stub",
+   "m2w64_cxx_compiler_stub",
+   "make",
+   "r-base",
+   "r-bbmisc",
+   "r-checkmate",
+   "r-ggplot2",
+   "r-mco",
+   "r-paramhelpers",
+   "r-plot3d",
+   "r-plotly",
+   "r-rcolorbrewer",
+   "r-rcpp",
+   "r-rcpparmadillo",
+   "r-rjsonio",
+   "sed",
+   "zip"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "coreutils",
+    "cxx_compiler_stub",
+    "filesystem",
+    "m2w64_c_compiler_stub",
+    "m2w64_cxx_compiler_stub",
+    "make",
+    "sed",
+    "zip"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "r-base",
+    "r-bbmisc",
+    "r-checkmate",
+    "r-ggplot2",
+    "r-mco",
+    "r-paramhelpers",
+    "r-plot3d",
+    "r-plotly",
+    "r-rcolorbrewer",
+    "r-rcpp",
+    "r-rcpparmadillo",
+    "r-rjsonio"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "gcc-libs",
+    "r-base",
+    "r-bbmisc",
+    "r-checkmate",
+    "r-ggplot2",
+    "r-mco",
+    "r-paramhelpers",
+    "r-plot3d",
+    "r-plotly",
+    "r-rcolorbrewer",
+    "r-rcpp",
+    "r-rcpparmadillo",
+    "r-rjsonio"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.7.0\n",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "coreutils",
+    "cxx_compiler_stub",
+    "filesystem",
+    "m2w64_c_compiler_stub",
+    "m2w64_cxx_compiler_stub",
+    "make",
+    "sed",
+    "zip"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "r-base",
+    "r-bbmisc >=1.6",
+    "r-checkmate >=1.1",
+    "r-ggplot2 >=2.2.1",
+    "r-mco",
+    "r-paramhelpers >=1.8",
+    "r-plot3d",
+    "r-plotly",
+    "r-rcolorbrewer",
+    "r-rcpp >=0.11.0",
+    "r-rcpparmadillo",
+    "r-rjsonio"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "gcc-libs",
+    "r-base",
+    "r-bbmisc >=1.6",
+    "r-checkmate >=1.1",
+    "r-ggplot2 >=2.2.1",
+    "r-mco",
+    "r-paramhelpers >=1.8",
+    "r-plot3d",
+    "r-plotly",
+    "r-rcolorbrewer",
+    "r-rcpp >=0.11.0",
+    "r-rcpparmadillo",
+    "r-rjsonio"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":[
+  "https://cran.r-project.org/src/contrib/smoof_1.5.1.tar.gz",
+  "https://cran.r-project.org/src/contrib/Archive/smoof/smoof_1.5.1.tar.gz",
+  "https://cran.r-project.org/src/contrib/smoof_1.5.1.tar.gz",
+  "https://cran.r-project.org/src/contrib/Archive/smoof/smoof_1.5.1.tar.gz",
+  "https://cran.r-project.org/src/contrib/smoof_1.5.1.tar.gz",
+  "https://cran.r-project.org/src/contrib/Archive/smoof/smoof_1.5.1.tar.gz"
+ ],
+ "version":"1.6.0.2"
+}

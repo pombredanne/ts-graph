@@ -1,0 +1,483 @@
+{
+ "PRed":[
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.5.5"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/200089294.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Noarch",
+    "migrator_version":0
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version"
+   ]
+  },
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.6.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/211259065.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.6.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/279400136.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.7"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/306311989.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Rebuild",
+    "migrator_version":0,
+    "name":"gdal-3.0.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"datacube",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"Open Data Cube Core provides an integrated gridded data analysis environment\nfor decades of analysis ready earth observation satellite and related data\nfrom multiple satellite and other acquisition systems.\n",
+   "dev_url":"https://github.com/opendatacube/datacube-core",
+   "doc_url":"http://datacube-core.readthedocs.io",
+   "home":"http://www.opendatacube.org",
+   "license":"Apache-2.0",
+   "license_family":"Apache",
+   "license_file":"LICENSE",
+   "summary":"Data analysis environment for earth observation data"
+  },
+  "build":{
+   "entry_points":[
+    "datacube = datacube.scripts.cli_app:cli",
+    "datacube-search = datacube.scripts.search_tool:cli",
+    "datacube-stacker = datacube_apps.stacker:main",
+    "datacube-worker = datacube.execution.worker:main",
+    "datacube-fixer = datacube_apps.stacker:fixer_main",
+    "datacube-ncml = datacube_apps.ncml:ncml_app",
+    "datacube = datacube.scripts.cli_app:cli",
+    "datacube-search = datacube.scripts.search_tool:cli",
+    "datacube-stacker = datacube_apps.stacker:main",
+    "datacube-worker = datacube.execution.worker:main",
+    "datacube-fixer = datacube_apps.stacker:fixer_main",
+    "datacube-ncml = datacube_apps.ncml:ncml_app",
+    "datacube = datacube.scripts.cli_app:cli",
+    "datacube-search = datacube.scripts.search_tool:cli",
+    "datacube-stacker = datacube_apps.stacker:main",
+    "datacube-worker = datacube.execution.worker:main",
+    "datacube-fixer = datacube_apps.stacker:fixer_main",
+    "datacube-ncml = datacube_apps.ncml:ncml_app"
+   ],
+   "noarch":"python",
+   "number":"3"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "andrewdhicks",
+    "GypsyBojangles",
+    "jeremyh",
+    "Kirill888",
+    "omad",
+    "snowman2",
+    "andrewdhicks",
+    "GypsyBojangles",
+    "jeremyh",
+    "Kirill888",
+    "omad",
+    "snowman2",
+    "andrewdhicks",
+    "GypsyBojangles",
+    "jeremyh",
+    "Kirill888",
+    "omad",
+    "snowman2"
+   ]
+  },
+  "package":{
+   "name":"datacube",
+   "version":"1.7"
+  },
+  "requirements":{
+   "build":[
+    "pip",
+    "python >=3.5",
+    "setuptools",
+    "pytest-runner",
+    "sphinx",
+    "sphinx-click",
+    "click",
+    "pip",
+    "python >=3.5",
+    "setuptools",
+    "pytest-runner",
+    "sphinx",
+    "sphinx-click",
+    "click",
+    "pip",
+    "python >=3.5",
+    "setuptools",
+    "pytest-runner",
+    "sphinx",
+    "sphinx-click",
+    "click"
+   ],
+   "run":[
+    "python >=3.5",
+    "cachetools",
+    "click",
+    "cloudpickle >=0.4.0",
+    "dask",
+    "gdal <3",
+    "jsonschema",
+    "lark-parser",
+    "netcdf4",
+    "numpy",
+    "psycopg2",
+    "pypeg2",
+    "python-dateutil",
+    "pyyaml",
+    "rasterio >=1.0.2",
+    "singledispatch",
+    "sqlalchemy",
+    "xarray >=0.9",
+    "celery >=4",
+    "paramiko",
+    "redis-py",
+    "sshtunnel",
+    "toolz",
+    "tqdm",
+    "python >=3.5",
+    "cachetools",
+    "click",
+    "cloudpickle >=0.4.0",
+    "dask",
+    "gdal <3",
+    "jsonschema",
+    "lark-parser",
+    "netcdf4",
+    "numpy",
+    "psycopg2",
+    "pypeg2",
+    "python-dateutil",
+    "pyyaml",
+    "rasterio >=1.0.2",
+    "singledispatch",
+    "sqlalchemy",
+    "xarray >=0.9",
+    "celery >=4",
+    "paramiko",
+    "redis-py",
+    "sshtunnel",
+    "toolz",
+    "tqdm",
+    "python >=3.5",
+    "cachetools",
+    "click",
+    "cloudpickle >=0.4.0",
+    "dask",
+    "gdal <3",
+    "jsonschema",
+    "lark-parser",
+    "netcdf4",
+    "numpy",
+    "psycopg2",
+    "pypeg2",
+    "python-dateutil",
+    "pyyaml",
+    "rasterio >=1.0.2",
+    "singledispatch",
+    "sqlalchemy",
+    "xarray >=0.9",
+    "celery >=4",
+    "paramiko",
+    "redis-py",
+    "sshtunnel",
+    "toolz",
+    "tqdm"
+   ]
+  },
+  "source":{
+   "sha256":"16405c318926d7eab9ed2f52e17f8e86e6f0652a99991eb56f44dc247a3dffe3",
+   "url":"https://pypi.io/packages/source/d/datacube/datacube-1.7.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "datacube --help",
+    "datacube-search --help",
+    "datacube-stacker --help",
+    "datacube-worker --help",
+    "datacube-fixer --help",
+    "datacube-ncml --help",
+    "datacube-simple-replica --help",
+    "datacube --help",
+    "datacube-search --help",
+    "datacube-stacker --help",
+    "datacube-worker --help",
+    "datacube-fixer --help",
+    "datacube-ncml --help",
+    "datacube-simple-replica --help",
+    "datacube --help",
+    "datacube-search --help",
+    "datacube-stacker --help",
+    "datacube-worker --help",
+    "datacube-fixer --help",
+    "datacube-ncml --help",
+    "datacube-simple-replica --help"
+   ],
+   "imports":[
+    "datacube",
+    "datacube.api",
+    "datacube.drivers",
+    "datacube.drivers.netcdf",
+    "datacube.drivers.postgres",
+    "datacube.execution",
+    "datacube.index",
+    "datacube.model",
+    "datacube.scripts",
+    "datacube.storage",
+    "datacube.testutils",
+    "datacube.ui",
+    "datacube.utils",
+    "datacube_apps",
+    "datacube_apps.stacker",
+    "datacube",
+    "datacube.api",
+    "datacube.drivers",
+    "datacube.drivers.netcdf",
+    "datacube.drivers.postgres",
+    "datacube.execution",
+    "datacube.index",
+    "datacube.model",
+    "datacube.scripts",
+    "datacube.storage",
+    "datacube.testutils",
+    "datacube.ui",
+    "datacube.utils",
+    "datacube_apps",
+    "datacube_apps.stacker",
+    "datacube",
+    "datacube.api",
+    "datacube.drivers",
+    "datacube.drivers.netcdf",
+    "datacube.drivers.postgres",
+    "datacube.execution",
+    "datacube.index",
+    "datacube.model",
+    "datacube.scripts",
+    "datacube.storage",
+    "datacube.testutils",
+    "datacube.ui",
+    "datacube.utils",
+    "datacube_apps",
+    "datacube_apps.stacker"
+   ]
+  }
+ },
+ "name":"datacube",
+ "new_version":"1.7",
+ "pinning_version":"2019.08.11",
+ "raw_meta_yaml":"{% set name = \"datacube\" %}\n{% set version = \"1.7\" %}\n{% set sha256 = \"16405c318926d7eab9ed2f52e17f8e86e6f0652a99991eb56f44dc247a3dffe3\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 3\n#  skip: True  # [py<35]\n# Doesn't seem to work with 'noarch' since it include python 2\n  noarch: python\n  entry_points:\n    - datacube = datacube.scripts.cli_app:cli\n    - datacube-search = datacube.scripts.search_tool:cli\n    - datacube-stacker = datacube_apps.stacker:main\n    - datacube-worker = datacube.execution.worker:main\n    - datacube-fixer = datacube_apps.stacker:fixer_main\n    - datacube-ncml = datacube_apps.ncml:ncml_app\n\nrequirements:\n  build:\n    - pip\n    - python >=3.5\n    - setuptools\n    - pytest-runner\n    - sphinx\n    - sphinx-click\n    - click\n  run:\n    - python >=3.5\n    - cachetools\n    - click\n    - cloudpickle >=0.4.0\n    - dask\n    - gdal <3\n    - jsonschema\n    - lark-parser\n    - netcdf4\n    - numpy\n    - psycopg2\n    - pypeg2\n    - python-dateutil\n    - pyyaml\n    - rasterio >=1.0.2\n    - singledispatch\n    - sqlalchemy\n    - xarray >=0.9\n    - celery >=4\n    - paramiko\n    - redis-py\n    - sshtunnel\n    - toolz\n    - tqdm\n\n\ntest:\n  imports:\n    - datacube\n    - datacube.api\n    - datacube.drivers\n    - datacube.drivers.netcdf\n    - datacube.drivers.postgres\n    - datacube.execution\n    - datacube.index\n    - datacube.model\n    - datacube.scripts\n    - datacube.storage\n    - datacube.testutils\n    - datacube.ui\n    - datacube.utils\n    - datacube_apps\n    - datacube_apps.stacker\n  commands:\n    - datacube --help\n    - datacube-search --help\n    - datacube-stacker --help\n    - datacube-worker --help\n    - datacube-fixer --help\n    - datacube-ncml --help\n    - datacube-simple-replica --help\n# The following may be required if we start actually running our tests.\n# For now, we're just testing that everything seems to have built okay\n#  requires:\n#    - compliance-checker\n#    - hypothesis\n#    - mock\n#    - pycodestyle\n#    - pylint\n#    - pytest\n#    - pytest-cov\n#    - pytest-timeout\n\nabout:\n  home: http://www.opendatacube.org\n  license: Apache-2.0\n  license_family: Apache\n  license_file: LICENSE\n  summary:  Data analysis environment for earth observation data\n  description: |\n    Open Data Cube Core provides an integrated gridded data analysis environment\n    for decades of analysis ready earth observation satellite and related data\n    from multiple satellite and other acquisition systems.\n  doc_url: http://datacube-core.readthedocs.io\n  dev_url: https://github.com/opendatacube/datacube-core\n\nextra:\n  recipe-maintainers:\n    - andrewdhicks\n    - GypsyBojangles\n    - jeremyh\n    - Kirill888\n    - omad\n    - snowman2\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "cachetools",
+   "celery",
+   "click",
+   "cloudpickle",
+   "dask",
+   "gdal",
+   "jsonschema",
+   "lark-parser",
+   "netcdf4",
+   "numpy",
+   "paramiko",
+   "pip",
+   "psycopg2",
+   "pypeg2",
+   "pytest-runner",
+   "python",
+   "python-dateutil",
+   "pyyaml",
+   "rasterio",
+   "redis-py",
+   "setuptools",
+   "singledispatch",
+   "sphinx",
+   "sphinx-click",
+   "sqlalchemy",
+   "sshtunnel",
+   "toolz",
+   "tqdm",
+   "xarray"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "click",
+    "pip",
+    "pytest-runner",
+    "python",
+    "setuptools",
+    "sphinx",
+    "sphinx-click"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "cachetools",
+    "celery",
+    "click",
+    "cloudpickle",
+    "dask",
+    "gdal",
+    "jsonschema",
+    "lark-parser",
+    "netcdf4",
+    "numpy",
+    "paramiko",
+    "psycopg2",
+    "pypeg2",
+    "python",
+    "python-dateutil",
+    "pyyaml",
+    "rasterio",
+    "redis-py",
+    "singledispatch",
+    "sqlalchemy",
+    "sshtunnel",
+    "toolz",
+    "tqdm",
+    "xarray"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.4.1",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "click",
+    "pip",
+    "pytest-runner",
+    "python >=3.5",
+    "setuptools",
+    "sphinx",
+    "sphinx-click"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "cachetools",
+    "celery >=4",
+    "click",
+    "cloudpickle >=0.4.0",
+    "dask",
+    "gdal <3",
+    "jsonschema",
+    "lark-parser",
+    "netcdf4",
+    "numpy",
+    "paramiko",
+    "psycopg2",
+    "pypeg2",
+    "python >=3.5",
+    "python-dateutil",
+    "pyyaml",
+    "rasterio >=1.0.2",
+    "redis-py",
+    "singledispatch",
+    "sqlalchemy",
+    "sshtunnel",
+    "toolz",
+    "tqdm",
+    "xarray >=0.9"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/d/datacube/datacube-1.7.tar.gz",
+ "version":"1.7"
+}

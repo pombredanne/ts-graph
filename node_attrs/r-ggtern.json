@@ -1,0 +1,366 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/233120665.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/254485579.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.1.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/299604489.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"RBaseRebuild",
+    "migrator_version":0,
+    "name":"r-base-3.6.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/402205996.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.3.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/414278351.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":2,
+    "migrator_version":0,
+    "name":"r400"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "bot":{
+   "automerge":true
+  },
+  "provider":{
+   "win":"azure"
+  }
+ },
+ "feedstock_name":"r-ggtern",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"http://www.ggtern.com",
+   "license":"GPL-2",
+   "license_family":"GPL2",
+   "license_file":[
+    "/lib/R/share/licenses/GPL-2",
+    "LICENSE",
+    "/lib/R/share/licenses/GPL-2",
+    "LICENSE",
+    "/lib/R/share/licenses/GPL-2",
+    "LICENSE"
+   ],
+   "summary":"Extends the functionality of 'ggplot2', providing the capability to plot ternary diagrams for (subset of) the 'ggplot2' geometries. Additionally, 'ggtern' has implemented several NEW geometries which are unavailable to the standard 'ggplot2' release. For further examples and documentation, please proceed to the 'ggtern' website."
+  },
+  "build":{
+   "merge_build_host":true,
+   "noarch":"generic",
+   "number":"1",
+   "rpaths":[
+    "lib/R/lib/",
+    "lib/",
+    "lib/R/lib/",
+    "lib/",
+    "lib/R/lib/",
+    "lib/"
+   ]
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "conda-forge/r",
+    "apcamargo",
+    "conda-forge/r",
+    "apcamargo",
+    "conda-forge/r",
+    "apcamargo"
+   ]
+  },
+  "package":{
+   "name":"r-ggtern",
+   "version":"3.3.0"
+  },
+  "requirements":{
+   "build":null,
+   "host":[
+    "r-base",
+    "r-mass",
+    "r-compositions >=1.40_2",
+    "r-ggplot2 >=3.3.0",
+    "r-gridextra",
+    "r-gtable >=0.1.2",
+    "r-hexbin",
+    "r-latex2exp >=0.4",
+    "r-lattice",
+    "r-plyr >=1.8.3",
+    "r-proto",
+    "r-scales >=0.3.0",
+    "r-base",
+    "r-mass",
+    "r-compositions >=1.40_2",
+    "r-ggplot2 >=3.3.0",
+    "r-gridextra",
+    "r-gtable >=0.1.2",
+    "r-hexbin",
+    "r-latex2exp >=0.4",
+    "r-lattice",
+    "r-plyr >=1.8.3",
+    "r-proto",
+    "r-scales >=0.3.0",
+    "r-base",
+    "r-mass",
+    "r-compositions >=1.40_2",
+    "r-ggplot2 >=3.3.0",
+    "r-gridextra",
+    "r-gtable >=0.1.2",
+    "r-hexbin",
+    "r-latex2exp >=0.4",
+    "r-lattice",
+    "r-plyr >=1.8.3",
+    "r-proto",
+    "r-scales >=0.3.0"
+   ],
+   "run":[
+    "r-base",
+    "r-mass",
+    "r-compositions >=1.40_2",
+    "r-ggplot2 >=3.3.0",
+    "r-gridextra",
+    "r-gtable >=0.1.2",
+    "r-hexbin",
+    "r-latex2exp >=0.4",
+    "r-lattice",
+    "r-plyr >=1.8.3",
+    "r-proto",
+    "r-scales >=0.3.0",
+    "r-base",
+    "r-mass",
+    "r-compositions >=1.40_2",
+    "r-ggplot2 >=3.3.0",
+    "r-gridextra",
+    "r-gtable >=0.1.2",
+    "r-hexbin",
+    "r-latex2exp >=0.4",
+    "r-lattice",
+    "r-plyr >=1.8.3",
+    "r-proto",
+    "r-scales >=0.3.0",
+    "r-base",
+    "r-mass",
+    "r-compositions >=1.40_2",
+    "r-ggplot2 >=3.3.0",
+    "r-gridextra",
+    "r-gtable >=0.1.2",
+    "r-hexbin",
+    "r-latex2exp >=0.4",
+    "r-lattice",
+    "r-plyr >=1.8.3",
+    "r-proto",
+    "r-scales >=0.3.0"
+   ]
+  },
+  "source":{
+   "sha256":"a3190857abdbbb2548505f774f91cb34be0d680ae462b5c0a5efea9f28ae9d8a",
+   "url":[
+    "https://cran.r-project.org/src/contrib/ggtern_3.3.0.tar.gz",
+    "https://cran.r-project.org/src/contrib/Archive/ggtern/ggtern_3.3.0.tar.gz",
+    "https://cran.r-project.org/src/contrib/ggtern_3.3.0.tar.gz",
+    "https://cran.r-project.org/src/contrib/Archive/ggtern/ggtern_3.3.0.tar.gz",
+    "https://cran.r-project.org/src/contrib/ggtern_3.3.0.tar.gz",
+    "https://cran.r-project.org/src/contrib/Archive/ggtern/ggtern_3.3.0.tar.gz"
+   ]
+  },
+  "test":{
+   "commands":[
+    "\"%R%\" -e \"library('ggtern')\"",
+    "$R -e \"library('ggtern')\"",
+    "$R -e \"library('ggtern')\""
+   ]
+  }
+ },
+ "name":"r-ggtern",
+ "new_version":"3.3.0",
+ "new_version_attempts":{
+  "3.3.0":1
+ },
+ "new_version_errors":{},
+ "pinning_version":"2020.05.04.19.59.17",
+ "raw_meta_yaml":"{% set version = '3.3.0' %}\n{% set posix = 'm2-' if win else '' %}\n{% set native = 'm2w64-' if win else '' %}\n\npackage:\n  name: r-ggtern\n  version: {{ version|replace(\"-\", \"_\") }}\n\nsource:\n  url:\n    - {{ cran_mirror }}/src/contrib/ggtern_{{ version }}.tar.gz\n    - {{ cran_mirror }}/src/contrib/Archive/ggtern/ggtern_{{ version }}.tar.gz\n  sha256: a3190857abdbbb2548505f774f91cb34be0d680ae462b5c0a5efea9f28ae9d8a\n\nbuild:\n  merge_build_host: True  # [win]\n  number: 1\n  noarch: generic\n  rpaths:\n    - lib/R/lib/\n    - lib/\n\nrequirements:\n  build:\n    - {{ posix }}zip               # [win]\n  host:\n    - r-base\n    - r-mass\n    - r-compositions >=1.40_2\n    - r-ggplot2 >=3.3.0\n    - r-gridextra\n    - r-gtable >=0.1.2\n    - r-hexbin\n    - r-latex2exp >=0.4\n    - r-lattice\n    - r-plyr >=1.8.3\n    - r-proto\n    - r-scales >=0.3.0\n  run:\n    - r-base\n    - r-mass\n    - r-compositions >=1.40_2\n    - r-ggplot2 >=3.3.0\n    - r-gridextra\n    - r-gtable >=0.1.2\n    - r-hexbin\n    - r-latex2exp >=0.4\n    - r-lattice\n    - r-plyr >=1.8.3\n    - r-proto\n    - r-scales >=0.3.0\n\ntest:\n  commands:\n    - $R -e \"library('ggtern')\"           # [not win]\n    - \"\\\"%R%\\\" -e \\\"library('ggtern')\\\"\"  # [win]\n\nabout:\n  home: http://www.ggtern.com\n  license: GPL-2\n  summary: Extends the functionality of 'ggplot2', providing the capability to plot ternary diagrams\n    for (subset of) the 'ggplot2' geometries. Additionally, 'ggtern' has implemented\n    several NEW geometries which are unavailable to the standard 'ggplot2' release.\n    For further examples and documentation, please proceed to the 'ggtern' website.\n  license_family: GPL2\n  license_file:\n    - '{{ environ[\"PREFIX\"] }}/lib/R/share/licenses/GPL-2'\n    - LICENSE\n\nextra:\n  recipe-maintainers:\n    - conda-forge/r\n    - apcamargo\n\n# Package: ggtern\n# Version: 3.3.0\n# Date: 2020-04-9\n# Title: An Extension to 'ggplot2', for the Creation of Ternary Diagrams\n# Description: Extends the functionality of 'ggplot2', providing the capability to plot ternary diagrams for (subset of) the 'ggplot2' geometries. Additionally, 'ggtern' has implemented several NEW geometries which are unavailable to the standard 'ggplot2' release. For further examples and documentation, please proceed to the 'ggtern' website.\n# Authors@R: person(\"Nicholas\",\"Hamilton\", ,\"nick@ggtern.com\", role = c(\"aut\", \"cre\"))\n# Author: Nicholas Hamilton [aut, cre]\n# Maintainer: Nicholas Hamilton <nick@ggtern.com>\n# Depends: R (>= 2.10), ggplot2 (>= 3.3.0)\n# Imports: compositions (>= 1.40-2), grid, gridExtra, gtable (>= 0.1.2), latex2exp (>= 0.4), MASS, plyr (>= 1.8.3), scales (>= 0.3.0), stats, proto, utils, lattice, hexbin\n# Enhances: sp\n# License: GPL-2 | file LICENSE\n# Encoding: UTF-8\n# URL: http://www.ggtern.com\n# Collate: 'ggtern-package.R' 'aes.R' 'coord-tern.R' 'calc-tern-tlr2xy.R' 'calc-mahalanobis-distance.R' 'calc-kde2d-weighted.R' 'doc-data.R' 'doc-theme-convenience.R' 'depreciated.R' 'labels-new.R' 'labels-percent.R' 'legend-draw-tern.R' 'ggtern-constructor.R' 'gg-internal.R' 'modifications-gridExtra.R' 'onLoad.R' 'plot.R' 'plot-build.R' 'plot-construction.R' 'position-.R' 'position-nudge-tern.R' 'position-jitter-tern.R' 'save.R' 'scales-tern.R' 'strip-unapproved.R' 'tern-limits.R' 'theme.R' 'theme-arrowlength.R' 'theme-clockwise.R' 'theme-defaults.R' 'theme-elements.R' 'theme-gridsontop.R' 'theme-bordersontop.R' 'theme-legend-position.R' 'theme-latex.R' 'theme-mesh.R' 'theme-noarrows.R' 'theme-nomask.R' 'theme-novar-tern.R' 'theme-rotate.R' 'theme-showgrid.R' 'theme-showlabels.R' 'theme-ticks.R' 'theme-showtitles.R' 'theme-ticksoutside.R' 'theme-zoom.R' 'utilities.R' 'utilities-help.R' 'geom-density-tern.R' 'stat-density-tern.R' 'geom-mask.R' 'geom-Xline.R' 'geom-Xisoprop.R' 'geom-confidence-tern.R' 'stat-confidence-tern.R' 'geom-errorbarX.R' 'geom-smooth-tern.R' 'stat-smooth-tern.R' 'geom-mean-ellipse.R' 'stat-mean-ellipse.R' 'geom-interpolate-tern.R' 'stat-interpolate-tern.R' 'stat-interpolate-methods.R' 'geom-crosshair-tern.R' 'geom-point-swap.R' 'geom-hex-tern.R' 'stat-hex-tern.R' 'annotation-tern.R' 'annotation-raster-tern.R' 'geom-text-viewport.R' 'geom-label-viewport.R' 'geom-polygon-closed.R' 'geom-tri-tern.R' 'stat-tri-tern.R'\n# NeedsCompilation: no\n# Repository: CRAN\n# RoxygenNote: 6.1.1\n# Packaged: 2020-04-11 08:27:40 UTC; nick\n# Date/Publication: 2020-04-11 14:50:05 UTC\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "r-base",
+   "r-compositions",
+   "r-ggplot2",
+   "r-gridextra",
+   "r-gtable",
+   "r-hexbin",
+   "r-latex2exp",
+   "r-lattice",
+   "r-mass",
+   "r-plyr",
+   "r-proto",
+   "r-scales"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "r-base",
+    "r-compositions",
+    "r-ggplot2",
+    "r-gridextra",
+    "r-gtable",
+    "r-hexbin",
+    "r-latex2exp",
+    "r-lattice",
+    "r-mass",
+    "r-plyr",
+    "r-proto",
+    "r-scales"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "r-base",
+    "r-compositions",
+    "r-ggplot2",
+    "r-gridextra",
+    "r-gtable",
+    "r-hexbin",
+    "r-latex2exp",
+    "r-lattice",
+    "r-mass",
+    "r-plyr",
+    "r-proto",
+    "r-scales"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.7.0\n",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "r-base",
+    "r-compositions >=1.40_2",
+    "r-ggplot2 >=3.3.0",
+    "r-gridextra",
+    "r-gtable >=0.1.2",
+    "r-hexbin",
+    "r-latex2exp >=0.4",
+    "r-lattice",
+    "r-mass",
+    "r-plyr >=1.8.3",
+    "r-proto",
+    "r-scales >=0.3.0"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "r-base",
+    "r-compositions >=1.40_2",
+    "r-ggplot2 >=3.3.0",
+    "r-gridextra",
+    "r-gtable >=0.1.2",
+    "r-hexbin",
+    "r-latex2exp >=0.4",
+    "r-lattice",
+    "r-mass",
+    "r-plyr >=1.8.3",
+    "r-proto",
+    "r-scales >=0.3.0"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":[
+  "https://cran.r-project.org/src/contrib/ggtern_3.1.0.tar.gz",
+  "https://cran.r-project.org/src/contrib/Archive/ggtern/ggtern_3.1.0.tar.gz",
+  "https://cran.r-project.org/src/contrib/ggtern_3.1.0.tar.gz",
+  "https://cran.r-project.org/src/contrib/Archive/ggtern/ggtern_3.1.0.tar.gz",
+  "https://cran.r-project.org/src/contrib/ggtern_3.1.0.tar.gz",
+  "https://cran.r-project.org/src/contrib/Archive/ggtern/ggtern_3.1.0.tar.gz"
+ ],
+ "version":"3.3.0"
+}

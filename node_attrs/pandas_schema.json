@@ -1,0 +1,128 @@
+{
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"pandas_schema",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"https://github.com/TMiguelT/PandasSchema",
+   "license":"GPL3",
+   "license_family":"GPL3",
+   "license_file":"LICENSE",
+   "summary":"A validation library for Pandas data frames using user-friendly schemas"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "foellmelanie",
+    "foellmelanie",
+    "foellmelanie"
+   ]
+  },
+  "package":{
+   "name":"pandas_schema",
+   "version":"0.3.5"
+  },
+  "requirements":{
+   "host":[
+    "pip",
+    "python  >3",
+    "pip",
+    "python  >3",
+    "pip",
+    "python  >3"
+   ],
+   "run":[
+    "numpy",
+    "pandas",
+    "python  >3",
+    "numpy",
+    "pandas",
+    "python  >3",
+    "numpy",
+    "pandas",
+    "python  >3"
+   ]
+  },
+  "source":{
+   "sha256":"e68e93862cf728d2c4cec5237cf62e410d19be168c1c6d68fa5ed13bf543c6d6",
+   "url":"https://pypi.io/packages/source/p/pandas_schema/pandas_schema-0.3.5.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "pandas_schema",
+    "pandas_schema",
+    "pandas_schema"
+   ]
+  }
+ },
+ "name":"pandas_schema",
+ "new_version":"0.3.5",
+ "raw_meta_yaml":"{% set name = \"pandas_schema\" %}\n{% set version = \"0.3.5\" %}\n\npackage:\n  name: \"{{ name|lower }}\"\n  version: \"{{ version }}\"\n\nsource:\n  url: \"https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\"\n  sha256: e68e93862cf728d2c4cec5237cf62e410d19be168c1c6d68fa5ed13bf543c6d6\n\nbuild:\n  number: 0\n  noarch: python\n  script: \"{{ PYTHON }} -m pip install . -vv\"\n\nrequirements:\n  host:\n    - pip\n    - python  >3\n  run:\n    - numpy\n    - pandas\n    - python  >3\n\ntest:\n  imports:\n    - pandas_schema\n\nabout:\n  home: \"https://github.com/TMiguelT/PandasSchema\"\n  license: GPL3\n  license_family: GPL3\n  license_file: LICENSE\n  summary: \"A validation library for Pandas data frames using user-friendly schemas\"\n\nextra:\n  recipe-maintainers:\n    - foellmelanie\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "numpy",
+   "pandas",
+   "pip",
+   "python"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "numpy",
+    "pandas",
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python  >3"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "numpy",
+    "pandas",
+    "python  >3"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/p/pandas_schema/pandas_schema-0.3.5.tar.gz",
+ "version":"0.3.5"
+}

@@ -1,0 +1,135 @@
+{
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"woops",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"https://pypi.org/project/woops/",
+   "license":"MIT",
+   "license_file":"LICENSE",
+   "summary":"Handle and manage Python errors with ease"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":"-m pip install . -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "ocefpaf",
+    "ocefpaf",
+    "ocefpaf"
+   ]
+  },
+  "package":{
+   "name":"woops",
+   "version":"0.2.1"
+  },
+  "requirements":{
+   "host":[
+    "pip",
+    "python >=3.6,<4.0",
+    "poetry-core",
+    "pip",
+    "python >=3.6,<4.0",
+    "poetry-core",
+    "pip",
+    "python >=3.6,<4.0",
+    "poetry-core"
+   ],
+   "run":[
+    "python >=3.6,<4.0",
+    "python >=3.6,<4.0",
+    "python >=3.6,<4.0"
+   ]
+  },
+  "source":{
+   "sha256":"f95dee22e055b61980209fdf481f33e743e02d5ef135853c9089d0061370f94a",
+   "url":"https://pypi.io/packages/source/w/woops/woops-0.2.1.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "pip check",
+    "pip check",
+    "pip check"
+   ],
+   "imports":[
+    "woops",
+    "woops",
+    "woops"
+   ],
+   "requires":[
+    "pip",
+    "pip",
+    "pip"
+   ]
+  }
+ },
+ "name":"woops",
+ "new_version":"0.2.1",
+ "raw_meta_yaml":"{% set version = \"0.2.1\" %}\n\npackage:\n  name: woops\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/w/woops/woops-{{ version }}.tar.gz\n  sha256: f95dee22e055b61980209fdf481f33e743e02d5ef135853c9089d0061370f94a\n\nbuild:\n  number: 0\n  noarch: python\n  script: {{ PYTHON }} -m pip install . -vv\n\nrequirements:\n  host:\n    - pip\n    - python >=3.6,<4.0\n    - poetry-core\n  run:\n    - python >=3.6,<4.0\n\ntest:\n  imports:\n    - woops\n  commands:\n    - pip check\n  requires:\n    - pip\n\nabout:\n  home: https://pypi.org/project/woops/\n  summary: Handle and manage Python errors with ease\n  license: MIT\n  license_file: LICENSE\n\nextra:\n  recipe-maintainers:\n    - ocefpaf\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "pip",
+   "poetry-core",
+   "python"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "poetry-core",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "pip"
+   ]
+  }
+ },
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "poetry-core",
+    "python >=3.6,<4.0"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "python >=3.6,<4.0"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "pip"
+   ]
+  }
+ },
+ "url":"https://pypi.io/packages/source/w/woops/woops-0.2.1.tar.gz",
+ "version":"0.2.1"
+}

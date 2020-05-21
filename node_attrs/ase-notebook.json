@@ -1,0 +1,247 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/339192189.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.3.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/375750035.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MatplotlibBase",
+    "migrator_version":0,
+    "name":"matplotlib-to-matplotlib-base"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/401368161.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"ase-notebook",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "doc_url":"https://ase-notebook.readthedocs.io/",
+   "home":"https://github.com/chrisjsewell/ase-notebook",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"LICENSE",
+   "summary":"Highly configurable 2D (SVG) & 3D (threejs) visualisations for ASE/Pymatgen structures, within the Jupyter Notebook"
+  },
+  "build":{
+   "entry_points":[
+    "ase-notebook.view_atoms = ase_notebook.viewer:launch_gui_exec",
+    "ase-notebook.view_atoms = ase_notebook.viewer:launch_gui_exec",
+    "ase-notebook.view_atoms = ase_notebook.viewer:launch_gui_exec"
+   ],
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . --no-deps --ignore-installed -vv "
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "chrisjsewell",
+    "chrisjsewell",
+    "chrisjsewell"
+   ]
+  },
+  "package":{
+   "name":"ase-notebook",
+   "version":"0.3.2"
+  },
+  "requirements":{
+   "host":[
+    "pip",
+    "python >=3.5",
+    "setuptools",
+    "pip",
+    "python >=3.5",
+    "setuptools",
+    "pip",
+    "python >=3.5",
+    "setuptools"
+   ],
+   "run":[
+    "ase >=3.18,<4",
+    "attrs >=19,<20",
+    "importlib_resources >=1,<2",
+    "ipywidgets >=7.5,<8",
+    "matplotlib-base >=3.1,<4",
+    "numpy >=1.16",
+    "python >=3.5",
+    "pythreejs >=2.1,<3",
+    "svgutils >=0.3,<0.4",
+    "svgwrite >=1.3,<2",
+    "ase >=3.18,<4",
+    "attrs >=19,<20",
+    "importlib_resources >=1,<2",
+    "ipywidgets >=7.5,<8",
+    "matplotlib-base >=3.1,<4",
+    "numpy >=1.16",
+    "python >=3.5",
+    "pythreejs >=2.1,<3",
+    "svgutils >=0.3,<0.4",
+    "svgwrite >=1.3,<2",
+    "ase >=3.18,<4",
+    "attrs >=19,<20",
+    "importlib_resources >=1,<2",
+    "ipywidgets >=7.5,<8",
+    "matplotlib-base >=3.1,<4",
+    "numpy >=1.16",
+    "python >=3.5",
+    "pythreejs >=2.1,<3",
+    "svgutils >=0.3,<0.4",
+    "svgwrite >=1.3,<2"
+   ]
+  },
+  "source":{
+   "sha256":"79e9ca9ca50b0c00e5bdb90b4cb02eebe9fbac8cd48da1ddec7f0d1330a75791",
+   "url":"https://pypi.io/packages/source/a/ase-notebook/ase-notebook-0.3.2.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "ase_notebook",
+    "ase_notebook.backend",
+    "ase_notebook.data",
+    "ase_notebook",
+    "ase_notebook.backend",
+    "ase_notebook.data",
+    "ase_notebook",
+    "ase_notebook.backend",
+    "ase_notebook.data"
+   ]
+  }
+ },
+ "name":"ase-notebook",
+ "new_version":"0.3.2",
+ "new_version_attempts":{
+  "0.3.2":1
+ },
+ "new_version_errors":{},
+ "pinning_version":"2020.04.09",
+ "raw_meta_yaml":"{% set name = \"ase-notebook\" %}\n{% set version = \"0.3.2\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: 79e9ca9ca50b0c00e5bdb90b4cb02eebe9fbac8cd48da1ddec7f0d1330a75791\n\nbuild:\n  number: 0\n  entry_points:\n    - ase-notebook.view_atoms = ase_notebook.viewer:launch_gui_exec\n  noarch: python\n  script: '{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv '\n\nrequirements:\n  host:\n    - pip\n    - python >=3.5\n    - setuptools\n  run:\n    - ase >=3.18,<4\n    - attrs >=19,<20\n    - importlib_resources >=1,<2\n    - ipywidgets >=7.5,<8\n    - matplotlib-base >=3.1,<4\n    - numpy >=1.16\n    - python >=3.5\n    - pythreejs >=2.1,<3\n    - svgutils >=0.3,<0.4\n    - svgwrite >=1.3,<2\n\ntest:\n  imports:\n    - ase_notebook\n    - ase_notebook.backend\n    - ase_notebook.data\n\nabout:\n  home: https://github.com/chrisjsewell/ase-notebook\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE\n  summary: Highly configurable 2D (SVG) & 3D (threejs) visualisations for ASE/Pymatgen structures, within the Jupyter Notebook\n  doc_url: https://ase-notebook.readthedocs.io/\n\nextra:\n  recipe-maintainers:\n    - chrisjsewell\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "ase",
+   "attrs",
+   "importlib_resources",
+   "ipywidgets",
+   "matplotlib-base",
+   "numpy",
+   "pip",
+   "python",
+   "pythreejs",
+   "setuptools",
+   "svgutils",
+   "svgwrite"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python",
+    "setuptools"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "ase",
+    "attrs",
+    "importlib_resources",
+    "ipywidgets",
+    "matplotlib-base",
+    "numpy",
+    "python",
+    "pythreejs",
+    "svgutils",
+    "svgwrite"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.6.16",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3.5",
+    "setuptools"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "ase >=3.18,<4",
+    "attrs >=19,<20",
+    "importlib_resources >=1,<2",
+    "ipywidgets >=7.5,<8",
+    "matplotlib-base >=3.1,<4",
+    "numpy >=1.16",
+    "python >=3.5",
+    "pythreejs >=2.1,<3",
+    "svgutils >=0.3,<0.4",
+    "svgwrite >=1.3,<2"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/a/ase-notebook/ase-notebook-0.3.0.tar.gz",
+ "version":"0.3.2"
+}

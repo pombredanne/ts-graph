@@ -1,0 +1,376 @@
+{
+ "PRed":[
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.9.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/204210977.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Compiler",
+    "migrator_version":0
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/222635153.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/291209699.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.10.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/299313608.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.10.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/339382435.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"python38"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/344791968.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.10.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/365848461.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.11.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/378279368.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.11.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/404768672.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"pypy"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "bot":{
+   "automerge":true
+  },
+  "provider":{
+   "win":"azure"
+  }
+ },
+ "feedstock_name":"statsmodels",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "dev_url":"https://github.com/statsmodels/statsmodels",
+   "doc_url":"https://www.statsmodels.org/stable/",
+   "home":"https://www.statsmodels.org",
+   "license":"BSD-3-Clause",
+   "license_file":"INSTALL.txt",
+   "summary":"Statistical computations and models for use with SciPy"
+  },
+  "build":{
+   "number":"1",
+   "script":" -m pip install . --no-deps -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "tomaugspurger",
+    "croth1",
+    "ocefpaf",
+    "tomaugspurger",
+    "croth1",
+    "ocefpaf",
+    "tomaugspurger",
+    "croth1",
+    "ocefpaf"
+   ]
+  },
+  "package":{
+   "name":"statsmodels",
+   "version":"0.11.1"
+  },
+  "requirements":{
+   "build":[
+    "c_compiler_stub",
+    "c_compiler_stub",
+    "c_compiler_stub"
+   ],
+   "host":[
+    "python",
+    "pip",
+    "cython",
+    "numpy =1.15",
+    "scipy >=1.0",
+    "pandas >=0.21",
+    "patsy >=0.5.1",
+    "python",
+    "pip",
+    "cython",
+    "numpy =1.15",
+    "scipy >=1.0",
+    "pandas >=0.21",
+    "patsy >=0.5.1",
+    "python",
+    "pip",
+    "cython",
+    "numpy =1.15",
+    "scipy >=1.0",
+    "pandas >=0.21",
+    "patsy >=0.5.1"
+   ],
+   "run":[
+    "python",
+    "numpy",
+    "scipy >=1.0",
+    "pandas >=0.21",
+    "patsy >=0.5.1",
+    "python",
+    "numpy",
+    "scipy >=1.0",
+    "pandas >=0.21",
+    "patsy >=0.5.1",
+    "python",
+    "numpy",
+    "scipy >=1.0",
+    "pandas >=0.21",
+    "patsy >=0.5.1"
+   ]
+  },
+  "source":{
+   "sha256":"5bde3fa0a35a91b45dba7cbc28270b5b649ff1d721c89290883f6e831672d5f0",
+   "url":"https://pypi.io/packages/source/s/statsmodels/statsmodels-0.11.1.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "pip check",
+    "pip check",
+    "pip check"
+   ],
+   "imports":[
+    "statsmodels",
+    "statsmodels",
+    "statsmodels"
+   ],
+   "requires":[
+    "pip",
+    "pip",
+    "pip"
+   ]
+  }
+ },
+ "name":"statsmodels",
+ "new_version":"0.11.1",
+ "pinning_version":"2020.04.16.16.23.46",
+ "raw_meta_yaml":"{% set version = \"0.11.1\" %}\n\npackage:\n  name: statsmodels\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/s/statsmodels/statsmodels-{{ version }}.tar.gz\n  sha256: 5bde3fa0a35a91b45dba7cbc28270b5b649ff1d721c89290883f6e831672d5f0\n\nbuild:\n  number: 1\n  script: \"{{ PYTHON }} -m pip install . --no-deps -vv\"\n  skip: True  # [py2k]  \n\nrequirements:\n  build:\n    - {{ compiler('c') }}\n  host:\n    - python\n    - pip\n    - cython\n    - numpy =1.15  # [py<38]\n    - numpy =1.16  # [py>=38]\n    - scipy >=1.0\n    - pandas >=0.21\n    - patsy >=0.5.1\n  run:\n    - python\n    - {{ pin_compatible('numpy') }}\n    - scipy >=1.0\n    - pandas >=0.21\n    - patsy >=0.5.1\n\ntest:\n  requires:\n    - pip\n  commands:\n    - pip check\n  imports:\n    - statsmodels\n\nabout:\n  home: https://www.statsmodels.org\n  license: BSD-3-Clause\n  license_file: INSTALL.txt\n  summary: 'Statistical computations and models for use with SciPy'\n  dev_url: https://github.com/statsmodels/statsmodels\n  doc_url: https://www.statsmodels.org/stable/\n\nextra:\n  recipe-maintainers:\n    - tomaugspurger\n    - croth1\n    - ocefpaf\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "c_compiler_stub",
+   "cython",
+   "numpy",
+   "pandas",
+   "patsy",
+   "pip",
+   "python",
+   "scipy"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "cython",
+    "numpy",
+    "pandas",
+    "patsy",
+    "pip",
+    "python",
+    "scipy"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "numpy",
+    "pandas",
+    "patsy",
+    "python",
+    "scipy"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "pip"
+   ]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.6.16",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "cython",
+    "numpy =1.15",
+    "pandas >=0.21",
+    "patsy >=0.5.1",
+    "pip",
+    "python",
+    "scipy >=1.0"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "numpy",
+    "pandas >=0.21",
+    "patsy >=0.5.1",
+    "python",
+    "scipy >=1.0"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "pip"
+   ]
+  }
+ },
+ "url":"https://pypi.io/packages/source/s/statsmodels/statsmodels-0.10.1.tar.gz",
+ "version":"0.11.1"
+}

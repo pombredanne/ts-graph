@@ -1,0 +1,128 @@
+{
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"google-cloud-texttospeech",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"Google Cloud Text-to-Speech API synthesizes natural-sounding speech by applying powerful neural network models.\nSee the [quick start guide](https://googleapis.dev/python/texttospeech/latest/index.html#quick-start).",
+   "dev_url":"https://github.com/googleapis/python-texttospeech",
+   "doc_url":"https://googleapis.dev/python/texttospeech/latest/index.html",
+   "home":"https://github.com/googleapis/python-texttospeech",
+   "license":"Apache-2.0",
+   "license_family":"Apache",
+   "license_file":"LICENSE",
+   "summary":"Google Cloud Text-to-Speech API client library"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":"-m pip install . --no-deps -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "parthea",
+    "parthea",
+    "parthea"
+   ]
+  },
+  "package":{
+   "name":"google-cloud-texttospeech",
+   "version":"1.0.1"
+  },
+  "requirements":{
+   "host":[
+    "python",
+    "pip >=18.1",
+    "python",
+    "pip >=18.1",
+    "python",
+    "pip >=18.1"
+   ],
+   "run":[
+    "python",
+    "google-api-core-grpc >=1.14.0,<2.0.0dev",
+    "python",
+    "google-api-core-grpc >=1.14.0,<2.0.0dev",
+    "python",
+    "google-api-core-grpc >=1.14.0,<2.0.0dev"
+   ]
+  },
+  "source":{
+   "sha256":"c5c66c148f6f47a213c8d53827c1dbf08cdf41f8047868433da0009e406e201e",
+   "url":"https://pypi.io/packages/source/g/google-cloud-texttospeech/google-cloud-texttospeech-1.0.1.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "grpc",
+    "google.cloud.texttospeech_v1",
+    "grpc",
+    "google.cloud.texttospeech_v1",
+    "grpc",
+    "google.cloud.texttospeech_v1"
+   ]
+  }
+ },
+ "name":"google-cloud-texttospeech",
+ "new_version":"1.0.1",
+ "raw_meta_yaml":"{% set name = \"google-cloud-texttospeech\" %}\n{% set version = \"1.0.1\" %}\n{% set sha256 = \"c5c66c148f6f47a213c8d53827c1dbf08cdf41f8047868433da0009e406e201e\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  noarch: python\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  host:\n    - python\n    - pip >=18.1\n  run:\n    - python\n    - google-api-core-grpc >=1.14.0,<2.0.0dev\n\ntest:\n  imports:\n    - grpc\n    - google.cloud.texttospeech_v1\n\nabout:\n  home: https://github.com/googleapis/python-texttospeech\n  license: Apache-2.0\n  license_family: Apache\n  license_file: LICENSE\n  summary: 'Google Cloud Text-to-Speech API client library'\n  description: Google Cloud Text-to-Speech API synthesizes natural-sounding speech \n    by applying powerful neural network models.\n\n    See the [quick start guide](https://googleapis.dev/python/texttospeech/latest/index.html#quick-start).\n\n  doc_url: https://googleapis.dev/python/texttospeech/latest/index.html\n  dev_url: https://github.com/googleapis/python-texttospeech\n\nextra:\n  recipe-maintainers:\n    - parthea\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "google-api-core-grpc",
+   "pip",
+   "python"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "google-api-core-grpc",
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip >=18.1",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "google-api-core-grpc >=1.14.0,<2.0.0dev",
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/g/google-cloud-texttospeech/google-cloud-texttospeech-1.0.1.tar.gz",
+ "version":"1.0.1"
+}

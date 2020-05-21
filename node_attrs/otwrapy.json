@@ -1,0 +1,215 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/199933931.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Noarch",
+    "migrator_version":0
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/219416865.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.8"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"otwrapy",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"https://github.com/openturns/otwrapy",
+   "license":"LGPL-3.0-or-later",
+   "license_family":"LGPL",
+   "license_file":"COPYING.LESSER",
+   "summary":"General purpose OpenTURNS python wrapper tools"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"3",
+   "script":[
+    " -m pip install . --no-deps -vv",
+    "rm ${SP_DIR}/otwrapy/examples/beam/{beam,beam.exe}",
+    " -m pip install . --no-deps -vv",
+    "rm ${SP_DIR}/otwrapy/examples/beam/{beam,beam.exe}",
+    " -m pip install . --no-deps -vv",
+    "rm ${SP_DIR}/otwrapy/examples/beam/{beam,beam.exe}"
+   ]
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "jschueller",
+    "felipeam86",
+    "jschueller",
+    "felipeam86",
+    "jschueller",
+    "felipeam86"
+   ]
+  },
+  "package":{
+   "name":"otwrapy",
+   "version":"0.9"
+  },
+  "requirements":{
+   "host":[
+    "pip",
+    "python",
+    "setuptools",
+    "pytest-runner",
+    "numpy",
+    "openturns 1.15*",
+    "pip",
+    "python",
+    "setuptools",
+    "pytest-runner",
+    "numpy",
+    "openturns 1.15*",
+    "pip",
+    "python",
+    "setuptools",
+    "pytest-runner",
+    "numpy",
+    "openturns 1.15*"
+   ],
+   "run":[
+    "python",
+    "numpy",
+    "joblib >=0.9.3",
+    "ipyparallel >=5.0.1",
+    "pathos >=0.2.0",
+    "openturns 1.15*",
+    "python",
+    "numpy",
+    "joblib >=0.9.3",
+    "ipyparallel >=5.0.1",
+    "pathos >=0.2.0",
+    "openturns 1.15*",
+    "python",
+    "numpy",
+    "joblib >=0.9.3",
+    "ipyparallel >=5.0.1",
+    "pathos >=0.2.0",
+    "openturns 1.15*"
+   ]
+  },
+  "source":{
+   "fn":"otwrapy-0.9.tar.gz",
+   "sha256":"823678fb65e09df972cc6c7a65437a071659f696dfd9aefb0c3697d8d96b3fba",
+   "url":"https://github.com/openturns/otwrapy/archive/v0.9.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "otwrapy",
+    "otwrapy",
+    "otwrapy"
+   ]
+  }
+ },
+ "name":"otwrapy",
+ "new_version":"0.9",
+ "pinning_version":"2018.09.27",
+ "raw_meta_yaml":"{% set version = \"0.9\" %}\n\npackage:\n  name: otwrapy\n  version: {{ version }}\n\nsource:\n  fn: otwrapy-{{ version }}.tar.gz\n  url: https://github.com/openturns/otwrapy/archive/v{{ version }}.tar.gz\n  sha256: 823678fb65e09df972cc6c7a65437a071659f696dfd9aefb0c3697d8d96b3fba\n\nbuild:\n  number: 3\n  noarch: python\n  script:\n    - \"{{ PYTHON }} -m pip install . --no-deps -vv\"\n    - rm ${SP_DIR}/otwrapy/examples/beam/{beam,beam.exe}\n\nrequirements:\n  host:\n    - pip\n    - python\n    - setuptools\n    - pytest-runner\n    - numpy\n    - openturns 1.15*\n  run:\n    - python\n    - numpy\n    - joblib >=0.9.3\n    - ipyparallel >=5.0.1\n    - pathos >=0.2.0\n    - openturns 1.15*\n\ntest:\n  imports:\n    - otwrapy\n\nabout:\n  home: https://github.com/openturns/otwrapy\n  license: LGPL-3.0-or-later\n  license_family: LGPL\n  license_file: COPYING.LESSER\n  summary: General purpose OpenTURNS python wrapper tools\n\nextra:\n  recipe-maintainers:\n    - jschueller\n    - felipeam86\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "ipyparallel",
+   "joblib",
+   "numpy",
+   "openturns",
+   "pathos",
+   "pip",
+   "pytest-runner",
+   "python",
+   "setuptools"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "numpy",
+    "openturns",
+    "pip",
+    "pytest-runner",
+    "python",
+    "setuptools"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "ipyparallel",
+    "joblib",
+    "numpy",
+    "openturns",
+    "pathos",
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.1.12",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "numpy",
+    "openturns 1.15*",
+    "pip",
+    "pytest-runner",
+    "python",
+    "setuptools"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "ipyparallel >=5.0.1",
+    "joblib >=0.9.3",
+    "numpy",
+    "openturns 1.15*",
+    "pathos >=0.2.0",
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://github.com/openturns/otwrapy/archive/v0.9.tar.gz",
+ "version":"0.9"
+}

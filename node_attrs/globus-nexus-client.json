@@ -1,0 +1,145 @@
+{
+ "bad":false,
+ "conda-forge.yml":{
+  "bot":{
+   "automerge":true
+  }
+ },
+ "feedstock_name":"globus-nexus-client",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"This is a personal project for talking to the Globus Nexus API with\nall of the benefits of the Globus SDK. It is not a Globus maintained\nproduct.\n",
+   "dev_url":"https://github.com/sirosen/globus-nexus-client",
+   "doc_url":"https://github.com/sirosen/globus-nexus-client",
+   "home":"https://github.com/sirosen/globus-nexus-client",
+   "license":"Apache-2.0",
+   "license_family":"Apache",
+   "license_file":"LICENSE",
+   "summary":"NexusClient object similar to Globus SDK objects"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "jan-janssen",
+    "jan-janssen",
+    "jan-janssen"
+   ]
+  },
+  "package":{
+   "name":"globus-nexus-client",
+   "version":"0.2.9"
+  },
+  "requirements":{
+   "host":[
+    "python",
+    "pip",
+    "python",
+    "pip",
+    "python",
+    "pip"
+   ],
+   "run":[
+    "python",
+    "pip",
+    "globus-sdk >=1.0.0",
+    "six >=1.10.0",
+    "python",
+    "pip",
+    "globus-sdk >=1.0.0",
+    "six >=1.10.0",
+    "python",
+    "pip",
+    "globus-sdk >=1.0.0",
+    "six >=1.10.0"
+   ]
+  },
+  "source":{
+   "sha256":"10c0abca8f8da6f0799051fef3f7dbd8a38a6b28231663014f6843ac39f9a6fd",
+   "url":"https://pypi.io/packages/source/g/globus-nexus-client/globus-nexus-client-0.2.9.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "pip check",
+    "pip check",
+    "pip check"
+   ],
+   "imports":[
+    "globus_nexus_client",
+    "globus_nexus_client",
+    "globus_nexus_client"
+   ]
+  }
+ },
+ "name":"globus-nexus-client",
+ "new_version":"0.2.9",
+ "raw_meta_yaml":"{% set name = \"globus-nexus-client\" %}\n{% set version = \"0.2.9\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: 10c0abca8f8da6f0799051fef3f7dbd8a38a6b28231663014f6843ac39f9a6fd\n\nbuild:\n  noarch: python\n  number: 0\n  script: \"{{ PYTHON }} -m pip install . -vv\"\n\nrequirements:\n  host:\n    - python\n    - pip\n  run:\n    - python\n    - pip\n    - globus-sdk >=1.0.0\n    - six >=1.10.0\n\ntest:\n  imports:\n    - globus_nexus_client\n  commands:\n    - pip check\n\nabout:\n  home: https://github.com/sirosen/globus-nexus-client\n  license: Apache-2.0\n  license_family: Apache\n  license_file: LICENSE\n  summary: 'NexusClient object similar to Globus SDK objects'\n\n  description: |\n    This is a personal project for talking to the Globus Nexus API with \n    all of the benefits of the Globus SDK. It is not a Globus maintained \n    product.\n  doc_url: https://github.com/sirosen/globus-nexus-client\n  dev_url: https://github.com/sirosen/globus-nexus-client\n\nextra:\n  recipe-maintainers:\n    - jan-janssen\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "globus-sdk",
+   "pip",
+   "python",
+   "six"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "globus-sdk",
+    "pip",
+    "python",
+    "six"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "globus-sdk >=1.0.0",
+    "pip",
+    "python",
+    "six >=1.10.0"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/g/globus-nexus-client/globus-nexus-client-0.2.9.tar.gz",
+ "version":"0.2.9"
+}

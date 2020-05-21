@@ -1,0 +1,149 @@
+{
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"spint",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"The Spatial Interaction Modeling (SpInt) module provides a collection of\ntools to study spatial interaction processes and analyze spatial\ninteraction data.\n",
+   "dev_url":"http://github.com/pysal/spint",
+   "doc_url":"http://readthedocs.org/projects/spint",
+   "home":"http://pysal.org/",
+   "license":"BSD-3-Clause",
+   "license_family":"BSD",
+   "license_file":"LICENSE.txt",
+   "summary":"Efficient calibration of spatial interaction models in Python"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "TaylorOshan",
+    "TaylorOshan",
+    "TaylorOshan"
+   ]
+  },
+  "package":{
+   "name":"spint",
+   "version":"1.0.6"
+  },
+  "requirements":{
+   "host":[
+    "python >=3",
+    "pip",
+    "python >=3",
+    "pip",
+    "python >=3",
+    "pip"
+   ],
+   "run":[
+    "python >=3",
+    "scipy >=0.11",
+    "numpy >=1.3",
+    "libpysal >=4.0.0",
+    "spglm >=1.0.7",
+    "spreg >=1.0.4",
+    "python >=3",
+    "scipy >=0.11",
+    "numpy >=1.3",
+    "libpysal >=4.0.0",
+    "spglm >=1.0.7",
+    "spreg >=1.0.4",
+    "python >=3",
+    "scipy >=0.11",
+    "numpy >=1.3",
+    "libpysal >=4.0.0",
+    "spglm >=1.0.7",
+    "spreg >=1.0.4"
+   ]
+  },
+  "source":{
+   "sha256":"64beb8bf3daaf299d6b0ca6051d2c2213129c09e62fd0a0e6f36374a88b8e9c8",
+   "url":"https://pypi.io/packages/source/s/spint/spint-1.0.6.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "spint",
+    "spint",
+    "spint"
+   ]
+  }
+ },
+ "name":"spint",
+ "new_version":"1.0.6",
+ "raw_meta_yaml":"{% set name = \"spint\" %}\n{% set version = \"1.0.6\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: 64beb8bf3daaf299d6b0ca6051d2c2213129c09e62fd0a0e6f36374a88b8e9c8\n\nbuild:\n  noarch: python\n  number: 0\n  script: \"{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv\"\n\nrequirements:\n  host:\n    - python >=3\n    - pip\n  run:\n    - python >=3\n    - scipy >=0.11\n    - numpy >=1.3\n    - libpysal >=4.0.0\n    - spglm >=1.0.7\n    - spreg >=1.0.4\n\ntest:\n  imports:\n    - spint\n\nabout:\n  home: http://pysal.org/\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: LICENSE.txt\n  summary: 'Efficient calibration of spatial interaction models in Python'\n\n  description: |\n    The Spatial Interaction Modeling (SpInt) module provides a collection of\n    tools to study spatial interaction processes and analyze spatial\n    interaction data.\n  doc_url: http://readthedocs.org/projects/spint\n  dev_url: http://github.com/pysal/spint\n\nextra:\n  recipe-maintainers:\n    - TaylorOshan\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "libpysal",
+   "numpy",
+   "pip",
+   "python",
+   "scipy",
+   "spglm",
+   "spreg"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "libpysal",
+    "numpy",
+    "python",
+    "scipy",
+    "spglm",
+    "spreg"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "libpysal >=4.0.0",
+    "numpy >=1.3",
+    "python >=3",
+    "scipy >=0.11",
+    "spglm >=1.0.7",
+    "spreg >=1.0.4"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/s/spint/spint-1.0.6.tar.gz",
+ "version":"1.0.6"
+}

@@ -1,0 +1,244 @@
+{
+ "PRed":[
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.8.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/223253602.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.8.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/267072550.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.9.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/336087037.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.10.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"yacron",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "dev_url":"https://github.com/gjcarneiro/yacron",
+   "home":"https://github.com/gjcarneiro/yacron",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"LICENSE",
+   "summary":"A modern Cron replacement that is Docker-friendly"
+  },
+  "build":{
+   "entry_points":[
+    "yacron = yacron.__main__:main",
+    "yacron = yacron.__main__:main",
+    "yacron = yacron.__main__:main"
+   ],
+   "noarch":"python",
+   "number":"1",
+   "script":" -m pip install . -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "mcs07",
+    "mcs07",
+    "mcs07"
+   ]
+  },
+  "package":{
+   "name":"yacron",
+   "version":"0.10.0"
+  },
+  "requirements":{
+   "host":[
+    "python >=3.5",
+    "pip",
+    "pytest-runner",
+    "setuptools_scm",
+    "python >=3.5",
+    "pip",
+    "pytest-runner",
+    "setuptools_scm",
+    "python >=3.5",
+    "pip",
+    "pytest-runner",
+    "setuptools_scm"
+   ],
+   "run":[
+    "python >=3.5",
+    "strictyaml >=0.7.2",
+    "crontab",
+    "aiohttp",
+    "sentry-sdk",
+    "aiosmtplib",
+    "jinja2",
+    "python >=3.5",
+    "strictyaml >=0.7.2",
+    "crontab",
+    "aiohttp",
+    "sentry-sdk",
+    "aiosmtplib",
+    "jinja2",
+    "python >=3.5",
+    "strictyaml >=0.7.2",
+    "crontab",
+    "aiohttp",
+    "sentry-sdk",
+    "aiosmtplib",
+    "jinja2"
+   ]
+  },
+  "source":{
+   "sha256":"613a5900e4f7a0d4cda5062b0d95016545f79e664c71806e7633ca2d40014bbc",
+   "url":"https://pypi.io/packages/source/y/yacron/yacron-0.10.0.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "yacron --version",
+    "yacron --version",
+    "yacron --version"
+   ],
+   "imports":[
+    "yacron",
+    "yacron",
+    "yacron"
+   ]
+  }
+ },
+ "name":"yacron",
+ "new_version":"0.10.0",
+ "pinning_version":"2019.11.01",
+ "raw_meta_yaml":"{% set name = \"yacron\" %}\n{% set version = \"0.10.0\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: 613a5900e4f7a0d4cda5062b0d95016545f79e664c71806e7633ca2d40014bbc\n\nbuild:\n  noarch: python\n  number: 1\n  script: \"{{ PYTHON }} -m pip install . -vv\"\n  entry_points:\n    - yacron = yacron.__main__:main\n\nrequirements:\n  host:\n    - python >=3.5\n    - pip\n    - pytest-runner\n    - setuptools_scm\n  run:\n    - python >=3.5\n    - strictyaml >=0.7.2\n    - crontab\n    - aiohttp\n    - sentry-sdk\n    - aiosmtplib\n    - jinja2\n\ntest:\n  imports:\n    - yacron\n  commands:\n    - yacron --version\n\nabout:\n  home: https://github.com/gjcarneiro/yacron\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE\n  summary: 'A modern Cron replacement that is Docker-friendly'\n  dev_url: https://github.com/gjcarneiro/yacron\n\nextra:\n  recipe-maintainers:\n    - mcs07\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "aiohttp",
+   "aiosmtplib",
+   "crontab",
+   "jinja2",
+   "pip",
+   "pytest-runner",
+   "python",
+   "sentry-sdk",
+   "setuptools_scm",
+   "strictyaml"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "pytest-runner",
+    "python",
+    "setuptools_scm"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "aiohttp",
+    "aiosmtplib",
+    "crontab",
+    "jinja2",
+    "python",
+    "sentry-sdk",
+    "strictyaml"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.6.1",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "pytest-runner",
+    "python >=3.5",
+    "setuptools_scm"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "aiohttp",
+    "aiosmtplib",
+    "crontab",
+    "jinja2",
+    "python >=3.5",
+    "sentry-sdk",
+    "strictyaml >=0.7.2"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/y/yacron/yacron-0.9.0.tar.gz",
+ "version":"0.10.0"
+}

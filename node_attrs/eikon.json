@@ -1,0 +1,194 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/372496838.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.1.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"eikon",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"The Eikon Data API provide simple access to users who require programmatic access to Eikon data on the desktop.\nThis API is intended for Eikon users. Applications and scripts using this API must be run beside Eikon on the same desktop machine for the Eikon user only.\n",
+   "dev_url":"https://developers.refinitiv.com/eikon-apis/eikon-data-api/",
+   "doc_url":"https://developers.refinitiv.com/eikon-apis/eikon-data-api/docs",
+   "home":"https://developers.refinitiv.com/",
+   "license":"Apache-2.0",
+   "license_family":"Apache",
+   "license_file":"LICENSE.txt",
+   "summary":"Python API for accessing Eikon data directly from any application running on your desktop"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "wiphoo",
+    "wiphoo",
+    "wiphoo"
+   ]
+  },
+  "package":{
+   "name":"eikon",
+   "version":"1.1.2"
+  },
+  "requirements":{
+   "host":[
+    "python >=3.6",
+    "pip",
+    "python >=3.6",
+    "pip",
+    "python >=3.6",
+    "pip"
+   ],
+   "run":[
+    "python >=3.6",
+    "python-dateutil",
+    "deprecation",
+    "appdirs =1.4.3",
+    "requests =2.22.0",
+    "requests-async =0.6.2",
+    "nest-asyncio =1.0.0",
+    "websocket-client",
+    "pandas >=0.17.0",
+    "numpy >=1.11.0",
+    "python >=3.6",
+    "python-dateutil",
+    "deprecation",
+    "appdirs =1.4.3",
+    "requests =2.22.0",
+    "requests-async =0.6.2",
+    "nest-asyncio =1.0.0",
+    "websocket-client",
+    "pandas >=0.17.0",
+    "numpy >=1.11.0",
+    "python >=3.6",
+    "python-dateutil",
+    "deprecation",
+    "appdirs =1.4.3",
+    "requests =2.22.0",
+    "requests-async =0.6.2",
+    "nest-asyncio =1.0.0",
+    "websocket-client",
+    "pandas >=0.17.0",
+    "numpy >=1.11.0"
+   ]
+  },
+  "source":{
+   "sha256":"bc329dfa09edb6909adf3976b24e1afaa9be2b88939d4fcb108f50a030fa26d9",
+   "url":"https://pypi.io/packages/source/e/eikon/eikon-1.1.2.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "eikon",
+    "eikon",
+    "eikon"
+   ]
+  }
+ },
+ "name":"eikon",
+ "new_version":"1.1.2",
+ "pinning_version":"2020.01.28",
+ "raw_meta_yaml":"{% set name = \"eikon\" %}\n{% set version = \"1.1.2\" %}\n{% set sha256 = \"bc329dfa09edb6909adf3976b24e1afaa9be2b88939d4fcb108f50a030fa26d9\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n  \nbuild:\n  noarch: python\n  number: 0\n  script: \"{{ PYTHON }} -m pip install . -vv\"\n\nrequirements:\n  host:\n    - python >=3.6\n    - pip\n  run:\n    - python >=3.6\n    - python-dateutil\n    - deprecation\n    - appdirs =1.4.3\n    - requests =2.22.0\n    - requests-async =0.6.2\n    - nest-asyncio =1.0.0\n    - websocket-client\n    - pandas >=0.17.0\n    - numpy >=1.11.0\n    \ntest:\n  imports:\n    - eikon\n\nabout:\n  home: https://developers.refinitiv.com/\n  license: Apache-2.0\n  license_family:  Apache\n  license_file: LICENSE.txt\n  summary: 'Python API for accessing Eikon data directly from any application running on your desktop'\n  description: |\n    The Eikon Data API provide simple access to users who require programmatic access to Eikon data on the desktop. \n    This API is intended for Eikon users. Applications and scripts using this API must be run beside Eikon on the same desktop machine for the Eikon user only.\n  doc_url: https://developers.refinitiv.com/eikon-apis/eikon-data-api/docs\n  dev_url: https://developers.refinitiv.com/eikon-apis/eikon-data-api/\n\nextra:\n  recipe-maintainers:\n    - wiphoo\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "appdirs",
+   "deprecation",
+   "nest-asyncio",
+   "numpy",
+   "pandas",
+   "pip",
+   "python",
+   "python-dateutil",
+   "requests",
+   "requests-async",
+   "websocket-client"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "appdirs",
+    "deprecation",
+    "nest-asyncio",
+    "numpy",
+    "pandas",
+    "python",
+    "python-dateutil",
+    "requests",
+    "requests-async",
+    "websocket-client"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.6.8",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3.6"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "appdirs =1.4.3",
+    "deprecation",
+    "nest-asyncio =1.0.0",
+    "numpy >=1.11.0",
+    "pandas >=0.17.0",
+    "python >=3.6",
+    "python-dateutil",
+    "requests =2.22.0",
+    "requests-async =0.6.2",
+    "websocket-client"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/e/eikon/eikon-1.0.1.tar.gz",
+ "version":"1.1.2"
+}

@@ -1,0 +1,225 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/382139887.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"22.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/418150265.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"23.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/418258051.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"23.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "bot":{
+   "automerge":true
+  }
+ },
+ "feedstock_name":"executor",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "dev_url":"https://github.com/xolox/python-executor",
+   "doc_url":"https://executor.readthedocs.io/en/latest/",
+   "home":"https://executor.readthedocs.io",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"LICENSE.txt",
+   "summary":"Programmer friendly subprocess wrapper"
+  },
+  "build":{
+   "entry_points":[
+    "executor = executor.cli:main",
+    "executor = executor.cli:main",
+    "executor = executor.cli:main"
+   ],
+   "noarch":"python",
+   "number":"0",
+   "script":"-m pip install . -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "rpetit3",
+    "rpetit3",
+    "rpetit3"
+   ]
+  },
+  "package":{
+   "name":"executor",
+   "version":"23.1"
+  },
+  "requirements":{
+   "host":[
+    "pip",
+    "python",
+    "pip",
+    "python",
+    "pip",
+    "python"
+   ],
+   "run":[
+    "coloredlogs >=3.5",
+    "fasteners >=0.14.1",
+    "humanfriendly >=8.0",
+    "property-manager >=3.0",
+    "python",
+    "six >=1.9.0",
+    "coloredlogs >=3.5",
+    "fasteners >=0.14.1",
+    "humanfriendly >=8.0",
+    "property-manager >=3.0",
+    "python",
+    "six >=1.9.0",
+    "coloredlogs >=3.5",
+    "fasteners >=0.14.1",
+    "humanfriendly >=8.0",
+    "property-manager >=3.0",
+    "python",
+    "six >=1.9.0"
+   ]
+  },
+  "source":{
+   "sha256":"c8d4bba81d80c16612fcbcefd45439f45f82daa1d6e24c44b1832f3bb4649d5f",
+   "url":"https://pypi.io/packages/source/e/executor/executor-23.1.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "executor --help",
+    "executor --help",
+    "executor --help"
+   ],
+   "imports":[
+    "executor",
+    "executor.ssh",
+    "executor",
+    "executor.ssh",
+    "executor",
+    "executor.ssh"
+   ]
+  }
+ },
+ "name":"executor",
+ "new_version":"23.1",
+ "new_version_attempts":{
+  "23.0":1,
+  "23.1":1
+ },
+ "new_version_errors":{},
+ "pinning_version":"2020.05.14.17.14.20",
+ "raw_meta_yaml":"{% set name = \"executor\" %}\n{% set version = \"23.1\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: c8d4bba81d80c16612fcbcefd45439f45f82daa1d6e24c44b1832f3bb4649d5f\n\nbuild:\n  number: 0\n  noarch: python\n  entry_points:\n    - executor = executor.cli:main\n  script: {{ PYTHON }} -m pip install . -vv\n\nrequirements:\n  host:\n    - pip\n    - python\n  run:\n    - coloredlogs >=3.5\n    - fasteners >=0.14.1\n    - humanfriendly >=8.0\n    - property-manager >=3.0\n    - python\n    - six >=1.9.0\n\ntest:\n  imports:\n    - executor\n    - executor.ssh\n  commands:\n    - executor --help\n\nabout:\n  home: https://executor.readthedocs.io\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE.txt\n  summary: Programmer friendly subprocess wrapper\n  doc_url: https://executor.readthedocs.io/en/latest/\n  dev_url: https://github.com/xolox/python-executor\n\nextra:\n  recipe-maintainers:\n    - rpetit3\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "coloredlogs",
+   "fasteners",
+   "humanfriendly",
+   "pip",
+   "property-manager",
+   "python",
+   "six"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "coloredlogs",
+    "fasteners",
+    "humanfriendly",
+    "property-manager",
+    "python",
+    "six"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.7.1\n",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "coloredlogs >=3.5",
+    "fasteners >=0.14.1",
+    "humanfriendly >=8.0",
+    "property-manager >=3.0",
+    "python",
+    "six >=1.9.0"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/e/executor/executor-21.3.tar.gz",
+ "version":"23.1"
+}

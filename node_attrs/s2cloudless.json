@@ -1,0 +1,159 @@
+{
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"s2cloudless",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "doc_url":"https://pypi.org/project/s2cloudless/",
+   "home":"https://github.com/sentinel-hub/sentinel2-cloud-detector",
+   "license":"CC BY-SA 4.0",
+   "license_family":"CC",
+   "license_file":"LICENSE.md",
+   "summary":"Sentinel Hub's cloud detector for Sentinel-2 imagery"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "mwilson8",
+    "dcunn",
+    "oblute",
+    "rluria14",
+    "benhuff",
+    "mwilson8",
+    "dcunn",
+    "oblute",
+    "rluria14",
+    "benhuff",
+    "mwilson8",
+    "dcunn",
+    "oblute",
+    "rluria14",
+    "benhuff"
+   ]
+  },
+  "package":{
+   "name":"s2cloudless",
+   "version":"1.4.0"
+  },
+  "requirements":{
+   "host":[
+    "pip",
+    "python >=3.5",
+    "pip",
+    "python >=3.5",
+    "pip",
+    "python >=3.5"
+   ],
+   "run":[
+    "lightgbm >=2.0.11",
+    "numpy >=1.13.3",
+    "python >=3.5",
+    "scikit-image >=0.13.0",
+    "scipy >=0.19.1",
+    "sentinelhub >=2.4.6",
+    "lightgbm >=2.0.11",
+    "numpy >=1.13.3",
+    "python >=3.5",
+    "scikit-image >=0.13.0",
+    "scipy >=0.19.1",
+    "sentinelhub >=2.4.6",
+    "lightgbm >=2.0.11",
+    "numpy >=1.13.3",
+    "python >=3.5",
+    "scikit-image >=0.13.0",
+    "scipy >=0.19.1",
+    "sentinelhub >=2.4.6"
+   ]
+  },
+  "source":{
+   "sha256":"5701aa36270e7ab40fa146a0ead1382a229b1ed6abbd4588f7d27aa33c91dab9",
+   "url":"https://pypi.io/packages/source/s/s2cloudless/s2cloudless-1.4.0.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "s2cloudless",
+    "s2cloudless",
+    "s2cloudless"
+   ]
+  }
+ },
+ "name":"s2cloudless",
+ "new_version":"1.4.0",
+ "raw_meta_yaml":"{% set name = \"s2cloudless\" %}\n{% set version = \"1.4.0\" %}\n\npackage:\n  name: \"{{ name|lower }}\"\n  version: \"{{ version }}\"\n\nsource:\n  url: \"https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\"\n  sha256: 5701aa36270e7ab40fa146a0ead1382a229b1ed6abbd4588f7d27aa33c91dab9\n\nbuild:\n  noarch: python\n  number: 0\n  script: \"{{ PYTHON }} -m pip install . -vv\"\n\nrequirements:\n  host:\n    - pip\n    - python >=3.5\n  run:\n    - lightgbm >=2.0.11\n    - numpy >=1.13.3\n    - python >=3.5\n    - scikit-image >=0.13.0\n    - scipy >=0.19.1\n    - sentinelhub >=2.4.6\n\ntest:\n  imports:\n    - s2cloudless\n\nabout:\n  home: \"https://github.com/sentinel-hub/sentinel2-cloud-detector\"\n  license: \"CC BY-SA 4.0\"\n  license_family: \"CC\"\n  license_file: \"LICENSE.md\"\n  summary: \"Sentinel Hub's cloud detector for Sentinel-2 imagery\"\n  doc_url: \"https://pypi.org/project/s2cloudless/\"\n\nextra:\n  recipe-maintainers:\n    - mwilson8\n    - dcunn\n    - oblute\n    - rluria14\n    - benhuff\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "lightgbm",
+   "numpy",
+   "pip",
+   "python",
+   "scikit-image",
+   "scipy",
+   "sentinelhub"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "lightgbm",
+    "numpy",
+    "python",
+    "scikit-image",
+    "scipy",
+    "sentinelhub"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3.5"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "lightgbm >=2.0.11",
+    "numpy >=1.13.3",
+    "python >=3.5",
+    "scikit-image >=0.13.0",
+    "scipy >=0.19.1",
+    "sentinelhub >=2.4.6"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/s/s2cloudless/s2cloudless-1.4.0.tar.gz",
+ "version":"1.4.0"
+}

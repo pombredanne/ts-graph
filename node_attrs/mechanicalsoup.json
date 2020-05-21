@@ -1,0 +1,184 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/214797910.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.11.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/311488745.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.12.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"mechanicalsoup",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"https://github.com/hickford/MechanicalSoup",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"LICENSE",
+   "summary":"A Python library for automating interaction with websites"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . --no-deps -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "ocefpaf",
+    "ocefpaf",
+    "ocefpaf"
+   ]
+  },
+  "package":{
+   "name":"mechanicalsoup",
+   "version":"0.12.0"
+  },
+  "requirements":{
+   "build":[
+    "python",
+    "pip",
+    "pytest-runner",
+    "python",
+    "pip",
+    "pytest-runner",
+    "python",
+    "pip",
+    "pytest-runner"
+   ],
+   "run":[
+    "python",
+    "beautifulsoup4 >=4.4",
+    "lxml",
+    "requests >=2.0",
+    "six >=1.4",
+    "python",
+    "beautifulsoup4 >=4.4",
+    "lxml",
+    "requests >=2.0",
+    "six >=1.4",
+    "python",
+    "beautifulsoup4 >=4.4",
+    "lxml",
+    "requests >=2.0",
+    "six >=1.4"
+   ]
+  },
+  "source":{
+   "sha256":"39a60627a97981869251837b8bd082485f2f681df8a3315836ffaa74663627bd",
+   "url":"https://pypi.io/packages/source/M/MechanicalSoup/MechanicalSoup-0.12.0.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "mechanicalsoup",
+    "mechanicalsoup",
+    "mechanicalsoup"
+   ]
+  }
+ },
+ "name":"mechanicalsoup",
+ "new_version":"0.12.0",
+ "pinning_version":"2019.08.22",
+ "raw_meta_yaml":"{% set version = \"0.12.0\" %}\n\npackage:\n  name: mechanicalsoup\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/M/MechanicalSoup/MechanicalSoup-{{ version }}.tar.gz\n  sha256: 39a60627a97981869251837b8bd082485f2f681df8a3315836ffaa74663627bd\n\nbuild:\n  number: 0\n  noarch: python\n  script: \"{{ PYTHON }} -m pip install . --no-deps -vv\"\n\nrequirements:\n  build:\n    - python\n    - pip\n    - pytest-runner\n  run:\n    - python\n    - beautifulsoup4 >=4.4\n    - lxml\n    - requests >=2.0\n    - six >=1.4\n\ntest:\n  imports:\n    - mechanicalsoup\n\nabout:\n  home: https://github.com/hickford/MechanicalSoup\n  license: MIT\n  license_file: LICENSE\n  summary: 'A Python library for automating interaction with websites'\n  license_family: MIT\n\nextra:\n  recipe-maintainers:\n    - ocefpaf\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "beautifulsoup4",
+   "lxml",
+   "pip",
+   "pytest-runner",
+   "python",
+   "requests",
+   "six"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "pytest-runner",
+    "python"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "beautifulsoup4",
+    "lxml",
+    "python",
+    "requests",
+    "six"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.4.1",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "pytest-runner",
+    "python"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "beautifulsoup4 >=4.4",
+    "lxml",
+    "python",
+    "requests >=2.0",
+    "six >=1.4"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/M/MechanicalSoup/MechanicalSoup-0.12.0.tar.gz",
+ "version":"0.12.0"
+}

@@ -1,0 +1,174 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "id":"afd678d1-e0ef-4b60-8d7e-3e4f0a5f9c8a",
+    "merged_at":"never issued",
+    "state":"closed"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"mpich-3.3"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":"Upstream: Error getting upstream version",
+ "conda-forge.yml":{},
+ "feedstock_name":"scorec",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"https://www.scorec.rpi.edu/software.php",
+   "license":"BSD-3-Clause",
+   "license_file":"LICENSE",
+   "summary":"The SCOREC Core is a set of C/C++ libraries for unstructured mesh simulations on supercomputers."
+  },
+  "build":{
+   "number":"0",
+   "run_exports":[
+    "scorec * mpi_mpich_*",
+    "scorec * mpi_mpich_*",
+    "scorec * mpi_mpich_*"
+   ],
+   "skip":true,
+   "string":"mpi_mpich_h_0"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "davidbrochart",
+    "SylvainCorlay",
+    "zhang-alvin",
+    "davidbrochart",
+    "SylvainCorlay",
+    "zhang-alvin",
+    "davidbrochart",
+    "SylvainCorlay",
+    "zhang-alvin"
+   ]
+  },
+  "package":{
+   "name":"scorec",
+   "version":"2.2.2"
+  },
+  "requirements":{
+   "build":[
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "cmake",
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "cmake",
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "cmake"
+   ],
+   "host":[
+    "mpich",
+    "metis 5.1",
+    "parmetis 4.0",
+    "zoltan 3",
+    "mpich",
+    "metis 5.1",
+    "parmetis 4.0",
+    "zoltan 3",
+    "mpich",
+    "metis 5.1",
+    "parmetis 4.0",
+    "zoltan 3"
+   ]
+  },
+  "source":{
+   "sha256":"201ba8ad9f71e75fd2d6d7dc6da43dafd69233a16e022786c85f62c207fcbf0f",
+   "url":"https://github.com/SCOREC/core/archive/v2.2.2.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "test -f ${PREFIX}/include/zoltan.h"
+   ]
+  }
+ },
+ "name":"scorec",
+ "new_version":false,
+ "pinning_version":"2019.10.11",
+ "raw_meta_yaml":"{% set name = \"scorec\" %}\n{% set version = \"2.2.2\" %}\n{% set build = 0 %}\n{% set sha256 = \"201ba8ad9f71e75fd2d6d7dc6da43dafd69233a16e022786c85f62c207fcbf0f\" %}\n\n{% set mpi = mpi or 'mpich' %}\n\npackage:\n  name: {{ name }}\n  version: {{ version }}\n\nsource:\n  url: https://github.com/SCOREC/core/archive/v{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n#  patches:\n#    - 0001-fix-malloc-usage.patch  # [osx]\n#    - 0002-fmemopen-memstream-ports-for-darwin.patch  # [osx]\n\nbuild:\n  number: {{ build }}\n  skip: true  # [win]\n  {% set mpi_prefix = \"mpi_\" + mpi %}\n  string: \"{{ mpi_prefix }}_h{{ PKG_HASH }}_{{ build }}\"\n  run_exports:\n    - {{ name }} * {{ mpi_prefix }}_*\n\nrequirements:\n  build:\n    - {{ compiler('c') }}\n    - {{ compiler('cxx') }}\n    - cmake\n  host:\n    - {{ mpi }}\n    - metis 5.1\n    - parmetis 4.0\n    - zoltan 3\n\ntest:\n  commands:\n    - test -f ${PREFIX}/include/zoltan.h  # [unix]\n\nabout:\n  home: https://www.scorec.rpi.edu/software.php\n  license: BSD-3-Clause\n  license_file: LICENSE\n  summary: The SCOREC Core is a set of C/C++ libraries for unstructured mesh simulations on supercomputers.\n\nextra:\n  recipe-maintainers:\n    - davidbrochart\n    - SylvainCorlay\n    - zhang-alvin\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "c_compiler_stub",
+   "cmake",
+   "cxx_compiler_stub",
+   "metis",
+   "mpich",
+   "parmetis",
+   "zoltan"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "cmake",
+    "cxx_compiler_stub"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "metis",
+    "mpich",
+    "parmetis",
+    "zoltan"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.6.0",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "cmake",
+    "cxx_compiler_stub"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "metis 5.1",
+    "mpich",
+    "parmetis 4.0",
+    "zoltan 3"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://github.com/SCOREC/core/archive/after_sim.tar.gz",
+ "version":"2.2.2"
+}

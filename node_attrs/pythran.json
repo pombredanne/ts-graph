@@ -1,0 +1,452 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/222682965.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/245999822.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.9.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/248913621.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.9.1.post0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/276012780.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.9.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/308544795.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.9.3"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/310712147.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.9.3.post0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/312949494.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.9.3.post1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/334602944.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.9.4.post0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/336077906.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"python38"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/341158630.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.9.4.post1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/392398139.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"pypy"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "provider":{
+   "win":"azure"
+  }
+ },
+ "feedstock_name":"pythran",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"Pythran is an ahead of time compiler for a subset of the Python language,\nwith a focus on scientific computing. It takes a Python module annotated\nwith a few interface description and turns it into a native Python module\nwith the same interface, but (hopefully) faster.\n",
+   "dev_url":"https://github.com/serge-sans-paille/pythran",
+   "doc_url":"https://pythran.readthedocs.io/",
+   "home":"http://github.com/serge-sans-paille/pythran",
+   "license":"BSD-3-Clause",
+   "license_family":"BSD",
+   "license_file":"LICENSE",
+   "summary":"a claimless python to c++ converter"
+  },
+  "build":{
+   "entry_points":[
+    "pythran = pythran.run:run",
+    "pythran-config = pythran.config:run",
+    "pythran = pythran.run:run",
+    "pythran-config = pythran.config:run",
+    "pythran = pythran.run:run",
+    "pythran-config = pythran.config:run"
+   ],
+   "number":"1",
+   "script":[
+    "python -c \"import os, shutil; shutil.rmtree(os.path.join('pythran', 'xsimd'))\"",
+    "python -c \"s = open('pythran\\pythran-win32.cfg', 'r'); c = s.read(); s.close(); s = open('pythran\\pythran-win32.cfg', 'w'); r = c.replace('CC=', 'CC=clang-cl.exe').replace('CXX=','CXX=clang-cl.exe'); s.write(r); s.close(); print(r)\"",
+    "python -m pip install . --no-deps -vv",
+    "python -c \"import os, shutil; shutil.rmtree(os.path.join('pythran', 'xsimd'))\"",
+    "python -c \"with open('setup.cfg', 'w') as s: s.write('[build_py]\\nno_xsimd=True')\"",
+    "python -m pip install . --no-deps -vv",
+    "python -c \"import os, shutil; shutil.rmtree(os.path.join('pythran', 'xsimd'))\"",
+    "python -c \"with open('setup.cfg', 'w') as s: s.write('[build_py]\\nno_xsimd=True')\"",
+    "python -m pip install . --no-deps -vv"
+   ]
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "saraedum",
+    "serge-sans-paille",
+    "saraedum",
+    "serge-sans-paille",
+    "saraedum",
+    "serge-sans-paille"
+   ]
+  },
+  "package":{
+   "name":"pythran",
+   "version":"0.9.5"
+  },
+  "requirements":{
+   "build":[
+    "clang",
+    "cxx_compiler_stub",
+    "cxx_compiler_stub"
+   ],
+   "host":[
+    "python",
+    "pip",
+    "numpy >=1.13",
+    "pytest-runner",
+    "python",
+    "pip",
+    "numpy >=1.13",
+    "pytest-runner",
+    "python",
+    "pip",
+    "numpy >=1.13",
+    "pytest-runner"
+   ],
+   "run":[
+    "clang",
+    "python",
+    "numpy",
+    "decorator",
+    "gast >=0.3.0",
+    "networkx >=2",
+    "ply >=3.4",
+    "six",
+    "beniget >=0.2.0",
+    "cxx_compiler_stub",
+    "python",
+    "numpy",
+    "decorator",
+    "gast >=0.3.0",
+    "networkx >=2",
+    "ply >=3.4",
+    "six",
+    "beniget >=0.2.0",
+    "xsimd =7.2.2",
+    "cxx_compiler_stub",
+    "python",
+    "numpy",
+    "decorator",
+    "gast >=0.3.0",
+    "networkx >=2",
+    "ply >=3.4",
+    "six",
+    "beniget >=0.2.0",
+    "xsimd =7.2.2"
+   ]
+  },
+  "source":{
+   "sha256":"815a778d6889593c0b8ddf08052cff36a504ce4cc8bd8d7bfb856a212f91486e",
+   "url":"https://pypi.io/packages/source/p/pythran/pythran-0.9.5.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "pythran -v dprod.py",
+    "python -c \"import dprod\"",
+    "pythran -v simple_numexpr.py -DUSE_XSIMD -march=native",
+    "python -c \"import simple_numexpr\"",
+    "pythran -v dprod.py",
+    "python -c \"import dprod\"",
+    "pythran -v simple_numexpr.py -DUSE_XSIMD -march=native",
+    "python -c \"import simple_numexpr\"",
+    "pythran -v dprod.py",
+    "python -c \"import dprod\"",
+    "pythran -v simple_numexpr.py -DUSE_XSIMD -march=native",
+    "python -c \"import simple_numexpr\""
+   ],
+   "files":[
+    "dprod.py",
+    "simple_numexpr.py",
+    "dprod.py",
+    "simple_numexpr.py",
+    "dprod.py",
+    "simple_numexpr.py"
+   ],
+   "imports":[
+    "pythran",
+    "pythran.analyses",
+    "pythran.optimizations",
+    "pythran.transformations",
+    "pythran.types",
+    "omp",
+    "pythran",
+    "pythran.analyses",
+    "pythran.optimizations",
+    "pythran.transformations",
+    "pythran.types",
+    "omp",
+    "pythran",
+    "pythran.analyses",
+    "pythran.optimizations",
+    "pythran.transformations",
+    "pythran.types"
+   ]
+  }
+ },
+ "name":"pythran",
+ "new_version":"0.9.5",
+ "pinning_version":"2020.03.23",
+ "raw_meta_yaml":"{% set version = \"0.9.5\" %}\n\npackage:\n  name: pythran\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/p/pythran/pythran-{{ version }}.tar.gz\n  sha256: 815a778d6889593c0b8ddf08052cff36a504ce4cc8bd8d7bfb856a212f91486e\n\nbuild:\n  number: 1\n  script:\n    - \"python -c \\\"import os, shutil; shutil.rmtree(os.path.join('pythran', 'xsimd'))\\\"\"\n    - \"python -c \\\"with open('setup.cfg', 'w') as s: s.write('[build_py]\\\\nno_xsimd=True')\\\"\"  # [not win]\n    - \"python -c \\\"s = open('pythran\\\\pythran-win32.cfg', 'r'); c = s.read(); s.close(); s = open('pythran\\\\pythran-win32.cfg', 'w'); r = c.replace('CC=', 'CC=clang-cl.exe').replace('CXX=','CXX=clang-cl.exe'); s.write(r); s.close(); print(r)\\\"\"  # [win]\n    - \"python -m pip install . --no-deps -vv\"\n  entry_points:\n    - pythran = pythran.run:run\n    - pythran-config = pythran.config:run\n\nrequirements:\n  build:\n    - {{ compiler('cxx') }}  # [not win]\n    - clang  # [win]\n  host:\n    - python\n    - pip\n    - numpy >=1.13\n    - pytest-runner\n  run:\n    - {{ compiler('cxx') }}  # [not win]\n    - clang  # [win]\n    - python\n    - {{ pin_compatible('numpy') }}\n    - decorator\n    - gast >=0.3.0\n    - networkx >=2\n    - ply >=3.4\n    - six\n    - beniget >=0.2.0\n    - xsimd =7.2.2  # [not win]\n\ntest:\n  files:\n    - dprod.py\n    - simple_numexpr.py\n  commands:\n    - pythran -v dprod.py\n    - python -c \"import dprod\"\n    - pythran -v simple_numexpr.py -DUSE_XSIMD -march=native\n    - python -c \"import simple_numexpr\"\n  imports:\n    - omp  # [not win]\n    - pythran\n    - pythran.analyses\n    - pythran.optimizations\n    - pythran.transformations\n    - pythran.types\n\nabout:\n  home: http://github.com/serge-sans-paille/pythran\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: LICENSE\n  summary: 'a claimless python to c++ converter'\n\n  description: |\n    Pythran is an ahead of time compiler for a subset of the Python language,\n    with a focus on scientific computing. It takes a Python module annotated\n    with a few interface description and turns it into a native Python module\n    with the same interface, but (hopefully) faster.\n  doc_url: https://pythran.readthedocs.io/\n  dev_url: https://github.com/serge-sans-paille/pythran\n\nextra:\n  recipe-maintainers:\n    - saraedum\n    - serge-sans-paille\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "beniget",
+   "clang",
+   "cxx_compiler_stub",
+   "decorator",
+   "gast",
+   "networkx",
+   "numpy",
+   "pip",
+   "ply",
+   "pytest-runner",
+   "python",
+   "six",
+   "xsimd"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "clang",
+    "cxx_compiler_stub"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "numpy",
+    "pip",
+    "pytest-runner",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "beniget",
+    "clang",
+    "cxx_compiler_stub",
+    "decorator",
+    "gast",
+    "networkx",
+    "numpy",
+    "ply",
+    "python",
+    "six",
+    "xsimd"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.6.15",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "clang",
+    "cxx_compiler_stub"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "numpy >=1.13",
+    "pip",
+    "pytest-runner",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "beniget >=0.2.0",
+    "clang",
+    "cxx_compiler_stub",
+    "decorator",
+    "gast >=0.3.0",
+    "networkx >=2",
+    "numpy",
+    "ply >=3.4",
+    "python",
+    "six",
+    "xsimd =7.2.2"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/p/pythran/pythran-0.9.3.post1.tar.gz",
+ "version":"0.9.5"
+}

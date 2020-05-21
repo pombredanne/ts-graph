@@ -1,0 +1,135 @@
+{
+ "bad":"Upstream: Error getting upstream version",
+ "conda-forge.yml":{},
+ "feedstock_name":"pangeo-notebook",
+ "meta_yaml":{
+  "about":{
+   "home":"http://pangeo.io",
+   "license":"MIT",
+   "license_file":"LICENSE",
+   "summary":"pangeo notebook dependencies"
+  },
+  "build":{
+   "noarch":"generic",
+   "number":"0"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "scottyhq",
+    "jhamman",
+    "TomAugspurger",
+    "scottyhq",
+    "jhamman",
+    "TomAugspurger",
+    "scottyhq",
+    "jhamman",
+    "TomAugspurger"
+   ]
+  },
+  "package":{
+   "name":"pangeo-notebook",
+   "version":"2020.05.10"
+  },
+  "requirements":{
+   "run":[
+    "pangeo-dask =2020.05.10",
+    "dask-labextension =2.0.2",
+    "ipywidgets =7.5.1",
+    "jupyter-server-proxy =1.4.0",
+    "jupyterhub =1.1.0",
+    "jupyterlab <2",
+    "nbgitpuller =0.8.0",
+    "pangeo-dask =2020.05.10",
+    "dask-labextension =2.0.2",
+    "ipywidgets =7.5.1",
+    "jupyter-server-proxy =1.4.0",
+    "jupyterhub =1.1.0",
+    "jupyterlab <2",
+    "nbgitpuller =0.8.0",
+    "pangeo-dask =2020.05.10",
+    "dask-labextension =2.0.2",
+    "ipywidgets =7.5.1",
+    "jupyter-server-proxy =1.4.0",
+    "jupyterhub =1.1.0",
+    "jupyterlab <2",
+    "nbgitpuller =0.8.0"
+   ]
+  },
+  "test":{
+   "commands":[
+    "jupyter -h",
+    "jupyter -h",
+    "jupyter -h"
+   ]
+  }
+ },
+ "name":"pangeo-notebook",
+ "new_version":false,
+ "raw_meta_yaml":"{% set version = \"2020.05.10\" %}\n\npackage:\n  name: pangeo-notebook\n  version: {{ version }}\n\nbuild:\n  number: 0\n  noarch: generic\n\nrequirements:\n  run:\n    - pangeo-dask =2020.05.10\n    - dask-labextension =2.0.2\n    - ipywidgets =7.5.1\n    - jupyter-server-proxy =1.4.0\n    - jupyterhub =1.1.0\n    - jupyterlab <2\n    - nbgitpuller =0.8.0\n\ntest:\n  commands:\n    - jupyter -h\n\nabout:\n  home: http://pangeo.io\n  license: MIT\n  license_file: LICENSE\n  summary: \"pangeo notebook dependencies\"\n\nextra:\n  recipe-maintainers:\n    - scottyhq \n    - jhamman\n    - TomAugspurger\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "dask-labextension",
+   "ipywidgets",
+   "jupyter-server-proxy",
+   "jupyterhub",
+   "jupyterlab",
+   "nbgitpuller",
+   "pangeo-dask"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "dask-labextension",
+    "ipywidgets",
+    "jupyter-server-proxy",
+    "jupyterhub",
+    "jupyterlab",
+    "nbgitpuller",
+    "pangeo-dask"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "dask-labextension =2.0.2",
+    "ipywidgets =7.5.1",
+    "jupyter-server-proxy =1.4.0",
+    "jupyterhub =1.1.0",
+    "jupyterlab <2",
+    "nbgitpuller =0.8.0",
+    "pangeo-dask =2020.05.10"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "version":"2020.05.10"
+}

@@ -1,0 +1,118 @@
+{
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"fastprogress",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "dev_url":"https://github.com/fastai/fastprogress",
+   "doc_url":"https://github.com/fastai/fastprogress",
+   "home":"https://github.com/fastai/fastprogress",
+   "license":"Apache-2.0",
+   "license_family":"Apache",
+   "license_file":"LICENSE",
+   "summary":"A fast and simple progress bar for Jupyter Notebook and console."
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . --no-deps -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "andersy005",
+    "andersy005",
+    "andersy005"
+   ]
+  },
+  "package":{
+   "name":"fastprogress",
+   "version":"0.2.3"
+  },
+  "requirements":{
+   "host":[
+    "python >=3.6",
+    "pip",
+    "python >=3.6",
+    "pip",
+    "python >=3.6",
+    "pip"
+   ],
+   "run":[
+    "python >=3.6",
+    "python >=3.6",
+    "python >=3.6"
+   ]
+  },
+  "source":{
+   "sha256":"0d3db1d44bf9538e4d4f94c5eb8676017256bdcca94fa0c49b4546b72c1fefed",
+   "url":"https://pypi.io/packages/source/f/fastprogress/fastprogress-0.2.3.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "fastprogress",
+    "fastprogress",
+    "fastprogress"
+   ]
+  }
+ },
+ "name":"fastprogress",
+ "new_version":"0.2.3",
+ "raw_meta_yaml":"{% set name = \"fastprogress\" %}\n{% set version = \"0.2.3\" %}\n\npackage:\n  name: {{ name }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: 0d3db1d44bf9538e4d4f94c5eb8676017256bdcca94fa0c49b4546b72c1fefed\n\nbuild: \n  script: \"{{ PYTHON }} -m pip install . --no-deps -vv\"\n  number: 0\n  noarch: python\n\nrequirements:\n  host:\n    - python >=3.6\n    - pip\n  run:\n    - python >=3.6\n\ntest:\n  imports:\n    - fastprogress\n\nabout:\n  home: https://github.com/fastai/fastprogress\n  license: Apache-2.0\n  license_family: Apache\n  license_file: LICENSE\n  summary: A fast and simple progress bar for Jupyter Notebook and console.\n  dev_url: https://github.com/fastai/fastprogress\n  doc_url: https://github.com/fastai/fastprogress\n\nextra:\n  recipe-maintainers:\n    - andersy005\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "pip",
+   "python"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3.6"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "python >=3.6"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/f/fastprogress/fastprogress-0.2.3.tar.gz",
+ "version":"0.2.3"
+}

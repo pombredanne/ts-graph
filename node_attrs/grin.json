@@ -1,0 +1,160 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/220587201.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "compiler_stack":"comp7",
+  "max_py_ver":"37",
+  "max_r_ver":"35"
+ },
+ "feedstock_name":"grin",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"Grin is Robert Kern's enhanced grep-like tool analagous to ack(-grep)\n(perl), rak (ruby), and ag (C).\n",
+   "dev_url":"https://github.com/rkern/grin",
+   "doc_source_url":"https://github.com/rkern/grin/blob/master/README.rst",
+   "doc_url":"https://pypi.python.org/pypi/grin",
+   "home":"http://pypi.python.org/pypi/grin",
+   "license":"BSD 3-Clause",
+   "license_file":"LICENSE.txt",
+   "summary":"Enhanced grep-like tool"
+  },
+  "build":{
+   "entry_points":[
+    "grin = grin:grin_main",
+    "grind = grin:grind_main",
+    "grin = grin:grin_main",
+    "grind = grin:grind_main",
+    "grin = grin:grin_main",
+    "grind = grin:grind_main"
+   ],
+   "noarch":"python",
+   "number":"1001",
+   "script":" -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "nehaljwani",
+    "nehaljwani",
+    "nehaljwani"
+   ]
+  },
+  "package":{
+   "name":"grin",
+   "version":"1.2.1"
+  },
+  "requirements":{
+   "build":[
+    "python <3",
+    "pip",
+    "python <3",
+    "pip",
+    "python <3",
+    "pip"
+   ],
+   "run":[
+    "python <3",
+    "python <3",
+    "python <3"
+   ]
+  },
+  "source":{
+   "sha256":"bf39303bc563c4f365365b5ff32e219dc2530a4469b7af25aa6a457ec2e29feb",
+   "url":"https://pypi.io/packages/source/g/grin/grin-1.2.1.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "grin -h",
+    "grind -h",
+    "grin -h",
+    "grind -h",
+    "grin -h",
+    "grind -h"
+   ],
+   "imports":[
+    "grin",
+    "grin",
+    "grin"
+   ]
+  }
+ },
+ "name":"grin",
+ "new_version":"1.2.1",
+ "pinning_version":"2018.10.01",
+ "raw_meta_yaml":"{% set version = \"1.2.1\" %}\n\npackage:\n  name: grin\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/g/grin/grin-{{ version }}.tar.gz\n  sha256: bf39303bc563c4f365365b5ff32e219dc2530a4469b7af25aa6a457ec2e29feb\n\nbuild:\n  number: 1001\n  noarch: python\n  script: \"{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv\"\n  entry_points:\n    - grin = grin:grin_main\n    - grind = grin:grind_main\n\nrequirements:\n  build:\n    - python <3\n    - pip \n  run:\n    - python <3\n\ntest:\n  commands:\n    - grin -h\n    - grind -h\n  imports:\n    - grin\n\nabout:\n  home: http://pypi.python.org/pypi/grin\n  license: BSD 3-Clause\n  license_file: LICENSE.txt\n  summary: Enhanced grep-like tool\n  description: |\n    Grin is Robert Kern's enhanced grep-like tool analagous to ack(-grep)\n    (perl), rak (ruby), and ag (C).\n  doc_url: https://pypi.python.org/pypi/grin\n  doc_source_url: https://github.com/rkern/grin/blob/master/README.rst\n  dev_url: https://github.com/rkern/grin\n\nextra:\n  recipe-maintainers:\n    - nehaljwani\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "pip",
+   "python"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.1.12",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python <3"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "python <3"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/g/grin/grin-1.2.1.tar.gz",
+ "version":"1.2.1"
+}

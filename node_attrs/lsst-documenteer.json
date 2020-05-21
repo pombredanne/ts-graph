@@ -1,0 +1,545 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/d9e55d0e-9ee6-4559-8d4a-14e0d46ed956.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"python38"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/381083840.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.5.7"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/393882733.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"pypy"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/402827498.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.5.8"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"lsst-documenteer",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "build":{
+   "number":"0"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "jonathansick",
+    "jonathansick",
+    "jonathansick"
+   ]
+  },
+  "outputs":[
+   {
+    "about":{
+     "dev_url":"https://github.com/lsst-sqre/documenteer",
+     "doc_url":"https://documenteer.lsst.io/",
+     "home":"https://github.com/lsst-sqre/documenteer",
+     "license":"MIT",
+     "license_family":"MIT",
+     "license_file":"LICENSE",
+     "summary":"Documenteer provides tools, extensions, and configurations for Vera Rubin Observatory Legacy Survey of Space and Time (LSST) Sphinx documentation projects."
+    },
+    "build":{
+     "entry_points":[
+      "stack-docs = documenteer.stackdocs.stackcli:main",
+      "package-docs = documenteer.stackdocs.packagecli:main",
+      "build-stack-docs = documenteer.stackdocs.build:run_build_cli",
+      "refresh-lsst-bib = documenteer.bin.refreshlsstbib:run"
+     ],
+     "noarch":"python"
+    },
+    "name":"documenteer",
+    "requirements":{
+     "host":[
+      "python >=3.0",
+      "pip",
+      "setuptools",
+      "setuptools_scm"
+     ],
+     "run":[
+      "python >=3.6",
+      "sphinx >=1.6",
+      "click",
+      "gitpython",
+      "pyyaml",
+      "requests",
+      "sphinx-prompt",
+      "pybtex"
+     ]
+    },
+    "script":"documenteer-build.sh",
+    "test":{
+     "imports":[
+      "documenteer",
+      "documenteer.bin",
+      "documenteer.sphinxconfig",
+      "documenteer.sphinxext",
+      "documenteer.sphinxext.lssttasks",
+      "documenteer.stackdocs"
+     ]
+    }
+   },
+   {
+    "about":{
+     "dev_url":"https://github.com/lsst-sqre/documenteer",
+     "doc_url":"https://documenteer.lsst.io/",
+     "home":"https://github.com/lsst-sqre/documenteer",
+     "license":"MIT",
+     "license_family":"MIT",
+     "license_file":"LICENSE",
+     "summary":"Meta package for Rubin Observatory LSST technical note projects."
+    },
+    "name":"lsst-documenteer-technote",
+    "requirements":{
+     "run":[
+      "documenteer",
+      "sphinx >=1.7.0,<1.8.0",
+      "lsst-dd-rtd-theme ==0.2.3",
+      "sphinxcontrib-bibtex ==0.4.0"
+     ]
+    },
+    "test":{
+     "commands":[
+      "refresh-lsst-bib --help"
+     ]
+    }
+   },
+   {
+    "about":{
+     "dev_url":"https://github.com/lsst-sqre/documenteer",
+     "doc_url":"https://documenteer.lsst.io/",
+     "home":"https://github.com/lsst-sqre/documenteer",
+     "license":"MIT",
+     "license_family":"MIT",
+     "license_file":"LICENSE",
+     "summary":"Meta package for Rubin Observatory LSST Science Pipelines documentation."
+    },
+    "name":"lsst-documenteer-pipelines",
+    "requirements":{
+     "run":[
+      "documenteer",
+      "sphinx >=1.7.0,<1.8.0",
+      "lsst-sphinx-bootstrap-theme >=0.2.0,<0.3.0",
+      "numpydoc >=0.8.0,<0.9.0",
+      "sphinx-automodapi >=0.7,<0.8",
+      "breathe",
+      "sphinx-jinja ==1.1.1",
+      "sphinxcontrib-autoprogram >=0.1.5,<0.2.0"
+     ]
+    },
+    "test":{
+     "commands":[
+      "stack-docs --help",
+      "package-docs --help",
+      "build-stack-docs --help"
+     ]
+    }
+   },
+   {
+    "about":{
+     "dev_url":"https://github.com/lsst-sqre/documenteer",
+     "doc_url":"https://documenteer.lsst.io/",
+     "home":"https://github.com/lsst-sqre/documenteer",
+     "license":"MIT",
+     "license_family":"MIT",
+     "license_file":"LICENSE",
+     "summary":"Documenteer provides tools, extensions, and configurations for Vera Rubin Observatory Legacy Survey of Space and Time (LSST) Sphinx documentation projects."
+    },
+    "build":{
+     "entry_points":[
+      "stack-docs = documenteer.stackdocs.stackcli:main",
+      "package-docs = documenteer.stackdocs.packagecli:main",
+      "build-stack-docs = documenteer.stackdocs.build:run_build_cli",
+      "refresh-lsst-bib = documenteer.bin.refreshlsstbib:run"
+     ],
+     "noarch":"python"
+    },
+    "name":"documenteer",
+    "requirements":{
+     "host":[
+      "python >=3.0",
+      "pip",
+      "setuptools",
+      "setuptools_scm"
+     ],
+     "run":[
+      "python >=3.6",
+      "sphinx >=1.6",
+      "click",
+      "gitpython",
+      "pyyaml",
+      "requests",
+      "sphinx-prompt",
+      "pybtex"
+     ]
+    },
+    "script":"documenteer-build.sh",
+    "test":{
+     "imports":[
+      "documenteer",
+      "documenteer.bin",
+      "documenteer.sphinxconfig",
+      "documenteer.sphinxext",
+      "documenteer.sphinxext.lssttasks",
+      "documenteer.stackdocs"
+     ]
+    }
+   },
+   {
+    "about":{
+     "dev_url":"https://github.com/lsst-sqre/documenteer",
+     "doc_url":"https://documenteer.lsst.io/",
+     "home":"https://github.com/lsst-sqre/documenteer",
+     "license":"MIT",
+     "license_family":"MIT",
+     "license_file":"LICENSE",
+     "summary":"Meta package for Rubin Observatory LSST technical note projects."
+    },
+    "name":"lsst-documenteer-technote",
+    "requirements":{
+     "run":[
+      "documenteer",
+      "sphinx >=1.7.0,<1.8.0",
+      "lsst-dd-rtd-theme ==0.2.3",
+      "sphinxcontrib-bibtex ==0.4.0"
+     ]
+    },
+    "test":{
+     "commands":[
+      "refresh-lsst-bib --help"
+     ]
+    }
+   },
+   {
+    "about":{
+     "dev_url":"https://github.com/lsst-sqre/documenteer",
+     "doc_url":"https://documenteer.lsst.io/",
+     "home":"https://github.com/lsst-sqre/documenteer",
+     "license":"MIT",
+     "license_family":"MIT",
+     "license_file":"LICENSE",
+     "summary":"Meta package for Rubin Observatory LSST Science Pipelines documentation."
+    },
+    "name":"lsst-documenteer-pipelines",
+    "requirements":{
+     "run":[
+      "documenteer",
+      "sphinx >=1.7.0,<1.8.0",
+      "lsst-sphinx-bootstrap-theme >=0.2.0,<0.3.0",
+      "numpydoc >=0.8.0,<0.9.0",
+      "sphinx-automodapi >=0.7,<0.8",
+      "breathe",
+      "sphinx-jinja ==1.1.1",
+      "sphinxcontrib-autoprogram >=0.1.5,<0.2.0"
+     ]
+    },
+    "test":{
+     "commands":[
+      "stack-docs --help",
+      "package-docs --help",
+      "build-stack-docs --help"
+     ]
+    }
+   },
+   {
+    "about":{
+     "dev_url":"https://github.com/lsst-sqre/documenteer",
+     "doc_url":"https://documenteer.lsst.io/",
+     "home":"https://github.com/lsst-sqre/documenteer",
+     "license":"MIT",
+     "license_family":"MIT",
+     "license_file":"LICENSE",
+     "summary":"Documenteer provides tools, extensions, and configurations for Vera Rubin Observatory Legacy Survey of Space and Time (LSST) Sphinx documentation projects."
+    },
+    "build":{
+     "entry_points":[
+      "stack-docs = documenteer.stackdocs.stackcli:main",
+      "package-docs = documenteer.stackdocs.packagecli:main",
+      "build-stack-docs = documenteer.stackdocs.build:run_build_cli",
+      "refresh-lsst-bib = documenteer.bin.refreshlsstbib:run"
+     ],
+     "noarch":"python"
+    },
+    "name":"documenteer",
+    "requirements":{
+     "host":[
+      "python >=3.0",
+      "pip",
+      "setuptools",
+      "setuptools_scm"
+     ],
+     "run":[
+      "python >=3.6",
+      "sphinx >=1.6",
+      "click",
+      "gitpython",
+      "pyyaml",
+      "requests",
+      "sphinx-prompt",
+      "pybtex"
+     ]
+    },
+    "script":"documenteer-build.sh",
+    "test":{
+     "imports":[
+      "documenteer",
+      "documenteer.bin",
+      "documenteer.sphinxconfig",
+      "documenteer.sphinxext",
+      "documenteer.sphinxext.lssttasks",
+      "documenteer.stackdocs"
+     ]
+    }
+   },
+   {
+    "about":{
+     "dev_url":"https://github.com/lsst-sqre/documenteer",
+     "doc_url":"https://documenteer.lsst.io/",
+     "home":"https://github.com/lsst-sqre/documenteer",
+     "license":"MIT",
+     "license_family":"MIT",
+     "license_file":"LICENSE",
+     "summary":"Meta package for Rubin Observatory LSST technical note projects."
+    },
+    "name":"lsst-documenteer-technote",
+    "requirements":{
+     "run":[
+      "documenteer",
+      "sphinx >=1.7.0,<1.8.0",
+      "lsst-dd-rtd-theme ==0.2.3",
+      "sphinxcontrib-bibtex ==0.4.0"
+     ]
+    },
+    "test":{
+     "commands":[
+      "refresh-lsst-bib --help"
+     ]
+    }
+   },
+   {
+    "about":{
+     "dev_url":"https://github.com/lsst-sqre/documenteer",
+     "doc_url":"https://documenteer.lsst.io/",
+     "home":"https://github.com/lsst-sqre/documenteer",
+     "license":"MIT",
+     "license_family":"MIT",
+     "license_file":"LICENSE",
+     "summary":"Meta package for Rubin Observatory LSST Science Pipelines documentation."
+    },
+    "name":"lsst-documenteer-pipelines",
+    "requirements":{
+     "run":[
+      "documenteer",
+      "sphinx >=1.7.0,<1.8.0",
+      "lsst-sphinx-bootstrap-theme >=0.2.0,<0.3.0",
+      "numpydoc >=0.8.0,<0.9.0",
+      "sphinx-automodapi >=0.7,<0.8",
+      "breathe",
+      "sphinx-jinja ==1.1.1",
+      "sphinxcontrib-autoprogram >=0.1.5,<0.2.0"
+     ]
+    },
+    "test":{
+     "commands":[
+      "stack-docs --help",
+      "package-docs --help",
+      "build-stack-docs --help"
+     ]
+    }
+   }
+  ],
+  "package":{
+   "name":"lsst-documenteer",
+   "version":"0.5.6"
+  },
+  "source":{
+   "sha256":"06fbceb7324ed3b00f012b90b2da0e0aff9faab7957d6d7c5f09cc5a3069c9cf",
+   "url":"https://pypi.io/packages/source/d/documenteer/documenteer-0.5.6.tar.gz"
+  }
+ },
+ "name":"lsst-documenteer",
+ "new_version":"0.5.8",
+ "new_version_attempts":{
+  "0.5.8":1
+ },
+ "new_version_errors":{},
+ "outputs_names":[
+  "documenteer",
+  "lsst-documenteer-pipelines",
+  "lsst-documenteer-technote"
+ ],
+ "pinning_version":"2020.04.12.13.56.44",
+ "raw_meta_yaml":"{% set name = \"documenteer\" %}  {# PyPI name #}\n{% set version = \"0.5.6\" %}\n\npackage:\n  name: \"lsst-documenteer\"\n  version: \"{{ version }}\"\n\nsource:\n  url: \"https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\"\n  sha256: \"06fbceb7324ed3b00f012b90b2da0e0aff9faab7957d6d7c5f09cc5a3069c9cf\"\n\nbuild:\n  number: 0\n\noutputs:\n  - name: documenteer\n    script: documenteer-build.sh\n    build:\n      noarch: python\n      entry_points:\n        - stack-docs = documenteer.stackdocs.stackcli:main\n        - package-docs = documenteer.stackdocs.packagecli:main\n        - build-stack-docs = documenteer.stackdocs.build:run_build_cli\n        - refresh-lsst-bib = documenteer.bin.refreshlsstbib:run\n    requirements:\n      host:\n        - python >=3.0\n        - pip\n        - setuptools\n        - setuptools_scm\n      run:\n        - python >=3.6\n        - sphinx >=1.6\n        - click\n        - gitpython\n        - pyyaml\n        - requests\n        - sphinx-prompt\n        - pybtex\n    test:\n      imports:\n        - documenteer\n        - documenteer.bin\n        - documenteer.sphinxconfig\n        - documenteer.sphinxext\n        - documenteer.sphinxext.lssttasks\n        - documenteer.stackdocs\n    about:\n      home: \"https://github.com/lsst-sqre/documenteer\"\n      license: \"MIT\"\n      license_family: \"MIT\"\n      license_file: \"LICENSE\"\n      summary: \"Documenteer provides tools, extensions, and configurations for Vera Rubin Observatory Legacy Survey of Space and Time (LSST) Sphinx documentation projects.\"\n      doc_url: \"https://documenteer.lsst.io/\"\n      dev_url: \"https://github.com/lsst-sqre/documenteer\"\n\n  - name: lsst-documenteer-technote\n    requirements:\n      run:\n        - {{ pin_subpackage(\"documenteer\", exact=True) }}\n        - sphinx >=1.7.0,<1.8.0\n        - lsst-dd-rtd-theme ==0.2.3\n        - sphinxcontrib-bibtex ==0.4.0\n    test:\n      commands:\n        - refresh-lsst-bib --help\n    about:\n      home: \"https://github.com/lsst-sqre/documenteer\"\n      license: \"MIT\"\n      license_family: \"MIT\"\n      license_file: \"LICENSE\"\n      summary: \"Meta package for Rubin Observatory LSST technical note projects.\"\n      doc_url: \"https://documenteer.lsst.io/\"\n      dev_url: \"https://github.com/lsst-sqre/documenteer\"\n\n  - name: lsst-documenteer-pipelines\n    requirements:\n      run:\n        - {{ pin_subpackage(\"documenteer\", exact=True) }}\n        - sphinx >=1.7.0,<1.8.0\n        - lsst-sphinx-bootstrap-theme >=0.2.0,<0.3.0\n        - numpydoc >=0.8.0,<0.9.0\n        - sphinx-automodapi >=0.7,<0.8\n        - breathe\n        - sphinx-jinja ==1.1.1\n        - sphinxcontrib-autoprogram >=0.1.5,<0.2.0\n    test:\n      commands:\n         - stack-docs --help\n         - package-docs --help\n         - build-stack-docs --help\n    about:\n      home: \"https://github.com/lsst-sqre/documenteer\"\n      license: \"MIT\"\n      license_family: \"MIT\"\n      license_file: \"LICENSE\"\n      summary: \"Meta package for Rubin Observatory LSST Science Pipelines documentation.\"\n      doc_url: \"https://documenteer.lsst.io/\"\n      dev_url: \"https://github.com/lsst-sqre/documenteer\"\n\n\nextra:\n  recipe-maintainers:\n    - jonathansick\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "breathe",
+   "click",
+   "documenteer",
+   "gitpython",
+   "lsst-dd-rtd-theme",
+   "lsst-sphinx-bootstrap-theme",
+   "numpydoc",
+   "pip",
+   "pybtex",
+   "python",
+   "pyyaml",
+   "requests",
+   "setuptools",
+   "setuptools_scm",
+   "sphinx",
+   "sphinx-automodapi",
+   "sphinx-jinja",
+   "sphinx-prompt",
+   "sphinxcontrib-autoprogram",
+   "sphinxcontrib-bibtex"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python",
+    "setuptools",
+    "setuptools_scm"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "breathe",
+    "click",
+    "documenteer",
+    "gitpython",
+    "lsst-dd-rtd-theme",
+    "lsst-sphinx-bootstrap-theme",
+    "numpydoc",
+    "pybtex",
+    "python",
+    "pyyaml",
+    "requests",
+    "sphinx",
+    "sphinx-automodapi",
+    "sphinx-jinja",
+    "sphinx-prompt",
+    "sphinxcontrib-autoprogram",
+    "sphinxcontrib-bibtex"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.6.16",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3.0",
+    "setuptools",
+    "setuptools_scm"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "breathe",
+    "click",
+    "documenteer",
+    "gitpython",
+    "lsst-dd-rtd-theme ==0.2.3",
+    "lsst-sphinx-bootstrap-theme >=0.2.0,<0.3.0",
+    "numpydoc >=0.8.0,<0.9.0",
+    "pybtex",
+    "python >=3.6",
+    "pyyaml",
+    "requests",
+    "sphinx >=1.6",
+    "sphinx >=1.7.0,<1.8.0",
+    "sphinx-automodapi >=0.7,<0.8",
+    "sphinx-jinja ==1.1.1",
+    "sphinx-prompt",
+    "sphinxcontrib-autoprogram >=0.1.5,<0.2.0",
+    "sphinxcontrib-bibtex ==0.4.0"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/d/documenteer/documenteer-0.5.6.tar.gz",
+ "version":"0.5.6"
+}

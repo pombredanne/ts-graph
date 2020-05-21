@@ -1,0 +1,347 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/241367580.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/327957863.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"ffmpeg41"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/348692256.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"python38"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/375540520.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MatplotlibBase",
+    "migrator_version":0,
+    "name":"matplotlib-to-matplotlib-base"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/404071841.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"ffmpeg42"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"batman",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"Batman is a python module that allows to seamlessly perform statistical\nanalysis using any computer solver. From a simple settings file, it handle\nautomatically all necessary steps to do such analysis. Furthermore,\nbatman's API allows to use independantly all functionalities.\n",
+   "dev_url":"https://batman-cerfacs.zulipchat.com",
+   "doc_url":"http://batman.readthedocs.io",
+   "home":"https://gitlab.com/cerfacs/batman",
+   "license":"CECILL-B",
+   "license_family":"OTHER",
+   "license_file":"LICENSE",
+   "summary":"Bayesian Analysis Tool for Modelling and uncertAinty quaNtification"
+  },
+  "build":{
+   "number":"2003",
+   "script":" -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv",
+   "skip":true
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "tupui",
+    "tupui",
+    "tupui"
+   ]
+  },
+  "package":{
+   "name":"batman",
+   "version":"1.9"
+  },
+  "requirements":{
+   "build":[
+    "pip",
+    "pytest-runner",
+    "python",
+    "setuptools",
+    "scipy >=0.15",
+    "numpy >=1.13",
+    "jsonschema",
+    "pandas >=0.22.0",
+    "pathos >=0.2",
+    "paramiko >=2",
+    "matplotlib-base >=2.1",
+    "ffmpeg",
+    "openturns >=1.12",
+    "scikit-learn >=0.18",
+    "pip",
+    "pytest-runner",
+    "python",
+    "setuptools",
+    "scipy >=0.15",
+    "numpy >=1.13",
+    "jsonschema",
+    "pandas >=0.22.0",
+    "pathos >=0.2",
+    "paramiko >=2",
+    "matplotlib-base >=2.1",
+    "ffmpeg",
+    "openturns >=1.12",
+    "scikit-learn >=0.18",
+    "pip",
+    "pytest-runner",
+    "python",
+    "setuptools",
+    "scipy >=0.15",
+    "numpy >=1.13",
+    "jsonschema",
+    "pandas >=0.22.0",
+    "pathos >=0.2",
+    "paramiko >=2",
+    "matplotlib-base >=2.1",
+    "ffmpeg",
+    "openturns >=1.12",
+    "scikit-learn >=0.18"
+   ],
+   "run":[
+    "python",
+    "scipy >=0.15",
+    "numpy >=1.13",
+    "jsonschema",
+    "pandas >=0.22.0",
+    "pathos >=0.2",
+    "paramiko >=2",
+    "matplotlib-base >=2.1",
+    "ffmpeg",
+    "openturns >=1.12",
+    "scikit-learn >=0.18",
+    "python",
+    "scipy >=0.15",
+    "numpy >=1.13",
+    "jsonschema",
+    "pandas >=0.22.0",
+    "pathos >=0.2",
+    "paramiko >=2",
+    "matplotlib-base >=2.1",
+    "ffmpeg",
+    "openturns >=1.12",
+    "scikit-learn >=0.18",
+    "python",
+    "scipy >=0.15",
+    "numpy >=1.13",
+    "jsonschema",
+    "pandas >=0.22.0",
+    "pathos >=0.2",
+    "paramiko >=2",
+    "matplotlib-base >=2.1",
+    "ffmpeg",
+    "openturns >=1.12",
+    "scikit-learn >=0.18"
+   ]
+  },
+  "source":{
+   "fn":"batman-1.9.tar.gz",
+   "patches":[
+    "commit.patch",
+    "commit.patch",
+    "commit.patch"
+   ],
+   "sha256":"15635b53c3fc5725901daffdb425f4ada7aaae0ea721c217b7b7f7a4e1d07743",
+   "url":"https://gitlab.com/cerfacs/batman/repository/archive.tar.gz?ref=b34bb065a1ec7e247d1f1c328bc6ed39c9672c29"
+  },
+  "test":{
+   "commands":[
+    "export MPLBACKEND=\"Agg\"; batman -h",
+    "export MPLBACKEND=\"Agg\"; batman -h",
+    "export MPLBACKEND=\"Agg\"; batman -h"
+   ],
+   "imports":[
+    "batman",
+    "batman",
+    "batman"
+   ]
+  }
+ },
+ "name":"batman",
+ "new_version":false,
+ "pinning_version":"2020.04.15.23.38.20",
+ "raw_meta_yaml":"{% set name = \"batman\" %}\n{% set version = \"1.9\" %}\n{% set tag = \"1.9-Pennyworth\" %}\n{% set commit = \"b34bb065a1ec7e247d1f1c328bc6ed39c9672c29\" %}\n{% set sha256 = \"15635b53c3fc5725901daffdb425f4ada7aaae0ea721c217b7b7f7a4e1d07743\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  fn: {{ name }}-{{ version }}.tar.gz\n  url: https://gitlab.com/cerfacs/batman/repository/archive.tar.gz?ref={{ commit }}\n  sha256: {{ sha256 }}\n  patches:\n    - commit.patch\n\nbuild:\n  script: \"{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv\"\n  skip: True  # [win]\n  number: 2003\n\nrequirements:\n  build:\n    - pip\n    - pytest-runner\n    - python\n    - setuptools\n    - scipy >=0.15\n    - numpy >=1.13\n    - jsonschema\n    - pandas >=0.22.0\n    - pathos >=0.2\n    - paramiko >=2\n    - matplotlib-base >=2.1\n    - ffmpeg\n    - openturns >=1.12\n    - scikit-learn >=0.18\n    - backports.tempfile  # [py27]\n  run:\n    - python\n    - scipy >=0.15\n    - numpy >=1.13\n    - jsonschema\n    - pandas >=0.22.0\n    - pathos >=0.2\n    - paramiko >=2\n    - matplotlib-base >=2.1\n    - ffmpeg\n    - openturns >=1.12\n    - scikit-learn >=0.18\n    - backports.tempfile  # [py27]\n\ntest:\n  imports:\n    - batman\n  commands:\n    - export MPLBACKEND=\"Agg\"; batman -h\n\nabout:\n  home: https://gitlab.com/cerfacs/batman\n  license: CECILL-B\n  license_family: OTHER\n  license_file: LICENSE\n  summary: 'Bayesian Analysis Tool for Modelling and uncertAinty quaNtification'\n  description: |\n    Batman is a python module that allows to seamlessly perform statistical\n    analysis using any computer solver. From a simple settings file, it handle\n    automatically all necessary steps to do such analysis. Furthermore,\n    batman's API allows to use independantly all functionalities.\n  doc_url: http://batman.readthedocs.io\n  dev_url: https://batman-cerfacs.zulipchat.com\n\nextra:\n  recipe-maintainers:\n    - tupui\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "ffmpeg",
+   "jsonschema",
+   "matplotlib-base",
+   "numpy",
+   "openturns",
+   "pandas",
+   "paramiko",
+   "pathos",
+   "pip",
+   "pytest-runner",
+   "python",
+   "scikit-learn",
+   "scipy",
+   "setuptools"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "ffmpeg",
+    "jsonschema",
+    "matplotlib-base",
+    "numpy",
+    "openturns",
+    "pandas",
+    "paramiko",
+    "pathos",
+    "pip",
+    "pytest-runner",
+    "python",
+    "scikit-learn",
+    "scipy",
+    "setuptools"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "ffmpeg",
+    "jsonschema",
+    "matplotlib-base",
+    "numpy",
+    "openturns",
+    "pandas",
+    "paramiko",
+    "pathos",
+    "python",
+    "scikit-learn",
+    "scipy"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.6.16",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "ffmpeg",
+    "jsonschema",
+    "matplotlib-base >=2.1",
+    "numpy >=1.13",
+    "openturns >=1.12",
+    "pandas >=0.22.0",
+    "paramiko >=2",
+    "pathos >=0.2",
+    "pip",
+    "pytest-runner",
+    "python",
+    "scikit-learn >=0.18",
+    "scipy >=0.15",
+    "setuptools"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "ffmpeg",
+    "jsonschema",
+    "matplotlib-base >=2.1",
+    "numpy >=1.13",
+    "openturns >=1.12",
+    "pandas >=0.22.0",
+    "paramiko >=2",
+    "pathos >=0.2",
+    "python",
+    "scikit-learn >=0.18",
+    "scipy >=0.15"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://gitlab.com/cerfacs/batman/repository/archive.tar.gz?ref=b34bb065a1ec7e247d1f1c328bc6ed39c9672c29",
+ "version":"1.9"
+}

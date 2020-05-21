@@ -1,0 +1,334 @@
+{
+ "PRed":[
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.2.5"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/199935814.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Noarch",
+    "migrator_version":0
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/208247185.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.2.6"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/208714836.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.2.7"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/208941949.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.2.8"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/238549821.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.3.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.4.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/260504949.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.4.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/279601770.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.5.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"numpy_sugar",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "dev_url":"https://github.com/limix/numpy-sugar",
+   "doc_url":"https://numpy-sugar.readthedocs.io",
+   "home":"https://github.com/limix/numpy-sugar",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"LICENSE.md",
+   "summary":"Missing NumPy functionalities"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":"python -m pip install --no-deps --ignore-installed ."
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "Horta",
+    "Horta",
+    "Horta"
+   ]
+  },
+  "package":{
+   "name":"numpy-sugar",
+   "version":"1.5.0"
+  },
+  "requirements":{
+   "host":[
+    "python",
+    "setuptools",
+    "pytest-runner",
+    "numpy >=1.14.1",
+    "pypandoc",
+    "wheel",
+    "pip",
+    "python",
+    "setuptools",
+    "pytest-runner",
+    "numpy >=1.14.1",
+    "pypandoc",
+    "wheel",
+    "pip",
+    "python",
+    "setuptools",
+    "pytest-runner",
+    "numpy >=1.14.1",
+    "pypandoc",
+    "wheel",
+    "pip"
+   ],
+   "run":[
+    "python",
+    "numpy >=1.14.1",
+    "scipy >=0.19",
+    "dask >=0.15.2",
+    "python",
+    "numpy >=1.14.1",
+    "scipy >=0.19",
+    "dask >=0.15.2",
+    "python",
+    "numpy >=1.14.1",
+    "scipy >=0.19",
+    "dask >=0.15.2"
+   ]
+  },
+  "source":{
+   "fn":"numpy-sugar-1.5.0.tar.gz",
+   "sha256":"b8c08c135b369f0fd140bc2113e55fc5c838b26ba62c8fe93c118111f7d7018d",
+   "url":"https://pypi.io/packages/source/n/numpy-sugar/numpy_sugar-1.5.0.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "python -c \"import sys; import numpy_sugar; sys.exit(numpy_sugar.test())\"",
+    "python -c \"import sys; import numpy_sugar; sys.exit(numpy_sugar.test())\"",
+    "python -c \"import sys; import numpy_sugar; sys.exit(numpy_sugar.test())\""
+   ],
+   "imports":[
+    "numpy_sugar",
+    "numpy_sugar",
+    "numpy_sugar"
+   ],
+   "requires":[
+    "pytest >=3.2.0",
+    "pytest-pep8 >=1.0.5",
+    "pytest >=3.2.0",
+    "pytest-pep8 >=1.0.5",
+    "pytest >=3.2.0",
+    "pytest-pep8 >=1.0.5"
+   ]
+  }
+ },
+ "name":"numpy-sugar",
+ "new_version":"1.5.0",
+ "pinning_version":"2019.05.11",
+ "raw_meta_yaml":"{% set name = \"numpy-sugar\" %}\n{% set version = \"1.5.0\" %}\n{% set sha256 = \"b8c08c135b369f0fd140bc2113e55fc5c838b26ba62c8fe93c118111f7d7018d\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  fn: {{ name }}-{{ version }}.tar.gz\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/numpy_sugar-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 0\n  script: python -m pip install --no-deps --ignore-installed .\n\nrequirements:\n  host:\n    - python\n    - setuptools\n    - pytest-runner\n    - numpy >=1.14.1\n    - pypandoc\n    - wheel\n    - pip\n  run:\n    - python\n    - numpy >=1.14.1\n    - scipy >=0.19\n    - dask >=0.15.2\n\ntest:\n  requires:\n    - pytest >=3.2.0\n    - pytest-pep8 >=1.0.5\n  imports:\n    - numpy_sugar\n  commands:\n    - python -c \"import sys; import numpy_sugar; sys.exit(numpy_sugar.test())\"\n\nabout:\n  home: https://github.com/limix/numpy-sugar\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE.md\n  summary: 'Missing NumPy functionalities'\n  doc_url: https://numpy-sugar.readthedocs.io\n  dev_url: https://github.com/limix/numpy-sugar\n\nextra:\n  recipe-maintainers:\n    - Horta\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "dask",
+   "numpy",
+   "pip",
+   "pypandoc",
+   "pytest-runner",
+   "python",
+   "scipy",
+   "setuptools",
+   "wheel"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "numpy",
+    "pip",
+    "pypandoc",
+    "pytest-runner",
+    "python",
+    "setuptools",
+    "wheel"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "dask",
+    "numpy",
+    "python",
+    "scipy"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "pytest",
+    "pytest-pep8"
+   ]
+  }
+ },
+ "smithy_version":"3.3.4",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "numpy >=1.14.1",
+    "pip",
+    "pypandoc",
+    "pytest-runner",
+    "python",
+    "setuptools",
+    "wheel"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "dask >=0.15.2",
+    "numpy >=1.14.1",
+    "python",
+    "scipy >=0.19"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "pytest >=3.2.0",
+    "pytest-pep8 >=1.0.5"
+   ]
+  }
+ },
+ "url":"https://pypi.io/packages/source/n/numpy-sugar/numpy_sugar-1.5.0.tar.gz",
+ "version":"1.5.0"
+}

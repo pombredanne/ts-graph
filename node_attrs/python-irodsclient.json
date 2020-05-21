@@ -1,0 +1,195 @@
+{
+ "PRed":[
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.8.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/218518712.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.8.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/340518166.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.8.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"python-irodsclient",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"iRODS is an open-source distributed data management system. This is a\nclient API implemented in python.\n",
+   "dev_url":"https://github.com/irods/python-irodsclient",
+   "doc_url":"https://github.com/irods/python-irodsclient",
+   "home":"https://github.com/irods/python-irodsclient",
+   "license":"BSD-3-Clause",
+   "license_file":"LICENSE.txt",
+   "summary":"A python API for iRODS"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":"python setup.py install --single-version-externally-managed --record record.txt"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "stolpeo",
+    "stolpeo",
+    "stolpeo"
+   ]
+  },
+  "package":{
+   "name":"python-irodsclient",
+   "version":"0.8.2"
+  },
+  "requirements":{
+   "build":[
+    "python",
+    "setuptools",
+    "python",
+    "setuptools",
+    "python",
+    "setuptools"
+   ],
+   "run":[
+    "python",
+    "six >=1.10.0",
+    "prettytable >=0.7.2",
+    "xmlrunner >=1.7.7",
+    "python",
+    "six >=1.10.0",
+    "prettytable >=0.7.2",
+    "xmlrunner >=1.7.7",
+    "python",
+    "six >=1.10.0",
+    "prettytable >=0.7.2",
+    "xmlrunner >=1.7.7"
+   ]
+  },
+  "source":{
+   "fn":"python-irodsclient-0.8.2.tar.gz",
+   "sha256":"e77c345bea028c748047656f35f576210528b1332087b5f0a7e2ddd179301447",
+   "url":"https://pypi.io/packages/source/p/python-irodsclient/python-irodsclient-0.8.2.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "irods",
+    "irods.message",
+    "irods.manager",
+    "irods",
+    "irods.message",
+    "irods.manager",
+    "irods",
+    "irods.message",
+    "irods.manager"
+   ]
+  }
+ },
+ "name":"python-irodsclient",
+ "new_version":"0.8.2",
+ "pinning_version":"2019.11.13",
+ "raw_meta_yaml":"{% set name = \"python-irodsclient\" %}\n{% set version = \"0.8.2\" %}\n{% set sha256 = \"e77c345bea028c748047656f35f576210528b1332087b5f0a7e2ddd179301447\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  fn: {{ name }}-{{ version }}.tar.gz\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  script: python setup.py install --single-version-externally-managed --record record.txt\n  noarch: python\n\nrequirements:\n  build:\n    - python\n    - setuptools\n  run:\n    - python\n    - six >=1.10.0\n    - prettytable >=0.7.2\n    - xmlrunner >=1.7.7\n\ntest:\n  imports:\n    - irods\n    - irods.message\n    - irods.manager\n\nabout:\n  home: https://github.com/irods/python-irodsclient\n  license: BSD-3-Clause\n  license_file: LICENSE.txt\n  summary: 'A python API for iRODS'\n  description: |\n    iRODS is an open-source distributed data management system. This is a\n    client API implemented in python.\n  doc_url: https://github.com/irods/python-irodsclient\n  dev_url: https://github.com/irods/python-irodsclient\n\nextra:\n  recipe-maintainers:\n    - stolpeo\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "prettytable",
+   "python",
+   "setuptools",
+   "six",
+   "xmlrunner"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "python",
+    "setuptools"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "prettytable",
+    "python",
+    "six",
+    "xmlrunner"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.6.2",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "python",
+    "setuptools"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "prettytable >=0.7.2",
+    "python",
+    "six >=1.10.0",
+    "xmlrunner >=1.7.7"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/p/python-irodsclient/python-irodsclient-0.8.1.tar.gz",
+ "version":"0.8.2"
+}

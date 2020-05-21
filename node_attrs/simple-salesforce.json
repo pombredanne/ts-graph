@@ -1,0 +1,189 @@
+{
+ "PRed":[
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.74.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/199970368.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Noarch",
+    "migrator_version":0
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"simple-salesforce",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"A very simple Salesforce.com REST API client for Python",
+   "dev_url":"https://github.com/simple-salesforce/simple-salesforce",
+   "home":"https://github.com/simple-salesforce/simple-salesforce",
+   "license":"Apache-2.0",
+   "license_family":"Apache",
+   "license_file":"/LICENSE.txt",
+   "summary":"Simple Salesforce is a basic Salesforce.com REST API client. The goal is to provide a very low-level interface to the API, returning an ordered dictionary of the API JSON response."
+  },
+  "build":{
+   "noarch":"python",
+   "number":"1",
+   "script":"python -m pip install --no-deps --ignore-installed ."
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "mariusvniekerk",
+    "mariusvniekerk",
+    "mariusvniekerk"
+   ]
+  },
+  "package":{
+   "name":"simple-salesforce",
+   "version":"0.74.2"
+  },
+  "requirements":{
+   "host":[
+    "pip",
+    "python",
+    "setuptools",
+    "pip",
+    "python",
+    "setuptools",
+    "pip",
+    "python",
+    "setuptools"
+   ],
+   "run":[
+    "python",
+    "requests",
+    "pyopenssl >=0.14",
+    "cryptography >=1.3.4",
+    "idna >=2.0.0",
+    "python",
+    "requests",
+    "pyopenssl >=0.14",
+    "cryptography >=1.3.4",
+    "idna >=2.0.0",
+    "python",
+    "requests",
+    "pyopenssl >=0.14",
+    "cryptography >=1.3.4",
+    "idna >=2.0.0"
+   ]
+  },
+  "source":{
+   "fn":"simple-salesforce-0.74.2.tar.gz",
+   "sha256":"60b834cf47505171e5bebfdbfcc0ca9676c960266a913014fa63e5db2e399fdc",
+   "url":"https://pypi.io/packages/source/s/simple-salesforce/simple-salesforce-0.74.2.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "simple_salesforce",
+    "simple_salesforce",
+    "simple_salesforce"
+   ]
+  }
+ },
+ "name":"simple-salesforce",
+ "new_version":"1.0.0",
+ "new_version_attempts":{
+  "1.0.0":735
+ },
+ "new_version_errors":{
+  "1.0.0":"We found a problem parsing the recipe: \n\nwhile parsing a block mapping\n  in \"<unicode string>\", line 37, column 3:\n      home: https://github.com/simple- ... \n      ^ (line: 37)\nexpected <block end>, but found '<scalar>'\n  in \"<unicode string>\", line 43, column 30:\n      license_file: '<{ environ['RECIPE_DIR'] }}/LICENSE.txt'\n                                 ^ (line: 43)"
+ },
+ "pinning_version":"2018.07.01",
+ "raw_meta_yaml":"{% set name = \"simple-salesforce\" %}\n{% set version = \"0.74.2\" %}\n{% set sha256sum = \"60b834cf47505171e5bebfdbfcc0ca9676c960266a913014fa63e5db2e399fdc\" %}\n\npackage:\n  name: {{ name }}\n  version: {{ version }}\n\nsource:\n  fn: {{ name }}-{{ version }}.tar.gz\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256sum }}\n\nbuild:\n  noarch: python\n  script: python -m pip install --no-deps --ignore-installed .\n  number: 1\n\nrequirements:\n  host:\n    - pip\n    - python\n    - setuptools\n\n  run:\n    - python\n    - requests\n    - pyopenssl >=0.14\n    - cryptography >=1.3.4\n    - idna >=2.0.0\n\ntest:\n  imports:\n    - simple_salesforce\n\nabout:\n  home: https://github.com/simple-salesforce/simple-salesforce\n  dev_url: https://github.com/simple-salesforce/simple-salesforce\n  description: 'A very simple Salesforce.com REST API client for Python'\n  summary: 'Simple Salesforce is a basic Salesforce.com REST API client. The goal is to provide a very low-level interface to the API, returning an ordered dictionary of the API JSON response.'\n  license: Apache-2.0\n  license_family: Apache\n  license_file: '{{ environ['RECIPE_DIR'] }}/LICENSE.txt'\n\n\nextra:\n  recipe-maintainers:\n    - mariusvniekerk\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "cryptography",
+   "idna",
+   "pip",
+   "pyopenssl",
+   "python",
+   "requests",
+   "setuptools"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python",
+    "setuptools"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "cryptography",
+    "idna",
+    "pyopenssl",
+    "python",
+    "requests"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.1.6",
+ "strong_exports":false,
+ "time":1568135279.0534108,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python",
+    "setuptools"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "cryptography >=1.3.4",
+    "idna >=2.0.0",
+    "pyopenssl >=0.14",
+    "python",
+    "requests"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/s/simple-salesforce/simple-salesforce-0.74.2.tar.gz",
+ "version":"0.74.2"
+}

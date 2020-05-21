@@ -1,0 +1,211 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/362063993.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.2.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"goosebib",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"Simple command-line tools to clean-up BibTeX files.",
+   "dev_url":"https://github.com/tdegeus/GooseBib",
+   "doc_url":"https://github.com/tdegeus/GooseBib",
+   "home":"https://github.com/tdegeus/GooseBib",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"LICENSE",
+   "summary":"Simple command-line tools to clean-up BibTeX files."
+  },
+  "build":{
+   "entry_points":[
+    "GbibCheckAuthors = GooseBib.cli.GbibCheckAuthors:main",
+    "GbibCheckLink = GooseBib.cli.GbibCheckLink:main",
+    "GbibClean = GooseBib.cli.GbibClean:main",
+    "GbibList = GooseBib.cli.GbibList:main",
+    "GbibParse = GooseBib.cli.GbibParse:main",
+    "GbibSelect = GooseBib.cli.GbibSelect:main",
+    "GbibSelectAlias = GooseBib.cli.GbibSelectAlias:main",
+    "GbibCheckAuthors = GooseBib.cli.GbibCheckAuthors:main",
+    "GbibCheckLink = GooseBib.cli.GbibCheckLink:main",
+    "GbibClean = GooseBib.cli.GbibClean:main",
+    "GbibList = GooseBib.cli.GbibList:main",
+    "GbibParse = GooseBib.cli.GbibParse:main",
+    "GbibSelect = GooseBib.cli.GbibSelect:main",
+    "GbibSelectAlias = GooseBib.cli.GbibSelectAlias:main",
+    "GbibCheckAuthors = GooseBib.cli.GbibCheckAuthors:main",
+    "GbibCheckLink = GooseBib.cli.GbibCheckLink:main",
+    "GbibClean = GooseBib.cli.GbibClean:main",
+    "GbibList = GooseBib.cli.GbibList:main",
+    "GbibParse = GooseBib.cli.GbibParse:main",
+    "GbibSelect = GooseBib.cli.GbibSelect:main",
+    "GbibSelectAlias = GooseBib.cli.GbibSelectAlias:main"
+   ],
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "tdegeus",
+    "tdegeus",
+    "tdegeus"
+   ]
+  },
+  "package":{
+   "name":"goosebib",
+   "version":"0.2.0"
+  },
+  "requirements":{
+   "host":[
+    "python >=3",
+    "pip",
+    "setuptools",
+    "python >=3",
+    "pip",
+    "setuptools",
+    "python >=3",
+    "pip",
+    "setuptools"
+   ],
+   "run":[
+    "python >=3",
+    "docopt",
+    "click",
+    "requests",
+    "bibtexparser",
+    "python >=3",
+    "docopt",
+    "click",
+    "requests",
+    "bibtexparser",
+    "python >=3",
+    "docopt",
+    "click",
+    "requests",
+    "bibtexparser"
+   ]
+  },
+  "source":{
+   "sha256":"98fe2b33920ea6e8f45323f6929ff55597bcff2a50ad8b0b840e81b3058e759d",
+   "url":"https://github.com/tdegeus/GooseBib/archive/v0.2.0.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "GbibCheckAuthors --help",
+    "GbibCheckLink --help",
+    "GbibClean --help",
+    "GbibList --help",
+    "GbibParse --help",
+    "GbibSelect --help",
+    "GbibSelectAlias --help",
+    "GbibCheckAuthors --help",
+    "GbibCheckLink --help",
+    "GbibClean --help",
+    "GbibList --help",
+    "GbibParse --help",
+    "GbibSelect --help",
+    "GbibSelectAlias --help",
+    "GbibCheckAuthors --help",
+    "GbibCheckLink --help",
+    "GbibClean --help",
+    "GbibList --help",
+    "GbibParse --help",
+    "GbibSelect --help",
+    "GbibSelectAlias --help"
+   ]
+  }
+ },
+ "name":"goosebib",
+ "new_version":"0.2.0",
+ "pinning_version":"2020.01.10",
+ "raw_meta_yaml":"{% set name = \"goosebib\" %}\n{% set version = \"0.2.0\" %}\n{% set sha256 = \"98fe2b33920ea6e8f45323f6929ff55597bcff2a50ad8b0b840e81b3058e759d\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://github.com/tdegeus/GooseBib/archive/v{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  noarch: python\n  script: \"{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv\"\n  entry_points:\n    - GbibCheckAuthors = GooseBib.cli.GbibCheckAuthors:main\n    - GbibCheckLink = GooseBib.cli.GbibCheckLink:main\n    - GbibClean = GooseBib.cli.GbibClean:main\n    - GbibList = GooseBib.cli.GbibList:main\n    - GbibParse = GooseBib.cli.GbibParse:main\n    - GbibSelect = GooseBib.cli.GbibSelect:main\n    - GbibSelectAlias = GooseBib.cli.GbibSelectAlias:main\n\nrequirements:\n  host:\n    - python >=3\n    - pip\n    - setuptools\n  run:\n    - python >=3\n    - docopt\n    - click\n    - requests\n    - bibtexparser\n\ntest:\n  commands:\n    - GbibCheckAuthors --help\n    - GbibCheckLink --help\n    - GbibClean --help\n    - GbibList --help\n    - GbibParse --help\n    - GbibSelect --help\n    - GbibSelectAlias --help\n\nabout:\n  home: https://github.com/tdegeus/GooseBib\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE\n  summary: 'Simple command-line tools to clean-up BibTeX files.'\n  description: 'Simple command-line tools to clean-up BibTeX files.'\n  doc_url: https://github.com/tdegeus/GooseBib\n  dev_url: https://github.com/tdegeus/GooseBib\n\nextra:\n  recipe-maintainers:\n    - tdegeus\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "bibtexparser",
+   "click",
+   "docopt",
+   "pip",
+   "python",
+   "requests",
+   "setuptools"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python",
+    "setuptools"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "bibtexparser",
+    "click",
+    "docopt",
+    "python",
+    "requests"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.6.5",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3",
+    "setuptools"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "bibtexparser",
+    "click",
+    "docopt",
+    "python >=3",
+    "requests"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://github.com/tdegeus/GooseBib/archive/v0.1.1.tar.gz",
+ "version":"0.2.0"
+}

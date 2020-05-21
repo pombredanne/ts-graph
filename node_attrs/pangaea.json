@@ -1,0 +1,169 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/231952851.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "min_py_ver":"36",
+  "provider":{
+   "win":"azure"
+  }
+ },
+ "feedstock_name":"pangaea",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"An xarray extension for land surface models.\n",
+   "dev_url":"https://github.com/snowman2/pangaea",
+   "doc_url":"http://pangaea.readthedocs.io",
+   "home":"https://github.com/snowman2/pangaea",
+   "license":"BSD 3-Clause",
+   "license_family":"BSD",
+   "license_file":"LICENSE",
+   "summary":"An xarray extension for land surface models."
+  },
+  "build":{
+   "noarch":true,
+   "number":"2",
+   "script":"-m pip install --no-deps --ignore-installed ."
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "snowman2",
+    "swainn",
+    "mgeheran",
+    "snowman2",
+    "swainn",
+    "mgeheran",
+    "snowman2",
+    "swainn",
+    "mgeheran"
+   ]
+  },
+  "package":{
+   "name":"pangaea",
+   "version":"0.0.4"
+  },
+  "requirements":{
+   "build":[
+    "python >=3.6",
+    "pip",
+    "python >=3.6",
+    "pip",
+    "python >=3.6",
+    "pip"
+   ],
+   "run":[
+    "python >=3.6",
+    "gazar",
+    "netcdf4",
+    "wrf-python",
+    "python >=3.6",
+    "gazar",
+    "netcdf4",
+    "wrf-python",
+    "python >=3.6",
+    "gazar",
+    "netcdf4",
+    "wrf-python"
+   ]
+  },
+  "source":{
+   "sha256":"a114424e34e42befa691ddfe5f07272867f095fdc4f28dca633d5c6cadf26c16",
+   "url":"https://pypi.io/packages/source/p/pangaea/pangaea-0.0.4.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "pangaea",
+    "pangaea",
+    "pangaea"
+   ]
+  }
+ },
+ "name":"pangaea",
+ "new_version":"0.0.4",
+ "pinning_version":"2018.11.17",
+ "raw_meta_yaml":"{% set version = \"0.0.4\" %}\n\npackage:\n  name: pangaea\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/p/pangaea/pangaea-{{ version }}.tar.gz\n  sha256: a114424e34e42befa691ddfe5f07272867f095fdc4f28dca633d5c6cadf26c16\n\nbuild:\n  number: 2\n  noarch: true\n  script: {{PYTHON}} -m pip install --no-deps --ignore-installed .\n\nrequirements:\n  build:\n    - python >=3.6\n    - pip\n  run:\n    - python >=3.6\n    - gazar\n    - netcdf4\n    - wrf-python\n\ntest:\n  imports:\n    - pangaea\n\nabout:\n  home: https://github.com/snowman2/pangaea\n  license: BSD 3-Clause\n  license_family: BSD\n  license_file: LICENSE\n  summary: 'An xarray extension for land surface models.'\n  description: |\n    An xarray extension for land surface models.\n  doc_url: http://pangaea.readthedocs.io\n  dev_url: https://github.com/snowman2/pangaea\n\nextra:\n  recipe-maintainers:\n    - snowman2\n    - swainn\n    - mgeheran\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "gazar",
+   "netcdf4",
+   "pip",
+   "python",
+   "wrf-python"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "gazar",
+    "netcdf4",
+    "python",
+    "wrf-python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.1.12",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3.6"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "gazar",
+    "netcdf4",
+    "python >=3.6",
+    "wrf-python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/p/pangaea/pangaea-0.0.4.tar.gz",
+ "version":"0.0.4"
+}

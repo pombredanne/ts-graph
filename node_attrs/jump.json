@@ -1,0 +1,209 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/300863109.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/318982942.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.3"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/374372144.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.4"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"jump",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"https://github.com/Olllom/jump",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"LICENSE",
+   "summary":"Running remote jupyter notebooks in a local browser window."
+  },
+  "build":{
+   "entry_points":[
+    "jump = jump.jump:main",
+    "jump = jump.jump:main",
+    "jump = jump.jump:main"
+   ],
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "Olllom",
+    "Olllom",
+    "Olllom"
+   ]
+  },
+  "package":{
+   "name":"jump",
+   "version":"0.4"
+  },
+  "requirements":{
+   "host":[
+    "python >=3.5",
+    "setuptools >=0.7",
+    "plumbum",
+    "pip",
+    "click >=6.0",
+    "python >=3.5",
+    "setuptools >=0.7",
+    "plumbum",
+    "pip",
+    "click >=6.0",
+    "python >=3.5",
+    "setuptools >=0.7",
+    "plumbum",
+    "pip",
+    "click >=6.0"
+   ],
+   "run":[
+    "python >=3.5",
+    "plumbum >=1.5",
+    "click >=6.0",
+    "python >=3.5",
+    "plumbum >=1.5",
+    "click >=6.0",
+    "python >=3.5",
+    "plumbum >=1.5",
+    "click >=6.0"
+   ]
+  },
+  "source":{
+   "sha256":"402158e545cf7c31cb7d5791e7526313137c37bf4a82832134a497cb8987afb3",
+   "url":"https://github.com/olllom/jump/archive/0.4.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "jump --help",
+    "jump --help",
+    "jump --help"
+   ],
+   "imports":[
+    "jump",
+    "jump",
+    "jump"
+   ]
+  }
+ },
+ "name":"jump",
+ "new_version":"0.4",
+ "pinning_version":"2020.01.28",
+ "raw_meta_yaml":"{% set name = \"jump\" %}\n{% set version = \"0.4\" %}\n{% set sha256 = \"402158e545cf7c31cb7d5791e7526313137c37bf4a82832134a497cb8987afb3\" %}\npackage:\n  name: {{\u00a0name }}\n  version: {{ version\u00a0}}\n\nsource:\n  url: https://github.com/olllom/{{ name }}/archive/{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 0\n  script: \"{{ PYTHON }} -m pip install . -vv\"\n  entry_points:\n    - jump = jump.jump:main\n\nrequirements:\n  host:\n    - python >=3.5\n    - setuptools >=0.7\n    - plumbum\n    - pip\n    - click >=6.0\n\n  run:\n    - python >=3.5\n    - plumbum >=1.5\n    - click >=6.0\n\ntest:\n  imports:\n    - jump\n  commands:\n    - jump --help\n\nabout:\n  home: https://github.com/Olllom/jump\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE\n  summary: 'Running remote jupyter notebooks in a local browser window.'\n\nextra:\n  recipe-maintainers:\n    - Olllom\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "click",
+   "pip",
+   "plumbum",
+   "python",
+   "setuptools"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "click",
+    "pip",
+    "plumbum",
+    "python",
+    "setuptools"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "click",
+    "plumbum",
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.6.8",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "click >=6.0",
+    "pip",
+    "plumbum",
+    "python >=3.5",
+    "setuptools >=0.7"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "click >=6.0",
+    "plumbum >=1.5",
+    "python >=3.5"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://github.com/olllom/jump/archive/0.2.tar.gz",
+ "version":"0.4"
+}

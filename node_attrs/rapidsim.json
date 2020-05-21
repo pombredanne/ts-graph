@@ -1,0 +1,271 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/293937502.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.5"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/382389456.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"root620000"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/393662729.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"root_base6202"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/406808210.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"root_base6204"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"rapidsim",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"RapidSim is a fast Monte Carlo generator for simulation of heavy-quark hadron decays.\nIt can be useful for generating background or toy data sets for acceptance studies.\n\n* It uses [`TGenPhaseSpace`](https://root.cern.ch/doc/master/classTGenPhaseSpace.html) to generate b/c quark hadron decays.\n* [FONLL](http://cacciari.web.cern.ch/cacciari/fonll/) is used to give the b/c the correct production kinematics for the LHC.\n* The daughter particle momenta are smeared correctly using user-defined resolutions.\n* Cuts can be made on daughter particle properties (pT, eta, etc).\n* Particle mass hypotheses can be swapped to investigate effect of mis-identification.\n\nA more detailed description can be found here https://arxiv.org/abs/1612.07489\n",
+   "dev_url":"https://github.com/gcowan/RapidSim",
+   "doc_url":"https://github.com/gcowan/RapidSim",
+   "home":"https://github.com/gcowan/RapidSim",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"Licence.md",
+   "summary":"A fast Monte Carlo generator for simulation of heavy-quark hadron decays"
+  },
+  "build":{
+   "number":"3",
+   "skip":true,
+   "skip_compile_pyc":[
+    "*/utils/compareParts.py",
+    "*/utils/compareParts.py",
+    "*/utils/compareParts.py"
+   ]
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "chrisburr",
+    "chrisburr",
+    "chrisburr"
+   ]
+  },
+  "package":{
+   "name":"rapidsim",
+   "version":"1.5"
+  },
+  "requirements":{
+   "build":[
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "cmake",
+    "make",
+    "sed",
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "cmake",
+    "make",
+    "sed",
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "cmake",
+    "make",
+    "sed"
+   ],
+   "host":[
+    "root_base",
+    "root-binaries",
+    "root-dependencies",
+    "root_base",
+    "root-binaries",
+    "root-dependencies",
+    "root_base",
+    "root-binaries",
+    "root-dependencies"
+   ]
+  },
+  "source":{
+   "sha256":"14d8043fd40805f3bc144c4e35846392de535bbfee842ea2d1ec9232c7b0c585",
+   "url":"https://github.com/gcowan/RapidSim/archive/v1.5.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "RapidSim.exe ${RAPIDSIM_ROOT}/validation/B2Kee 1000 1",
+    "RapidSim.exe ${RAPIDSIM_ROOT}/validation/B2Kee 100000",
+    "RapidSim.exe ${RAPIDSIM_ROOT}/validation/Bs2Jpsiphi 100000",
+    "RapidSim.exe ${RAPIDSIM_ROOT}/validation/Bd2D0rho0 100000",
+    "RapidSim.exe ${RAPIDSIM_ROOT}/validation/Bs2D0Kpi 10000",
+    "RapidSim.exe ${RAPIDSIM_ROOT}/validation/D02Kpi 100000",
+    "RapidSim.exe ${RAPIDSIM_ROOT}/validation/Lb2chicpK 100000",
+    "conda install --yes root-binaries",
+    "mkdir plots",
+    "root -b -q -l \"${RAPIDSIM_ROOT}/validation/compareHistograms.C(\\\"B2Kee\\\")\"",
+    "root -b -q -l \"${RAPIDSIM_ROOT}/validation/compareHistograms.C(\\\"Bs2Jpsiphi\\\")\"",
+    "root -b -q -l \"${RAPIDSIM_ROOT}/validation/compareHistograms.C(\\\"Bd2D0rho0\\\")\"",
+    "root -b -q -l \"${RAPIDSIM_ROOT}/validation/compareHistograms.C(\\\"Bs2D0Kpi\\\")\"",
+    "root -b -q -l \"${RAPIDSIM_ROOT}/validation/compareHistograms.C(\\\"D02Kpi\\\")\"",
+    "RapidSim.exe ${RAPIDSIM_ROOT}/validation/B2Kee 1000 1",
+    "RapidSim.exe ${RAPIDSIM_ROOT}/validation/B2Kee 100000",
+    "RapidSim.exe ${RAPIDSIM_ROOT}/validation/Bs2Jpsiphi 100000",
+    "RapidSim.exe ${RAPIDSIM_ROOT}/validation/Bd2D0rho0 100000",
+    "RapidSim.exe ${RAPIDSIM_ROOT}/validation/Bs2D0Kpi 10000",
+    "RapidSim.exe ${RAPIDSIM_ROOT}/validation/D02Kpi 100000",
+    "RapidSim.exe ${RAPIDSIM_ROOT}/validation/Lb2chicpK 100000",
+    "conda install --yes root-binaries",
+    "mkdir plots",
+    "root -b -q -l \"${RAPIDSIM_ROOT}/validation/compareHistograms.C(\\\"B2Kee\\\")\"",
+    "root -b -q -l \"${RAPIDSIM_ROOT}/validation/compareHistograms.C(\\\"Bs2Jpsiphi\\\")\"",
+    "root -b -q -l \"${RAPIDSIM_ROOT}/validation/compareHistograms.C(\\\"Bd2D0rho0\\\")\"",
+    "root -b -q -l \"${RAPIDSIM_ROOT}/validation/compareHistograms.C(\\\"Bs2D0Kpi\\\")\"",
+    "root -b -q -l \"${RAPIDSIM_ROOT}/validation/compareHistograms.C(\\\"D02Kpi\\\")\"",
+    "RapidSim.exe ${RAPIDSIM_ROOT}/validation/B2Kee 1000 1",
+    "RapidSim.exe ${RAPIDSIM_ROOT}/validation/B2Kee 100000",
+    "RapidSim.exe ${RAPIDSIM_ROOT}/validation/Bs2Jpsiphi 100000",
+    "RapidSim.exe ${RAPIDSIM_ROOT}/validation/Bd2D0rho0 100000",
+    "RapidSim.exe ${RAPIDSIM_ROOT}/validation/Bs2D0Kpi 10000",
+    "RapidSim.exe ${RAPIDSIM_ROOT}/validation/D02Kpi 100000",
+    "RapidSim.exe ${RAPIDSIM_ROOT}/validation/Lb2chicpK 100000",
+    "conda install --yes root-binaries",
+    "mkdir plots",
+    "root -b -q -l \"${RAPIDSIM_ROOT}/validation/compareHistograms.C(\\\"B2Kee\\\")\"",
+    "root -b -q -l \"${RAPIDSIM_ROOT}/validation/compareHistograms.C(\\\"Bs2Jpsiphi\\\")\"",
+    "root -b -q -l \"${RAPIDSIM_ROOT}/validation/compareHistograms.C(\\\"Bd2D0rho0\\\")\"",
+    "root -b -q -l \"${RAPIDSIM_ROOT}/validation/compareHistograms.C(\\\"Bs2D0Kpi\\\")\"",
+    "root -b -q -l \"${RAPIDSIM_ROOT}/validation/compareHistograms.C(\\\"D02Kpi\\\")\""
+   ]
+  }
+ },
+ "name":"rapidsim",
+ "new_version":"1.5",
+ "pinning_version":"2020.04.21.12.59.15",
+ "raw_meta_yaml":"{% set name = \"rapidsim\" %}\n{% set version = \"1.5\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://github.com/gcowan/RapidSim/archive/v{{ version }}.tar.gz\n  sha256: 14d8043fd40805f3bc144c4e35846392de535bbfee842ea2d1ec9232c7b0c585\n\nbuild:\n  number: 3\n  skip: True  # [win]\n  skip_compile_pyc:\n    - \"*/utils/compareParts.py\"\n\nrequirements:\n  build:\n    - {{ compiler('c') }}\n    - {{ compiler('cxx') }}\n    - cmake\n    - make\n    - sed\n  host:\n    - root_base\n    - root-binaries\n    - root-dependencies\n\ntest:\n  commands:\n    - RapidSim.exe ${RAPIDSIM_ROOT}/validation/B2Kee 1000 1\n    - RapidSim.exe ${RAPIDSIM_ROOT}/validation/B2Kee 100000\n    - RapidSim.exe ${RAPIDSIM_ROOT}/validation/Bs2Jpsiphi 100000\n    - RapidSim.exe ${RAPIDSIM_ROOT}/validation/Bd2D0rho0 100000\n    - RapidSim.exe ${RAPIDSIM_ROOT}/validation/Bs2D0Kpi 10000\n    - RapidSim.exe ${RAPIDSIM_ROOT}/validation/D02Kpi 100000\n    - RapidSim.exe ${RAPIDSIM_ROOT}/validation/Lb2chicpK 100000\n\n    - conda install --yes root-binaries\n    - mkdir plots\n    - root -b -q -l \"${RAPIDSIM_ROOT}/validation/compareHistograms.C(\\\"B2Kee\\\")\"\n    - root -b -q -l \"${RAPIDSIM_ROOT}/validation/compareHistograms.C(\\\"Bs2Jpsiphi\\\")\"\n    - root -b -q -l \"${RAPIDSIM_ROOT}/validation/compareHistograms.C(\\\"Bd2D0rho0\\\")\"\n    - root -b -q -l \"${RAPIDSIM_ROOT}/validation/compareHistograms.C(\\\"Bs2D0Kpi\\\")\"\n    - root -b -q -l \"${RAPIDSIM_ROOT}/validation/compareHistograms.C(\\\"D02Kpi\\\")\"\n\nabout:\n  home: https://github.com/gcowan/RapidSim\n  license: MIT\n  license_family: MIT\n  license_file: Licence.md\n  summary: 'A fast Monte Carlo generator for simulation of heavy-quark hadron decays'\n  description: |\n    RapidSim is a fast Monte Carlo generator for simulation of heavy-quark hadron decays.\n    It can be useful for generating background or toy data sets for acceptance studies.\n\n    * It uses [`TGenPhaseSpace`](https://root.cern.ch/doc/master/classTGenPhaseSpace.html) to generate b/c quark hadron decays.\n    * [FONLL](http://cacciari.web.cern.ch/cacciari/fonll/) is used to give the b/c the correct production kinematics for the LHC.\n    * The daughter particle momenta are smeared correctly using user-defined resolutions.\n    * Cuts can be made on daughter particle properties (pT, eta, etc).\n    * Particle mass hypotheses can be swapped to investigate effect of mis-identification.\n\n    A more detailed description can be found here https://arxiv.org/abs/1612.07489\n  doc_url: https://github.com/gcowan/RapidSim\n  dev_url: https://github.com/gcowan/RapidSim\n\nextra:\n  recipe-maintainers:\n    - chrisburr\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "c_compiler_stub",
+   "cmake",
+   "cxx_compiler_stub",
+   "make",
+   "root-binaries",
+   "root-dependencies",
+   "root_base",
+   "sed"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "cmake",
+    "cxx_compiler_stub",
+    "make",
+    "sed"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "root-binaries",
+    "root-dependencies",
+    "root_base"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.6.16",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "cmake",
+    "cxx_compiler_stub",
+    "make",
+    "sed"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "root-binaries",
+    "root-dependencies",
+    "root_base"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://github.com/gcowan/RapidSim/archive/v1.5.tar.gz",
+ "version":"1.5"
+}

@@ -1,0 +1,357 @@
+{
+ "PRed":[
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2017.10"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/199904185.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Compiler",
+    "migrator_version":0
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/222663784.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/339409849.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"python38"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/374760763.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MatplotlibBase",
+    "migrator_version":0,
+    "name":"matplotlib-to-matplotlib-base"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/392725847.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2020.01"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/406960357.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2020.02"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"westpa",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"WESTPA is a package for constructing and running stochastic simulations\nusing the \"weighted ensemble\" approach of Huber and Kim (1996).\n",
+   "dev_url":"https://github.com/westpa",
+   "doc_url":"https://westpa.github.io/westpa/sphinx_index.html#tutorials",
+   "home":"https://westpa.github.io/westpa",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"LICENSE",
+   "summary":"Interoperable, highly-scalable software for weighted ensemble simulation."
+  },
+  "build":{
+   "number":"0",
+   "skip":true
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "mczwier",
+    "ajoshpratt",
+    "synapticarbors",
+    "burntyellow",
+    "ltchong",
+    "mczwier",
+    "ajoshpratt",
+    "synapticarbors",
+    "burntyellow",
+    "ltchong",
+    "mczwier",
+    "ajoshpratt",
+    "synapticarbors",
+    "burntyellow",
+    "ltchong"
+   ]
+  },
+  "package":{
+   "name":"westpa",
+   "version":"2020.03"
+  },
+  "requirements":{
+   "build":[
+    "c_compiler_stub",
+    "c_compiler_stub",
+    "c_compiler_stub"
+   ],
+   "host":[
+    "setuptools",
+    "python",
+    "cython",
+    "numpy 1.16.*",
+    "setuptools",
+    "python",
+    "cython",
+    "numpy 1.16.*",
+    "setuptools",
+    "python",
+    "cython",
+    "numpy 1.16.*"
+   ],
+   "run":[
+    "python",
+    "numpy",
+    "scipy",
+    "h5py 2.10.*",
+    "pyyaml 5.3.*",
+    "pyzmq 19.0.*",
+    "matplotlib-base",
+    "blessings 1.7.*",
+    "ipykernel",
+    "python",
+    "numpy",
+    "scipy",
+    "h5py 2.10.*",
+    "pyyaml 5.3.*",
+    "pyzmq 19.0.*",
+    "matplotlib-base",
+    "blessings 1.7.*",
+    "ipykernel",
+    "python",
+    "numpy",
+    "scipy",
+    "h5py 2.10.*",
+    "pyyaml 5.3.*",
+    "pyzmq 19.0.*",
+    "matplotlib-base",
+    "blessings 1.7.*",
+    "ipykernel"
+   ]
+  },
+  "source":{
+   "fn":"westpa-2020.03.tar.gz",
+   "sha256":"0a1f7b30f405a0f3ca1d9808adbf10fb93451cfd2b79c4ce992ff5cedcb65c3d",
+   "url":"https://github.com/westpa/westpa/archive/v2020.03.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "source ${PREFIX}/${PKG_NAME}-${PKG_VERSION}/westpa.sh",
+    "source ${WEST_ROOT}/bin/w_env",
+    "$WEST_PYTHON -c 'import west'",
+    "$WEST_PYTHON -c 'import west.propagators'",
+    "$WEST_PYTHON -c 'import westpa'",
+    "$WEST_PYTHON -c 'import westpa.binning'",
+    "$WEST_PYTHON -c 'import westpa.kinetics'",
+    "$WEST_PYTHON -c 'import westpa.reweight'",
+    "$WEST_PYTHON -c 'import work_managers'",
+    "$WEST_PYTHON -c 'import westtools'",
+    "$WEST_PYTHON -c 'import fasthist'",
+    "$WEST_PYTHON -c 'import mclib'",
+    "source ${PREFIX}/${PKG_NAME}-${PKG_VERSION}/westpa.sh",
+    "source ${WEST_ROOT}/bin/w_env",
+    "$WEST_PYTHON -c 'import west'",
+    "$WEST_PYTHON -c 'import west.propagators'",
+    "$WEST_PYTHON -c 'import westpa'",
+    "$WEST_PYTHON -c 'import westpa.binning'",
+    "$WEST_PYTHON -c 'import westpa.kinetics'",
+    "$WEST_PYTHON -c 'import westpa.reweight'",
+    "$WEST_PYTHON -c 'import work_managers'",
+    "$WEST_PYTHON -c 'import westtools'",
+    "$WEST_PYTHON -c 'import fasthist'",
+    "$WEST_PYTHON -c 'import mclib'",
+    "source ${PREFIX}/${PKG_NAME}-${PKG_VERSION}/westpa.sh",
+    "source ${WEST_ROOT}/bin/w_env",
+    "$WEST_PYTHON -c 'import west'",
+    "$WEST_PYTHON -c 'import west.propagators'",
+    "$WEST_PYTHON -c 'import westpa'",
+    "$WEST_PYTHON -c 'import westpa.binning'",
+    "$WEST_PYTHON -c 'import westpa.kinetics'",
+    "$WEST_PYTHON -c 'import westpa.reweight'",
+    "$WEST_PYTHON -c 'import work_managers'",
+    "$WEST_PYTHON -c 'import westtools'",
+    "$WEST_PYTHON -c 'import fasthist'",
+    "$WEST_PYTHON -c 'import mclib'"
+   ]
+  }
+ },
+ "name":"westpa",
+ "new_version":"2020.03",
+ "new_version_attempts":{
+  "2020.02":1
+ },
+ "new_version_errors":{},
+ "pinning_version":"2020.04.21.12.59.15",
+ "raw_meta_yaml":"{% set name = \"westpa\" %}\n{% set version = \"2020.03\" %}\n{% set sha256 = \"0a1f7b30f405a0f3ca1d9808adbf10fb93451cfd2b79c4ce992ff5cedcb65c3d\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  fn: {{ name }}-{{ version }}.tar.gz\n  url: https://github.com/westpa/westpa/archive/v{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  skip: True  # [win or py2k]\n\nrequirements:\n  build:\n    - {{ compiler('c') }}\n  host:\n    - setuptools\n    - python\n    - cython\n    - numpy 1.16.*\n  run:\n    - python\n    - {{ pin_compatible('numpy') }}\n    - scipy\n    - h5py 2.10.*\n    - pyyaml 5.3.*\n    - pyzmq 19.0.*\n    - matplotlib-base\n    - blessings 1.7.*\n    - ipykernel\n\ntest:\n  commands:\n    - \"source ${PREFIX}/${PKG_NAME}-${PKG_VERSION}/westpa.sh\"\n    - \"source ${WEST_ROOT}/bin/w_env\"\n    - \"$WEST_PYTHON -c 'import west'\"\n    - \"$WEST_PYTHON -c 'import west.propagators'\"\n    - \"$WEST_PYTHON -c 'import westpa'\"\n    - \"$WEST_PYTHON -c 'import westpa.binning'\"\n    - \"$WEST_PYTHON -c 'import westpa.kinetics'\"\n    - \"$WEST_PYTHON -c 'import westpa.reweight'\"\n    - \"$WEST_PYTHON -c 'import work_managers'\"\n    - \"$WEST_PYTHON -c 'import westtools'\"\n    - \"$WEST_PYTHON -c 'import fasthist'\"\n    - \"$WEST_PYTHON -c 'import mclib'\"\n    # Currently blocked by https://github.com/westpa/westpa/issues/70\n    #- \"$WEST_PYTHON -c 'import trajtree'\"\n\nabout:\n  home: https://westpa.github.io/westpa\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE\n  summary: 'Interoperable, highly-scalable software for weighted ensemble simulation.'\n\n  description: |\n    WESTPA is a package for constructing and running stochastic simulations\n    using the \"weighted ensemble\" approach of Huber and Kim (1996).\n  doc_url: https://westpa.github.io/westpa/sphinx_index.html#tutorials\n  dev_url: https://github.com/westpa\n\nextra:\n  recipe-maintainers:\n    - mczwier\n    - ajoshpratt\n    - synapticarbors\n    - burntyellow\n    - ltchong\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "blessings",
+   "c_compiler_stub",
+   "cython",
+   "h5py",
+   "ipykernel",
+   "matplotlib-base",
+   "numpy",
+   "python",
+   "pyyaml",
+   "pyzmq",
+   "scipy",
+   "setuptools"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "cython",
+    "numpy",
+    "python",
+    "setuptools"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "blessings",
+    "h5py",
+    "ipykernel",
+    "matplotlib-base",
+    "numpy",
+    "python",
+    "pyyaml",
+    "pyzmq",
+    "scipy"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.6.16",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "cython",
+    "numpy 1.16.*",
+    "python",
+    "setuptools"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "blessings 1.7.*",
+    "h5py 2.10.*",
+    "ipykernel",
+    "matplotlib-base",
+    "numpy",
+    "python",
+    "pyyaml 5.3.*",
+    "pyzmq 19.0.*",
+    "scipy"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://github.com/westpa/westpa/archive/v2017.10.tar.gz",
+ "version":"2020.03"
+}

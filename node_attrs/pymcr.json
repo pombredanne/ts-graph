@@ -1,0 +1,183 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/291719506.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"pymcr",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "dev_url":"https://github.com/usnistgov/pyMCR",
+   "doc_url":"https://pages.nist.gov/pyMCR",
+   "home":"https://github.com/usnistgov/pyMCR",
+   "license":"NIST",
+   "license_family":"PUBLIC-DOMAIN",
+   "license_file":"LICENSE.md",
+   "summary":"Multivariate Curve Resolution in Python"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . --no-deps --ignore-installed -vv "
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "CCampJr",
+    "ericpre",
+    "CCampJr",
+    "ericpre",
+    "CCampJr",
+    "ericpre"
+   ]
+  },
+  "package":{
+   "name":"pymcr",
+   "version":"0.3.2"
+  },
+  "requirements":{
+   "host":[
+    "pip",
+    "python >=3",
+    "pytest-runner",
+    "pip",
+    "python >=3",
+    "pytest-runner",
+    "pip",
+    "python >=3",
+    "pytest-runner"
+   ],
+   "run":[
+    "numpy",
+    "python >=3",
+    "scipy",
+    "scikit-learn >=0.20",
+    "numpy",
+    "python >=3",
+    "scipy",
+    "scikit-learn >=0.20",
+    "numpy",
+    "python >=3",
+    "scipy",
+    "scikit-learn >=0.20"
+   ]
+  },
+  "source":{
+   "sha256":"2192520584d25ee74c9d466e9d9f3f806ca76ff00c0d85cbf6f1fc6932ebe0f8",
+   "url":"https://pypi.io/packages/source/p/pyMCR/pyMCR-0.3.2.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "pytest --pyargs pymcr",
+    "pytest --pyargs pymcr",
+    "pytest --pyargs pymcr"
+   ],
+   "imports":[
+    "pymcr",
+    "pymcr.tests",
+    "pymcr",
+    "pymcr.tests",
+    "pymcr",
+    "pymcr.tests"
+   ],
+   "requires":[
+    "pytest",
+    "pytest",
+    "pytest"
+   ]
+  }
+ },
+ "name":"pymcr",
+ "new_version":"0.3.2",
+ "pinning_version":"2019.06.19",
+ "raw_meta_yaml":"{% set name = \"pyMCR\" %}\n{% set version = \"0.3.2\" %}\n\npackage:\n  name: \"{{ name|lower }}\"\n  version: \"{{ version }}\"\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: 2192520584d25ee74c9d466e9d9f3f806ca76ff00c0d85cbf6f1fc6932ebe0f8\n\nbuild:\n  number: 0\n  noarch: python\n  script: \"{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv \"\n\nrequirements:\n  host:\n    - pip\n    - python >=3\n    - pytest-runner\n  run:\n    - numpy\n    - python >=3\n    - scipy\n    - scikit-learn >=0.20\n\ntest:\n  imports:\n    - pymcr\n    - pymcr.tests\n  requires:\n    - pytest\n  commands:\n    - pytest --pyargs pymcr\n\n\nabout:\n  home: https://github.com/usnistgov/pyMCR\n  license: NIST\n  license_family: PUBLIC-DOMAIN\n  license_file: LICENSE.md\n  summary: Multivariate Curve Resolution in Python\n  doc_url: https://pages.nist.gov/pyMCR\n  dev_url: https://github.com/usnistgov/pyMCR\n\nextra:\n  recipe-maintainers:\n    - CCampJr\n    - ericpre\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "numpy",
+   "pip",
+   "pytest-runner",
+   "python",
+   "scikit-learn",
+   "scipy"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "pytest-runner",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "numpy",
+    "python",
+    "scikit-learn",
+    "scipy"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "pytest"
+   ]
+  }
+ },
+ "smithy_version":"3.4.0",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "pytest-runner",
+    "python >=3"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "numpy",
+    "python >=3",
+    "scikit-learn >=0.20",
+    "scipy"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "pytest"
+   ]
+  }
+ },
+ "url":"https://pypi.io/packages/source/p/pyMCR/pyMCR-0.3.2.tar.gz",
+ "version":"0.3.2"
+}

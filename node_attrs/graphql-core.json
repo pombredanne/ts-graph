@@ -1,0 +1,375 @@
+{
+ "PRed":[
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/202679729.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/286029675.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/299040475.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.2.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/347264659.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.0.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/350081029.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.0.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/367261941.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.0.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/370050395.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.0.3"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/398241327.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.0.4"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/398268973.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.1.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/419699411.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.1.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"graphql-core",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "doc_url":"https://graphql-core-3.readthedocs.io",
+   "home":"https://github.com/graphql-python/graphql-core",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"LICENSE",
+   "summary":"A Python 3.6+ port of the GraphQL.js reference implementation of GraphQL."
+  },
+  "build":{
+   "noarch":"python",
+   "number":"1",
+   "script":[
+    "python -c '__import__(\"os\").unlink(\"pyproject.toml\")'",
+    "-m pip install . -vv",
+    "python -c '__import__(\"os\").unlink(\"pyproject.toml\")'",
+    "-m pip install . -vv",
+    "python -c '__import__(\"os\").unlink(\"pyproject.toml\")'",
+    "-m pip install . -vv"
+   ]
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "pmlandwehr",
+    "carlodri",
+    "bollwyvl",
+    "KingDarBoja",
+    "pmlandwehr",
+    "carlodri",
+    "bollwyvl",
+    "KingDarBoja",
+    "pmlandwehr",
+    "carlodri",
+    "bollwyvl",
+    "KingDarBoja"
+   ]
+  },
+  "package":{
+   "name":"graphql-core",
+   "version":"3.1.0"
+  },
+  "requirements":{
+   "host":[
+    "python >=3.6",
+    "pip",
+    "python >=3.6",
+    "pip",
+    "python >=3.6",
+    "pip"
+   ],
+   "run":[
+    "python >=3.6",
+    "python >=3.6",
+    "python >=3.6"
+   ]
+  },
+  "source":{
+   "sha256":"d43cf1f149772c7014656d4bc4c512278a16722e80e4be2daf99894ffef871db",
+   "url":"https://pypi.io/packages/source/g/graphql-core/graphql-core-3.1.0.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "python -m pip check",
+    "python -c '__import__(\"os\").unlink(\"tests/test_docs.py\")'",
+    "pytest --cov graphql",
+    "python -m pip check",
+    "python -c '__import__(\"os\").unlink(\"tests/test_docs.py\")'",
+    "pytest --cov graphql",
+    "python -m pip check",
+    "python -c '__import__(\"os\").unlink(\"tests/test_docs.py\")'",
+    "pytest --cov graphql"
+   ],
+   "imports":[
+    "graphql",
+    "graphql",
+    "graphql"
+   ],
+   "requires":[
+    "pytest >=5.4.0,<6",
+    "pytest-asyncio >=0.10,<1",
+    "pytest-benchmark >=3.2,<4",
+    "pytest-cov >=2.8,<3",
+    "pytest-describe >=0.12,<1",
+    "pip",
+    "pytest >=5.4.0,<6",
+    "pytest-asyncio >=0.10,<1",
+    "pytest-benchmark >=3.2,<4",
+    "pytest-cov >=2.8,<3",
+    "pytest-describe >=0.12,<1",
+    "pip",
+    "pytest >=5.4.0,<6",
+    "pytest-asyncio >=0.10,<1",
+    "pytest-benchmark >=3.2,<4",
+    "pytest-cov >=2.8,<3",
+    "pytest-describe >=0.12,<1",
+    "pip"
+   ],
+   "source_files":[
+    "tests",
+    "tests",
+    "tests"
+   ]
+  }
+ },
+ "name":"graphql-core",
+ "new_version":"3.1.1",
+ "new_version_attempts":{
+  "3.1.1":1
+ },
+ "new_version_errors":{},
+ "pinning_version":"2020.05.18.14.31.44",
+ "raw_meta_yaml":"{% set name = \"graphql-core\" %}\n{% set version = \"3.1.0\" %}\n\npackage:\n  name: {{ name }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: d43cf1f149772c7014656d4bc4c512278a16722e80e4be2daf99894ffef871db\n\nbuild:\n  noarch: python\n  number: 1\n  script:\n    - python -c '__import__(\"os\").unlink(\"pyproject.toml\")'\n    - {{ PYTHON }} -m pip install . -vv\n\nrequirements:\n  host:\n    - python >=3.6\n    - pip\n  run:\n    - python >=3.6\n\ntest:\n  imports:\n    - graphql\n  source_files:\n    - tests\n  requires:\n    - pytest >=5.4.0,<6\n    - pytest-asyncio >=0.10,<1\n    - pytest-benchmark >=3.2,<4\n    - pytest-cov >=2.8,<3\n    - pytest-describe >=0.12,<1\n    - pip\n  commands:\n    - python -m pip check\n    - python -c '__import__(\"os\").unlink(\"tests/test_docs.py\")'\n    - pytest --cov graphql\n\nabout:\n  home: https://github.com/graphql-python/graphql-core\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE\n  summary: A Python 3.6+ port of the GraphQL.js reference implementation of GraphQL.\n  doc_url: https://graphql-core-3.readthedocs.io\n\nextra:\n  recipe-maintainers:\n    - pmlandwehr\n    - carlodri\n    - bollwyvl\n    - KingDarBoja\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "pip",
+   "python"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "pytest",
+    "pytest-asyncio",
+    "pytest-benchmark",
+    "pytest-cov",
+    "pytest-describe"
+   ]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.7.3\n",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3.6"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "python >=3.6"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "pytest >=5.4.0,<6",
+    "pytest-asyncio >=0.10,<1",
+    "pytest-benchmark >=3.2,<4",
+    "pytest-cov >=2.8,<3",
+    "pytest-describe >=0.12,<1"
+   ]
+  }
+ },
+ "url":"https://pypi.io/packages/source/g/graphql-core/graphql-core-2.2.tar.gz",
+ "version":"3.1.0"
+}

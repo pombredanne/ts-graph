@@ -1,0 +1,116 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/324676486.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"py3c",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "dev_url":"https://github.com/encukou/py3c",
+   "doc_url":"https://py3c.readthedocs.org/",
+   "home":"https://github.com/encukou/py3c",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"LICENSE.MIT",
+   "summary":"A Python 2/3 compatibility layer for C extensions"
+  },
+  "build":{
+   "number":"0"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "jakirkham",
+    "jakirkham",
+    "jakirkham"
+   ]
+  },
+  "package":{
+   "name":"py3c",
+   "version":"1.0"
+  },
+  "requirements":{
+   "build":null,
+   "host":null
+  },
+  "source":{
+   "sha256":"f97fbc2eb5187df2499c3d5cf6c23ee0dac046eb0a88d67eea5e444cf116cd8e",
+   "url":"https://github.com/encukou/py3c/archive/v1.0.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "if not exist \"%LIBRARY_INC%\\\\py3c.h\" exit 1",
+    "if not exist \"%LIBRARY_INC%\\\\py3c\" exit 1",
+    "test -f \"${PREFIX}/include/py3c.h\"",
+    "test -d \"${PREFIX}/include/py3c\"",
+    "test -f \"${PREFIX}/include/py3c.h\"",
+    "test -d \"${PREFIX}/include/py3c\""
+   ]
+  }
+ },
+ "name":"py3c",
+ "new_version":"1.1",
+ "pinning_version":"2019.10.01",
+ "raw_meta_yaml":"{% set version = \"1.0\" %}\n\npackage:\n  name: py3c\n  version: {{ version }}\n\nsource:\n  url: https://github.com/encukou/py3c/archive/v{{ version }}.tar.gz\n  sha256: f97fbc2eb5187df2499c3d5cf6c23ee0dac046eb0a88d67eea5e444cf116cd8e\n\nbuild:\n  number: 0\n\nrequirements:\n  build:\n    - posix  # [win]\n  host:\n\ntest:\n  commands:\n    - test -f \"${PREFIX}/include/py3c.h\"           # [unix]\n    - test -d \"${PREFIX}/include/py3c\"             # [unix]\n    - if not exist \"%LIBRARY_INC%\\\\py3c.h\" exit 1  # [win]\n    - if not exist \"%LIBRARY_INC%\\\\py3c\" exit 1    # [win]\n\nabout:\n  home: https://github.com/encukou/py3c\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE.MIT\n  summary: A Python 2/3 compatibility layer for C extensions\n\n  dev_url: https://github.com/encukou/py3c\n  doc_url: https://py3c.readthedocs.org/\n\nextra:\n  recipe-maintainers:\n    - jakirkham\n",
+ "req":{
+  "__set__":true,
+  "elements":[]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.5.0",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://github.com/encukou/py3c/archive/v1.0.tar.gz",
+ "version":"1.0"
+}

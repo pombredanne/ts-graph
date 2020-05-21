@@ -1,0 +1,270 @@
+{
+ "PRed":[
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.13.3"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/230871604.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.14.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.14.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/290875899.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.15.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/292852343.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.15.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/295850638.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.15.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "id":"605c1549-faeb-4c64-a08a-8178e8ec6296",
+    "merged_at":"never issued",
+    "state":"closed"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"python38"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "max_py_ver":"37",
+  "max_r_ver":"35",
+  "provider":{
+   "win":"azure"
+  }
+ },
+ "feedstock_name":"glueviz",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"http://glueviz.org",
+   "license":"BSD 3-Clause",
+   "license_file":"LICENSE",
+   "summary":"Multi-dimensional linked data exploration"
+  },
+  "app":{
+   "entry":"glue",
+   "icon":"logo.png",
+   "summary":"Multi-dimensional linked data exploration",
+   "type":"desk"
+  },
+  "build":{
+   "number":"0",
+   "script":" -m pip install . --no-deps -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "astrofrog-conda-forge",
+    "astrofrog-conda-forge",
+    "astrofrog-conda-forge"
+   ]
+  },
+  "package":{
+   "name":"glueviz",
+   "version":"0.15.2"
+  },
+  "requirements":{
+   "build":[
+    "python",
+    "pip",
+    "setuptools >=30.3",
+    "setuptools_scm",
+    "python",
+    "pip",
+    "setuptools >=30.3",
+    "setuptools_scm",
+    "python",
+    "pip",
+    "setuptools >=30.3",
+    "setuptools_scm"
+   ],
+   "run":[
+    "glue-core >=0.15.3",
+    "glue-vispy-viewers >=0.12.2",
+    "glue-core >=0.15.3",
+    "glue-vispy-viewers >=0.12.2",
+    "glue-core >=0.15.3",
+    "glue-vispy-viewers >=0.12.2"
+   ]
+  },
+  "source":{
+   "fn":"glueviz-0.15.2.tar.gz",
+   "sha256":"761cb14d7f0286266c713e3e90476359b2acfda09e99ccd58ed2d79a5297d939",
+   "url":"https://pypi.io/packages/source/g/glueviz/glueviz-0.15.2.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "glue --version",
+    "glue-deps list",
+    "glue --version",
+    "glue-deps list",
+    "glue --version",
+    "glue-deps list"
+   ]
+  }
+ },
+ "name":"glueviz",
+ "new_version":"0.15.2",
+ "pinning_version":"2019.11.01",
+ "raw_meta_yaml":"# NOTE: this is a meta-package that includes the core glue-core code as well as stable\n# plugins. This is the main conda package we want in the Navigator, so we add the\n# app: entry here and not in the glue-core package. Even though glueviz is a\n# Python package on PyPI, and has a setup.py file, we don't include a build command\n# below since the only purpose of that command is to trigger the installation of the\n# dependencies.\n\n{% set version = \"0.15.2\" %}\n\npackage:\n  name: glueviz\n  version: {{version}}\n\nsource:\n  fn: glueviz-{{version}}.tar.gz\n  url: https://pypi.io/packages/source/g/glueviz/glueviz-{{version}}.tar.gz\n  sha256: 761cb14d7f0286266c713e3e90476359b2acfda09e99ccd58ed2d79a5297d939\n\nbuild:\n  number: 0\n  script: \"{{ PYTHON }} -m pip install . --no-deps -vv\"\n\nrequirements:\n  build:\n    - python\n    - pip\n    - setuptools >=30.3\n    - setuptools_scm\n  run:\n    - glue-core >=0.15.3\n    - glue-vispy-viewers >=0.12.2\n\ntest:\n  commands:\n    - glue --version\n    - glue-deps list\n\napp:\n  entry: glue\n  icon: logo.png\n  summary: Multi-dimensional linked data exploration\n  type: desk\n\nabout:\n  home: http://glueviz.org\n  license: BSD 3-Clause\n  license_file: LICENSE\n  summary: Multi-dimensional linked data exploration\n\nextra:\n  recipe-maintainers:\n    - astrofrog-conda-forge\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "glue-core",
+   "glue-vispy-viewers",
+   "pip",
+   "python",
+   "setuptools",
+   "setuptools_scm"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python",
+    "setuptools",
+    "setuptools_scm"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "glue-core",
+    "glue-vispy-viewers"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.6.2",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python",
+    "setuptools >=30.3",
+    "setuptools_scm"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "glue-core >=0.15.3",
+    "glue-vispy-viewers >=0.12.2"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/g/glueviz/glueviz-0.15.2.tar.gz",
+ "version":"0.15.2"
+}

@@ -1,0 +1,247 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/238385428.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.5.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/239159771.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.5.0.post0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/289760901.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.6.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/347006032.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.7.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/402371638.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.8.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"skorch",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "dev_url":"https://github.com/dnouri/skorch",
+   "doc_url":"https://skorch.readthedocs.io/en/latest/",
+   "home":"https://github.com/dnouri/skorch",
+   "license":"BSD-3",
+   "license_family":"BSD",
+   "license_file":"LICENSE",
+   "summary":"A scikit-learn compatible neural network library that wraps pytorch"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "dhirschfeld",
+    "dhirschfeld",
+    "dhirschfeld"
+   ]
+  },
+  "package":{
+   "name":"skorch",
+   "version":"0.7.0"
+  },
+  "requirements":{
+   "host":[
+    "python >=3.5",
+    "pip",
+    "setuptools",
+    "python >=3.5",
+    "pip",
+    "setuptools",
+    "python >=3.5",
+    "pip",
+    "setuptools"
+   ],
+   "run":[
+    "python >=3.5",
+    "numpy >=1.13.3",
+    "scikit-learn >=0.19.1",
+    "scipy >=1.1.0",
+    "tabulate >=0.7.7",
+    "tqdm >=4.14.0",
+    "python >=3.5",
+    "numpy >=1.13.3",
+    "scikit-learn >=0.19.1",
+    "scipy >=1.1.0",
+    "tabulate >=0.7.7",
+    "tqdm >=4.14.0",
+    "python >=3.5",
+    "numpy >=1.13.3",
+    "scikit-learn >=0.19.1",
+    "scipy >=1.1.0",
+    "tabulate >=0.7.7",
+    "tqdm >=4.14.0"
+   ]
+  },
+  "source":{
+   "sha256":"643f5369bddb105152594de79dcc3c2dd5a6ef500176db19cbf2542708b2c4f3",
+   "url":"https://pypi.io/packages/source/s/skorch/skorch-0.7.0.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "numpy",
+    "numpy",
+    "numpy"
+   ]
+  }
+ },
+ "name":"skorch",
+ "new_version":"0.8.0",
+ "new_version_attempts":{
+  "0.8.0":1
+ },
+ "new_version_errors":{},
+ "pinning_version":"2020.04.12.13.56.44",
+ "raw_meta_yaml":"{% set name = \"skorch\" %}\n{% set version = \"0.7.0\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: 643f5369bddb105152594de79dcc3c2dd5a6ef500176db19cbf2542708b2c4f3\n\nbuild:\n  noarch: python\n  number: 0\n  script: \"{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv\"\n\nrequirements:\n  host:\n    - python >=3.5\n    - pip\n    - setuptools\n  run:\n    - python >=3.5\n    - numpy >=1.13.3\n    - scikit-learn >=0.19.1\n    - scipy >=1.1.0\n    - tabulate >=0.7.7\n    - tqdm >=4.14.0\n\ntest:\n  imports:\n    - numpy\n\nabout:\n  home: https://github.com/dnouri/skorch\n  license: BSD-3\n  license_family: BSD\n  license_file: LICENSE\n  summary: A scikit-learn compatible neural network library that wraps pytorch\n  doc_url: https://skorch.readthedocs.io/en/latest/\n  dev_url: https://github.com/dnouri/skorch\n\nextra:\n  recipe-maintainers:\n    - dhirschfeld\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "numpy",
+   "pip",
+   "python",
+   "scikit-learn",
+   "scipy",
+   "setuptools",
+   "tabulate",
+   "tqdm"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python",
+    "setuptools"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "numpy",
+    "python",
+    "scikit-learn",
+    "scipy",
+    "tabulate",
+    "tqdm"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.6.16",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3.5",
+    "setuptools"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "numpy >=1.13.3",
+    "python >=3.5",
+    "scikit-learn >=0.19.1",
+    "scipy >=1.1.0",
+    "tabulate >=0.7.7",
+    "tqdm >=4.14.0"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/s/skorch/skorch-0.6.0.tar.gz",
+ "version":"0.7.0"
+}

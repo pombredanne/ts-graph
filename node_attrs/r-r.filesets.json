@@ -1,0 +1,316 @@
+{
+ "PRed":[
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.12.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/232891711.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/271556041.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.13.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/299554710.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"RBaseRebuild",
+    "migrator_version":0,
+    "name":"r-base-3.6.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/413619948.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":2,
+    "migrator_version":0,
+    "name":"r400"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "bot":{
+   "automerge":true
+  },
+  "provider":{
+   "win":"azure"
+  }
+ },
+ "feedstock_name":"r-r.filesets",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"https://github.com/HenrikBengtsson/R.filesets, http://www.aroma-project.org/",
+   "license":"LGPL-2.1-or-later",
+   "license_family":"LGPL",
+   "license_file":[
+    "/lib/R/share/licenses/LGPL-2.1",
+    "/lib/R/share/licenses/LGPL-2.1",
+    "/lib/R/share/licenses/LGPL-2.1"
+   ],
+   "summary":"A file set refers to a set of files located in one or more directories on the file system.  This package provides classes and methods to locate, setup, subset, navigate and iterate such sets.  The API is designed such that these classes can be extended via inheritance to provide a richer API for special file formats.  Moreover, a specific name format is defined such that filenames and directories can be considered to have full names which consists of a name followed by comma-separated tags.  This adds additional flexibility to identify file sets and individual files.  NOTE: This package's API should be considered to be in an beta stage.  Its main purpose is currently to support the aroma.* packages, where it is one of the main core components; if you decide to build on top of this package, please contact the author first."
+  },
+  "build":{
+   "merge_build_host":true,
+   "noarch":"generic",
+   "number":"2",
+   "rpaths":[
+    "lib/R/lib/",
+    "lib/",
+    "lib/R/lib/",
+    "lib/",
+    "lib/R/lib/",
+    "lib/"
+   ]
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "conda-forge/r",
+    "dpryan79",
+    "johanneskoester",
+    "bgruening",
+    "daler",
+    "jdblischak",
+    "cbrueffer",
+    "conda-forge/r",
+    "dpryan79",
+    "johanneskoester",
+    "bgruening",
+    "daler",
+    "jdblischak",
+    "cbrueffer",
+    "conda-forge/r",
+    "dpryan79",
+    "johanneskoester",
+    "bgruening",
+    "daler",
+    "jdblischak",
+    "cbrueffer"
+   ]
+  },
+  "package":{
+   "name":"r-r.filesets",
+   "version":"2.13.0"
+  },
+  "requirements":{
+   "host":[
+    "r-base",
+    "r-r.cache >=0.13.0",
+    "r-r.methodss3 >=1.7.1",
+    "r-r.oo >=1.21.0",
+    "r-r.utils >=2.6.0",
+    "r-digest >=0.6.15",
+    "r-future.apply >=0.1.0",
+    "r-base",
+    "r-r.cache >=0.13.0",
+    "r-r.methodss3 >=1.7.1",
+    "r-r.oo >=1.21.0",
+    "r-r.utils >=2.6.0",
+    "r-digest >=0.6.15",
+    "r-future.apply >=0.1.0",
+    "r-base",
+    "r-r.cache >=0.13.0",
+    "r-r.methodss3 >=1.7.1",
+    "r-r.oo >=1.21.0",
+    "r-r.utils >=2.6.0",
+    "r-digest >=0.6.15",
+    "r-future.apply >=0.1.0"
+   ],
+   "run":[
+    "r-base",
+    "r-r.cache >=0.13.0",
+    "r-r.methodss3 >=1.7.1",
+    "r-r.oo >=1.21.0",
+    "r-r.utils >=2.6.0",
+    "r-digest >=0.6.15",
+    "r-future.apply >=0.1.0",
+    "r-base",
+    "r-r.cache >=0.13.0",
+    "r-r.methodss3 >=1.7.1",
+    "r-r.oo >=1.21.0",
+    "r-r.utils >=2.6.0",
+    "r-digest >=0.6.15",
+    "r-future.apply >=0.1.0",
+    "r-base",
+    "r-r.cache >=0.13.0",
+    "r-r.methodss3 >=1.7.1",
+    "r-r.oo >=1.21.0",
+    "r-r.utils >=2.6.0",
+    "r-digest >=0.6.15",
+    "r-future.apply >=0.1.0"
+   ]
+  },
+  "source":{
+   "fn":"R.filesets_2.13.0.tar.gz",
+   "sha256":"cf1597227bc2cc4b3f4a2bdf087e1ed33330a8450655d6a72236d105f0f39988",
+   "url":[
+    "https://cran.r-project.org/src/contrib/R.filesets_2.13.0.tar.gz",
+    "https://cran.r-project.org/src/contrib/Archive/R.filesets/R.filesets_2.13.0.tar.gz",
+    "https://cran.r-project.org/src/contrib/R.filesets_2.13.0.tar.gz",
+    "https://cran.r-project.org/src/contrib/Archive/R.filesets/R.filesets_2.13.0.tar.gz",
+    "https://cran.r-project.org/src/contrib/R.filesets_2.13.0.tar.gz",
+    "https://cran.r-project.org/src/contrib/Archive/R.filesets/R.filesets_2.13.0.tar.gz"
+   ]
+  },
+  "test":{
+   "commands":[
+    "\"%R%\" -e \"library('R.filesets')\"",
+    "$R -e \"library('R.filesets')\"",
+    "$R -e \"library('R.filesets')\""
+   ]
+  }
+ },
+ "name":"r-r.filesets",
+ "new_version":"2.13.0",
+ "pinning_version":"2020.05.04.19.59.17",
+ "raw_meta_yaml":"{% set version = \"2.13.0\" %}\n\n{% set posix = 'm2-' if win else '' %}\n{% set native = 'm2w64-' if win else '' %}\n\npackage:\n  name: r-r.filesets\n  version: {{ version|replace(\"-\", \"_\") }}\n\nsource:\n  fn: R.filesets_{{ version }}.tar.gz\n  url:\n    - {{ cran_mirror }}/src/contrib/R.filesets_{{ version }}.tar.gz\n    - {{ cran_mirror }}/src/contrib/Archive/R.filesets/R.filesets_{{ version }}.tar.gz\n  sha256: cf1597227bc2cc4b3f4a2bdf087e1ed33330a8450655d6a72236d105f0f39988\n\nbuild:\n  noarch: generic\n  merge_build_host: true  # [win]\n  number: 2\n  rpaths:\n    - lib/R/lib/\n    - lib/\n\n# Suggests: future (>= 1.7.0), gtools (>= 3.5.0)\nrequirements:\n  host:\n    - r-base\n    - r-r.cache >=0.13.0\n    - r-r.methodss3 >=1.7.1\n    - r-r.oo >=1.21.0\n    - r-r.utils >=2.6.0\n    - r-digest >=0.6.15\n    - r-future.apply >=0.1.0\n\n  run:\n    - r-base\n    - r-r.cache >=0.13.0\n    - r-r.methodss3 >=1.7.1\n    - r-r.oo >=1.21.0\n    - r-r.utils >=2.6.0\n    - r-digest >=0.6.15\n    - r-future.apply >=0.1.0\n\ntest:\n  commands:\n    - $R -e \"library('R.filesets')\"           # [not win]\n    - \"\\\"%R%\\\" -e \\\"library('R.filesets')\\\"\"  # [win]\n\nabout:\n  home: https://github.com/HenrikBengtsson/R.filesets, http://www.aroma-project.org/\n  license: LGPL-2.1-or-later\n  summary: \"A file set refers to a set of files located in one or more directories on the file system.  This package provides classes and methods to locate, setup, subset, navigate and iterate such sets.  The API is designed such that these classes can be extended via inheritance to provide a richer API for special file\\\n    \\ formats.  Moreover, a specific name format is defined such that filenames and directories can be considered to have full names which consists of a name followed by comma-separated tags.  This adds additional flexibility to identify file sets and individual files.  NOTE: This package's API should be considered to be\\\n    \\ in an beta stage.  Its main purpose is currently to support the aroma.* packages, where it is one of the main core components; if you decide to build on top of this package, please contact the author first.\"\n\n  license_family: LGPL\n\n  license_file:\n    - {{ environ[\"PREFIX\"] }}/lib/R/share/licenses/LGPL-2.1\nextra:\n  recipe-maintainers:\n    - conda-forge/r\n    - dpryan79\n    - johanneskoester\n    - bgruening\n    - daler\n    - jdblischak\n    - cbrueffer\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "r-base",
+   "r-digest",
+   "r-future.apply",
+   "r-r.cache",
+   "r-r.methodss3",
+   "r-r.oo",
+   "r-r.utils"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "r-base",
+    "r-digest",
+    "r-future.apply",
+    "r-r.cache",
+    "r-r.methodss3",
+    "r-r.oo",
+    "r-r.utils"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "r-base",
+    "r-digest",
+    "r-future.apply",
+    "r-r.cache",
+    "r-r.methodss3",
+    "r-r.oo",
+    "r-r.utils"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.7.0\n",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "r-base",
+    "r-digest >=0.6.15",
+    "r-future.apply >=0.1.0",
+    "r-r.cache >=0.13.0",
+    "r-r.methodss3 >=1.7.1",
+    "r-r.oo >=1.21.0",
+    "r-r.utils >=2.6.0"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "r-base",
+    "r-digest >=0.6.15",
+    "r-future.apply >=0.1.0",
+    "r-r.cache >=0.13.0",
+    "r-r.methodss3 >=1.7.1",
+    "r-r.oo >=1.21.0",
+    "r-r.utils >=2.6.0"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":[
+  "https://cran.r-project.org/src/contrib/R.filesets_2.13.0.tar.gz",
+  "https://cran.r-project.org/src/contrib/Archive/R.filesets/R.filesets_2.13.0.tar.gz",
+  "https://cran.r-project.org/src/contrib/R.filesets_2.13.0.tar.gz",
+  "https://cran.r-project.org/src/contrib/Archive/R.filesets/R.filesets_2.13.0.tar.gz",
+  "https://cran.r-project.org/src/contrib/R.filesets_2.13.0.tar.gz",
+  "https://cran.r-project.org/src/contrib/Archive/R.filesets/R.filesets_2.13.0.tar.gz"
+ ],
+ "version":"2.13.0"
+}

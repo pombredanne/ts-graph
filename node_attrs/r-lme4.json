@@ -1,0 +1,410 @@
+{
+ "PRed":[
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.1_16"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/206131158.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Compiler",
+    "migrator_version":0
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/231695710.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/298658353.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"RBaseRebuild",
+    "migrator_version":0,
+    "name":"r-base-3.6.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/400181358.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.1_23"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/408808324.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"ArchRebuild",
+    "migrator_version":1,
+    "name":"aarch64 and ppc64le addition"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/412651407.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":2,
+    "migrator_version":0,
+    "name":"r400"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "bot":{
+   "automerge":true
+  },
+  "provider":{
+   "linux_aarch64":"default",
+   "linux_ppc64le":"azure",
+   "win":"azure"
+  }
+ },
+ "feedstock_name":"r-lme4",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"https://github.com/lme4/lme4/",
+   "license":"GPL (>= 2)",
+   "license_family":"GPL3",
+   "license_file":"/lib/R/share/licenses/GPL-2",
+   "summary":"Fit linear and generalized linear mixed-effects models. The models and their components are represented using S4 classes and methods.  The core computational algorithms are implemented using the 'Eigen' C++ library for numerical linear algebra and 'RcppEigen' \"glue\"."
+  },
+  "build":{
+   "merge_build_host":true,
+   "number":"1",
+   "rpaths":[
+    "lib/R/lib/",
+    "lib/",
+    "lib/R/lib/",
+    "lib/",
+    "lib/R/lib/",
+    "lib/"
+   ]
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "conda-forge/r",
+    "conda-forge/r",
+    "conda-forge/r"
+   ]
+  },
+  "package":{
+   "name":"r-lme4",
+   "version":"1.1_23"
+  },
+  "requirements":{
+   "build":[
+    "m2w64_c_compiler_stub",
+    "m2w64_cxx_compiler_stub",
+    "filesystem",
+    "make",
+    "sed",
+    "coreutils",
+    "zip",
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "make",
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "make"
+   ],
+   "host":[
+    "r-base",
+    "r-mass",
+    "r-statmod",
+    "r-rcpp >=0.10.5",
+    "r-rcppeigen",
+    "r-boot",
+    "r-lattice",
+    "r-minqa >=1.1.15",
+    "r-nlme >=3.1_123",
+    "r-nloptr >=1.0.4",
+    "r-base",
+    "r-mass",
+    "r-statmod",
+    "r-rcpp >=0.10.5",
+    "r-rcppeigen",
+    "r-boot",
+    "r-lattice",
+    "r-minqa >=1.1.15",
+    "r-nlme >=3.1_123",
+    "r-nloptr >=1.0.4",
+    "r-base",
+    "r-mass",
+    "r-statmod",
+    "r-rcpp >=0.10.5",
+    "r-rcppeigen",
+    "r-boot",
+    "r-lattice",
+    "r-minqa >=1.1.15",
+    "r-nlme >=3.1_123",
+    "r-nloptr >=1.0.4"
+   ],
+   "run":[
+    "r-base",
+    "gcc-libs",
+    "r-mass",
+    "r-statmod",
+    "r-rcpp >=0.10.5",
+    "r-rcppeigen",
+    "r-boot",
+    "r-lattice",
+    "r-minqa >=1.1.15",
+    "r-nlme >=3.1_123",
+    "r-nloptr >=1.0.4",
+    "r-base",
+    "r-mass",
+    "r-statmod",
+    "r-rcpp >=0.10.5",
+    "r-rcppeigen",
+    "r-boot",
+    "r-lattice",
+    "r-minqa >=1.1.15",
+    "r-nlme >=3.1_123",
+    "r-nloptr >=1.0.4",
+    "r-base",
+    "r-mass",
+    "r-statmod",
+    "r-rcpp >=0.10.5",
+    "r-rcppeigen",
+    "r-boot",
+    "r-lattice",
+    "r-minqa >=1.1.15",
+    "r-nlme >=3.1_123",
+    "r-nloptr >=1.0.4"
+   ]
+  },
+  "source":{
+   "sha256":"99d542b1f78fae33a64f1b8eec33b7a4532a8d82d2ac47bdb2838248f14c0262",
+   "url":[
+    "https://cran.r-project.org/src/contrib/lme4_1.1-23.tar.gz",
+    "https://cran.r-project.org/src/contrib/Archive/lme4/lme4_1.1-23.tar.gz",
+    "https://cran.r-project.org/src/contrib/lme4_1.1-23.tar.gz",
+    "https://cran.r-project.org/src/contrib/Archive/lme4/lme4_1.1-23.tar.gz",
+    "https://cran.r-project.org/src/contrib/lme4_1.1-23.tar.gz",
+    "https://cran.r-project.org/src/contrib/Archive/lme4/lme4_1.1-23.tar.gz"
+   ]
+  },
+  "test":{
+   "commands":[
+    "\"%R%\" -e \"library('lme4')\"",
+    "$R -e \"library('lme4')\"",
+    "$R -e \"library('lme4')\""
+   ]
+  }
+ },
+ "name":"r-lme4",
+ "new_version":"1.1_23",
+ "new_version_attempts":{
+  "1.1_23":1
+ },
+ "pinning_version":"2020.05.03.17.40.55",
+ "raw_meta_yaml":"{% set version = \"1.1-23\" %}\n{% set posix = 'm2-' if win else '' %}\n{% set native = 'm2w64-' if win else '' %}\n\npackage:\n  name: r-lme4\n  version: {{ version|replace(\"-\", \"_\") }}\n\nsource:\n  url:\n    - {{ cran_mirror }}/src/contrib/lme4_{{ version }}.tar.gz\n    - {{ cran_mirror }}/src/contrib/Archive/lme4/lme4_{{ version }}.tar.gz\n  sha256: 99d542b1f78fae33a64f1b8eec33b7a4532a8d82d2ac47bdb2838248f14c0262\n\nbuild:\n  merge_build_host: true  # [win]\n  number: 1\n  rpaths:\n    - lib/R/lib/\n    - lib/\n\nrequirements:\n  build:\n    - {{ compiler('c') }}        # [not win]\n    - {{ compiler('cxx') }}      # [not win]\n    - {{ compiler('m2w64_c') }}        # [win]\n    - {{ compiler('m2w64_cxx') }}        # [win]\n    - {{ posix }}filesystem        # [win]\n    - {{ posix }}make\n    - {{ posix }}sed               # [win]\n    - {{ posix }}coreutils         # [win]\n    - {{ posix }}zip               # [win]\n  host:\n    - r-base\n    - r-mass\n    - r-statmod\n    - r-rcpp >=0.10.5\n    - r-rcppeigen\n    - r-boot\n    - r-lattice\n    - r-minqa >=1.1.15\n    - r-nlme >=3.1_123\n    - r-nloptr >=1.0.4\n  run:\n    - r-base\n    - {{ native }}gcc-libs         # [win]\n    - r-mass\n    - r-statmod\n    - r-rcpp >=0.10.5\n    - r-rcppeigen\n    - r-boot\n    - r-lattice\n    - r-minqa >=1.1.15\n    - r-nlme >=3.1_123\n    - r-nloptr >=1.0.4\n\ntest:\n  commands:\n    - $R -e \"library('lme4')\"           # [not win]\n    - \"\\\"%R%\\\" -e \\\"library('lme4')\\\"\"  # [win]\n\nabout:\n  home: https://github.com/lme4/lme4/\n  license: GPL (>= 2)\n  summary: Fit linear and generalized linear mixed-effects models. The models and their components are represented using S4 classes and methods.  The core computational\n    algorithms are implemented using the 'Eigen' C++ library for numerical linear algebra and 'RcppEigen' \"glue\".\n  license_family: GPL3\n  license_file: {{ environ[\"PREFIX\"] }}/lib/R/share/licenses/GPL-2\n\nextra:\n  recipe-maintainers:\n    - conda-forge/r\n\n# Package: lme4\n# Version: 1.1-21\n# Title: Linear Mixed-Effects Models using 'Eigen' and S4\n# Authors@R: c( person(\"Douglas\",\"Bates\", role=\"aut\", comment=c(ORCID=\"0000-0001-8316-9503\")), person(\"Martin\",\"Maechler\", role=\"aut\", comment=c(ORCID=\"0000-0002-8685-9910\")), person(\"Ben\",\"Bolker\",email=\"bbolker+lme4@gmail.com\", role=c(\"aut\",\"cre\"), comment=c(ORCID=\"0000-0002-2127-0443\")), person(\"Steven\",\"Walker\",role=\"aut\", comment=c(ORCID=\"0000-0002-4394-9078\")), person(\"Rune Haubo Bojesen\",\"Christensen\", role=\"ctb\", comment=c(ORCID=\"0000-0002-4494-3399\")), person(\"Henrik\",\"Singmann\", role=\"ctb\", comment=c(ORCID=\"0000-0002-4842-3657\")), person(\"Bin\", \"Dai\", role=\"ctb\"), person(\"Fabian\", \"Scheipl\", role=\"ctb\", comment=c(ORCID=\"0000-0001-8172-3603\")), person(\"Gabor\", \"Grothendieck\", role=\"ctb\"), person(\"Peter\", \"Green\", role=\"ctb\", comment=c(ORCID=\"0000-0002-0238-9852\")), person(\"John\", \"Fox\", role=\"ctb\") )\n# Contact: LME4 Authors <lme4-authors@lists.r-forge.r-project.org>\n# Description: Fit linear and generalized linear mixed-effects models. The models and their components are represented using S4 classes and methods.  The core computational algorithms are implemented using the 'Eigen' C++ library for numerical linear algebra and 'RcppEigen' \"glue\".\n# Depends: R (>= 3.2.0), Matrix (>= 1.2-1), methods, stats\n# LinkingTo: Rcpp (>= 0.10.5), RcppEigen\n# Imports: graphics, grid, splines, utils, parallel, MASS, lattice, boot, nlme (>= 3.1-123), minqa (>= 1.1.15), nloptr (>= 1.0.4)\n# Suggests: knitr, rmarkdown, PKPDmodels, MEMSS, testthat (>= 0.8.1), ggplot2, mlmRev, optimx (>= 2013.8.6), gamm4, pbkrtest, HSAUR2, numDeriv, car, dfoptim\n# VignetteBuilder: knitr\n# LazyData: yes\n# License: GPL (>= 2)\n# URL: https://github.com/lme4/lme4/\n# BugReports: https://github.com/lme4/lme4/issues\n# Encoding: UTF-8\n# NeedsCompilation: yes\n# Packaged: 2019-03-05 17:34:33 UTC; bolker\n# Author: Douglas Bates [aut] (<https://orcid.org/0000-0001-8316-9503>), Martin Maechler [aut] (<https://orcid.org/0000-0002-8685-9910>), Ben Bolker [aut, cre] (<https://orcid.org/0000-0002-2127-0443>), Steven Walker [aut] (<https://orcid.org/0000-0002-4394-9078>), Rune Haubo Bojesen Christensen [ctb] (<https://orcid.org/0000-0002-4494-3399>), Henrik Singmann [ctb] (<https://orcid.org/0000-0002-4842-3657>), Bin Dai [ctb], Fabian Scheipl [ctb] (<https://orcid.org/0000-0001-8172-3603>), Gabor Grothendieck [ctb], Peter Green [ctb] (<https://orcid.org/0000-0002-0238-9852>), John Fox [ctb]\n# Maintainer: Ben Bolker <bbolker+lme4@gmail.com>\n# Repository: CRAN\n# Date/Publication: 2019-03-05 22:40:10 UTC\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "c_compiler_stub",
+   "coreutils",
+   "cxx_compiler_stub",
+   "filesystem",
+   "gcc-libs",
+   "m2w64_c_compiler_stub",
+   "m2w64_cxx_compiler_stub",
+   "make",
+   "r-base",
+   "r-boot",
+   "r-lattice",
+   "r-mass",
+   "r-minqa",
+   "r-nlme",
+   "r-nloptr",
+   "r-rcpp",
+   "r-rcppeigen",
+   "r-statmod",
+   "sed",
+   "zip"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "coreutils",
+    "cxx_compiler_stub",
+    "filesystem",
+    "m2w64_c_compiler_stub",
+    "m2w64_cxx_compiler_stub",
+    "make",
+    "sed",
+    "zip"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "r-base",
+    "r-boot",
+    "r-lattice",
+    "r-mass",
+    "r-minqa",
+    "r-nlme",
+    "r-nloptr",
+    "r-rcpp",
+    "r-rcppeigen",
+    "r-statmod"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "gcc-libs",
+    "r-base",
+    "r-boot",
+    "r-lattice",
+    "r-mass",
+    "r-minqa",
+    "r-nlme",
+    "r-nloptr",
+    "r-rcpp",
+    "r-rcppeigen",
+    "r-statmod"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.7.0\n",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "coreutils",
+    "cxx_compiler_stub",
+    "filesystem",
+    "m2w64_c_compiler_stub",
+    "m2w64_cxx_compiler_stub",
+    "make",
+    "sed",
+    "zip"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "r-base",
+    "r-boot",
+    "r-lattice",
+    "r-mass",
+    "r-minqa >=1.1.15",
+    "r-nlme >=3.1_123",
+    "r-nloptr >=1.0.4",
+    "r-rcpp >=0.10.5",
+    "r-rcppeigen",
+    "r-statmod"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "gcc-libs",
+    "r-base",
+    "r-boot",
+    "r-lattice",
+    "r-mass",
+    "r-minqa >=1.1.15",
+    "r-nlme >=3.1_123",
+    "r-nloptr >=1.0.4",
+    "r-rcpp >=0.10.5",
+    "r-rcppeigen",
+    "r-statmod"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":[
+  "https://cran.r-project.org/src/contrib/lme4_1.1-21.tar.gz",
+  "https://cran.r-project.org/src/contrib/Archive/lme4/lme4_1.1-21.tar.gz",
+  "https://cran.r-project.org/src/contrib/lme4_1.1-21.tar.gz",
+  "https://cran.r-project.org/src/contrib/Archive/lme4/lme4_1.1-21.tar.gz",
+  "https://cran.r-project.org/src/contrib/lme4_1.1-21.tar.gz",
+  "https://cran.r-project.org/src/contrib/Archive/lme4/lme4_1.1-21.tar.gz"
+ ],
+ "version":"1.1_23"
+}

@@ -1,0 +1,139 @@
+{
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"jupyterlab-transient-display-data",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "dev_url":"https://github.com/vatlab/transient-display-data",
+   "home":"https://github.com/vatlab/transient-display-data",
+   "license":"BSD-3-Clause",
+   "license_family":"BSD",
+   "license_file":"LICENSE",
+   "summary":"A JupyterLab extension for the rendering transient-display-data messages"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "BoPeng",
+    "BoPeng",
+    "BoPeng"
+   ]
+  },
+  "package":{
+   "name":"jupyterlab-transient-display-data",
+   "version":"0.3.0"
+  },
+  "requirements":{
+   "build":[
+    "nodejs",
+    "nodejs",
+    "nodejs"
+   ],
+   "host":[
+    "jupyterlab",
+    "python >=3.5",
+    "jupyterlab",
+    "python >=3.5",
+    "jupyterlab",
+    "python >=3.5"
+   ],
+   "run":[
+    "jupyterlab",
+    "nodejs",
+    "python >=3.5",
+    "jupyterlab",
+    "nodejs",
+    "python >=3.5",
+    "jupyterlab",
+    "nodejs",
+    "python >=3.5"
+   ]
+  },
+  "source":{
+   "sha256":"3100e31e265a1ba169ec693058f4b00980176343c3090a959b139e865ab517a8",
+   "url":"https://github.com/vatlab/transient-display-data/archive/0.3.0.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "jupyter labextension list | findstr transient-display-data",
+    "jupyter lab build",
+    "jupyter labextension list | grep transient-display-data",
+    "jupyter lab build",
+    "jupyter labextension list | grep transient-display-data",
+    "jupyter lab build"
+   ]
+  }
+ },
+ "name":"jupyterlab-transient-display-data",
+ "new_version":"0.3.0",
+ "raw_meta_yaml":"{% set name = \"jupyterlab-transient-display-data\" %}\n{% set version = \"0.3.0\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n\n  url: https://github.com/vatlab/transient-display-data/archive/{{ version }}.tar.gz\n  sha256: 3100e31e265a1ba169ec693058f4b00980176343c3090a959b139e865ab517a8\n\nbuild:\n  number: 0\n  noarch: python\n\nrequirements:\n  build:\n    - nodejs\n  host:\n    - jupyterlab\n    - python >=3.5\n  run:\n    - jupyterlab\n    - nodejs\n    - python >=3.5\n\ntest:\n  commands:\n    - jupyter labextension list | grep transient-display-data  # [unix]\n    - jupyter labextension list | findstr transient-display-data  # [win]\n    - jupyter lab build\n\nabout:\n  home: https://github.com/vatlab/transient-display-data\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: LICENSE\n  summary: A JupyterLab extension for the rendering transient-display-data messages\n  dev_url: https://github.com/vatlab/transient-display-data\n\nextra:\n  recipe-maintainers:\n    - BoPeng\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "jupyterlab",
+   "nodejs",
+   "python"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "nodejs"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "jupyterlab",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "jupyterlab",
+    "nodejs",
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "nodejs"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "jupyterlab",
+    "python >=3.5"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "jupyterlab",
+    "nodejs",
+    "python >=3.5"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://github.com/vatlab/transient-display-data/archive/0.3.0.tar.gz",
+ "version":"0.3.0"
+}

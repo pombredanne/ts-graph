@@ -1,0 +1,216 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/321845497.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.6.5"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"ldas-tools-utilities",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "dev_url":"https://git.ligo.org/ldastools/LDAS_Tools",
+   "home":"https://wiki.ligo.org/Computing/LDASTools",
+   "license":"GPL-2.0-or-later",
+   "license_family":"GPL",
+   "license_file":"COPYING",
+   "summary":"LDAS tools utility programs"
+  },
+  "build":{
+   "number":"0",
+   "skip":true
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "duncanmmacleod",
+    "emaros",
+    "duncanmmacleod",
+    "emaros",
+    "duncanmmacleod",
+    "emaros"
+   ]
+  },
+  "package":{
+   "name":"ldas-tools-utilities",
+   "version":"2.6.5"
+  },
+  "requirements":{
+   "build":[
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "cmake >=3.6",
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "cmake >=3.6",
+    "pkg-config",
+    "make",
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "cmake >=3.6",
+    "pkg-config",
+    "make"
+   ],
+   "host":[
+    "ldas-tools-cmake >=1.0.8",
+    "ldas-tools-al",
+    "ldas-tools-diskcacheapi 2.7.0",
+    "ldas-tools-frameapi 2.6.4",
+    "ldas-tools-framecpp 2.7.0",
+    "ldas-tools-ldasgen 2.7.0",
+    "ldas-tools-cmake >=1.0.8",
+    "ldas-tools-al",
+    "ldas-tools-diskcacheapi 2.7.0",
+    "ldas-tools-frameapi 2.6.4",
+    "ldas-tools-framecpp 2.7.0",
+    "ldas-tools-ldasgen 2.7.0",
+    "ldas-tools-cmake >=1.0.8",
+    "ldas-tools-al",
+    "ldas-tools-diskcacheapi 2.7.0",
+    "ldas-tools-frameapi 2.6.4",
+    "ldas-tools-framecpp 2.7.0",
+    "ldas-tools-ldasgen 2.7.0"
+   ],
+   "run":[
+    "ldas-tools-al",
+    "ldas-tools-diskcacheapi >=2.7.0",
+    "ldas-tools-frameapi >=2.6.4",
+    "ldas-tools-framecpp >=2.7.0",
+    "ldas-tools-ldasgen >=2.7.0",
+    "ldas-tools-al",
+    "ldas-tools-diskcacheapi >=2.7.0",
+    "ldas-tools-frameapi >=2.6.4",
+    "ldas-tools-framecpp >=2.7.0",
+    "ldas-tools-ldasgen >=2.7.0",
+    "ldas-tools-al",
+    "ldas-tools-diskcacheapi >=2.7.0",
+    "ldas-tools-frameapi >=2.6.4",
+    "ldas-tools-framecpp >=2.7.0",
+    "ldas-tools-ldasgen >=2.7.0"
+   ]
+  },
+  "source":{
+   "sha256":"64eee9f92a111fdafdae1c248e747d1f1a11cc7e69656322f620d530351d57b5",
+   "url":"http://software.ligo.org/lscsoft/source/ldas-tools-utilities-2.6.5.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "ldas_create_rds --help",
+    "ldas_create_rds --help",
+    "ldas_create_rds --help"
+   ]
+  }
+ },
+ "name":"ldas-tools-utilities",
+ "new_version":false,
+ "pinning_version":"2019.09.25",
+ "raw_meta_yaml":"{% set name = \"ldas-tools-utilities\" %}\n{% set version = \"2.6.5\" %}\n\n# dependencies\n{% set ldas_tools_cmake_version = \"1.0.8\" %}\n{% set ldas_tools_diskcacheapi_version = \"2.7.0\" %}\n{% set ldas_tools_frameapi_version = \"2.6.4\" %}\n{% set ldas_tools_framecpp_version = \"2.7.0\" %}\n{% set ldas_tools_ldasgen_version = \"2.7.0\" %}\n\npackage:\n  name: {{ name }}\n  version: {{ version }}\n\nsource:\n  url: http://software.ligo.org/lscsoft/source/{{ name }}-{{ version }}.tar.gz\n  sha256: 64eee9f92a111fdafdae1c248e747d1f1a11cc7e69656322f620d530351d57b5\n\nbuild:\n  number: 0\n  skip: true  # [win]\n\nrequirements:\n  build:\n    - {{ compiler('c') }}\n    - {{ compiler('cxx') }}\n    - cmake >=3.6\n    - pkg-config  # [unix]\n    - make  # [unix]\n  host:\n    - ldas-tools-cmake >={{ ldas_tools_cmake_version }}\n    - ldas-tools-al\n    - ldas-tools-diskcacheapi {{ ldas_tools_diskcacheapi_version }}\n    - ldas-tools-frameapi {{ ldas_tools_frameapi_version }}\n    - ldas-tools-framecpp {{ ldas_tools_framecpp_version }}\n    - ldas-tools-ldasgen {{ ldas_tools_ldasgen_version }}\n  run:\n    - ldas-tools-al\n    - ldas-tools-diskcacheapi >={{ ldas_tools_diskcacheapi_version }}\n    - ldas-tools-frameapi >={{ ldas_tools_frameapi_version }}\n    - ldas-tools-framecpp >={{ ldas_tools_framecpp_version }}\n    - ldas-tools-ldasgen >={{ ldas_tools_ldasgen_version }}\n\ntest:\n  commands:\n    - ldas_create_rds --help\n\nabout:\n  home: https://wiki.ligo.org/Computing/LDASTools\n  dev_url: https://git.ligo.org/ldastools/LDAS_Tools\n  license: GPL-2.0-or-later\n  license_family: GPL\n  license_file: COPYING\n  summary: LDAS tools utility programs\n\nextra:\n  recipe-maintainers:\n    - duncanmmacleod\n    - emaros\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "c_compiler_stub",
+   "cmake",
+   "cxx_compiler_stub",
+   "ldas-tools-al",
+   "ldas-tools-cmake",
+   "ldas-tools-diskcacheapi",
+   "ldas-tools-frameapi",
+   "ldas-tools-framecpp",
+   "ldas-tools-ldasgen",
+   "make",
+   "pkg-config"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "cmake",
+    "cxx_compiler_stub",
+    "make",
+    "pkg-config"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "ldas-tools-al",
+    "ldas-tools-cmake",
+    "ldas-tools-diskcacheapi",
+    "ldas-tools-frameapi",
+    "ldas-tools-framecpp",
+    "ldas-tools-ldasgen"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "ldas-tools-al",
+    "ldas-tools-diskcacheapi",
+    "ldas-tools-frameapi",
+    "ldas-tools-framecpp",
+    "ldas-tools-ldasgen"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.4.8",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "cmake >=3.6",
+    "cxx_compiler_stub",
+    "make",
+    "pkg-config"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "ldas-tools-al",
+    "ldas-tools-cmake >=1.0.8",
+    "ldas-tools-diskcacheapi 2.7.0",
+    "ldas-tools-frameapi 2.6.4",
+    "ldas-tools-framecpp 2.7.0",
+    "ldas-tools-ldasgen 2.7.0"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "ldas-tools-al",
+    "ldas-tools-diskcacheapi >=2.7.0",
+    "ldas-tools-frameapi >=2.6.4",
+    "ldas-tools-framecpp >=2.7.0",
+    "ldas-tools-ldasgen >=2.7.0"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"http://software.ligo.org/lscsoft/source/ldas-tools-utilities-2.6.4.tar.gz",
+ "version":"2.6.5"
+}

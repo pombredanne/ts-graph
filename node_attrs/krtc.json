@@ -1,0 +1,6 @@
+{
+ "bad":"Upstream: Error getting upstream version",
+ "feedstock_name":"krtc",
+ "new_version":false,
+ "raw_meta_yaml":"{% set name = \"krtc\" %}\n{% set version = \"0.1.4\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://github.com/slaclab/{{ name }}/archive/v{{ version }}.tar.gz\n  sha256: b715b07881316842c359d2377222c476f5e24d77b194b7eeaeb6e741a1204d95\n\nbuild:\n  number: 0\n  script: \"{{ PYTHON }} -m pip install . --no-deps -vv\"\n  noarch: python\n\nrequirements:\n  host:\n    - python\n    - pip\n  run:\n    - python\n    - pip\n    - pykerberos\n\ntest:\n  imports:\n    - krtc\n\nabout:\n  home: https://github.com/slaclab/krtc\n  dev_url: https://github.com/slaclab/krtc\n  summary: 'A small utility for using Kerberos authentication with requests'\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE\n\nextra:\n  recipe-maintainers:\n    - klauer\n    - hhslepicka\n"
+}

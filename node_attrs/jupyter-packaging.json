@@ -1,0 +1,130 @@
+{
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"jupyter-packaging",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"Jupyter Packaging Utilities\n",
+   "dev_url":"https://github.com/jupyter/jupyter-packaging",
+   "home":"https://github.com/jupyter/jupyter-packaging",
+   "license":"BSD-3-Clause",
+   "license_family":"BSD",
+   "license_file":"LICENSE",
+   "summary":"Jupyter Packaging Utilities"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "blink1073",
+    "vidartf",
+    "timkpaine",
+    "blink1073",
+    "vidartf",
+    "timkpaine",
+    "blink1073",
+    "vidartf",
+    "timkpaine"
+   ]
+  },
+  "package":{
+   "name":"jupyter-packaging",
+   "version":"0.4.0"
+  },
+  "requirements":{
+   "host":[
+    "python >=3.5",
+    "pip",
+    "python >=3.5",
+    "pip",
+    "python >=3.5",
+    "pip"
+   ],
+   "run":[
+    "python >=3.5",
+    "setuptools",
+    "python >=3.5",
+    "setuptools",
+    "python >=3.5",
+    "setuptools"
+   ]
+  },
+  "source":{
+   "sha256":"d89134d2df88c30098bce0f8d8fb07b988ef0f616775dbd4b82dac9562b5cae6",
+   "url":"https://pypi.io/packages/source/j/jupyter-packaging/jupyter-packaging-0.4.0.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "jupyter_packaging",
+    "jupyter_packaging",
+    "jupyter_packaging"
+   ]
+  }
+ },
+ "name":"jupyter-packaging",
+ "new_version":"0.4.0",
+ "raw_meta_yaml":"{% set name = \"jupyter-packaging\" %}\n{% set version = \"0.4.0\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: d89134d2df88c30098bce0f8d8fb07b988ef0f616775dbd4b82dac9562b5cae6\n\nbuild:\n  number: 0\n  noarch: python\n  script: \"{{ PYTHON }} -m pip install . -vv\"\n\nrequirements:\n  host:\n    - python >=3.5\n    - pip\n  run:\n    - python >=3.5\n    - setuptools\n\ntest:\n  imports:\n    - jupyter_packaging\n\nabout:\n  home: https://github.com/jupyter/jupyter-packaging\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: LICENSE\n  summary: 'Jupyter Packaging Utilities'\n\n  description: |\n    Jupyter Packaging Utilities\n  dev_url: https://github.com/jupyter/jupyter-packaging\n\nextra:\n  recipe-maintainers:\n    - blink1073\n    - vidartf\n    - timkpaine\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "pip",
+   "python",
+   "setuptools"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "python",
+    "setuptools"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3.5"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "python >=3.5",
+    "setuptools"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/j/jupyter-packaging/jupyter-packaging-0.4.0.tar.gz",
+ "version":"0.4.0"
+}

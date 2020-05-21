@@ -1,0 +1,149 @@
+{
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"ndcsv",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"https://github.com/crusaderky/ndcsv",
+   "license":"Apache-2.0",
+   "license_family":"Apache",
+   "license_file":"LICENSE",
+   "summary":"N-Dimensional CSV files for xarray"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":"python -m pip install --no-deps --ignore-installed ."
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "crusaderky",
+    "crusaderky",
+    "crusaderky"
+   ]
+  },
+  "package":{
+   "name":"ndcsv",
+   "version":"1.0.0"
+  },
+  "requirements":{
+   "build":[
+    "python >=3.6",
+    "pip",
+    "python >=3.6",
+    "pip",
+    "python >=3.6",
+    "pip"
+   ],
+   "run":[
+    "python >=3.6",
+    "numpy >=1.13",
+    "pandas >=0.21",
+    "xarray >=0.10.9",
+    "pshell >=1.0",
+    "python >=3.6",
+    "numpy >=1.13",
+    "pandas >=0.21",
+    "xarray >=0.10.9",
+    "pshell >=1.0",
+    "python >=3.6",
+    "numpy >=1.13",
+    "pandas >=0.21",
+    "xarray >=0.10.9",
+    "pshell >=1.0"
+   ]
+  },
+  "source":{
+   "sha256":"fd5e49018a4d4edb312ce4895d99289177e652e9701e2bdb73f67c82dfc3134e",
+   "url":"https://pypi.io/packages/source/n/ndcsv/ndcsv-1.0.0.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "ndcsv",
+    "ndcsv",
+    "ndcsv"
+   ],
+   "requires":[
+    "pytest >=3.6",
+    "pytest >=3.6",
+    "pytest >=3.6"
+   ]
+  }
+ },
+ "name":"ndcsv",
+ "new_version":"1.0.0",
+ "raw_meta_yaml":"{% set version = \"1.0.0\" %}\n\npackage:\n  name: ndcsv\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/n/ndcsv/ndcsv-{{ version }}.tar.gz\n  sha256: fd5e49018a4d4edb312ce4895d99289177e652e9701e2bdb73f67c82dfc3134e\n\nbuild:\n  noarch: python\n  number: 0\n  script: python -m pip install --no-deps --ignore-installed .\n\nrequirements:\n  build:\n    - python >=3.6\n    - pip\n  run:\n    - python >=3.6\n    - numpy >=1.13\n    - pandas >=0.21\n    - xarray >=0.10.9\n    - pshell >=1.0\n\ntest:\n  imports:\n    - ndcsv\n  requires:\n    - pytest >=3.6\n\nabout:\n  home: https://github.com/crusaderky/ndcsv\n  license: Apache-2.0\n  license_family: Apache\n  license_file: LICENSE\n  summary: N-Dimensional CSV files for xarray\n\nextra:\n  recipe-maintainers:\n    - crusaderky\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "numpy",
+   "pandas",
+   "pip",
+   "pshell",
+   "python",
+   "xarray"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "numpy",
+    "pandas",
+    "pshell",
+    "python",
+    "xarray"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "pytest"
+   ]
+  }
+ },
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3.6"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "numpy >=1.13",
+    "pandas >=0.21",
+    "pshell >=1.0",
+    "python >=3.6",
+    "xarray >=0.10.9"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "pytest >=3.6"
+   ]
+  }
+ },
+ "url":"https://pypi.io/packages/source/n/ndcsv/ndcsv-1.0.0.tar.gz",
+ "version":"1.0.0"
+}

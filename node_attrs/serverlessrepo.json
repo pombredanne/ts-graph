@@ -1,0 +1,145 @@
+{
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"serverlessrepo",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "dev_url":"https://github.com/awslabs/aws-serverlessrepo-python",
+   "doc_url":"https://aws.amazon.com/serverless/serverlessrepo/",
+   "home":"https://github.com/awslabs/aws-serverlessrepo-python",
+   "license":"Apache-2.0",
+   "license_family":"APACHE",
+   "license_file":"LICENSE",
+   "summary":"A Python library with convenience helpers for working with the AWS Serverless Application Repository."
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "rluria14",
+    "oblute",
+    "ndmaxar",
+    "rluria14",
+    "oblute",
+    "ndmaxar",
+    "rluria14",
+    "oblute",
+    "ndmaxar"
+   ]
+  },
+  "package":{
+   "name":"serverlessrepo",
+   "version":"0.1.10"
+  },
+  "requirements":{
+   "host":[
+    "pip",
+    "python",
+    "pip",
+    "python",
+    "pip",
+    "python"
+   ],
+   "run":[
+    "boto3 >=1.9,<2",
+    "python",
+    "pyyaml >=5.1,<6",
+    "six >=1.11,<2",
+    "boto3 >=1.9,<2",
+    "python",
+    "pyyaml >=5.1,<6",
+    "six >=1.11,<2",
+    "boto3 >=1.9,<2",
+    "python",
+    "pyyaml >=5.1,<6",
+    "six >=1.11,<2"
+   ]
+  },
+  "source":{
+   "sha256":"671f48038123f121437b717ed51f253a55775590f00fbab6fbc6a01f8d05c017",
+   "url":"https://pypi.io/packages/source/s/serverlessrepo/serverlessrepo-0.1.10.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "serverlessrepo",
+    "tests.unit",
+    "serverlessrepo",
+    "tests.unit",
+    "serverlessrepo",
+    "tests.unit"
+   ]
+  }
+ },
+ "name":"serverlessrepo",
+ "new_version":"0.1.10",
+ "raw_meta_yaml":"{% set name = \"serverlessrepo\" %}\n{% set version = \"0.1.10\" %}\n\npackage:\n  name: \"{{ name|lower }}\"\n  version: \"{{ version }}\"\n\nsource:\n  url: \"https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\"\n  sha256: 671f48038123f121437b717ed51f253a55775590f00fbab6fbc6a01f8d05c017\n\nbuild:\n  noarch: python\n  number: 0\n  script: \"{{ PYTHON }} -m pip install . -vv\"\n\nrequirements:\n  host:\n    - pip\n    - python\n  run:\n    - boto3 >=1.9,<2\n    - python\n    - pyyaml >=5.1,<6\n    - six >=1.11,<2\n\ntest:\n  imports:\n    - serverlessrepo\n    - tests.unit\n\nabout:\n  home: \"https://github.com/awslabs/aws-serverlessrepo-python\"\n  license: Apache-2.0\n  license_family: APACHE\n  license_file: LICENSE\n  summary: \"A Python library with convenience helpers for working with the AWS Serverless Application Repository.\"\n  doc_url: \"https://aws.amazon.com/serverless/serverlessrepo/\"\n  dev_url: \"https://github.com/awslabs/aws-serverlessrepo-python\"\n\nextra:\n  recipe-maintainers:\n    - rluria14\n    - oblute\n    - ndmaxar\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "boto3",
+   "pip",
+   "python",
+   "pyyaml",
+   "six"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "boto3",
+    "python",
+    "pyyaml",
+    "six"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "boto3 >=1.9,<2",
+    "python",
+    "pyyaml >=5.1,<6",
+    "six >=1.11,<2"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/s/serverlessrepo/serverlessrepo-0.1.10.tar.gz",
+ "version":"0.1.10"
+}

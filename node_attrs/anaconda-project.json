@@ -1,0 +1,210 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/199979568.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Noarch",
+    "migrator_version":0
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/332246073.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.8.4"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"anaconda-project",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"By adding an anaconda-project.yml to a project directory, a single\nanaconda-project runcommand will be able to set up all dependencies\nand then launch the project.\n",
+   "dev_url":"https://github.com/Anaconda-Platform/anaconda-project",
+   "doc_url":"http://anaconda-project.readthedocs.io",
+   "home":"https://github.com/Anaconda-Platform/anaconda-project",
+   "license":"BSD 3-Clause",
+   "license_family":"BSD",
+   "license_file":"LICENSE.txt",
+   "summary":"Tool for encapsulating, running, and reproducing data science projects"
+  },
+  "build":{
+   "entry_points":[
+    "anaconda-project = anaconda_project.cli:main",
+    "anaconda-project = anaconda_project.cli:main",
+    "anaconda-project = anaconda_project.cli:main"
+   ],
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "fpliger",
+    "goanpeca",
+    "mingwandroid",
+    "fpliger",
+    "goanpeca",
+    "mingwandroid",
+    "fpliger",
+    "goanpeca",
+    "mingwandroid"
+   ]
+  },
+  "package":{
+   "name":"anaconda-project",
+   "version":"0.8.3"
+  },
+  "requirements":{
+   "host":[
+    "pip",
+    "python",
+    "setuptools",
+    "pip",
+    "python",
+    "setuptools",
+    "pip",
+    "python",
+    "setuptools"
+   ],
+   "run":[
+    "anaconda-client",
+    "python",
+    "requests",
+    "ruamel_yaml",
+    "tornado >=4.2",
+    "anaconda-client",
+    "python",
+    "requests",
+    "ruamel_yaml",
+    "tornado >=4.2",
+    "anaconda-client",
+    "python",
+    "requests",
+    "ruamel_yaml",
+    "tornado >=4.2"
+   ]
+  },
+  "source":{
+   "sha256":"71614e34f524e11bceab96382f2f98823118fb53c502f3cfd6bb40203de932cf",
+   "url":"https://github.com/Anaconda-Platform/anaconda-project/archive/v0.8.3.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "echo \"First of test commands\"",
+    "anaconda-project --help",
+    "anaconda-project --version",
+    "echo \"Last of test commands\"",
+    "echo \"First of test commands\"",
+    "anaconda-project --help",
+    "anaconda-project --version",
+    "echo \"Last of test commands\"",
+    "echo \"First of test commands\"",
+    "anaconda-project --help",
+    "anaconda-project --version",
+    "echo \"Last of test commands\""
+   ],
+   "imports":[
+    "anaconda_project",
+    "anaconda_project",
+    "anaconda_project"
+   ]
+  }
+ },
+ "name":"anaconda-project",
+ "new_version":"0.8.4",
+ "pinning_version":"2019.10.22",
+ "raw_meta_yaml":"{% set version = \"0.8.3\" %}\n\npackage:\n  name: anaconda-project\n  version: {{ version }}\n\nsource:\n  url: https://github.com/Anaconda-Platform/anaconda-project/archive/v{{ version }}.tar.gz\n  sha256: 71614e34f524e11bceab96382f2f98823118fb53c502f3cfd6bb40203de932cf\n\nbuild:\n  noarch: python\n  number: 0\n  script: \"{{ PYTHON }} -m pip install . -vv\"\n  entry_points:\n    - anaconda-project = anaconda_project.cli:main\n\nrequirements:\n  host:\n    - pip\n    - python\n    - setuptools\n\n  run:\n    - anaconda-client\n    - python\n    - requests\n    - ruamel_yaml\n    - tornado >=4.2\n\ntest:\n  imports:\n    - anaconda_project\n\n  commands:\n    - echo \"First of test commands\"\n    - anaconda-project --help\n    - anaconda-project --version\n    - echo \"Last of test commands\"\n\nabout:\n  home: https://github.com/Anaconda-Platform/anaconda-project\n  license: BSD 3-Clause\n  license_family: BSD\n  license_file: LICENSE.txt\n  summary: Tool for encapsulating, running, and reproducing data science projects\n  description: |\n    By adding an anaconda-project.yml to a project directory, a single \n    anaconda-project runcommand will be able to set up all dependencies \n    and then launch the project.\n  doc_url: http://anaconda-project.readthedocs.io\n  dev_url: https://github.com/Anaconda-Platform/anaconda-project\n\nextra:\n  recipe-maintainers:\n    - fpliger\n    - goanpeca\n    - mingwandroid\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "anaconda-client",
+   "pip",
+   "python",
+   "requests",
+   "ruamel_yaml",
+   "setuptools",
+   "tornado"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python",
+    "setuptools"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "anaconda-client",
+    "python",
+    "requests",
+    "ruamel_yaml",
+    "tornado"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.6.0",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python",
+    "setuptools"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "anaconda-client",
+    "python",
+    "requests",
+    "ruamel_yaml",
+    "tornado >=4.2"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://github.com/Anaconda-Platform/anaconda-project/archive/v0.8.3.tar.gz",
+ "version":"0.8.3"
+}

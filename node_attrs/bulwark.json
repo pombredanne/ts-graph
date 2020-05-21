@@ -1,0 +1,187 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/332624303.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.5.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/339656985.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.5.3"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"bulwark",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"Bulwark is a package for convenient property-based testing of pandas\ndataframes, supported for Python 3.5+.\n",
+   "dev_url":"https://github.com/zaxr/bulwark",
+   "doc_url":"https://bulwark.readthedocs.io/",
+   "home":"https://github.com/zaxr/bulwark",
+   "license":"GPL-3.0",
+   "license_family":"GPL",
+   "license_file":"LICENSE",
+   "summary":"A python package for defensive data analysis"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "ZaxR",
+    "jamesmyatt",
+    "ZaxR",
+    "jamesmyatt",
+    "ZaxR",
+    "jamesmyatt"
+   ]
+  },
+  "package":{
+   "name":"bulwark",
+   "version":"0.5.3"
+  },
+  "requirements":{
+   "build":[
+    "python >=3.5",
+    "python >=3.5",
+    "python >=3.5"
+   ],
+   "host":[
+    "python >=3.5",
+    "pip",
+    "setuptools",
+    "python >=3.5",
+    "pip",
+    "setuptools",
+    "python >=3.5",
+    "pip",
+    "setuptools"
+   ],
+   "run":[
+    "python >=3.5",
+    "pandas",
+    "numpy",
+    "python >=3.5",
+    "pandas",
+    "numpy",
+    "python >=3.5",
+    "pandas",
+    "numpy"
+   ]
+  },
+  "source":{
+   "sha256":"1a8b1deb72fe6493f6ecbef2e69bd2f6ba0651c263dd5ab41adbd382cfe0099b",
+   "url":"https://pypi.io/packages/source/b/bulwark/bulwark-0.5.3.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "bulwark",
+    "bulwark",
+    "bulwark"
+   ]
+  }
+ },
+ "name":"bulwark",
+ "new_version":"0.5.3",
+ "pinning_version":"2019.11.01",
+ "raw_meta_yaml":"{% set name = \"bulwark\" %}\n{% set version = \"0.5.3\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: 1a8b1deb72fe6493f6ecbef2e69bd2f6ba0651c263dd5ab41adbd382cfe0099b\n\nbuild:\n  noarch: python\n  number: 0\n  script: \"{{ PYTHON }} -m pip install . -vv\"\n\nrequirements:\n  build:\n    - python >=3.5\n  host:\n    - python >=3.5\n    - pip\n    - setuptools\n  run:\n    - python >=3.5\n    - pandas\n    - numpy\n\ntest:\n  imports:\n    - bulwark\n\nabout:\n  home: https://github.com/zaxr/bulwark\n  license: GPL-3.0\n  license_family: GPL\n  license_file: LICENSE\n  summary: A python package for defensive data analysis\n  description: |\n    Bulwark is a package for convenient property-based testing of pandas\n    dataframes, supported for Python 3.5+.\n  doc_url: https://bulwark.readthedocs.io/\n  dev_url: https://github.com/zaxr/bulwark\n\nextra:\n  recipe-maintainers:\n    - ZaxR\n    - jamesmyatt\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "numpy",
+   "pandas",
+   "pip",
+   "python",
+   "setuptools"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "python"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python",
+    "setuptools"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "numpy",
+    "pandas",
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.6.2",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "python >=3.5"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3.5",
+    "setuptools"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "numpy",
+    "pandas",
+    "python >=3.5"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/b/bulwark/bulwark-0.5.1.tar.gz",
+ "version":"0.5.3"
+}

@@ -1,0 +1,207 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/233391158.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/335878192.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"python38"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/391609598.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"pypy"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"demoshell",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"https://github.com/dhellmann/demoshell",
+   "license":"Apache-2.0",
+   "license_family":"APACHE",
+   "license_file":"LICENSE",
+   "summary":"simplified shell for live demonstrations"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"1001",
+   "script":"-m pip install . -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "ocefpaf",
+    "ocefpaf",
+    "ocefpaf"
+   ]
+  },
+  "package":{
+   "name":"demoshell",
+   "version":"0.2.0"
+  },
+  "requirements":{
+   "host":[
+    "python >=3",
+    "pip",
+    "pbr",
+    "python >=3",
+    "pip",
+    "pbr",
+    "python >=3",
+    "pip",
+    "pbr"
+   ],
+   "run":[
+    "python >=3",
+    "urwid >=2.0.1",
+    "appdirs >=1.4.3",
+    "python >=3",
+    "urwid >=2.0.1",
+    "appdirs >=1.4.3",
+    "python >=3",
+    "urwid >=2.0.1",
+    "appdirs >=1.4.3"
+   ]
+  },
+  "source":{
+   "sha256":"ff962068ee0124917f8ddcd9d69636a2cbc8ad058246fadedb78698959916c17",
+   "url":"https://pypi.io/packages/source/d/demoshell/demoshell-0.2.0.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "pip check",
+    "pip check",
+    "pip check"
+   ],
+   "imports":[
+    "demoshell",
+    "demoshell",
+    "demoshell"
+   ],
+   "requires":[
+    "pip",
+    "pip",
+    "pip"
+   ]
+  }
+ },
+ "name":"demoshell",
+ "new_version":"0.2.0",
+ "pinning_version":"2020.03.20",
+ "raw_meta_yaml":"{% set version = \"0.2.0\" %}\n\npackage:\n  name: demoshell\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/d/demoshell/demoshell-{{ version }}.tar.gz\n  sha256: ff962068ee0124917f8ddcd9d69636a2cbc8ad058246fadedb78698959916c17\n\nbuild:\n  number: 1001\n  noarch: python\n  script: {{ PYTHON }} -m pip install . -vv\n\nrequirements:\n  host:\n    - python >=3\n    - pip\n    - pbr\n  run:\n    - python >=3\n    - urwid >=2.0.1\n    - appdirs >=1.4.3\n\ntest:\n  imports:\n    - demoshell\n  commands:\n    - pip check\n  requires:\n    - pip\n\nabout:\n  home: https://github.com/dhellmann/demoshell\n  license: Apache-2.0\n  license_family: APACHE\n  license_file: LICENSE\n  summary: simplified shell for live demonstrations\n\nextra:\n  recipe-maintainers:\n    - ocefpaf\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "appdirs",
+   "pbr",
+   "pip",
+   "python",
+   "urwid"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pbr",
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "appdirs",
+    "python",
+    "urwid"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "pip"
+   ]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.6.14",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pbr",
+    "pip",
+    "python >=3"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "appdirs >=1.4.3",
+    "python >=3",
+    "urwid >=2.0.1"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "pip"
+   ]
+  }
+ },
+ "url":"https://pypi.io/packages/source/d/demoshell/demoshell-0.2.0.tar.gz",
+ "version":"0.2.0"
+}

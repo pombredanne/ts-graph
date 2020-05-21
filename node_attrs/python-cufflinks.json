@@ -1,0 +1,354 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/225227442.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.14.5"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/229494549.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.14.6"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/266961474.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.15"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/292911173.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.16"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/331784407.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.17.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/382076772.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.17.3"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"python-cufflinks",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"https://github.com/santosjorge/cufflinks",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"license.txt",
+   "summary":"Productivity Tools for Plotly + Pandas"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":"-m pip install . --no-deps --ignore-installed --no-cache-dir -vvv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "dhirschfeld",
+    "timkpaine",
+    "dhirschfeld",
+    "timkpaine",
+    "dhirschfeld",
+    "timkpaine"
+   ]
+  },
+  "outputs":[
+   {
+    "name":"python-cufflinks"
+   },
+   {
+    "build":{
+     "noarch":"python",
+     "number":"0"
+    },
+    "name":"cufflinks-py",
+    "requirements":{
+     "host":[
+      "python"
+     ],
+     "run":[
+      "python",
+      "python-cufflinks"
+     ]
+    },
+    "test":{
+     "imports":[
+      "cufflinks"
+     ]
+    }
+   },
+   {
+    "name":"python-cufflinks"
+   },
+   {
+    "build":{
+     "noarch":"python",
+     "number":"0"
+    },
+    "name":"cufflinks-py",
+    "requirements":{
+     "host":[
+      "python"
+     ],
+     "run":[
+      "python",
+      "python-cufflinks"
+     ]
+    },
+    "test":{
+     "imports":[
+      "cufflinks"
+     ]
+    }
+   },
+   {
+    "name":"python-cufflinks"
+   },
+   {
+    "build":{
+     "noarch":"python",
+     "number":"0"
+    },
+    "name":"cufflinks-py",
+    "requirements":{
+     "host":[
+      "python"
+     ],
+     "run":[
+      "python",
+      "python-cufflinks"
+     ]
+    },
+    "test":{
+     "imports":[
+      "cufflinks"
+     ]
+    }
+   }
+  ],
+  "package":{
+   "name":"python-cufflinks",
+   "version":"0.17.3"
+  },
+  "requirements":{
+   "host":[
+    "python",
+    "pip",
+    "python",
+    "pip",
+    "python",
+    "pip"
+   ],
+   "run":[
+    "python",
+    "chart-studio >=1.0.0",
+    "colorlover >=0.2.1",
+    "ipython >=5.3.0",
+    "ipywidgets >=7.0.0",
+    "numpy >=1.9.2",
+    "pandas >=0.19.2",
+    "plotly >=4.1.1",
+    "six >=1.9.0",
+    "python",
+    "chart-studio >=1.0.0",
+    "colorlover >=0.2.1",
+    "ipython >=5.3.0",
+    "ipywidgets >=7.0.0",
+    "numpy >=1.9.2",
+    "pandas >=0.19.2",
+    "plotly >=4.1.1",
+    "six >=1.9.0",
+    "python",
+    "chart-studio >=1.0.0",
+    "colorlover >=0.2.1",
+    "ipython >=5.3.0",
+    "ipywidgets >=7.0.0",
+    "numpy >=1.9.2",
+    "pandas >=0.19.2",
+    "plotly >=4.1.1",
+    "six >=1.9.0"
+   ]
+  },
+  "source":{
+   "sha256":"48c1b3406dc030004121966489eebc5518cea70fd4e3f16379b491328501a644",
+   "url":"https://pypi.io/packages/source/c/cufflinks/cufflinks-0.17.3.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "cufflinks",
+    "cufflinks",
+    "cufflinks"
+   ]
+  }
+ },
+ "name":"python-cufflinks",
+ "new_version":"0.17.3",
+ "outputs_names":[
+  "cufflinks-py",
+  "python-cufflinks"
+ ],
+ "pinning_version":"2020.02.20",
+ "raw_meta_yaml":"{% set name = \"cufflinks\" %}\n{% set version = \"0.17.3\" %}\n{% set build_number = 0 %}\n\npackage:\n  name: python-{{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: 48c1b3406dc030004121966489eebc5518cea70fd4e3f16379b491328501a644\n\nbuild:\n  noarch: python\n  number: {{ build_number }}\n  script: {{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv\n\nrequirements:\n  host:\n    - python\n    - pip\n  run:\n    - python\n    - chart-studio >=1.0.0\n    - colorlover >=0.2.1\n    - ipython >=5.3.0\n    - ipywidgets >=7.0.0\n    - numpy >=1.9.2\n    - pandas >=0.19.2\n    - plotly >=4.1.1\n    - six >=1.9.0\n\ntest:\n  imports:\n    - cufflinks\n\noutputs:\n  - name: python-cufflinks\n\n  - name: cufflinks-py\n    build:\n      noarch: python\n      number: {{ build_number }}\n    requirements:\n      host:\n        - python\n      run:\n        - python\n        - {{ pin_subpackage('python-cufflinks', exact=True) }}\n    test:\n      imports:\n        - cufflinks\n\nabout:\n  home: https://github.com/santosjorge/cufflinks\n  license: MIT\n  license_family: MIT\n  license_file: license.txt\n  summary: Productivity Tools for Plotly + Pandas\n\nextra:\n  recipe-maintainers:\n    - dhirschfeld\n    - timkpaine\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "chart-studio",
+   "colorlover",
+   "ipython",
+   "ipywidgets",
+   "numpy",
+   "pandas",
+   "pip",
+   "plotly",
+   "python",
+   "python-cufflinks",
+   "six"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "chart-studio",
+    "colorlover",
+    "ipython",
+    "ipywidgets",
+    "numpy",
+    "pandas",
+    "plotly",
+    "python",
+    "python-cufflinks",
+    "six"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.6.8",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "chart-studio >=1.0.0",
+    "colorlover >=0.2.1",
+    "ipython >=5.3.0",
+    "ipywidgets >=7.0.0",
+    "numpy >=1.9.2",
+    "pandas >=0.19.2",
+    "plotly >=4.1.1",
+    "python",
+    "python-cufflinks",
+    "six >=1.9.0"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/c/cufflinks/cufflinks-0.16.tar.gz",
+ "version":"0.17.3"
+}

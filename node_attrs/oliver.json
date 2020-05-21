@@ -1,0 +1,312 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/370161064.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.0.6"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/371188734.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.0.7"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/378618568.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.1.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/381947032.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.2.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/382009731.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.2.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/406679443.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.3.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/406943414.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.3.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "bot":{
+   "automerge":true
+  }
+ },
+ "feedstock_name":"oliver",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "dev_url":"https://github.com/stjudecloud/oliver/blob/master/docs/DEVELOPMENT.md",
+   "doc_url":"https://github.com/stjudecloud/oliver/blob/master/README.md",
+   "home":"https://github.com/stjudecloud/oliver",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"LICENSE.md",
+   "summary":"An opinionated Cromwell orchestration manager."
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":"-m pip install . -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "claymcleod",
+    "jsunny23",
+    "claymcleod",
+    "jsunny23",
+    "claymcleod",
+    "jsunny23"
+   ]
+  },
+  "package":{
+   "name":"oliver",
+   "version":"1.2.1"
+  },
+  "requirements":{
+   "host":[
+    "pip",
+    "python >=3.0, <3.8",
+    "poetry >=1.0.3",
+    "pip",
+    "python >=3.0, <3.8",
+    "poetry >=1.0.3",
+    "pip",
+    "python >=3.0, <3.8",
+    "poetry >=1.0.3"
+   ],
+   "run":[
+    "python >=3.0, <3.8",
+    "aiohttp ==3.6.2",
+    "azure-cosmos ==3.1.2",
+    "boto3 ==1.11.9",
+    "logzero ==1.5.0",
+    "pendulum ==2.0.5",
+    "requests ==2.22.0",
+    "tabulate ==0.8.6",
+    "tzlocal ==2.0.0",
+    "python >=3.0, <3.8",
+    "aiohttp ==3.6.2",
+    "azure-cosmos ==3.1.2",
+    "boto3 ==1.11.9",
+    "logzero ==1.5.0",
+    "pendulum ==2.0.5",
+    "requests ==2.22.0",
+    "tabulate ==0.8.6",
+    "tzlocal ==2.0.0",
+    "python >=3.0, <3.8",
+    "aiohttp ==3.6.2",
+    "azure-cosmos ==3.1.2",
+    "boto3 ==1.11.9",
+    "logzero ==1.5.0",
+    "pendulum ==2.0.5",
+    "requests ==2.22.0",
+    "tabulate ==0.8.6",
+    "tzlocal ==2.0.0"
+   ]
+  },
+  "source":{
+   "sha256":"7e158ddea5994ba2bc1f13b33374e2092fddd54a151a0d95357f69a1504bee53",
+   "url":"https://pypi.io/packages/source/s/stjudecloud-oliver/stjudecloud-oliver-1.2.1.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "oliver --help",
+    "oliver --help",
+    "oliver --help"
+   ],
+   "imports":[
+    "oliver",
+    "oliver",
+    "oliver"
+   ]
+  }
+ },
+ "name":"oliver",
+ "new_version":"1.3.1",
+ "new_version_attempts":{
+  "1.3.0":1,
+  "1.3.1":1
+ },
+ "new_version_errors":{},
+ "pinning_version":"2020.04.21.12.59.15",
+ "raw_meta_yaml":"{% set name = \"oliver\" %}\n{% set pip_name = \"stjudecloud-oliver\" %}\n{% set version = \"1.2.1\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ pip_name[0] }}/{{ pip_name }}/{{ pip_name }}-{{ version }}.tar.gz\n  sha256: 7e158ddea5994ba2bc1f13b33374e2092fddd54a151a0d95357f69a1504bee53\n\nbuild:\n  number: 0\n  script: {{ PYTHON }} -m pip install . -vv\n  noarch: python\n\nrequirements:\n  host:\n    - pip\n    - python >=3.0, <3.8\n    - poetry >=1.0.3\n  run:\n    - python >=3.0, <3.8\n    - aiohttp ==3.6.2\n    - azure-cosmos ==3.1.2\n    - boto3 ==1.11.9\n    - logzero ==1.5.0\n    - pendulum ==2.0.5\n    - requests ==2.22.0\n    - tabulate ==0.8.6\n    - tzlocal ==2.0.0\n\ntest:\n  imports:\n    - oliver\n  commands:\n    - oliver --help\n\nabout:\n  home: https://github.com/stjudecloud/oliver\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE.md\n  summary: An opinionated Cromwell orchestration manager.\n  doc_url: https://github.com/stjudecloud/oliver/blob/master/README.md\n  dev_url: https://github.com/stjudecloud/oliver/blob/master/docs/DEVELOPMENT.md\n\nextra:\n  recipe-maintainers:\n    - claymcleod\n    - jsunny23\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "aiohttp",
+   "azure-cosmos",
+   "boto3",
+   "logzero",
+   "pendulum",
+   "pip",
+   "poetry",
+   "python",
+   "requests",
+   "tabulate",
+   "tzlocal"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "poetry",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "aiohttp",
+    "azure-cosmos",
+    "boto3",
+    "logzero",
+    "pendulum",
+    "python",
+    "requests",
+    "tabulate",
+    "tzlocal"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.6.16",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "poetry >=1.0.3",
+    "python >=3.0, <3.8"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "aiohttp ==3.6.2",
+    "azure-cosmos ==3.1.2",
+    "boto3 ==1.11.9",
+    "logzero ==1.5.0",
+    "pendulum ==2.0.5",
+    "python >=3.0, <3.8",
+    "requests ==2.22.0",
+    "tabulate ==0.8.6",
+    "tzlocal ==2.0.0"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/s/stjudecloud-oliver/stjudecloud-oliver-1.0.5.tar.gz",
+ "version":"1.2.1"
+}

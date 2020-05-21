@@ -1,0 +1,141 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/373381576.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.1.6"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"rb-concurrent-ruby",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "dev_url":"https://github.com/ruby-concurrency/concurrent-ruby",
+   "doc_url":"http://www.rubydoc.info/gems/concurrent-ruby",
+   "home":"https://rubygems.org/gems/concurrent-ruby",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"concurrent-ruby-1.1.5/LICENSE.md",
+   "summary":"Modern concurrency tools including agents, futures, promises, thread pools, actors, supervisors, and more."
+  },
+  "build":{
+   "noarch":"generic",
+   "number":"0",
+   "script":[
+    "gem install --norc -l -V --ignore-dependencies concurrent-ruby-1.1.5.gem",
+    "gem unpack concurrent-ruby-1.1.5.gem",
+    "gem install --norc -l -V --ignore-dependencies concurrent-ruby-1.1.5.gem",
+    "gem unpack concurrent-ruby-1.1.5.gem",
+    "gem install --norc -l -V --ignore-dependencies concurrent-ruby-1.1.5.gem",
+    "gem unpack concurrent-ruby-1.1.5.gem"
+   ],
+   "skip":null
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "sodre",
+    "sodre",
+    "sodre"
+   ]
+  },
+  "package":{
+   "name":"rb-concurrent-ruby",
+   "version":"1.1.5"
+  },
+  "requirements":{
+   "host":[
+    "ruby",
+    "ruby",
+    "ruby"
+   ],
+   "run":[
+    "ruby",
+    "ruby",
+    "ruby"
+   ]
+  },
+  "source":{
+   "sha256":"5611d14d8699996b17f18e704f4257b73349efa2d9a75fee6566a0a387c807f4",
+   "url":"https://rubygems.org/downloads/concurrent-ruby-1.1.5.gem"
+  },
+  "test":{
+   "commands":[
+    "ruby -r concurrent -e 'exit 0'",
+    "ruby -r concurrent -e 'exit 0'",
+    "ruby -r concurrent -e 'exit 0'"
+   ]
+  }
+ },
+ "name":"rb-concurrent-ruby",
+ "new_version":"1.1.6",
+ "pinning_version":"2020.01.28",
+ "raw_meta_yaml":"{% set name = \"concurrent-ruby\" %}\n{% set version = \"1.1.5\" %}\n\npackage:\n  name: rb-{{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://rubygems.org/downloads/{{ name }}-{{ version }}.gem\n  sha256: 5611d14d8699996b17f18e704f4257b73349efa2d9a75fee6566a0a387c807f4\n\nbuild:\n  noarch: generic\n  number: 0\n  script:\n    - gem install --norc -l -V --ignore-dependencies {{ name }}-{{ version }}.gem\n    - gem unpack {{ name }}-{{ version }}.gem\n  skip: {{ win }}\n\nrequirements:\n  host:\n    - ruby\n  run:\n    - ruby\n\ntest:\n  commands:\n    - ruby -r concurrent -e 'exit 0'\n\nabout:\n  home: https://rubygems.org/gems/{{ name }}\n  license: MIT\n  license_family: MIT\n  license_file: {{ name }}-{{ version }}/LICENSE.md\n  summary: Modern concurrency tools including agents, futures, promises, thread pools, actors, supervisors, and more.\n\n  doc_url: http://www.rubydoc.info/gems/{{ name }}\n  dev_url: https://github.com/ruby-concurrency/{{ name }}\n\nextra:\n  recipe-maintainers:\n    - sodre\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "ruby"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "ruby"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "ruby"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.6.8",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "ruby"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "ruby"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://rubygems.org/downloads/concurrent-ruby-1.1.5.gem",
+ "version":"1.1.5"
+}

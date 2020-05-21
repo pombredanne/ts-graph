@@ -1,0 +1,267 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/326748746.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.10.4"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "archived":false,
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"pyramid",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "dev_url":"https://github.com/Pylons/pyramid",
+   "doc_url":"https://docs.pylonsproject.org/projects/pyramid/",
+   "home":"https://trypyramid.com",
+   "license":"BSD-derived",
+   "license_family":"BSD",
+   "license_file":"LICENSE.txt",
+   "summary":"The Pyramid Web Framework, a Pylons project"
+  },
+  "build":{
+   "entry_points":[
+    "pcreate=pyramid.scripts.pcreate:main",
+    "pserve=pyramid.scripts.pserve:main",
+    "pshell=pyramid.scripts.pshell:main",
+    "proutes=pyramid.scripts.proutes:main",
+    "pviews=pyramid.scripts.pviews:main",
+    "ptweens=pyramid.scripts.ptweens:main",
+    "prequest=pyramid.scripts.prequest:main",
+    "pdistreport=pyramid.scripts.pdistreport:main",
+    "pcreate=pyramid.scripts.pcreate:main",
+    "pserve=pyramid.scripts.pserve:main",
+    "pshell=pyramid.scripts.pshell:main",
+    "proutes=pyramid.scripts.proutes:main",
+    "pviews=pyramid.scripts.pviews:main",
+    "ptweens=pyramid.scripts.ptweens:main",
+    "prequest=pyramid.scripts.prequest:main",
+    "pdistreport=pyramid.scripts.pdistreport:main",
+    "pcreate=pyramid.scripts.pcreate:main",
+    "pserve=pyramid.scripts.pserve:main",
+    "pshell=pyramid.scripts.pshell:main",
+    "proutes=pyramid.scripts.proutes:main",
+    "pviews=pyramid.scripts.pviews:main",
+    "ptweens=pyramid.scripts.ptweens:main",
+    "prequest=pyramid.scripts.prequest:main",
+    "pdistreport=pyramid.scripts.pdistreport:main"
+   ],
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "lincrosenbach",
+    "kfasolin",
+    "lincrosenbach",
+    "kfasolin",
+    "lincrosenbach",
+    "kfasolin"
+   ]
+  },
+  "package":{
+   "name":"pyramid",
+   "version":"1.10.1"
+  },
+  "requirements":{
+   "host":[
+    "pip",
+    "python",
+    "setuptools",
+    "pip",
+    "python",
+    "setuptools",
+    "pip",
+    "python",
+    "setuptools"
+   ],
+   "run":[
+    "hupper",
+    "plaster",
+    "plaster_pastedeploy",
+    "python",
+    "translationstring >=0.4",
+    "venusian >=1.0",
+    "webob >=1.8.3",
+    "zope.deprecation >=3.5.0",
+    "zope.interface >=3.8.0",
+    "hupper",
+    "plaster",
+    "plaster_pastedeploy",
+    "python",
+    "translationstring >=0.4",
+    "venusian >=1.0",
+    "webob >=1.8.3",
+    "zope.deprecation >=3.5.0",
+    "zope.interface >=3.8.0",
+    "hupper",
+    "plaster",
+    "plaster_pastedeploy",
+    "python",
+    "translationstring >=0.4",
+    "venusian >=1.0",
+    "webob >=1.8.3",
+    "zope.deprecation >=3.5.0",
+    "zope.interface >=3.8.0"
+   ]
+  },
+  "source":{
+   "sha256":"37c3e1c9eae72817e0365e2a38143543aee8b75240701fa5cb3a1be86c01a1c0",
+   "url":"https://pypi.io/packages/source/p/pyramid/pyramid-1.10.1.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "pcreate --help",
+    "pserve --help",
+    "pshell --help",
+    "proutes --help",
+    "pviews --help",
+    "ptweens --help",
+    "prequest --help",
+    "pdistreport --help",
+    "pcreate --help",
+    "pserve --help",
+    "pshell --help",
+    "proutes --help",
+    "pviews --help",
+    "ptweens --help",
+    "prequest --help",
+    "pdistreport --help",
+    "pcreate --help",
+    "pserve --help",
+    "pshell --help",
+    "proutes --help",
+    "pviews --help",
+    "ptweens --help",
+    "prequest --help",
+    "pdistreport --help"
+   ],
+   "imports":[
+    "pyramid",
+    "pyramid.config",
+    "pyramid.scaffolds",
+    "pyramid.scripts",
+    "pyramid",
+    "pyramid.config",
+    "pyramid.scaffolds",
+    "pyramid.scripts",
+    "pyramid",
+    "pyramid.config",
+    "pyramid.scaffolds",
+    "pyramid.scripts"
+   ],
+   "requires":[
+    "webtest >=1.3.1",
+    "webtest >=1.3.1",
+    "webtest >=1.3.1"
+   ]
+  }
+ },
+ "name":"pyramid",
+ "new_version":"1.10.4",
+ "pinning_version":"2019.10.08",
+ "raw_meta_yaml":"{% set name = \"pyramid\" %}\n{% set version = \"1.10.1\" %}\n\npackage:\n  name: \"{{ name|lower }}\"\n  version: \"{{ version }}\"\n  # when updating to 2.0, make sure to add \"python >=3.4\" to \"host\" and \"run\" sections\n  # because 2.0 no longer supports Python 2\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: 37c3e1c9eae72817e0365e2a38143543aee8b75240701fa5cb3a1be86c01a1c0\n\nbuild:\n  noarch: python\n  number: 0\n  entry_points:\n    - pcreate=pyramid.scripts.pcreate:main\n    - pserve=pyramid.scripts.pserve:main\n    - pshell=pyramid.scripts.pshell:main\n    - proutes=pyramid.scripts.proutes:main\n    - pviews=pyramid.scripts.pviews:main\n    - ptweens=pyramid.scripts.ptweens:main\n    - prequest=pyramid.scripts.prequest:main\n    - pdistreport=pyramid.scripts.pdistreport:main\n  script: \"{{ PYTHON }} -m pip install . -vv\"\n\nrequirements:\n  host:\n    - pip\n    - python\n    - setuptools\n  run:\n    - hupper\n    - plaster\n    - plaster_pastedeploy\n    - python\n    - translationstring >=0.4\n    - venusian >=1.0\n    - webob >=1.8.3\n    - zope.deprecation >=3.5.0\n    - zope.interface >=3.8.0\n\ntest:\n  imports:\n    - pyramid\n    - pyramid.config\n    - pyramid.scaffolds\n    - pyramid.scripts\n  commands:\n    - pcreate --help\n    - pserve --help\n    - pshell --help\n    - proutes --help\n    - pviews --help\n    - ptweens --help\n    - prequest --help\n    - pdistreport --help\n  requires:\n    - webtest >=1.3.1\n    # Dependency not required for running test imports and commands\n    # - zope.component >=4.0\n\nabout:\n  home: https://trypyramid.com\n  license: BSD-derived\n  license_family: BSD\n  license_file: LICENSE.txt\n  summary: The Pyramid Web Framework, a Pylons project\n  doc_url: https://docs.pylonsproject.org/projects/pyramid/\n  dev_url: https://github.com/Pylons/pyramid\n\nextra:\n  recipe-maintainers:\n    - lincrosenbach\n    - kfasolin\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "hupper",
+   "pip",
+   "plaster",
+   "plaster_pastedeploy",
+   "python",
+   "setuptools",
+   "translationstring",
+   "venusian",
+   "webob",
+   "zope.deprecation",
+   "zope.interface"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python",
+    "setuptools"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "hupper",
+    "plaster",
+    "plaster_pastedeploy",
+    "python",
+    "translationstring",
+    "venusian",
+    "webob",
+    "zope.deprecation",
+    "zope.interface"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "webtest"
+   ]
+  }
+ },
+ "smithy_version":"3.5.0",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python",
+    "setuptools"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "hupper",
+    "plaster",
+    "plaster_pastedeploy",
+    "python",
+    "translationstring >=0.4",
+    "venusian >=1.0",
+    "webob >=1.8.3",
+    "zope.deprecation >=3.5.0",
+    "zope.interface >=3.8.0"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "webtest >=1.3.1"
+   ]
+  }
+ },
+ "url":"https://pypi.io/packages/source/p/pyramid/pyramid-1.10.1.tar.gz",
+ "version":"1.10.1"
+}

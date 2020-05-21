@@ -1,0 +1,275 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/199959647.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Noarch",
+    "migrator_version":0
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/226786671.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/295291254.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.5"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/336251158.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"python38"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/350406566.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.6"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/375715657.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MatplotlibBase",
+    "migrator_version":0,
+    "name":"matplotlib-to-matplotlib-base"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "compiler_stack":"comp7",
+  "max_py_ver":"37",
+  "max_r_ver":"35",
+  "provider":{
+   "win":"azure"
+  }
+ },
+ "feedstock_name":"astroplan",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"astroplan is an observation planning package for astronomers that can help\nyou plan for everything but the clouds. It is an in-development Astropy\naffiliated package that seeks to make your life as an observational\nastronomer a little less infuriating.\n",
+   "dev_url":"https://github.com/astropy/astroplan",
+   "doc_url":"https://astroplan.readthedocs.io/",
+   "home":"https://github.com/astropy/astroplan",
+   "license":"BSD 3-clause",
+   "license_family":"BSD",
+   "license_file":[
+    "LICENSE.rst",
+    "LICENSE.rst",
+    "LICENSE.rst"
+   ],
+   "summary":"Observation planning package for astronomers"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"1",
+   "script":"python setup.py install --offline --single-version-externally-managed --record=record.txt"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "mwcraig",
+    "bsipocz",
+    "bmorris3",
+    "mwcraig",
+    "bsipocz",
+    "bmorris3",
+    "mwcraig",
+    "bsipocz",
+    "bmorris3"
+   ]
+  },
+  "package":{
+   "name":"astroplan",
+   "version":"0.6"
+  },
+  "requirements":{
+   "build":[
+    "python >3",
+    "setuptools",
+    "astropy >=1.3",
+    "python >3",
+    "setuptools",
+    "astropy >=1.3",
+    "python >3",
+    "setuptools",
+    "astropy >=1.3"
+   ],
+   "run":[
+    "python >3",
+    "numpy >=1.6",
+    "astropy >=1.3",
+    "pytz",
+    "matplotlib-base",
+    "python >3",
+    "numpy >=1.6",
+    "astropy >=1.3",
+    "pytz",
+    "matplotlib-base",
+    "python >3",
+    "numpy >=1.6",
+    "astropy >=1.3",
+    "pytz",
+    "matplotlib-base"
+   ]
+  },
+  "source":{
+   "fn":"astroplan-0.6.tar.gz",
+   "sha256":"dd76407d372dceb3a1668353f2d8806e203e83e6930924c92decee1a9744a757",
+   "url":"https://pypi.io/packages/source/a/astroplan/astroplan-0.6.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "astroplan",
+    "astroplan.plots",
+    "astroplan",
+    "astroplan.plots",
+    "astroplan",
+    "astroplan.plots"
+   ]
+  }
+ },
+ "name":"astroplan",
+ "new_version":"0.6",
+ "pinning_version":"2020.02.12",
+ "raw_meta_yaml":"{% set name = \"astroplan\" %}\n{% set version = \"0.6\" %}\n{% set hash_type = \"sha256\" %}\n{% set hash_value = \"dd76407d372dceb3a1668353f2d8806e203e83e6930924c92decee1a9744a757\" %}\n\npackage:\n  name: '{{ name|lower }}'\n  version: '{{ version }}'\n\nsource:\n  fn: '{{ name }}-{{ version }}.tar.gz'\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  '{{ hash_type }}': '{{ hash_value }}'\n\nbuild:\n  noarch: python\n  number: 1\n  script: python setup.py install --offline --single-version-externally-managed --record=record.txt\n\nrequirements:\n  build:\n    - python >3\n    - setuptools\n    - astropy >=1.3\n  run:\n    - python >3\n    - numpy >=1.6\n    - astropy >=1.3\n    - pytz\n    - matplotlib-base\n\ntest:\n  imports:\n    - astroplan\n    - astroplan.plots\n\nabout:\n  home: https://github.com/astropy/astroplan\n  license: BSD 3-clause\n  license_file:\n    - LICENSE.rst\n\n  license_family: BSD\n  summary: Observation planning package for astronomers\n  description: |\n    astroplan is an observation planning package for astronomers that can help\n    you plan for everything but the clouds. It is an in-development Astropy\n    affiliated package that seeks to make your life as an observational\n    astronomer a little less infuriating.\n  doc_url: https://astroplan.readthedocs.io/\n  dev_url: https://github.com/astropy/astroplan\n\nextra:\n  recipe-maintainers:\n    - mwcraig\n    - bsipocz\n    - bmorris3\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "astropy",
+   "matplotlib-base",
+   "numpy",
+   "python",
+   "pytz",
+   "setuptools"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "astropy",
+    "python",
+    "setuptools"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "astropy",
+    "matplotlib-base",
+    "numpy",
+    "python",
+    "pytz"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.6.8",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "astropy >=1.3",
+    "python >3",
+    "setuptools"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "astropy >=1.3",
+    "matplotlib-base",
+    "numpy >=1.6",
+    "python >3",
+    "pytz"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/a/astroplan/astroplan-0.5.tar.gz",
+ "version":"0.6"
+}

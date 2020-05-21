@@ -1,0 +1,302 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/317828926.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.1.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/368448588.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.1.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/392878744.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.1.3"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/413845766.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":2,
+    "migrator_version":0,
+    "name":"r400"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "bot":{
+   "automerge":true
+  }
+ },
+ "feedstock_name":"r-fabletools",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"http://fabletools.tidyverts.org/",
+   "license":"GPL-3.0-only",
+   "license_family":"GPL3",
+   "license_file":"/lib/R/share/licenses/GPL-3",
+   "summary":"Provides tools, helpers and data structures for developing models and time series functions for 'fable' and extension packages. These tools support a consistent and tidy interface for time series modelling and analysis."
+  },
+  "build":{
+   "merge_build_host":true,
+   "noarch":"generic",
+   "number":"2",
+   "rpaths":[
+    "lib/R/lib/",
+    "lib/",
+    "lib/R/lib/",
+    "lib/",
+    "lib/R/lib/",
+    "lib/"
+   ]
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "conda-forge/r",
+    "philip-khor",
+    "conda-forge/r",
+    "philip-khor",
+    "conda-forge/r",
+    "philip-khor"
+   ]
+  },
+  "package":{
+   "name":"r-fabletools",
+   "version":"0.1.3"
+  },
+  "requirements":{
+   "build":null,
+   "host":[
+    "r-base",
+    "r-r6",
+    "r-dplyr >=0.8.0",
+    "r-generics",
+    "r-ggplot2 >=3.0.0",
+    "r-rlang >=0.2.0",
+    "r-tidyr >=0.8.3",
+    "r-tidyselect",
+    "r-tsibble >=0.8.0",
+    "r-base",
+    "r-r6",
+    "r-dplyr >=0.8.0",
+    "r-generics",
+    "r-ggplot2 >=3.0.0",
+    "r-rlang >=0.2.0",
+    "r-tidyr >=0.8.3",
+    "r-tidyselect",
+    "r-tsibble >=0.8.0",
+    "r-base",
+    "r-r6",
+    "r-dplyr >=0.8.0",
+    "r-generics",
+    "r-ggplot2 >=3.0.0",
+    "r-rlang >=0.2.0",
+    "r-tidyr >=0.8.3",
+    "r-tidyselect",
+    "r-tsibble >=0.8.0"
+   ],
+   "run":[
+    "r-base",
+    "r-r6",
+    "r-dplyr >=0.8.0",
+    "r-generics",
+    "r-ggplot2 >=3.0.0",
+    "r-rlang >=0.2.0",
+    "r-tidyr >=0.8.3",
+    "r-tidyselect",
+    "r-tsibble >=0.8.0",
+    "r-base",
+    "r-r6",
+    "r-dplyr >=0.8.0",
+    "r-generics",
+    "r-ggplot2 >=3.0.0",
+    "r-rlang >=0.2.0",
+    "r-tidyr >=0.8.3",
+    "r-tidyselect",
+    "r-tsibble >=0.8.0",
+    "r-base",
+    "r-r6",
+    "r-dplyr >=0.8.0",
+    "r-generics",
+    "r-ggplot2 >=3.0.0",
+    "r-rlang >=0.2.0",
+    "r-tidyr >=0.8.3",
+    "r-tidyselect",
+    "r-tsibble >=0.8.0"
+   ]
+  },
+  "source":{
+   "sha256":"bfc195def5566f823578a528e85df0604a4a76c3116b2738b71b21aa8dc8939a",
+   "url":[
+    "https://cran.r-project.org/src/contrib/fabletools_0.1.3.tar.gz",
+    "https://cran.r-project.org/src/contrib/Archive/fabletools/fabletools_0.1.3.tar.gz",
+    "https://cran.r-project.org/src/contrib/fabletools_0.1.3.tar.gz",
+    "https://cran.r-project.org/src/contrib/Archive/fabletools/fabletools_0.1.3.tar.gz",
+    "https://cran.r-project.org/src/contrib/fabletools_0.1.3.tar.gz",
+    "https://cran.r-project.org/src/contrib/Archive/fabletools/fabletools_0.1.3.tar.gz"
+   ]
+  },
+  "test":{
+   "commands":[
+    "\"%R%\" -e \"library('fabletools')\"",
+    "$R -e \"library('fabletools')\"",
+    "$R -e \"library('fabletools')\""
+   ]
+  }
+ },
+ "name":"r-fabletools",
+ "new_version":"0.1.3",
+ "pinning_version":"2020.05.04.19.59.17",
+ "raw_meta_yaml":"{% set version = \"0.1.3\" %}\n{% set posix = 'm2-' if win else '' %}\n{% set native = 'm2w64-' if win else '' %}\n\npackage:\n  name: r-fabletools\n  version: {{ version|replace(\"-\", \"_\") }}\n\nsource:\n  url:\n    - {{ cran_mirror }}/src/contrib/fabletools_{{ version }}.tar.gz\n    - {{ cran_mirror }}/src/contrib/Archive/fabletools/fabletools_{{ version }}.tar.gz\n  sha256: bfc195def5566f823578a528e85df0604a4a76c3116b2738b71b21aa8dc8939a\n\nbuild:\n  merge_build_host: true  # [win]\n  number: 2\n  noarch: generic\n  rpaths:\n    - lib/R/lib/\n    - lib/\n\nrequirements:\n  build:\n    - {{ posix }}zip               # [win]\n  host:\n    - r-base\n    - r-r6\n    - r-dplyr >=0.8.0\n    - r-generics\n    - r-ggplot2 >=3.0.0\n    - r-rlang >=0.2.0\n    - r-tidyr >=0.8.3\n    - r-tidyselect\n    - r-tsibble >=0.8.0\n  run:\n    - r-base\n    - r-r6\n    - r-dplyr >=0.8.0\n    - r-generics\n    - r-ggplot2 >=3.0.0\n    - r-rlang >=0.2.0\n    - r-tidyr >=0.8.3\n    - r-tidyselect\n    - r-tsibble >=0.8.0\n\ntest:\n  commands:\n    - $R -e \"library('fabletools')\"           # [not win]\n    - \"\\\"%R%\\\" -e \\\"library('fabletools')\\\"\"  # [win]\n\nabout:\n  home: http://fabletools.tidyverts.org/\n  license: GPL-3.0-only\n  summary: Provides tools, helpers and data structures for developing models and time series functions for 'fable' and extension packages. These tools support a consistent\n    and tidy interface for time series modelling and analysis.\n  license_family: GPL3\n  license_file: {{ environ[\"PREFIX\"] }}/lib/R/share/licenses/GPL-3\n\nextra:\n  recipe-maintainers:\n    - conda-forge/r\n    - philip-khor\n\n# Package: fabletools\n# Version: 0.1.0\n# Title: Core Tools for Packages in the 'fable' Framework\n# Description: Provides tools, helpers and data structures for developing models and time series functions for 'fable' and extension packages. These tools support a consistent and tidy interface for time series modelling and analysis.\n# Authors@R:  c(person(given = \"Mitchell\", family = \"O'Hara-Wild\", email = \"mail@mitchelloharawild.com\", role = c(\"aut\", \"cre\")), person(given = \"Rob\", family = \"Hyndman\", role = \"aut\"), person(given = \"Earo\", family = \"Wang\", role = \"aut\"), person(given = \"Di\", family = \"Cook\", role = \"ctb\"))\n# Depends: R (>= 3.1.3)\n# Imports: tsibble (>= 0.8.0), ggplot2 (>= 3.0.0), tidyselect, rlang (>= 0.2.0), stats, dplyr (>= 0.8.0), tidyr (>= 0.8.3), generics, R6, utils\n# Suggests: colorspace, covr, crayon, digest, fable, furrr, knitr, methods, tibble (>= 1.4.1), pillar (>= 1.0.1), feasts, rmarkdown, scales, spelling, testthat, tsibbledata, lubridate, SparseM\n# Additional_repositories: https://tidyverts.org/\n# ByteCompile: true\n# License: GPL-3\n# URL: http://fabletools.tidyverts.org/\n# BugReports: https://github.com/tidyverts/fabletools/issues\n# Encoding: UTF-8\n# LazyData: true\n# RoxygenNote: 6.1.1\n# Language: en-GB\n# NeedsCompilation: no\n# Packaged: 2019-08-08 12:20:24 UTC; mitchell\n# Author: Mitchell O'Hara-Wild [aut, cre], Rob Hyndman [aut], Earo Wang [aut], Di Cook [ctb]\n# Maintainer: Mitchell O'Hara-Wild <mail@mitchelloharawild.com>\n# Repository: CRAN\n# Date/Publication: 2019-08-08 14:30:02 UTC\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "r-base",
+   "r-dplyr",
+   "r-generics",
+   "r-ggplot2",
+   "r-r6",
+   "r-rlang",
+   "r-tidyr",
+   "r-tidyselect",
+   "r-tsibble"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "r-base",
+    "r-dplyr",
+    "r-generics",
+    "r-ggplot2",
+    "r-r6",
+    "r-rlang",
+    "r-tidyr",
+    "r-tidyselect",
+    "r-tsibble"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "r-base",
+    "r-dplyr",
+    "r-generics",
+    "r-ggplot2",
+    "r-r6",
+    "r-rlang",
+    "r-tidyr",
+    "r-tidyselect",
+    "r-tsibble"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.7.0\n",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "r-base",
+    "r-dplyr >=0.8.0",
+    "r-generics",
+    "r-ggplot2 >=3.0.0",
+    "r-r6",
+    "r-rlang >=0.2.0",
+    "r-tidyr >=0.8.3",
+    "r-tidyselect",
+    "r-tsibble >=0.8.0"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "r-base",
+    "r-dplyr >=0.8.0",
+    "r-generics",
+    "r-ggplot2 >=3.0.0",
+    "r-r6",
+    "r-rlang >=0.2.0",
+    "r-tidyr >=0.8.3",
+    "r-tidyselect",
+    "r-tsibble >=0.8.0"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":[
+  "https://cran.r-project.org/src/contrib/fabletools_0.1.0.tar.gz",
+  "https://cran.r-project.org/src/contrib/Archive/fabletools/fabletools_0.1.0.tar.gz",
+  "https://cran.r-project.org/src/contrib/fabletools_0.1.0.tar.gz",
+  "https://cran.r-project.org/src/contrib/Archive/fabletools/fabletools_0.1.0.tar.gz",
+  "https://cran.r-project.org/src/contrib/fabletools_0.1.0.tar.gz",
+  "https://cran.r-project.org/src/contrib/Archive/fabletools/fabletools_0.1.0.tar.gz"
+ ],
+ "version":"0.1.3"
+}

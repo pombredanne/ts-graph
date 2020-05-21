@@ -1,0 +1,130 @@
+{
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"dash_cytoscape",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "dev_url":"https://github.com/plotly/dash-cytoscape",
+   "doc_url":"https://dash.plot.ly/cytoscape",
+   "home":"https://github.com/plotly/dash-cytoscape",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"LICENSE",
+   "summary":"A Component Library for Dash aimed at facilitating network visualization in Python, wrapped around Cytoscape.js"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . -vv "
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "rluria14",
+    "oblute",
+    "adbeda",
+    "rluria14",
+    "oblute",
+    "adbeda",
+    "rluria14",
+    "oblute",
+    "adbeda"
+   ]
+  },
+  "package":{
+   "name":"dash_cytoscape",
+   "version":"0.1.1"
+  },
+  "requirements":{
+   "host":[
+    "pip",
+    "python >=3.5",
+    "pip",
+    "python >=3.5",
+    "pip",
+    "python >=3.5"
+   ],
+   "run":[
+    "dash",
+    "python >=3.5",
+    "dash",
+    "python >=3.5",
+    "dash",
+    "python >=3.5"
+   ]
+  },
+  "source":{
+   "sha256":"0cb0d26ba39273cecbb95ee61ceb9faebb71fd6617b7d5f245a73afb9c308444",
+   "url":"https://pypi.io/packages/source/d/dash_cytoscape/dash_cytoscape-0.1.1.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "dash_cytoscape",
+    "dash_cytoscape",
+    "dash_cytoscape"
+   ]
+  }
+ },
+ "name":"dash_cytoscape",
+ "new_version":"0.1.1",
+ "raw_meta_yaml":"{% set name = \"dash_cytoscape\" %}\n{% set version = \"0.1.1\" %}\n\npackage:\n  name: \"{{ name|lower }}\"\n  version: \"{{ version }}\"\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: 0cb0d26ba39273cecbb95ee61ceb9faebb71fd6617b7d5f245a73afb9c308444\n\nbuild:\n  noarch: python\n  number: 0\n  script: \"{{ PYTHON }} -m pip install . -vv \"\n\nrequirements:\n  host:\n    - pip\n    - python >=3.5\n  run:\n    - dash\n    - python >=3.5\n\ntest:\n  imports:\n    - dash_cytoscape\n\nabout:\n  home: https://github.com/plotly/dash-cytoscape\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE\n  summary: A Component Library for Dash aimed at facilitating network visualization in Python, wrapped around Cytoscape.js\n  doc_url: https://dash.plot.ly/cytoscape\n  dev_url: https://github.com/plotly/dash-cytoscape\n\nextra:\n  recipe-maintainers:\n    - rluria14\n    - oblute\n    - adbeda\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "dash",
+   "pip",
+   "python"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "dash",
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3.5"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "dash",
+    "python >=3.5"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/d/dash_cytoscape/dash_cytoscape-0.1.1.tar.gz",
+ "version":"0.1.1"
+}

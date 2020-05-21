@@ -1,0 +1,83 @@
+{
+ "bad":"Upstream: Error getting upstream version",
+ "conda-forge.yml":{},
+ "feedstock_name":"conda-ecosystem-user-package-isolation",
+ "meta_yaml":{
+  "about":{
+   "home":"http://conda-forge.org/",
+   "license":"BSD",
+   "summary":"Prevent python and R from searching for packages outside of the current environment"
+  },
+  "build":{
+   "number":"0",
+   "skip":true
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "fgp",
+    "fgp",
+    "fgp"
+   ]
+  },
+  "package":{
+   "name":"conda-ecosystem-user-package-isolation",
+   "version":"1.0"
+  },
+  "test":{
+   "commands":[
+    "test \"$PYTHONNOUSERSITE\" == \"1\"",
+    "test \"$R_LIBS_USER\" == \"-\"",
+    "test \"$PYTHONNOUSERSITE\" == \"1\"",
+    "test \"$R_LIBS_USER\" == \"-\"",
+    "test \"$PYTHONNOUSERSITE\" == \"1\"",
+    "test \"$R_LIBS_USER\" == \"-\""
+   ]
+  }
+ },
+ "name":"conda-ecosystem-user-package-isolation",
+ "new_version":false,
+ "raw_meta_yaml":"package:\n  name: conda-ecosystem-user-package-isolation\n  version: 1.0\n\nbuild:\n  number: 0\n  skip: true  # [win]\n\ntest:\n  commands:\n    - test \"$PYTHONNOUSERSITE\" == \"1\"\n    - test \"$R_LIBS_USER\" == \"-\"\n\nabout:\n  home: http://conda-forge.org/\n  license: BSD\n  summary: 'Prevent python and R from searching for packages outside of the current environment'\n\nextra:\n  recipe-maintainers:\n    - fgp\n",
+ "req":{
+  "__set__":true,
+  "elements":[]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "strong_exports":false,
+ "time":1568135305.5195448,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "version":"1.0"
+}

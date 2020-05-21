@@ -1,0 +1,165 @@
+{
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"tszip",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"Tszip provides high-levels of compression for tskit tree sequence\nfiles, via a simple Python API and gzip-like command line interface.\n",
+   "dev_url":"https://github.com/tskit-dev/tszip",
+   "doc_url":"http://tszip.readthedocs.io/",
+   "home":"http://github.com/tskit-dev/tszip",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"LICENSE",
+   "summary":"Gzip-like compression utility for tskit tree sequences."
+  },
+  "build":{
+   "entry_points":[
+    "tszip=tszip.cli:tszip_main",
+    "tsunzip=tszip.cli:tsunzip_main",
+    "tszip=tszip.cli:tszip_main",
+    "tsunzip=tszip.cli:tsunzip_main",
+    "tszip=tszip.cli:tszip_main",
+    "tsunzip=tszip.cli:tsunzip_main"
+   ],
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . --no-deps -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "jeromekelleher",
+    "jeromekelleher",
+    "jeromekelleher"
+   ]
+  },
+  "package":{
+   "name":"tszip",
+   "version":"0.1.0"
+  },
+  "requirements":{
+   "host":[
+    "setuptools",
+    "setuptools_scm",
+    "python >=3.6",
+    "pip",
+    "setuptools",
+    "setuptools_scm",
+    "python >=3.6",
+    "pip",
+    "setuptools",
+    "setuptools_scm",
+    "python >=3.6",
+    "pip"
+   ],
+   "run":[
+    "python >=3.6",
+    "tskit",
+    "zarr",
+    "humanize",
+    "python >=3.6",
+    "tskit",
+    "zarr",
+    "humanize",
+    "python >=3.6",
+    "tskit",
+    "zarr",
+    "humanize"
+   ]
+  },
+  "source":{
+   "sha256":"1edb75b0d8b11c4a7b41ea5d4e14929920b18b3f6a81f3f08c90f0cc80f1d0c1",
+   "url":"https://pypi.io/packages/source/t/tszip/tszip-0.1.0.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "tszip -h",
+    "tsunzip -h",
+    "tszip -h",
+    "tsunzip -h",
+    "tszip -h",
+    "tsunzip -h"
+   ],
+   "imports":[
+    "tszip",
+    "tszip",
+    "tszip"
+   ]
+  }
+ },
+ "name":"tszip",
+ "new_version":"0.1.0",
+ "raw_meta_yaml":"{% set name = \"tszip\" %}\n{% set version = \"0.1.0\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: 1edb75b0d8b11c4a7b41ea5d4e14929920b18b3f6a81f3f08c90f0cc80f1d0c1\n\nbuild:\n  number: 0\n  script: \"{{ PYTHON }} -m pip install . --no-deps -vv\"\n  entry_points:\n    - tszip=tszip.cli:tszip_main\n    - tsunzip=tszip.cli:tsunzip_main\n  noarch: python\n\nrequirements:\n  host:\n    - setuptools\n    - setuptools_scm\n    - python >=3.6\n    - pip\n  run:\n    - python >=3.6\n    - tskit\n    - zarr\n    - humanize\n\ntest:\n  commands:\n    - tszip -h\n    - tsunzip -h\n  imports:\n    - tszip\n\nabout:\n  home: http://github.com/tskit-dev/tszip\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE\n  summary: 'Gzip-like compression utility for tskit tree sequences.'\n\n  # The remaining entries in this section are optional, but recommended\n  description: |\n    Tszip provides high-levels of compression for tskit tree sequence \n    files, via a simple Python API and gzip-like command line interface.\n  doc_url: http://tszip.readthedocs.io/\n  dev_url: https://github.com/tskit-dev/tszip\n\nextra:\n  recipe-maintainers:\n    - jeromekelleher\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "humanize",
+   "pip",
+   "python",
+   "setuptools",
+   "setuptools_scm",
+   "tskit",
+   "zarr"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python",
+    "setuptools",
+    "setuptools_scm"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "humanize",
+    "python",
+    "tskit",
+    "zarr"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3.6",
+    "setuptools",
+    "setuptools_scm"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "humanize",
+    "python >=3.6",
+    "tskit",
+    "zarr"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/t/tszip/tszip-0.1.0.tar.gz",
+ "version":"0.1.0"
+}

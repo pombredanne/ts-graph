@@ -1,0 +1,175 @@
+{
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"mbuild",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"With just a few lines of mBuild code, you can assemble reusable components into\ncomplex molecular systems for molecular dynamics simulations. mBuild is\ndesigned to minimize or even eliminate the need to explicitly translate and\norient components when building systems: you simply tell it to connect two\npieces! mBuild also keeps track of the system's topology so you don't have to\nworry about manually defining bonds when constructing chemically bonded\nstructures from smaller components.\n",
+   "dev_url":"https://github.com/mosdef-hub/mbuild",
+   "doc_url":"https://mbuild.mosdef.org/",
+   "home":"https://github.com/mosdef-hub/mbuild",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"LICENSE.rst",
+   "summary":"A hierarchical, component based molecule builder."
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "bdice",
+    "justinGilmer",
+    "bdice",
+    "justinGilmer",
+    "bdice",
+    "justinGilmer"
+   ]
+  },
+  "package":{
+   "name":"mbuild",
+   "version":"0.10.5"
+  },
+  "requirements":{
+   "host":[
+    "pip",
+    "protobuf",
+    "python >=3.6",
+    "pip",
+    "protobuf",
+    "python >=3.6",
+    "pip",
+    "protobuf",
+    "python >=3.6"
+   ],
+   "run":[
+    "mdtraj",
+    "nglview >=2.7",
+    "numpy",
+    "oset",
+    "scipy",
+    "packmol",
+    "parmed",
+    "protobuf",
+    "python >=3.6",
+    "mdtraj",
+    "nglview >=2.7",
+    "numpy",
+    "oset",
+    "scipy",
+    "packmol",
+    "parmed",
+    "protobuf",
+    "python >=3.6",
+    "mdtraj",
+    "nglview >=2.7",
+    "numpy",
+    "oset",
+    "scipy",
+    "packmol",
+    "parmed",
+    "protobuf",
+    "python >=3.6"
+   ]
+  },
+  "source":{
+   "sha256":"eb9878f550591a68d5404f5b173ad6343a236fbe9eca3331e53e8d8fc918e658",
+   "url":"https://github.com/mosdef-hub/mbuild/archive/0.10.5.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "mbuild",
+    "mbuild",
+    "mbuild"
+   ]
+  }
+ },
+ "name":"mbuild",
+ "new_version":"0.10.5",
+ "raw_meta_yaml":"{% set name = \"mbuild\" %}\n{% set version = \"0.10.5\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://github.com/mosdef-hub/mbuild/archive/{{ version }}.tar.gz\n  sha256: eb9878f550591a68d5404f5b173ad6343a236fbe9eca3331e53e8d8fc918e658\n\nbuild:\n  noarch: python\n  number: 0\n  script: \"{{ PYTHON }} -m pip install . -vv\"\n\nrequirements:\n  host:\n    - pip\n    - protobuf\n    - python >=3.6\n  run:\n    - mdtraj\n    - nglview >=2.7\n    - numpy\n    - oset\n    - scipy\n    - packmol\n    - parmed\n    - protobuf\n    - python >=3.6\n\ntest:\n  imports:\n    - mbuild\n\nabout:\n  home: https://github.com/mosdef-hub/mbuild\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE.rst\n  summary: 'A hierarchical, component based molecule builder.'\n\n  # The remaining entries in this section are optional, but recommended.\n  description: |\n    With just a few lines of mBuild code, you can assemble reusable components into\n    complex molecular systems for molecular dynamics simulations. mBuild is\n    designed to minimize or even eliminate the need to explicitly translate and\n    orient components when building systems: you simply tell it to connect two\n    pieces! mBuild also keeps track of the system's topology so you don't have to\n    worry about manually defining bonds when constructing chemically bonded\n    structures from smaller components.\n  doc_url: https://mbuild.mosdef.org/\n  dev_url: https://github.com/mosdef-hub/mbuild\n\nextra:\n  recipe-maintainers:\n    - bdice\n    - justinGilmer\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "mdtraj",
+   "nglview",
+   "numpy",
+   "oset",
+   "packmol",
+   "parmed",
+   "pip",
+   "protobuf",
+   "python",
+   "scipy"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "protobuf",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "mdtraj",
+    "nglview",
+    "numpy",
+    "oset",
+    "packmol",
+    "parmed",
+    "protobuf",
+    "python",
+    "scipy"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "protobuf",
+    "python >=3.6"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "mdtraj",
+    "nglview >=2.7",
+    "numpy",
+    "oset",
+    "packmol",
+    "parmed",
+    "protobuf",
+    "python >=3.6",
+    "scipy"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://github.com/mosdef-hub/mbuild/archive/0.10.5.tar.gz",
+ "version":"0.10.5"
+}

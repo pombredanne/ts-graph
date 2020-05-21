@@ -1,0 +1,257 @@
+{
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"kedro",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"Kedro is a development workflow framework that implements\nsoftware engineering best-practice for data pipelines\nwith an eye towards productionising machine learning models.\n",
+   "dev_url":"https://github.com/quantumblacklabs/kedro",
+   "doc_url":"https://kedro.readthedocs.io/",
+   "home":"https://github.com/quantumblacklabs/kedro",
+   "license":"Apache-2.0",
+   "license_file":"LICENSE.md",
+   "summary":"A Python library that implements software engineering best-practice for data and ML pipelines."
+  },
+  "build":{
+   "entry_points":[
+    "kedro = kedro.cli:main",
+    "kedro = kedro.cli:main",
+    "kedro = kedro.cli:main"
+   ],
+   "noarch":"python",
+   "number":"0",
+   "script":"-m pip install . -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "marcelotrevisani",
+    "lorenabalan",
+    "yetudada",
+    "idanov",
+    "marcelotrevisani",
+    "lorenabalan",
+    "yetudada",
+    "idanov",
+    "marcelotrevisani",
+    "lorenabalan",
+    "yetudada",
+    "idanov"
+   ]
+  },
+  "package":{
+   "name":"kedro",
+   "version":"0.15.9"
+  },
+  "requirements":{
+   "host":[
+    "pip",
+    "python >=3.5,<3.8",
+    "pip",
+    "python >=3.5,<3.8",
+    "pip",
+    "python >=3.5,<3.8"
+   ],
+   "run":[
+    "anyconfig <1.0,>=0.9.7",
+    "azure-storage-blob <2.0,>=1.1.0",
+    "azure-storage-file <2.0,>=1.1.0",
+    "azure-storage-queue <2.0,>=1.1.0",
+    "click <8.0",
+    "cookiecutter <2.0,>=1.6.0",
+    "fsspec <0.7.0,>=0.5.1",
+    "pandas <1.0,>=0.24.0",
+    "pandas-gbq <1.0,>=0.12.0",
+    "pip-tools <5.0.0,>=4.0.0",
+    "pyarrow <1.0.0,>=0.12.0",
+    "python >=3.5,<3.8",
+    "python-json-logger <1.0,>=0.1.9",
+    "pyyaml <6.0,>=4.2",
+    "requests <3.0,>=2.20.0",
+    "s3fs <0.4.1,>=0.3.0",
+    "sqlalchemy <2.0,>=1.2.0",
+    "pytables <3.6,>=3.4.4",
+    "toposort <2.0,>=1.5",
+    "xlrd <2.0,>=1.0.0",
+    "xlsxwriter <2.0,>=1.0.0",
+    "anyconfig <1.0,>=0.9.7",
+    "azure-storage-blob <2.0,>=1.1.0",
+    "azure-storage-file <2.0,>=1.1.0",
+    "azure-storage-queue <2.0,>=1.1.0",
+    "click <8.0",
+    "cookiecutter <2.0,>=1.6.0",
+    "fsspec <0.7.0,>=0.5.1",
+    "pandas <1.0,>=0.24.0",
+    "pandas-gbq <1.0,>=0.12.0",
+    "pip-tools <5.0.0,>=4.0.0",
+    "pyarrow <1.0.0,>=0.12.0",
+    "python >=3.5,<3.8",
+    "python-json-logger <1.0,>=0.1.9",
+    "pyyaml <6.0,>=4.2",
+    "requests <3.0,>=2.20.0",
+    "s3fs <0.4.1,>=0.3.0",
+    "sqlalchemy <2.0,>=1.2.0",
+    "pytables <3.6,>=3.4.4",
+    "toposort <2.0,>=1.5",
+    "xlrd <2.0,>=1.0.0",
+    "xlsxwriter <2.0,>=1.0.0",
+    "anyconfig <1.0,>=0.9.7",
+    "azure-storage-blob <2.0,>=1.1.0",
+    "azure-storage-file <2.0,>=1.1.0",
+    "azure-storage-queue <2.0,>=1.1.0",
+    "click <8.0",
+    "cookiecutter <2.0,>=1.6.0",
+    "fsspec <0.7.0,>=0.5.1",
+    "pandas <1.0,>=0.24.0",
+    "pandas-gbq <1.0,>=0.12.0",
+    "pip-tools <5.0.0,>=4.0.0",
+    "pyarrow <1.0.0,>=0.12.0",
+    "python >=3.5,<3.8",
+    "python-json-logger <1.0,>=0.1.9",
+    "pyyaml <6.0,>=4.2",
+    "requests <3.0,>=2.20.0",
+    "s3fs <0.4.1,>=0.3.0",
+    "sqlalchemy <2.0,>=1.2.0",
+    "pytables <3.6,>=3.4.4",
+    "toposort <2.0,>=1.5",
+    "xlrd <2.0,>=1.0.0",
+    "xlsxwriter <2.0,>=1.0.0"
+   ]
+  },
+  "source":{
+   "sha256":"b9a1aef1f6a5aba91e8726bcc85d746f8966fcb12dd466b506890e76326d3357",
+   "url":"https://github.com/quantumblacklabs/kedro/archive/0.15.9.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "kedro --help",
+    "kedro --help",
+    "kedro --help"
+   ],
+   "imports":[
+    "kedro",
+    "kedro",
+    "kedro"
+   ]
+  }
+ },
+ "name":"kedro",
+ "new_version":"0.15.9",
+ "raw_meta_yaml":"{% set name = \"kedro\" %}\n{% set version = \"0.15.9\" %}\n\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://github.com/quantumblacklabs/kedro/archive/{{ version }}.tar.gz\n  sha256: b9a1aef1f6a5aba91e8726bcc85d746f8966fcb12dd466b506890e76326d3357\n\nbuild:\n  number: 0\n  noarch: python\n  script: {{ PYTHON }} -m pip install . -vv\n  entry_points:\n    - kedro = kedro.cli:main\n\nrequirements:\n  host:\n    - pip\n    - python >=3.5,<3.8\n  run:\n    - anyconfig <1.0,>=0.9.7\n    - azure-storage-blob <2.0,>=1.1.0\n    - azure-storage-file <2.0,>=1.1.0\n    - azure-storage-queue <2.0,>=1.1.0\n    - click <8.0\n    - cookiecutter <2.0,>=1.6.0\n    - fsspec <0.7.0,>=0.5.1\n    - pandas <1.0,>=0.24.0\n    - pandas-gbq <1.0,>=0.12.0\n    - pip-tools <5.0.0,>=4.0.0\n    - pyarrow <1.0.0,>=0.12.0\n    - python >=3.5,<3.8\n    - python-json-logger <1.0,>=0.1.9\n    - pyyaml <6.0,>=4.2\n    - requests <3.0,>=2.20.0\n    - s3fs <0.4.1,>=0.3.0\n    - sqlalchemy <2.0,>=1.2.0\n    - pytables <3.6,>=3.4.4\n    - toposort <2.0,>=1.5\n    - xlrd <2.0,>=1.0.0\n    - xlsxwriter <2.0,>=1.0.0\n\ntest:\n  imports:\n    - kedro\n  commands:\n    - kedro --help\n\nabout:\n  home: https://github.com/quantumblacklabs/kedro\n  summary: A Python library that implements software engineering best-practice for data and ML pipelines.\n  license: Apache-2.0\n  license_file: LICENSE.md\n  doc_url: https://kedro.readthedocs.io/\n  dev_url: https://github.com/quantumblacklabs/kedro\n  description: |\n    Kedro is a development workflow framework that implements\n    software engineering best-practice for data pipelines\n    with an eye towards productionising machine learning models.\n\nextra:\n  recipe-maintainers:\n    - marcelotrevisani\n    - lorenabalan\n    - yetudada\n    - idanov\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "anyconfig",
+   "azure-storage-blob",
+   "azure-storage-file",
+   "azure-storage-queue",
+   "click",
+   "cookiecutter",
+   "fsspec",
+   "pandas",
+   "pandas-gbq",
+   "pip",
+   "pip-tools",
+   "pyarrow",
+   "pytables",
+   "python",
+   "python-json-logger",
+   "pyyaml",
+   "requests",
+   "s3fs",
+   "sqlalchemy",
+   "toposort",
+   "xlrd",
+   "xlsxwriter"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "anyconfig",
+    "azure-storage-blob",
+    "azure-storage-file",
+    "azure-storage-queue",
+    "click",
+    "cookiecutter",
+    "fsspec",
+    "pandas",
+    "pandas-gbq",
+    "pip-tools",
+    "pyarrow",
+    "pytables",
+    "python",
+    "python-json-logger",
+    "pyyaml",
+    "requests",
+    "s3fs",
+    "sqlalchemy",
+    "toposort",
+    "xlrd",
+    "xlsxwriter"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3.5,<3.8"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "anyconfig <1.0,>=0.9.7",
+    "azure-storage-blob <2.0,>=1.1.0",
+    "azure-storage-file <2.0,>=1.1.0",
+    "azure-storage-queue <2.0,>=1.1.0",
+    "click <8.0",
+    "cookiecutter <2.0,>=1.6.0",
+    "fsspec <0.7.0,>=0.5.1",
+    "pandas <1.0,>=0.24.0",
+    "pandas-gbq <1.0,>=0.12.0",
+    "pip-tools <5.0.0,>=4.0.0",
+    "pyarrow <1.0.0,>=0.12.0",
+    "pytables <3.6,>=3.4.4",
+    "python >=3.5,<3.8",
+    "python-json-logger <1.0,>=0.1.9",
+    "pyyaml <6.0,>=4.2",
+    "requests <3.0,>=2.20.0",
+    "s3fs <0.4.1,>=0.3.0",
+    "sqlalchemy <2.0,>=1.2.0",
+    "toposort <2.0,>=1.5",
+    "xlrd <2.0,>=1.0.0",
+    "xlsxwriter <2.0,>=1.0.0"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://github.com/quantumblacklabs/kedro/archive/0.15.9.tar.gz",
+ "version":"0.15.9"
+}

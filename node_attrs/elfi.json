@@ -1,0 +1,219 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/301712997.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Rebuild",
+    "migrator_version":0,
+    "name":"graphviz-2.40"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/378731550.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MatplotlibBase",
+    "migrator_version":0,
+    "name":"matplotlib-to-matplotlib-base"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"elfi",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"ELFI is a statistical software package written in Python for likelihood-free\ninference (LFI) such as Approximate Bayesian Computation (ABC).\n",
+   "dev_url":"https://github.com/elfi-dev/elfi",
+   "home":"http://www.elfi.ai/",
+   "license":"BSD-3",
+   "license_family":"BSD",
+   "license_file":"LICENSE",
+   "summary":"ELFI - Engine for Likelihood-Free Inference"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"2",
+   "script":" -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "johnlees",
+    "hpesonen",
+    "johnlees",
+    "hpesonen",
+    "johnlees",
+    "hpesonen"
+   ]
+  },
+  "package":{
+   "name":"elfi",
+   "version":"0.7.4"
+  },
+  "requirements":{
+   "host":[
+    "python >=3",
+    "pip",
+    "python >=3",
+    "pip",
+    "python >=3",
+    "pip"
+   ],
+   "run":[
+    "python >=3",
+    "numpy",
+    "scipy >=0.19",
+    "matplotlib-base",
+    "GPy",
+    "networkX >=1.11,<2.0",
+    "ipyparallel",
+    "toolz",
+    "scikit-learn",
+    "graphviz",
+    "python >=3",
+    "numpy",
+    "scipy >=0.19",
+    "matplotlib-base",
+    "GPy",
+    "networkX >=1.11,<2.0",
+    "ipyparallel",
+    "toolz",
+    "scikit-learn",
+    "graphviz",
+    "python >=3",
+    "numpy",
+    "scipy >=0.19",
+    "matplotlib-base",
+    "GPy",
+    "networkX >=1.11,<2.0",
+    "ipyparallel",
+    "toolz",
+    "scikit-learn",
+    "graphviz"
+   ]
+  },
+  "source":{
+   "sha256":"b930870a3e904bef88709ecd65545a2b030962a554324b21dc6aeb5ae9473a99",
+   "url":"https://github.com/elfi-dev/elfi/archive/v0.7.4.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "elfi",
+    "elfi",
+    "elfi"
+   ]
+  }
+ },
+ "name":"elfi",
+ "new_version":"0.7.5",
+ "new_version_attempts":{
+  "0.7.5":713
+ },
+ "new_version_errors":{
+  "0.7.5":"The recipe did not change in the version migration, a URL did not hash, or there is jinja2 syntax the bot cannot handle!\n\nPlease check the URLs in your recipe with version '0.7.5' to make sure they exist!\n\nWe also found the following errors:\n\n - could not hash URL template 'https://github.com/elfi-dev/{{ name|lower }}/archive/v{{ version }}.tar.gz'\n"
+ },
+ "pinning_version":"2020.02.20",
+ "raw_meta_yaml":"{% set name = \"elfi\" %}\n{% set version = \"0.7.4\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://github.com/elfi-dev/{{ name|lower }}/archive/v{{ version }}.tar.gz\n  sha256: b930870a3e904bef88709ecd65545a2b030962a554324b21dc6aeb5ae9473a99\n\nbuild:\n  number: 2\n  noarch: python\n  script: \"{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv\"\n\nrequirements:\n  host:\n    - python >=3\n    - pip\n\n  run:\n    - python >=3\n    - numpy\n    - scipy >=0.19\n    - matplotlib-base\n    - GPy\n    - networkX >=1.11,<2.0\n    - ipyparallel\n    - toolz\n    - scikit-learn\n    - graphviz\n\ntest:\n  imports:\n    - elfi\n\nabout:\n  home: http://www.elfi.ai/\n  license: BSD-3\n  license_family: BSD\n  license_file: LICENSE\n  summary: 'ELFI - Engine for Likelihood-Free Inference'\n  description: |\n    ELFI is a statistical software package written in Python for likelihood-free\n    inference (LFI) such as Approximate Bayesian Computation (ABC).\n  dev_url: https://github.com/elfi-dev/elfi\n\nextra:\n  recipe-maintainers:\n    - johnlees\n    - hpesonen\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "gpy",
+   "graphviz",
+   "ipyparallel",
+   "matplotlib-base",
+   "networkx",
+   "numpy",
+   "pip",
+   "python",
+   "scikit-learn",
+   "scipy",
+   "toolz"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "gpy",
+    "graphviz",
+    "ipyparallel",
+    "matplotlib-base",
+    "networkx",
+    "numpy",
+    "python",
+    "scikit-learn",
+    "scipy",
+    "toolz"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.6.8",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "GPy",
+    "graphviz",
+    "ipyparallel",
+    "matplotlib-base",
+    "networkX >=1.11,<2.0",
+    "numpy",
+    "python >=3",
+    "scikit-learn",
+    "scipy >=0.19",
+    "toolz"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://github.com/elfi-dev/elfi/archive/v0.7.4.tar.gz",
+ "version":"0.7.4"
+}

@@ -1,0 +1,364 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/231767618.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/262272091.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"BlasRebuild",
+    "migrator_version":0,
+    "name":"blas2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/308388695.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"GFortranOSXRebuild",
+    "migrator_version":0,
+    "name":"fortran_compiler_stub-7"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/309700079.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.0.3"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/328299586.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"libnetcdf-4"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/335507503.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"python38"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/353622307.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"libnetcdf473"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/4673f9b7-3f8c-4b8b-bf3e-58a5cf1b3d9a.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"pypy"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/395922059.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"libnetcdf474"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"libcf",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"By using libcf, a data producer can produce files that conform to the CF\nstandards, without having to write netCDF code to create and decode all\nthe attributes that the CF convention uses to store meta-data. A data consumer\ncan use libcf to read any file which conforms to the CF conventions; the\nfile does not need to be created with libcf to be read by libcf\n",
+   "dev_url":"https://sourceforge.net/projects/libcf/",
+   "home":"http://www.unidata.ucar.edu/software/libcf/",
+   "license":"UCAR/UNIDATA",
+   "license_file":"COPYRIGHT",
+   "summary":"LibCF library access data files in accordance with the CF Conventions."
+  },
+  "build":{
+   "number":"108",
+   "skip":true
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "dnadeau4",
+    "doutriaux1",
+    "xylar",
+    "downiec",
+    "muryanto1",
+    "jasonb5",
+    "dnadeau4",
+    "doutriaux1",
+    "xylar",
+    "downiec",
+    "muryanto1",
+    "jasonb5",
+    "dnadeau4",
+    "doutriaux1",
+    "xylar",
+    "downiec",
+    "muryanto1",
+    "jasonb5"
+   ]
+  },
+  "package":{
+   "name":"libcf",
+   "version":"1.0.3"
+  },
+  "requirements":{
+   "build":[
+    "c_compiler_stub",
+    "c_compiler_stub",
+    "c_compiler_stub"
+   ],
+   "host":[
+    "python",
+    "libnetcdf",
+    "libnetcdf * nompi_*",
+    "libblas 3.8.0 *openblas",
+    "libcblas 3.8.0 *openblas",
+    "curl >=7.44.0,<8",
+    "libuuid",
+    "python",
+    "libnetcdf",
+    "libnetcdf * nompi_*",
+    "libblas 3.8.0 *openblas",
+    "libcblas 3.8.0 *openblas",
+    "curl >=7.44.0,<8",
+    "libuuid",
+    "python",
+    "libnetcdf",
+    "libnetcdf * nompi_*",
+    "libblas 3.8.0 *openblas",
+    "libcblas 3.8.0 *openblas",
+    "curl >=7.44.0,<8",
+    "libuuid"
+   ],
+   "run":[
+    "python",
+    "libnetcdf",
+    "curl >=7.44.0,<8",
+    "libuuid",
+    "libblas 3.8.0 *openblas",
+    "libcblas 3.8.0 *openblas",
+    "python",
+    "libnetcdf",
+    "curl >=7.44.0,<8",
+    "libuuid",
+    "libblas 3.8.0 *openblas",
+    "libcblas 3.8.0 *openblas",
+    "python",
+    "libnetcdf",
+    "curl >=7.44.0,<8",
+    "libuuid",
+    "libblas 3.8.0 *openblas",
+    "libcblas 3.8.0 *openblas"
+   ]
+  },
+  "source":{
+   "sha256":"bf8102f55489fe96cd98e365e0e013837396c84a8c47c8a4eb15ef627817c1c9",
+   "url":"https://github.com/CDAT/libcf/archive/1.0.3.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "pycf",
+    "pycf.libCFConfig",
+    "pycf",
+    "pycf.libCFConfig",
+    "pycf",
+    "pycf.libCFConfig"
+   ]
+  }
+ },
+ "name":"libcf",
+ "new_version":"1.0.3",
+ "pinning_version":"2020.03.30",
+ "raw_meta_yaml":"{% set name = \"libcf\" %}\n{% set version = \"1.0.3\" %}\n{% set build = 108 %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://github.com/CDAT/libcf/archive/1.0.3.tar.gz\n  sha256: bf8102f55489fe96cd98e365e0e013837396c84a8c47c8a4eb15ef627817c1c9\n\nbuild:\n  number: {{ build }}\n  skip: True  # [win]\n\nrequirements:\n  build:\n    - {{ compiler('c') }}\n  host:\n    - python\n    - libnetcdf\n    # building with the nompi variant should allow any MPI variant at runtime\n    - libnetcdf * nompi_*\n    - libblas 3.8.0 *openblas\n    - libcblas 3.8.0 *openblas\n    - curl >=7.44.0,<8\n    - libuuid\n  run:\n    - python\n    - libnetcdf\n    - curl >=7.44.0,<8\n    - libuuid\n    - libblas 3.8.0 *openblas\n    - libcblas 3.8.0 *openblas\ntest:\n  imports:\n    - pycf\n    - pycf.libCFConfig\n\nabout:\n  home: http://www.unidata.ucar.edu/software/libcf/\n  license: 'UCAR/UNIDATA'\n  license_file: 'COPYRIGHT'\n  summary: 'LibCF library access data files in accordance with the CF Conventions.'\n  description: |\n    By using libcf, a data producer can produce files that conform to the CF\n    standards, without having to write netCDF code to create and decode all\n    the attributes that the CF convention uses to store meta-data. A data consumer\n    can use libcf to read any file which conforms to the CF conventions; the\n    file does not need to be created with libcf to be read by libcf\n  dev_url: https://sourceforge.net/projects/libcf/\n\nextra:\n  recipe-maintainers:\n    - dnadeau4\n    - doutriaux1\n    - xylar\n    - downiec\n    - muryanto1\n    - jasonb5\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "c_compiler_stub",
+   "curl",
+   "libblas",
+   "libcblas",
+   "libnetcdf",
+   "libuuid",
+   "python"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "curl",
+    "libblas",
+    "libcblas",
+    "libnetcdf",
+    "libuuid",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "curl",
+    "libblas",
+    "libcblas",
+    "libnetcdf",
+    "libuuid",
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.6.15",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "curl >=7.44.0,<8",
+    "libblas 3.8.0 *openblas",
+    "libcblas 3.8.0 *openblas",
+    "libnetcdf",
+    "libnetcdf * nompi_*",
+    "libuuid",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "curl >=7.44.0,<8",
+    "libblas 3.8.0 *openblas",
+    "libcblas 3.8.0 *openblas",
+    "libnetcdf",
+    "libuuid",
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://github.com/CDAT/libcf/archive/1.0.3.tar.gz",
+ "version":"1.0.3"
+}

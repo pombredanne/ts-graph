@@ -1,0 +1,178 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/200005834.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Noarch",
+    "migrator_version":0
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"pytest-base-url",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"https://github.com/pytest-dev/pytest-base-url",
+   "license":"MPL 2.0",
+   "license_family":"OTHER",
+   "license_file":"LICENSE",
+   "summary":"pytest plugin for URL based testing"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"1",
+   "script":"python -m pip install --no-deps --ignore-installed ."
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "birdsarah",
+    "davehunt",
+    "birdsarah",
+    "davehunt",
+    "birdsarah",
+    "davehunt"
+   ]
+  },
+  "package":{
+   "name":"pytest-base-url",
+   "version":"1.4.1"
+  },
+  "requirements":{
+   "host":[
+    "pip",
+    "python",
+    "setuptools",
+    "setuptools_scm",
+    "pytest >=2.7.3",
+    "requests >=2.9",
+    "pip",
+    "python",
+    "setuptools",
+    "setuptools_scm",
+    "pytest >=2.7.3",
+    "requests >=2.9",
+    "pip",
+    "python",
+    "setuptools",
+    "setuptools_scm",
+    "pytest >=2.7.3",
+    "requests >=2.9"
+   ],
+   "run":[
+    "python",
+    "setuptools",
+    "pytest >=2.7.3",
+    "requests >=2.9",
+    "python",
+    "setuptools",
+    "pytest >=2.7.3",
+    "requests >=2.9",
+    "python",
+    "setuptools",
+    "pytest >=2.7.3",
+    "requests >=2.9"
+   ]
+  },
+  "source":{
+   "fn":"pytest-base-url-1.4.1.tar.gz",
+   "sha256":"7425e8163345494ac7f544e99c6f3e5a08f4228bee5e26013b98c462a4d31f6e",
+   "url":"https://pypi.io/packages/source/p/pytest-base-url/pytest-base-url-1.4.1.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "pytest_base_url",
+    "pytest_base_url",
+    "pytest_base_url"
+   ]
+  }
+ },
+ "name":"pytest-base-url",
+ "new_version":"1.4.1",
+ "pinning_version":"2018.07.01",
+ "raw_meta_yaml":"{% set name = \"pytest-base-url\" %}\n{% set version = \"1.4.1\" %}\n{% set hash_type = \"sha256\" %}\n{% set hash = \"7425e8163345494ac7f544e99c6f3e5a08f4228bee5e26013b98c462a4d31f6e\" %}\n\npackage:\n  name: {{ name }}\n  version: {{ version }}\n\nsource:\n  fn: {{ name }}-{{ version }}.tar.gz\n  url: https://pypi.io/packages/source/p/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  {{ hash_type }}: {{ hash }}\n\nbuild:\n  noarch: python\n  number: 1\n  script: python -m pip install --no-deps --ignore-installed .\n\nrequirements:\n  host:\n    - pip\n    - python\n    - setuptools\n    - setuptools_scm\n    - pytest >=2.7.3\n    - requests >=2.9\n\n  run:\n    - python\n    - setuptools\n    - pytest >=2.7.3\n    - requests >=2.9\n\ntest:\n  imports:\n    - pytest_base_url\n\nabout:\n  home: https://github.com/pytest-dev/pytest-base-url\n  license: MPL 2.0\n  license_family: OTHER\n  license_file: LICENSE\n  summary: 'pytest plugin for URL based testing'\n\nextra:\n  recipe-maintainers:\n    - birdsarah\n    - davehunt\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "pip",
+   "pytest",
+   "python",
+   "requests",
+   "setuptools",
+   "setuptools_scm"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "pytest",
+    "python",
+    "requests",
+    "setuptools",
+    "setuptools_scm"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "pytest",
+    "python",
+    "requests",
+    "setuptools"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.1.6",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "pytest >=2.7.3",
+    "python",
+    "requests >=2.9",
+    "setuptools",
+    "setuptools_scm"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "pytest >=2.7.3",
+    "python",
+    "requests >=2.9",
+    "setuptools"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/p/pytest-base-url/pytest-base-url-1.4.1.tar.gz",
+ "version":"1.4.1"
+}

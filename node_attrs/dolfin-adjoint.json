@@ -1,0 +1,169 @@
+{
+ "PRed":[
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2018.1.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"dolfin-adjoint",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"The dolfin-adjoint project automatically derives the discrete adjoint\nand tangent linear models from a forward model written in the Python\ninterface to DOLFIN.\n",
+   "dev_url":"https://bitbucket.org/dolfin-adjoint/dolfin-adjoint",
+   "doc_url":"http://www.dolfin-adjoint.org/en/latest/documentation/index.html",
+   "home":"http://www.dolfin-adjoint.org/",
+   "license":"LGPL-3.0",
+   "license_family":"LGPL",
+   "license_file":"LICENSE",
+   "summary":"derives the discrete adjoint and tangent linear models"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":"python -m pip install --no-deps ."
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "johannesring",
+    "funsim",
+    "minrk",
+    "johannesring",
+    "funsim",
+    "minrk",
+    "johannesring",
+    "funsim",
+    "minrk"
+   ]
+  },
+  "package":{
+   "name":"dolfin-adjoint",
+   "version":"2019.1.0"
+  },
+  "requirements":{
+   "host":[
+    "python >=3.5",
+    "pip",
+    "python >=3.5",
+    "pip",
+    "python >=3.5",
+    "pip"
+   ],
+   "run":[
+    "python >=3.5",
+    "fenics 2019.1.*",
+    "moola >=0.1.6",
+    "scipy",
+    "python >=3.5",
+    "fenics 2019.1.*",
+    "moola >=0.1.6",
+    "scipy",
+    "python >=3.5",
+    "fenics 2019.1.*",
+    "moola >=0.1.6",
+    "scipy"
+   ]
+  },
+  "source":{
+   "fn":"dolfin-adjoint-2019.1.0.tar.gz",
+   "patches":null,
+   "sha256":"94e5c05b44af237fe6c7bedab33ce019ba4bc0e8a82979c380f9a959e83ebadc",
+   "url":"https://bitbucket.org/dolfin-adjoint/pyadjoint/get/2019.1.0.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "dolfin_adjoint",
+    "fenics_adjoint",
+    "pyadjoint",
+    "dolfin_adjoint",
+    "fenics_adjoint",
+    "pyadjoint",
+    "dolfin_adjoint",
+    "fenics_adjoint",
+    "pyadjoint"
+   ]
+  }
+ },
+ "name":"dolfin-adjoint",
+ "new_version":false,
+ "pinning_version":"2019.06.09",
+ "raw_meta_yaml":"{% set name = \"dolfin-adjoint\" %}\n{% set version = \"2019.1.0\" %}\n{% set sha256 = \"94e5c05b44af237fe6c7bedab33ce019ba4bc0e8a82979c380f9a959e83ebadc\" %}\n{% set fenics_version = '.'.join(version.split('.')[:2] + ['*']) %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  fn: {{ name }}-{{ version }}.tar.gz\n  url: https://bitbucket.org/{{ name }}/pyadjoint/get/{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n  patches:\n    # patch merged upstream:\n\nbuild:\n  number: 0\n  script: python -m pip install --no-deps .\n  noarch: python\n\nrequirements:\n  host:\n    - python >=3.5\n    - pip\n  run:\n    - python >=3.5\n    - fenics {{ fenics_version }}\n    - moola >=0.1.6\n    - scipy\n\ntest:\n  imports:\n    - dolfin_adjoint\n    - fenics_adjoint\n    - pyadjoint\n\nabout:\n  home: http://www.dolfin-adjoint.org/\n  license: LGPL-3.0\n  license_family: LGPL\n  license_file: LICENSE\n  summary: 'derives the discrete adjoint and tangent linear models'\n\n  description: |\n    The dolfin-adjoint project automatically derives the discrete adjoint\n    and tangent linear models from a forward model written in the Python\n    interface to DOLFIN.\n  doc_url: http://www.dolfin-adjoint.org/en/latest/documentation/index.html\n  dev_url: https://bitbucket.org/dolfin-adjoint/dolfin-adjoint\n\nextra:\n  recipe-maintainers:\n    - johannesring\n    - funsim\n    - minrk\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "fenics",
+   "moola",
+   "pip",
+   "python",
+   "scipy"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "fenics",
+    "moola",
+    "python",
+    "scipy"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.3.7",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3.5"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "fenics 2019.1.*",
+    "moola >=0.1.6",
+    "python >=3.5",
+    "scipy"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://bitbucket.org/dolfin-adjoint/pyadjoint/get/2019.1.0.tar.gz",
+ "version":"2019.1.0"
+}

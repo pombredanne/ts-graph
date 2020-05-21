@@ -1,0 +1,132 @@
+{
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"pytest-env",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"https://github.com/MobileDynasty/pytest-env",
+   "license":"MIT",
+   "license_family":"MIT",
+   "summary":"py.test plugin that allows you to add environment variables."
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":"python setup.py install  --single-version-externally-managed --record=record.txt"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "nicoddemus",
+    "nicoddemus",
+    "nicoddemus"
+   ]
+  },
+  "package":{
+   "name":"pytest-env",
+   "version":"0.6.2"
+  },
+  "requirements":{
+   "build":[
+    "python",
+    "setuptools",
+    "python",
+    "setuptools",
+    "python",
+    "setuptools"
+   ],
+   "run":[
+    "python",
+    "setuptools",
+    "pytest >=2.6.0",
+    "python",
+    "setuptools",
+    "pytest >=2.6.0",
+    "python",
+    "setuptools",
+    "pytest >=2.6.0"
+   ]
+  },
+  "source":{
+   "fn":"pytest-env-0.6.2.tar.gz",
+   "sha256":"7e94956aef7f2764f3c147d216ce066bf6c42948bb9e293169b1b1c880a580c2",
+   "url":"https://pypi.io/packages/source/p/pytest-env/pytest-env-0.6.2.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "pytest --help",
+    "pytest --help",
+    "pytest --help"
+   ],
+   "imports":[
+    "pytest_env",
+    "pytest_env",
+    "pytest_env"
+   ]
+  }
+ },
+ "name":"pytest-env",
+ "new_version":"0.6.2",
+ "raw_meta_yaml":"{% set name = \"pytest-env\" %}\n{% set version = \"0.6.2\" %}\n{% set hash_type = \"sha256\" %}\n{% set hash_value = \"7e94956aef7f2764f3c147d216ce066bf6c42948bb9e293169b1b1c880a580c2\" %}\n\npackage:\n  name: '{{ name|lower }}'\n  version: '{{ version }}'\n\nsource:\n  fn: '{{ name }}-{{ version }}.tar.gz'\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  '{{ hash_type }}': '{{ hash_value }}'\n\nbuild:\n  number: 0\n  script: python setup.py install  --single-version-externally-managed --record=record.txt\n  noarch: python\n\nrequirements:\n  build:\n    - python\n    - setuptools\n  run:\n    - python\n    - setuptools\n    - pytest >=2.6.0\n\ntest:\n  imports:\n    - pytest_env\n  commands:\n    - pytest --help\n\nabout:\n  home: https://github.com/MobileDynasty/pytest-env\n  license: MIT\n  license_family: MIT\n  # license file is missing from sdist: https://github.com/MobileDynasty/pytest-env/issues/6\n  summary: py.test plugin that allows you to add environment variables.\n\nextra:\n  recipe-maintainers:\n    - nicoddemus\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "pytest",
+   "python",
+   "setuptools"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "python",
+    "setuptools"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "pytest",
+    "python",
+    "setuptools"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "python",
+    "setuptools"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "pytest >=2.6.0",
+    "python",
+    "setuptools"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/p/pytest-env/pytest-env-0.6.2.tar.gz",
+ "version":"0.6.2"
+}

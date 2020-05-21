@@ -1,0 +1,219 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/241786014.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/259836397.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.5.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/278348954.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.5.3"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/288418175.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.5.4"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "compiler_stack":"comp7",
+  "max_py_ver":"37",
+  "max_r_ver":"35",
+  "provider":{
+   "win":"azure"
+  }
+ },
+ "feedstock_name":"go-dep",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "dev_url":"https://github.com/golang/dep",
+   "doc_url":"https://golang.github.io/dep/docs/introduction.html",
+   "home":"https://golang.github.io/dep/",
+   "license":"BSD-3-Clause",
+   "license_file":"src/github.com/golang/dep/LICENSE",
+   "summary":"The Go dependency management tool"
+  },
+  "build":{
+   "number":"1",
+   "script":[
+    "pushd src/github.com/golang/dep",
+    "go install -v -ldflags=\"-X main.version=v0.5.4\" ./cmd/dep",
+    "pushd src/github.com/golang/dep",
+    "go install -v -ldflags=\"-X main.version=v0.5.4\" ./cmd/dep",
+    "pushd src/github.com/golang/dep",
+    "go install -v -ldflags=\"-X main.version=v0.5.4\" ./cmd/dep"
+   ]
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "sodre",
+    "adbeda",
+    "rluria14",
+    "oblute",
+    "sodre",
+    "adbeda",
+    "rluria14",
+    "oblute",
+    "sodre",
+    "adbeda",
+    "rluria14",
+    "oblute"
+   ]
+  },
+  "package":{
+   "name":"go-dep",
+   "version":"0.5.4"
+  },
+  "requirements":{
+   "build":[
+    "go_compiler_stub >=1.11.3",
+    "go_compiler_stub >=1.11.3",
+    "go_compiler_stub >=1.11.3"
+   ]
+  },
+  "source":[
+   {
+    "folder":"src/github.com/golang/dep",
+    "git_rev":"v0.5.4",
+    "git_url":"https://github.com/golang/dep"
+   },
+   {
+    "folder":"src/github.com/golang/dep",
+    "sha256":"929c8f759838f98323211ba408a831ea80d93b75beda8584b6d950f393a3298a",
+    "url":"https://github.com/golang/dep/archive/v0.5.4.tar.gz"
+   },
+   {
+    "folder":"src/github.com/golang/dep",
+    "sha256":"929c8f759838f98323211ba408a831ea80d93b75beda8584b6d950f393a3298a",
+    "url":"https://github.com/golang/dep/archive/v0.5.4.tar.gz"
+   }
+  ],
+  "test":{
+   "commands":[
+    "test -x dep",
+    "dep version",
+    "test -x dep",
+    "dep version",
+    "test -x dep",
+    "dep version"
+   ],
+   "requires":[
+    "m2-coreutils"
+   ]
+  }
+ },
+ "name":"go-dep",
+ "new_version":"0.5.4",
+ "pinning_version":"2019.06.09",
+ "raw_meta_yaml":"{% set goname = \"github.com/golang/dep\" %}\n{% set version = \"0.5.4\" %}\n\n{% set name = goname.split('/')[-1] %}\n{% set pkg_src = ('src/'+goname).replace(\"/\", \"\\\\\" if win else \"/\") %}\n\npackage:\n  name: go-{{ name|lower }}\n  version: {{ version }}\n\nsource:\n  - folder: {{ pkg_src }}\n    url: https://{{ goname }}/archive/v{{ version }}.tar.gz  # [unix]\n    sha256: 929c8f759838f98323211ba408a831ea80d93b75beda8584b6d950f393a3298a  # [unix]\n    git_url: https://{{ goname }}  # [win]\n    git_tag: v{{ version }}  # [win]\n\nbuild:\n  number: 1\n  script:\n    - pushd {{ pkg_src }}\n    - 'go install -v -ldflags=\"-X main.version=v{{ version }}\" ./cmd/dep'\n\nrequirements:\n  build:\n    - {{ compiler(\"go\") }} >=1.11.3\n\ntest:\n  requires:         # [win]\n    - m2-coreutils  # [win]\n  commands:\n    - test -x {{target_gobin}}dep{{target_goexe}}\n    - dep version\n\nabout:\n  home: https://golang.github.io/dep/\n  license: BSD-3-Clause\n  license_file: {{ pkg_src }}/LICENSE\n  summary: The Go dependency management tool\n  doc_url: https://golang.github.io/dep/docs/introduction.html\n  dev_url: https://{{ goname }}\n\nextra:\n  recipe-maintainers:\n    - sodre\n    - adbeda\n    - rluria14\n    - oblute\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "go_compiler_stub"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "go_compiler_stub"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "m2-coreutils"
+   ]
+  }
+ },
+ "smithy_version":"3.3.7",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "go_compiler_stub >=1.11.3"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "m2-coreutils"
+   ]
+  }
+ },
+ "url":"https://github.com/golang/dep/archive/v0.5.4.tar.gz",
+ "version":"0.5.4"
+}

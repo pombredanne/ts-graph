@@ -1,0 +1,587 @@
+{
+ "PRed":[
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.5.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/248265682.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.6.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/305268716.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.6.3"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/306325331.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Rebuild",
+    "migrator_version":0,
+    "name":"gdal-3.0.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/326845003.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.6.4"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/327312641.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.6.5"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/345493464.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.6.6"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/393892271.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.7.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/395857420.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.8.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/04da13bf-69c4-47ce-8548-43a6a455e949.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"python38"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"geoviews",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"http://geoviews.org",
+   "license":"BSD-3-Clause",
+   "license_file":"LICENSE",
+   "summary":"GeoViews is a Python library that makes it easy to explore and visualize geographical, meteorological, and oceanographic datasets, such as those used in weather, climate, and remote sensing research."
+  },
+  "build":{
+   "number":"0"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "ocefpaf",
+    "philippjfr",
+    "ocefpaf",
+    "philippjfr",
+    "ocefpaf",
+    "philippjfr"
+   ]
+  },
+  "outputs":[
+   {
+    "build":{
+     "entry_points":[
+      "geoviews = geoviews.__main__:main"
+     ],
+     "noarch":"python"
+    },
+    "name":"geoviews-core",
+    "requirements":{
+     "host":[
+      "python >=3.6",
+      "pip",
+      "param >=1.9.0",
+      "pyct >=0.4.4",
+      "bokeh >=2.0.0",
+      "nodejs >=10.13.0",
+      "wheel",
+      "cartopy >=0.17.0",
+      "setuptools >=30.3.0"
+     ],
+     "run":[
+      "python >=3.6",
+      "bokeh >=2.0.0",
+      "cartopy >=0.17.0",
+      "holoviews >=1.13.0",
+      "numpy  >=1.0",
+      "param >=1.9.3"
+     ],
+     "run_constrained":[
+      "geoviews 1.8.1"
+     ]
+    },
+    "script":"build_base.sh",
+    "test":{
+     "commands":[
+      "pip check"
+     ],
+     "imports":[
+      "geoviews"
+     ],
+     "requires":[
+      "pip"
+     ]
+    }
+   },
+   {
+    "about":{
+     "home":"http://geoviews.org",
+     "license":"BSD-3-Clause",
+     "license_file":"LICENSE",
+     "summary":"GeoViews is a Python library that makes it easy to explore and visualize geographical, meteorological, and oceanographic datasets, such as those used in weather, climate, and remote sensing research."
+    },
+    "build":{
+     "noarch":"python"
+    },
+    "name":"geoviews",
+    "requirements":[
+     "python >=3.6",
+     "bokeh >=2.0.0",
+     "cartopy >=0.17.0",
+     "holoviews >=1.13.0",
+     "numpy >=1.0",
+     "param >=1.9.3,<2.0",
+     "geoviews-core",
+     "datashader",
+     "geopandas",
+     "netcdf4",
+     "pandas",
+     "pyct",
+     "xarray"
+    ],
+    "test":{
+     "commands":[
+      "geoviews examples --path=. --force",
+      "pytest --nbsmoke-run -k \".ipynb\" user_guide/Geometries.ipynb"
+     ],
+     "imports":[
+      "geoviews"
+     ],
+     "requires":[
+      "nbsmoke",
+      "pytest"
+     ]
+    }
+   },
+   {
+    "build":{
+     "entry_points":[
+      "geoviews = geoviews.__main__:main"
+     ],
+     "noarch":"python"
+    },
+    "name":"geoviews-core",
+    "requirements":{
+     "host":[
+      "python >=3.6",
+      "pip",
+      "param >=1.9.0",
+      "pyct >=0.4.4",
+      "bokeh >=2.0.0",
+      "nodejs >=10.13.0",
+      "wheel",
+      "cartopy >=0.17.0",
+      "setuptools >=30.3.0"
+     ],
+     "run":[
+      "python >=3.6",
+      "bokeh >=2.0.0",
+      "cartopy >=0.17.0",
+      "holoviews >=1.13.0",
+      "numpy  >=1.0",
+      "param >=1.9.3"
+     ],
+     "run_constrained":[
+      "geoviews 1.8.1"
+     ]
+    },
+    "script":"build_base.sh",
+    "test":{
+     "commands":[
+      "pip check"
+     ],
+     "imports":[
+      "geoviews"
+     ],
+     "requires":[
+      "pip"
+     ]
+    }
+   },
+   {
+    "about":{
+     "home":"http://geoviews.org",
+     "license":"BSD-3-Clause",
+     "license_file":"LICENSE",
+     "summary":"GeoViews is a Python library that makes it easy to explore and visualize geographical, meteorological, and oceanographic datasets, such as those used in weather, climate, and remote sensing research."
+    },
+    "build":{
+     "noarch":"python"
+    },
+    "name":"geoviews",
+    "requirements":[
+     "python >=3.6",
+     "bokeh >=2.0.0",
+     "cartopy >=0.17.0",
+     "holoviews >=1.13.0",
+     "numpy >=1.0",
+     "param >=1.9.3,<2.0",
+     "geoviews-core",
+     "datashader",
+     "geopandas",
+     "netcdf4",
+     "pandas",
+     "pyct",
+     "xarray"
+    ],
+    "test":{
+     "commands":[
+      "geoviews examples --path=. --force",
+      "pytest --nbsmoke-run -k \".ipynb\" user_guide/Geometries.ipynb"
+     ],
+     "imports":[
+      "geoviews"
+     ],
+     "requires":[
+      "nbsmoke",
+      "pytest"
+     ]
+    }
+   },
+   {
+    "build":{
+     "entry_points":[
+      "geoviews = geoviews.__main__:main"
+     ],
+     "noarch":"python"
+    },
+    "name":"geoviews-core",
+    "requirements":{
+     "host":[
+      "python >=3.6",
+      "pip",
+      "param >=1.9.0",
+      "pyct >=0.4.4",
+      "bokeh >=2.0.0",
+      "nodejs >=10.13.0",
+      "wheel",
+      "cartopy >=0.17.0",
+      "setuptools >=30.3.0"
+     ],
+     "run":[
+      "python >=3.6",
+      "bokeh >=2.0.0",
+      "cartopy >=0.17.0",
+      "holoviews >=1.13.0",
+      "numpy  >=1.0",
+      "param >=1.9.3"
+     ],
+     "run_constrained":[
+      "geoviews 1.8.1"
+     ]
+    },
+    "script":"build_base.sh",
+    "test":{
+     "commands":[
+      "pip check"
+     ],
+     "imports":[
+      "geoviews"
+     ],
+     "requires":[
+      "pip"
+     ]
+    }
+   },
+   {
+    "about":{
+     "home":"http://geoviews.org",
+     "license":"BSD-3-Clause",
+     "license_file":"LICENSE",
+     "summary":"GeoViews is a Python library that makes it easy to explore and visualize geographical, meteorological, and oceanographic datasets, such as those used in weather, climate, and remote sensing research."
+    },
+    "build":{
+     "noarch":"python"
+    },
+    "name":"geoviews",
+    "requirements":[
+     "python >=3.6",
+     "bokeh >=2.0.0",
+     "cartopy >=0.17.0",
+     "holoviews >=1.13.0",
+     "numpy >=1.0",
+     "param >=1.9.3,<2.0",
+     "geoviews-core",
+     "datashader",
+     "geopandas",
+     "netcdf4",
+     "pandas",
+     "pyct",
+     "xarray"
+    ],
+    "test":{
+     "commands":[
+      "geoviews examples --path=. --force",
+      "pytest --nbsmoke-run -k \".ipynb\" user_guide/Geometries.ipynb"
+     ],
+     "imports":[
+      "geoviews"
+     ],
+     "requires":[
+      "nbsmoke",
+      "pytest"
+     ]
+    }
+   }
+  ],
+  "package":{
+   "name":"geoviews-core",
+   "version":"1.8.1"
+  },
+  "source":{
+   "sha256":"7cf0c43b01b4aa623520a233d5f82e58b69febd58e22af328128f699f1c745fe",
+   "url":"https://pypi.io/packages/source/g/geoviews/geoviews-1.8.1.tar.gz"
+  }
+ },
+ "name":"geoviews-core",
+ "new_version":"1.8.1",
+ "outputs_names":[
+  "geoviews",
+  "geoviews-core"
+ ],
+ "pinning_version":"2020.04.08",
+ "raw_meta_yaml":"{% set version = \"1.8.1\" %}\n\npackage:\n  name: geoviews-core\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/g/geoviews/geoviews-{{ version }}.tar.gz\n  sha256: 7cf0c43b01b4aa623520a233d5f82e58b69febd58e22af328128f699f1c745fe\n\nbuild:\n  number: 0\n\noutputs:\n  - name: geoviews-core\n    script: build_base.sh\n    build:\n      noarch: python\n      entry_points:\n        - geoviews = geoviews.__main__:main\n    requirements:\n      run_constrained:\n        - geoviews {{ version }}\n      host:\n        - python >=3.6\n        - pip\n        - param >=1.9.0\n        # These are also needed at build time and declared in the pyproject.toml\n        - pyct >=0.4.4\n        - bokeh >=2.0.0\n        - nodejs >=10.13.0\n        - wheel\n        - cartopy >=0.17.0\n        - setuptools >=30.3.0\n      run:\n        - python >=3.6\n        - bokeh >=2.0.0\n        - cartopy >=0.17.0\n        - holoviews >=1.13.0\n        - numpy  >=1.0\n        - param >=1.9.3\n    test:\n      requires:\n        - pip\n      commands:\n        - pip check\n      imports:\n        - geoviews\n\n  - name: geoviews\n    build:\n      noarch: python\n    requirements:\n      - python >=3.6\n      - bokeh >=2.0.0\n      - cartopy >=0.17.0\n      - holoviews >=1.13.0\n      - numpy >=1.0\n      - param >=1.9.3,<2.0\n      - {{ pin_subpackage('geoviews-core', max_pin=\"x.x.x.x\") }}\n      - datashader\n      - geopandas\n      - netcdf4\n      - pandas\n      - pyct\n      - xarray\n    test:\n      imports:\n        - geoviews\n      requires:\n        - nbsmoke\n        - pytest\n      commands:\n        - geoviews examples --path=. --force\n        # just run one notebook for now; increase in the future if notebooks can be run quickly with test/tiny data\n        - pytest --nbsmoke-run -k \".ipynb\" user_guide/Geometries.ipynb\n    about:\n      home: http://geoviews.org\n      license: BSD-3-Clause\n      license_file: LICENSE\n      summary: GeoViews is a Python library that makes it easy to explore and visualize geographical, meteorological, and oceanographic datasets, such as those used\n        in weather, climate, and remote sensing research.\n\nabout:\n  home: http://geoviews.org\n  license: BSD-3-Clause\n  license_file: LICENSE\n  summary: GeoViews is a Python library that makes it easy to explore and visualize geographical, meteorological, and oceanographic datasets, such as those used in\n    weather, climate, and remote sensing research.\nextra:\n  recipe-maintainers:\n    - ocefpaf\n    - philippjfr\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "bokeh",
+   "cartopy",
+   "datashader",
+   "geopandas",
+   "geoviews-core",
+   "holoviews",
+   "netcdf4",
+   "nodejs",
+   "numpy",
+   "pandas",
+   "param",
+   "pip",
+   "pyct",
+   "python",
+   "setuptools",
+   "wheel",
+   "xarray"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "bokeh",
+    "cartopy",
+    "nodejs",
+    "param",
+    "pip",
+    "pyct",
+    "python",
+    "setuptools",
+    "wheel"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "bokeh",
+    "cartopy",
+    "datashader",
+    "geopandas",
+    "geoviews-core",
+    "holoviews",
+    "netcdf4",
+    "numpy",
+    "pandas",
+    "param",
+    "pyct",
+    "python",
+    "xarray"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "pip"
+   ]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.6.15",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "bokeh >=2.0.0",
+    "cartopy >=0.17.0",
+    "nodejs >=10.13.0",
+    "param >=1.9.0",
+    "pip",
+    "pyct >=0.4.4",
+    "python >=3.6",
+    "setuptools >=30.3.0",
+    "wheel"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "bokeh >=2.0.0",
+    "cartopy >=0.17.0",
+    "datashader",
+    "geopandas",
+    "geoviews-core",
+    "holoviews >=1.13.0",
+    "netcdf4",
+    "numpy  >=1.0",
+    "numpy >=1.0",
+    "pandas",
+    "param >=1.9.3",
+    "param >=1.9.3,<2.0",
+    "pyct",
+    "python >=3.6",
+    "xarray"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "pip"
+   ]
+  }
+ },
+ "url":"https://pypi.io/packages/source/g/geoviews/geoviews-1.6.3.tar.gz",
+ "version":"1.8.1"
+}

@@ -1,0 +1,179 @@
+{
+ "PRed":[
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.6.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/220097573.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.7.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"pykwalify",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"http://github.com/grokzen/pykwalify",
+   "license":"MIT",
+   "license_file":"LICENSE",
+   "summary":"Python lib/cli for JSON/YAML schema validation"
+  },
+  "build":{
+   "entry_points":[
+    "pykwalify = pykwalify.cli:cli_entrypoint",
+    "pykwalify = pykwalify.cli:cli_entrypoint",
+    "pykwalify = pykwalify.cli:cli_entrypoint"
+   ],
+   "noarch":"python",
+   "number":"0",
+   "script":"python -m pip install --no-deps --ignore-installed ."
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "jakirkham",
+    "jakirkham",
+    "jakirkham"
+   ]
+  },
+  "package":{
+   "name":"pykwalify",
+   "version":"1.7.0"
+  },
+  "requirements":{
+   "build":[
+    "python",
+    "pip",
+    "python",
+    "pip",
+    "python",
+    "pip"
+   ],
+   "run":[
+    "python",
+    "docopt >=0.6.2",
+    "pyyaml >=3.11",
+    "python-dateutil >=2.4.2",
+    "python",
+    "docopt >=0.6.2",
+    "pyyaml >=3.11",
+    "python-dateutil >=2.4.2",
+    "python",
+    "docopt >=0.6.2",
+    "pyyaml >=3.11",
+    "python-dateutil >=2.4.2"
+   ]
+  },
+  "source":{
+   "fn":"pykwalify-1.7.0.tar.gz",
+   "sha256":"7e8b39c5a3a10bc176682b3bd9a7422c39ca247482df198b402e8015defcceb2",
+   "url":"https://pypi.io/packages/source/p/pykwalify/pykwalify-1.7.0.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "pykwalify --help",
+    "pykwalify --help",
+    "pykwalify --help"
+   ],
+   "imports":[
+    "pykwalify",
+    "pykwalify",
+    "pykwalify"
+   ]
+  }
+ },
+ "name":"pykwalify",
+ "new_version":"1.7.0",
+ "pinning_version":"2018.10.01",
+ "raw_meta_yaml":"{% set name = \"pykwalify\" %}\n{% set version = \"1.7.0\" %}\n{% set checksum = \"7e8b39c5a3a10bc176682b3bd9a7422c39ca247482df198b402e8015defcceb2\" %}\n\npackage:\n  name: {{ name }}\n  version: {{ version }}\n\nsource:\n  fn: {{ name }}-{{ version }}.tar.gz\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ checksum }}\n\nbuild:\n  number: 0\n  noarch: python\n  script: python -m pip install --no-deps --ignore-installed .\n  entry_points:\n    - pykwalify = pykwalify.cli:cli_entrypoint\n\nrequirements:\n  build:\n    - python\n    - pip\n\n  run:\n    - python\n    - docopt >=0.6.2\n    - pyyaml >=3.11\n    - python-dateutil >=2.4.2\n\ntest:\n  imports:\n    - pykwalify\n\n  commands:\n    - pykwalify --help\n\nabout:\n  home: http://github.com/grokzen/pykwalify\n  license: MIT\n  license_file: LICENSE\n  summary: Python lib/cli for JSON/YAML schema validation\n\nextra:\n  recipe-maintainers:\n    - jakirkham\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "docopt",
+   "pip",
+   "python",
+   "python-dateutil",
+   "pyyaml"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "docopt",
+    "python",
+    "python-dateutil",
+    "pyyaml"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.1.12",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "docopt >=0.6.2",
+    "python",
+    "python-dateutil >=2.4.2",
+    "pyyaml >=3.11"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/p/pykwalify/pykwalify-1.7.0.tar.gz",
+ "version":"1.7.0"
+}

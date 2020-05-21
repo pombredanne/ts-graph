@@ -1,0 +1,358 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/405747559.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.2.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/405751423.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"python38"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"pybamm",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "dev_url":"https://github.com/pybamm-team/PyBaMM",
+   "doc_url":"https://pybamm.readthedocs.io/en/latest",
+   "home":"https://github.com/pybamm-team/PyBaMM",
+   "license":"BSD-3-Clause",
+   "license_family":"BSD",
+   "license_file":"LICENSE.txt",
+   "summary":"Python Battery Mathematical Modelling."
+  },
+  "build":{
+   "entry_points":[
+    "pybamm_edit_parameter = pybamm.parameters_cli:edit_parameter",
+    "pybamm_add_parameter = pybamm.parameters_cli:add_parameter",
+    "pybamm_list_parameters = pybamm.parameters_cli:list_parameters",
+    "pybamm_edit_parameter = pybamm.parameters_cli:edit_parameter",
+    "pybamm_add_parameter = pybamm.parameters_cli:add_parameter",
+    "pybamm_list_parameters = pybamm.parameters_cli:list_parameters",
+    "pybamm_edit_parameter = pybamm.parameters_cli:edit_parameter",
+    "pybamm_add_parameter = pybamm.parameters_cli:add_parameter",
+    "pybamm_list_parameters = pybamm.parameters_cli:list_parameters"
+   ],
+   "number":"0",
+   "script":" -m pip install . --no-deps --ignore-installed -vv ",
+   "skip":true
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "tlestang",
+    "tlestang",
+    "tlestang"
+   ]
+  },
+  "package":{
+   "name":"pybamm",
+   "version":"0.2.0"
+  },
+  "requirements":{
+   "host":[
+    "pip",
+    "python",
+    "pip",
+    "python",
+    "pip",
+    "python"
+   ],
+   "run":[
+    "anytree >=2.4.3",
+    "autograd >=1.2",
+    "casadi >=3.5.0",
+    "jupyter",
+    "matplotlib-base >=2.0",
+    "numpy >=1.16",
+    "pandas >=0.24",
+    "python",
+    "scikit-fem >=0.2.0",
+    "scipy >=1.3",
+    "anytree >=2.4.3",
+    "autograd >=1.2",
+    "casadi >=3.5.0",
+    "jupyter",
+    "matplotlib-base >=2.0",
+    "numpy >=1.16",
+    "pandas >=0.24",
+    "python",
+    "scikit-fem >=0.2.0",
+    "scipy >=1.3",
+    "anytree >=2.4.3",
+    "autograd >=1.2",
+    "casadi >=3.5.0",
+    "jupyter",
+    "matplotlib-base >=2.0",
+    "numpy >=1.16",
+    "pandas >=0.24",
+    "python",
+    "scikit-fem >=0.2.0",
+    "scipy >=1.3"
+   ]
+  },
+  "source":{
+   "sha256":"c778f23c3354594dd509423d50570d154bc16daa6e63c2631ec6492f3f7f6b31",
+   "url":"https://pypi.io/packages/source/p/pybamm/pybamm-0.2.0.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "pybamm_edit_parameter --help",
+    "pybamm_add_parameter --help",
+    "pybamm_list_parameters --help",
+    "pybamm_edit_parameter --help",
+    "pybamm_add_parameter --help",
+    "pybamm_list_parameters --help",
+    "pybamm_edit_parameter --help",
+    "pybamm_add_parameter --help",
+    "pybamm_list_parameters --help"
+   ],
+   "imports":[
+    "pybamm",
+    "pybamm.discretisations",
+    "pybamm.experiments",
+    "pybamm.expression_tree",
+    "pybamm.expression_tree.operations",
+    "pybamm.geometry",
+    "pybamm.meshes",
+    "pybamm.models",
+    "pybamm.models.full_battery_models",
+    "pybamm.models.full_battery_models.lead_acid",
+    "pybamm.models.full_battery_models.lithium_ion",
+    "pybamm.models.submodels",
+    "pybamm.models.submodels.convection",
+    "pybamm.models.submodels.current_collector",
+    "pybamm.models.submodels.electrode",
+    "pybamm.models.submodels.electrode.ohm",
+    "pybamm.models.submodels.electrolyte",
+    "pybamm.models.submodels.electrolyte.stefan_maxwell",
+    "pybamm.models.submodels.electrolyte.stefan_maxwell.conductivity",
+    "pybamm.models.submodels.electrolyte.stefan_maxwell.conductivity.surface_potential_form",
+    "pybamm.models.submodels.electrolyte.stefan_maxwell.diffusion",
+    "pybamm.models.submodels.external_circuit",
+    "pybamm.models.submodels.interface",
+    "pybamm.models.submodels.interface.diffusion_limited",
+    "pybamm.models.submodels.interface.inverse_kinetics",
+    "pybamm.models.submodels.interface.kinetics",
+    "pybamm.models.submodels.oxygen_diffusion",
+    "pybamm.models.submodels.particle",
+    "pybamm.models.submodels.particle.fast",
+    "pybamm.models.submodels.particle.fickian",
+    "pybamm.models.submodels.porosity",
+    "pybamm.models.submodels.thermal",
+    "pybamm.models.submodels.thermal.isothermal",
+    "pybamm.models.submodels.thermal.x_full",
+    "pybamm.models.submodels.thermal.x_lumped",
+    "pybamm.models.submodels.thermal.xyz_lumped",
+    "pybamm.models.submodels.tortuosity",
+    "pybamm.parameters",
+    "pybamm.solvers",
+    "pybamm.solvers.c_solvers",
+    "pybamm.spatial_methods",
+    "pybamm",
+    "pybamm.discretisations",
+    "pybamm.experiments",
+    "pybamm.expression_tree",
+    "pybamm.expression_tree.operations",
+    "pybamm.geometry",
+    "pybamm.meshes",
+    "pybamm.models",
+    "pybamm.models.full_battery_models",
+    "pybamm.models.full_battery_models.lead_acid",
+    "pybamm.models.full_battery_models.lithium_ion",
+    "pybamm.models.submodels",
+    "pybamm.models.submodels.convection",
+    "pybamm.models.submodels.current_collector",
+    "pybamm.models.submodels.electrode",
+    "pybamm.models.submodels.electrode.ohm",
+    "pybamm.models.submodels.electrolyte",
+    "pybamm.models.submodels.electrolyte.stefan_maxwell",
+    "pybamm.models.submodels.electrolyte.stefan_maxwell.conductivity",
+    "pybamm.models.submodels.electrolyte.stefan_maxwell.conductivity.surface_potential_form",
+    "pybamm.models.submodels.electrolyte.stefan_maxwell.diffusion",
+    "pybamm.models.submodels.external_circuit",
+    "pybamm.models.submodels.interface",
+    "pybamm.models.submodels.interface.diffusion_limited",
+    "pybamm.models.submodels.interface.inverse_kinetics",
+    "pybamm.models.submodels.interface.kinetics",
+    "pybamm.models.submodels.oxygen_diffusion",
+    "pybamm.models.submodels.particle",
+    "pybamm.models.submodels.particle.fast",
+    "pybamm.models.submodels.particle.fickian",
+    "pybamm.models.submodels.porosity",
+    "pybamm.models.submodels.thermal",
+    "pybamm.models.submodels.thermal.isothermal",
+    "pybamm.models.submodels.thermal.x_full",
+    "pybamm.models.submodels.thermal.x_lumped",
+    "pybamm.models.submodels.thermal.xyz_lumped",
+    "pybamm.models.submodels.tortuosity",
+    "pybamm.parameters",
+    "pybamm.solvers",
+    "pybamm.solvers.c_solvers",
+    "pybamm.spatial_methods",
+    "pybamm",
+    "pybamm.discretisations",
+    "pybamm.experiments",
+    "pybamm.expression_tree",
+    "pybamm.expression_tree.operations",
+    "pybamm.geometry",
+    "pybamm.meshes",
+    "pybamm.models",
+    "pybamm.models.full_battery_models",
+    "pybamm.models.full_battery_models.lead_acid",
+    "pybamm.models.full_battery_models.lithium_ion",
+    "pybamm.models.submodels",
+    "pybamm.models.submodels.convection",
+    "pybamm.models.submodels.current_collector",
+    "pybamm.models.submodels.electrode",
+    "pybamm.models.submodels.electrode.ohm",
+    "pybamm.models.submodels.electrolyte",
+    "pybamm.models.submodels.electrolyte.stefan_maxwell",
+    "pybamm.models.submodels.electrolyte.stefan_maxwell.conductivity",
+    "pybamm.models.submodels.electrolyte.stefan_maxwell.conductivity.surface_potential_form",
+    "pybamm.models.submodels.electrolyte.stefan_maxwell.diffusion",
+    "pybamm.models.submodels.external_circuit",
+    "pybamm.models.submodels.interface",
+    "pybamm.models.submodels.interface.diffusion_limited",
+    "pybamm.models.submodels.interface.inverse_kinetics",
+    "pybamm.models.submodels.interface.kinetics",
+    "pybamm.models.submodels.oxygen_diffusion",
+    "pybamm.models.submodels.particle",
+    "pybamm.models.submodels.particle.fast",
+    "pybamm.models.submodels.particle.fickian",
+    "pybamm.models.submodels.porosity",
+    "pybamm.models.submodels.thermal",
+    "pybamm.models.submodels.thermal.isothermal",
+    "pybamm.models.submodels.thermal.x_full",
+    "pybamm.models.submodels.thermal.x_lumped",
+    "pybamm.models.submodels.thermal.xyz_lumped",
+    "pybamm.models.submodels.tortuosity",
+    "pybamm.parameters",
+    "pybamm.solvers",
+    "pybamm.solvers.c_solvers",
+    "pybamm.spatial_methods"
+   ]
+  }
+ },
+ "name":"pybamm",
+ "new_version":"0.2.1",
+ "new_version_attempts":{
+  "0.2.1":1
+ },
+ "new_version_errors":{},
+ "pinning_version":"2020.04.18.00.00.57",
+ "raw_meta_yaml":"{% set name = \"pybamm\" %}\n{% set version = \"0.2.0\" %}\n\npackage:\n  name: \"{{ name|lower }}\"\n  version: \"{{ version }}\"\n\nsource:\n  url: \"https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\"\n  sha256: \"c778f23c3354594dd509423d50570d154bc16daa6e63c2631ec6492f3f7f6b31\"\n\nbuild:\n  number: 0\n  entry_points:\n    - pybamm_edit_parameter = pybamm.parameters_cli:edit_parameter\n    - pybamm_add_parameter = pybamm.parameters_cli:add_parameter\n    - pybamm_list_parameters = pybamm.parameters_cli:list_parameters\n  script: \"{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv \"\n  skip: True  # [win]\n  skip: True  # [py<36]\n\nrequirements:\n  host:\n    - pip\n    - python\n  run:\n    - anytree >=2.4.3\n    - autograd >=1.2\n    - casadi >=3.5.0\n    - jupyter\n    - matplotlib-base >=2.0\n    - numpy >=1.16\n    - pandas >=0.24\n    - python\n    - scikit-fem >=0.2.0\n    - scipy >=1.3\n\ntest:\n  imports:\n    - pybamm\n    - pybamm.discretisations\n    - pybamm.experiments\n    - pybamm.expression_tree\n    - pybamm.expression_tree.operations\n    - pybamm.geometry\n    - pybamm.meshes\n    - pybamm.models\n    - pybamm.models.full_battery_models\n    - pybamm.models.full_battery_models.lead_acid\n    - pybamm.models.full_battery_models.lithium_ion\n    - pybamm.models.submodels\n    - pybamm.models.submodels.convection\n    - pybamm.models.submodels.current_collector\n    - pybamm.models.submodels.electrode\n    - pybamm.models.submodels.electrode.ohm\n    - pybamm.models.submodels.electrolyte\n    - pybamm.models.submodels.electrolyte.stefan_maxwell\n    - pybamm.models.submodels.electrolyte.stefan_maxwell.conductivity\n    - pybamm.models.submodels.electrolyte.stefan_maxwell.conductivity.surface_potential_form\n    - pybamm.models.submodels.electrolyte.stefan_maxwell.diffusion\n    - pybamm.models.submodels.external_circuit\n    - pybamm.models.submodels.interface\n    - pybamm.models.submodels.interface.diffusion_limited\n    - pybamm.models.submodels.interface.inverse_kinetics\n    - pybamm.models.submodels.interface.kinetics\n    - pybamm.models.submodels.oxygen_diffusion\n    - pybamm.models.submodels.particle\n    - pybamm.models.submodels.particle.fast\n    - pybamm.models.submodels.particle.fickian\n    - pybamm.models.submodels.porosity\n    - pybamm.models.submodels.thermal\n    - pybamm.models.submodels.thermal.isothermal\n    - pybamm.models.submodels.thermal.x_full\n    - pybamm.models.submodels.thermal.x_lumped\n    - pybamm.models.submodels.thermal.xyz_lumped\n    - pybamm.models.submodels.tortuosity\n    - pybamm.parameters\n    - pybamm.solvers\n    - pybamm.solvers.c_solvers\n    - pybamm.spatial_methods\n  commands:\n    - pybamm_edit_parameter --help\n    - pybamm_add_parameter --help\n    - pybamm_list_parameters --help\n\nabout:\n  home: \"https://github.com/pybamm-team/PyBaMM\"\n  license: \"BSD-3-Clause\"\n  license_family: \"BSD\"\n  license_file: LICENSE.txt\n  summary: \"Python Battery Mathematical Modelling.\"\n  doc_url: \"https://pybamm.readthedocs.io/en/latest\"\n  dev_url: \"https://github.com/pybamm-team/PyBaMM\"\n\nextra:\n  recipe-maintainers:\n    - tlestang\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "anytree",
+   "autograd",
+   "casadi",
+   "jupyter",
+   "matplotlib-base",
+   "numpy",
+   "pandas",
+   "pip",
+   "python",
+   "scikit-fem",
+   "scipy"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "anytree",
+    "autograd",
+    "casadi",
+    "jupyter",
+    "matplotlib-base",
+    "numpy",
+    "pandas",
+    "python",
+    "scikit-fem",
+    "scipy"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.6.16",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "anytree >=2.4.3",
+    "autograd >=1.2",
+    "casadi >=3.5.0",
+    "jupyter",
+    "matplotlib-base >=2.0",
+    "numpy >=1.16",
+    "pandas >=0.24",
+    "python",
+    "scikit-fem >=0.2.0",
+    "scipy >=1.3"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/p/pybamm/pybamm-0.2.0.tar.gz",
+ "version":"0.2.0"
+}

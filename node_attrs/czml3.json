@@ -1,0 +1,168 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/377646542.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.5.3"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"czml3",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "dev_url":"https://github.com/poliastro/czml3/",
+   "home":"https://github.com/poliastro/czml3/",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"LICENSE",
+   "summary":"czml3 is a Python library to write CZML"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "Juanlu001",
+    "Juanlu001",
+    "Juanlu001"
+   ]
+  },
+  "package":{
+   "name":"czml3",
+   "version":"0.5.3"
+  },
+  "requirements":{
+   "host":[
+    "python >=3.6",
+    "pip",
+    "python >=3.6",
+    "pip",
+    "python >=3.6",
+    "pip"
+   ],
+   "run":[
+    "python >=3.6",
+    "attrs >=19.2",
+    "python-dateutil >=2.7,<3",
+    "w3lib",
+    "python >=3.6",
+    "attrs >=19.2",
+    "python-dateutil >=2.7,<3",
+    "w3lib",
+    "python >=3.6",
+    "attrs >=19.2",
+    "python-dateutil >=2.7,<3",
+    "w3lib"
+   ]
+  },
+  "source":{
+   "sha256":"3a56e02ce3cc743af3fa35040ca84eaaca6e5828518d6851abe10567c942ba25",
+   "url":"https://pypi.io/packages/source/c/czml3/czml3-0.5.3.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "czml3",
+    "czml3.enums",
+    "czml3.properties",
+    "czml3.types",
+    "czml3.widget",
+    "czml3",
+    "czml3.enums",
+    "czml3.properties",
+    "czml3.types",
+    "czml3.widget",
+    "czml3",
+    "czml3.enums",
+    "czml3.properties",
+    "czml3.types",
+    "czml3.widget"
+   ]
+  }
+ },
+ "name":"czml3",
+ "new_version":"0.5.3",
+ "pinning_version":"2020.02.19",
+ "raw_meta_yaml":"{% set name = \"czml3\" %}\n{% set version = \"0.5.3\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: 3a56e02ce3cc743af3fa35040ca84eaaca6e5828518d6851abe10567c942ba25\n\nbuild:\n  noarch: python\n  number: 0\n  script: \"{{ PYTHON }} -m pip install . -vv\"\n\nrequirements:\n  host:\n    - python >=3.6\n    - pip\n  run:\n    - python >=3.6\n    - attrs >=19.2\n    - python-dateutil >=2.7,<3\n    - w3lib\n\ntest:\n  imports:\n    - czml3\n    - czml3.enums\n    - czml3.properties\n    - czml3.types\n    - czml3.widget\n\nabout:\n  home: https://github.com/poliastro/czml3/\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE\n  summary: 'czml3 is a Python library to write CZML'\n\n  dev_url: https://github.com/poliastro/czml3/\n\nextra:\n  recipe-maintainers:\n    - Juanlu001\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "attrs",
+   "pip",
+   "python",
+   "python-dateutil",
+   "w3lib"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "attrs",
+    "python",
+    "python-dateutil",
+    "w3lib"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.6.8",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3.6"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "attrs >=19.2",
+    "python >=3.6",
+    "python-dateutil >=2.7,<3",
+    "w3lib"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/c/czml3/czml3-0.5.2.tar.gz",
+ "version":"0.5.3"
+}

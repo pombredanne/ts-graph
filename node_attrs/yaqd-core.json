@@ -1,0 +1,233 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/400122334.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.6.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/407033690.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.7.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/418350277.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2020.5.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/418872769.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2020.5.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"yaqd-core",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "dev_url":"https://gitlab.com/yaq/yaqd-core-python",
+   "home":"https://yaq.fyi",
+   "license":"LGPL-3.0-only",
+   "license_family":"LGPL",
+   "license_file":"LICENSE",
+   "summary":"Core python package for implementing yaq deamons, and associated utilities."
+  },
+  "build":{
+   "entry_points":[
+    "yaqd-hardware=yaqd_core._hardware._base:Hardware.main",
+    "yaqd-continuous-hardware=yaqd_core._hardware._continuous:ContinuousHardware.main",
+    "yaqd-hardware=yaqd_core._hardware._base:Hardware.main",
+    "yaqd-continuous-hardware=yaqd_core._hardware._continuous:ContinuousHardware.main",
+    "yaqd-hardware=yaqd_core._hardware._base:Hardware.main",
+    "yaqd-continuous-hardware=yaqd_core._hardware._continuous:ContinuousHardware.main"
+   ],
+   "noarch":"python",
+   "number":"0",
+   "script":"-m pip install . -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "untzag",
+    "ksunden",
+    "untzag",
+    "ksunden",
+    "untzag",
+    "ksunden"
+   ]
+  },
+  "package":{
+   "name":"yaqd-core",
+   "version":"2020.5.1"
+  },
+  "requirements":{
+   "host":[
+    "python >=3.7",
+    "pip",
+    "python >=3.7",
+    "pip",
+    "python >=3.7",
+    "pip"
+   ],
+   "run":[
+    "python >=3.7",
+    "appdirs",
+    "toml",
+    "msgpack-python >=1.0.0",
+    "python >=3.7",
+    "appdirs",
+    "toml",
+    "msgpack-python >=1.0.0",
+    "python >=3.7",
+    "appdirs",
+    "toml",
+    "msgpack-python >=1.0.0"
+   ]
+  },
+  "source":{
+   "sha256":"25594fc9ad6f5ece5544668496366e0624985e79561d68a648104808406454e1",
+   "url":"https://pypi.io/packages/source/y/yaqd-core/yaqd-core-2020.5.1.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "yaqd-hardware -h",
+    "yaqd-continuous-hardware -h",
+    "yaqd-hardware -h",
+    "yaqd-continuous-hardware -h",
+    "yaqd-hardware -h",
+    "yaqd-continuous-hardware -h"
+   ],
+   "imports":[
+    "yaqd_core",
+    "yaqd_core",
+    "yaqd_core"
+   ]
+  }
+ },
+ "name":"yaqd-core",
+ "new_version":"2020.5.1",
+ "new_version_attempts":{
+  "0.6.0":1,
+  "0.7.0":1,
+  "2020.5.0":1,
+  "2020.5.1":1
+ },
+ "new_version_errors":{},
+ "pinning_version":"2020.05.14.17.14.20",
+ "raw_meta_yaml":"{% set name = \"yaqd-core\" %}\n{% set version = \"2020.5.1\" %}\n{% set sha256 = \"25594fc9ad6f5ece5544668496366e0624985e79561d68a648104808406454e1\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 0\n  script: {{ PYTHON }} -m pip install . -vv\n  entry_points:\n    - yaqd-hardware=yaqd_core._hardware._base:Hardware.main\n    - yaqd-continuous-hardware=yaqd_core._hardware._continuous:ContinuousHardware.main\n\nrequirements:\n  host:\n    - python >=3.7\n    - pip\n  run:\n    - python >=3.7\n    - appdirs\n    - toml\n    - msgpack-python >=1.0.0\n\ntest:\n  imports:\n    - yaqd_core\n  commands:\n    - yaqd-hardware -h\n    - yaqd-continuous-hardware -h\n\nabout:\n  home: https://yaq.fyi\n  dev_url: https://gitlab.com/yaq/yaqd-core-python\n  license: LGPL-3.0-only\n  license_family: LGPL\n  license_file: LICENSE\n  summary: Core python package for implementing yaq deamons, and associated utilities.\n\nextra:\n  recipe-maintainers:\n    - untzag\n    - ksunden\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "appdirs",
+   "msgpack-python",
+   "pip",
+   "python",
+   "toml"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "appdirs",
+    "msgpack-python",
+    "python",
+    "toml"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.7.1\n",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3.7"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "appdirs",
+    "msgpack-python >=1.0.0",
+    "python >=3.7",
+    "toml"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/y/yaqd-core/yaqd-core-0.5.0.tar.gz",
+ "version":"2020.5.1"
+}

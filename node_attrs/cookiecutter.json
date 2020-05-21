@@ -1,0 +1,327 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/221652549.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/336019930.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"python38"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/356498387.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.7.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/406712639.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.7.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"cookiecutter",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "doc_source_url":"https://github.com/cookiecutter/cookiecutter/tree/master/docs",
+   "doc_url":"https://cookiecutter.readthedocs.io",
+   "home":"https://github.com/cookiecutter/cookiecutter",
+   "license":"BSD-3-Clause",
+   "license_family":"BSD",
+   "license_file":"LICENSE",
+   "summary":"A command-line utility that creates projects from cookiecutters (project templates), e.g. creating a Python package project from a Python package project template.\n"
+  },
+  "build":{
+   "entry_points":[
+    "cookiecutter = cookiecutter.cli:main",
+    "cookiecutter = cookiecutter.cli:main",
+    "cookiecutter = cookiecutter.cli:main"
+   ],
+   "noarch":"python",
+   "number":"0",
+   "script":"-m pip install . --no-deps --ignore-installed --no-cache-dir -vvv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "bollwyvl",
+    "cadair",
+    "jakirkham",
+    "pydanny",
+    "bollwyvl",
+    "cadair",
+    "jakirkham",
+    "pydanny",
+    "bollwyvl",
+    "cadair",
+    "jakirkham",
+    "pydanny"
+   ]
+  },
+  "package":{
+   "name":"cookiecutter",
+   "version":"1.7.2"
+  },
+  "requirements":{
+   "host":[
+    "pip",
+    "python",
+    "pip",
+    "python",
+    "pip",
+    "python"
+   ],
+   "run":[
+    "binaryornot >=0.4.4",
+    "click >=7.0",
+    "jinja2 <3.0.0a0",
+    "jinja2-time >=0.2.0",
+    "markupsafe <2.0.0",
+    "poyo >=0.5.0",
+    "python",
+    "python-slugify >=4.0.0",
+    "requests >=2.23.0",
+    "six >=1.10",
+    "whichcraft >=0.4.0",
+    "binaryornot >=0.4.4",
+    "click >=7.0",
+    "jinja2 <3.0.0a0",
+    "jinja2-time >=0.2.0",
+    "markupsafe <2.0.0",
+    "poyo >=0.5.0",
+    "python",
+    "python-slugify >=4.0.0",
+    "requests >=2.23.0",
+    "six >=1.10",
+    "whichcraft >=0.4.0",
+    "binaryornot >=0.4.4",
+    "click >=7.0",
+    "jinja2 <3.0.0a0",
+    "jinja2-time >=0.2.0",
+    "markupsafe <2.0.0",
+    "poyo >=0.5.0",
+    "python",
+    "python-slugify >=4.0.0",
+    "requests >=2.23.0",
+    "six >=1.10",
+    "whichcraft >=0.4.0"
+   ]
+  },
+  "source":{
+   "sha256":"efb6b2d4780feda8908a873e38f0e61778c23f6a2ea58215723bcceb5b515dac",
+   "url":"https://pypi.io/packages/source/c/cookiecutter/cookiecutter-1.7.2.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "python -m pip check",
+    "cookiecutter --version",
+    "cookiecutter --help",
+    "py.test --cov=cookiecutter",
+    "python -m pip check",
+    "cookiecutter --version",
+    "cookiecutter --help",
+    "py.test --cov=cookiecutter",
+    "python -m pip check",
+    "cookiecutter --version",
+    "cookiecutter --help",
+    "py.test --cov=cookiecutter"
+   ],
+   "requires":[
+    "freezegun",
+    "git",
+    "pip",
+    "pytest",
+    "pytest-cov",
+    "pytest-mock",
+    "python",
+    "freezegun",
+    "git",
+    "mercurial",
+    "pip",
+    "pytest",
+    "pytest-cov",
+    "pytest-mock",
+    "python",
+    "freezegun",
+    "git",
+    "mercurial",
+    "pip",
+    "pytest",
+    "pytest-cov",
+    "pytest-mock",
+    "python"
+   ],
+   "source_files":[
+    "tests",
+    "tests",
+    "tests"
+   ]
+  }
+ },
+ "name":"cookiecutter",
+ "new_version":"1.7.2",
+ "new_version_attempts":{
+  "1.7.2":1
+ },
+ "new_version_errors":{},
+ "pinning_version":"2020.04.21.12.59.15",
+ "raw_meta_yaml":"{% set version = \"1.7.2\" %}\n\npackage:\n  name: cookiecutter\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/c/cookiecutter/cookiecutter-{{ version }}.tar.gz\n  sha256: efb6b2d4780feda8908a873e38f0e61778c23f6a2ea58215723bcceb5b515dac\n\nbuild:\n  noarch: python\n  number: 0\n  script: {{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv\n  entry_points:\n    - cookiecutter = cookiecutter.cli:main\n\nrequirements:\n  host:\n    - pip\n    - python\n  run:\n    - binaryornot >=0.4.4\n    - click >=7.0\n    - jinja2 <3.0.0a0\n    - jinja2-time >=0.2.0\n    - markupsafe <2.0.0\n    - poyo >=0.5.0\n    - python\n    - python-slugify >=4.0.0\n    - requests >=2.23.0\n    - six >=1.10\n    - whichcraft >=0.4.0\n\ntest:\n  requires:\n    - freezegun\n    - git\n    - mercurial  # [not (win and py3k)]\n    - pip\n    - pytest\n    - pytest-cov\n    - pytest-mock\n    - python\n  source_files:\n    - tests\n  commands:\n    - python -m pip check\n    - cookiecutter --version\n    - cookiecutter --help\n    - py.test --cov=cookiecutter\n\nabout:\n  home: https://github.com/cookiecutter/cookiecutter\n  license_family: BSD\n  license_file: LICENSE\n  license: BSD-3-Clause\n  doc_url: https://cookiecutter.readthedocs.io\n  doc_source_url: https://github.com/cookiecutter/cookiecutter/tree/master/docs\n  summary: >\n    A command-line utility that creates projects from cookiecutters (project templates), e.g. creating a Python package project from a Python package project template.\n\nextra:\n  recipe-maintainers:\n    - bollwyvl\n    - cadair\n    - jakirkham\n    - pydanny\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "binaryornot",
+   "click",
+   "jinja2",
+   "jinja2-time",
+   "markupsafe",
+   "pip",
+   "poyo",
+   "python",
+   "python-slugify",
+   "requests",
+   "six",
+   "whichcraft"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "binaryornot",
+    "click",
+    "jinja2",
+    "jinja2-time",
+    "markupsafe",
+    "poyo",
+    "python",
+    "python-slugify",
+    "requests",
+    "six",
+    "whichcraft"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "freezegun",
+    "git",
+    "mercurial",
+    "pip",
+    "pytest",
+    "pytest-cov",
+    "pytest-mock",
+    "python"
+   ]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.6.16",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "binaryornot >=0.4.4",
+    "click >=7.0",
+    "jinja2 <3.0.0a0",
+    "jinja2-time >=0.2.0",
+    "markupsafe <2.0.0",
+    "poyo >=0.5.0",
+    "python",
+    "python-slugify >=4.0.0",
+    "requests >=2.23.0",
+    "six >=1.10",
+    "whichcraft >=0.4.0"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "freezegun",
+    "git",
+    "mercurial",
+    "pip",
+    "pytest",
+    "pytest-cov",
+    "pytest-mock",
+    "python"
+   ]
+  }
+ },
+ "url":"https://pypi.io/packages/source/c/cookiecutter/cookiecutter-1.6.0.tar.gz",
+ "version":"1.7.2"
+}

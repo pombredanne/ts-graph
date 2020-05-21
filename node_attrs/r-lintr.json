@@ -1,0 +1,384 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/233084093.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/299337036.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"RBaseRebuild",
+    "migrator_version":0,
+    "name":"r-base-3.6.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/323432770.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.0.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/376985852.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.0.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/413641786.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":2,
+    "migrator_version":0,
+    "name":"r400"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "bot":{
+   "automerge":true
+  },
+  "provider":{
+   "win":"azure"
+  }
+ },
+ "feedstock_name":"r-lintr",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"https://github.com/jimhester/lintr",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":[
+    "/lib/R/share/licenses/MIT",
+    "LICENSE",
+    "/lib/R/share/licenses/MIT",
+    "LICENSE",
+    "/lib/R/share/licenses/MIT",
+    "LICENSE"
+   ],
+   "summary":"Checks adherence to a given style, syntax errors and possible semantic issues.  Supports on the fly checking of R code edited with 'RStudio IDE', 'Emacs', 'Vim', 'Sublime Text' and 'Atom'."
+  },
+  "build":{
+   "merge_build_host":true,
+   "noarch":"generic",
+   "number":"1",
+   "rpaths":[
+    "lib/R/lib/",
+    "lib/",
+    "lib/R/lib/",
+    "lib/",
+    "lib/R/lib/",
+    "lib/"
+   ]
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "conda-forge/r",
+    "Adrianzo",
+    "conda-forge/r",
+    "Adrianzo",
+    "conda-forge/r",
+    "Adrianzo"
+   ]
+  },
+  "package":{
+   "name":"r-lintr",
+   "version":"2.0.1"
+  },
+  "requirements":{
+   "build":null,
+   "host":[
+    "r-base",
+    "r-codetools",
+    "r-crayon",
+    "r-cyclocomp",
+    "r-digest",
+    "r-httr >=1.2.1",
+    "r-jsonlite",
+    "r-knitr",
+    "r-rex",
+    "r-rstudioapi >=0.2",
+    "r-stringdist",
+    "r-testthat",
+    "r-xml2 >=1.0.0",
+    "r-xmlparsedata >=1.0.3",
+    "r-base",
+    "r-codetools",
+    "r-crayon",
+    "r-cyclocomp",
+    "r-digest",
+    "r-httr >=1.2.1",
+    "r-jsonlite",
+    "r-knitr",
+    "r-rex",
+    "r-rstudioapi >=0.2",
+    "r-stringdist",
+    "r-testthat",
+    "r-xml2 >=1.0.0",
+    "r-xmlparsedata >=1.0.3",
+    "r-base",
+    "r-codetools",
+    "r-crayon",
+    "r-cyclocomp",
+    "r-digest",
+    "r-httr >=1.2.1",
+    "r-jsonlite",
+    "r-knitr",
+    "r-rex",
+    "r-rstudioapi >=0.2",
+    "r-stringdist",
+    "r-testthat",
+    "r-xml2 >=1.0.0",
+    "r-xmlparsedata >=1.0.3"
+   ],
+   "run":[
+    "r-base",
+    "r-codetools",
+    "r-crayon",
+    "r-cyclocomp",
+    "r-digest",
+    "r-httr >=1.2.1",
+    "r-jsonlite",
+    "r-knitr",
+    "r-rex",
+    "r-rstudioapi >=0.2",
+    "r-stringdist",
+    "r-testthat",
+    "r-xml2 >=1.0.0",
+    "r-xmlparsedata >=1.0.3",
+    "r-base",
+    "r-codetools",
+    "r-crayon",
+    "r-cyclocomp",
+    "r-digest",
+    "r-httr >=1.2.1",
+    "r-jsonlite",
+    "r-knitr",
+    "r-rex",
+    "r-rstudioapi >=0.2",
+    "r-stringdist",
+    "r-testthat",
+    "r-xml2 >=1.0.0",
+    "r-xmlparsedata >=1.0.3",
+    "r-base",
+    "r-codetools",
+    "r-crayon",
+    "r-cyclocomp",
+    "r-digest",
+    "r-httr >=1.2.1",
+    "r-jsonlite",
+    "r-knitr",
+    "r-rex",
+    "r-rstudioapi >=0.2",
+    "r-stringdist",
+    "r-testthat",
+    "r-xml2 >=1.0.0",
+    "r-xmlparsedata >=1.0.3"
+   ]
+  },
+  "source":{
+   "sha256":"fe0723757b653ef83ec7a5005d0a7524cd917d646d35a5627ee639158881ce93",
+   "url":[
+    "https://cran.r-project.org/src/contrib/lintr_2.0.1.tar.gz",
+    "https://cran.r-project.org/src/contrib/Archive/lintr/lintr_2.0.1.tar.gz",
+    "https://cran.r-project.org/src/contrib/lintr_2.0.1.tar.gz",
+    "https://cran.r-project.org/src/contrib/Archive/lintr/lintr_2.0.1.tar.gz",
+    "https://cran.r-project.org/src/contrib/lintr_2.0.1.tar.gz",
+    "https://cran.r-project.org/src/contrib/Archive/lintr/lintr_2.0.1.tar.gz"
+   ]
+  },
+  "test":{
+   "commands":[
+    "\"%R%\" -e \"library('lintr')\"",
+    "$R -e \"library('lintr')\"",
+    "$R -e \"library('lintr')\""
+   ]
+  }
+ },
+ "name":"r-lintr",
+ "new_version":"2.0.1",
+ "pinning_version":"2020.05.04.19.59.17",
+ "raw_meta_yaml":"{% set version = \"2.0.1\" %}\n{% set posix = 'm2-' if win else '' %}\n{% set native = 'm2w64-' if win else '' %}\n\npackage:\n  name: r-lintr\n  version: {{ version|replace(\"-\", \"_\") }}\n\nsource:\n  url:\n    - {{ cran_mirror }}/src/contrib/lintr_{{ version }}.tar.gz\n    - {{ cran_mirror }}/src/contrib/Archive/lintr/lintr_{{ version }}.tar.gz\n  sha256: fe0723757b653ef83ec7a5005d0a7524cd917d646d35a5627ee639158881ce93\n\nbuild:\n  merge_build_host: True  # [win]\n  number: 1\n  noarch: generic\n  rpaths:\n    - lib/R/lib/\n    - lib/\n\nrequirements:\n  build:\n    - {{ posix }}zip               # [win]\n  host:\n    - r-base\n    - r-codetools\n    - r-crayon\n    - r-cyclocomp\n    - r-digest\n    - r-httr >=1.2.1\n    - r-jsonlite\n    - r-knitr\n    - r-rex\n    - r-rstudioapi >=0.2\n    - r-stringdist\n    - r-testthat\n    - r-xml2 >=1.0.0\n    - r-xmlparsedata >=1.0.3\n  run:\n    - r-base\n    - r-codetools\n    - r-crayon\n    - r-cyclocomp\n    - r-digest\n    - r-httr >=1.2.1\n    - r-jsonlite\n    - r-knitr\n    - r-rex\n    - r-rstudioapi >=0.2\n    - r-stringdist\n    - r-testthat\n    - r-xml2 >=1.0.0\n    - r-xmlparsedata >=1.0.3\n\ntest:\n  commands:\n    - $R -e \"library('lintr')\"           # [not win]\n    - \"\\\"%R%\\\" -e \\\"library('lintr')\\\"\"  # [win]\n\nabout:\n  home: https://github.com/jimhester/lintr\n  license: MIT\n  summary: Checks adherence to a given style, syntax errors and possible semantic issues.  Supports\n    on the fly checking of R code edited with 'RStudio IDE', 'Emacs', 'Vim', 'Sublime\n    Text' and 'Atom'.\n  license_family: MIT\n  license_file:\n    - '{{ environ[\"PREFIX\"] }}/lib/R/share/licenses/MIT'\n    - LICENSE\n\nextra:\n  recipe-maintainers:\n    - conda-forge/r\n    - Adrianzo\n\n# Package: lintr\n# Title: A 'Linter' for R Code\n# Version: 2.0.0\n# Authors@R: c( person(\"Jim\", \"Hester\", email = \"james.f.hester@gmail.com\", role = c(\"aut\", \"cre\")), person(\"Florent\", \"Angly\", role = \"aut\") )\n# URL: https://github.com/jimhester/lintr\n# BugReports: https://github.com/jimhester/lintr/issues\n# Description: Checks adherence to a given style, syntax errors and possible semantic issues.  Supports on the fly checking of R code edited with 'RStudio IDE', 'Emacs', 'Vim', 'Sublime Text' and 'Atom'.\n# Depends: R (>= 3.2)\n# Imports: rex, crayon, codetools, cyclocomp, stringdist, testthat, digest, rstudioapi (>= 0.2), httr (>= 1.2.1), jsonlite, knitr, stats, utils, xml2 (>= 1.0.0), xmlparsedata (>= 1.0.3)\n# Suggests: rmarkdown, mockery\n# License: MIT + file LICENSE\n# LazyData: true\n# Encoding: UTF-8\n# VignetteBuilder: knitr\n# RoxygenNote: 6.1.1\n# Collate: 'T_and_F_symbol_linter.R' 'utils.R' 'aaa.R' 'addins.R' 'assignment_linter.R' 'cache.R' 'closed_curly_linter.R' 'commas_linter.R' 'comment_linters.R' 'comments.R' 'cyclocomp_linter.R' 'declared_functions.R' 'object_name_linters.R' 'deprecated.R' 'equals_na_lintr.R' 'exclude.R' 'expect_lint.R' 'extract.R' 'extraction_operator_linter.R' 'function_left_parentheses.R' 'get_source_expressions.R' 'ids_with_token.R' 'implicit_integer_linter.R' 'infix_spaces_linter.R' 'line_length_linter.R' 'lint.R' 'methods.R' 'namespace.R' 'no_tab_linter.R' 'object_usage_linter.R' 'open_curly_linter.R' 'paren_brace_linter.R' 'path_linters.R' 'pipe_continuation_linter.R' 'semicolon_terminator_linter.R' 'seq_linter.R' 'settings.R' 'single_quotes_linter.R' 'spaces_inside_linter.R' 'spaces_left_parentheses_linter.R' 'trailing_blank_lines_linter.R' 'trailing_whitespace_linter.R' 'tree-utils.R' 'undesirable_function_linter.R' 'undesirable_operator_linter.R' 'unneeded_concatenation_linter.R' 'with_id.R' 'zzz.R'\n# NeedsCompilation: no\n# Packaged: 2019-10-01 15:45:57 UTC; jhester\n# Author: Jim Hester [aut, cre], Florent Angly [aut]\n# Maintainer: Jim Hester <james.f.hester@gmail.com>\n# Repository: CRAN\n# Date/Publication: 2019-10-01 18:10:03 UTC\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "r-base",
+   "r-codetools",
+   "r-crayon",
+   "r-cyclocomp",
+   "r-digest",
+   "r-httr",
+   "r-jsonlite",
+   "r-knitr",
+   "r-rex",
+   "r-rstudioapi",
+   "r-stringdist",
+   "r-testthat",
+   "r-xml2",
+   "r-xmlparsedata"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "r-base",
+    "r-codetools",
+    "r-crayon",
+    "r-cyclocomp",
+    "r-digest",
+    "r-httr",
+    "r-jsonlite",
+    "r-knitr",
+    "r-rex",
+    "r-rstudioapi",
+    "r-stringdist",
+    "r-testthat",
+    "r-xml2",
+    "r-xmlparsedata"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "r-base",
+    "r-codetools",
+    "r-crayon",
+    "r-cyclocomp",
+    "r-digest",
+    "r-httr",
+    "r-jsonlite",
+    "r-knitr",
+    "r-rex",
+    "r-rstudioapi",
+    "r-stringdist",
+    "r-testthat",
+    "r-xml2",
+    "r-xmlparsedata"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.7.0\n",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "r-base",
+    "r-codetools",
+    "r-crayon",
+    "r-cyclocomp",
+    "r-digest",
+    "r-httr >=1.2.1",
+    "r-jsonlite",
+    "r-knitr",
+    "r-rex",
+    "r-rstudioapi >=0.2",
+    "r-stringdist",
+    "r-testthat",
+    "r-xml2 >=1.0.0",
+    "r-xmlparsedata >=1.0.3"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "r-base",
+    "r-codetools",
+    "r-crayon",
+    "r-cyclocomp",
+    "r-digest",
+    "r-httr >=1.2.1",
+    "r-jsonlite",
+    "r-knitr",
+    "r-rex",
+    "r-rstudioapi >=0.2",
+    "r-stringdist",
+    "r-testthat",
+    "r-xml2 >=1.0.0",
+    "r-xmlparsedata >=1.0.3"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":[
+  "https://cran.r-project.org/src/contrib/lintr_1.0.3.tar.gz",
+  "https://cran.r-project.org/src/contrib/Archive/lintr/lintr_1.0.3.tar.gz",
+  "https://cran.r-project.org/src/contrib/lintr_1.0.3.tar.gz",
+  "https://cran.r-project.org/src/contrib/Archive/lintr/lintr_1.0.3.tar.gz",
+  "https://cran.r-project.org/src/contrib/lintr_1.0.3.tar.gz",
+  "https://cran.r-project.org/src/contrib/Archive/lintr/lintr_1.0.3.tar.gz"
+ ],
+ "version":"2.0.1"
+}

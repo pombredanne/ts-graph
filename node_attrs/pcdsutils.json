@@ -1,0 +1,6 @@
+{
+ "bad":"Upstream: Error getting upstream version",
+ "feedstock_name":"pcdsutils",
+ "new_version":false,
+ "raw_meta_yaml":"{% set name = \"pcdsutils\" %}\n{% set version = \"0.2.0\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://github.com/pcdshub/{{ name }}/archive/v{{ version }}.tar.gz\n  sha256: 885932ebde4b09da5200849a0d225d32d522b45bbb070f463db9cb7e77daf647\n\nbuild:\n  number: 0\n  noarch: python\n  script: \"{{ PYTHON }} -m pip install . --no-deps -vv\"\n  entry_points:\n    - requirements-from-conda = pcdsutils.requirements:_requirements_from_conda\n    - requirements-compare = pcdsutils.requirements:_compare_requirements\n\nrequirements:\n  host:\n    - python >=3.6\n    - pip\n  run:\n    - python >=3.6\n    - pyqt >=5\n    - qtpy\n    - qtpyinheritance\n\ntest:\n  imports:\n    - pcdsutils\n    - pcdsutils.qt\n  requires:\n    - pytest\n    - pytest-qt\n\nabout:\n  home: https://github.com/pcdshub/pcdsutils\n  summary: 'SLAC National Accelerator Laboratory Photon Controls PCDS Python Utilities'\n  license: SLAC Open\n  license_family: OTHER\n  license_file: LICENSE.txt\n\nextra:\n  recipe-maintainers:\n    - klauer\n    - hhslepicka\n    - zllentz\n"
+}

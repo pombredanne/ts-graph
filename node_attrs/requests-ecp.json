@@ -1,0 +1,188 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/392327776.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.2.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"requests-ecp",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"A SAML/ECP authencation handler for python-requests",
+   "dev_url":"https://github.com/duncanmmacleod/requests-ecp/",
+   "doc_url":"https://requests-ecp.readthedocs.io/",
+   "home":"https://pypi.org/project/requests-ecp/",
+   "license":"GPL-3.0-or-later",
+   "license_family":"GPL",
+   "license_file":"LICENSE",
+   "summary":"SAML/ECP authentication handler for python-requests"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":"-m pip install . -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "duncanmmacleod",
+    "duncanmmacleod",
+    "duncanmmacleod"
+   ]
+  },
+  "package":{
+   "name":"requests-ecp",
+   "version":"0.2.1"
+  },
+  "requirements":{
+   "host":[
+    "pip",
+    "python >=3.5",
+    "setuptools",
+    "pip",
+    "python >=3.5",
+    "setuptools",
+    "pip",
+    "python >=3.5",
+    "setuptools"
+   ],
+   "run":[
+    "lxml",
+    "python >=3.5",
+    "requests",
+    "requests-kerberos >=0.9.0",
+    "lxml",
+    "python >=3.5",
+    "requests",
+    "requests-kerberos >=0.9.0",
+    "lxml",
+    "python >=3.5",
+    "requests",
+    "requests-kerberos >=0.9.0"
+   ]
+  },
+  "source":{
+   "sha256":"e7f05f6a5cb513391565e8b3d837f443a4f2f51aa731f0d7ad6ae57e1d32d71c",
+   "url":"https://pypi.io/packages/source/r/requests-ecp/requests-ecp-0.2.1.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "python -m pytest test_requests_ecp.py",
+    "python -m pytest test_requests_ecp.py",
+    "python -m pytest test_requests_ecp.py"
+   ],
+   "imports":[
+    "requests_ecp",
+    "requests_ecp",
+    "requests_ecp"
+   ],
+   "requires":[
+    "pytest",
+    "requests-mock",
+    "pytest",
+    "requests-mock",
+    "pytest",
+    "requests-mock"
+   ],
+   "source_files":[
+    "test_requests_ecp.py",
+    "test_requests_ecp.py",
+    "test_requests_ecp.py"
+   ]
+  }
+ },
+ "name":"requests-ecp",
+ "new_version":"0.2.1",
+ "pinning_version":"2020.03.23",
+ "raw_meta_yaml":"{% set name = \"requests-ecp\" %}\n{% set version = \"0.2.1\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: e7f05f6a5cb513391565e8b3d837f443a4f2f51aa731f0d7ad6ae57e1d32d71c\n\nbuild:\n  noarch: python\n  number: 0\n  script: {{ PYTHON }} -m pip install . -vv\n\nrequirements:\n  host:\n    - pip\n    - python >=3.5\n    - setuptools\n  run:\n    - lxml\n    - python >=3.5\n    - requests\n    - requests-kerberos >=0.9.0\n\ntest:\n  imports:\n    - requests_ecp\n  requires:\n    - pytest\n    - requests-mock\n  source_files:\n    - test_requests_ecp.py\n  commands:\n    - python -m pytest test_requests_ecp.py\n\nabout:\n  home: https://pypi.org/project/requests-ecp/\n  dev_url: https://github.com/duncanmmacleod/requests-ecp/\n  doc_url: https://requests-ecp.readthedocs.io/\n  license: GPL-3.0-or-later\n  license_family: GPL\n  license_file: LICENSE\n  summary: SAML/ECP authentication handler for python-requests\n  description: A SAML/ECP authencation handler for python-requests\n\nextra:\n  recipe-maintainers:\n    - duncanmmacleod\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "lxml",
+   "pip",
+   "python",
+   "requests",
+   "requests-kerberos",
+   "setuptools"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python",
+    "setuptools"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "lxml",
+    "python",
+    "requests",
+    "requests-kerberos"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "pytest",
+    "requests-mock"
+   ]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.6.15",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3.5",
+    "setuptools"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "lxml",
+    "python >=3.5",
+    "requests",
+    "requests-kerberos >=0.9.0"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "pytest",
+    "requests-mock"
+   ]
+  }
+ },
+ "url":"https://pypi.io/packages/source/r/requests-ecp/requests-ecp-0.1.1.tar.gz",
+ "version":"0.2.1"
+}

@@ -1,0 +1,160 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/342767646.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.50.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/369886862.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.51.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"rclone",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "dev_url":"https://github.com/rclone/rclone",
+   "doc_url":"https://rclone.org/docs/",
+   "home":"https://rclone.org/",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"src/github.com/rclone/rclone/COPYING",
+   "summary":"Rclone (\"rsync for cloud storage\") is a command line program to\nsync files and directories to and from different cloud storage providers.\n"
+  },
+  "build":{
+   "number":"0",
+   "script":[
+    "pushd src/github.com/rclone/rclone",
+    "go build -v -o %GOBIN%\\rclone.exe .",
+    "pushd src/github.com/rclone/rclone",
+    "go build -v -o $GOBIN/rclone .",
+    "pushd src/github.com/rclone/rclone",
+    "go build -v -o $GOBIN/rclone ."
+   ]
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "luizirber",
+    "luizirber",
+    "luizirber"
+   ]
+  },
+  "package":{
+   "name":"rclone",
+   "version":"1.51.0"
+  },
+  "requirements":{
+   "build":[
+    "go_compiler_stub >=1.7",
+    "go_compiler_stub >=1.7",
+    "go_compiler_stub >=1.7"
+   ]
+  },
+  "source":[
+   {
+    "folder":"src/github.com/rclone/rclone",
+    "sha256":"5777976745ecd32b8fa355fda1ba45c445d1c6b7ffbda5ac126479a937887b11",
+    "url":"https://github.com/rclone/rclone/archive/v1.51.0.tar.gz"
+   },
+   {
+    "folder":"src/github.com/rclone/rclone",
+    "sha256":"5777976745ecd32b8fa355fda1ba45c445d1c6b7ffbda5ac126479a937887b11",
+    "url":"https://github.com/rclone/rclone/archive/v1.51.0.tar.gz"
+   },
+   {
+    "folder":"src/github.com/rclone/rclone",
+    "sha256":"5777976745ecd32b8fa355fda1ba45c445d1c6b7ffbda5ac126479a937887b11",
+    "url":"https://github.com/rclone/rclone/archive/v1.51.0.tar.gz"
+   }
+  ],
+  "test":{
+   "commands":[
+    "rclone version",
+    "rclone version",
+    "rclone version"
+   ]
+  }
+ },
+ "name":"rclone",
+ "new_version":"1.51.0",
+ "pinning_version":"2020.01.27",
+ "raw_meta_yaml":"{% set goname = \"github.com/rclone/rclone\" %}\n{% set version = \"1.51.0\" %}\n\n{% set name = goname.split('/')[-1] %}\n{% set pkg_src = ('src/'+goname).replace(\"/\",os.sep) %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  - folder: {{ pkg_src }}\n    url: https://{{ goname }}/archive/v{{ version }}.tar.gz\n    sha256: 5777976745ecd32b8fa355fda1ba45c445d1c6b7ffbda5ac126479a937887b11\n\nbuild:\n  number: 0\n  script:\n    - pushd {{ pkg_src }}\n    - go build -v -o $GOBIN/{{ name }} .       # [unix]\n    - go build -v -o %GOBIN%\\{{ name }}.exe .  # [win]\n\nrequirements:\n  build:\n    - {{ compiler(\"go\") }} >=1.7\n\ntest:\n  commands:\n    - rclone version\n\nabout:\n  home: https://rclone.org/\n  license: MIT\n  license_family: MIT\n  license_file: {{ pkg_src }}/COPYING\n  summary: |\n     Rclone (\"rsync for cloud storage\") is a command line program to\n     sync files and directories to and from different cloud storage providers.\n  doc_url: https://rclone.org/docs/\n  dev_url: https://github.com/rclone/rclone\n\nextra:\n  recipe-maintainers:\n    - luizirber\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "go_compiler_stub"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "go_compiler_stub"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.6.6",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "go_compiler_stub >=1.7"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://github.com/rclone/rclone/archive/v1.50.1.tar.gz",
+ "version":"1.51.0"
+}

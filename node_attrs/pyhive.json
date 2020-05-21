@@ -1,0 +1,174 @@
+{
+ "archived":true,
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"pyhive",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"PyHive is a collection of Python DB-API and SQLAlchemy interfaces for Presto and Hive.\n",
+   "doc_source_url":"https://github.com/dropbox/PyHive/blob/master/README.rst",
+   "doc_url":"https://pypi.python.org/pypi/PyHive",
+   "home":"https://pypi.org/project/PyHive/",
+   "license":"Apache-2.0",
+   "license_family":"Apache",
+   "license_file":"LICENSE",
+   "summary":"Python interface to Hive"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":"-m pip install . -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "mariusvniekerk",
+    "mariusvniekerk",
+    "mariusvniekerk"
+   ]
+  },
+  "package":{
+   "name":"pyhive",
+   "version":"0.6.2"
+  },
+  "requirements":{
+   "host":[
+    "pip",
+    "python",
+    "pip",
+    "python",
+    "pip",
+    "python"
+   ],
+   "run":[
+    "future",
+    "python",
+    "python-dateutil",
+    "thrift >=0.10.0",
+    "thrift_sasl >0.2.1",
+    "requests >=1.0.0",
+    "sqlalchemy >=0.8.7",
+    "future",
+    "python",
+    "python-dateutil",
+    "thrift >=0.10.0",
+    "thrift_sasl >0.2.1",
+    "requests >=1.0.0",
+    "sqlalchemy >=0.8.7",
+    "future",
+    "python",
+    "python-dateutil",
+    "thrift >=0.10.0",
+    "thrift_sasl >0.2.1",
+    "requests >=1.0.0",
+    "sqlalchemy >=0.8.7"
+   ]
+  },
+  "source":{
+   "sha256":"cbde78c49e76a0bc84c7ccea05373b54ed456bcf86dd978a2eaea10ab7357610",
+   "url":"https://pypi.io/packages/source/P/PyHive/PyHive-0.6.2.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "pip check",
+    "pip check",
+    "pip check"
+   ],
+   "imports":[
+    "TCLIService",
+    "pyhive",
+    "TCLIService",
+    "pyhive",
+    "TCLIService",
+    "pyhive"
+   ],
+   "requires":[
+    "pip",
+    "pip",
+    "pip"
+   ]
+  }
+ },
+ "name":"pyhive",
+ "new_version":false,
+ "raw_meta_yaml":"{% set name = \"PyHive\" %}\n{% set version = \"0.6.2\" %}\n\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: cbde78c49e76a0bc84c7ccea05373b54ed456bcf86dd978a2eaea10ab7357610\n\nbuild:\n  number: 0\n  noarch: python\n  script: {{ PYTHON }} -m pip install . -vv\n\nrequirements:\n  host:\n    - pip\n    - python\n  run:\n    - future\n    - python\n    - python-dateutil\n    - thrift >=0.10.0\n    - thrift_sasl >0.2.1\n    - requests >=1.0.0\n    - sqlalchemy >=0.8.7\n\ntest:\n  imports:\n    - TCLIService\n    - pyhive\n  commands:\n    - pip check\n  requires:\n    - pip\n\nabout:\n  home: https://pypi.org/project/PyHive/\n  summary: Python interface to Hive\n  license: Apache-2.0\n  license_family: Apache\n  license_file: LICENSE\n  description: |\n    PyHive is a collection of Python DB-API and SQLAlchemy interfaces for Presto and Hive.\n  doc_url: https://pypi.python.org/pypi/PyHive\n  doc_source_url: https://github.com/dropbox/PyHive/blob/master/README.rst\n\nextra:\n  recipe-maintainers:\n    - mariusvniekerk\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "future",
+   "pip",
+   "python",
+   "python-dateutil",
+   "requests",
+   "sqlalchemy",
+   "thrift",
+   "thrift_sasl"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "future",
+    "python",
+    "python-dateutil",
+    "requests",
+    "sqlalchemy",
+    "thrift",
+    "thrift_sasl"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "pip"
+   ]
+  }
+ },
+ "strong_exports":false,
+ "time":1564871071.4577355,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "future",
+    "python",
+    "python-dateutil",
+    "requests >=1.0.0",
+    "sqlalchemy >=0.8.7",
+    "thrift >=0.10.0",
+    "thrift_sasl >0.2.1"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "pip"
+   ]
+  }
+ },
+ "url":"https://pypi.io/packages/source/P/PyHive/PyHive-0.6.2.tar.gz",
+ "version":"0.6.2"
+}

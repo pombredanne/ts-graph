@@ -1,0 +1,965 @@
+{
+ "PRed":[
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.10.9"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/202991234.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.11.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/203687983.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.12.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/206491736.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.12.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/209683268.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.13.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/213147849.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.14.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/213708910.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.14.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/214059088.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.14.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/214801413.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.14.4"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/216170565.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.15.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/216385391.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.15.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/220768019.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.16.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/222653355.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/226743708.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.16.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/232834862.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.16.3"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/235162091.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.17.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/235869456.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.17.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/237829358.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.17.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/237845818.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.17.3"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/238251923.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.17.4"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/238788001.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.17.5"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/240023193.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.17.6"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/245336077.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.17.7"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/260975144.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"ArchRebuild",
+    "migrator_version":1,
+    "name":"aarch64 and ppc64le addition"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/280023229.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.18.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/280140483.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.18.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/295982267.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.18.7"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/327877746.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.18.10"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/346858134.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"python38"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/383267279.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.18.12"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/386319612.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.19.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/390292804.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.19.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/397243314.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.19.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/402872643.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.19.3"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "provider":{
+   "linux_aarch64":"default",
+   "linux_ppc64le":"default"
+  }
+ },
+ "feedstock_name":"conda-build",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"Conda-build contains commands and tools to allow you to build your own\npackages for conda.\n",
+   "dev_url":"https://github.com/conda/conda-build",
+   "doc_url":"http://conda.pydata.org/docs/",
+   "home":"https://github.com/conda/conda-build",
+   "license":"BSD-3-Clause",
+   "license_family":"BSD",
+   "license_file":"LICENSE.txt",
+   "summary":"tools for building conda packages"
+  },
+  "build":{
+   "entry_points":[
+    "conda-build = conda_build.cli.main_build:main",
+    "conda-convert = conda_build.cli.main_convert:main",
+    "conda-debug = conda_build.cli.main_debug:main",
+    "conda-develop = conda_build.cli.main_develop:main",
+    "conda-index = conda_build.cli.main_index:main",
+    "conda-inspect = conda_build.cli.main_inspect:main",
+    "conda-metapackage = conda_build.cli.main_metapackage:main",
+    "conda-render = conda_build.cli.main_render:main",
+    "conda-skeleton = conda_build.cli.main_skeleton:main",
+    "conda-build = conda_build.cli.main_build:main",
+    "conda-convert = conda_build.cli.main_convert:main",
+    "conda-debug = conda_build.cli.main_debug:main",
+    "conda-develop = conda_build.cli.main_develop:main",
+    "conda-index = conda_build.cli.main_index:main",
+    "conda-inspect = conda_build.cli.main_inspect:main",
+    "conda-metapackage = conda_build.cli.main_metapackage:main",
+    "conda-render = conda_build.cli.main_render:main",
+    "conda-skeleton = conda_build.cli.main_skeleton:main",
+    "conda-build = conda_build.cli.main_build:main",
+    "conda-convert = conda_build.cli.main_convert:main",
+    "conda-debug = conda_build.cli.main_debug:main",
+    "conda-develop = conda_build.cli.main_develop:main",
+    "conda-index = conda_build.cli.main_index:main",
+    "conda-inspect = conda_build.cli.main_inspect:main",
+    "conda-metapackage = conda_build.cli.main_metapackage:main",
+    "conda-render = conda_build.cli.main_render:main",
+    "conda-skeleton = conda_build.cli.main_skeleton:main"
+   ],
+   "number":"2"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "jakirkham",
+    "jjhelmus",
+    "mingwandroid",
+    "msarahan",
+    "mwcraig",
+    "ocefpaf",
+    "patricksnape",
+    "pelson",
+    "scopatz",
+    "stuertz",
+    "CJ-Wright",
+    "jakirkham",
+    "jjhelmus",
+    "mingwandroid",
+    "msarahan",
+    "mwcraig",
+    "ocefpaf",
+    "patricksnape",
+    "pelson",
+    "scopatz",
+    "stuertz",
+    "CJ-Wright",
+    "jakirkham",
+    "jjhelmus",
+    "mingwandroid",
+    "msarahan",
+    "mwcraig",
+    "ocefpaf",
+    "patricksnape",
+    "pelson",
+    "scopatz",
+    "stuertz",
+    "CJ-Wright"
+   ]
+  },
+  "package":{
+   "name":"conda-build",
+   "version":"3.19.2"
+  },
+  "requirements":{
+   "build":null,
+   "host":[
+    "python",
+    "pip",
+    "conda-package-handling >=1.3",
+    "python",
+    "pip",
+    "conda-package-handling >=1.3",
+    "python",
+    "pip",
+    "conda-package-handling >=1.3"
+   ],
+   "run":[
+    "beautifulsoup4",
+    "chardet",
+    "conda  >=4.5",
+    "filelock",
+    "jinja2",
+    "pkginfo",
+    "psutil",
+    "python",
+    "py-lief",
+    "pyyaml",
+    "ripgrep",
+    "setuptools",
+    "six",
+    "glob2 >=0.6",
+    "pytz",
+    "tqdm",
+    "conda-package-handling >=1.3",
+    "python-libarchive-c",
+    "requests",
+    "m2-patch",
+    "beautifulsoup4",
+    "chardet",
+    "conda  >=4.5",
+    "filelock",
+    "jinja2",
+    "pkginfo",
+    "psutil",
+    "python",
+    "py-lief",
+    "pyyaml",
+    "ripgrep",
+    "setuptools",
+    "six",
+    "glob2 >=0.6",
+    "pytz",
+    "tqdm",
+    "conda-package-handling >=1.3",
+    "python-libarchive-c",
+    "requests",
+    "beautifulsoup4",
+    "chardet",
+    "conda  >=4.5",
+    "filelock",
+    "jinja2",
+    "patchelf",
+    "pkginfo",
+    "psutil",
+    "python",
+    "py-lief",
+    "pyyaml",
+    "ripgrep",
+    "setuptools",
+    "six",
+    "glob2 >=0.6",
+    "pytz",
+    "tqdm",
+    "conda-package-handling >=1.3",
+    "python-libarchive-c",
+    "requests"
+   ],
+   "run_constrained":[
+    "conda-verify  >=3.1.0",
+    "conda-verify  >=3.1.0",
+    "conda-verify  >=3.1.0"
+   ]
+  },
+  "source":{
+   "patches":[
+    "gh3606.patch",
+    "gh3925.patch",
+    "gh3606.patch",
+    "gh3925.patch",
+    "gh3606.patch",
+    "gh3925.patch"
+   ],
+   "sha256":"3f2126cce588dd09d9f84964294d389e4699ce8a34592d031f43da471f98ce31",
+   "url":"https://github.com/conda/conda-build/releases/download/3.19.2/conda-build-3.19.2.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "where conda-build",
+    "conda-build -h",
+    "where conda-convert",
+    "conda-convert -h",
+    "where conda-develop",
+    "where conda-debug",
+    "conda-develop -h",
+    "where conda-index",
+    "conda-index -h",
+    "where conda-inspect",
+    "conda-inspect -h",
+    "where conda-metapackage",
+    "conda-metapackage -h",
+    "where conda-render",
+    "conda-render -h",
+    "where conda-skeleton",
+    "conda-skeleton -h",
+    "python test_bdist_conda_setup.py bdist_conda --help",
+    "type -P conda-build",
+    "conda-build -h",
+    "type -P conda-convert",
+    "conda-convert -h",
+    "type -P conda-develop",
+    "type -P conda-debug",
+    "conda-develop -h",
+    "type -P conda-index",
+    "conda-index -h",
+    "type -P conda-inspect",
+    "conda-inspect linkages -h \\| grep \"--name ENVIRONMENT\"",
+    "conda-inspect objects -h \\| grep \"--name ENVIRONMENT\"",
+    "conda-inspect -h",
+    "type -P conda-metapackage",
+    "conda-metapackage -h",
+    "type -P conda-render",
+    "conda-render -h",
+    "type -P conda-skeleton",
+    "conda-skeleton -h",
+    "python test_bdist_conda_setup.py bdist_conda --help",
+    "type -P conda-build",
+    "conda-build -h",
+    "type -P conda-convert",
+    "conda-convert -h",
+    "type -P conda-develop",
+    "type -P conda-debug",
+    "conda-develop -h",
+    "type -P conda-index",
+    "conda-index -h",
+    "type -P conda-inspect",
+    "conda-inspect linkages -h \\| grep \"--name ENVIRONMENT\"",
+    "conda-inspect -h",
+    "type -P conda-metapackage",
+    "conda-metapackage -h",
+    "type -P conda-render",
+    "conda-render -h",
+    "type -P conda-skeleton",
+    "conda-skeleton -h",
+    "python test_bdist_conda_setup.py bdist_conda --help"
+   ],
+   "files":[
+    "test_bdist_conda_setup.py",
+    "test_bdist_conda_setup.py",
+    "test_bdist_conda_setup.py"
+   ],
+   "imports":[
+    "conda_build",
+    "conda_build",
+    "conda_build"
+   ]
+  }
+ },
+ "name":"conda-build",
+ "new_version":"3.19.3",
+ "new_version_attempts":{
+  "3.19.3":1
+ },
+ "new_version_errors":{},
+ "pinning_version":"2020.04.12.13.56.44",
+ "raw_meta_yaml":"{% set name = \"conda-build\" %}\n{% set version = \"3.19.2\" %}\n{% set sha256 = \"3f2126cce588dd09d9f84964294d389e4699ce8a34592d031f43da471f98ce31\" %}\n\npackage:\n  name: {{ name }}\n  version: {{ version }}\n\nsource:\n  url: https://github.com/conda/{{ name }}/releases/download/{{ version }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n  patches:\n    - gh3606.patch\n    - gh3925.patch\n\nbuild:\n  number: 2\n  entry_points:\n    - conda-build = conda_build.cli.main_build:main\n    - conda-convert = conda_build.cli.main_convert:main\n    - conda-debug = conda_build.cli.main_debug:main\n    - conda-develop = conda_build.cli.main_develop:main\n    - conda-index = conda_build.cli.main_index:main\n    - conda-inspect = conda_build.cli.main_inspect:main\n    - conda-metapackage = conda_build.cli.main_metapackage:main\n    - conda-render = conda_build.cli.main_render:main\n    - conda-skeleton = conda_build.cli.main_skeleton:main\n\nrequirements:\n  build:\n    - m2-patch           # [win]\n  host:\n    - python\n    - pip\n    - conda-package-handling >=1.3\n  run:\n    - beautifulsoup4\n    - chardet\n    - conda  >=4.5\n    - contextlib2        # [py27]\n    - enum34             # [py27]\n    - filelock\n    - futures            # [py27]\n    - jinja2\n    - patchelf      # [linux]\n    - pkginfo\n    - psutil\n    - python\n    - py-lief  # [not (win and py2k)]\n    - pyyaml\n    - ripgrep\n    - scandir            # [py27]\n    - setuptools\n    - six\n    - glob2 >=0.6\n    - pytz\n    - tqdm\n    - conda-package-handling >=1.3\n    - python-libarchive-c\n    - requests\n    - m2-patch           # [win]\n\n  run_constrained:\n    - conda-verify  >=3.1.0\n\ntest:\n  # If you run the test suite (~10 min), these are required\n  # requires:\n  #   - pytest\n  #   - pytest-cov\n  #   - pytest-xdist\n  #   - pytest-env\n\n  files:\n    - test_bdist_conda_setup.py\n\n  imports:\n    - conda_build\n\n  commands:\n    # Check for all subcommands\n    - type -P conda-build  # [unix]\n    - where conda-build  # [win]\n    - conda-build -h\n    - type -P conda-convert  # [unix]\n    - where conda-convert  # [win]\n    - conda-convert -h\n    - type -P conda-develop  # [unix]\n    - where conda-develop  # [win]\n    - type -P conda-debug  # [unix]\n    - where conda-debug  # [win]\n    - conda-develop -h\n    - type -P conda-index  # [unix]\n    - where conda-index  # [win]\n    - conda-index -h\n    - type -P conda-inspect  # [unix]\n    - where conda-inspect  # [win]\n    - conda-inspect linkages -h \\| grep \"--name ENVIRONMENT\"  # [unix]\n    - conda-inspect objects -h \\| grep \"--name ENVIRONMENT\"   # [osx]\n    - conda-inspect -h\n    - type -P conda-metapackage  # [unix]\n    - where conda-metapackage  # [win]\n    - conda-metapackage -h\n    - type -P conda-render  # [unix]\n    - where conda-render  # [win]\n    - conda-render -h\n    - type -P conda-skeleton  # [unix]\n    - where conda-skeleton  # [win]\n    - conda-skeleton -h\n\n    # Check for bdist_conda\n    - python test_bdist_conda_setup.py bdist_conda --help\n\nabout:\n  home: https://github.com/conda/conda-build\n  summary: tools for building conda packages\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: LICENSE.txt\n  description: |\n    Conda-build contains commands and tools to allow you to build your own\n    packages for conda.\n  doc_url: http://conda.pydata.org/docs/\n  dev_url: https://github.com/conda/conda-build\n\nextra:\n  recipe-maintainers:\n    - jakirkham\n    - jjhelmus\n    - mingwandroid\n    - msarahan\n    - mwcraig\n    - ocefpaf\n    - patricksnape\n    - pelson\n    - scopatz\n    - stuertz\n    - CJ-Wright\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "beautifulsoup4",
+   "chardet",
+   "conda",
+   "conda-package-handling",
+   "filelock",
+   "glob2",
+   "jinja2",
+   "m2-patch",
+   "patchelf",
+   "pip",
+   "pkginfo",
+   "psutil",
+   "py-lief",
+   "python",
+   "python-libarchive-c",
+   "pytz",
+   "pyyaml",
+   "requests",
+   "ripgrep",
+   "setuptools",
+   "six",
+   "tqdm"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "conda-package-handling",
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "beautifulsoup4",
+    "chardet",
+    "conda",
+    "conda-package-handling",
+    "filelock",
+    "glob2",
+    "jinja2",
+    "m2-patch",
+    "patchelf",
+    "pkginfo",
+    "psutil",
+    "py-lief",
+    "python",
+    "python-libarchive-c",
+    "pytz",
+    "pyyaml",
+    "requests",
+    "ripgrep",
+    "setuptools",
+    "six",
+    "tqdm"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.6.16",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "conda-package-handling >=1.3",
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "beautifulsoup4",
+    "chardet",
+    "conda  >=4.5",
+    "conda-package-handling >=1.3",
+    "filelock",
+    "glob2 >=0.6",
+    "jinja2",
+    "m2-patch",
+    "patchelf",
+    "pkginfo",
+    "psutil",
+    "py-lief",
+    "python",
+    "python-libarchive-c",
+    "pytz",
+    "pyyaml",
+    "requests",
+    "ripgrep",
+    "setuptools",
+    "six",
+    "tqdm"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://github.com/conda/conda-build/releases/download/3.18.9/conda-build-3.18.9.tar.gz",
+ "version":"3.19.2"
+}

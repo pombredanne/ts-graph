@@ -1,0 +1,152 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/336675568.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"5.4"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/342153261.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"5.5"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"geant4-data-photonevaporation",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"https://geant4.web.cern.ch/",
+   "license":"OTHER",
+   "license_file":"CREDIT",
+   "summary":"GEANT4 data files for photon evaporation"
+  },
+  "build":{
+   "noarch":"generic",
+   "number":"0",
+   "script":[
+    "mkdir -p ${PREFIX}/share/Geant4/data/PhotonEvaporation5.5",
+    "cp -r dataset/* ${PREFIX}/share/Geant4/data/PhotonEvaporation5.5",
+    "${RECIPE_DIR}/create_activation_scripts.sh geant4-data-photonevaporation G4LEVELGAMMADATA share/Geant4/data/PhotonEvaporation5.5",
+    "mkdir -p ${PREFIX}/share/Geant4/data/PhotonEvaporation5.5",
+    "cp -r dataset/* ${PREFIX}/share/Geant4/data/PhotonEvaporation5.5",
+    "${RECIPE_DIR}/create_activation_scripts.sh geant4-data-photonevaporation G4LEVELGAMMADATA share/Geant4/data/PhotonEvaporation5.5",
+    "mkdir -p ${PREFIX}/share/Geant4/data/PhotonEvaporation5.5",
+    "cp -r dataset/* ${PREFIX}/share/Geant4/data/PhotonEvaporation5.5",
+    "${RECIPE_DIR}/create_activation_scripts.sh geant4-data-photonevaporation G4LEVELGAMMADATA share/Geant4/data/PhotonEvaporation5.5"
+   ]
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "tschoonj",
+    "chrisburr",
+    "tschoonj",
+    "chrisburr",
+    "tschoonj",
+    "chrisburr"
+   ]
+  },
+  "package":{
+   "name":"geant4-data-photonevaporation",
+   "version":"5.5"
+  },
+  "requirements":{
+   "build":[
+    "make",
+    "make",
+    "make"
+   ]
+  },
+  "source":{
+   "folder":"dataset",
+   "sha256":"822398b4ccf8b698bd59e178276530bf93cbf9fdbede29f7647d1b1008d8ce8b",
+   "url":"https://geant4-data.web.cern.ch/geant4-data/datasets/G4PhotonEvaporation.5.5.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "[ \"$G4LEVELGAMMADATA\" == \"$CONDA_PREFIX/share/Geant4/data/PhotonEvaporation5.5\" ]",
+    "[ \"$G4LEVELGAMMADATA\" == \"$CONDA_PREFIX/share/Geant4/data/PhotonEvaporation5.5\" ]",
+    "[ \"$G4LEVELGAMMADATA\" == \"$CONDA_PREFIX/share/Geant4/data/PhotonEvaporation5.5\" ]"
+   ]
+  }
+ },
+ "name":"geant4-data-photonevaporation",
+ "new_version":"5.5",
+ "pinning_version":"2019.11.14",
+ "raw_meta_yaml":"{% set dataset_name = \"PhotonEvaporation\" %}\n{% set version = \"5.5\" %}\n{% set env_var = \"G4LEVELGAMMADATA\" %}\n{% set summary = \"GEANT4 data files for photon evaporation\" %}\n\n{% set name = \"geant4-data-\"+dataset_name.lower() %}\n{% set install_dir = \"share/Geant4/data/\"+dataset_name+version %}\n\npackage:\n    name: {{ name }}\n    version: \"{{ version }}\"\n\nsource:\n    url: https://geant4-data.web.cern.ch/geant4-data/datasets/G4{{ dataset_name }}.{{ version }}.tar.gz\n    sha256: 822398b4ccf8b698bd59e178276530bf93cbf9fdbede29f7647d1b1008d8ce8b\n    folder: dataset\n\nbuild:\n    number: 0\n    noarch: generic\n    script:\n        - mkdir -p ${PREFIX}/{{ install_dir }}\n        - cp -r dataset/* ${PREFIX}/{{ install_dir }}\n        - ${RECIPE_DIR}/create_activation_scripts.sh {{ name }} {{ env_var }} {{ install_dir }}\n\n# Conda-forge is unable to build packages that have no dependencies so add\n# `make` as a dummy build dependency\nrequirements:\n  build:\n    - make\n\ntest:\n    commands:\n        - \"[ \\\"${{ env_var }}\\\" == \\\"$CONDA_PREFIX/{{ install_dir }}\\\" ]\"\n\nabout:\n    home: https://geant4.web.cern.ch/\n    summary: '{{ summary }}'\n    license: OTHER\n    license_file: CREDIT\n\nextra:\n    recipe-maintainers:\n        - tschoonj\n        - chrisburr\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "make"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "make"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.6.2",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "make"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://geant4-data.web.cern.ch/geant4-data/datasets/G4PhotonEvaporation.5.3.tar.gz",
+ "version":"5.5"
+}

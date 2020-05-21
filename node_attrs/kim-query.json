@@ -1,0 +1,124 @@
+{
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"kim-query",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"The Open Knowledgebase of Interatomic Models (OpenKIM) project is a\nframework designed to facilitate access to standardized implementations of\nempirical interatomic potentials (\"Models\") and simulation codes that use\nthem to compute material properties (\"Tests\").  Models and Tests archived\nat openkim.org are automatically run together to generate the predictions\nof the models for a host of material properties.  These predictions are\ninserted into a public database hosted at query.openkim.org; this package\nprovides python convenience routines for querying this database.\n",
+   "dev_url":"https://github.com/openkim/kim-query",
+   "home":"https://github.com/openkim/kim-query",
+   "license":"CDDL-1.0",
+   "license_family":"OTHER",
+   "license_file":"LICENSE.CDDL",
+   "summary":"Helper routines for querying the OpenKIM database hosted at https://query.openkim.org"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "dskarls",
+    "dskarls",
+    "dskarls"
+   ]
+  },
+  "package":{
+   "name":"kim-query",
+   "version":"1.0.0"
+  },
+  "requirements":{
+   "host":[
+    "python >=3.6",
+    "pip",
+    "python >=3.6",
+    "pip",
+    "python >=3.6",
+    "pip"
+   ],
+   "run":[
+    "python >=3.6",
+    "requests",
+    "python >=3.6",
+    "requests",
+    "python >=3.6",
+    "requests"
+   ]
+  },
+  "source":{
+   "sha256":"b8fe405b3a5ac37db4d9c3febc71c316119b4aba9dc8e8d966100f9fa40dd537",
+   "url":"https://pypi.io/packages/source/k/kim-query/kim-query-1.0.0.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "kim_query",
+    "kim_query",
+    "kim_query"
+   ]
+  }
+ },
+ "name":"kim-query",
+ "new_version":"1.0.0",
+ "raw_meta_yaml":"{% set name = \"kim-query\" %}\n{% set version = \"1.0.0\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: b8fe405b3a5ac37db4d9c3febc71c316119b4aba9dc8e8d966100f9fa40dd537\n\nbuild:\n  noarch: python\n  number: 0\n  script: \"{{ PYTHON }} -m pip install . -vv\"\n\nrequirements:\n  host:\n    - python >=3.6\n    - pip\n  run:\n    - python >=3.6\n    - requests\n\ntest:\n  imports:\n    - kim_query\n\nabout:\n  home: https://github.com/openkim/kim-query\n  license: CDDL-1.0\n  license_family: OTHER\n  license_file: LICENSE.CDDL\n  summary: 'Helper routines for querying the OpenKIM database hosted at https://query.openkim.org'\n  description: |\n    The Open Knowledgebase of Interatomic Models (OpenKIM) project is a\n    framework designed to facilitate access to standardized implementations of\n    empirical interatomic potentials (\"Models\") and simulation codes that use\n    them to compute material properties (\"Tests\").  Models and Tests archived\n    at openkim.org are automatically run together to generate the predictions\n    of the models for a host of material properties.  These predictions are\n    inserted into a public database hosted at query.openkim.org; this package\n    provides python convenience routines for querying this database.\n  dev_url: https://github.com/openkim/kim-query\n\nextra:\n  recipe-maintainers:\n    - dskarls\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "pip",
+   "python",
+   "requests"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "python",
+    "requests"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3.6"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "python >=3.6",
+    "requests"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/k/kim-query/kim-query-1.0.0.tar.gz",
+ "version":"1.0.0"
+}

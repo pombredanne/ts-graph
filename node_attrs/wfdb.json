@@ -1,0 +1,244 @@
+{
+ "PRed":[
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.1.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/196742502.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.2.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/202055652.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.2.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/349630085.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Replacement",
+    "migrator_version":0
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"wfdb",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"Native python scripts for reading and writing WFDB signals and annotations.",
+   "dev_url":"https://github.com/MIT-LCP/wfdb-python",
+   "doc_url":"https://github.com/MIT-LCP/wfdb-python",
+   "home":"https://github.com/MIT-LCP/wfdb-python",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"LICENSE",
+   "summary":"The WFDB Python Toolbox"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"1",
+   "script":"python -m pip install --no-deps --ignore-installed ."
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "Gijom",
+    "Gijom",
+    "Gijom"
+   ]
+  },
+  "package":{
+   "name":"wfdb",
+   "version":"2.2.1"
+  },
+  "requirements":{
+   "build":[
+    "pip",
+    "python",
+    "setuptools",
+    "pip",
+    "python",
+    "setuptools",
+    "pip",
+    "python",
+    "setuptools"
+   ],
+   "run":[
+    "python",
+    "nose >=1.3.7",
+    "numpy >=1.11.0",
+    "matplotlib-base >=1.5.1",
+    "requests >=2.10.0",
+    "pandas >=0.19.1",
+    "scipy >=0.19.0",
+    "scikit-learn",
+    "python",
+    "nose >=1.3.7",
+    "numpy >=1.11.0",
+    "matplotlib-base >=1.5.1",
+    "requests >=2.10.0",
+    "pandas >=0.19.1",
+    "scipy >=0.19.0",
+    "scikit-learn",
+    "python",
+    "nose >=1.3.7",
+    "numpy >=1.11.0",
+    "matplotlib-base >=1.5.1",
+    "requests >=2.10.0",
+    "pandas >=0.19.1",
+    "scipy >=0.19.0",
+    "scikit-learn"
+   ]
+  },
+  "source":{
+   "fn":"wfdb-2.2.1.tar.gz",
+   "sha256":"5225326103efde170b28884d85ee170dbc586c9fbaf0ae1a7126d66e1429677c",
+   "url":"https://pypi.io/packages/source/w/wfdb/wfdb-2.2.1.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "wfdb",
+    "wfdb.plot",
+    "wfdb.processing",
+    "wfdb.io",
+    "wfdb",
+    "wfdb.plot",
+    "wfdb.processing",
+    "wfdb.io",
+    "wfdb",
+    "wfdb.plot",
+    "wfdb.processing",
+    "wfdb.io"
+   ]
+  }
+ },
+ "name":"wfdb",
+ "new_version":"2.2.1",
+ "pinning_version":"2019.12.02",
+ "raw_meta_yaml":"{% set name = \"wfdb\" %}\n{% set version = \"2.2.1\" %}\n{% set sha256 = \"5225326103efde170b28884d85ee170dbc586c9fbaf0ae1a7126d66e1429677c\" %}\n\npackage:\n  name: '{{ name|lower }}'\n  version: '{{ version }}'\n\nsource:\n  fn: '{{ name }}-{{ version }}.tar.gz'\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: '{{ sha256 }}'\n\nbuild:\n  number: 1\n  noarch: python\n  script: python -m pip install --no-deps --ignore-installed .\n\nrequirements:\n  build:\n    - pip\n    - python\n    - setuptools\n  run:\n    - python\n    - nose >=1.3.7\n    - numpy >=1.11.0\n    - matplotlib-base >=1.5.1\n    - requests >=2.10.0\n    - pandas >=0.19.1\n    - scipy >=0.19.0\n    - scikit-learn\n\ntest:\n  imports:\n    - wfdb\n    - wfdb.plot\n    - wfdb.processing\n    - wfdb.io\n\nabout:\n  home: https://github.com/MIT-LCP/wfdb-python\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE\n  summary: The WFDB Python Toolbox\n  description:\n    Native python scripts for reading and writing WFDB signals and annotations.\n  doc_url: https://github.com/MIT-LCP/wfdb-python\n  dev_url: https://github.com/MIT-LCP/wfdb-python\n\nextra:\n  recipe-maintainers:\n    - Gijom\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "matplotlib-base",
+   "nose",
+   "numpy",
+   "pandas",
+   "pip",
+   "python",
+   "requests",
+   "scikit-learn",
+   "scipy",
+   "setuptools"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python",
+    "setuptools"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "matplotlib-base",
+    "nose",
+    "numpy",
+    "pandas",
+    "python",
+    "requests",
+    "scikit-learn",
+    "scipy"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.6.3",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python",
+    "setuptools"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "matplotlib-base >=1.5.1",
+    "nose >=1.3.7",
+    "numpy >=1.11.0",
+    "pandas >=0.19.1",
+    "python",
+    "requests >=2.10.0",
+    "scikit-learn",
+    "scipy >=0.19.0"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/w/wfdb/wfdb-2.2.1.tar.gz",
+ "version":"2.2.1"
+}

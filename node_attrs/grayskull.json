@@ -1,0 +1,310 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/381836794.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.1.6"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/390379376.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.2.4"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/401312731.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "head":{
+     "ref":"<this_is_not_a_branch>"
+    },
+    "state":"closed"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.4.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "head":{
+     "ref":"<this_is_not_a_branch>"
+    },
+    "state":"closed"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.4.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"grayskull",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "dev_url":"https://github.com/marcelotrevisani/grayskull",
+   "home":"https://pypi.org/project/grayskull/",
+   "license":"MIT",
+   "license_file":"LICENSE",
+   "summary":"Project to generate recipes for conda."
+  },
+  "build":{
+   "entry_points":[
+    "grayskull = grayskull.__main__:main",
+    "grayskull = grayskull.__main__:main",
+    "grayskull = grayskull.__main__:main"
+   ],
+   "noarch":"python",
+   "number":"0",
+   "script":"-m pip install . -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "marcelotrevisani",
+    "marcelotrevisani",
+    "marcelotrevisani"
+   ]
+  },
+  "package":{
+   "name":"grayskull",
+   "version":"0.5.1"
+  },
+  "requirements":{
+   "host":[
+    "pip",
+    "python >=3.7",
+    "setuptools >=30.3.0",
+    "setuptools_scm",
+    "pip",
+    "python >=3.7",
+    "setuptools >=30.3.0",
+    "setuptools_scm",
+    "pip",
+    "python >=3.7",
+    "setuptools >=30.3.0",
+    "setuptools_scm"
+   ],
+   "run":[
+    "colorama",
+    "rapidfuzz >=0.7.6",
+    "pip",
+    "progressbar2",
+    "python >=3.7",
+    "requests",
+    "ruamel.yaml >=0.15.3",
+    "ruamel.yaml.jinja2",
+    "setuptools >=30.3.0",
+    "stdlib-list",
+    "git",
+    "colorama",
+    "rapidfuzz >=0.7.6",
+    "pip",
+    "progressbar2",
+    "python >=3.7",
+    "requests",
+    "ruamel.yaml >=0.15.3",
+    "ruamel.yaml.jinja2",
+    "setuptools >=30.3.0",
+    "stdlib-list",
+    "git",
+    "colorama",
+    "rapidfuzz >=0.7.6",
+    "pip",
+    "progressbar2",
+    "python >=3.7",
+    "requests",
+    "ruamel.yaml >=0.15.3",
+    "ruamel.yaml.jinja2",
+    "setuptools >=30.3.0",
+    "stdlib-list",
+    "git"
+   ]
+  },
+  "source":{
+   "sha256":"f84e0aef813bd68d3dd16417798f1de96f59015b122cce11a49bfbf0c8e5caeb",
+   "url":"https://pypi.io/packages/source/g/grayskull/grayskull-0.5.1.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "pip check",
+    "grayskull --help",
+    "pip check",
+    "grayskull --help",
+    "pip check",
+    "grayskull --help"
+   ],
+   "imports":[
+    "grayskull",
+    "grayskull",
+    "grayskull"
+   ],
+   "requires":[
+    "pip",
+    "pip",
+    "pip"
+   ]
+  }
+ },
+ "name":"grayskull",
+ "new_version":"0.5.1",
+ "new_version_attempts":{
+  "0.3.2":1,
+  "0.4.0":1,
+  "0.4.1":1,
+  "0.5.1":1
+ },
+ "new_version_errors":{},
+ "pinning_version":"2020.04.14.12.02.49",
+ "raw_meta_yaml":"{% set name = \"grayskull\" %}\n{% set version = \"0.5.1\" %}\n\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: f84e0aef813bd68d3dd16417798f1de96f59015b122cce11a49bfbf0c8e5caeb\n\nbuild:\n  number: 0\n  noarch: python\n  entry_points:\n    - grayskull = grayskull.__main__:main\n  script: {{ PYTHON }} -m pip install . -vv\n\nrequirements:\n  host:\n    - pip\n    - python >=3.7\n    - setuptools >=30.3.0\n    - setuptools_scm\n  run:\n    - colorama\n    - rapidfuzz >=0.7.6\n    - pip\n    - progressbar2\n    - python >=3.7\n    - requests\n    - ruamel.yaml >=0.15.3\n    - ruamel.yaml.jinja2\n    - setuptools >=30.3.0\n    - stdlib-list\n    - git\n\ntest:\n  imports:\n    - grayskull\n  commands:\n    - pip check\n    - grayskull --help\n  requires:\n    - pip\n\nabout:\n  home: https://pypi.org/project/grayskull/\n  summary: Project to generate recipes for conda.\n  dev_url: https://github.com/marcelotrevisani/grayskull\n  license: MIT\n  license_file: LICENSE\n\nextra:\n  recipe-maintainers:\n    - marcelotrevisani\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "colorama",
+   "git",
+   "pip",
+   "progressbar2",
+   "python",
+   "rapidfuzz",
+   "requests",
+   "ruamel.yaml",
+   "ruamel.yaml.jinja2",
+   "setuptools",
+   "setuptools_scm",
+   "stdlib-list"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python",
+    "setuptools",
+    "setuptools_scm"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "colorama",
+    "git",
+    "pip",
+    "progressbar2",
+    "python",
+    "rapidfuzz",
+    "requests",
+    "ruamel.yaml",
+    "ruamel.yaml.jinja2",
+    "setuptools",
+    "stdlib-list"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "pip"
+   ]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.6.16",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3.7",
+    "setuptools >=30.3.0",
+    "setuptools_scm"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "colorama",
+    "git",
+    "pip",
+    "progressbar2",
+    "python >=3.7",
+    "rapidfuzz >=0.7.6",
+    "requests",
+    "ruamel.yaml >=0.15.3",
+    "ruamel.yaml.jinja2",
+    "setuptools >=30.3.0",
+    "stdlib-list"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "pip"
+   ]
+  }
+ },
+ "url":"https://pypi.io/packages/source/g/grayskull/grayskull-0.1.1.tar.gz",
+ "version":"0.5.1"
+}

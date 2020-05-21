@@ -1,0 +1,180 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/356502752.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.1.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/364781931.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.2.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"mv_regex",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"Move files by applying an regular expression.",
+   "dev_url":"https://github.com/tdegeus/mv_regex",
+   "doc_url":"https://github.com/tdegeus/mv_regex",
+   "home":"https://github.com/tdegeus/mv_regex",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"LICENSE",
+   "summary":"Move files by applying an regular expression."
+  },
+  "build":{
+   "entry_points":[
+    "mv_regex = mv_regex:main",
+    "mv_regex = mv_regex:main",
+    "mv_regex = mv_regex:main"
+   ],
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "tdegeus",
+    "tdegeus",
+    "tdegeus"
+   ]
+  },
+  "package":{
+   "name":"mv_regex",
+   "version":"0.2.0"
+  },
+  "requirements":{
+   "host":[
+    "python >=3",
+    "pip",
+    "setuptools",
+    "python >=3",
+    "pip",
+    "setuptools",
+    "python >=3",
+    "pip",
+    "setuptools"
+   ],
+   "run":[
+    "python >=3",
+    "docopt",
+    "click",
+    "python >=3",
+    "docopt",
+    "click",
+    "python >=3",
+    "docopt",
+    "click"
+   ]
+  },
+  "source":{
+   "sha256":"b4adc26cbeb3492e4fa82c1910b886a8009e41da274f0dd5d749fdc8c17d3fde",
+   "url":"https://github.com/tdegeus/mv_regex/archive/v0.2.0.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "mv_regex --help",
+    "mv_regex --help",
+    "mv_regex --help"
+   ]
+  }
+ },
+ "name":"mv_regex",
+ "new_version":"0.2.0",
+ "pinning_version":"2020.01.10",
+ "raw_meta_yaml":"{% set name = \"mv_regex\" %}\n{% set version = \"0.2.0\" %}\n{% set sha256 = \"b4adc26cbeb3492e4fa82c1910b886a8009e41da274f0dd5d749fdc8c17d3fde\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://github.com/tdegeus/mv_regex/archive/v{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  noarch: python\n  script: \"{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv\"\n  entry_points:\n    - mv_regex = mv_regex:main\n\nrequirements:\n  host:\n    - python >=3\n    - pip\n    - setuptools\n  run:\n    - python >=3\n    - docopt\n    - click\n\ntest:\n  commands:\n    - mv_regex --help\n\nabout:\n  home: https://github.com/tdegeus/mv_regex\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE\n  summary: 'Move files by applying an regular expression.'\n  description: 'Move files by applying an regular expression.'\n  doc_url: https://github.com/tdegeus/mv_regex\n  dev_url: https://github.com/tdegeus/mv_regex\n\nextra:\n  recipe-maintainers:\n    - tdegeus\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "click",
+   "docopt",
+   "pip",
+   "python",
+   "setuptools"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python",
+    "setuptools"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "click",
+    "docopt",
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.6.5",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3",
+    "setuptools"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "click",
+    "docopt",
+    "python >=3"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://github.com/tdegeus/mv_regex/archive/v0.0.2.tar.gz",
+ "version":"0.2.0"
+}

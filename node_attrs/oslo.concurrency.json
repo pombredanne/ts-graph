@@ -1,0 +1,277 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/314073778.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.30.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/339016793.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"python38"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/349576156.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.31.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/370263338.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"4.0.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/379649553.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"4.0.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "provider":{
+   "win":"azure"
+  }
+ },
+ "feedstock_name":"oslo.concurrency",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"https://github.com/openstack/oslo.concurrency",
+   "license":"Apache Software",
+   "license_family":"APACHE",
+   "license_file":"LICENSE",
+   "summary":"The oslo.concurrency library has utilities for safely running multi-thread, multi-process applications using locking mechanisms and for running external processes"
+  },
+  "build":{
+   "number":"0",
+   "script":" -m pip install . --no-deps --ignore-installed -vv "
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "pg-hbk",
+    "sy-hbk",
+    "pg-hbk",
+    "sy-hbk",
+    "pg-hbk",
+    "sy-hbk"
+   ]
+  },
+  "package":{
+   "name":"oslo.concurrency",
+   "version":"3.29.1"
+  },
+  "requirements":{
+   "host":[
+    "pbr !=2.1.0,>=2.0.0",
+    "pip",
+    "python",
+    "pbr !=2.1.0,>=2.0.0",
+    "pip",
+    "python",
+    "pbr !=2.1.0,>=2.0.0",
+    "pip",
+    "python"
+   ],
+   "run":[
+    "pbr !=2.1.0,>=2.0.0",
+    "oslo.config >=5.2.0",
+    "oslo.i18n >=3.15.3",
+    "oslo.utils >=3.33.0",
+    "six >=1.10.0",
+    "fasteners >=0.7.0",
+    "pip",
+    "python",
+    "pbr !=2.1.0,>=2.0.0",
+    "oslo.config >=5.2.0",
+    "oslo.i18n >=3.15.3",
+    "oslo.utils >=3.33.0",
+    "six >=1.10.0",
+    "fasteners >=0.7.0",
+    "pip",
+    "python",
+    "pbr !=2.1.0,>=2.0.0",
+    "oslo.config >=5.2.0",
+    "oslo.i18n >=3.15.3",
+    "oslo.utils >=3.33.0",
+    "six >=1.10.0",
+    "fasteners >=0.7.0",
+    "pip",
+    "python"
+   ]
+  },
+  "source":{
+   "sha256":"d5f5ccca934a7e736b934044e1a347da2e139db6e4df3a2ac5dedc15e5287c81",
+   "url":"https://pypi.io/packages/source/o/oslo.concurrency/oslo.concurrency-3.29.1.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "oslo_concurrency",
+    "oslo_concurrency.fixture.lockutils",
+    "oslo_concurrency.lockutils",
+    "oslo_concurrency.opts",
+    "oslo_concurrency.processutils",
+    "oslo_concurrency.version",
+    "oslo_concurrency.watchdog",
+    "oslo_concurrency",
+    "oslo_concurrency.fixture.lockutils",
+    "oslo_concurrency.lockutils",
+    "oslo_concurrency.opts",
+    "oslo_concurrency.processutils",
+    "oslo_concurrency.version",
+    "oslo_concurrency.watchdog",
+    "oslo_concurrency",
+    "oslo_concurrency.fixture.lockutils",
+    "oslo_concurrency.lockutils",
+    "oslo_concurrency.opts",
+    "oslo_concurrency.processutils",
+    "oslo_concurrency.version",
+    "oslo_concurrency.watchdog"
+   ]
+  }
+ },
+ "name":"oslo.concurrency",
+ "new_version":"4.0.2",
+ "pinning_version":"2020.02.20",
+ "raw_meta_yaml":"{% set name = \"oslo.concurrency\" %}\n{% set version = \"3.29.1\" %}\n\npackage:\n  name: \"{{ name|lower }}\"\n  version: \"{{ version }}\"\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: d5f5ccca934a7e736b934044e1a347da2e139db6e4df3a2ac5dedc15e5287c81\n\nbuild:\n  number: 0\n  script: \"{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv \"\n\nrequirements:\n  host:\n    - pbr !=2.1.0,>=2.0.0\n    - pip\n    - python\n  run:\n    - pbr !=2.1.0,>=2.0.0\n    - oslo.config >=5.2.0\n    - oslo.i18n >=3.15.3\n    - oslo.utils >=3.33.0\n    - six >=1.10.0\n    - fasteners >=0.7.0\n    - enum34 >=1.0.4  # [py2k]\n    - pip\n    - python\n\ntest:\n  imports:\n    - oslo_concurrency\n    - oslo_concurrency.fixture.lockutils\n    - oslo_concurrency.lockutils\n    - oslo_concurrency.opts\n    - oslo_concurrency.processutils\n    - oslo_concurrency.version\n    - oslo_concurrency.watchdog\n\nabout:\n  home: https://github.com/openstack/oslo.concurrency\n  license: Apache Software\n  license_family: APACHE\n  license_file: LICENSE\n  summary: The oslo.concurrency library has utilities for safely running multi-thread, multi-process applications using locking mechanisms and for running external processes\n\nextra:\n  recipe-maintainers:\n    - pg-hbk\n    - sy-hbk\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "fasteners",
+   "oslo.config",
+   "oslo.i18n",
+   "oslo.utils",
+   "pbr",
+   "pip",
+   "python",
+   "six"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pbr",
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "fasteners",
+    "oslo.config",
+    "oslo.i18n",
+    "oslo.utils",
+    "pbr",
+    "pip",
+    "python",
+    "six"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.6.8",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pbr !=2.1.0,>=2.0.0",
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "fasteners >=0.7.0",
+    "oslo.config >=5.2.0",
+    "oslo.i18n >=3.15.3",
+    "oslo.utils >=3.33.0",
+    "pbr !=2.1.0,>=2.0.0",
+    "pip",
+    "python",
+    "six >=1.10.0"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/o/oslo.concurrency/oslo.concurrency-3.29.1.tar.gz",
+ "version":"3.29.1"
+}

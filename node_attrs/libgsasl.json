@@ -1,0 +1,211 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/215802053.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/392054133.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"krb51171"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "compiler_stack":"comp7",
+  "max_py_ver":"37",
+  "max_r_ver":"35"
+ },
+ "feedstock_name":"libgsasl",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"http://www.gnu.org/software/gsasl/",
+   "license":"LGPL-2.1",
+   "summary":"Implementation of the Simple Authentication and Security Layer framework"
+  },
+  "build":{
+   "number":"1004",
+   "skip":true
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "koverholt",
+    "martindurant",
+    "mariusvniekerk",
+    "koverholt",
+    "martindurant",
+    "mariusvniekerk",
+    "koverholt",
+    "martindurant",
+    "mariusvniekerk"
+   ]
+  },
+  "package":{
+   "name":"libgsasl",
+   "version":"1.8.0"
+  },
+  "requirements":{
+   "build":[
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "c_compiler_stub",
+    "cxx_compiler_stub"
+   ],
+   "host":[
+    "libgcrypt",
+    "libntlm",
+    "krb5",
+    "libgcrypt",
+    "libntlm",
+    "krb5",
+    "libgcrypt",
+    "libntlm",
+    "krb5"
+   ],
+   "run":[
+    "libntlm",
+    "libgcrypt",
+    "krb5",
+    "libntlm",
+    "libgcrypt",
+    "krb5",
+    "libntlm",
+    "libgcrypt",
+    "krb5"
+   ]
+  },
+  "source":{
+   "fn":"libgsasl-1.8.0.tar.gz",
+   "patches":null,
+   "sha256":"3adfb49f9c92a719dea855fd1840d698cde55d4648d332a69032ba8bea207720",
+   "url":"ftp://ftp.gnu.org/gnu/gsasl/libgsasl-1.8.0.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "test -f $PREFIX/include/gsasl-compat.h",
+    "test -f $PREFIX/include/gsasl-mech.h",
+    "test -f $PREFIX/include/gsasl.h",
+    "test -f $PREFIX/lib/libgsasl.a",
+    "test -f $PREFIX/include/gsasl-compat.h",
+    "test -f $PREFIX/include/gsasl-mech.h",
+    "test -f $PREFIX/include/gsasl.h",
+    "test -f $PREFIX/lib/libgsasl.a",
+    "test -f $PREFIX/lib/libgsasl$SHLIB_EXT",
+    "test -f $PREFIX/lib/libgsasl.7.dylib",
+    "test -f $PREFIX/include/gsasl-compat.h",
+    "test -f $PREFIX/include/gsasl-mech.h",
+    "test -f $PREFIX/include/gsasl.h",
+    "test -f $PREFIX/lib/libgsasl.a",
+    "test -f $PREFIX/lib/libgsasl$SHLIB_EXT",
+    "test -f $PREFIX/lib/libgsasl.so.7",
+    "test -f $PREFIX/lib/libgsasl.so.7.9.6"
+   ]
+  }
+ },
+ "name":"libgsasl",
+ "new_version":false,
+ "pinning_version":"2020.03.22",
+ "raw_meta_yaml":"{% set version = \"1.8.0\" %}\n\npackage:\n  name: libgsasl\n  version: \"{{ version }}\"\n\nsource:\n  fn: libgsasl-{{ version }}.tar.gz\n  url: ftp://ftp.gnu.org/gnu/gsasl/libgsasl-{{ version }}.tar.gz\n  sha256: 3adfb49f9c92a719dea855fd1840d698cde55d4648d332a69032ba8bea207720\n  # See https://lists.gnu.org/archive/html/bug-gnulib/2017-07/msg00057.html\n  patches:\n    - vasnprintf-osx.patch  # [osx]\n\nbuild:\n  number: 1004\n  # This package is a dependency of libhdfs3, which is primarily used with HDFS on Linux.\n  skip: True  # [win]\n\nrequirements:\n  build:\n    - {{ compiler(\"c\") }}\n    - {{ compiler(\"cxx\") }}\n\n  host:\n    - libgcrypt\n    - libntlm\n    - krb5\n\n  run:\n    - libntlm\n    - libgcrypt\n    - krb5\n\ntest:\n  commands:\n    - test -f $PREFIX/include/gsasl-compat.h\n    - test -f $PREFIX/include/gsasl-mech.h\n    - test -f $PREFIX/include/gsasl.h\n    - test -f $PREFIX/lib/libgsasl.a\n    - test -f $PREFIX/lib/libgsasl$SHLIB_EXT  # [unix]\n    - test -f $PREFIX/lib/libgsasl.so.7       # [linux]\n    - test -f $PREFIX/lib/libgsasl.7.dylib    # [osx]\n    - test -f $PREFIX/lib/libgsasl.so.7.9.6   # [linux]\n\nabout:\n  home: http://www.gnu.org/software/gsasl/\n  license: LGPL-2.1\n  summary: Implementation of the Simple Authentication and Security Layer framework\n\nextra:\n  recipe-maintainers:\n    - koverholt\n    - martindurant\n    - mariusvniekerk\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "c_compiler_stub",
+   "cxx_compiler_stub",
+   "krb5",
+   "libgcrypt",
+   "libntlm"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "cxx_compiler_stub"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "krb5",
+    "libgcrypt",
+    "libntlm"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "krb5",
+    "libgcrypt",
+    "libntlm"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.6.15",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "cxx_compiler_stub"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "krb5",
+    "libgcrypt",
+    "libntlm"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "krb5",
+    "libgcrypt",
+    "libntlm"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"ftp://ftp.gnu.org/gnu/gsasl/libgsasl-1.8.0.tar.gz",
+ "version":"1.8.0"
+}

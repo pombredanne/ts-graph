@@ -1,0 +1,305 @@
+{
+ "PRed":[
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.3.8"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/198504713.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Compiler",
+    "migrator_version":0
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/211480326.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/305206980.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"ArchRebuild",
+    "migrator_version":1,
+    "name":"aarch64 and ppc64le addition"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/308176180.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"GFortranOSXRebuild",
+    "migrator_version":0,
+    "name":"fortran_compiler_stub-7"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "compiler_stack":"comp7",
+  "max_py_ver":"37",
+  "max_r_ver":"35",
+  "provider":{
+   "linux_aarch64":"default",
+   "linux_ppc64le":"default",
+   "win":"azure"
+  }
+ },
+ "feedstock_name":"fftw",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"http://fftw.org",
+   "license":"GPL 2",
+   "license_file":"COPYING",
+   "summary":"The fastest Fourier transform in the west."
+  },
+  "build":{
+   "number":"1110",
+   "run_exports":[
+    "fftw",
+    "fftw",
+    "fftw"
+   ],
+   "string":"nompi_h_1110"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "alexbw",
+    "jakirkham",
+    "jjhelmus",
+    "grlee77",
+    "jschueller",
+    "beckermr",
+    "egpbos",
+    "alexbw",
+    "jakirkham",
+    "jjhelmus",
+    "grlee77",
+    "jschueller",
+    "beckermr",
+    "egpbos",
+    "alexbw",
+    "jakirkham",
+    "jjhelmus",
+    "grlee77",
+    "jschueller",
+    "beckermr",
+    "egpbos"
+   ]
+  },
+  "package":{
+   "name":"fftw",
+   "version":"3.3.8"
+  },
+  "requirements":{
+   "build":[
+    "cmake",
+    "c_compiler_stub",
+    "perl",
+    "c_compiler_stub",
+    "fortran_compiler_stub",
+    "llvm-openmp >=4.0.1",
+    "perl",
+    "c_compiler_stub",
+    "fortran_compiler_stub"
+   ],
+   "host":[
+    "nompi",
+    "make",
+    "nompi",
+    "llvm-openmp >=4.0.1",
+    "make",
+    "nompi",
+    "make"
+   ],
+   "run":null
+  },
+  "source":{
+   "fn":"fftw-3.3.8.tar.gz",
+   "sha256":"6113262f6e92c5bd474f2875fa1b01054c4ad5040f6b0da7c03c98821d9ae303",
+   "url":"http://www.fftw.org/fftw-3.3.8.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "if not exist %LIBRARY_INC%\\\\fftw3.h exit 1",
+    "if not exist %LIBRARY_LIB%\\\\fftw3f.lib exit 1",
+    "if not exist %LIBRARY_BIN%\\\\fftw3f.dll exit 1",
+    "if not exist %LIBRARY_LIB%\\\\fftw3.lib exit 1",
+    "if not exist %LIBRARY_BIN%\\\\fftw3.dll exit 1",
+    "strings ${PREFIX}/lib/libfftw3.a | grep -q dfftw || exit 1\n",
+    "test -f ${PREFIX}/lib/libfftw3f.a || exit 1",
+    "test -f ${PREFIX}/lib/libfftw3.a || exit 1",
+    "test -f ${PREFIX}/lib/libfftw3l.a || exit 1",
+    "test -f ${PREFIX}/lib/libfftw3f_threads.a || exit 1",
+    "test -f ${PREFIX}/lib/libfftw3_threads.a || exit 1",
+    "test -f ${PREFIX}/lib/libfftw3l_threads.a || exit 1",
+    "test -f ${PREFIX}/lib/libfftw3f_omp.a || exit 1",
+    "test -f ${PREFIX}/lib/libfftw3_omp.a || exit 1",
+    "test -f ${PREFIX}/lib/libfftw3l_omp.a || exit 1",
+    "test -f ${PREFIX}/include/fftw3.h || exit 1",
+    "python -c \"import ctypes; ctypes.cdll[r'${PREFIX}/lib/libfftw3${SHLIB_EXT}']\"",
+    "python -c \"import ctypes; ctypes.cdll[r'${PREFIX}/lib/libfftw3_threads${SHLIB_EXT}']\"",
+    "python -c \"import ctypes; ctypes.cdll[r'${PREFIX}/lib/libfftw3f${SHLIB_EXT}']\"",
+    "python -c \"import ctypes; ctypes.cdll[r'${PREFIX}/lib/libfftw3f_threads${SHLIB_EXT}']\"",
+    "python -c \"import ctypes; ctypes.cdll[r'${PREFIX}/lib/libfftw3l${SHLIB_EXT}']\"",
+    "python -c \"import ctypes; ctypes.cdll[r'${PREFIX}/lib/libfftw3l_threads${SHLIB_EXT}']\"",
+    "python -c \"import ctypes; ctypes.cdll[r'${PREFIX}/lib/libfftw3_omp${SHLIB_EXT}']\"",
+    "python -c \"import ctypes; ctypes.cdll[r'${PREFIX}/lib/libfftw3f_omp${SHLIB_EXT}']\"",
+    "python -c \"import ctypes; ctypes.cdll[r'${PREFIX}/lib/libfftw3l_omp${SHLIB_EXT}']\"",
+    "strings ${PREFIX}/lib/libfftw3.a | grep -q dfftw || exit 1\n",
+    "test -f ${PREFIX}/lib/libfftw3f.a || exit 1",
+    "test -f ${PREFIX}/lib/libfftw3.a || exit 1",
+    "test -f ${PREFIX}/lib/libfftw3l.a || exit 1",
+    "test -f ${PREFIX}/lib/libfftw3f_threads.a || exit 1",
+    "test -f ${PREFIX}/lib/libfftw3_threads.a || exit 1",
+    "test -f ${PREFIX}/lib/libfftw3l_threads.a || exit 1",
+    "test -f ${PREFIX}/lib/libfftw3f_omp.a || exit 1",
+    "test -f ${PREFIX}/lib/libfftw3_omp.a || exit 1",
+    "test -f ${PREFIX}/lib/libfftw3l_omp.a || exit 1",
+    "test -f ${PREFIX}/include/fftw3.h || exit 1",
+    "python -c \"import ctypes; ctypes.cdll[r'${PREFIX}/lib/libfftw3${SHLIB_EXT}']\"",
+    "python -c \"import ctypes; ctypes.cdll[r'${PREFIX}/lib/libfftw3_threads${SHLIB_EXT}']\"",
+    "python -c \"import ctypes; ctypes.cdll[r'${PREFIX}/lib/libfftw3f${SHLIB_EXT}']\"",
+    "python -c \"import ctypes; ctypes.cdll[r'${PREFIX}/lib/libfftw3f_threads${SHLIB_EXT}']\"",
+    "python -c \"import ctypes; ctypes.cdll[r'${PREFIX}/lib/libfftw3l${SHLIB_EXT}']\"",
+    "python -c \"import ctypes; ctypes.cdll[r'${PREFIX}/lib/libfftw3l_threads${SHLIB_EXT}']\"",
+    "python -c \"import ctypes; ctypes.cdll[r'${PREFIX}/lib/libfftw3_omp${SHLIB_EXT}']\"",
+    "python -c \"import ctypes; ctypes.cdll[r'${PREFIX}/lib/libfftw3f_omp${SHLIB_EXT}']\"",
+    "python -c \"import ctypes; ctypes.cdll[r'${PREFIX}/lib/libfftw3l_omp${SHLIB_EXT}']\""
+   ],
+   "requires":[
+    "python =3.6",
+    "python =3.6",
+    "python =3.6"
+   ]
+  }
+ },
+ "name":"fftw",
+ "new_version":false,
+ "pinning_version":"2019.08.12",
+ "raw_meta_yaml":"{% set version = \"3.3.8\" %}\n{% set build = 1010 %}\n\n\n# ensure mpi is defined (needed for conda-smithy recipe-lint)\n{% set mpi = mpi or 'nompi' %}\n\npackage:\n  name: fftw\n  version: {{ version }}\n\nsource:\n  fn: fftw-{{ version }}.tar.gz\n  url: http://www.fftw.org/fftw-{{ version }}.tar.gz\n  sha256: 6113262f6e92c5bd474f2875fa1b01054c4ad5040f6b0da7c03c98821d9ae303\n\nbuild:\n  # prioritize nompi variant via build number\n  {% if mpi == 'nompi' %}\n  {% set build = build + 100 %}\n  {% endif %}\n  number: {{ build }}\n\n  # add build string so packages can depend on\n  # mpi or nompi variants explicitly:\n  # `pkg * mpi_mpich_*` for mpich\n  # `pkg * mpi_*` for any mpi\n  # `pkg * nompi_*` for no mpi\n  {% if mpi != 'nompi' %}\n  {% set mpi_prefix = \"mpi_\" + mpi %}\n  {% else %}\n  {% set mpi_prefix = \"nompi\" %}\n  {% endif %}\n  string: \"{{ mpi_prefix }}_h{{ PKG_HASH }}_{{ build }}\"\n\n  run_exports:\n    - {{ pin_compatible('fftw', max_pin='x') }}\n  {% if mpi != 'nompi' %}\n    - fftw * {{ mpi_prefix }}_*\n  {% endif %}\n\nrequirements:\n  build:\n    - perl   # [not win]\n    - cmake  # [win]\n    - {{ compiler('c') }}\n    - {{ compiler('fortran') }}  # [not win]\n    - llvm-openmp >=4.0.1  # [osx]\n  host:\n    - {{ mpi }}  # [mpi != 'nompi']\n    - llvm-openmp >=4.0.1  # [osx]\n    - make\n  run:\n    - llvm-openmp >=4.0.1  # [osx]\n\ntest:\n  requires:\n    {% if c_compiler == 'vs2008' %}\n    - python =2.7\n    {% else %}\n    - python =3.6\n    {% endif %}\n  commands:\n    # Verify library contains Fortran symbols\n    - |                                                 # [not win]\n      strings ${PREFIX}/lib/libfftw3.a | grep -q dfftw || exit 1  # [not win]\n\n    # Verify existence of library files\n    - test -f ${PREFIX}/lib/libfftw3f.a || exit 1           # [not win]\n    - test -f ${PREFIX}/lib/libfftw3.a || exit 1            # [not win]\n    - test -f ${PREFIX}/lib/libfftw3l.a || exit 1           # [not win]\n    - test -f ${PREFIX}/lib/libfftw3f_threads.a || exit 1   # [not win]\n    - test -f ${PREFIX}/lib/libfftw3_threads.a || exit 1    # [not win]\n    - test -f ${PREFIX}/lib/libfftw3l_threads.a || exit 1   # [not win]\n    - test -f ${PREFIX}/lib/libfftw3f_omp.a || exit 1       # [not win]\n    - test -f ${PREFIX}/lib/libfftw3_omp.a || exit 1        # [not win]\n    - test -f ${PREFIX}/lib/libfftw3l_omp.a || exit 1       # [not win]\n\n    # Verify headers are installed\n    - test -f ${PREFIX}/include/fftw3.h || exit 1           # [not win]\n    - if not exist %LIBRARY_INC%\\\\fftw3.h exit 1            # [win]\n\n    # Verify shared libraries are installed\n    {% set fftw_libs = [\n            \"libfftw3\",\n            \"libfftw3_threads\",\n            \"libfftw3f\",\n            \"libfftw3f_threads\",\n            \"libfftw3l\",\n            \"libfftw3l_threads\",\n    ] %}\n    {% set fftw_omp_libs = [\n            \"libfftw3_omp\",\n            \"libfftw3f_omp\",\n            \"libfftw3l_omp\",\n    ] %}\n    {% set fftw_mpi_libs = [\n            \"libfftw3_mpi\",\n            \"libfftw3f_mpi\",\n            \"libfftw3l_mpi\",\n    ] %}\n\n    {% for lib in fftw_libs %}\n    - python -c \"import ctypes; ctypes.cdll[r'${PREFIX}/lib/{{ lib }}${SHLIB_EXT}']\"  # [unix]\n    {% endfor %}\n\n    {% for lib in fftw_omp_libs %}\n    - python -c \"import ctypes; ctypes.cdll[r'${PREFIX}/lib/{{ lib }}${SHLIB_EXT}']\"  # [unix]\n    {% endfor %}\n\n    {% if mpi != 'nompi' %}\n    {% for lib in fftw_mpi_libs %}\n    # you need to link to the mpi libs to load the dll, so we just test\n    # if it exists\n    - test -f ${PREFIX}/lib/{{ lib }}${SHLIB_EXT} || exit 1  # [unix]\n    {% endfor %}\n    {% endif %}\n\n    {% set fftw_libs = [\"fftw3f\", \"fftw3\"] %}\n\n    {% for base in fftw_libs %}\n    - if not exist %LIBRARY_LIB%\\\\{{ base }}.lib exit 1  # [win]\n    - if not exist %LIBRARY_BIN%\\\\{{ base }}.dll exit 1  # [win]\n    {% endfor %}\n\nabout:\n  home: http://fftw.org\n  license: GPL 2\n  license_file: COPYING\n  summary: \"The fastest Fourier transform in the west.\"\n\nextra:\n  recipe-maintainers:\n    - alexbw\n    - jakirkham\n    - jjhelmus\n    - grlee77\n    - jschueller\n    - beckermr\n    - egpbos\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "c_compiler_stub",
+   "cmake",
+   "fortran_compiler_stub",
+   "llvm-openmp",
+   "make",
+   "nompi",
+   "perl"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "cmake",
+    "fortran_compiler_stub",
+    "llvm-openmp",
+    "perl"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "llvm-openmp",
+    "make",
+    "nompi"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "python"
+   ]
+  }
+ },
+ "smithy_version":"3.4.1",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "cmake",
+    "fortran_compiler_stub",
+    "llvm-openmp >=4.0.1",
+    "perl"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "llvm-openmp >=4.0.1",
+    "make",
+    "nompi"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "python =3.6"
+   ]
+  }
+ },
+ "url":"http://www.fftw.org/fftw-3.3.8.tar.gz",
+ "version":"3.3.8"
+}

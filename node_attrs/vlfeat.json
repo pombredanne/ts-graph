@@ -1,0 +1,167 @@
+{
+ "PRed":[
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.9.21"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/198444871.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Compiler",
+    "migrator_version":0
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/215022341.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "compiler_stack":"comp7",
+  "max_py_ver":"37",
+  "max_r_ver":"35"
+ },
+ "feedstock_name":"vlfeat",
+ "hash_type":"sha1",
+ "meta_yaml":{
+  "about":{
+   "home":"http://www.vlfeat.org/",
+   "license":"BSD 2-Clause",
+   "summary":"The VLFeat open source library implements popular computer vision algorithms specializing in image understanding and local features extraction and matching."
+  },
+  "build":{
+   "number":"1002"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "patricksnape",
+    "183amir",
+    "patricksnape",
+    "183amir",
+    "patricksnape",
+    "183amir"
+   ]
+  },
+  "package":{
+   "name":"vlfeat",
+   "version":"0.9.20"
+  },
+  "requirements":{
+   "build":[
+    "c_compiler_stub",
+    "c_compiler_stub",
+    "c_compiler_stub"
+   ],
+   "host":null
+  },
+  "source":{
+   "fn":"vlfeat-0.9.20-bin.tar.gz",
+   "patches":null,
+   "sha1":"1aa063af825b28dca332396732268e98f4821179",
+   "url":"http://www.vlfeat.org/download/vlfeat-0.9.20-bin.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "sift -h",
+    "mser -h",
+    "aib -h",
+    "if not exist %PREFIX%\\\\Library\\\\bin\\\\vl.dll exit 1",
+    "sift -h",
+    "mser -h",
+    "aib -h",
+    "test -f $PREFIX/lib/libvl.dylib",
+    "sift -h",
+    "mser -h",
+    "aib -h",
+    "test -f $PREFIX/lib/libvl.so"
+   ],
+   "requires":null
+  }
+ },
+ "name":"vlfeat",
+ "new_version":"0.9.21",
+ "pinning_version":"2018.09.11",
+ "raw_meta_yaml":"{% set version = \"0.9.20\" %}\n\npackage:\n  name: vlfeat\n  version: {{ version }}\n\nsource:\n  fn: vlfeat-{{ version }}-bin.tar.gz\n  url: http://www.vlfeat.org/download/vlfeat-{{ version }}-bin.tar.gz\n  sha1: 1aa063af825b28dca332396732268e98f4821179\n\n  patches:\n    - no_crt_copy.patch  # [win]\n    - no_snprintf.patch  # [win and vc==14]\n    - vs2010_openmp.patch  # [win and py34]\n    - vs2010_path.patch  # [win64 and py34]\n\nbuild:\n  number: 1002\n\nrequirements:\n  build:\n    - {{ compiler('c') }}\n  host:\n\ntest:\n  requires:\n    - python  # [win]\n\n  commands:\n    - sift -h\n    - mser -h\n    - aib -h\n    - if not exist %PREFIX%\\\\Library\\\\bin\\\\vl.dll exit 1  # [win]\n    - test -f $PREFIX/lib/libvl.dylib  # [osx]\n    - test -f $PREFIX/lib/libvl.so  # [linux]\n\nabout:\n  home: http://www.vlfeat.org/\n  summary: The VLFeat open source library implements popular computer vision algorithms specializing in image understanding and local features extraction and matching.\n  license: BSD 2-Clause\n\nextra:\n  recipe-maintainers:\n    - patricksnape\n    - 183amir\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "c_compiler_stub"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.1.12",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"http://www.vlfeat.org/download/vlfeat-0.9.20-bin.tar.gz",
+ "version":"0.9.20"
+}

@@ -1,0 +1,382 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/397579678.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.1.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/413854600.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":2,
+    "migrator_version":0,
+    "name":"r400"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "bot":{
+   "automerge":true
+  }
+ },
+ "feedstock_name":"r-tune",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"https://github.com/tidymodels/tune",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":[
+    "/lib/R/share/licenses/MIT",
+    "LICENSE",
+    "/lib/R/share/licenses/MIT",
+    "LICENSE",
+    "/lib/R/share/licenses/MIT",
+    "LICENSE"
+   ],
+   "summary":"The ability to tune models is important. 'tune' contains functions and classes to be used in conjunction with other 'tidymodels' packages for finding reasonable values of hyper-parameters in models, pre-processing methods, and post-processing steps."
+  },
+  "build":{
+   "merge_build_host":true,
+   "noarch":"generic",
+   "number":"1",
+   "rpaths":[
+    "lib/R/lib/",
+    "lib/",
+    "lib/R/lib/",
+    "lib/",
+    "lib/R/lib/",
+    "lib/"
+   ]
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "conda-forge/r",
+    "conda-forge/r",
+    "conda-forge/r"
+   ]
+  },
+  "package":{
+   "name":"r-tune",
+   "version":"0.1.0"
+  },
+  "requirements":{
+   "build":null,
+   "host":[
+    "r-base",
+    "r-gpfit",
+    "r-cli >=2.0.0",
+    "r-crayon",
+    "r-dials >=0.0.4",
+    "r-dplyr >=0.8.3",
+    "r-foreach",
+    "r-ggplot2",
+    "r-glue",
+    "r-hardhat >=0.1.0",
+    "r-parsnip >=0.0.4",
+    "r-purrr >=0.3.2",
+    "r-recipes >=0.1.9",
+    "r-rlang >=0.4.0",
+    "r-rsample",
+    "r-tibble >=2.1.3",
+    "r-tidyr",
+    "r-workflows >=0.1.0",
+    "r-yardstick",
+    "r-base",
+    "r-gpfit",
+    "r-cli >=2.0.0",
+    "r-crayon",
+    "r-dials >=0.0.4",
+    "r-dplyr >=0.8.3",
+    "r-foreach",
+    "r-ggplot2",
+    "r-glue",
+    "r-hardhat >=0.1.0",
+    "r-parsnip >=0.0.4",
+    "r-purrr >=0.3.2",
+    "r-recipes >=0.1.9",
+    "r-rlang >=0.4.0",
+    "r-rsample",
+    "r-tibble >=2.1.3",
+    "r-tidyr",
+    "r-workflows >=0.1.0",
+    "r-yardstick",
+    "r-base",
+    "r-gpfit",
+    "r-cli >=2.0.0",
+    "r-crayon",
+    "r-dials >=0.0.4",
+    "r-dplyr >=0.8.3",
+    "r-foreach",
+    "r-ggplot2",
+    "r-glue",
+    "r-hardhat >=0.1.0",
+    "r-parsnip >=0.0.4",
+    "r-purrr >=0.3.2",
+    "r-recipes >=0.1.9",
+    "r-rlang >=0.4.0",
+    "r-rsample",
+    "r-tibble >=2.1.3",
+    "r-tidyr",
+    "r-workflows >=0.1.0",
+    "r-yardstick"
+   ],
+   "run":[
+    "r-base",
+    "r-gpfit",
+    "r-cli >=2.0.0",
+    "r-crayon",
+    "r-dials >=0.0.4",
+    "r-dplyr >=0.8.3",
+    "r-foreach",
+    "r-ggplot2",
+    "r-glue",
+    "r-hardhat >=0.1.0",
+    "r-parsnip >=0.0.4",
+    "r-purrr >=0.3.2",
+    "r-recipes >=0.1.9",
+    "r-rlang >=0.4.0",
+    "r-rsample",
+    "r-tibble >=2.1.3",
+    "r-tidyr",
+    "r-workflows >=0.1.0",
+    "r-yardstick",
+    "r-base",
+    "r-gpfit",
+    "r-cli >=2.0.0",
+    "r-crayon",
+    "r-dials >=0.0.4",
+    "r-dplyr >=0.8.3",
+    "r-foreach",
+    "r-ggplot2",
+    "r-glue",
+    "r-hardhat >=0.1.0",
+    "r-parsnip >=0.0.4",
+    "r-purrr >=0.3.2",
+    "r-recipes >=0.1.9",
+    "r-rlang >=0.4.0",
+    "r-rsample",
+    "r-tibble >=2.1.3",
+    "r-tidyr",
+    "r-workflows >=0.1.0",
+    "r-yardstick",
+    "r-base",
+    "r-gpfit",
+    "r-cli >=2.0.0",
+    "r-crayon",
+    "r-dials >=0.0.4",
+    "r-dplyr >=0.8.3",
+    "r-foreach",
+    "r-ggplot2",
+    "r-glue",
+    "r-hardhat >=0.1.0",
+    "r-parsnip >=0.0.4",
+    "r-purrr >=0.3.2",
+    "r-recipes >=0.1.9",
+    "r-rlang >=0.4.0",
+    "r-rsample",
+    "r-tibble >=2.1.3",
+    "r-tidyr",
+    "r-workflows >=0.1.0",
+    "r-yardstick"
+   ]
+  },
+  "source":{
+   "sha256":"107d0d273b61f8276f5d8991c3c7f0af7123de9c6207288f036d4140e76f3176",
+   "url":[
+    "https://cran.r-project.org/src/contrib/tune_0.1.0.tar.gz",
+    "https://cran.r-project.org/src/contrib/Archive/tune/tune_0.1.0.tar.gz",
+    "https://cran.r-project.org/src/contrib/tune_0.1.0.tar.gz",
+    "https://cran.r-project.org/src/contrib/Archive/tune/tune_0.1.0.tar.gz",
+    "https://cran.r-project.org/src/contrib/tune_0.1.0.tar.gz",
+    "https://cran.r-project.org/src/contrib/Archive/tune/tune_0.1.0.tar.gz"
+   ]
+  },
+  "test":{
+   "commands":[
+    "\"%R%\" -e \"library('tune')\"",
+    "$R -e \"library('tune')\"",
+    "$R -e \"library('tune')\""
+   ]
+  }
+ },
+ "name":"r-tune",
+ "new_version":"0.1.0",
+ "pinning_version":"2020.05.04.19.59.17",
+ "raw_meta_yaml":"{% set version = \"0.1.0\" %}\n{% set posix = 'm2-' if win else '' %}\n{% set native = 'm2w64-' if win else '' %}\n\npackage:\n  name: r-tune\n  version: {{ version|replace(\"-\", \"_\") }}\n\nsource:\n  url:\n    - {{ cran_mirror }}/src/contrib/tune_{{ version }}.tar.gz\n    - {{ cran_mirror }}/src/contrib/Archive/tune/tune_{{ version }}.tar.gz\n  sha256: 107d0d273b61f8276f5d8991c3c7f0af7123de9c6207288f036d4140e76f3176\n\nbuild:\n  merge_build_host: true  # [win]\n  number: 1\n  noarch: generic\n  rpaths:\n    - lib/R/lib/\n    - lib/\n\nrequirements:\n  build:\n    - {{ posix }}zip               # [win]\n  host:\n    - r-base\n    - r-gpfit\n    - r-cli >=2.0.0\n    - r-crayon\n    - r-dials >=0.0.4\n    - r-dplyr >=0.8.3\n    - r-foreach\n    - r-ggplot2\n    - r-glue\n    - r-hardhat >=0.1.0\n    - r-parsnip >=0.0.4\n    - r-purrr >=0.3.2\n    - r-recipes >=0.1.9\n    - r-rlang >=0.4.0\n    - r-rsample\n    - r-tibble >=2.1.3\n    - r-tidyr\n    - r-workflows >=0.1.0\n    - r-yardstick\n  run:\n    - r-base\n    - r-gpfit\n    - r-cli >=2.0.0\n    - r-crayon\n    - r-dials >=0.0.4\n    - r-dplyr >=0.8.3\n    - r-foreach\n    - r-ggplot2\n    - r-glue\n    - r-hardhat >=0.1.0\n    - r-parsnip >=0.0.4\n    - r-purrr >=0.3.2\n    - r-recipes >=0.1.9\n    - r-rlang >=0.4.0\n    - r-rsample\n    - r-tibble >=2.1.3\n    - r-tidyr\n    - r-workflows >=0.1.0\n    - r-yardstick\n\ntest:\n  commands:\n    - $R -e \"library('tune')\"           # [not win]\n    - \"\\\"%R%\\\" -e \\\"library('tune')\\\"\"  # [win]\n\nabout:\n  home: https://github.com/tidymodels/tune\n  license: MIT\n  summary: The ability to tune models is important. 'tune' contains functions and classes to be used in conjunction with other 'tidymodels' packages for finding reasonable\n    values of hyper-parameters in models, pre-processing methods, and post-processing steps.\n  license_family: MIT\n  license_file:\n    - {{ environ[\"PREFIX\"] }}/lib/R/share/licenses/MIT\n    - LICENSE\n\nextra:\n  recipe-maintainers:\n    - conda-forge/r\n\n# Package: tune\n# Title: Tidy Tuning Tools\n# Version: 0.0.1\n# Authors@R: c( person(given = \"Max\", family = \"Kuhn\", email = \"max@rstudio.com\", role = c(\"aut\", \"cre\")), person(\"RStudio\", role = \"cph\"))\n# Description: The ability to tune models is important. 'tune' contains functions and classes to be used in conjunction with other 'tidymodels' packages for finding reasonable values of hyper-parameters in models, pre-processing methods, and post-processing steps.\n# License: MIT + file LICENSE\n# URL: https://github.com/tidymodels/tune\n# Depends: R (>= 2.10)\n# Imports: dplyr (>= 0.8.3), rlang (>= 0.4.0), tibble (>= 2.1.3), purrr (>= 0.3.2), dials (>= 0.0.4), recipes (>= 0.1.9), utils, ggplot2, glue, cli (>= 2.0.0), crayon, yardstick, rsample, tidyr, GPfit, foreach, parsnip (>= 0.0.4), workflows (>= 0.1.0), hardhat (>= 0.1.0)\n# Suggests: testthat, knitr, covr, kernlab, xml2, spelling\n# Encoding: UTF-8\n# LazyData: true\n# RoxygenNote: 7.0.2.9000\n# Language: en-US\n# NeedsCompilation: no\n# Packaged: 2020-02-01 14:42:27 UTC; maxkuhn\n# Author: Max Kuhn [aut, cre], RStudio [cph]\n# Maintainer: Max Kuhn <max@rstudio.com>\n# Repository: CRAN\n# Date/Publication: 2020-02-11 08:50:03 UTC\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "r-base",
+   "r-cli",
+   "r-crayon",
+   "r-dials",
+   "r-dplyr",
+   "r-foreach",
+   "r-ggplot2",
+   "r-glue",
+   "r-gpfit",
+   "r-hardhat",
+   "r-parsnip",
+   "r-purrr",
+   "r-recipes",
+   "r-rlang",
+   "r-rsample",
+   "r-tibble",
+   "r-tidyr",
+   "r-workflows",
+   "r-yardstick"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "r-base",
+    "r-cli",
+    "r-crayon",
+    "r-dials",
+    "r-dplyr",
+    "r-foreach",
+    "r-ggplot2",
+    "r-glue",
+    "r-gpfit",
+    "r-hardhat",
+    "r-parsnip",
+    "r-purrr",
+    "r-recipes",
+    "r-rlang",
+    "r-rsample",
+    "r-tibble",
+    "r-tidyr",
+    "r-workflows",
+    "r-yardstick"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "r-base",
+    "r-cli",
+    "r-crayon",
+    "r-dials",
+    "r-dplyr",
+    "r-foreach",
+    "r-ggplot2",
+    "r-glue",
+    "r-gpfit",
+    "r-hardhat",
+    "r-parsnip",
+    "r-purrr",
+    "r-recipes",
+    "r-rlang",
+    "r-rsample",
+    "r-tibble",
+    "r-tidyr",
+    "r-workflows",
+    "r-yardstick"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.7.0\n",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "r-base",
+    "r-cli >=2.0.0",
+    "r-crayon",
+    "r-dials >=0.0.4",
+    "r-dplyr >=0.8.3",
+    "r-foreach",
+    "r-ggplot2",
+    "r-glue",
+    "r-gpfit",
+    "r-hardhat >=0.1.0",
+    "r-parsnip >=0.0.4",
+    "r-purrr >=0.3.2",
+    "r-recipes >=0.1.9",
+    "r-rlang >=0.4.0",
+    "r-rsample",
+    "r-tibble >=2.1.3",
+    "r-tidyr",
+    "r-workflows >=0.1.0",
+    "r-yardstick"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "r-base",
+    "r-cli >=2.0.0",
+    "r-crayon",
+    "r-dials >=0.0.4",
+    "r-dplyr >=0.8.3",
+    "r-foreach",
+    "r-ggplot2",
+    "r-glue",
+    "r-gpfit",
+    "r-hardhat >=0.1.0",
+    "r-parsnip >=0.0.4",
+    "r-purrr >=0.3.2",
+    "r-recipes >=0.1.9",
+    "r-rlang >=0.4.0",
+    "r-rsample",
+    "r-tibble >=2.1.3",
+    "r-tidyr",
+    "r-workflows >=0.1.0",
+    "r-yardstick"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":[
+  "https://cran.r-project.org/src/contrib/tune_0.0.1.tar.gz",
+  "https://cran.r-project.org/src/contrib/Archive/tune/tune_0.0.1.tar.gz",
+  "https://cran.r-project.org/src/contrib/tune_0.0.1.tar.gz",
+  "https://cran.r-project.org/src/contrib/Archive/tune/tune_0.0.1.tar.gz",
+  "https://cran.r-project.org/src/contrib/tune_0.0.1.tar.gz",
+  "https://cran.r-project.org/src/contrib/Archive/tune/tune_0.0.1.tar.gz"
+ ],
+ "version":"0.1.0"
+}

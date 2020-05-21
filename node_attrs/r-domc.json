@@ -1,0 +1,259 @@
+{
+ "PRed":[
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.3.5"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/233280316.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/299636553.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"RBaseRebuild",
+    "migrator_version":0,
+    "name":"r-base-3.6.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/301789515.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.3.6"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/414432804.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":2,
+    "migrator_version":0,
+    "name":"r400"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "bot":{
+   "automerge":true
+  },
+  "provider":{
+   "win":"azure"
+  }
+ },
+ "feedstock_name":"r-domc",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"https://CRAN.R-project.org/package=doMC",
+   "license":"GPL-2.0-only",
+   "license_family":"GPL2",
+   "license_file":[
+    "/lib/R/share/licenses/GPL-2",
+    "/lib/R/share/licenses/GPL-2",
+    "/lib/R/share/licenses/GPL-2"
+   ],
+   "summary":"Provides a parallel backend for the %dopar% function using the multicore functionality of the parallel package."
+  },
+  "build":{
+   "noarch":"generic",
+   "number":"1",
+   "rpaths":[
+    "lib/R/lib/",
+    "lib/",
+    "lib/R/lib/",
+    "lib/",
+    "lib/R/lib/",
+    "lib/"
+   ]
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "conda-forge/r",
+    "johanneskoester",
+    "bgruening",
+    "conda-forge/r",
+    "johanneskoester",
+    "bgruening",
+    "conda-forge/r",
+    "johanneskoester",
+    "bgruening"
+   ]
+  },
+  "package":{
+   "name":"r-domc",
+   "version":"1.3.6"
+  },
+  "requirements":{
+   "build":[
+    "r-base",
+    "r-foreach >=1.2.0",
+    "r-iterators >=1.0.0",
+    "r-base",
+    "r-foreach >=1.2.0",
+    "r-iterators >=1.0.0",
+    "r-base",
+    "r-foreach >=1.2.0",
+    "r-iterators >=1.0.0"
+   ],
+   "run":[
+    "r-base",
+    "r-foreach >=1.2.0",
+    "r-iterators >=1.0.0",
+    "r-base",
+    "r-foreach >=1.2.0",
+    "r-iterators >=1.0.0",
+    "r-base",
+    "r-foreach >=1.2.0",
+    "r-iterators >=1.0.0"
+   ]
+  },
+  "source":{
+   "fn":"doMC_1.3.6.tar.gz",
+   "sha256":"2977fc9e2dc54d85d45b4a36cd286dff72834fbc73f38b6ee45a6eb8557fc9b2",
+   "url":[
+    "https://cran.r-project.org/src/contrib/doMC_1.3.6.tar.gz",
+    "https://cran.r-project.org/src/contrib/Archive/doMC/doMC_1.3.6.tar.gz",
+    "https://cran.r-project.org/src/contrib/doMC_1.3.6.tar.gz",
+    "https://cran.r-project.org/src/contrib/Archive/doMC/doMC_1.3.6.tar.gz",
+    "https://cran.r-project.org/src/contrib/doMC_1.3.6.tar.gz",
+    "https://cran.r-project.org/src/contrib/Archive/doMC/doMC_1.3.6.tar.gz"
+   ]
+  },
+  "test":{
+   "commands":[
+    "\"%R%\" -e \"library('doMC')\"",
+    "$R -e \"library('doMC')\"",
+    "$R -e \"library('doMC')\""
+   ]
+  }
+ },
+ "name":"r-domc",
+ "new_version":"1.3.6",
+ "pinning_version":"2020.05.06.22.15.02",
+ "raw_meta_yaml":"{% set version = \"1.3.6\" %}\n\n{% set posix = 'm2-' if win else '' %}\n{% set native = 'm2w64-' if win else '' %}\n\npackage:\n  name: r-domc\n  version: {{ version|replace(\"-\", \"_\") }}\n\nsource:\n  fn: doMC_{{ version }}.tar.gz\n  url:\n    - https://cran.r-project.org/src/contrib/doMC_{{ version }}.tar.gz\n    - https://cran.r-project.org/src/contrib/Archive/doMC/doMC_{{ version }}.tar.gz\n  sha256: 2977fc9e2dc54d85d45b4a36cd286dff72834fbc73f38b6ee45a6eb8557fc9b2\n\nbuild:\n  noarch: generic\n  number: 1\n  # Unix only package\n\n  rpaths:\n    - lib/R/lib/\n    - lib/\nrequirements:\n  build:\n    - r-base\n    - r-foreach >=1.2.0\n    - r-iterators >=1.0.0\n\n  run:\n    - r-base\n    - r-foreach >=1.2.0\n    - r-iterators >=1.0.0\n\ntest:\n  commands:\n    - $R -e \"library('doMC')\"  # [not win]\n    - \"\\\"%R%\\\" -e \\\"library('doMC')\\\"\"  # [win]\n\nabout:\n  home: https://CRAN.R-project.org/package=doMC\n  license: GPL-2.0-only\n  summary: Provides a parallel backend for the %dopar% function using the multicore functionality of the parallel package.\n  license_family: GPL2\n\n  license_file:\n    - {{ environ[\"PREFIX\"] }}/lib/R/share/licenses/GPL-2\nextra:\n  recipe-maintainers:\n    - conda-forge/r\n    - johanneskoester\n    - bgruening\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "r-base",
+   "r-foreach",
+   "r-iterators"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "r-base",
+    "r-foreach",
+    "r-iterators"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "r-base",
+    "r-foreach",
+    "r-iterators"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.7.0\n",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "r-base",
+    "r-foreach >=1.2.0",
+    "r-iterators >=1.0.0"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "r-base",
+    "r-foreach >=1.2.0",
+    "r-iterators >=1.0.0"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":[
+  "https://cran.r-project.org/src/contrib/doMC_1.3.6.tar.gz",
+  "https://cran.r-project.org/src/contrib/Archive/doMC/doMC_1.3.6.tar.gz",
+  "https://cran.r-project.org/src/contrib/doMC_1.3.6.tar.gz",
+  "https://cran.r-project.org/src/contrib/Archive/doMC/doMC_1.3.6.tar.gz",
+  "https://cran.r-project.org/src/contrib/doMC_1.3.6.tar.gz",
+  "https://cran.r-project.org/src/contrib/Archive/doMC/doMC_1.3.6.tar.gz"
+ ],
+ "version":"1.3.6"
+}

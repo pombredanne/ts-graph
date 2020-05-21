@@ -1,0 +1,228 @@
+{
+ "PRed":[
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.10"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/222712561.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/223073585.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.11"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/404169090.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.12"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "compiler_stack":"comp7",
+  "max_py_ver":"37",
+  "max_r_ver":"35"
+ },
+ "feedstock_name":"gosu",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"This is a simple tool grown out of the simple fact that `su` and `sudo`\nhave very strange and often annoying TTY and signal-forwarding behavior.\nThey're also somewhat complex to setup and use (especially in the case of\n`sudo`), which allows for a great deal of expressivity, but falls flat if\nall you need is \"run this specific application as this specific user and\nget out of the pipeline\".\n",
+   "dev_url":"https://github.com/tianon/gosu",
+   "doc_url":"https://github.com/tianon/gosu",
+   "home":"https://github.com/tianon/gosu",
+   "license":"GPL-3",
+   "license_family":"GPL",
+   "license_file":"src/github.com/tianon/gosu/LICENSE",
+   "summary":"Simple Go-based setuid+setgid+setgroups+exec"
+  },
+  "build":{
+   "number":"1000",
+   "script":[
+    "pushd src/github.com/tianon/gosu",
+    "go install -v -ldflags '-d -s -w'",
+    "go test -v",
+    "pushd src/github.com/tianon/gosu",
+    "go install -v -ldflags '-d -s -w'",
+    "go test -v",
+    "pushd src/github.com/tianon/gosu",
+    "go install -v -ldflags '-d -s -w'",
+    "go test -v"
+   ],
+   "skip":true
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "jakirkham",
+    "sodre",
+    "jakirkham",
+    "sodre",
+    "jakirkham",
+    "sodre"
+   ]
+  },
+  "package":{
+   "name":"gosu",
+   "version":"1.11"
+  },
+  "requirements":{
+   "build":[
+    "go_compiler_stub",
+    "go_compiler_stub",
+    "go_compiler_stub"
+   ]
+  },
+  "source":[
+   {
+    "folder":"src/github.com/tianon/gosu",
+    "sha256":"d03208fd7ef983e4a606f861a5efcdc5a1980952a91febba3f67057800da6701",
+    "url":"https://github.com/tianon/gosu/archive/1.11.tar.gz"
+   },
+   {
+    "folder":"src/github.com/opencontainers/runc",
+    "sha256":"770e180d1cca1f3c1a67512ebf9720caafe97af4fc2fe12fa43a3cf7bfa77522",
+    "url":"https://github.com/opencontainers/runc/archive/v1.0.0-rc5.tar.gz"
+   },
+   {
+    "folder":"src/github.com/tianon/gosu",
+    "sha256":"d03208fd7ef983e4a606f861a5efcdc5a1980952a91febba3f67057800da6701",
+    "url":"https://github.com/tianon/gosu/archive/1.11.tar.gz"
+   },
+   {
+    "folder":"src/github.com/opencontainers/runc",
+    "sha256":"770e180d1cca1f3c1a67512ebf9720caafe97af4fc2fe12fa43a3cf7bfa77522",
+    "url":"https://github.com/opencontainers/runc/archive/v1.0.0-rc5.tar.gz"
+   },
+   {
+    "folder":"src/github.com/tianon/gosu",
+    "sha256":"d03208fd7ef983e4a606f861a5efcdc5a1980952a91febba3f67057800da6701",
+    "url":"https://github.com/tianon/gosu/archive/1.11.tar.gz"
+   },
+   {
+    "folder":"src/github.com/opencontainers/runc",
+    "sha256":"770e180d1cca1f3c1a67512ebf9720caafe97af4fc2fe12fa43a3cf7bfa77522",
+    "url":"https://github.com/opencontainers/runc/archive/v1.0.0-rc5.tar.gz"
+   }
+  ],
+  "test":{
+   "commands":[
+    "which gosu",
+    "test -x $PREFIX/bin/gosu",
+    "gosu --version",
+    "which gosu",
+    "test -x $PREFIX/bin/gosu",
+    "gosu --version",
+    "which gosu",
+    "test -x $PREFIX/bin/gosu",
+    "gosu --version"
+   ]
+  }
+ },
+ "name":"gosu",
+ "new_version":"1.12",
+ "new_version_attempts":{
+  "1.12":1
+ },
+ "new_version_errors":{},
+ "pinning_version":"2020.04.16.03.28.28",
+ "raw_meta_yaml":"{% set goname = \"github.com/tianon/gosu\" %}\n{% set version = \"1.11\" %}\n\n{% set name = goname.split('/')[-1] %}\n{% set pkg_src = 'src/'+goname %}\n\n# The runc version much match the upstream Dockerfile\n# https://github.com/tianon/gosu/blob/master/Dockerfile\n{% set runc_goname = \"github.com/opencontainers/runc\" %}\n{% set runc_version = \"1.0.0-rc5\" %}\n{% set runc_pkg_src = 'src/'+runc_goname %}\n\npackage:\n  name: {{ name }}\n  version: {{ version }}\n\nsource:\n  - folder: {{ pkg_src }}\n    url: https://{{ goname }}/archive/{{ version }}.tar.gz\n    sha256: d03208fd7ef983e4a606f861a5efcdc5a1980952a91febba3f67057800da6701\n\n  - folder: {{ runc_pkg_src }}\n    url: https://{{ runc_goname }}/archive/v{{ runc_version }}.tar.gz\n    sha256: 770e180d1cca1f3c1a67512ebf9720caafe97af4fc2fe12fa43a3cf7bfa77522\n\nbuild:\n  number: 1000\n  skip: true  # [not linux]\n  script:\n    - pushd {{ pkg_src }}\n    - go install -v -ldflags '-d -s -w'\n    - go test -v\n\nrequirements:\n  build:\n    - {{ compiler('go') }}\n\ntest:\n  commands:\n    - which gosu\n    - test -x $PREFIX/bin/gosu\n    - gosu --version\n\n    # These require root to test\n    # - gosu nobody id;\n    # - gosu nobody ls -l /proc/self/fd\n\nabout:\n  home: https://github.com/tianon/gosu\n  license: GPL-3\n  license_family: GPL\n  license_file: src/github.com/tianon/gosu/LICENSE\n  summary: Simple Go-based setuid+setgid+setgroups+exec\n\n  description: |\n    This is a simple tool grown out of the simple fact that `su` and `sudo`\n    have very strange and often annoying TTY and signal-forwarding behavior.\n    They're also somewhat complex to setup and use (especially in the case of\n    `sudo`), which allows for a great deal of expressivity, but falls flat if\n    all you need is \"run this specific application as this specific user and\n    get out of the pipeline\".\n  dev_url: https://github.com/tianon/gosu\n  doc_url: https://github.com/tianon/gosu\n\nextra:\n  recipe-maintainers:\n    - jakirkham\n    - sodre\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "go_compiler_stub"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "go_compiler_stub"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.6.16",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "go_compiler_stub"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://github.com/tianon/gosu/archive/1.11.tar.gz",
+ "version":"1.11"
+}

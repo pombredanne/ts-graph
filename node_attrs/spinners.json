@@ -1,0 +1,6 @@
+{
+ "bad":"Upstream: Error getting upstream version",
+ "feedstock_name":"spinners",
+ "new_version":false,
+ "raw_meta_yaml":"{% set name = \"spinners\" %}\n{% set version = \"0.0.23\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: f396fea1ee00c0622988d7d2bf2895d26dd6f70850ca2ce94eaca52ca4873560\n\nbuild:\n  noarch: python\n  number: 0\n  script: '{{ PYTHON }} -m pip install . -vv'\n\nrequirements:\n  host:\n    - pip\n    - python\n  run:\n    - python\n\ntest:\n  imports:\n    - spinners\n\nabout:\n  home: https://github.com/manrajgrover/py-spinners\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE\n  summary: Spinners for terminals\n  description: |\n      More than 60 spinners for terminal, python wrapper for amazing node\n      library cli-spinners\n\nextra:\n  recipe-maintainers:\n    - duncanmmacleod\n"
+}

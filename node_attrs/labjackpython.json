@@ -1,0 +1,146 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/217488380.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "compiler_stack":"comp7",
+  "max_py_ver":"37",
+  "max_r_ver":"35"
+ },
+ "feedstock_name":"labjackpython",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"http://labjack.com/support/labjackpython",
+   "license":"MIT X-11",
+   "license_family":"MIT",
+   "summary":"Python module for communicating with the LabJack U3/U6/UE9/U12"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"1000",
+   "script":" -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "kastman",
+    "kastman",
+    "kastman"
+   ]
+  },
+  "package":{
+   "name":"labjack",
+   "version":"20150526"
+  },
+  "requirements":{
+   "host":[
+    "python <3",
+    "pip",
+    "python <3",
+    "pip",
+    "python <3",
+    "pip"
+   ],
+   "run":[
+    "python <3",
+    "python <3",
+    "python <3"
+   ]
+  },
+  "source":{
+   "sha256":"555d209018787fc55b3e83c3c11ed16ace6564e758295d8a668b5b74f34cae9e",
+   "url":"https://github.com/labjack/LabJackPython/archive/5-26-2015.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "u3",
+    "u6",
+    "ue9",
+    "u3",
+    "u6",
+    "ue9",
+    "u3",
+    "u6",
+    "ue9"
+   ]
+  }
+ },
+ "name":"labjack",
+ "new_version":"10-22-2012",
+ "pinning_version":"2018.09.20",
+ "raw_meta_yaml":"{% set upstreamversion = \"5-26-2015\" %}\n{% set version = \"20150526\" %}\n\npackage:\n  name: labjack\n  version: {{ version }}\n\nsource:\n  url: https://github.com/labjack/LabJackPython/archive/{{ upstreamversion }}.tar.gz\n  sha256: 555d209018787fc55b3e83c3c11ed16ace6564e758295d8a668b5b74f34cae9e\n\nbuild:\n  number: 1000\n  noarch: python\n  script: \"{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv\"\n\nrequirements:\n  host:\n    - python <3\n    - pip\n  run:\n    - python <3\ntest:\n  imports:\n    - u3\n    - u6\n    - ue9\n\nabout:\n  home: http://labjack.com/support/labjackpython\n  summary: \"Python module for communicating with the LabJack U3/U6/UE9/U12\"\n  license: MIT X-11\n  license_family: MIT\n\nextra:\n  recipe-maintainers:\n    - kastman\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "pip",
+   "python"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.1.12",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python <3"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "python <3"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://github.com/labjack/LabJackPython/archive/5-26-2015.tar.gz",
+ "version":"20150526"
+}

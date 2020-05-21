@@ -1,0 +1,503 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "type this code in at the interpreter"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "metadata": {},
+   "outputs": [
+    {
+     "output_type": "stream",
+     "name": "stderr",
+     "text": "/home/vinicius/miniconda3/lib/python3.7/site-packages/github3/session.py:3: DeprecationWarning: Using or importing the ABCs from 'collections' instead of from 'collections.abc' is deprecated since Python 3.3,and in 3.9 it will stop working\n  from collections import Callable\n/home/vinicius/miniconda3/lib/python3.7/site-packages/github3/structs.py:11: DeprecationWarning: Using or importing the ABCs from 'collections' instead of from 'collections.abc' is deprecated since Python 3.3,and in 3.9 it will stop working\n  class GitHubIterator(models.GitHubCore, collections.Iterator):\n"
+    }
+   ],
+   "source": [
+    "from conda_forge_tick.utils import load_graph\n",
+    "\n",
+    "gx = load_graph()"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "from here you can inspect the graph object\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 7,
+   "metadata": {},
+   "outputs": [
+    {
+     "output_type": "stream",
+     "name": "stdout",
+     "text": "Number of nodes: 10003\n"
+    }
+   ],
+   "source": [
+    "print(\"Number of nodes:\", len(gx.nodes))\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 9,
+   "metadata": {
+    "tags": [
+     "outputPrepend",
+     "outputPrepend",
+     "outputPrepend",
+     "outputPrepend",
+     "outputPrepend",
+     "outputPrepend"
+    ]
+   },
+   "outputs": [],
+   "source": [
+    "# This outputs all the avaliable packages on graph, but remebrer there are # of them\n",
+    "#for node in gx:\n",
+    "#    print(node)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "Each Node in gx correspond to one of our listed packges (as a dict key). Every Node has a feature called 'Payload' wich links to it's metadata and other informations:\n",
+    "\n",
+    "Let's see for example using Node: 'Python'"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 10,
+   "metadata": {},
+   "outputs": [
+    {
+     "output_type": "stream",
+     "name": "stdout",
+     "text": "<conda_forge_tick.utils.LazyJson object at 0x7f10170fd7d0>\n"
+    }
+   ],
+   "source": [
+    "with gx.nodes['python']['payload'] as attrs:\n",
+    "    print(attrs)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "As we can see it correspond to a Json type file, so we can inspect its elements"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 11,
+   "metadata": {},
+   "outputs": [
+    {
+     "output_type": "stream",
+     "name": "stdout",
+     "text": "PRed\nbad\nconda-forge.yml\nfeedstock_name\nhash_type\nmeta_yaml\nname\nnew_version\nnew_version_attempts\nnew_version_errors\npinning_version\nraw_meta_yaml\nreq\nrequirements\nsmithy_version\nstrong_exports\ntotal_requirements\nurl\nversion\n"
+    }
+   ],
+   "source": [
+    "with gx.nodes['python']['payload'] as attrs:\n",
+    "    for item in attrs:\n",
+    "        print(item)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "As we can see, if the right enviroment settings was corretly setted, the keys inside payload are above presented. Now let's look more deeoer inside each one of these settings.\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "The first one PRed problably stores the data (information) related to the package PR's "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 12,
+   "metadata": {},
+   "outputs": [
+    {
+     "output_type": "execute_result",
+     "data": {
+      "text/plain": "[{'data': {'bot_rerun': False,\n   'migrator_name': 'Version',\n   'migrator_version': 0,\n   'version': '3.6.5'},\n  'keys': ['bot_rerun', 'migrator_name', 'migrator_version', 'version']},\n {'PR': <conda_forge_tick.utils.LazyJson at 0x7f1016c6f1d0>,\n  'data': {'bot_rerun': False,\n   'migrator_name': 'Version',\n   'migrator_version': 0,\n   'version': '3.7.0'},\n  'keys': ['bot_rerun', 'migrator_name', 'migrator_version', 'version']},\n {'PR': <conda_forge_tick.utils.LazyJson at 0x7f1016c6f350>,\n  'data': {'bot_rerun': False,\n   'migrator_name': 'CompilerRebuild',\n   'migrator_version': 1,\n   'name': 'Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2'},\n  'keys': ['bot_rerun', 'migrator_name', 'migrator_version', 'name']},\n {'PR': <conda_forge_tick.utils.LazyJson at 0x7f1016c6f4d0>,\n  'data': {'bot_rerun': False,\n   'migrator_name': 'Version',\n   'migrator_version': 0,\n   'version': '3.7.1'},\n  'keys': ['bot_rerun', 'migrator_name', 'migrator_version', 'version']},\n {'PR': <conda_forge_tick.utils.LazyJson at 0x7f1016c6f650>,\n  'data': {'bot_rerun': False,\n   'migrator_name': 'Version',\n   'migrator_version': 0,\n   'version': '3.7.2'},\n  'keys': ['bot_rerun', 'migrator_name', 'migrator_version', 'version']},\n {'PR': <conda_forge_tick.utils.LazyJson at 0x7f1016c6f810>,\n  'data': {'bot_rerun': False,\n   'migrator_name': 'ArchRebuild',\n   'migrator_version': 1,\n   'name': 'aarch64 and ppc64le addition'},\n  'keys': ['bot_rerun', 'migrator_name', 'migrator_version', 'name']},\n {'data': {'bot_rerun': False,\n   'migrator_name': 'OpenSSLRebuild',\n   'migrator_version': 1,\n   'name': 'OpenSSL'},\n  'keys': ['bot_rerun', 'migrator_name', 'migrator_version', 'name']},\n {'PR': <conda_forge_tick.utils.LazyJson at 0x7f1016c6fa90>,\n  'data': {'bot_rerun': False,\n   'migrator_name': 'Rebuild',\n   'migrator_object_version': 1,\n   'migrator_version': 0,\n   'name': 'OpenSSL'},\n  'keys': ['bot_rerun',\n   'migrator_name',\n   'migrator_object_version',\n   'migrator_version',\n   'name']},\n {'PR': <conda_forge_tick.utils.LazyJson at 0x7f1016c6fc50>,\n  'data': {'bot_rerun': False,\n   'migrator_name': 'Rebuild',\n   'migrator_object_version': 2,\n   'migrator_version': 0,\n   'name': 'OpenSSL'},\n  'keys': ['bot_rerun',\n   'migrator_name',\n   'migrator_object_version',\n   'migrator_version',\n   'name']},\n {'PR': <conda_forge_tick.utils.LazyJson at 0x7f1016c6f7d0>,\n  'data': {'bot_rerun': False,\n   'migrator_name': 'Rebuild',\n   'migrator_object_version': 3,\n   'migrator_version': 0,\n   'name': 'OpenSSL'},\n  'keys': ['bot_rerun',\n   'migrator_name',\n   'migrator_object_version',\n   'migrator_version',\n   'name']},\n {'PR': <conda_forge_tick.utils.LazyJson at 0x7f1016c6ff90>,\n  'data': {'bot_rerun': False,\n   'migrator_name': 'Version',\n   'migrator_version': 0,\n   'version': '3.7.3'},\n  'keys': ['bot_rerun', 'migrator_name', 'migrator_version', 'version']},\n {'PR': <conda_forge_tick.utils.LazyJson at 0x7f1016c67150>,\n  'data': {'bot_rerun': False,\n   'migrator_name': 'Rebuild',\n   'migrator_version': 0,\n   'name': 'readline-8.0'},\n  'keys': ['bot_rerun', 'migrator_name', 'migrator_version', 'name']},\n {'PR': <conda_forge_tick.utils.LazyJson at 0x7f1016c672d0>,\n  'data': {'bot_rerun': False,\n   'migrator_name': 'Version',\n   'migrator_version': 0,\n   'version': '3.7.4'},\n  'keys': ['bot_rerun', 'migrator_name', 'migrator_version', 'version']},\n {'PR': <conda_forge_tick.utils.LazyJson at 0x7f1016c67450>,\n  'data': {'bot_rerun': False,\n   'migrator_name': 'Version',\n   'migrator_version': 0,\n   'version': '3.8.0'},\n  'keys': ['bot_rerun', 'migrator_name', 'migrator_version', 'version']},\n {'PR': <conda_forge_tick.utils.LazyJson at 0x7f1016c675d0>,\n  'data': {'bot_rerun': False,\n   'migrator_name': 'Version',\n   'migrator_version': 0,\n   'version': '3.8.1'},\n  'keys': ['bot_rerun', 'migrator_name', 'migrator_version', 'version']}]"
+     },
+     "metadata": {},
+     "execution_count": 12
+    }
+   ],
+   "source": [
+    "gx.nodes['python']['payload']['PRed']"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "The 'bad' settings is a flag that correpond to the feedstock status of the current package, as an examples if it is still acessible or was 'droped' (sometimes it just couldn't reach the orignal url version destination)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 14,
+   "metadata": {},
+   "outputs": [
+    {
+     "output_type": "execute_result",
+     "data": {
+      "text/plain": "False"
+     },
+     "metadata": {},
+     "execution_count": 14
+    }
+   ],
+   "source": [
+    "gx.nodes['python']['payload']['bad']"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 18,
+   "metadata": {},
+   "outputs": [
+    {
+     "output_type": "execute_result",
+     "data": {
+      "text/plain": "{'compiler_stack': 'comp7',\n 'max_py_ver': '38',\n 'max_r_ver': '35',\n 'provider': {'linux_aarch64': 'native',\n  'linux_ppc64le': 'native',\n  'osx': 'azure',\n  'win': 'azure'}}"
+     },
+     "metadata": {},
+     "execution_count": 18
+    }
+   ],
+   "source": [
+    "gx.nodes['python']['payload']['conda-forge.yml']"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 19,
+   "metadata": {},
+   "outputs": [
+    {
+     "output_type": "execute_result",
+     "data": {
+      "text/plain": "'python'"
+     },
+     "metadata": {},
+     "execution_count": 19
+    }
+   ],
+   "source": [
+    "gx.nodes['python']['payload']['feedstock_name']"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 20,
+   "metadata": {},
+   "outputs": [
+    {
+     "output_type": "execute_result",
+     "data": {
+      "text/plain": "'sha256'"
+     },
+     "metadata": {},
+     "execution_count": 20
+    }
+   ],
+   "source": [
+    "gx.nodes['python']['payload']['hash_type']"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 21,
+   "metadata": {},
+   "outputs": [
+    {
+     "output_type": "execute_result",
+     "data": {
+      "text/plain": "{'about': {'description': 'Python is a widely used high-level, general-purpose, interpreted, dynamic\\nprogramming language. Its design philosophy emphasizes code\\nreadability, and its syntax allows programmers to express concepts in\\nfewer lines of code than would be possible in languages such as C++ or\\nJava. The language provides constructs intended to enable clear programs\\non both a small and large scale.\\n',\n  'dev_url': 'https://docs.python.org/devguide/',\n  'doc_source_url': 'https://github.com/python/pythondotorg/blob/master/docs/source/index.rst',\n  'doc_url': 'https://www.python.org/doc/versions/',\n  'home': 'http://www.python.org/',\n  'license': 'Python-2.0',\n  'license_file': 'LICENSE',\n  'summary': 'General purpose programming language'},\n 'build': {'detect_binary_files_with_prefix': True,\n  'ignore_run_exports': ['bzip2'],\n  'no_link': None,\n  'number': '7',\n  'run_exports': {'noarch': ['python', 'python', 'python'],\n   'weak': ['python_abi 3.8.* *_cp38',\n    'python_abi 3.8.* *_cp38',\n    'python_abi 3.8.* *_cp38']},\n  'script_env': ['PY_INTERP_LINKAGE_NATURE',\n   'PY_INTERP_DEBUG',\n   'PY_INTERP_LINKAGE_NATURE',\n   'PY_INTERP_DEBUG',\n   'PY_INTERP_LINKAGE_NATURE',\n   'PY_INTERP_DEBUG'],\n  'skip': True,\n  'string': 'h__cpython'},\n 'extra': {'recipe-maintainers': ['isuruf',\n   'jakirkham',\n   'jjhelmus',\n   'mingwandroid',\n   'msarahan',\n   'pelson',\n   'ocefpaf',\n   'scopatz',\n   'isuruf',\n   'jakirkham',\n   'jjhelmus',\n   'mingwandroid',\n   'msarahan',\n   'pelson',\n   'ocefpaf',\n   'scopatz',\n   'isuruf',\n   'jakirkham',\n   'jjhelmus',\n   'mingwandroid',\n   'msarahan',\n   'pelson',\n   'ocefpaf',\n   'scopatz']},\n 'package': {'name': 'python', 'version': '3.8.2'},\n 'requirements': {'build': ['c_compiler_stub',\n   'cxx_compiler_stub',\n   'm2-patch',\n   'posix',\n   'c_compiler_stub',\n   'cxx_compiler_stub',\n   'make',\n   'pkg-config',\n   'llvm-tools',\n   'patch',\n   'c_compiler_stub',\n   'cxx_compiler_stub',\n   'cdt_stub',\n   'cdt_stub',\n   'cdt_stub',\n   'make',\n   'pkg-config',\n   'patch',\n   'ld_impl_',\n   'binutils_impl_ >=2.33.1'],\n  'host': ['sqlite',\n   'openssl',\n   'bzip2',\n   'sqlite',\n   'xz',\n   'zlib',\n   'openssl',\n   'readline',\n   'tk',\n   'libffi',\n   'bzip2',\n   'sqlite',\n   'xz',\n   'zlib',\n   'openssl',\n   'readline',\n   'tk',\n   'ncurses',\n   'libffi',\n   'ld_impl_'],\n  'run': ['ld_impl_'],\n  'run_constrained': ['python_abi 3.8.* *_cp38',\n   'python_abi 3.8.* *_cp38',\n   'python_abi 3.8.* *_cp38']},\n 'source': [{'md5': 'e9d6ebc92183a177b8e8a58cad5b8d67',\n   'patches': ['patches/0001-Add-Anaconda-Distribution-version-logic.patch',\n    'patches/0002-Darwin-Add-arch-x86_64-to-UnicCCompiler-ld_args.patch',\n    'patches/0003-Win32-Change-FD_SETSIZE-from-512-to-2048.patch',\n    'patches/0004-Win32-distutils-Add-support-to-cygwinccompiler-for-V.patch',\n    'patches/0005-Do-not-pass-g-to-GCC-when-not-Py_DEBUG.patch',\n    'patches/0006-Support-cross-compiling-byte-code.patch',\n    'patches/0007-Win32-Fixes-for-Windows-GCC-interop-needed-by-RPy2-a.patch',\n    'patches/0008-Darwin-Look-in-sysroot-usr-lib-include-if-sysroot-is.patch',\n    'patches/0009-runtime_library_dir_option-Use-1st-word-of-CC-as-com.patch',\n    'patches/0010-Win32-Do-not-download-externals.patch',\n    'patches/0011-Add-support-for-_CONDA_PYTHON_SYSCONFIGDATA_NAME-if-.patch',\n    'patches/0012-Fix-find_library-so-that-it-looks-in-sys.prefix-lib-.patch',\n    'patches/0013-Disable-new-dtags-in-unixccompiler.py.patch',\n    'patches/0014-Fix-cross-compilation-on-Debian-based-distros.patch',\n    'patches/0015-Disable-registry-lookup-unless-CONDA_PY_ALLOW_REG_PA.patch',\n    'patches/0016-Unvendor-openssl.patch',\n    'patches/0017-Unvendor-sqlite3.patch',\n    'patches/0018-venv-Revert-a-change-from-https-github.com-python-cp.patch',\n    'patches/0019-Win-Add-back-the-DLLSuffix-used-to-find-the-openssl-.patch',\n    'patches/0020-Use-ranlib-from-env-if-env-variable-is-set.patch',\n    'patches/0021-roll-back-2e33ecd-for-py_compile.main.patch',\n    'patches/0022-Add-CondaEcosystemModifyDllSearchPath.patch'],\n   'url': 'https://www.python.org/ftp/python/3.8.2/Python-3.8.2.tar.xz'},\n  {'folder': 'externals/xz-5.2.2',\n   'sha256': '02b6d6f1e0369940e7e1f0d324992e069d09f5f3d32d86e2d22cd8b82ac3fb3f',\n   'url': 'https://github.com/python/cpython-source-deps/archive/xz-5.2.2.zip'},\n  {'folder': 'externals/tcl-core-8.6.9.0',\n   'sha256': 'ea9e724536ec13b476ebbd47948303b92fdd90a33aa94f30fcc2f5c3a899f69e',\n   'url': 'https://github.com/python/cpython-source-deps/archive/tcl-core-8.6.9.0.zip'},\n  {'folder': 'externals/tk-8.6.9.0',\n   'sha256': 'f3112b6bbc3bd163c877030187e73ce9a113ce03eff559ec5b9df697e3a08fad',\n   'url': 'https://github.com/python/cpython-source-deps/archive/tk-8.6.9.0.zip'},\n  {'folder': 'externals/tcltk-8.6.9.0',\n   'sha256': '37cd629a75d2a34974a3d771ccab5c9e3caf3d138cea81040f9cdba1aded1cf2',\n   'url': 'https://github.com/python/cpython-bin-deps/archive/tcltk-8.6.9.0.zip'},\n  {'folder': 'externals/tix-8.4.3.6',\n   'sha256': 'e558e3dc5e67ac0942f8fceafce00ca46b177da9ebeaf38ec7fafd9b9913ac56',\n   'url': 'https://github.com/python/cpython-source-deps/archive/tix-8.4.3.6.zip'},\n  {'folder': 'externals/bzip2-1.0.6',\n   'sha256': 'c42fd1432a2667b964a74bc423bb7485059c4a6d5dc92946d59dbf9a6bdb988d',\n   'url': 'https://github.com/python/cpython-source-deps/archive/bzip2-1.0.6.zip'},\n  {'folder': 'externals/zlib-1.2.11',\n   'sha256': 'debb1952945fa6c25817a40abe90641b572c83171f244937b70b9fe156f5a63a',\n   'url': 'https://github.com/python/cpython-source-deps/archive/zlib-1.2.11.zip'},\n  {'folder': 'externals/nasm-2.11.06',\n   'sha256': 'de3c87b26a80e789986d8e6950c6304175d3829afe9c6c7211eb7257266ab0ac',\n   'url': 'https://github.com/python/cpython-bin-deps/archive/nasm-2.11.06.zip'},\n  {'folder': 'externals/libffi',\n   'sha256': '4872e72e188a5aa1124db0c3b163a4163e84ead359a514d86dd7c6fa2d2ff02a',\n   'url': 'https://github.com/python/cpython-bin-deps/archive/libffi.zip'},\n  {'md5': 'e9d6ebc92183a177b8e8a58cad5b8d67',\n   'patches': ['patches/0001-Add-Anaconda-Distribution-version-logic.patch',\n    'patches/0002-Darwin-Add-arch-x86_64-to-UnicCCompiler-ld_args.patch',\n    'patches/0003-Win32-Change-FD_SETSIZE-from-512-to-2048.patch',\n    'patches/0004-Win32-distutils-Add-support-to-cygwinccompiler-for-V.patch',\n    'patches/0005-Do-not-pass-g-to-GCC-when-not-Py_DEBUG.patch',\n    'patches/0006-Support-cross-compiling-byte-code.patch',\n    'patches/0007-Win32-Fixes-for-Windows-GCC-interop-needed-by-RPy2-a.patch',\n    'patches/0008-Darwin-Look-in-sysroot-usr-lib-include-if-sysroot-is.patch',\n    'patches/0009-runtime_library_dir_option-Use-1st-word-of-CC-as-com.patch',\n    'patches/0010-Win32-Do-not-download-externals.patch',\n    'patches/0011-Add-support-for-_CONDA_PYTHON_SYSCONFIGDATA_NAME-if-.patch',\n    'patches/0012-Fix-find_library-so-that-it-looks-in-sys.prefix-lib-.patch',\n    'patches/0013-Disable-new-dtags-in-unixccompiler.py.patch',\n    'patches/0014-Fix-cross-compilation-on-Debian-based-distros.patch',\n    'patches/0015-Disable-registry-lookup-unless-CONDA_PY_ALLOW_REG_PA.patch',\n    'patches/0016-Unvendor-openssl.patch',\n    'patches/0017-Unvendor-sqlite3.patch',\n    'patches/0018-venv-Revert-a-change-from-https-github.com-python-cp.patch',\n    'patches/0019-Win-Add-back-the-DLLSuffix-used-to-find-the-openssl-.patch',\n    'patches/0020-Use-ranlib-from-env-if-env-variable-is-set.patch',\n    'patches/0021-roll-back-2e33ecd-for-py_compile.main.patch',\n    'patches/0022-Add-CondaEcosystemModifyDllSearchPath.patch'],\n   'url': 'https://www.python.org/ftp/python/3.8.2/Python-3.8.2.tar.xz'},\n  {'md5': 'e9d6ebc92183a177b8e8a58cad5b8d67',\n   'patches': ['patches/0001-Add-Anaconda-Distribution-version-logic.patch',\n    'patches/0002-Darwin-Add-arch-x86_64-to-UnicCCompiler-ld_args.patch',\n    'patches/0003-Win32-Change-FD_SETSIZE-from-512-to-2048.patch',\n    'patches/0004-Win32-distutils-Add-support-to-cygwinccompiler-for-V.patch',\n    'patches/0005-Do-not-pass-g-to-GCC-when-not-Py_DEBUG.patch',\n    'patches/0006-Support-cross-compiling-byte-code.patch',\n    'patches/0007-Win32-Fixes-for-Windows-GCC-interop-needed-by-RPy2-a.patch',\n    'patches/0008-Darwin-Look-in-sysroot-usr-lib-include-if-sysroot-is.patch',\n    'patches/0009-runtime_library_dir_option-Use-1st-word-of-CC-as-com.patch',\n    'patches/0010-Win32-Do-not-download-externals.patch',\n    'patches/0011-Add-support-for-_CONDA_PYTHON_SYSCONFIGDATA_NAME-if-.patch',\n    'patches/0012-Fix-find_library-so-that-it-looks-in-sys.prefix-lib-.patch',\n    'patches/0013-Disable-new-dtags-in-unixccompiler.py.patch',\n    'patches/0014-Fix-cross-compilation-on-Debian-based-distros.patch',\n    'patches/0015-Disable-registry-lookup-unless-CONDA_PY_ALLOW_REG_PA.patch',\n    'patches/0016-Unvendor-openssl.patch',\n    'patches/0017-Unvendor-sqlite3.patch',\n    'patches/0018-venv-Revert-a-change-from-https-github.com-python-cp.patch',\n    'patches/0019-Win-Add-back-the-DLLSuffix-used-to-find-the-openssl-.patch',\n    'patches/0020-Use-ranlib-from-env-if-env-variable-is-set.patch',\n    'patches/0021-roll-back-2e33ecd-for-py_compile.main.patch',\n    'patches/0022-Add-CondaEcosystemModifyDllSearchPath.patch'],\n   'url': 'https://www.python.org/ftp/python/3.8.2/Python-3.8.2.tar.xz'}],\n 'test': {'commands': ['python -V',\n   '2to3 -h',\n   'pydoc -h',\n   'python -m venv %%TEMP%%\\\\venv',\n   'pushd tests',\n   'pushd distutils',\n   'python setup.py install -v -v',\n   'python -c \"import foobar\"',\n   'popd',\n   'pushd distutils.cext',\n   'python setup.py install -v -v',\n   'python -c \"import greet; greet.greet(\\'Python user\\')\" | rg \"Hello Python\"',\n   'popd',\n   'pushd cmake',\n   'cmake -GNinja -DPY_VER=3.8.2',\n   'popd',\n   'popd',\n   'python -V',\n   'python3 -V',\n   '2to3 -h',\n   'pydoc -h',\n   'python3-config --help',\n   'python -c \"import sysconfig; print(sysconfig.get_config_var(\\'CC\\'))\"',\n   'for f in ${CONDA_PREFIX}/lib/python*/_sysconfig*.py; do echo \"Checking $f:\"; if [[ `rg @ $f` ]]; then echo \"FAILED ON $f\"; cat $f; exit 1; fi; done',\n   'pushd tests',\n   'pushd distutils',\n   'python setup.py install -v -v',\n   'python -c \"import foobar\"',\n   'popd',\n   'pushd distutils.cext',\n   'python setup.py install -v -v',\n   'python -c \"import greet; greet.greet(\\'Python user\\')\" | rg \"Hello Python\"',\n   'popd',\n   'pushd prefix-replacement',\n   'bash build-and-test.sh',\n   'popd',\n   'pushd cmake',\n   'cmake -GNinja -DPY_VER=3.8.2',\n   'popd',\n   'popd',\n   'test ! -f default.profraw',\n   'python -V',\n   'python3 -V',\n   '2to3 -h',\n   'pydoc -h',\n   'python3-config --help',\n   'python -c \"import sysconfig; print(sysconfig.get_config_var(\\'CC\\'))\"',\n   '_CONDA_PYTHON_SYSCONFIGDATA_NAME=_sysconfigdata_x86_64_conda_cos6_linux_gnu python -c \"import sysconfig; print(sysconfig.get_config_var(\\'CC\\'))\"',\n   'for f in ${CONDA_PREFIX}/lib/python*/_sysconfig*.py; do echo \"Checking $f:\"; if [[ `rg @ $f` ]]; then echo \"FAILED ON $f\"; cat $f; exit 1; fi; done',\n   'pushd tests',\n   'pushd distutils',\n   'python setup.py install -v -v',\n   'python -c \"import foobar\"',\n   'popd',\n   'pushd distutils.cext',\n   'python setup.py install -v -v',\n   'python -c \"import greet; greet.greet(\\'Python user\\')\" | rg \"Hello Python\"',\n   'popd',\n   'pushd prefix-replacement',\n   'bash build-and-test.sh',\n   'popd',\n   'pushd cmake',\n   'cmake -GNinja -DPY_VER=3.8.2',\n   'popd',\n   'popd'],\n  'files': ['tests/distutils/*',\n   'tests/distutils.cext/*',\n   'tests/cmake/*',\n   'tests/cython/*',\n   'tests/prefix-replacement/*',\n   'tests/distutils/*',\n   'tests/distutils.cext/*',\n   'tests/cmake/*',\n   'tests/cython/*',\n   'tests/prefix-replacement/*',\n   'tests/distutils/*',\n   'tests/distutils.cext/*',\n   'tests/cmake/*',\n   'tests/cython/*',\n   'tests/prefix-replacement/*'],\n  'requires': ['ripgrep',\n   'cmake',\n   'ninja',\n   'cython',\n   'setuptools',\n   'c_compiler_stub',\n   'cxx_compiler_stub',\n   'ripgrep',\n   'cmake',\n   'ninja',\n   'cython',\n   'setuptools',\n   'c_compiler_stub',\n   'cxx_compiler_stub',\n   'ripgrep',\n   'cmake',\n   'ninja',\n   'cython',\n   'setuptools',\n   'c_compiler_stub',\n   'cxx_compiler_stub']}}"
+     },
+     "metadata": {},
+     "execution_count": 21
+    }
+   ],
+   "source": [
+    "gx.nodes['python']['payload']['meta_yaml']"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 22,
+   "metadata": {},
+   "outputs": [
+    {
+     "output_type": "execute_result",
+     "data": {
+      "text/plain": "'python'"
+     },
+     "metadata": {},
+     "execution_count": 22
+    }
+   ],
+   "source": [
+    "gx.nodes['python']['payload']['name']"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 23,
+   "metadata": {},
+   "outputs": [
+    {
+     "output_type": "execute_result",
+     "data": {
+      "text/plain": "'3.8.3'"
+     },
+     "metadata": {},
+     "execution_count": 23
+    }
+   ],
+   "source": [
+    "gx.nodes['python']['payload']['new_version']"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 24,
+   "metadata": {},
+   "outputs": [
+    {
+     "output_type": "execute_result",
+     "data": {
+      "text/plain": "{'3.8.3': 49}"
+     },
+     "metadata": {},
+     "execution_count": 24
+    }
+   ],
+   "source": [
+    "gx.nodes['python']['payload']['new_version_attempts']"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 25,
+   "metadata": {},
+   "outputs": [
+    {
+     "output_type": "execute_result",
+     "data": {
+      "text/plain": "{'3.8.3': \"The recipe did not change in the version migration, a URL did not hash, or there is jinja2 syntax the bot cannot handle!\\n\\nPlease check the URLs in your recipe with version '3.8.3' to make sure they exist!\\n\\nWe also found the following errors:\\n\\n - recipe did not appear to change even though the bot said it should have\\n\"}"
+     },
+     "metadata": {},
+     "execution_count": 25
+    }
+   ],
+   "source": [
+    "gx.nodes['python']['payload']['new_version_errors']"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 26,
+   "metadata": {},
+   "outputs": [
+    {
+     "output_type": "execute_result",
+     "data": {
+      "text/plain": "'2019.12.18'"
+     },
+     "metadata": {},
+     "execution_count": 26
+    }
+   ],
+   "source": [
+    "gx.nodes['python']['payload']['pinning_version']"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 27,
+   "metadata": {},
+   "outputs": [
+    {
+     "output_type": "execute_result",
+     "data": {
+      "text/plain": "'{% set version = \"3.8.2\" %}\\n{% set linkage_nature = os.environ.get(\\'PY_INTERP_LINKAGE_NATURE\\', \\'\\') %}\\n{% set debug = os.environ.get(\\'PY_INTERP_DEBUG\\', \\'\\') %}\\n{% if linkage_nature != \\'\\' %}\\n  {% set linkage_nature = \"_\" ~ linkage_nature %}\\n{% endif %}\\n{% if debug != \\'\\' %}\\n  {% set debug = \"_d\" ~ debug %}\\n{% endif %}\\n\\npackage:\\n  name: python\\n  version: {{ version }}\\n\\nsource:\\n  - url: https://www.python.org/ftp/python/{{ version }}/Python-{{ version }}.tar.xz\\n    # md5 from: https://www.python.org/downloads/release/python-382/\\n    md5: e9d6ebc92183a177b8e8a58cad5b8d67\\n    patches:\\n{% if \\'conda-forge\\' not in channel_targets %}\\n      - patches/0001-Add-Anaconda-Distribution-version-logic.patch\\n{% endif %}\\n      - patches/0002-Darwin-Add-arch-x86_64-to-UnicCCompiler-ld_args.patch\\n      - patches/0003-Win32-Change-FD_SETSIZE-from-512-to-2048.patch\\n      - patches/0004-Win32-distutils-Add-support-to-cygwinccompiler-for-V.patch\\n      - patches/0005-Do-not-pass-g-to-GCC-when-not-Py_DEBUG.patch\\n      - patches/0006-Support-cross-compiling-byte-code.patch\\n      - patches/0007-Win32-Fixes-for-Windows-GCC-interop-needed-by-RPy2-a.patch\\n      - patches/0008-Darwin-Look-in-sysroot-usr-lib-include-if-sysroot-is.patch\\n      - patches/0009-runtime_library_dir_option-Use-1st-word-of-CC-as-com.patch\\n      - patches/0010-Win32-Do-not-download-externals.patch\\n      - patches/0011-Add-support-for-_CONDA_PYTHON_SYSCONFIGDATA_NAME-if-.patch\\n      - patches/0012-Fix-find_library-so-that-it-looks-in-sys.prefix-lib-.patch\\n      - patches/0013-Disable-new-dtags-in-unixccompiler.py.patch\\n      - patches/0014-Fix-cross-compilation-on-Debian-based-distros.patch\\n      - patches/0015-Disable-registry-lookup-unless-CONDA_PY_ALLOW_REG_PA.patch\\n      - patches/0016-Unvendor-openssl.patch\\n      - patches/0017-Unvendor-sqlite3.patch\\n      # https://bugs.python.org/issue35644\\n      - patches/0018-venv-Revert-a-change-from-https-github.com-python-cp.patch\\n      - patches/0019-Win-Add-back-the-DLLSuffix-used-to-find-the-openssl-.patch\\n      - patches/0020-Use-ranlib-from-env-if-env-variable-is-set.patch\\n      - patches/0021-roll-back-2e33ecd-for-py_compile.main.patch\\n      # Python 3.8 is pretty broken without this.\\n      - patches/0022-Add-CondaEcosystemModifyDllSearchPath.patch\\n\\n  # TODO :: Depend on our own packages for these:\\n  - url: https://github.com/python/cpython-source-deps/archive/xz-5.2.2.zip          # [win]\\n    folder: externals/xz-5.2.2                                                       # [win]\\n    sha256: 02b6d6f1e0369940e7e1f0d324992e069d09f5f3d32d86e2d22cd8b82ac3fb3f         # [win]\\n  # Not used as of 3.7b3 (tcltk from cpython-bin- is), but kept for archival and license reasons.\\n  - url: https://github.com/python/cpython-source-deps/archive/tcl-core-8.6.9.0.zip  # [win]\\n    folder: externals/tcl-core-8.6.9.0                                               # [win]\\n    sha256: ea9e724536ec13b476ebbd47948303b92fdd90a33aa94f30fcc2f5c3a899f69e         # [win]\\n  # Not used as of 3.7b3 (tcltk from cpython-bin- is), but kept for archival and license reasons.\\n  - url: https://github.com/python/cpython-source-deps/archive/tk-8.6.9.0.zip        # [win]\\n    folder: externals/tk-8.6.9.0                                                     # [win]\\n    sha256: f3112b6bbc3bd163c877030187e73ce9a113ce03eff559ec5b9df697e3a08fad         # [win]\\n  - url: https://github.com/python/cpython-bin-deps/archive/tcltk-8.6.9.0.zip        # [win]\\n    folder: externals/tcltk-8.6.9.0                                                  # [win]\\n    sha256: 37cd629a75d2a34974a3d771ccab5c9e3caf3d138cea81040f9cdba1aded1cf2         # [win]\\n  - url: https://github.com/python/cpython-source-deps/archive/tix-8.4.3.6.zip       # [win]\\n    folder: externals/tix-8.4.3.6                                                    # [win]\\n    sha256: e558e3dc5e67ac0942f8fceafce00ca46b177da9ebeaf38ec7fafd9b9913ac56         # [win]\\n  - url: https://github.com/python/cpython-source-deps/archive/bzip2-1.0.6.zip       # [win]\\n    folder: externals/bzip2-1.0.6                                                    # [win]\\n    sha256: c42fd1432a2667b964a74bc423bb7485059c4a6d5dc92946d59dbf9a6bdb988d         # [win]\\n  - url: https://github.com/python/cpython-source-deps/archive/zlib-1.2.11.zip       # [win]\\n    folder: externals/zlib-1.2.11                                                    # [win]\\n    sha256: debb1952945fa6c25817a40abe90641b572c83171f244937b70b9fe156f5a63a         # [win]\\n  - url: https://github.com/python/cpython-bin-deps/archive/nasm-2.11.06.zip         # [win]\\n    folder: externals/nasm-2.11.06                                                   # [win]\\n    sha256: de3c87b26a80e789986d8e6950c6304175d3829afe9c6c7211eb7257266ab0ac         # [win]\\n  - url: https://github.com/python/cpython-bin-deps/archive/libffi.zip               # [win]\\n    folder: externals/libffi                                                         # [win]\\n    sha256: 4872e72e188a5aa1124db0c3b163a4163e84ead359a514d86dd7c6fa2d2ff02a         # [win]\\n\\n\\nbuild:\\n  number: 7\\n  # Windows has issues updating python if conda is using files itself.\\n  # Copy rather than link.\\n  no_link:\\n    - DLLs/_ctypes.pyd  # [win]\\n  # We delete the shared libraries.\\n  ignore_run_exports:   # [unix]\\n    - bzip2             # [unix]\\n  # Disabled until new conda-build release\\n  detect_binary_files_with_prefix: True\\n  # detect_binary_files_with_prefix: False\\n  # binary_has_prefix_files:\\n  #   - lib/libpython3.8.*.1.0\\n  #   - bin/python3.8  # [linux]\\n  #   - lib/libpython3.8.a  # [linux]\\n  #   - lib/libpython3.8.nolto.a  # [linux]\\n  #   - lib/libpython3.so  # [linux]\\n  #   - lib/python3.8/lib-dynload/_hashlib.cpython-38-x86_64-linux-gnu.so  # [linux]\\n  #   - lib/libpython3.dylib  # [osx]\\n  # match python.org compiler standard\\n  skip: True            # [win and int(float(vc)) < 14]\\n# Would like to be able to append to the calculated build string here, ping @msarahan, is this possible?\\n  string: h{{ PKG_HASH }}_{{ PKG_BUILDNUM }}{{ linkage_nature }}{{ debug }}_cpython\\n  run_exports:\\n    noarch:\\n      - python\\n    weak:\\n      - python_abi 3.8.* *_cp38\\n  script_env:\\n   - PY_INTERP_LINKAGE_NATURE\\n   - PY_INTERP_DEBUG\\n# Not until: https://github.com/mingwandroid/conda-build/commit/c68a7d100866df7a3e9c0e3177fc7ef0ff76def9\\n# {% if \\'conda-forge\\' not in channel_targets %}\\n#      - CONDA_FORGE=yes\\n# {% else %}\\n#      - CONDA_FORGE=no\\n# {% endif %}\\n\\nrequirements:\\n  build:\\n    - {{ compiler(\\'c\\') }}\\n    - {{ compiler(\\'cxx\\') }}\\n    - {{ cdt(\\'xorg-x11-proto-devel\\') }}  # [linux]\\n    - {{ cdt(\\'libx11-devel\\') }}  # [linux]\\n    - {{ cdt(\\'libuuid-devel\\') }}  # [linux and not (ppc64le or aarch64)]\\n    - make  # [not win]\\n    - pkg-config  # [not win]\\n    # configure script looks for llvm-ar for lto\\n    - llvm-tools  # [osx]\\n    - patch  # [not win]\\n    - m2-patch  # [win]\\n    - posix  # [win]\\n    - ld_impl_{{ target_platform }}  # [linux]\\n    - binutils_impl_{{ target_platform }} >=2.33.1  # [linux]\\n  host:\\n    - bzip2  # [not win]\\n    - sqlite\\n    - xz  # [not win]\\n    - zlib  # [not win]\\n    - openssl\\n    - readline  # [not win]\\n    - tk  # [not win]\\n    - ncurses  # [linux]\\n    - libffi  # [not win]\\n    - ld_impl_{{ target_platform }}  # [linux]\\n  run:\\n    - ld_impl_{{ target_platform }}  # [linux]\\n  run_constrained:\\n    - python_abi 3.8.* *_cp38\\n\\ntest:\\n  requires:\\n    - ripgrep\\n    - cmake\\n    - ninja\\n    - cython\\n    - setuptools\\n    - {{ compiler(\\'c\\') }}\\n    # Tried to use enable_language(C) to avoid needing this. It does not work.\\n    - {{ compiler(\\'cxx\\') }}\\n  files:\\n    - tests/distutils/*\\n    - tests/distutils.cext/*\\n    - tests/cmake/*\\n    - tests/cython/*\\n    - tests/prefix-replacement/*\\n  commands:\\n    - python -V\\n    - python3 -V            # [not win]\\n    - 2to3 -h\\n    - pydoc -h\\n    - python3-config --help  # [not win]\\n    - python -m venv %%TEMP%%\\\\venv  # [win]\\n    - python -c \"import sysconfig; print(sysconfig.get_config_var(\\'CC\\'))\"  # [not win]\\n    -  _CONDA_PYTHON_SYSCONFIGDATA_NAME=_sysconfigdata_x86_64_conda_cos6_linux_gnu python -c \"import sysconfig; print(sysconfig.get_config_var(\\'CC\\'))\"  # [linux64]\\n    # check for unreplaced @ symbols in sysconfig files\\n    - for f in ${CONDA_PREFIX}/lib/python*/_sysconfig*.py; do echo \"Checking $f:\"; if [[ `rg @ $f` ]]; then echo \"FAILED ON $f\"; cat $f; exit 1; fi; done  # [linux64 or osx]\\n    - pushd tests\\n    -   pushd distutils\\n    -     python setup.py install -v -v\\n    -     python -c \"import foobar\"\\n    -   popd\\n    -   pushd distutils.cext\\n    -     python setup.py install -v -v\\n    -     python -c \"import greet; greet.greet(\\'Python user\\')\" | rg \"Hello Python\"\\n    -   popd\\n    -   pushd prefix-replacement  # [unix]\\n    -     bash build-and-test.sh  # [unix]\\n    -   popd  # [unix]\\n    -   pushd cmake\\n    -     cmake -GNinja -DPY_VER={{ version }}\\n          # --trace --debug-output --debug-trycompile .\\n    -   popd\\n    - popd\\n    - test ! -f default.profraw   # [osx]\\n\\nabout:\\n  home: http://www.python.org/\\n  license: Python-2.0\\n  license_file: LICENSE\\n  summary: General purpose programming language\\n  description: |\\n    Python is a widely used high-level, general-purpose, interpreted, dynamic\\n    programming language. Its design philosophy emphasizes code\\n    readability, and its syntax allows programmers to express concepts in\\n    fewer lines of code than would be possible in languages such as C++ or\\n    Java. The language provides constructs intended to enable clear programs\\n    on both a small and large scale.\\n  doc_url: https://www.python.org/doc/versions/\\n  doc_source_url: https://github.com/python/pythondotorg/blob/master/docs/source/index.rst\\n  dev_url: https://docs.python.org/devguide/\\n\\nextra:\\n  recipe-maintainers:\\n    - isuruf\\n    - jakirkham\\n    - jjhelmus\\n    - mingwandroid\\n    - msarahan\\n    - pelson\\n    - ocefpaf\\n    - scopatz\\n'"
+     },
+     "metadata": {},
+     "execution_count": 27
+    }
+   ],
+   "source": [
+    "gx.nodes['python']['payload']['raw_meta_yaml']"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 28,
+   "metadata": {},
+   "outputs": [
+    {
+     "output_type": "execute_result",
+     "data": {
+      "text/plain": "{'binutils_impl_',\n 'bzip2',\n 'c_compiler_stub',\n 'cdt_stub',\n 'cxx_compiler_stub',\n 'ld_impl_',\n 'libffi',\n 'llvm-tools',\n 'm2-patch',\n 'make',\n 'ncurses',\n 'openssl',\n 'patch',\n 'pkg-config',\n 'posix',\n 'readline',\n 'sqlite',\n 'tk',\n 'xz',\n 'zlib'}"
+     },
+     "metadata": {},
+     "execution_count": 28
+    }
+   ],
+   "source": [
+    "gx.nodes['python']['payload']['req']"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 29,
+   "metadata": {},
+   "outputs": [
+    {
+     "output_type": "execute_result",
+     "data": {
+      "text/plain": "{'build': {'binutils_impl_',\n  'c_compiler_stub',\n  'cdt_stub',\n  'cxx_compiler_stub',\n  'ld_impl_',\n  'llvm-tools',\n  'm2-patch',\n  'make',\n  'patch',\n  'pkg-config',\n  'posix'},\n 'host': {'bzip2',\n  'ld_impl_',\n  'libffi',\n  'ncurses',\n  'openssl',\n  'readline',\n  'sqlite',\n  'tk',\n  'xz',\n  'zlib'},\n 'run': {'ld_impl_'},\n 'test': {'c_compiler_stub',\n  'cmake',\n  'cxx_compiler_stub',\n  'cython',\n  'ninja',\n  'ripgrep',\n  'setuptools'}}"
+     },
+     "metadata": {},
+     "execution_count": 29
+    }
+   ],
+   "source": [
+    "gx.nodes['python']['payload']['requirements']"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 30,
+   "metadata": {},
+   "outputs": [
+    {
+     "output_type": "execute_result",
+     "data": {
+      "text/plain": "'3.6.5'"
+     },
+     "metadata": {},
+     "execution_count": 30
+    }
+   ],
+   "source": [
+    "gx.nodes['python']['payload']['smithy_version']"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 31,
+   "metadata": {},
+   "outputs": [
+    {
+     "output_type": "execute_result",
+     "data": {
+      "text/plain": "False"
+     },
+     "metadata": {},
+     "execution_count": 31
+    }
+   ],
+   "source": [
+    "gx.nodes['python']['payload']['strong_exports']"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 32,
+   "metadata": {},
+   "outputs": [
+    {
+     "output_type": "execute_result",
+     "data": {
+      "text/plain": "{'build': {'binutils_impl_ >=2.33.1',\n  'c_compiler_stub',\n  'cdt_stub',\n  'cxx_compiler_stub',\n  'ld_impl_',\n  'llvm-tools',\n  'm2-patch',\n  'make',\n  'patch',\n  'pkg-config',\n  'posix'},\n 'host': {'bzip2',\n  'ld_impl_',\n  'libffi',\n  'ncurses',\n  'openssl',\n  'readline',\n  'sqlite',\n  'tk',\n  'xz',\n  'zlib'},\n 'run': {'ld_impl_'},\n 'test': {'c_compiler_stub',\n  'cmake',\n  'cxx_compiler_stub',\n  'cython',\n  'ninja',\n  'ripgrep',\n  'setuptools'}}"
+     },
+     "metadata": {},
+     "execution_count": 32
+    }
+   ],
+   "source": [
+    "gx.nodes['python']['payload']['total_requirements']"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 33,
+   "metadata": {},
+   "outputs": [
+    {
+     "output_type": "execute_result",
+     "data": {
+      "text/plain": "'https://www.python.org/ftp/python/3.7.3/Python-3.7.3.tar.xz'"
+     },
+     "metadata": {},
+     "execution_count": 33
+    }
+   ],
+   "source": [
+    "gx.nodes['python']['payload']['url']"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 34,
+   "metadata": {},
+   "outputs": [
+    {
+     "output_type": "execute_result",
+     "data": {
+      "text/plain": "'3.8.2'"
+     },
+     "metadata": {},
+     "execution_count": 34
+    }
+   ],
+   "source": [
+    "gx.nodes['python']['payload']['version']"
+   ]
+  }
+ ],
+ "metadata": {
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.7.6-final"
+  },
+  "orig_nbformat": 2,
+  "kernelspec": {
+   "name": "python3",
+   "display_name": "Python 3"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 2
+}

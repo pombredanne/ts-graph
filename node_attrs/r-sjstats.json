@@ -1,0 +1,494 @@
+{
+ "PRed":[
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.15.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/200495906.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.16.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/231952630.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/299080551.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"RBaseRebuild",
+    "migrator_version":0,
+    "name":"r-base-3.6.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/341029499.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.17.7"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/365249989.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.17.8"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/372041861.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.17.9"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/413188040.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":2,
+    "migrator_version":0,
+    "name":"r400"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/413952614.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.18.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "bot":{
+   "automerge":true
+  },
+  "provider":{
+   "win":"azure"
+  }
+ },
+ "feedstock_name":"r-sjstats",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"https://github.com/strengejacke/sjstats, https://strengejacke.github.io/sjstats",
+   "license":"GPL-3",
+   "license_family":"GPL3",
+   "license_file":[
+    "/lib/R/share/licenses/GPL-3",
+    "/lib/R/share/licenses/GPL-3",
+    "/lib/R/share/licenses/GPL-3"
+   ],
+   "summary":"Collection of convenient functions for common statistical computations, which are not directly provided by R's base or stats packages. This package aims at providing, first, shortcuts for statistical measures,  which otherwise could only be calculated with additional effort  (like Cramer's V, Phi, or effect size statistics like Eta or Omega squared),  or for which currently no functions available. Second, another focus  lies on weighted variants of common statistical measures and tests  like weighted standard error, mean, t-test, correlation, and more."
+  },
+  "build":{
+   "merge_build_host":true,
+   "noarch":"generic",
+   "number":"0",
+   "rpaths":[
+    "lib/R/lib/",
+    "lib/",
+    "lib/R/lib/",
+    "lib/",
+    "lib/R/lib/",
+    "lib/"
+   ]
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "conda-forge/r",
+    "ccwang002",
+    "conda-forge/r",
+    "ccwang002",
+    "conda-forge/r",
+    "ccwang002"
+   ]
+  },
+  "package":{
+   "name":"r-sjstats",
+   "version":"0.18.0"
+  },
+  "requirements":{
+   "build":null,
+   "host":[
+    "r-base",
+    "r-bayestestr >=0.4.0",
+    "r-broom",
+    "r-dplyr >=0.8.1",
+    "r-effectsize",
+    "r-emmeans",
+    "r-insight >=0.8.0",
+    "r-lme4",
+    "r-magrittr",
+    "r-mass",
+    "r-modelr",
+    "r-parameters >=0.4.0",
+    "r-performance >=0.4.0",
+    "r-purrr",
+    "r-rlang",
+    "r-sjlabelled >=1.1.1",
+    "r-sjmisc >=2.8.2",
+    "r-tidyr",
+    "r-base",
+    "r-bayestestr >=0.4.0",
+    "r-broom",
+    "r-dplyr >=0.8.1",
+    "r-effectsize",
+    "r-emmeans",
+    "r-insight >=0.8.0",
+    "r-lme4",
+    "r-magrittr",
+    "r-mass",
+    "r-modelr",
+    "r-parameters >=0.4.0",
+    "r-performance >=0.4.0",
+    "r-purrr",
+    "r-rlang",
+    "r-sjlabelled >=1.1.1",
+    "r-sjmisc >=2.8.2",
+    "r-tidyr",
+    "r-base",
+    "r-bayestestr >=0.4.0",
+    "r-broom",
+    "r-dplyr >=0.8.1",
+    "r-effectsize",
+    "r-emmeans",
+    "r-insight >=0.8.0",
+    "r-lme4",
+    "r-magrittr",
+    "r-mass",
+    "r-modelr",
+    "r-parameters >=0.4.0",
+    "r-performance >=0.4.0",
+    "r-purrr",
+    "r-rlang",
+    "r-sjlabelled >=1.1.1",
+    "r-sjmisc >=2.8.2",
+    "r-tidyr"
+   ],
+   "run":[
+    "r-base",
+    "r-bayestestr >=0.4.0",
+    "r-broom",
+    "r-dplyr >=0.8.1",
+    "r-effectsize",
+    "r-emmeans",
+    "r-insight >=0.8.0",
+    "r-lme4",
+    "r-magrittr",
+    "r-mass",
+    "r-modelr",
+    "r-parameters >=0.4.0",
+    "r-performance >=0.4.0",
+    "r-purrr",
+    "r-rlang",
+    "r-sjlabelled >=1.1.1",
+    "r-sjmisc >=2.8.2",
+    "r-tidyr",
+    "r-base",
+    "r-bayestestr >=0.4.0",
+    "r-broom",
+    "r-dplyr >=0.8.1",
+    "r-effectsize",
+    "r-emmeans",
+    "r-insight >=0.8.0",
+    "r-lme4",
+    "r-magrittr",
+    "r-mass",
+    "r-modelr",
+    "r-parameters >=0.4.0",
+    "r-performance >=0.4.0",
+    "r-purrr",
+    "r-rlang",
+    "r-sjlabelled >=1.1.1",
+    "r-sjmisc >=2.8.2",
+    "r-tidyr",
+    "r-base",
+    "r-bayestestr >=0.4.0",
+    "r-broom",
+    "r-dplyr >=0.8.1",
+    "r-effectsize",
+    "r-emmeans",
+    "r-insight >=0.8.0",
+    "r-lme4",
+    "r-magrittr",
+    "r-mass",
+    "r-modelr",
+    "r-parameters >=0.4.0",
+    "r-performance >=0.4.0",
+    "r-purrr",
+    "r-rlang",
+    "r-sjlabelled >=1.1.1",
+    "r-sjmisc >=2.8.2",
+    "r-tidyr"
+   ]
+  },
+  "source":{
+   "sha256":"e04b84bb2dcf96a779f0e40e2bed2a778fbf579052cc8f143686cb073373619d",
+   "url":[
+    "https://cran.r-project.org/src/contrib/sjstats_0.18.0.tar.gz",
+    "https://cran.r-project.org/src/contrib/Archive/sjstats/sjstats_0.18.0.tar.gz",
+    "https://cran.r-project.org/src/contrib/sjstats_0.18.0.tar.gz",
+    "https://cran.r-project.org/src/contrib/Archive/sjstats/sjstats_0.18.0.tar.gz",
+    "https://cran.r-project.org/src/contrib/sjstats_0.18.0.tar.gz",
+    "https://cran.r-project.org/src/contrib/Archive/sjstats/sjstats_0.18.0.tar.gz"
+   ]
+  },
+  "test":{
+   "commands":[
+    "\"%R%\" -e \"library('sjstats')\"",
+    "$R -e \"library('sjstats')\"",
+    "$R -e \"library('sjstats')\""
+   ]
+  }
+ },
+ "name":"r-sjstats",
+ "new_version":"0.18.0",
+ "new_version_attempts":{
+  "0.18.0":1
+ },
+ "new_version_errors":{},
+ "pinning_version":"2020.05.04.19.59.17",
+ "raw_meta_yaml":"{% set version = \"0.18.0\" %}\n{% set posix = 'm2-' if win else '' %}\n{% set native = 'm2w64-' if win else '' %}\n\npackage:\n  name: r-sjstats\n  version: {{ version|replace(\"-\", \"_\") }}\n\nsource:\n  url:\n    - {{ cran_mirror }}/src/contrib/sjstats_{{ version }}.tar.gz\n    - {{ cran_mirror }}/src/contrib/Archive/sjstats/sjstats_{{ version }}.tar.gz\n  sha256: e04b84bb2dcf96a779f0e40e2bed2a778fbf579052cc8f143686cb073373619d\n\nbuild:\n  merge_build_host: true  # [win]\n  number: 0\n  noarch: generic\n  rpaths:\n    - lib/R/lib/\n    - lib/\n\nrequirements:\n  build:\n    - {{ posix }}zip               # [win]\n  host:\n    - r-base\n    - r-bayestestr >=0.4.0\n    - r-broom\n    - r-dplyr >=0.8.1\n    - r-effectsize\n    - r-emmeans\n    - r-insight >=0.8.0\n    - r-lme4\n    - r-magrittr\n    - r-mass\n    - r-modelr\n    - r-parameters >=0.4.0\n    - r-performance >=0.4.0\n    - r-purrr\n    - r-rlang\n    - r-sjlabelled >=1.1.1\n    - r-sjmisc >=2.8.2\n    - r-tidyr\n  run:\n    - r-base\n    - r-bayestestr >=0.4.0\n    - r-broom\n    - r-dplyr >=0.8.1\n    - r-effectsize\n    - r-emmeans\n    - r-insight >=0.8.0\n    - r-lme4\n    - r-magrittr\n    - r-mass\n    - r-modelr\n    - r-parameters >=0.4.0\n    - r-performance >=0.4.0\n    - r-purrr\n    - r-rlang\n    - r-sjlabelled >=1.1.1\n    - r-sjmisc >=2.8.2\n    - r-tidyr\n\ntest:\n  commands:\n    - $R -e \"library('sjstats')\"           # [not win]\n    - \"\\\"%R%\\\" -e \\\"library('sjstats')\\\"\"  # [win]\n\nabout:\n  home: https://github.com/strengejacke/sjstats, https://strengejacke.github.io/sjstats\n  license: GPL-3\n  summary: Collection of convenient functions for common statistical computations, which are not directly provided by R's base or stats packages. This package aims at providing, first, shortcuts for statistical measures,  which otherwise could only be calculated with additional effort  (like Cramer's V, Phi, or effect size\n    statistics like Eta or Omega squared),  or for which currently no functions available. Second, another focus  lies on weighted variants of common statistical measures and tests  like weighted standard error, mean, t-test, correlation, and more.\n  license_family: GPL3\n  license_file:\n    - {{ environ[\"PREFIX\"] }}/lib/R/share/licenses/GPL-3\n\nextra:\n  recipe-maintainers:\n    - conda-forge/r\n    - ccwang002\n\n# Package: sjstats\n# Type: Package\n# Encoding: UTF-8\n# Title: Collection of Convenient Functions for Common Statistical Computations\n# Version: 0.17.6\n# Date: 2019-09-08\n# Authors@R: person(\"Daniel\", \"Ludecke\", role = c(\"aut\", \"cre\"), email = \"d.luedecke@uke.de\", comment = c(ORCID = \"0000-0002-8895-3206\"))\n# Maintainer: Daniel Ludecke <d.luedecke@uke.de>\n# Description: Collection of convenient functions for common statistical computations, which are not directly provided by R's base or stats packages. This package aims at providing, first, shortcuts for statistical measures,  which otherwise could only be calculated with additional effort  (like Cramer's V, Phi, or effect size statistics like Eta or Omega squared),  or for which currently no functions available. Second, another focus  lies on weighted variants of common statistical measures and tests  like weighted standard error, mean, t-test, correlation, and more.\n# License: GPL-3\n# Depends: R (>= 3.2)\n# Imports: bayestestR (>= 0.2.5), broom, dplyr (>= 0.8.1), emmeans, insight (>= 0.4.1), lme4, magrittr, MASS, modelr, parameters (>= 0.1.0), performance (>= 0.3.0), purrr, rlang, sjlabelled (>= 1.1.0), sjmisc (>= 2.8.1), stats, tidyr, utils\n# Suggests: brms, car, coin, ggplot2, graphics, httr, knitr, mediation, nlme, pbkrtest (>= 0.4-7), pscl, pwr, sandwich, sjPlot, survey, rstan, rstanarm, VGAM, Zelig, testthat\n# URL: https://github.com/strengejacke/sjstats, https://strengejacke.github.io/sjstats\n# BugReports: https://github.com/strengejacke/sjstats/issues\n# RoxygenNote: 6.1.1\n# VignetteBuilder: knitr\n# NeedsCompilation: no\n# Packaged: 2019-09-08 16:51:16 UTC; Daniel\n# Author: Daniel Ludecke [aut, cre] (<https://orcid.org/0000-0002-8895-3206>)\n# Repository: CRAN\n# Date/Publication: 2019-09-08 22:00:03 UTC\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "r-base",
+   "r-bayestestr",
+   "r-broom",
+   "r-dplyr",
+   "r-effectsize",
+   "r-emmeans",
+   "r-insight",
+   "r-lme4",
+   "r-magrittr",
+   "r-mass",
+   "r-modelr",
+   "r-parameters",
+   "r-performance",
+   "r-purrr",
+   "r-rlang",
+   "r-sjlabelled",
+   "r-sjmisc",
+   "r-tidyr"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "r-base",
+    "r-bayestestr",
+    "r-broom",
+    "r-dplyr",
+    "r-effectsize",
+    "r-emmeans",
+    "r-insight",
+    "r-lme4",
+    "r-magrittr",
+    "r-mass",
+    "r-modelr",
+    "r-parameters",
+    "r-performance",
+    "r-purrr",
+    "r-rlang",
+    "r-sjlabelled",
+    "r-sjmisc",
+    "r-tidyr"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "r-base",
+    "r-bayestestr",
+    "r-broom",
+    "r-dplyr",
+    "r-effectsize",
+    "r-emmeans",
+    "r-insight",
+    "r-lme4",
+    "r-magrittr",
+    "r-mass",
+    "r-modelr",
+    "r-parameters",
+    "r-performance",
+    "r-purrr",
+    "r-rlang",
+    "r-sjlabelled",
+    "r-sjmisc",
+    "r-tidyr"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.7.0\n",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "r-base",
+    "r-bayestestr >=0.4.0",
+    "r-broom",
+    "r-dplyr >=0.8.1",
+    "r-effectsize",
+    "r-emmeans",
+    "r-insight >=0.8.0",
+    "r-lme4",
+    "r-magrittr",
+    "r-mass",
+    "r-modelr",
+    "r-parameters >=0.4.0",
+    "r-performance >=0.4.0",
+    "r-purrr",
+    "r-rlang",
+    "r-sjlabelled >=1.1.1",
+    "r-sjmisc >=2.8.2",
+    "r-tidyr"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "r-base",
+    "r-bayestestr >=0.4.0",
+    "r-broom",
+    "r-dplyr >=0.8.1",
+    "r-effectsize",
+    "r-emmeans",
+    "r-insight >=0.8.0",
+    "r-lme4",
+    "r-magrittr",
+    "r-mass",
+    "r-modelr",
+    "r-parameters >=0.4.0",
+    "r-performance >=0.4.0",
+    "r-purrr",
+    "r-rlang",
+    "r-sjlabelled >=1.1.1",
+    "r-sjmisc >=2.8.2",
+    "r-tidyr"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":[
+  "https://cran.r-project.org/src/contrib/sjstats_0.17.5.tar.gz",
+  "https://cran.r-project.org/src/contrib/Archive/sjstats/sjstats_0.17.5.tar.gz",
+  "https://cran.r-project.org/src/contrib/sjstats_0.17.5.tar.gz",
+  "https://cran.r-project.org/src/contrib/Archive/sjstats/sjstats_0.17.5.tar.gz",
+  "https://cran.r-project.org/src/contrib/sjstats_0.17.5.tar.gz",
+  "https://cran.r-project.org/src/contrib/Archive/sjstats/sjstats_0.17.5.tar.gz"
+ ],
+ "version":"0.18.0"
+}

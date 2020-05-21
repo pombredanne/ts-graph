@@ -1,0 +1,238 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/335950666.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"python38"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/397755188.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"pypy"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"cylc-flow",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"Cylc (\"silk\") orchestrates complex distributed suites of interdependent\ncycling (or non-cycling) tasks. It was originally designed to automate\nenvironmental forecasting systems at NIWA, however Cylc is a general\nworkflow engine; it is not specialized to forecasting in any way.\n",
+   "dev_url":"https://github.com/cylc/cylc-flow",
+   "doc_url":"https://cylc.github.io/documentation.html",
+   "home":"https://cylc.github.io/",
+   "license":"GPL-3.0",
+   "license_family":"GPL",
+   "license_file":"LICENSE.txt",
+   "summary":"A workflow engine for cycling systems"
+  },
+  "build":{
+   "number":"1",
+   "script":"-m pip install . --no-deps --ignore-installed -vv",
+   "skip":true
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "hjoliver",
+    "kinow",
+    "oliver-sanders",
+    "hjoliver",
+    "kinow",
+    "oliver-sanders",
+    "hjoliver",
+    "kinow",
+    "oliver-sanders"
+   ]
+  },
+  "package":{
+   "name":"cylc-flow",
+   "version":"8.0a1"
+  },
+  "requirements":{
+   "host":[
+    "pip",
+    "python",
+    "pip",
+    "python",
+    "pip",
+    "python"
+   ],
+   "run":[
+    "ansimarkup >=1.0.0",
+    "colorama >=0.4",
+    "cryptography",
+    "graphene ==2.1.6",
+    "jinja2 >=2.10.1",
+    "markupsafe >=1.1",
+    "metomi-isodatetime >=1!2.0.1",
+    "protobuf >=3.7",
+    "pyasn1",
+    "python",
+    "python-jose >=3.0",
+    "pyzmq >=18.0",
+    "ansimarkup >=1.0.0",
+    "colorama >=0.4",
+    "cryptography",
+    "graphene ==2.1.6",
+    "jinja2 >=2.10.1",
+    "markupsafe >=1.1",
+    "metomi-isodatetime >=1!2.0.1",
+    "protobuf >=3.7",
+    "pyasn1",
+    "python",
+    "python-jose >=3.0",
+    "pyzmq >=18.0",
+    "ansimarkup >=1.0.0",
+    "colorama >=0.4",
+    "cryptography",
+    "graphene ==2.1.6",
+    "jinja2 >=2.10.1",
+    "markupsafe >=1.1",
+    "metomi-isodatetime >=1!2.0.1",
+    "protobuf >=3.7",
+    "pyasn1",
+    "python",
+    "python-jose >=3.0",
+    "pyzmq >=18.0"
+   ]
+  },
+  "source":{
+   "sha256":"36f4f4363cb5cc7a3a613d2db6e84cc41c2825c6cd011191cc4821c5ca9c81a4",
+   "url":"https://pypi.io/packages/source/c/cylc-flow/cylc-flow-8.0a1.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "cylc --version",
+    "cylc --version",
+    "cylc --version"
+   ],
+   "imports":[
+    "cylc.flow",
+    "cylc.flow",
+    "cylc.flow"
+   ]
+  }
+ },
+ "name":"cylc-flow",
+ "new_version":false,
+ "pinning_version":"2020.04.02",
+ "raw_meta_yaml":"{% set name = \"cylc-flow\" %}\n{% set version = \"8.0a1\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: \"{{ version }}\"\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: 36f4f4363cb5cc7a3a613d2db6e84cc41c2825c6cd011191cc4821c5ca9c81a4\n\nbuild:\n  number: 1\n  skip: True  # [py<37 or not linux]\n  script: {{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv\n\nrequirements:\n  host:\n    - pip\n    - python\n  run:\n    - ansimarkup >=1.0.0\n    - colorama >=0.4\n    - cryptography\n    - graphene ==2.1.6\n    - jinja2 >=2.10.1\n    - markupsafe >=1.1\n    - metomi-isodatetime >=1!2.0.1\n    - protobuf >=3.7\n    - pyasn1\n    - python\n    - python-jose >=3.0\n    - pyzmq >=18.0\n\ntest:\n  imports:\n    - cylc.flow\n  commands:\n    - cylc --version\n\nabout:\n  home: https://cylc.github.io/\n  license: GPL-3.0\n  license_family: GPL\n  license_file: LICENSE.txt\n  summary: 'A workflow engine for cycling systems'\n  description: |\n    Cylc (\"silk\") orchestrates complex distributed suites of interdependent\n    cycling (or non-cycling) tasks. It was originally designed to automate\n    environmental forecasting systems at NIWA, however Cylc is a general\n    workflow engine; it is not specialized to forecasting in any way.\n  doc_url: https://cylc.github.io/documentation.html\n  dev_url: https://github.com/cylc/cylc-flow\n\nextra:\n  recipe-maintainers:\n    - hjoliver\n    - kinow\n    - oliver-sanders\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "ansimarkup",
+   "colorama",
+   "cryptography",
+   "graphene",
+   "jinja2",
+   "markupsafe",
+   "metomi-isodatetime",
+   "pip",
+   "protobuf",
+   "pyasn1",
+   "python",
+   "python-jose",
+   "pyzmq"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "ansimarkup",
+    "colorama",
+    "cryptography",
+    "graphene",
+    "jinja2",
+    "markupsafe",
+    "metomi-isodatetime",
+    "protobuf",
+    "pyasn1",
+    "python",
+    "python-jose",
+    "pyzmq"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.6.15",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "ansimarkup >=1.0.0",
+    "colorama >=0.4",
+    "cryptography",
+    "graphene ==2.1.6",
+    "jinja2 >=2.10.1",
+    "markupsafe >=1.1",
+    "metomi-isodatetime >=1!2.0.1",
+    "protobuf >=3.7",
+    "pyasn1",
+    "python",
+    "python-jose >=3.0",
+    "pyzmq >=18.0"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/c/cylc-flow/cylc-flow-8.0a1.tar.gz",
+ "version":"8.0a1"
+}

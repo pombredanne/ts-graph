@@ -1,0 +1,210 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/237140136.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/296751939.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.15"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/298595976.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.16"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "compiler_stack":"comp7",
+  "max_py_ver":"37",
+  "max_r_ver":"35"
+ },
+ "feedstock_name":"libpciaccess",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"https://gitlab.freedesktop.org/xorg/lib/libpciaccess",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"COPYING",
+   "summary":"Generic PCI access library"
+  },
+  "build":{
+   "number":"0",
+   "run_exports":[
+    "libpciaccess",
+    "libpciaccess",
+    "libpciaccess"
+   ],
+   "skip":true
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "hmaarrfk",
+    "hmaarrfk",
+    "hmaarrfk"
+   ]
+  },
+  "package":{
+   "name":"libpciaccess",
+   "version":"0.16"
+  },
+  "requirements":{
+   "build":[
+    "c_compiler_stub",
+    "libtool",
+    "autoconf",
+    "automake",
+    "pkg-config",
+    "c_compiler_stub",
+    "libtool",
+    "autoconf",
+    "automake",
+    "pkg-config",
+    "c_compiler_stub",
+    "libtool",
+    "autoconf",
+    "automake",
+    "pkg-config"
+   ],
+   "host":[
+    "xorg-util-macros",
+    "xorg-util-macros",
+    "xorg-util-macros"
+   ]
+  },
+  "source":{
+   "sha256":"9938b18509553452c6e13f79e16cbaffec9ea67119aa2de5d75e83c4f67ff400",
+   "url":"https://gitlab.freedesktop.org/xorg/lib/libpciaccess/-/archive/libpciaccess-0.16/libpciaccess-libpciaccess-0.16.tar.bz2"
+  },
+  "test":{
+   "commands":[
+    "test -f $PREFIX/lib/libpciaccess.a",
+    "test -f $PREFIX/lib/libpciaccess.so",
+    "test -f $PREFIX/lib/libpciaccess.so.0",
+    "test -f $PREFIX/lib/pkgconfig/pciaccess.pc",
+    "test -f $PREFIX/include/pciaccess.h",
+    "test -f $PREFIX/lib/libpciaccess.a",
+    "test -f $PREFIX/lib/libpciaccess.so",
+    "test -f $PREFIX/lib/libpciaccess.so.0",
+    "test -f $PREFIX/lib/pkgconfig/pciaccess.pc",
+    "test -f $PREFIX/include/pciaccess.h",
+    "test -f $PREFIX/lib/libpciaccess.a",
+    "test -f $PREFIX/lib/libpciaccess.so",
+    "test -f $PREFIX/lib/libpciaccess.so.0",
+    "test -f $PREFIX/lib/pkgconfig/pciaccess.pc",
+    "test -f $PREFIX/include/pciaccess.h"
+   ]
+  }
+ },
+ "name":"libpciaccess",
+ "new_version":false,
+ "pinning_version":"2019.07.15",
+ "raw_meta_yaml":"{% set name = \"libpciaccess\" %}\n{% set version = \"0.16\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://gitlab.freedesktop.org/xorg/lib/{{ name }}/-/archive/{{ name }}-{{ version }}/{{ name }}-{{ name }}-{{ version }}.tar.bz2\n  sha256: 9938b18509553452c6e13f79e16cbaffec9ea67119aa2de5d75e83c4f67ff400\n\nbuild:\n  skip: True  # [not linux]\n  number: 0\n  run_exports:\n    - {{ pin_subpackage('libpciaccess', max_pin='x.x') }}\n\nrequirements:\n  build:\n    - {{ compiler('c') }}\n    - libtool\n    - autoconf\n    - automake\n    - pkg-config\n  host:\n    - xorg-util-macros\n\ntest:\n  commands:\n    - test -f $PREFIX/lib/libpciaccess.a\n    - test -f $PREFIX/lib/libpciaccess.so\n    - test -f $PREFIX/lib/libpciaccess.so.0\n    - test -f $PREFIX/lib/pkgconfig/pciaccess.pc\n    - test -f $PREFIX/include/pciaccess.h\n\nabout:\n  home: https://gitlab.freedesktop.org/xorg/lib/libpciaccess\n  license: MIT\n  license_family: MIT\n  license_file: COPYING\n  summary: 'Generic PCI access library'\n\nextra:\n  recipe-maintainers:\n    - hmaarrfk\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "autoconf",
+   "automake",
+   "c_compiler_stub",
+   "libtool",
+   "pkg-config",
+   "xorg-util-macros"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "autoconf",
+    "automake",
+    "c_compiler_stub",
+    "libtool",
+    "pkg-config"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "xorg-util-macros"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.4.1",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "autoconf",
+    "automake",
+    "c_compiler_stub",
+    "libtool",
+    "pkg-config"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "xorg-util-macros"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://gitlab.freedesktop.org/xorg/lib/libpciaccess/-/archive/libpciaccess-0.16/libpciaccess-libpciaccess-0.16.tar.bz2",
+ "version":"0.16"
+}

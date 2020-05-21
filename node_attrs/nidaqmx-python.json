@@ -1,0 +1,162 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/222700865.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "compiler_stack":"comp7",
+  "max_py_ver":"37",
+  "max_r_ver":"35",
+  "provider":{
+   "win":"azure"
+  }
+ },
+ "feedstock_name":"nidaqmx-python",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"The nidaqmx package contains an API (Application Programming Interface) for\ninteracting with the NI-DAQmx driver. The package is implemented in Python.\nThis package was created and is supported by NI. The package is implemented\nas a complex, highly object-oriented wrapper around the NI-DAQmx C API using\n the ctypes Python library.\n",
+   "dev_url":"https://github.com/ni/nidaqmx-python",
+   "doc_url":"http://nidaqmx-python.readthedocs.io/en/latest/",
+   "home":"https://github.com/ni/nidaqmx-python",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"LICENSE",
+   "summary":"Python API for interacting with NI-DAQmx"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"3",
+   "script":" -m pip install . -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "carlodri",
+    "lstebel",
+    "carlodri",
+    "lstebel",
+    "carlodri",
+    "lstebel"
+   ]
+  },
+  "package":{
+   "name":"nidaqmx-python",
+   "version":"0.5.7"
+  },
+  "requirements":{
+   "host":[
+    "python >=3",
+    "pip",
+    "python >=3",
+    "pip",
+    "python >=3",
+    "pip"
+   ],
+   "run":[
+    "python >=3",
+    "numpy",
+    "six",
+    "python >=3",
+    "numpy",
+    "six",
+    "python >=3",
+    "numpy",
+    "six"
+   ]
+  },
+  "source":{
+   "sha256":"f3d3df29ccfbb4f278648f101efde475f66a0c306fde918c06679dd323574f5b",
+   "url":"https://github.com/ni/nidaqmx-python/archive/0.5.7.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "nidaqmx",
+    "nidaqmx",
+    "nidaqmx"
+   ]
+  }
+ },
+ "name":"nidaqmx-python",
+ "new_version":"0.5.7",
+ "pinning_version":"2018.10.11",
+ "raw_meta_yaml":"{% set name = \"nidaqmx-python\" %}\n{% set version = \"0.5.7\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://github.com/ni/nidaqmx-python/archive/{{ version }}.tar.gz\n  sha256: f3d3df29ccfbb4f278648f101efde475f66a0c306fde918c06679dd323574f5b\n\nbuild:\n  noarch: python\n  number: 3\n  script: \"{{ PYTHON }} -m pip install . -vv\"\n\nrequirements:\n  host:\n    - python >=3\n    - pip\n  run:\n    - python >=3\n    - numpy\n    - six\n\ntest:\n  imports:\n    - nidaqmx\n\nabout:\n  home: https://github.com/ni/nidaqmx-python\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE\n  summary: 'Python API for interacting with NI-DAQmx'\n  description: |\n    The nidaqmx package contains an API (Application Programming Interface) for\n    interacting with the NI-DAQmx driver. The package is implemented in Python.\n    This package was created and is supported by NI. The package is implemented\n    as a complex, highly object-oriented wrapper around the NI-DAQmx C API using\n     the ctypes Python library.\n  doc_url: http://nidaqmx-python.readthedocs.io/en/latest/\n  dev_url: https://github.com/ni/nidaqmx-python\n\nextra:\n  recipe-maintainers:\n    - carlodri\n    - lstebel\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "numpy",
+   "pip",
+   "python",
+   "six"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "numpy",
+    "python",
+    "six"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.1.12",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "numpy",
+    "python >=3",
+    "six"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://github.com/ni/nidaqmx-python/archive/0.5.7.tar.gz",
+ "version":"0.5.7"
+}

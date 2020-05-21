@@ -1,0 +1,596 @@
+{
+ "PRed":[
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.2.8"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/199673925.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.3.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/207794804.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.3.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/233285008.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/233327187.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/266037951.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.3.4"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/281383826.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Rebuild",
+    "migrator_version":0,
+    "name":"pyqt-5.9.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/292512267.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.3.5"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/297387512.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.3.6"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/350221162.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"4.0.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/358710780.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"4.0.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/361989565.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"python38"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/388980158.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"4.1.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/390775118.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"4.1.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/398415593.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"4.1.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/415490332.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"4.1.3"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "provider":{
+   "win":"azure"
+  }
+ },
+ "feedstock_name":"spyder",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"Spyder is a powerful scientific environment written in Python, for Python,\nand designed by and for scientists, engineers and data analysts.\nIt features a unique combination of the advanced editing, analysis,\ndebugging and profiling functionality of a comprehensive development tool\nwith the data exploration, interactive execution, deep inspection and\nbeautiful visualization capabilities of a scientific package.\\n\nFurthermore, Spyder offers built-in integration with many popular\nscientific packages, including NumPy, SciPy, Pandas, IPython, QtConsole,\nMatplotlib, SymPy, and more.\\n\nBeyond its many built-in features, Spyder can be extended even further via\nthird-party plugins.\\n\nSpyder can also be used as a PyQt5 extension library, allowing you to build\nupon its functionality and embed its components, such as the interactive\nconsole or advanced editor, in your own software.\n",
+   "dev_url":"https://github.com/spyder-ide/spyder",
+   "doc_url":"https://docs.spyder-ide.org/",
+   "home":"https://www.spyder-ide.org/",
+   "license":"MIT",
+   "license_file":"LICENSE.txt",
+   "summary":"The Scientific Python Development Environment"
+  },
+  "app":{
+   "entry":"spyder",
+   "icon":"logo.png",
+   "summary":"The Scientific Python Development Environment",
+   "type":"desk"
+  },
+  "build":{
+   "entry_points":[
+    "spyder = spyder.app.start:main",
+    "spyder = spyder.app.start:main",
+    "spyder = spyder.app.start:main"
+   ],
+   "number":"0",
+   "osx_is_app":true
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "ccordoba12",
+    "goanpeca",
+    "ccordoba12",
+    "goanpeca",
+    "ccordoba12",
+    "goanpeca"
+   ]
+  },
+  "package":{
+   "name":"spyder",
+   "version":"4.1.3"
+  },
+  "requirements":{
+   "host":[
+    "python",
+    "pip",
+    "python",
+    "pip",
+    "python",
+    "pip"
+   ],
+   "run":[
+    "python",
+    "atomicwrites >=1.2.0",
+    "chardet >=2.0.0",
+    "cloudpickle >=0.5.0",
+    "diff-match-patch >=20181111",
+    "intervaltree",
+    "jedi 0.15.2",
+    "keyring",
+    "nbconvert >=4.0",
+    "numpydoc >=0.6.0",
+    "paramiko >=2.4.0",
+    "parso 0.5.2",
+    "pexpect >=4.4.0",
+    "pickleshare >=0.4",
+    "psutil >=5.3",
+    "pygments >=2.0",
+    "pylint >=0.25",
+    "pyqt >=5.6,<5.13",
+    "python-language-server >=0.31.9,<0.32.0",
+    "pyzmq >=17",
+    "qdarkstyle >=2.8",
+    "qtawesome >=0.5.7",
+    "qtconsole >=4.6.0",
+    "qtpy >=1.5.0",
+    "rtree >=0.8.3",
+    "sphinx >=0.6.6",
+    "spyder-kernels >=1.9.1,<1.10.0",
+    "watchdog",
+    "python",
+    "applaunchservices >=0.1.7",
+    "atomicwrites >=1.2.0",
+    "chardet >=2.0.0",
+    "cloudpickle >=0.5.0",
+    "diff-match-patch >=20181111",
+    "intervaltree",
+    "jedi 0.15.2",
+    "keyring",
+    "nbconvert >=4.0",
+    "numpydoc >=0.6.0",
+    "parso 0.5.2",
+    "pexpect >=4.4.0",
+    "pickleshare >=0.4",
+    "psutil >=5.3",
+    "pygments >=2.0",
+    "pylint >=0.25",
+    "pyqt >=5.6,<5.13",
+    "python.app",
+    "python-language-server >=0.31.9,<0.32.0",
+    "pyzmq >=17",
+    "qdarkstyle >=2.8",
+    "qtawesome >=0.5.7",
+    "qtconsole >=4.6.0",
+    "qtpy >=1.5.0",
+    "rtree >=0.8.3",
+    "sphinx >=0.6.6",
+    "spyder-kernels >=1.9.1,<1.10.0",
+    "watchdog",
+    "python",
+    "atomicwrites >=1.2.0",
+    "chardet >=2.0.0",
+    "cloudpickle >=0.5.0",
+    "diff-match-patch >=20181111",
+    "intervaltree",
+    "jedi 0.15.2",
+    "keyring",
+    "nbconvert >=4.0",
+    "numpydoc >=0.6.0",
+    "parso 0.5.2",
+    "pexpect >=4.4.0",
+    "pickleshare >=0.4",
+    "psutil >=5.3",
+    "pygments >=2.0",
+    "pylint >=0.25",
+    "pyqt >=5.6,<5.13",
+    "python-language-server >=0.31.9,<0.32.0",
+    "pyxdg >=0.26",
+    "pyzmq >=17",
+    "qdarkstyle >=2.8",
+    "qtawesome >=0.5.7",
+    "qtconsole >=4.6.0",
+    "qtpy >=1.5.0",
+    "rtree >=0.8.3",
+    "sphinx >=0.6.6",
+    "spyder-kernels >=1.9.1,<1.10.0",
+    "watchdog"
+   ]
+  },
+  "source":{
+   "patches":[
+    "osx-zmq.patch",
+    "osx-zmq.patch",
+    "osx-zmq.patch"
+   ],
+   "sha256":"c88d973c6423fe0017818482a98163bb72e7f6a8c3127ff464930109df0958d9",
+   "url":"https://pypi.io/packages/source/s/spyder/spyder-4.1.3.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "spyder -h",
+    "USER=test spyder -h",
+    "USER=test spyder -h"
+   ],
+   "imports":[
+    "spyder",
+    "spyder",
+    "spyder"
+   ]
+  }
+ },
+ "name":"spyder",
+ "new_version":"4.1.3",
+ "new_version_attempts":{
+  "4.1.3":1
+ },
+ "new_version_errors":{},
+ "pinning_version":"2020.05.09.00.08.03",
+ "raw_meta_yaml":"{% set version = \"4.1.3\" %}\n\npackage:\n  name: spyder\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/s/spyder/spyder-{{ version }}.tar.gz\n  sha256: c88d973c6423fe0017818482a98163bb72e7f6a8c3127ff464930109df0958d9\n  patches:\n    # See spyder-ide/spyder#8316\n    - osx-zmq.patch\n\nbuild:\n  number: 0\n  entry_points:\n    - spyder = spyder.app.start:main\n  osx_is_app: true\n\nrequirements:\n  host:\n    - python\n    - pip\n  run:\n    - python\n    - applaunchservices >=0.1.7  # [osx]\n    - atomicwrites >=1.2.0\n    - chardet >=2.0.0\n    - cloudpickle >=0.5.0\n    - diff-match-patch >=20181111\n    - intervaltree\n    - jedi 0.15.2\n    - keyring  # [not (linux and py2k)]\n    - nbconvert >=4.0\n    - numpydoc >=0.6.0\n    - paramiko >=2.4.0  # [win]\n    - parso 0.5.2\n    - pexpect >=4.4.0\n    - pickleshare >=0.4\n    - psutil >=5.3\n    - pygments >=2.0\n    - pylint >=0.25\n    - pyqt >=5.6,<5.13\n    - python.app  # [osx]\n    - python-language-server >=0.31.9,<0.32.0\n    - pyxdg >=0.26  # [linux]\n    - pyzmq >=17\n    - qdarkstyle >=2.8\n    - qtawesome >=0.5.7\n    - qtconsole >=4.6.0\n    - qtpy >=1.5.0\n    - rtree >=0.8.3\n    - sphinx >=0.6.6\n    - spyder-kernels >=1.9.1,<1.10.0\n    - watchdog\n\ntest:\n  commands:\n    - USER=test spyder -h  # [unix]\n    - spyder -h  # [win]\n  imports:\n    - spyder\n\napp:\n  entry: spyder\n  icon: logo.png\n  summary: The Scientific Python Development Environment\n  type: desk\n\nabout:\n  home: https://www.spyder-ide.org/\n  license: MIT\n  license_file: LICENSE.txt\n  summary: The Scientific Python Development Environment\n  description: |\n    Spyder is a powerful scientific environment written in Python, for Python,\n    and designed by and for scientists, engineers and data analysts.\n    It features a unique combination of the advanced editing, analysis,\n    debugging and profiling functionality of a comprehensive development tool\n    with the data exploration, interactive execution, deep inspection and\n    beautiful visualization capabilities of a scientific package.\\n\n    Furthermore, Spyder offers built-in integration with many popular\n    scientific packages, including NumPy, SciPy, Pandas, IPython, QtConsole,\n    Matplotlib, SymPy, and more.\\n\n    Beyond its many built-in features, Spyder can be extended even further via\n    third-party plugins.\\n\n    Spyder can also be used as a PyQt5 extension library, allowing you to build\n    upon its functionality and embed its components, such as the interactive\n    console or advanced editor, in your own software.\n  doc_url: https://docs.spyder-ide.org/\n  dev_url: https://github.com/spyder-ide/spyder\n\nextra:\n  recipe-maintainers:\n    - ccordoba12\n    - goanpeca\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "applaunchservices",
+   "atomicwrites",
+   "chardet",
+   "cloudpickle",
+   "diff-match-patch",
+   "intervaltree",
+   "jedi",
+   "keyring",
+   "nbconvert",
+   "numpydoc",
+   "paramiko",
+   "parso",
+   "pexpect",
+   "pickleshare",
+   "pip",
+   "psutil",
+   "pygments",
+   "pylint",
+   "pyqt",
+   "python",
+   "python-language-server",
+   "python.app",
+   "pyxdg",
+   "pyzmq",
+   "qdarkstyle",
+   "qtawesome",
+   "qtconsole",
+   "qtpy",
+   "rtree",
+   "sphinx",
+   "spyder-kernels",
+   "watchdog"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "applaunchservices",
+    "atomicwrites",
+    "chardet",
+    "cloudpickle",
+    "diff-match-patch",
+    "intervaltree",
+    "jedi",
+    "keyring",
+    "nbconvert",
+    "numpydoc",
+    "paramiko",
+    "parso",
+    "pexpect",
+    "pickleshare",
+    "psutil",
+    "pygments",
+    "pylint",
+    "pyqt",
+    "python",
+    "python-language-server",
+    "python.app",
+    "pyxdg",
+    "pyzmq",
+    "qdarkstyle",
+    "qtawesome",
+    "qtconsole",
+    "qtpy",
+    "rtree",
+    "sphinx",
+    "spyder-kernels",
+    "watchdog"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.7.0\n",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "applaunchservices >=0.1.7",
+    "atomicwrites >=1.2.0",
+    "chardet >=2.0.0",
+    "cloudpickle >=0.5.0",
+    "diff-match-patch >=20181111",
+    "intervaltree",
+    "jedi 0.15.2",
+    "keyring",
+    "nbconvert >=4.0",
+    "numpydoc >=0.6.0",
+    "paramiko >=2.4.0",
+    "parso 0.5.2",
+    "pexpect >=4.4.0",
+    "pickleshare >=0.4",
+    "psutil >=5.3",
+    "pygments >=2.0",
+    "pylint >=0.25",
+    "pyqt >=5.6,<5.13",
+    "python",
+    "python-language-server >=0.31.9,<0.32.0",
+    "python.app",
+    "pyxdg >=0.26",
+    "pyzmq >=17",
+    "qdarkstyle >=2.8",
+    "qtawesome >=0.5.7",
+    "qtconsole >=4.6.0",
+    "qtpy >=1.5.0",
+    "rtree >=0.8.3",
+    "sphinx >=0.6.6",
+    "spyder-kernels >=1.9.1,<1.10.0",
+    "watchdog"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/s/spyder/spyder-3.3.6.tar.gz",
+ "version":"4.1.3"
+}

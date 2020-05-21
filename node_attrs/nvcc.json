@@ -1,0 +1,260 @@
+{
+ "bad":"Upstream: Error getting upstream version",
+ "conda-forge.yml":{},
+ "feedstock_name":"nvcc",
+ "meta_yaml":{
+  "about":{
+   "home":"https://github.com/conda-forge/nvcc-feedstock",
+   "license":"BSD 3-Clause",
+   "license_file":"LICENSE.txt",
+   "summary":"A meta-package to enable the right nvcc."
+  },
+  "build":{
+   "number":"6",
+   "skip":true
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "dillon-cullinan",
+    "isuruf",
+    "jakirkham",
+    "kkraus14",
+    "mike-wendt",
+    "raydouglass",
+    "dillon-cullinan",
+    "isuruf",
+    "jakirkham",
+    "kkraus14",
+    "mike-wendt",
+    "raydouglass",
+    "dillon-cullinan",
+    "isuruf",
+    "jakirkham",
+    "kkraus14",
+    "mike-wendt",
+    "raydouglass"
+   ]
+  },
+  "outputs":[
+   {
+    "about":{
+     "home":"https://github.com/conda-forge/nvcc-feedstock",
+     "license":"BSD 3-Clause",
+     "license_file":"LICENSE.txt",
+     "summary":"A meta-package to enable the right nvcc."
+    },
+    "build":{
+     "ignore_run_exports":[
+      "libgcc-ng"
+     ],
+     "run_exports":{
+      "strong":[
+       "cudatoolkit |.*"
+      ]
+     }
+    },
+    "name":"nvcc_",
+    "number":"6",
+    "requirements":{
+     "host":[
+      "c_compiler_stub"
+     ],
+     "run":null
+    },
+    "script":"install_nvcc.sh",
+    "test":{
+     "commands":[
+      "test \"$(realpath $(${CC} --print-sysroot))\" = \"$(realpath ${CONDA_BUILD_SYSROOT})\"",
+      "test -f \"${CONDA_BUILD_SYSROOT}/lib/libcuda.so\" || (echo \"${CONDA_BUILD_SYSROOT}/lib/libcuda.so is not a file\" && exit 1)",
+      "test -f \"${PREFIX}/etc/conda/activate.d/_activate.sh\"",
+      "test -f \"${PREFIX}/etc/conda/deactivate.d/_deactivate.sh\"",
+      "if [ -z ${CUDA_HOME+x} ]; then\n  echo \"CUDA_HOME is unset after activation\" && exit 1\nelse\n  echo \"CUDA_HOME is set to '$CUDA_HOME'\"\nfi\n",
+      "source ${PREFIX}/etc/conda/deactivate.d/_deactivate.sh",
+      "if [ ! -z \"${CUDA_HOME+x}\" ] && [ ! -z \"${TEST_CUDA_HOME_INITIAL+x}\" ]; then\n  echo \"CUDA_HOME correctly unset after deactivation\"\nelif [ ! -z \"${CUDA_HOME+x}\" ] && [ -z \"${TEST_CUDA_HOME_INITIAL+x}\" ]; then\n  echo \"CUDA_HOME correctly maintained as '$CUDA_HOME' after deactivation\"\nelse\n  echo \"CUDA_HOME is incorrectly set to '$CUDA_HOME' after deactivation\" && exit 1\nfi\n",
+      "export CFLAGS_CONDA_NVCC_TEST_BACKUP=\"${CFLAGS}\"\nexport CFLAGS=\"${CFLAGS} -I/path/to/test/include\"\nexport CFLAGS_CONDA_NVCC_TEST=\"${CFLAGS}\"\n",
+      "source ${PREFIX}/etc/conda/activate.d/_activate.sh",
+      "if [ -z ${CUDA_HOME+x} ]; then\n  echo \"CUDA_HOME is unset after activation\" && exit 1\nelse\n  echo \"CUDA_HOME is set to '${CUDA_HOME}'\"\nfi\nsource ${PREFIX}/etc/conda/deactivate.d/_deactivate.sh\n",
+      "if [[ \"${CFLAGS}\" == \"${CFLAGS_CONDA_NVCC_TEST}\" ]]; then\n  echo \"CFLAGS correctly maintained as '${CFLAGS}'\"\n  unset CFLAGS_CONDA_NVCC_TEST\n  export CFLAGS=\"${CFLAGS_CONDA_NVCC_TEST_BACKUP}\"\n  unset CFLAGS_CONDA_NVCC_TEST_BACKUP\nelse\n  echo \"CFLAGS is incorrectly set to '${CFLAGS}', should be set to '${CFLAGS_CONDA_NVCC_TEST}'\" && exit 1\nfi\n",
+      "source ${PREFIX}/etc/conda/activate.d/_activate.sh",
+      "nvcc test.cu"
+     ],
+     "files":[
+      "test.cu"
+     ],
+     "requires":[
+      "c_compiler_stub",
+      "cxx_compiler_stub"
+     ]
+    },
+    "version":""
+   },
+   {
+    "about":{
+     "home":"https://github.com/conda-forge/nvcc-feedstock",
+     "license":"BSD 3-Clause",
+     "license_file":"LICENSE.txt",
+     "summary":"A meta-package to enable the right nvcc."
+    },
+    "build":{
+     "ignore_run_exports":[
+      "libgcc-ng"
+     ],
+     "run_exports":{
+      "strong":[
+       "cudatoolkit |.*"
+      ]
+     }
+    },
+    "name":"nvcc_",
+    "number":"6",
+    "requirements":{
+     "host":[
+      "c_compiler_stub"
+     ],
+     "run":null
+    },
+    "script":"install_nvcc.sh",
+    "test":{
+     "commands":[
+      "test \"$(realpath $(${CC} --print-sysroot))\" = \"$(realpath ${CONDA_BUILD_SYSROOT})\"",
+      "test -f \"${CONDA_BUILD_SYSROOT}/lib/libcuda.so\" || (echo \"${CONDA_BUILD_SYSROOT}/lib/libcuda.so is not a file\" && exit 1)",
+      "test -f \"${PREFIX}/etc/conda/activate.d/_activate.sh\"",
+      "test -f \"${PREFIX}/etc/conda/deactivate.d/_deactivate.sh\"",
+      "if [ -z ${CUDA_HOME+x} ]; then\n  echo \"CUDA_HOME is unset after activation\" && exit 1\nelse\n  echo \"CUDA_HOME is set to '$CUDA_HOME'\"\nfi\n",
+      "source ${PREFIX}/etc/conda/deactivate.d/_deactivate.sh",
+      "if [ ! -z \"${CUDA_HOME+x}\" ] && [ ! -z \"${TEST_CUDA_HOME_INITIAL+x}\" ]; then\n  echo \"CUDA_HOME correctly unset after deactivation\"\nelif [ ! -z \"${CUDA_HOME+x}\" ] && [ -z \"${TEST_CUDA_HOME_INITIAL+x}\" ]; then\n  echo \"CUDA_HOME correctly maintained as '$CUDA_HOME' after deactivation\"\nelse\n  echo \"CUDA_HOME is incorrectly set to '$CUDA_HOME' after deactivation\" && exit 1\nfi\n",
+      "export CFLAGS_CONDA_NVCC_TEST_BACKUP=\"${CFLAGS}\"\nexport CFLAGS=\"${CFLAGS} -I/path/to/test/include\"\nexport CFLAGS_CONDA_NVCC_TEST=\"${CFLAGS}\"\n",
+      "source ${PREFIX}/etc/conda/activate.d/_activate.sh",
+      "if [ -z ${CUDA_HOME+x} ]; then\n  echo \"CUDA_HOME is unset after activation\" && exit 1\nelse\n  echo \"CUDA_HOME is set to '${CUDA_HOME}'\"\nfi\nsource ${PREFIX}/etc/conda/deactivate.d/_deactivate.sh\n",
+      "if [[ \"${CFLAGS}\" == \"${CFLAGS_CONDA_NVCC_TEST}\" ]]; then\n  echo \"CFLAGS correctly maintained as '${CFLAGS}'\"\n  unset CFLAGS_CONDA_NVCC_TEST\n  export CFLAGS=\"${CFLAGS_CONDA_NVCC_TEST_BACKUP}\"\n  unset CFLAGS_CONDA_NVCC_TEST_BACKUP\nelse\n  echo \"CFLAGS is incorrectly set to '${CFLAGS}', should be set to '${CFLAGS_CONDA_NVCC_TEST}'\" && exit 1\nfi\n",
+      "source ${PREFIX}/etc/conda/activate.d/_activate.sh",
+      "nvcc test.cu"
+     ],
+     "files":[
+      "test.cu"
+     ],
+     "requires":[
+      "c_compiler_stub",
+      "cxx_compiler_stub"
+     ]
+    },
+    "version":""
+   },
+   {
+    "about":{
+     "home":"https://github.com/conda-forge/nvcc-feedstock",
+     "license":"BSD 3-Clause",
+     "license_file":"LICENSE.txt",
+     "summary":"A meta-package to enable the right nvcc."
+    },
+    "build":{
+     "ignore_run_exports":[
+      "libgcc-ng"
+     ],
+     "run_exports":{
+      "strong":[
+       "cudatoolkit |.*"
+      ]
+     }
+    },
+    "name":"nvcc_",
+    "number":"6",
+    "requirements":{
+     "host":[
+      "c_compiler_stub"
+     ],
+     "run":null
+    },
+    "script":"install_nvcc.sh",
+    "test":{
+     "commands":[
+      "test \"$(realpath $(${CC} --print-sysroot))\" = \"$(realpath ${CONDA_BUILD_SYSROOT})\"",
+      "test -f \"${CONDA_BUILD_SYSROOT}/lib/libcuda.so\" || (echo \"${CONDA_BUILD_SYSROOT}/lib/libcuda.so is not a file\" && exit 1)",
+      "test -f \"${PREFIX}/etc/conda/activate.d/_activate.sh\"",
+      "test -f \"${PREFIX}/etc/conda/deactivate.d/_deactivate.sh\"",
+      "if [ -z ${CUDA_HOME+x} ]; then\n  echo \"CUDA_HOME is unset after activation\" && exit 1\nelse\n  echo \"CUDA_HOME is set to '$CUDA_HOME'\"\nfi\n",
+      "source ${PREFIX}/etc/conda/deactivate.d/_deactivate.sh",
+      "if [ ! -z \"${CUDA_HOME+x}\" ] && [ ! -z \"${TEST_CUDA_HOME_INITIAL+x}\" ]; then\n  echo \"CUDA_HOME correctly unset after deactivation\"\nelif [ ! -z \"${CUDA_HOME+x}\" ] && [ -z \"${TEST_CUDA_HOME_INITIAL+x}\" ]; then\n  echo \"CUDA_HOME correctly maintained as '$CUDA_HOME' after deactivation\"\nelse\n  echo \"CUDA_HOME is incorrectly set to '$CUDA_HOME' after deactivation\" && exit 1\nfi\n",
+      "export CFLAGS_CONDA_NVCC_TEST_BACKUP=\"${CFLAGS}\"\nexport CFLAGS=\"${CFLAGS} -I/path/to/test/include\"\nexport CFLAGS_CONDA_NVCC_TEST=\"${CFLAGS}\"\n",
+      "source ${PREFIX}/etc/conda/activate.d/_activate.sh",
+      "if [ -z ${CUDA_HOME+x} ]; then\n  echo \"CUDA_HOME is unset after activation\" && exit 1\nelse\n  echo \"CUDA_HOME is set to '${CUDA_HOME}'\"\nfi\nsource ${PREFIX}/etc/conda/deactivate.d/_deactivate.sh\n",
+      "if [[ \"${CFLAGS}\" == \"${CFLAGS_CONDA_NVCC_TEST}\" ]]; then\n  echo \"CFLAGS correctly maintained as '${CFLAGS}'\"\n  unset CFLAGS_CONDA_NVCC_TEST\n  export CFLAGS=\"${CFLAGS_CONDA_NVCC_TEST_BACKUP}\"\n  unset CFLAGS_CONDA_NVCC_TEST_BACKUP\nelse\n  echo \"CFLAGS is incorrectly set to '${CFLAGS}', should be set to '${CFLAGS_CONDA_NVCC_TEST}'\" && exit 1\nfi\n",
+      "source ${PREFIX}/etc/conda/activate.d/_activate.sh",
+      "nvcc test.cu"
+     ],
+     "files":[
+      "test.cu"
+     ],
+     "requires":[
+      "c_compiler_stub",
+      "cxx_compiler_stub"
+     ]
+    },
+    "version":""
+   }
+  ],
+  "package":{
+   "name":"nvcc"
+  }
+ },
+ "name":"nvcc",
+ "new_version":false,
+ "outputs_names":[
+  "nvcc_"
+ ],
+ "raw_meta_yaml":"{% set name = \"nvcc\" %}\n{% set number = 6 %}\n\npackage:\n  name: \"{{ name }}\"\n\nbuild:\n  number: {{ number }}\n  skip: true  # [not linux or cuda_compiler_version == \"None\"]\n\noutputs:\n  - name: \"{{ name }}_{{ target_platform }}\"\n    version: \"{{ cuda_compiler_version }}\"\n    number: {{ number }}\n    script: install_nvcc.sh\n    build:\n      ignore_run_exports:\n        - libgcc-ng\n      run_exports:\n        strong:\n          - cudatoolkit {{ cuda_compiler_version }}|{{ cuda_compiler_version }}.*\n    requirements:\n      host:\n        # Needed to symlink libcuda into sysroot libs.\n        - {{ compiler(\"c\") }}\n      run:\n    test:\n      requires:\n        - {{ compiler(\"c\") }}\n        # Host code is forwarded to a C++ compiler\n        - {{ compiler(\"cxx\") }}\n      files:\n        - test.cu\n      commands:\n        # Verify the symlink to the libcuda stub library exists.\n        - test \"$(realpath $(${CC} --print-sysroot))\" = \"$(realpath ${CONDA_BUILD_SYSROOT})\"\n        - test -f \"${CONDA_BUILD_SYSROOT}/lib/libcuda.so\" || (echo \"${CONDA_BUILD_SYSROOT}/lib/libcuda.so is not a file\" && exit 1)\n        # Verify the activation scripts are in-place.\n        {% for state in [\"activate\", \"deactivate\"] %}\n        - test -f \"${PREFIX}/etc/conda/{{ state }}.d/{{ PKG_NAME }}_{{ state }}.sh\"\n        {% endfor %}\n        # Try using the activation scripts.\n        - |\n          if [ -z ${CUDA_HOME+x} ]; then\n            echo \"CUDA_HOME is unset after activation\" && exit 1\n          else\n            echo \"CUDA_HOME is set to '$CUDA_HOME'\"\n          fi\n        - source ${PREFIX}/etc/conda/deactivate.d/{{ PKG_NAME }}_deactivate.sh\n        - |\n          if [ ! -z \"${CUDA_HOME+x}\" ] && [ ! -z \"${TEST_CUDA_HOME_INITIAL+x}\" ]; then\n            echo \"CUDA_HOME correctly unset after deactivation\"\n          elif [ ! -z \"${CUDA_HOME+x}\" ] && [ -z \"${TEST_CUDA_HOME_INITIAL+x}\" ]; then\n            echo \"CUDA_HOME correctly maintained as '$CUDA_HOME' after deactivation\"\n          else\n            echo \"CUDA_HOME is incorrectly set to '$CUDA_HOME' after deactivation\" && exit 1\n          fi\n        # Set some CFLAGS to make sure we're not causing side effects\n        - |\n          export CFLAGS_CONDA_NVCC_TEST_BACKUP=\"${CFLAGS}\"\n          export CFLAGS=\"${CFLAGS} -I/path/to/test/include\"\n          export CFLAGS_CONDA_NVCC_TEST=\"${CFLAGS}\"\n        # Manually trigger the activation script\n        - source ${PREFIX}/etc/conda/activate.d/{{ PKG_NAME }}_activate.sh\n        # Check activation worked as expected, then deactivate\n        - |\n          if [ -z ${CUDA_HOME+x} ]; then\n            echo \"CUDA_HOME is unset after activation\" && exit 1\n          else\n            echo \"CUDA_HOME is set to '${CUDA_HOME}'\"\n          fi\n          source ${PREFIX}/etc/conda/deactivate.d/{{ PKG_NAME }}_deactivate.sh\n        # Make sure there's no side effects\n        - |\n          if [[ \"${CFLAGS}\" == \"${CFLAGS_CONDA_NVCC_TEST}\" ]]; then\n            echo \"CFLAGS correctly maintained as '${CFLAGS}'\"\n            unset CFLAGS_CONDA_NVCC_TEST\n            export CFLAGS=\"${CFLAGS_CONDA_NVCC_TEST_BACKUP}\"\n            unset CFLAGS_CONDA_NVCC_TEST_BACKUP\n          else\n            echo \"CFLAGS is incorrectly set to '${CFLAGS}', should be set to '${CFLAGS_CONDA_NVCC_TEST}'\" && exit 1\n          fi\n        # Reactivate\n        - source ${PREFIX}/etc/conda/activate.d/{{ PKG_NAME }}_activate.sh\n        # Try building something\n        - nvcc test.cu\n    about:\n      home: https://github.com/conda-forge/nvcc-feedstock\n      license: BSD 3-Clause\n      license_file: LICENSE.txt\n      summary: A meta-package to enable the right nvcc.\n\nabout:\n  home: https://github.com/conda-forge/nvcc-feedstock\n  license: BSD 3-Clause\n  license_file: LICENSE.txt\n  summary: A meta-package to enable the right nvcc.\n\nextra:\n  recipe-maintainers:\n    - dillon-cullinan\n    - isuruf\n    - jakirkham\n    - kkraus14\n    - mike-wendt\n    - raydouglass\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "c_compiler_stub"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "cxx_compiler_stub"
+   ]
+  }
+ },
+ "strong_exports":true,
+ "time":1568135311.4851289,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "cxx_compiler_stub"
+   ]
+  }
+ }
+}

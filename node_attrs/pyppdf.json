@@ -1,0 +1,227 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/350338795.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.0.11"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/352903325.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.0.12"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"pyppdf",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "dev_url":"https://github.com/kiwi0fruit/pyppdf",
+   "doc_url":"https://github.com/kiwi0fruit/pyppdf",
+   "home":"https://github.com/kiwi0fruit/pyppdf",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"LICENSE",
+   "summary":"Pyppeteer PDF. Print html sites and files to pdf via pyppeteer (uses patched pyppeteer that by default downloads updated Chromium revision via https with certifi)."
+  },
+  "build":{
+   "entry_points":[
+    "pyppdf = pyppdf.pyppeteer_pdf:cli",
+    "pyppdf-replace-mathjax = pyppdf.replace_mathjax:main",
+    "pyppdf = pyppdf.pyppeteer_pdf:cli",
+    "pyppdf-replace-mathjax = pyppdf.replace_mathjax:main",
+    "pyppdf = pyppdf.pyppeteer_pdf:cli",
+    "pyppdf-replace-mathjax = pyppdf.replace_mathjax:main"
+   ],
+   "noarch":"python",
+   "number":"1",
+   "script":" -m pip install . --no-deps -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "kiwi0fruit",
+    "kiwi0fruit",
+    "kiwi0fruit"
+   ]
+  },
+  "package":{
+   "name":"pyppdf",
+   "version":"0.0.12"
+  },
+  "requirements":{
+   "host":[
+    "python >=3.6",
+    "pip",
+    "python >=3.6",
+    "pip",
+    "python >=3.6",
+    "pip"
+   ],
+   "run":[
+    "python >=3.6",
+    "certifi",
+    "click",
+    "litereval >=0.0.9",
+    "pyppeteer >=0.0.25",
+    "python >=3.6",
+    "certifi",
+    "click",
+    "litereval >=0.0.9",
+    "pyppeteer >=0.0.25",
+    "python >=3.6",
+    "certifi",
+    "click",
+    "litereval >=0.0.9",
+    "pyppeteer >=0.0.25"
+   ]
+  },
+  "source":[
+   {
+    "folder":"dummy",
+    "sha256":"d121d83160dfe52b506e9946eac8ebe8691f148f6f3e26cf456b3451a91ab032",
+    "url":"https://github.com/macchrome/winchrome/archive/v79.0.3945.79-r706915-Win64.tar.gz"
+   },
+   {
+    "folder":".",
+    "sha256":"a065b44b8a3a63d659b028aa8b2bbb41e54504006d8e32194a4ecdfae29ac763",
+    "url":"https://pypi.io/packages/source/p/pyppdf/pyppdf-0.0.12.tar.gz"
+   },
+   {
+    "folder":"dummy",
+    "sha256":"d121d83160dfe52b506e9946eac8ebe8691f148f6f3e26cf456b3451a91ab032",
+    "url":"https://github.com/macchrome/winchrome/archive/v79.0.3945.79-r706915-Win64.tar.gz"
+   },
+   {
+    "folder":".",
+    "sha256":"a065b44b8a3a63d659b028aa8b2bbb41e54504006d8e32194a4ecdfae29ac763",
+    "url":"https://pypi.io/packages/source/p/pyppdf/pyppdf-0.0.12.tar.gz"
+   },
+   {
+    "folder":"dummy",
+    "sha256":"d121d83160dfe52b506e9946eac8ebe8691f148f6f3e26cf456b3451a91ab032",
+    "url":"https://github.com/macchrome/winchrome/archive/v79.0.3945.79-r706915-Win64.tar.gz"
+   },
+   {
+    "folder":".",
+    "sha256":"a065b44b8a3a63d659b028aa8b2bbb41e54504006d8e32194a4ecdfae29ac763",
+    "url":"https://pypi.io/packages/source/p/pyppdf/pyppdf-0.0.12.tar.gz"
+   }
+  ],
+  "test":{
+   "commands":[
+    "pyppdf --help",
+    "pyppdf-replace-mathjax --help",
+    "pyppdf --help",
+    "pyppdf-replace-mathjax --help",
+    "pyppdf --help",
+    "pyppdf-replace-mathjax --help"
+   ],
+   "imports":[
+    "pyppdf",
+    "pyppdf.patch_pyppeteer",
+    "pyppdf",
+    "pyppdf.patch_pyppeteer",
+    "pyppdf",
+    "pyppdf.patch_pyppeteer"
+   ]
+  }
+ },
+ "name":"pyppdf",
+ "new_version":"0.0.12",
+ "pinning_version":"2019.12.02",
+ "raw_meta_yaml":"{% set name = \"pyppdf\" %}\n{% set version = \"0.0.12\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  - url: https://github.com/macchrome/winchrome/archive/v79.0.3945.79-r706915-Win64.tar.gz\n    folder: dummy\n    sha256: d121d83160dfe52b506e9946eac8ebe8691f148f6f3e26cf456b3451a91ab032\n  - url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n    folder: .\n    sha256: a065b44b8a3a63d659b028aa8b2bbb41e54504006d8e32194a4ecdfae29ac763\n\nbuild:\n  noarch: python\n  number: 1\n  entry_points:\n    - pyppdf = pyppdf.pyppeteer_pdf:cli\n    - pyppdf-replace-mathjax = pyppdf.replace_mathjax:main\n  script: \"{{ PYTHON }} -m pip install . --no-deps -vv\"\n\nrequirements:\n  host:\n    - python >=3.6\n    - pip\n  run:\n    - python >=3.6\n    - certifi\n    - click\n    - litereval >=0.0.9\n    - pyppeteer >=0.0.25\n\ntest:\n  imports:\n    - pyppdf\n    - pyppdf.patch_pyppeteer\n  commands:\n    - pyppdf --help\n    - pyppdf-replace-mathjax --help\n\nabout:\n  home: https://github.com/kiwi0fruit/pyppdf\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE\n  summary: \"Pyppeteer PDF. Print html sites and files to pdf via pyppeteer (uses patched pyppeteer that by default downloads updated Chromium revision via https with certifi).\"\n  doc_url: https://github.com/kiwi0fruit/pyppdf\n  dev_url: https://github.com/kiwi0fruit/pyppdf\n\nextra:\n  recipe-maintainers:\n    - kiwi0fruit\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "certifi",
+   "click",
+   "litereval",
+   "pip",
+   "pyppeteer",
+   "python"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "certifi",
+    "click",
+    "litereval",
+    "pyppeteer",
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.6.3",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3.6"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "certifi",
+    "click",
+    "litereval >=0.0.9",
+    "pyppeteer >=0.0.25",
+    "python >=3.6"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/p/pyppdf/pyppdf-0.0.10.tar.gz",
+ "version":"0.0.12"
+}

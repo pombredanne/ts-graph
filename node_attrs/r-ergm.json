@@ -1,0 +1,403 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/231814585.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/254477319.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.9.4"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/278661024.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.10.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/298997889.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"RBaseRebuild",
+    "migrator_version":0,
+    "name":"r-base-3.6.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/412746642.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":2,
+    "migrator_version":0,
+    "name":"r400"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "bot":{
+   "automerge":true
+  },
+  "provider":{
+   "win":"azure"
+  }
+ },
+ "feedstock_name":"r-ergm",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"https://statnet.org",
+   "license":"GPL-3",
+   "license_family":"GPL3",
+   "license_file":"/lib/R/share/licenses/GPL-3",
+   "summary":"An integrated set of tools to analyze and simulate networks based on exponential-family random graph models (ERGMs). 'ergm' is a part of the Statnet suite of packages for network analysis."
+  },
+  "build":{
+   "merge_build_host":true,
+   "number":"2",
+   "rpaths":[
+    "lib/R/lib/",
+    "lib/",
+    "lib/R/lib/",
+    "lib/",
+    "lib/R/lib/",
+    "lib/"
+   ]
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "conda-forge/r",
+    "stevierene82",
+    "conda-forge/r",
+    "stevierene82",
+    "conda-forge/r",
+    "stevierene82"
+   ]
+  },
+  "package":{
+   "name":"r-ergm",
+   "version":"3.10.4"
+  },
+  "requirements":{
+   "build":[
+    "m2w64_c_compiler_stub",
+    "filesystem",
+    "make",
+    "sed",
+    "coreutils",
+    "zip",
+    "c_compiler_stub",
+    "make",
+    "c_compiler_stub",
+    "make"
+   ],
+   "host":[
+    "r-base",
+    "r-mass >=7.3.51.4",
+    "r-matrix >=1.2.17",
+    "r-coda >=0.19.2",
+    "r-dplyr >=0.8.0.1",
+    "r-lpsolve >=5.6.13",
+    "r-network >=1.15",
+    "r-purrr >=0.3.2",
+    "r-rlang >=0.3.4",
+    "r-robustbase >=0.93.5",
+    "r-statnet.common >=4.3.0",
+    "r-tibble >=2.1.1",
+    "r-trust >=0.1.7",
+    "r-base",
+    "r-mass >=7.3.51.4",
+    "r-matrix >=1.2.17",
+    "r-coda >=0.19.2",
+    "r-dplyr >=0.8.0.1",
+    "r-lpsolve >=5.6.13",
+    "r-network >=1.15",
+    "r-purrr >=0.3.2",
+    "r-rlang >=0.3.4",
+    "r-robustbase >=0.93.5",
+    "r-statnet.common >=4.3.0",
+    "r-tibble >=2.1.1",
+    "r-trust >=0.1.7",
+    "r-base",
+    "r-mass >=7.3.51.4",
+    "r-matrix >=1.2.17",
+    "r-coda >=0.19.2",
+    "r-dplyr >=0.8.0.1",
+    "r-lpsolve >=5.6.13",
+    "r-network >=1.15",
+    "r-purrr >=0.3.2",
+    "r-rlang >=0.3.4",
+    "r-robustbase >=0.93.5",
+    "r-statnet.common >=4.3.0",
+    "r-tibble >=2.1.1",
+    "r-trust >=0.1.7"
+   ],
+   "run":[
+    "r-base",
+    "gcc-libs",
+    "r-mass >=7.3.51.4",
+    "r-matrix >=1.2.17",
+    "r-coda >=0.19.2",
+    "r-dplyr >=0.8.0.1",
+    "r-lpsolve >=5.6.13",
+    "r-network >=1.15",
+    "r-purrr >=0.3.2",
+    "r-rlang >=0.3.4",
+    "r-robustbase >=0.93.5",
+    "r-statnet.common >=4.3.0",
+    "r-tibble >=2.1.1",
+    "r-trust >=0.1.7",
+    "r-base",
+    "r-mass >=7.3.51.4",
+    "r-matrix >=1.2.17",
+    "r-coda >=0.19.2",
+    "r-dplyr >=0.8.0.1",
+    "r-lpsolve >=5.6.13",
+    "r-network >=1.15",
+    "r-purrr >=0.3.2",
+    "r-rlang >=0.3.4",
+    "r-robustbase >=0.93.5",
+    "r-statnet.common >=4.3.0",
+    "r-tibble >=2.1.1",
+    "r-trust >=0.1.7",
+    "r-base",
+    "r-mass >=7.3.51.4",
+    "r-matrix >=1.2.17",
+    "r-coda >=0.19.2",
+    "r-dplyr >=0.8.0.1",
+    "r-lpsolve >=5.6.13",
+    "r-network >=1.15",
+    "r-purrr >=0.3.2",
+    "r-rlang >=0.3.4",
+    "r-robustbase >=0.93.5",
+    "r-statnet.common >=4.3.0",
+    "r-tibble >=2.1.1",
+    "r-trust >=0.1.7"
+   ]
+  },
+  "source":{
+   "sha256":"885f0b1a23c5a2c1947962350cfab66683dfdfd1db173c115e90396d00831f22",
+   "url":[
+    "https://cran.r-project.org/src/contrib/ergm_3.10.4.tar.gz",
+    "https://cran.r-project.org/src/contrib/Archive/ergm/ergm_3.10.4.tar.gz",
+    "https://cran.r-project.org/src/contrib/ergm_3.10.4.tar.gz",
+    "https://cran.r-project.org/src/contrib/Archive/ergm/ergm_3.10.4.tar.gz",
+    "https://cran.r-project.org/src/contrib/ergm_3.10.4.tar.gz",
+    "https://cran.r-project.org/src/contrib/Archive/ergm/ergm_3.10.4.tar.gz"
+   ]
+  },
+  "test":{
+   "commands":[
+    "\"%R%\" -e \"library('ergm')\"",
+    "$R -e \"library('ergm')\"",
+    "$R -e \"library('ergm')\""
+   ]
+  }
+ },
+ "name":"r-ergm",
+ "new_version":"3.10.4",
+ "pinning_version":"2020.05.04.00.11.09",
+ "raw_meta_yaml":"{% set version = '3.10.4' %}\n{% set posix = 'm2-' if win else '' %}\n{% set native = 'm2w64-' if win else '' %}\n\npackage:\n  name: r-ergm\n  version: {{ version|replace(\"-\", \"_\") }}\n\nsource:\n  url:\n    - {{ cran_mirror }}/src/contrib/ergm_{{ version }}.tar.gz\n    - {{ cran_mirror }}/src/contrib/Archive/ergm/ergm_{{ version }}.tar.gz\n  sha256: 885f0b1a23c5a2c1947962350cfab66683dfdfd1db173c115e90396d00831f22\n\nbuild:\n  merge_build_host: True  # [win]\n  number: 2\n  rpaths:\n    - lib/R/lib/\n    - lib/\n\nrequirements:\n  build:\n    - {{ compiler('c') }}              # [not win]\n    - {{ compiler('m2w64_c') }}        # [win]\n    - {{ posix }}filesystem        # [win]\n    - {{ posix }}make\n    - {{ posix }}sed               # [win]\n    - {{ posix }}coreutils         # [win]\n    - {{ posix }}zip               # [win]\n  host:\n    - r-base\n    - r-mass >=7.3.51.4\n    - r-matrix >=1.2.17\n    - r-coda >=0.19.2\n    - r-dplyr >=0.8.0.1\n    - r-lpsolve >=5.6.13\n    - r-network >=1.15\n    - r-purrr >=0.3.2\n    - r-rlang >=0.3.4\n    - r-robustbase >=0.93.5\n    - r-statnet.common >=4.3.0\n    - r-tibble >=2.1.1\n    - r-trust >=0.1.7\n  run:\n    - r-base\n    - {{ native }}gcc-libs         # [win]\n    - r-mass >=7.3.51.4\n    - r-matrix >=1.2.17\n    - r-coda >=0.19.2\n    - r-dplyr >=0.8.0.1\n    - r-lpsolve >=5.6.13\n    - r-network >=1.15\n    - r-purrr >=0.3.2\n    - r-rlang >=0.3.4\n    - r-robustbase >=0.93.5\n    - r-statnet.common >=4.3.0\n    - r-tibble >=2.1.1\n    - r-trust >=0.1.7\n\ntest:\n  commands:\n    - $R -e \"library('ergm')\"           # [not win]\n    - \"\\\"%R%\\\" -e \\\"library('ergm')\\\"\"  # [win]\n\nabout:\n  home: https://statnet.org\n  license: GPL-3\n  summary: An integrated set of tools to analyze and simulate networks based on exponential-family\n    random graph models (ERGMs). 'ergm' is a part of the Statnet suite of packages for\n    network analysis.\n  license_family: GPL3\n  license_file: '{{ environ[\"PREFIX\"] }}/lib/R/share/licenses/GPL-3'\n\nextra:\n  recipe-maintainers:\n    - conda-forge/r\n    - stevierene82\n\n# Package: ergm\n# Version: 3.10.4\n# Date: 2019-06-10\n# Title: Fit, Simulate and Diagnose Exponential-Family Models for Networks\n# Authors@R: c( person(\"Mark S.\", \"Handcock\", role=c(\"aut\"), email=\"handcock@stat.ucla.edu\"), person(\"David R.\", \"Hunter\", role=c(\"aut\"), email=\"dhunter@stat.psu.edu\"), person(\"Carter T.\", \"Butts\", role=c(\"aut\"), email=\"buttsc@uci.edu\"), person(\"Steven M.\", \"Goodreau\", role=c(\"aut\"), email=\"goodreau@u.washington.edu\"), person(\"Pavel N.\", \"Krivitsky\", role=c(\"aut\",\"cre\"), email=\"pavel@uow.edu.au\", comment=c(ORCID=\"0000-0002-9101-3362\")), person(\"Martina\", \"Morris\", role=c(\"aut\"), email=\"morrism@u.washington.edu\"), person(\"Li\",\"Wang\",role=c(\"ctb\"),email=\"lxwang@gmail.com\"), person(\"Kirk\",\"Li\",role=c(\"ctb\"),email=\"kirkli@u.washington.edu\"), person(\"Skye\", \"Bender-deMoll\", role=c(\"ctb\"), email=\"skyebend@u.washington.edu\"), person(\"Chad\", \"Klumb\", role=c(\"ctb\"), email=\"cklumb@gmail.com\"))\n# Depends: network (>= 1.15)\n# Imports: robustbase (>= 0.93.5), coda (>= 0.19.2), trust (>= 0.1.7), Matrix (>= 1.2.17), lpSolve (>= 5.6.13), parallel, methods, MASS (>= 7.3.51.4), statnet.common (>= 4.3.0), purrr (>= 0.3.2), rlang (>= 0.3.4), tibble (>= 2.1.1), dplyr (>= 0.8.0.1)\n# Suggests: lattice (>= 0.20.38), latticeExtra (>= 0.6.28), sna (>= 2.4), latentnet (>= 2.9.0), rmarkdown (>= 1.12), knitr (>= 1.22), Rmpi (>= 0.6.9), testthat (>= 2.1.1), tergm, ergm.count, ergm.userterms, networkDynamic\n# SystemRequirements: OpenMPI\n# BugReports: https://github.com/statnet/ergm/issues\n# Description: An integrated set of tools to analyze and simulate networks based on exponential-family random graph models (ERGMs). 'ergm' is a part of the Statnet suite of packages for network analysis.\n# License: GPL-3 + file LICENSE\n# URL: https://statnet.org\n# VignetteBuilder: rmarkdown, knitr\n# RoxygenNote: 6.1.1\n# Encoding: UTF-8\n# Collate: 'InitErgm.bipartite.R' 'InitErgmConstraint.R' 'InitErgmProposal.R' 'InitErgmProposal.blockdiag.R' 'InitErgmReference.R' 'ergm-deprecated.R' 'InitErgmTerm.R' 'InitErgmTerm.bipartite.degree.R' 'InitErgmTerm.coincidence.R' 'InitErgmTerm.dgw_sp.R' 'InitErgmTerm.extra.R' 'InitErgmTerm.indices.R' 'InitErgmTerm.test.R' 'InitErgmTerm.transitiveties.R' 'InitWtErgmProposal.R' 'InitWtErgmTerm.R' 'anova.ergm.R' 'anova.ergmlist.R' 'approx.hotelling.diff.test.R' 'as.network.numeric.R' 'build_term_index.R' 'check.ErgmTerm.R' 'control.ergm.R' 'control.ergm.bridge.R' 'control.gof.R' 'control.logLik.ergm.R' 'control.san.R' 'control.simulate.R' 'data.R' 'ergm-defunct.R' 'ergm-disambiguation.R' 'ergm.CD.fixed.R' 'ergm.Cprepare.R' 'ergm.MCMCse.R' 'ergm.MCMCse.lognormal.R' 'ergm.MCMLE.R' 'ergm.R' 'ergm.allstats.R' 'ergm.bounddeg.R' 'ergm.bridge.R' 'ergm.check.R' 'ergm.coefficient.degeneracy.R' 'ergm.curved.statsmatrix.R' 'ergm.degeneracy.R' 'ergm.design.R' 'ergm.errors.R' 'ergm.estimate.R' 'ergm.eta.R' 'ergm.etagrad.R' 'ergm.etagradmult.R' 'ergm.etamap.R' 'ergm.geodistn.R' 'ergm.getCDsample.R' 'ergm.getMCMCsample.R' 'ergm.getnetwork.R' 'ergm.initialfit.R' 'ergm.llik.R' 'ergm.llik.obs.R' 'ergm.logitreg.R' 'ergm.mapl.R' 'ergm.maple.R' 'ergm.mple.R' 'ergm.pen.glm.R' 'ergm.phase12.R' 'ergm.pl.R' 'ergm.reviseinit.R' 'ergm.robmon.R' 'ergm.san.R' 'ergm.stepping.R' 'ergm.stocapprox.R' 'ergm.sufftoprob.R' 'ergm.utility.R' 'ergmMPLE.R' 'ergm_estfun.R' 'ergm_model.R' 'ergm_model.utils.R' 'ergm_proposal.R' 'formula.utils.R' 'get.node.attr.R' 'godfather.R' 'gof.ergm.R' 'is.curved.R' 'is.durational.R' 'is.dyad.independent.R' 'is.inCH.R' 'locator.R' 'logLik.ergm.R' 'mcmc.diagnostics.ergm.R' 'network.list.R' 'network.update.R' 'nparam.R' 'parallel.utils.R' 'param_names.R' 'pending_update_network.R' 'print.ergm.R' 'print.network.list.R' 'print.summary.ergm.R' 'rlebdm.R' 'simulate.ergm.R' 'summary.ergm.R' 'summary.ergm_model.R' 'summary.network.list.R' 'summary.statistics.network.R' 'to_ergm_Cdouble.R' 'vcov.ergm.R' 'wtd.median.R' 'zzz.R'\n# NeedsCompilation: yes\n# Packaged: 2019-06-10 01:57:47 UTC; levap\n# Author: Mark S. Handcock [aut], David R. Hunter [aut], Carter T. Butts [aut], Steven M. Goodreau [aut], Pavel N. Krivitsky [aut, cre] (<https://orcid.org/0000-0002-9101-3362>), Martina Morris [aut], Li Wang [ctb], Kirk Li [ctb], Skye Bender-deMoll [ctb], Chad Klumb [ctb]\n# Maintainer: Pavel N. Krivitsky <pavel@uow.edu.au>\n# Repository: CRAN\n# Date/Publication: 2019-06-10 05:30:07 UTC\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "c_compiler_stub",
+   "coreutils",
+   "filesystem",
+   "gcc-libs",
+   "m2w64_c_compiler_stub",
+   "make",
+   "r-base",
+   "r-coda",
+   "r-dplyr",
+   "r-lpsolve",
+   "r-mass",
+   "r-matrix",
+   "r-network",
+   "r-purrr",
+   "r-rlang",
+   "r-robustbase",
+   "r-statnet.common",
+   "r-tibble",
+   "r-trust",
+   "sed",
+   "zip"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "coreutils",
+    "filesystem",
+    "m2w64_c_compiler_stub",
+    "make",
+    "sed",
+    "zip"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "r-base",
+    "r-coda",
+    "r-dplyr",
+    "r-lpsolve",
+    "r-mass",
+    "r-matrix",
+    "r-network",
+    "r-purrr",
+    "r-rlang",
+    "r-robustbase",
+    "r-statnet.common",
+    "r-tibble",
+    "r-trust"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "gcc-libs",
+    "r-base",
+    "r-coda",
+    "r-dplyr",
+    "r-lpsolve",
+    "r-mass",
+    "r-matrix",
+    "r-network",
+    "r-purrr",
+    "r-rlang",
+    "r-robustbase",
+    "r-statnet.common",
+    "r-tibble",
+    "r-trust"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.7.0\n",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "coreutils",
+    "filesystem",
+    "m2w64_c_compiler_stub",
+    "make",
+    "sed",
+    "zip"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "r-base",
+    "r-coda >=0.19.2",
+    "r-dplyr >=0.8.0.1",
+    "r-lpsolve >=5.6.13",
+    "r-mass >=7.3.51.4",
+    "r-matrix >=1.2.17",
+    "r-network >=1.15",
+    "r-purrr >=0.3.2",
+    "r-rlang >=0.3.4",
+    "r-robustbase >=0.93.5",
+    "r-statnet.common >=4.3.0",
+    "r-tibble >=2.1.1",
+    "r-trust >=0.1.7"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "gcc-libs",
+    "r-base",
+    "r-coda >=0.19.2",
+    "r-dplyr >=0.8.0.1",
+    "r-lpsolve >=5.6.13",
+    "r-mass >=7.3.51.4",
+    "r-matrix >=1.2.17",
+    "r-network >=1.15",
+    "r-purrr >=0.3.2",
+    "r-rlang >=0.3.4",
+    "r-robustbase >=0.93.5",
+    "r-statnet.common >=4.3.0",
+    "r-tibble >=2.1.1",
+    "r-trust >=0.1.7"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":[
+  "https://cran.r-project.org/src/contrib/ergm_3.10.4.tar.gz",
+  "https://cran.r-project.org/src/contrib/Archive/ergm/ergm_3.10.4.tar.gz",
+  "https://cran.r-project.org/src/contrib/ergm_3.10.4.tar.gz",
+  "https://cran.r-project.org/src/contrib/Archive/ergm/ergm_3.10.4.tar.gz",
+  "https://cran.r-project.org/src/contrib/ergm_3.10.4.tar.gz",
+  "https://cran.r-project.org/src/contrib/Archive/ergm/ergm_3.10.4.tar.gz"
+ ],
+ "version":"3.10.4"
+}

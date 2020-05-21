@@ -1,0 +1,302 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/283346901.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Rebuild",
+    "migrator_version":0,
+    "name":"boost-cpp-1.70.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/366910610.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"5.0.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/377677181.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"boost172"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/3606f99b-c71b-4d31-a02c-4b67bed78062.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":2,
+    "migrator_version":0,
+    "name":"boost172"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "provider":{
+   "win":"azure"
+  }
+ },
+ "feedstock_name":"cgal-cpp",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"http://www.cgal.org/",
+   "license":"GPL3/LGPL3",
+   "license_file":"LICENSE",
+   "summary":"Computational Geometry Algorithms Library"
+  },
+  "build":{
+   "number":"1",
+   "skip":true
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "tadeu",
+    "tadeu",
+    "tadeu"
+   ]
+  },
+  "package":{
+   "name":"cgal-cpp",
+   "version":"5.0.1"
+  },
+  "requirements":{
+   "build":[
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "cmake",
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "cmake",
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "cmake"
+   ],
+   "host":[
+    "boost-cpp",
+    "mpfr",
+    "eigen",
+    "boost-cpp",
+    "mpfr",
+    "eigen",
+    "boost-cpp",
+    "mpfr",
+    "eigen"
+   ],
+   "run":[
+    "boost-cpp",
+    "mpfr",
+    "eigen",
+    "boost-cpp",
+    "mpfr",
+    "eigen",
+    "boost-cpp",
+    "mpfr",
+    "eigen"
+   ]
+  },
+  "source":{
+   "sha256":"66021111fe536268d044e5e01bd26e691d7b493c217a1ca4d9427284dd4b2a02",
+   "url":"https://github.com/CGAL/cgal/releases/download/releases/CGAL-5.0.1/CGAL-5.0.1.tar.xz"
+  },
+  "test":{
+   "commands":[
+    "echo on",
+    "if not exist %LIBRARY_INC%\\CGAL\\AABB_tree.h exit 1",
+    "cd test",
+    "mkdir build_default",
+    "cd build_default",
+    "cmake .. -G\"NMake Makefiles\" -DCMAKE_BUILD_TYPE=Release -DCMAKE_VERBOSE_MAKEFILE:BOOL=ON",
+    "cmake --build . --config Release",
+    "test_.exe",
+    "cd ..",
+    "mkdir build_ninja",
+    "cd build_ninja",
+    "cmake .. -G\"Ninja\" -DCMAKE_BUILD_TYPE=Release",
+    "cmake --build . --config Release",
+    "test_.exe",
+    "test -f ${PREFIX}/include/CGAL/AABB_tree.h",
+    "cd test",
+    "mkdir build_default",
+    "cd build_default",
+    "cmake .. -G\"$CMAKE_GENERATOR\" -DCMAKE_BUILD_TYPE=Release -DCMAKE_VERBOSE_MAKEFILE:BOOL=ON",
+    "cmake --build . --config Release",
+    "./test_",
+    "cd ..",
+    "mkdir build_ninja",
+    "cd build_ninja",
+    "cmake .. -G\"Ninja\" -DCMAKE_BUILD_TYPE=Release",
+    "cmake --build . --config Release",
+    "./test_",
+    "test -f ${PREFIX}/include/CGAL/AABB_tree.h",
+    "cd test",
+    "mkdir build_default",
+    "cd build_default",
+    "cmake .. -G\"$CMAKE_GENERATOR\" -DCMAKE_BUILD_TYPE=Release -DCMAKE_VERBOSE_MAKEFILE:BOOL=ON",
+    "cmake --build . --config Release",
+    "./test_",
+    "cd ..",
+    "mkdir build_ninja",
+    "cd build_ninja",
+    "cmake .. -G\"Ninja\" -DCMAKE_BUILD_TYPE=Release",
+    "cmake --build . --config Release",
+    "./test_"
+   ],
+   "files":[
+    "test",
+    "test",
+    "test"
+   ],
+   "requires":[
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "cmake",
+    "ninja",
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "cmake",
+    "make",
+    "ninja",
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "cmake",
+    "make",
+    "ninja"
+   ]
+  }
+ },
+ "name":"cgal-cpp",
+ "new_version":"5.0.1",
+ "pinning_version":"2020.02.20",
+ "raw_meta_yaml":"{% set version = \"5.0.1\" %}\n\npackage:\n  name: cgal-cpp\n  version: {{ version }}\n\nsource:\n  url: https://github.com/CGAL/cgal/releases/download/releases/CGAL-{{ version }}/CGAL-{{ version }}.tar.xz\n  sha256: 66021111fe536268d044e5e01bd26e691d7b493c217a1ca4d9427284dd4b2a02\n\nbuild:\n  number: 1\n  skip: true  # [win and vc<14]\n\nrequirements:\n  build:\n    - {{ compiler('c') }}\n    - {{ compiler('cxx') }}\n    - cmake\n  host:\n    - boost-cpp\n    - mpfr\n    - eigen\n  run:\n    - boost-cpp\n    - mpfr\n    - eigen\n\ntest:\n  requires:\n    - {{ compiler('c') }}\n    - {{ compiler('cxx') }}\n    - cmake\n    - make  # [unix]\n    - ninja\n  files:\n    - test\n  commands:\n    - echo on  # [win]\n    - test -f ${PREFIX}/include/CGAL/AABB_tree.h  # [unix]\n    - if not exist %LIBRARY_INC%\\CGAL\\AABB_tree.h exit 1  # [win]\n\n    # Builds a simple program\n    - cd test\n\n    - mkdir build_default\n    - cd build_default\n    - cmake .. -G\"NMake Makefiles\" -DCMAKE_BUILD_TYPE=Release -DCMAKE_VERBOSE_MAKEFILE:BOOL=ON  # [win]\n    - cmake .. -G\"$CMAKE_GENERATOR\" -DCMAKE_BUILD_TYPE=Release -DCMAKE_VERBOSE_MAKEFILE:BOOL=ON  # [unix]\n    - cmake --build . --config Release\n    - ./test_  # [unix]\n    - test_.exe  # [win]\n    - cd ..\n\n    - mkdir build_ninja\n    - cd build_ninja\n    - cmake .. -G\"Ninja\" -DCMAKE_BUILD_TYPE=Release\n    - cmake --build . --config Release\n    - ./test_  # [unix]\n    - test_.exe  # [win]\n\nabout:\n  home: http://www.cgal.org/\n  license: GPL3/LGPL3\n  license_file: 'LICENSE'\n  summary: Computational Geometry Algorithms Library\n\nextra:\n  recipe-maintainers:\n    - tadeu\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "boost-cpp",
+   "c_compiler_stub",
+   "cmake",
+   "cxx_compiler_stub",
+   "eigen",
+   "mpfr"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "cmake",
+    "cxx_compiler_stub"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "boost-cpp",
+    "eigen",
+    "mpfr"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "boost-cpp",
+    "eigen",
+    "mpfr"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "cmake",
+    "cxx_compiler_stub",
+    "make",
+    "ninja"
+   ]
+  }
+ },
+ "smithy_version":"3.6.8",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "cmake",
+    "cxx_compiler_stub"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "boost-cpp",
+    "eigen",
+    "mpfr"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "boost-cpp",
+    "eigen",
+    "mpfr"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "cmake",
+    "cxx_compiler_stub",
+    "make",
+    "ninja"
+   ]
+  }
+ },
+ "url":"https://github.com/CGAL/cgal/releases/download/releases%2FCGAL-4.14/CGAL-4.14.zip",
+ "version":"5.0.1"
+}

@@ -1,0 +1,377 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/215805672.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"flang",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"http://github.com/flang-compiler/flang",
+   "license":"Apache 2.0",
+   "license_file":"LICENSE.txt",
+   "summary":"Flang is a Fortran compiler targeting LLVM."
+  },
+  "build":{
+   "number":"20180525",
+   "skip":true,
+   "track_features":[
+    "flang",
+    "flang",
+    "flang"
+   ]
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "isuruf",
+    "isuruf",
+    "isuruf"
+   ]
+  },
+  "outputs":[
+   {
+    "name":"libflang",
+    "requirements":{
+     "build":[
+      "c_compiler_stub",
+      "cxx_compiler_stub",
+      "cmake",
+      "clangdev ==5.0.0",
+      "openmp ==5.0.0",
+      "llvmdev ==5.0.0",
+      "flang-meta"
+     ],
+     "host":null,
+     "run":[
+      "openmp ==5.0.0"
+     ]
+    },
+    "script":"install_libflang.bat"
+   },
+   {
+    "name":"flang",
+    "requirements":{
+     "build":[
+      "c_compiler_stub",
+      "cxx_compiler_stub",
+      "cmake",
+      "clangdev ==5.0.0",
+      "openmp ==5.0.0",
+      "llvmdev ==5.0.0",
+      "flang-meta"
+     ],
+     "host":null,
+     "run":[
+      "clangdev ==5.0.0",
+      "openmp ==5.0.0",
+      "libflang"
+     ]
+    },
+    "run_exports":{
+     "strong":[
+      "libflang >=5.0.0"
+     ]
+    },
+    "script":"install_flang.bat",
+    "test":{
+     "commands":[
+      "call \"C:\\Program Files (x86)\\Microsoft Visual Studio 14.0\\VC\\vcvarsall.bat\" amd64",
+      "flang hello_world.f90",
+      "a.exe"
+     ],
+     "files":[
+      "hello_world.f90"
+     ]
+    }
+   },
+   {
+    "name":"flang_",
+    "requirements":[
+     "flang"
+    ],
+    "run_exports":{
+     "strong":[
+      "libflang >=5.0.0"
+     ]
+    }
+   },
+   {
+    "name":"libflang",
+    "requirements":{
+     "build":[
+      "c_compiler_stub",
+      "cxx_compiler_stub",
+      "cmake",
+      "clangdev ==5.0.0",
+      "openmp ==5.0.0",
+      "llvmdev ==5.0.0",
+      "flang-meta"
+     ],
+     "host":null,
+     "run":[
+      "openmp ==5.0.0"
+     ]
+    },
+    "script":"install_libflang.sh"
+   },
+   {
+    "name":"flang",
+    "requirements":{
+     "build":[
+      "c_compiler_stub",
+      "cxx_compiler_stub",
+      "cmake",
+      "clangdev ==5.0.0",
+      "openmp ==5.0.0",
+      "llvmdev ==5.0.0",
+      "flang-meta"
+     ],
+     "host":null,
+     "run":[
+      "clangdev ==5.0.0",
+      "openmp ==5.0.0",
+      "libflang"
+     ]
+    },
+    "run_exports":{
+     "strong":[
+      "libflang >=5.0.0"
+     ]
+    },
+    "script":"install_flang.sh",
+    "test":{
+     "commands":[
+      "flang hello_world.f90",
+      "./a.out"
+     ],
+     "files":[
+      "hello_world.f90"
+     ]
+    }
+   },
+   {
+    "name":"flang_",
+    "requirements":[
+     "flang"
+    ],
+    "run_exports":{
+     "strong":[
+      "libflang >=5.0.0"
+     ]
+    }
+   },
+   {
+    "name":"libflang",
+    "requirements":{
+     "build":[
+      "c_compiler_stub",
+      "cxx_compiler_stub",
+      "cmake",
+      "clangdev ==5.0.0",
+      "openmp ==5.0.0",
+      "llvmdev ==5.0.0",
+      "flang-meta"
+     ],
+     "host":null,
+     "run":[
+      "openmp ==5.0.0"
+     ]
+    },
+    "script":"install_libflang.sh"
+   },
+   {
+    "name":"flang",
+    "requirements":{
+     "build":[
+      "c_compiler_stub",
+      "cxx_compiler_stub",
+      "cmake",
+      "clangdev ==5.0.0",
+      "openmp ==5.0.0",
+      "llvmdev ==5.0.0",
+      "flang-meta"
+     ],
+     "host":null,
+     "run":[
+      "clangdev ==5.0.0",
+      "openmp ==5.0.0",
+      "libflang"
+     ]
+    },
+    "run_exports":{
+     "strong":[
+      "libflang >=5.0.0"
+     ]
+    },
+    "script":"install_flang.sh",
+    "test":{
+     "commands":[
+      "flang hello_world.f90",
+      "./a.out"
+     ],
+     "files":[
+      "hello_world.f90"
+     ]
+    }
+   },
+   {
+    "name":"flang_",
+    "requirements":[
+     "flang"
+    ],
+    "run_exports":{
+     "strong":[
+      "libflang >=5.0.0"
+     ]
+    }
+   }
+  ],
+  "package":{
+   "name":"flang",
+   "version":"5.0.0"
+  },
+  "requirements":{
+   "build":[
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "cmake",
+    "clangdev ==5.0.0",
+    "openmp ==5.0.0",
+    "llvmdev ==5.0.0",
+    "flang-meta",
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "cmake",
+    "clangdev ==5.0.0",
+    "openmp ==5.0.0",
+    "llvmdev ==5.0.0",
+    "flang-meta",
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "cmake",
+    "clangdev ==5.0.0",
+    "openmp ==5.0.0",
+    "llvmdev ==5.0.0",
+    "flang-meta"
+   ],
+   "host":null
+  },
+  "source":{
+   "sha256":"7078a7b24bb2b52789fc5551bd6eeee19082e2923e4d49c2834579e51b43ea74",
+   "url":"https://github.com/isuruf/flang/archive/4ddc948697091af68df0a1c63d18e700af047eba.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "flang --version",
+    "flang --version",
+    "flang --version"
+   ]
+  }
+ },
+ "name":"flang",
+ "new_version":false,
+ "outputs_names":[
+  "flang",
+  "flang_",
+  "libflang"
+ ],
+ "pinning_version":"2018.09.11",
+ "raw_meta_yaml":"{% set clang_variant = os.environ.get('CLANG_VARIANT', 'flang') %}\n{% set flang_commit = \"4ddc948697091af68df0a1c63d18e700af047eba\" %}\n{% set llvm_version = \"5.0.0\" %}\n{% set version = llvm_version %}\n{% set sha256 = \"7078a7b24bb2b52789fc5551bd6eeee19082e2923e4d49c2834579e51b43ea74\" %}\n{% set build_number = \"20180525\" %}\n\npackage:\n  name: flang\n  version: {{ version }}\n\nsource:\n  url: https://github.com/isuruf/flang/archive/{{ flang_commit }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: {{ build_number }}\n  skip: true    # [osx]\n  skip: true    # [win32]\n  skip: true    # [win and vc<14]\n  track_features:\n    - flang\n\nrequirements:\n  build:\n    - {{ compiler('c') }}\n    - {{ compiler('cxx') }}\n    - cmake\n    - clangdev =={{ llvm_version }}\n    - openmp =={{ llvm_version }}\n    - llvmdev =={{ llvm_version }}\n    - flang-meta\n  host:\n\ntest:\n  commands:\n    - flang --version\n\noutputs:\n  - name: libflang\n    script: install_libflang.sh   # [unix]\n    script: install_libflang.bat  # [win]\n    requirements:\n      build:\n        - {{ compiler('c') }}\n        - {{ compiler('cxx') }}\n        - cmake\n        - clangdev =={{ llvm_version }}\n        - openmp =={{ llvm_version }}\n        - llvmdev =={{ llvm_version }}\n        - flang-meta\n      host:\n      run:\n        - openmp =={{ llvm_version }}\n\n  - name: flang\n    script: install_flang.sh      # [unix]\n    script: install_flang.bat     # [win]\n    run_exports:\n      strong:\n        - libflang >={{ version }}\n    requirements:\n      build:\n        - {{ compiler('c') }}\n        - {{ compiler('cxx') }}\n        - cmake\n        - clangdev =={{ llvm_version }}\n        - openmp =={{ llvm_version }}\n        - llvmdev =={{ llvm_version }}\n        - flang-meta\n      host:\n      run:\n        - clangdev =={{ llvm_version }}\n        - openmp =={{ llvm_version }}\n        - {{ pin_subpackage('libflang', exact=True) }}\n    test:\n      files:\n        - hello_world.f90\n      commands:\n        # TODO - Figure out why the following line is needed.\n        - call \"C:\\Program Files (x86)\\Microsoft Visual Studio 14.0\\VC\\vcvarsall.bat\" amd64  # [win64]\n        - flang hello_world.f90\n        - ./a.out   # [unix]\n        - a.exe     # [win]\n\n  - name: flang_{{ target_platform }}\n    run_exports:\n      strong:\n        - libflang >={{ version }}\n    requirements:\n      - {{ pin_subpackage('flang', exact=True) }}\n\n\nabout:\n  home: http://github.com/flang-compiler/flang\n  license: Apache 2.0\n  license_file: LICENSE.txt\n  summary: Flang is a Fortran compiler targeting LLVM.\n\nextra:\n  recipe-maintainers:\n    - isuruf\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "c_compiler_stub",
+   "clangdev",
+   "cmake",
+   "cxx_compiler_stub",
+   "flang",
+   "flang-meta",
+   "libflang",
+   "llvmdev",
+   "openmp"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "clangdev",
+    "cmake",
+    "cxx_compiler_stub",
+    "flang-meta",
+    "llvmdev",
+    "openmp"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "clangdev",
+    "flang",
+    "libflang",
+    "openmp"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.1.12",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "clangdev ==5.0.0",
+    "cmake",
+    "cxx_compiler_stub",
+    "flang-meta",
+    "llvmdev ==5.0.0",
+    "openmp ==5.0.0"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "clangdev ==5.0.0",
+    "flang",
+    "libflang",
+    "openmp ==5.0.0"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://github.com/isuruf/flang/archive/4ddc948697091af68df0a1c63d18e700af047eba.tar.gz",
+ "version":"5.0.0"
+}

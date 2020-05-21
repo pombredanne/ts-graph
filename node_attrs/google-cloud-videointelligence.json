@@ -1,0 +1,128 @@
+{
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"google-cloud-videointelligence",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"Google Cloud Video Intelligence API is a Google Cloud service that makes videos searchable, and discoverable, by extracting metadata with an easy to use API. You can now search every moment of every video file in your catalog and find every occurrence as well as its significance. It quickly annotates videos stored in Google Cloud Storage, and helps you identify key nouns entities of your video, and when they occur within the video. Separate signal from noise, by retrieving relevant information at the video, shot or per frame.\nSee the [quick start guide](https://googleapis.dev/python/videointelligence/latest/index.html#quick-start).",
+   "dev_url":"https://github.com/googleapis/python-videointelligence",
+   "doc_url":"https://googleapis.dev/python/videointelligence/latest/index.html",
+   "home":"https://github.com/googleapis/python-videointelligence",
+   "license":"Apache-2.0",
+   "license_family":"Apache",
+   "license_file":"LICENSE",
+   "summary":"Google Cloud Video Intelligence API client library"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":"-m pip install . --no-deps -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "parthea",
+    "parthea",
+    "parthea"
+   ]
+  },
+  "package":{
+   "name":"google-cloud-videointelligence",
+   "version":"1.14.0"
+  },
+  "requirements":{
+   "host":[
+    "python",
+    "pip >=18.1",
+    "python",
+    "pip >=18.1",
+    "python",
+    "pip >=18.1"
+   ],
+   "run":[
+    "python",
+    "google-api-core-grpc >=1.14.0,<2.0.0dev",
+    "python",
+    "google-api-core-grpc >=1.14.0,<2.0.0dev",
+    "python",
+    "google-api-core-grpc >=1.14.0,<2.0.0dev"
+   ]
+  },
+  "source":{
+   "sha256":"c91f605d00926416bcd4d32d6ca195e0e5bd6fb794bc67b09910a19ee2ca6570",
+   "url":"https://pypi.io/packages/source/g/google-cloud-videointelligence/google-cloud-videointelligence-1.14.0.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "grpc",
+    "google.cloud.videointelligence",
+    "grpc",
+    "google.cloud.videointelligence",
+    "grpc",
+    "google.cloud.videointelligence"
+   ]
+  }
+ },
+ "name":"google-cloud-videointelligence",
+ "new_version":"1.14.0",
+ "raw_meta_yaml":"{% set name = \"google-cloud-videointelligence\" %}\n{% set version = \"1.14.0\" %}\n{% set sha256 = \"c91f605d00926416bcd4d32d6ca195e0e5bd6fb794bc67b09910a19ee2ca6570\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  noarch: python\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  host:\n    - python\n    - pip >=18.1\n  run:\n    - python\n    - google-api-core-grpc >=1.14.0,<2.0.0dev\n\ntest:\n  imports:\n    - grpc\n    - google.cloud.videointelligence\n\nabout:\n  home: https://github.com/googleapis/python-videointelligence\n  license: Apache-2.0\n  license_family: Apache\n  license_file: LICENSE\n  summary: 'Google Cloud Video Intelligence API client library'\n  description: Google Cloud Video Intelligence API is a Google Cloud service that makes videos searchable,\n    and discoverable, by extracting metadata with an easy to use API. You can now search every moment of every\n    video file in your catalog and find every occurrence as well as its significance. It quickly annotates videos\n    stored in Google Cloud Storage, and helps you identify key nouns entities of your video, and when they occur\n    within the video. Separate signal from noise, by retrieving relevant information at the video, shot or per\n    frame.\n\n    See the [quick start guide](https://googleapis.dev/python/videointelligence/latest/index.html#quick-start).\n\n  doc_url: https://googleapis.dev/python/videointelligence/latest/index.html\n  dev_url: https://github.com/googleapis/python-videointelligence\n\nextra:\n  recipe-maintainers:\n    - parthea\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "google-api-core-grpc",
+   "pip",
+   "python"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "google-api-core-grpc",
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip >=18.1",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "google-api-core-grpc >=1.14.0,<2.0.0dev",
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/g/google-cloud-videointelligence/google-cloud-videointelligence-1.14.0.tar.gz",
+ "version":"1.14.0"
+}

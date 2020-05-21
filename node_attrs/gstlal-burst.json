@@ -1,0 +1,436 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/374338469.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.2.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/374342103.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"gsl26"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/46c92e52-3e22-447b-abfe-a6c2b22b2bfd.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"python38"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"gstlal-burst",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"This package contains the plugins and shared libraries required\nto run the gstlal burst (generic transient) pipeline.\n",
+   "dev_url":"https://git.ligo.org/lscsoft/gstlal/",
+   "doc_url":"https://lscsoft.docs.ligo.org/gstlal/",
+   "home":"https://lscsoft.docs.ligo.org/gstlal/",
+   "license":"GPL-2.0-or-later",
+   "license_family":"GPL",
+   "license_file":"COPYING",
+   "summary":"GStreamer for generic transient data analysis"
+  },
+  "build":{
+   "error_overdepending":true,
+   "error_overlinking":true,
+   "ignore_run_exports":[
+    "lalburst",
+    "lalinspiral",
+    "lalburst",
+    "lalinspiral",
+    "lalburst",
+    "lalinspiral"
+   ],
+   "number":"0",
+   "skip":true
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "duncanmmacleod",
+    "myNameIsPatrick",
+    "duncanmmacleod",
+    "myNameIsPatrick",
+    "duncanmmacleod",
+    "myNameIsPatrick"
+   ]
+  },
+  "package":{
+   "name":"gstlal-burst",
+   "version":"0.2.1"
+  },
+  "requirements":{
+   "build":[
+    "c_compiler_stub",
+    "c_compiler_stub",
+    "make",
+    "pkg-config >=0.18.0",
+    "c_compiler_stub",
+    "make",
+    "pkg-config >=0.18.0"
+   ],
+   "host":[
+    "glib",
+    "gobject-introspection >=1.30.0",
+    "gsl",
+    "gst-plugins-base",
+    "gstlal >=1.6.0",
+    "gstreamer",
+    "lal >=6.20.1",
+    "lalburst >=1.5.2",
+    "lalinspiral",
+    "numpy",
+    "python",
+    "glib",
+    "gobject-introspection >=1.30.0",
+    "gsl",
+    "gst-plugins-base",
+    "gstlal >=1.6.0",
+    "gstreamer",
+    "lal >=6.20.1",
+    "lalburst >=1.5.2",
+    "lalinspiral",
+    "numpy",
+    "python",
+    "glib",
+    "gobject-introspection >=1.30.0",
+    "gsl",
+    "gst-plugins-base",
+    "gstlal >=1.6.0",
+    "gstreamer",
+    "lal >=6.20.1",
+    "lalburst >=1.5.2",
+    "lalinspiral",
+    "numpy",
+    "python"
+   ],
+   "run":[
+    "glib",
+    "gobject-introspection >=1.30.0",
+    "gsl",
+    "gst-plugins-base",
+    "gst-python",
+    "gstlal >=1.6.0",
+    "gstlal-ugly >=1.7.0",
+    "gstreamer",
+    "h5py",
+    "lal >=6.20.1",
+    "ligo-scald",
+    "ligo-segments >=1.2.0",
+    "lscsoft-glue >=2.0.0",
+    "numpy",
+    "python",
+    "python-confluent-kafka >=0.11.4",
+    "scipy",
+    "glib",
+    "gobject-introspection >=1.30.0",
+    "gsl",
+    "gst-plugins-base",
+    "gst-python",
+    "gstlal >=1.6.0",
+    "gstlal-ugly >=1.7.0",
+    "gstreamer",
+    "h5py",
+    "lal >=6.20.1",
+    "ligo-scald",
+    "ligo-segments >=1.2.0",
+    "lscsoft-glue >=2.0.0",
+    "numpy",
+    "python",
+    "python-confluent-kafka >=0.11.4",
+    "scipy",
+    "glib",
+    "gobject-introspection >=1.30.0",
+    "gsl",
+    "gst-plugins-base",
+    "gst-python",
+    "gstlal >=1.6.0",
+    "gstlal-ugly >=1.7.0",
+    "gstreamer",
+    "h5py",
+    "lal >=6.20.1",
+    "ligo-scald",
+    "ligo-segments >=1.2.0",
+    "lscsoft-glue >=2.0.0",
+    "numpy",
+    "python",
+    "python-confluent-kafka >=0.11.4",
+    "scipy"
+   ]
+  },
+  "source":{
+   "patches":[
+    "missing-links.patch",
+    "gstaudio.patch",
+    "unused-import-triggergen.patch",
+    "missing-links.patch",
+    "gstaudio.patch",
+    "unused-import-triggergen.patch",
+    "missing-links.patch",
+    "gstaudio.patch",
+    "unused-import-triggergen.patch"
+   ],
+   "sha256":"e0a623ab0ced29b5f1f2d18678f67f0f0eec937b86172675cc2bca773c746917",
+   "url":"http://software.ligo.org/lscsoft/source/gstlal-burst-0.2.1.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "gstlal_cs_triggergen --help",
+    "gstlal_snax_aggregate --help",
+    "gstlal_snax_bank_overlap --help",
+    "gstlal_snax_combine --help",
+    "gstlal_snax_dag_offline --help",
+    "gstlal_snax_dag_online --help",
+    "gstlal_snax_extract --help",
+    "gstlal_snax_monitor --help",
+    "gstlal_snax_sink --help",
+    "gstlal_snax_synchronize --help",
+    "gstlal_snax_whiten --help",
+    "export TMPDIR=$(python -c \"import tempfile; print(tempfile.gettempdir())\")",
+    "gstlal_cs_triggergen --help",
+    "gstlal_snax_aggregate --help",
+    "gstlal_snax_bank_overlap --help",
+    "gstlal_snax_combine --help",
+    "gstlal_snax_dag_offline --help",
+    "gstlal_snax_dag_online --help",
+    "gstlal_snax_extract --help",
+    "gstlal_snax_monitor --help",
+    "gstlal_snax_sink --help",
+    "gstlal_snax_synchronize --help",
+    "gstlal_snax_whiten --help",
+    "pkg-config --print-errors --libs gstlal-burst",
+    "export TMPDIR=$(python -c \"import tempfile; print(tempfile.gettempdir())\")",
+    "gstlal_cs_triggergen --help",
+    "gstlal_snax_aggregate --help",
+    "gstlal_snax_bank_overlap --help",
+    "gstlal_snax_combine --help",
+    "gstlal_snax_dag_offline --help",
+    "gstlal_snax_dag_online --help",
+    "gstlal_snax_extract --help",
+    "gstlal_snax_monitor --help",
+    "gstlal_snax_sink --help",
+    "gstlal_snax_synchronize --help",
+    "gstlal_snax_whiten --help",
+    "pkg-config --print-errors --libs gstlal-burst"
+   ],
+   "imports":[
+    "gstlal.snax",
+    "gstlal.snax.auxcache",
+    "gstlal.snax.feature_extractor",
+    "gstlal.snax.multichannel_datasource",
+    "gstlal.snax.multirate_datasource",
+    "gstlal.snax.sngltriggertable",
+    "gstlal.snax.utils",
+    "gstlal.snax.waveforms",
+    "gstlal.snglbursttable",
+    "gstlal.streamburca",
+    "gstlal.snax",
+    "gstlal.snax.auxcache",
+    "gstlal.snax.feature_extractor",
+    "gstlal.snax.multichannel_datasource",
+    "gstlal.snax.multirate_datasource",
+    "gstlal.snax.sngltriggertable",
+    "gstlal.snax.utils",
+    "gstlal.snax.waveforms",
+    "gstlal.snglbursttable",
+    "gstlal.streamburca",
+    "gstlal.snax",
+    "gstlal.snax.auxcache",
+    "gstlal.snax.feature_extractor",
+    "gstlal.snax.multichannel_datasource",
+    "gstlal.snax.multirate_datasource",
+    "gstlal.snax.sngltriggertable",
+    "gstlal.snax.utils",
+    "gstlal.snax.waveforms",
+    "gstlal.snglbursttable",
+    "gstlal.streamburca"
+   ],
+   "requires":[
+    "pkg-config"
+   ]
+  }
+ },
+ "name":"gstlal-burst",
+ "new_version":false,
+ "pinning_version":"2020.01.28",
+ "raw_meta_yaml":"{% set name = \"gstlal-burst\" %}\n{% set version = \"0.2.1\" %}\n\npackage:\n  name: \"{{ name|lower }}\"\n  version: \"{{ version }}\"\n\nsource:\n  url: \"http://software.ligo.org/lscsoft/source/{{ name }}-{{ version }}.tar.gz\"\n  sha256: e0a623ab0ced29b5f1f2d18678f67f0f0eec937b86172675cc2bca773c746917\n  patches:\n    # https://git.ligo.org/lscsoft/gstlal/issues/46\n    - missing-links.patch\n    # https://git.ligo.org/lscsoft/gstlal/issues/47\n    - gstaudio.patch\n    # https://git.ligo.org/lscsoft/gstlal/issues/48\n    - unused-import-triggergen.patch\n\nbuild:\n  error_overdepending: true\n  error_overlinking: true\n  ignore_run_exports:\n    # header is included, but never used, reported upstream\n    - lalburst\n    - lalinspiral\n  number: 0\n  skip: true  # [win or py>=30]\n\nrequirements:\n  build:\n    - {{ compiler('c') }}\n    - make  # [unix]\n    - pkg-config >=0.18.0  # [unix]\n  host:\n    - glib\n    - gobject-introspection >=1.30.0\n    - gsl\n    - gst-plugins-base\n    - gstlal >=1.6.0\n    - gstreamer\n    - lal >=6.20.1\n    - lalburst >=1.5.2\n    - lalinspiral\n    - numpy\n    - python\n  run:\n    - glib\n    - gobject-introspection >=1.30.0\n    - gsl\n    - gst-plugins-base\n    - gst-python\n    - gstlal >=1.6.0\n    - gstlal-ugly >=1.7.0\n    - gstreamer\n    - h5py\n    - lal >=6.20.1\n    - ligo-scald\n    - ligo-segments >=1.2.0\n    - lscsoft-glue >=2.0.0\n    - {{ pin_compatible('numpy') }}\n    - python\n    - python-confluent-kafka >=0.11.4\n    - scipy\n\ntest:\n  imports:\n    - gstlal.snax\n    - gstlal.snax.auxcache\n    - gstlal.snax.feature_extractor\n    - gstlal.snax.multichannel_datasource\n    - gstlal.snax.multirate_datasource\n    - gstlal.snax.sngltriggertable\n    - gstlal.snax.utils\n    - gstlal.snax.waveforms\n    - gstlal.snglbursttable\n    - gstlal.streamburca\n  requires:\n    - pkg-config  # [unix]\n  commands:\n    - export TMPDIR=$(python -c \"import tempfile; print(tempfile.gettempdir())\")  # [not win]\n    # check executables\n    - gstlal_cs_triggergen --help\n    - gstlal_snax_aggregate --help\n    - gstlal_snax_bank_overlap --help\n    - gstlal_snax_combine --help\n    - gstlal_snax_dag_offline --help\n    - gstlal_snax_dag_online --help\n    - gstlal_snax_extract --help\n    - gstlal_snax_monitor --help\n    - gstlal_snax_sink --help\n    - gstlal_snax_synchronize --help\n    - gstlal_snax_whiten --help\n    # check pkg-config\n    - pkg-config --print-errors --libs gstlal-burst  # [unix]\n\nabout:\n  home: \"https://lscsoft.docs.ligo.org/gstlal/\"\n  dev_url: \"https://git.ligo.org/lscsoft/gstlal/\"\n  doc_url: \"https://lscsoft.docs.ligo.org/gstlal/\"\n  license: \"GPL-2.0-or-later\"\n  license_family: \"GPL\"\n  license_file: \"COPYING\"\n  summary: \"GStreamer for generic transient data analysis\"\n  description: |\n    This package contains the plugins and shared libraries required\n    to run the gstlal burst (generic transient) pipeline.\n\nextra:\n  recipe-maintainers:\n    - duncanmmacleod\n    - myNameIsPatrick\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "c_compiler_stub",
+   "glib",
+   "gobject-introspection",
+   "gsl",
+   "gst-plugins-base",
+   "gst-python",
+   "gstlal",
+   "gstlal-ugly",
+   "gstreamer",
+   "h5py",
+   "lal",
+   "lalburst",
+   "lalinspiral",
+   "ligo-scald",
+   "ligo-segments",
+   "lscsoft-glue",
+   "make",
+   "numpy",
+   "pkg-config",
+   "python",
+   "python-confluent-kafka",
+   "scipy"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "make",
+    "pkg-config"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "glib",
+    "gobject-introspection",
+    "gsl",
+    "gst-plugins-base",
+    "gstlal",
+    "gstreamer",
+    "lal",
+    "lalburst",
+    "lalinspiral",
+    "numpy",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "glib",
+    "gobject-introspection",
+    "gsl",
+    "gst-plugins-base",
+    "gst-python",
+    "gstlal",
+    "gstlal-ugly",
+    "gstreamer",
+    "h5py",
+    "lal",
+    "ligo-scald",
+    "ligo-segments",
+    "lscsoft-glue",
+    "numpy",
+    "python",
+    "python-confluent-kafka",
+    "scipy"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "pkg-config"
+   ]
+  }
+ },
+ "smithy_version":"3.6.8",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "make",
+    "pkg-config >=0.18.0"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "glib",
+    "gobject-introspection >=1.30.0",
+    "gsl",
+    "gst-plugins-base",
+    "gstlal >=1.6.0",
+    "gstreamer",
+    "lal >=6.20.1",
+    "lalburst >=1.5.2",
+    "lalinspiral",
+    "numpy",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "glib",
+    "gobject-introspection >=1.30.0",
+    "gsl",
+    "gst-plugins-base",
+    "gst-python",
+    "gstlal >=1.6.0",
+    "gstlal-ugly >=1.7.0",
+    "gstreamer",
+    "h5py",
+    "lal >=6.20.1",
+    "ligo-scald",
+    "ligo-segments >=1.2.0",
+    "lscsoft-glue >=2.0.0",
+    "numpy",
+    "python",
+    "python-confluent-kafka >=0.11.4",
+    "scipy"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "pkg-config"
+   ]
+  }
+ },
+ "url":"http://software.ligo.org/lscsoft/source/gstlal-burst-0.2.0.tar.gz",
+ "version":"0.2.1"
+}

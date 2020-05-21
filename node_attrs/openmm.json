@@ -1,0 +1,334 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/336095266.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"python38"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/348480275.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"7.4.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/393007333.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"pypy"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"openmm",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"OpenMM is a toolkit for molecular simulation. It can be used either as a\nstand-alone application for running simulations, or as a library you call\nfrom your own code. It provides a combination of extreme flexibility\n(through custom forces and integrators), openness, and high performance\n(especially on recent GPUs) that make it truly unique among simulation\ncodes. OpenMM is MIT licensed with some LGPL portions (CUDA and OpenCL\nplatforms).\n",
+   "dev_url":"https://github.com/openmm/openmm",
+   "doc_url":"http://docs.openmm.org",
+   "home":"http://openmm.org",
+   "license":"LGPL-3.0-or-later",
+   "license_family":"LGPL",
+   "license_file":[
+    "docs-source/licenses/Licenses.txt",
+    "docs-source/licenses/LGPL.txt",
+    "docs-source/licenses/GPL.txt",
+    "docs-source/licenses/Licenses.txt",
+    "docs-source/licenses/LGPL.txt",
+    "docs-source/licenses/GPL.txt",
+    "docs-source/licenses/Licenses.txt",
+    "docs-source/licenses/LGPL.txt",
+    "docs-source/licenses/GPL.txt"
+   ],
+   "summary":"A high performance toolkit for molecular simulation."
+  },
+  "build":{
+   "missing_dso_whitelist":[
+    "*/libcuda.*"
+   ],
+   "number":"0",
+   "skip":true
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "jchodera",
+    "jaimergp",
+    "peastman",
+    "jchodera",
+    "jaimergp",
+    "peastman",
+    "jchodera",
+    "jaimergp",
+    "peastman"
+   ]
+  },
+  "package":{
+   "name":"openmm",
+   "version":"7.4.1"
+  },
+  "requirements":{
+   "build":[
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "cmake",
+    "jom",
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "cmake",
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "cuda_compiler_stub",
+    "cdt_stub",
+    "cmake"
+   ],
+   "host":[
+    "python",
+    "fftw",
+    "swig",
+    "pthread-stubs",
+    "lxml",
+    "numpy",
+    "cython",
+    "doxygen 1.8.14",
+    "khronos-opencl-icd-loader",
+    "python",
+    "fftw",
+    "swig",
+    "pthread-stubs",
+    "lxml",
+    "numpy",
+    "cython",
+    "doxygen 1.8.14",
+    "khronos-opencl-icd-loader",
+    "python",
+    "fftw",
+    "swig",
+    "pthread-stubs",
+    "lxml",
+    "numpy",
+    "cython",
+    "doxygen 1.8.14",
+    "ocl-icd"
+   ],
+   "run":[
+    "python",
+    "fftw",
+    "numpy",
+    "khronos-opencl-icd-loader",
+    "python",
+    "fftw",
+    "numpy",
+    "khronos-opencl-icd-loader",
+    "ocl_icd_wrapper_apple",
+    "python",
+    "fftw",
+    "numpy",
+    "ocl-icd",
+    "ocl-icd-system"
+   ]
+  },
+  "source":{
+   "sha256":"e8102b68133e6dcf7fcf29bc76a11ea54f30af71d8a7705aec0aee957ebe3a6d",
+   "url":"https://github.com/openmm/openmm/archive/7.4.1.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "python -m simtk.testInstallation",
+    "if not exist %LIBRARY_LIB%/OpenMM.lib exit 1",
+    "if not exist %LIBRARY_LIB%/plugins/OpenMMOpenCL.lib exit 1",
+    "if not exist %LIBRARY_LIB%/plugins/OpenMMCPU.lib exit 1",
+    "python -c \"from simtk.openmm import Platform as P; n = P.getNumPlatforms(); assert n == 3, f'# platforms ({n}) != 3'\"",
+    "python -c \"import simtk.openmm as mm; print(mm.Platform.getPluginLoadFailures())\"",
+    "python -c \"import os, simtk.openmm.version as v; print(v.openmm_library_path); assert os.path.isdir(v.openmm_library_path), 'Directory does not exist'\"",
+    "python -m simtk.testInstallation",
+    "test -f $PREFIX/lib/libOpenMM$SHLIB_EXT",
+    "test -f $PREFIX/lib/plugins/libOpenMMCPU$SHLIB_EXT",
+    "test -f $PREFIX/lib/plugins/libOpenMMOpenCL$SHLIB_EXT",
+    "python -c \"from simtk.openmm import Platform as P; n = P.getNumPlatforms(); assert n == 3, f'# platforms ({n}) != 3'\"",
+    "python -c \"import simtk.openmm as mm; print(mm.Platform.getPluginLoadFailures())\"",
+    "python -c \"import os, simtk.openmm.version as v; print(v.openmm_library_path); assert os.path.isdir(v.openmm_library_path), 'Directory does not exist'\"",
+    "python -m simtk.testInstallation",
+    "test -f $PREFIX/lib/libOpenMM$SHLIB_EXT",
+    "test -f $PREFIX/lib/plugins/libOpenMMCPU$SHLIB_EXT",
+    "test -f $PREFIX/lib/plugins/libOpenMMOpenCL$SHLIB_EXT",
+    "test -f $PREFIX/lib/plugins/libOpenMMCUDA$SHLIB_EXT",
+    "python -c \"from simtk.openmm import Platform as P; n = P.getNumPlatforms(); assert n == 3, f'# platforms ({n}) != 3'\"",
+    "python -c \"import simtk.openmm as mm; print(mm.Platform.getPluginLoadFailures())\"",
+    "python -c \"import os, simtk.openmm.version as v; print(v.openmm_library_path); assert os.path.isdir(v.openmm_library_path), 'Directory does not exist'\""
+   ],
+   "imports":[
+    "simtk",
+    "simtk.openmm",
+    "simtk",
+    "simtk.openmm",
+    "simtk",
+    "simtk.openmm"
+   ],
+   "requires":[
+    "pocl"
+   ]
+  }
+ },
+ "name":"openmm",
+ "new_version":"7.4.1",
+ "pinning_version":"2020.03.23",
+ "raw_meta_yaml":"{% set name = \"openmm\" %}\n{% set version = \"7.4.1\" %}\n{% set build = 0 %}\n\npackage:\n  name: {{ name }}\n  version: {{ version }}\n\nsource:\n  url: https://github.com/openmm/{{ name }}/archive/{{ version }}.tar.gz\n  sha256: e8102b68133e6dcf7fcf29bc76a11ea54f30af71d8a7705aec0aee957ebe3a6d\n\nbuild:\n  number: {{ build }}\n  skip: True  # [py2k or win or (linux64 and cuda_compiler_version == \"None\")]\n  missing_dso_whitelist:\n  - \"*/libcuda.*\"  # [linux]\n\nrequirements:\n  build:\n    - {{ compiler('c') }}\n    - {{ compiler('cxx') }}\n    - {{ compiler('cuda') }}  # [linux]\n    - {{ cdt('mesa-libgl-devel') }}  # [linux]\n    - cmake\n    - jom  # [win]\n\n  host:\n    - python\n    - fftw\n    - swig\n    - pthread-stubs\n    - lxml\n    - numpy\n    - cython\n    # needed for Python wrappers\n    - doxygen 1.8.14\n    # OpenCL ICD\n    - ocl-icd  # [linux]\n    - khronos-opencl-icd-loader  # [osx or win]\n\n  run:\n    - python\n    - fftw\n    - numpy\n    # OpenCL ICD\n    - khronos-opencl-icd-loader  # [osx or win]\n    - ocl_icd_wrapper_apple  # [osx]\n    - ocl-icd  # [linux]\n    - ocl-icd-system  # [linux]\n\ntest:\n  requires:\n    - pocl  # [unix]\n  imports:\n    - simtk\n    - simtk.openmm\n  commands:\n    - python -m simtk.testInstallation\n    # Existence tests Unix\n    - test -f $PREFIX/lib/libOpenMM$SHLIB_EXT  # [unix]\n    - test -f $PREFIX/lib/plugins/libOpenMMCPU$SHLIB_EXT  # [unix]\n    - test -f $PREFIX/lib/plugins/libOpenMMOpenCL$SHLIB_EXT  # [unix]\n    - test -f $PREFIX/lib/plugins/libOpenMMCUDA$SHLIB_EXT  # [linux]\n    # Existence tests Windows\n    - if not exist %LIBRARY_LIB%/OpenMM.lib exit 1  # [win]\n    - if not exist %LIBRARY_LIB%/plugins/OpenMMOpenCL.lib exit 1  # [win]\n    - if not exist %LIBRARY_LIB%/plugins/OpenMMCPU.lib exit 1  # [win]\n    # We should see all four platforms in Linux, but CUDA is not recognized without a GPU\n    - python -c \"from simtk.openmm import Platform as P; n = P.getNumPlatforms(); assert n == 3, f'# platforms ({n}) != 3'\"\n    # Debug silent errors in plugin loading\n    - python -c \"import simtk.openmm as mm; print(mm.Platform.getPluginLoadFailures())\"\n    # Debug hardcoded library path\n    - python -c \"import os, simtk.openmm.version as v; print(v.openmm_library_path); assert os.path.isdir(v.openmm_library_path), 'Directory does not exist'\"\n\nabout:\n  home: http://openmm.org\n  license: LGPL-3.0-or-later\n  license_family: LGPL\n  license_file:\n    - docs-source/licenses/Licenses.txt\n    - docs-source/licenses/LGPL.txt\n    - docs-source/licenses/GPL.txt\n  summary: 'A high performance toolkit for molecular simulation.'\n\n  description: |\n    OpenMM is a toolkit for molecular simulation. It can be used either as a\n    stand-alone application for running simulations, or as a library you call\n    from your own code. It provides a combination of extreme flexibility\n    (through custom forces and integrators), openness, and high performance\n    (especially on recent GPUs) that make it truly unique among simulation\n    codes. OpenMM is MIT licensed with some LGPL portions (CUDA and OpenCL\n    platforms).\n  doc_url: http://docs.openmm.org\n  dev_url: https://github.com/openmm/openmm\n\nextra:\n  recipe-maintainers:\n    - jchodera\n    - jaimergp\n    - peastman\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "c_compiler_stub",
+   "cdt_stub",
+   "cmake",
+   "cuda_compiler_stub",
+   "cxx_compiler_stub",
+   "cython",
+   "doxygen",
+   "fftw",
+   "jom",
+   "khronos-opencl-icd-loader",
+   "lxml",
+   "numpy",
+   "ocl-icd",
+   "ocl-icd-system",
+   "ocl_icd_wrapper_apple",
+   "pthread-stubs",
+   "python",
+   "swig"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "cdt_stub",
+    "cmake",
+    "cuda_compiler_stub",
+    "cxx_compiler_stub",
+    "jom"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "cython",
+    "doxygen",
+    "fftw",
+    "khronos-opencl-icd-loader",
+    "lxml",
+    "numpy",
+    "ocl-icd",
+    "pthread-stubs",
+    "python",
+    "swig"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "fftw",
+    "khronos-opencl-icd-loader",
+    "numpy",
+    "ocl-icd",
+    "ocl-icd-system",
+    "ocl_icd_wrapper_apple",
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "pocl"
+   ]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.6.15",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "cdt_stub",
+    "cmake",
+    "cuda_compiler_stub",
+    "cxx_compiler_stub",
+    "jom"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "cython",
+    "doxygen 1.8.14",
+    "fftw",
+    "khronos-opencl-icd-loader",
+    "lxml",
+    "numpy",
+    "ocl-icd",
+    "pthread-stubs",
+    "python",
+    "swig"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "fftw",
+    "khronos-opencl-icd-loader",
+    "numpy",
+    "ocl-icd",
+    "ocl-icd-system",
+    "ocl_icd_wrapper_apple",
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "pocl"
+   ]
+  }
+ },
+ "url":"https://github.com/openmm/openmm/archive/7.4.0.tar.gz",
+ "version":"7.4.1"
+}

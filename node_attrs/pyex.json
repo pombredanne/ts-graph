@@ -1,0 +1,172 @@
+{
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"pyex",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"Python interface to IEX and IEX cloud APIs\n",
+   "dev_url":"https://github.com/timkpaine/pyEX",
+   "home":"http://github.com/timkpaine/pyEX",
+   "license":"Apache-2.0",
+   "license_family":"Apache",
+   "license_file":"LICENSE",
+   "summary":"Python interface to IEX and IEX cloud APIs"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "timkpaine",
+    "timkpaine",
+    "timkpaine"
+   ]
+  },
+  "package":{
+   "name":"pyex",
+   "version":"0.2.1"
+  },
+  "requirements":{
+   "host":[
+    "python >=3.7",
+    "pip",
+    "python >=3.7",
+    "pip",
+    "python >=3.7",
+    "pip"
+   ],
+   "run":[
+    "python >=3.7",
+    "deprecation >=2.0.6",
+    "ipython >=7.2.0",
+    "Pillow >=5.3.0",
+    "pandas >=0.22",
+    "pytz >=2019.1",
+    "requests >=2.21.0",
+    "socketIO-client-nexus >=0.7.6",
+    "sseclient >=0.0.22",
+    "temporal-cache >=0.1.1",
+    "python >=3.7",
+    "deprecation >=2.0.6",
+    "ipython >=7.2.0",
+    "Pillow >=5.3.0",
+    "pandas >=0.22",
+    "pytz >=2019.1",
+    "requests >=2.21.0",
+    "socketIO-client-nexus >=0.7.6",
+    "sseclient >=0.0.22",
+    "temporal-cache >=0.1.1",
+    "python >=3.7",
+    "deprecation >=2.0.6",
+    "ipython >=7.2.0",
+    "Pillow >=5.3.0",
+    "pandas >=0.22",
+    "pytz >=2019.1",
+    "requests >=2.21.0",
+    "socketIO-client-nexus >=0.7.6",
+    "sseclient >=0.0.22",
+    "temporal-cache >=0.1.1"
+   ]
+  },
+  "source":{
+   "sha256":"664be11de4994edc328da3a912746b35cb2f57a989747b3cb6b00d1d0482a4a8",
+   "url":"https://pypi.io/packages/source/p/pyEX/pyEX-0.2.1.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "pyEX",
+    "pyEX",
+    "pyEX"
+   ]
+  }
+ },
+ "name":"pyex",
+ "new_version":"0.2.1",
+ "raw_meta_yaml":"{% set name = \"pyEX\" %}\n{% set version = \"0.2.1\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: 664be11de4994edc328da3a912746b35cb2f57a989747b3cb6b00d1d0482a4a8\n\nbuild:\n  number: 0\n  noarch: python\n  script: \"{{ PYTHON }} -m pip install . -vv\"\n\nrequirements:\n  host:\n    - python >=3.7\n    - pip\n  run:\n    - python >=3.7\n    - deprecation >=2.0.6\n    - ipython >=7.2.0\n    - Pillow >=5.3.0\n    - pandas >=0.22\n    - pytz >=2019.1\n    - requests >=2.21.0\n    - socketIO-client-nexus >=0.7.6\n    - sseclient >=0.0.22\n    - temporal-cache >=0.1.1\n\ntest:\n  imports:\n    - pyEX\n\nabout:\n  home: http://github.com/timkpaine/pyEX\n  license: Apache-2.0\n  license_family: Apache\n  license_file: LICENSE\n  summary: 'Python interface to IEX and IEX cloud APIs'\n\n  description: |\n    Python interface to IEX and IEX cloud APIs\n  dev_url: https://github.com/timkpaine/pyEX\n\nextra:\n  recipe-maintainers:\n    - timkpaine\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "deprecation",
+   "ipython",
+   "pandas",
+   "pillow",
+   "pip",
+   "python",
+   "pytz",
+   "requests",
+   "socketio-client-nexus",
+   "sseclient",
+   "temporal-cache"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "deprecation",
+    "ipython",
+    "pandas",
+    "pillow",
+    "python",
+    "pytz",
+    "requests",
+    "socketio-client-nexus",
+    "sseclient",
+    "temporal-cache"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3.7"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "Pillow >=5.3.0",
+    "deprecation >=2.0.6",
+    "ipython >=7.2.0",
+    "pandas >=0.22",
+    "python >=3.7",
+    "pytz >=2019.1",
+    "requests >=2.21.0",
+    "socketIO-client-nexus >=0.7.6",
+    "sseclient >=0.0.22",
+    "temporal-cache >=0.1.1"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/p/pyEX/pyEX-0.2.1.tar.gz",
+ "version":"0.2.1"
+}

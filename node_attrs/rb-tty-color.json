@@ -1,0 +1,147 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/366109440.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.5.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"rb-tty-color",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "dev_url":"https://github.com/piotrmurach/tty-color",
+   "doc_url":"https://www.rubydoc.info/gems/tty-color",
+   "home":"https://rubygems.org/gems/tty-color",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"tty-color-0.5.1/LICENSE.txt",
+   "summary":"Terminal color capabilities detection"
+  },
+  "build":{
+   "noarch":"generic",
+   "number":"0",
+   "script":[
+    "gem install --norc -l -V --ignore-dependencies tty-color-0.5.1.gem",
+    "gem unpack tty-color-0.5.1.gem",
+    "gem install --norc -l -V --ignore-dependencies tty-color-0.5.1.gem",
+    "gem unpack tty-color-0.5.1.gem",
+    "gem install --norc -l -V --ignore-dependencies tty-color-0.5.1.gem",
+    "gem unpack tty-color-0.5.1.gem"
+   ],
+   "skip":null
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "sodre",
+    "mwilson8",
+    "rluria14",
+    "sodre",
+    "mwilson8",
+    "rluria14",
+    "sodre",
+    "mwilson8",
+    "rluria14"
+   ]
+  },
+  "package":{
+   "name":"rb-tty-color",
+   "version":"0.5.1"
+  },
+  "requirements":{
+   "host":[
+    "ruby",
+    "ruby",
+    "ruby"
+   ],
+   "run":[
+    "ruby",
+    "ruby",
+    "ruby"
+   ]
+  },
+  "source":{
+   "sha256":"572f93d7c07e03a18d38b6c837e2aba76c89a1575788d6f82fce3a96c2b5eb33",
+   "url":"https://rubygems.org/downloads/tty-color-0.5.1.gem"
+  },
+  "test":{
+   "commands":[
+    "ruby -r tty-color -e 'exit 0'",
+    "ruby -r tty-color -e 'exit 0'",
+    "ruby -r tty-color -e 'exit 0'"
+   ]
+  }
+ },
+ "name":"rb-tty-color",
+ "new_version":false,
+ "pinning_version":"2020.01.16",
+ "raw_meta_yaml":"{% set name = \"tty-color\" %}\n{% set version = \"0.5.1\" %}\n\npackage:\n  name: rb-{{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://rubygems.org/downloads/{{ name }}-{{ version }}.gem\n  sha256: 572f93d7c07e03a18d38b6c837e2aba76c89a1575788d6f82fce3a96c2b5eb33\n\nbuild:\n  noarch: generic\n  number: 0\n  script:\n    - gem install --norc -l -V --ignore-dependencies {{ name }}-{{ version }}.gem\n    - gem unpack {{ name }}-{{ version }}.gem\n  skip: {{ win }}\n\nrequirements:\n  host:\n    - ruby\n  run:\n    - ruby\n\ntest:\n  commands:\n    - ruby -r {{ name }} -e 'exit 0'\n\nabout:\n  home: https://rubygems.org/gems/{{ name }}\n  license: MIT\n  license_family: MIT\n  license_file: {{ name }}-{{ version }}/LICENSE.txt\n  summary: 'Terminal color capabilities detection'\n  doc_url: https://www.rubydoc.info/gems/{{ name }}\n  dev_url: https://github.com/piotrmurach/tty-color\n\nextra:\n  recipe-maintainers:\n    - sodre\n    - mwilson8\n    - rluria14\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "ruby"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "ruby"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "ruby"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.6.5",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "ruby"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "ruby"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://rubygems.org/downloads/tty-color-0.5.0.gem",
+ "version":"0.5.1"
+}

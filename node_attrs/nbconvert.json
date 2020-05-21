@@ -1,0 +1,392 @@
+{
+ "PRed":[
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"5.4.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"5.4.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"5.5.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"5.6.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "id":"eba9b21f-a817-4b66-8811-254bba5a4b8c",
+    "merged_at":"fix aarch missing prs",
+    "state":"closed"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"ArchRebuild",
+    "migrator_version":1,
+    "name":"aarch64 and ppc64le addition"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/332301558.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"5.6.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/336030154.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"python38"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/402245166.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"pypy"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "provider":{
+   "linux_aarch64":"default",
+   "linux_ppc64le":"default",
+   "win":"azure"
+  }
+ },
+ "feedstock_name":"nbconvert",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"The nbconvert tool, jupyter nbconvert, converts notebooks to various other\nformats via Jinja templates. The nbconvert tool allows you to convert an\n.ipynb notebook file into various static formats.\n",
+   "dev_url":"https://github.com/jupyter/nbconvert",
+   "doc_url":"http://nbconvert.readthedocs.org/",
+   "home":"http://jupyter.org",
+   "license":"BSD-3-Clause",
+   "license_file":"LICENSE",
+   "summary":"Converting Jupyter Notebooks"
+  },
+  "build":{
+   "entry_points":[
+    "jupyter-nbconvert = nbconvert.nbconvertapp:main",
+    "jupyter-nbconvert = nbconvert.nbconvertapp:main",
+    "jupyter-nbconvert = nbconvert.nbconvertapp:main"
+   ],
+   "number":"1",
+   "script":" -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "jakirkham",
+    "mpacer",
+    "minrk",
+    "pelson",
+    "takluyver",
+    "mseal",
+    "blink1073",
+    "ocefpaf",
+    "jakirkham",
+    "mpacer",
+    "minrk",
+    "pelson",
+    "takluyver",
+    "mseal",
+    "blink1073",
+    "ocefpaf",
+    "jakirkham",
+    "mpacer",
+    "minrk",
+    "pelson",
+    "takluyver",
+    "mseal",
+    "blink1073",
+    "ocefpaf"
+   ]
+  },
+  "package":{
+   "name":"nbconvert",
+   "version":"5.6.1"
+  },
+  "requirements":{
+   "build":[
+    "python",
+    "pip",
+    "python",
+    "pip",
+    "python",
+    "pip"
+   ],
+   "run":[
+    "python",
+    "mistune >=0.8.1",
+    "jinja2",
+    "pygments",
+    "traitlets >=4.2",
+    "jupyter_core",
+    "nbformat >=4.4",
+    "entrypoints >=0.2.2",
+    "bleach",
+    "pandocfilters >=1.4.1",
+    "testpath",
+    "defusedxml",
+    "pandoc >=1.12.1",
+    "python",
+    "mistune >=0.8.1",
+    "jinja2",
+    "pygments",
+    "traitlets >=4.2",
+    "jupyter_core",
+    "nbformat >=4.4",
+    "entrypoints >=0.2.2",
+    "bleach",
+    "pandocfilters >=1.4.1",
+    "testpath",
+    "defusedxml",
+    "pandoc >=1.12.1",
+    "python",
+    "mistune >=0.8.1",
+    "jinja2",
+    "pygments",
+    "traitlets >=4.2",
+    "jupyter_core",
+    "nbformat >=4.4",
+    "entrypoints >=0.2.2",
+    "bleach",
+    "pandocfilters >=1.4.1",
+    "testpath",
+    "defusedxml",
+    "pandoc >=1.12.1"
+   ]
+  },
+  "source":{
+   "sha256":"21fb48e700b43e82ba0e3142421a659d7739b65568cc832a13976a77be16b523",
+   "url":"https://pypi.io/packages/source/n/nbconvert/nbconvert-5.6.1.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "jupyter nbconvert --help",
+    "jupyter nbconvert nbconvert/tests/files/notebook1.ipynb",
+    "jupyter nbconvert --help",
+    "jupyter nbconvert nbconvert/tests/files/notebook1.ipynb",
+    "jupyter nbconvert --help",
+    "jupyter nbconvert nbconvert/tests/files/notebook1.ipynb"
+   ],
+   "imports":[
+    "nbconvert",
+    "nbconvert.exporters",
+    "nbconvert.filters",
+    "nbconvert.postprocessors",
+    "nbconvert.preprocessors",
+    "nbconvert.resources",
+    "nbconvert.tests",
+    "nbconvert.utils",
+    "nbconvert.writers",
+    "nbconvert",
+    "nbconvert.exporters",
+    "nbconvert.filters",
+    "nbconvert.postprocessors",
+    "nbconvert.preprocessors",
+    "nbconvert.resources",
+    "nbconvert.tests",
+    "nbconvert.utils",
+    "nbconvert.writers",
+    "nbconvert",
+    "nbconvert.exporters",
+    "nbconvert.filters",
+    "nbconvert.postprocessors",
+    "nbconvert.preprocessors",
+    "nbconvert.resources",
+    "nbconvert.tests",
+    "nbconvert.utils",
+    "nbconvert.writers"
+   ],
+   "source_files":[
+    "nbconvert/tests/files/notebook1.ipynb",
+    "nbconvert/tests/files/notebook1.ipynb",
+    "nbconvert/tests/files/notebook1.ipynb"
+   ]
+  }
+ },
+ "name":"nbconvert",
+ "new_version":"5.6.1",
+ "pinning_version":"2020.04.10.23.07.47",
+ "raw_meta_yaml":"{% set version = \"5.6.1\" %}\n\npackage:\n  name: nbconvert\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/n/nbconvert/nbconvert-{{ version }}.tar.gz\n  sha256: 21fb48e700b43e82ba0e3142421a659d7739b65568cc832a13976a77be16b523\n\nbuild:\n  number: 1\n  script: \"{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv\"\n  entry_points:\n    - jupyter-nbconvert = nbconvert.nbconvertapp:main\n\nrequirements:\n  build:\n    - python\n    - pip\n  run:\n    - python\n    - mistune >=0.8.1\n    - jinja2\n    - pygments\n    - traitlets >=4.2\n    - jupyter_core\n    - nbformat >=4.4\n    - entrypoints >=0.2.2\n    - bleach\n    - pandocfilters >=1.4.1\n    - testpath\n    - defusedxml\n    - pandoc >=1.12.1  # [not aarch64]\n\ntest:\n  imports:\n    - nbconvert\n    - nbconvert.exporters\n    - nbconvert.filters\n    - nbconvert.postprocessors\n    - nbconvert.preprocessors\n    - nbconvert.resources\n    - nbconvert.tests\n    - nbconvert.utils\n    - nbconvert.writers\n  source_files:\n    - nbconvert/tests/files/notebook1.ipynb\n\n  commands:\n    - jupyter nbconvert --help\n    - jupyter nbconvert nbconvert/tests/files/notebook1.ipynb\n\nabout:\n  home: http://jupyter.org\n  license: BSD-3-Clause\n  license_file: LICENSE\n  summary: 'Converting Jupyter Notebooks'\n  description: |\n    The nbconvert tool, jupyter nbconvert, converts notebooks to various other\n    formats via Jinja templates. The nbconvert tool allows you to convert an\n    .ipynb notebook file into various static formats.\n  doc_url: http://nbconvert.readthedocs.org/\n  dev_url: https://github.com/jupyter/nbconvert\n\nextra:\n  recipe-maintainers:\n    - jakirkham\n    - mpacer\n    - minrk\n    - pelson\n    - takluyver\n    - mseal\n    - blink1073\n    - ocefpaf\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "bleach",
+   "defusedxml",
+   "entrypoints",
+   "jinja2",
+   "jupyter_core",
+   "mistune",
+   "nbformat",
+   "pandoc",
+   "pandocfilters",
+   "pip",
+   "pygments",
+   "python",
+   "testpath",
+   "traitlets"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "bleach",
+    "defusedxml",
+    "entrypoints",
+    "jinja2",
+    "jupyter_core",
+    "mistune",
+    "nbformat",
+    "pandoc",
+    "pandocfilters",
+    "pygments",
+    "python",
+    "testpath",
+    "traitlets"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.6.16",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "bleach",
+    "defusedxml",
+    "entrypoints >=0.2.2",
+    "jinja2",
+    "jupyter_core",
+    "mistune >=0.8.1",
+    "nbformat >=4.4",
+    "pandoc >=1.12.1",
+    "pandocfilters >=1.4.1",
+    "pygments",
+    "python",
+    "testpath",
+    "traitlets >=4.2"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/n/nbconvert/nbconvert-5.6.0.tar.gz",
+ "version":"5.6.1"
+}

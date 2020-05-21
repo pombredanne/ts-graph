@@ -1,0 +1,705 @@
+{
+ "PRed":[
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.27.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/200113029.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.27.3"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/206335527.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.27.4"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/220783199.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.27.5"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/221451043.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/226114199.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.27.7"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/248298932.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.27.8"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.28.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.28.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/256357661.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Rebuild",
+    "migrator_object_version":3,
+    "migrator_version":0,
+    "name":"OpenSSL"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/280676896.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.28.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/307002970.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.28.3"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/353199390.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.28.4"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/377111300.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.99.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "provider":{
+   "win":"azure"
+  }
+ },
+ "feedstock_name":"libgit2",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"libgit2 is a portable, pure C implementation of the Git core methods\nprovided as a re-entrant linkable library with a solid API, allowing\nyou to write native speed custom Git applications in any language\nwhich supports C bindings.\n",
+   "home":"https://libgit2.github.com",
+   "license":"GPL-2.0-only WITH GCC-exception-2.0",
+   "license_file":"COPYING",
+   "summary":"libgit2 is a portable, pure C implementation of the Git core methods provided as a re-entrant linkable library with a solid API, allowing you to write native speed custom Git applications in any language which supports C bindings."
+  },
+  "build":{
+   "number":"0",
+   "run_exports":[
+    "libgit2",
+    "libgit2",
+    "libgit2"
+   ]
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "shadowwalkersb",
+    "xhochy",
+    "shadowwalkersb",
+    "xhochy",
+    "shadowwalkersb",
+    "xhochy"
+   ]
+  },
+  "package":{
+   "name":"libgit2",
+   "version":"1.0.0"
+  },
+  "requirements":{
+   "build":[
+    "cmake",
+    "ninja",
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "cmake",
+    "ninja",
+    "pkg-config",
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "cmake",
+    "ninja",
+    "pkg-config",
+    "c_compiler_stub",
+    "cxx_compiler_stub"
+   ],
+   "host":[
+    "msinttypes",
+    "curl",
+    "libssh2",
+    "zlib",
+    "openssl",
+    "libiconv",
+    "curl",
+    "libssh2",
+    "zlib",
+    "openssl",
+    "curl",
+    "libssh2",
+    "zlib"
+   ],
+   "run":[
+    "curl",
+    "libssh2",
+    "zlib",
+    "openssl",
+    "libiconv",
+    "curl",
+    "libssh2",
+    "zlib",
+    "openssl",
+    "curl",
+    "libssh2",
+    "zlib"
+   ]
+  },
+  "source":{
+   "patches":[
+    "htonll-osx.patch",
+    "htonll-osx.patch",
+    "htonll-osx.patch"
+   ],
+   "sha256":"6a1fa16a7f6335ce8b2630fbdbb5e57c4027929ebc56fcd1ac55edb141b409b4",
+   "url":"https://github.com/libgit2/libgit2/archive/v1.0.0.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "if not exist %LIBRARY_INC%\\\\git2.h exit 1",
+    "if not exist %LIBRARY_INC%\\\\git2/annotated_commit.h exit 1",
+    "if not exist %LIBRARY_INC%\\\\git2/attr.h exit 1",
+    "if not exist %LIBRARY_INC%\\\\git2/blame.h exit 1",
+    "if not exist %LIBRARY_INC%\\\\git2/blob.h exit 1",
+    "if not exist %LIBRARY_INC%\\\\git2/branch.h exit 1",
+    "if not exist %LIBRARY_INC%\\\\git2/buffer.h exit 1",
+    "if not exist %LIBRARY_INC%\\\\git2/checkout.h exit 1",
+    "if not exist %LIBRARY_INC%\\\\git2/apply.h exit 1",
+    "if not exist %LIBRARY_INC%\\\\git2/cert.h exit 1",
+    "if not exist %LIBRARY_INC%\\\\git2/cherrypick.h exit 1",
+    "if not exist %LIBRARY_INC%\\\\git2/clone.h exit 1",
+    "if not exist %LIBRARY_INC%\\\\git2/commit.h exit 1",
+    "if not exist %LIBRARY_INC%\\\\git2/common.h exit 1",
+    "if not exist %LIBRARY_INC%\\\\git2/config.h exit 1",
+    "if not exist %LIBRARY_INC%\\\\git2/cred_helpers.h exit 1",
+    "if not exist %LIBRARY_INC%\\\\git2/credential.h exit 1",
+    "if not exist %LIBRARY_INC%\\\\git2/credential_helpers.h exit 1",
+    "if not exist %LIBRARY_INC%\\\\git2/deprecated.h exit 1",
+    "if not exist %LIBRARY_INC%\\\\git2/describe.h exit 1",
+    "if not exist %LIBRARY_INC%\\\\git2/diff.h exit 1",
+    "if not exist %LIBRARY_INC%\\\\git2/errors.h exit 1",
+    "if not exist %LIBRARY_INC%\\\\git2/filter.h exit 1",
+    "if not exist %LIBRARY_INC%\\\\git2/global.h exit 1",
+    "if not exist %LIBRARY_INC%\\\\git2/graph.h exit 1",
+    "if not exist %LIBRARY_INC%\\\\git2/ignore.h exit 1",
+    "if not exist %LIBRARY_INC%\\\\git2/index.h exit 1",
+    "if not exist %LIBRARY_INC%\\\\git2/indexer.h exit 1",
+    "if not exist %LIBRARY_INC%\\\\git2/mailmap.h exit 1",
+    "if not exist %LIBRARY_INC%\\\\git2/merge.h exit 1",
+    "if not exist %LIBRARY_INC%\\\\git2/message.h exit 1",
+    "if not exist %LIBRARY_INC%\\\\git2/net.h exit 1",
+    "if not exist %LIBRARY_INC%\\\\git2/notes.h exit 1",
+    "if not exist %LIBRARY_INC%\\\\git2/object.h exit 1",
+    "if not exist %LIBRARY_INC%\\\\git2/odb.h exit 1",
+    "if not exist %LIBRARY_INC%\\\\git2/odb_backend.h exit 1",
+    "if not exist %LIBRARY_INC%\\\\git2/oid.h exit 1",
+    "if not exist %LIBRARY_INC%\\\\git2/oidarray.h exit 1",
+    "if not exist %LIBRARY_INC%\\\\git2/pack.h exit 1",
+    "if not exist %LIBRARY_INC%\\\\git2/patch.h exit 1",
+    "if not exist %LIBRARY_INC%\\\\git2/pathspec.h exit 1",
+    "if not exist %LIBRARY_INC%\\\\git2/proxy.h exit 1",
+    "if not exist %LIBRARY_INC%\\\\git2/rebase.h exit 1",
+    "if not exist %LIBRARY_INC%\\\\git2/refdb.h exit 1",
+    "if not exist %LIBRARY_INC%\\\\git2/reflog.h exit 1",
+    "if not exist %LIBRARY_INC%\\\\git2/refs.h exit 1",
+    "if not exist %LIBRARY_INC%\\\\git2/refspec.h exit 1",
+    "if not exist %LIBRARY_INC%\\\\git2/remote.h exit 1",
+    "if not exist %LIBRARY_INC%\\\\git2/repository.h exit 1",
+    "if not exist %LIBRARY_INC%\\\\git2/reset.h exit 1",
+    "if not exist %LIBRARY_INC%\\\\git2/revert.h exit 1",
+    "if not exist %LIBRARY_INC%\\\\git2/revparse.h exit 1",
+    "if not exist %LIBRARY_INC%\\\\git2/revwalk.h exit 1",
+    "if not exist %LIBRARY_INC%\\\\git2/signature.h exit 1",
+    "if not exist %LIBRARY_INC%\\\\git2/stash.h exit 1",
+    "if not exist %LIBRARY_INC%\\\\git2/status.h exit 1",
+    "if not exist %LIBRARY_INC%\\\\git2/stdint.h exit 1",
+    "if not exist %LIBRARY_INC%\\\\git2/strarray.h exit 1",
+    "if not exist %LIBRARY_INC%\\\\git2/submodule.h exit 1",
+    "if not exist %LIBRARY_INC%\\\\git2/sys/alloc.h exit 1",
+    "if not exist %LIBRARY_INC%\\\\git2/sys/commit.h exit 1",
+    "if not exist %LIBRARY_INC%\\\\git2/sys/config.h exit 1",
+    "if not exist %LIBRARY_INC%\\\\git2/sys/cred.h exit 1",
+    "if not exist %LIBRARY_INC%\\\\git2/sys/credential.h exit 1",
+    "if not exist %LIBRARY_INC%\\\\git2/sys/diff.h exit 1",
+    "if not exist %LIBRARY_INC%\\\\git2/sys/filter.h exit 1",
+    "if not exist %LIBRARY_INC%\\\\git2/sys/hashsig.h exit 1",
+    "if not exist %LIBRARY_INC%\\\\git2/sys/index.h exit 1",
+    "if not exist %LIBRARY_INC%\\\\git2/sys/mempack.h exit 1",
+    "if not exist %LIBRARY_INC%\\\\git2/sys/merge.h exit 1",
+    "if not exist %LIBRARY_INC%\\\\git2/sys/odb_backend.h exit 1",
+    "if not exist %LIBRARY_INC%\\\\git2/sys/openssl.h exit 1",
+    "if not exist %LIBRARY_INC%\\\\git2/sys/path.h exit 1",
+    "if not exist %LIBRARY_INC%\\\\git2/sys/refdb_backend.h exit 1",
+    "if not exist %LIBRARY_INC%\\\\git2/sys/reflog.h exit 1",
+    "if not exist %LIBRARY_INC%\\\\git2/sys/refs.h exit 1",
+    "if not exist %LIBRARY_INC%\\\\git2/sys/repository.h exit 1",
+    "if not exist %LIBRARY_INC%\\\\git2/sys/stream.h exit 1",
+    "if not exist %LIBRARY_INC%\\\\git2/sys/transport.h exit 1",
+    "if not exist %LIBRARY_INC%\\\\git2/tag.h exit 1",
+    "if not exist %LIBRARY_INC%\\\\git2/trace.h exit 1",
+    "if not exist %LIBRARY_INC%\\\\git2/transaction.h exit 1",
+    "if not exist %LIBRARY_INC%\\\\git2/transport.h exit 1",
+    "if not exist %LIBRARY_INC%\\\\git2/tree.h exit 1",
+    "if not exist %LIBRARY_INC%\\\\git2/types.h exit 1",
+    "if not exist %LIBRARY_INC%\\\\git2/version.h exit 1",
+    "if not exist %LIBRARY_INC%\\\\git2/worktree.h exit 1",
+    "if not exist %LIBRARY_BIN%\\git2.dll exit 1",
+    "if not exist %LIBRARY_LIB%\\git2.lib exit 1",
+    "test -f $PREFIX/include/git2.h",
+    "test -f $PREFIX/include/git2/annotated_commit.h",
+    "test -f $PREFIX/include/git2/attr.h",
+    "test -f $PREFIX/include/git2/blame.h",
+    "test -f $PREFIX/include/git2/blob.h",
+    "test -f $PREFIX/include/git2/branch.h",
+    "test -f $PREFIX/include/git2/buffer.h",
+    "test -f $PREFIX/include/git2/checkout.h",
+    "test -f $PREFIX/include/git2/apply.h",
+    "test -f $PREFIX/include/git2/cert.h",
+    "test -f $PREFIX/include/git2/cherrypick.h",
+    "test -f $PREFIX/include/git2/clone.h",
+    "test -f $PREFIX/include/git2/commit.h",
+    "test -f $PREFIX/include/git2/common.h",
+    "test -f $PREFIX/include/git2/config.h",
+    "test -f $PREFIX/include/git2/cred_helpers.h",
+    "test -f $PREFIX/include/git2/credential.h",
+    "test -f $PREFIX/include/git2/credential_helpers.h",
+    "test -f $PREFIX/include/git2/deprecated.h",
+    "test -f $PREFIX/include/git2/describe.h",
+    "test -f $PREFIX/include/git2/diff.h",
+    "test -f $PREFIX/include/git2/errors.h",
+    "test -f $PREFIX/include/git2/filter.h",
+    "test -f $PREFIX/include/git2/global.h",
+    "test -f $PREFIX/include/git2/graph.h",
+    "test -f $PREFIX/include/git2/ignore.h",
+    "test -f $PREFIX/include/git2/index.h",
+    "test -f $PREFIX/include/git2/indexer.h",
+    "test -f $PREFIX/include/git2/mailmap.h",
+    "test -f $PREFIX/include/git2/merge.h",
+    "test -f $PREFIX/include/git2/message.h",
+    "test -f $PREFIX/include/git2/net.h",
+    "test -f $PREFIX/include/git2/notes.h",
+    "test -f $PREFIX/include/git2/object.h",
+    "test -f $PREFIX/include/git2/odb.h",
+    "test -f $PREFIX/include/git2/odb_backend.h",
+    "test -f $PREFIX/include/git2/oid.h",
+    "test -f $PREFIX/include/git2/oidarray.h",
+    "test -f $PREFIX/include/git2/pack.h",
+    "test -f $PREFIX/include/git2/patch.h",
+    "test -f $PREFIX/include/git2/pathspec.h",
+    "test -f $PREFIX/include/git2/proxy.h",
+    "test -f $PREFIX/include/git2/rebase.h",
+    "test -f $PREFIX/include/git2/refdb.h",
+    "test -f $PREFIX/include/git2/reflog.h",
+    "test -f $PREFIX/include/git2/refs.h",
+    "test -f $PREFIX/include/git2/refspec.h",
+    "test -f $PREFIX/include/git2/remote.h",
+    "test -f $PREFIX/include/git2/repository.h",
+    "test -f $PREFIX/include/git2/reset.h",
+    "test -f $PREFIX/include/git2/revert.h",
+    "test -f $PREFIX/include/git2/revparse.h",
+    "test -f $PREFIX/include/git2/revwalk.h",
+    "test -f $PREFIX/include/git2/signature.h",
+    "test -f $PREFIX/include/git2/stash.h",
+    "test -f $PREFIX/include/git2/status.h",
+    "test -f $PREFIX/include/git2/stdint.h",
+    "test -f $PREFIX/include/git2/strarray.h",
+    "test -f $PREFIX/include/git2/submodule.h",
+    "test -f $PREFIX/include/git2/sys/alloc.h",
+    "test -f $PREFIX/include/git2/sys/commit.h",
+    "test -f $PREFIX/include/git2/sys/config.h",
+    "test -f $PREFIX/include/git2/sys/cred.h",
+    "test -f $PREFIX/include/git2/sys/credential.h",
+    "test -f $PREFIX/include/git2/sys/diff.h",
+    "test -f $PREFIX/include/git2/sys/filter.h",
+    "test -f $PREFIX/include/git2/sys/hashsig.h",
+    "test -f $PREFIX/include/git2/sys/index.h",
+    "test -f $PREFIX/include/git2/sys/mempack.h",
+    "test -f $PREFIX/include/git2/sys/merge.h",
+    "test -f $PREFIX/include/git2/sys/odb_backend.h",
+    "test -f $PREFIX/include/git2/sys/openssl.h",
+    "test -f $PREFIX/include/git2/sys/path.h",
+    "test -f $PREFIX/include/git2/sys/refdb_backend.h",
+    "test -f $PREFIX/include/git2/sys/reflog.h",
+    "test -f $PREFIX/include/git2/sys/refs.h",
+    "test -f $PREFIX/include/git2/sys/repository.h",
+    "test -f $PREFIX/include/git2/sys/stream.h",
+    "test -f $PREFIX/include/git2/sys/transport.h",
+    "test -f $PREFIX/include/git2/tag.h",
+    "test -f $PREFIX/include/git2/trace.h",
+    "test -f $PREFIX/include/git2/transaction.h",
+    "test -f $PREFIX/include/git2/transport.h",
+    "test -f $PREFIX/include/git2/tree.h",
+    "test -f $PREFIX/include/git2/types.h",
+    "test -f $PREFIX/include/git2/version.h",
+    "test -f $PREFIX/include/git2/worktree.h",
+    "test -f $PREFIX/lib/%LIBRARY_BIN%\\git2.dll",
+    "test -f $PREFIX/lib/%LIBRARY_LIB%\\git2.lib",
+    "test -f $PREFIX/include/git2.h",
+    "test -f $PREFIX/include/git2/annotated_commit.h",
+    "test -f $PREFIX/include/git2/attr.h",
+    "test -f $PREFIX/include/git2/blame.h",
+    "test -f $PREFIX/include/git2/blob.h",
+    "test -f $PREFIX/include/git2/branch.h",
+    "test -f $PREFIX/include/git2/buffer.h",
+    "test -f $PREFIX/include/git2/checkout.h",
+    "test -f $PREFIX/include/git2/apply.h",
+    "test -f $PREFIX/include/git2/cert.h",
+    "test -f $PREFIX/include/git2/cherrypick.h",
+    "test -f $PREFIX/include/git2/clone.h",
+    "test -f $PREFIX/include/git2/commit.h",
+    "test -f $PREFIX/include/git2/common.h",
+    "test -f $PREFIX/include/git2/config.h",
+    "test -f $PREFIX/include/git2/cred_helpers.h",
+    "test -f $PREFIX/include/git2/credential.h",
+    "test -f $PREFIX/include/git2/credential_helpers.h",
+    "test -f $PREFIX/include/git2/deprecated.h",
+    "test -f $PREFIX/include/git2/describe.h",
+    "test -f $PREFIX/include/git2/diff.h",
+    "test -f $PREFIX/include/git2/errors.h",
+    "test -f $PREFIX/include/git2/filter.h",
+    "test -f $PREFIX/include/git2/global.h",
+    "test -f $PREFIX/include/git2/graph.h",
+    "test -f $PREFIX/include/git2/ignore.h",
+    "test -f $PREFIX/include/git2/index.h",
+    "test -f $PREFIX/include/git2/indexer.h",
+    "test -f $PREFIX/include/git2/mailmap.h",
+    "test -f $PREFIX/include/git2/merge.h",
+    "test -f $PREFIX/include/git2/message.h",
+    "test -f $PREFIX/include/git2/net.h",
+    "test -f $PREFIX/include/git2/notes.h",
+    "test -f $PREFIX/include/git2/object.h",
+    "test -f $PREFIX/include/git2/odb.h",
+    "test -f $PREFIX/include/git2/odb_backend.h",
+    "test -f $PREFIX/include/git2/oid.h",
+    "test -f $PREFIX/include/git2/oidarray.h",
+    "test -f $PREFIX/include/git2/pack.h",
+    "test -f $PREFIX/include/git2/patch.h",
+    "test -f $PREFIX/include/git2/pathspec.h",
+    "test -f $PREFIX/include/git2/proxy.h",
+    "test -f $PREFIX/include/git2/rebase.h",
+    "test -f $PREFIX/include/git2/refdb.h",
+    "test -f $PREFIX/include/git2/reflog.h",
+    "test -f $PREFIX/include/git2/refs.h",
+    "test -f $PREFIX/include/git2/refspec.h",
+    "test -f $PREFIX/include/git2/remote.h",
+    "test -f $PREFIX/include/git2/repository.h",
+    "test -f $PREFIX/include/git2/reset.h",
+    "test -f $PREFIX/include/git2/revert.h",
+    "test -f $PREFIX/include/git2/revparse.h",
+    "test -f $PREFIX/include/git2/revwalk.h",
+    "test -f $PREFIX/include/git2/signature.h",
+    "test -f $PREFIX/include/git2/stash.h",
+    "test -f $PREFIX/include/git2/status.h",
+    "test -f $PREFIX/include/git2/stdint.h",
+    "test -f $PREFIX/include/git2/strarray.h",
+    "test -f $PREFIX/include/git2/submodule.h",
+    "test -f $PREFIX/include/git2/sys/alloc.h",
+    "test -f $PREFIX/include/git2/sys/commit.h",
+    "test -f $PREFIX/include/git2/sys/config.h",
+    "test -f $PREFIX/include/git2/sys/cred.h",
+    "test -f $PREFIX/include/git2/sys/credential.h",
+    "test -f $PREFIX/include/git2/sys/diff.h",
+    "test -f $PREFIX/include/git2/sys/filter.h",
+    "test -f $PREFIX/include/git2/sys/hashsig.h",
+    "test -f $PREFIX/include/git2/sys/index.h",
+    "test -f $PREFIX/include/git2/sys/mempack.h",
+    "test -f $PREFIX/include/git2/sys/merge.h",
+    "test -f $PREFIX/include/git2/sys/odb_backend.h",
+    "test -f $PREFIX/include/git2/sys/openssl.h",
+    "test -f $PREFIX/include/git2/sys/path.h",
+    "test -f $PREFIX/include/git2/sys/refdb_backend.h",
+    "test -f $PREFIX/include/git2/sys/reflog.h",
+    "test -f $PREFIX/include/git2/sys/refs.h",
+    "test -f $PREFIX/include/git2/sys/repository.h",
+    "test -f $PREFIX/include/git2/sys/stream.h",
+    "test -f $PREFIX/include/git2/sys/transport.h",
+    "test -f $PREFIX/include/git2/tag.h",
+    "test -f $PREFIX/include/git2/trace.h",
+    "test -f $PREFIX/include/git2/transaction.h",
+    "test -f $PREFIX/include/git2/transport.h",
+    "test -f $PREFIX/include/git2/tree.h",
+    "test -f $PREFIX/include/git2/types.h",
+    "test -f $PREFIX/include/git2/version.h",
+    "test -f $PREFIX/include/git2/worktree.h",
+    "test -f $PREFIX/lib/%LIBRARY_BIN%\\git2.dll",
+    "test -f $PREFIX/lib/%LIBRARY_LIB%\\git2.lib"
+   ]
+  }
+ },
+ "name":"libgit2",
+ "new_version":"1.0.0",
+ "new_version_attempts":{
+  "1.0.0":52
+ },
+ "new_version_errors":{
+  "1.0.0":"We found a problem parsing the recipe: \n\nwhile parsing a block mapping\n  in \"<unicode string>\", line 48, column 3:\n      commands:\n      ^ (line: 48)\nexpected <block end>, but found ','\n  in \"<unicode string>\", line 51, column 21:\n                \"git2.h\",\n                        ^ (line: 51)"
+ },
+ "pinning_version":"2020.02.12",
+ "raw_meta_yaml":"{% set name = \"libgit2\" %}\n{% set version = \"1.0.0\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://github.com/{{ name }}/{{ name }}/archive/v{{ version }}.tar.gz\n  sha256: 6a1fa16a7f6335ce8b2630fbdbb5e57c4027929ebc56fcd1ac55edb141b409b4\n  patches:\n    - htonll-osx.patch\n\nbuild:\n  number: 0\n  run_exports:\n    # SONAME is based on minor version\n    - {{ pin_subpackage(\"libgit2\", max_pin=\"x.x\") }}\n\nrequirements:\n  build:\n    - cmake\n    - ninja\n    - pkg-config      # [not win]\n    - {{ compiler('c') }}\n    - {{ compiler('cxx') }}\n  host:\n    - msinttypes      # [win]\n    - openssl         # [not win]\n    - libiconv        # [osx]\n    - curl\n    - libssh2\n    - zlib\n  run:\n    - openssl         # [not win]\n    - libiconv        # [osx]\n    - curl\n    - libssh2\n    - zlib\n\ntest:\n  commands:\n    # Include files.\n    {% set includes = [\n            \"git2.h\",\n            \"git2/annotated_commit.h\",\n            \"git2/attr.h\",\n            \"git2/blame.h\",\n            \"git2/blob.h\",\n            \"git2/branch.h\",\n            \"git2/buffer.h\",\n            \"git2/checkout.h\",\n            \"git2/apply.h\",\n            \"git2/cert.h\",\n            \"git2/cherrypick.h\",\n            \"git2/clone.h\",\n            \"git2/commit.h\",\n            \"git2/common.h\",\n            \"git2/config.h\",\n            \"git2/cred_helpers.h\",\n            \"git2/credential.h\",\n            \"git2/credential_helpers.h\",\n            \"git2/deprecated.h\",\n            \"git2/describe.h\",\n            \"git2/diff.h\",\n            \"git2/errors.h\",\n            \"git2/filter.h\",\n            \"git2/global.h\",\n            \"git2/graph.h\",\n            \"git2/ignore.h\",\n            \"git2/index.h\",\n            \"git2/indexer.h\",\n            \"git2/mailmap.h\",\n            \"git2/merge.h\",\n            \"git2/message.h\",\n            \"git2/net.h\",\n            \"git2/notes.h\",\n            \"git2/object.h\",\n            \"git2/odb.h\",\n            \"git2/odb_backend.h\",\n            \"git2/oid.h\",\n            \"git2/oidarray.h\",\n            \"git2/pack.h\",\n            \"git2/patch.h\",\n            \"git2/pathspec.h\",\n            \"git2/proxy.h\",\n            \"git2/rebase.h\",\n            \"git2/refdb.h\",\n            \"git2/reflog.h\",\n            \"git2/refs.h\",\n            \"git2/refspec.h\",\n            \"git2/remote.h\",\n            \"git2/repository.h\",\n            \"git2/reset.h\",\n            \"git2/revert.h\",\n            \"git2/revparse.h\",\n            \"git2/revwalk.h\",\n            \"git2/signature.h\",\n            \"git2/stash.h\",\n            \"git2/status.h\",\n            \"git2/stdint.h\",\n            \"git2/strarray.h\",\n            \"git2/submodule.h\",\n            \"git2/sys/alloc.h\",\n            \"git2/sys/commit.h\",\n            \"git2/sys/config.h\",\n            \"git2/sys/cred.h\",\n            \"git2/sys/credential.h\",\n            \"git2/sys/diff.h\",\n            \"git2/sys/filter.h\",\n            \"git2/sys/hashsig.h\",\n            \"git2/sys/index.h\",\n            \"git2/sys/mempack.h\",\n            \"git2/sys/merge.h\",\n            \"git2/sys/odb_backend.h\",\n            \"git2/sys/openssl.h\",\n            \"git2/sys/path.h\",\n            \"git2/sys/refdb_backend.h\",\n            \"git2/sys/reflog.h\",\n            \"git2/sys/refs.h\",\n            \"git2/sys/repository.h\",\n            \"git2/sys/stream.h\",\n            \"git2/sys/transport.h\",\n            \"git2/tag.h\",\n            \"git2/trace.h\",\n            \"git2/transaction.h\",\n            \"git2/transport.h\",\n            \"git2/tree.h\",\n            \"git2/types.h\",\n            \"git2/version.h\",\n            \"git2/worktree.h\",\n    ] %}\n\n    # Linux libraries.\n    {% set linux_libs = [\n            \"libgit2.so\",\n    ] %}\n\n    # OSX libraries.\n    {% set osx_libs = [\n            \"libgit2.dylib\",\n    ] %}\n\n    # Windows libraries.\n    {% set win_libs = [\n            \"%LIBRARY_BIN%\\\\git2.dll\",\n            \"%LIBRARY_LIB%\\\\git2.lib\"\n    ] %}\n\n    {% for include in includes %}\n    - test -f $PREFIX/include/{{ include }}                 # [not win]\n    - if not exist %LIBRARY_INC%\\\\{{ include }} exit 1      # [win]\n    {% endfor %}\n\n    {% set libs = linux_libs %}                             # [linux]\n    {% set libs = osx_libs %}                               # [osx]\n    {% set libs = win_libs %}                               # [win]\n\n    {% for lib in libs %}\n    - test -f $PREFIX/lib/{{ lib }}                         # [not win]\n    - if not exist {{ lib }} exit 1                         # [win]\n    {% endfor %}\n\nabout:\n  home: https://libgit2.github.com\n  license: GPL-2.0-only WITH GCC-exception-2.0\n  license_file: COPYING\n  summary: 'libgit2 is a portable, pure C implementation of the Git core methods provided as a re-entrant linkable library with a solid API, allowing you to write native speed custom Git applications in any language which supports C bindings.'\n\n  # The remaining entries in this section are optional, but recommended\n  description: |\n    libgit2 is a portable, pure C implementation of the Git core methods\n    provided as a re-entrant linkable library with a solid API, allowing\n    you to write native speed custom Git applications in any language\n    which supports C bindings.\n\nextra:\n  recipe-maintainers:\n    - shadowwalkersb\n    - xhochy\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "c_compiler_stub",
+   "cmake",
+   "curl",
+   "cxx_compiler_stub",
+   "libiconv",
+   "libssh2",
+   "msinttypes",
+   "ninja",
+   "openssl",
+   "pkg-config",
+   "zlib"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "cmake",
+    "cxx_compiler_stub",
+    "ninja",
+    "pkg-config"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "curl",
+    "libiconv",
+    "libssh2",
+    "msinttypes",
+    "openssl",
+    "zlib"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "curl",
+    "libiconv",
+    "libssh2",
+    "openssl",
+    "zlib"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.6.8",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "cmake",
+    "cxx_compiler_stub",
+    "ninja",
+    "pkg-config"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "curl",
+    "libiconv",
+    "libssh2",
+    "msinttypes",
+    "openssl",
+    "zlib"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "curl",
+    "libiconv",
+    "libssh2",
+    "openssl",
+    "zlib"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://github.com/libgit2/libgit2/archive/v0.28.3.tar.gz",
+ "version":"1.0.0"
+}

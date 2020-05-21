@@ -1,0 +1,139 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/357587265.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.5.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"tryingsnake",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "dev_url":"https://github.com/zero323/tryingsnake",
+   "doc_url":"https://github.com/zero323/tryingsnake/blob/master/README.md",
+   "home":"https://github.com/zero323/tryingsnake",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"LICENSE",
+   "summary":"Exception handling, the functional way."
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "zero323",
+    "zero323",
+    "zero323"
+   ]
+  },
+  "package":{
+   "name":"tryingsnake",
+   "version":"0.5.0"
+  },
+  "requirements":{
+   "host":[
+    "pip",
+    "python >=3.6",
+    "pip",
+    "python >=3.6",
+    "pip",
+    "python >=3.6"
+   ],
+   "run":[
+    "python >=3.6",
+    "python >=3.6",
+    "python >=3.6"
+   ]
+  },
+  "source":{
+   "sha256":"82618732359dc307188dc9de74ef417d2a7c82c689d604def193af6a3204f16f",
+   "url":"https://pypi.io/packages/source/t/tryingsnake/tryingsnake-0.5.0.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "tryingsnake",
+    "tryingsnake",
+    "tryingsnake"
+   ]
+  }
+ },
+ "name":"tryingsnake",
+ "new_version":"0.5.0",
+ "pinning_version":"2019.12.18",
+ "raw_meta_yaml":"{% set name = \"tryingsnake\" %}\n{% set version = \"0.5.0\" %}\n\npackage:\n  name: \"{{ name|lower }}\"\n  version: \"{{ version }}\"\n\nsource:\n  url: \"https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\"\n  sha256: 82618732359dc307188dc9de74ef417d2a7c82c689d604def193af6a3204f16f\n\nbuild:\n  number: 0\n  script: \"{{ PYTHON }} -m pip install . -vv\"\n  noarch: python\n\nrequirements:\n  host:\n    - pip\n    - python >=3.6\n  run:\n    - python >=3.6\n\ntest:\n  imports:\n    - tryingsnake\n\nabout:\n  home: \"https://github.com/zero323/tryingsnake\"\n  license: \"MIT\"\n  license_family: \"MIT\"\n  license_file: \"LICENSE\"\n  summary: \"Exception handling, the functional way.\"\n  doc_url: \"https://github.com/zero323/tryingsnake/blob/master/README.md\"\n  dev_url: \"https://github.com/zero323/tryingsnake\"\n\nextra:\n  recipe-maintainers:\n    - zero323\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "pip",
+   "python"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.6.5",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3.6"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "python >=3.6"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/t/tryingsnake/tryingsnake-0.4.0.tar.gz",
+ "version":"0.5.0"
+}

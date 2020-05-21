@@ -1,0 +1,154 @@
+{
+ "PRed":[
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.0.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.1.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"fpyutils",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"https://github.com/frnmst/fpyutils",
+   "license":"GPL-3.0",
+   "license_family":"GPL3",
+   "license_file":"LICENSE.txt",
+   "summary":"A collection of useful non-standard Python functions which aim to be simple to use, highly readable but not efficient"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . --no-deps -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "ocefpaf",
+    "ocefpaf",
+    "ocefpaf"
+   ]
+  },
+  "package":{
+   "name":"fpyutils",
+   "version":"1.1.0"
+  },
+  "requirements":{
+   "host":[
+    "python >=3",
+    "pip",
+    "python >=3",
+    "pip",
+    "python >=3",
+    "pip"
+   ],
+   "run":[
+    "python >=3",
+    "atomicwrites ==1.3.0",
+    "python >=3",
+    "atomicwrites ==1.3.0",
+    "python >=3",
+    "atomicwrites ==1.3.0"
+   ]
+  },
+  "source":{
+   "sha256":"ecf9314733324a82d13ab9941c3fc2f4897d27066e1ba00bfca27d66f43cc5b7",
+   "url":"https://pypi.io/packages/source/f/fpyutils/fpyutils-1.1.0.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "fpyutils",
+    "fpyutils",
+    "fpyutils"
+   ]
+  }
+ },
+ "name":"fpyutils",
+ "new_version":"1.1.0",
+ "pinning_version":"2019.04.12",
+ "raw_meta_yaml":"{% set version = \"1.1.0\" %}\n\npackage:\n  name: fpyutils\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/f/fpyutils/fpyutils-{{ version }}.tar.gz\n  sha256: ecf9314733324a82d13ab9941c3fc2f4897d27066e1ba00bfca27d66f43cc5b7\n\nbuild:\n  number: 0\n  noarch: python\n  script: \"{{ PYTHON }} -m pip install . --no-deps -vv\"\n\nrequirements:\n  host:\n    - python >=3\n    - pip\n  run:\n    - python >=3\n    - atomicwrites ==1.3.0\n\ntest:\n  imports:\n    - fpyutils\n\nabout:\n  home: https://github.com/frnmst/fpyutils\n  license: GPL-3.0\n  license_family: GPL3\n  license_file: LICENSE.txt\n  summary: 'A collection of useful non-standard Python functions which aim to be simple to use, highly readable but not efficient'\n\nextra:\n  recipe-maintainers:\n    - ocefpaf\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "atomicwrites",
+   "pip",
+   "python"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "atomicwrites",
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.3.2",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "atomicwrites ==1.3.0",
+    "python >=3"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/f/fpyutils/fpyutils-1.1.0.tar.gz",
+ "version":"1.1.0"
+}

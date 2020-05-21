@@ -1,0 +1,230 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/329373480.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.2.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/368615380.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.2.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/375775302.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MatplotlibBase",
+    "migrator_version":0,
+    "name":"matplotlib-to-matplotlib-base"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"atomap",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"Atomap is a Python library for analysing atomic resolution\nscanning transmission electron microscopy images.\nIt relies on fitting 2-D Gaussian functions to every atomic\ncolumn in an image, and automatically finding all the atomic\nplanes with the largest spacings.\n",
+   "dev_url":"https://gitlab.com/atomap/atomap",
+   "doc_url":"https://atomap.org/install.html",
+   "home":"https://atomap.org",
+   "license":"GPL-3.0-or-later",
+   "license_family":"GPL",
+   "license_file":"LICENSE",
+   "summary":"Library for analysing atomic resolution images"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"1",
+   "script":" -m pip install . --no-deps -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "magnunor",
+    "magnunor",
+    "magnunor"
+   ]
+  },
+  "package":{
+   "name":"atomap",
+   "version":"0.2.1"
+  },
+  "requirements":{
+   "host":[
+    "python >=3",
+    "pip",
+    "python >=3",
+    "pip",
+    "python >=3",
+    "pip"
+   ],
+   "run":[
+    "python >=3",
+    "scipy",
+    "numpy >=1.13",
+    "h5py",
+    "matplotlib-base >=3.1.0",
+    "tqdm",
+    "scikit-image >=0.13",
+    "scikit-learn",
+    "hyperspy-base >=1.5.2",
+    "python >=3",
+    "scipy",
+    "numpy >=1.13",
+    "h5py",
+    "matplotlib-base >=3.1.0",
+    "tqdm",
+    "scikit-image >=0.13",
+    "scikit-learn",
+    "hyperspy-base >=1.5.2",
+    "python >=3",
+    "scipy",
+    "numpy >=1.13",
+    "h5py",
+    "matplotlib-base >=3.1.0",
+    "tqdm",
+    "scikit-image >=0.13",
+    "scikit-learn",
+    "hyperspy-base >=1.5.2"
+   ]
+  },
+  "source":{
+   "sha256":"2334b9c1ef4f756efe2945a1f08da498dc6b7e65ecc019d043be7a1feeff7c08",
+   "url":"https://pypi.io/packages/source/a/atomap/atomap-0.2.1.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "set MPLBACKEND=agg",
+    "python -c \"import atomap.api\"",
+    "export MPLBACKEND=agg",
+    "python -c \"import atomap.api\"",
+    "export MPLBACKEND=agg",
+    "python -c \"import atomap.api\""
+   ],
+   "imports":[
+    "atomap",
+    "atomap",
+    "atomap"
+   ]
+  }
+ },
+ "name":"atomap",
+ "new_version":"0.2.1",
+ "pinning_version":"2020.02.12",
+ "raw_meta_yaml":"{% set name = \"atomap\" %}\n{% set version = \"0.2.1\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: 2334b9c1ef4f756efe2945a1f08da498dc6b7e65ecc019d043be7a1feeff7c08\n\nbuild:\n  noarch: python\n  number: 1\n  script: \"{{ PYTHON }} -m pip install . --no-deps -vv\"\n\nrequirements:\n  host:\n    - python >=3\n    - pip\n  run:\n    - python >=3\n    - scipy\n    - numpy >=1.13\n    - h5py\n    - matplotlib-base >=3.1.0\n    - tqdm\n    - scikit-image >=0.13\n    - scikit-learn\n    - hyperspy-base >=1.5.2\n\ntest:\n  imports:\n    - atomap\n  commands:\n    - export MPLBACKEND=agg  # [unix]\n    - set MPLBACKEND=agg  # [win]\n    - python -c \"import atomap.api\"\n\nabout:\n  home: https://atomap.org\n  license: GPL-3.0-or-later\n  license_family: GPL\n  license_file: LICENSE\n  summary: 'Library for analysing atomic resolution images'\n  description: |\n    Atomap is a Python library for analysing atomic resolution\n    scanning transmission electron microscopy images.\n    It relies on fitting 2-D Gaussian functions to every atomic\n    column in an image, and automatically finding all the atomic\n    planes with the largest spacings.\n  doc_url: https://atomap.org/install.html\n  dev_url: https://gitlab.com/atomap/atomap\n\nextra:\n  recipe-maintainers:\n    - magnunor\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "h5py",
+   "hyperspy-base",
+   "matplotlib-base",
+   "numpy",
+   "pip",
+   "python",
+   "scikit-image",
+   "scikit-learn",
+   "scipy",
+   "tqdm"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "h5py",
+    "hyperspy-base",
+    "matplotlib-base",
+    "numpy",
+    "python",
+    "scikit-image",
+    "scikit-learn",
+    "scipy",
+    "tqdm"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.6.8",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "h5py",
+    "hyperspy-base >=1.5.2",
+    "matplotlib-base >=3.1.0",
+    "numpy >=1.13",
+    "python >=3",
+    "scikit-image >=0.13",
+    "scikit-learn",
+    "scipy",
+    "tqdm"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/a/atomap/atomap-0.1.4.tar.gz",
+ "version":"0.2.1"
+}

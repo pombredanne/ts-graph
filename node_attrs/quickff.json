@@ -1,0 +1,7 @@
+{
+ "archived":true,
+ "bad":false,
+ "feedstock_name":"quickff",
+ "new_version":false,
+ "raw_meta_yaml":"{% set name = \"quickff\" %}\n{% set version = \"2.2.4\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/Q/QuickFF/QuickFF-{{ version }}.tar.gz\n  sha256: 5d2458df1c7fe082df06125c024022ccf6a9c9b8bceb24d34cd438c014113d25\n\nbuild:\n  noarch: python\n  number: 3\n  script: \"{{ PYTHON }} -m pip install . -vv\"\n\nrequirements:\n  host:\n    - python\n    - pip\n  run:\n    - python\n    - numpy\n    - yaff\n    - importlib_resources\n\ntest:\n  imports:\n    - quickff\n\nabout:\n  home: https://github.com/molmod/QuickFF\n  license: GPL-3.0\n  license_family: GPL\n  license_file: LICENSE\n  summary: 'A Python code to quickly derive ab initio parameterized force fields.'\n\n  description: |\n    QuickFF is a pythonic code to easily derive fully flexible force fields from ab\n    initio training data. The intended audience is very broad, one does not require\n    much force field experience to generate reliable force fields for molecular\n    systems.\n  doc_url: http://molmod.github.io/QuickFF/\n  dev_url: https://github.com/molmod/QuickFF\n\nextra:\n  recipe-maintainers:\n    - jan-janssen\n    - SanderBorgmans\n"
+}

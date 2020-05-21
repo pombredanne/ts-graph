@@ -1,0 +1,236 @@
+{
+ "PRed":[
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.7.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/215890205.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/243536757.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.8.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/249331258.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.8.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/360905435.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.9.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "compiler_stack":"comp7",
+  "max_py_ver":"37",
+  "max_r_ver":"35",
+  "provider":{
+   "win":"azure"
+  }
+ },
+ "feedstock_name":"xproperty",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"Leveraging C++ template and preprocessor metaprogramming techniques",
+   "dev_url":"https://github.com/QuantStack/xproperty",
+   "doc_url":"http://xproperty.readthedocs.io",
+   "home":"http://quantstack.net/xproperty",
+   "license":"BSD 3-Clause",
+   "license_family":"BSD",
+   "license_file":"LICENSE",
+   "summary":"C++ properties and observer pattern"
+  },
+  "build":{
+   "number":"0",
+   "skip":true
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "SylvainCorlay",
+    "JohanMabille",
+    "SylvainCorlay",
+    "JohanMabille",
+    "SylvainCorlay",
+    "JohanMabille"
+   ]
+  },
+  "package":{
+   "name":"xproperty",
+   "version":"0.10.1"
+  },
+  "requirements":{
+   "build":[
+    "cxx_compiler_stub",
+    "cmake",
+    "cxx_compiler_stub",
+    "cmake",
+    "cxx_compiler_stub",
+    "cmake"
+   ],
+   "host":[
+    "xtl >=0.6.11,<0.7",
+    "xtl >=0.6.11,<0.7",
+    "xtl >=0.6.11,<0.7"
+   ],
+   "run":[
+    "xtl >=0.6.11,<0.7",
+    "xtl >=0.6.11,<0.7",
+    "xtl >=0.6.11,<0.7"
+   ]
+  },
+  "source":{
+   "fn":"xproperty-0.10.1.tar.gz",
+   "sha256":"90ba5d3eb58586f07b64e6ec9c9a02cdd15595d964d3de784592567f3cdbf194",
+   "url":"https://github.com/QuantStack/xproperty/archive/0.10.1.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "if exist %LIBRARY_PREFIX%\\include\\xproperty\\xproperty.hpp (exit 0) else (exit 1)",
+    "if exist %LIBRARY_PREFIX%\\lib\\cmake\\xproperty\\xpropertyConfig.cmake (exit 0) else (exit 1)",
+    "if exist %LIBRARY_PREFIX%\\lib\\cmake\\xproperty\\xpropertyConfigVersion.cmake (exit 0) else (exit 1)",
+    "if exist %LIBRARY_PREFIX%\\lib\\cmake\\xproperty\\xpropertyTargets.cmake (exit 0) else (exit 1)",
+    "test -d ${PREFIX}/include/xproperty",
+    "test -f ${PREFIX}/include/xproperty/xproperty.hpp",
+    "test -f ${PREFIX}/lib/cmake/xproperty/xpropertyConfig.cmake",
+    "test -f ${PREFIX}/lib/cmake/xproperty/xpropertyConfigVersion.cmake",
+    "test -f ${PREFIX}/lib/cmake/xproperty/xpropertyTargets.cmake",
+    "test -d ${PREFIX}/include/xproperty",
+    "test -f ${PREFIX}/include/xproperty/xproperty.hpp",
+    "test -f ${PREFIX}/lib/cmake/xproperty/xpropertyConfig.cmake",
+    "test -f ${PREFIX}/lib/cmake/xproperty/xpropertyConfigVersion.cmake",
+    "test -f ${PREFIX}/lib/cmake/xproperty/xpropertyTargets.cmake"
+   ]
+  }
+ },
+ "name":"xproperty",
+ "new_version":"0.10.1",
+ "pinning_version":"2020.01.08",
+ "raw_meta_yaml":"{% set name = \"xproperty\" %}\n{% set version = \"0.10.1\" %}\n{% set sha256 = \"90ba5d3eb58586f07b64e6ec9c9a02cdd15595d964d3de784592567f3cdbf194\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  fn: {{ name }}-{{ version }}.tar.gz\n  url: https://github.com/QuantStack/xproperty/archive/{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  skip: True  # [win and vc<14]\n\nrequirements:\n  build:\n    - {{ compiler('cxx') }}\n    - cmake\n  host:\n    - xtl >=0.6.11,<0.7\n  run:\n    - xtl >=0.6.11,<0.7\n\ntest:\n  commands:\n    - test -d ${PREFIX}/include/xproperty  # [unix]\n    - test -f ${PREFIX}/include/xproperty/xproperty.hpp  # [unix]\n    - test -f ${PREFIX}/lib/cmake/xproperty/xpropertyConfig.cmake  # [unix]\n    - test -f ${PREFIX}/lib/cmake/xproperty/xpropertyConfigVersion.cmake  # [unix]\n    - test -f ${PREFIX}/lib/cmake/xproperty/xpropertyTargets.cmake  # [unix]\n    - if exist %LIBRARY_PREFIX%\\include\\xproperty\\xproperty.hpp (exit 0) else (exit 1)  # [win]\n    - if exist %LIBRARY_PREFIX%\\lib\\cmake\\xproperty\\xpropertyConfig.cmake (exit 0) else (exit 1)  # [win]\n    - if exist %LIBRARY_PREFIX%\\lib\\cmake\\xproperty\\xpropertyConfigVersion.cmake (exit 0) else (exit 1)  # [win]\n    - if exist %LIBRARY_PREFIX%\\lib\\cmake\\xproperty\\xpropertyTargets.cmake (exit 0) else (exit 1)  # [win]\n\nabout:\n  home: http://quantstack.net/xproperty\n  license: BSD 3-Clause\n  license_family: BSD\n  license_file: LICENSE\n  summary: C++ properties and observer pattern\n  description: Leveraging C++ template and preprocessor metaprogramming techniques\n  doc_url: http://xproperty.readthedocs.io\n  dev_url: https://github.com/QuantStack/xproperty\n\nextra:\n  recipe-maintainers:\n    - SylvainCorlay\n    - JohanMabille\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "cmake",
+   "cxx_compiler_stub",
+   "xtl"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "cmake",
+    "cxx_compiler_stub"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "xtl"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "xtl"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.6.5",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "cmake",
+    "cxx_compiler_stub"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "xtl >=0.6.11,<0.7"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "xtl >=0.6.11,<0.7"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://github.com/QuantStack/xproperty/archive/0.8.1.tar.gz",
+ "version":"0.10.1"
+}

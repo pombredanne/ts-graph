@@ -1,0 +1,158 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/227762183.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.4.6"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"pyct-core",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "dev_url":"https://github.com/pyviz/pyct",
+   "doc_url":"https://github.com/pyviz/pyct#pyctbuild",
+   "home":"https://github.com/pyviz/pyct",
+   "license":"BSD-3-Clause",
+   "license_family":"BSD",
+   "license_file":"LICENSE.txt",
+   "summary":"Common tasks for package building (e.g. bundle examples)"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "ceball",
+    "ceball",
+    "ceball"
+   ]
+  },
+  "package":{
+   "name":"pyct-core",
+   "version":"0.4.6"
+  },
+  "requirements":{
+   "host":[
+    "python",
+    "pip",
+    "param >=1.7.0",
+    "python",
+    "pip",
+    "param >=1.7.0",
+    "python",
+    "pip",
+    "param >=1.7.0"
+   ],
+   "run":[
+    "python",
+    "param >=1.7.0",
+    "python",
+    "param >=1.7.0",
+    "python",
+    "param >=1.7.0"
+   ],
+   "run_constrained":[
+    "pyct 0.4.6",
+    "pyct 0.4.6",
+    "pyct 0.4.6"
+   ]
+  },
+  "source":{
+   "sha256":"df7b2d29f874cabdbc22e4f8cba2ceb895c48aa33da4e0fe679e89873e0a4c6e",
+   "url":"https://pypi.io/packages/source/p/pyct/pyct-0.4.6.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "pyct",
+    "pyct.build",
+    "pyct",
+    "pyct.build",
+    "pyct",
+    "pyct.build"
+   ]
+  }
+ },
+ "name":"pyct-core",
+ "new_version":"0.4.6",
+ "pinning_version":"2018.10.31",
+ "raw_meta_yaml":"{% set name = \"pyct-core\" %}\n{% set version = \"0.4.6\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/p/pyct/pyct-{{ version }}.tar.gz\n  sha256: df7b2d29f874cabdbc22e4f8cba2ceb895c48aa33da4e0fe679e89873e0a4c6e\n\nbuild:\n  noarch: python\n  number: 0\n  script: \"{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv\"\n\nrequirements:\n  run_constrained:\n    - pyct {{ version }}\n  host:\n    - python\n    - pip\n    - param >=1.7.0\n  run:\n    - python\n    - param >=1.7.0\n\ntest:\n  imports:\n    - pyct\n    - pyct.build\n\nabout:\n  home: https://github.com/pyviz/pyct\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: LICENSE.txt\n  summary: 'Common tasks for package building (e.g. bundle examples)'\n  doc_url: https://github.com/pyviz/pyct#pyctbuild\n  dev_url: https://github.com/pyviz/pyct\n\nextra:\n  recipe-maintainers:\n    - ceball\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "param",
+   "pip",
+   "python"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "param",
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "param",
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.1.12",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "param >=1.7.0",
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "param >=1.7.0",
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/p/pyct/pyct-0.4.6.tar.gz",
+ "version":"0.4.6"
+}

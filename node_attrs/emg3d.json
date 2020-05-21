@@ -1,0 +1,261 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/340488539.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.9.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/356958279.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.9.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/373657284.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.9.3"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/393807943.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.10.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/410743290.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.10.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/413757452.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.11.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"emg3d",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"The modeller emg3d is a multigrid solver for 3D EM diffusion with tri-axial\nelectrical anisotropy. The matrix-free solver can be used as main solver or\nas preconditioner for Krylov subspace methods, and the governing equations\nare discretized on a staggered Yee grid.\n",
+   "dev_url":"https://github.com/empymod/emg3d",
+   "doc_url":"https://emg3d.readthedocs.io/",
+   "home":"https://empymod.github.io",
+   "license":"Apache-2.0",
+   "license_family":"APACHE",
+   "license_file":"LICENSE",
+   "summary":"A multigrid solver for 3D electromagnetic diffusion."
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "preserve_egg_dir":true,
+   "script":"-m pip install . -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "prisae",
+    "prisae",
+    "prisae"
+   ]
+  },
+  "package":{
+   "name":"emg3d",
+   "version":"0.11.0"
+  },
+  "requirements":{
+   "host":[
+    "pip",
+    "python >=3.7",
+    "setuptools_scm",
+    "pip",
+    "python >=3.7",
+    "setuptools_scm",
+    "pip",
+    "python >=3.7",
+    "setuptools_scm"
+   ],
+   "run":[
+    "empymod >=2.0.0",
+    "numba >=0.45.0",
+    "numpy",
+    "python >=3.7",
+    "scipy >=1.4.0",
+    "empymod >=2.0.0",
+    "numba >=0.45.0",
+    "numpy",
+    "python >=3.7",
+    "scipy >=1.4.0",
+    "empymod >=2.0.0",
+    "numba >=0.45.0",
+    "numpy",
+    "python >=3.7",
+    "scipy >=1.4.0"
+   ]
+  },
+  "source":{
+   "sha256":"a4f379123d462aa5326f90d658db64328bf0f66100f70b88c1cc3b437d423b35",
+   "url":"https://pypi.io/packages/source/e/emg3d/emg3d-0.11.0.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "emg3d",
+    "emg3d",
+    "emg3d"
+   ]
+  }
+ },
+ "name":"emg3d",
+ "new_version":"0.11.0",
+ "new_version_attempts":{
+  "0.10.1":1,
+  "0.11.0":1
+ },
+ "new_version_errors":{},
+ "pinning_version":"2020.05.04.19.59.17",
+ "raw_meta_yaml":"{% set name = \"emg3d\" %}\n{% set version = \"0.11.0\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: a4f379123d462aa5326f90d658db64328bf0f66100f70b88c1cc3b437d423b35\n\nbuild:\n  noarch: python\n  number: 0\n  script: {{ PYTHON }} -m pip install . -vv\n  preserve_egg_dir: true\n\nrequirements:\n  host:\n    - pip\n    - python >=3.7\n    - setuptools_scm\n  run:\n    - empymod >=2.0.0\n    - numba >=0.45.0\n    - numpy\n    - python >=3.7\n    - scipy >=1.4.0\n\ntest:\n  imports:\n    - emg3d\n\nabout:\n  home: https://empymod.github.io\n  license: Apache-2.0\n  license_family: APACHE\n  license_file: LICENSE\n  summary: A multigrid solver for 3D electromagnetic diffusion.\n  description: |\n    The modeller emg3d is a multigrid solver for 3D EM diffusion with tri-axial\n    electrical anisotropy. The matrix-free solver can be used as main solver or\n    as preconditioner for Krylov subspace methods, and the governing equations\n    are discretized on a staggered Yee grid.\n  doc_url: https://emg3d.readthedocs.io/\n  dev_url: https://github.com/empymod/emg3d\n\nextra:\n  recipe-maintainers:\n    - prisae\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "empymod",
+   "numba",
+   "numpy",
+   "pip",
+   "python",
+   "scipy",
+   "setuptools_scm"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python",
+    "setuptools_scm"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "empymod",
+    "numba",
+    "numpy",
+    "python",
+    "scipy"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.7.0\n",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3.7",
+    "setuptools_scm"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "empymod >=2.0.0",
+    "numba >=0.45.0",
+    "numpy",
+    "python >=3.7",
+    "scipy >=1.4.0"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/e/emg3d/emg3d-0.9.0.tar.gz",
+ "version":"0.11.0"
+}

@@ -1,0 +1,316 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/342770900.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"libtiff-4.1.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/345274476.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.11"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/371554754.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"gsl26"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"gnuastro",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"https://www.gnu.org/software/gnuastro",
+   "license":"GPL-3.0-or-later",
+   "license_family":"GPL",
+   "license_file":"COPYING",
+   "summary":"A GNU package consisting of various programs and library functions for the manipulation and analysis of astronomical data."
+  },
+  "build":{
+   "number":"1",
+   "skip":true
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "sebastian-luna-valero",
+    "mohammad-akhlaghi",
+    "sebastian-luna-valero",
+    "mohammad-akhlaghi",
+    "sebastian-luna-valero",
+    "mohammad-akhlaghi"
+   ]
+  },
+  "package":{
+   "name":"gnuastro",
+   "version":"0.11"
+  },
+  "requirements":{
+   "build":[
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "automake",
+    "make",
+    "libtool",
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "automake",
+    "make",
+    "libtool",
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "automake",
+    "make",
+    "libtool"
+   ],
+   "host":[
+    "gsl",
+    "cfitsio",
+    "wcslib",
+    "jpeg",
+    "libtiff",
+    "libgit2",
+    "ghostscript",
+    "gsl",
+    "cfitsio",
+    "wcslib",
+    "jpeg",
+    "libtiff",
+    "libgit2",
+    "ghostscript",
+    "gsl",
+    "cfitsio",
+    "wcslib",
+    "jpeg",
+    "libtiff",
+    "libgit2",
+    "ghostscript"
+   ],
+   "run":[
+    "wcslib",
+    "libcurl",
+    "libcblas",
+    "libgit2",
+    "xz",
+    "zlib",
+    "wcslib",
+    "libcurl",
+    "libcblas",
+    "libgit2",
+    "xz",
+    "zlib",
+    "wcslib",
+    "libcurl",
+    "libcblas",
+    "libgit2",
+    "xz",
+    "zlib"
+   ]
+  },
+  "source":{
+   "sha256":"f51a5fe6c2ac7218442aa87be883dbd98d130b48d5e2dff3abb2730113c76c2f",
+   "url":"http://ftp.gnu.org/gnu/gnuastro/gnuastro-0.11.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "astarithmetic --help",
+    "astconvertt --help",
+    "astcosmiccal --help",
+    "astfits --help",
+    "astmkcatalog --help",
+    "astmkprof --help",
+    "aststatistics --help",
+    "astwarp --help",
+    "astbuildprog --help",
+    "astconvolve --help",
+    "astcrop --help",
+    "astmatch --help",
+    "astmknoise --help",
+    "astnoisechisel --help",
+    "asttable --help",
+    "test -f ${PREFIX}/lib/libgnuastro${SHLIB_EXT}",
+    "test -f ${PREFIX}/lib/libgnuastro.a",
+    "astarithmetic --help",
+    "astconvertt --help",
+    "astcosmiccal --help",
+    "astfits --help",
+    "astmkcatalog --help",
+    "astmkprof --help",
+    "aststatistics --help",
+    "astwarp --help",
+    "astbuildprog --help",
+    "astconvolve --help",
+    "astcrop --help",
+    "astmatch --help",
+    "astmknoise --help",
+    "astnoisechisel --help",
+    "asttable --help",
+    "test -f ${PREFIX}/lib/libgnuastro${SHLIB_EXT}",
+    "test -f ${PREFIX}/lib/libgnuastro.a",
+    "astarithmetic --help",
+    "astconvertt --help",
+    "astcosmiccal --help",
+    "astfits --help",
+    "astmkcatalog --help",
+    "astmkprof --help",
+    "aststatistics --help",
+    "astwarp --help",
+    "astbuildprog --help",
+    "astconvolve --help",
+    "astcrop --help",
+    "astmatch --help",
+    "astmknoise --help",
+    "astnoisechisel --help",
+    "asttable --help"
+   ]
+  }
+ },
+ "name":"gnuastro",
+ "new_version":false,
+ "pinning_version":"2020.01.28",
+ "raw_meta_yaml":"{% set name = \"gnuastro\" %}\n{% set version = \"0.11\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: http://ftp.gnu.org/gnu/{{name}}/{{name}}-{{version}}.tar.gz\n  sha256: f51a5fe6c2ac7218442aa87be883dbd98d130b48d5e2dff3abb2730113c76c2f\n\nbuild:\n  number: 1\n  skip:  True  # [win]\n\nrequirements:\n  build:\n    - {{ compiler('c') }}\n    - {{ compiler('cxx') }}\n    - automake\n    - make\n    - libtool\n  host:\n    - gsl\n    - cfitsio\n    - wcslib\n    - jpeg\n    - libtiff\n    - libgit2\n    - ghostscript\n  run:\n    - wcslib\n    - libcurl\n    - libcblas\n    - libgit2\n    - xz\n    - zlib\n\ntest:\n  commands:\n    - test -f ${PREFIX}/lib/libgnuastro${SHLIB_EXT}  # [unix]\n    - test -f ${PREFIX}/lib/libgnuastro.a  # [unix]\n    - astarithmetic --help\n    - astconvertt --help\n    - astcosmiccal --help\n    - astfits --help\n    - astmkcatalog --help\n    - astmkprof --help\n    - aststatistics --help\n    - astwarp --help\n    - astbuildprog --help\n    - astconvolve --help\n    - astcrop --help\n    - astmatch --help\n    - astmknoise --help\n    - astnoisechisel --help\n    - asttable --help\n\nabout:\n  home: https://www.gnu.org/software/gnuastro\n  license: GPL-3.0-or-later\n  license_family: GPL\n  license_file: COPYING\n  summary: 'A GNU package consisting of various programs and library functions for the manipulation and analysis of astronomical data.'\n\nextra:\n  recipe-maintainers:\n    - sebastian-luna-valero\n    - mohammad-akhlaghi  # upstream developer\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "automake",
+   "c_compiler_stub",
+   "cfitsio",
+   "cxx_compiler_stub",
+   "ghostscript",
+   "gsl",
+   "jpeg",
+   "libcblas",
+   "libcurl",
+   "libgit2",
+   "libtiff",
+   "libtool",
+   "make",
+   "wcslib",
+   "xz",
+   "zlib"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "automake",
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "libtool",
+    "make"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "cfitsio",
+    "ghostscript",
+    "gsl",
+    "jpeg",
+    "libgit2",
+    "libtiff",
+    "wcslib"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "libcblas",
+    "libcurl",
+    "libgit2",
+    "wcslib",
+    "xz",
+    "zlib"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.6.7",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "automake",
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "libtool",
+    "make"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "cfitsio",
+    "ghostscript",
+    "gsl",
+    "jpeg",
+    "libgit2",
+    "libtiff",
+    "wcslib"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "libcblas",
+    "libcurl",
+    "libgit2",
+    "wcslib",
+    "xz",
+    "zlib"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"http://ftp.gnu.org/gnu/gnuastro/gnuastro-0.10.tar.gz",
+ "version":"0.11"
+}

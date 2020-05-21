@@ -1,0 +1,254 @@
+{
+ "PRed":[
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.5.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/231730100.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/298871676.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"RBaseRebuild",
+    "migrator_version":0,
+    "name":"r-base-3.6.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/413809135.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":2,
+    "migrator_version":0,
+    "name":"r400"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "bot":{
+   "automerge":true
+  },
+  "provider":{
+   "win":"azure"
+  }
+ },
+ "feedstock_name":"r-viridis",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"https://github.com/sjmgarnier/viridis",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":[
+    "/lib/R/share/licenses/MIT",
+    "LICENSE",
+    "/lib/R/share/licenses/MIT",
+    "LICENSE",
+    "/lib/R/share/licenses/MIT",
+    "LICENSE"
+   ],
+   "summary":"Implementation of the 'viridis' - the default -, 'magma', 'plasma',  'inferno', and 'cividis' color maps for 'R'. 'viridis', 'magma', 'plasma',  and 'inferno' are ported from 'matplotlib' <http://matplotlib.org/>, a  popular plotting library for 'python'. 'cividis', was developed by Jamie R.  Nu\u00f1ez and Sean M. Colby. These color maps are designed in such a way that  they will analytically be perfectly perceptually-uniform, both in regular  form and also when converted to black-and-white. They are also designed to  be perceived by readers with the most common form of color blindness (all  color maps in this package) and color vision deficiency ('cividis' only). "
+  },
+  "build":{
+   "merge_build_host":true,
+   "noarch":"generic",
+   "number":"1004",
+   "rpaths":[
+    "lib/R/lib/",
+    "lib/",
+    "lib/R/lib/",
+    "lib/",
+    "lib/R/lib/",
+    "lib/"
+   ]
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "conda-forge/r",
+    "roryk",
+    "conda-forge/r",
+    "roryk",
+    "conda-forge/r",
+    "roryk"
+   ]
+  },
+  "package":{
+   "name":"r-viridis",
+   "version":"0.5.1"
+  },
+  "requirements":{
+   "build":null,
+   "host":[
+    "r-base",
+    "r-ggplot2 >=1.0.1",
+    "r-gridextra",
+    "r-viridislite >=0.3.0",
+    "r-base",
+    "r-ggplot2 >=1.0.1",
+    "r-gridextra",
+    "r-viridislite >=0.3.0",
+    "r-base",
+    "r-ggplot2 >=1.0.1",
+    "r-gridextra",
+    "r-viridislite >=0.3.0"
+   ],
+   "run":[
+    "r-base",
+    "r-ggplot2 >=1.0.1",
+    "r-gridextra",
+    "r-viridislite >=0.3.0",
+    "r-base",
+    "r-ggplot2 >=1.0.1",
+    "r-gridextra",
+    "r-viridislite >=0.3.0",
+    "r-base",
+    "r-ggplot2 >=1.0.1",
+    "r-gridextra",
+    "r-viridislite >=0.3.0"
+   ]
+  },
+  "source":{
+   "sha256":"ddf267515838c6eb092938133035cee62ab6a78760413bfc28b8256165701918",
+   "url":[
+    "https://cran.r-project.org/src/contrib/viridis_0.5.1.tar.gz",
+    "https://cran.r-project.org/src/contrib/Archive/viridis/viridis_0.5.1.tar.gz",
+    "https://cran.r-project.org/src/contrib/viridis_0.5.1.tar.gz",
+    "https://cran.r-project.org/src/contrib/Archive/viridis/viridis_0.5.1.tar.gz",
+    "https://cran.r-project.org/src/contrib/viridis_0.5.1.tar.gz",
+    "https://cran.r-project.org/src/contrib/Archive/viridis/viridis_0.5.1.tar.gz"
+   ]
+  },
+  "test":{
+   "commands":[
+    "\"%R%\" -e \"library('viridis')\"",
+    "$R -e \"library('viridis')\"",
+    "$R -e \"library('viridis')\""
+   ]
+  }
+ },
+ "name":"r-viridis",
+ "new_version":"0.5.1",
+ "pinning_version":"2020.05.04.19.59.17",
+ "raw_meta_yaml":"{% set version = '0.5.1' %}\n{% set posix = 'm2-' if win else '' %}\n{% set native = 'm2w64-' if win else '' %}\n\npackage:\n  name: r-viridis\n  version: {{ version|replace(\"-\", \"_\") }}\n\nsource:\n  url:\n    - {{ cran_mirror }}/src/contrib/viridis_{{ version }}.tar.gz\n    - {{ cran_mirror }}/src/contrib/Archive/viridis/viridis_{{ version }}.tar.gz\n  sha256: ddf267515838c6eb092938133035cee62ab6a78760413bfc28b8256165701918\n\nbuild:\n  merge_build_host: True  # [win]\n  number: 1004\n  noarch: generic\n  rpaths:\n    - lib/R/lib/\n    - lib/\n\nrequirements:\n  build:\n    - {{ posix }}zip               # [win]\n  host:\n    - r-base\n    - r-ggplot2 >=1.0.1\n    - r-gridextra\n    - r-viridislite >=0.3.0\n  run:\n    - r-base\n    - r-ggplot2 >=1.0.1\n    - r-gridextra\n    - r-viridislite >=0.3.0\n\ntest:\n  commands:\n    - $R -e \"library('viridis')\"           # [not win]\n    - \"\\\"%R%\\\" -e \\\"library('viridis')\\\"\"  # [win]\n\nabout:\n  home: https://github.com/sjmgarnier/viridis\n  license: MIT\n  summary: \"Implementation of the 'viridis' - the default -, 'magma', 'plasma',  'inferno', and\n    'cividis' color maps for 'R'. 'viridis', 'magma', 'plasma',  and 'inferno' are ported\n    from 'matplotlib' <http://matplotlib.org/>, a  popular plotting library for 'python'.\n    'cividis', was developed by Jamie R.  Nu\\xF1ez and Sean M. Colby. These color maps\n    are designed in such a way that  they will analytically be perfectly perceptually-uniform,\n    both in regular  form and also when converted to black-and-white. They are also\n    designed to  be perceived by readers with the most common form of color blindness\n    (all  color maps in this package) and color vision deficiency ('cividis' only). \"\n  license_family: MIT\n  license_file:\n    - '{{ environ[\"PREFIX\"] }}/lib/R/share/licenses/MIT'\n    - LICENSE\n\nextra:\n  recipe-maintainers:\n    - conda-forge/r\n    - roryk\n\n# Package: viridis\n# Type: Package\n# Title: Default Color Maps from 'matplotlib'\n# Version: 0.5.1\n# Authors@R: c( person(\"Simon\", \"Garnier\", email = \"garnier@njit.edu\", role = c(\"aut\", \"cre\")), person(\"Noam\", \"Ross\", email = \"noam.ross@gmail.com\", role = c(\"ctb\", \"cph\")), person(\"Bob\", \"Rudis\", email = \"bob@rud.is\", role = c(\"ctb\", \"cph\")), person(\"Marco\", \"Sciaini\", email = \"sciaini.marco@gmail.com\", role = c(\"ctb\", \"cph\")), person(\"Cedric\", \"Scherer\", email = \"scherer@izw-berlin.de\", role = c(\"ctb\", \"cph\")) )\n# Maintainer: Simon Garnier <garnier@njit.edu>\n# Description: Implementation of the 'viridis' - the default -, 'magma', 'plasma',  'inferno', and 'cividis' color maps for 'R'. 'viridis', 'magma', 'plasma',  and 'inferno' are ported from 'matplotlib' <http://matplotlib.org/>, a  popular plotting library for 'python'. 'cividis', was developed by Jamie R.  Nunez and Sean M. Colby. These color maps are designed in such a way that  they will analytically be perfectly perceptually-uniform, both in regular  form and also when converted to black-and-white. They are also designed to  be perceived by readers with the most common form of color blindness (all  color maps in this package) and color vision deficiency ('cividis' only).\n# License: MIT + file LICENSE\n# LazyData: TRUE\n# Encoding: UTF-8\n# Depends: R (>= 2.10), viridisLite (>= 0.3.0)\n# Imports: stats, ggplot2 (>= 1.0.1), gridExtra\n# Suggests: hexbin (>= 1.27.0), scales, MASS, knitr, dichromat, colorspace, rasterVis, httr, mapproj, vdiffr, svglite (>= 1.2.0), testthat, covr, rmarkdown, rgdal\n# VignetteBuilder: knitr\n# URL: https://github.com/sjmgarnier/viridis\n# BugReports: https://github.com/sjmgarnier/viridis/issues\n# RoxygenNote: 6.0.1\n# NeedsCompilation: no\n# Packaged: 2018-03-29 14:51:56 UTC; simon\n# Author: Simon Garnier [aut, cre], Noam Ross [ctb, cph], Bob Rudis [ctb, cph], Marco Sciaini [ctb, cph], Cedric Scherer [ctb, cph]\n# Repository: CRAN\n# Date/Publication: 2018-03-29 15:48:56 UTC\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "r-base",
+   "r-ggplot2",
+   "r-gridextra",
+   "r-viridislite"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "r-base",
+    "r-ggplot2",
+    "r-gridextra",
+    "r-viridislite"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "r-base",
+    "r-ggplot2",
+    "r-gridextra",
+    "r-viridislite"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.7.0\n",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "r-base",
+    "r-ggplot2 >=1.0.1",
+    "r-gridextra",
+    "r-viridislite >=0.3.0"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "r-base",
+    "r-ggplot2 >=1.0.1",
+    "r-gridextra",
+    "r-viridislite >=0.3.0"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":[
+  "https://cran.r-project.org/src/contrib/viridis_0.5.1.tar.gz",
+  "https://cran.r-project.org/src/contrib/Archive/viridis/viridis_0.5.1.tar.gz",
+  "https://cran.r-project.org/src/contrib/viridis_0.5.1.tar.gz",
+  "https://cran.r-project.org/src/contrib/Archive/viridis/viridis_0.5.1.tar.gz",
+  "https://cran.r-project.org/src/contrib/viridis_0.5.1.tar.gz",
+  "https://cran.r-project.org/src/contrib/Archive/viridis/viridis_0.5.1.tar.gz"
+ ],
+ "version":"0.5.1"
+}

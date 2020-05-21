@@ -1,0 +1,224 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/222677290.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.2.3"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/223001460.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.2.4"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/224502440.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.2.5"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/240692074.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.2.7"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"usgs",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"https://github.com/mapbox/usgs",
+   "license":"MIT",
+   "summary":"Access the USGS inventory service"
+  },
+  "build":{
+   "entry_points":[
+    "usgs = usgs.scripts.cli:usgs",
+    "usgs = usgs.scripts.cli:usgs",
+    "usgs = usgs.scripts.cli:usgs"
+   ],
+   "noarch":"python",
+   "number":"0",
+   "preserve_egg_dir":true,
+   "script":" -m pip install . --no-deps --ignore-installed -vvv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "ocefpaf",
+    "ocefpaf",
+    "ocefpaf"
+   ]
+  },
+  "package":{
+   "name":"usgs",
+   "version":"0.2.7"
+  },
+  "requirements":{
+   "build":[
+    "python >=3",
+    "pip",
+    "python >=3",
+    "pip",
+    "python >=3",
+    "pip"
+   ],
+   "run":[
+    "python >=3",
+    "setuptools",
+    "click >=4.0",
+    "requests >=2.7.0",
+    "requests-futures >=0.9.5",
+    "python >=3",
+    "setuptools",
+    "click >=4.0",
+    "requests >=2.7.0",
+    "requests-futures >=0.9.5",
+    "python >=3",
+    "setuptools",
+    "click >=4.0",
+    "requests >=2.7.0",
+    "requests-futures >=0.9.5"
+   ]
+  },
+  "source":{
+   "sha256":"484e569ea1baf9574e11ccf15219957364690dcf06ee3d09afef030df944e79b",
+   "url":"https://pypi.io/packages/source/u/usgs/usgs-0.2.7.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "usgs --help",
+    "usgs --help",
+    "usgs --help"
+   ],
+   "imports":[
+    "usgs",
+    "usgs.scripts",
+    "usgs",
+    "usgs.scripts",
+    "usgs",
+    "usgs.scripts"
+   ]
+  }
+ },
+ "name":"usgs",
+ "new_version":"0.2.7",
+ "pinning_version":"2018.12.18",
+ "raw_meta_yaml":"{% set version = \"0.2.7\" %}\n\npackage:\n  name: usgs\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/u/usgs/usgs-{{ version }}.tar.gz\n  sha256: 484e569ea1baf9574e11ccf15219957364690dcf06ee3d09afef030df944e79b\n\nbuild:\n  number: 0\n  noarch: python\n  script: \"{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vvv\"\n  preserve_egg_dir: True\n  entry_points:\n    - usgs = usgs.scripts.cli:usgs\n\nrequirements:\n  build:\n    - python >=3\n    - pip\n  run:\n    - python >=3\n    - setuptools\n    - click >=4.0\n    - requests >=2.7.0\n    - requests-futures >=0.9.5\n\ntest:\n  imports:\n    - usgs\n    - usgs.scripts\n  commands:\n    - usgs --help\n\nabout:\n  home: https://github.com/mapbox/usgs\n  license: MIT\n  summary: 'Access the USGS inventory service'\n\nextra:\n  recipe-maintainers:\n    - ocefpaf\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "click",
+   "pip",
+   "python",
+   "requests",
+   "requests-futures",
+   "setuptools"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "click",
+    "python",
+    "requests",
+    "requests-futures",
+    "setuptools"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.2.2",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "click >=4.0",
+    "python >=3",
+    "requests >=2.7.0",
+    "requests-futures >=0.9.5",
+    "setuptools"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/u/usgs/usgs-0.2.7.tar.gz",
+ "version":"0.2.7"
+}

@@ -1,0 +1,255 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/240014703.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/335864426.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"python38"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/352509544.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.2.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/388339752.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.2.0.post0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "provider":{
+   "win":"azure"
+  }
+ },
+ "feedstock_name":"legit",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"https://github.com/kennethreitz/legit",
+   "license":"BSD-3-Clause",
+   "license_file":"LICENSE",
+   "summary":"Git for Humans"
+  },
+  "build":{
+   "entry_points":[
+    "legit = legit.cli:cli",
+    "legit = legit.cli:cli",
+    "legit = legit.cli:cli"
+   ],
+   "noarch":"python",
+   "number":"0",
+   "script":"-m pip install . --no-deps -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "ericmjl",
+    "ericmjl",
+    "ericmjl"
+   ]
+  },
+  "package":{
+   "name":"legit",
+   "version":"1.2.0.post0"
+  },
+  "requirements":{
+   "build":[
+    "python",
+    "pip",
+    "python",
+    "pip",
+    "python",
+    "pip"
+   ],
+   "run":[
+    "python",
+    "clint",
+    "click",
+    "crayons",
+    "gitpython",
+    "six",
+    "python",
+    "clint",
+    "click",
+    "crayons",
+    "gitpython",
+    "six",
+    "python",
+    "clint",
+    "click",
+    "crayons",
+    "gitpython",
+    "six"
+   ]
+  },
+  "source":{
+   "sha256":"949396b68029a8af405ab20c901902341ef6bd55c7fec6dab71141d63d406b11",
+   "url":"https://pypi.io/packages/source/l/legit/legit-1.2.0.post0.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "mkdir test-git-repo",
+    "cd test-git-repo",
+    "git init",
+    "git remote add origin http://",
+    "legit -h",
+    "mkdir test-git-repo",
+    "cd test-git-repo",
+    "git init",
+    "git remote add origin http://",
+    "legit -h",
+    "mkdir test-git-repo",
+    "cd test-git-repo",
+    "git init",
+    "git remote add origin http://",
+    "legit -h"
+   ],
+   "imports":[
+    "legit",
+    "legit",
+    "legit"
+   ],
+   "requires":[
+    "git",
+    "git",
+    "git"
+   ]
+  }
+ },
+ "name":"legit",
+ "new_version":"1.2.0.post0",
+ "pinning_version":"2020.03.13",
+ "raw_meta_yaml":"{% set version = \"1.2.0.post0\" %}\n\npackage:\n  name: legit\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/l/legit/legit-{{ version }}.tar.gz\n  sha256: 949396b68029a8af405ab20c901902341ef6bd55c7fec6dab71141d63d406b11\n\nbuild:\n  number: 0\n  noarch: python\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n  entry_points:\n    - legit = legit.cli:cli\n\nrequirements:\n  build:\n    - python\n    - pip\n  run:\n    - python\n    - clint\n    - click\n    - crayons\n    - gitpython\n    - six\n\ntest:\n  imports:\n    - legit\n  commands:\n    - mkdir test-git-repo\n    - cd test-git-repo\n    - git init\n    # legit needs a remote or it exits with a non-zero status\n    # so we just need to add a fake one\n    - git remote add origin http://\n    - legit -h\n  requires:\n    - git\n\nabout:\n  home: https://github.com/kennethreitz/legit\n  license: BSD-3-Clause\n  license_file: LICENSE\n  summary: Git for Humans\n\nextra:\n  recipe-maintainers:\n    - ericmjl\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "click",
+   "clint",
+   "crayons",
+   "gitpython",
+   "pip",
+   "python",
+   "six"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "click",
+    "clint",
+    "crayons",
+    "gitpython",
+    "python",
+    "six"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "git"
+   ]
+  }
+ },
+ "smithy_version":"3.6.12",
+ "strong_exports":false,
+ "time":1568135274.8168817,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "click",
+    "clint",
+    "crayons",
+    "gitpython",
+    "python",
+    "six"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "git"
+   ]
+  }
+ },
+ "url":"https://pypi.io/packages/source/l/legit/legit-1.1.0.tar.gz",
+ "version":"1.2.0.post0"
+}

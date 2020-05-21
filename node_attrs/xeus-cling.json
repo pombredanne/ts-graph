@@ -1,0 +1,393 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/240568142.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/249331439.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.4.11"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/265680744.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.5.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/272107281.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Rebuild",
+    "migrator_version":0,
+    "name":"zeromq-4.3.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/273251225.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.5.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/292412089.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.6.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/298869108.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.7.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/298912041.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.7.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/356500725.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.8.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "compiler_stack":"comp7",
+  "max_py_ver":"37",
+  "max_r_ver":"35"
+ },
+ "feedstock_name":"xeus-cling",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"Jupyter kernel for the C++ programming language",
+   "dev_url":"https://github.com/QuantStack/xeus-cling",
+   "doc_url":"http://xeus-cling.readthedocs.io",
+   "home":"http://quantstack.net/xeus-cling",
+   "license":"BSD-3-Clause",
+   "license_family":"BSD",
+   "license_file":"LICENSE",
+   "summary":"Cling-based C++ kernel for Jupyter based on xeus"
+  },
+  "build":{
+   "number":"3",
+   "run_exports":[
+    "xeus-cling",
+    "xeus-cling",
+    "xeus-cling"
+   ],
+   "skip":true
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "SylvainCorlay",
+    "JohanMabille",
+    "gouarin",
+    "martinRenou",
+    "SylvainCorlay",
+    "JohanMabille",
+    "gouarin",
+    "martinRenou",
+    "SylvainCorlay",
+    "JohanMabille",
+    "gouarin",
+    "martinRenou"
+   ]
+  },
+  "package":{
+   "name":"xeus-cling",
+   "version":"0.8.1"
+  },
+  "requirements":{
+   "build":[
+    "cxx_compiler_stub",
+    "cmake",
+    "cxx_compiler_stub",
+    "cmake",
+    "cxx_compiler_stub",
+    "cmake"
+   ],
+   "host":[
+    "cppzmq >=4.6.0,<4.7.0",
+    "zeromq >=4.3.1,<4.4.0",
+    "xeus >=0.23.2,<0.24",
+    "xtl >=0.6.5,<0.7",
+    "pugixml",
+    "cxxopts >=2.1.1,<2.2",
+    "nlohmann_json >=3.6.1,<4.0",
+    "dirent >=1.21,<2.0",
+    "zlib",
+    "llvmdev 5",
+    "clangdev 5.0.0",
+    "clang_variant * cling_v0.6",
+    "cling 0.6",
+    "cppzmq >=4.6.0,<4.7.0",
+    "zeromq >=4.3.1,<4.4.0",
+    "xeus >=0.23.2,<0.24",
+    "xtl >=0.6.5,<0.7",
+    "pugixml",
+    "cxxopts >=2.1.1,<2.2",
+    "nlohmann_json >=3.6.1,<4.0",
+    "zlib",
+    "llvmdev 5",
+    "clangdev 5.0.0",
+    "clang_variant * cling_v0.6",
+    "cling 0.6",
+    "cppzmq >=4.6.0,<4.7.0",
+    "zeromq >=4.3.1,<4.4.0",
+    "xeus >=0.23.2,<0.24",
+    "xtl >=0.6.5,<0.7",
+    "pugixml",
+    "cxxopts >=2.1.1,<2.2",
+    "nlohmann_json >=3.6.1,<4.0",
+    "zlib",
+    "llvmdev 5",
+    "clangdev 5.0.0",
+    "clang_variant * cling_v0.6",
+    "cling 0.6"
+   ],
+   "run":[
+    "cppzmq",
+    "xtl",
+    "nlohmann_json",
+    "cppzmq",
+    "xtl",
+    "nlohmann_json",
+    "cppzmq",
+    "xtl",
+    "nlohmann_json"
+   ]
+  },
+  "source":{
+   "fn":"xeus-cling-0.8.1.tar.gz",
+   "sha256":"dcc239ca93e9c80eb283307d70bf83a81bd2b4a029ad0be9f01291476ff730d3",
+   "url":"https://github.com/QuantStack/xeus-cling/archive/0.8.1.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "if exist %LIBRARY_PREFIX%\\bin\\xcpp.exe (exit 0) else (exit 1)",
+    "test -f ${PREFIX}/bin/xcpp",
+    "test -f ${PREFIX}/bin/xcpp"
+   ],
+   "requires":[
+    "jupyter_kernel_test",
+    "jupyter_kernel_test",
+    "jupyter_kernel_test"
+   ]
+  }
+ },
+ "name":"xeus-cling",
+ "new_version":"0.8.1",
+ "pinning_version":"2019.12.18",
+ "raw_meta_yaml":"{% set name = \"xeus-cling\" %}\n{% set version = \"0.8.1\" %}\n{% set sha256 = \"dcc239ca93e9c80eb283307d70bf83a81bd2b4a029ad0be9f01291476ff730d3\" %}\n\n{% set clang_version = [5, 0, 0] %}\n{% set cling_version = \"0.6\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  fn: {{ name }}-{{ version }}.tar.gz\n  url: https://github.com/QuantStack/xeus-cling/archive/{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 3\n  # Cling has not been built for windows yet\n  skip: true  # [win]\n  run_exports:\n    - {{ pin_subpackage(name, max_pin='x.x') }}\n\nrequirements:\n  build:\n    - {{ compiler('cxx') }}\n    - cmake\n  host:\n    - cppzmq >=4.6.0,<4.7.0\n    - zeromq >=4.3.1,<4.4.0\n    - xeus >=0.23.2,<0.24\n    - xtl >=0.6.5,<0.7\n    - pugixml\n    - cxxopts >=2.1.1,<2.2\n    - nlohmann_json >=3.6.1,<4.0\n    - dirent >=1.21,<2.0  # [win]\n    - zlib\n    - llvmdev {{ clang_version[0] }}\n    - clangdev {{ clang_version|join('.') }}\n    - clang_variant * cling_v{{ cling_version }}\n    - cling {{ cling_version }}\n  run:\n    # Even though cppzmq, xtl and nlohmann_json are header-only,\n    # they are used at runtime by the c++ interpreter.\n    - {{ pin_compatible('cppzmq', max_pin='x.x') }}\n    - {{ pin_compatible('xtl', max_pin='x.x') }}\n    - {{ pin_compatible('nlohmann_json', max_pin='x.x') }}\n\ntest:\n  requires:\n    - jupyter_kernel_test\n  commands:\n    - test -f ${PREFIX}/bin/xcpp  # [unix]\n    - if exist %LIBRARY_PREFIX%\\bin\\xcpp.exe (exit 0) else (exit 1)  # [win]\n\nabout:\n  home: http://quantstack.net/xeus-cling\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: LICENSE\n  summary: 'Cling-based C++ kernel for Jupyter based on xeus'\n  description: 'Jupyter kernel for the C++ programming language'\n  doc_url: http://xeus-cling.readthedocs.io\n  dev_url: https://github.com/QuantStack/xeus-cling\n\nextra:\n  recipe-maintainers:\n    - SylvainCorlay\n    - JohanMabille\n    - gouarin\n    - martinRenou\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "clang_variant",
+   "clangdev",
+   "cling",
+   "cmake",
+   "cppzmq",
+   "cxx_compiler_stub",
+   "cxxopts",
+   "dirent",
+   "llvmdev",
+   "nlohmann_json",
+   "pugixml",
+   "xeus",
+   "xtl",
+   "zeromq",
+   "zlib"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "cmake",
+    "cxx_compiler_stub"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "clang_variant",
+    "clangdev",
+    "cling",
+    "cppzmq",
+    "cxxopts",
+    "dirent",
+    "llvmdev",
+    "nlohmann_json",
+    "pugixml",
+    "xeus",
+    "xtl",
+    "zeromq",
+    "zlib"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "cppzmq",
+    "nlohmann_json",
+    "xtl"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "jupyter_kernel_test"
+   ]
+  }
+ },
+ "smithy_version":"3.6.5",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "cmake",
+    "cxx_compiler_stub"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "clang_variant * cling_v0.6",
+    "clangdev 5.0.0",
+    "cling 0.6",
+    "cppzmq >=4.6.0,<4.7.0",
+    "cxxopts >=2.1.1,<2.2",
+    "dirent >=1.21,<2.0",
+    "llvmdev 5",
+    "nlohmann_json >=3.6.1,<4.0",
+    "pugixml",
+    "xeus >=0.23.2,<0.24",
+    "xtl >=0.6.5,<0.7",
+    "zeromq >=4.3.1,<4.4.0",
+    "zlib"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "cppzmq",
+    "nlohmann_json",
+    "xtl"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "jupyter_kernel_test"
+   ]
+  }
+ },
+ "url":"https://github.com/QuantStack/xeus-cling/archive/0.7.1.tar.gz",
+ "version":"0.8.1"
+}

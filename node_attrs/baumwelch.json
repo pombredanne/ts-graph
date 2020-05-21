@@ -1,0 +1,153 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/378611797.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.3.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"baumwelch",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"A library for estimating the parameters of a discrete HMM\n",
+   "doc_url":"http://www.opengrm.org/twiki/bin/view/GRM/BaumWelchDocs",
+   "home":"http://bauwmelch.opengrm.org",
+   "license":"Apache-2.0",
+   "license_file":"LICENSE",
+   "summary":"Baum-Welch/expectation-maximization training and decoding"
+  },
+  "build":{
+   "number":"0",
+   "skip":true
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "kylebgorman",
+    "kylebgorman",
+    "kylebgorman"
+   ]
+  },
+  "package":{
+   "name":"baumwelch",
+   "version":"0.3.2"
+  },
+  "requirements":{
+   "build":[
+    "cxx_compiler_stub",
+    "make",
+    "cxx_compiler_stub",
+    "make",
+    "cxx_compiler_stub",
+    "make"
+   ],
+   "host":[
+    "openfst ==1.7.7",
+    "openfst ==1.7.7",
+    "openfst ==1.7.7"
+   ],
+   "run":[
+    "openfst ==1.7.7",
+    "openfst ==1.7.7",
+    "openfst ==1.7.7"
+   ]
+  },
+  "source":{
+   "sha256":"bb82a764834dfe2f6fbd76fea0cbfef12b6be091a8295212108014ca3a14ff11",
+   "url":"http://www.opengrm.org/twiki/pub/GRM/BaumWelchDownload/baumwelch-0.3.2.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "baumwelchdecode --helpshort || [[ $? == 1 ]]",
+    "baumwelchrandomize --helpshort || [[ $? == 1 ]]",
+    "baumwelchtrain --helpshort || [[ $? == 1 ]]",
+    "baumwelchdecode --helpshort || [[ $? == 1 ]]",
+    "baumwelchrandomize --helpshort || [[ $? == 1 ]]",
+    "baumwelchtrain --helpshort || [[ $? == 1 ]]",
+    "baumwelchdecode --helpshort || [[ $? == 1 ]]",
+    "baumwelchrandomize --helpshort || [[ $? == 1 ]]",
+    "baumwelchtrain --helpshort || [[ $? == 1 ]]"
+   ]
+  }
+ },
+ "name":"baumwelch",
+ "new_version":false,
+ "pinning_version":"2020.02.20",
+ "raw_meta_yaml":"{% set name = \"baumwelch\" %}\n{% set version = \"0.3.2\" %}\n\npackage: \n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: http://www.opengrm.org/twiki/pub/GRM/BaumWelchDownload/{{ name }}-{{ version }}.tar.gz\n  sha256: bb82a764834dfe2f6fbd76fea0cbfef12b6be091a8295212108014ca3a14ff11\n  \nbuild:\n  number: 0\n  skip: true  # [win]\n\nrequirements:\n  build:\n    - {{ compiler('cxx') }}\n    - make\n  host:\n    - openfst ==1.7.7\n  run:\n    - openfst ==1.7.7\n\ntest:\n  commands:\n    - baumwelchdecode --helpshort || [[ $? == 1 ]]\n    - baumwelchrandomize --helpshort || [[ $? == 1 ]]\n    - baumwelchtrain --helpshort || [[ $? == 1 ]]\n\nabout:\n  home: http://bauwmelch.opengrm.org\n  license: Apache-2.0\n  license_file: LICENSE\n  summary: Baum-Welch/expectation-maximization training and decoding\n  description: |\n    A library for estimating the parameters of a discrete HMM\n  doc_url: http://www.opengrm.org/twiki/bin/view/GRM/BaumWelchDocs\n\nextra:\n  recipe-maintainers:\n    - kylebgorman\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "cxx_compiler_stub",
+   "make",
+   "openfst"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "cxx_compiler_stub",
+    "make"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "openfst"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "openfst"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.6.8",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "cxx_compiler_stub",
+    "make"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "openfst ==1.7.7"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "openfst ==1.7.7"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"http://www.openfst.org/twiki/pub/Contrib/FstContrib/baumwelch-0.3.0.tar.gz",
+ "version":"0.3.2"
+}

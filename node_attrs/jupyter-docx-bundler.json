@@ -1,0 +1,227 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/337030428.json"
+   },
+   "data":{
+    "bot_rerun":1579272528.7789888,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"python38"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/337481312.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"python38"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/385260672.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.2.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "provider":{
+   "win":"azure"
+  }
+ },
+ "feedstock_name":"jupyter-docx-bundler",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "dev_url":"https://github.com/m-rossi/jupyter-docx-bundler",
+   "home":"https://github.com/m-rossi/jupyter-docx-bundler",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"LICENSE",
+   "summary":"Jupyter bundler extension to export notebook as a docx file"
+  },
+  "build":{
+   "number":"0",
+   "script":"-m pip install . -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "m-rossi",
+    "m-rossi",
+    "m-rossi"
+   ]
+  },
+  "package":{
+   "name":"jupyter-docx-bundler",
+   "version":"0.2.2"
+  },
+  "requirements":{
+   "host":[
+    "python",
+    "pip",
+    "setuptools >=38.6.0",
+    "setuptools_scm",
+    "python",
+    "pip",
+    "setuptools >=38.6.0",
+    "setuptools_scm",
+    "python",
+    "pip",
+    "setuptools >=38.6.0",
+    "setuptools_scm"
+   ],
+   "run":[
+    "python",
+    "notebook >=5.0",
+    "pypandoc >=1.4",
+    "nbconvert >=5.5",
+    "pandoc >=2.0",
+    "requests",
+    "tornado",
+    "python",
+    "notebook >=5.0",
+    "pypandoc >=1.4",
+    "nbconvert >=5.5",
+    "pandoc >=2.0",
+    "requests",
+    "tornado",
+    "python",
+    "notebook >=5.0",
+    "pypandoc >=1.4",
+    "nbconvert >=5.5",
+    "pandoc >=2.0",
+    "requests",
+    "tornado"
+   ]
+  },
+  "source":{
+   "sha256":"4dbb52c1670d9acaf0d06effc5b10fecc76257a47ab080953976ab3d65731378",
+   "url":"https://pypi.io/packages/source/j/jupyter-docx-bundler/jupyter-docx-bundler-0.2.2.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "jupyter_docx_bundler",
+    "jupyter_docx_bundler",
+    "jupyter_docx_bundler"
+   ]
+  }
+ },
+ "name":"jupyter-docx-bundler",
+ "new_version":"0.2.2",
+ "pinning_version":"2020.03.06",
+ "raw_meta_yaml":"{% set name = \"jupyter-docx-bundler\" %}\n{% set version = \"0.2.2\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: 4dbb52c1670d9acaf0d06effc5b10fecc76257a47ab080953976ab3d65731378\n\nbuild:\n  number: 0\n  skip: true  # [py<36]\n  script: {{ PYTHON }} -m pip install . -vv\n\nrequirements:\n  host:\n    - python\n    - pip\n    - setuptools >=38.6.0\n    - setuptools_scm\n  run:\n    - python\n    - notebook >=5.0\n    - pypandoc >=1.4\n    - nbconvert >=5.5\n    - pandoc >=2.0\n    - requests\n    - tornado\n\ntest:\n  imports:\n    - jupyter_docx_bundler\n\nabout:\n  home: https://github.com/m-rossi/jupyter-docx-bundler\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE\n  summary: Jupyter bundler extension to export notebook as a docx file\n  dev_url: https://github.com/m-rossi/jupyter-docx-bundler\n\nextra:\n  recipe-maintainers:\n    - m-rossi\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "nbconvert",
+   "notebook",
+   "pandoc",
+   "pip",
+   "pypandoc",
+   "python",
+   "requests",
+   "setuptools",
+   "setuptools_scm",
+   "tornado"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python",
+    "setuptools",
+    "setuptools_scm"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "nbconvert",
+    "notebook",
+    "pandoc",
+    "pypandoc",
+    "python",
+    "requests",
+    "tornado"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.6.10",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python",
+    "setuptools >=38.6.0",
+    "setuptools_scm"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "nbconvert >=5.5",
+    "notebook >=5.0",
+    "pandoc >=2.0",
+    "pypandoc >=1.4",
+    "python",
+    "requests",
+    "tornado"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/j/jupyter-docx-bundler/jupyter-docx-bundler-0.2.1.tar.gz",
+ "version":"0.2.2"
+}

@@ -1,0 +1,116 @@
+{
+ "bad":"Upstream: Error getting upstream version",
+ "conda-forge.yml":{},
+ "feedstock_name":"vega-lite-cli",
+ "meta_yaml":{
+  "about":{
+   "description":"The vega-lite-cli package includes four node.js-based command line utilities -\nvl2pdf, vl2png, vl2svg, and vl2vg - for rendering static visualization images.\nThese commands render to PDF, PNG, SVG files, or plain VEGA, respectively.\n",
+   "dev_url":"https://github.com/vega/vega-lite",
+   "doc_url":"https://vega.github.io/vega-lite/usage/compile.html#cli",
+   "home":"https://vega.github.io",
+   "license":"BSD-3-Clause",
+   "license_family":"BSD",
+   "license_file":"LICENSE",
+   "summary":"Command line interface of the VEGA-lite visualization grammar"
+  },
+  "build":{
+   "number":"0",
+   "skip":true
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "johanneskoester",
+    "johanneskoester",
+    "johanneskoester"
+   ]
+  },
+  "package":{
+   "name":"vega-lite-cli",
+   "version":"3.4.0"
+  },
+  "requirements":{
+   "build":[
+    "yarn",
+    "yarn",
+    "yarn"
+   ],
+   "run":[
+    "nodejs",
+    "vega-cli",
+    "nodejs",
+    "vega-cli",
+    "nodejs",
+    "vega-cli"
+   ]
+  },
+  "test":{
+   "commands":[
+    "curl -L https://github.com/vega/vega-lite/raw/master/examples/specs/bar.vl.json > test.json",
+    "vl2svg test.json > test.svg",
+    "curl -L https://github.com/vega/vega-lite/raw/master/examples/specs/bar.vl.json > test.json",
+    "vl2svg test.json > test.svg",
+    "curl -L https://github.com/vega/vega-lite/raw/master/examples/specs/bar.vl.json > test.json",
+    "vl2svg test.json > test.svg"
+   ]
+  }
+ },
+ "name":"vega-lite-cli",
+ "new_version":false,
+ "raw_meta_yaml":"{% set name = \"vega-lite-cli\" %}\n{% set version = \"3.4.0\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nbuild:\n  number: 0\n  skip: true  # [win]\n\nrequirements:\n  build:\n    - yarn\n  run:\n    - nodejs\n    - vega-cli\n\ntest:\n  commands:\n    - curl -L https://github.com/vega/vega-lite/raw/master/examples/specs/bar.vl.json > test.json\n    - vl2svg test.json > test.svg\n\nabout:\n  home: https://vega.github.io\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: LICENSE\n  summary: 'Command line interface of the VEGA-lite visualization grammar'\n  description: |\n    The vega-lite-cli package includes four node.js-based command line utilities -\n    vl2pdf, vl2png, vl2svg, and vl2vg - for rendering static visualization images.\n    These commands render to PDF, PNG, SVG files, or plain VEGA, respectively.\n  doc_url: https://vega.github.io/vega-lite/usage/compile.html#cli\n  dev_url: https://github.com/vega/vega-lite\n\nextra:\n  recipe-maintainers:\n    - johanneskoester\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "nodejs",
+   "vega-cli",
+   "yarn"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "yarn"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "nodejs",
+    "vega-cli"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "yarn"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "nodejs",
+    "vega-cli"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "version":"3.4.0"
+}

@@ -1,0 +1,539 @@
+{
+ "PRed":[
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.30"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/201465134.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.31"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/249824244.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.32"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/254006470.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"ArchRebuild",
+    "migrator_version":1,
+    "name":"aarch64 and ppc64le addition"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "provider":{
+   "linux_aarch64":"default",
+   "linux_ppc64le":"default"
+  }
+ },
+ "feedstock_name":"binutils",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"https://www.gnu.org/software/binutils/",
+   "license":"GPL 3",
+   "license_file":[
+    "COPYING",
+    "COPYING.LIB",
+    "COPYING3",
+    "COPYING3.LIB",
+    "COPYING",
+    "COPYING.LIB",
+    "COPYING3",
+    "COPYING3.LIB",
+    "COPYING",
+    "COPYING.LIB",
+    "COPYING3",
+    "COPYING3.LIB"
+   ],
+   "summary":"A set of programming tools for creating and managing binary programs, object files, libraries, profile data, and assembly source code."
+  },
+  "build":{
+   "detect_binary_files_with_prefix":false,
+   "number":"0",
+   "skip":true
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "frol",
+    "isuruf",
+    "jjhelmus",
+    "frol",
+    "isuruf",
+    "jjhelmus",
+    "frol",
+    "isuruf",
+    "jjhelmus"
+   ]
+  },
+  "outputs":[
+   {
+    "build":{
+     "detect_binary_files_with_prefix":false,
+     "merge_build_host":false
+    },
+    "name":"ld_impl_",
+    "requirements":{
+     "build":null,
+     "host":null,
+     "run":null
+    },
+    "script":"install_ld.sh",
+    "test":{
+     "commands":[
+      "--linux-gnu-ld --help"
+     ]
+    }
+   },
+   {
+    "build":{
+     "detect_binary_files_with_prefix":false,
+     "merge_build_host":false
+    },
+    "name":"binutils_impl_",
+    "requirements":{
+     "build":null,
+     "host":[
+      "ld_impl_"
+     ],
+     "run":[
+      "ld_impl_"
+     ]
+    },
+    "script":"install_binutils.sh",
+    "test":{
+     "commands":[
+      "--linux-gnu-addr2line --help",
+      "--linux-gnu-ar --help",
+      "--linux-gnu-as --help",
+      "--linux-gnu-c++filt --help",
+      "--linux-gnu-elfedit --help",
+      "--linux-gnu-gprof --help",
+      "--linux-gnu-ld --help",
+      "--linux-gnu-ld.bfd --help",
+      "--linux-gnu-ld.gold --help",
+      "--linux-gnu-nm --help",
+      "--linux-gnu-objcopy --help",
+      "--linux-gnu-objdump --help",
+      "--linux-gnu-ranlib --help",
+      "--linux-gnu-readelf --help",
+      "--linux-gnu-size --help",
+      "--linux-gnu-strings --help",
+      "--linux-gnu-strip --help"
+     ],
+     "downstreams":[
+      "gfortran_impl_",
+      "gcc_impl_"
+     ]
+    }
+   },
+   {
+    "build":{
+     "detect_binary_files_with_prefix":false,
+     "merge_build_host":false
+    },
+    "name":"binutils",
+    "requirements":{
+     "build":null,
+     "host":[
+      "binutils_impl_"
+     ],
+     "run":[
+      "binutils_impl_"
+     ]
+    },
+    "script":"install_binutils_symlinks.sh",
+    "test":{
+     "commands":[
+      "$PREFIX/bin/addr2line --help",
+      "$PREFIX/bin/ar --help",
+      "$PREFIX/bin/as --help",
+      "$PREFIX/bin/c++filt --help",
+      "$PREFIX/bin/elfedit --help",
+      "$PREFIX/bin/gold --help",
+      "$PREFIX/bin/gprof --help",
+      "$PREFIX/bin/ld --help",
+      "$PREFIX/bin/ld.bfd --help",
+      "$PREFIX/bin/ld.gold --help",
+      "$PREFIX/bin/nm --help",
+      "$PREFIX/bin/objcopy --help",
+      "$PREFIX/bin/objdump --help",
+      "$PREFIX/bin/ranlib --help",
+      "$PREFIX/bin/readelf --help",
+      "$PREFIX/bin/size --help",
+      "$PREFIX/bin/strings --help",
+      "$PREFIX/bin/strip --help"
+     ]
+    }
+   },
+   {
+    "build":{
+     "detect_binary_files_with_prefix":false,
+     "merge_build_host":false
+    },
+    "name":"ld_impl_",
+    "requirements":{
+     "build":null,
+     "host":null,
+     "run":null
+    },
+    "script":"install_ld.sh",
+    "test":{
+     "commands":[
+      "--linux-gnu-ld --help"
+     ]
+    }
+   },
+   {
+    "build":{
+     "detect_binary_files_with_prefix":false,
+     "merge_build_host":false
+    },
+    "name":"binutils_impl_",
+    "requirements":{
+     "build":null,
+     "host":[
+      "ld_impl_"
+     ],
+     "run":[
+      "ld_impl_"
+     ]
+    },
+    "script":"install_binutils.sh",
+    "test":{
+     "commands":[
+      "--linux-gnu-addr2line --help",
+      "--linux-gnu-ar --help",
+      "--linux-gnu-as --help",
+      "--linux-gnu-c++filt --help",
+      "--linux-gnu-elfedit --help",
+      "--linux-gnu-gprof --help",
+      "--linux-gnu-ld --help",
+      "--linux-gnu-ld.bfd --help",
+      "--linux-gnu-ld.gold --help",
+      "--linux-gnu-nm --help",
+      "--linux-gnu-objcopy --help",
+      "--linux-gnu-objdump --help",
+      "--linux-gnu-ranlib --help",
+      "--linux-gnu-readelf --help",
+      "--linux-gnu-size --help",
+      "--linux-gnu-strings --help",
+      "--linux-gnu-strip --help"
+     ],
+     "downstreams":[
+      "gfortran_impl_",
+      "gcc_impl_"
+     ]
+    }
+   },
+   {
+    "build":{
+     "detect_binary_files_with_prefix":false,
+     "merge_build_host":false
+    },
+    "name":"binutils",
+    "requirements":{
+     "build":null,
+     "host":[
+      "binutils_impl_"
+     ],
+     "run":[
+      "binutils_impl_"
+     ]
+    },
+    "script":"install_binutils_symlinks.sh",
+    "test":{
+     "commands":[
+      "$PREFIX/bin/addr2line --help",
+      "$PREFIX/bin/ar --help",
+      "$PREFIX/bin/as --help",
+      "$PREFIX/bin/c++filt --help",
+      "$PREFIX/bin/elfedit --help",
+      "$PREFIX/bin/gold --help",
+      "$PREFIX/bin/gprof --help",
+      "$PREFIX/bin/ld --help",
+      "$PREFIX/bin/ld.bfd --help",
+      "$PREFIX/bin/ld.gold --help",
+      "$PREFIX/bin/nm --help",
+      "$PREFIX/bin/objcopy --help",
+      "$PREFIX/bin/objdump --help",
+      "$PREFIX/bin/ranlib --help",
+      "$PREFIX/bin/readelf --help",
+      "$PREFIX/bin/size --help",
+      "$PREFIX/bin/strings --help",
+      "$PREFIX/bin/strip --help"
+     ]
+    }
+   },
+   {
+    "build":{
+     "detect_binary_files_with_prefix":false,
+     "merge_build_host":false
+    },
+    "name":"ld_impl_",
+    "requirements":{
+     "build":null,
+     "host":null,
+     "run":null
+    },
+    "script":"install_ld.sh",
+    "test":{
+     "commands":[
+      "--linux-gnu-ld --help"
+     ]
+    }
+   },
+   {
+    "build":{
+     "detect_binary_files_with_prefix":false,
+     "merge_build_host":false
+    },
+    "name":"binutils_impl_",
+    "requirements":{
+     "build":null,
+     "host":[
+      "ld_impl_"
+     ],
+     "run":[
+      "ld_impl_"
+     ]
+    },
+    "script":"install_binutils.sh",
+    "test":{
+     "commands":[
+      "--linux-gnu-addr2line --help",
+      "--linux-gnu-ar --help",
+      "--linux-gnu-as --help",
+      "--linux-gnu-c++filt --help",
+      "--linux-gnu-elfedit --help",
+      "--linux-gnu-gprof --help",
+      "--linux-gnu-ld --help",
+      "--linux-gnu-ld.bfd --help",
+      "--linux-gnu-ld.gold --help",
+      "--linux-gnu-nm --help",
+      "--linux-gnu-objcopy --help",
+      "--linux-gnu-objdump --help",
+      "--linux-gnu-ranlib --help",
+      "--linux-gnu-readelf --help",
+      "--linux-gnu-size --help",
+      "--linux-gnu-strings --help",
+      "--linux-gnu-strip --help"
+     ],
+     "downstreams":[
+      "gfortran_impl_",
+      "gcc_impl_"
+     ]
+    }
+   },
+   {
+    "build":{
+     "detect_binary_files_with_prefix":false,
+     "merge_build_host":false
+    },
+    "name":"binutils",
+    "requirements":{
+     "build":null,
+     "host":[
+      "binutils_impl_"
+     ],
+     "run":[
+      "binutils_impl_"
+     ]
+    },
+    "script":"install_binutils_symlinks.sh",
+    "test":{
+     "commands":[
+      "$PREFIX/bin/addr2line --help",
+      "$PREFIX/bin/ar --help",
+      "$PREFIX/bin/as --help",
+      "$PREFIX/bin/c++filt --help",
+      "$PREFIX/bin/elfedit --help",
+      "$PREFIX/bin/gold --help",
+      "$PREFIX/bin/gprof --help",
+      "$PREFIX/bin/ld --help",
+      "$PREFIX/bin/ld.bfd --help",
+      "$PREFIX/bin/ld.gold --help",
+      "$PREFIX/bin/nm --help",
+      "$PREFIX/bin/objcopy --help",
+      "$PREFIX/bin/objdump --help",
+      "$PREFIX/bin/ranlib --help",
+      "$PREFIX/bin/readelf --help",
+      "$PREFIX/bin/size --help",
+      "$PREFIX/bin/strings --help",
+      "$PREFIX/bin/strip --help"
+     ]
+    }
+   }
+  ],
+  "package":{
+   "name":"binutils_split",
+   "version":"2.34"
+  },
+  "requirements":{
+   "build":null,
+   "host":null,
+   "run":null
+  },
+  "source":[
+   {
+    "folder":".",
+    "sha256":"89f010078b6cf69c23c27897d686055ab89b198dddf819efb0a4f2c38a0b36e6",
+    "url":"https://ftp.gnu.org/gnu/binutils/binutils-2.34.tar.bz2"
+   },
+   {
+    "folder":"crosstool_ng",
+    "sha256":"4a0be5a8d3a2076391ef096ceeaa5d6b207ac424f6a18913894bce1dc434c463",
+    "url":"https://github.com/crosstool-ng/crosstool-ng/archive/db980376cdf74ada7b085e422c52c36a2ce85cd3.tar.gz"
+   },
+   {
+    "folder":".",
+    "sha256":"89f010078b6cf69c23c27897d686055ab89b198dddf819efb0a4f2c38a0b36e6",
+    "url":"https://ftp.gnu.org/gnu/binutils/binutils-2.34.tar.bz2"
+   },
+   {
+    "folder":"crosstool_ng",
+    "sha256":"4a0be5a8d3a2076391ef096ceeaa5d6b207ac424f6a18913894bce1dc434c463",
+    "url":"https://github.com/crosstool-ng/crosstool-ng/archive/db980376cdf74ada7b085e422c52c36a2ce85cd3.tar.gz"
+   },
+   {
+    "folder":".",
+    "sha256":"89f010078b6cf69c23c27897d686055ab89b198dddf819efb0a4f2c38a0b36e6",
+    "url":"https://ftp.gnu.org/gnu/binutils/binutils-2.34.tar.bz2"
+   },
+   {
+    "folder":"crosstool_ng",
+    "sha256":"4a0be5a8d3a2076391ef096ceeaa5d6b207ac424f6a18913894bce1dc434c463",
+    "url":"https://github.com/crosstool-ng/crosstool-ng/archive/db980376cdf74ada7b085e422c52c36a2ce85cd3.tar.gz"
+   }
+  ]
+ },
+ "name":"binutils_split",
+ "new_version":false,
+ "outputs_names":[
+  "binutils",
+  "binutils_impl_",
+  "ld_impl_"
+ ],
+ "pinning_version":"2019.02.15",
+ "raw_meta_yaml":"{% set name = \"binutils\" %}\n{% set version = \"2.34\" %}\n{% set chost = ctng_cpu_arch ~ \"-\" ~ ctng_vendor ~ \"-linux-gnu-\" %}\n\npackage:\n  name: binutils_split\n  version: {{ version }}\n\nsource:\n  - url: https://ftp.gnu.org/gnu/{{ name }}/{{ name }}-{{ version }}.tar.bz2\n    sha256: 89f010078b6cf69c23c27897d686055ab89b198dddf819efb0a4f2c38a0b36e6\n    folder: .\n\n  # Get the patches from crosstool-ng\n  # Using https://github.com/crosstool-ng/crosstool-ng/pull/1309\n  - url: https://github.com/crosstool-ng/crosstool-ng/archive/db980376cdf74ada7b085e422c52c36a2ce85cd3.tar.gz\n    sha256: 4a0be5a8d3a2076391ef096ceeaa5d6b207ac424f6a18913894bce1dc434c463\n    folder: crosstool_ng\n\nbuild:\n  number: 0\n  skip: True  # [not linux]\n  detect_binary_files_with_prefix: False\n\nrequirements:\n  build:\n  host:\n  run:\n\noutputs:\n  - name: ld_impl_{{ target_platform }}\n    script: install_ld.sh\n    build:\n      merge_build_host: False\n      detect_binary_files_with_prefix: False\n    requirements:\n      build:\n      host:\n      run:\n    test:\n      commands:\n        - {{ chost }}ld --help\n\n  - name: binutils_impl_{{ target_platform }}\n    script: install_binutils.sh\n    build:\n      merge_build_host: False\n      detect_binary_files_with_prefix: False\n    requirements:\n      build:\n      host:\n        - ld_impl_{{ target_platform }}\n      run:\n        - {{ pin_subpackage(\"ld_impl_\" ~ target_platform, exact=True) }}\n    test:\n      downstreams:\n        - gfortran_impl_{{ target_platform }}\n        - gcc_impl_{{ target_platform }}\n      commands:\n        - {{ chost }}addr2line --help\n        - {{ chost }}ar --help\n        - {{ chost }}as --help\n        - {{ chost }}c++filt --help\n        - {{ chost }}elfedit --help\n        - {{ chost }}gprof --help\n        - {{ chost }}ld --help\n        - {{ chost }}ld.bfd --help\n        - {{ chost }}ld.gold --help\n        - {{ chost }}nm --help\n        - {{ chost }}objcopy --help\n        - {{ chost }}objdump --help\n        - {{ chost }}ranlib --help\n        - {{ chost }}readelf --help\n        - {{ chost }}size --help\n        - {{ chost }}strings --help\n        - {{ chost }}strip --help\n\n  - name: binutils\n    script: install_binutils_symlinks.sh\n    build:\n      merge_build_host: False\n      detect_binary_files_with_prefix: False\n    requirements:\n      build:\n      host:\n        - binutils_impl_{{ target_platform }}\n      run:\n        - {{ pin_subpackage(\"binutils_impl_\" ~ target_platform, max_pin=\"x.x.x\") }}\n    test:\n      commands:\n        - $PREFIX/bin/addr2line --help\n        - $PREFIX/bin/ar --help\n        - $PREFIX/bin/as --help\n        - $PREFIX/bin/c++filt --help\n        - $PREFIX/bin/elfedit --help\n        - $PREFIX/bin/gold --help\n        - $PREFIX/bin/gprof --help\n        - $PREFIX/bin/ld --help\n        - $PREFIX/bin/ld.bfd --help\n        - $PREFIX/bin/ld.gold --help\n        - $PREFIX/bin/nm --help\n        - $PREFIX/bin/objcopy --help\n        - $PREFIX/bin/objdump --help\n        - $PREFIX/bin/ranlib --help\n        - $PREFIX/bin/readelf --help\n        - $PREFIX/bin/size --help\n        - $PREFIX/bin/strings --help\n        - $PREFIX/bin/strip --help\n\nabout:\n  home: https://www.gnu.org/software/binutils/\n  license: GPL 3\n  license_file:\n    - COPYING\n    - COPYING.LIB\n    - COPYING3\n    - COPYING3.LIB\n  summary: A set of programming tools for creating and managing binary programs, object files, libraries, profile data, and assembly source code.\n\nextra:\n  recipe-maintainers:\n    - frol\n    - isuruf\n    - jjhelmus\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "binutils_impl_",
+   "ld_impl_"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "binutils_impl_",
+    "ld_impl_"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "binutils_impl_",
+    "ld_impl_"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.2.13",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "binutils_impl_",
+    "ld_impl_"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "binutils_impl_",
+    "ld_impl_"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://ftp.gnu.org/gnu/binutils/binutils-2.32.tar.bz2",
+ "version":"2.34"
+}

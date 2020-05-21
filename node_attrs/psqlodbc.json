@@ -1,0 +1,146 @@
+{
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"psqlodbc",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "dev_url":"https://git.postgresql.org/gitweb/?p=psqlodbc.git",
+   "doc_url":"https://odbc.postgresql.org/",
+   "home":"https://odbc.postgresql.org/",
+   "license":"LGPL-2.0",
+   "license_family":"GPL",
+   "license_file":"license.txt",
+   "summary":"psqlODBC is the official PostgreSQL ODBC Driver"
+  },
+  "build":{
+   "number":"0",
+   "skip":true
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "mariusvniekerk",
+    "xhochy",
+    "mariusvniekerk",
+    "xhochy",
+    "mariusvniekerk",
+    "xhochy"
+   ]
+  },
+  "package":{
+   "name":"psqlodbc",
+   "version":"11.01"
+  },
+  "requirements":{
+   "build":[
+    "c_compiler_stub",
+    "python >=3.6",
+    "c_compiler_stub",
+    "python >=3.6",
+    "c_compiler_stub",
+    "python >=3.6"
+   ],
+   "host":[
+    "unixodbc",
+    "postgresql",
+    "unixodbc",
+    "postgresql",
+    "unixodbc",
+    "postgresql"
+   ],
+   "run":[
+    "unixodbc",
+    "libpq",
+    "unixodbc",
+    "libpq",
+    "unixodbc",
+    "libpq"
+   ]
+  },
+  "source":{
+   "sha256":"c5f1a6e472893f135a434f1276dffa5d64508f9d4fa37bb2e492fd0ad4b6042c",
+   "url":"https://ftp.postgresql.org/pub/odbc/versions/src/psqlodbc-11.01.0000.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "conda inspect linkages psqlodbc",
+    "conda inspect linkages psqlodbc",
+    "test -f $PREFIX/lib/psqlodbca.so",
+    "test -f $PREFIX/lib/psqlodbcw.so",
+    "conda inspect linkages psqlodbc",
+    "test -f $PREFIX/lib/psqlodbca.so",
+    "test -f $PREFIX/lib/psqlodbcw.so"
+   ]
+  }
+ },
+ "name":"psqlodbc",
+ "new_version":false,
+ "raw_meta_yaml":"{% set name = 'psqlODBC' %}\n{% set version = '11.01' %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: 'https://ftp.postgresql.org/pub/odbc/versions/src/psqlodbc-{{ version }}.0000.tar.gz'\n  sha256: c5f1a6e472893f135a434f1276dffa5d64508f9d4fa37bb2e492fd0ad4b6042c\n\nbuild:\n  number: 0\n  skip: True  # [win]\n\nrequirements:\n  build:\n    - {{ compiler('c') }}\n    - python >=3.6\n  host:\n    - unixodbc\n    - postgresql\n  run:\n    - unixodbc\n    - libpq\n\ntest:\n  commands:\n    - conda inspect linkages psqlodbc\n    # This is using .so on both osx and linux\n    - test -f $PREFIX/lib/psqlodbca.so  # [unix]\n    - test -f $PREFIX/lib/psqlodbcw.so  # [unix]\n\nabout:\n  home: https://odbc.postgresql.org/\n  license: LGPL-2.0\n  license_family: GPL\n  license_file: license.txt\n  summary: psqlODBC is the official PostgreSQL ODBC Driver\n  doc_url: https://odbc.postgresql.org/\n  dev_url: https://git.postgresql.org/gitweb/?p=psqlodbc.git\n\nextra:\n  recipe-maintainers:\n    - mariusvniekerk\n    - xhochy\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "c_compiler_stub",
+   "libpq",
+   "postgresql",
+   "python",
+   "unixodbc"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "python"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "postgresql",
+    "unixodbc"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "libpq",
+    "unixodbc"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "python >=3.6"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "postgresql",
+    "unixodbc"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "libpq",
+    "unixodbc"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://ftp.postgresql.org/pub/odbc/versions/src/psqlodbc-11.01.0000.tar.gz",
+ "version":"11.01"
+}

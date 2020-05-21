@@ -1,0 +1,214 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/218813303.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.0.4"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/223691787.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.0.5"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/325059573.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.0.6"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/326952746.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.0.8"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "compiler_stack":"comp7",
+  "max_py_ver":"37",
+  "max_r_ver":"35",
+  "provider":{
+   "win":"azure"
+  }
+ },
+ "feedstock_name":"hydrotrend",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"HydroTrend v3.0 is a climate-driven hydrological water balance and transport model that simulates water discharge and sediment load at a river outlet.",
+   "dev_url":"http://github.com/csdms-contrib/hydrotrend",
+   "doc_url":"http://csdms.colorado.edu/wiki/Model:HydroTrend",
+   "home":"http://csdms.colorado.edu/wiki/Model:HydroTrend",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"LICENSE",
+   "summary":"Climate driven hydrological transport model"
+  },
+  "build":{
+   "number":"0",
+   "skip":true
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "mcflugen",
+    "mcflugen",
+    "mcflugen"
+   ]
+  },
+  "package":{
+   "name":"hydrotrend",
+   "version":"3.0.8"
+  },
+  "requirements":{
+   "build":[
+    "cxx_compiler_stub",
+    "cmake",
+    "cxx_compiler_stub",
+    "cmake",
+    "cxx_compiler_stub",
+    "cmake"
+   ]
+  },
+  "source":{
+   "sha256":"22000ce02d48f3ba9050225b54c00f6e9884d307a104a085595ebeba01ada9ba",
+   "url":"https://github.com/csdms-contrib/hydrotrend/archive/v3.0.8.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "hydrotrend -h",
+    "hydrotrend -v",
+    "curl https://raw.githubusercontent.com/csdms-contrib/hydrotrend/master/data/input/HYDRO.IN > ./HYDRO.IN",
+    "curl https://raw.githubusercontent.com/csdms-contrib/hydrotrend/master/data/input/HYDRO0.HYPS > ./HYDRO0.HYPS",
+    "hydrotrend",
+    "hydrotrend -h",
+    "hydrotrend -v",
+    "curl https://raw.githubusercontent.com/csdms-contrib/hydrotrend/master/data/input/HYDRO.IN > ./HYDRO.IN",
+    "curl https://raw.githubusercontent.com/csdms-contrib/hydrotrend/master/data/input/HYDRO0.HYPS > ./HYDRO0.HYPS",
+    "hydrotrend --prefix=HYDRO --in-dir=. --out-dir=.",
+    "hydrotrend -h",
+    "hydrotrend -v",
+    "curl https://raw.githubusercontent.com/csdms-contrib/hydrotrend/master/data/input/HYDRO.IN > ./HYDRO.IN",
+    "curl https://raw.githubusercontent.com/csdms-contrib/hydrotrend/master/data/input/HYDRO0.HYPS > ./HYDRO0.HYPS",
+    "hydrotrend --prefix=HYDRO --in-dir=. --out-dir=."
+   ]
+  }
+ },
+ "name":"hydrotrend",
+ "new_version":"3.0.8",
+ "pinning_version":"2019.10.08",
+ "raw_meta_yaml":"{% set version = \"3.0.8\" %}\n\npackage:\n  name: hydrotrend\n  version: {{ version }}\n\nsource:\n  url: https://github.com/csdms-contrib/hydrotrend/archive/v{{ version }}.tar.gz\n  sha256: 22000ce02d48f3ba9050225b54c00f6e9884d307a104a085595ebeba01ada9ba\n\nbuild:\n  number: 0\n  skip: true  # [win and vc<14]\n\nrequirements:\n  build:\n    - {{ compiler('cxx') }}\n    - cmake\n\ntest:\n  commands:\n    - hydrotrend -h\n    - hydrotrend -v\n    - curl https://raw.githubusercontent.com/csdms-contrib/hydrotrend/master/data/input/HYDRO.IN > ./HYDRO.IN\n    - curl https://raw.githubusercontent.com/csdms-contrib/hydrotrend/master/data/input/HYDRO0.HYPS > ./HYDRO0.HYPS\n    - hydrotrend --prefix=HYDRO --in-dir=. --out-dir=.  # [not win]\n    - hydrotrend  # [win]\nabout:\n  home: http://csdms.colorado.edu/wiki/Model:HydroTrend\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE\n  summary: Climate driven hydrological transport model\n  description:\n    HydroTrend v3.0 is a climate-driven hydrological water balance\n    and transport model that simulates water discharge and sediment\n    load at a river outlet.\n  doc_url: http://csdms.colorado.edu/wiki/Model:HydroTrend\n  dev_url: http://github.com/csdms-contrib/hydrotrend\n\nextra:\n  recipe-maintainers:\n    - mcflugen\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "cmake",
+   "cxx_compiler_stub"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "cmake",
+    "cxx_compiler_stub"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.5.0",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "cmake",
+    "cxx_compiler_stub"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://github.com/csdms-contrib/hydrotrend/archive/v3.0.5.tar.gz",
+ "version":"3.0.8"
+}

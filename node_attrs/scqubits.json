@@ -1,0 +1,305 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/354133266.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"python38"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/359407753.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.1.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/374609851.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MatplotlibBase",
+    "migrator_version":0
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/375167042.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.2.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/375788630.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.2.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/414676816.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.2.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"scqubits",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"scqubits is an open-source Python library for simulating superconducting qubits. It is meant to give the user a\nconvenient way to obtain energy spectra of common superconducting qubits, plot energy levels as a function of\nexternal parameters, calculate matrix elements etc. The library further provides an interface to QuTiP, making it\neasy to work with composite Hilbert spaces consisting of coupled superconducting qubits and harmonic modes.\nInternally, numerics within scqubits is carried out with the help of Numpy and Scipy; plotting capabilities rely\non Matplotlib.\n",
+   "dev_url":"https://github.com/scqubits/scqubits",
+   "doc_url":"https://scqubits.readthedocs.io/",
+   "home":"https://github.com/scqubits/scqubits",
+   "license":"BSD-3-Clause",
+   "license_family":"BSD",
+   "license_file":"LICENSE",
+   "summary":"Superconducting qubits in Python"
+  },
+  "build":{
+   "number":"0",
+   "script":"-m pip install . -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "jkochNU",
+    "petergthatsme",
+    "jkochNU",
+    "petergthatsme",
+    "jkochNU",
+    "petergthatsme"
+   ]
+  },
+  "package":{
+   "name":"scqubits",
+   "version":"1.2.2"
+  },
+  "requirements":{
+   "build":[
+    "cxx_compiler_stub",
+    "cxx_compiler_stub",
+    "cxx_compiler_stub"
+   ],
+   "host":[
+    "python",
+    "pip",
+    "numpy",
+    "cython >=0.28.5",
+    "python",
+    "pip",
+    "numpy",
+    "cython >=0.28.5",
+    "python",
+    "pip",
+    "numpy",
+    "cython >=0.28.5"
+   ],
+   "run":[
+    "python",
+    "setuptools",
+    "numpy",
+    "cython >=0.28.5",
+    "scipy >=1.1.0",
+    "matplotlib-base >=3.0.0",
+    "qutip >=4.3",
+    "h5py >=2.7.1",
+    "tqdm",
+    "ipywidgets",
+    "python",
+    "setuptools",
+    "numpy",
+    "cython >=0.28.5",
+    "scipy >=1.1.0",
+    "matplotlib-base >=3.0.0",
+    "qutip >=4.3",
+    "h5py >=2.7.1",
+    "tqdm",
+    "ipywidgets",
+    "python",
+    "setuptools",
+    "numpy",
+    "cython >=0.28.5",
+    "scipy >=1.1.0",
+    "matplotlib-base >=3.0.0",
+    "qutip >=4.3",
+    "h5py >=2.7.1",
+    "tqdm",
+    "ipywidgets"
+   ]
+  },
+  "source":{
+   "sha256":"ebc34b0badaa37646691820935bcd0ac4e319c2e4cd46bde48b3ca71ed5f2bc3",
+   "url":"https://pypi.io/packages/source/s/scqubits/scqubits-1.2.2.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "scqubits",
+    "scqubits",
+    "scqubits"
+   ]
+  }
+ },
+ "name":"scqubits",
+ "new_version":"1.2.2",
+ "new_version_attempts":{
+  "1.2.2":1
+ },
+ "new_version_errors":{},
+ "pinning_version":"2020.05.06.22.15.02",
+ "raw_meta_yaml":"{% set name = \"scqubits\" %}\n{% set version = \"1.2.2\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: ebc34b0badaa37646691820935bcd0ac4e319c2e4cd46bde48b3ca71ed5f2bc3\n\nbuild:\n  number: 0\n  skip: true  # [py<35]\n  script: {{ PYTHON }} -m pip install . -vv\n\nrequirements:\n  build:\n    - {{ compiler('cxx') }}\n  host:\n    - python\n    - pip\n    - numpy\n    - cython >=0.28.5\n  run:\n    - python\n    - setuptools\n    - {{ pin_compatible('numpy') }}\n    - cython >=0.28.5\n    - scipy >=1.1.0\n    - matplotlib-base >=3.0.0\n    - qutip >=4.3\n    - h5py >=2.7.1\n    - tqdm\n    - ipywidgets\n\ntest:\n  imports:\n    - scqubits\n\nabout:\n  home: https://github.com/scqubits/scqubits\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: LICENSE\n  summary: Superconducting qubits in Python\n\n\n  description: |\n    scqubits is an open-source Python library for simulating superconducting qubits. It is meant to give the user a\n    convenient way to obtain energy spectra of common superconducting qubits, plot energy levels as a function of\n    external parameters, calculate matrix elements etc. The library further provides an interface to QuTiP, making it\n    easy to work with composite Hilbert spaces consisting of coupled superconducting qubits and harmonic modes.\n    Internally, numerics within scqubits is carried out with the help of Numpy and Scipy; plotting capabilities rely\n    on Matplotlib.\n  doc_url: https://scqubits.readthedocs.io/\n  dev_url: https://github.com/scqubits/scqubits\n\nextra:\n  recipe-maintainers:\n    - jkochNU\n    - petergthatsme\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "cxx_compiler_stub",
+   "cython",
+   "h5py",
+   "ipywidgets",
+   "matplotlib-base",
+   "numpy",
+   "pip",
+   "python",
+   "qutip",
+   "scipy",
+   "setuptools",
+   "tqdm"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "cxx_compiler_stub"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "cython",
+    "numpy",
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "cython",
+    "h5py",
+    "ipywidgets",
+    "matplotlib-base",
+    "numpy",
+    "python",
+    "qutip",
+    "scipy",
+    "setuptools",
+    "tqdm"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.7.0\n",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "cxx_compiler_stub"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "cython >=0.28.5",
+    "numpy",
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "cython >=0.28.5",
+    "h5py >=2.7.1",
+    "ipywidgets",
+    "matplotlib-base >=3.0.0",
+    "numpy",
+    "python",
+    "qutip >=4.3",
+    "scipy >=1.1.0",
+    "setuptools",
+    "tqdm"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/s/scqubits/scqubits-1.0.1.tar.gz",
+ "version":"1.2.2"
+}

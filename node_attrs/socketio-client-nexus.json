@@ -1,0 +1,136 @@
+{
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"socketio-client-nexus",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"A socket.io 2.x client library for Python\n",
+   "dev_url":"https://github.com/nexus-devs/socketIO-client-2.0.3",
+   "home":"https://github.com/nexus-devs/socketIO-client-2.0.3",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"LICENSE",
+   "summary":"A socket.io 2.x client library for Python"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "timkpaine",
+    "timkpaine",
+    "timkpaine"
+   ]
+  },
+  "package":{
+   "name":"socketio-client-nexus",
+   "version":"0.7.6"
+  },
+  "requirements":{
+   "host":[
+    "python >=3.6",
+    "pip",
+    "python >=3.6",
+    "pip",
+    "python >=3.6",
+    "pip"
+   ],
+   "run":[
+    "python >=3.6",
+    "requests >=2.7.0",
+    "six",
+    "websocket-client",
+    "python >=3.6",
+    "requests >=2.7.0",
+    "six",
+    "websocket-client",
+    "python >=3.6",
+    "requests >=2.7.0",
+    "six",
+    "websocket-client"
+   ]
+  },
+  "source":{
+   "sha256":"41e6aaaff981f6729690f472eb2c7a5d1dda07349077e34444527b9700b0aea5",
+   "url":"https://pypi.io/packages/source/s/socketIO-client-nexus/socketIO-client-nexus-0.7.6.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "socketIO_client_nexus",
+    "socketIO_client_nexus",
+    "socketIO_client_nexus"
+   ]
+  }
+ },
+ "name":"socketio-client-nexus",
+ "new_version":"0.7.6",
+ "raw_meta_yaml":"{% set name = \"socketIO-client-nexus\" %}\n{% set version = \"0.7.6\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: 41e6aaaff981f6729690f472eb2c7a5d1dda07349077e34444527b9700b0aea5\n\nbuild:\n  number: 0\n  noarch: python\n  script: \"{{ PYTHON }} -m pip install . -vv\"\n\nrequirements:\n  host:\n    - python >=3.6\n    - pip\n  run:\n    - python >=3.6\n    - requests >=2.7.0\n    - six\n    - websocket-client\n\ntest:\n  imports:\n    - socketIO_client_nexus\n\nabout:\n  home: https://github.com/nexus-devs/socketIO-client-2.0.3\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE\n  summary: 'A socket.io 2.x client library for Python'\n\n  description: |\n    A socket.io 2.x client library for Python\n  dev_url: https://github.com/nexus-devs/socketIO-client-2.0.3\n\nextra:\n  recipe-maintainers:\n    - timkpaine\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "pip",
+   "python",
+   "requests",
+   "six",
+   "websocket-client"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "python",
+    "requests",
+    "six",
+    "websocket-client"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3.6"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "python >=3.6",
+    "requests >=2.7.0",
+    "six",
+    "websocket-client"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/s/socketIO-client-nexus/socketIO-client-nexus-0.7.6.tar.gz",
+ "version":"0.7.6"
+}

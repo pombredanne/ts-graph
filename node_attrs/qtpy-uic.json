@@ -1,0 +1,133 @@
+{
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"qtpy-uic",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"https://github.com/hmaarrfk/qtpy-tools/",
+   "license":"GPLv2",
+   "license_family":"GPL",
+   "license_file":"LICENSE-uic",
+   "summary":"qtpy ui compiler"
+  },
+  "build":{
+   "entry_points":[
+    "qtpy-uic = qtpyuic:main",
+    "qtpy-uic = qtpyuic:main",
+    "qtpy-uic = qtpyuic:main"
+   ],
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . --no-deps --ignore-installed -vv --disable-pip-version-check"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "hmaarrfk",
+    "hmaarrfk",
+    "hmaarrfk"
+   ]
+  },
+  "package":{
+   "name":"qtpy-uic",
+   "version":"2.0.4"
+  },
+  "requirements":{
+   "host":[
+    "python >=3",
+    "pip",
+    "setuptools",
+    "python >=3",
+    "pip",
+    "setuptools",
+    "python >=3",
+    "pip",
+    "setuptools"
+   ],
+   "run":[
+    "python >=3",
+    "python >=3",
+    "python >=3"
+   ]
+  },
+  "source":{
+   "fn":"qtpy-tools-2.0.4.tar.gz",
+   "sha256":"fb263b0b43db69bf209c5ce13af996876b25a6ac62c62f8b6a1efc5e06724601",
+   "url":"https://github.com/hmaarrfk/qtpy-tools/archive/2.0.4.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "qtpy-uic --help",
+    "qtpy-uic --help",
+    "qtpy-uic --help"
+   ],
+   "imports":[
+    "qtpyuic",
+    "qtpyuic",
+    "qtpyuic"
+   ]
+  }
+ },
+ "name":"qtpy-uic",
+ "new_version":"2.0.4",
+ "raw_meta_yaml":"{% set version = \"2.0.4\" %}\n\npackage:\n  name: qtpy-uic\n  version: {{ version }}\n\nsource:\n  url: https://github.com/hmaarrfk/qtpy-tools/archive/{{ version }}.tar.gz\n  fn: qtpy-tools-{{ version }}.tar.gz\n  sha256: fb263b0b43db69bf209c5ce13af996876b25a6ac62c62f8b6a1efc5e06724601\n\nbuild:\n  number: 0\n  script: \"{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv --disable-pip-version-check\"\n  noarch: python\n  entry_points:\n    - qtpy-uic = qtpyuic:main\n\nrequirements:\n  host:\n    - python >=3\n    - pip\n    - setuptools\n  run:\n    - python >=3\n\ntest:\n  imports:\n    - qtpyuic\n  commands:\n    - qtpy-uic --help\n\nabout:\n  home: https://github.com/hmaarrfk/qtpy-tools/\n  license: GPLv2\n  license_family: GPL\n  license_file: LICENSE-uic\n  summary: 'qtpy ui compiler'\n\nextra:\n  recipe-maintainers:\n    - hmaarrfk\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "pip",
+   "python",
+   "setuptools"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python",
+    "setuptools"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3",
+    "setuptools"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "python >=3"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://github.com/hmaarrfk/qtpy-tools/archive/2.0.4.tar.gz",
+ "version":"2.0.4"
+}

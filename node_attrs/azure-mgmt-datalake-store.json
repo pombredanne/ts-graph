@@ -1,0 +1,139 @@
+{
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"azure-mgmt-datalake-store",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "dev_url":"https://github.com/Azure/azure-sdk-for-python/tree/master/sdk/datalake/azure-mgmt-datalake-store",
+   "doc_url":"https://docs.microsoft.com/en-us/python/api/azure-mgmt-datalake-store/azure.mgmt.datalake.store?view=azure-python",
+   "home":"https://github.com/Azure/azure-sdk-for-python",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"LICENSE",
+   "summary":"Microsoft Azure Data Lake Store Management Client Library for Python"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . --no-deps -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "ericdill",
+    "ericdill",
+    "ericdill"
+   ]
+  },
+  "package":{
+   "name":"azure-mgmt-datalake-store",
+   "version":"0.5.0"
+  },
+  "requirements":{
+   "host":[
+    "python",
+    "pip",
+    "python",
+    "pip",
+    "python",
+    "pip"
+   ],
+   "run":[
+    "python >=3",
+    "azure-common >=1.1,<2",
+    "msrest >=0.5.0",
+    "msrestazure >=0.4.32,<2.0.0",
+    "python >=3",
+    "azure-common >=1.1,<2",
+    "msrest >=0.5.0",
+    "msrestazure >=0.4.32,<2.0.0",
+    "python >=3",
+    "azure-common >=1.1,<2",
+    "msrest >=0.5.0",
+    "msrestazure >=0.4.32,<2.0.0"
+   ]
+  },
+  "source":{
+   "sha256":"9376d35495661d19f8acc5604f67b0bc59493b1835bbc480f9a1952f90017a4c",
+   "url":"https://pypi.io/packages/source/a/azure-mgmt-datalake-store/azure-mgmt-datalake-store-0.5.0.zip"
+  },
+  "test":{
+   "imports":[
+    "azure.mgmt.datalake.store.models",
+    "azure.mgmt.datalake.store.operations",
+    "azure.mgmt.datalake.store.models",
+    "azure.mgmt.datalake.store.operations",
+    "azure.mgmt.datalake.store.models",
+    "azure.mgmt.datalake.store.operations"
+   ]
+  }
+ },
+ "name":"azure-mgmt-datalake-store",
+ "new_version":"0.5.0",
+ "raw_meta_yaml":"{% set name = \"azure-mgmt-datalake-store\" %}\n{% set version = \"0.5.0\" %}\n\npackage:\n  name: \"{{ name|lower }}\"\n  version: \"{{ version }}\"\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.zip\n  sha256: 9376d35495661d19f8acc5604f67b0bc59493b1835bbc480f9a1952f90017a4c \n\nbuild:\n  noarch: python\n  number: 0\n  script: \"{{ PYTHON }} -m pip install . --no-deps -vv\"\n\nrequirements:\n  host:\n    - python\n    - pip\n  run:\n    - python >=3\n    - azure-common >=1.1,<2\n    - msrest >=0.5.0\n    - msrestazure >=0.4.32,<2.0.0\n#   - azure-mgmt-datalake-nspkg  # [py2k]\n\ntest:\n  imports:\n  - azure.mgmt.datalake.store.models\n  - azure.mgmt.datalake.store.operations\n\nabout:\n  home: https://github.com/Azure/azure-sdk-for-python\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE\n  summary: Microsoft Azure Data Lake Store Management Client Library for Python\n  doc_url: https://docs.microsoft.com/en-us/python/api/azure-mgmt-datalake-store/azure.mgmt.datalake.store?view=azure-python\n  dev_url: https://github.com/Azure/azure-sdk-for-python/tree/master/sdk/datalake/azure-mgmt-datalake-store\n\nextra:\n  recipe-maintainers:\n    - ericdill\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "azure-common",
+   "msrest",
+   "msrestazure",
+   "pip",
+   "python"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "azure-common",
+    "msrest",
+    "msrestazure",
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "azure-common >=1.1,<2",
+    "msrest >=0.5.0",
+    "msrestazure >=0.4.32,<2.0.0",
+    "python >=3"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/a/azure-mgmt-datalake-store/azure-mgmt-datalake-store-0.5.0.zip",
+ "version":"0.5.0"
+}

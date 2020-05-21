@@ -1,0 +1,446 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/237315339.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.6.11"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/238990799.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.7.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/239413347.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.7.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/242127027.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.7.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/248620604.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.8.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/254494654.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.8.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/272376904.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.9.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/278061151.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.9.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/312678381.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.10.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/372754045.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.11.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/372839226.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.11.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/373332207.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.11.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/380140867.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.11.3"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/395280441.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.11.4"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/396426534.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.11.5"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"quart",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"Quart is a Python ASGI web microframework. It is intended to provide the easiest way to use\nasyncio functionality in a web context, especially with existing Flask\napps. This is possible as the Quart API is a superset of the Flask API.\nQuart aims to be a complete web microframework, as it supports\nHTTP/1.1, HTTP/2 and websockets. Quart is very extendable and has a\nnumber of known extensions and works\nwith many of the Flask extensions.\n",
+   "dev_url":"https://gitlab.com/pgjones/quart",
+   "doc_url":"https://pgjones.gitlab.io/quart/",
+   "home":"https://gitlab.com/pgjones/quart",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"LICENSE",
+   "summary":"A Python ASGI web microframework with the same API as Flask"
+  },
+  "build":{
+   "entry_points":[
+    "quart=quart.cli:main",
+    "quart=quart.cli:main",
+    "quart=quart.cli:main"
+   ],
+   "noarch":"python",
+   "number":0,
+   "script":"-m pip install . --no-deps -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "maxyme",
+    "dhirschfeld",
+    "maxyme",
+    "dhirschfeld",
+    "maxyme",
+    "dhirschfeld"
+   ]
+  },
+  "package":{
+   "name":"quart",
+   "version":"0.11.5"
+  },
+  "requirements":{
+   "host":[
+    "pip",
+    "python >=3.7.0",
+    "setuptools >=40.6.2",
+    "pip",
+    "python >=3.7.0",
+    "setuptools >=40.6.2",
+    "pip",
+    "python >=3.7.0",
+    "setuptools >=40.6.2"
+   ],
+   "run":[
+    "python >=3.7.0",
+    "aiofiles >=0.4.0",
+    "blinker >=1.4",
+    "click >=7.0",
+    "hypercorn >=0.7.0",
+    "itsdangerous >=1.1.0",
+    "jinja2 >=2.10",
+    "toml",
+    "werkzeug >=1.0.0",
+    "python >=3.7.0",
+    "aiofiles >=0.4.0",
+    "blinker >=1.4",
+    "click >=7.0",
+    "hypercorn >=0.7.0",
+    "itsdangerous >=1.1.0",
+    "jinja2 >=2.10",
+    "toml",
+    "werkzeug >=1.0.0",
+    "python >=3.7.0",
+    "aiofiles >=0.4.0",
+    "blinker >=1.4",
+    "click >=7.0",
+    "hypercorn >=0.7.0",
+    "itsdangerous >=1.1.0",
+    "jinja2 >=2.10",
+    "toml",
+    "werkzeug >=1.0.0"
+   ]
+  },
+  "source":{
+   "fn":"Quart-0.11.5.tar.gz",
+   "sha256":"bd93650fa856dcfbc3890952ab3ca53f7755ab506d453a209db63713eceeceda",
+   "url":"https://pypi.io/packages/source/Q/Quart/Quart-0.11.5.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "quart --version",
+    "quart --version",
+    "quart --version"
+   ],
+   "imports":[
+    "quart",
+    "quart",
+    "quart"
+   ]
+  }
+ },
+ "name":"quart",
+ "new_version":"0.11.5",
+ "pinning_version":"2020.03.30",
+ "raw_meta_yaml":"{% set name = \"Quart\" %}\n{% set version = \"0.11.5\" %}\n{% set sha256 = \"bd93650fa856dcfbc3890952ab3ca53f7755ab506d453a209db63713eceeceda\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  fn: {{ name }}-{{ version }}.tar.gz\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 0\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n  entry_points:\n    - quart=quart.cli:main\n\nrequirements:\n  host:\n    - pip\n    - python >=3.7.0\n    - setuptools >=40.6.2\n\n  run:\n    - python >=3.7.0\n    - aiofiles >=0.4.0\n    - blinker >=1.4\n    - click >=7.0\n    - hypercorn >=0.7.0\n    - itsdangerous >=1.1.0\n    - jinja2 >=2.10\n    - toml\n    - werkzeug >=1.0.0\n\ntest:\n  imports:\n    - quart\n  commands:\n    - quart --version\n\nabout:\n  home: https://gitlab.com/pgjones/quart\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE\n  summary: A Python ASGI web microframework with the same API as Flask\n  description: |\n    Quart is a Python ASGI web microframework. It is intended to provide the easiest way to use\n    asyncio functionality in a web context, especially with existing Flask\n    apps. This is possible as the Quart API is a superset of the Flask API.\n    Quart aims to be a complete web microframework, as it supports\n    HTTP/1.1, HTTP/2 and websockets. Quart is very extendable and has a\n    number of known extensions and works\n    with many of the Flask extensions.\n  doc_url: https://pgjones.gitlab.io/quart/\n  dev_url: https://gitlab.com/pgjones/quart\n\nextra:\n  recipe-maintainers:\n    - maxyme\n    - dhirschfeld\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "aiofiles",
+   "blinker",
+   "click",
+   "hypercorn",
+   "itsdangerous",
+   "jinja2",
+   "pip",
+   "python",
+   "setuptools",
+   "toml",
+   "werkzeug"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python",
+    "setuptools"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "aiofiles",
+    "blinker",
+    "click",
+    "hypercorn",
+    "itsdangerous",
+    "jinja2",
+    "python",
+    "toml",
+    "werkzeug"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.6.15",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3.7.0",
+    "setuptools >=40.6.2"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "aiofiles >=0.4.0",
+    "blinker >=1.4",
+    "click >=7.0",
+    "hypercorn >=0.7.0",
+    "itsdangerous >=1.1.0",
+    "jinja2 >=2.10",
+    "python >=3.7.0",
+    "toml",
+    "werkzeug >=1.0.0"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/Q/Quart/Quart-0.10.0.tar.gz",
+ "version":"0.11.5"
+}

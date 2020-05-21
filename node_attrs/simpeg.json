@@ -1,0 +1,312 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/362368611.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.13.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/363956019.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.13.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/374818412.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MatplotlibBase",
+    "migrator_version":0,
+    "name":"matplotlib-to-matplotlib-base"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"simpeg",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"http://simpeg.xyz/",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"LICENSE",
+   "summary":"SimPEG: Simulation and Parameter Estimation in Geophysics"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"2",
+   "script":" -m pip install . --no-deps -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "lheagy",
+    "jcapriot",
+    "thast",
+    "lheagy",
+    "jcapriot",
+    "thast",
+    "lheagy",
+    "jcapriot",
+    "thast"
+   ]
+  },
+  "package":{
+   "name":"simpeg",
+   "version":"0.13.1"
+  },
+  "requirements":{
+   "host":[
+    "python",
+    "pip",
+    "python",
+    "pip",
+    "python",
+    "pip"
+   ],
+   "run":[
+    "python",
+    "cython",
+    "discretize >=0.4.0",
+    "geoana >=0.0.4",
+    "ipython",
+    "matplotlib-base",
+    "numpy >=1.7",
+    "properties >=0.5.2",
+    "pymatsolver >=0.1.1",
+    "scipy >=0.13",
+    "vectormath >=0.2.0",
+    "python",
+    "cython",
+    "discretize >=0.4.0",
+    "geoana >=0.0.4",
+    "ipython",
+    "matplotlib-base",
+    "numpy >=1.7",
+    "properties >=0.5.2",
+    "pymatsolver >=0.1.1",
+    "scipy >=0.13",
+    "vectormath >=0.2.0",
+    "python",
+    "cython",
+    "discretize >=0.4.0",
+    "geoana >=0.0.4",
+    "ipython",
+    "matplotlib-base",
+    "numpy >=1.7",
+    "properties >=0.5.2",
+    "pymatsolver >=0.1.1",
+    "scipy >=0.13",
+    "vectormath >=0.2.0"
+   ]
+  },
+  "source":{
+   "sha256":"63d6b17ac1c30fb63b1c2d70f9822aac8801183b39a4dac77d58795480adfcf2",
+   "url":"https://pypi.io/packages/source/S/SimPEG/SimPEG-0.13.1.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "SimPEG",
+    "SimPEG.DC",
+    "SimPEG.EM",
+    "SimPEG.EM.Analytics",
+    "SimPEG.EM.FDEM",
+    "SimPEG.EM.NSEM",
+    "SimPEG.EM.NSEM.Utils",
+    "SimPEG.EM.Static",
+    "SimPEG.EM.Static.DC",
+    "SimPEG.EM.Static.IP",
+    "SimPEG.EM.Static.SIP",
+    "SimPEG.EM.Static.SP",
+    "SimPEG.EM.Static.Utils",
+    "SimPEG.EM.TDEM",
+    "SimPEG.EM.Utils",
+    "SimPEG.FLOW",
+    "SimPEG.FLOW.Richards",
+    "SimPEG.IP",
+    "SimPEG.NSEM",
+    "SimPEG.PF",
+    "SimPEG.SEIS",
+    "SimPEG.SEIS.StraightRay",
+    "SimPEG.SIP",
+    "SimPEG.Utils",
+    "SimPEG.VRM",
+    "SimPEG.regularization",
+    "SimPEG",
+    "SimPEG.DC",
+    "SimPEG.EM",
+    "SimPEG.EM.Analytics",
+    "SimPEG.EM.FDEM",
+    "SimPEG.EM.NSEM",
+    "SimPEG.EM.NSEM.Utils",
+    "SimPEG.EM.Static",
+    "SimPEG.EM.Static.DC",
+    "SimPEG.EM.Static.IP",
+    "SimPEG.EM.Static.SIP",
+    "SimPEG.EM.Static.SP",
+    "SimPEG.EM.Static.Utils",
+    "SimPEG.EM.TDEM",
+    "SimPEG.EM.Utils",
+    "SimPEG.FLOW",
+    "SimPEG.FLOW.Richards",
+    "SimPEG.IP",
+    "SimPEG.NSEM",
+    "SimPEG.PF",
+    "SimPEG.SEIS",
+    "SimPEG.SEIS.StraightRay",
+    "SimPEG.SIP",
+    "SimPEG.Utils",
+    "SimPEG.VRM",
+    "SimPEG.regularization",
+    "SimPEG",
+    "SimPEG.DC",
+    "SimPEG.EM",
+    "SimPEG.EM.Analytics",
+    "SimPEG.EM.FDEM",
+    "SimPEG.EM.NSEM",
+    "SimPEG.EM.NSEM.Utils",
+    "SimPEG.EM.Static",
+    "SimPEG.EM.Static.DC",
+    "SimPEG.EM.Static.IP",
+    "SimPEG.EM.Static.SIP",
+    "SimPEG.EM.Static.SP",
+    "SimPEG.EM.Static.Utils",
+    "SimPEG.EM.TDEM",
+    "SimPEG.EM.Utils",
+    "SimPEG.FLOW",
+    "SimPEG.FLOW.Richards",
+    "SimPEG.IP",
+    "SimPEG.NSEM",
+    "SimPEG.PF",
+    "SimPEG.SEIS",
+    "SimPEG.SEIS.StraightRay",
+    "SimPEG.SIP",
+    "SimPEG.Utils",
+    "SimPEG.VRM",
+    "SimPEG.regularization"
+   ]
+  }
+ },
+ "name":"simpeg",
+ "new_version":"0.13.1",
+ "pinning_version":"2020.02.12",
+ "raw_meta_yaml":"{% set version = \"0.13.1\" %}\n\npackage:\n  name: simpeg\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/S/SimPEG/SimPEG-{{ version }}.tar.gz\n  sha256: 63d6b17ac1c30fb63b1c2d70f9822aac8801183b39a4dac77d58795480adfcf2\n\nbuild:\n  number: 2\n  noarch: python\n  script: \"{{ PYTHON }} -m pip install . --no-deps -vv\"\n\nrequirements:\n  host:\n    - python\n    - pip\n  run:\n    - python\n    - cython\n    - discretize >=0.4.0\n    - geoana >=0.0.4\n    - ipython\n    - matplotlib-base\n    - numpy >=1.7\n    - properties >=0.5.2\n    - pymatsolver >=0.1.1\n    - scipy >=0.13\n    - vectormath >=0.2.0\n\ntest:\n  imports:\n    - SimPEG\n    - SimPEG.DC\n    - SimPEG.EM\n    - SimPEG.EM.Analytics\n    - SimPEG.EM.FDEM\n    - SimPEG.EM.NSEM\n    - SimPEG.EM.NSEM.Utils\n    - SimPEG.EM.Static\n    - SimPEG.EM.Static.DC\n    - SimPEG.EM.Static.IP\n    - SimPEG.EM.Static.SIP\n    - SimPEG.EM.Static.SP\n    - SimPEG.EM.Static.Utils\n    - SimPEG.EM.TDEM\n    - SimPEG.EM.Utils\n    - SimPEG.FLOW\n    - SimPEG.FLOW.Richards\n    - SimPEG.IP\n    - SimPEG.NSEM\n    - SimPEG.PF\n    - SimPEG.SEIS\n    - SimPEG.SEIS.StraightRay\n    - SimPEG.SIP\n    - SimPEG.Utils\n    - SimPEG.VRM\n    - SimPEG.regularization\n\nabout:\n  home: http://simpeg.xyz/\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE\n  summary: \"SimPEG: Simulation and Parameter Estimation in Geophysics\"\n\nextra:\n  recipe-maintainers:\n    - lheagy\n    - jcapriot\n    - thast\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "cython",
+   "discretize",
+   "geoana",
+   "ipython",
+   "matplotlib-base",
+   "numpy",
+   "pip",
+   "properties",
+   "pymatsolver",
+   "python",
+   "scipy",
+   "vectormath"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "cython",
+    "discretize",
+    "geoana",
+    "ipython",
+    "matplotlib-base",
+    "numpy",
+    "properties",
+    "pymatsolver",
+    "python",
+    "scipy",
+    "vectormath"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.6.8",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "cython",
+    "discretize >=0.4.0",
+    "geoana >=0.0.4",
+    "ipython",
+    "matplotlib-base",
+    "numpy >=1.7",
+    "properties >=0.5.2",
+    "pymatsolver >=0.1.1",
+    "python",
+    "scipy >=0.13",
+    "vectormath >=0.2.0"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/S/SimPEG/SimPEG-0.12.0.tar.gz",
+ "version":"0.13.1"
+}

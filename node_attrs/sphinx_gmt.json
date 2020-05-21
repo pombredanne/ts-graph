@@ -1,0 +1,155 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/318121098.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.1.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"sphinx_gmt",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"This package provides a Sphinx extension for including GMT code and figures in your\ndocumentation.\n",
+   "dev_url":"https://github.com/GenericMappingTools/sphinx_gmt",
+   "doc_url":"https://www.generic-mapping-tools.org/sphinx_gmt",
+   "home":"https://github.com/GenericMappingTools/sphinx_gmt",
+   "license":"BSD-3-Clause",
+   "license_family":"BSD",
+   "license_file":"LICENSE.txt",
+   "summary":"Sphinx extensions for the Generic Mapping Tools"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "leouieda",
+    "seisman",
+    "leouieda",
+    "seisman",
+    "leouieda",
+    "seisman"
+   ]
+  },
+  "package":{
+   "name":"sphinx_gmt",
+   "version":"0.1.1"
+  },
+  "requirements":{
+   "host":[
+    "python >=3.5",
+    "pip",
+    "python >=3.5",
+    "pip",
+    "python >=3.5",
+    "pip"
+   ],
+   "run":[
+    "python >=3.5",
+    "jinja2",
+    "sphinx",
+    "python >=3.5",
+    "jinja2",
+    "sphinx",
+    "python >=3.5",
+    "jinja2",
+    "sphinx"
+   ]
+  },
+  "source":{
+   "sha256":"66b7fbb623ad81d97d8cb914f6104b436feff9a47e3b3c237bf4c195c18dd1f0",
+   "url":"https://pypi.io/packages/source/s/sphinx_gmt/sphinx_gmt-0.1.1.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "sphinx_gmt.gmtplot",
+    "sphinx_gmt.gmtplot",
+    "sphinx_gmt.gmtplot"
+   ]
+  }
+ },
+ "name":"sphinx_gmt",
+ "new_version":"0.1.1",
+ "pinning_version":"2019.09.08",
+ "raw_meta_yaml":"{% set name = \"sphinx_gmt\" %}\n{% set version = \"0.1.1\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: 66b7fbb623ad81d97d8cb914f6104b436feff9a47e3b3c237bf4c195c18dd1f0\n\nbuild:\n  noarch: python\n  number: 0\n  script: \"{{ PYTHON }} -m pip install . -vv\"\n\nrequirements:\n  host:\n    - python >=3.5\n    - pip\n  run:\n    - python >=3.5\n    - jinja2\n    - sphinx\n\ntest:\n  imports:\n    - sphinx_gmt.gmtplot\n\nabout:\n  home: https://github.com/GenericMappingTools/sphinx_gmt\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: LICENSE.txt\n  summary: 'Sphinx extensions for the Generic Mapping Tools'\n  description: |\n    This package provides a Sphinx extension for including GMT code and figures in your\n    documentation.\n  doc_url: https://www.generic-mapping-tools.org/sphinx_gmt\n  dev_url: https://github.com/GenericMappingTools/sphinx_gmt\n\nextra:\n  recipe-maintainers:\n    - leouieda\n    - seisman\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "jinja2",
+   "pip",
+   "python",
+   "sphinx"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "jinja2",
+    "python",
+    "sphinx"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.4.7",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3.5"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "jinja2",
+    "python >=3.5",
+    "sphinx"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/s/sphinx_gmt/sphinx_gmt-0.1.0.tar.gz",
+ "version":"0.1.1"
+}

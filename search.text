@@ -1,0 +1,32 @@
+def load_graph(filename: str = "graph.json") -> nx.DiGraph:
+    with open(filename, "r") as f:
+        nld = load(f)
+    return nx.node_link_graph(nld)
+    
+# ------------------------------------------------------------
+def load(fp: IO[str], object_hook: "Callable[[dict], Any]" = object_hook, **kwargs: Any,) -> dict:
+    """Loads a file object as JSON, with appropriate object hooks."""
+    return json.load(fp, object_hook=object_hook, **kwargs)
+
+#--------------------------------------------------------------
+import networkx as nx --> nx.node_link_graph() ?
+
+NetworkX is a Python package for the creation, manipulation, and study of the structure, dynamics, and functions of complex networks.
+
+--> node_link_graph(data, directed=False, multigraph=True, attrs=None)[source]
+        % Returns graph from node-link data format.
+
+# -------------------------------------------------------------
+--> import logging 
+Logging is a means of tracking events that happen when some software runs. The software’s developer adds logging calls to their code to indicate that certain events have occurred. An event is described by a descriptive message which can optionally contain variable data (i.e. data that is potentially different for each occurrence of the event). Events also have an importance which the developer ascribes to the event; the importance can also be called the level or severity.
+
+https://docs.python.org/3/howto/logging.html#logging-basic-tutorial
+
+Logging is performed by calling methods on instances of the Logger class (hereafter called loggers). Each instance has a name, and they are conceptually arranged in a namespace hierarchy using dots (periods) as separators. For example, a logger named ‘scan’ is the parent of loggers ‘scan.text’, ‘scan.html’ and ‘scan.pdf’. Logger names can be anything you want, and indicate the area of an application in which a logged message originates.
+
+A good convention to use when naming loggers is to use a module-level logger, in each module which uses logging, named as follows:
+
+logger = logging.getLogger(__name__)
+
+This means that logger names track the package/module hierarchy, and it’s intuitively obvious where events are logged just from the logger name.
+

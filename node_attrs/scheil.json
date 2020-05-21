@@ -1,0 +1,6 @@
+{
+ "bad":"Upstream: Error getting upstream version",
+ "feedstock_name":"scheil",
+ "new_version":false,
+ "raw_meta_yaml":"{% set name = \"scheil\" %}\n{% set version = \"0.1.1\" %}\n{% set sha256 = \"de43e05fb9fdfb084fa3c7709000cc81c88292eaee24a0ac020c52c032c0c809\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 0\n  script: \"{{ PYTHON }} -m pip install . -vv\"\n\nrequirements:\n  host:\n    - python >=3.6\n    - pip\n  run:\n    - python >=3\n    - numpy\n    - scipy\n    - pycalphad >=0.8.1\n\ntest:\n  imports:\n    - scheil\n    - scheil.simulate\n    - scheil.solidification_result\n    - scheil.utils\n\nabout:\n  home: https://scheil.readthedocs.io\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE\n  summary: 'A Scheil-Gulliver simulation tool using pycalphad'\n  doc_url: A Scheil-Gulliver simulation tool using pycalphad\n  dev_url: https://github.com/pycalphad/scheil\n\nextra:\n  recipe-maintainers:\n    - bocklund\n    - richardotis\n"
+}

@@ -1,0 +1,505 @@
+{
+ "PRed":[
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.4.3"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/199937992.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Noarch",
+    "migrator_version":0
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version"
+   ]
+  },
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.5.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/200883407.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.5.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/201748139.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.5.3"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/207685994.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.5.4"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/208262556.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.6.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/209134342.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.0.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/219999369.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.0.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/220969490.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.0.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/223276316.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/230813785.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.0.3"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/238534548.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.0.4"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/248620911.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.0.5"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/315151946.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.1.8"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "provider":{
+   "win":"azure"
+  }
+ },
+ "feedstock_name":"glimix-core",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "dev_url":"https://github.com/limix/glimix-core",
+   "doc_url":"https://glimix-core.readthedocs.io/",
+   "home":"https://github.com/limix/glimix-core",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"LICENSE.md",
+   "summary":"Fast inference for Generalized Linear Mixed Models"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"1",
+   "script":" -m pip install . --no-deps -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "Horta",
+    "Horta",
+    "Horta"
+   ]
+  },
+  "package":{
+   "name":"glimix-core",
+   "version":"3.1.8"
+  },
+  "requirements":{
+   "host":[
+    "pip",
+    "pytest-runner",
+    "python >3",
+    "setuptools >=39.0.1",
+    "wheel",
+    "pip",
+    "pytest-runner",
+    "python >3",
+    "setuptools >=39.0.1",
+    "wheel",
+    "pip",
+    "pytest-runner",
+    "python >3",
+    "setuptools >=39.0.1",
+    "wheel"
+   ],
+   "run":[
+    "brent-search >=2.0.0",
+    "cachetools",
+    "cytoolz",
+    "liknorm >=1.5.1",
+    "liknorm-py >=1.2.2",
+    "ndarray-listener >=2.0.0",
+    "numpy >=1.14.5",
+    "numpy-sugar >=1.5.0",
+    "optimix >=3.0.3",
+    "pandas >=0.25.1",
+    "pytest",
+    "python >3",
+    "scipy >=1.1.0",
+    "scipy-sugar >=1.0.9",
+    "tqdm >=4.23.4",
+    "pytest-doctestplus >=0.4.0",
+    "statsmodels >=0.9.0",
+    "brent-search >=2.0.0",
+    "cachetools",
+    "cytoolz",
+    "liknorm >=1.5.1",
+    "liknorm-py >=1.2.2",
+    "ndarray-listener >=2.0.0",
+    "numpy >=1.14.5",
+    "numpy-sugar >=1.5.0",
+    "optimix >=3.0.3",
+    "pandas >=0.25.1",
+    "pytest",
+    "python >3",
+    "scipy >=1.1.0",
+    "scipy-sugar >=1.0.9",
+    "tqdm >=4.23.4",
+    "pytest-doctestplus >=0.4.0",
+    "statsmodels >=0.9.0",
+    "brent-search >=2.0.0",
+    "cachetools",
+    "cytoolz",
+    "liknorm >=1.5.1",
+    "liknorm-py >=1.2.2",
+    "ndarray-listener >=2.0.0",
+    "numpy >=1.14.5",
+    "numpy-sugar >=1.5.0",
+    "optimix >=3.0.3",
+    "pandas >=0.25.1",
+    "pytest",
+    "python >3",
+    "scipy >=1.1.0",
+    "scipy-sugar >=1.0.9",
+    "tqdm >=4.23.4",
+    "pytest-doctestplus >=0.4.0",
+    "statsmodels >=0.9.0"
+   ]
+  },
+  "source":{
+   "fn":"glimix-core-3.1.8.tar.gz",
+   "sha256":"d92a9b9fcb4d4891e6118831f09e0a696882f555db73e74a14a4b98d111a7a96",
+   "url":"https://pypi.io/packages/source/g/glimix-core/glimix-core-3.1.8.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "python -c \"import sys; import glimix_core; sys.exit(glimix_core.test())\"",
+    "python -c \"import sys; import glimix_core; sys.exit(glimix_core.test())\"",
+    "python -c \"import sys; import glimix_core; sys.exit(glimix_core.test())\""
+   ],
+   "imports":[
+    "pandas",
+    "glimix_core",
+    "pandas",
+    "glimix_core",
+    "pandas",
+    "glimix_core"
+   ],
+   "requires":[
+    "pytest",
+    "pytest",
+    "pytest"
+   ]
+  }
+ },
+ "name":"glimix-core",
+ "new_version":"3.1.8",
+ "pinning_version":"2019.08.27",
+ "raw_meta_yaml":"{% set name = \"glimix-core\" %}\n{% set version = \"3.1.8\" %}\n{% set sha256 = \"d92a9b9fcb4d4891e6118831f09e0a696882f555db73e74a14a4b98d111a7a96\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  fn: {{ name }}-{{ version }}.tar.gz\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 1\n  script: \"{{ PYTHON }} -m pip install . --no-deps -vv\"\n\nrequirements:\n  host:\n    - pip\n    - pytest-runner\n    - python >3\n    - setuptools >=39.0.1\n    - wheel\n  run:\n    - brent-search >=2.0.0\n    - cachetools\n    - cytoolz\n    - liknorm >=1.5.1\n    - liknorm-py >=1.2.2\n    - ndarray-listener >=2.0.0\n    - numpy >=1.14.5\n    - numpy-sugar >=1.5.0\n    - optimix >=3.0.3\n    - pandas >=0.25.1\n    - pytest\n    - python >3\n    - scipy >=1.1.0\n    - scipy-sugar >=1.0.9\n    - tqdm >=4.23.4\n    - pytest-doctestplus >=0.4.0\n    - statsmodels >=0.9.0\n\ntest:\n  requires:\n    - pytest\n  imports:\n    - pandas\n    - glimix_core\n  commands:\n    - python -c \"import sys; import glimix_core; sys.exit(glimix_core.test())\"\n\nabout:\n  home: https://github.com/limix/glimix-core\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE.md\n  summary: 'Fast inference for Generalized Linear Mixed Models'\n  doc_url: https://glimix-core.readthedocs.io/\n  dev_url: https://github.com/limix/glimix-core\n\nextra:\n  recipe-maintainers:\n    - Horta\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "brent-search",
+   "cachetools",
+   "cytoolz",
+   "liknorm",
+   "liknorm-py",
+   "ndarray-listener",
+   "numpy",
+   "numpy-sugar",
+   "optimix",
+   "pandas",
+   "pip",
+   "pytest",
+   "pytest-doctestplus",
+   "pytest-runner",
+   "python",
+   "scipy",
+   "scipy-sugar",
+   "setuptools",
+   "statsmodels",
+   "tqdm",
+   "wheel"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "pytest-runner",
+    "python",
+    "setuptools",
+    "wheel"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "brent-search",
+    "cachetools",
+    "cytoolz",
+    "liknorm",
+    "liknorm-py",
+    "ndarray-listener",
+    "numpy",
+    "numpy-sugar",
+    "optimix",
+    "pandas",
+    "pytest",
+    "pytest-doctestplus",
+    "python",
+    "scipy",
+    "scipy-sugar",
+    "statsmodels",
+    "tqdm"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "pytest"
+   ]
+  }
+ },
+ "smithy_version":"3.4.5",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "pytest-runner",
+    "python >3",
+    "setuptools >=39.0.1",
+    "wheel"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "brent-search >=2.0.0",
+    "cachetools",
+    "cytoolz",
+    "liknorm >=1.5.1",
+    "liknorm-py >=1.2.2",
+    "ndarray-listener >=2.0.0",
+    "numpy >=1.14.5",
+    "numpy-sugar >=1.5.0",
+    "optimix >=3.0.3",
+    "pandas >=0.25.1",
+    "pytest",
+    "pytest-doctestplus >=0.4.0",
+    "python >3",
+    "scipy >=1.1.0",
+    "scipy-sugar >=1.0.9",
+    "statsmodels >=0.9.0",
+    "tqdm >=4.23.4"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "pytest"
+   ]
+  }
+ },
+ "url":"https://pypi.io/packages/source/g/glimix-core/glimix-core-3.1.7.tar.gz",
+ "version":"3.1.8"
+}

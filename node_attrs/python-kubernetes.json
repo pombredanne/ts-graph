@@ -1,0 +1,430 @@
+{
+ "PRed":[
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"6.0.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/208721444.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"7.0.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/221645681.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/228019409.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"8.0.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/241251472.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"8.0.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/262964260.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"9.0.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/294320093.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"10.0.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/306649250.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"10.0.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/336059578.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"python38"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/387428355.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"10.1.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/387459238.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"11.0.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/389111415.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"pypy"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "bot":{
+   "automerge":true
+  },
+  "provider":{
+   "win":"azure"
+  }
+ },
+ "feedstock_name":"python-kubernetes",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "dev_url":"https://github.com/kubernetes-incubator/client-python",
+   "home":"https://github.com/kubernetes-incubator/client-python",
+   "license":"Apache-2.0",
+   "license_family":"APACHE",
+   "license_file":"LICENSE",
+   "summary":"The official Kubernetes python client."
+  },
+  "build":{
+   "number":"0",
+   "script":"-m pip install . -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "johanneskoester",
+    "ocefpaf",
+    "johanneskoester",
+    "ocefpaf",
+    "johanneskoester",
+    "ocefpaf"
+   ]
+  },
+  "package":{
+   "name":"python-kubernetes",
+   "version":"11.0.0"
+  },
+  "requirements":{
+   "build":[
+    "python",
+    "pip",
+    "python",
+    "pip",
+    "python",
+    "pip"
+   ],
+   "run":[
+    "python",
+    "certifi >=14.05.14",
+    "six >=1.9.0",
+    "python-dateutil >=2.5.3",
+    "setuptools >=21.0.0",
+    "urllib3 >=1.23",
+    "pyyaml >=3.12",
+    "google-auth >=1.0.1",
+    "websocket-client >=0.32.0,!=0.40.0,!=0.41.*,!=0.42.*",
+    "requests",
+    "requests-oauthlib",
+    "adal >=1.0.2",
+    "python",
+    "certifi >=14.05.14",
+    "six >=1.9.0",
+    "python-dateutil >=2.5.3",
+    "setuptools >=21.0.0",
+    "urllib3 >=1.23",
+    "pyyaml >=3.12",
+    "google-auth >=1.0.1",
+    "websocket-client >=0.32.0,!=0.40.0,!=0.41.*,!=0.42.*",
+    "requests",
+    "requests-oauthlib",
+    "adal >=1.0.2",
+    "python",
+    "certifi >=14.05.14",
+    "six >=1.9.0",
+    "python-dateutil >=2.5.3",
+    "setuptools >=21.0.0",
+    "urllib3 >=1.23",
+    "pyyaml >=3.12",
+    "google-auth >=1.0.1",
+    "websocket-client >=0.32.0,!=0.40.0,!=0.41.*,!=0.42.*",
+    "requests",
+    "requests-oauthlib",
+    "adal >=1.0.2"
+   ]
+  },
+  "source":{
+   "sha256":"1a2472f8b01bc6aa87e3a34781f859bded5a5c8ff791a53d889a8bd6cc550430",
+   "url":"https://pypi.io/packages/source/k/kubernetes/kubernetes-11.0.0.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "pip check",
+    "pip check",
+    "pip check"
+   ],
+   "imports":[
+    "kubernetes",
+    "kubernetes.client",
+    "kubernetes.client.apis",
+    "kubernetes.client.models",
+    "kubernetes.config",
+    "kubernetes.watch",
+    "kubernetes",
+    "kubernetes.client",
+    "kubernetes.client.apis",
+    "kubernetes.client.models",
+    "kubernetes.config",
+    "kubernetes.watch",
+    "kubernetes",
+    "kubernetes.client",
+    "kubernetes.client.apis",
+    "kubernetes.client.models",
+    "kubernetes.config",
+    "kubernetes.watch"
+   ],
+   "requires":[
+    "pip",
+    "pip",
+    "pip"
+   ]
+  }
+ },
+ "name":"python-kubernetes",
+ "new_version":"11.0.0",
+ "pinning_version":"2020.03.14",
+ "raw_meta_yaml":"{% set version = \"11.0.0\" %}\n\npackage:\n  name: python-kubernetes\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/k/kubernetes/kubernetes-{{ version }}.tar.gz\n  sha256: 1a2472f8b01bc6aa87e3a34781f859bded5a5c8ff791a53d889a8bd6cc550430\n\nbuild:\n  number: 0\n  script: {{ PYTHON }} -m pip install . -vv\n\nrequirements:\n  build:\n    - python\n    - pip\n  run:\n    - python\n    - certifi >=14.05.14\n    - six >=1.9.0\n    - python-dateutil >=2.5.3\n    - setuptools >=21.0.0\n    - urllib3 >=1.23\n    - pyyaml >=3.12\n    - google-auth >=1.0.1\n    - ipaddress >=1.0.17  # [py27]\n    - websocket-client >=0.32.0,!=0.40.0,!=0.41.*,!=0.42.*\n    - requests\n    - requests-oauthlib\n    - adal >=1.0.2\n\ntest:\n  requires:\n    - pip\n  commands:\n    - pip check\n  imports:\n    - kubernetes\n    - kubernetes.client\n    - kubernetes.client.apis\n    - kubernetes.client.models\n    - kubernetes.config\n    - kubernetes.watch\n\nabout:\n  home: https://github.com/kubernetes-incubator/client-python\n  license: Apache-2.0\n  summary: The official Kubernetes python client.\n  license_family: APACHE\n  license_file: LICENSE\n  dev_url: https://github.com/kubernetes-incubator/client-python\n\nextra:\n  recipe-maintainers:\n    - johanneskoester\n    - ocefpaf\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "adal",
+   "certifi",
+   "google-auth",
+   "pip",
+   "python",
+   "python-dateutil",
+   "pyyaml",
+   "requests",
+   "requests-oauthlib",
+   "setuptools",
+   "six",
+   "urllib3",
+   "websocket-client"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "adal",
+    "certifi",
+    "google-auth",
+    "python",
+    "python-dateutil",
+    "pyyaml",
+    "requests",
+    "requests-oauthlib",
+    "setuptools",
+    "six",
+    "urllib3",
+    "websocket-client"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "pip"
+   ]
+  }
+ },
+ "smithy_version":"3.6.12",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "adal >=1.0.2",
+    "certifi >=14.05.14",
+    "google-auth >=1.0.1",
+    "python",
+    "python-dateutil >=2.5.3",
+    "pyyaml >=3.12",
+    "requests",
+    "requests-oauthlib",
+    "setuptools >=21.0.0",
+    "six >=1.9.0",
+    "urllib3 >=1.23",
+    "websocket-client >=0.32.0,!=0.40.0,!=0.41.*,!=0.42.*"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "pip"
+   ]
+  }
+ },
+ "url":"https://pypi.io/packages/source/k/kubernetes/kubernetes-10.0.1.tar.gz",
+ "version":"11.0.0"
+}

@@ -1,0 +1,370 @@
+{
+ "PRed":[
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.17.4"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/199847745.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.17.5"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/206062475.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/208059729.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.0.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/210191528.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.0.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/211859575.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.0.3"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/214001403.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.0.4"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/378661721.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "bot":{
+   "automerge":true
+  }
+ },
+ "feedstock_name":"mkdocs",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"http://www.mkdocs.org",
+   "license":"BSD-2-Clause",
+   "license_file":"LICENSE",
+   "summary":"Project documentation with Markdown"
+  },
+  "build":{
+   "entry_points":[
+    "mkdocs = mkdocs.__main__:cli",
+    "mkdocs = mkdocs.__main__:cli",
+    "mkdocs = mkdocs.__main__:cli"
+   ],
+   "noarch":"python",
+   "number":"0",
+   "script":"-m pip install . --no-deps -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "ocefpaf",
+    "ocefpaf",
+    "ocefpaf"
+   ]
+  },
+  "package":{
+   "name":"mkdocs",
+   "version":"1.1"
+  },
+  "requirements":{
+   "host":[
+    "python >=3.5",
+    "pip",
+    "python >=3.5",
+    "pip",
+    "python >=3.5",
+    "pip"
+   ],
+   "run":[
+    "python >=3.5",
+    "click >=3.3",
+    "jinja2 >=2.10.1",
+    "livereload >=2.5.1",
+    "lunr ==0.5.6",
+    "nltk >=3.2.5",
+    "markdown >=3.2.1",
+    "pyyaml >=3.10",
+    "tornado >=5.0",
+    "python >=3.5",
+    "click >=3.3",
+    "jinja2 >=2.10.1",
+    "livereload >=2.5.1",
+    "lunr ==0.5.6",
+    "nltk >=3.2.5",
+    "markdown >=3.2.1",
+    "pyyaml >=3.10",
+    "tornado >=5.0",
+    "python >=3.5",
+    "click >=3.3",
+    "jinja2 >=2.10.1",
+    "livereload >=2.5.1",
+    "lunr ==0.5.6",
+    "nltk >=3.2.5",
+    "markdown >=3.2.1",
+    "pyyaml >=3.10",
+    "tornado >=5.0"
+   ]
+  },
+  "source":{
+   "sha256":"9243291392f59e20b655e4e46210233453faf97787c2cf72176510e868143174",
+   "url":"https://pypi.io/packages/source/m/mkdocs/mkdocs-1.1.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "mkdocs --help",
+    "mkdocs --help",
+    "mkdocs --help"
+   ],
+   "imports":[
+    "mkdocs",
+    "mkdocs.commands",
+    "mkdocs.config",
+    "mkdocs.contrib",
+    "mkdocs.contrib.search",
+    "mkdocs.structure",
+    "mkdocs.tests",
+    "mkdocs.tests.config",
+    "mkdocs.tests.structure",
+    "mkdocs.tests.utils",
+    "mkdocs.themes",
+    "mkdocs.themes.mkdocs",
+    "mkdocs.themes.readthedocs",
+    "mkdocs.utils",
+    "mkdocs",
+    "mkdocs.commands",
+    "mkdocs.config",
+    "mkdocs.contrib",
+    "mkdocs.contrib.search",
+    "mkdocs.structure",
+    "mkdocs.tests",
+    "mkdocs.tests.config",
+    "mkdocs.tests.structure",
+    "mkdocs.tests.utils",
+    "mkdocs.themes",
+    "mkdocs.themes.mkdocs",
+    "mkdocs.themes.readthedocs",
+    "mkdocs.utils",
+    "mkdocs",
+    "mkdocs.commands",
+    "mkdocs.config",
+    "mkdocs.contrib",
+    "mkdocs.contrib.search",
+    "mkdocs.structure",
+    "mkdocs.tests",
+    "mkdocs.tests.config",
+    "mkdocs.tests.structure",
+    "mkdocs.tests.utils",
+    "mkdocs.themes",
+    "mkdocs.themes.mkdocs",
+    "mkdocs.themes.readthedocs",
+    "mkdocs.utils"
+   ],
+   "requires":[
+    "pip",
+    "pip",
+    "pip"
+   ]
+  }
+ },
+ "name":"mkdocs",
+ "new_version":"1.1.2",
+ "new_version_attempts":{
+  "1.1.1":26,
+  "1.1.2":33
+ },
+ "new_version_errors":{
+  "1.1.1":"We found a problem parsing the recipe: \n\nwhile constructing a mapping\n  in \"<unicode string>\", line 35, column 3:\n      requires:\n      ^ (line: 35)\nfound duplicate key \"commands\" with value \"['mkdocs --help']\" (original value: \"['pip check']\")\n  in \"<unicode string>\", line 54, column 3:\n      commands:\n      ^ (line: 54)\n\nTo suppress this check see:\n    http://yaml.readthedocs.io/en/latest/api.html#duplicate-keys\n\nDuplicate keys will become an error in future releases, and are errors\nby default when using the new API.\n",
+  "1.1.2":"We found a problem parsing the recipe: \n\nwhile constructing a mapping\n  in \"<unicode string>\", line 35, column 3:\n      requires:\n      ^ (line: 35)\nfound duplicate key \"commands\" with value \"['mkdocs --help']\" (original value: \"['pip check']\")\n  in \"<unicode string>\", line 54, column 3:\n      commands:\n      ^ (line: 54)\n\nTo suppress this check see:\n    http://yaml.readthedocs.io/en/latest/api.html#duplicate-keys\n\nDuplicate keys will become an error in future releases, and are errors\nby default when using the new API.\n"
+ },
+ "pinning_version":"2020.02.20",
+ "raw_meta_yaml":"{% set version = \"1.1\" %}\n\npackage:\n  name: mkdocs\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/m/mkdocs/mkdocs-{{ version }}.tar.gz\n  sha256: 9243291392f59e20b655e4e46210233453faf97787c2cf72176510e868143174\n\nbuild:\n  number: 0\n  noarch: python\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n  entry_points:\n    - mkdocs = mkdocs.__main__:cli\n\nrequirements:\n  host:\n    - python >=3.5\n    - pip\n  run:\n    - python >=3.5\n    - click >=3.3\n    - jinja2 >=2.10.1\n    - livereload >=2.5.1\n    - lunr ==0.5.6\n    # lunr[languages]\n    - nltk >=3.2.5\n    - markdown >=3.2.1\n    - pyyaml >=3.10\n    - tornado >=5.0\n\ntest:\n  requires:\n    - pip\n  commands:\n    - pip check\n  imports:\n    - mkdocs\n    - mkdocs.commands\n    - mkdocs.config\n    - mkdocs.contrib\n    - mkdocs.contrib.search\n    - mkdocs.structure\n    - mkdocs.tests\n    - mkdocs.tests.config\n    - mkdocs.tests.structure\n    - mkdocs.tests.utils\n    - mkdocs.themes\n    - mkdocs.themes.mkdocs\n    - mkdocs.themes.readthedocs\n    - mkdocs.utils\n  commands:\n    - mkdocs --help\n\nabout:\n  home: http://www.mkdocs.org\n  license: BSD-2-Clause\n  license_file: LICENSE\n  summary: 'Project documentation with Markdown'\n\nextra:\n  recipe-maintainers:\n    - ocefpaf\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "click",
+   "jinja2",
+   "livereload",
+   "lunr",
+   "markdown",
+   "nltk",
+   "pip",
+   "python",
+   "pyyaml",
+   "tornado"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "click",
+    "jinja2",
+    "livereload",
+    "lunr",
+    "markdown",
+    "nltk",
+    "python",
+    "pyyaml",
+    "tornado"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "pip"
+   ]
+  }
+ },
+ "smithy_version":"3.6.8",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3.5"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "click >=3.3",
+    "jinja2 >=2.10.1",
+    "livereload >=2.5.1",
+    "lunr ==0.5.6",
+    "markdown >=3.2.1",
+    "nltk >=3.2.5",
+    "python >=3.5",
+    "pyyaml >=3.10",
+    "tornado >=5.0"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "pip"
+   ]
+  }
+ },
+ "url":"https://pypi.io/packages/source/m/mkdocs/mkdocs-1.0.4.tar.gz",
+ "version":"1.1"
+}

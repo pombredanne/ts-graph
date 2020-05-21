@@ -1,0 +1,244 @@
+{
+ "PRed":[
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.2.3"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/198504752.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Compiler",
+    "migrator_version":0
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/205833538.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.2.5"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/215918000.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "head":{
+     "ref":"<this_is_not_a_branch>"
+    },
+    "state":"closed"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.2.6"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "compiler_stack":"comp7",
+  "max_py_ver":"37",
+  "max_r_ver":"35"
+ },
+ "feedstock_name":"xtensor-fftw",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"xtensor-fftw is a header-only library containing FFTW bindings for the\nxtensor C++ multi-dimensional array library.\n",
+   "dev_url":"https://github.com/xtensor-stack/xtensor-fftw",
+   "home":"http://github.com/xtensor-stack/xtensor-fftw",
+   "license":"BSD-3-Clause",
+   "license_family":"BSD",
+   "license_file":"LICENSE",
+   "summary":"FFTW bindings for xtensor"
+  },
+  "build":{
+   "number":"0",
+   "skip":true
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "egpbos",
+    "SylvainCorlay",
+    "JohanMabille",
+    "egpbos",
+    "SylvainCorlay",
+    "JohanMabille",
+    "egpbos",
+    "SylvainCorlay",
+    "JohanMabille"
+   ]
+  },
+  "package":{
+   "name":"xtensor-fftw",
+   "version":"0.2.6"
+  },
+  "requirements":{
+   "build":[
+    "cmake >=3.1.3",
+    "cxx_compiler_stub",
+    "cmake >=3.1.3",
+    "cxx_compiler_stub",
+    "cmake >=3.1.3",
+    "cxx_compiler_stub"
+   ],
+   "host":[
+    "xtensor >=0.20.9,<0.22",
+    "fftw >=3.0",
+    "xtensor >=0.20.9,<0.22",
+    "fftw >=3.0",
+    "xtensor >=0.20.9,<0.22",
+    "fftw >=3.0"
+   ],
+   "run":[
+    "xtensor >=0.20.9,<0.22",
+    "fftw >=3.0",
+    "xtensor >=0.20.9,<0.22",
+    "fftw >=3.0",
+    "xtensor >=0.20.9,<0.22",
+    "fftw >=3.0"
+   ]
+  },
+  "source":{
+   "fn":"xtensor-fftw-0.2.6.tar.gz",
+   "sha256":"82d7492db4ae5593c2e419ddf1ece660ee315b269bc9e90176812e21d47bae3b",
+   "url":"https://github.com/xtensor-stack/xtensor-fftw/archive/0.2.6.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "if exist %LIBRARY_PREFIX%\\include\\xtensor-fftw\\xtensor-fftw_config.hpp (exit 0) else (exit 1)",
+    "if exist %LIBRARY_PREFIX%\\lib\\cmake\\xtensor-fftwConfig.cmake (exit 0) else (exit 1)",
+    "if exist %LIBRARY_PREFIX%\\lib\\cmake\\xtensor-fftwConfigVersion.cmake (exit 0) else (exit 1)",
+    "test -d ${PREFIX}/include/xtensor-fftw",
+    "test -f ${PREFIX}/include/xtensor-fftw/xtensor-fftw_config.hpp",
+    "test -f ${PREFIX}/lib/cmake/xtensor-fftw/xtensor-fftwConfig.cmake",
+    "test -f ${PREFIX}/lib/cmake/xtensor-fftw/xtensor-fftwConfigVersion.cmake",
+    "test -d ${PREFIX}/include/xtensor-fftw",
+    "test -f ${PREFIX}/include/xtensor-fftw/xtensor-fftw_config.hpp",
+    "test -f ${PREFIX}/lib/cmake/xtensor-fftw/xtensor-fftwConfig.cmake",
+    "test -f ${PREFIX}/lib/cmake/xtensor-fftw/xtensor-fftwConfigVersion.cmake"
+   ]
+  }
+ },
+ "name":"xtensor-fftw",
+ "new_version":"0.2.6",
+ "pinning_version":"2019.12.18",
+ "raw_meta_yaml":"{% set name = \"xtensor-fftw\" %}\n{% set version = \"0.2.6\" %}\n{% set sha256 = \"82d7492db4ae5593c2e419ddf1ece660ee315b269bc9e90176812e21d47bae3b\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  fn: {{ name }}-{{ version }}.tar.gz\n  url: https://github.com/xtensor-stack/xtensor-fftw/archive/{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  skip: true  # [win and vc<14]\n\nrequirements:\n  build:\n    - cmake >=3.1.3\n    - {{ compiler('cxx') }}\n  host:\n    - xtensor >=0.20.9,<0.22\n    - fftw >=3.0\n  run:\n    - xtensor >=0.20.9,<0.22\n    - fftw >=3.0\n\ntest:\n  commands:\n    - test -d ${PREFIX}/include/xtensor-fftw  # [unix]\n    - test -f ${PREFIX}/include/xtensor-fftw/xtensor-fftw_config.hpp  # [unix]\n    - test -f ${PREFIX}/lib/cmake/xtensor-fftw/xtensor-fftwConfig.cmake  # [unix]\n    - test -f ${PREFIX}/lib/cmake/xtensor-fftw/xtensor-fftwConfigVersion.cmake  # [unix]\n    - if exist %LIBRARY_PREFIX%\\include\\xtensor-fftw\\xtensor-fftw_config.hpp (exit 0) else (exit 1)  # [win]\n    - if exist %LIBRARY_PREFIX%\\lib\\cmake\\xtensor-fftwConfig.cmake (exit 0) else (exit 1)  # [win]\n    - if exist %LIBRARY_PREFIX%\\lib\\cmake\\xtensor-fftwConfigVersion.cmake (exit 0) else (exit 1)  # [win]\n\nabout:\n  home: http://github.com/xtensor-stack/xtensor-fftw\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: LICENSE\n  summary: 'FFTW bindings for xtensor'\n  description: |\n    xtensor-fftw is a header-only library containing FFTW bindings for the\n    xtensor C++ multi-dimensional array library.\n  dev_url: https://github.com/xtensor-stack/xtensor-fftw\n\nextra:\n  recipe-maintainers:\n    - egpbos\n    - SylvainCorlay\n    - JohanMabille\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "cmake",
+   "cxx_compiler_stub",
+   "fftw",
+   "xtensor"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "cmake",
+    "cxx_compiler_stub"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "fftw",
+    "xtensor"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "fftw",
+    "xtensor"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.6.5",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "cmake >=3.1.3",
+    "cxx_compiler_stub"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "fftw >=3.0",
+    "xtensor >=0.20.9,<0.22"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "fftw >=3.0",
+    "xtensor >=0.20.9,<0.22"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://github.com/egpbos/xtensor-fftw/archive/0.2.5.tar.gz",
+ "version":"0.2.6"
+}

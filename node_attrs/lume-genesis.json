@@ -1,0 +1,144 @@
+{
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"lume-genesis",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"Genesis tools for use in LUME.\n",
+   "home":"https://github.com/slaclab/lume-genesis",
+   "license":"APACHE-2.0",
+   "license_family":"APACHE",
+   "license_file":"LICENSE",
+   "summary":"Genesis tools for use in LUME"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "balticfish",
+    "ChristopherMayes",
+    "balticfish",
+    "ChristopherMayes",
+    "balticfish",
+    "ChristopherMayes"
+   ]
+  },
+  "package":{
+   "name":"lume-genesis",
+   "version":"0.1.0"
+  },
+  "requirements":{
+   "host":[
+    "python >=3.6",
+    "pip",
+    "python >=3.6",
+    "pip",
+    "python >=3.6",
+    "pip"
+   ],
+   "run":[
+    "python >=3.6",
+    "bokeh",
+    "matplotlib-base",
+    "numpy",
+    "scipy",
+    "python >=3.6",
+    "bokeh",
+    "matplotlib-base",
+    "numpy",
+    "scipy",
+    "python >=3.6",
+    "bokeh",
+    "matplotlib-base",
+    "numpy",
+    "scipy"
+   ]
+  },
+  "source":{
+   "sha256":"2adfa80ee897903aa1216d2cdf8a831282eb64ce0c3758f43e2e2c9297f5e729",
+   "url":"https://github.com/slaclab/lume-genesis/archive/v0.1.0.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "genesis",
+    "genesis",
+    "genesis"
+   ]
+  }
+ },
+ "name":"lume-genesis",
+ "new_version":"0.1.0",
+ "raw_meta_yaml":"{% set name = \"lume-genesis\" %}\n{% set version = \"0.1.0\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://github.com/slaclab/{{ name }}/archive/v{{ version }}.tar.gz\n  sha256: 2adfa80ee897903aa1216d2cdf8a831282eb64ce0c3758f43e2e2c9297f5e729\n\nbuild:\n  noarch: python\n  number: 0\n  script: \"{{ PYTHON }} -m pip install . -vv\"\n\nrequirements:\n  host:\n    - python >=3.6\n    - pip\n  run:\n    - python >=3.6\n    - bokeh\n    - matplotlib-base\n    - numpy\n    - scipy\n\ntest:\n  imports:\n    - genesis\n\nabout:\n  home: https://github.com/slaclab/{{ name }}\n  license: APACHE-2.0\n  license_family: APACHE\n  license_file: LICENSE\n  summary: 'Genesis tools for use in LUME'\n  description: |\n    Genesis tools for use in LUME.\n\nextra:\n  recipe-maintainers:\n    - balticfish\n    - ChristopherMayes\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "bokeh",
+   "matplotlib-base",
+   "numpy",
+   "pip",
+   "python",
+   "scipy"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "bokeh",
+    "matplotlib-base",
+    "numpy",
+    "python",
+    "scipy"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3.6"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "bokeh",
+    "matplotlib-base",
+    "numpy",
+    "python >=3.6",
+    "scipy"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://github.com/slaclab/lume-genesis/archive/v0.1.0.tar.gz",
+ "version":"0.1.0"
+}

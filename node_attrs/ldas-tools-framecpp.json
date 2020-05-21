@@ -1,0 +1,410 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/234433643.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.6.3"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/235891730.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/237468338.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.6.4"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/244227969.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.6.5"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/255980866.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Rebuild",
+    "migrator_object_version":2,
+    "migrator_version":0,
+    "name":"OpenSSL"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/256109501.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Rebuild",
+    "migrator_object_version":3,
+    "migrator_version":0,
+    "name":"OpenSSL"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/283682200.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Rebuild",
+    "migrator_version":0,
+    "name":"boost-cpp-1.70.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/321824526.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.7.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/37be2e9f-1b91-49cd-8ced-7c38e5ec8331.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"boost172"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/378619067.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":2,
+    "migrator_version":0,
+    "name":"boost172"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"ldas-tools-framecpp",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"This provides the runtime libraries for the framecpp library.\n",
+   "dev_url":"https://git.ligo.org/ldastools/LDAS_Tools",
+   "home":"https://wiki.ligo.org/Computing/LDASTools",
+   "license":"GPL-2.0-or-later",
+   "license_family":"GPL",
+   "license_file":"COPYING",
+   "summary":"LDAS tools libframecpp toolkit runtime files"
+  },
+  "build":{
+   "number":"3",
+   "run_exports":[
+    "ldas-tools-framecpp",
+    "ldas-tools-framecpp",
+    "ldas-tools-framecpp"
+   ],
+   "skip":true
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "duncanmmacleod",
+    "emaros",
+    "duncanmmacleod",
+    "emaros",
+    "duncanmmacleod",
+    "emaros"
+   ]
+  },
+  "package":{
+   "name":"ldas-tools-framecpp",
+   "version":"2.7.0"
+  },
+  "requirements":{
+   "build":[
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "cmake >=3.6",
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "cmake >=3.6",
+    "pkg-config",
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "cmake >=3.6",
+    "pkg-config"
+   ],
+   "host":[
+    "boost-cpp",
+    "ldas-tools-al >=2.6.3",
+    "ldas-tools-cmake >=1.0.8",
+    "openssl",
+    "zlib",
+    "boost-cpp",
+    "ldas-tools-al >=2.6.3",
+    "ldas-tools-cmake >=1.0.8",
+    "openssl",
+    "zlib",
+    "boost-cpp",
+    "ldas-tools-al >=2.6.3",
+    "ldas-tools-cmake >=1.0.8",
+    "openssl",
+    "zlib"
+   ],
+   "run":[
+    "boost-cpp",
+    "ldas-tools-al >=2.6.3",
+    "boost-cpp",
+    "ldas-tools-al >=2.6.3",
+    "boost-cpp",
+    "ldas-tools-al >=2.6.3"
+   ]
+  },
+  "source":{
+   "sha256":"539ae6ab7966f4e1379dfeb711d02e9edc087e1a8acab057af8a7405b16788a9",
+   "url":"http://software.ligo.org/lscsoft/source/ldas-tools-framecpp-2.7.0.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "framecpp_sample",
+    "framecpp_checksum --verbose --checksum-file --checksum-frame --checksum-structure Z-ilwd_test_frame-600000000-1.gwf",
+    "framecpp_compressor --compression-level 9 --output compressed.gwf Z-ilwd_test_frame-600000000-1.gwf",
+    "framecpp_dump_channel --channel Z0:RAMPED_INT_2U_1 Z-ilwd_test_frame-600000000-1.gwf",
+    "framecpp_dump_objects --silent Z-ilwd_test_frame-600000000-1.gwf",
+    "framecpp_dump_toc Z-ilwd_test_frame-600000000-1.gwf",
+    "framecpp_fix_metadata --output fixed.gwf Z-ilwd_test_frame-600000000-1.gwf",
+    "framecpp_fracfg --channels Z0:RAMPED_INT_2U_1 --output fracfg.gwf Z-ilwd_test_frame-600000000-1.gwf",
+    "framecpp_dump_toc fracfg.gwf",
+    "framecpp_transform --help",
+    "framecpp_verify --verbose Z-ilwd_test_frame-600000000-1.gwf",
+    "framecpp_sample",
+    "framecpp_checksum --verbose --checksum-file --checksum-frame --checksum-structure Z-ilwd_test_frame-600000000-1.gwf",
+    "framecpp_compressor --compression-level 9 --output compressed.gwf Z-ilwd_test_frame-600000000-1.gwf",
+    "framecpp_dump_channel --channel Z0:RAMPED_INT_2U_1 Z-ilwd_test_frame-600000000-1.gwf",
+    "framecpp_dump_objects --silent Z-ilwd_test_frame-600000000-1.gwf",
+    "framecpp_dump_toc Z-ilwd_test_frame-600000000-1.gwf",
+    "framecpp_fix_metadata --output fixed.gwf Z-ilwd_test_frame-600000000-1.gwf",
+    "framecpp_fracfg --channels Z0:RAMPED_INT_2U_1 --output fracfg.gwf Z-ilwd_test_frame-600000000-1.gwf",
+    "framecpp_dump_toc fracfg.gwf",
+    "framecpp_transform --help",
+    "framecpp_verify --verbose Z-ilwd_test_frame-600000000-1.gwf",
+    "pkg-config --print-errors --modversion framecpp",
+    "pkg-config --print-errors --modversion framecpp_common",
+    "pkg-config --print-errors --modversion framecppc",
+    "pkg-config --print-errors --modversion framecpp3",
+    "pkg-config --print-errors --modversion framecpp4",
+    "pkg-config --print-errors --modversion framecpp6",
+    "pkg-config --print-errors --modversion framecpp7",
+    "pkg-config --print-errors --modversion framecpp8",
+    "framecpp_sample",
+    "framecpp_checksum --verbose --checksum-file --checksum-frame --checksum-structure Z-ilwd_test_frame-600000000-1.gwf",
+    "framecpp_compressor --compression-level 9 --output compressed.gwf Z-ilwd_test_frame-600000000-1.gwf",
+    "framecpp_dump_channel --channel Z0:RAMPED_INT_2U_1 Z-ilwd_test_frame-600000000-1.gwf",
+    "framecpp_dump_objects --silent Z-ilwd_test_frame-600000000-1.gwf",
+    "framecpp_dump_toc Z-ilwd_test_frame-600000000-1.gwf",
+    "framecpp_fix_metadata --output fixed.gwf Z-ilwd_test_frame-600000000-1.gwf",
+    "framecpp_fracfg --channels Z0:RAMPED_INT_2U_1 --output fracfg.gwf Z-ilwd_test_frame-600000000-1.gwf",
+    "framecpp_dump_toc fracfg.gwf",
+    "framecpp_transform --help",
+    "framecpp_verify --verbose Z-ilwd_test_frame-600000000-1.gwf",
+    "pkg-config --print-errors --modversion framecpp",
+    "pkg-config --print-errors --modversion framecpp_common",
+    "pkg-config --print-errors --modversion framecppc",
+    "pkg-config --print-errors --modversion framecpp3",
+    "pkg-config --print-errors --modversion framecpp4",
+    "pkg-config --print-errors --modversion framecpp6",
+    "pkg-config --print-errors --modversion framecpp7",
+    "pkg-config --print-errors --modversion framecpp8"
+   ],
+   "requires":[
+    "pkg-config"
+   ]
+  }
+ },
+ "name":"ldas-tools-framecpp",
+ "new_version":"2.7.0",
+ "pinning_version":"2020.02.20",
+ "raw_meta_yaml":"{% set name = \"ldas-tools-framecpp\" %}\n{% set version = \"2.7.0\" %}\n{% set sha256 = \"539ae6ab7966f4e1379dfeb711d02e9edc087e1a8acab057af8a7405b16788a9\" %}\n\n{% set ldas_tools_al_version = \"2.6.3\" %}\n{% set ldas_tools_cmake_version = \"1.0.8\" %}\n\npackage:\n  name: \"{{ name }}\"\n  version: \"{{ version }}\"\n\nsource:\n  url: \"http://software.ligo.org/lscsoft/source/{{ name }}-{{ version }}.tar.gz\"\n  sha256: \"{{ sha256 }}\"\n\nbuild:\n  number: 3\n  skip: true  # [win]\n  run_exports:\n    - {{ pin_subpackage(\"ldas-tools-framecpp\", max_pin=\"x.x\") }}\n\nrequirements:\n  build:\n    - {{ compiler('c') }}\n    - {{ compiler('cxx') }}\n    - cmake >=3.6\n    - pkg-config  # [unix]\n  host:\n    - boost-cpp\n    - ldas-tools-al >={{ ldas_tools_al_version }}\n    - ldas-tools-cmake >={{ ldas_tools_cmake_version }}\n    - openssl\n    - zlib\n  run:\n    - boost-cpp\n    - ldas-tools-al >={{ ldas_tools_al_version }}\n\ntest:\n  requires:\n    - pkg-config  # [unix]\n  commands:\n    # framecpp_sample creates Z-ilwd_test_frame-600000000-1.gwf\n    - framecpp_sample\n    - framecpp_checksum --verbose --checksum-file --checksum-frame --checksum-structure Z-ilwd_test_frame-600000000-1.gwf\n    - framecpp_compressor --compression-level 9 --output compressed.gwf Z-ilwd_test_frame-600000000-1.gwf\n    - framecpp_dump_channel --channel Z0:RAMPED_INT_2U_1 Z-ilwd_test_frame-600000000-1.gwf\n    - framecpp_dump_objects --silent Z-ilwd_test_frame-600000000-1.gwf\n    - framecpp_dump_toc Z-ilwd_test_frame-600000000-1.gwf\n    - framecpp_fix_metadata --output fixed.gwf Z-ilwd_test_frame-600000000-1.gwf\n    - framecpp_fracfg --channels Z0:RAMPED_INT_2U_1 --output fracfg.gwf Z-ilwd_test_frame-600000000-1.gwf\n    - framecpp_dump_toc fracfg.gwf\n    - framecpp_transform --help\n    - framecpp_verify --verbose Z-ilwd_test_frame-600000000-1.gwf\n    - pkg-config --print-errors --modversion framecpp  # [unix]\n    - pkg-config --print-errors --modversion framecpp_common  # [unix]\n    - pkg-config --print-errors --modversion framecppc  # [unix]\n    - pkg-config --print-errors --modversion framecpp3  # [unix]\n    - pkg-config --print-errors --modversion framecpp4  # [unix]\n    - pkg-config --print-errors --modversion framecpp6  # [unix]\n    - pkg-config --print-errors --modversion framecpp7  # [unix]\n    - pkg-config --print-errors --modversion framecpp8  # [unix]\n\nabout:\n  home: \"https://wiki.ligo.org/Computing/LDASTools\"\n  dev_url: \"https://git.ligo.org/ldastools/LDAS_Tools\"\n  license: \"GPL-2.0-or-later\"\n  license_family: \"GPL\"\n  license_file: \"COPYING\"\n  summary: \"LDAS tools libframecpp toolkit runtime files\"\n  description: |\n    This provides the runtime libraries for the framecpp library.\n\nextra:\n  recipe-maintainers:\n    - duncanmmacleod\n    - emaros\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "boost-cpp",
+   "c_compiler_stub",
+   "cmake",
+   "cxx_compiler_stub",
+   "ldas-tools-al",
+   "ldas-tools-cmake",
+   "openssl",
+   "pkg-config",
+   "zlib"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "cmake",
+    "cxx_compiler_stub",
+    "pkg-config"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "boost-cpp",
+    "ldas-tools-al",
+    "ldas-tools-cmake",
+    "openssl",
+    "zlib"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "boost-cpp",
+    "ldas-tools-al"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "pkg-config"
+   ]
+  }
+ },
+ "smithy_version":"3.6.8",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "cmake >=3.6",
+    "cxx_compiler_stub",
+    "pkg-config"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "boost-cpp",
+    "ldas-tools-al >=2.6.3",
+    "ldas-tools-cmake >=1.0.8",
+    "openssl",
+    "zlib"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "boost-cpp",
+    "ldas-tools-al >=2.6.3"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "pkg-config"
+   ]
+  }
+ },
+ "url":"http://software.ligo.org/lscsoft/source/ldas-tools-framecpp-2.6.5.tar.gz",
+ "version":"2.7.0"
+}

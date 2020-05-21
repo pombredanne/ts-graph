@@ -1,0 +1,209 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/233362434.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/336095547.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"python38"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"multicore-tsne",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"This is a multicore modification of Barnes-Hut t-SNE by L. Van der Maaten\nwith python and Torch CFFI-based wrappers.\nThis code also works faster than sklearn.TSNE on 1 core.\n",
+   "dev_url":"https://github.com/DmitryUlyanov/Multicore-TSNE",
+   "home":"https://github.com/DmitryUlyanov/Multicore-TSNE",
+   "license":"BSD-3-Clause",
+   "license_family":"BSD",
+   "license_file":"LICENSE.txt",
+   "summary":"Parallel t-SNE implementation with Python and Torch wrappers."
+  },
+  "build":{
+   "number":"0",
+   "script":" -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "grst",
+    "grst",
+    "grst"
+   ]
+  },
+  "package":{
+   "name":"multicore-tsne",
+   "version":"0.1_d4ff4aab"
+  },
+  "requirements":{
+   "build":[
+    "cxx_compiler_stub",
+    "cmake",
+    "cxx_compiler_stub",
+    "cmake",
+    "cxx_compiler_stub",
+    "cmake"
+   ],
+   "host":[
+    "python",
+    "pip",
+    "numpy",
+    "cffi >=1.11.5",
+    "python",
+    "pip",
+    "numpy",
+    "cffi >=1.11.5",
+    "python",
+    "pip",
+    "numpy",
+    "cffi >=1.11.5"
+   ],
+   "run":[
+    "python >=2.7",
+    "cffi >=1.11.5",
+    "numpy",
+    "python >=2.7",
+    "cffi >=1.11.5",
+    "numpy",
+    "python >=2.7",
+    "cffi >=1.11.5",
+    "numpy"
+   ]
+  },
+  "source":{
+   "sha256":"2558a4d7c3864b6f3211dac823ea79869ae0e9f79fbd1aa6fe03f5848d87054f",
+   "url":"https://github.com/DmitryUlyanov/Multicore-TSNE/archive/d4ff4aab177da777ccd06fb66cc16cacc33ce855.zip"
+  },
+  "test":{
+   "commands":[
+    "python -m unittest MulticoreTSNE.tests.test_base",
+    "python -m unittest MulticoreTSNE.tests.test_base",
+    "python -m unittest MulticoreTSNE.tests.test_base"
+   ],
+   "requires":[
+    "scikit-learn =0.19.2",
+    "scikit-learn =0.19.2",
+    "scikit-learn =0.19.2"
+   ],
+   "source_files":[
+    "MulticoreTSNE/tests/test_base.py",
+    "MulticoreTSNE/tests/test_base.py",
+    "MulticoreTSNE/tests/test_base.py"
+   ]
+  }
+ },
+ "name":"multicore-tsne",
+ "new_version":false,
+ "pinning_version":"2019.11.01",
+ "raw_meta_yaml":"{% set name = \"Multicore-TSNE\" %}\n{% set version = \"0.1_d4ff4aab\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://github.com/DmitryUlyanov/{{ name }}/archive/d4ff4aab177da777ccd06fb66cc16cacc33ce855.zip\n  sha256: 2558a4d7c3864b6f3211dac823ea79869ae0e9f79fbd1aa6fe03f5848d87054f\n\nbuild:\n  number: 0\n  script: \"{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv\"\n\nrequirements:\n  build:\n    - {{ compiler('cxx') }}\n    - cmake\n  host:\n    - python\n    - pip\n    - numpy\n    - cffi >=1.11.5\n  run:\n    - python >=2.7\n    - cffi >=1.11.5\n    - {{ pin_compatible('numpy') }}\n\ntest:\n  requires:\n    - scikit-learn =0.19.2\n  source_files:\n    - MulticoreTSNE/tests/test_base.py\n  commands:\n    - \"python -m unittest MulticoreTSNE.tests.test_base\"\n\n\nabout:\n  home: https://github.com/DmitryUlyanov/Multicore-TSNE\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: LICENSE.txt\n  summary: 'Parallel t-SNE implementation with Python and Torch wrappers.'\n\n  # The remaining entries in this section are optional, but recommended\n  description: |\n    This is a multicore modification of Barnes-Hut t-SNE by L. Van der Maaten\n    with python and Torch CFFI-based wrappers.\n    This code also works faster than sklearn.TSNE on 1 core.\n  dev_url: https://github.com/DmitryUlyanov/Multicore-TSNE\n\nextra:\n  recipe-maintainers:\n    - grst\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "cffi",
+   "cmake",
+   "cxx_compiler_stub",
+   "numpy",
+   "pip",
+   "python"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "cmake",
+    "cxx_compiler_stub"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "cffi",
+    "numpy",
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "cffi",
+    "numpy",
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "scikit-learn"
+   ]
+  }
+ },
+ "smithy_version":"3.6.1",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "cmake",
+    "cxx_compiler_stub"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "cffi >=1.11.5",
+    "numpy",
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "cffi >=1.11.5",
+    "numpy",
+    "python >=2.7"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "scikit-learn =0.19.2"
+   ]
+  }
+ },
+ "url":"https://github.com/DmitryUlyanov/Multicore-TSNE/archive/d4ff4aab177da777ccd06fb66cc16cacc33ce855.zip",
+ "version":"0.1_d4ff4aab"
+}

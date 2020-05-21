@@ -1,0 +1,6 @@
+{
+ "bad":"Upstream: Error getting upstream version",
+ "feedstock_name":"nbresuse",
+ "new_version":false,
+ "raw_meta_yaml":"{% set name = \"nbresuse\" %}\n{% set version = \"0.3.3\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: 4289c492cb98f0fc4590da3a14cb7b0ece80cd9333dbff3341d9a8936e2995df\n\nbuild:\n  noarch: python\n  number: 0\n  script: \"{{ PYTHON }} -m pip install . -vv\"\n\nrequirements:\n  host:\n    - python >=3.5\n    - pip\n  run:\n    - notebook\n    - psutil\n    - python >=3.5\n\ntest:\n  imports:\n    - nbresuse\n\nabout:\n  home: https://github.com/yuvipanda/nbresuse\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: LICENSE\n  summary: \"Jupyter Notebook Extension for monitoring Resource Usage\"\n  dev_url: https://github.com/yuvipanda/nbresuse\n\nextra:\n  recipe-maintainers:\n    - krinsman\n    - jtpio\n"
+}

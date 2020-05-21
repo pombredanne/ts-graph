@@ -1,0 +1,231 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/199918236.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Noarch",
+    "migrator_version":0
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/232397270.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.1.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/291698530.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.2.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/362660443.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.0.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"message-ix",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"https://github.com/iiasa/message_ix",
+   "license":"Apache-2.0",
+   "license_file":"LICENSE",
+   "summary":"The integrated assessment and energy systems model MESSAGEix https://MESSAGEix.iiasa.ac.at/"
+  },
+  "build":{
+   "entry_points":[
+    "message-ix=message_ix.cli:main",
+    "message-ix=message_ix.cli:main",
+    "message-ix=message_ix.cli:main"
+   ],
+   "noarch":"python",
+   "number":"0",
+   "script":"-m pip install . --no-deps -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "gidden",
+    "khaeru",
+    "gidden",
+    "khaeru",
+    "gidden",
+    "khaeru"
+   ]
+  },
+  "package":{
+   "name":"message-ix",
+   "version":"2.0.0"
+  },
+  "requirements":{
+   "build":[
+    "python",
+    "pip",
+    "python",
+    "pip",
+    "python",
+    "pip"
+   ],
+   "run":[
+    "ixmp ==2.0.0",
+    "ixmp ==2.0.0",
+    "ixmp ==2.0.0"
+   ]
+  },
+  "source":{
+   "sha256":"ecaf4d7a5023dbb8196baff3f121715236ec99df8ea7789d8f00213607cbb67c",
+   "url":"https://github.com/iiasa/message_ix/archive/v2.0.0.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "python -c \"import ixmp; assert ixmp.__version__ == '2.0.0'\"",
+    "python -c \"import message_ix; assert message_ix.__version__ == '2.0.0'\"",
+    "message-ix --help",
+    "message-ix dl tutorial",
+    "message-ix add-years --help",
+    "python -c \"import message_ix.testing.nightly\"",
+    "message-ix nightly --help",
+    "python -c \"import ixmp; assert ixmp.__version__ == '2.0.0'\"",
+    "python -c \"import message_ix; assert message_ix.__version__ == '2.0.0'\"",
+    "message-ix --help",
+    "message-ix dl tutorial",
+    "message-ix add-years --help",
+    "python -c \"import message_ix.testing.nightly\"",
+    "message-ix nightly --help",
+    "python -c \"import ixmp; assert ixmp.__version__ == '2.0.0'\"",
+    "python -c \"import message_ix; assert message_ix.__version__ == '2.0.0'\"",
+    "message-ix --help",
+    "message-ix dl tutorial",
+    "message-ix add-years --help",
+    "python -c \"import message_ix.testing.nightly\"",
+    "message-ix nightly --help"
+   ],
+   "imports":[
+    "message_ix",
+    "message_ix",
+    "message_ix"
+   ],
+   "requires":[
+    "asyncssh",
+    "requests",
+    "asyncssh",
+    "requests",
+    "asyncssh",
+    "requests"
+   ]
+  }
+ },
+ "name":"message-ix",
+ "new_version":"2.0.0",
+ "pinning_version":"2020.01.10",
+ "raw_meta_yaml":"{% set version = \"2.0.0\" %}\n{% set ixmp_version = \"2.0.0\" %}\n{% set ixmp_conda_version = \"2.0.0\" %}\n{% set sha256 = \"ecaf4d7a5023dbb8196baff3f121715236ec99df8ea7789d8f00213607cbb67c\" %}\n\npackage:\n  name: message-ix\n  version: {{ version }}\n\nsource:\n  url: https://github.com/iiasa/message_ix/archive/v{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  noarch: python\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n  entry_points:\n    - message-ix=message_ix.cli:main\n\nrequirements:\n  build:\n    - python\n    - pip\n  run:\n    - ixmp =={{ ixmp_conda_version }}\n\ntest:\n  imports:\n    - message_ix\n  requires:\n    - asyncssh\n    - requests\n  commands:\n    - python -c \"import ixmp; assert ixmp.__version__ == '{{ ixmp_version }}'\"\n    - python -c \"import message_ix; assert message_ix.__version__ == '{{ version }}'\"\n    # General CLI help\n    - message-ix --help\n    # Download the tutorials\n    - message-ix dl tutorial\n    # Special CLI commands loaded from modules\n    - message-ix add-years --help\n    - python -c \"import message_ix.testing.nightly\"\n    - message-ix nightly --help\n\nabout:\n  home: https://github.com/iiasa/message_ix\n  license: Apache-2.0\n  license_file: LICENSE\n  summary: 'The integrated assessment and energy systems model MESSAGEix https://MESSAGEix.iiasa.ac.at/'\n\nextra:\n  recipe-maintainers:\n    - gidden\n    - khaeru\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "ixmp",
+   "pip",
+   "python"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "ixmp"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "asyncssh",
+    "requests"
+   ]
+  }
+ },
+ "smithy_version":"3.6.5",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "ixmp ==2.0.0"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "asyncssh",
+    "requests"
+   ]
+  }
+ },
+ "url":"https://github.com/iiasa/message_ix/archive/v1.2.0.tar.gz",
+ "version":"2.0.0"
+}

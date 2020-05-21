@@ -1,0 +1,312 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/198231710.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.1.1.5"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/200877672.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.1.1.6"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/231745750.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/298473405.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"RBaseRebuild",
+    "migrator_version":0,
+    "name":"r-base-3.6.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/412701579.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":2,
+    "migrator_version":0,
+    "name":"r400"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "bot":{
+   "automerge":true
+  },
+  "provider":{
+   "win":"azure"
+  }
+ },
+ "feedstock_name":"r-dygraphs",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"https://github.com/rstudio/dygraphs",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":[
+    "/lib/R/share/licenses/MIT",
+    "LICENSE",
+    "/lib/R/share/licenses/MIT",
+    "LICENSE",
+    "/lib/R/share/licenses/MIT",
+    "LICENSE"
+   ],
+   "summary":"An R interface to the 'dygraphs' JavaScript charting library (a copy of which is included in the package). Provides rich facilities for charting time-series data in R, including highly configurable series- and axis-display and interactive features like zoom/pan and series/point highlighting."
+  },
+  "build":{
+   "merge_build_host":true,
+   "noarch":"generic",
+   "number":"1003",
+   "rpaths":[
+    "lib/R/lib/",
+    "lib/",
+    "lib/R/lib/",
+    "lib/",
+    "lib/R/lib/",
+    "lib/"
+   ]
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "conda-forge/r",
+    "johanneskoester",
+    "bgruening",
+    "daler",
+    "jdblischak",
+    "cbrueffer",
+    "dbast",
+    "conda-forge/r",
+    "johanneskoester",
+    "bgruening",
+    "daler",
+    "jdblischak",
+    "cbrueffer",
+    "dbast",
+    "conda-forge/r",
+    "johanneskoester",
+    "bgruening",
+    "daler",
+    "jdblischak",
+    "cbrueffer",
+    "dbast"
+   ]
+  },
+  "package":{
+   "name":"r-dygraphs",
+   "version":"1.1.1.6"
+  },
+  "requirements":{
+   "build":null,
+   "host":[
+    "r-base",
+    "r-htmltools >=0.3.5",
+    "r-htmlwidgets >=0.6",
+    "r-magrittr",
+    "r-xts >=0.9_7",
+    "r-zoo >=1.7_10",
+    "r-base",
+    "r-htmltools >=0.3.5",
+    "r-htmlwidgets >=0.6",
+    "r-magrittr",
+    "r-xts >=0.9_7",
+    "r-zoo >=1.7_10",
+    "r-base",
+    "r-htmltools >=0.3.5",
+    "r-htmlwidgets >=0.6",
+    "r-magrittr",
+    "r-xts >=0.9_7",
+    "r-zoo >=1.7_10"
+   ],
+   "run":[
+    "r-base",
+    "r-htmltools >=0.3.5",
+    "r-htmlwidgets >=0.6",
+    "r-magrittr",
+    "r-xts >=0.9_7",
+    "r-zoo >=1.7_10",
+    "r-base",
+    "r-htmltools >=0.3.5",
+    "r-htmlwidgets >=0.6",
+    "r-magrittr",
+    "r-xts >=0.9_7",
+    "r-zoo >=1.7_10",
+    "r-base",
+    "r-htmltools >=0.3.5",
+    "r-htmlwidgets >=0.6",
+    "r-magrittr",
+    "r-xts >=0.9_7",
+    "r-zoo >=1.7_10"
+   ]
+  },
+  "source":{
+   "fn":"dygraphs_1.1.1.6.tar.gz",
+   "sha256":"c3d331f30012e721a048e04639f60ea738cd7e54e4f930ac9849b95f0f005208",
+   "url":[
+    "https://cran.r-project.org/src/contrib/dygraphs_1.1.1.6.tar.gz",
+    "https://cran.r-project.org/src/contrib/Archive/dygraphs/dygraphs_1.1.1.6.tar.gz",
+    "https://cran.r-project.org/src/contrib/dygraphs_1.1.1.6.tar.gz",
+    "https://cran.r-project.org/src/contrib/Archive/dygraphs/dygraphs_1.1.1.6.tar.gz",
+    "https://cran.r-project.org/src/contrib/dygraphs_1.1.1.6.tar.gz",
+    "https://cran.r-project.org/src/contrib/Archive/dygraphs/dygraphs_1.1.1.6.tar.gz"
+   ]
+  },
+  "test":{
+   "commands":[
+    "\"%R%\" -e \"library('dygraphs')\"",
+    "$R -e \"library('dygraphs')\"",
+    "$R -e \"library('dygraphs')\""
+   ]
+  }
+ },
+ "name":"r-dygraphs",
+ "new_version":"1.1.1.6",
+ "pinning_version":"2020.05.04.00.11.09",
+ "raw_meta_yaml":"{% set version = \"1.1.1.6\" %}\n{% set posix = 'm2-' if win else '' %}\n{% set native = 'm2w64-' if win else '' %}\n\npackage:\n  name: r-dygraphs\n  version: {{ version|replace(\"-\", \"_\") }}\n\nsource:\n  fn: dygraphs_{{ version }}.tar.gz\n  url:\n    - {{ cran_mirror }}/src/contrib/dygraphs_{{ version }}.tar.gz\n    - {{ cran_mirror }}/src/contrib/Archive/dygraphs/dygraphs_{{ version }}.tar.gz\n  sha256: c3d331f30012e721a048e04639f60ea738cd7e54e4f930ac9849b95f0f005208\n\nbuild:\n  noarch: generic\n  merge_build_host: true  # [win]\n  number: 1003\n  rpaths:\n    - lib/R/lib/\n    - lib/\n\nrequirements:\n  build:\n    - {{ posix }}zip               # [win]\n  host:\n    - r-base\n    - r-htmltools >=0.3.5\n    - r-htmlwidgets >=0.6\n    - r-magrittr\n    - r-xts >=0.9_7\n    - r-zoo >=1.7_10\n  run:\n    - r-base\n    - r-htmltools >=0.3.5\n    - r-htmlwidgets >=0.6\n    - r-magrittr\n    - r-xts >=0.9_7\n    - r-zoo >=1.7_10\n\ntest:\n  commands:\n    - $R -e \"library('dygraphs')\"           # [not win]\n    - \"\\\"%R%\\\" -e \\\"library('dygraphs')\\\"\"  # [win]\n\nabout:\n  home: https://github.com/rstudio/dygraphs\n  license: MIT\n  summary: An R interface to the 'dygraphs' JavaScript charting library (a copy of which is included in the package). Provides rich facilities for charting time-series data in R, including highly configurable series- and axis-display and interactive features like zoom/pan and series/point highlighting.\n  license_family: MIT\n\n  license_file:\n    - {{ environ[\"PREFIX\"] }}/lib/R/share/licenses/MIT\n    - LICENSE\nextra:\n  recipe-maintainers:\n    - conda-forge/r\n    - johanneskoester\n    - bgruening\n    - daler\n    - jdblischak\n    - cbrueffer\n    - dbast\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "r-base",
+   "r-htmltools",
+   "r-htmlwidgets",
+   "r-magrittr",
+   "r-xts",
+   "r-zoo"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "r-base",
+    "r-htmltools",
+    "r-htmlwidgets",
+    "r-magrittr",
+    "r-xts",
+    "r-zoo"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "r-base",
+    "r-htmltools",
+    "r-htmlwidgets",
+    "r-magrittr",
+    "r-xts",
+    "r-zoo"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.7.0\n",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "r-base",
+    "r-htmltools >=0.3.5",
+    "r-htmlwidgets >=0.6",
+    "r-magrittr",
+    "r-xts >=0.9_7",
+    "r-zoo >=1.7_10"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "r-base",
+    "r-htmltools >=0.3.5",
+    "r-htmlwidgets >=0.6",
+    "r-magrittr",
+    "r-xts >=0.9_7",
+    "r-zoo >=1.7_10"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":[
+  "https://cran.r-project.org/src/contrib/dygraphs_1.1.1.6.tar.gz",
+  "https://cran.r-project.org/src/contrib/Archive/dygraphs/dygraphs_1.1.1.6.tar.gz",
+  "https://cran.r-project.org/src/contrib/dygraphs_1.1.1.6.tar.gz",
+  "https://cran.r-project.org/src/contrib/Archive/dygraphs/dygraphs_1.1.1.6.tar.gz",
+  "https://cran.r-project.org/src/contrib/dygraphs_1.1.1.6.tar.gz",
+  "https://cran.r-project.org/src/contrib/Archive/dygraphs/dygraphs_1.1.1.6.tar.gz"
+ ],
+ "version":"1.1.1.6"
+}

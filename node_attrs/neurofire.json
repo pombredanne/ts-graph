@@ -1,0 +1,122 @@
+{
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"neurofire",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"https://github.com/inferno-pytorch/neurofire",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"LICENSE",
+   "summary":"Toolkit for deep learning with connectomics datasets."
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "constantinpape",
+    "constantinpape",
+    "constantinpape"
+   ]
+  },
+  "package":{
+   "name":"neurofire",
+   "version":"0.1.0"
+  },
+  "requirements":{
+   "host":[
+    "python >=3.6",
+    "pip",
+    "python >=3.6",
+    "pip",
+    "python >=3.6",
+    "pip"
+   ],
+   "run":[
+    "python >=3.6",
+    "inferno >=v0.4.2",
+    "python >=3.6",
+    "inferno >=v0.4.2",
+    "python >=3.6",
+    "inferno >=v0.4.2"
+   ]
+  },
+  "source":{
+   "sha256":"9f23eb77529fc34520c1a79022833f024cd4acb52ba406d08dc4d191372a7343",
+   "url":"https://github.com/inferno-pytorch/neurofire/archive/v0.1.0.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "neurofire",
+    "neurofire",
+    "neurofire"
+   ]
+  }
+ },
+ "name":"neurofire",
+ "new_version":"0.1.0",
+ "raw_meta_yaml":"{% set version = \"0.1.0\" %}\n{% set sha256 = \"9f23eb77529fc34520c1a79022833f024cd4acb52ba406d08dc4d191372a7343\" %}\n{% set name = \"neurofire\" %}\n\npackage:\n    name: {{ name|lower }}\n    version: {{ version }}\n\nsource:\n    url: https://github.com/inferno-pytorch/neurofire/archive/v{{ version }}.tar.gz\n    sha256: {{ sha256 }}\n\nbuild:\n    number: 0\n    script: \"{{ PYTHON }} -m pip install . -vv\"\n    noarch: python\n\nrequirements:\n    host:\n        - python >=3.6\n        - pip\n    run:\n        - python >=3.6\n        - inferno >=v0.4.2\n\ntest:\n    imports:\n        - neurofire\n\nabout:\n    license: MIT\n    license_file: LICENSE\n    license_family: MIT\n    summary: Toolkit for deep learning with connectomics datasets.\n    home: https://github.com/inferno-pytorch/neurofire\n\nextra:\n    recipe-maintainers:\n        - constantinpape\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "inferno",
+   "pip",
+   "python"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "inferno",
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3.6"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "inferno >=v0.4.2",
+    "python >=3.6"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://github.com/inferno-pytorch/neurofire/archive/v0.1.0.tar.gz",
+ "version":"0.1.0"
+}

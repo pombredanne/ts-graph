@@ -1,0 +1,324 @@
+{
+ "PRed":[
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"4.0.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/209883153.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"4.1.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/221566345.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/235222131.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"4.1.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/235234472.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"4.1.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/235845826.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"4.1.3"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/261806924.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"4.2.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/277815622.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"4.3.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "provider":{
+   "win":"azure"
+  }
+ },
+ "feedstock_name":"py2neo",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"http://py2neo.org/",
+   "license":"Apache-2.0",
+   "license_file":"LICENSE",
+   "summary":"Python client library and toolkit for Neo4j"
+  },
+  "build":{
+   "entry_points":[
+    "py2neo = py2neo.__main__:main",
+    "py2neo = py2neo.__main__:main",
+    "py2neo = py2neo.__main__:main"
+   ],
+   "noarch":"python",
+   "number":"1",
+   "script":" -m pip install . --no-deps -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "pvanheus",
+    "pvanheus",
+    "pvanheus"
+   ]
+  },
+  "package":{
+   "name":"py2neo",
+   "version":"4.2.0"
+  },
+  "requirements":{
+   "host":[
+    "python",
+    "pip",
+    "python",
+    "pip",
+    "python",
+    "pip"
+   ],
+   "run":[
+    "python",
+    "click >=2.0",
+    "colorama",
+    "neobolt <1.8,>=1.7.3",
+    "neotime <1.8,>=1.7.4",
+    "prompt_toolkit >=2.0.7",
+    "pygments >=2.3.0",
+    "urllib3 >=1.21.1",
+    "python",
+    "click >=2.0",
+    "colorama",
+    "neobolt <1.8,>=1.7.3",
+    "neotime <1.8,>=1.7.4",
+    "prompt_toolkit >=2.0.7",
+    "pygments >=2.3.0",
+    "urllib3 >=1.21.1",
+    "python",
+    "click >=2.0",
+    "colorama",
+    "neobolt <1.8,>=1.7.3",
+    "neotime <1.8,>=1.7.4",
+    "prompt_toolkit >=2.0.7",
+    "pygments >=2.3.0",
+    "urllib3 >=1.21.1"
+   ]
+  },
+  "source":{
+   "fn":"py2neo-4.2.0.tar.gz",
+   "sha256":"c25d24a1504bbfaf61e862e29953f17ad67a4810d55531b1436ad0c7664d85fd",
+   "url":"https://pypi.io/packages/source/p/py2neo/py2neo-4.2.0.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "py2neo 2>&1|grep py2neo",
+    "py2neo 2>&1|grep py2neo",
+    "py2neo 2>&1|grep py2neo"
+   ],
+   "imports":[
+    "py2neo",
+    "py2neo.cypher",
+    "py2neo.data",
+    "py2neo.database",
+    "py2neo.matching",
+    "py2neo.ogm",
+    "py2neo",
+    "py2neo.cypher",
+    "py2neo.data",
+    "py2neo.database",
+    "py2neo.matching",
+    "py2neo.ogm",
+    "py2neo",
+    "py2neo.cypher",
+    "py2neo.data",
+    "py2neo.database",
+    "py2neo.matching",
+    "py2neo.ogm"
+   ]
+  }
+ },
+ "name":"py2neo",
+ "new_version":"4.3.0",
+ "pinning_version":"2019.05.06",
+ "raw_meta_yaml":"{% set name = 'py2neo' %} \n{% set version = \"4.2.0\" %}\n{% set sha256 = \"c25d24a1504bbfaf61e862e29953f17ad67a4810d55531b1436ad0c7664d85fd\" %}\n\npackage:\n  name: {{ name }}\n  version: {{ version }}\n\nsource:\n  fn: {{ name }}-{{ version }}.tar.gz\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  script: \"{{ PYTHON }} -m pip install . --no-deps -vv\"\n  entry_points:\n    - py2neo = py2neo.__main__:main\n  number: 1\n\nrequirements:\n  host:\n    - python\n    - pip\n  run:\n    - python\n    - click >=2.0\n    - colorama\n    - neobolt <1.8,>=1.7.3\n    - neotime <1.8,>=1.7.4\n    - prompt_toolkit >=2.0.7\n    - pygments >=2.3.0\n    - urllib3 >=1.21.1\ntest:\n  imports:\n    - py2neo\n    - py2neo.cypher\n    - py2neo.data\n    - py2neo.database\n    - py2neo.matching\n    - py2neo.ogm\n  commands:\n    - py2neo 2>&1|grep py2neo\n\nabout:\n  home: http://py2neo.org/\n  license: Apache-2.0\n  license_file: LICENSE\n  summary: 'Python client library and toolkit for Neo4j'\n\nextra:\n  recipe-maintainers:\n    - pvanheus\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "click",
+   "colorama",
+   "neobolt",
+   "neotime",
+   "pip",
+   "prompt_toolkit",
+   "pygments",
+   "python",
+   "urllib3"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "click",
+    "colorama",
+    "neobolt",
+    "neotime",
+    "prompt_toolkit",
+    "pygments",
+    "python",
+    "urllib3"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.3.4",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "click >=2.0",
+    "colorama",
+    "neobolt <1.8,>=1.7.3",
+    "neotime <1.8,>=1.7.4",
+    "prompt_toolkit >=2.0.7",
+    "pygments >=2.3.0",
+    "python",
+    "urllib3 >=1.21.1"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/p/py2neo/py2neo-4.2.0.tar.gz",
+ "version":"4.2.0"
+}

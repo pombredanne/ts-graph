@@ -1,0 +1,242 @@
+{
+ "PRed":[
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.9.5"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/271844750.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.9.6"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/283677899.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.9.7"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/289786556.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.9.8"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/305249751.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.9.8.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"torsiondrive",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "dev_url":"https://github.com/lpwgroup/torsiondrive",
+   "home":"https://github.com/lpwgroup/torsiondrive",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"LICENSE",
+   "summary":"Dihedral scanner with wavefront propagation"
+  },
+  "build":{
+   "entry_points":[
+    "torsiondrive-launch = torsiondrive.launch:main",
+    "torsiondrive-api = torsiondrive.td_api:main",
+    "torsiondrive-plot1d = torsiondrive.tools.plot_1d:main",
+    "torsiondrive-plot2d = torsiondrive.tools.plot_2d:main",
+    "torsiondrive-launch = torsiondrive.launch:main",
+    "torsiondrive-api = torsiondrive.td_api:main",
+    "torsiondrive-plot1d = torsiondrive.tools.plot_1d:main",
+    "torsiondrive-plot2d = torsiondrive.tools.plot_2d:main",
+    "torsiondrive-launch = torsiondrive.launch:main",
+    "torsiondrive-api = torsiondrive.td_api:main",
+    "torsiondrive-plot1d = torsiondrive.tools.plot_1d:main",
+    "torsiondrive-plot2d = torsiondrive.tools.plot_2d:main"
+   ],
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . --no-deps -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "leeping",
+    "dgasmith",
+    "yudongqiu",
+    "leeping",
+    "dgasmith",
+    "yudongqiu",
+    "leeping",
+    "dgasmith",
+    "yudongqiu"
+   ]
+  },
+  "package":{
+   "name":"torsiondrive",
+   "version":"0.9.8.1"
+  },
+  "requirements":{
+   "host":[
+    "python >=3.6",
+    "setuptools",
+    "pip",
+    "python >=3.6",
+    "setuptools",
+    "pip",
+    "python >=3.6",
+    "setuptools",
+    "pip"
+   ],
+   "run":[
+    "numpy",
+    "geometric >=0.9.7",
+    "python >=3.6",
+    "numpy",
+    "geometric >=0.9.7",
+    "python >=3.6",
+    "numpy",
+    "geometric >=0.9.7",
+    "python >=3.6"
+   ]
+  },
+  "source":{
+   "fn":"torsiondrive-0.9.8.1.tar.gz",
+   "sha256":"96218636648ce7b5bf1864a4366980d4a27bfeb45ca890bdf0ff1ac14725a1f3",
+   "url":"https://pypi.io/packages/source/t/torsiondrive/torsiondrive-0.9.8.1.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "torsiondrive",
+    "torsiondrive",
+    "torsiondrive"
+   ]
+  }
+ },
+ "name":"torsiondrive",
+ "new_version":"0.9.8.1",
+ "pinning_version":"2019.07.26",
+ "raw_meta_yaml":"{% set name = \"torsiondrive\" %}\n{% set version = \"0.9.8.1\" %}\n{% set sha256 = \"96218636648ce7b5bf1864a4366980d4a27bfeb45ca890bdf0ff1ac14725a1f3\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  fn: {{ name }}-{{ version }}.tar.gz\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 0\n  script: \"{{ PYTHON }} -m pip install . --no-deps -vv\"\n  entry_points:\n    - torsiondrive-launch = torsiondrive.launch:main\n    - torsiondrive-api = torsiondrive.td_api:main\n    - torsiondrive-plot1d = torsiondrive.tools.plot_1d:main\n    - torsiondrive-plot2d = torsiondrive.tools.plot_2d:main\n\nrequirements:\n  host:\n    - python >=3.6\n    - setuptools\n    - pip\n  run:\n    - {{ pin_compatible('numpy', lower_bound='1.11') }}\n    - geometric >=0.9.7\n    - python >=3.6\n\ntest:\n  imports:\n    - torsiondrive\n\nabout:\n  home: https://github.com/lpwgroup/torsiondrive\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE\n  summary: 'Dihedral scanner with wavefront propagation'\n  dev_url: https://github.com/lpwgroup/torsiondrive\n\nextra:\n  recipe-maintainers:\n    - leeping\n    - dgasmith\n    - yudongqiu\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "geometric",
+   "numpy",
+   "pip",
+   "python",
+   "setuptools"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python",
+    "setuptools"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "geometric",
+    "numpy",
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.4.1",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3.6",
+    "setuptools"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "geometric >=0.9.7",
+    "numpy",
+    "python >=3.6"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/t/torsiondrive/torsiondrive-0.9.8.1.tar.gz",
+ "version":"0.9.8.1"
+}

@@ -1,0 +1,279 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/301703506.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"RBaseRebuild",
+    "migrator_version":0,
+    "name":"r-base-3.6.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/398278546.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.1_5"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/414060608.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":2,
+    "migrator_version":0,
+    "name":"r400"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "bot":{
+   "automerge":true
+  },
+  "provider":{
+   "win":"azure"
+  }
+ },
+ "feedstock_name":"r-miscf",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"https://CRAN.R-project.org/package=miscF",
+   "license":"GPL",
+   "license_family":"GPL",
+   "license_file":"/lib/R/share/licenses/GPL-3",
+   "summary":"Various functions for random number generation, density  estimation, classification, curve fitting, and spatial  data analysis."
+  },
+  "build":{
+   "merge_build_host":true,
+   "number":"1",
+   "rpaths":[
+    "lib/R/lib/",
+    "lib/",
+    "lib/R/lib/",
+    "lib/",
+    "lib/R/lib/",
+    "lib/"
+   ],
+   "skip":true
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "conda-forge/r",
+    "conda-forge/r",
+    "conda-forge/r"
+   ]
+  },
+  "package":{
+   "name":"r-miscf",
+   "version":"0.1_5"
+  },
+  "requirements":{
+   "build":[
+    "m2w64_c_compiler_stub",
+    "filesystem",
+    "make",
+    "sed",
+    "coreutils",
+    "zip",
+    "c_compiler_stub",
+    "make",
+    "c_compiler_stub",
+    "make"
+   ],
+   "host":[
+    "r-base",
+    "r-mass >=7.3_45",
+    "r-mcmcpack >=1.2_4",
+    "r-r2jags >=0.5_7",
+    "r-mvtnorm >=0.9_9992",
+    "r-base",
+    "r-mass >=7.3_45",
+    "r-mcmcpack >=1.2_4",
+    "r-r2jags >=0.5_7",
+    "r-mvtnorm >=0.9_9992",
+    "r-base",
+    "r-mass >=7.3_45",
+    "r-mcmcpack >=1.2_4",
+    "r-r2jags >=0.5_7",
+    "r-mvtnorm >=0.9_9992"
+   ],
+   "run":[
+    "r-base",
+    "gcc-libs",
+    "r-mass >=7.3_45",
+    "r-mcmcpack >=1.2_4",
+    "r-r2jags >=0.5_7",
+    "r-mvtnorm >=0.9_9992",
+    "r-base",
+    "r-mass >=7.3_45",
+    "r-mcmcpack >=1.2_4",
+    "r-r2jags >=0.5_7",
+    "r-mvtnorm >=0.9_9992",
+    "r-base",
+    "r-mass >=7.3_45",
+    "r-mcmcpack >=1.2_4",
+    "r-r2jags >=0.5_7",
+    "r-mvtnorm >=0.9_9992"
+   ]
+  },
+  "source":{
+   "sha256":"6bcae702e104e120a4ee2ebbbc9cfc4578719aab7c2f0b1349d260dcbf98dc3c",
+   "url":[
+    "https://cran.r-project.org/src/contrib/miscF_0.1-5.tar.gz",
+    "https://cran.r-project.org/src/contrib/Archive/miscF/miscF_0.1-5.tar.gz",
+    "https://cran.r-project.org/src/contrib/miscF_0.1-5.tar.gz",
+    "https://cran.r-project.org/src/contrib/Archive/miscF/miscF_0.1-5.tar.gz",
+    "https://cran.r-project.org/src/contrib/miscF_0.1-5.tar.gz",
+    "https://cran.r-project.org/src/contrib/Archive/miscF/miscF_0.1-5.tar.gz"
+   ]
+  },
+  "test":{
+   "commands":[
+    "\"%R%\" -e \"library('miscF')\"",
+    "$R -e \"library('miscF')\"",
+    "$R -e \"library('miscF')\""
+   ]
+  }
+ },
+ "name":"r-miscf",
+ "new_version":"0.1_5",
+ "pinning_version":"2020.05.04.19.59.17",
+ "raw_meta_yaml":"{% set version = \"0.1-5\" %}\n{% set posix = 'm2-' if win else '' %}\n{% set native = 'm2w64-' if win else '' %}\n\npackage:\n  name: r-miscf\n  version: {{ version|replace(\"-\", \"_\") }}\n\nsource:\n  url:\n    - {{ cran_mirror }}/src/contrib/miscF_{{ version }}.tar.gz\n    - {{ cran_mirror }}/src/contrib/Archive/miscF/miscF_{{ version }}.tar.gz\n  sha256: 6bcae702e104e120a4ee2ebbbc9cfc4578719aab7c2f0b1349d260dcbf98dc3c\n\nbuild:\n  merge_build_host: true  # [win]\n  number: 1\n  # jags not available on win\n  skip: true  # [win]\n  rpaths:\n    - lib/R/lib/\n    - lib/\n\nrequirements:\n  build:\n    - {{ compiler('c') }}        # [not win]\n    - {{ compiler('m2w64_c') }}        # [win]\n    - {{ posix }}filesystem        # [win]\n    - {{ posix }}make\n    - {{ posix }}sed               # [win]\n    - {{ posix }}coreutils         # [win]\n    - {{ posix }}zip               # [win]\n  host:\n    - r-base\n    - r-mass >=7.3_45\n    - r-mcmcpack >=1.2_4\n    - r-r2jags >=0.5_7\n    - r-mvtnorm >=0.9_9992\n  run:\n    - r-base\n    - {{ native }}gcc-libs         # [win]\n    - r-mass >=7.3_45\n    - r-mcmcpack >=1.2_4\n    - r-r2jags >=0.5_7\n    - r-mvtnorm >=0.9_9992\n\ntest:\n  commands:\n    - $R -e \"library('miscF')\"           # [not win]\n    - \"\\\"%R%\\\" -e \\\"library('miscF')\\\"\"  # [win]\n\nabout:\n  home: https://CRAN.R-project.org/package=miscF\n  license: GPL\n  summary: Various functions for random number generation, density  estimation, classification, curve fitting, and spatial  data analysis.\n  license_family: GPL\n  license_file: {{ environ[\"PREFIX\"] }}/lib/R/share/licenses/GPL-3\n\nextra:\n  recipe-maintainers:\n    - conda-forge/r\n\n# Package: miscF\n# Title: Miscellaneous Functions\n# Version: 0.1-4\n# Author: Dai Feng\n# Description: Various functions for random number generation, density  estimation, classification, curve fitting, and spatial  data analysis.\n# Maintainer: Dai Feng <dai_feng@merck.com>\n# Depends: R (>= 3.0.2), MASS (>= 7.3-45), R2jags (>= 0.5-7)\n# Imports: MCMCpack (>= 1.2-4), mvtnorm (>= 0.9-9992)\n# Suggests: mixAK (>= 2.6), BRugs (>= 0.8-6)\n# License: GPL\n# NeedsCompilation: yes\n# Packaged: 2018-02-16 21:41:16 UTC; dai\n# Repository: CRAN\n# Date/Publication: 2018-02-16 22:59:53 UTC\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "c_compiler_stub",
+   "coreutils",
+   "filesystem",
+   "gcc-libs",
+   "m2w64_c_compiler_stub",
+   "make",
+   "r-base",
+   "r-mass",
+   "r-mcmcpack",
+   "r-mvtnorm",
+   "r-r2jags",
+   "sed",
+   "zip"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "coreutils",
+    "filesystem",
+    "m2w64_c_compiler_stub",
+    "make",
+    "sed",
+    "zip"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "r-base",
+    "r-mass",
+    "r-mcmcpack",
+    "r-mvtnorm",
+    "r-r2jags"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "gcc-libs",
+    "r-base",
+    "r-mass",
+    "r-mcmcpack",
+    "r-mvtnorm",
+    "r-r2jags"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.7.0\n",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "coreutils",
+    "filesystem",
+    "m2w64_c_compiler_stub",
+    "make",
+    "sed",
+    "zip"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "r-base",
+    "r-mass >=7.3_45",
+    "r-mcmcpack >=1.2_4",
+    "r-mvtnorm >=0.9_9992",
+    "r-r2jags >=0.5_7"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "gcc-libs",
+    "r-base",
+    "r-mass >=7.3_45",
+    "r-mcmcpack >=1.2_4",
+    "r-mvtnorm >=0.9_9992",
+    "r-r2jags >=0.5_7"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":[
+  "https://cran.r-project.org/src/contrib/miscF_0.1-4.tar.gz",
+  "https://cran.r-project.org/src/contrib/Archive/miscF/miscF_0.1-4.tar.gz",
+  "https://cran.r-project.org/src/contrib/miscF_0.1-4.tar.gz",
+  "https://cran.r-project.org/src/contrib/Archive/miscF/miscF_0.1-4.tar.gz",
+  "https://cran.r-project.org/src/contrib/miscF_0.1-4.tar.gz",
+  "https://cran.r-project.org/src/contrib/Archive/miscF/miscF_0.1-4.tar.gz"
+ ],
+ "version":"0.1_5"
+}

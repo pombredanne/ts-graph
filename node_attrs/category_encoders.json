@@ -1,0 +1,349 @@
+{
+ "PRed":[
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.2.8"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/222719122.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.3.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/274179772.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.0.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/323360762.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.1.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/410458844.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.2.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"category_encoders",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"A set of scikit-learn-style transformers for encoding categorical variables\ninto numeric with different techniques. While ordinal, one-hot, and hashing\nencoders have similar equivalents in the existing scikit-learn version, the\ntransformers in this library all share a few useful properties:\n\n- First-class support for pandas dataframes as an input (and optionally as\n  output)\n\n- Can explicitly configure which columns in the data are encoded by name or\n  index, or infer non-numeric columns regardless of input type\n\n- Can drop any columns with very low variance based on training set\n  optionally\n\n- Portability: train a transformer on data, pickle it, reuse it later and\n  get the same thing out.\n\n- Full compatibility with sklearn pipelines, input an array-like dataset\n  like any other transformer",
+   "doc_url":"https://contrib.scikit-learn.org/categorical-encoding",
+   "home":"https://github.com/scikit-learn-contrib/categorical_encoding",
+   "license":"BSD-3-Clause",
+   "license_family":"BSD",
+   "license_file":"dist/LICENSE.md",
+   "summary":"A collection sklearn transformers to encode categorical variables as numeric"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":[
+    "cd dist &&  -m pip install -vvv .",
+    "cd dist &&  -m pip install -vvv .",
+    "cd dist &&  -m pip install -vvv ."
+   ]
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "bollwyvl",
+    "nirajd",
+    "wdm0006",
+    "bollwyvl",
+    "nirajd",
+    "wdm0006",
+    "bollwyvl",
+    "nirajd",
+    "wdm0006"
+   ]
+  },
+  "package":{
+   "name":"category_encoders",
+   "version":"2.2.2"
+  },
+  "requirements":{
+   "host":[
+    "numpy >=1.14.0",
+    "pandas >=0.21.1",
+    "patsy >=0.5.1",
+    "pip",
+    "python >=3.5",
+    "scikit-learn >=0.20.0",
+    "scipy >=1.0.0",
+    "statsmodels >=0.9.0",
+    "numpy >=1.14.0",
+    "pandas >=0.21.1",
+    "patsy >=0.5.1",
+    "pip",
+    "python >=3.5",
+    "scikit-learn >=0.20.0",
+    "scipy >=1.0.0",
+    "statsmodels >=0.9.0",
+    "numpy >=1.14.0",
+    "pandas >=0.21.1",
+    "patsy >=0.5.1",
+    "pip",
+    "python >=3.5",
+    "scikit-learn >=0.20.0",
+    "scipy >=1.0.0",
+    "statsmodels >=0.9.0"
+   ],
+   "run":[
+    "numpy >=1.14.0",
+    "pandas >=0.21.1",
+    "patsy >=0.5.1",
+    "python >=3.5",
+    "scikit-learn >=0.20.0",
+    "scipy >=1.0.0",
+    "statsmodels >=0.9.0",
+    "numpy >=1.14.0",
+    "pandas >=0.21.1",
+    "patsy >=0.5.1",
+    "python >=3.5",
+    "scikit-learn >=0.20.0",
+    "scipy >=1.0.0",
+    "statsmodels >=0.9.0",
+    "numpy >=1.14.0",
+    "pandas >=0.21.1",
+    "patsy >=0.5.1",
+    "python >=3.5",
+    "scikit-learn >=0.20.0",
+    "scipy >=1.0.0",
+    "statsmodels >=0.9.0"
+   ]
+  },
+  "source":[
+   {
+    "folder":"dist",
+    "sha256":"79651dc3e8cd6749bc5d404c49a79e93469016d106736326842305e076136cb0",
+    "url":"https://pypi.io/packages/source/c/category_encoders/category_encoders-2.2.2.tar.gz"
+   },
+   {
+    "folder":"src",
+    "sha256":"b8fa5f2c2f3294ed7847e9c5486566604a6a321308dfb5377440a7ca2a9a5b1f",
+    "url":"https://github.com/scikit-learn-contrib/category_encoders/archive/2.2.2.tar.gz"
+   },
+   {
+    "folder":"dist",
+    "sha256":"79651dc3e8cd6749bc5d404c49a79e93469016d106736326842305e076136cb0",
+    "url":"https://pypi.io/packages/source/c/category_encoders/category_encoders-2.2.2.tar.gz"
+   },
+   {
+    "folder":"src",
+    "sha256":"b8fa5f2c2f3294ed7847e9c5486566604a6a321308dfb5377440a7ca2a9a5b1f",
+    "url":"https://github.com/scikit-learn-contrib/category_encoders/archive/2.2.2.tar.gz"
+   },
+   {
+    "folder":"dist",
+    "sha256":"79651dc3e8cd6749bc5d404c49a79e93469016d106736326842305e076136cb0",
+    "url":"https://pypi.io/packages/source/c/category_encoders/category_encoders-2.2.2.tar.gz"
+   },
+   {
+    "folder":"src",
+    "sha256":"b8fa5f2c2f3294ed7847e9c5486566604a6a321308dfb5377440a7ca2a9a5b1f",
+    "url":"https://github.com/scikit-learn-contrib/category_encoders/archive/2.2.2.tar.gz"
+   }
+  ],
+  "test":{
+   "commands":[
+    "python -m pip check",
+    "cd src && pytest -vv --cov category_encoders -k \"not (pandas_index or truncated_index)\"",
+    "python -m pip check",
+    "cd src && pytest -vv --cov category_encoders -k \"not (pandas_index or truncated_index)\"",
+    "python -m pip check",
+    "cd src && pytest -vv --cov category_encoders -k \"not (pandas_index or truncated_index)\""
+   ],
+   "imports":[
+    "category_encoders",
+    "category_encoders",
+    "category_encoders"
+   ],
+   "requires":[
+    "cython",
+    "pip",
+    "pytest",
+    "pytest-cov",
+    "cython",
+    "pip",
+    "pytest",
+    "pytest-cov",
+    "cython",
+    "pip",
+    "pytest",
+    "pytest-cov"
+   ],
+   "source_files":[
+    "src/tests",
+    "src/tests",
+    "src/tests"
+   ]
+  }
+ },
+ "name":"category_encoders",
+ "new_version":"2.2.2",
+ "new_version_attempts":{
+  "2.2.2":1
+ },
+ "new_version_errors":{},
+ "pinning_version":"2020.04.28.13.02.26",
+ "raw_meta_yaml":"{% set name = \"category_encoders\" %}\n{% set version = \"2.2.2\" %}\n\npackage:\n  name: {{ name }}\n  version: {{ version }}\n\nsource:\n  - url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n    sha256: 79651dc3e8cd6749bc5d404c49a79e93469016d106736326842305e076136cb0\n    folder: dist\n  - url: https://github.com/scikit-learn-contrib/{{ name }}/archive/{{ version }}.tar.gz\n    sha256: b8fa5f2c2f3294ed7847e9c5486566604a6a321308dfb5377440a7ca2a9a5b1f\n    folder: src\n\nbuild:\n  noarch: python\n  number: 0\n  script:\n    - cd dist && {{ PYTHON }} -m pip install -vvv .\n\nrequirements:\n  host:\n    - numpy >=1.14.0\n    - pandas >=0.21.1\n    - patsy >=0.5.1\n    - pip\n    - python >=3.5\n    - scikit-learn >=0.20.0\n    - scipy >=1.0.0\n    - statsmodels >=0.9.0\n  run:\n    - numpy >=1.14.0\n    - pandas >=0.21.1\n    - patsy >=0.5.1\n    - python >=3.5\n    - scikit-learn >=0.20.0\n    - scipy >=1.0.0\n    - statsmodels >=0.9.0\n\ntest:\n  source_files:\n    - src/tests\n  requires:\n    - cython\n    - pip\n    - pytest\n    - pytest-cov\n  imports:\n    - category_encoders\n  commands:\n    - python -m pip check\n    - cd src && pytest -vv --cov category_encoders -k \"not (pandas_index or truncated_index)\"\n\nabout:\n  home: https://github.com/scikit-learn-contrib/categorical_encoding\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: dist/LICENSE.md\n  summary: A collection sklearn transformers to encode categorical variables as numeric\n  doc_url: https://contrib.scikit-learn.org/categorical-encoding\n  description: |-\n    A set of scikit-learn-style transformers for encoding categorical variables\n    into numeric with different techniques. While ordinal, one-hot, and hashing\n    encoders have similar equivalents in the existing scikit-learn version, the\n    transformers in this library all share a few useful properties:\n\n    - First-class support for pandas dataframes as an input (and optionally as\n      output)\n\n    - Can explicitly configure which columns in the data are encoded by name or\n      index, or infer non-numeric columns regardless of input type\n\n    - Can drop any columns with very low variance based on training set\n      optionally\n\n    - Portability: train a transformer on data, pickle it, reuse it later and\n      get the same thing out.\n\n    - Full compatibility with sklearn pipelines, input an array-like dataset\n      like any other transformer\n\nextra:\n  recipe-maintainers:\n    - bollwyvl\n    - nirajd\n    - wdm0006\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "numpy",
+   "pandas",
+   "patsy",
+   "pip",
+   "python",
+   "scikit-learn",
+   "scipy",
+   "statsmodels"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "numpy",
+    "pandas",
+    "patsy",
+    "pip",
+    "python",
+    "scikit-learn",
+    "scipy",
+    "statsmodels"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "numpy",
+    "pandas",
+    "patsy",
+    "python",
+    "scikit-learn",
+    "scipy",
+    "statsmodels"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "cython",
+    "pip",
+    "pytest",
+    "pytest-cov"
+   ]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.7.0",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "numpy >=1.14.0",
+    "pandas >=0.21.1",
+    "patsy >=0.5.1",
+    "pip",
+    "python >=3.5",
+    "scikit-learn >=0.20.0",
+    "scipy >=1.0.0",
+    "statsmodels >=0.9.0"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "numpy >=1.14.0",
+    "pandas >=0.21.1",
+    "patsy >=0.5.1",
+    "python >=3.5",
+    "scikit-learn >=0.20.0",
+    "scipy >=1.0.0",
+    "statsmodels >=0.9.0"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "cython",
+    "pip",
+    "pytest",
+    "pytest-cov"
+   ]
+  }
+ },
+ "url":"https://pypi.io/packages/source/c/category_encoders/category_encoders-2.0.0.tar.gz",
+ "version":"2.2.2"
+}

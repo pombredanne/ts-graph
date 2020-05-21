@@ -1,0 +1,212 @@
+{
+ "PRed":[
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"4.2.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/220417736.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/336049733.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"python38"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "compiler_stack":"comp7",
+  "max_py_ver":"37",
+  "max_r_ver":"35"
+ },
+ "feedstock_name":"pytest-watch",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"pytest-watch a zero-config CLI tool that runs pytest, and re-runs it when\na file in your project changes. It beeps on failures and can run arbitrary\ncommands on each passing and failing test run.\n",
+   "home":"http://github.com/joeyespo/pytest-watch",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"LICENSE",
+   "summary":"Local continuous test runner with pytest and watchdog."
+  },
+  "build":{
+   "entry_points":[
+    "pytest-watch = pytest_watch:main",
+    "ptw = pytest_watch:main",
+    "pytest-watch = pytest_watch:main",
+    "ptw = pytest_watch:main",
+    "pytest-watch = pytest_watch:main",
+    "ptw = pytest_watch:main"
+   ],
+   "number":"1000",
+   "script":"python setup.py install --single-version-externally-managed --record record.txt"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "igortg",
+    "igortg",
+    "igortg"
+   ]
+  },
+  "package":{
+   "name":"pytest-watch",
+   "version":"4.1.0"
+  },
+  "requirements":{
+   "build":[
+    "python",
+    "setuptools",
+    "python",
+    "setuptools",
+    "python",
+    "setuptools"
+   ],
+   "run":[
+    "python",
+    "pytest >=2.6.4",
+    "docopt >=0.6.2",
+    "colorama >=0.3.3",
+    "watchdog >=0.6.0",
+    "python",
+    "pytest >=2.6.4",
+    "docopt >=0.6.2",
+    "colorama >=0.3.3",
+    "watchdog >=0.6.0",
+    "python",
+    "pytest >=2.6.4",
+    "docopt >=0.6.2",
+    "colorama >=0.3.3",
+    "watchdog >=0.6.0"
+   ]
+  },
+  "source":{
+   "fn":"pytest-watch-4.1.0.zip",
+   "sha256":"29941f6ff74e6d85cc0796434a5cbc27ebe51e91ed24fd0757fad5cc6fd3d491",
+   "url":"https://pypi.io/packages/source/p/pytest-watch/pytest-watch-4.1.0.zip"
+  },
+  "test":{
+   "commands":[
+    "ptw -V",
+    "ptw -V",
+    "ptw -V"
+   ],
+   "imports":[
+    "pytest_watch",
+    "pytest_watch",
+    "pytest_watch"
+   ]
+  }
+ },
+ "name":"pytest-watch",
+ "new_version":"4.2.0",
+ "pinning_version":"2019.11.01",
+ "raw_meta_yaml":"{% set name = \"pytest-watch\" %}\n{% set version = \"4.1.0\" %}\n{% set sha256 = \"29941f6ff74e6d85cc0796434a5cbc27ebe51e91ed24fd0757fad5cc6fd3d491\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  fn: {{ name }}-{{ version }}.zip\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.zip\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 1000\n  # Skip build on win32 untill we have a solution for conda-build issue #2619\n  skip: True  # [win32]\n  script: python setup.py install --single-version-externally-managed --record record.txt\n  entry_points:\n    - pytest-watch = pytest_watch:main\n    - ptw = pytest_watch:main\n\nrequirements:\n  build:\n    - python\n    - setuptools\n  run:\n    - python\n    - pytest >=2.6.4\n    - docopt >=0.6.2\n    - colorama >=0.3.3\n    - watchdog >=0.6.0\n\ntest:\n  imports:\n    - pytest_watch\n  commands:\n    - ptw -V\n\nabout:\n  home: http://github.com/joeyespo/pytest-watch\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE\n  summary: 'Local continuous test runner with pytest and watchdog.'\n\n  description: |\n    pytest-watch a zero-config CLI tool that runs pytest, and re-runs it when\n    a file in your project changes. It beeps on failures and can run arbitrary \n    commands on each passing and failing test run.\n\nextra:\n  recipe-maintainers:\n    - igortg\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "colorama",
+   "docopt",
+   "pytest",
+   "python",
+   "setuptools",
+   "watchdog"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "python",
+    "setuptools"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "colorama",
+    "docopt",
+    "pytest",
+    "python",
+    "watchdog"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.6.1",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "python",
+    "setuptools"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "colorama >=0.3.3",
+    "docopt >=0.6.2",
+    "pytest >=2.6.4",
+    "python",
+    "watchdog >=0.6.0"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/p/pytest-watch/pytest-watch-4.1.0.zip",
+ "version":"4.1.0"
+}

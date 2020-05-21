@@ -1,0 +1,348 @@
+{
+ "PRed":[
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.1.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/225568032.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.1.3"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/229834218.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.1.4"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/232278649.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.1.5"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/282639951.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.1.6"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/321928283.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.1.7"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/358514409.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.0.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/419164995.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.0.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/419170040.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"4.0.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"draftjs_exporter",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"Library to convert Draft.js ContentState to HTML",
+   "dev_url":"https://github.com/springload/draftjs_exporter",
+   "doc_url":"https://github.com/springload/draftjs_exporter",
+   "home":"https://github.com/springload/draftjs_exporter",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"LICENSE",
+   "summary":"Library to convert Draft.js ContentState to HTML"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":"-m pip install . --no-deps -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "cshaley",
+    "sannykr",
+    "cshaley",
+    "sannykr",
+    "cshaley",
+    "sannykr"
+   ]
+  },
+  "package":{
+   "name":"draftjs_exporter",
+   "version":"3.0.0"
+  },
+  "requirements":{
+   "build":[
+    "python",
+    "setuptools",
+    "pip",
+    "python",
+    "setuptools",
+    "pip",
+    "python",
+    "setuptools",
+    "pip"
+   ],
+   "run":[
+    "python",
+    "python",
+    "python"
+   ]
+  },
+  "source":{
+   "fn":"draftjs_exporter-3.0.0.tar.gz",
+   "sha256":"e98d3ff0af0974c3f3640145e194e5fb0ae2aa8a9ddc403e5fd9c9c0200bc176",
+   "url":"https://pypi.io/packages/source/d/draftjs_exporter/draftjs_exporter-3.0.0.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "draftjs_exporter",
+    "draftjs_exporter.engines",
+    "draftjs_exporter.utils",
+    "draftjs_exporter",
+    "draftjs_exporter.engines",
+    "draftjs_exporter.utils",
+    "draftjs_exporter",
+    "draftjs_exporter.engines",
+    "draftjs_exporter.utils"
+   ],
+   "requires":[
+    "beautifulsoup4 >=4.4.1,<5",
+    "html5lib >=0.999,<=1.0b10",
+    "lxml >=3.6.0",
+    "tox >=2.3.1",
+    "markov_draftjs ==0.1.1",
+    "memory_profiler ==0.47",
+    "psutil ==5.4.1",
+    "coverage >=4.1.0",
+    "flake8 >=3.2.0",
+    "isort ==4.2.5",
+    "beautifulsoup4 >=4.4.1,<5",
+    "html5lib >=0.999,<=1.0b10",
+    "lxml >=3.6.0",
+    "tox >=2.3.1",
+    "markov_draftjs ==0.1.1",
+    "memory_profiler ==0.47",
+    "psutil ==5.4.1",
+    "coverage >=4.1.0",
+    "flake8 >=3.2.0",
+    "isort ==4.2.5",
+    "beautifulsoup4 >=4.4.1,<5",
+    "html5lib >=0.999,<=1.0b10",
+    "lxml >=3.6.0",
+    "tox >=2.3.1",
+    "markov_draftjs ==0.1.1",
+    "memory_profiler ==0.47",
+    "psutil ==5.4.1",
+    "coverage >=4.1.0",
+    "flake8 >=3.2.0",
+    "isort ==4.2.5"
+   ]
+  }
+ },
+ "name":"draftjs_exporter",
+ "new_version":"4.0.0",
+ "new_version_attempts":{
+  "3.0.1":1,
+  "4.0.0":1
+ },
+ "new_version_errors":{},
+ "pinning_version":"2020.05.14.17.14.20",
+ "raw_meta_yaml":"{% set name = \"draftjs_exporter\" %}\n{% set version = \"3.0.0\" %}\n{% set sha256 = \"e98d3ff0af0974c3f3640145e194e5fb0ae2aa8a9ddc403e5fd9c9c0200bc176\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  fn: {{ name }}-{{ version }}.tar.gz\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  noarch: python\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  build:\n    - python\n    - setuptools\n    - pip\n  run:\n    - python\n\ntest:\n  requires:\n    - beautifulsoup4 >=4.4.1,<5\n    - html5lib >=0.999,<=1.0b10\n    - lxml >=3.6.0\n    - tox >=2.3.1\n    - markov_draftjs ==0.1.1\n    - memory_profiler ==0.47\n    - psutil ==5.4.1\n    - coverage >=4.1.0\n    - flake8 >=3.2.0\n    - isort ==4.2.5\n  imports:\n    - draftjs_exporter\n    - draftjs_exporter.engines\n    - draftjs_exporter.utils\n\n\nabout:\n  home: https://github.com/springload/draftjs_exporter\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE\n  summary: 'Library to convert Draft.js ContentState to HTML'\n  description: \n    Library to convert Draft.js ContentState to HTML\n  doc_url: https://github.com/springload/draftjs_exporter\n  dev_url: https://github.com/springload/draftjs_exporter\n\nextra:\n  recipe-maintainers:\n    - cshaley\n    - sannykr\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "pip",
+   "python",
+   "setuptools"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python",
+    "setuptools"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "beautifulsoup4",
+    "coverage",
+    "flake8",
+    "html5lib",
+    "isort",
+    "lxml",
+    "markov_draftjs",
+    "memory_profiler",
+    "psutil",
+    "tox"
+   ]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.7.2\n",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python",
+    "setuptools"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "beautifulsoup4 >=4.4.1,<5",
+    "coverage >=4.1.0",
+    "flake8 >=3.2.0",
+    "html5lib >=0.999,<=1.0b10",
+    "isort ==4.2.5",
+    "lxml >=3.6.0",
+    "markov_draftjs ==0.1.1",
+    "memory_profiler ==0.47",
+    "psutil ==5.4.1",
+    "tox >=2.3.1"
+   ]
+  }
+ },
+ "url":"https://pypi.io/packages/source/d/draftjs_exporter/draftjs_exporter-2.1.6.tar.gz",
+ "version":"3.0.0"
+}

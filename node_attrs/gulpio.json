@@ -1,0 +1,195 @@
+{
+ "PRed":[
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"540.66"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"gulpio",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "dev_url":"https://github.com/TwentyBN/GulpIO",
+   "doc_url":"https://github.com/TwentyBN/GulpIO",
+   "home":"https://github.com/TwentyBN/GulpIO",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"LICENSE.txt",
+   "summary":"Binary storage format for deep learning on videos."
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . --no-deps -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "willprice",
+    "willprice",
+    "willprice"
+   ]
+  },
+  "package":{
+   "name":"gulpio",
+   "version":"540.66"
+  },
+  "requirements":{
+   "host":[
+    "python >=3",
+    "pip",
+    "python >=3",
+    "pip",
+    "python >=3",
+    "pip"
+   ],
+   "run":[
+    "python >=3",
+    "opencv",
+    "tqdm",
+    "sh",
+    "docopt",
+    "pillow",
+    "numpy",
+    "jinja2",
+    "python >=3",
+    "opencv",
+    "tqdm",
+    "sh",
+    "docopt",
+    "pillow",
+    "numpy",
+    "jinja2",
+    "python >=3",
+    "opencv",
+    "tqdm",
+    "sh",
+    "docopt",
+    "pillow",
+    "numpy",
+    "jinja2"
+   ]
+  },
+  "source":{
+   "sha256":"d7ceb4d8115b28ed22b6572d06797df417c2a3560d4efb050b489dbba5e27cdb",
+   "url":"https://pypi.io/packages/source/g/gulpio/gulpio-540.66.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "gulp_image_folder --help",
+    "gulp_sanity_check --help",
+    "gulp_image_folder --help",
+    "gulp_sanity_check --help",
+    "gulp_image_folder --help",
+    "gulp_sanity_check --help"
+   ],
+   "imports":[
+    "gulpio",
+    "gulpio",
+    "gulpio"
+   ],
+   "requires":[
+    "python",
+    "python",
+    "python"
+   ]
+  }
+ },
+ "name":"gulpio",
+ "new_version":"540.66",
+ "pinning_version":"2019.02.11",
+ "raw_meta_yaml":"{% set name = \"gulpio\" %}\n{% set version = \"540.66\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: d7ceb4d8115b28ed22b6572d06797df417c2a3560d4efb050b489dbba5e27cdb\n\nbuild:\n  number: 0\n  noarch: python\n  script: \"{{ PYTHON }} -m pip install . --no-deps -vv\"\n\nrequirements:\n  host:\n    - python >=3\n    - pip\n  run:\n    - python >=3\n    - opencv\n    - tqdm\n    - sh\n    - docopt\n    - pillow\n    - numpy\n    - jinja2\n\ntest:\n  requires:\n    - python\n  imports:\n    - gulpio\n  commands:\n    - gulp_image_folder --help\n    - gulp_sanity_check --help\n\nabout:\n  home: https://github.com/TwentyBN/GulpIO\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE.txt\n  summary: Binary storage format for deep learning on videos.\n  doc_url: https://github.com/TwentyBN/GulpIO\n  dev_url: https://github.com/TwentyBN/GulpIO\n\nextra:\n  recipe-maintainers:\n    - willprice\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "docopt",
+   "jinja2",
+   "numpy",
+   "opencv",
+   "pillow",
+   "pip",
+   "python",
+   "sh",
+   "tqdm"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "docopt",
+    "jinja2",
+    "numpy",
+    "opencv",
+    "pillow",
+    "python",
+    "sh",
+    "tqdm"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "python"
+   ]
+  }
+ },
+ "smithy_version":"3.2.13",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "docopt",
+    "jinja2",
+    "numpy",
+    "opencv",
+    "pillow",
+    "python >=3",
+    "sh",
+    "tqdm"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "python"
+   ]
+  }
+ },
+ "url":"https://pypi.io/packages/source/g/gulpio/gulpio-540.66.tar.gz",
+ "version":"540.66"
+}

@@ -1,0 +1,189 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/407842168.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.7.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "bot":{
+   "automerge":true
+  }
+ },
+ "feedstock_name":"arlpy",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"https://github.com/org-arl/arlpy",
+   "license":"BSD-3-Clause",
+   "license_family":"BSD",
+   "license_file":"LICENSE",
+   "summary":"ARL Python Tools"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":"-m pip install . -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "ocefpaf",
+    "ocefpaf",
+    "ocefpaf"
+   ]
+  },
+  "package":{
+   "name":"arlpy",
+   "version":"1.7.0"
+  },
+  "requirements":{
+   "host":[
+    "python",
+    "pip",
+    "python",
+    "pip",
+    "python",
+    "pip"
+   ],
+   "run":[
+    "python",
+    "bokeh >=1.4.0",
+    "numpy >=1.18.1",
+    "pandas >=1.0.1",
+    "scipy >=1.4.1",
+    "utm >=0.5.0",
+    "python",
+    "bokeh >=1.4.0",
+    "numpy >=1.18.1",
+    "pandas >=1.0.1",
+    "scipy >=1.4.1",
+    "utm >=0.5.0",
+    "python",
+    "bokeh >=1.4.0",
+    "numpy >=1.18.1",
+    "pandas >=1.0.1",
+    "scipy >=1.4.1",
+    "utm >=0.5.0"
+   ]
+  },
+  "source":{
+   "sha256":"0f8febcba26ef5deef523856b7b8e7a57ae880618c4f08ac4d2ef61354ddd9d4",
+   "url":"https://pypi.io/packages/source/a/arlpy/arlpy-1.7.0.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "pip check",
+    "pip check",
+    "pip check"
+   ],
+   "imports":[
+    "arlpy",
+    "arlpy",
+    "arlpy"
+   ],
+   "requires":[
+    "pip",
+    "pip",
+    "pip"
+   ]
+  }
+ },
+ "name":"arlpy",
+ "new_version":"1.7.0",
+ "new_version_attempts":{
+  "1.7.0":1
+ },
+ "new_version_errors":{},
+ "pinning_version":"2020.04.23.05.37.39",
+ "raw_meta_yaml":"{% set version = \"1.7.0\" %}\n\npackage:\n  name: arlpy\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/a/arlpy/arlpy-{{ version }}.tar.gz\n  sha256: 0f8febcba26ef5deef523856b7b8e7a57ae880618c4f08ac4d2ef61354ddd9d4\n\nbuild:\n  number: 0\n  noarch: python\n  script: {{ PYTHON }} -m pip install . -vv\n\nrequirements:\n  host:\n    - python\n    - pip\n  run:\n    - python\n    - bokeh >=1.4.0\n    - numpy >=1.18.1\n    - pandas >=1.0.1\n    - scipy >=1.4.1\n    - utm >=0.5.0\n\ntest:\n  imports:\n    - arlpy\n  commands:\n    - pip check\n  requires:\n    - pip\n\n\nabout:\n  home: https://github.com/org-arl/arlpy\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: LICENSE\n  summary: ARL Python Tools\n\nextra:\n  recipe-maintainers:\n    - ocefpaf\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "bokeh",
+   "numpy",
+   "pandas",
+   "pip",
+   "python",
+   "scipy",
+   "utm"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "bokeh",
+    "numpy",
+    "pandas",
+    "python",
+    "scipy",
+    "utm"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "pip"
+   ]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.6.17",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "bokeh >=1.4.0",
+    "numpy >=1.18.1",
+    "pandas >=1.0.1",
+    "python",
+    "scipy >=1.4.1",
+    "utm >=0.5.0"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "pip"
+   ]
+  }
+ },
+ "url":"https://pypi.io/packages/source/a/arlpy/arlpy-1.6.1.tar.gz",
+ "version":"1.7.0"
+}

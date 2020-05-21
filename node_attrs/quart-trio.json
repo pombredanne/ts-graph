@@ -1,0 +1,194 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/312701106.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.4.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/372846382.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.5.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/394145472.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.5.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "bot":{
+   "automerge":true
+  }
+ },
+ "feedstock_name":"quart-trio",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"Quart-Trio is an extension for Quart to support the Trio event loop.\nThis is an alternative to using the asyncio event loop present in the Python\nstandard library and supported by default in Quart.\n",
+   "home":"https://gitlab.com/pgjones/quart-trio",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"LICENSE",
+   "summary":"Quart-Trio is an extension for Quart to support the Trio event loop"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":"-m pip install . -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "scopatz",
+    "scopatz",
+    "scopatz"
+   ]
+  },
+  "package":{
+   "name":"quart-trio",
+   "version":"0.5.1"
+  },
+  "requirements":{
+   "host":[
+    "python >=3.7.0",
+    "pip",
+    "python >=3.7.0",
+    "pip",
+    "python >=3.7.0",
+    "pip"
+   ],
+   "run":[
+    "python >=3.7.0",
+    "quart >=0.11.1",
+    "trio >=0.10.0",
+    "hypercorn >=0.6.0",
+    "python >=3.7.0",
+    "quart >=0.11.1",
+    "trio >=0.10.0",
+    "hypercorn >=0.6.0",
+    "python >=3.7.0",
+    "quart >=0.11.1",
+    "trio >=0.10.0",
+    "hypercorn >=0.6.0"
+   ]
+  },
+  "source":{
+   "sha256":"dafc8f0440d4b70fa60d24122a161d2373894d2bfa9f713d9f1df1fd508f0834",
+   "url":"https://pypi.io/packages/source/Q/Quart-Trio/Quart-Trio-0.5.1.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "quart_trio",
+    "quart_trio",
+    "quart_trio"
+   ]
+  }
+ },
+ "name":"quart-trio",
+ "new_version":"0.5.1",
+ "pinning_version":"2020.03.24",
+ "raw_meta_yaml":"{% set name = \"Quart-Trio\" %}\n{% set version = \"0.5.1\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: dafc8f0440d4b70fa60d24122a161d2373894d2bfa9f713d9f1df1fd508f0834\n\nbuild:\n  noarch: python\n  number: 0\n  script: {{ PYTHON }} -m pip install . -vv\n\nrequirements:\n  host:\n    - python >=3.7.0\n    - pip\n  run:\n    - python >=3.7.0\n    - quart >=0.11.1\n    - trio >=0.10.0\n    - hypercorn >=0.6.0\n\ntest:\n  imports:\n    - quart_trio\n\nabout:\n  home: https://gitlab.com/pgjones/quart-trio\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE\n  summary: Quart-Trio is an extension for Quart to support the Trio event loop\n  description: |\n    Quart-Trio is an extension for Quart to support the Trio event loop.\n    This is an alternative to using the asyncio event loop present in the Python\n    standard library and supported by default in Quart.\n\nextra:\n  recipe-maintainers:\n    - scopatz\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "hypercorn",
+   "pip",
+   "python",
+   "quart",
+   "trio"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "hypercorn",
+    "python",
+    "quart",
+    "trio"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.6.15",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3.7.0"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "hypercorn >=0.6.0",
+    "python >=3.7.0",
+    "quart >=0.11.1",
+    "trio >=0.10.0"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/Q/Quart-Trio/Quart-Trio-0.4.0.tar.gz",
+ "version":"0.5.1"
+}

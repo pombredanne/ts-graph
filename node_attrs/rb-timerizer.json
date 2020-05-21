@@ -1,0 +1,141 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/315895424.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.3.3"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"rb-timerizer",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "dev_url":"https://github.com/kylewlacy/timerizer",
+   "doc_url":"https://www.rubydoc.info/gems/timerizer",
+   "home":"https://rubygems.org/gems/timerizer",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"LICENSE",
+   "summary":"A simple set of Rails-like time helpers"
+  },
+  "build":{
+   "noarch":"generic",
+   "number":"0",
+   "script":[
+    "gem install -N -l -V --norc --ignore-dependencies timerizer-0.3.3.gem",
+    "gem unpack timerizer-0.3.3.gem",
+    "gem install -N -l -V --norc --ignore-dependencies timerizer-0.3.3.gem",
+    "gem unpack timerizer-0.3.3.gem",
+    "gem install -N -l -V --norc --ignore-dependencies timerizer-0.3.3.gem",
+    "gem unpack timerizer-0.3.3.gem"
+   ],
+   "skip":null
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "sodre",
+    "sodre",
+    "sodre"
+   ]
+  },
+  "package":{
+   "name":"rb-timerizer",
+   "version":"0.3.3"
+  },
+  "requirements":{
+   "host":[
+    "ruby",
+    "ruby",
+    "ruby"
+   ],
+   "run":[
+    "ruby",
+    "ruby",
+    "ruby"
+   ]
+  },
+  "source":{
+   "sha256":"544bd642ac1af34eaff6f71351936e0dcb5f48fb7692b74285772b5269fab56d",
+   "url":"https://rubygems.org/downloads/timerizer-0.3.3.gem"
+  },
+  "test":{
+   "commands":[
+    "ruby -r timerizer -e 'exit 0'",
+    "ruby -r timerizer -e 'exit 0'",
+    "ruby -r timerizer -e 'exit 0'"
+   ]
+  }
+ },
+ "name":"rb-timerizer",
+ "new_version":"0.3.3",
+ "pinning_version":"2019.09.08",
+ "raw_meta_yaml":"{% set name = \"timerizer\" %}\n{% set version = \"0.3.3\" %}\n\npackage:\n  name: rb-{{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://rubygems.org/downloads/{{ name }}-{{ version }}.gem\n  sha256: 544bd642ac1af34eaff6f71351936e0dcb5f48fb7692b74285772b5269fab56d\n\nbuild:\n  noarch: generic\n  number: 0\n  script:\n    - gem install -N -l -V --norc --ignore-dependencies {{ name }}-{{ version }}.gem\n    - gem unpack {{ name }}-{{ version }}.gem\n  skip: {{ win }}\n\nrequirements:\n  host:\n    - ruby\n  run:\n    - ruby\n\ntest:\n  commands:\n    - ruby -r {{ name }} -e 'exit 0'\n\nabout:\n  home: https://rubygems.org/gems/{{ name }}\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE\n  summary: A simple set of Rails-like time helpers\n\n  doc_url: https://www.rubydoc.info/gems/{{ name }}\n  dev_url: https://github.com/kylewlacy/{{ name }}\n\nextra:\n  recipe-maintainers:\n    - sodre\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "ruby"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "ruby"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "ruby"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.4.5",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "ruby"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "ruby"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://rubygems.org/downloads/timerizer-0.3.2.gem",
+ "version":"0.3.3"
+}

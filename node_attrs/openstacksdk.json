@@ -1,0 +1,601 @@
+{
+ "PRed":[
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.14.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.15.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/201157690.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.16.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/202879277.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.17.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/204885989.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.17.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/206751495.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.17.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/224307137.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.18.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/224777999.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.18.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/227129482.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.19.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/229913907.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/234819522.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.20.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/243747419.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.22.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/244790996.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.23.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.24.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/257265827.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.25.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/259978109.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.26.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/266352592.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.27.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/279381416.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.28.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/284278618.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.29.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/285675600.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.30.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/338897638.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"python38"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/389791591.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"pypy"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "compiler_stack":"comp7",
+  "max_py_ver":"37",
+  "max_r_ver":"35",
+  "provider":{
+   "win":"azure"
+  }
+ },
+ "feedstock_name":"openstacksdk",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "dev_url":"https://github.com/openstack/python-openstacksdk",
+   "doc_url":"https://developer.openstack.org/sdks/python/openstacksdk/",
+   "home":"https://developer.openstack.org/sdks/python/openstacksdk/",
+   "license":"Apache-2.0",
+   "license_family":"Apache",
+   "license_file":"LICENSE",
+   "summary":"Collection of libraries for building applications to work with OpenStack clouds."
+  },
+  "build":{
+   "entry_points":[
+    "openstack-inventory = openstack.cloud.cmd.inventory:main",
+    "openstack-inventory = openstack.cloud.cmd.inventory:main",
+    "openstack-inventory = openstack.cloud.cmd.inventory:main"
+   ],
+   "noarch":"python",
+   "number":"0",
+   "script":"-m pip install . -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "pmlandwehr",
+    "tschoonj",
+    "pmlandwehr",
+    "tschoonj",
+    "pmlandwehr",
+    "tschoonj"
+   ]
+  },
+  "package":{
+   "name":"openstacksdk",
+   "version":"0.46.0"
+  },
+  "requirements":{
+   "host":[
+    "python >=3.5",
+    "pip",
+    "pbr !=2.1.0,>=2.0.0",
+    "python >=3.5",
+    "pip",
+    "pbr !=2.1.0,>=2.0.0",
+    "python >=3.5",
+    "pip",
+    "pbr !=2.1.0,>=2.0.0"
+   ],
+   "run":[
+    "python >=3.5",
+    "pbr !=2.1.0,>=2.0.0",
+    "pyyaml >=3.12",
+    "appdirs >=1.3.0",
+    "requestsexceptions >=1.2.0",
+    "jsonpatch !=1.20,>=1.16",
+    "six >=1.10.0",
+    "os-service-types >=1.7.0",
+    "keystoneauth1 >=3.18.0",
+    "munch >=2.1.0",
+    "decorator >=4.4.1",
+    "jmespath >=0.9.0",
+    "iso8601 >=0.1.11",
+    "netifaces >=0.10.4",
+    "dogpile.cache >=0.6.5",
+    "cryptography >=2.1",
+    "python >=3.5",
+    "pbr !=2.1.0,>=2.0.0",
+    "pyyaml >=3.12",
+    "appdirs >=1.3.0",
+    "requestsexceptions >=1.2.0",
+    "jsonpatch !=1.20,>=1.16",
+    "six >=1.10.0",
+    "os-service-types >=1.7.0",
+    "keystoneauth1 >=3.18.0",
+    "munch >=2.1.0",
+    "decorator >=4.4.1",
+    "jmespath >=0.9.0",
+    "iso8601 >=0.1.11",
+    "netifaces >=0.10.4",
+    "dogpile.cache >=0.6.5",
+    "cryptography >=2.1",
+    "python >=3.5",
+    "pbr !=2.1.0,>=2.0.0",
+    "pyyaml >=3.12",
+    "appdirs >=1.3.0",
+    "requestsexceptions >=1.2.0",
+    "jsonpatch !=1.20,>=1.16",
+    "six >=1.10.0",
+    "os-service-types >=1.7.0",
+    "keystoneauth1 >=3.18.0",
+    "munch >=2.1.0",
+    "decorator >=4.4.1",
+    "jmespath >=0.9.0",
+    "iso8601 >=0.1.11",
+    "netifaces >=0.10.4",
+    "dogpile.cache >=0.6.5",
+    "cryptography >=2.1"
+   ]
+  },
+  "source":{
+   "sha256":"a1617f00810a0ec1353e66e7da9fe9b4f926a830bb14b48643b6461b8808ef29",
+   "url":"https://pypi.org/packages/source/o/openstacksdk/openstacksdk-0.46.0.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "openstack",
+    "openstack",
+    "openstack"
+   ]
+  }
+ },
+ "name":"openstacksdk",
+ "new_version":"0.46.0",
+ "pinning_version":"2020.03.16",
+ "raw_meta_yaml":"{% set name = \"openstacksdk\" %}\n{% set version = \"0.46.0\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: a1617f00810a0ec1353e66e7da9fe9b4f926a830bb14b48643b6461b8808ef29\n\nbuild:\n  number: 0\n  script: {{ PYTHON }} -m pip install . -vv\n  noarch: python\n  entry_points:\n    - openstack-inventory = openstack.cloud.cmd.inventory:main\n\nrequirements:\n  host:\n    - python >=3.5\n    - pip\n    - pbr !=2.1.0,>=2.0.0\n\n  run:\n    - python >=3.5\n    - pbr !=2.1.0,>=2.0.0\n    - pyyaml >=3.12\n    - appdirs >=1.3.0\n    - requestsexceptions >=1.2.0\n    - jsonpatch !=1.20,>=1.16\n    - six >=1.10.0\n    - os-service-types >=1.7.0\n    - keystoneauth1 >=3.18.0\n    - munch >=2.1.0\n    - decorator >=4.4.1\n    - jmespath >=0.9.0\n    - iso8601 >=0.1.11\n    - netifaces >=0.10.4\n    - dogpile.cache >=0.6.5\n    - cryptography >=2.1\n\ntest:\n  imports:\n    - openstack\n\nabout:\n  home: https://developer.openstack.org/sdks/python/openstacksdk/\n  license_file: LICENSE\n  license: Apache-2.0\n  license_family: Apache\n  summary: Collection of libraries for building applications to work with OpenStack clouds.\n  doc_url: https://developer.openstack.org/sdks/python/openstacksdk/\n  dev_url: https://github.com/openstack/python-openstacksdk\n\nextra:\n  recipe-maintainers:\n    - pmlandwehr\n    - tschoonj\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "appdirs",
+   "cryptography",
+   "decorator",
+   "dogpile.cache",
+   "iso8601",
+   "jmespath",
+   "jsonpatch",
+   "keystoneauth1",
+   "munch",
+   "netifaces",
+   "os-service-types",
+   "pbr",
+   "pip",
+   "python",
+   "pyyaml",
+   "requestsexceptions",
+   "six"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pbr",
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "appdirs",
+    "cryptography",
+    "decorator",
+    "dogpile.cache",
+    "iso8601",
+    "jmespath",
+    "jsonpatch",
+    "keystoneauth1",
+    "munch",
+    "netifaces",
+    "os-service-types",
+    "pbr",
+    "python",
+    "pyyaml",
+    "requestsexceptions",
+    "six"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.6.12",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pbr !=2.1.0,>=2.0.0",
+    "pip",
+    "python >=3.5"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "appdirs >=1.3.0",
+    "cryptography >=2.1",
+    "decorator >=4.4.1",
+    "dogpile.cache >=0.6.5",
+    "iso8601 >=0.1.11",
+    "jmespath >=0.9.0",
+    "jsonpatch !=1.20,>=1.16",
+    "keystoneauth1 >=3.18.0",
+    "munch >=2.1.0",
+    "netifaces >=0.10.4",
+    "os-service-types >=1.7.0",
+    "pbr !=2.1.0,>=2.0.0",
+    "python >=3.5",
+    "pyyaml >=3.12",
+    "requestsexceptions >=1.2.0",
+    "six >=1.10.0"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.org/packages/source/o/openstacksdk/openstacksdk-0.26.0.tar.gz",
+ "version":"0.46.0"
+}

@@ -1,0 +1,147 @@
+{
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"pystache",
+ "hash_type":"md5",
+ "meta_yaml":{
+  "about":{
+   "home":"http://github.com/defunkt/pystache",
+   "license":"MIT",
+   "license_file":"LICENSE",
+   "summary":"Mustache for Python"
+  },
+  "build":{
+   "entry_points":[
+    "pystache = pystache.commands.render:main",
+    "pystache-test = pystache.commands.test:main",
+    "pystache = pystache.commands.render:main",
+    "pystache-test = pystache.commands.test:main",
+    "pystache = pystache.commands.render:main",
+    "pystache-test = pystache.commands.test:main"
+   ],
+   "noarch":"python",
+   "number":"1",
+   "script":"python setup.py install --single-version-externally-managed --record record.txt"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "kwilcox",
+    "kwilcox",
+    "kwilcox"
+   ]
+  },
+  "package":{
+   "name":"pystache",
+   "version":"0.5.4"
+  },
+  "requirements":{
+   "build":[
+    "python",
+    "setuptools",
+    "python",
+    "setuptools",
+    "python",
+    "setuptools"
+   ],
+   "run":[
+    "python",
+    "python",
+    "python"
+   ]
+  },
+  "source":{
+   "fn":"pystache-0.5.4.tar.gz",
+   "md5":"485885e67a0f6411d5252e69b20a35ca",
+   "url":"https://pypi.python.org/packages/source/p/pystache/pystache-0.5.4.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "pystache --help",
+    "pystache-test",
+    "pystache --help",
+    "pystache-test",
+    "pystache --help",
+    "pystache-test"
+   ],
+   "imports":[
+    "pystache",
+    "pystache.commands",
+    "pystache.tests",
+    "pystache.tests.data",
+    "pystache.tests.data.locator",
+    "pystache.tests.examples",
+    "pystache",
+    "pystache.commands",
+    "pystache.tests",
+    "pystache.tests.data",
+    "pystache.tests.data.locator",
+    "pystache.tests.examples",
+    "pystache",
+    "pystache.commands",
+    "pystache.tests",
+    "pystache.tests.data",
+    "pystache.tests.data.locator",
+    "pystache.tests.examples"
+   ]
+  }
+ },
+ "name":"pystache",
+ "new_version":"0.5.4",
+ "raw_meta_yaml":"{% set name = \"pystache\" %}\n{% set version = \"0.5.4\" %}\n{% set build = 1 %}\n{% set md5 = \"485885e67a0f6411d5252e69b20a35ca\" %}\n\npackage:\n    name: {{ name }}\n    version: {{ version }}\n\nsource:\n    fn: {{ name }}-{{ version }}.tar.gz\n    url: https://pypi.python.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n    md5: {{ md5 }}\n\nbuild:\n    number: {{ build }}\n    script: python setup.py install --single-version-externally-managed --record record.txt\n    noarch: python\n    entry_points:\n        - pystache = pystache.commands.render:main\n        - pystache-test = pystache.commands.test:main\n\nrequirements:\n    build:\n        - python\n        - setuptools\n\n    run:\n        - python\n\ntest:\n    imports:\n        - pystache\n        - pystache.commands\n        - pystache.tests\n        - pystache.tests.data\n        - pystache.tests.data.locator\n        - pystache.tests.examples\n\n    commands:\n        - pystache --help\n        - pystache-test\n\nabout:\n    home: http://github.com/defunkt/pystache\n    license: MIT\n    license_file: LICENSE\n    summary: 'Mustache for Python'\n\nextra:\n    recipe-maintainers:\n        - kwilcox\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "python",
+   "setuptools"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "python",
+    "setuptools"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "python",
+    "setuptools"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.python.org/packages/source/p/pystache/pystache-0.5.4.tar.gz",
+ "version":"0.5.4"
+}

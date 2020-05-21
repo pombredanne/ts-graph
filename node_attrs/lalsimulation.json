@@ -1,0 +1,607 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/218162721.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.8.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/241349545.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/256919195.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.8.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/281854510.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.9.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/289711165.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Rebuild",
+    "migrator_version":0,
+    "name":"gsl-2.5"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/297351729.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.9.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/339512853.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"python38"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/363728665.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.10.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/371850019.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"gsl26"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "compiler_stack":"comp7",
+  "max_py_ver":"37",
+  "max_r_ver":"35"
+ },
+ "feedstock_name":"lalsimulation",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"The LSC Algorithm Simulation Library for gravitational wave data\nanalysis.\nThis package contains the shared-object libraries needed to run\napplications that use the LAL Simulation library. If you want to\ninstall the Python bindings, please install the associated\npython-lalsimulation package.\n",
+   "dev_url":"https://git.ligo.org/lscsoft/lalsuite/",
+   "doc_url":"https://docs.ligo.org/lscsoft/lalsuite/lalsimulation/",
+   "home":"https://wiki.ligo.org/Computing/LALSuite",
+   "license":"GPL-2.0-or-later",
+   "license_family":"GPL",
+   "license_file":"COPYING",
+   "summary":"LSC Algorithm Simulation Library"
+  },
+  "build":{
+   "error_overdepending":true,
+   "error_overlinking":true,
+   "number":"0",
+   "skip":true
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "duncanmmacleod",
+    "skymoo",
+    "duncanmmacleod",
+    "skymoo",
+    "duncanmmacleod",
+    "skymoo"
+   ]
+  },
+  "outputs":[
+   {
+    "build":{
+     "run_exports":[
+      "lalsimulation"
+     ]
+    },
+    "name":"lalsimulation"
+   },
+   {
+    "about":{
+     "description":"The LSC Algorithm Simulation Library for gravitational wave data\nanalysis.\nThis package contains the python bindings.\n",
+     "dev_url":"https://git.ligo.org/lscsoft/lalsuite/",
+     "doc_url":"https://lscsoft.docs.ligo.org/lalsuite/lalsimulation/",
+     "home":"https://wiki.ligo.org/Computing/LALSuite",
+     "license":"GPL-2.0-or-later",
+     "license_family":"GPL",
+     "license_file":"COPYING",
+     "summary":"LSC Algorithm Simulation Library"
+    },
+    "build":{
+     "error_overdepending":true,
+     "error_overlinking":true,
+     "ignore_run_exports":[
+      "python"
+     ]
+    },
+    "name":"python-lalsimulation",
+    "requirements":{
+     "build":[
+      "c_compiler_stub",
+      "make",
+      "pkg-config >=0.18.0",
+      "swig >=3.0.9"
+     ],
+     "host":[
+      "lalsimulation",
+      "numpy",
+      "python"
+     ],
+     "run":[
+      "lal >=6.22.0",
+      "lalsimulation",
+      "numpy",
+      "python",
+      "python-lal >=6.22.0"
+     ]
+    },
+    "script":"install-python.sh",
+    "test":{
+     "commands":[
+      "pushd test/python; python -m pytest -rs -v; popd"
+     ],
+     "imports":[
+      "lalsimulation"
+     ],
+     "requires":[
+      "pytest >=4.0.0a0"
+     ],
+     "source_files":[
+      "test/python"
+     ]
+    }
+   },
+   {
+    "build":{
+     "run_exports":[
+      "lalsimulation"
+     ]
+    },
+    "name":"lalsimulation"
+   },
+   {
+    "about":{
+     "description":"The LSC Algorithm Simulation Library for gravitational wave data\nanalysis.\nThis package contains the python bindings.\n",
+     "dev_url":"https://git.ligo.org/lscsoft/lalsuite/",
+     "doc_url":"https://lscsoft.docs.ligo.org/lalsuite/lalsimulation/",
+     "home":"https://wiki.ligo.org/Computing/LALSuite",
+     "license":"GPL-2.0-or-later",
+     "license_family":"GPL",
+     "license_file":"COPYING",
+     "summary":"LSC Algorithm Simulation Library"
+    },
+    "build":{
+     "error_overdepending":true,
+     "error_overlinking":true,
+     "ignore_run_exports":[
+      "python"
+     ]
+    },
+    "name":"python-lalsimulation",
+    "requirements":{
+     "build":[
+      "c_compiler_stub",
+      "make",
+      "pkg-config >=0.18.0",
+      "swig >=3.0.9"
+     ],
+     "host":[
+      "lalsimulation",
+      "numpy",
+      "python"
+     ],
+     "run":[
+      "lal >=6.22.0",
+      "lalsimulation",
+      "numpy",
+      "python",
+      "python-lal >=6.22.0"
+     ]
+    },
+    "script":"install-python.sh",
+    "test":{
+     "commands":[
+      "pushd test/python; python -m pytest -rs -v; popd"
+     ],
+     "imports":[
+      "lalsimulation"
+     ],
+     "requires":[
+      "pytest >=4.0.0a0"
+     ],
+     "source_files":[
+      "test/python"
+     ]
+    }
+   },
+   {
+    "build":{
+     "run_exports":[
+      "lalsimulation"
+     ]
+    },
+    "name":"lalsimulation"
+   },
+   {
+    "about":{
+     "description":"The LSC Algorithm Simulation Library for gravitational wave data\nanalysis.\nThis package contains the python bindings.\n",
+     "dev_url":"https://git.ligo.org/lscsoft/lalsuite/",
+     "doc_url":"https://lscsoft.docs.ligo.org/lalsuite/lalsimulation/",
+     "home":"https://wiki.ligo.org/Computing/LALSuite",
+     "license":"GPL-2.0-or-later",
+     "license_family":"GPL",
+     "license_file":"COPYING",
+     "summary":"LSC Algorithm Simulation Library"
+    },
+    "build":{
+     "error_overdepending":true,
+     "error_overlinking":true,
+     "ignore_run_exports":[
+      "python"
+     ]
+    },
+    "name":"python-lalsimulation",
+    "requirements":{
+     "build":[
+      "c_compiler_stub",
+      "make",
+      "pkg-config >=0.18.0",
+      "swig >=3.0.9"
+     ],
+     "host":[
+      "lalsimulation",
+      "numpy",
+      "python"
+     ],
+     "run":[
+      "gsl",
+      "lal >=6.22.0",
+      "lalsimulation",
+      "numpy",
+      "python",
+      "python-lal >=6.22.0"
+     ]
+    },
+    "script":"install-python.sh",
+    "test":{
+     "commands":[
+      "pushd test/python; python -m pytest -rs -v; popd"
+     ],
+     "imports":[
+      "lalsimulation"
+     ],
+     "requires":[
+      "pytest >=4.0.0a0"
+     ],
+     "source_files":[
+      "test/python"
+     ]
+    }
+   }
+  ],
+  "package":{
+   "name":"lalsimulation",
+   "version":"2.0.0"
+  },
+  "requirements":{
+   "build":[
+    "c_compiler_stub",
+    "help2man",
+    "make",
+    "pkg-config >=0.18.0",
+    "swig >=3.0.9",
+    "c_compiler_stub",
+    "help2man",
+    "llvm-openmp",
+    "make",
+    "pkg-config >=0.18.0",
+    "swig >=3.0.9",
+    "c_compiler_stub",
+    "help2man",
+    "make",
+    "pkg-config >=0.18.0",
+    "swig >=3.0.9"
+   ],
+   "host":[
+    "gsl",
+    "lal >=6.22.0",
+    "gsl",
+    "lal >=6.22.0",
+    "llvm-openmp",
+    "gsl",
+    "lal >=6.22.0",
+    "libgomp"
+   ],
+   "run":[
+    "gsl",
+    "lal >=6.22.0",
+    "gsl",
+    "lal >=6.22.0",
+    "llvm-openmp",
+    "gsl",
+    "lal >=6.22.0"
+   ]
+  },
+  "source":{
+   "sha256":"7847dedc2a341498862fbbcece489fca04e55716250574df278305377a921d8d",
+   "url":"http://software.ligo.org/lscsoft/source/lalsuite/lalsimulation-2.0.0.tar.xz"
+  },
+  "test":{
+   "commands":[
+    "lalsimulation_version --verbose",
+    "lalsim-bh-qnmode -l 0 -m 0 -s 0",
+    "lalsim-bh-ringdown -M 10 -a 0 -r 100 -e 0.001 -i 0 -l 2 -m 2",
+    "lalsim-bh-sphwf -a 0 -l 2 -m 2 -s 0",
+    "lalsim-burst -w SineGaussian -q 10 -f 100 -H 1e-21 1> /dev/null",
+    "lalsim-detector-noise -C -t 1 -r 10",
+    "lalsim-detector-strain --help",
+    "lalsim-inject --help",
+    "lalsim-inspiral --sample-rate 10 > /dev/null",
+    "lalsim-ns-eos-table -n ALF1 1> /dev/null",
+    "lalsim-ns-mass-radius -n ALF1 1> /dev/null",
+    "lalsim-ns-params -n ALF1",
+    "lalsim-sgwb --geo -t 1 -r 100 -W 1 1> /dev/null",
+    "lalsim-unicorn --help",
+    "test ${LALSIMULATION_DATADIR} == \"${PREFIX}/share/lalsimulation\"",
+    "lalsimulation_version --verbose",
+    "lalsim-bh-qnmode -l 0 -m 0 -s 0",
+    "lalsim-bh-ringdown -M 10 -a 0 -r 100 -e 0.001 -i 0 -l 2 -m 2",
+    "lalsim-bh-sphwf -a 0 -l 2 -m 2 -s 0",
+    "lalsim-burst -w SineGaussian -q 10 -f 100 -H 1e-21 1> /dev/null",
+    "lalsim-detector-noise -C -t 1 -r 10",
+    "lalsim-detector-strain --help",
+    "lalsim-inject --help",
+    "lalsim-inspiral --sample-rate 10 > /dev/null",
+    "lalsim-ns-eos-table -n ALF1 1> /dev/null",
+    "lalsim-ns-mass-radius -n ALF1 1> /dev/null",
+    "lalsim-ns-params -n ALF1",
+    "lalsim-sgwb --geo -t 1 -r 100 -W 1 1> /dev/null",
+    "lalsim-unicorn --help",
+    "test \"$(pkg-config --modversion ${PKG_NAME})\" == \"${PKG_VERSION}\"",
+    "test ${LALSIMULATION_DATADIR} == \"${PREFIX}/share/lalsimulation\"",
+    "lalsimulation_version --verbose",
+    "lalsim-bh-qnmode -l 0 -m 0 -s 0",
+    "lalsim-bh-ringdown -M 10 -a 0 -r 100 -e 0.001 -i 0 -l 2 -m 2",
+    "lalsim-bh-sphwf -a 0 -l 2 -m 2 -s 0",
+    "lalsim-burst -w SineGaussian -q 10 -f 100 -H 1e-21 1> /dev/null",
+    "lalsim-detector-noise -C -t 1 -r 10",
+    "lalsim-detector-strain --help",
+    "lalsim-inject --help",
+    "lalsim-inspiral --sample-rate 10 > /dev/null",
+    "lalsim-ns-eos-table -n ALF1 1> /dev/null",
+    "lalsim-ns-mass-radius -n ALF1 1> /dev/null",
+    "lalsim-ns-params -n ALF1",
+    "lalsim-sgwb --geo -t 1 -r 100 -W 1 1> /dev/null",
+    "lalsim-unicorn --help",
+    "test \"$(pkg-config --modversion ${PKG_NAME})\" == \"${PKG_VERSION}\""
+   ],
+   "requires":[
+    "pkg-config"
+   ]
+  }
+ },
+ "name":"lalsimulation",
+ "new_version":"1.10.1",
+ "outputs_names":[
+  "lalsimulation",
+  "python-lalsimulation"
+ ],
+ "pinning_version":"2020.01.28",
+ "raw_meta_yaml":"{% set name = \"lalsimulation\" %}\n{% set version = \"2.0.0\" %}\n{% set sha256 = \"7847dedc2a341498862fbbcece489fca04e55716250574df278305377a921d8d\" %}\n\n# dependencies\n{% set lal_version = \"6.22.0\" %}\n{% set swig_version = \"3.0.9\" %}\n\npackage:\n  name: {{ name }}\n  version: {{ version }}\n\nsource:\n  url: http://software.ligo.org/lscsoft/source/lalsuite/{{ name }}-{{ version }}.tar.xz\n  sha256: {{ sha256 }}\n\nbuild:\n  error_overdepending: true\n  error_overlinking: true\n  number: 0\n  skip: true  # [win]\n\nrequirements:\n  build:\n    - {{ compiler('c') }}\n    - help2man\n    - llvm-openmp  # [osx]\n    - make\n    - pkg-config >=0.18.0\n    - swig >={{ swig_version }}\n  host:\n    - gsl\n    - lal >={{ lal_version }}\n    - libgomp  # [linux]\n    - llvm-openmp  # [osx]\n  run:\n    - gsl\n    - lal >={{ lal_version }}\n    - llvm-openmp  # [osx]\n\ntest:\n  requires:\n    - pkg-config  # [unix]\n  commands:\n    - test ${LALSIMULATION_DATADIR} == \"${PREFIX}/share/lalsimulation\"  # [unix]\n    - lalsimulation_version --verbose\n    - lalsim-bh-qnmode -l 0 -m 0 -s 0\n    - lalsim-bh-ringdown -M 10 -a 0 -r 100 -e 0.001 -i 0 -l 2 -m 2\n    - lalsim-bh-sphwf -a 0 -l 2 -m 2 -s 0\n    - lalsim-burst -w SineGaussian -q 10 -f 100 -H 1e-21 1> /dev/null\n    - lalsim-detector-noise -C -t 1 -r 10\n    - lalsim-detector-strain --help\n    - lalsim-inject --help\n    - lalsim-inspiral --sample-rate 10 > /dev/null\n    - lalsim-ns-eos-table -n ALF1 1> /dev/null\n    - lalsim-ns-mass-radius -n ALF1 1> /dev/null\n    - lalsim-ns-params -n ALF1\n    - lalsim-sgwb --geo -t 1 -r 100 -W 1 1> /dev/null\n    - lalsim-unicorn --help\n    - test \"$(pkg-config --modversion ${PKG_NAME})\" == \"${PKG_VERSION}\"  # [unix]\n\noutputs:\n  - name: lalsimulation\n    build:\n      run_exports:\n        - {{ pin_subpackage(\"lalsimulation\", max_pin=\"x\") }}\n\n  - name: python-lalsimulation\n    script: install-python.sh\n    build:\n      error_overdepending: true\n      error_overlinking: true\n      ignore_run_exports:\n        - python\n    requirements:\n      build:\n        - {{ compiler('c') }}\n        - make\n        - pkg-config >=0.18.0\n        - swig >={{ swig_version }}\n      host:\n        - {{ pin_subpackage('lalsimulation', exact=True) }}\n        - numpy\n        - python\n      run:\n        - gsl  # [linux]\n        - lal >={{ lal_version }}\n        - {{ pin_subpackage('lalsimulation', exact=True) }}\n        - {{ pin_compatible('numpy') }}\n        - python\n        - python-lal >={{ lal_version }}\n    test:\n      imports:\n        - lalsimulation\n      requires:\n        - mock  # [py<33]\n        - pathlib  # [py<34]\n        - pytest >=4.0.0a0\n      source_files:\n        - test/python\n      commands:\n        - pushd test/python; python -m pytest -rs -v; popd\n    about:\n      home: \"https://wiki.ligo.org/Computing/LALSuite\"\n      doc_url: \"https://lscsoft.docs.ligo.org/lalsuite/lalsimulation/\"\n      dev_url: \"https://git.ligo.org/lscsoft/lalsuite/\"\n      license: \"GPL-2.0-or-later\"\n      license_family: \"GPL\"\n      license_file: \"COPYING\"\n      summary: \"LSC Algorithm Simulation Library\"\n      description: |\n        The LSC Algorithm Simulation Library for gravitational wave data\n        analysis.\n        This package contains the python bindings.\n\nabout:\n  home: \"https://wiki.ligo.org/Computing/LALSuite\"\n  doc_url: \"https://docs.ligo.org/lscsoft/lalsuite/lalsimulation/\"\n  dev_url: \"https://git.ligo.org/lscsoft/lalsuite/\"\n  license: \"GPL-2.0-or-later\"\n  license_family: \"GPL\"\n  license_file: \"COPYING\"\n  summary: \"LSC Algorithm Simulation Library\"\n  description: |\n    The LSC Algorithm Simulation Library for gravitational wave data\n    analysis.\n    This package contains the shared-object libraries needed to run\n    applications that use the LAL Simulation library. If you want to\n    install the Python bindings, please install the associated\n    python-lalsimulation package.\n\nextra:\n  recipe-maintainers:\n    - duncanmmacleod\n    - skymoo\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "c_compiler_stub",
+   "gsl",
+   "help2man",
+   "lal",
+   "lalsimulation",
+   "libgomp",
+   "llvm-openmp",
+   "make",
+   "numpy",
+   "pkg-config",
+   "python",
+   "python-lal",
+   "swig"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "help2man",
+    "llvm-openmp",
+    "make",
+    "pkg-config",
+    "swig"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "gsl",
+    "lal",
+    "lalsimulation",
+    "libgomp",
+    "llvm-openmp",
+    "numpy",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "gsl",
+    "lal",
+    "lalsimulation",
+    "llvm-openmp",
+    "numpy",
+    "python",
+    "python-lal"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "pkg-config",
+    "pytest"
+   ]
+  }
+ },
+ "smithy_version":"3.6.8",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "help2man",
+    "llvm-openmp",
+    "make",
+    "pkg-config >=0.18.0",
+    "swig >=3.0.9"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "gsl",
+    "lal >=6.22.0",
+    "lalsimulation",
+    "libgomp",
+    "llvm-openmp",
+    "numpy",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "gsl",
+    "lal >=6.22.0",
+    "lalsimulation",
+    "llvm-openmp",
+    "numpy",
+    "python",
+    "python-lal >=6.22.0"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "pkg-config",
+    "pytest >=4.0.0a0"
+   ]
+  }
+ },
+ "url":"http://software.ligo.org/lscsoft/source/lalsuite/lalsimulation-1.9.1.tar.xz",
+ "version":"2.0.0"
+}

@@ -1,0 +1,137 @@
+{
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"google-cloud-trace",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"The Stackdriver Trace API sends application trace data to Stackdriver Trace for viewing. Trace data is collected for all App Engine applications by default. Trace data from other applications can be provided using this API.\nSee the [quick start guide](https://googleapis.dev/python/cloudtrace/latest/index.html#quick-start).",
+   "dev_url":"https://github.com/googleapis/python-trace",
+   "doc_url":"https://googleapis.dev/python/cloudtrace/latest/index.html",
+   "home":"https://github.com/googleapis/python-trace",
+   "license":"Apache-2.0",
+   "license_family":"Apache",
+   "license_file":"LICENSE",
+   "summary":"Stackdriver Trace API client library"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":"-m pip install . --no-deps -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "parthea",
+    "parthea",
+    "parthea"
+   ]
+  },
+  "package":{
+   "name":"google-cloud-trace",
+   "version":"0.23.0"
+  },
+  "requirements":{
+   "host":[
+    "python",
+    "pip >=18.1",
+    "python",
+    "pip >=18.1",
+    "python",
+    "pip >=18.1"
+   ],
+   "run":[
+    "python",
+    "google-api-core-grpc >=1.14.0,<2.0.0dev",
+    "google-cloud-core >=1.0.3,<2.0.0dev",
+    "python",
+    "google-api-core-grpc >=1.14.0,<2.0.0dev",
+    "google-cloud-core >=1.0.3,<2.0.0dev",
+    "python",
+    "google-api-core-grpc >=1.14.0,<2.0.0dev",
+    "google-cloud-core >=1.0.3,<2.0.0dev"
+   ]
+  },
+  "source":{
+   "sha256":"1a3fad1ae2b780dd5e6d5ddc626db722749405b7b66f3c2e5e87a9d29a4819c8",
+   "url":"https://pypi.io/packages/source/g/google-cloud-trace/google-cloud-trace-0.23.0.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "grpc",
+    "google.cloud.client",
+    "google.cloud.trace",
+    "grpc",
+    "google.cloud.client",
+    "google.cloud.trace",
+    "grpc",
+    "google.cloud.client",
+    "google.cloud.trace"
+   ]
+  }
+ },
+ "name":"google-cloud-trace",
+ "new_version":"0.23.0",
+ "raw_meta_yaml":"{% set name = \"google-cloud-trace\" %}\n{% set version = \"0.23.0\" %}\n{% set sha256 = \"1a3fad1ae2b780dd5e6d5ddc626db722749405b7b66f3c2e5e87a9d29a4819c8\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  noarch: python\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  host:\n    - python\n    - pip >=18.1\n  run:\n    - python\n    - google-api-core-grpc >=1.14.0,<2.0.0dev\n    - google-cloud-core >=1.0.3,<2.0.0dev\n\ntest:\n  imports:\n    - grpc\n    - google.cloud.client\n    - google.cloud.trace\n\nabout:\n  home: https://github.com/googleapis/python-trace\n  license: Apache-2.0\n  license_family: Apache\n  license_file: LICENSE\n  summary: 'Stackdriver Trace API client library'\n  description: The Stackdriver Trace API sends application trace data to Stackdriver Trace for \n    viewing. Trace data is collected for all App Engine applications by default. Trace data from \n    other applications can be provided using this API.\n\n    See the [quick start guide](https://googleapis.dev/python/cloudtrace/latest/index.html#quick-start).\n\n  doc_url: https://googleapis.dev/python/cloudtrace/latest/index.html\n  dev_url: https://github.com/googleapis/python-trace\n\nextra:\n  recipe-maintainers:\n    - parthea\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "google-api-core-grpc",
+   "google-cloud-core",
+   "pip",
+   "python"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "google-api-core-grpc",
+    "google-cloud-core",
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip >=18.1",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "google-api-core-grpc >=1.14.0,<2.0.0dev",
+    "google-cloud-core >=1.0.3,<2.0.0dev",
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/g/google-cloud-trace/google-cloud-trace-0.23.0.tar.gz",
+ "version":"0.23.0"
+}

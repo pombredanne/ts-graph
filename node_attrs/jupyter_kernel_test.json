@@ -1,0 +1,143 @@
+{
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"jupyter_kernel_test",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"jupyter_kernel_test is a tool for testing Jupyter kernels. It tests\nkernels for successful code execution and conformance with the Jupyter\nMessaging Protocol (currently 5.0).\n",
+   "dev_url":"https://github.com/jupyter/jupyter_kernel_test",
+   "doc_url":"https://github.com/jupyter/jupyter_kernel_test",
+   "home":"http://github.com/jupyter/jupyter_kernel_test",
+   "license":"BSD 3-Clause",
+   "license_family":"BSD",
+   "summary":"A tool for testing Jupyter kernels"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"2",
+   "script":"flit install --deps=none"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "SylvainCorlay",
+    "JohanMabille",
+    "takluyver",
+    "SylvainCorlay",
+    "JohanMabille",
+    "takluyver",
+    "SylvainCorlay",
+    "JohanMabille",
+    "takluyver"
+   ]
+  },
+  "package":{
+   "name":"jupyter_kernel_test",
+   "version":"0.3"
+  },
+  "requirements":{
+   "build":[
+    "python >=3",
+    "flit",
+    "python >=3",
+    "flit",
+    "python >=3",
+    "flit"
+   ],
+   "run":[
+    "python >=3",
+    "jupyter_client",
+    "jsonschema",
+    "nose",
+    "python >=3",
+    "jupyter_client",
+    "jsonschema",
+    "nose",
+    "python >=3",
+    "jupyter_client",
+    "jsonschema",
+    "nose"
+   ]
+  },
+  "source":{
+   "fn":"jupyter_kernel_test-0.3.tar.gz",
+   "sha256":"7cd369ad1ce18aa6f12021fd11294f15a7e9aebf198acf4f7cbbed1d9d0cb729",
+   "url":"https://github.com/jupyter/jupyter_kernel_test/archive/0.3.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "jupyter_kernel_test",
+    "jupyter_kernel_test",
+    "jupyter_kernel_test"
+   ]
+  }
+ },
+ "name":"jupyter_kernel_test",
+ "new_version":"0.3",
+ "raw_meta_yaml":"{% set name = \"jupyter_kernel_test\" %}\n{% set version = \"0.3\" %}\n{% set sha256 = \"7cd369ad1ce18aa6f12021fd11294f15a7e9aebf198acf4f7cbbed1d9d0cb729\" %}\n{% set build = 2 %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  fn: {{ name }}-{{ version }}.tar.gz\n  url: https://github.com/jupyter/{{ name }}/archive/{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: {{ build }}\n  script: flit install --deps=none\n\nrequirements:\n  build:\n    - python >=3\n    - flit\n  run:\n    - python >=3\n    - jupyter_client\n    - jsonschema\n    - nose\n\ntest:\n  imports:\n    - jupyter_kernel_test\n\nabout:\n  home: http://github.com/jupyter/jupyter_kernel_test\n  license: BSD 3-Clause\n  license_family: BSD\n  # license_file: LICENSE    The license file is missing from the release tarball\n  summary: 'A tool for testing Jupyter kernels'\n  description: |\n      jupyter_kernel_test is a tool for testing Jupyter kernels. It tests\n      kernels for successful code execution and conformance with the Jupyter\n      Messaging Protocol (currently 5.0).\n  doc_url: https://github.com/jupyter/jupyter_kernel_test\n  dev_url: https://github.com/jupyter/jupyter_kernel_test\n\nextra:\n  recipe-maintainers:\n    - SylvainCorlay\n    - JohanMabille\n    - takluyver\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "flit",
+   "jsonschema",
+   "jupyter_client",
+   "nose",
+   "python"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "flit",
+    "python"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "jsonschema",
+    "jupyter_client",
+    "nose",
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "flit",
+    "python >=3"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "jsonschema",
+    "jupyter_client",
+    "nose",
+    "python >=3"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://github.com/jupyter/jupyter_kernel_test/archive/0.3.tar.gz",
+ "version":"0.3"
+}

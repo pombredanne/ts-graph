@@ -1,0 +1,491 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/329688252.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.12.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/332854950.json"
+   },
+   "data":{
+    "bot_rerun":1579272528.4848409,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.12.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/341182381.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.13.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/341755311.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.13.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/342268770.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.13.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/353058634.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.13.3"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/353620202.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.13.4"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/353972579.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.13.5"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/370209902.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.14.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/370239619.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.14.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/370266041.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.14.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/370317638.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.14.3"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/370652376.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.14.4"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/379655290.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.14.5"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/409429579.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.14.6"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"locust",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"Locust is an easy-to-use, distributed, user load testing tool. It is\nintended for load-testing web sites (or other systems) and figuring out how\nmany concurrent users a system can handle.\n",
+   "dev_url":"https://github.com/locustio/locust",
+   "doc_source_url":"https://github.com/locustio/locust/blob/master/docs/index.rst",
+   "doc_url":"https://docs.locust.io",
+   "home":"https://locust.io",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"LICENSE",
+   "summary":"Website load testing framework"
+  },
+  "build":{
+   "entry_points":[
+    "locust = locust.main:main",
+    "locust = locust.main:main",
+    "locust = locust.main:main"
+   ],
+   "noarch":"python",
+   "number":"0",
+   "script":"-m pip install . -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "carlodri",
+    "bollwyvl",
+    "carlodri",
+    "bollwyvl",
+    "carlodri",
+    "bollwyvl"
+   ]
+  },
+  "package":{
+   "name":"locust",
+   "version":"0.14.6"
+  },
+  "requirements":{
+   "host":[
+    "python >=3.6",
+    "pip",
+    "python >=3.6",
+    "pip",
+    "python >=3.6",
+    "pip"
+   ],
+   "run":[
+    "configargparse >=1.0",
+    "flask >=0.10.1",
+    "flask-basicauth >=0.2.0",
+    "gevent >=1.5.0",
+    "geventhttpclient",
+    "msgpack-python >=0.6.2",
+    "python >=3.6",
+    "pyzmq >=16.0.2",
+    "requests >=2.9.1",
+    "six >=1.10.0",
+    "psutil >=5.6.7",
+    "configargparse >=1.0",
+    "flask >=0.10.1",
+    "flask-basicauth >=0.2.0",
+    "gevent >=1.5.0",
+    "geventhttpclient",
+    "msgpack-python >=0.6.2",
+    "python >=3.6",
+    "pyzmq >=16.0.2",
+    "requests >=2.9.1",
+    "six >=1.10.0",
+    "psutil >=5.6.7",
+    "configargparse >=1.0",
+    "flask >=0.10.1",
+    "flask-basicauth >=0.2.0",
+    "gevent >=1.5.0",
+    "geventhttpclient",
+    "msgpack-python >=0.6.2",
+    "python >=3.6",
+    "pyzmq >=16.0.2",
+    "requests >=2.9.1",
+    "six >=1.10.0",
+    "psutil >=5.6.7"
+   ]
+  },
+  "source":{
+   "sha256":"09bf9a2578f58a19aa6ac7a4dd17add9121068b11557f096b26c3b40d3c5d38a",
+   "url":"https://pypi.io/packages/source/l/locustio/locustio-0.14.6.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "locust --version",
+    "locust --help",
+    "pytest --pyargs locust --cov locust -k \"not from_relative_path and not no_content_length_streaming\"",
+    "locust --version",
+    "locust --help",
+    "pytest --pyargs locust --cov locust -k \"not from_relative_path and not no_content_length_streaming\"",
+    "locust --version",
+    "locust --help",
+    "pytest --pyargs locust --cov locust -k \"not from_relative_path and not no_content_length_streaming\""
+   ],
+   "imports":[
+    "locust",
+    "locust",
+    "locust"
+   ],
+   "requires":[
+    "mock",
+    "coverage",
+    "pytest",
+    "pytest-cov",
+    "pyquery",
+    "mock",
+    "coverage",
+    "pytest",
+    "pytest-cov",
+    "pyquery",
+    "mock",
+    "coverage",
+    "pytest",
+    "pytest-cov",
+    "pyquery"
+   ]
+  }
+ },
+ "name":"locust",
+ "new_version":"0.14.6",
+ "new_version_attempts":{
+  "0.14.6":1
+ },
+ "new_version_errors":{},
+ "pinning_version":"2020.04.26.19.17.14",
+ "raw_meta_yaml":"{% set name = \"locustio\" %}\n{% set version = \"0.14.6\" %}\n\npackage:\n  name: locust\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: 09bf9a2578f58a19aa6ac7a4dd17add9121068b11557f096b26c3b40d3c5d38a\n\nbuild:\n  noarch: python\n  number: 0\n  script: {{ PYTHON }} -m pip install . -vv\n  entry_points:\n    - locust = locust.main:main\n\nrequirements:\n  host:\n    - python >=3.6\n    - pip\n  run:\n    - configargparse >=1.0\n    - flask >=0.10.1\n    - flask-basicauth >=0.2.0\n    - gevent >=1.5.0\n    - geventhttpclient\n    - msgpack-python >=0.6.2\n    - python >=3.6\n    - pyzmq >=16.0.2\n    - requests >=2.9.1\n    - six >=1.10.0\n    - psutil >=5.6.7\n\ntest:\n  requires:\n    - mock\n    - coverage\n    - pytest\n    - pytest-cov\n    - pyquery\n  imports:\n    - locust\n  commands:\n    - locust --version\n    - locust --help\n    - pytest --pyargs locust --cov locust -k \"not from_relative_path and not no_content_length_streaming\"\n\nabout:\n  home: https://locust.io\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE\n  summary: Website load testing framework\n  description: |\n    Locust is an easy-to-use, distributed, user load testing tool. It is\n    intended for load-testing web sites (or other systems) and figuring out how\n    many concurrent users a system can handle.\n  doc_url: https://docs.locust.io\n  dev_url: https://github.com/locustio/locust\n  doc_source_url: https://github.com/locustio/locust/blob/master/docs/index.rst\n\nextra:\n  recipe-maintainers:\n    - carlodri\n    - bollwyvl\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "configargparse",
+   "flask",
+   "flask-basicauth",
+   "gevent",
+   "geventhttpclient",
+   "msgpack-python",
+   "pip",
+   "psutil",
+   "python",
+   "pyzmq",
+   "requests",
+   "six"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "configargparse",
+    "flask",
+    "flask-basicauth",
+    "gevent",
+    "geventhttpclient",
+    "msgpack-python",
+    "psutil",
+    "python",
+    "pyzmq",
+    "requests",
+    "six"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "coverage",
+    "mock",
+    "pyquery",
+    "pytest",
+    "pytest-cov"
+   ]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.6.17",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3.6"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "configargparse >=1.0",
+    "flask >=0.10.1",
+    "flask-basicauth >=0.2.0",
+    "gevent >=1.5.0",
+    "geventhttpclient",
+    "msgpack-python >=0.6.2",
+    "psutil >=5.6.7",
+    "python >=3.6",
+    "pyzmq >=16.0.2",
+    "requests >=2.9.1",
+    "six >=1.10.0"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "coverage",
+    "mock",
+    "pyquery",
+    "pytest",
+    "pytest-cov"
+   ]
+  }
+ },
+ "url":"https://pypi.io/packages/source/l/locustio/locustio-0.11.0.tar.gz",
+ "version":"0.14.6"
+}

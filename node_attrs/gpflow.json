@@ -1,0 +1,295 @@
+{
+ "PRed":[
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.4.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.4.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.5.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/336081250.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.5.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/339442696.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"python38"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/396381413.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.0.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/403729416.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.0.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/414766305.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.0.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"gpflow",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"https://github.com/GPflow/GPflow/",
+   "license":"Apache 2.0",
+   "license_family":"Apache",
+   "license_file":"LICENSE",
+   "summary":"Gaussian process methods in tensorflow"
+  },
+  "build":{
+   "number":"0",
+   "script":"python -m pip install --no-deps --ignore-installed ."
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "cxhernandez",
+    "jschueller",
+    "cxhernandez",
+    "jschueller",
+    "cxhernandez",
+    "jschueller"
+   ]
+  },
+  "package":{
+   "name":"gpflow",
+   "version":"1.3.0"
+  },
+  "requirements":{
+   "host":[
+    "python",
+    "pip",
+    "python",
+    "pip",
+    "python",
+    "pip"
+   ],
+   "run":[
+    "python",
+    "numpy >=1.10.0",
+    "scipy >=0.18.0",
+    "pandas >=0.18.1",
+    "tensorflow",
+    "multipledispatch >=0.4.9",
+    "pytest >=3.5.0",
+    "h5py >=2.7.0",
+    "python",
+    "numpy >=1.10.0",
+    "scipy >=0.18.0",
+    "pandas >=0.18.1",
+    "tensorflow",
+    "multipledispatch >=0.4.9",
+    "pytest >=3.5.0",
+    "h5py >=2.7.0",
+    "python",
+    "numpy >=1.10.0",
+    "scipy >=0.18.0",
+    "pandas >=0.18.1",
+    "tensorflow",
+    "multipledispatch >=0.4.9",
+    "pytest >=3.5.0",
+    "h5py >=2.7.0"
+   ]
+  },
+  "source":{
+   "fn":"GPflow-1.3.0.tar.gz",
+   "sha256":"c3603a93de848107cbc8ef1b8e768a6ea181da37eda5ffc0f69079dbd1021ed9",
+   "url":"https://github.com/GPflow/GPflow/archive/v1.3.0.tar.gz"
+  },
+  "test":{
+   "imports":null
+  }
+ },
+ "name":"gpflow",
+ "new_version":"2.0.3",
+ "new_version_attempts":{
+  "2.0.1":1,
+  "2.0.2":1
+ },
+ "new_version_errors":{},
+ "pinning_version":"2020.05.06.22.15.02",
+ "raw_meta_yaml":"{% set version = \"1.3.0\" %}\n\npackage:\n  name: gpflow\n  version: {{ version }}\n\nsource:\n  fn: GPflow-{{ version }}.tar.gz\n  url: https://github.com/GPflow/GPflow/archive/v{{ version }}.tar.gz\n  sha256: c3603a93de848107cbc8ef1b8e768a6ea181da37eda5ffc0f69079dbd1021ed9\n\nbuild:\n  number: 0\n  script: python -m pip install --no-deps --ignore-installed .\n  skip: true  # [py2k]\n\nrequirements:\n  host:\n    - python\n    - pip\n  run:\n    - python\n    - numpy >=1.10.0\n    - scipy >=0.18.0\n    - pandas >=0.18.1\n    - tensorflow\n    - multipledispatch >=0.4.9\n    - pytest >=3.5.0\n    - h5py >=2.7.0\n\ntest:\n  imports:\n    # Skip the import test, see tensorflow recipe\n    - gpflow  # [not unix]\n\nabout:\n  home: https://github.com/GPflow/GPflow/\n  license: Apache 2.0\n  license_family: Apache\n  license_file: LICENSE\n  summary: Gaussian process methods in tensorflow\n\nextra:\n  recipe-maintainers:\n    - cxhernandez\n    - jschueller\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "h5py",
+   "multipledispatch",
+   "numpy",
+   "pandas",
+   "pip",
+   "pytest",
+   "python",
+   "scipy",
+   "tensorflow"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "h5py",
+    "multipledispatch",
+    "numpy",
+    "pandas",
+    "pytest",
+    "python",
+    "scipy",
+    "tensorflow"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.7.0\n",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "h5py >=2.7.0",
+    "multipledispatch >=0.4.9",
+    "numpy >=1.10.0",
+    "pandas >=0.18.1",
+    "pytest >=3.5.0",
+    "python",
+    "scipy >=0.18.0",
+    "tensorflow"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://github.com/GPflow/GPflow/archive/v1.3.0.tar.gz",
+ "version":"1.3.0"
+}

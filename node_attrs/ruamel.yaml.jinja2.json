@@ -1,0 +1,153 @@
+{
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"ruamel.yaml.jinja2",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"jinja2 templates for YAML files can normally not be loaded as YAML before\nrendering. This plugin allows pre and post-processing based on the\nround-trip processor.\n",
+   "home":"https://sourceforge.net/projects/ruamel-yaml-jinja2/",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"LICENSE",
+   "summary":"jinja2 pre and post-processor to update YAML"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"1",
+   "script":[
+    "-m pip install . -vv",
+    "/rm_broken_file.py",
+    "-m pip install . -vv",
+    "/rm_broken_file.py",
+    "-m pip install . -vv",
+    "/rm_broken_file.py"
+   ]
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "marcelotrevisani",
+    "marcelotrevisani",
+    "marcelotrevisani"
+   ]
+  },
+  "package":{
+   "name":"ruamel.yaml.jinja2",
+   "version":"0.2.4"
+  },
+  "requirements":{
+   "host":[
+    "python",
+    "pip",
+    "setuptools",
+    "python",
+    "pip",
+    "setuptools",
+    "python",
+    "pip",
+    "setuptools"
+   ],
+   "run":[
+    "python",
+    "ruamel.yaml >=0.15.10",
+    "python",
+    "ruamel.yaml >=0.15.10",
+    "python",
+    "ruamel.yaml >=0.15.10"
+   ]
+  },
+  "source":{
+   "sha256":"c8e1d4e6d638c519a548be754639cbfb06560f9f0a95922435bdb4cf64816801",
+   "url":"https://pypi.io/packages/source/r/ruamel.yaml.jinja2/ruamel.yaml.jinja2-0.2.4.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "python -m pip check",
+    "python -c \"from ruamel.yaml import YAML; YAML(typ='jinja2')\"",
+    "python -m pip check",
+    "python -c \"from ruamel.yaml import YAML; YAML(typ='jinja2')\"",
+    "python -m pip check",
+    "python -c \"from ruamel.yaml import YAML; YAML(typ='jinja2')\""
+   ],
+   "imports":[
+    "ruamel.yaml.jinja2",
+    "ruamel.yaml.jinja2",
+    "ruamel.yaml.jinja2"
+   ],
+   "requires":[
+    "pip",
+    "pip",
+    "pip"
+   ]
+  }
+ },
+ "name":"ruamel.yaml.jinja2",
+ "new_version":"0.2.4",
+ "raw_meta_yaml":"{% set name = \"ruamel.yaml.jinja2\" %}\n{% set version = \"0.2.4\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: c8e1d4e6d638c519a548be754639cbfb06560f9f0a95922435bdb4cf64816801\n\nbuild:\n  number: 1\n  script: \n    - {{ PYTHON }} -m pip install . -vv\n    - {{ PYTHON }} {{ RECIPE_DIR }}/rm_broken_file.py\n  noarch: python\n\nrequirements:\n  host:\n    - python\n    - pip\n    - setuptools\n  run:\n    - python\n    - ruamel.yaml >=0.15.10\n\ntest:\n  requires:\n    - pip\n  commands:\n    - python -m pip check\n    - python -c \"from ruamel.yaml import YAML; YAML(typ='jinja2')\"\n  imports:\n    - ruamel.yaml.jinja2\n\nabout:\n  home: https://sourceforge.net/projects/ruamel-yaml-jinja2/\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE\n  summary: jinja2 pre and post-processor to update YAML\n  description: |\n    jinja2 templates for YAML files can normally not be loaded as YAML before\n    rendering. This plugin allows pre and post-processing based on the\n    round-trip processor.\n\nextra:\n  recipe-maintainers:\n    - marcelotrevisani\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "pip",
+   "python",
+   "ruamel.yaml",
+   "setuptools"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python",
+    "setuptools"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "python",
+    "ruamel.yaml"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "pip"
+   ]
+  }
+ },
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python",
+    "setuptools"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "python",
+    "ruamel.yaml >=0.15.10"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "pip"
+   ]
+  }
+ },
+ "url":"https://pypi.io/packages/source/r/ruamel.yaml.jinja2/ruamel.yaml.jinja2-0.2.4.tar.gz",
+ "version":"0.2.4"
+}

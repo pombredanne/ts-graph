@@ -1,0 +1,115 @@
+{
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"sshpass",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"sshpass is a tool for non-interactivly performing password authentication\nwith SSH's so called \"interactive keyboard password authentication\".\n",
+   "home":"https://sourceforge.net/projects/sshpass/",
+   "license":"GPL-2.0-or-later",
+   "license_file":"COPYING",
+   "summary":"Non-interactive ssh password auth"
+  },
+  "build":{
+   "number":"0",
+   "skip":true
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "asafkahlon",
+    "asafkahlon",
+    "asafkahlon"
+   ]
+  },
+  "package":{
+   "name":"sshpass",
+   "version":"1.06"
+  },
+  "requirements":{
+   "build":[
+    "c_compiler_stub",
+    "make",
+    "pkgconfig",
+    "c_compiler_stub",
+    "make",
+    "pkgconfig",
+    "c_compiler_stub",
+    "make",
+    "pkgconfig"
+   ]
+  },
+  "source":{
+   "sha256":"c6324fcee608b99a58f9870157dfa754837f8c48be3df0f5e2f3accf145dee60",
+   "url":"http://downloads.sourceforge.net/project/sshpass/sshpass/1.06/sshpass-1.06.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "test -x ${PREFIX}/bin/sshpass",
+    "sshpass -h",
+    "test -x ${PREFIX}/bin/sshpass",
+    "sshpass -h",
+    "test -x ${PREFIX}/bin/sshpass",
+    "sshpass -h"
+   ]
+  }
+ },
+ "name":"sshpass",
+ "new_version":false,
+ "raw_meta_yaml":"{% set name = \"sshpass\" %}\n{% set version = \"1.06\" %}\n\npackage:\n  name: {{ name }}\n  version: {{ version }}\n\nsource:\n  url: http://downloads.sourceforge.net/project/{{ name }}/{{ name }}/{{ version }}/{{ name }}-{{ version }}.tar.gz\n  sha256: c6324fcee608b99a58f9870157dfa754837f8c48be3df0f5e2f3accf145dee60\n\nbuild:\n  number: 0\n  skip: True  # [win]\n\nrequirements:\n  build:\n    - {{ compiler('c') }}\n    - make\n    - pkgconfig\n\ntest:\n  commands:\n    - test -x ${PREFIX}/bin/sshpass\n    - sshpass -h\n\nabout:\n  home: https://sourceforge.net/projects/sshpass/\n  license: GPL-2.0-or-later\n  license_file: COPYING\n  summary: 'Non-interactive ssh password auth'\n  description: |\n    sshpass is a tool for non-interactivly performing password authentication\n    with SSH's so called \"interactive keyboard password authentication\".\n\nextra:\n  recipe-maintainers:\n    - asafkahlon\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "c_compiler_stub",
+   "make",
+   "pkgconfig"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "make",
+    "pkgconfig"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "make",
+    "pkgconfig"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"http://downloads.sourceforge.net/project/sshpass/sshpass/1.06/sshpass-1.06.tar.gz",
+ "version":"1.06"
+}

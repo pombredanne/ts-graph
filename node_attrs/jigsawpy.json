@@ -1,0 +1,191 @@
+{
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"jigsawpy",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"JIGSAW is a stand-alone mesh generator written in c++, based on the\ngeneral-purpose meshing package JIGSAW. This toolbox provides a Python\nbased scripting interface, including file I/O, mesh visualisation and\npost-processing facilities. The underlying JIGSAW library is a collection\nof unstructured triangle- and tetrahedron-based meshing algorithms,\ndesigned to produce high quality Delaunay-based grids for computational\nsimulation. JIGSAW includes both Delaunay-refinement based algorithms for\nthe construction of new meshes, as well as optimisation driven methods for\nthe improvement of existing grids.\n",
+   "dev_url":"https://github.com/dengwirda/jigsaw-python",
+   "doc_url":"https://github.com/dengwirda/jigsaw-python",
+   "home":"https://github.com/dengwirda/jigsaw-python",
+   "license":"custom",
+   "license_file":"LICENSE.md",
+   "summary":"jigsawpy is the python interface to JIGSAW, which is a Delaunay-based\nunstructured mesh generator for two- and three-dimensional geometries.\n"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "xylar",
+    "dengwirda",
+    "xylar",
+    "dengwirda",
+    "xylar",
+    "dengwirda"
+   ]
+  },
+  "package":{
+   "name":"jigsawpy",
+   "version":"0.2.1"
+  },
+  "requirements":{
+   "host":[
+    "python >=3.6",
+    "pip",
+    "python >=3.6",
+    "pip",
+    "python >=3.6",
+    "pip"
+   ],
+   "run":[
+    "python >=3.6",
+    "jigsaw >=0.9.12",
+    "numpy",
+    "pathlib",
+    "python >=3.6",
+    "jigsaw >=0.9.12",
+    "numpy",
+    "pathlib",
+    "python >=3.6",
+    "jigsaw >=0.9.12",
+    "numpy",
+    "pathlib"
+   ]
+  },
+  "source":{
+   "patches":[
+    "0001-add-find-library.patch",
+    "0001-add-find-library.patch",
+    "0001-add-find-library.patch"
+   ],
+   "sha256":"36901576cee361d8ee0d2977e9022626b37801f47aebd234f8a008c74557e711",
+   "url":"https://github.com/dengwirda/jigsaw-python/archive/v0.2.1.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "python example.py --IDnumber 0",
+    "python example.py --IDnumber 1",
+    "python example.py --IDnumber 2",
+    "python example.py --IDnumber 3",
+    "python example.py --IDnumber 4",
+    "python example.py --IDnumber 5",
+    "python example.py --IDnumber 6",
+    "python example.py --IDnumber 7",
+    "python example.py --IDnumber 8",
+    "python example.py --IDnumber 0",
+    "python example.py --IDnumber 1",
+    "python example.py --IDnumber 2",
+    "python example.py --IDnumber 3",
+    "python example.py --IDnumber 4",
+    "python example.py --IDnumber 5",
+    "python example.py --IDnumber 6",
+    "python example.py --IDnumber 7",
+    "python example.py --IDnumber 8",
+    "python example.py --IDnumber 0",
+    "python example.py --IDnumber 1",
+    "python example.py --IDnumber 2",
+    "python example.py --IDnumber 3",
+    "python example.py --IDnumber 4",
+    "python example.py --IDnumber 5",
+    "python example.py --IDnumber 6",
+    "python example.py --IDnumber 7",
+    "python example.py --IDnumber 8"
+   ],
+   "requires":[
+    "matplotlib-base",
+    "matplotlib-base",
+    "matplotlib-base"
+   ],
+   "source_files":[
+    "files/*.msh",
+    "tests/*.py",
+    "example.py",
+    "cache/.keep",
+    "files/*.msh",
+    "tests/*.py",
+    "example.py",
+    "cache/.keep",
+    "files/*.msh",
+    "tests/*.py",
+    "example.py",
+    "cache/.keep"
+   ]
+  }
+ },
+ "name":"jigsawpy",
+ "new_version":"0.2.1",
+ "raw_meta_yaml":"{% set name = \"jigsawpy\" %}\n{% set version = \"0.2.1\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://github.com/dengwirda/jigsaw-python/archive/v{{ version }}.tar.gz\n  sha256: 36901576cee361d8ee0d2977e9022626b37801f47aebd234f8a008c74557e711\n  patches:\n    - 0001-add-find-library.patch\n\nbuild:\n  noarch: python\n  number: 0\n  script: \"{{ PYTHON }} -m pip install . -vv\"\n\nrequirements:\n  host:\n    - python >=3.6\n    - pip\n  run:\n    - python >=3.6\n    - jigsaw >=0.9.12\n    - numpy\n    - pathlib\n\ntest:\n  requires:\n    - matplotlib-base\n  source_files:\n    - files/*.msh\n    - tests/*.py\n    - example.py\n    - cache/.keep\n  commands:\n    - python example.py --IDnumber 0\n    - python example.py --IDnumber 1\n    - python example.py --IDnumber 2\n    - python example.py --IDnumber 3\n    - python example.py --IDnumber 4\n    - python example.py --IDnumber 5\n    - python example.py --IDnumber 6\n    - python example.py --IDnumber 7\n    - python example.py --IDnumber 8\n\nabout:\n  home: https://github.com/dengwirda/jigsaw-python\n  license: custom\n  license_file: LICENSE.md\n  summary: |\n    jigsawpy is the python interface to JIGSAW, which is a Delaunay-based\n    unstructured mesh generator for two- and three-dimensional geometries.\n  description: |\n    JIGSAW is a stand-alone mesh generator written in c++, based on the\n    general-purpose meshing package JIGSAW. This toolbox provides a Python\n    based scripting interface, including file I/O, mesh visualisation and\n    post-processing facilities. The underlying JIGSAW library is a collection\n    of unstructured triangle- and tetrahedron-based meshing algorithms,\n    designed to produce high quality Delaunay-based grids for computational\n    simulation. JIGSAW includes both Delaunay-refinement based algorithms for\n    the construction of new meshes, as well as optimisation driven methods for\n    the improvement of existing grids.\n  doc_url: https://github.com/dengwirda/jigsaw-python\n  dev_url: https://github.com/dengwirda/jigsaw-python\n\nextra:\n  recipe-maintainers:\n    - xylar\n    - dengwirda\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "jigsaw",
+   "numpy",
+   "pathlib",
+   "pip",
+   "python"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "jigsaw",
+    "numpy",
+    "pathlib",
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "matplotlib-base"
+   ]
+  }
+ },
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3.6"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "jigsaw >=0.9.12",
+    "numpy",
+    "pathlib",
+    "python >=3.6"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "matplotlib-base"
+   ]
+  }
+ },
+ "url":"https://github.com/dengwirda/jigsaw-python/archive/v0.2.1.tar.gz",
+ "version":"0.2.1"
+}

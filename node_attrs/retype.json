@@ -1,0 +1,204 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/227066644.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/317280587.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"19.9.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "compiler_stack":"comp7",
+  "max_py_ver":"37",
+  "max_r_ver":"35"
+ },
+ "feedstock_name":"retype",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"When you run retype, it goes through all files you passed as SRC, finds the\ncorresponding .pyi files in the types/ directory, and re-applies typing\nannotations from .pyi to the sources, using the Python 3 function and\nvariable annotation syntax. The resulting combined sources are saved in\ntyped-src/.\n\nYou can also pass directories as sources, in which case retype will look\nfor .py files in them recursively.\n",
+   "home":"https://github.com/ambv/retype",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"LICENSE",
+   "summary":"Re-apply type annotations from .pyi stubs to your codebase."
+  },
+  "build":{
+   "entry_points":[
+    "retype=retype.__main__:main",
+    "retype=retype.__main__:main",
+    "retype=retype.__main__:main"
+   ],
+   "noarch":"python",
+   "number":"0",
+   "script":"python -m pip install --no-deps --ignore-installed ."
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "bollwyvl",
+    "nehaljwani",
+    "bollwyvl",
+    "nehaljwani",
+    "bollwyvl",
+    "nehaljwani"
+   ]
+  },
+  "package":{
+   "name":"retype",
+   "version":"19.9.0"
+  },
+  "requirements":{
+   "host":[
+    "pip",
+    "python >=3.6",
+    "pip",
+    "python >=3.6",
+    "pip",
+    "python >=3.6"
+   ],
+   "run":[
+    "click",
+    "pathspec >=0.5.9,<1",
+    "python >=3.6",
+    "typed-ast",
+    "click",
+    "pathspec >=0.5.9,<1",
+    "python >=3.6",
+    "typed-ast",
+    "click",
+    "pathspec >=0.5.9,<1",
+    "python >=3.6",
+    "typed-ast"
+   ]
+  },
+  "source":{
+   "sha256":"846fd135d3ee33c1bad387602a405d808cb99a9a7a47299bfd0e1d25dfb2fedd",
+   "url":"https://pypi.io/packages/source/r/retype/retype-19.9.0.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "retype --version",
+    "retype --help",
+    "cd tests",
+    "python test_retype.py",
+    "retype --version",
+    "retype --help",
+    "cd tests",
+    "python test_retype.py",
+    "retype --version",
+    "retype --help",
+    "cd tests",
+    "python test_retype.py"
+   ],
+   "imports":[
+    "retype",
+    "retype",
+    "retype"
+   ],
+   "source_files":[
+    "tests",
+    "tests",
+    "tests"
+   ]
+  }
+ },
+ "name":"retype",
+ "new_version":"19.9.0",
+ "pinning_version":"2019.09.08",
+ "raw_meta_yaml":"{% set name = \"retype\" %}\n{% set version = \"19.9.0\" %}\n\npackage:\n  name: {{ name }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: 846fd135d3ee33c1bad387602a405d808cb99a9a7a47299bfd0e1d25dfb2fedd\n\nbuild:\n  number: 0\n  noarch: python\n  entry_points:\n    - retype=retype.__main__:main\n  script: python -m pip install --no-deps --ignore-installed .\n\nrequirements:\n  host:\n    - pip\n    - python >=3.6\n  run:\n    - click\n    - pathspec >=0.5.9,<1\n    - python >=3.6\n    - typed-ast\n\ntest:\n  source_files:\n    - tests\n  imports:\n    - retype\n  commands:\n    - retype --version\n    - retype --help\n    - cd tests\n    - python test_retype.py\n\nabout:\n  home: https://github.com/ambv/retype\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE\n  summary: Re-apply type annotations from .pyi stubs to your codebase.\n\n  description: |\n    When you run retype, it goes through all files you passed as SRC, finds the\n    corresponding .pyi files in the types/ directory, and re-applies typing\n    annotations from .pyi to the sources, using the Python 3 function and\n    variable annotation syntax. The resulting combined sources are saved in\n    typed-src/.\n\n    You can also pass directories as sources, in which case retype will look\n    for .py files in them recursively.\n\nextra:\n  recipe-maintainers:\n    - bollwyvl\n    - nehaljwani\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "click",
+   "pathspec",
+   "pip",
+   "python",
+   "typed-ast"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "click",
+    "pathspec",
+    "python",
+    "typed-ast"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.4.6",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3.6"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "click",
+    "pathspec >=0.5.9,<1",
+    "python >=3.6",
+    "typed-ast"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/r/retype/retype-17.12.0.tar.gz",
+ "version":"19.9.0"
+}

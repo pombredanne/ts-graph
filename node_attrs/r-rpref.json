@@ -1,0 +1,281 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/300803215.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"RBaseRebuild",
+    "migrator_version":0,
+    "name":"r-base-3.6.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/413320895.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":2,
+    "migrator_version":0,
+    "name":"r400"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "bot":{
+   "automerge":true
+  },
+  "provider":{
+   "win":"azure"
+  }
+ },
+ "feedstock_name":"r-rpref",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"https://www.p-roocks.de/rpref",
+   "license":"GPL (>= 2)",
+   "license_family":"GPL3",
+   "license_file":"/lib/R/share/licenses/GPL-2",
+   "summary":"Routines to select and visualize the maxima for a given strict partial order. This especially includes the computation of the Pareto frontier, also known as (Top-k) Skyline operator (see B\u00f6rzs\u00f6nyi, et al.  (2001) <doi:10.1109/ICDE.2001.914855>), and some generalizations  known as database preferences (see Kie\u00dfling (2002)  <doi:10.1016/B978-155860869-6/50035-4>)."
+  },
+  "build":{
+   "merge_build_host":true,
+   "number":"2",
+   "rpaths":[
+    "lib/R/lib/",
+    "lib/",
+    "lib/R/lib/",
+    "lib/",
+    "lib/R/lib/",
+    "lib/"
+   ]
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "conda-forge/r",
+    "conda-forge/r",
+    "conda-forge/r"
+   ]
+  },
+  "package":{
+   "name":"r-rpref",
+   "version":"1.3"
+  },
+  "requirements":{
+   "build":[
+    "m2w64_c_compiler_stub",
+    "m2w64_cxx_compiler_stub",
+    "filesystem",
+    "make",
+    "sed",
+    "coreutils",
+    "zip",
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "make",
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "make"
+   ],
+   "host":[
+    "r-base",
+    "r-rcpp >=1.0.0",
+    "r-rcppparallel >=4.3.6",
+    "r-dplyr >=0.8.0",
+    "r-igraph >=1.0.1",
+    "r-lazyeval >=0.2.1",
+    "r-base",
+    "r-rcpp >=1.0.0",
+    "r-rcppparallel >=4.3.6",
+    "r-dplyr >=0.8.0",
+    "r-igraph >=1.0.1",
+    "r-lazyeval >=0.2.1",
+    "r-base",
+    "r-rcpp >=1.0.0",
+    "r-rcppparallel >=4.3.6",
+    "r-dplyr >=0.8.0",
+    "r-igraph >=1.0.1",
+    "r-lazyeval >=0.2.1"
+   ],
+   "run":[
+    "r-base",
+    "gcc-libs",
+    "r-rcpp >=1.0.0",
+    "r-rcppparallel >=4.3.6",
+    "r-dplyr >=0.8.0",
+    "r-igraph >=1.0.1",
+    "r-lazyeval >=0.2.1",
+    "r-base",
+    "r-rcpp >=1.0.0",
+    "r-rcppparallel >=4.3.6",
+    "r-dplyr >=0.8.0",
+    "r-igraph >=1.0.1",
+    "r-lazyeval >=0.2.1",
+    "r-base",
+    "r-rcpp >=1.0.0",
+    "r-rcppparallel >=4.3.6",
+    "r-dplyr >=0.8.0",
+    "r-igraph >=1.0.1",
+    "r-lazyeval >=0.2.1"
+   ]
+  },
+  "source":{
+   "sha256":"de285d93cd979fcbec5f372303de64d06c8e8611dc495d02e0cf74e160879f6e",
+   "url":[
+    "https://cran.r-project.org/src/contrib/rPref_1.3.tar.gz",
+    "https://cran.r-project.org/src/contrib/Archive/rPref/rPref_1.3.tar.gz",
+    "https://cran.r-project.org/src/contrib/rPref_1.3.tar.gz",
+    "https://cran.r-project.org/src/contrib/Archive/rPref/rPref_1.3.tar.gz",
+    "https://cran.r-project.org/src/contrib/rPref_1.3.tar.gz",
+    "https://cran.r-project.org/src/contrib/Archive/rPref/rPref_1.3.tar.gz"
+   ]
+  },
+  "test":{
+   "commands":[
+    "\"%R%\" -e \"library('rPref')\"",
+    "$R -e \"library('rPref')\"",
+    "$R -e \"library('rPref')\""
+   ]
+  }
+ },
+ "name":"r-rpref",
+ "new_version":"1.3",
+ "pinning_version":"2020.05.04.19.59.17",
+ "raw_meta_yaml":"{% set version = '1.3' %}\n{% set posix = 'm2-' if win else '' %}\n{% set native = 'm2w64-' if win else '' %}\n\npackage:\n  name: r-rpref\n  version: {{ version|replace(\"-\", \"_\") }}\n\nsource:\n  url:\n    - {{ cran_mirror }}/src/contrib/rPref_{{ version }}.tar.gz\n    - {{ cran_mirror }}/src/contrib/Archive/rPref/rPref_{{ version }}.tar.gz\n  sha256: de285d93cd979fcbec5f372303de64d06c8e8611dc495d02e0cf74e160879f6e\n\nbuild:\n  merge_build_host: True  # [win]\n  number: 2\n  rpaths:\n    - lib/R/lib/\n    - lib/\n\nrequirements:\n  build:\n    - {{ compiler('c') }}              # [not win]\n    - {{ compiler('m2w64_c') }}        # [win]\n    - {{ compiler('cxx') }}            # [not win]\n    - {{ compiler('m2w64_cxx') }}      # [win]\n    - {{ posix }}filesystem        # [win]\n    - {{ posix }}make\n    - {{ posix }}sed               # [win]\n    - {{ posix }}coreutils         # [win]\n    - {{ posix }}zip               # [win]\n  host:\n    - r-base\n    - r-rcpp >=1.0.0\n    - r-rcppparallel >=4.3.6\n    - r-dplyr >=0.8.0\n    - r-igraph >=1.0.1\n    - r-lazyeval >=0.2.1\n  run:\n    - r-base\n    - {{ native }}gcc-libs         # [win]\n    - r-rcpp >=1.0.0\n    - r-rcppparallel >=4.3.6\n    - r-dplyr >=0.8.0\n    - r-igraph >=1.0.1\n    - r-lazyeval >=0.2.1\n\ntest:\n  commands:\n    - $R -e \"library('rPref')\"           # [not win]\n    - \"\\\"%R%\\\" -e \\\"library('rPref')\\\"\"  # [win]\n\nabout:\n  home: https://www.p-roocks.de/rpref\n  license: GPL (>= 2)\n  summary: \"Routines to select and visualize the maxima for a given strict partial order. This\n    especially includes the computation of the Pareto frontier, also known as (Top-k)\n    Skyline operator (see B\\xF6rzs\\xF6nyi, et al.  (2001) <doi:10.1109/ICDE.2001.914855>),\n    and some generalizations  known as database preferences (see Kie\\xDFling (2002)\n    \\ <doi:10.1016/B978-155860869-6/50035-4>).\"\n  license_family: GPL3\n  license_file: '{{ environ[\"PREFIX\"] }}/lib/R/share/licenses/GPL-2'\n\nextra:\n  recipe-maintainers:\n    - conda-forge/r\n\n# Package: rPref\n# Version: 1.3\n# Date: 2019-02-15\n# Title: Database Preferences and Skyline Computation\n# Author: Patrick Roocks <mail@p-roocks.de>\n# Maintainer: Patrick Roocks <mail@p-roocks.de>\n# Description: Routines to select and visualize the maxima for a given strict partial order. This especially includes the computation of the Pareto frontier, also known as (Top-k) Skyline operator (see Borzsonyi, et al.  (2001) <doi:10.1109/ICDE.2001.914855>), and some generalizations  known as database preferences (see Kieling (2002)  <doi:10.1016/B978-155860869-6/50035-4>).\n# URL: https://www.p-roocks.de/rpref\n# Depends: R (>= 3.1.2)\n# Imports: Rcpp (>= 1.0.0), RcppParallel (>= 4.3.6), dplyr (>= 0.8.0), igraph (>= 1.0.1), lazyeval (>= 0.2.1), methods, utils\n# SystemRequirements: C++11, GNU make, Windows: cmd.exe and cscript.exe\n# License: GPL (>= 2)\n# LazyData: true\n# LinkingTo: Rcpp, RcppParallel\n# Suggests: testthat, graph, Rgraphviz (>= 2.16.0), knitr, ggplot2, rmarkdown\n# Collate: 'rPref.r' 'RcppExports.R' 'pref-classes.r' 'base-pref.r' 'base-pref-macros.r' 'complex-pref.r' 'general-pref.r' 'pref-eval.r' 'show-pref.r' 'visualize.r' 'pred-succ.r'\n# VignetteBuilder: knitr\n# RoxygenNote: 6.1.1\n# Encoding: UTF-8\n# NeedsCompilation: yes\n# Packaged: 2019-02-15 23:35:04 UTC; patrick\n# Repository: CRAN\n# Date/Publication: 2019-02-16 10:00:03 UTC\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "c_compiler_stub",
+   "coreutils",
+   "cxx_compiler_stub",
+   "filesystem",
+   "gcc-libs",
+   "m2w64_c_compiler_stub",
+   "m2w64_cxx_compiler_stub",
+   "make",
+   "r-base",
+   "r-dplyr",
+   "r-igraph",
+   "r-lazyeval",
+   "r-rcpp",
+   "r-rcppparallel",
+   "sed",
+   "zip"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "coreutils",
+    "cxx_compiler_stub",
+    "filesystem",
+    "m2w64_c_compiler_stub",
+    "m2w64_cxx_compiler_stub",
+    "make",
+    "sed",
+    "zip"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "r-base",
+    "r-dplyr",
+    "r-igraph",
+    "r-lazyeval",
+    "r-rcpp",
+    "r-rcppparallel"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "gcc-libs",
+    "r-base",
+    "r-dplyr",
+    "r-igraph",
+    "r-lazyeval",
+    "r-rcpp",
+    "r-rcppparallel"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.7.0\n",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "coreutils",
+    "cxx_compiler_stub",
+    "filesystem",
+    "m2w64_c_compiler_stub",
+    "m2w64_cxx_compiler_stub",
+    "make",
+    "sed",
+    "zip"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "r-base",
+    "r-dplyr >=0.8.0",
+    "r-igraph >=1.0.1",
+    "r-lazyeval >=0.2.1",
+    "r-rcpp >=1.0.0",
+    "r-rcppparallel >=4.3.6"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "gcc-libs",
+    "r-base",
+    "r-dplyr >=0.8.0",
+    "r-igraph >=1.0.1",
+    "r-lazyeval >=0.2.1",
+    "r-rcpp >=1.0.0",
+    "r-rcppparallel >=4.3.6"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":[
+  "https://cran.r-project.org/src/contrib/rPref_1.3.tar.gz",
+  "https://cran.r-project.org/src/contrib/Archive/rPref/rPref_1.3.tar.gz",
+  "https://cran.r-project.org/src/contrib/rPref_1.3.tar.gz",
+  "https://cran.r-project.org/src/contrib/Archive/rPref/rPref_1.3.tar.gz",
+  "https://cran.r-project.org/src/contrib/rPref_1.3.tar.gz",
+  "https://cran.r-project.org/src/contrib/Archive/rPref/rPref_1.3.tar.gz"
+ ],
+ "version":"1.3"
+}

@@ -1,0 +1,1076 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/245945932.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/249675052.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.1.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/254863068.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.1.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/257234370.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.1.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/258112249.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.1.3"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/261002814.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.1.4"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/262823875.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.1.5"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/264726684.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.1.6"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/280077503.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.1.7"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/289685662.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Rebuild",
+    "migrator_version":0,
+    "name":"gsl-2.5"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/301343970.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.1.8"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/303835085.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.1.9"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/311776502.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.1.10"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/312122821.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.1.11"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/319483487.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.1.12"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/334522467.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.1.13"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/341801402.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.1.14"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/351017177.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"python38"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/359346169.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.1.15"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/374151401.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"gsl26"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/375715703.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MatplotlibBase",
+    "migrator_version":0,
+    "name":"matplotlib-to-matplotlib-base"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/380408364.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.1.16"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/406837004.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.2.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/413184227.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.2.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/417089143.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.2.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"ligo.skymap",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"The `ligo.skymap` package provides tools for reading, writing, generating,\nand visualizing gravitational-wave probability maps from LIGO and Virgo.\nIt provides several tools that used to live in LALSuite and elsewhere,\nbut in the form of a tiny Python package that is easier to install.\n",
+   "dev_url":"https://git.ligo.org/lscsoft/ligo.skymap",
+   "doc_url":"https://lscsoft.docs.ligo.org/ligo.skymap/",
+   "home":"https://lscsoft.docs.ligo.org/ligo.skymap/",
+   "license":"GPL-3.0-or-later",
+   "license_family":"GPL",
+   "license_file":"LICENSE.rst",
+   "summary":"Tools for reading, writing, manipulating, and making LIGO and Virgo sky maps"
+  },
+  "build":{
+   "entry_points":[
+    "bayestar-inject = ligo.skymap.tool.bayestar_inject:main",
+    "bayestar-localize-coincs = ligo.skymap.tool.bayestar_localize_coincs:main",
+    "bayestar-localize-lvalert = ligo.skymap.tool.bayestar_localize_lvalert:main",
+    "bayestar-mcmc = ligo.skymap.tool.bayestar_mcmc:main",
+    "bayestar-realize-coincs = ligo.skymap.tool.bayestar_realize_coincs:main",
+    "bayestar-sample-model-psd = ligo.skymap.tool.bayestar_sample_model_psd:main",
+    "ligo-skymap-combine = ligo.skymap.tool.ligo_skymap_combine:main",
+    "ligo-skymap-contour = ligo.skymap.tool.ligo_skymap_contour:main",
+    "ligo-skymap-contour-moc = ligo.skymap.tool.ligo_skymap_contour_moc:main",
+    "ligo-skymap-flatten = ligo.skymap.tool.ligo_skymap_flatten:main",
+    "ligo-skymap-unflatten = ligo.skymap.tool.ligo_skymap_unflatten:main",
+    "ligo-skymap-from-samples = ligo.skymap.tool.ligo_skymap_from_samples:main",
+    "ligo-skymap-constellations = ligo.skymap.tool.ligo_skymap_constellations:main",
+    "ligo-skymap-plot = ligo.skymap.tool.ligo_skymap_plot:main",
+    "ligo-skymap-plot-airmass = ligo.skymap.tool.ligo_skymap_plot_airmass:main",
+    "ligo-skymap-plot-observability = ligo.skymap.tool.ligo_skymap_plot_observability:main",
+    "ligo-skymap-plot-pp-samples = ligo.skymap.tool.ligo_skymap_plot_pp_samples:main",
+    "ligo-skymap-plot-stats = ligo.skymap.tool.ligo_skymap_plot_stats:main",
+    "ligo-skymap-plot-volume = ligo.skymap.tool.ligo_skymap_plot_volume:main",
+    "ligo-skymap-stats = ligo.skymap.tool.ligo_skymap_stats:main",
+    "bayestar-inject = ligo.skymap.tool.bayestar_inject:main",
+    "bayestar-localize-coincs = ligo.skymap.tool.bayestar_localize_coincs:main",
+    "bayestar-localize-lvalert = ligo.skymap.tool.bayestar_localize_lvalert:main",
+    "bayestar-mcmc = ligo.skymap.tool.bayestar_mcmc:main",
+    "bayestar-realize-coincs = ligo.skymap.tool.bayestar_realize_coincs:main",
+    "bayestar-sample-model-psd = ligo.skymap.tool.bayestar_sample_model_psd:main",
+    "ligo-skymap-combine = ligo.skymap.tool.ligo_skymap_combine:main",
+    "ligo-skymap-contour = ligo.skymap.tool.ligo_skymap_contour:main",
+    "ligo-skymap-contour-moc = ligo.skymap.tool.ligo_skymap_contour_moc:main",
+    "ligo-skymap-flatten = ligo.skymap.tool.ligo_skymap_flatten:main",
+    "ligo-skymap-unflatten = ligo.skymap.tool.ligo_skymap_unflatten:main",
+    "ligo-skymap-from-samples = ligo.skymap.tool.ligo_skymap_from_samples:main",
+    "ligo-skymap-constellations = ligo.skymap.tool.ligo_skymap_constellations:main",
+    "ligo-skymap-plot = ligo.skymap.tool.ligo_skymap_plot:main",
+    "ligo-skymap-plot-airmass = ligo.skymap.tool.ligo_skymap_plot_airmass:main",
+    "ligo-skymap-plot-observability = ligo.skymap.tool.ligo_skymap_plot_observability:main",
+    "ligo-skymap-plot-pp-samples = ligo.skymap.tool.ligo_skymap_plot_pp_samples:main",
+    "ligo-skymap-plot-stats = ligo.skymap.tool.ligo_skymap_plot_stats:main",
+    "ligo-skymap-plot-volume = ligo.skymap.tool.ligo_skymap_plot_volume:main",
+    "ligo-skymap-stats = ligo.skymap.tool.ligo_skymap_stats:main",
+    "bayestar-inject = ligo.skymap.tool.bayestar_inject:main",
+    "bayestar-localize-coincs = ligo.skymap.tool.bayestar_localize_coincs:main",
+    "bayestar-localize-lvalert = ligo.skymap.tool.bayestar_localize_lvalert:main",
+    "bayestar-mcmc = ligo.skymap.tool.bayestar_mcmc:main",
+    "bayestar-realize-coincs = ligo.skymap.tool.bayestar_realize_coincs:main",
+    "bayestar-sample-model-psd = ligo.skymap.tool.bayestar_sample_model_psd:main",
+    "ligo-skymap-combine = ligo.skymap.tool.ligo_skymap_combine:main",
+    "ligo-skymap-contour = ligo.skymap.tool.ligo_skymap_contour:main",
+    "ligo-skymap-contour-moc = ligo.skymap.tool.ligo_skymap_contour_moc:main",
+    "ligo-skymap-flatten = ligo.skymap.tool.ligo_skymap_flatten:main",
+    "ligo-skymap-unflatten = ligo.skymap.tool.ligo_skymap_unflatten:main",
+    "ligo-skymap-from-samples = ligo.skymap.tool.ligo_skymap_from_samples:main",
+    "ligo-skymap-constellations = ligo.skymap.tool.ligo_skymap_constellations:main",
+    "ligo-skymap-plot = ligo.skymap.tool.ligo_skymap_plot:main",
+    "ligo-skymap-plot-airmass = ligo.skymap.tool.ligo_skymap_plot_airmass:main",
+    "ligo-skymap-plot-observability = ligo.skymap.tool.ligo_skymap_plot_observability:main",
+    "ligo-skymap-plot-pp-samples = ligo.skymap.tool.ligo_skymap_plot_pp_samples:main",
+    "ligo-skymap-plot-stats = ligo.skymap.tool.ligo_skymap_plot_stats:main",
+    "ligo-skymap-plot-volume = ligo.skymap.tool.ligo_skymap_plot_volume:main",
+    "ligo-skymap-stats = ligo.skymap.tool.ligo_skymap_stats:main"
+   ],
+   "error_overdepending":true,
+   "error_overlinking":true,
+   "ignore_run_exports":[
+    "python",
+    "python",
+    "python"
+   ],
+   "number":"0",
+   "script":"-m pip install . -vv --install-option=--use-system-libraries",
+   "skip":true
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "duncanmmacleod",
+    "duncanmmacleod",
+    "duncanmmacleod"
+   ]
+  },
+  "package":{
+   "name":"ligo.skymap",
+   "version":"0.2.2"
+  },
+  "requirements":{
+   "build":[
+    "c_compiler_stub",
+    "pkg-config",
+    "c_compiler_stub",
+    "llvm-openmp",
+    "pkg-config",
+    "c_compiler_stub",
+    "pkg-config"
+   ],
+   "host":[
+    "chealpix",
+    "gsl",
+    "libcblas",
+    "numpy",
+    "pip",
+    "python",
+    "setuptools",
+    "chealpix",
+    "gsl",
+    "libcblas",
+    "llvm-openmp",
+    "numpy",
+    "pip",
+    "python",
+    "setuptools",
+    "chealpix",
+    "gsl",
+    "libcblas",
+    "libgomp",
+    "numpy",
+    "pip",
+    "python",
+    "setuptools"
+   ],
+   "run":[
+    "astroplan >=0.5",
+    "astropy >=3.1,!=4.0.1",
+    "astropy-healpix >=0.3",
+    "chealpix",
+    "gsl",
+    "healpy",
+    "h5py",
+    "libcblas",
+    "ligo-common",
+    "ligo-gracedb >=2.0.1",
+    "ligo-segments >=1.2.0",
+    "lscsoft-glue >=2.0.0",
+    "matplotlib >=3.0.2",
+    "networkx",
+    "numpy",
+    "pillow >=2.5.0",
+    "ptemcee",
+    "python",
+    "python-lal >=6.19.2",
+    "python-lalinspiral >=1.8.1",
+    "python-lalmetaio >=1.5.0",
+    "python-lalsimulation >=1.8.2",
+    "python-ligo-lw",
+    "pytz",
+    "reproject >=0.3.2",
+    "scipy >=0.14",
+    "tqdm",
+    "astroplan >=0.5",
+    "astropy >=3.1,!=4.0.1",
+    "astropy-healpix >=0.3",
+    "chealpix",
+    "gsl",
+    "healpy",
+    "h5py",
+    "libcblas",
+    "ligo-common",
+    "ligo-gracedb >=2.0.1",
+    "ligo-segments >=1.2.0",
+    "llvm-openmp",
+    "lscsoft-glue >=2.0.0",
+    "matplotlib >=3.0.2",
+    "networkx",
+    "numpy",
+    "pillow >=2.5.0",
+    "ptemcee",
+    "python",
+    "python-lal >=6.19.2",
+    "python-lalinspiral >=1.8.1",
+    "python-lalmetaio >=1.5.0",
+    "python-lalsimulation >=1.8.2",
+    "python-ligo-lw",
+    "pytz",
+    "reproject >=0.3.2",
+    "scipy >=0.14",
+    "tqdm",
+    "astroplan >=0.5",
+    "astropy >=3.1,!=4.0.1",
+    "astropy-healpix >=0.3",
+    "chealpix",
+    "gsl",
+    "healpy",
+    "h5py",
+    "libcblas",
+    "ligo-common",
+    "ligo-gracedb >=2.0.1",
+    "ligo-segments >=1.2.0",
+    "lscsoft-glue >=2.0.0",
+    "matplotlib >=3.0.2",
+    "networkx",
+    "numpy",
+    "pillow >=2.5.0",
+    "ptemcee",
+    "python",
+    "python-lal >=6.19.2",
+    "python-lalinspiral >=1.8.1",
+    "python-lalmetaio >=1.5.0",
+    "python-lalsimulation >=1.8.2",
+    "python-ligo-lw",
+    "pytz",
+    "reproject >=0.3.2",
+    "scipy >=0.14",
+    "tqdm"
+   ]
+  },
+  "source":{
+   "patches":[
+    "setup.cfg-offline.patch",
+    "setup.cfg-no-lalsuite.patch",
+    "setup.cfg-offline.patch",
+    "setup.cfg-no-lalsuite.patch",
+    "setup.cfg-offline.patch",
+    "setup.cfg-no-lalsuite.patch"
+   ],
+   "sha256":"b6c5c99f24806e4212e4317025ccf38cecc967a4fbc8ce8e8b178e3014f5036c",
+   "url":"https://pypi.io/packages/source/l/ligo.skymap/ligo.skymap-0.2.2.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "python -m pytest --pyargs \"ligo.skymap\"",
+    "bayestar-inject --help",
+    "bayestar-localize-coincs --help",
+    "bayestar-localize-lvalert --help",
+    "bayestar-mcmc --help",
+    "bayestar-realize-coincs --help",
+    "bayestar-sample-model-psd --help",
+    "ligo-skymap-combine --help",
+    "ligo-skymap-contour --help",
+    "ligo-skymap-contour-moc --help",
+    "ligo-skymap-flatten --help",
+    "ligo-skymap-unflatten --help",
+    "ligo-skymap-from-samples --help",
+    "ligo-skymap-constellations --help",
+    "ligo-skymap-plot --help",
+    "ligo-skymap-plot-airmass --help",
+    "ligo-skymap-plot-observability --help",
+    "ligo-skymap-plot-pp-samples --help",
+    "ligo-skymap-plot-stats --help",
+    "ligo-skymap-plot-volume --help",
+    "ligo-skymap-stats --help",
+    "python -m pytest --pyargs \"ligo.skymap\"",
+    "bayestar-inject --help",
+    "bayestar-localize-coincs --help",
+    "bayestar-localize-lvalert --help",
+    "bayestar-mcmc --help",
+    "bayestar-realize-coincs --help",
+    "bayestar-sample-model-psd --help",
+    "ligo-skymap-combine --help",
+    "ligo-skymap-contour --help",
+    "ligo-skymap-contour-moc --help",
+    "ligo-skymap-flatten --help",
+    "ligo-skymap-unflatten --help",
+    "ligo-skymap-from-samples --help",
+    "ligo-skymap-constellations --help",
+    "ligo-skymap-plot --help",
+    "ligo-skymap-plot-airmass --help",
+    "ligo-skymap-plot-observability --help",
+    "ligo-skymap-plot-pp-samples --help",
+    "ligo-skymap-plot-stats --help",
+    "ligo-skymap-plot-volume --help",
+    "ligo-skymap-stats --help",
+    "python -m pytest --pyargs \"ligo.skymap\"",
+    "bayestar-inject --help",
+    "bayestar-localize-coincs --help",
+    "bayestar-localize-lvalert --help",
+    "bayestar-mcmc --help",
+    "bayestar-realize-coincs --help",
+    "bayestar-sample-model-psd --help",
+    "ligo-skymap-combine --help",
+    "ligo-skymap-contour --help",
+    "ligo-skymap-contour-moc --help",
+    "ligo-skymap-flatten --help",
+    "ligo-skymap-unflatten --help",
+    "ligo-skymap-from-samples --help",
+    "ligo-skymap-constellations --help",
+    "ligo-skymap-plot --help",
+    "ligo-skymap-plot-airmass --help",
+    "ligo-skymap-plot-observability --help",
+    "ligo-skymap-plot-pp-samples --help",
+    "ligo-skymap-plot-stats --help",
+    "ligo-skymap-plot-volume --help",
+    "ligo-skymap-stats --help"
+   ],
+   "imports":[
+    "ligo.skymap",
+    "ligo.skymap.bayestar",
+    "ligo.skymap.bayestar.ez_emcee",
+    "ligo.skymap.bayestar.filter",
+    "ligo.skymap.bayestar.interpolation",
+    "ligo.skymap.bayestar.ptemcee",
+    "ligo.skymap.conftest",
+    "ligo.skymap.coordinates",
+    "ligo.skymap.coordinates.detector",
+    "ligo.skymap.coordinates.eigenframe",
+    "ligo.skymap.distance",
+    "ligo.skymap.extern",
+    "ligo.skymap.extern.quantile",
+    "ligo.skymap.healpix_tree",
+    "ligo.skymap.io",
+    "ligo.skymap.io.events",
+    "ligo.skymap.io.events.base",
+    "ligo.skymap.io.events.detector_disabled",
+    "ligo.skymap.io.events.gracedb",
+    "ligo.skymap.io.events.hdf",
+    "ligo.skymap.io.events.ligolw",
+    "ligo.skymap.io.events.magic",
+    "ligo.skymap.io.events.sqlite",
+    "ligo.skymap.io.fits",
+    "ligo.skymap.io.hdf5",
+    "ligo.skymap.kde",
+    "ligo.skymap.moc",
+    "ligo.skymap.plot",
+    "ligo.skymap.plot.allsky",
+    "ligo.skymap.plot.angle",
+    "ligo.skymap.plot.backdrop",
+    "ligo.skymap.plot.cmap",
+    "ligo.skymap.plot.cylon",
+    "ligo.skymap.plot.itrs_frame_monkeypatch",
+    "ligo.skymap.plot.marker",
+    "ligo.skymap.plot.poly",
+    "ligo.skymap.plot.pp",
+    "ligo.skymap.plot.setup_package",
+    "ligo.skymap.plot.util",
+    "ligo.skymap.postprocess",
+    "ligo.skymap.postprocess.contour",
+    "ligo.skymap.postprocess.cosmology",
+    "ligo.skymap.postprocess.crossmatch",
+    "ligo.skymap.postprocess.ellipse",
+    "ligo.skymap.postprocess.util",
+    "ligo.skymap.util",
+    "ligo.skymap.util.file",
+    "ligo.skymap.util.numpy",
+    "ligo.skymap.util.progress",
+    "ligo.skymap.util.sqlite",
+    "ligo.skymap.version",
+    "ligo.skymap",
+    "ligo.skymap.bayestar",
+    "ligo.skymap.bayestar.ez_emcee",
+    "ligo.skymap.bayestar.filter",
+    "ligo.skymap.bayestar.interpolation",
+    "ligo.skymap.bayestar.ptemcee",
+    "ligo.skymap.conftest",
+    "ligo.skymap.coordinates",
+    "ligo.skymap.coordinates.detector",
+    "ligo.skymap.coordinates.eigenframe",
+    "ligo.skymap.distance",
+    "ligo.skymap.extern",
+    "ligo.skymap.extern.quantile",
+    "ligo.skymap.healpix_tree",
+    "ligo.skymap.io",
+    "ligo.skymap.io.events",
+    "ligo.skymap.io.events.base",
+    "ligo.skymap.io.events.detector_disabled",
+    "ligo.skymap.io.events.gracedb",
+    "ligo.skymap.io.events.hdf",
+    "ligo.skymap.io.events.ligolw",
+    "ligo.skymap.io.events.magic",
+    "ligo.skymap.io.events.sqlite",
+    "ligo.skymap.io.fits",
+    "ligo.skymap.io.hdf5",
+    "ligo.skymap.kde",
+    "ligo.skymap.moc",
+    "ligo.skymap.plot",
+    "ligo.skymap.plot.allsky",
+    "ligo.skymap.plot.angle",
+    "ligo.skymap.plot.backdrop",
+    "ligo.skymap.plot.cmap",
+    "ligo.skymap.plot.cylon",
+    "ligo.skymap.plot.itrs_frame_monkeypatch",
+    "ligo.skymap.plot.marker",
+    "ligo.skymap.plot.poly",
+    "ligo.skymap.plot.pp",
+    "ligo.skymap.plot.setup_package",
+    "ligo.skymap.plot.util",
+    "ligo.skymap.postprocess",
+    "ligo.skymap.postprocess.contour",
+    "ligo.skymap.postprocess.cosmology",
+    "ligo.skymap.postprocess.crossmatch",
+    "ligo.skymap.postprocess.ellipse",
+    "ligo.skymap.postprocess.util",
+    "ligo.skymap.util",
+    "ligo.skymap.util.file",
+    "ligo.skymap.util.numpy",
+    "ligo.skymap.util.progress",
+    "ligo.skymap.util.sqlite",
+    "ligo.skymap.version",
+    "ligo.skymap",
+    "ligo.skymap.bayestar",
+    "ligo.skymap.bayestar.ez_emcee",
+    "ligo.skymap.bayestar.filter",
+    "ligo.skymap.bayestar.interpolation",
+    "ligo.skymap.bayestar.ptemcee",
+    "ligo.skymap.conftest",
+    "ligo.skymap.coordinates",
+    "ligo.skymap.coordinates.detector",
+    "ligo.skymap.coordinates.eigenframe",
+    "ligo.skymap.distance",
+    "ligo.skymap.extern",
+    "ligo.skymap.extern.quantile",
+    "ligo.skymap.healpix_tree",
+    "ligo.skymap.io",
+    "ligo.skymap.io.events",
+    "ligo.skymap.io.events.base",
+    "ligo.skymap.io.events.detector_disabled",
+    "ligo.skymap.io.events.gracedb",
+    "ligo.skymap.io.events.hdf",
+    "ligo.skymap.io.events.ligolw",
+    "ligo.skymap.io.events.magic",
+    "ligo.skymap.io.events.sqlite",
+    "ligo.skymap.io.fits",
+    "ligo.skymap.io.hdf5",
+    "ligo.skymap.kde",
+    "ligo.skymap.moc",
+    "ligo.skymap.plot",
+    "ligo.skymap.plot.allsky",
+    "ligo.skymap.plot.angle",
+    "ligo.skymap.plot.backdrop",
+    "ligo.skymap.plot.cmap",
+    "ligo.skymap.plot.cylon",
+    "ligo.skymap.plot.itrs_frame_monkeypatch",
+    "ligo.skymap.plot.marker",
+    "ligo.skymap.plot.poly",
+    "ligo.skymap.plot.pp",
+    "ligo.skymap.plot.setup_package",
+    "ligo.skymap.plot.util",
+    "ligo.skymap.postprocess",
+    "ligo.skymap.postprocess.contour",
+    "ligo.skymap.postprocess.cosmology",
+    "ligo.skymap.postprocess.crossmatch",
+    "ligo.skymap.postprocess.ellipse",
+    "ligo.skymap.postprocess.util",
+    "ligo.skymap.util",
+    "ligo.skymap.util.file",
+    "ligo.skymap.util.numpy",
+    "ligo.skymap.util.progress",
+    "ligo.skymap.util.sqlite",
+    "ligo.skymap.version"
+   ],
+   "requires":[
+    "lalapps",
+    "pytest",
+    "lalapps",
+    "pytest",
+    "lalapps",
+    "pytest"
+   ]
+  }
+ },
+ "name":"ligo.skymap",
+ "new_version":"0.2.2",
+ "new_version_attempts":{
+  "0.2.0":1,
+  "0.2.1":1,
+  "0.2.2":1
+ },
+ "new_version_errors":{},
+ "pinning_version":"2020.05.12.18.03.58",
+ "raw_meta_yaml":"{% set name = \"ligo.skymap\" %}\n{% set version = \"0.2.2\" %}\n{% set sha256 = \"b6c5c99f24806e4212e4317025ccf38cecc967a4fbc8ce8e8b178e3014f5036c\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n  patches:\n    # tell ah_bootstrap to not download anything\n    - setup.cfg-offline.patch\n    # remove lalsuite requirement, since we can list dependencies explicitly here\n    - setup.cfg-no-lalsuite.patch\n\nbuild:\n  entry_points:\n    - bayestar-inject = ligo.skymap.tool.bayestar_inject:main\n    - bayestar-localize-coincs = ligo.skymap.tool.bayestar_localize_coincs:main\n    - bayestar-localize-lvalert = ligo.skymap.tool.bayestar_localize_lvalert:main\n    - bayestar-mcmc = ligo.skymap.tool.bayestar_mcmc:main\n    - bayestar-realize-coincs = ligo.skymap.tool.bayestar_realize_coincs:main\n    - bayestar-sample-model-psd = ligo.skymap.tool.bayestar_sample_model_psd:main\n    - ligo-skymap-combine = ligo.skymap.tool.ligo_skymap_combine:main\n    - ligo-skymap-contour = ligo.skymap.tool.ligo_skymap_contour:main\n    - ligo-skymap-contour-moc = ligo.skymap.tool.ligo_skymap_contour_moc:main\n    - ligo-skymap-flatten = ligo.skymap.tool.ligo_skymap_flatten:main\n    - ligo-skymap-unflatten = ligo.skymap.tool.ligo_skymap_unflatten:main\n    - ligo-skymap-from-samples = ligo.skymap.tool.ligo_skymap_from_samples:main\n    - ligo-skymap-constellations = ligo.skymap.tool.ligo_skymap_constellations:main\n    - ligo-skymap-plot = ligo.skymap.tool.ligo_skymap_plot:main\n    - ligo-skymap-plot-airmass = ligo.skymap.tool.ligo_skymap_plot_airmass:main\n    - ligo-skymap-plot-observability = ligo.skymap.tool.ligo_skymap_plot_observability:main\n    - ligo-skymap-plot-pp-samples = ligo.skymap.tool.ligo_skymap_plot_pp_samples:main\n    - ligo-skymap-plot-stats = ligo.skymap.tool.ligo_skymap_plot_stats:main\n    - ligo-skymap-plot-volume = ligo.skymap.tool.ligo_skymap_plot_volume:main\n    - ligo-skymap-stats = ligo.skymap.tool.ligo_skymap_stats:main\n  error_overdepending: true\n  error_overlinking: true\n  ignore_run_exports:\n    - python\n  number: 0\n  script: {{ PYTHON }} -m pip install . -vv --install-option=--use-system-libraries\n  skip: true  # [win or py<36]\n\nrequirements:\n  build:\n    - {{ compiler('c') }}\n    - llvm-openmp  # [osx]\n    - pkg-config\n  host:\n    - chealpix\n    - gsl\n    - libcblas\n    - libgomp  # [linux and not aarch64]\n    - llvm-openmp  # [osx]\n    - numpy\n    - pip\n    - python\n    - setuptools\n  run:\n    - astroplan >=0.5\n    - astropy >=3.1,!=4.0.1\n    - astropy-healpix >=0.3\n    - chealpix\n    - gsl\n    - healpy\n    - h5py\n    - importlib_resources  # [py<37]\n    - libcblas\n    - ligo-common\n    - ligo-gracedb >=2.0.1\n    - ligo-segments >=1.2.0\n    - llvm-openmp  # [osx]\n    - lscsoft-glue >=2.0.0\n    - matplotlib >=3.0.2\n    - networkx\n    - {{ pin_compatible('numpy') }}\n    - pillow >=2.5.0\n    - ptemcee\n    - python\n    - python-lal >=6.19.2\n    - python-lalinspiral >=1.8.1\n    - python-lalmetaio >=1.5.0\n    - python-lalsimulation >=1.8.2\n    - python-ligo-lw\n    - pytz\n    - reproject >=0.3.2\n    - scipy >=0.14\n    - tqdm\n\ntest:\n  imports:\n    - ligo.skymap\n    - ligo.skymap.bayestar\n    - ligo.skymap.bayestar.ez_emcee\n    - ligo.skymap.bayestar.filter\n    - ligo.skymap.bayestar.interpolation\n    - ligo.skymap.bayestar.ptemcee\n    - ligo.skymap.conftest\n    - ligo.skymap.coordinates\n    - ligo.skymap.coordinates.detector\n    - ligo.skymap.coordinates.eigenframe\n    - ligo.skymap.distance\n    - ligo.skymap.extern\n    - ligo.skymap.extern.quantile\n    - ligo.skymap.healpix_tree\n    - ligo.skymap.io\n    - ligo.skymap.io.events\n    - ligo.skymap.io.events.base\n    - ligo.skymap.io.events.detector_disabled\n    - ligo.skymap.io.events.gracedb\n    - ligo.skymap.io.events.hdf\n    - ligo.skymap.io.events.ligolw\n    - ligo.skymap.io.events.magic\n    - ligo.skymap.io.events.sqlite\n    - ligo.skymap.io.fits\n    - ligo.skymap.io.hdf5\n    - ligo.skymap.kde\n    - ligo.skymap.moc\n    - ligo.skymap.plot\n    - ligo.skymap.plot.allsky\n    - ligo.skymap.plot.angle\n    - ligo.skymap.plot.backdrop\n    - ligo.skymap.plot.cmap\n    - ligo.skymap.plot.cylon\n    - ligo.skymap.plot.itrs_frame_monkeypatch\n    - ligo.skymap.plot.marker\n    - ligo.skymap.plot.poly\n    - ligo.skymap.plot.pp\n    - ligo.skymap.plot.setup_package\n    - ligo.skymap.plot.util\n    - ligo.skymap.postprocess\n    - ligo.skymap.postprocess.contour\n    - ligo.skymap.postprocess.cosmology\n    - ligo.skymap.postprocess.crossmatch\n    - ligo.skymap.postprocess.ellipse\n    - ligo.skymap.postprocess.util\n    - ligo.skymap.util\n    - ligo.skymap.util.file\n    - ligo.skymap.util.numpy\n    - ligo.skymap.util.progress\n    - ligo.skymap.util.sqlite\n    - ligo.skymap.version\n  requires:\n    - lalapps\n    - pytest\n  commands:\n    - python -m pytest --pyargs \"ligo.skymap\"\n    - bayestar-inject --help\n    - bayestar-localize-coincs --help\n    - bayestar-localize-lvalert --help\n    - bayestar-mcmc --help\n    - bayestar-realize-coincs --help\n    - bayestar-sample-model-psd --help\n    - ligo-skymap-combine --help\n    - ligo-skymap-contour --help\n    - ligo-skymap-contour-moc --help\n    - ligo-skymap-flatten --help\n    - ligo-skymap-unflatten --help\n    - ligo-skymap-from-samples --help\n    - ligo-skymap-constellations --help\n    - ligo-skymap-plot --help\n    - ligo-skymap-plot-airmass --help\n    - ligo-skymap-plot-observability --help\n    - ligo-skymap-plot-pp-samples --help\n    - ligo-skymap-plot-stats --help\n    - ligo-skymap-plot-volume --help\n    - ligo-skymap-stats --help\n\nabout:\n  home: https://lscsoft.docs.ligo.org/ligo.skymap/\n  doc_url: https://lscsoft.docs.ligo.org/ligo.skymap/\n  dev_url: https://git.ligo.org/lscsoft/ligo.skymap\n  license: GPL-3.0-or-later\n  license_family: GPL\n  license_file: LICENSE.rst\n  summary: Tools for reading, writing, manipulating, and making LIGO and Virgo sky maps\n  description: |\n    The `ligo.skymap` package provides tools for reading, writing, generating,\n    and visualizing gravitational-wave probability maps from LIGO and Virgo.\n    It provides several tools that used to live in LALSuite and elsewhere,\n    but in the form of a tiny Python package that is easier to install.\n\nextra:\n  recipe-maintainers:\n    - duncanmmacleod\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "astroplan",
+   "astropy",
+   "astropy-healpix",
+   "c_compiler_stub",
+   "chealpix",
+   "gsl",
+   "h5py",
+   "healpy",
+   "libcblas",
+   "libgomp",
+   "ligo-common",
+   "ligo-gracedb",
+   "ligo-segments",
+   "llvm-openmp",
+   "lscsoft-glue",
+   "matplotlib",
+   "networkx",
+   "numpy",
+   "pillow",
+   "pip",
+   "pkg-config",
+   "ptemcee",
+   "python",
+   "python-lal",
+   "python-lalinspiral",
+   "python-lalmetaio",
+   "python-lalsimulation",
+   "python-ligo-lw",
+   "pytz",
+   "reproject",
+   "scipy",
+   "setuptools",
+   "tqdm"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "llvm-openmp",
+    "pkg-config"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "chealpix",
+    "gsl",
+    "libcblas",
+    "libgomp",
+    "llvm-openmp",
+    "numpy",
+    "pip",
+    "python",
+    "setuptools"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "astroplan",
+    "astropy",
+    "astropy-healpix",
+    "chealpix",
+    "gsl",
+    "h5py",
+    "healpy",
+    "libcblas",
+    "ligo-common",
+    "ligo-gracedb",
+    "ligo-segments",
+    "llvm-openmp",
+    "lscsoft-glue",
+    "matplotlib",
+    "networkx",
+    "numpy",
+    "pillow",
+    "ptemcee",
+    "python",
+    "python-lal",
+    "python-lalinspiral",
+    "python-lalmetaio",
+    "python-lalsimulation",
+    "python-ligo-lw",
+    "pytz",
+    "reproject",
+    "scipy",
+    "tqdm"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "lalapps",
+    "pytest"
+   ]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.7.1\n",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "llvm-openmp",
+    "pkg-config"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "chealpix",
+    "gsl",
+    "libcblas",
+    "libgomp",
+    "llvm-openmp",
+    "numpy",
+    "pip",
+    "python",
+    "setuptools"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "astroplan >=0.5",
+    "astropy >=3.1,!=4.0.1",
+    "astropy-healpix >=0.3",
+    "chealpix",
+    "gsl",
+    "h5py",
+    "healpy",
+    "libcblas",
+    "ligo-common",
+    "ligo-gracedb >=2.0.1",
+    "ligo-segments >=1.2.0",
+    "llvm-openmp",
+    "lscsoft-glue >=2.0.0",
+    "matplotlib >=3.0.2",
+    "networkx",
+    "numpy",
+    "pillow >=2.5.0",
+    "ptemcee",
+    "python",
+    "python-lal >=6.19.2",
+    "python-lalinspiral >=1.8.1",
+    "python-lalmetaio >=1.5.0",
+    "python-lalsimulation >=1.8.2",
+    "python-ligo-lw",
+    "pytz",
+    "reproject >=0.3.2",
+    "scipy >=0.14",
+    "tqdm"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "lalapps",
+    "pytest"
+   ]
+  }
+ },
+ "url":"https://pypi.io/packages/source/l/ligo.skymap/ligo.skymap-0.1.9.tar.gz",
+ "version":"0.2.2"
+}

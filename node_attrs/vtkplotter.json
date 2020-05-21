@@ -1,0 +1,6 @@
+{
+ "bad":"Upstream: Error getting upstream version",
+ "feedstock_name":"vtkplotter",
+ "new_version":false,
+ "raw_meta_yaml":"{% set name = \"vtkplotter\" %}\n{% set version = \"2020.3.0\" %}\n\npackage:\n  name: \"{{ name|lower }}\"\n  version: \"{{ version }}\"\n\nsource:\n  url: \"https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\"\n  sha256: d08058311007c8cbf91157d5eb6ee1811ad31bf48557fd3600936272ce358ebf\n\nbuild:\n  number: 0\n  noarch: python\n  script: \"{{ PYTHON }} -m pip install . -vv\"\n\nrequirements:\n  host:\n    - pip\n    - python\n  run:\n    - python\n    - vtk\n    - numpy\n\ntest:\n  imports:\n    - vtkplotter\n\nabout:\n  home: \"https://github.com/marcomusy/vtkplotter\"\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE.txt\n  summary: \"A python module for scientific visualization, analysis and animation of 3D objects and point clouds based on VTK.\"\n  doc_url: https://vtkplotter.embl.es/\n  dev_url: https://github.com/marcomusy/vtkplotter\n\nextra:\n  recipe-maintainers:\n    - RubendeBruin\n    - marcomusy\n"
+}

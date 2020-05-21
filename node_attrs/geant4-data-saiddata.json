@@ -1,0 +1,114 @@
+{
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"geant4-data-saiddata",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"https://geant4.web.cern.ch/",
+   "license":"OTHER",
+   "license_file":"CREDIT",
+   "summary":"GEANT4 data files from evaluated cross-sections in SAID data-base"
+  },
+  "build":{
+   "noarch":"generic",
+   "number":"0",
+   "script":[
+    "mkdir -p ${PREFIX}/share/Geant4/data/SAIDDATA2.0",
+    "cp -r dataset/* ${PREFIX}/share/Geant4/data/SAIDDATA2.0",
+    "${RECIPE_DIR}/create_activation_scripts.sh geant4-data-saiddata G4SAIDXSDATA share/Geant4/data/SAIDDATA2.0",
+    "mkdir -p ${PREFIX}/share/Geant4/data/SAIDDATA2.0",
+    "cp -r dataset/* ${PREFIX}/share/Geant4/data/SAIDDATA2.0",
+    "${RECIPE_DIR}/create_activation_scripts.sh geant4-data-saiddata G4SAIDXSDATA share/Geant4/data/SAIDDATA2.0",
+    "mkdir -p ${PREFIX}/share/Geant4/data/SAIDDATA2.0",
+    "cp -r dataset/* ${PREFIX}/share/Geant4/data/SAIDDATA2.0",
+    "${RECIPE_DIR}/create_activation_scripts.sh geant4-data-saiddata G4SAIDXSDATA share/Geant4/data/SAIDDATA2.0"
+   ]
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "tschoonj",
+    "chrisburr",
+    "tschoonj",
+    "chrisburr",
+    "tschoonj",
+    "chrisburr"
+   ]
+  },
+  "package":{
+   "name":"geant4-data-saiddata",
+   "version":"2.0"
+  },
+  "requirements":{
+   "build":[
+    "make",
+    "make",
+    "make"
+   ]
+  },
+  "source":{
+   "folder":"dataset",
+   "sha256":"b13579e9e7813456adbf6e5a0b7f8604d3804741a0ab20eb3a2d3a1e71720031",
+   "url":"https://geant4-data.web.cern.ch/geant4-data/datasets/G4SAIDDATA.2.0.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "[ \"$G4SAIDXSDATA\" == \"$CONDA_PREFIX/share/Geant4/data/SAIDDATA2.0\" ]",
+    "[ \"$G4SAIDXSDATA\" == \"$CONDA_PREFIX/share/Geant4/data/SAIDDATA2.0\" ]",
+    "[ \"$G4SAIDXSDATA\" == \"$CONDA_PREFIX/share/Geant4/data/SAIDDATA2.0\" ]"
+   ]
+  }
+ },
+ "name":"geant4-data-saiddata",
+ "new_version":false,
+ "raw_meta_yaml":"{% set dataset_name = \"SAIDDATA\" %}\n{% set version = \"2.0\" %}\n{% set sha256 = \"b13579e9e7813456adbf6e5a0b7f8604d3804741a0ab20eb3a2d3a1e71720031\" %}\n{% set env_var = \"G4SAIDXSDATA\" %}\n{% set summary = \"GEANT4 data files from evaluated cross-sections in SAID data-base\" %}\n\n{% set name = \"geant4-data-\"+dataset_name.lower() %}\n{% set install_dir = \"share/Geant4/data/\"+dataset_name+version %}\n\npackage:\n    name: {{ name }}\n    version: {{ version }}\n\nsource:\n    url: https://geant4-data.web.cern.ch/geant4-data/datasets/G4{{ dataset_name }}.{{ version }}.tar.gz\n    sha256: {{ sha256 }}\n    folder: dataset\n\nbuild:\n    number: 0\n    noarch: generic\n    script:\n        - mkdir -p ${PREFIX}/{{ install_dir }}\n        - cp -r dataset/* ${PREFIX}/{{ install_dir }}\n        - ${RECIPE_DIR}/create_activation_scripts.sh {{ name }} {{ env_var }} {{ install_dir }}\n\n# Conda-forge is unable to build packages that have no dependencies so add\n# `make` as a dummy build dependency\nrequirements:\n  build:\n    - make\n\ntest:\n    commands:\n        - \"[ \\\"${{ env_var }}\\\" == \\\"$CONDA_PREFIX/{{ install_dir }}\\\" ]\"\n\nabout:\n    home: https://geant4.web.cern.ch/\n    summary: '{{ summary }}'\n    license: OTHER\n    license_file: CREDIT\n\nextra:\n    recipe-maintainers:\n        - tschoonj\n        - chrisburr\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "make"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "make"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "make"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://geant4-data.web.cern.ch/geant4-data/datasets/G4SAIDDATA.2.0.tar.gz",
+ "version":"2.0"
+}

@@ -1,0 +1,112 @@
+{
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"svg2png",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"https://github.com/domenic/svg2png",
+   "license":"MIT",
+   "license_file":"LICENSE.txt",
+   "summary":"SVG-to-PNG Converter Using PhantomJS"
+  },
+  "build":{
+   "number":"0",
+   "script":"npm install . && npm install -g"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "Dimitar-92",
+    "ArchB1aZe",
+    "Dimitar-92",
+    "ArchB1aZe",
+    "Dimitar-92",
+    "ArchB1aZe"
+   ]
+  },
+  "package":{
+   "name":"svg2png",
+   "version":"4.1.1"
+  },
+  "requirements":{
+   "build":[
+    "nodejs 6.*",
+    "nodejs 6.*",
+    "nodejs 6.*"
+   ],
+   "run":[
+    "nodejs 6.*",
+    "nodejs 6.*",
+    "nodejs 6.*"
+   ]
+  },
+  "source":{
+   "fn":"4.1.1.tar.gz",
+   "sha256":"6fa41166e7532592fb60cfb71e9e37e7eec1998136c06bc1b981d724bfd13ef7",
+   "url":"https://github.com/domenic/svg2png/tarball/5997ae9452796f480c13506c32cb04d1dc38369e"
+  },
+  "test":{
+   "commands":[
+    "npm list -g svg2png",
+    "npm list -g svg2png",
+    "npm list -g svg2png"
+   ]
+  }
+ },
+ "name":"svg2png",
+ "new_version":"4.1.1",
+ "raw_meta_yaml":"{% set name = \"svg2png\" %}\n{% set version = \"4.1.1\" %}\n{% set sha256 = \"6fa41166e7532592fb60cfb71e9e37e7eec1998136c06bc1b981d724bfd13ef7\" %}\n{% set node_version = os.environ.get('NODEJS_VERSION') or '6.*' %}\n\npackage:\n  name: {{ name }}\n  version: {{ version }}\n\nsource:\n  fn: {{ version }}.tar.gz\n  url: https://github.com/domenic/svg2png/tarball/5997ae9452796f480c13506c32cb04d1dc38369e\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  script: npm install . && npm install -g\n\nrequirements:\n  build:\n    - nodejs {{ node_version }}\n  run:\n    - nodejs {{ node_version }}\n\ntest:\n  commands:\n     - npm list -g {{ name }}\n\nabout:\n  home: https://github.com/domenic/svg2png\n  license: MIT\n  license_file: LICENSE.txt\n  summary: 'SVG-to-PNG Converter Using PhantomJS'\n\nextra:\n  recipe-maintainers:\n    - Dimitar-92\n    - ArchB1aZe\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "nodejs"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "nodejs"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "nodejs"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "nodejs 6.*"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "nodejs 6.*"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://github.com/domenic/svg2png/tarball/5997ae9452796f480c13506c32cb04d1dc38369e",
+ "version":"4.1.1"
+}

@@ -1,0 +1,149 @@
+{
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"pip2pi",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"https://github.com/wolever/pip2pi",
+   "license":"BSD-3-Clause",
+   "license_family":"BSD",
+   "license_file":"LICENSE.txt",
+   "summary":"pip2pi builds a PyPI-compatible package repository from pip requirements"
+  },
+  "build":{
+   "entry_points":[
+    "dir2pi = libpip2pi.commands:dir2pi",
+    "pip2pi = libpip2pi.commands:pip2pi",
+    "pip2tgz = libpip2pi.commands:pip2tgz",
+    "dir2pi = libpip2pi.commands:dir2pi",
+    "pip2pi = libpip2pi.commands:pip2pi",
+    "pip2tgz = libpip2pi.commands:pip2tgz",
+    "dir2pi = libpip2pi.commands:dir2pi",
+    "pip2pi = libpip2pi.commands:pip2pi",
+    "pip2tgz = libpip2pi.commands:pip2tgz"
+   ],
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "marcelotrevisani",
+    "marcelotrevisani",
+    "marcelotrevisani"
+   ]
+  },
+  "package":{
+   "name":"pip2pi",
+   "version":"0.8.0"
+  },
+  "requirements":{
+   "host":[
+    "python",
+    "pip",
+    "setuptools",
+    "python",
+    "pip",
+    "setuptools",
+    "python",
+    "pip",
+    "setuptools"
+   ],
+   "run":[
+    "python",
+    "pip",
+    "setuptools",
+    "python",
+    "pip",
+    "setuptools",
+    "python",
+    "pip",
+    "setuptools"
+   ]
+  },
+  "source":{
+   "sha256":"3b790c2eb4f77b02605245d0c7c7adc9b0de12a8fd4c085bd8084fbd97bab350",
+   "url":"https://github.com/wolever/pip2pi/archive/v0.8.0.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "pip2pi --help",
+    "dir2pi --help",
+    "pip2tgz --help",
+    "pip2pi --help",
+    "dir2pi --help",
+    "pip2tgz --help",
+    "pip2pi --help",
+    "dir2pi --help",
+    "pip2tgz --help"
+   ]
+  }
+ },
+ "name":"pip2pi",
+ "new_version":"0.8.0",
+ "raw_meta_yaml":"{% set name = \"pip2pi\" %}\n{% set version = \"0.8.0\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://github.com/wolever/{{ name }}/archive/v{{ version }}.tar.gz\n  sha256: 3b790c2eb4f77b02605245d0c7c7adc9b0de12a8fd4c085bd8084fbd97bab350\n\nbuild:\n  noarch: python\n  number: 0\n  script: \"{{ PYTHON }} -m pip install . -vv\"\n  entry_points:\n    - dir2pi = libpip2pi.commands:dir2pi\n    - pip2pi = libpip2pi.commands:pip2pi\n    - pip2tgz = libpip2pi.commands:pip2tgz\n\nrequirements:\n  host:\n    - python\n    - pip\n    - setuptools\n  run:\n    - python\n    - pip\n    - setuptools\n\ntest:\n  commands:\n    - pip2pi --help\n    - dir2pi --help\n    - pip2tgz --help\n\nabout:\n  home: https://github.com/wolever/pip2pi\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: LICENSE.txt\n  summary: 'pip2pi builds a PyPI-compatible package repository from pip requirements'\n\nextra:\n  recipe-maintainers:\n    - marcelotrevisani\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "pip",
+   "python",
+   "setuptools"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python",
+    "setuptools"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python",
+    "setuptools"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python",
+    "setuptools"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python",
+    "setuptools"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://github.com/wolever/pip2pi/archive/v0.8.0.tar.gz",
+ "version":"0.8.0"
+}

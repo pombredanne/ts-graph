@@ -1,0 +1,649 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/240655744.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.8.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/242821941.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.8.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/254456650.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.8.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/265883230.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.8.3"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/375685508.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MatplotlibBase",
+    "migrator_version":0,
+    "name":"matplotlib-to-matplotlib-base"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"allennlp",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"An Apache 2.0 NLP research library, built on PyTorch, for developing state-of-the-art\ndeep learning models on a wide variety of linguistic tasks.\n",
+   "dev_url":"https://github.com/allenai/allennlp",
+   "doc_url":"https://allenai.github.io/allennlp-docs/",
+   "home":"https://allennlp.org/",
+   "license":"Apache-2.0",
+   "license_family":"APACHE",
+   "license_file":"allennlp/LICENSE",
+   "summary":"An open-source NLP research library, built on PyTorch."
+  },
+  "build":{
+   "entry_points":[
+    "allennlp=allennlp.run:run",
+    "allennlp=allennlp.run:run",
+    "allennlp=allennlp.run:run"
+   ],
+   "number":"0",
+   "script":" -m pip install ./allennlp --no-deps -vv",
+   "skip":true
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "CurtLH",
+    "sodre",
+    "CurtLH",
+    "sodre",
+    "CurtLH",
+    "sodre"
+   ]
+  },
+  "package":{
+   "name":"allennlp",
+   "version":"0.7.2"
+  },
+  "requirements":{
+   "build":[
+    "c_compiler_stub",
+    "c_compiler_stub",
+    "c_compiler_stub"
+   ],
+   "host":[
+    "python",
+    "pip",
+    "python",
+    "pip",
+    "python",
+    "pip"
+   ],
+   "run":[
+    "python",
+    "pytorch >=0.4.1,<0.5.0",
+    "jsonnet ==0.10.0",
+    "overrides",
+    "nltk",
+    "msgpack-python >=0.5.6,<0.6.0",
+    "spacy >=2.0,<2.1",
+    "numpy",
+    "tensorboardx ==1.2",
+    "cffi 1.11.*",
+    "awscli >=1.11.91",
+    "boto3",
+    "moto ==1.3.4",
+    "flask ==1.0.2",
+    "flask-cors ==3.0.6",
+    "gevent ==1.3.6",
+    "requests >=2.18",
+    "tqdm >=4.19",
+    "editdistance",
+    "h5py",
+    "scikit-learn",
+    "scipy",
+    "pytz ==2017.3",
+    "unidecode",
+    "matplotlib ==2.2.3",
+    "pytest",
+    "flaky",
+    "responses >=0.7",
+    "numpydoc ==0.8.0",
+    "conllu ==0.11",
+    "parsimonious ==0.8.0",
+    "ftfy",
+    "sqlparse ==0.2.4",
+    "pytorch-pretrained-bert ==0.1.2",
+    "python",
+    "pytorch >=0.4.1,<0.5.0",
+    "jsonnet ==0.10.0",
+    "overrides",
+    "nltk",
+    "msgpack-python >=0.5.6,<0.6.0",
+    "spacy >=2.0,<2.1",
+    "numpy",
+    "tensorboardx ==1.2",
+    "cffi 1.11.*",
+    "awscli >=1.11.91",
+    "boto3",
+    "moto ==1.3.4",
+    "flask ==1.0.2",
+    "flask-cors ==3.0.6",
+    "gevent ==1.3.6",
+    "requests >=2.18",
+    "tqdm >=4.19",
+    "editdistance",
+    "h5py",
+    "scikit-learn",
+    "scipy",
+    "pytz ==2017.3",
+    "unidecode",
+    "matplotlib ==2.2.3",
+    "pytest",
+    "flaky",
+    "responses >=0.7",
+    "numpydoc ==0.8.0",
+    "conllu ==0.11",
+    "parsimonious ==0.8.0",
+    "ftfy",
+    "sqlparse ==0.2.4",
+    "pytorch-pretrained-bert ==0.1.2",
+    "python",
+    "pytorch >=0.4.1,<0.5.0",
+    "jsonnet ==0.10.0",
+    "overrides",
+    "nltk",
+    "msgpack-python >=0.5.6,<0.6.0",
+    "spacy >=2.0,<2.1",
+    "numpy",
+    "tensorboardx ==1.2",
+    "cffi 1.11.*",
+    "awscli >=1.11.91",
+    "boto3",
+    "moto ==1.3.4",
+    "flask ==1.0.2",
+    "flask-cors ==3.0.6",
+    "gevent ==1.3.6",
+    "requests >=2.18",
+    "tqdm >=4.19",
+    "editdistance",
+    "h5py",
+    "scikit-learn",
+    "scipy",
+    "pytz ==2017.3",
+    "unidecode",
+    "matplotlib ==2.2.3",
+    "pytest",
+    "flaky",
+    "responses >=0.7",
+    "numpydoc ==0.8.0",
+    "conllu ==0.11",
+    "parsimonious ==0.8.0",
+    "ftfy",
+    "sqlparse ==0.2.4",
+    "pytorch-pretrained-bert ==0.1.2"
+   ]
+  },
+  "source":[
+   {
+    "folder":"allennlp",
+    "patches":[
+     "0001-use-entry-points.diff"
+    ],
+    "sha256":"c51d32598ed0efb0599c15f463e2fe792e06d843964528b6bca9747b0d31be5c",
+    "url":"https://pypi.io/packages/source/a/allennlp/allennlp-0.7.2.tar.gz"
+   },
+   {
+    "folder":"en_core_web_sm",
+    "sha256":"9d9d231d7c9cbad82178b566fdb25768e3d5098af23ce11e03ec4f432f4a2298",
+    "url":"https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-2.0.0/en_core_web_sm-2.0.0.tar.gz"
+   },
+   {
+    "folder":"allennlp",
+    "patches":[
+     "0001-use-entry-points.diff"
+    ],
+    "sha256":"c51d32598ed0efb0599c15f463e2fe792e06d843964528b6bca9747b0d31be5c",
+    "url":"https://pypi.io/packages/source/a/allennlp/allennlp-0.7.2.tar.gz"
+   },
+   {
+    "folder":"en_core_web_sm",
+    "sha256":"9d9d231d7c9cbad82178b566fdb25768e3d5098af23ce11e03ec4f432f4a2298",
+    "url":"https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-2.0.0/en_core_web_sm-2.0.0.tar.gz"
+   },
+   {
+    "folder":"allennlp",
+    "patches":[
+     "0001-use-entry-points.diff"
+    ],
+    "sha256":"c51d32598ed0efb0599c15f463e2fe792e06d843964528b6bca9747b0d31be5c",
+    "url":"https://pypi.io/packages/source/a/allennlp/allennlp-0.7.2.tar.gz"
+   },
+   {
+    "folder":"en_core_web_sm",
+    "sha256":"9d9d231d7c9cbad82178b566fdb25768e3d5098af23ce11e03ec4f432f4a2298",
+    "url":"https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-2.0.0/en_core_web_sm-2.0.0.tar.gz"
+   }
+  ],
+  "test":{
+   "commands":[
+    "python -m spacy link en_core_web_sm/en_core_web_sm en_core_web_sm",
+    "allennlp test-install",
+    "python -m spacy link en_core_web_sm/en_core_web_sm en_core_web_sm",
+    "allennlp test-install",
+    "python -m spacy link en_core_web_sm/en_core_web_sm en_core_web_sm",
+    "allennlp test-install"
+   ],
+   "imports":[
+    "allennlp",
+    "allennlp.commands",
+    "allennlp.common",
+    "allennlp.common.testing",
+    "allennlp.custom_extensions",
+    "allennlp.custom_extensions._ext",
+    "allennlp.custom_extensions._ext.highway_lstm_layer",
+    "allennlp.data",
+    "allennlp.data.dataset_readers",
+    "allennlp.data.dataset_readers.coreference_resolution",
+    "allennlp.data.dataset_readers.dataset_utils",
+    "allennlp.data.dataset_readers.reading_comprehension",
+    "allennlp.data.dataset_readers.semantic_parsing",
+    "allennlp.data.dataset_readers.semantic_parsing.wikitables",
+    "allennlp.data.fields",
+    "allennlp.data.iterators",
+    "allennlp.data.token_indexers",
+    "allennlp.data.tokenizers",
+    "allennlp.models",
+    "allennlp.models.coreference_resolution",
+    "allennlp.models.encoder_decoders",
+    "allennlp.models.reading_comprehension",
+    "allennlp.models.semantic_parsing",
+    "allennlp.models.semantic_parsing.atis",
+    "allennlp.models.semantic_parsing.nlvr",
+    "allennlp.models.semantic_parsing.quarel",
+    "allennlp.models.semantic_parsing.wikitables",
+    "allennlp.modules",
+    "allennlp.modules.attention",
+    "allennlp.modules.matrix_attention",
+    "allennlp.modules.seq2seq_encoders",
+    "allennlp.modules.seq2vec_encoders",
+    "allennlp.modules.similarity_functions",
+    "allennlp.modules.span_extractors",
+    "allennlp.modules.text_field_embedders",
+    "allennlp.modules.token_embedders",
+    "allennlp.nn",
+    "allennlp.nn.regularizers",
+    "allennlp.predictors",
+    "allennlp.semparse",
+    "allennlp.semparse.contexts",
+    "allennlp.semparse.executors",
+    "allennlp.semparse.type_declarations",
+    "allennlp.semparse.worlds",
+    "allennlp.service",
+    "allennlp.service.predictors",
+    "allennlp.state_machines",
+    "allennlp.state_machines.states",
+    "allennlp.state_machines.trainers",
+    "allennlp.state_machines.transition_functions",
+    "allennlp.tools",
+    "allennlp.training",
+    "allennlp.training.metrics",
+    "allennlp",
+    "allennlp.commands",
+    "allennlp.common",
+    "allennlp.common.testing",
+    "allennlp.custom_extensions",
+    "allennlp.custom_extensions._ext",
+    "allennlp.custom_extensions._ext.highway_lstm_layer",
+    "allennlp.data",
+    "allennlp.data.dataset_readers",
+    "allennlp.data.dataset_readers.coreference_resolution",
+    "allennlp.data.dataset_readers.dataset_utils",
+    "allennlp.data.dataset_readers.reading_comprehension",
+    "allennlp.data.dataset_readers.semantic_parsing",
+    "allennlp.data.dataset_readers.semantic_parsing.wikitables",
+    "allennlp.data.fields",
+    "allennlp.data.iterators",
+    "allennlp.data.token_indexers",
+    "allennlp.data.tokenizers",
+    "allennlp.models",
+    "allennlp.models.coreference_resolution",
+    "allennlp.models.encoder_decoders",
+    "allennlp.models.reading_comprehension",
+    "allennlp.models.semantic_parsing",
+    "allennlp.models.semantic_parsing.atis",
+    "allennlp.models.semantic_parsing.nlvr",
+    "allennlp.models.semantic_parsing.quarel",
+    "allennlp.models.semantic_parsing.wikitables",
+    "allennlp.modules",
+    "allennlp.modules.attention",
+    "allennlp.modules.matrix_attention",
+    "allennlp.modules.seq2seq_encoders",
+    "allennlp.modules.seq2vec_encoders",
+    "allennlp.modules.similarity_functions",
+    "allennlp.modules.span_extractors",
+    "allennlp.modules.text_field_embedders",
+    "allennlp.modules.token_embedders",
+    "allennlp.nn",
+    "allennlp.nn.regularizers",
+    "allennlp.predictors",
+    "allennlp.semparse",
+    "allennlp.semparse.contexts",
+    "allennlp.semparse.executors",
+    "allennlp.semparse.type_declarations",
+    "allennlp.semparse.worlds",
+    "allennlp.service",
+    "allennlp.service.predictors",
+    "allennlp.state_machines",
+    "allennlp.state_machines.states",
+    "allennlp.state_machines.trainers",
+    "allennlp.state_machines.transition_functions",
+    "allennlp.tools",
+    "allennlp.training",
+    "allennlp.training.metrics",
+    "allennlp",
+    "allennlp.commands",
+    "allennlp.common",
+    "allennlp.common.testing",
+    "allennlp.custom_extensions",
+    "allennlp.custom_extensions._ext",
+    "allennlp.custom_extensions._ext.highway_lstm_layer",
+    "allennlp.data",
+    "allennlp.data.dataset_readers",
+    "allennlp.data.dataset_readers.coreference_resolution",
+    "allennlp.data.dataset_readers.dataset_utils",
+    "allennlp.data.dataset_readers.reading_comprehension",
+    "allennlp.data.dataset_readers.semantic_parsing",
+    "allennlp.data.dataset_readers.semantic_parsing.wikitables",
+    "allennlp.data.fields",
+    "allennlp.data.iterators",
+    "allennlp.data.token_indexers",
+    "allennlp.data.tokenizers",
+    "allennlp.models",
+    "allennlp.models.coreference_resolution",
+    "allennlp.models.encoder_decoders",
+    "allennlp.models.reading_comprehension",
+    "allennlp.models.semantic_parsing",
+    "allennlp.models.semantic_parsing.atis",
+    "allennlp.models.semantic_parsing.nlvr",
+    "allennlp.models.semantic_parsing.quarel",
+    "allennlp.models.semantic_parsing.wikitables",
+    "allennlp.modules",
+    "allennlp.modules.attention",
+    "allennlp.modules.matrix_attention",
+    "allennlp.modules.seq2seq_encoders",
+    "allennlp.modules.seq2vec_encoders",
+    "allennlp.modules.similarity_functions",
+    "allennlp.modules.span_extractors",
+    "allennlp.modules.text_field_embedders",
+    "allennlp.modules.token_embedders",
+    "allennlp.nn",
+    "allennlp.nn.regularizers",
+    "allennlp.predictors",
+    "allennlp.semparse",
+    "allennlp.semparse.contexts",
+    "allennlp.semparse.executors",
+    "allennlp.semparse.type_declarations",
+    "allennlp.semparse.worlds",
+    "allennlp.service",
+    "allennlp.service.predictors",
+    "allennlp.state_machines",
+    "allennlp.state_machines.states",
+    "allennlp.state_machines.trainers",
+    "allennlp.state_machines.transition_functions",
+    "allennlp.tools",
+    "allennlp.training",
+    "allennlp.training.metrics"
+   ],
+   "requires":[
+    "ipykernel <5.0.0",
+    "jupyter",
+    "nltk_data",
+    "ipykernel <5.0.0",
+    "jupyter",
+    "nltk_data",
+    "ipykernel <5.0.0",
+    "jupyter",
+    "nltk_data"
+   ],
+   "source_files":[
+    "en_core_web_sm",
+    "en_core_web_sm",
+    "en_core_web_sm"
+   ]
+  }
+ },
+ "name":"allennlp",
+ "new_version":"0.9.0",
+ "pinning_version":"2020.02.12",
+ "raw_meta_yaml":"{% set name = \"allennlp\" %}\n{% set version = \"0.7.2\" %}\n\n{% set spacy_model = \"en_core_web_sm\" %}\n{% set spacy_model_version = \"2.0.0\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  - folder: {{ name }}\n    url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n    sha256: c51d32598ed0efb0599c15f463e2fe792e06d843964528b6bca9747b0d31be5c\n    patches:\n      # Remove when allenai/allennlp#2232 is merged and released.\n      - 0001-use-entry-points.diff\n\n  # Spacy Model\n  - folder: {{ spacy_model }}\n    url: https://github.com/explosion/spacy-models/releases/download/{{ spacy_model }}-{{ spacy_model_version }}/{{ spacy_model }}-{{ spacy_model_version }}.tar.gz\n    sha256: 9d9d231d7c9cbad82178b566fdb25768e3d5098af23ce11e03ec4f432f4a2298\n\nbuild:\n  entry_points:\n    - allennlp=allennlp.run:run\n  number: 0\n  script: \"{{ PYTHON }} -m pip install ./{{ name }} --no-deps -vv\"\n  skip: True  # [not linux or py<36]\n\nrequirements:\n  build:\n    - {{ compiler('c') }}\n  host:\n    - python\n    - pip\n  run:\n    - python\n    - pytorch >=0.4.1,<0.5.0\n    - jsonnet ==0.10.0\n    - overrides\n    - nltk\n    - msgpack-python >=0.5.6,<0.6.0\n    - spacy >=2.0,<2.1\n    - numpy\n    - tensorboardx ==1.2\n    - cffi 1.11.*\n    - awscli >=1.11.91\n    - boto3\n    - moto ==1.3.4\n    - flask ==1.0.2\n    - flask-cors ==3.0.6\n    - gevent ==1.3.6\n    - requests >=2.18\n    - tqdm >=4.19\n    - editdistance\n    - h5py\n    - scikit-learn\n    - scipy\n    - pytz ==2017.3\n    - unidecode\n    - matplotlib ==2.2.3\n    - pytest\n    - flaky\n    - responses >=0.7\n    - numpydoc ==0.8.0\n    - conllu ==0.11\n    - parsimonious ==0.8.0\n    - ftfy\n    - sqlparse ==0.2.4\n    - pytorch-pretrained-bert ==0.1.2\n\ntest:\n  source_files:\n    - {{ spacy_model }}\n  commands:\n    - python -m spacy link {{ spacy_model }}/{{ spacy_model }} {{ spacy_model }}\n    - allennlp test-install\n  imports:\n    - allennlp\n    - allennlp.commands\n    - allennlp.common\n    - allennlp.common.testing\n    - allennlp.custom_extensions\n    - allennlp.custom_extensions._ext\n    - allennlp.custom_extensions._ext.highway_lstm_layer\n    - allennlp.data\n    - allennlp.data.dataset_readers\n    - allennlp.data.dataset_readers.coreference_resolution\n    - allennlp.data.dataset_readers.dataset_utils\n    - allennlp.data.dataset_readers.reading_comprehension\n    - allennlp.data.dataset_readers.semantic_parsing\n    - allennlp.data.dataset_readers.semantic_parsing.wikitables\n    - allennlp.data.fields\n    - allennlp.data.iterators\n    - allennlp.data.token_indexers\n    - allennlp.data.tokenizers\n    - allennlp.models\n    - allennlp.models.coreference_resolution\n    - allennlp.models.encoder_decoders\n    - allennlp.models.reading_comprehension\n    - allennlp.models.semantic_parsing\n    - allennlp.models.semantic_parsing.atis\n    - allennlp.models.semantic_parsing.nlvr\n    - allennlp.models.semantic_parsing.quarel\n    - allennlp.models.semantic_parsing.wikitables\n    - allennlp.modules\n    - allennlp.modules.attention\n    - allennlp.modules.matrix_attention\n    - allennlp.modules.seq2seq_encoders\n    - allennlp.modules.seq2vec_encoders\n    - allennlp.modules.similarity_functions\n    - allennlp.modules.span_extractors\n    - allennlp.modules.text_field_embedders\n    - allennlp.modules.token_embedders\n    - allennlp.nn\n    - allennlp.nn.regularizers\n    - allennlp.predictors\n    - allennlp.semparse\n    - allennlp.semparse.contexts\n    - allennlp.semparse.executors\n    - allennlp.semparse.type_declarations\n    - allennlp.semparse.worlds\n    - allennlp.service\n    - allennlp.service.predictors\n    - allennlp.state_machines\n    - allennlp.state_machines.states\n    - allennlp.state_machines.trainers\n    - allennlp.state_machines.transition_functions\n    - allennlp.tools\n    - allennlp.training\n    - allennlp.training.metrics\n  requires:\n    - ipykernel <5.0.0\n    - jupyter\n    - nltk_data\n\nabout:\n  home: https://allennlp.org/\n  license: Apache-2.0\n  license_family: APACHE\n  license_file: {{ name }}/LICENSE\n  summary: An open-source NLP research library, built on PyTorch.\n  description: |\n    An Apache 2.0 NLP research library, built on PyTorch, for developing state-of-the-art \n    deep learning models on a wide variety of linguistic tasks.\n  doc_url: https://allenai.github.io/allennlp-docs/\n  dev_url: https://github.com/allenai/allennlp\n\nextra:\n  recipe-maintainers:\n    - CurtLH\n    - sodre\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "awscli",
+   "boto3",
+   "c_compiler_stub",
+   "cffi",
+   "conllu",
+   "editdistance",
+   "flaky",
+   "flask",
+   "flask-cors",
+   "ftfy",
+   "gevent",
+   "h5py",
+   "jsonnet",
+   "matplotlib",
+   "moto",
+   "msgpack-python",
+   "nltk",
+   "numpy",
+   "numpydoc",
+   "overrides",
+   "parsimonious",
+   "pip",
+   "pytest",
+   "python",
+   "pytorch",
+   "pytorch-pretrained-bert",
+   "pytz",
+   "requests",
+   "responses",
+   "scikit-learn",
+   "scipy",
+   "spacy",
+   "sqlparse",
+   "tensorboardx",
+   "tqdm",
+   "unidecode"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "awscli",
+    "boto3",
+    "cffi",
+    "conllu",
+    "editdistance",
+    "flaky",
+    "flask",
+    "flask-cors",
+    "ftfy",
+    "gevent",
+    "h5py",
+    "jsonnet",
+    "matplotlib",
+    "moto",
+    "msgpack-python",
+    "nltk",
+    "numpy",
+    "numpydoc",
+    "overrides",
+    "parsimonious",
+    "pytest",
+    "python",
+    "pytorch",
+    "pytorch-pretrained-bert",
+    "pytz",
+    "requests",
+    "responses",
+    "scikit-learn",
+    "scipy",
+    "spacy",
+    "sqlparse",
+    "tensorboardx",
+    "tqdm",
+    "unidecode"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "ipykernel",
+    "jupyter",
+    "nltk_data"
+   ]
+  }
+ },
+ "smithy_version":"3.6.8",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "awscli >=1.11.91",
+    "boto3",
+    "cffi 1.11.*",
+    "conllu ==0.11",
+    "editdistance",
+    "flaky",
+    "flask ==1.0.2",
+    "flask-cors ==3.0.6",
+    "ftfy",
+    "gevent ==1.3.6",
+    "h5py",
+    "jsonnet ==0.10.0",
+    "matplotlib ==2.2.3",
+    "moto ==1.3.4",
+    "msgpack-python >=0.5.6,<0.6.0",
+    "nltk",
+    "numpy",
+    "numpydoc ==0.8.0",
+    "overrides",
+    "parsimonious ==0.8.0",
+    "pytest",
+    "python",
+    "pytorch >=0.4.1,<0.5.0",
+    "pytorch-pretrained-bert ==0.1.2",
+    "pytz ==2017.3",
+    "requests >=2.18",
+    "responses >=0.7",
+    "scikit-learn",
+    "scipy",
+    "spacy >=2.0,<2.1",
+    "sqlparse ==0.2.4",
+    "tensorboardx ==1.2",
+    "tqdm >=4.19",
+    "unidecode"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "ipykernel <5.0.0",
+    "jupyter",
+    "nltk_data"
+   ]
+  }
+ },
+ "url":"https://pypi.io/packages/source/a/allennlp/allennlp-0.7.2.tar.gz",
+ "version":"0.7.2"
+}

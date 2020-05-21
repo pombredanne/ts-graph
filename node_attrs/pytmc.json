@@ -1,0 +1,7 @@
+{
+ "archived":true,
+ "bad":false,
+ "feedstock_name":"pytmc",
+ "new_version":false,
+ "raw_meta_yaml":"{% set name = \"pytmc\" %}\n{% set version = \"2.6.0\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://github.com/slaclab/pytmc/archive/v{{ version }}.tar.gz\n  sha256: 9d870903eebb26685c487af63e12fae59f9ec821d7ea6f663a1f8aec4ac95a7e\n\nbuild:\n  noarch: python\n  number: 1\n  script: \"{{ PYTHON }} -m pip install . -vv\"\n\nrequirements:\n  host:\n    - python >=3.6\n    - pip\n  run:\n    - python >=3.6\n    - jinja2\n    - lxml\n    - epics-pypdb >=0.1.5\n\ntest:\n  imports:\n    - pytmc\n  requires:\n    - pytest\n    - pytest-qt\n    - qtpy\n    - pyqt >=5\n\nabout:\n  home: https://github.com/slaclab/pytmc\n  doc_url: https://slaclab.github.io/pytmc/\n  license: SLAC Open\n  license_family: Other\n  license_file: LICENSE\n  summary: 'Generate EPICS IOCs and records from Beckhoff TwinCAT projects'\n\nextra:\n  recipe-maintainers:\n    - klauer\n    - hhslepicka \n    - zllentz\n    - n-wbrown\n"
+}

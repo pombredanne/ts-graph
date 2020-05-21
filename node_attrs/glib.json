@@ -1,0 +1,429 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/219917401.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/255744408.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"ArchRebuild",
+    "migrator_version":1,
+    "name":"aarch64 and ppc64le addition"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/335789847.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"python38"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/386442080.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"pypy"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/400122691.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.59.3"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/402582922.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.59.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/403218131.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.60.4"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/403894201.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.60.5"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/404374757.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.64.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "provider":{
+   "linux_aarch64":"default",
+   "linux_ppc64le":"default"
+  }
+ },
+ "feedstock_name":"glib",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"https://developer.gnome.org/glib/",
+   "license":"LGPL-2.1-or-later",
+   "license_file":"COPYING",
+   "summary":"Provides core application building blocks for libraries and applications written in C."
+  },
+  "build":{
+   "number":"1",
+   "run_exports":[
+    "glib",
+    "glib",
+    "glib"
+   ]
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "ccordoba12",
+    "jakirkham",
+    "scopatz",
+    "ocefpaf",
+    "pkgw",
+    "isuruf",
+    "ccordoba12",
+    "jakirkham",
+    "scopatz",
+    "ocefpaf",
+    "pkgw",
+    "isuruf",
+    "ccordoba12",
+    "jakirkham",
+    "scopatz",
+    "ocefpaf",
+    "pkgw",
+    "isuruf"
+   ]
+  },
+  "package":{
+   "name":"glib",
+   "version":"2.64.2"
+  },
+  "requirements":{
+   "build":[
+    "patch",
+    "meson",
+    "ninja",
+    "pkg-config",
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "python >=2.7",
+    "meson",
+    "ninja",
+    "pkg-config",
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "python >=2.7",
+    "meson",
+    "ninja",
+    "pkg-config",
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "python >=2.7"
+   ],
+   "host":[
+    "libffi",
+    "gettext",
+    "zlib",
+    "pcre",
+    "libiconv",
+    "libffi",
+    "gettext",
+    "zlib",
+    "pcre",
+    "libiconv",
+    "libffi",
+    "gettext",
+    "zlib",
+    "pcre",
+    "libiconv"
+   ],
+   "run":[
+    "python >=2.7",
+    "libffi",
+    "gettext",
+    "zlib",
+    "pcre",
+    "libiconv",
+    "python >=2.7",
+    "libffi",
+    "gettext",
+    "zlib",
+    "pcre",
+    "libiconv",
+    "python >=2.7",
+    "libffi",
+    "gettext",
+    "zlib",
+    "pcre",
+    "libiconv"
+   ]
+  },
+  "source":{
+   "patches":[
+    "hardcoded-paths.patch",
+    "skip-some-tests.patch",
+    "0001-Manually-link-with-libiconv-whenever-we-use-libintl.patch",
+    "0002-Increase-some-test-timeouts.patch",
+    "hardcoded-paths.patch",
+    "skip-some-tests.patch",
+    "hardcoded-paths.patch",
+    "skip-some-tests.patch"
+   ],
+   "sha256":"9a2f21ed8f13b9303399de13a0252b7cbcede593d26971378ec6cb90e87f2277",
+   "url":"http://ftp.gnome.org/pub/GNOME/sources/glib/2.64/glib-2.64.2.tar.xz"
+  },
+  "test":{
+   "commands":[
+    "gdbus help",
+    "gio version",
+    "gio-querymodules .",
+    "glib-compile-resources --help",
+    "glib-compile-schemas --help",
+    "gobject-query --help",
+    "gresource help",
+    "test -f ${PREFIX}/lib/libglib-2.0",
+    "test ! -f ${PREFIX}/lib/libgobject-2.0.la",
+    "gdbus help",
+    "gio version",
+    "gio-querymodules .",
+    "glib-compile-resources --help",
+    "glib-compile-schemas --help",
+    "gobject-query --help",
+    "gresource help",
+    "gtester --help",
+    "test -f ${PREFIX}/lib/libglib-2.0",
+    "test ! -f ${PREFIX}/lib/libgobject-2.0.la",
+    "gapplication help",
+    "gdbus help",
+    "gio version",
+    "gio-querymodules .",
+    "glib-compile-resources --help",
+    "glib-compile-schemas --help",
+    "gobject-query --help",
+    "gresource help",
+    "gtester --help"
+   ]
+  }
+ },
+ "name":"glib",
+ "new_version":"2.64.2",
+ "new_version_attempts":{
+  "2.59.0":1,
+  "2.59.3":1,
+  "2.60.4":1,
+  "2.60.5":1,
+  "2.64.2":1
+ },
+ "new_version_errors":{},
+ "pinning_version":"2020.04.16.07.55.54",
+ "raw_meta_yaml":"{% set version = \"2.64.2\" %}\n{% set major_minor = \".\".join(version.split(\".\")[:2]) %}\n{% set posix = 'm2-' if win else '' %}\n{% set native = 'm2w64-' if win else '' %}\n\npackage:\n  name: glib\n  version: {{ version }}\n\nsource:\n  url: http://ftp.gnome.org/pub/GNOME/sources/glib/{{ major_minor }}/glib-{{ version }}.tar.xz\n  sha256: 9a2f21ed8f13b9303399de13a0252b7cbcede593d26971378ec6cb90e87f2277\n  patches:\n    # Related to this patch https://bugzilla.gnome.org/show_bug.cgi?id=673135\n    # However, it was rejected by upstream. Homebrew decided to keep their own\n    # copy ( https://raw.githubusercontent.com/Homebrew/patches/59e4d32/glib/hardcoded-paths.diff ).\n    # We are essentially using that copy, but with some tweaks. Info at the link below.\n    #\n    # https://github.com/Homebrew/legacy-homebrew/blob/21ce7a56cb3fc40fe93d731cc654c69268796772/Library/Formula/glib.rb#L33-L39\n    #\n    - hardcoded-paths.patch\n    - skip-some-tests.patch\n\n    #- 0001-Attempt-to-mask-out-qemu-failing-tests.patch               # [ppc64le or aarch64]\n    # Windows:\n    - 0001-Manually-link-with-libiconv-whenever-we-use-libintl.patch  # [win]\n    - 0002-Increase-some-test-timeouts.patch                          # [win]\n\nbuild:\n  number: 1\n  skip: true  # [win and py < 30]\n  run_exports:\n    - {{ pin_subpackage('glib') }}\n\n# Note that Python is in fact a runtime dependency because this package\n# provides a couple of developer support tools that are Python scripts.\n\nrequirements:\n  build:\n    - {{ posix }}patch  # [win]\n    - meson\n    - ninja\n    - {{ native }}pkg-config\n    - {{ compiler('c') }}\n    - {{ compiler('cxx') }}\n    - python >=2.7\n  host:\n    - libffi\n    - gettext\n    - zlib\n    - pcre\n    - libiconv\n  run:\n    - python >=2.7\n    - libffi\n    - gettext\n    - zlib\n    - pcre\n    - libiconv\n\ntest:\n  commands:\n    - test -f ${PREFIX}/lib/libglib-2.0{{ SHLIB_EXT }}  # [not win]\n    - test ! -f ${PREFIX}/lib/libgobject-2.0.la  # [not win]\n    # Check that binaries can run -- instigated by Meson Linux rpath issue\n    - gapplication help  # [linux]\n    - gdbus help\n    - gio version\n    - gio-querymodules .\n    - glib-compile-resources --help\n    - glib-compile-schemas --help\n    - gobject-query --help\n    - gresource help\n    - gtester --help  # [not win]\n\nabout:\n  home: https://developer.gnome.org/glib/\n  license: LGPL-2.1-or-later\n  license_file: COPYING\n  summary: Provides core application building blocks for libraries and applications written in C.\n\nextra:\n  recipe-maintainers:\n    - ccordoba12\n    - jakirkham\n    - scopatz\n    - ocefpaf\n    - pkgw\n    - isuruf\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "c_compiler_stub",
+   "cxx_compiler_stub",
+   "gettext",
+   "libffi",
+   "libiconv",
+   "meson",
+   "ninja",
+   "patch",
+   "pcre",
+   "pkg-config",
+   "python",
+   "zlib"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "meson",
+    "ninja",
+    "patch",
+    "pkg-config",
+    "python"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "gettext",
+    "libffi",
+    "libiconv",
+    "pcre",
+    "zlib"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "gettext",
+    "libffi",
+    "libiconv",
+    "pcre",
+    "python",
+    "zlib"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.6.16",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "meson",
+    "ninja",
+    "patch",
+    "pkg-config",
+    "python >=2.7"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "gettext",
+    "libffi",
+    "libiconv",
+    "pcre",
+    "zlib"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "gettext",
+    "libffi",
+    "libiconv",
+    "pcre",
+    "python >=2.7",
+    "zlib"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"http://ftp.gnome.org/pub/GNOME/sources/glib/2.58/glib-2.58.3.tar.xz",
+ "version":"2.64.2"
+}

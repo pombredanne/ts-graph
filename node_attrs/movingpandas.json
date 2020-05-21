@@ -1,0 +1,179 @@
+{
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"movingpandas",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"https://github.com/anitagraser/movingpandas",
+   "license":"BSD-3-Clause",
+   "license_family":"BSD",
+   "license_file":"LICENSE.txt",
+   "summary":"Implementation of Trajectory classes and functions built on top of GeoPandas"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "anitagraser",
+    "jorisvandenbossche",
+    "anitagraser",
+    "jorisvandenbossche",
+    "anitagraser",
+    "jorisvandenbossche"
+   ]
+  },
+  "package":{
+   "name":"movingpandas",
+   "version":"0.3rc1"
+  },
+  "requirements":{
+   "host":[
+    "python >=3.7",
+    "pip",
+    "python >=3.7",
+    "pip",
+    "python >=3.7",
+    "pip"
+   ],
+   "run":[
+    "python >=3.7",
+    "numpy",
+    "pandas",
+    "shapely",
+    "geopandas",
+    "matplotlib-base",
+    "hvplot",
+    "bokeh <2.0",
+    "cartopy",
+    "geoviews",
+    "pyproj",
+    "python >=3.7",
+    "numpy",
+    "pandas",
+    "shapely",
+    "geopandas",
+    "matplotlib-base",
+    "hvplot",
+    "bokeh <2.0",
+    "cartopy",
+    "geoviews",
+    "pyproj",
+    "python >=3.7",
+    "numpy",
+    "pandas",
+    "shapely",
+    "geopandas",
+    "matplotlib-base",
+    "hvplot",
+    "bokeh <2.0",
+    "cartopy",
+    "geoviews",
+    "pyproj"
+   ]
+  },
+  "source":{
+   "sha256":"53104db32cb6bca165762582878d7cc568e44733441c82b7f0e1a6b0fd4b4f70",
+   "url":"https://pypi.io/packages/source/m/movingpandas/movingpandas-0.3rc1.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "movingpandas",
+    "movingpandas",
+    "movingpandas"
+   ]
+  }
+ },
+ "name":"movingpandas",
+ "new_version":false,
+ "raw_meta_yaml":"{% set version = \"0.3rc1\" %}\n\npackage:\n  name: movingpandas\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/m/movingpandas/movingpandas-{{ version }}.tar.gz\n  sha256: 53104db32cb6bca165762582878d7cc568e44733441c82b7f0e1a6b0fd4b4f70\n\nbuild:\n  number: 0\n  noarch: python\n  script: \"{{ PYTHON }} -m pip install . -vv\"\n\nrequirements:\n  host:\n    - python >=3.7\n    - pip\n  run:\n    - python >=3.7\n    - numpy\n    - pandas\n    - shapely\n    - geopandas\n    - matplotlib-base\n    - hvplot\n    - bokeh <2.0\n    - cartopy\n    - geoviews\n    - pyproj\n\ntest:\n  imports:\n    - movingpandas\n\nabout:\n  home: https://github.com/anitagraser/movingpandas\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: LICENSE.txt\n  summary: 'Implementation of Trajectory classes and functions built on top of GeoPandas'\n\nextra:\n  recipe-maintainers:\n    - anitagraser\n    - jorisvandenbossche\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "bokeh",
+   "cartopy",
+   "geopandas",
+   "geoviews",
+   "hvplot",
+   "matplotlib-base",
+   "numpy",
+   "pandas",
+   "pip",
+   "pyproj",
+   "python",
+   "shapely"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "bokeh",
+    "cartopy",
+    "geopandas",
+    "geoviews",
+    "hvplot",
+    "matplotlib-base",
+    "numpy",
+    "pandas",
+    "pyproj",
+    "python",
+    "shapely"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3.7"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "bokeh <2.0",
+    "cartopy",
+    "geopandas",
+    "geoviews",
+    "hvplot",
+    "matplotlib-base",
+    "numpy",
+    "pandas",
+    "pyproj",
+    "python >=3.7",
+    "shapely"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/m/movingpandas/movingpandas-0.1.dev2.tar.gz",
+ "version":"0.3rc1"
+}

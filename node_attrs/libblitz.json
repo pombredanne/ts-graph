@@ -1,0 +1,98 @@
+{
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"libblitz",
+ "hash_type":"md5",
+ "meta_yaml":{
+  "about":{
+   "home":"https://sourceforge.net/projects/blitz",
+   "license":"LGPL 3",
+   "summary":"A C++ class library for scientific computing which provides performance on par with Fortran 77/90"
+  },
+  "build":{
+   "features":null,
+   "number":"2"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "183amir",
+    "183amir",
+    "183amir"
+   ]
+  },
+  "package":{
+   "name":"libblitz",
+   "version":"0.10"
+  },
+  "requirements":{
+   "build":null,
+   "run":null
+  },
+  "source":{
+   "fn":"blitz-0.10.tar.gz",
+   "md5":"66268b92bda923735f2e3afc87dcb58a",
+   "url":"http://downloads.sourceforge.net/project/blitz/blitz/Blitz%2B%2B%200.10/blitz-0.10.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "if not exist %PREFIX%\\Library\\bin\\blitz.dll exit 1",
+    "if not exist %PREFIX%\\Library\\lib\\blitz.lib exit 1",
+    "if not exist %PREFIX%\\Library\\lib\\pkgconfig\\blitz.pc exit 1",
+    "if not exist %PREFIX%\\Library\\include\\blitz\\blitz.h exit 1",
+    "if not exist %PREFIX%\\Library\\include\\blitz\\ms\\bzconfig.h exit 1",
+    "test -d $PREFIX/include/blitz",
+    "test -e $PREFIX/lib/libblitz.a",
+    "test -e $PREFIX/lib/libblitz.dylib",
+    "test -d $PREFIX/include/blitz",
+    "test -e $PREFIX/lib/libblitz.a",
+    "test -e $PREFIX/lib/libblitz.so"
+   ]
+  }
+ },
+ "name":"libblitz",
+ "new_version":false,
+ "raw_meta_yaml":"{% set version = \"0.10\" %}\n\npackage:\n  name: libblitz\n  version: {{ version }}\n\nsource:\n  fn: blitz-{{ version }}.tar.gz\n  url: http://downloads.sourceforge.net/project/blitz/blitz/Blitz%2B%2B%20{{ version }}/blitz-{{ version }}.tar.gz\n  md5: 66268b92bda923735f2e3afc87dcb58a\n\nbuild:\n  number: 2\n  skip: true  # [win and py27]\n  features:\n    - vc9   # [win and py27]\n    - vc10  # [win and py34]\n    - vc14  # [win and py>=35]\n\nrequirements:\n  build:\n    - python  # [win]\n    - vc 9  # [win and py27]\n    - vc 10  # [win and py34]\n    - vc 14  # [win and py>=35]\n  run:\n    - vc 9  # [win and py27]\n    - vc 10  # [win and py34]\n    - vc 14  # [win and py>=35]\n\ntest:\n  commands:\n    - test -d $PREFIX/include/blitz        # [unix]\n    - test -e $PREFIX/lib/libblitz.a       # [unix]\n    - test -e $PREFIX/lib/libblitz.so      # [linux]\n    - test -e $PREFIX/lib/libblitz.dylib   # [osx]\n    - if not exist %PREFIX%\\Library\\bin\\blitz.dll exit 1  # [win]\n    - if not exist %PREFIX%\\Library\\lib\\blitz.lib exit 1  # [win]\n    - if not exist %PREFIX%\\Library\\lib\\pkgconfig\\blitz.pc exit 1  # [win]\n    - if not exist %PREFIX%\\Library\\include\\blitz\\blitz.h exit 1  # [win]\n    - if not exist %PREFIX%\\Library\\include\\blitz\\ms\\bzconfig.h exit 1  # [win]\n\nabout:\n  home: https://sourceforge.net/projects/blitz\n  license: LGPL 3\n  summary: A C++ class library for scientific computing which provides performance on par with Fortran 77/90\n\nextra:\n  recipe-maintainers:\n    - 183amir\n",
+ "req":{
+  "__set__":true,
+  "elements":[]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"http://downloads.sourceforge.net/project/blitz/blitz/Blitz%2B%2B%200.10/blitz-0.10.tar.gz",
+ "version":"0.10"
+}

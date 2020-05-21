@@ -1,0 +1,406 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/241640714.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/299557499.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"RBaseRebuild",
+    "migrator_version":0,
+    "name":"r-base-3.6.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/382874788.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.6"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/410875201.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.6.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/413896089.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":2,
+    "migrator_version":0,
+    "name":"r400"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "bot":{
+   "automerge":true
+  },
+  "provider":{
+   "win":"azure"
+  }
+ },
+ "feedstock_name":"r-prophet",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"https://github.com/facebook/prophet",
+   "license":"BSD_3_clause",
+   "license_family":"BSD",
+   "license_file":"/lib/R/share/licenses/BSD_3_clause",
+   "summary":"Implements a procedure for forecasting time series data based on an additive model where non-linear trends are fit with yearly, weekly, and daily seasonality, plus holiday effects. It works best with time series that have strong seasonal effects and several seasons of historical data. Prophet is robust to missing data and shifts in the trend, and typically handles outliers well."
+  },
+  "build":{
+   "merge_build_host":true,
+   "number":"1",
+   "rpaths":[
+    "lib/R/lib/",
+    "lib/",
+    "lib/R/lib/",
+    "lib/",
+    "lib/R/lib/",
+    "lib/"
+   ],
+   "skip":true
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "conda-forge/r",
+    "philip-khor",
+    "conda-forge/r",
+    "philip-khor",
+    "conda-forge/r",
+    "philip-khor"
+   ]
+  },
+  "package":{
+   "name":"r-prophet",
+   "version":"0.6.1"
+  },
+  "requirements":{
+   "build":[
+    "m2w64_c_compiler_stub",
+    "m2w64_cxx_compiler_stub",
+    "filesystem",
+    "make",
+    "sed",
+    "coreutils",
+    "zip",
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "make",
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "make"
+   ],
+   "host":[
+    "r-base",
+    "r-rcpp >=0.12.0",
+    "r-dplyr >=0.7.7",
+    "r-dygraphs >=1.1.1.4",
+    "r-extradistr",
+    "r-ggplot2",
+    "r-rlang >=0.3.0.1",
+    "r-rstan >=2.18.1",
+    "r-rstantools >=2.0.0",
+    "r-scales",
+    "r-tidyr >=0.6.1",
+    "r-xts",
+    "r-base",
+    "r-rcpp >=0.12.0",
+    "r-dplyr >=0.7.7",
+    "r-dygraphs >=1.1.1.4",
+    "r-extradistr",
+    "r-ggplot2",
+    "r-rlang >=0.3.0.1",
+    "r-rstan >=2.18.1",
+    "r-rstantools >=2.0.0",
+    "r-scales",
+    "r-tidyr >=0.6.1",
+    "r-xts",
+    "r-base",
+    "r-rcpp >=0.12.0",
+    "r-dplyr >=0.7.7",
+    "r-dygraphs >=1.1.1.4",
+    "r-extradistr",
+    "r-ggplot2",
+    "r-rlang >=0.3.0.1",
+    "r-rstan >=2.18.1",
+    "r-rstantools >=2.0.0",
+    "r-scales",
+    "r-tidyr >=0.6.1",
+    "r-xts"
+   ],
+   "run":[
+    "r-base",
+    "gcc-libs",
+    "r-rcpp >=0.12.0",
+    "r-dplyr >=0.7.7",
+    "r-dygraphs >=1.1.1.4",
+    "r-extradistr",
+    "r-ggplot2",
+    "r-rlang >=0.3.0.1",
+    "r-rstan >=2.18.1",
+    "r-rstantools >=2.0.0",
+    "r-scales",
+    "r-tidyr >=0.6.1",
+    "r-xts",
+    "r-base",
+    "r-rcpp >=0.12.0",
+    "r-dplyr >=0.7.7",
+    "r-dygraphs >=1.1.1.4",
+    "r-extradistr",
+    "r-ggplot2",
+    "r-rlang >=0.3.0.1",
+    "r-rstan >=2.18.1",
+    "r-rstantools >=2.0.0",
+    "r-scales",
+    "r-tidyr >=0.6.1",
+    "r-xts",
+    "r-base",
+    "r-rcpp >=0.12.0",
+    "r-dplyr >=0.7.7",
+    "r-dygraphs >=1.1.1.4",
+    "r-extradistr",
+    "r-ggplot2",
+    "r-rlang >=0.3.0.1",
+    "r-rstan >=2.18.1",
+    "r-rstantools >=2.0.0",
+    "r-scales",
+    "r-tidyr >=0.6.1",
+    "r-xts"
+   ]
+  },
+  "source":{
+   "sha256":"61c2f9c11676f77896fea188d74acd28a9be0ce94769aac7c083848118816521",
+   "url":[
+    "https://cran.r-project.org/src/contrib/prophet_0.6.1.tar.gz",
+    "https://cran.r-project.org/src/contrib/Archive/prophet/prophet_0.6.1.tar.gz",
+    "https://cran.r-project.org/src/contrib/prophet_0.6.1.tar.gz",
+    "https://cran.r-project.org/src/contrib/Archive/prophet/prophet_0.6.1.tar.gz",
+    "https://cran.r-project.org/src/contrib/prophet_0.6.1.tar.gz",
+    "https://cran.r-project.org/src/contrib/Archive/prophet/prophet_0.6.1.tar.gz"
+   ]
+  },
+  "test":{
+   "commands":[
+    "\"%R%\" -e \"library('prophet')\"",
+    "$R -e \"library('prophet')\"",
+    "$R -e \"library('prophet')\""
+   ]
+  }
+ },
+ "name":"r-prophet",
+ "new_version":"0.6.1",
+ "new_version_attempts":{
+  "0.6.1":1
+ },
+ "new_version_errors":{},
+ "pinning_version":"2020.05.04.19.59.17",
+ "raw_meta_yaml":"{% set version = \"0.6.1\" %}\n{% set posix = 'm2-' if win else '' %}\n{% set native = 'm2w64-' if win else '' %}\n\npackage:\n  name: r-prophet\n  version: {{ version|replace(\"-\", \"_\") }}\n\nsource:\n  url:\n    - {{ cran_mirror }}/src/contrib/prophet_{{ version }}.tar.gz\n    - {{ cran_mirror }}/src/contrib/Archive/prophet/prophet_{{ version }}.tar.gz\n  sha256: 61c2f9c11676f77896fea188d74acd28a9be0ce94769aac7c083848118816521\n\nbuild:\n  merge_build_host: true  # [win]\n  number: 1\n  # given by the availability of rstan\n  skip: true  # [win]\n  rpaths:\n    - lib/R/lib/\n    - lib/\n\nrequirements:\n  build:\n    - {{ compiler('c') }}              # [not win]\n    - {{ compiler('m2w64_c') }}        # [win]\n    - {{ compiler('cxx') }}            # [not win]\n    - {{ compiler('m2w64_cxx') }}      # [win]\n    - {{ posix }}filesystem        # [win]\n    - {{ posix }}make\n    - {{ posix }}sed               # [win]\n    - {{ posix }}coreutils         # [win]\n    - {{ posix }}zip               # [win]\n  host:\n    - r-base\n    - r-rcpp >=0.12.0\n    - r-dplyr >=0.7.7\n    - r-dygraphs >=1.1.1.4\n    - r-extradistr\n    - r-ggplot2\n    - r-rlang >=0.3.0.1\n    - r-rstan >=2.18.1\n    - r-rstantools >=2.0.0\n    - r-scales\n    - r-tidyr >=0.6.1\n    - r-xts\n  run:\n    - r-base\n    - {{ native }}gcc-libs         # [win]\n    - r-rcpp >=0.12.0\n    - r-dplyr >=0.7.7\n    - r-dygraphs >=1.1.1.4\n    - r-extradistr\n    - r-ggplot2\n    - r-rlang >=0.3.0.1\n    - r-rstan >=2.18.1\n    - r-rstantools >=2.0.0\n    - r-scales\n    - r-tidyr >=0.6.1\n    - r-xts\n\ntest:\n  commands:\n    - $R -e \"library('prophet')\"           # [not win]\n    - \"\\\"%R%\\\" -e \\\"library('prophet')\\\"\"  # [win]\n\nabout:\n  home: https://github.com/facebook/prophet\n  license: BSD_3_clause\n  summary: Implements a procedure for forecasting time series data based on an additive model where non-linear trends are fit with yearly, weekly, and daily seasonality, plus holiday effects. It works best with time series that have strong seasonal effects and several seasons of historical data. Prophet is robust to missing\n    data and shifts in the trend, and typically handles outliers well.\n  license_family: BSD\n  license_file: {{ environ[\"PREFIX\"] }}/lib/R/share/licenses/BSD_3_clause\n\nextra:\n  recipe-maintainers:\n    - conda-forge/r\n    - philip-khor\n\n# Package: prophet\n# Title: Automatic Forecasting Procedure\n# Version: 0.5\n# Date: 2019-05-15\n# Authors@R: c( person(\"Sean\", \"Taylor\", email = \"sjtz@pm.me\", role = c(\"cre\", \"aut\")), person(\"Ben\", \"Letham\", email = \"bletham@fb.com\", role = \"aut\") )\n# Description: Implements a procedure for forecasting time series data based on an additive model where non-linear trends are fit with yearly, weekly, and daily seasonality, plus holiday effects. It works best with time series that have strong seasonal effects and several seasons of historical data. Prophet is robust to missing data and shifts in the trend, and typically handles outliers well.\n# Depends: R (>= 3.2.3), Rcpp (>= 0.12.0), rlang (>= 0.3.0.1)\n# Imports: dplyr (>= 0.7.7), dygraphs (>= 1.1.1.4), extraDistr, ggplot2, grid, rstan (>= 2.14.0), scales, stats, tidyr (>= 0.6.1), xts\n# Suggests: knitr, testthat, readr\n# License: BSD_3_clause + file LICENSE\n# URL: https://github.com/facebook/prophet\n# BugReports: https://github.com/facebook/prophet/issues\n# LazyData: true\n# RoxygenNote: 6.1.1\n# VignetteBuilder: knitr\n# SystemRequirements: C++11\n# Encoding: UTF-8\n# NeedsCompilation: yes\n# Packaged: 2019-05-14 06:02:42 UTC; sjt\n# Author: Sean Taylor [cre, aut], Ben Letham [aut]\n# Maintainer: Sean Taylor <sjtz@pm.me>\n# Repository: CRAN\n# Date/Publication: 2019-05-14 21:50:03 UTC\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "c_compiler_stub",
+   "coreutils",
+   "cxx_compiler_stub",
+   "filesystem",
+   "gcc-libs",
+   "m2w64_c_compiler_stub",
+   "m2w64_cxx_compiler_stub",
+   "make",
+   "r-base",
+   "r-dplyr",
+   "r-dygraphs",
+   "r-extradistr",
+   "r-ggplot2",
+   "r-rcpp",
+   "r-rlang",
+   "r-rstan",
+   "r-rstantools",
+   "r-scales",
+   "r-tidyr",
+   "r-xts",
+   "sed",
+   "zip"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "coreutils",
+    "cxx_compiler_stub",
+    "filesystem",
+    "m2w64_c_compiler_stub",
+    "m2w64_cxx_compiler_stub",
+    "make",
+    "sed",
+    "zip"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "r-base",
+    "r-dplyr",
+    "r-dygraphs",
+    "r-extradistr",
+    "r-ggplot2",
+    "r-rcpp",
+    "r-rlang",
+    "r-rstan",
+    "r-rstantools",
+    "r-scales",
+    "r-tidyr",
+    "r-xts"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "gcc-libs",
+    "r-base",
+    "r-dplyr",
+    "r-dygraphs",
+    "r-extradistr",
+    "r-ggplot2",
+    "r-rcpp",
+    "r-rlang",
+    "r-rstan",
+    "r-rstantools",
+    "r-scales",
+    "r-tidyr",
+    "r-xts"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.7.0\n",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "coreutils",
+    "cxx_compiler_stub",
+    "filesystem",
+    "m2w64_c_compiler_stub",
+    "m2w64_cxx_compiler_stub",
+    "make",
+    "sed",
+    "zip"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "r-base",
+    "r-dplyr >=0.7.7",
+    "r-dygraphs >=1.1.1.4",
+    "r-extradistr",
+    "r-ggplot2",
+    "r-rcpp >=0.12.0",
+    "r-rlang >=0.3.0.1",
+    "r-rstan >=2.18.1",
+    "r-rstantools >=2.0.0",
+    "r-scales",
+    "r-tidyr >=0.6.1",
+    "r-xts"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "gcc-libs",
+    "r-base",
+    "r-dplyr >=0.7.7",
+    "r-dygraphs >=1.1.1.4",
+    "r-extradistr",
+    "r-ggplot2",
+    "r-rcpp >=0.12.0",
+    "r-rlang >=0.3.0.1",
+    "r-rstan >=2.18.1",
+    "r-rstantools >=2.0.0",
+    "r-scales",
+    "r-tidyr >=0.6.1",
+    "r-xts"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":[
+  "https://cran.r-project.org/src/contrib/prophet_0.5.tar.gz",
+  "https://cran.r-project.org/src/contrib/Archive/prophet/prophet_0.5.tar.gz",
+  "https://cran.r-project.org/src/contrib/prophet_0.5.tar.gz",
+  "https://cran.r-project.org/src/contrib/Archive/prophet/prophet_0.5.tar.gz",
+  "https://cran.r-project.org/src/contrib/prophet_0.5.tar.gz",
+  "https://cran.r-project.org/src/contrib/Archive/prophet/prophet_0.5.tar.gz"
+ ],
+ "version":"0.6.1"
+}

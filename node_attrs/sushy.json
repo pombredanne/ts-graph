@@ -1,0 +1,239 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/314752933.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.0.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/353616359.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.0.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/374607360.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.1.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/397525343.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.2.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"sushy",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"https://github.com/openstack/sushy",
+   "license":"Apache Software",
+   "license_family":"APACHE",
+   "license_file":"LICENSE",
+   "summary":"Sushy is a Python library to communicate with Redfish based systems. The goal of the library is to be extremely simple, small, have as few dependencies as possible and be very conservative when dealing with BMCs by issuing just enough requests to it (BMCs are very flaky)."
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . --no-deps --ignore-installed -vv "
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "pg-hbk",
+    "sy-hbk",
+    "pg-hbk",
+    "sy-hbk",
+    "pg-hbk",
+    "sy-hbk"
+   ]
+  },
+  "package":{
+   "name":"sushy",
+   "version":"1.9.0"
+  },
+  "requirements":{
+   "host":[
+    "pbr !=2.1.0,>=2.0.0",
+    "pbr",
+    "python",
+    "pbr !=2.1.0,>=2.0.0",
+    "pbr",
+    "python",
+    "pbr !=2.1.0,>=2.0.0",
+    "pbr",
+    "python"
+   ],
+   "run":[
+    "pbr !=2.1.0,>=2.0.0",
+    "python",
+    "python-dateutil >=2.7.0",
+    "requests >=2.14.2",
+    "six >=1.10.0",
+    "stevedore >=1.29.0",
+    "pbr !=2.1.0,>=2.0.0",
+    "python",
+    "python-dateutil >=2.7.0",
+    "requests >=2.14.2",
+    "six >=1.10.0",
+    "stevedore >=1.29.0",
+    "pbr !=2.1.0,>=2.0.0",
+    "python",
+    "python-dateutil >=2.7.0",
+    "requests >=2.14.2",
+    "six >=1.10.0",
+    "stevedore >=1.29.0"
+   ]
+  },
+  "source":{
+   "sha256":"748a27cba8a9eec716633cb4234097bac1bfc4e41872134fc045fd0faa5051db",
+   "url":"https://pypi.io/packages/source/s/sushy/sushy-1.9.0.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "sushy",
+    "sushy.auth",
+    "sushy.connector",
+    "sushy.exceptions",
+    "sushy.main",
+    "sushy.utils",
+    "sushy",
+    "sushy.auth",
+    "sushy.connector",
+    "sushy.exceptions",
+    "sushy.main",
+    "sushy.utils",
+    "sushy",
+    "sushy.auth",
+    "sushy.connector",
+    "sushy.exceptions",
+    "sushy.main",
+    "sushy.utils"
+   ]
+  }
+ },
+ "name":"sushy",
+ "new_version":"3.2.0",
+ "pinning_version":"2020.03.30",
+ "raw_meta_yaml":"{% set name = \"sushy\" %}\n{% set version = \"1.9.0\" %}\n\npackage:\n  name: \"{{ name|lower }}\"\n  version: \"{{ version }}\"\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: 748a27cba8a9eec716633cb4234097bac1bfc4e41872134fc045fd0faa5051db\n\nbuild:\n  number: 0\n  noarch: python\n  script: \"{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv \"\n\nrequirements:\n  host:\n    - pbr !=2.1.0,>=2.0.0\n    - pbr\n    - python\n  run:\n    - pbr !=2.1.0,>=2.0.0\n    - python\n    - python-dateutil >=2.7.0\n    - requests >=2.14.2\n    - six >=1.10.0\n    - stevedore >=1.29.0\n\ntest:\n  imports:\n    - sushy\n    - sushy.auth\n    - sushy.connector\n    - sushy.exceptions\n    - sushy.main\n    - sushy.utils\n\nabout:\n  home: https://github.com/openstack/sushy\n  license: Apache Software\n  license_family: APACHE\n  license_file: LICENSE\n  summary: Sushy is a Python library to communicate with Redfish based systems. The goal of the library is to be extremely simple, small, have as few dependencies as possible and be very conservative when dealing with BMCs by issuing just enough requests to it (BMCs are very flaky).\n\nextra:\n  recipe-maintainers:\n    - pg-hbk\n    - sy-hbk\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "pbr",
+   "python",
+   "python-dateutil",
+   "requests",
+   "six",
+   "stevedore"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pbr",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "pbr",
+    "python",
+    "python-dateutil",
+    "requests",
+    "six",
+    "stevedore"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.6.15",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pbr",
+    "pbr !=2.1.0,>=2.0.0",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "pbr !=2.1.0,>=2.0.0",
+    "python",
+    "python-dateutil >=2.7.0",
+    "requests >=2.14.2",
+    "six >=1.10.0",
+    "stevedore >=1.29.0"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/s/sushy/sushy-1.9.0.tar.gz",
+ "version":"1.9.0"
+}

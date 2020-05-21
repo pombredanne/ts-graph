@@ -1,0 +1,160 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/220551932.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"nose-cov",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"http://bitbucket.org/memedough/nose-cov/overview",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"LICENSE.txt",
+   "summary":"nose plugin for coverage reporting, including subprocesses and multiprocessing"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"1",
+   "script":"python -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "bollwyvl",
+    "ocefpaf",
+    "bollwyvl",
+    "ocefpaf",
+    "bollwyvl",
+    "ocefpaf"
+   ]
+  },
+  "package":{
+   "name":"nose-cov",
+   "version":"1.6"
+  },
+  "requirements":{
+   "host":[
+    "python",
+    "pip",
+    "python",
+    "pip",
+    "python",
+    "pip"
+   ],
+   "run":[
+    "python",
+    "nose >=0.11.4",
+    "cov-core >=1.6",
+    "python",
+    "nose >=0.11.4",
+    "cov-core >=1.6",
+    "python",
+    "nose >=0.11.4",
+    "cov-core >=1.6"
+   ]
+  },
+  "source":{
+   "sha256":"8bec0335598f1cc69e3262cc50d7678c1a6010fa44625ce343c4ec1500774412",
+   "url":"https://pypi.io/packages/source/n/nose-cov/nose-cov-1.6.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "nosetests --help",
+    "nosetests --plugins",
+    "nosetests --help",
+    "nosetests --plugins",
+    "nosetests --help",
+    "nosetests --plugins"
+   ],
+   "imports":[
+    "nose_cov",
+    "nose_cov",
+    "nose_cov"
+   ]
+  }
+ },
+ "name":"nose-cov",
+ "new_version":"1.6",
+ "pinning_version":"2018.10.01",
+ "raw_meta_yaml":"{% set name = \"nose-cov\" %}\n{% set version = \"1.6\" %}\n\npackage:\n  name: {{ name }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: 8bec0335598f1cc69e3262cc50d7678c1a6010fa44625ce343c4ec1500774412\n\nbuild:\n  number: 1\n  noarch: python\n  script: python -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv\n\nrequirements:\n  host:\n    - python\n    - pip\n  run:\n    - python\n    - nose >=0.11.4\n    - cov-core >=1.6\n\ntest:\n  imports:\n    - nose_cov\n  commands:\n    - nosetests --help\n    - nosetests --plugins\n\nabout:\n  home: http://bitbucket.org/memedough/nose-cov/overview\n  license: MIT\n  license_file: LICENSE.txt\n  summary: 'nose plugin for coverage reporting, including subprocesses and multiprocessing'\n  license_family: MIT\n\nextra:\n  recipe-maintainers:\n    - bollwyvl\n    - ocefpaf\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "cov-core",
+   "nose",
+   "pip",
+   "python"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "cov-core",
+    "nose",
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.1.12",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "cov-core >=1.6",
+    "nose >=0.11.4",
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/n/nose-cov/nose-cov-1.6.tar.gz",
+ "version":"1.6"
+}

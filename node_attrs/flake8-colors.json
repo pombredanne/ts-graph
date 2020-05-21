@@ -1,0 +1,138 @@
+{
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"flake8-colors",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"https://github.com/and3rson/flake8-colors",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"LICENSE",
+   "summary":"Error highlight plugin for Flake8."
+  },
+  "build":{
+   "entry_points":[
+    "flake8-colors = flake8_colors:ColorFormatter",
+    "flake8-colors = flake8_colors:ColorFormatter",
+    "flake8-colors = flake8_colors:ColorFormatter"
+   ],
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . --no-deps --ignore-installed -vv "
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "marcelotrevisani",
+    "marcelotrevisani",
+    "marcelotrevisani"
+   ]
+  },
+  "package":{
+   "name":"flake8-colors",
+   "version":"0.1.6"
+  },
+  "requirements":{
+   "host":[
+    "flake8 >3.0.0",
+    "pip",
+    "python",
+    "setuptools",
+    "flake8 >3.0.0",
+    "pip",
+    "python",
+    "setuptools",
+    "flake8 >3.0.0",
+    "pip",
+    "python",
+    "setuptools"
+   ],
+   "run":[
+    "flake8 >3.0.0",
+    "python",
+    "flake8 >3.0.0",
+    "python",
+    "flake8 >3.0.0",
+    "python"
+   ]
+  },
+  "source":{
+   "sha256":"508fcf6efc15826f2146b42172ab41999555e07af43fcfb3e6a28ad596189560",
+   "url":"https://pypi.io/packages/source/f/flake8-colors/flake8-colors-0.1.6.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "flake8_colors",
+    "flake8_colors",
+    "flake8_colors"
+   ]
+  }
+ },
+ "name":"flake8-colors",
+ "new_version":"0.1.6",
+ "raw_meta_yaml":"{% set name = \"flake8-colors\" %}\n{% set version = \"0.1.6\" %}\n\npackage:\n  name: \"{{ name|lower }}\"\n  version: \"{{ version }}\"\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: 508fcf6efc15826f2146b42172ab41999555e07af43fcfb3e6a28ad596189560\n\nbuild:\n  number: 0\n  script: \"{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv \"\n  noarch: python\n  entry_points:\n    - flake8-colors = flake8_colors:ColorFormatter\n\nrequirements:\n  host:\n    - flake8 >3.0.0\n    - pip\n    - python\n    - setuptools\n  run:\n    - flake8 >3.0.0\n    - python\n\ntest:\n  imports:\n    - flake8_colors\n\nabout:\n  home: https://github.com/and3rson/flake8-colors\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE\n  summary: Error highlight plugin for Flake8.\n\nextra:\n  recipe-maintainers:\n    - marcelotrevisani\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "flake8",
+   "pip",
+   "python",
+   "setuptools"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "flake8",
+    "pip",
+    "python",
+    "setuptools"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "flake8",
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "flake8 >3.0.0",
+    "pip",
+    "python",
+    "setuptools"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "flake8 >3.0.0",
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/f/flake8-colors/flake8-colors-0.1.6.tar.gz",
+ "version":"0.1.6"
+}

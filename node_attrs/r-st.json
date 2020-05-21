@@ -1,0 +1,250 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/232009698.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/299190219.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"RBaseRebuild",
+    "migrator_version":0,
+    "name":"r-base-3.6.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/412904042.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":2,
+    "migrator_version":0,
+    "name":"r400"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "bot":{
+   "automerge":true
+  },
+  "provider":{
+   "win":"azure"
+  }
+ },
+ "feedstock_name":"r-st",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"http://strimmerlab.org/software/st/",
+   "license":"GPL (>= 3)",
+   "license_family":"GPL3",
+   "license_file":"/lib/R/share/licenses/GPL-3",
+   "summary":"Implements the \"shrinkage t\" statistic  introduced in Opgen-Rhein and Strimmer (2007) and a shrinkage estimate of the \"correlation-adjusted t-score\" (CAT score) described in Zuber and Strimmer (2009).  It also offers a convenient interface  to a number of other regularized t-statistics commonly  employed in high-dimensional case-control studies.    "
+  },
+  "build":{
+   "noarch":"generic",
+   "number":"1004",
+   "rpaths":[
+    "lib/R/lib/",
+    "lib/",
+    "lib/R/lib/",
+    "lib/",
+    "lib/R/lib/",
+    "lib/"
+   ]
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "conda-forge/r",
+    "dpryan79",
+    "johanneskoester",
+    "bgruening",
+    "daler",
+    "jdblischak",
+    "cbrueffer",
+    "dbast",
+    "conda-forge/r",
+    "dpryan79",
+    "johanneskoester",
+    "bgruening",
+    "daler",
+    "jdblischak",
+    "cbrueffer",
+    "dbast",
+    "conda-forge/r",
+    "dpryan79",
+    "johanneskoester",
+    "bgruening",
+    "daler",
+    "jdblischak",
+    "cbrueffer",
+    "dbast"
+   ]
+  },
+  "package":{
+   "name":"r-st",
+   "version":"1.2.5"
+  },
+  "requirements":{
+   "host":[
+    "r-base",
+    "r-corpcor >=1.6.8",
+    "r-fdrtool >=1.2.15",
+    "r-sda >=1.3.7",
+    "r-base",
+    "r-corpcor >=1.6.8",
+    "r-fdrtool >=1.2.15",
+    "r-sda >=1.3.7",
+    "r-base",
+    "r-corpcor >=1.6.8",
+    "r-fdrtool >=1.2.15",
+    "r-sda >=1.3.7"
+   ],
+   "run":[
+    "r-base",
+    "r-corpcor >=1.6.8",
+    "r-fdrtool >=1.2.15",
+    "r-sda >=1.3.7",
+    "r-base",
+    "r-corpcor >=1.6.8",
+    "r-fdrtool >=1.2.15",
+    "r-sda >=1.3.7",
+    "r-base",
+    "r-corpcor >=1.6.8",
+    "r-fdrtool >=1.2.15",
+    "r-sda >=1.3.7"
+   ]
+  },
+  "source":{
+   "fn":"st_1.2.5.tar.gz",
+   "sha256":"eb020c1ee0a043f5e76d3dd781219eb409fe42584b657bd096f29df19974de36",
+   "url":[
+    "https://cran.r-project.org/src/contrib/st_1.2.5.tar.gz",
+    "https://cran.r-project.org/src/contrib/Archive/st/st_1.2.5.tar.gz",
+    "https://cran.r-project.org/src/contrib/st_1.2.5.tar.gz",
+    "https://cran.r-project.org/src/contrib/Archive/st/st_1.2.5.tar.gz",
+    "https://cran.r-project.org/src/contrib/st_1.2.5.tar.gz",
+    "https://cran.r-project.org/src/contrib/Archive/st/st_1.2.5.tar.gz"
+   ]
+  },
+  "test":{
+   "commands":[
+    "\"%R%\" -e \"library('st')\"",
+    "$R -e \"library('st')\"",
+    "$R -e \"library('st')\""
+   ]
+  }
+ },
+ "name":"r-st",
+ "new_version":"1.2.5",
+ "pinning_version":"2020.05.04.05.46.47",
+ "raw_meta_yaml":"{% set version = '1.2.5' %}\n{% set posix = 'm2-' if win else '' %}\n{% set native = 'm2w64-' if win else '' %}\n\npackage:\n  name: r-st\n  version: {{ version|replace(\"-\", \"_\") }}\n\nsource:\n  fn: st_{{ version }}.tar.gz\n  url:\n    - {{ cran_mirror }}/src/contrib/st_{{ version }}.tar.gz\n    - {{ cran_mirror }}/src/contrib/Archive/st/st_{{ version }}.tar.gz\n  sha256: eb020c1ee0a043f5e76d3dd781219eb409fe42584b657bd096f29df19974de36\n\nbuild:\n  noarch: generic\n  number: 1004\n  rpaths:\n    - lib/R/lib/\n    - lib/\n\nrequirements:\n  host:\n    - r-base\n    - r-corpcor >=1.6.8\n    - r-fdrtool >=1.2.15\n    - r-sda >=1.3.7\n  run:\n    - r-base\n    - r-corpcor >=1.6.8\n    - r-fdrtool >=1.2.15\n    - r-sda >=1.3.7\n\ntest:\n  commands:\n    - $R -e \"library('st')\"           # [not win]\n    - \"\\\"%R%\\\" -e \\\"library('st')\\\"\"  # [win]\n\nabout:\n  home: http://strimmerlab.org/software/st/\n  license: GPL (>= 3)\n  summary: 'Implements the \"shrinkage t\" statistic  introduced in Opgen-Rhein and Strimmer (2007)\n    and a shrinkage estimate of the \"correlation-adjusted t-score\" (CAT score) described\n    in Zuber and Strimmer (2009).  It also offers a convenient interface  to a number\n    of other regularized t-statistics commonly  employed in high-dimensional case-control\n    studies.    '\n  license_family: GPL3\n  license_file: '{{ environ[\"PREFIX\"] }}/lib/R/share/licenses/GPL-3'\n\nextra:\n  recipe-maintainers:\n    - conda-forge/r\n    - dpryan79\n    - johanneskoester\n    - bgruening\n    - daler\n    - jdblischak\n    - cbrueffer\n    - dbast\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "r-base",
+   "r-corpcor",
+   "r-fdrtool",
+   "r-sda"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "r-base",
+    "r-corpcor",
+    "r-fdrtool",
+    "r-sda"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "r-base",
+    "r-corpcor",
+    "r-fdrtool",
+    "r-sda"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.7.0\n",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "r-base",
+    "r-corpcor >=1.6.8",
+    "r-fdrtool >=1.2.15",
+    "r-sda >=1.3.7"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "r-base",
+    "r-corpcor >=1.6.8",
+    "r-fdrtool >=1.2.15",
+    "r-sda >=1.3.7"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":[
+  "https://cran.r-project.org/src/contrib/st_1.2.5.tar.gz",
+  "https://cran.r-project.org/src/contrib/Archive/st/st_1.2.5.tar.gz",
+  "https://cran.r-project.org/src/contrib/st_1.2.5.tar.gz",
+  "https://cran.r-project.org/src/contrib/Archive/st/st_1.2.5.tar.gz",
+  "https://cran.r-project.org/src/contrib/st_1.2.5.tar.gz",
+  "https://cran.r-project.org/src/contrib/Archive/st/st_1.2.5.tar.gz"
+ ],
+ "version":"1.2.5"
+}

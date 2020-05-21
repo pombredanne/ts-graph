@@ -1,0 +1,321 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/256828565.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.9.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/260157393.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.10.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/262559345.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.10.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/307023670.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.11.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/387460307.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.12.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/410478757.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.13.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"globus-cli",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"A Command Line Interface to Globus.",
+   "dev_url":"https://github.com/globusonline/globus-cli",
+   "doc_url":"https://globus.github.io/globus-cli",
+   "home":"https://github.com/globus/globus-cli",
+   "license":"Apache 2.0",
+   "license_family":"APACHE",
+   "license_file":"LICENSE",
+   "summary":"Globus CLI"
+  },
+  "build":{
+   "entry_points":[
+    "globus = globus_cli:main",
+    "globus = globus_cli:main",
+    "globus = globus_cli:main"
+   ],
+   "noarch":"python",
+   "number":"0",
+   "script":"-m pip install . --no-deps -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "xylar",
+    "lukaszlacinski",
+    "xylar",
+    "lukaszlacinski",
+    "xylar",
+    "lukaszlacinski"
+   ]
+  },
+  "package":{
+   "name":"globus-cli",
+   "version":"1.13.0"
+  },
+  "requirements":{
+   "host":[
+    "pip",
+    "python",
+    "pip",
+    "python",
+    "pip",
+    "python"
+   ],
+   "run":[
+    "python",
+    "globus-sdk ==1.9.0",
+    "click >=7.1.1,<8.0",
+    "jmespath ==0.9.4",
+    "configobj >=5.0.6,<6.0.0",
+    "requests >=2.0.0,<3.0.0",
+    "six >=1.10.0,<2.0.0",
+    "cryptography >=1.8.1,<3.0.0",
+    "python",
+    "globus-sdk ==1.9.0",
+    "click >=7.1.1,<8.0",
+    "jmespath ==0.9.4",
+    "configobj >=5.0.6,<6.0.0",
+    "requests >=2.0.0,<3.0.0",
+    "six >=1.10.0,<2.0.0",
+    "cryptography >=1.8.1,<3.0.0",
+    "python",
+    "globus-sdk ==1.9.0",
+    "click >=7.1.1,<8.0",
+    "jmespath ==0.9.4",
+    "configobj >=5.0.6,<6.0.0",
+    "requests >=2.0.0,<3.0.0",
+    "six >=1.10.0,<2.0.0",
+    "cryptography >=1.8.1,<3.0.0"
+   ]
+  },
+  "source":{
+   "fn":"globus-cli-1.13.0.tar.gz",
+   "sha256":"033549c917cbc59d88a4fd921f69e30e021c0a141a011ab07a83dbb0d98b0131",
+   "url":"https://github.com/globus/globus-cli/archive/1.13.0.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "globus --help",
+    "globus --help",
+    "globus --help"
+   ],
+   "imports":[
+    "globus_cli",
+    "globus_cli.commands",
+    "globus_cli.commands.bookmark",
+    "globus_cli.commands.config",
+    "globus_cli.commands.endpoint",
+    "globus_cli.commands.endpoint.permission",
+    "globus_cli.commands.endpoint.role",
+    "globus_cli.commands.endpoint.server",
+    "globus_cli.commands.task",
+    "globus_cli.helpers",
+    "globus_cli.parsing",
+    "globus_cli.safeio",
+    "globus_cli.services",
+    "globus_cli",
+    "globus_cli.commands",
+    "globus_cli.commands.bookmark",
+    "globus_cli.commands.config",
+    "globus_cli.commands.endpoint",
+    "globus_cli.commands.endpoint.permission",
+    "globus_cli.commands.endpoint.role",
+    "globus_cli.commands.endpoint.server",
+    "globus_cli.commands.task",
+    "globus_cli.helpers",
+    "globus_cli.parsing",
+    "globus_cli.safeio",
+    "globus_cli.services",
+    "globus_cli",
+    "globus_cli.commands",
+    "globus_cli.commands.bookmark",
+    "globus_cli.commands.config",
+    "globus_cli.commands.endpoint",
+    "globus_cli.commands.endpoint.permission",
+    "globus_cli.commands.endpoint.role",
+    "globus_cli.commands.endpoint.server",
+    "globus_cli.commands.task",
+    "globus_cli.helpers",
+    "globus_cli.parsing",
+    "globus_cli.safeio",
+    "globus_cli.services"
+   ]
+  }
+ },
+ "name":"globus-cli",
+ "new_version":"1.13.0",
+ "new_version_attempts":{
+  "1.13.0":1
+ },
+ "new_version_errors":{},
+ "pinning_version":"2020.04.28.13.02.26",
+ "raw_meta_yaml":"{% set name = \"globus-cli\" %}\n{% set version = \"1.13.0\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  fn: {{ name }}-{{ version }}.tar.gz\n  url: https://github.com/globus/globus-cli/archive/{{ version }}.tar.gz\n  sha256: 033549c917cbc59d88a4fd921f69e30e021c0a141a011ab07a83dbb0d98b0131\n\nbuild:\n  number: 0\n  noarch: python\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n  entry_points:\n    - globus = globus_cli:main\n\nrequirements:\n  host:\n    - pip\n    - python\n  run:\n    - python\n    - globus-sdk ==1.9.0\n    - click >=7.1.1,<8.0\n    - jmespath ==0.9.4\n    - configobj >=5.0.6,<6.0.0\n    - requests >=2.0.0,<3.0.0\n    - six >=1.10.0,<2.0.0\n    - cryptography >=1.8.1,<3.0.0\ntest:\n  imports:\n    - globus_cli\n    - globus_cli.commands\n    - globus_cli.commands.bookmark\n    - globus_cli.commands.config\n    - globus_cli.commands.endpoint\n    - globus_cli.commands.endpoint.permission\n    - globus_cli.commands.endpoint.role\n    - globus_cli.commands.endpoint.server\n    - globus_cli.commands.task\n    - globus_cli.helpers\n    - globus_cli.parsing\n    - globus_cli.safeio\n    - globus_cli.services\n  commands:\n    - globus --help\n\nabout:\n  home: https://github.com/globus/globus-cli\n  license: Apache 2.0\n  license_family: APACHE\n  license_file: LICENSE\n  summary: Globus CLI\n  description: A Command Line Interface to Globus.\n  doc_url: https://globus.github.io/globus-cli\n  dev_url: https://github.com/globusonline/globus-cli\n\nextra:\n  recipe-maintainers:\n    - xylar\n    - lukaszlacinski\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "click",
+   "configobj",
+   "cryptography",
+   "globus-sdk",
+   "jmespath",
+   "pip",
+   "python",
+   "requests",
+   "six"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "click",
+    "configobj",
+    "cryptography",
+    "globus-sdk",
+    "jmespath",
+    "python",
+    "requests",
+    "six"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.7.0",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "click >=7.1.1,<8.0",
+    "configobj >=5.0.6,<6.0.0",
+    "cryptography >=1.8.1,<3.0.0",
+    "globus-sdk ==1.9.0",
+    "jmespath ==0.9.4",
+    "python",
+    "requests >=2.0.0,<3.0.0",
+    "six >=1.10.0,<2.0.0"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://github.com/globus/globus-cli/archive/1.11.0.tar.gz",
+ "version":"1.13.0"
+}

@@ -1,0 +1,290 @@
+{
+ "PRed":[
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.6.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Rebuild",
+    "migrator_version":0,
+    "name":"hdf5-1.10.5"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/362775521.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.6.5"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"calliope",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"Calliope is a framework to develop energy system models, with a\nfocus on flexibility, high spatial and temporal resolution, the\nability to execute many runs based on the same base model, and\na clear separation of framework (code) and model (data).\n",
+   "dev_url":"https://github.com/calliope-project/calliope",
+   "doc_url":"https://calliope.readthedocs.io/",
+   "home":"https://www.callio.pe/",
+   "license":"Apache-2.0",
+   "license_family":"Apache",
+   "license_file":"LICENSE",
+   "summary":"A multi-scale energy systems modelling framework"
+  },
+  "build":{
+   "entry_points":[
+    "calliope = calliope.cli:cli",
+    "calliope = calliope.cli:cli",
+    "calliope = calliope.cli:cli"
+   ],
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "sjpfenninger",
+    "brynpickering",
+    "sjpfenninger",
+    "brynpickering",
+    "sjpfenninger",
+    "brynpickering"
+   ]
+  },
+  "package":{
+   "name":"calliope",
+   "version":"0.6.5"
+  },
+  "requirements":{
+   "host":[
+    "python >=3.7,<3.9",
+    "pip",
+    "python >=3.7,<3.9",
+    "pip",
+    "python >=3.7,<3.9",
+    "pip"
+   ],
+   "run":[
+    "python >=3.7,<3.9",
+    "bottleneck >=1.2",
+    "click >=7,<8",
+    "glpk >=4.61,<4.63",
+    "hdf5",
+    "ipython >=7",
+    "ipdb >=0.11",
+    "jinja2 >=2.10",
+    "libnetcdf",
+    "natsort >=5",
+    "netcdf4 >=1.2.2",
+    "numexpr >=2.3.1",
+    "numpy >=1.15",
+    "pandas >=0.25,<0.26",
+    "plotly >=3.3,<4.0",
+    "pyomo >=5.6,<5.7",
+    "ruamel.yaml >=0.16",
+    "scikit-learn >=0.22",
+    "xarray >=0.14,<0.15",
+    "python >=3.7,<3.9",
+    "bottleneck >=1.2",
+    "click >=7,<8",
+    "glpk >=4.61,<4.63",
+    "hdf5",
+    "ipython >=7",
+    "ipdb >=0.11",
+    "jinja2 >=2.10",
+    "libnetcdf",
+    "natsort >=5",
+    "netcdf4 >=1.2.2",
+    "numexpr >=2.3.1",
+    "numpy >=1.15",
+    "pandas >=0.25,<0.26",
+    "plotly >=3.3,<4.0",
+    "pyomo >=5.6,<5.7",
+    "ruamel.yaml >=0.16",
+    "scikit-learn >=0.22",
+    "xarray >=0.14,<0.15",
+    "python >=3.7,<3.9",
+    "bottleneck >=1.2",
+    "click >=7,<8",
+    "glpk >=4.61,<4.63",
+    "hdf5",
+    "ipython >=7",
+    "ipdb >=0.11",
+    "jinja2 >=2.10",
+    "libnetcdf",
+    "natsort >=5",
+    "netcdf4 >=1.2.2",
+    "numexpr >=2.3.1",
+    "numpy >=1.15",
+    "pandas >=0.25,<0.26",
+    "plotly >=3.3,<4.0",
+    "pyomo >=5.6,<5.7",
+    "ruamel.yaml >=0.16",
+    "scikit-learn >=0.22",
+    "xarray >=0.14,<0.15"
+   ]
+  },
+  "source":{
+   "fn":"calliope-0.6.5.tar.gz",
+   "sha256":"ad2c6e8faf538d985e9f21a311642a519df1cd4130626ca4cfc53ca4ec591393",
+   "url":"https://pypi.io/packages/source/c/calliope/calliope-0.6.5.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "calliope --help",
+    "calliope --help",
+    "calliope --help"
+   ],
+   "imports":[
+    "calliope",
+    "calliope",
+    "calliope"
+   ]
+  }
+ },
+ "name":"calliope",
+ "new_version":"0.6.5",
+ "pinning_version":"2020.01.10",
+ "raw_meta_yaml":"{% set name = \"calliope\" %}\n{% set version = \"0.6.5\" %}\n{% set sha256 = \"ad2c6e8faf538d985e9f21a311642a519df1cd4130626ca4cfc53ca4ec591393\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  fn: {{ name }}-{{ version }}.tar.gz\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  script: \"{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv\"\n  noarch: python\n  entry_points:\n    - calliope = calliope.cli:cli\n\nrequirements:\n  host:\n    - python >=3.7,<3.9\n    - pip\n  run:\n    - python >=3.7,<3.9\n    - bottleneck >=1.2\n    - click >=7,<8\n    - glpk >=4.61,<4.63\n    - hdf5\n    - ipython >=7\n    - ipdb >=0.11\n    - jinja2 >=2.10\n    - libnetcdf\n    - natsort >=5\n    - netcdf4 >=1.2.2\n    - numexpr >=2.3.1\n    - numpy >=1.15\n    - pandas >=0.25,<0.26\n    - plotly >=3.3,<4.0\n    - pyomo >=5.6,<5.7\n    - ruamel.yaml >=0.16\n    - scikit-learn >=0.22\n    - xarray >=0.14,<0.15\n\ntest:\n  imports:\n    - calliope\n  commands:\n    - calliope --help\n\nabout:\n  home: https://www.callio.pe/\n  license: Apache-2.0\n  license_family: Apache\n  license_file: LICENSE\n  summary: A multi-scale energy systems modelling framework\n  description: |\n    Calliope is a framework to develop energy system models, with a\n    focus on flexibility, high spatial and temporal resolution, the\n    ability to execute many runs based on the same base model, and\n    a clear separation of framework (code) and model (data).\n  doc_url: https://calliope.readthedocs.io/\n  dev_url: https://github.com/calliope-project/calliope\n\nextra:\n  recipe-maintainers:\n    - sjpfenninger\n    - brynpickering\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "bottleneck",
+   "click",
+   "glpk",
+   "hdf5",
+   "ipdb",
+   "ipython",
+   "jinja2",
+   "libnetcdf",
+   "natsort",
+   "netcdf4",
+   "numexpr",
+   "numpy",
+   "pandas",
+   "pip",
+   "plotly",
+   "pyomo",
+   "python",
+   "ruamel.yaml",
+   "scikit-learn",
+   "xarray"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "bottleneck",
+    "click",
+    "glpk",
+    "hdf5",
+    "ipdb",
+    "ipython",
+    "jinja2",
+    "libnetcdf",
+    "natsort",
+    "netcdf4",
+    "numexpr",
+    "numpy",
+    "pandas",
+    "plotly",
+    "pyomo",
+    "python",
+    "ruamel.yaml",
+    "scikit-learn",
+    "xarray"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.6.5",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3.7,<3.9"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "bottleneck >=1.2",
+    "click >=7,<8",
+    "glpk >=4.61,<4.63",
+    "hdf5",
+    "ipdb >=0.11",
+    "ipython >=7",
+    "jinja2 >=2.10",
+    "libnetcdf",
+    "natsort >=5",
+    "netcdf4 >=1.2.2",
+    "numexpr >=2.3.1",
+    "numpy >=1.15",
+    "pandas >=0.25,<0.26",
+    "plotly >=3.3,<4.0",
+    "pyomo >=5.6,<5.7",
+    "python >=3.7,<3.9",
+    "ruamel.yaml >=0.16",
+    "scikit-learn >=0.22",
+    "xarray >=0.14,<0.15"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/c/calliope/calliope-0.6.4.tar.gz",
+ "version":"0.6.5"
+}

@@ -1,0 +1,163 @@
+{
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"firecrown",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"https://github.com/LSSTDESC/firecrown",
+   "license":"BSD-3-Clause",
+   "license_file":"LICENSE",
+   "summary":"constraints rock | the \"c\" is for cosmology"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "beckermr",
+    "beckermr",
+    "beckermr"
+   ]
+  },
+  "package":{
+   "name":"firecrown",
+   "version":"0.4"
+  },
+  "requirements":{
+   "host":[
+    "python >=3",
+    "pip",
+    "python >=3",
+    "pip",
+    "python >=3",
+    "pip"
+   ],
+   "run":[
+    "python >=3",
+    "pyccl >=2.0,<3",
+    "numpy",
+    "pyyaml",
+    "scipy",
+    "click",
+    "jinja2",
+    "sacc >=0.3,<0.4",
+    "cosmosis-standalone >=0.2.2",
+    "python >=3",
+    "pyccl >=2.0,<3",
+    "numpy",
+    "pyyaml",
+    "scipy",
+    "click",
+    "jinja2",
+    "sacc >=0.3,<0.4",
+    "cosmosis-standalone >=0.2.2",
+    "python >=3",
+    "pyccl >=2.0,<3",
+    "numpy",
+    "pyyaml",
+    "scipy",
+    "click",
+    "jinja2",
+    "sacc >=0.3,<0.4",
+    "cosmosis-standalone >=0.2.2"
+   ]
+  },
+  "source":{
+   "sha256":"f01b70e0ec1281ec4fef73c11fb48edd04c25043367351bfe390943b81208024",
+   "url":"https://github.com/LSSTDESC/firecrown/archive/v0.4.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "firecrown",
+    "firecrown",
+    "firecrown"
+   ]
+  }
+ },
+ "name":"firecrown",
+ "new_version":"0.4",
+ "raw_meta_yaml":"{% set version = \"0.4\" %}\n\npackage:\n  name: firecrown\n  version: {{ version }}\n\nsource:\n  url: https://github.com/LSSTDESC/firecrown/archive/v{{ version }}.tar.gz\n  sha256: f01b70e0ec1281ec4fef73c11fb48edd04c25043367351bfe390943b81208024\n\nbuild:\n  noarch: python\n  number: 0\n  script: \"{{ PYTHON }} -m pip install . -vv\"\n\nrequirements:\n  host:\n    - python >=3\n    - pip\n  run:\n    - python >=3\n    - pyccl >=2.0,<3\n    - numpy\n    - pyyaml\n    - scipy\n    - click\n    - jinja2\n    - sacc >=0.3,<0.4\n    - cosmosis-standalone >=0.2.2\n\ntest:\n  imports:\n    - firecrown\n\nabout:\n  home: https://github.com/LSSTDESC/firecrown\n  license: BSD-3-Clause\n  license_file: LICENSE\n  summary: 'constraints rock | the \"c\" is for cosmology'\n\nextra:\n  recipe-maintainers:\n    - beckermr\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "click",
+   "cosmosis-standalone",
+   "jinja2",
+   "numpy",
+   "pip",
+   "pyccl",
+   "python",
+   "pyyaml",
+   "sacc",
+   "scipy"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "click",
+    "cosmosis-standalone",
+    "jinja2",
+    "numpy",
+    "pyccl",
+    "python",
+    "pyyaml",
+    "sacc",
+    "scipy"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "click",
+    "cosmosis-standalone >=0.2.2",
+    "jinja2",
+    "numpy",
+    "pyccl >=2.0,<3",
+    "python >=3",
+    "pyyaml",
+    "sacc >=0.3,<0.4",
+    "scipy"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://github.com/LSSTDESC/firecrown/archive/v0.3.tar.gz",
+ "version":"0.4"
+}

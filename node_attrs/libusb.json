@@ -1,0 +1,159 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/312041409.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.0.23"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"libusb",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "dev_url":"https://github.com/libusb/libusb",
+   "doc_url":"http://libusb.sourceforge.net/api-1.0/",
+   "home":"http://libusb.info/",
+   "license":"LGPL-2.1",
+   "license_file":"COPYING",
+   "summary":"A cross-platform library to access USB devices"
+  },
+  "build":{
+   "number":"1",
+   "run_exports":[
+    "libusb",
+    "libusb",
+    "libusb"
+   ]
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "hoechenberger",
+    "kastman",
+    "ryanvolz",
+    "hoechenberger",
+    "kastman",
+    "ryanvolz",
+    "hoechenberger",
+    "kastman",
+    "ryanvolz"
+   ]
+  },
+  "package":{
+   "name":"libusb",
+   "version":"1.0.23"
+  },
+  "requirements":{
+   "build":[
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "libtool",
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "cdt_stub",
+    "libtool"
+   ],
+   "host":null
+  },
+  "source":{
+   "sha256":"db11c06e958a82dac52cf3c65cb4dd2c3f339c8a988665110e0d24d19312ad8d",
+   "url":"https://github.com/libusb/libusb/releases/download/v1.0.23/libusb-1.0.23.tar.bz2"
+  },
+  "test":{
+   "commands":[
+    "if not exist %PREFIX%\\\\Library\\\\bin\\\\libusb-1.0.dll exit 1",
+    "if not exist %PREFIX%\\\\Library\\\\lib\\\\libusb-1.0.lib exit 1",
+    "if not exist %PREFIX%\\\\Library\\\\lib\\\\libusb-1.0.pdb exit 1",
+    "if not exist %PREFIX%\\\\Library\\\\lib\\\\libusb-1.0_static.lib exit 1",
+    "if not exist %PREFIX%\\\\Library\\\\include\\\\libusb-1.0\\\\libusb.h exit 1",
+    "test -f $PREFIX/include/libusb-1.0/libusb.h",
+    "test -f $PREFIX/lib/libusb-1.0.a",
+    "test -f $PREFIX/lib/libusb-1.0${SHLIB_EXT}",
+    "conda inspect linkages -p $PREFIX libusb",
+    "conda inspect objects -p $PREFIX libusb",
+    "test -f $PREFIX/include/libusb-1.0/libusb.h",
+    "test -f $PREFIX/lib/libusb-1.0.a",
+    "test -f $PREFIX/lib/libusb-1.0${SHLIB_EXT}",
+    "conda inspect linkages -p $PREFIX libusb"
+   ]
+  }
+ },
+ "name":"libusb",
+ "new_version":"1.0.23",
+ "pinning_version":"2019.08.27",
+ "raw_meta_yaml":"{% set name = \"libusb\" %}\n{% set version = \"1.0.23\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: 'https://github.com/libusb/libusb/releases/download/v{{ version}}/{{ name }}-{{ version }}.tar.bz2'\n  sha256: db11c06e958a82dac52cf3c65cb4dd2c3f339c8a988665110e0d24d19312ad8d\n\nbuild:\n  number: 1\n  run_exports:\n    - {{ pin_subpackage('libusb') }}\n\nrequirements:\n  build:\n    - {{ compiler('c') }}\n    - {{ compiler('cxx') }}\n    - {{ cdt('libudev-devel') }}  # [linux]\n    - libtool  # [unix]\n  host:\n\ntest:\n  commands:\n    - test -f $PREFIX/include/libusb-1.0/libusb.h   # [unix]\n    - test -f $PREFIX/lib/libusb-1.0.a              # [unix]\n    - test -f $PREFIX/lib/libusb-1.0${SHLIB_EXT}    # [unix]\n    - conda inspect linkages -p $PREFIX libusb      # [unix]\n    - conda inspect objects -p $PREFIX libusb       # [osx]\n\n    # Copied from https://github.com/ryanvolz/libusb-feedstock/blob/ac0acf5fab7a4ebdd32b0b5972f88f49bc815bf1/recipe/meta.yaml\n    - if not exist %PREFIX%\\\\Library\\\\bin\\\\libusb-1.0.dll exit 1            # [win]\n    - if not exist %PREFIX%\\\\Library\\\\lib\\\\libusb-1.0.lib exit 1            # [win]\n    - if not exist %PREFIX%\\\\Library\\\\lib\\\\libusb-1.0.pdb exit 1            # [win]\n    - if not exist %PREFIX%\\\\Library\\\\lib\\\\libusb-1.0_static.lib exit 1     # [win]\n    - if not exist %PREFIX%\\\\Library\\\\include\\\\libusb-1.0\\\\libusb.h exit 1  # [win]\n\nabout:\n  home: http://libusb.info/\n  license: LGPL-2.1\n  license_file: COPYING\n  summary: 'A cross-platform library to access USB devices'\n  doc_url: http://libusb.sourceforge.net/api-1.0/\n  dev_url: https://github.com/libusb/libusb\n\nextra:\n  recipe-maintainers:\n    - hoechenberger\n    - kastman\n    - ryanvolz\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "c_compiler_stub",
+   "cdt_stub",
+   "cxx_compiler_stub",
+   "libtool"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "cdt_stub",
+    "cxx_compiler_stub",
+    "libtool"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.4.1",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "cdt_stub",
+    "cxx_compiler_stub",
+    "libtool"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://github.com/libusb/libusb/releases/download/v1.0.23/libusb-1.0.23.tar.bz2",
+ "version":"1.0.23"
+}

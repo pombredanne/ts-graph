@@ -1,0 +1,142 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/238051935.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.1.3"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/248374923.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"ArchRebuild",
+    "migrator_version":1,
+    "name":"aarch64 and ppc64le addition"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "provider":{
+   "linux_aarch64":"azure",
+   "linux_ppc64le":"azure",
+   "win":"azure"
+  }
+ },
+ "feedstock_name":"jom",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"https://wiki.qt.io/Jom",
+   "license":"GPLv3",
+   "license_family":"GPL",
+   "license_file":"/LICENSE",
+   "summary":"jom is a clone of nmake to support the execution of multiple independent commands in parallel"
+  },
+  "build":{
+   "number":"0",
+   "script":[
+    "cp *.bat %LIBRARY_BIN%\\",
+    "cp *.exe %LIBRARY_BIN%\\",
+    "cp *.xml %LIBRARY_BIN%\\",
+    "cp *.bat %LIBRARY_BIN%\\",
+    "cp *.exe %LIBRARY_BIN%\\",
+    "cp *.xml %LIBRARY_BIN%\\",
+    "cp *.bat %LIBRARY_BIN%\\",
+    "cp *.exe %LIBRARY_BIN%\\",
+    "cp *.xml %LIBRARY_BIN%\\"
+   ],
+   "skip":true
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "isuruf",
+    "isuruf",
+    "isuruf"
+   ]
+  },
+  "package":{
+   "name":"jom",
+   "version":"1.1.3"
+  },
+  "source":{
+   "sha256":"128fdd846fe24f8594eed37d1d8929a0ea78df563537c0c1b1861a635013fff8",
+   "url":"http://download.qt.io/official_releases/jom/jom_1_1_3.zip"
+  },
+  "test":{
+   "commands":[
+    "jom /VERSION",
+    "jom /VERSION",
+    "jom /VERSION"
+   ]
+  }
+ },
+ "name":"jom",
+ "new_version":false,
+ "pinning_version":"2019.01.21",
+ "raw_meta_yaml":"{% set name = \"jom\" %}\n{% set version = \"1.1.3\" %}\n{% set sha256 = \"128fdd846fe24f8594eed37d1d8929a0ea78df563537c0c1b1861a635013fff8\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: http://download.qt.io/official_releases/jom/jom_{{ version.replace('.', '_') }}.zip\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  skip: True  # [not win]\n  script:\n    - cp *.bat %LIBRARY_BIN%\\\n    - cp *.exe %LIBRARY_BIN%\\\n    - cp *.xml %LIBRARY_BIN%\\\n\ntest:\n  commands:\n    - jom /VERSION\n\nabout:\n  home: https://wiki.qt.io/Jom\n  license: GPLv3\n  license_family: GPL\n  license_file: {{ RECIPE_DIR }}/LICENSE\n  summary: 'jom is a clone of nmake to support the execution of multiple independent commands in parallel'\n\nextra:\n  recipe-maintainers:\n    - isuruf\n",
+ "req":{
+  "__set__":true,
+  "elements":[]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.2.10",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"http://download.qt.io/official_releases/jom/jom_1_1_3.zip",
+ "version":"1.1.3"
+}

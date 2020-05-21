@@ -1,0 +1,301 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/327897230.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.6.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/412723360.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.6.3"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "bot":{
+   "automerge":true
+  }
+ },
+ "feedstock_name":"matminer",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"matminer is a library for performing data mining in the field of\nmaterials science.\n",
+   "dev_url":"https://github.com/hackingmaterials/matminer",
+   "doc_url":"https://hackingmaterials.lbl.gov/matminer/",
+   "home":"https://hackingmaterials.lbl.gov/matminer/",
+   "license":"BSD-3-Clause",
+   "license_family":"BSD",
+   "license_file":"LICENSE",
+   "summary":"data mining for Materials Science"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":"-m pip install . -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "jan-janssen",
+    "jan-janssen",
+    "jan-janssen"
+   ]
+  },
+  "package":{
+   "name":"matminer",
+   "version":"0.6.3"
+  },
+  "requirements":{
+   "host":[
+    "python >=3.5",
+    "pip",
+    "python >=3.5",
+    "pip",
+    "python >=3.5",
+    "pip"
+   ],
+   "run":[
+    "python >=3.5",
+    "pip",
+    "numpy >=1.18.3",
+    "requests >=2.20.0",
+    "pymatgen >=2019.10.2",
+    "pandas >=0.23.4",
+    "tqdm >=4.23.1",
+    "pymongo >=3.6.1",
+    "pint >=0.8.1",
+    "six >=1.11.0",
+    "plotly >=3.2.1",
+    "future >=0.16.0",
+    "sympy >=1.1.1",
+    "scikit-learn >=0.21.3",
+    "monty >=3.0.1",
+    "ujson >=1.35",
+    "jmespath >=0.9.3",
+    "httplib2 >=0.10.3",
+    "ase >=3.14.1",
+    "dscribe >=0.2.9",
+    "mdf_forge >=0.6.1",
+    "aflow >=0.0.9",
+    "citrination-client >=4.0.1",
+    "python >=3.5",
+    "pip",
+    "numpy >=1.18.3",
+    "requests >=2.20.0",
+    "pymatgen >=2019.10.2",
+    "pandas >=0.23.4",
+    "tqdm >=4.23.1",
+    "pymongo >=3.6.1",
+    "pint >=0.8.1",
+    "six >=1.11.0",
+    "plotly >=3.2.1",
+    "future >=0.16.0",
+    "sympy >=1.1.1",
+    "scikit-learn >=0.21.3",
+    "monty >=3.0.1",
+    "ujson >=1.35",
+    "jmespath >=0.9.3",
+    "httplib2 >=0.10.3",
+    "ase >=3.14.1",
+    "dscribe >=0.2.9",
+    "mdf_forge >=0.6.1",
+    "aflow >=0.0.9",
+    "citrination-client >=4.0.1",
+    "python >=3.5",
+    "pip",
+    "numpy >=1.18.3",
+    "requests >=2.20.0",
+    "pymatgen >=2019.10.2",
+    "pandas >=0.23.4",
+    "tqdm >=4.23.1",
+    "pymongo >=3.6.1",
+    "pint >=0.8.1",
+    "six >=1.11.0",
+    "plotly >=3.2.1",
+    "future >=0.16.0",
+    "sympy >=1.1.1",
+    "scikit-learn >=0.21.3",
+    "monty >=3.0.1",
+    "ujson >=1.35",
+    "jmespath >=0.9.3",
+    "httplib2 >=0.10.3",
+    "ase >=3.14.1",
+    "dscribe >=0.2.9",
+    "mdf_forge >=0.6.1",
+    "aflow >=0.0.9",
+    "citrination-client >=4.0.1"
+   ]
+  },
+  "source":{
+   "sha256":"df272dc483cf17770102ae57513f258ad4e372a5d3c63d80193c7da08b047960",
+   "url":"https://pypi.io/packages/source/m/matminer/matminer-0.6.3.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "pip check",
+    "pip check",
+    "pip check"
+   ],
+   "imports":[
+    "matminer",
+    "matminer",
+    "matminer"
+   ]
+  }
+ },
+ "name":"matminer",
+ "new_version":"0.6.3",
+ "new_version_attempts":{
+  "0.6.3":1
+ },
+ "new_version_errors":{},
+ "pinning_version":"2020.05.04.00.11.09",
+ "raw_meta_yaml":"{% set name = \"matminer\" %}\n{% set version = \"0.6.3\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: df272dc483cf17770102ae57513f258ad4e372a5d3c63d80193c7da08b047960\n\nbuild:\n  noarch: python\n  number: 0\n  script: {{ PYTHON }} -m pip install . -vv\n\nrequirements:\n  host:\n    - python >=3.5\n    - pip\n  run:\n    - python >=3.5\n    - pip\n    - numpy >=1.18.3\n    - requests >=2.20.0\n    - pymatgen >=2019.10.2\n    - pandas >=0.23.4\n    - tqdm >=4.23.1\n    - pymongo >=3.6.1\n    - pint >=0.8.1\n    - six >=1.11.0\n    - plotly >=3.2.1\n    - future >=0.16.0\n    - sympy >=1.1.1\n    - scikit-learn >=0.21.3\n    - monty >=3.0.1\n    - ujson >=1.35\n    - jmespath >=0.9.3\n    - httplib2 >=0.10.3\n    - ase >=3.14.1\n    - dscribe >=0.2.9\n    - mdf_forge >=0.6.1\n    - aflow >=0.0.9\n    - citrination-client >=4.0.1\n\ntest:\n  imports:\n    - matminer\n  commands:\n    - pip check\n\nabout:\n  home: https://hackingmaterials.lbl.gov/matminer/\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: LICENSE\n  summary: data mining for Materials Science\n\n  description: |\n    matminer is a library for performing data mining in the field of \n    materials science.\n  doc_url: https://hackingmaterials.lbl.gov/matminer/\n  dev_url: https://github.com/hackingmaterials/matminer\n\nextra:\n  recipe-maintainers:\n    - jan-janssen\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "aflow",
+   "ase",
+   "citrination-client",
+   "dscribe",
+   "future",
+   "httplib2",
+   "jmespath",
+   "mdf_forge",
+   "monty",
+   "numpy",
+   "pandas",
+   "pint",
+   "pip",
+   "plotly",
+   "pymatgen",
+   "pymongo",
+   "python",
+   "requests",
+   "scikit-learn",
+   "six",
+   "sympy",
+   "tqdm",
+   "ujson"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "aflow",
+    "ase",
+    "citrination-client",
+    "dscribe",
+    "future",
+    "httplib2",
+    "jmespath",
+    "mdf_forge",
+    "monty",
+    "numpy",
+    "pandas",
+    "pint",
+    "pip",
+    "plotly",
+    "pymatgen",
+    "pymongo",
+    "python",
+    "requests",
+    "scikit-learn",
+    "six",
+    "sympy",
+    "tqdm",
+    "ujson"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.7.0\n",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3.5"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "aflow >=0.0.9",
+    "ase >=3.14.1",
+    "citrination-client >=4.0.1",
+    "dscribe >=0.2.9",
+    "future >=0.16.0",
+    "httplib2 >=0.10.3",
+    "jmespath >=0.9.3",
+    "mdf_forge >=0.6.1",
+    "monty >=3.0.1",
+    "numpy >=1.18.3",
+    "pandas >=0.23.4",
+    "pint >=0.8.1",
+    "pip",
+    "plotly >=3.2.1",
+    "pymatgen >=2019.10.2",
+    "pymongo >=3.6.1",
+    "python >=3.5",
+    "requests >=2.20.0",
+    "scikit-learn >=0.21.3",
+    "six >=1.11.0",
+    "sympy >=1.1.1",
+    "tqdm >=4.23.1",
+    "ujson >=1.35"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/m/matminer/matminer-0.6.0.tar.gz",
+ "version":"0.6.3"
+}

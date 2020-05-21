@@ -1,0 +1,135 @@
+{
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"gin-config",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "dev_url":"https://github.com/google/gin-config",
+   "doc_url":"https://github.com/google/gin-config/blob/master/docs/index.md",
+   "home":"https://github.com/google/gin-config",
+   "license":"Apache-2.0",
+   "license_family":"APACHE",
+   "license_file":"LICENSE",
+   "summary":"Gin-Config: A lightweight configuration library for Python"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":"-m pip install . -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "oblute",
+    "rluria14",
+    "ndmaxar",
+    "oblute",
+    "rluria14",
+    "ndmaxar",
+    "oblute",
+    "rluria14",
+    "ndmaxar"
+   ]
+  },
+  "package":{
+   "name":"gin-config",
+   "version":"0.3.0"
+  },
+  "requirements":{
+   "host":[
+    "pip",
+    "python",
+    "pip",
+    "python",
+    "pip",
+    "python"
+   ],
+   "run":[
+    "python",
+    "six >=1.10.0",
+    "python",
+    "six >=1.10.0",
+    "python",
+    "six >=1.10.0"
+   ],
+   "run_constrained":[
+    "tensorflow >=1.13.0",
+    "tensorflow >=1.13.0",
+    "tensorflow >=1.13.0"
+   ]
+  },
+  "source":{
+   "sha256":"6a83b7639ae76c276c0380d71d583f151b327a7c37978add314180ec1280a6cc",
+   "url":"https://pypi.io/packages/source/g/gin-config/gin-config-0.3.0.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "gin",
+    "gin",
+    "gin"
+   ]
+  }
+ },
+ "name":"gin-config",
+ "new_version":"0.3.0",
+ "raw_meta_yaml":"{% set name = \"gin-config\" %}\n{% set version = \"0.3.0\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: 6a83b7639ae76c276c0380d71d583f151b327a7c37978add314180ec1280a6cc\n\nbuild:\n  noarch: python\n  number: 0\n  script: {{ PYTHON }} -m pip install . -vv\n\nrequirements:\n  host:\n    - pip\n    - python\n  run:\n    - python\n    - six >=1.10.0\n  run_constrained:\n    - tensorflow >=1.13.0\n\ntest:\n  imports:\n    - gin\n\nabout:\n  home: https://github.com/google/gin-config\n  license: Apache-2.0\n  license_family: APACHE\n  license_file: LICENSE\n  summary: \"Gin-Config: A lightweight configuration library for Python\"\n  doc_url: https://github.com/google/gin-config/blob/master/docs/index.md\n  dev_url: https://github.com/google/gin-config\n\nextra:\n  recipe-maintainers:\n    - oblute\n    - rluria14\n    - ndmaxar\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "pip",
+   "python",
+   "six"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "python",
+    "six"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "python",
+    "six >=1.10.0"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/g/gin-config/gin-config-0.3.0.tar.gz",
+ "version":"0.3.0"
+}

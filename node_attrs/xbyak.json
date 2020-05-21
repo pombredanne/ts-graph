@@ -1,0 +1,154 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/401200272.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"5.891"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/415740527.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"5.911"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"xbyak",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "dev_url":"https://github.com/herumi/xbyak",
+   "home":"https://github.com/herumi/xbyak",
+   "license":"BSD-3-Clause",
+   "license_file":"COPYRIGHT",
+   "summary":"JIT assembler for x86(IA32), x64(AMD64, x86-64) by C++"
+  },
+  "build":{
+   "number":"0",
+   "script":[
+    "make PREFIX=%LIBRARY_PREFIX% install",
+    "make PREFIX=$PREFIX install",
+    "make PREFIX=$PREFIX install"
+   ],
+   "skip":true
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "marcelotrevisani",
+    "marcelotrevisani",
+    "marcelotrevisani"
+   ]
+  },
+  "package":{
+   "name":"xbyak",
+   "version":"5.911"
+  },
+  "requirements":{
+   "build":[
+    "make",
+    "make",
+    "make"
+   ]
+  },
+  "source":{
+   "sha256":"7b5ec57fb887a25c563e24bd82a0a350d68b8b0219e94b680c040f6cd59bdc40",
+   "url":"https://github.com/herumi/xbyak/archive/v5.911.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "if not exist %LIBRARY_INC%\\xbyak.h exit 1",
+    "if not exist %LIBRARY_INC%\\xbyak_mnemonic.h exit 1",
+    "if not exist %LIBRARY_INC%\\xbyak_util.h exit 1",
+    "test -f ${PREFIX}/include/xbyak/xbyak.h",
+    "test -f ${PREFIX}/include/xbyak/xbyak_mnemonic.h",
+    "test -f ${PREFIX}/include/xbyak/xbyak_util.h",
+    "test -f ${PREFIX}/include/xbyak/xbyak.h",
+    "test -f ${PREFIX}/include/xbyak/xbyak_mnemonic.h",
+    "test -f ${PREFIX}/include/xbyak/xbyak_util.h"
+   ]
+  }
+ },
+ "name":"xbyak",
+ "new_version":"5.911",
+ "new_version_attempts":{
+  "5.891":1,
+  "5.911":1
+ },
+ "new_version_errors":{},
+ "pinning_version":"2020.05.10.05.52.45",
+ "raw_meta_yaml":"{% set name = \"xbyak\" %}\n{% set version = \"5.911\" %}\n\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://github.com/herumi/xbyak/archive/v{{ version }}.tar.gz\n  sha256: 7b5ec57fb887a25c563e24bd82a0a350d68b8b0219e94b680c040f6cd59bdc40\n\nbuild:\n  number: 0\n  skip: true  # [win]\n  script:\n    - make PREFIX=%LIBRARY_PREFIX% install  # [win]    \n    - make PREFIX=$PREFIX install  # [unix]\n\nrequirements:\n  build:\n    - make\n\ntest:\n  commands:\n    - test -f ${PREFIX}/include/xbyak/xbyak.h  # [unix]\n    - test -f ${PREFIX}/include/xbyak/xbyak_mnemonic.h  # [unix]\n    - test -f ${PREFIX}/include/xbyak/xbyak_util.h  # [unix]\n    - if not exist %LIBRARY_INC%\\xbyak.h exit 1  # [win]\n    - if not exist %LIBRARY_INC%\\xbyak_mnemonic.h exit 1  # [win]\n    - if not exist %LIBRARY_INC%\\xbyak_util.h exit 1  # [win]\n\nabout:\n  home: https://github.com/herumi/xbyak\n  summary: JIT assembler for x86(IA32), x64(AMD64, x86-64) by C++\n  dev_url: https://github.com/herumi/xbyak\n  license: BSD-3-Clause\n  license_file: COPYRIGHT\n\nextra:\n  recipe-maintainers:\n    - marcelotrevisani\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "make"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "make"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.7.0\n",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "make"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://github.com/herumi/xbyak/archive/v5.661.tar.gz",
+ "version":"5.911"
+}

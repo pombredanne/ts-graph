@@ -1,0 +1,344 @@
+{
+ "PRed":[
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.12.11"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/203171513.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/204984374.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/205016247.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.1.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/209326495.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.1.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"prospector",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"https://github.com/PyCQA/prospector",
+   "license":"GPL 2",
+   "license_file":"LICENSE",
+   "summary":"Prospector: python static analysis tool"
+  },
+  "build":{
+   "entry_points":[
+    "prospector = prospector.run:main",
+    "prospector = prospector.run:main",
+    "prospector = prospector.run:main"
+   ],
+   "noarch":"python",
+   "number":"0",
+   "script":"python -m pip install --no-deps --ignore-installed ."
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "jakirkham",
+    "jakirkham",
+    "jakirkham"
+   ]
+  },
+  "package":{
+   "name":"prospector",
+   "version":"0.12.11"
+  },
+  "requirements":{
+   "build":[
+    "python",
+    "pip",
+    "python",
+    "pip",
+    "python",
+    "pip"
+   ],
+   "run":[
+    "python",
+    "pylint >=1.5.6,<2.0.0",
+    "pylint-plugin-utils >=0.2.6",
+    "pylint-common >=0.2.5",
+    "requirements-detector >=0.4.1",
+    "setoptconf >=0.2.0",
+    "dodgy >=0.1.9",
+    "pyyaml",
+    "mccabe >=0.5.0",
+    "pyflakes >=0.8.1,<2.0.0",
+    "pycodestyle >=2.0.0,<2.4.0",
+    "pep8-naming >=0.3.3",
+    "pydocstyle >=2.0.0",
+    "frosted >=1.4.1",
+    "vulture >=0.6,<0.25",
+    "pyroma >=2.3",
+    "python",
+    "pylint >=1.5.6,<2.0.0",
+    "pylint-plugin-utils >=0.2.6",
+    "pylint-common >=0.2.5",
+    "requirements-detector >=0.4.1",
+    "setoptconf >=0.2.0",
+    "dodgy >=0.1.9",
+    "pyyaml",
+    "mccabe >=0.5.0",
+    "pyflakes >=0.8.1,<2.0.0",
+    "pycodestyle >=2.0.0,<2.4.0",
+    "pep8-naming >=0.3.3",
+    "pydocstyle >=2.0.0",
+    "frosted >=1.4.1",
+    "vulture >=0.6,<0.25",
+    "pyroma >=2.3",
+    "python",
+    "pylint >=1.5.6,<2.0.0",
+    "pylint-plugin-utils >=0.2.6",
+    "pylint-common >=0.2.5",
+    "requirements-detector >=0.4.1",
+    "setoptconf >=0.2.0",
+    "dodgy >=0.1.9",
+    "pyyaml",
+    "mccabe >=0.5.0",
+    "pyflakes >=0.8.1,<2.0.0",
+    "pycodestyle >=2.0.0,<2.4.0",
+    "pep8-naming >=0.3.3",
+    "pydocstyle >=2.0.0",
+    "frosted >=1.4.1",
+    "vulture >=0.6,<0.25",
+    "pyroma >=2.3"
+   ]
+  },
+  "source":{
+   "fn":"prospector-0.12.11.tar.gz",
+   "sha256":"0390f4336f82820bc4d96b727e55719a3f88ab0789ee893a3eabaaa3fa0201f2",
+   "url":"https://pypi.io/packages/source/p/prospector/prospector-0.12.11.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "prospector --help",
+    "prospector --help",
+    "prospector --help"
+   ],
+   "imports":[
+    "prospector",
+    "prospector.config",
+    "prospector.formatters",
+    "prospector.profiles",
+    "prospector.tools",
+    "prospector.tools.dodgy",
+    "prospector.tools.frosted",
+    "prospector.tools.mccabe",
+    "prospector.tools.pep257",
+    "prospector.tools.pep8",
+    "prospector.tools.profile_validator",
+    "prospector.tools.pyflakes",
+    "prospector.tools.pylint",
+    "prospector.tools.pyroma",
+    "prospector.tools.vulture",
+    "prospector",
+    "prospector.config",
+    "prospector.formatters",
+    "prospector.profiles",
+    "prospector.tools",
+    "prospector.tools.dodgy",
+    "prospector.tools.frosted",
+    "prospector.tools.mccabe",
+    "prospector.tools.pep257",
+    "prospector.tools.pep8",
+    "prospector.tools.profile_validator",
+    "prospector.tools.pyflakes",
+    "prospector.tools.pylint",
+    "prospector.tools.pyroma",
+    "prospector.tools.vulture",
+    "prospector",
+    "prospector.config",
+    "prospector.formatters",
+    "prospector.profiles",
+    "prospector.tools",
+    "prospector.tools.dodgy",
+    "prospector.tools.frosted",
+    "prospector.tools.mccabe",
+    "prospector.tools.pep257",
+    "prospector.tools.pep8",
+    "prospector.tools.profile_validator",
+    "prospector.tools.pyflakes",
+    "prospector.tools.pylint",
+    "prospector.tools.pyroma",
+    "prospector.tools.vulture"
+   ]
+  }
+ },
+ "name":"prospector",
+ "new_version":"1.2.0",
+ "pinning_version":"2018.08.14",
+ "raw_meta_yaml":"{% set name = \"prospector\" %}\n{% set version = \"0.12.11\" %}\n{% set sha256 = \"0390f4336f82820bc4d96b727e55719a3f88ab0789ee893a3eabaaa3fa0201f2\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  fn: {{ name }}-{{ version }}.tar.gz\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  noarch: python\n  script: python -m pip install --no-deps --ignore-installed .\n  entry_points:\n    - prospector = prospector.run:main\n\nrequirements:\n  build:\n    - python\n    - pip\n\n  run:\n    - python\n    - pylint >=1.5.6,<2.0.0\n    - pylint-plugin-utils >=0.2.6\n    - pylint-common >=0.2.5\n    - requirements-detector >=0.4.1\n    - setoptconf >=0.2.0\n    - dodgy >=0.1.9\n    - pyyaml\n    - mccabe >=0.5.0\n    - pyflakes >=0.8.1,<2.0.0\n    - pycodestyle >=2.0.0,<2.4.0\n    - pep8-naming >=0.3.3\n    - pydocstyle >=2.0.0\n    # Optional dependencies.\n    - frosted >=1.4.1\n    - vulture >=0.6,<0.25\n    - pyroma >=2.3\n\ntest:\n  imports:\n    - prospector\n    - prospector.config\n    - prospector.formatters\n    - prospector.profiles\n    - prospector.tools\n    - prospector.tools.dodgy\n    - prospector.tools.frosted\n    - prospector.tools.mccabe\n    - prospector.tools.pep257\n    - prospector.tools.pep8\n    - prospector.tools.profile_validator\n    - prospector.tools.pyflakes\n    - prospector.tools.pylint\n    - prospector.tools.pyroma\n    - prospector.tools.vulture\n\n  commands:\n    - prospector --help\n\nabout:\n  home: https://github.com/PyCQA/prospector\n  license: GPL 2\n  license_file: LICENSE\n  summary: \"Prospector: python static analysis tool\"\n\nextra:\n  recipe-maintainers:\n    - jakirkham\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "dodgy",
+   "frosted",
+   "mccabe",
+   "pep8-naming",
+   "pip",
+   "pycodestyle",
+   "pydocstyle",
+   "pyflakes",
+   "pylint",
+   "pylint-common",
+   "pylint-plugin-utils",
+   "pyroma",
+   "python",
+   "pyyaml",
+   "requirements-detector",
+   "setoptconf",
+   "vulture"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "dodgy",
+    "frosted",
+    "mccabe",
+    "pep8-naming",
+    "pycodestyle",
+    "pydocstyle",
+    "pyflakes",
+    "pylint",
+    "pylint-common",
+    "pylint-plugin-utils",
+    "pyroma",
+    "python",
+    "pyyaml",
+    "requirements-detector",
+    "setoptconf",
+    "vulture"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.1.11",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "dodgy >=0.1.9",
+    "frosted >=1.4.1",
+    "mccabe >=0.5.0",
+    "pep8-naming >=0.3.3",
+    "pycodestyle >=2.0.0,<2.4.0",
+    "pydocstyle >=2.0.0",
+    "pyflakes >=0.8.1,<2.0.0",
+    "pylint >=1.5.6,<2.0.0",
+    "pylint-common >=0.2.5",
+    "pylint-plugin-utils >=0.2.6",
+    "pyroma >=2.3",
+    "python",
+    "pyyaml",
+    "requirements-detector >=0.4.1",
+    "setoptconf >=0.2.0",
+    "vulture >=0.6,<0.25"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/p/prospector/prospector-0.12.11.tar.gz",
+ "version":"0.12.11"
+}

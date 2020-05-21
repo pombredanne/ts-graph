@@ -1,0 +1,603 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/289163591.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.2.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/293450018.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.2.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/299201675.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.3.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/308859202.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.4.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/319009378.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.4.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/323926424.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.5.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/327602926.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.5.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/340359063.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.5.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/343768411.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.6.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/344306561.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.6.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/349733018.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.6.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/353879408.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.6.3"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/370181849.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.6.4"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/376299835.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.6.5"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/382297457.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.7.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/398065588.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.7.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/400181676.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.7.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/403073274.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.7.3"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/411317982.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.7.4"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"miniwdl",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"miniwdl provides WDL developer productivity tools, a local runtime implementation, and a foundation for language experimentation.\n",
+   "home":"https://github.com/chanzuckerberg/miniwdl",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"LICENSE",
+   "summary":"Developer toolkit for the Workflow Description Language (WDL)"
+  },
+  "build":{
+   "entry_points":[
+    "miniwdl = WDL.CLI:main",
+    "miniwdl = WDL.CLI:main",
+    "miniwdl = WDL.CLI:main"
+   ],
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . --no-deps --ignore-installed -vv "
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "mlin",
+    "rhpvorderman",
+    "mlin",
+    "rhpvorderman",
+    "mlin",
+    "rhpvorderman"
+   ]
+  },
+  "package":{
+   "name":"miniwdl",
+   "version":"0.7.4"
+  },
+  "requirements":{
+   "host":[
+    "pip",
+    "pbr",
+    "python >=3.6",
+    "setuptools",
+    "xdg",
+    "importlib_metadata",
+    "docker-py >=3.4.0",
+    "regex",
+    "argcomplete >=1.11.0",
+    "coloredlogs >=11.0",
+    "lark-parser 0.8.5",
+    "pygtail >=0.11.0",
+    "python-json-logger >=0.1.11",
+    "pip",
+    "pbr",
+    "python >=3.6",
+    "setuptools",
+    "xdg",
+    "importlib_metadata",
+    "docker-py >=3.4.0",
+    "regex",
+    "argcomplete >=1.11.0",
+    "coloredlogs >=11.0",
+    "lark-parser 0.8.5",
+    "pygtail >=0.11.0",
+    "python-json-logger >=0.1.11",
+    "pip",
+    "pbr",
+    "python >=3.6",
+    "setuptools",
+    "xdg",
+    "importlib_metadata",
+    "docker-py >=3.4.0",
+    "regex",
+    "argcomplete >=1.11.0",
+    "coloredlogs >=11.0",
+    "lark-parser 0.8.5",
+    "pygtail >=0.11.0",
+    "python-json-logger >=0.1.11"
+   ],
+   "run":[
+    "python >=3.6",
+    "setuptools",
+    "xdg",
+    "importlib_metadata",
+    "docker-py >=3.4.0",
+    "regex",
+    "argcomplete >=1.11.0",
+    "coloredlogs >=11.0",
+    "lark-parser 0.8.5",
+    "pygtail >=0.11.0",
+    "python-json-logger >=0.1.11",
+    "python >=3.6",
+    "setuptools",
+    "xdg",
+    "importlib_metadata",
+    "docker-py >=3.4.0",
+    "regex",
+    "argcomplete >=1.11.0",
+    "coloredlogs >=11.0",
+    "lark-parser 0.8.5",
+    "pygtail >=0.11.0",
+    "python-json-logger >=0.1.11",
+    "python >=3.6",
+    "setuptools",
+    "xdg",
+    "importlib_metadata",
+    "docker-py >=3.4.0",
+    "regex",
+    "argcomplete >=1.11.0",
+    "coloredlogs >=11.0",
+    "lark-parser 0.8.5",
+    "pygtail >=0.11.0",
+    "python-json-logger >=0.1.11"
+   ]
+  },
+  "source":{
+   "sha256":"9a1dca71bac5194efbb58574b7823504234bcaa20ab119551c54d5a54bff876e",
+   "url":"https://pypi.io/packages/source/m/miniwdl/miniwdl-0.7.4.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "miniwdl --help",
+    "miniwdl --help",
+    "miniwdl --help"
+   ],
+   "imports":[
+    "WDL",
+    "WDL.Env",
+    "WDL.Error",
+    "WDL.Expr",
+    "WDL.StdLib",
+    "WDL.Tree",
+    "WDL.Type",
+    "WDL.Value",
+    "WDL.Walker",
+    "WDL",
+    "WDL.Env",
+    "WDL.Error",
+    "WDL.Expr",
+    "WDL.StdLib",
+    "WDL.Tree",
+    "WDL.Type",
+    "WDL.Value",
+    "WDL.Walker",
+    "WDL",
+    "WDL.Env",
+    "WDL.Error",
+    "WDL.Expr",
+    "WDL.StdLib",
+    "WDL.Tree",
+    "WDL.Type",
+    "WDL.Value",
+    "WDL.Walker"
+   ]
+  }
+ },
+ "name":"miniwdl",
+ "new_version":"0.7.4",
+ "new_version_attempts":{
+  "0.7.2":1,
+  "0.7.3":1,
+  "0.7.4":1
+ },
+ "new_version_errors":{},
+ "pinning_version":"2020.04.28.13.02.26",
+ "raw_meta_yaml":"{% set name = \"miniwdl\" %}\n{% set version = \"0.7.4\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: 9a1dca71bac5194efbb58574b7823504234bcaa20ab119551c54d5a54bff876e\n\nbuild:\n  noarch: python\n  number: 0\n  script: '{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv '\n  entry_points:\n    - miniwdl = WDL.CLI:main\n\nrequirements:\n  host:\n    - pip\n    - pbr\n    - python >=3.6\n    - setuptools\n    - xdg\n    - importlib_metadata\n    - docker-py >=3.4.0\n    - regex\n    - argcomplete >=1.11.0\n    - coloredlogs >=11.0\n    - lark-parser 0.8.5\n    - pygtail >=0.11.0\n    - python-json-logger >=0.1.11\n\n  run:\n    - python >=3.6\n    - setuptools\n    - xdg\n    - importlib_metadata\n    - docker-py >=3.4.0\n    - regex\n    - argcomplete >=1.11.0\n    - coloredlogs >=11.0\n    - lark-parser 0.8.5\n    - pygtail >=0.11.0\n    - python-json-logger >=0.1.11\ntest:\n  imports:\n    - WDL\n    - WDL.Env\n    - WDL.Error\n    - WDL.Expr\n    - WDL.StdLib\n    - WDL.Tree\n    - WDL.Type\n    - WDL.Value\n    - WDL.Walker\n  commands:\n    - miniwdl --help\n\nabout:\n  home: https://github.com/chanzuckerberg/miniwdl\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE\n  summary: Developer toolkit for the Workflow Description Language (WDL)\n  description: >\n    miniwdl provides WDL developer productivity tools, a local runtime implementation, and a foundation for language experimentation.\n\nextra:\n  recipe-maintainers:\n    - mlin\n    - rhpvorderman\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "argcomplete",
+   "coloredlogs",
+   "docker-py",
+   "importlib_metadata",
+   "lark-parser",
+   "pbr",
+   "pip",
+   "pygtail",
+   "python",
+   "python-json-logger",
+   "regex",
+   "setuptools",
+   "xdg"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "argcomplete",
+    "coloredlogs",
+    "docker-py",
+    "importlib_metadata",
+    "lark-parser",
+    "pbr",
+    "pip",
+    "pygtail",
+    "python",
+    "python-json-logger",
+    "regex",
+    "setuptools",
+    "xdg"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "argcomplete",
+    "coloredlogs",
+    "docker-py",
+    "importlib_metadata",
+    "lark-parser",
+    "pygtail",
+    "python",
+    "python-json-logger",
+    "regex",
+    "setuptools",
+    "xdg"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.7.0",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "argcomplete >=1.11.0",
+    "coloredlogs >=11.0",
+    "docker-py >=3.4.0",
+    "importlib_metadata",
+    "lark-parser 0.8.5",
+    "pbr",
+    "pip",
+    "pygtail >=0.11.0",
+    "python >=3.6",
+    "python-json-logger >=0.1.11",
+    "regex",
+    "setuptools",
+    "xdg"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "argcomplete >=1.11.0",
+    "coloredlogs >=11.0",
+    "docker-py >=3.4.0",
+    "importlib_metadata",
+    "lark-parser 0.8.5",
+    "pygtail >=0.11.0",
+    "python >=3.6",
+    "python-json-logger >=0.1.11",
+    "regex",
+    "setuptools",
+    "xdg"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/m/miniwdl/miniwdl-0.4.0.tar.gz",
+ "version":"0.7.4"
+}

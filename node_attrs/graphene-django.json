@@ -1,0 +1,249 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/376167307.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.8.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/387730142.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.9.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/402386802.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.9.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/415568859.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.10.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/419698843.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.10.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"graphene-django",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"Graphene-Django is built on top of Graphene. Graphene-Django provides some additional abstractions that make it easy to add GraphQL functionality to your Django project.",
+   "dev_url":"https://github.com/graphql-python/graphene-django",
+   "doc_url":"https://docs.graphene-python.org/projects/django/en/latest/",
+   "home":"https://github.com/graphql-python/graphene-django",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"LICENSE",
+   "summary":"Graphene Django integration"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":"-m pip install . -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "KingDarBoja",
+    "KingDarBoja",
+    "KingDarBoja"
+   ]
+  },
+  "package":{
+   "name":"graphene-django",
+   "version":"2.10.0"
+  },
+  "requirements":{
+   "host":[
+    "pip",
+    "python",
+    "pytest-runner",
+    "pip",
+    "python",
+    "pytest-runner",
+    "pip",
+    "python",
+    "pytest-runner"
+   ],
+   "run":[
+    "django >=1.11",
+    "graphene >=2.1.7,<3",
+    "graphql-core >=2.1.0,<3",
+    "promise >=2.1",
+    "python",
+    "singledispatch >=3.4.0.3",
+    "six >=1.10.0",
+    "django >=1.11",
+    "graphene >=2.1.7,<3",
+    "graphql-core >=2.1.0,<3",
+    "promise >=2.1",
+    "python",
+    "singledispatch >=3.4.0.3",
+    "six >=1.10.0",
+    "django >=1.11",
+    "graphene >=2.1.7,<3",
+    "graphql-core >=2.1.0,<3",
+    "promise >=2.1",
+    "python",
+    "singledispatch >=3.4.0.3",
+    "six >=1.10.0"
+   ]
+  },
+  "source":{
+   "sha256":"ffb9a52470d17e22c7330f29d23f35c581d4c1f3929f16411c23f0ed9d0b8a65",
+   "url":"https://pypi.io/packages/source/g/graphene-django/graphene-django-2.10.0.tar.gz"
+  }
+ },
+ "name":"graphene-django",
+ "new_version":"2.10.1",
+ "new_version_attempts":{
+  "2.10.0":1,
+  "2.10.1":1,
+  "2.9.1":1
+ },
+ "new_version_errors":{},
+ "pinning_version":"2020.05.18.14.31.44",
+ "raw_meta_yaml":"{% set name = \"graphene-django\" %}\n{% set version = \"2.10.0\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: ffb9a52470d17e22c7330f29d23f35c581d4c1f3929f16411c23f0ed9d0b8a65\n\nbuild:\n  noarch: python\n  number: 0\n  script: {{ PYTHON }} -m pip install . -vv\n\nrequirements:\n  host:\n    - pip\n    - python\n    - pytest-runner\n  run:\n    - django >=1.11\n    - graphene >=2.1.7,<3\n    - graphql-core >=2.1.0,<3\n    - promise >=2.1\n    - python\n    - singledispatch >=3.4.0.3\n    - six >=1.10.0\n\nabout:\n  home: https://github.com/graphql-python/graphene-django\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE\n  summary: Graphene Django integration\n  description: Graphene-Django is built on top of Graphene. Graphene-Django provides some additional abstractions that make it easy to add GraphQL functionality to your Django project.\n  doc_url: https://docs.graphene-python.org/projects/django/en/latest/\n  dev_url: https://github.com/graphql-python/graphene-django\n\nextra:\n  recipe-maintainers:\n    - KingDarBoja\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "django",
+   "graphene",
+   "graphql-core",
+   "pip",
+   "promise",
+   "pytest-runner",
+   "python",
+   "singledispatch",
+   "six"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "pytest-runner",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "django",
+    "graphene",
+    "graphql-core",
+    "promise",
+    "python",
+    "singledispatch",
+    "six"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.7.3\n",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "pytest-runner",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "django >=1.11",
+    "graphene >=2.1.7,<3",
+    "graphql-core >=2.1.0,<3",
+    "promise >=2.1",
+    "python",
+    "singledispatch >=3.4.0.3",
+    "six >=1.10.0"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/g/graphene-django/graphene-django-2.8.1.tar.gz",
+ "version":"2.10.0"
+}

@@ -1,0 +1,139 @@
+{
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"modin",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "dev_url":"https://github.com/modin-project/modin",
+   "doc_url":"https://modin.readthedocs.io/",
+   "home":"https://github.com/modin-project/modin",
+   "license":"Apache-2.0",
+   "license_family":"Apache",
+   "license_file":"LICENSE",
+   "summary":"Speed up your Pandas workflows by changing a single line of code"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . --no-deps --ignore-installed -vv "
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "devin-petersohn",
+    "h-vetinari",
+    "devin-petersohn",
+    "h-vetinari",
+    "devin-petersohn",
+    "h-vetinari"
+   ]
+  },
+  "package":{
+   "name":"modin",
+   "version":"0.7.3"
+  },
+  "requirements":{
+   "host":[
+    "pip",
+    "python >=3.5",
+    "pip",
+    "python >=3.5",
+    "pip",
+    "python >=3.5"
+   ],
+   "run":[
+    "python >=3.5",
+    "pandas ==1.0.3",
+    "dask >=2.1.0",
+    "distributed >=2.3.2",
+    "python >=3.5",
+    "pandas ==1.0.3",
+    "dask >=2.1.0",
+    "distributed >=2.3.2",
+    "python >=3.5",
+    "pandas ==1.0.3",
+    "dask >=2.1.0",
+    "distributed >=2.3.2"
+   ]
+  },
+  "source":{
+   "sha256":"cb11d4f62453d47f0d014e2fd9b90fd001c6738ae377e929ae1996d860767c30",
+   "url":"https://pypi.io/packages/source/m/modin/modin-0.7.3.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "python run_test.py",
+    "python run_test.py",
+    "python run_test.py"
+   ]
+  }
+ },
+ "name":"modin",
+ "new_version":"0.7.3",
+ "raw_meta_yaml":"{% set name = \"modin\" %}\n{% set version = \"0.7.3\" %}\n\npackage:\n  name: modin\n  version: \"{{ version }}\"\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: cb11d4f62453d47f0d014e2fd9b90fd001c6738ae377e929ae1996d860767c30 \n\nbuild:\n  number: 0\n  script: \"{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv \"\n  noarch: python\n\nrequirements:\n  host:\n    - pip\n    - python >=3.5\n  run:\n    - python >=3.5\n    - pandas ==1.0.3\n    - dask >=2.1.0\n    - distributed >=2.3.2\n\ntest:\n  commands:\n    - python run_test.py\n\nabout:\n  home: https://github.com/modin-project/modin\n  license: Apache-2.0\n  license_family: Apache\n  license_file: LICENSE\n  summary: Speed up your Pandas workflows by changing a single line of code\n  doc_url: https://modin.readthedocs.io/\n  dev_url: https://github.com/modin-project/modin\n\nextra:\n  recipe-maintainers:\n    - devin-petersohn\n    - h-vetinari\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "dask",
+   "distributed",
+   "pandas",
+   "pip",
+   "python"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "dask",
+    "distributed",
+    "pandas",
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3.5"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "dask >=2.1.0",
+    "distributed >=2.3.2",
+    "pandas ==1.0.3",
+    "python >=3.5"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/m/modin/modin-0.7.3.tar.gz",
+ "version":"0.7.3"
+}

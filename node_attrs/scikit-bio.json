@@ -1,0 +1,452 @@
+{
+ "PRed":[
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.5.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/204240571.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Compiler",
+    "migrator_version":0
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/206842319.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.5.3"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/240382013.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/348687633.json"
+   },
+   "data":{
+    "bot_rerun":1588884948.623866,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"python38"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/374788690.json"
+   },
+   "data":{
+    "bot_rerun":1589819715.952398,
+    "migrator_name":"MatplotlibBase",
+    "migrator_version":0,
+    "name":"matplotlib-to-matplotlib-base"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/414926993.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"python38"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/419649046.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MatplotlibBase",
+    "migrator_version":0,
+    "name":"matplotlib-to-matplotlib-base"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"scikit-bio",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "dev_url":"http://github.com/biocore/scikit-bio",
+   "doc_url":"http://scikit-bio.org",
+   "home":"http://scikit-bio.org",
+   "license":"BSD-3-Clause",
+   "license_family":"BSD",
+   "license_file":"COPYING.txt",
+   "summary":"Data structures, algorithms and educational resources for bioinformatics."
+  },
+  "build":{
+   "number":"2",
+   "script":"-m pip install --no-deps --ignore-installed .",
+   "skip":true
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "ebolyen",
+    "wasade",
+    "mortonjt",
+    "thermokarst",
+    "ElDeveloper",
+    "ebolyen",
+    "wasade",
+    "mortonjt",
+    "thermokarst",
+    "ElDeveloper",
+    "ebolyen",
+    "wasade",
+    "mortonjt",
+    "thermokarst",
+    "ElDeveloper"
+   ]
+  },
+  "package":{
+   "name":"scikit-bio",
+   "version":"0.5.6"
+  },
+  "requirements":{
+   "build":[
+    "c_compiler_stub",
+    "c_compiler_stub",
+    "c_compiler_stub"
+   ],
+   "host":[
+    "python",
+    "pip",
+    "cython",
+    "numpy",
+    "python",
+    "pip",
+    "cython",
+    "numpy",
+    "python",
+    "pip",
+    "cython",
+    "numpy"
+   ],
+   "run":[
+    "python",
+    "lockfile >=0.10.2",
+    "cachecontrol >=0.11.5",
+    "decorator >=3.4.2",
+    "ipython >=3.2.0",
+    "matplotlib >=1.4.3",
+    "natsort >=4.0.3",
+    "numpy",
+    "pandas >=1.0.0",
+    "scipy >=1.3.0",
+    "hdmedians >=0.13",
+    "scikit-learn >=0.19.1",
+    "pytest",
+    "python",
+    "lockfile >=0.10.2",
+    "cachecontrol >=0.11.5",
+    "decorator >=3.4.2",
+    "ipython >=3.2.0",
+    "matplotlib >=1.4.3",
+    "natsort >=4.0.3",
+    "numpy",
+    "pandas >=1.0.0",
+    "scipy >=1.3.0",
+    "hdmedians >=0.13",
+    "scikit-learn >=0.19.1",
+    "pytest",
+    "python",
+    "lockfile >=0.10.2",
+    "cachecontrol >=0.11.5",
+    "decorator >=3.4.2",
+    "ipython >=3.2.0",
+    "matplotlib >=1.4.3",
+    "natsort >=4.0.3",
+    "numpy",
+    "pandas >=1.0.0",
+    "scipy >=1.3.0",
+    "hdmedians >=0.13",
+    "scikit-learn >=0.19.1",
+    "pytest"
+   ]
+  },
+  "source":{
+   "fn":"scikit-bio-0.5.6.tar.gz",
+   "sha256":"48b73ec53ce0ff2c2e3e05f3cfcf93527c1525a8d3e9dd4ae317b4219c37f0ea",
+   "url":"https://pypi.io/packages/source/s/scikit-bio/scikit-bio-0.5.6.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "MPLBACKEND='Agg' python -m skbio.test",
+    "MPLBACKEND='Agg' python -m skbio.test",
+    "MPLBACKEND='Agg' python -m skbio.test"
+   ],
+   "imports":[
+    "skbio",
+    "skbio.alignment",
+    "skbio.alignment._lib",
+    "skbio.alignment.tests",
+    "skbio.diversity",
+    "skbio.diversity.alpha",
+    "skbio.diversity.alpha.tests",
+    "skbio.diversity.beta",
+    "skbio.diversity.beta.tests",
+    "skbio.diversity.tests",
+    "skbio.io",
+    "skbio.io.format",
+    "skbio.io.format.tests",
+    "skbio.io.tests",
+    "skbio.sequence",
+    "skbio.sequence.tests",
+    "skbio.stats",
+    "skbio.stats.distance",
+    "skbio.stats.distance.tests",
+    "skbio.stats.evolve",
+    "skbio.stats.evolve.tests",
+    "skbio.stats.ordination",
+    "skbio.stats.ordination.tests",
+    "skbio.stats.tests",
+    "skbio.tests",
+    "skbio.tree",
+    "skbio.tree.tests",
+    "skbio.util",
+    "skbio.util.tests",
+    "skbio",
+    "skbio.alignment",
+    "skbio.alignment._lib",
+    "skbio.alignment.tests",
+    "skbio.diversity",
+    "skbio.diversity.alpha",
+    "skbio.diversity.alpha.tests",
+    "skbio.diversity.beta",
+    "skbio.diversity.beta.tests",
+    "skbio.diversity.tests",
+    "skbio.io",
+    "skbio.io.format",
+    "skbio.io.format.tests",
+    "skbio.io.tests",
+    "skbio.sequence",
+    "skbio.sequence.tests",
+    "skbio.stats",
+    "skbio.stats.distance",
+    "skbio.stats.distance.tests",
+    "skbio.stats.evolve",
+    "skbio.stats.evolve.tests",
+    "skbio.stats.ordination",
+    "skbio.stats.ordination.tests",
+    "skbio.stats.tests",
+    "skbio.tests",
+    "skbio.tree",
+    "skbio.tree.tests",
+    "skbio.util",
+    "skbio.util.tests",
+    "skbio",
+    "skbio.alignment",
+    "skbio.alignment._lib",
+    "skbio.alignment.tests",
+    "skbio.diversity",
+    "skbio.diversity.alpha",
+    "skbio.diversity.alpha.tests",
+    "skbio.diversity.beta",
+    "skbio.diversity.beta.tests",
+    "skbio.diversity.tests",
+    "skbio.io",
+    "skbio.io.format",
+    "skbio.io.format.tests",
+    "skbio.io.tests",
+    "skbio.sequence",
+    "skbio.sequence.tests",
+    "skbio.stats",
+    "skbio.stats.distance",
+    "skbio.stats.distance.tests",
+    "skbio.stats.evolve",
+    "skbio.stats.evolve.tests",
+    "skbio.stats.ordination",
+    "skbio.stats.ordination.tests",
+    "skbio.stats.tests",
+    "skbio.tests",
+    "skbio.tree",
+    "skbio.tree.tests",
+    "skbio.util",
+    "skbio.util.tests"
+   ]
+  }
+ },
+ "name":"scikit-bio",
+ "new_version":"0.5.6",
+ "pinning_version":"2020.05.18.14.31.44",
+ "raw_meta_yaml":"{% set name = \"scikit-bio\" %}\n{% set version = \"0.5.6\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  fn: {{ name }}-{{ version }}.tar.gz\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: 48b73ec53ce0ff2c2e3e05f3cfcf93527c1525a8d3e9dd4ae317b4219c37f0ea\n\nbuild:\n  skip: true  # [win or py2k]\n  number: 2\n  script: {{ PYTHON }} -m pip install --no-deps --ignore-installed .\n\nrequirements:\n  build:\n    - {{ compiler('c') }}\n  host:\n    - python\n    - pip\n    - cython\n    - numpy\n  run:\n    - python\n    - lockfile >=0.10.2\n    - cachecontrol >=0.11.5\n    - decorator >=3.4.2\n    - ipython >=3.2.0\n    - matplotlib >=1.4.3\n    - natsort >=4.0.3\n    - {{ pin_compatible('numpy') }}\n    - pandas >=1.0.0\n    - scipy >=1.3.0\n    - hdmedians >=0.13\n    - scikit-learn >=0.19.1\n    - pytest\n\ntest:\n  imports:\n    - skbio\n    - skbio.alignment\n    - skbio.alignment._lib\n    - skbio.alignment.tests\n    - skbio.diversity\n    - skbio.diversity.alpha\n    - skbio.diversity.alpha.tests\n    - skbio.diversity.beta\n    - skbio.diversity.beta.tests\n    - skbio.diversity.tests\n    - skbio.io\n    - skbio.io.format\n    - skbio.io.format.tests\n    - skbio.io.tests\n    - skbio.sequence\n    - skbio.sequence.tests\n    - skbio.stats\n    - skbio.stats.distance\n    - skbio.stats.distance.tests\n    - skbio.stats.evolve\n    - skbio.stats.evolve.tests\n    - skbio.stats.ordination\n    - skbio.stats.ordination.tests\n    - skbio.stats.tests\n    - skbio.tests\n    - skbio.tree\n    - skbio.tree.tests\n    - skbio.util\n    - skbio.util.tests\n  commands:\n    - MPLBACKEND='Agg' python -m skbio.test\n\nabout:\n  home: http://scikit-bio.org\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: COPYING.txt\n  summary: 'Data structures, algorithms and educational resources for bioinformatics.'\n  doc_url: http://scikit-bio.org\n  dev_url: http://github.com/biocore/scikit-bio\n\nextra:\n  recipe-maintainers:\n    - ebolyen\n    - wasade\n    - mortonjt\n    - thermokarst\n    - ElDeveloper\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "c_compiler_stub",
+   "cachecontrol",
+   "cython",
+   "decorator",
+   "hdmedians",
+   "ipython",
+   "lockfile",
+   "matplotlib",
+   "natsort",
+   "numpy",
+   "pandas",
+   "pip",
+   "pytest",
+   "python",
+   "scikit-learn",
+   "scipy"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "cython",
+    "numpy",
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "cachecontrol",
+    "decorator",
+    "hdmedians",
+    "ipython",
+    "lockfile",
+    "matplotlib",
+    "natsort",
+    "numpy",
+    "pandas",
+    "pytest",
+    "python",
+    "scikit-learn",
+    "scipy"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.7.3\n",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "cython",
+    "numpy",
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "cachecontrol >=0.11.5",
+    "decorator >=3.4.2",
+    "hdmedians >=0.13",
+    "ipython >=3.2.0",
+    "lockfile >=0.10.2",
+    "matplotlib >=1.4.3",
+    "natsort >=4.0.3",
+    "numpy",
+    "pandas >=1.0.0",
+    "pytest",
+    "python",
+    "scikit-learn >=0.19.1",
+    "scipy >=1.3.0"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/s/scikit-bio/scikit-bio-0.5.5.tar.gz",
+ "version":"0.5.6"
+}

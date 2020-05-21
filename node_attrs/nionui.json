@@ -1,0 +1,167 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/381030258.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.3.27"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"nionui",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "dev_url":"https://github.com/nion-software/nionui",
+   "home":"https://github.com/nion-software/nionui",
+   "license":"Apache-2.0",
+   "license_family":"APACHE",
+   "license_file":"LICENSE.txt",
+   "summary":"Nion UI framework."
+  },
+  "build":{
+   "entry_points":[
+    "nionui=nion.ui.command:main",
+    "nionui=nion.ui.command:main",
+    "nionui=nion.ui.command:main"
+   ],
+   "noarch":"python",
+   "number":"1",
+   "script":"-m pip install . -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "cmeyer",
+    "ericpre",
+    "cmeyer",
+    "ericpre",
+    "cmeyer",
+    "ericpre"
+   ]
+  },
+  "package":{
+   "name":"nionui",
+   "version":"0.3.27"
+  },
+  "requirements":{
+   "host":[
+    "pip",
+    "python >=3.6",
+    "pip",
+    "python >=3.6",
+    "pip",
+    "python >=3.6"
+   ],
+   "run":[
+    "imageio",
+    "nionutils >=0.3.19",
+    "numpy",
+    "python >=3.6",
+    "imageio",
+    "nionutils >=0.3.19",
+    "numpy",
+    "python >=3.6",
+    "imageio",
+    "nionutils >=0.3.19",
+    "numpy",
+    "python >=3.6"
+   ]
+  },
+  "source":{
+   "sha256":"76e21bbad1e3a86ed983efdd9527b061d04c46614bef71627070da06dcd89dcc",
+   "url":"https://github.com/nion-software/nionui/archive/0.3.27.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "nion.ui",
+    "nion.ui.test",
+    "nion.ui",
+    "nion.ui.test",
+    "nion.ui",
+    "nion.ui.test"
+   ]
+  }
+ },
+ "name":"nionui",
+ "new_version":"0.3.27",
+ "pinning_version":"2020.02.20",
+ "raw_meta_yaml":"{% set name = \"nionui\" %}\n{% set version = \"0.3.27\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  #Use pypi for the next release, source distribution missing files\n  #url: \"https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\"\n  #sha256: 85c4a64e6a30be2b601f05680e809712589c6dbb561426d4d5e0f35ef5f97e54\n  url: https://github.com/nion-software/nionui/archive/{{ version }}.tar.gz\n  sha256: 76e21bbad1e3a86ed983efdd9527b061d04c46614bef71627070da06dcd89dcc\n\nbuild:\n  number: 1\n  noarch: python\n  entry_points:\n    - nionui=nion.ui.command:main\n  script: {{ PYTHON }} -m pip install . -vv\n\nrequirements:\n  host:\n    - pip\n    - python >=3.6\n  run:\n    - imageio\n    - nionutils >=0.3.19\n    - numpy\n    - python >=3.6\n\ntest:\n  imports:\n    - nion.ui\n    - nion.ui.test\n\nabout:\n  home: https://github.com/nion-software/nionui\n  license: Apache-2.0\n  license_family: APACHE\n  license_file: LICENSE.txt\n  summary: Nion UI framework.\n  dev_url: https://github.com/nion-software/nionui\n\nextra:\n  recipe-maintainers:\n    - cmeyer\n    - ericpre\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "imageio",
+   "nionutils",
+   "numpy",
+   "pip",
+   "python"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "imageio",
+    "nionutils",
+    "numpy",
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.6.8",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3.6"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "imageio",
+    "nionutils >=0.3.19",
+    "numpy",
+    "python >=3.6"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://github.com/nion-software/nionui/archive/0.3.26.tar.gz",
+ "version":"0.3.27"
+}

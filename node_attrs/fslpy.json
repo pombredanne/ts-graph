@@ -1,0 +1,724 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/214050847.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.10.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/214149567.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.10.3"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/215318115.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.11.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/215712328.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.11.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/224556301.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.12.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/233087624.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.13.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/233253444.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.13.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/235131019.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.13.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/265855010.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.0.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/266536922.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.0.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/270258541.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.1.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/277046318.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.2.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.3.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/294841183.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.3.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/300778954.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.4.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/304818060.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.5.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/315871046.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.6.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/319223824.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.6.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/325677174.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.6.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/337158808.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.7.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/368592039.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.8.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/377750722.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.8.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/380850617.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.8.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/381657192.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.8.3"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/382414920.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.8.4"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/395243262.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.0.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/404372936.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.0.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"fslpy",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "dev_url":"https://git.fmrib.ox.ac.uk/fsl/fslpy/",
+   "home":"https://git.fmrib.ox.ac.uk/fsl/fslpy/",
+   "license":"Apache-2.0",
+   "license_family":"Apache",
+   "license_file":"LICENSE",
+   "summary":"The FSL Python library"
+  },
+  "build":{
+   "entry_points":[
+    "immv           = fsl.scripts.immv:main",
+    "imcp           = fsl.scripts.imcp:main",
+    "imglob         = fsl.scripts.imglob:main",
+    "atlasq         = fsl.scripts.atlasq:main",
+    "atlasquery     = fsl.scripts.atlasq:atlasquery_emulation",
+    "fsl_ents       = fsl.scripts.fsl_ents:main",
+    "resample_image = fsl.scripts.resample_image:main",
+    "fsl_apply_x5   = fsl.scripts.fsl_apply_x5:main",
+    "fsl_convert_x5 = fsl.scripts.fsl_convert_x5:main",
+    "immv           = fsl.scripts.immv:main",
+    "imcp           = fsl.scripts.imcp:main",
+    "imglob         = fsl.scripts.imglob:main",
+    "atlasq         = fsl.scripts.atlasq:main",
+    "atlasquery     = fsl.scripts.atlasq:atlasquery_emulation",
+    "fsl_ents       = fsl.scripts.fsl_ents:main",
+    "resample_image = fsl.scripts.resample_image:main",
+    "fsl_apply_x5   = fsl.scripts.fsl_apply_x5:main",
+    "fsl_convert_x5 = fsl.scripts.fsl_convert_x5:main",
+    "immv           = fsl.scripts.immv:main",
+    "imcp           = fsl.scripts.imcp:main",
+    "imglob         = fsl.scripts.imglob:main",
+    "atlasq         = fsl.scripts.atlasq:main",
+    "atlasquery     = fsl.scripts.atlasq:atlasquery_emulation",
+    "fsl_ents       = fsl.scripts.fsl_ents:main",
+    "resample_image = fsl.scripts.resample_image:main",
+    "fsl_apply_x5   = fsl.scripts.fsl_apply_x5:main",
+    "fsl_convert_x5 = fsl.scripts.fsl_convert_x5:main"
+   ],
+   "noarch":"python",
+   "number":"0",
+   "script":"-m pip install . --no-deps --ignore-installed --no-cache-dir -vvv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "pauldmccarthy",
+    "pauldmccarthy",
+    "pauldmccarthy"
+   ]
+  },
+  "package":{
+   "name":"fslpy",
+   "version":"3.0.1"
+  },
+  "requirements":{
+   "host":[
+    "python >=3.7",
+    "pip",
+    "numpy",
+    "python >=3.7",
+    "pip",
+    "numpy",
+    "python >=3.7",
+    "pip",
+    "numpy"
+   ],
+   "run":[
+    "python >=3.7",
+    "numpy",
+    "scipy >=0.18",
+    "nibabel >=2.3.1",
+    "six 1.*",
+    "h5py >=2.9",
+    "python >=3.7",
+    "numpy",
+    "scipy >=0.18",
+    "nibabel >=2.3.1",
+    "six 1.*",
+    "h5py >=2.9",
+    "python >=3.7",
+    "numpy",
+    "scipy >=0.18",
+    "nibabel >=2.3.1",
+    "six 1.*",
+    "h5py >=2.9"
+   ],
+   "run_constrained":[
+    "indexed_gzip >=0.7",
+    "wxpython >=4",
+    "trimesh >=2.37.29",
+    "rtree >=0.8.3.*",
+    "dcm2niix >=1.0.20171215",
+    "pillow >=3.2.0",
+    "indexed_gzip >=0.7",
+    "wxpython >=4",
+    "trimesh >=2.37.29",
+    "rtree >=0.8.3.*",
+    "dcm2niix >=1.0.20171215",
+    "pillow >=3.2.0",
+    "indexed_gzip >=0.7",
+    "wxpython >=4",
+    "trimesh >=2.37.29",
+    "rtree >=0.8.3.*",
+    "dcm2niix >=1.0.20171215",
+    "pillow >=3.2.0"
+   ]
+  },
+  "source":{
+   "patches":[
+    "test_dicom.py.patch",
+    "test_dicom.py.patch",
+    "test_dicom.py.patch"
+   ],
+   "sha256":"7960522a324c9bcec804cd99bb03ce318849378ae47fb9dd63af41c4f242739a",
+   "url":"https://pypi.io/packages/source/f/fslpy/fslpy-3.0.1.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "pytest -x -v --cov=fsl -m \"not (wxtest or unixtest or longtest or fsltest or noroottest)\" -k \"not (fslsub or fslstats)\" tests",
+    "pytest -x -v --cov=fsl -m \"not (wxtest or unixtest or longtest or fsltest or noroottest)\" -k \"not (fslsub or fslstats)\" tests",
+    "pytest -x -v --cov=fsl -m \"not (wxtest or unixtest or longtest or fsltest or noroottest)\" -k \"not (fslsub or fslstats)\" tests"
+   ],
+   "requires":[
+    "mock",
+    "coverage",
+    "pytest",
+    "pytest-cov",
+    "trimesh >=2.37.29",
+    "rtree >=0.8.3",
+    "indexed_gzip >=0.7",
+    "dcm2niix >=1.0.20171215",
+    "pillow >=3.2.0",
+    "mock",
+    "coverage",
+    "pytest",
+    "pytest-cov",
+    "trimesh >=2.37.29",
+    "rtree >=0.8.3",
+    "indexed_gzip >=0.7",
+    "dcm2niix >=1.0.20171215",
+    "pillow >=3.2.0",
+    "mock",
+    "coverage",
+    "pytest",
+    "pytest-cov",
+    "trimesh >=2.37.29",
+    "rtree >=0.8.3",
+    "indexed_gzip >=0.7",
+    "dcm2niix >=1.0.20171215",
+    "pillow >=3.2.0"
+   ],
+   "source_files":[
+    "tests",
+    "tests",
+    "tests"
+   ]
+  }
+ },
+ "name":"fslpy",
+ "new_version":"3.0.1",
+ "new_version_attempts":{
+  "3.0.1":1
+ },
+ "new_version_errors":{},
+ "pinning_version":"2020.04.16.07.55.54",
+ "raw_meta_yaml":"{% set name = \"fslpy\" %}\n{% set version = \"3.0.1\" %}\n{% set sha256 = \"7960522a324c9bcec804cd99bb03ce318849378ae47fb9dd63af41c4f242739a\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n  patches:\n    - test_dicom.py.patch\n\nbuild:\n  noarch: python\n  number: 0\n  script: {{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv\n  entry_points:\n    - immv           = fsl.scripts.immv:main\n    - imcp           = fsl.scripts.imcp:main\n    - imglob         = fsl.scripts.imglob:main\n    - atlasq         = fsl.scripts.atlasq:main\n    - atlasquery     = fsl.scripts.atlasq:atlasquery_emulation\n    - fsl_ents       = fsl.scripts.fsl_ents:main\n    - resample_image = fsl.scripts.resample_image:main\n    - fsl_apply_x5   = fsl.scripts.fsl_apply_x5:main\n    - fsl_convert_x5 = fsl.scripts.fsl_convert_x5:main\n\nrequirements:\n  host:\n    - python >=3.7\n    - pip\n    - numpy\n  run:\n    - python >=3.7\n    - {{ pin_compatible('numpy') }}\n    - scipy >=0.18\n    - nibabel >=2.3.1\n    - six 1.*\n    - h5py >=2.9\n  run_constrained:\n    - indexed_gzip >=0.7\n    - wxpython >=4\n    - trimesh >=2.37.29\n    - rtree >=0.8.3.*\n    - dcm2niix >=1.0.20171215\n    - pillow >=3.2.0\n\ntest:\n  source_files:\n    - tests\n  requires:\n    - mock\n    - coverage\n    - pytest\n    - pytest-cov\n    - trimesh >=2.37.29\n    - rtree >=0.8.3\n    - indexed_gzip >=0.7\n    - dcm2niix >=1.0.20171215\n    - pillow >=3.2.0\n  commands:\n    - pytest -x -v --cov=fsl -m \"not (wxtest or unixtest or longtest or fsltest or noroottest)\" -k \"not (fslsub or fslstats)\" tests\n\n\nabout:\n  home: https://git.fmrib.ox.ac.uk/fsl/fslpy/\n  license: Apache-2.0\n  license_family: Apache\n  license_file: LICENSE\n  summary: The FSL Python library\n  dev_url: https://git.fmrib.ox.ac.uk/fsl/fslpy/\n\nextra:\n  recipe-maintainers:\n    - pauldmccarthy\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "h5py",
+   "nibabel",
+   "numpy",
+   "pip",
+   "python",
+   "scipy",
+   "six"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "numpy",
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "h5py",
+    "nibabel",
+    "numpy",
+    "python",
+    "scipy",
+    "six"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "coverage",
+    "dcm2niix",
+    "indexed_gzip",
+    "mock",
+    "pillow",
+    "pytest",
+    "pytest-cov",
+    "rtree",
+    "trimesh"
+   ]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.6.16",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "numpy",
+    "pip",
+    "python >=3.7"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "h5py >=2.9",
+    "nibabel >=2.3.1",
+    "numpy",
+    "python >=3.7",
+    "scipy >=0.18",
+    "six 1.*"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "coverage",
+    "dcm2niix >=1.0.20171215",
+    "indexed_gzip >=0.7",
+    "mock",
+    "pillow >=3.2.0",
+    "pytest",
+    "pytest-cov",
+    "rtree >=0.8.3",
+    "trimesh >=2.37.29"
+   ]
+  }
+ },
+ "url":"https://pypi.io/packages/source/f/fslpy/fslpy-2.5.0.tar.gz",
+ "version":"3.0.1"
+}

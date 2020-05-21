@@ -1,0 +1,153 @@
+{
+ "PRed":[
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.2.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"pandas-vet",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "dev_url":"https://github.com/deppen8/pandas-vet",
+   "home":"https://github.com/deppen8/pandas-vet",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"LICENSE",
+   "summary":"A flake8 plugin to lint pandas in an opinionated way"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . --no-deps --ignore-installed -vv "
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "deppen8",
+    "deppen8",
+    "deppen8"
+   ]
+  },
+  "package":{
+   "name":"pandas-vet",
+   "version":"0.2.2"
+  },
+  "requirements":{
+   "host":[
+    "pip",
+    "python >=3.6",
+    "pip",
+    "python >=3.6",
+    "pip",
+    "python >=3.6"
+   ],
+   "run":[
+    "attrs",
+    "flake8 >3.0.0",
+    "python >=3.6",
+    "setuptools",
+    "attrs",
+    "flake8 >3.0.0",
+    "python >=3.6",
+    "setuptools",
+    "attrs",
+    "flake8 >3.0.0",
+    "python >=3.6",
+    "setuptools"
+   ]
+  },
+  "source":{
+   "sha256":"0a316c3edaaa1bcd772bfaea0e8d2b2aa409b740198746a2b60f2007b313f42e",
+   "url":"https://pypi.io/packages/source/p/pandas-vet/pandas-vet-0.2.2.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "pandas_vet",
+    "pandas_vet",
+    "pandas_vet"
+   ]
+  }
+ },
+ "name":"pandas-vet",
+ "new_version":"0.2.2",
+ "pinning_version":"2019.07.26",
+ "raw_meta_yaml":"{% set name = \"pandas-vet\" %}\n{% set version = \"0.2.2\" %}\n\npackage:\n  name: \"{{ name|lower }}\"\n  version: \"{{ version }}\"\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: 0a316c3edaaa1bcd772bfaea0e8d2b2aa409b740198746a2b60f2007b313f42e\n\nbuild:\n  noarch: python\n  number: 0\n  script: \"{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv \"\n\nrequirements:\n  host:\n    - pip\n    - python >=3.6\n  run:\n    - attrs\n    - flake8 >3.0.0\n    - python >=3.6\n    - setuptools\n\ntest:\n  imports:\n    - pandas_vet\n\nabout:\n  home: https://github.com/deppen8/pandas-vet\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE\n  summary: A flake8 plugin to lint pandas in an opinionated way\n  dev_url: https://github.com/deppen8/pandas-vet\n\nextra:\n  recipe-maintainers:\n    - deppen8\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "attrs",
+   "flake8",
+   "pip",
+   "python",
+   "setuptools"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "attrs",
+    "flake8",
+    "python",
+    "setuptools"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.4.1",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3.6"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "attrs",
+    "flake8 >3.0.0",
+    "python >=3.6",
+    "setuptools"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/p/pandas-vet/pandas-vet-0.2.1.tar.gz",
+ "version":"0.2.2"
+}

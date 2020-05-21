@@ -1,0 +1,153 @@
+{
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"tdameritrade",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"Python interface to TD Ameritrade\n",
+   "dev_url":"https://github.com/timkpaine/tdameritrade",
+   "home":"http://github.com/timkpaine/tdameritrade",
+   "license":"Apache-2.0",
+   "license_family":"Apache",
+   "license_file":"LICENSE",
+   "summary":"Python interface to TD Ameritrade"
+  },
+  "build":{
+   "entry_points":[
+    "tdameritrade-auth = tdameritrade.auth:main",
+    "tdameritrade-auth = tdameritrade.auth:main",
+    "tdameritrade-auth = tdameritrade.auth:main"
+   ],
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "timkpaine",
+    "timkpaine",
+    "timkpaine"
+   ]
+  },
+  "package":{
+   "name":"tdameritrade",
+   "version":"0.1.0"
+  },
+  "requirements":{
+   "host":[
+    "python >=3.7",
+    "pip",
+    "python >=3.7",
+    "pip",
+    "python >=3.7",
+    "pip"
+   ],
+   "run":[
+    "python >=3.7",
+    "ipython >=7.0.1",
+    "pandas >=0.22.0",
+    "requests >=2.22.0",
+    "selenium >=3.141.0",
+    "ujson >=1.35",
+    "python >=3.7",
+    "ipython >=7.0.1",
+    "pandas >=0.22.0",
+    "requests >=2.22.0",
+    "selenium >=3.141.0",
+    "ujson >=1.35",
+    "python >=3.7",
+    "ipython >=7.0.1",
+    "pandas >=0.22.0",
+    "requests >=2.22.0",
+    "selenium >=3.141.0",
+    "ujson >=1.35"
+   ]
+  },
+  "source":{
+   "sha256":"692baf738dc8c5f9250764ac7db101171c5df8dd59e39bae77d2a7ff41a02479",
+   "url":"https://pypi.io/packages/source/t/tdameritrade/tdameritrade-0.1.0.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "tdameritrade",
+    "tdameritrade",
+    "tdameritrade"
+   ]
+  }
+ },
+ "name":"tdameritrade",
+ "new_version":"0.1.0",
+ "raw_meta_yaml":"{% set name = \"tdameritrade\" %}\n{% set version = \"0.1.0\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: 692baf738dc8c5f9250764ac7db101171c5df8dd59e39bae77d2a7ff41a02479\n\nbuild:\n  number: 0\n  noarch: python\n  script: \"{{ PYTHON }} -m pip install . -vv\"\n  entry_points:\n    - tdameritrade-auth = tdameritrade.auth:main\n\nrequirements:\n  host:\n    - python >=3.7\n    - pip\n  run:\n    - python >=3.7\n    - ipython >=7.0.1\n    - pandas >=0.22.0\n    - requests >=2.22.0\n    - selenium >=3.141.0\n    - ujson >=1.35\n\ntest:\n  imports:\n    - tdameritrade\n\nabout:\n  home: http://github.com/timkpaine/tdameritrade\n  license: Apache-2.0\n  license_family: Apache\n  license_file: LICENSE\n  summary: 'Python interface to TD Ameritrade'\n\n  description: |\n    Python interface to TD Ameritrade\n  dev_url: https://github.com/timkpaine/tdameritrade\n\nextra:\n  recipe-maintainers:\n    - timkpaine\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "ipython",
+   "pandas",
+   "pip",
+   "python",
+   "requests",
+   "selenium",
+   "ujson"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "ipython",
+    "pandas",
+    "python",
+    "requests",
+    "selenium",
+    "ujson"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3.7"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "ipython >=7.0.1",
+    "pandas >=0.22.0",
+    "python >=3.7",
+    "requests >=2.22.0",
+    "selenium >=3.141.0",
+    "ujson >=1.35"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/t/tdameritrade/tdameritrade-0.1.0.tar.gz",
+ "version":"0.1.0"
+}

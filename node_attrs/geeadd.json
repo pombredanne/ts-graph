@@ -1,0 +1,195 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/415529638.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.4.8"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/419228322.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.4.9"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"geeadd",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "dev_url":"https://github.com/samapriya/gee_asset_manager_addon",
+   "doc_url":"https://samapriya.github.io/gee_asset_manager_addon/",
+   "home":"https://github.com/samapriya/gee_asset_manager_addon",
+   "license":"Apache Software",
+   "license_family":"APACHE",
+   "license_file":"LICENSE",
+   "summary":"Google Earth Engine Batch Assets Manager with Addons"
+  },
+  "build":{
+   "entry_points":[
+    "geeadd=geeadd.geeadd:main",
+    "geeadd=geeadd.geeadd:main",
+    "geeadd=geeadd.geeadd:main"
+   ],
+   "noarch":"python",
+   "number":"0",
+   "script":"-m pip install . -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "samapriya",
+    "samapriya",
+    "samapriya"
+   ]
+  },
+  "package":{
+   "name":"geeadd",
+   "version":"0.4.9"
+  },
+  "requirements":{
+   "host":[
+    "pip",
+    "python >3.5",
+    "pip",
+    "python >3.5",
+    "pip",
+    "python >3.5"
+   ],
+   "run":[
+    "beautifulsoup4 >=4.9.0",
+    "earthengine-api >=0.1.217",
+    "logzero >=1.5.0",
+    "requests >=2.22.0",
+    "python >3.5",
+    "beautifulsoup4 >=4.9.0",
+    "earthengine-api >=0.1.217",
+    "logzero >=1.5.0",
+    "requests >=2.22.0",
+    "python >3.5",
+    "beautifulsoup4 >=4.9.0",
+    "earthengine-api >=0.1.217",
+    "logzero >=1.5.0",
+    "requests >=2.22.0",
+    "python >3.5"
+   ]
+  },
+  "source":{
+   "sha256":"5b142a1eecc2878b82fc0888b0956d5e826b16835dc275f255ae3724e1922f1c",
+   "url":"https://pypi.io/packages/source/g/geeadd/geeadd-0.4.9.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "geeadd --help",
+    "geeadd --help",
+    "geeadd --help"
+   ],
+   "imports":[
+    "geeadd",
+    "geeadd",
+    "geeadd"
+   ]
+  }
+ },
+ "name":"geeadd",
+ "new_version":"0.4.9",
+ "new_version_attempts":{
+  "0.4.8":1,
+  "0.4.9":1
+ },
+ "new_version_errors":{},
+ "pinning_version":"2020.05.14.17.14.20",
+ "raw_meta_yaml":"{% set name = \"geeadd\" %}\n{% set version = \"0.4.9\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: \"https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\"\n  sha256: 5b142a1eecc2878b82fc0888b0956d5e826b16835dc275f255ae3724e1922f1c\n\nbuild:\n  number: 0\n  entry_points:\n    - geeadd=geeadd.geeadd:main\n  noarch: python\n  script: {{ PYTHON }} -m pip install . -vv\n\nrequirements:\n  host:\n    - pip\n    - python >3.5\n\n  run:\n    - beautifulsoup4 >=4.9.0\n    - earthengine-api >=0.1.217\n    - logzero >=1.5.0\n    - requests >=2.22.0\n    - python >3.5\n\ntest:\n  imports:\n    - geeadd\n  commands:\n    - geeadd --help\n\nabout:\n  home: https://github.com/samapriya/gee_asset_manager_addon\n  license: Apache Software\n  license_family: APACHE\n  license_file: LICENSE\n  summary: Google Earth Engine Batch Assets Manager with Addons\n  doc_url: https://samapriya.github.io/gee_asset_manager_addon/\n  dev_url: https://github.com/samapriya/gee_asset_manager_addon\n\nextra:\n  recipe-maintainers:\n    - samapriya",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "beautifulsoup4",
+   "earthengine-api",
+   "logzero",
+   "pip",
+   "python",
+   "requests"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "beautifulsoup4",
+    "earthengine-api",
+    "logzero",
+    "python",
+    "requests"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.7.2\n",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >3.5"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "beautifulsoup4 >=4.9.0",
+    "earthengine-api >=0.1.217",
+    "logzero >=1.5.0",
+    "python >3.5",
+    "requests >=2.22.0"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/g/geeadd/geeadd-0.4.7.tar.gz",
+ "version":"0.4.9"
+}

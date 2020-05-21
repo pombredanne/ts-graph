@@ -1,0 +1,129 @@
+{
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"respx",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "dev_url":"https://github.com/lundberg/respx",
+   "doc_url":"https://lundberg.github.io/respx",
+   "home":"https://lundberg.github.io/respx",
+   "license":"BSD-3-Clause",
+   "license_file":"LICENSE.md",
+   "summary":"A utility for mocking out the Python HTTPX library."
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":"-m pip install . -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "synapticarbors",
+    "synapticarbors",
+    "synapticarbors"
+   ]
+  },
+  "package":{
+   "name":"respx",
+   "version":"0.10.1"
+  },
+  "requirements":{
+   "host":[
+    "pip",
+    "python >=3.6",
+    "pip",
+    "python >=3.6",
+    "pip",
+    "python >=3.6"
+   ],
+   "run":[
+    "asynctest",
+    "httpx <0.13,>=0.12",
+    "python >=3.6",
+    "asynctest",
+    "httpx <0.13,>=0.12",
+    "python >=3.6",
+    "asynctest",
+    "httpx <0.13,>=0.12",
+    "python >=3.6"
+   ]
+  },
+  "source":{
+   "sha256":"190d1fb5bddaf6fcc1319a3cdfbd682c77d7167017b3283cbe79b8fb74927135",
+   "url":"https://pypi.io/packages/source/r/respx/respx-0.10.1.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "respx",
+    "respx",
+    "respx"
+   ]
+  }
+ },
+ "name":"respx",
+ "new_version":"0.10.1",
+ "raw_meta_yaml":"{% set name = \"respx\" %}\n{% set version = \"0.10.1\" %}\n\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: 190d1fb5bddaf6fcc1319a3cdfbd682c77d7167017b3283cbe79b8fb74927135\n\nbuild:\n  number: 0\n  noarch: python\n  script: {{ PYTHON }} -m pip install . -vv\n\nrequirements:\n  host:\n    - pip\n    - python >=3.6\n  run:\n    - asynctest\n    - httpx <0.13,>=0.12\n    - python >=3.6\n\ntest:\n  imports:\n    - respx\n\nabout:\n  home: https://lundberg.github.io/respx\n  summary: A utility for mocking out the Python HTTPX library.\n  license: BSD-3-Clause\n  # Manually packaged: https://github.com/lundberg/respx/pull/48\n  license_file: LICENSE.md\n  dev_url: https://github.com/lundberg/respx\n  doc_url: https://lundberg.github.io/respx\n\nextra:\n  recipe-maintainers:\n    - synapticarbors\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "asynctest",
+   "httpx",
+   "pip",
+   "python"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "asynctest",
+    "httpx",
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3.6"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "asynctest",
+    "httpx <0.13,>=0.12",
+    "python >=3.6"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/r/respx/respx-0.10.1.tar.gz",
+ "version":"0.10.1"
+}

@@ -1,0 +1,368 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/199884780.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Noarch",
+    "migrator_version":0
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/202352170.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.14.4"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/203016146.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.14.4.post1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/206140343.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.14.4.post2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/222635165.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/302182685.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.1.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/375091474.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.2.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "compiler_stack":"comp7",
+  "max_py_ver":"37",
+  "max_r_ver":"35"
+ },
+ "feedstock_name":"pysal",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"PySAL(Python Spatial Analysis Library) for spatial data science and the development of high level applications.\n",
+   "dev_url":"https://github.com/pysal",
+   "doc_source_url":"https://github.com/pysal/pysal/blob/master/doc/source/index.rst",
+   "doc_url":"http://pysal.org/pysal",
+   "home":"http://pysal.org",
+   "license":"BSD-3-Clause",
+   "license_family":"BSD",
+   "license_file":"LICENSE.txt",
+   "summary":"Library of spatial analysis functions"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . --no-deps -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "sjsrey",
+    "ocefpaf",
+    "mariusvniekerk",
+    "marcelotrevisani",
+    "sjsrey",
+    "ocefpaf",
+    "mariusvniekerk",
+    "marcelotrevisani",
+    "sjsrey",
+    "ocefpaf",
+    "mariusvniekerk",
+    "marcelotrevisani"
+   ]
+  },
+  "package":{
+   "name":"pysal",
+   "version":"2.2.0"
+  },
+  "requirements":{
+   "host":[
+    "pip",
+    "python >=3.7",
+    "pip",
+    "python >=3.7",
+    "pip",
+    "python >=3.7"
+   ],
+   "run":[
+    "esda >=2.2.1",
+    "giddy >=2.3.0",
+    "inequality >=1.0.0",
+    "libpysal >=4.2.2",
+    "mapclassify >=2.2.0",
+    "mgwr >=2.1.1",
+    "pointpats >=2.1.0",
+    "python >=3.7",
+    "python-dateutil <=2.8.0",
+    "segregation >=1.2.0",
+    "spaghetti >=1.4.1",
+    "spglm >=1.0.7",
+    "spint >=1.0.6",
+    "splot >=1.1.2",
+    "spreg >=1.0.4",
+    "spvcm >=0.3.0",
+    "tobler >=0.2.0",
+    "urllib3 <1.25",
+    "esda >=2.2.1",
+    "giddy >=2.3.0",
+    "inequality >=1.0.0",
+    "libpysal >=4.2.2",
+    "mapclassify >=2.2.0",
+    "mgwr >=2.1.1",
+    "pointpats >=2.1.0",
+    "python >=3.7",
+    "python-dateutil <=2.8.0",
+    "segregation >=1.2.0",
+    "spaghetti >=1.4.1",
+    "spglm >=1.0.7",
+    "spint >=1.0.6",
+    "splot >=1.1.2",
+    "spreg >=1.0.4",
+    "spvcm >=0.3.0",
+    "tobler >=0.2.0",
+    "urllib3 <1.25",
+    "esda >=2.2.1",
+    "giddy >=2.3.0",
+    "inequality >=1.0.0",
+    "libpysal >=4.2.2",
+    "mapclassify >=2.2.0",
+    "mgwr >=2.1.1",
+    "pointpats >=2.1.0",
+    "python >=3.7",
+    "python-dateutil <=2.8.0",
+    "segregation >=1.2.0",
+    "spaghetti >=1.4.1",
+    "spglm >=1.0.7",
+    "spint >=1.0.6",
+    "splot >=1.1.2",
+    "spreg >=1.0.4",
+    "spvcm >=0.3.0",
+    "tobler >=0.2.0",
+    "urllib3 <1.25"
+   ]
+  },
+  "source":{
+   "sha256":"d712156895b1e6c672f6929804bf86ab54d9f5d197b1cb97452c68583a162820",
+   "url":"https://pypi.io/packages/source/p/pysal/pysal-2.2.0.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "pysal",
+    "pysal.viz",
+    "pysal.explore",
+    "pysal.model",
+    "pysal.lib",
+    "pysal",
+    "pysal.viz",
+    "pysal.explore",
+    "pysal.model",
+    "pysal.lib",
+    "pysal",
+    "pysal.viz",
+    "pysal.explore",
+    "pysal.model",
+    "pysal.lib"
+   ]
+  }
+ },
+ "name":"pysal",
+ "new_version":"2.2.0",
+ "pinning_version":"2020.02.12",
+ "raw_meta_yaml":"{% set version = \"2.2.0\" %}\n\npackage:\n  name: pysal\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/p/pysal/pysal-{{ version }}.tar.gz\n  sha256: d712156895b1e6c672f6929804bf86ab54d9f5d197b1cb97452c68583a162820\n\nbuild:\n  number: 0\n  noarch: python\n  script: \"{{ PYTHON }} -m pip install . --no-deps -vv\"\n\nrequirements:\n  host:\n    - pip\n    - python >=3.7\n  run:\n    - esda >=2.2.1\n    - giddy >=2.3.0\n    - inequality >=1.0.0\n    - libpysal >=4.2.2\n    - mapclassify >=2.2.0\n    - mgwr >=2.1.1\n    - pointpats >=2.1.0\n    - python >=3.7\n    - python-dateutil <=2.8.0\n    - segregation >=1.2.0\n    - spaghetti >=1.4.1\n    - spglm >=1.0.7\n    - spint >=1.0.6\n    - splot >=1.1.2\n    - spreg >=1.0.4\n    - spvcm >=0.3.0\n    - tobler >=0.2.0\n    - urllib3 <1.25\n\ntest:\n  imports:\n    - pysal\n    - pysal.viz\n    - pysal.explore\n    - pysal.model\n    - pysal.lib\n\nabout:\n  home: http://pysal.org\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: LICENSE.txt\n  summary: 'Library of spatial analysis functions'\n  description: |\n    PySAL(Python Spatial Analysis Library) for spatial data science and the development of high level applications.\n  doc_url: http://pysal.org/pysal\n  doc_source_url: https://github.com/pysal/pysal/blob/master/doc/source/index.rst\n  dev_url: https://github.com/pysal\n\nextra:\n  recipe-maintainers:\n    - sjsrey\n    - ocefpaf\n    - mariusvniekerk\n    - marcelotrevisani\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "esda",
+   "giddy",
+   "inequality",
+   "libpysal",
+   "mapclassify",
+   "mgwr",
+   "pip",
+   "pointpats",
+   "python",
+   "python-dateutil",
+   "segregation",
+   "spaghetti",
+   "spglm",
+   "spint",
+   "splot",
+   "spreg",
+   "spvcm",
+   "tobler",
+   "urllib3"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "esda",
+    "giddy",
+    "inequality",
+    "libpysal",
+    "mapclassify",
+    "mgwr",
+    "pointpats",
+    "python",
+    "python-dateutil",
+    "segregation",
+    "spaghetti",
+    "spglm",
+    "spint",
+    "splot",
+    "spreg",
+    "spvcm",
+    "tobler",
+    "urllib3"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.6.8",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3.7"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "esda >=2.2.1",
+    "giddy >=2.3.0",
+    "inequality >=1.0.0",
+    "libpysal >=4.2.2",
+    "mapclassify >=2.2.0",
+    "mgwr >=2.1.1",
+    "pointpats >=2.1.0",
+    "python >=3.7",
+    "python-dateutil <=2.8.0",
+    "segregation >=1.2.0",
+    "spaghetti >=1.4.1",
+    "spglm >=1.0.7",
+    "spint >=1.0.6",
+    "splot >=1.1.2",
+    "spreg >=1.0.4",
+    "spvcm >=0.3.0",
+    "tobler >=0.2.0",
+    "urllib3 <1.25"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/p/pysal/pysal-2.1.0.tar.gz",
+ "version":"2.2.0"
+}

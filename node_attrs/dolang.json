@@ -1,0 +1,149 @@
+{
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"dolang",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"https://github.com/EconForge/dolang.py",
+   "license":"BSD-2-Clause",
+   "license_family":"BSD",
+   "license_file":"COPYING",
+   "summary":"Dolo Modeling Language"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"2",
+   "script":" -m pip install . -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "albop",
+    "albop",
+    "albop"
+   ]
+  },
+  "package":{
+   "name":"dolang",
+   "version":"0.0.8"
+  },
+  "requirements":{
+   "host":[
+    "pip ==20.0.2",
+    "python >=3.7",
+    "poetry",
+    "pip ==20.0.2",
+    "python >=3.7",
+    "poetry",
+    "pip ==20.0.2",
+    "python >=3.7",
+    "poetry"
+   ],
+   "run":[
+    "numba >=0.48.0",
+    "numpy >=1.18.1",
+    "python >=3.7",
+    "sympy >=1.5.1",
+    "tempita >=0.5.2",
+    "numba >=0.48.0",
+    "numpy >=1.18.1",
+    "python >=3.7",
+    "sympy >=1.5.1",
+    "tempita >=0.5.2",
+    "numba >=0.48.0",
+    "numpy >=1.18.1",
+    "python >=3.7",
+    "sympy >=1.5.1",
+    "tempita >=0.5.2"
+   ]
+  },
+  "source":{
+   "sha256":"de602c48c7b4b6809b8b450cb4a2e3b45408ba372e656f182b93d4508467f2e4",
+   "url":"https://pypi.io/packages/source/d/dolang/dolang-0.0.8.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "dolang",
+    "dolang.tests",
+    "dolang",
+    "dolang.tests",
+    "dolang",
+    "dolang.tests"
+   ]
+  }
+ },
+ "name":"dolang",
+ "new_version":"0.0.8",
+ "raw_meta_yaml":"{% set name = \"dolang\" %}\n{% set version = \"0.0.8\" %}\n\npackage:\n  name: \"{{ name|lower }}\"\n  version: \"{{ version }}\"\n\nsource:\n  url: \"https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\"\n  sha256: de602c48c7b4b6809b8b450cb4a2e3b45408ba372e656f182b93d4508467f2e4\n\nbuild:\n  number: 2\n  noarch: python\n  script: \"{{ PYTHON }} -m pip install . -vv\"\n\nrequirements:\n  host:\n    - pip ==20.0.2\n    - python >=3.7\n    - poetry\n  run:\n    - numba >=0.48.0\n    - numpy >=1.18.1\n    - python >=3.7\n    - sympy >=1.5.1\n    - tempita >=0.5.2\n\ntest:\n  imports:\n    - dolang\n    - dolang.tests\n\nabout:\n  home: https://github.com/EconForge/dolang.py\n  license: BSD-2-Clause\n  license_family: BSD\n  # in the future, don't include the license file\n  # as it will be part of the source distribution\n  # cf: https://github.com/EconForge/dolang.py/issues/3\n  license_file: COPYING\n  summary: \"Dolo Modeling Language\"\n\nextra:\n  recipe-maintainers:\n    - albop\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "numba",
+   "numpy",
+   "pip",
+   "poetry",
+   "python",
+   "sympy",
+   "tempita"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "poetry",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "numba",
+    "numpy",
+    "python",
+    "sympy",
+    "tempita"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip ==20.0.2",
+    "poetry",
+    "python >=3.7"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "numba >=0.48.0",
+    "numpy >=1.18.1",
+    "python >=3.7",
+    "sympy >=1.5.1",
+    "tempita >=0.5.2"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/d/dolang/dolang-0.0.8.tar.gz",
+ "version":"0.0.8"
+}

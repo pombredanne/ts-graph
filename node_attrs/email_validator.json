@@ -1,0 +1,188 @@
+{
+ "PRed":[
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.0.3"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "head":{
+     "ref":"<this_is_not_a_branch>"
+    },
+    "state":"closed"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.0.5"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"email_validator",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "dev_url":"https://github.com/JoshData/python-email-validator",
+   "doc_url":"https://github.com/JoshData/python-email-validator",
+   "home":"https://github.com/JoshData/python-email-validator",
+   "license":"CC0-1.0",
+   "license_family":"CC",
+   "license_file":"LICENSE",
+   "summary":"A robust email syntax and deliverability validation library for Python 2.x/3.x."
+  },
+  "build":{
+   "entry_points":[
+    "email_validator = email_validator:main",
+    "email_validator = email_validator:main",
+    "email_validator = email_validator:main"
+   ],
+   "noarch":"python",
+   "number":"0",
+   "script":"-m pip install . --no-deps -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "pmlandwehr",
+    "xylar",
+    "pmlandwehr",
+    "xylar",
+    "pmlandwehr",
+    "xylar"
+   ]
+  },
+  "package":{
+   "name":"email_validator",
+   "version":"1.1.0"
+  },
+  "requirements":{
+   "host":[
+    "python",
+    "pip",
+    "python",
+    "pip",
+    "python",
+    "pip"
+   ],
+   "run":[
+    "python",
+    "idna >=2.0.0",
+    "dnspython >=1.15.0",
+    "python",
+    "idna >=2.0.0",
+    "dnspython >=1.15.0",
+    "python",
+    "idna >=2.0.0",
+    "dnspython >=1.15.0"
+   ]
+  },
+  "source":{
+   "sha256":"5fcba45bec4b015d78e91a69e6f64d8ff3c4f9251a3c10a59ac757841d7d6ae3",
+   "url":"https://github.com/JoshData/python-email-validator/archive/v1.1.0.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "email_validator --help",
+    "email_validator --help",
+    "email_validator --help"
+   ],
+   "imports":[
+    "email_validator",
+    "email_validator",
+    "email_validator"
+   ]
+  }
+ },
+ "name":"email_validator",
+ "new_version":"1.1.0",
+ "new_version_attempts":{
+  "1.0.5":483
+ },
+ "new_version_errors":{
+  "1.0.5":"The recipe did not change in the version migration, a URL did not hash, or there is jinja2 syntax the bot cannot handle!\n\nPlease check the URLs in your recipe with version '1.0.5' to make sure they exist!\n\nWe also found the following errors:\n\n - could not hash URL template 'https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.{{ bundle }}'\n"
+ },
+ "pinning_version":"2020.04.28.13.02.26",
+ "raw_meta_yaml":"{% set name = \"email_validator\" %}\n{% set version = \"1.1.0\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://github.com/JoshData/python-email-validator/archive/v{{ version }}.tar.gz\n  sha256: 5fcba45bec4b015d78e91a69e6f64d8ff3c4f9251a3c10a59ac757841d7d6ae3\n\nbuild:\n  noarch: python\n  number: 0\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\n  entry_points:\n    - email_validator = email_validator:main\n\nrequirements:\n  host:\n    - python\n    - pip\n\n  run:\n    - python\n    - idna >=2.0.0\n    - dnspython >=1.15.0\n\ntest:\n  imports:\n    - email_validator\n\n  commands:\n    - email_validator --help\n\nabout:\n  home: https://github.com/JoshData/python-email-validator\n  license_file: LICENSE\n  license: CC0-1.0\n  license_family: CC\n  summary: A robust email syntax and deliverability validation library for Python 2.x/3.x.\n  dev_url: https://github.com/JoshData/python-email-validator\n  doc_url: https://github.com/JoshData/python-email-validator\n\nextra:\n  recipe-maintainers:\n    - pmlandwehr\n    - xylar\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "dnspython",
+   "idna",
+   "pip",
+   "python"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "dnspython",
+    "idna",
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.7.0",
+ "strong_exports":false,
+ "time":1568135288.5307305,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "dnspython >=1.15.0",
+    "idna >=2.0.0",
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/e/email_validator/email_validator-1.0.2.tar.gz",
+ "version":"1.1.0"
+}

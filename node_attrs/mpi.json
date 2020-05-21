@@ -1,0 +1,113 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/262261956.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"ArchRebuild",
+    "migrator_version":1,
+    "name":"aarch64 and ppc64le addition"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":"Upstream: Error getting upstream version",
+ "conda-forge.yml":{
+  "compiler_stack":"comp7",
+  "provider":{
+   "linux_aarch64":"azure",
+   "linux_ppc64le":"azure"
+  }
+ },
+ "feedstock_name":"mpi",
+ "meta_yaml":{
+  "about":{
+   "home":"https://github.com/conda-forge/mpi-feedstock",
+   "license":"BSD 3-clause",
+   "license_file":"/LICENSE.txt",
+   "summary":"Metapackage to select the MPI variant. Use conda's pinning mechanism in your environment to control which variant you want."
+  },
+  "build":{
+   "number":"0",
+   "skip":true,
+   "string":null
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "minrk",
+    "ocefpaf",
+    "minrk",
+    "ocefpaf",
+    "minrk",
+    "ocefpaf"
+   ]
+  },
+  "package":{
+   "name":"mpi",
+   "version":"1.0"
+  },
+  "requirements":{},
+  "test":{
+   "commands":[
+    "echo \"I'm a metapackage\"",
+    "echo \"I'm a metapackage\"",
+    "echo \"I'm a metapackage\""
+   ]
+  }
+ },
+ "name":"mpi",
+ "new_version":false,
+ "pinning_version":"2019.03.17",
+ "raw_meta_yaml":"# Based on blas metapackage: https://github.com/conda-forge/blas-feedstock\n# Some useful notes can be found at https://conda-forge.hackpad.com/BLAS-Numpy-Friends-86De62hoNdT\n# See discussion: https://github.com/conda-forge/staged-recipes/pull/1501\n\n# The version should be in the form X.Y, where X denotes major infrastructural change to how mpi is managed,\n# and Y denoting mpi priority. Having MPI priority causes `conda upgrade --all` to switch to preferred provider,\n# so currently express no priority.\n{% set Y = 0 %}\npackage:\n  name: mpi\n  version: 1.{{ Y }}\n\nbuild:\n  # We mustn't use the build number in the mpi package - because we are defining the string,\n  # manually we would not be producing unique filenames.\n  number: 0\n  string: {{ mpi }}\n  # TODO: support Windows when msmpi is packaged\n  skip: true  # [win]\n\nrequirements: {}\n  # None, mpi providers should depend on me\n\ntest:\n  commands:\n    - echo \"I'm a metapackage\"\n\nabout:\n  home: https://github.com/conda-forge/mpi-feedstock\n  license: BSD 3-clause\n  license_file: {{ RECIPE_DIR if RECIPE_DIR is defined else '' }}/LICENSE.txt\n  summary: Metapackage to select the MPI variant. Use conda's pinning mechanism in your environment to control which variant you want.\n\nextra:\n  recipe-maintainers:\n    - minrk\n    - ocefpaf\n",
+ "req":{
+  "__set__":true,
+  "elements":[]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.2.14",
+ "strong_exports":false,
+ "time":1568135290.4560113,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "version":"1.0"
+}

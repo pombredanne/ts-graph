@@ -1,0 +1,188 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/406977127.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.1.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"sunraster",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "dev_url":"https://github.com/sunpy/sunraster",
+   "doc_url":"https://sunraster.readthedocs.io/",
+   "home":"http://sunpy.org",
+   "license":"BSD-2-Clause",
+   "license_family":"BSD",
+   "license_file":"LICENSE.rst",
+   "summary":"A package providing instrument-agnostic data classes for manipulating solar spectrogram data."
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":"-m pip install . -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "DanRyanIrish",
+    "Cadair",
+    "DanRyanIrish",
+    "Cadair",
+    "DanRyanIrish",
+    "Cadair"
+   ]
+  },
+  "package":{
+   "name":"sunraster",
+   "version":"0.1.2"
+  },
+  "requirements":{
+   "host":[
+    "python >=3.7",
+    "pip",
+    "setuptools_scm",
+    "python >=3.7",
+    "pip",
+    "setuptools_scm",
+    "python >=3.7",
+    "pip",
+    "setuptools_scm"
+   ],
+   "run":[
+    "python >=3.7",
+    "numpy",
+    "astropy >=3.1",
+    "ndcube >=1.3.2",
+    "python >=3.7",
+    "numpy",
+    "astropy >=3.1",
+    "ndcube >=1.3.2",
+    "python >=3.7",
+    "numpy",
+    "astropy >=3.1",
+    "ndcube >=1.3.2"
+   ]
+  },
+  "source":{
+   "fn":"sunraster-0.1.2.tar.gz",
+   "sha256":"ffd9d99d3455118ba4c9bbb954dceb9be2f429f91210306800d013817d3f2fe2",
+   "url":"https://pypi.io/packages/source/s/sunraster/sunraster-0.1.2.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "pytest --pyargs sunraster",
+    "pytest --pyargs sunraster",
+    "pytest --pyargs sunraster"
+   ],
+   "imports":[
+    "sunraster",
+    "sunraster.tests",
+    "sunraster",
+    "sunraster.tests",
+    "sunraster",
+    "sunraster.tests"
+   ],
+   "requires":[
+    "pytest-astropy",
+    "pytest-astropy",
+    "pytest-astropy"
+   ]
+  }
+ },
+ "name":"sunraster",
+ "new_version":"0.1.2",
+ "new_version_attempts":{
+  "0.1.2":1
+ },
+ "new_version_errors":{},
+ "pinning_version":"2020.04.21.12.59.15",
+ "raw_meta_yaml":"{% set name = \"sunraster\" %}\n{% set version = \"0.1.2\" %}\n{% set sha256 = \"ffd9d99d3455118ba4c9bbb954dceb9be2f429f91210306800d013817d3f2fe2\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  fn: {{ name }}-{{ version }}.tar.gz\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 0\n  script: {{ PYTHON }} -m pip install . -vv\n\nrequirements:\n  host:\n    - python >=3.7\n    - pip\n    - setuptools_scm\n  run:\n    - python >=3.7\n    - numpy\n    - astropy >=3.1\n    - ndcube >=1.3.2\n\ntest:\n  requires:\n    - pytest-astropy\n\n  imports:\n    - sunraster\n    - sunraster.tests\n\n  commands:\n    - pytest --pyargs sunraster\n\nabout:\n  home: http://sunpy.org\n  license: BSD-2-Clause\n  license_file: LICENSE.rst\n  summary: A package providing instrument-agnostic data classes for manipulating solar spectrogram data.\n  license_family: BSD\n  dev_url: https://github.com/sunpy/sunraster\n  doc_url: https://sunraster.readthedocs.io/\n\nextra:\n  recipe-maintainers:\n    - DanRyanIrish\n    - Cadair\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "astropy",
+   "ndcube",
+   "numpy",
+   "pip",
+   "python",
+   "setuptools_scm"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python",
+    "setuptools_scm"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "astropy",
+    "ndcube",
+    "numpy",
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "pytest-astropy"
+   ]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.6.16",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3.7",
+    "setuptools_scm"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "astropy >=3.1",
+    "ndcube >=1.3.2",
+    "numpy",
+    "python >=3.7"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "pytest-astropy"
+   ]
+  }
+ },
+ "url":"https://pypi.io/packages/source/s/sunraster/sunraster-0.1.1.tar.gz",
+ "version":"0.1.2"
+}

@@ -1,0 +1,152 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/281271596.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/308932679.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"geant4-data-particlexs",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"https://geant4.web.cern.ch/",
+   "license":"OTHER",
+   "license_file":"CREDIT",
+   "summary":"GEANT4 data files for evaluated particle cross-sections on natural composition of elements"
+  },
+  "build":{
+   "noarch":"generic",
+   "number":"0",
+   "script":[
+    "mkdir -p ${PREFIX}/share/Geant4/data/PARTICLEXS2.1",
+    "cp -r dataset/* ${PREFIX}/share/Geant4/data/PARTICLEXS2.1",
+    "${RECIPE_DIR}/create_activation_scripts.sh geant4-data-particlexs G4PARTICLEXSDATA share/Geant4/data/PARTICLEXS2.1",
+    "mkdir -p ${PREFIX}/share/Geant4/data/PARTICLEXS2.1",
+    "cp -r dataset/* ${PREFIX}/share/Geant4/data/PARTICLEXS2.1",
+    "${RECIPE_DIR}/create_activation_scripts.sh geant4-data-particlexs G4PARTICLEXSDATA share/Geant4/data/PARTICLEXS2.1",
+    "mkdir -p ${PREFIX}/share/Geant4/data/PARTICLEXS2.1",
+    "cp -r dataset/* ${PREFIX}/share/Geant4/data/PARTICLEXS2.1",
+    "${RECIPE_DIR}/create_activation_scripts.sh geant4-data-particlexs G4PARTICLEXSDATA share/Geant4/data/PARTICLEXS2.1"
+   ]
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "tschoonj",
+    "chrisburr",
+    "tschoonj",
+    "chrisburr",
+    "tschoonj",
+    "chrisburr"
+   ]
+  },
+  "package":{
+   "name":"geant4-data-particlexs",
+   "version":"2.1"
+  },
+  "requirements":{
+   "build":[
+    "make",
+    "make",
+    "make"
+   ]
+  },
+  "source":{
+   "folder":"dataset",
+   "sha256":"03fb71f18bd7da1d20f80d9714ed9b095acf083f240898072cf69cf2583cb5df",
+   "url":"https://geant4-data.web.cern.ch/geant4-data/datasets/G4PARTICLEXS.2.1.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "[ \"$G4PARTICLEXSDATA\" == \"$CONDA_PREFIX/share/Geant4/data/PARTICLEXS2.1\" ]",
+    "[ \"$G4PARTICLEXSDATA\" == \"$CONDA_PREFIX/share/Geant4/data/PARTICLEXS2.1\" ]",
+    "[ \"$G4PARTICLEXSDATA\" == \"$CONDA_PREFIX/share/Geant4/data/PARTICLEXS2.1\" ]"
+   ]
+  }
+ },
+ "name":"geant4-data-particlexs",
+ "new_version":false,
+ "pinning_version":"2019.08.19",
+ "raw_meta_yaml":"{% set dataset_name = \"PARTICLEXS\" %}\n{% set version = \"2.1\" %}\n{% set sha256 = \"03fb71f18bd7da1d20f80d9714ed9b095acf083f240898072cf69cf2583cb5df\" %}\n{% set env_var = \"G4PARTICLEXSDATA\" %}\n{% set summary = \"GEANT4 data files for evaluated particle cross-sections on natural composition of elements\" %}\n\n{% set name = \"geant4-data-\"+dataset_name.lower() %}\n{% set install_dir = \"share/Geant4/data/\"+dataset_name+version %}\n\npackage:\n    name: {{ name }}\n    version: {{ version }}\n\nsource:\n    url: https://geant4-data.web.cern.ch/geant4-data/datasets/G4{{ dataset_name }}.{{ version }}.tar.gz\n    sha256: {{ sha256 }}\n    folder: dataset\n\nbuild:\n    number: 0\n    noarch: generic\n    script:\n        - mkdir -p ${PREFIX}/{{ install_dir }}\n        - cp -r dataset/* ${PREFIX}/{{ install_dir }}\n        - ${RECIPE_DIR}/create_activation_scripts.sh {{ name }} {{ env_var }} {{ install_dir }}\n\n# Conda-forge is unable to build packages that have no dependencies so add\n# `make` as a dummy build dependency\nrequirements:\n  build:\n    - make\n\ntest:\n    commands:\n        - \"[ \\\"${{ env_var }}\\\" == \\\"$CONDA_PREFIX/{{ install_dir }}\\\" ]\"\n\nabout:\n    home: https://geant4.web.cern.ch/\n    summary: '{{ summary }}'\n    license: OTHER\n    license_file: CREDIT\n\nextra:\n    recipe-maintainers:\n        - tschoonj\n        - chrisburr\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "make"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "make"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.4.1",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "make"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://geant4-data.web.cern.ch/geant4-data/datasets/G4PARTICLEXS.2.1.tar.gz",
+ "version":"2.1"
+}

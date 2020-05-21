@@ -1,0 +1,6 @@
+{
+ "bad":"Upstream: Error getting upstream version",
+ "feedstock_name":"pyspellchecker",
+ "new_version":false,
+ "raw_meta_yaml":"{% set name = \"pyspellchecker\" %}\n{% set version = \"0.5.3\" %}\n\npackage:\n  name: \"{{ name|lower }}\"\n  version: \"{{ version }}\"\n\nsource:\n  url: \"https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\"\n  sha256: d02b5566ca7d76a8c571de8997b06d84565ce500c15377adac3daac060564af8\n\nbuild:\n  noarch: python\n  number: 0\n  script: \"{{ PYTHON }} -m pip install . -vv\"\n\nrequirements:\n  host:\n    - pip\n    - python\n  run:\n    - python\n\ntest:\n  imports:\n    - spellchecker\n\nabout:\n  home: \"https://github.com/barrust/pyspellchecker\"\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE\n  summary: \"Pure python spell checker based on work by Peter Norvig\"\n\nextra:\n  recipe-maintainers:\n    - dschreij\n    - smathot\n"
+}

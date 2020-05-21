@@ -1,0 +1,132 @@
+{
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"smp",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"https://github.com/IntelPython/smp",
+   "license":"BSD-3-Clause",
+   "license_family":"BSD",
+   "license_file":"LICENSE",
+   "summary":"a Static Multi-Processing module managing nested parallelism"
+  },
+  "build":{
+   "entry_points":[
+    "python-smp = smp:_main",
+    "python-smp = smp:_main",
+    "python-smp = smp:_main"
+   ],
+   "noarch":"python",
+   "number":"0",
+   "script":"python -m pip install --no-deps --ignore-installed ."
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "anton-malakhov",
+    "anton-malakhov",
+    "anton-malakhov"
+   ]
+  },
+  "package":{
+   "name":"smp",
+   "version":"0.1.4"
+  },
+  "requirements":{
+   "host":[
+    "python",
+    "pip",
+    "python",
+    "pip",
+    "python",
+    "pip"
+   ],
+   "run":[
+    "python",
+    "python",
+    "python"
+   ]
+  },
+  "source":{
+   "sha256":"66fbf6e70a9bdfefadd7d3e98dd3415990d81d629ae333055afeeaabdf3c0761",
+   "url":"https://github.com/IntelPython/smp/archive/v0.1.4.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "python-smp --help",
+    "python -m smp test",
+    "python-smp --help",
+    "python -m smp test",
+    "python-smp --help",
+    "python -m smp test"
+   ],
+   "imports":[
+    "SMP",
+    "smp",
+    "SMP",
+    "smp",
+    "SMP",
+    "smp"
+   ]
+  }
+ },
+ "name":"smp",
+ "new_version":"0.1.4",
+ "raw_meta_yaml":"{% set name = \"smp\" %}\n{% set version = \"0.1.4\" %}\n\npackage:\n  name: {{ name }}\n  version: {{ version }}\n\nsource:\n  url: https://github.com/IntelPython/smp/archive/v{{ version }}.tar.gz\n  sha256: 66fbf6e70a9bdfefadd7d3e98dd3415990d81d629ae333055afeeaabdf3c0761\n\nbuild:\n  number: 0\n  noarch: python\n  entry_points:\n    - python-smp = smp:_main\n  script: python -m pip install --no-deps --ignore-installed .\n\nrequirements:\n  host:\n    - python\n    - pip\n  run:\n    - python\n\ntest:\n  imports:\n    - SMP\n    - smp\n  commands:\n    - python-smp --help\n    - python -m smp test\n\nabout:\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: LICENSE\n  home: https://github.com/IntelPython/smp\n  summary: a Static Multi-Processing module managing nested parallelism\n\nextra:\n  recipe-maintainers:\n    - anton-malakhov\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "pip",
+   "python"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://github.com/IntelPython/smp/archive/v0.1.4.tar.gz",
+ "version":"0.1.4"
+}

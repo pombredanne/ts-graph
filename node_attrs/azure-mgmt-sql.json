@@ -1,0 +1,140 @@
+{
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"azure-mgmt-sql",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"https://github.com/Azure/azure-sdk-for-python",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"LICENSE.txt",
+   "summary":"Microsoft Azure SQL Management Client Library for Python"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "tim-werner",
+    "tim-werner",
+    "tim-werner"
+   ]
+  },
+  "package":{
+   "name":"azure-mgmt-sql",
+   "version":"0.18.0"
+  },
+  "requirements":{
+   "host":[
+    "python >3.0",
+    "pip",
+    "python >3.0",
+    "pip",
+    "python >3.0",
+    "pip"
+   ],
+   "run":[
+    "python >3.0",
+    "msrest >=0.5.0",
+    "msrestazure >=0.4.32,<2.0.0",
+    "azure-common >=1.1,<2.0",
+    "python >3.0",
+    "msrest >=0.5.0",
+    "msrestazure >=0.4.32,<2.0.0",
+    "azure-common >=1.1,<2.0",
+    "python >3.0",
+    "msrest >=0.5.0",
+    "msrestazure >=0.4.32,<2.0.0",
+    "azure-common >=1.1,<2.0"
+   ]
+  },
+  "source":{
+   "sha256":"99ca085eb523a5c27933060ccb04d7a6b60864f98d87bf5b63ac17d419b43445",
+   "url":"https://pypi.io/packages/source/a/azure-mgmt-sql/azure-mgmt-sql-0.18.0.zip"
+  },
+  "test":{
+   "imports":[
+    "azure",
+    "azure.mgmt",
+    "azure.mgmt.sql",
+    "azure",
+    "azure.mgmt",
+    "azure.mgmt.sql",
+    "azure",
+    "azure.mgmt",
+    "azure.mgmt.sql"
+   ]
+  }
+ },
+ "name":"azure-mgmt-sql",
+ "new_version":"0.18.0",
+ "raw_meta_yaml":"{% set name = \"azure-mgmt-sql\" %}\n{% set version = \"0.18.0\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.zip\n  sha256: 99ca085eb523a5c27933060ccb04d7a6b60864f98d87bf5b63ac17d419b43445\n  \nbuild:\n  noarch: python\n  number: 0\n  script: \"{{ PYTHON }} -m pip install . -vv\"\n\nrequirements:\n  host:\n    - python >3.0\n    - pip\n  run:\n    - python >3.0\n    - msrest >=0.5.0\n    - msrestazure >=0.4.32,<2.0.0\n    - azure-common >=1.1,<2.0\n\ntest:\n  imports:\n    - azure\n    - azure.mgmt\n    - azure.mgmt.sql\n\nabout:\n  home: https://github.com/Azure/azure-sdk-for-python\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE.txt\n  summary: 'Microsoft Azure SQL Management Client Library for Python'\n\n\nextra:\n  recipe-maintainers:\n    - tim-werner\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "azure-common",
+   "msrest",
+   "msrestazure",
+   "pip",
+   "python"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "azure-common",
+    "msrest",
+    "msrestazure",
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >3.0"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "azure-common >=1.1,<2.0",
+    "msrest >=0.5.0",
+    "msrestazure >=0.4.32,<2.0.0",
+    "python >3.0"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/a/azure-mgmt-sql/azure-mgmt-sql-0.18.0.zip",
+ "version":"0.18.0"
+}

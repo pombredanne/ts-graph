@@ -1,0 +1,200 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/376852807.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"python38"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/404863590.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"pypy"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"lifetimes",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "doc_url":"https://lifetimes.readthedocs.io/en/latest/?badge=latest",
+   "home":"https://github.com/CamDavidsonPilon/lifetimes",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"README.md",
+   "summary":"Measure customer lifetime value in Python"
+  },
+  "build":{
+   "number":"0",
+   "script":" -m pip install . --no-deps --ignore-installed -vv "
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "CamDavidsonPilon",
+    "Arnoldosmium",
+    "CamDavidsonPilon",
+    "Arnoldosmium",
+    "CamDavidsonPilon",
+    "Arnoldosmium"
+   ]
+  },
+  "package":{
+   "name":"lifetimes",
+   "version":"0.11.1"
+  },
+  "requirements":{
+   "host":[
+    "pip",
+    "python",
+    "pip",
+    "python",
+    "pip",
+    "python"
+   ],
+   "run":[
+    "autograd >=1.2.0",
+    "dill >=0.2.6",
+    "numpy >=1.10.0",
+    "pandas >=0.24.0",
+    "python",
+    "scipy >=1.0.0",
+    "setuptools",
+    "autograd >=1.2.0",
+    "dill >=0.2.6",
+    "numpy >=1.10.0",
+    "pandas >=0.24.0",
+    "python",
+    "scipy >=1.0.0",
+    "setuptools",
+    "autograd >=1.2.0",
+    "dill >=0.2.6",
+    "numpy >=1.10.0",
+    "pandas >=0.24.0",
+    "python",
+    "scipy >=1.0.0",
+    "setuptools"
+   ]
+  },
+  "source":{
+   "sha256":"75862d86581e75f0c235d830590bea0a9062222f2c9c390949f6432a3fa329b4",
+   "url":"https://pypi.io/packages/source/L/Lifetimes/Lifetimes-0.11.1.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "lifetimes",
+    "lifetimes.datasets",
+    "lifetimes",
+    "lifetimes.datasets",
+    "lifetimes",
+    "lifetimes.datasets"
+   ]
+  }
+ },
+ "name":"lifetimes",
+ "new_version":"0.11.1",
+ "pinning_version":"2020.04.16.16.23.46",
+ "raw_meta_yaml":"{% set name = \"Lifetimes\" %}\n{% set version = \"0.11.1\" %}\n\npackage:\n  name: \"{{ name|lower }}\"\n  version: \"{{ version }}\"\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: 75862d86581e75f0c235d830590bea0a9062222f2c9c390949f6432a3fa329b4\n\nbuild:\n  number: 0\n  script: \"{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv \"\n\nrequirements:\n  host:\n    - pip\n    - python\n  run:\n    - autograd >=1.2.0\n    - dill >=0.2.6\n    - numpy >=1.10.0\n    - pandas >=0.24.0\n    - python\n    - scipy >=1.0.0\n    - setuptools\n\ntest:\n  imports:\n    - lifetimes\n    - lifetimes.datasets\n\nabout:\n  home: https://github.com/CamDavidsonPilon/lifetimes\n  license: MIT\n  license_family: MIT\n  license_file: README.md\n  summary: Measure customer lifetime value in Python\n  doc_url: https://lifetimes.readthedocs.io/en/latest/?badge=latest\n\nextra:\n  recipe-maintainers:\n    - CamDavidsonPilon\n    - Arnoldosmium\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "autograd",
+   "dill",
+   "numpy",
+   "pandas",
+   "pip",
+   "python",
+   "scipy",
+   "setuptools"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "autograd",
+    "dill",
+    "numpy",
+    "pandas",
+    "python",
+    "scipy",
+    "setuptools"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.6.16",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "autograd >=1.2.0",
+    "dill >=0.2.6",
+    "numpy >=1.10.0",
+    "pandas >=0.24.0",
+    "python",
+    "scipy >=1.0.0",
+    "setuptools"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/L/Lifetimes/Lifetimes-0.11.1.tar.gz",
+ "version":"0.11.1"
+}

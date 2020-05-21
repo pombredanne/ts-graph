@@ -1,0 +1,435 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/308364684.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.4.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/316639477.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.4.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/329374181.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.5.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/336276229.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"python38"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/344949692.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.5.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/365468805.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.6.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/381107039.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.7.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "provider":{
+   "win":"azure"
+  }
+ },
+ "feedstock_name":"buildbot",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "doc_url":"https://docs.buildbot.net",
+   "home":"https://buildbot.net/",
+   "license":"GNU General Public (GPL)",
+   "license_family":"LGPL",
+   "license_file":"COPYING",
+   "summary":"Python-based continuous integration testing framework"
+  },
+  "build":{
+   "entry_points":[
+    "buildbot=buildbot.scripts.runner:run",
+    {
+     "buildbot_windows_service=buildbot.scripts.windows_service":"HandleCommandLine"
+    },
+    "buildbot=buildbot.scripts.runner:run",
+    "buildbot=buildbot.scripts.runner:run"
+   ],
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . -vv "
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "kszucs",
+    "xhochy",
+    "marcelotrevisani",
+    "kszucs",
+    "xhochy",
+    "marcelotrevisani",
+    "kszucs",
+    "xhochy",
+    "marcelotrevisani"
+   ]
+  },
+  "package":{
+   "name":"buildbot",
+   "version":"2.7.0"
+  },
+  "requirements":{
+   "host":[
+    "pip",
+    "python >3.5",
+    "setuptools >=8.0",
+    "pip",
+    "python >3.5",
+    "setuptools >=8.0",
+    "pip",
+    "python >3.5",
+    "setuptools >=8.0"
+   ],
+   "run":[
+    "autobahn >=0.16.0",
+    "jinja2 >=2.1",
+    "pyjwt",
+    "python >3.5",
+    "python-dateutil >=1.5",
+    "pyyaml",
+    "setuptools >=8.0",
+    "sqlalchemy >=1.1.0",
+    "sqlalchemy-migrate >=0.9",
+    "twisted >=17.9.0",
+    "txaio >=2.2.2",
+    "zope.interface >=4.1.1",
+    "autobahn >=0.16.0",
+    "jinja2 >=2.1",
+    "pyjwt",
+    "python >3.5",
+    "python-dateutil >=1.5",
+    "pyyaml",
+    "setuptools >=8.0",
+    "sqlalchemy >=1.1.0",
+    "sqlalchemy-migrate >=0.9",
+    "twisted >=17.9.0",
+    "txaio >=2.2.2",
+    "zope.interface >=4.1.1",
+    "autobahn >=0.16.0",
+    "jinja2 >=2.1",
+    "pyjwt",
+    "python >3.5",
+    "python-dateutil >=1.5",
+    "pyyaml",
+    "setuptools >=8.0",
+    "sqlalchemy >=1.1.0",
+    "sqlalchemy-migrate >=0.9",
+    "twisted >=17.9.0",
+    "txaio >=2.2.2",
+    "zope.interface >=4.1.1"
+   ]
+  },
+  "source":{
+   "sha256":"069001b73c5da8acc69f22cfab87740c8d4ba9c6f72da7f760fdd8100c74484a",
+   "url":"https://pypi.io/packages/source/b/buildbot/buildbot-2.7.0.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "buildbot --help",
+    "buildbot --help",
+    "buildbot --help"
+   ],
+   "imports":[
+    "buildbot",
+    "buildbot.changes",
+    "buildbot.clients",
+    "buildbot.configurators",
+    "buildbot.data",
+    "buildbot.db",
+    "buildbot.db.migrate.versions",
+    "buildbot.db.types",
+    "buildbot.machine",
+    "buildbot.monkeypatches",
+    "buildbot.mq",
+    "buildbot.plugins",
+    "buildbot.process",
+    "buildbot.process.users",
+    "buildbot.reporters",
+    "buildbot.schedulers",
+    "buildbot.scripts",
+    "buildbot.secrets",
+    "buildbot.secrets.providers",
+    "buildbot.statistics",
+    "buildbot.statistics.storage_backends",
+    "buildbot.status",
+    "buildbot.steps",
+    "buildbot.steps.package",
+    "buildbot.steps.package.deb",
+    "buildbot.steps.package.rpm",
+    "buildbot.steps.source",
+    "buildbot.util",
+    "buildbot.wamp",
+    "buildbot.worker",
+    "buildbot.worker.protocols",
+    "buildbot.www",
+    "buildbot.www.authz",
+    "buildbot.www.hooks",
+    "buildbot",
+    "buildbot.changes",
+    "buildbot.clients",
+    "buildbot.configurators",
+    "buildbot.data",
+    "buildbot.db",
+    "buildbot.db.migrate.versions",
+    "buildbot.db.types",
+    "buildbot.machine",
+    "buildbot.monkeypatches",
+    "buildbot.mq",
+    "buildbot.plugins",
+    "buildbot.process",
+    "buildbot.process.users",
+    "buildbot.reporters",
+    "buildbot.schedulers",
+    "buildbot.scripts",
+    "buildbot.secrets",
+    "buildbot.secrets.providers",
+    "buildbot.statistics",
+    "buildbot.statistics.storage_backends",
+    "buildbot.status",
+    "buildbot.steps",
+    "buildbot.steps.package",
+    "buildbot.steps.package.deb",
+    "buildbot.steps.package.rpm",
+    "buildbot.steps.source",
+    "buildbot.util",
+    "buildbot.wamp",
+    "buildbot.worker",
+    "buildbot.worker.protocols",
+    "buildbot.www",
+    "buildbot.www.authz",
+    "buildbot.www.hooks",
+    "buildbot",
+    "buildbot.changes",
+    "buildbot.clients",
+    "buildbot.configurators",
+    "buildbot.data",
+    "buildbot.db",
+    "buildbot.db.migrate.versions",
+    "buildbot.db.types",
+    "buildbot.machine",
+    "buildbot.monkeypatches",
+    "buildbot.mq",
+    "buildbot.plugins",
+    "buildbot.process",
+    "buildbot.process.users",
+    "buildbot.reporters",
+    "buildbot.schedulers",
+    "buildbot.scripts",
+    "buildbot.secrets",
+    "buildbot.secrets.providers",
+    "buildbot.statistics",
+    "buildbot.statistics.storage_backends",
+    "buildbot.status",
+    "buildbot.steps",
+    "buildbot.steps.package",
+    "buildbot.steps.package.deb",
+    "buildbot.steps.package.rpm",
+    "buildbot.steps.source",
+    "buildbot.util",
+    "buildbot.wamp",
+    "buildbot.worker",
+    "buildbot.worker.protocols",
+    "buildbot.www",
+    "buildbot.www.authz",
+    "buildbot.www.hooks"
+   ]
+  }
+ },
+ "name":"buildbot",
+ "new_version":"2.7.0",
+ "pinning_version":"2020.02.20",
+ "raw_meta_yaml":"{% set name = \"buildbot\" %}\n{% set version = \"2.7.0\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: 069001b73c5da8acc69f22cfab87740c8d4ba9c6f72da7f760fdd8100c74484a\n\nbuild:\n  number: 0\n  noarch: python\n  entry_points:\n    - buildbot=buildbot.scripts.runner:run\n    - buildbot_windows_service=buildbot.scripts.windows_service: HandleCommandLine  # [win]\n  script: '{{ PYTHON }} -m pip install . -vv '\n\nrequirements:\n  host:\n    - pip\n    - python >3.5\n    - setuptools >=8.0\n  run:\n    - autobahn >=0.16.0\n    - jinja2 >=2.1\n    - pyjwt\n    - python >3.5\n    - python-dateutil >=1.5\n    - pyyaml\n    - setuptools >=8.0\n    - sqlalchemy >=1.1.0\n    - sqlalchemy-migrate >=0.9\n    - twisted >=17.9.0\n    - txaio >=2.2.2\n    - zope.interface >=4.1.1\n\ntest:\n  # test modules are not distributed with wheels\n  imports:\n    - buildbot\n    - buildbot.changes\n    - buildbot.clients\n    - buildbot.configurators\n    - buildbot.data\n    - buildbot.db\n    - buildbot.db.migrate.versions\n    - buildbot.db.types\n    - buildbot.machine\n    - buildbot.monkeypatches\n    - buildbot.mq\n    - buildbot.plugins\n    - buildbot.process\n    - buildbot.process.users\n    - buildbot.reporters\n    - buildbot.schedulers\n    - buildbot.scripts\n    - buildbot.secrets\n    - buildbot.secrets.providers\n    - buildbot.statistics\n    - buildbot.statistics.storage_backends\n    - buildbot.status\n    - buildbot.steps\n    - buildbot.steps.package\n    - buildbot.steps.package.deb\n    - buildbot.steps.package.rpm\n    - buildbot.steps.source\n    - buildbot.util\n    - buildbot.wamp\n    - buildbot.worker\n    - buildbot.worker.protocols\n    - buildbot.www\n    - buildbot.www.authz\n    - buildbot.www.hooks\n  commands:\n    - buildbot --help\n\nabout:\n  home: https://buildbot.net/\n  license: GNU General Public (GPL)\n  license_family: LGPL\n  license_file: COPYING\n  summary: Python-based continuous integration testing framework\n  doc_url: https://docs.buildbot.net\n\nextra:\n  recipe-maintainers:\n    - kszucs\n    - xhochy\n    - marcelotrevisani\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "autobahn",
+   "jinja2",
+   "pip",
+   "pyjwt",
+   "python",
+   "python-dateutil",
+   "pyyaml",
+   "setuptools",
+   "sqlalchemy",
+   "sqlalchemy-migrate",
+   "twisted",
+   "txaio",
+   "zope.interface"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python",
+    "setuptools"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "autobahn",
+    "jinja2",
+    "pyjwt",
+    "python",
+    "python-dateutil",
+    "pyyaml",
+    "setuptools",
+    "sqlalchemy",
+    "sqlalchemy-migrate",
+    "twisted",
+    "txaio",
+    "zope.interface"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.6.8",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >3.5",
+    "setuptools >=8.0"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "autobahn >=0.16.0",
+    "jinja2 >=2.1",
+    "pyjwt",
+    "python >3.5",
+    "python-dateutil >=1.5",
+    "pyyaml",
+    "setuptools >=8.0",
+    "sqlalchemy >=1.1.0",
+    "sqlalchemy-migrate >=0.9",
+    "twisted >=17.9.0",
+    "txaio >=2.2.2",
+    "zope.interface >=4.1.1"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/b/buildbot/buildbot-2.4.0.tar.gz",
+ "version":"2.7.0"
+}

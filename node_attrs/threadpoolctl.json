@@ -1,0 +1,143 @@
+{
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"threadpoolctl",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"Python helpers to introspect and limit the number of threads used\nin native libraries that handle their own internal threadpool\n(BLAS and OpenMP implementations).\n",
+   "dev_url":"https://github.com/joblib/threadpoolctl",
+   "doc_url":"https://github.com/joblib/threadpoolctl",
+   "home":"https://github.com/joblib/threadpoolctl",
+   "license":"BSD 3-Clause",
+   "license_family":"BSD",
+   "license_file":"LICENSE",
+   "summary":"Python helpers to control the threadpools of native libraries"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":[
+    "-m flit install",
+    "-m flit install",
+    "-m flit install"
+   ]
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "ogrisel",
+    "tomMoral",
+    "jeremiedbb",
+    "ogrisel",
+    "tomMoral",
+    "jeremiedbb",
+    "ogrisel",
+    "tomMoral",
+    "jeremiedbb"
+   ]
+  },
+  "package":{
+   "name":"threadpoolctl",
+   "version":"2.0.0"
+  },
+  "requirements":{
+   "host":[
+    "python >=3.5",
+    "flit",
+    "python >=3.5",
+    "flit",
+    "python >=3.5",
+    "flit"
+   ],
+   "run":[
+    "python >=3.5",
+    "python >=3.5",
+    "python >=3.5"
+   ]
+  },
+  "source":{
+   "sha256":"49b987e9e86168eec68d0c706091bd6a8590268abc249b32bcd2a3909d331a04",
+   "url":"https://github.com/joblib/threadpoolctl/archive/2.0.0.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "python -m threadpoolctl -i numpy",
+    "python -m threadpoolctl -i numpy",
+    "python -m threadpoolctl -i numpy"
+   ],
+   "imports":[
+    "threadpoolctl",
+    "threadpoolctl",
+    "threadpoolctl"
+   ],
+   "requires":[
+    "numpy",
+    "numpy",
+    "numpy"
+   ]
+  }
+ },
+ "name":"threadpoolctl",
+ "new_version":"2.0.0",
+ "raw_meta_yaml":"{% set version = \"2.0.0\" %}\n\npackage:\n  name: threadpoolctl\n  version: {{ version }}\n\nsource:\n  url: https://github.com/joblib/threadpoolctl/archive/{{ version }}.tar.gz\n  sha256: 49b987e9e86168eec68d0c706091bd6a8590268abc249b32bcd2a3909d331a04\n\nbuild:\n  number: 0\n  noarch: python\n  script:\n    - {{ PYTHON }} -m flit install\n\nrequirements:\n  host:\n    - python >=3.5\n    - flit\n  run:\n    - python >=3.5\n\ntest:\n  requires:\n    - numpy\n  imports:\n    - threadpoolctl\n  commands:\n    - python -m threadpoolctl -i numpy\n\nabout:\n  home: https://github.com/joblib/threadpoolctl\n  license: BSD 3-Clause\n  license_family: BSD\n  license_file: LICENSE\n  summary: 'Python helpers to control the threadpools of native libraries'\n\n  description: |\n    Python helpers to introspect and limit the number of threads used\n    in native libraries that handle their own internal threadpool\n    (BLAS and OpenMP implementations).\n  doc_url: https://github.com/joblib/threadpoolctl\n  dev_url: https://github.com/joblib/threadpoolctl\n\nextra:\n  recipe-maintainers:\n    - ogrisel\n    - tomMoral\n    - jeremiedbb\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "flit",
+   "python"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "flit",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "numpy"
+   ]
+  }
+ },
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "flit",
+    "python >=3.5"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "python >=3.5"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "numpy"
+   ]
+  }
+ },
+ "url":"https://github.com/joblib/threadpoolctl/archive/2.0.0.tar.gz",
+ "version":"2.0.0"
+}

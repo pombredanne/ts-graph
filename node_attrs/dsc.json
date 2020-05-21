@@ -1,0 +1,476 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/244323720.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/249075071.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.3.3"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/257640259.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.3.4"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/265856058.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.3.5"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/269277224.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.3.6"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/271043611.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.3.7"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/272097154.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.3.8"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/286749704.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.3.9"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/318894779.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.3.10"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/323087123.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.3.11"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/345404601.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.3.12"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/350368585.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.3.13"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/353295529.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.4.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/354429927.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.4.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/359230111.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.4.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"dsc",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "doc_url":"https://stephenslab.github.io/dsc-wiki/",
+   "home":"https://github.com/stephenslab/dsc",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"/LICENSE",
+   "summary":"Implementation of Dynamic Statistical Comparisons"
+  },
+  "build":{
+   "entry_points":[
+    "dsc = dsc.__main__:main",
+    "dsc-query = dsc.__query__:main",
+    "dsc-io = dsc.dsc_io:main",
+    "dsc = dsc.__main__:main",
+    "dsc-query = dsc.__query__:main",
+    "dsc-io = dsc.dsc_io:main",
+    "dsc = dsc.__main__:main",
+    "dsc-query = dsc.__query__:main",
+    "dsc-io = dsc.dsc_io:main"
+   ],
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . --no-deps --ignore-installed -vv "
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "gaow",
+    "jdblischak",
+    "gaow",
+    "jdblischak",
+    "gaow",
+    "jdblischak"
+   ]
+  },
+  "package":{
+   "name":"dsc",
+   "version":"0.4.2"
+  },
+  "requirements":{
+   "host":[
+    "pip",
+    "python >=3.6",
+    "pip",
+    "python >=3.6",
+    "pip",
+    "python >=3.6"
+   ],
+   "run":[
+    "h5py",
+    "msgpack-python",
+    "numexpr",
+    "numpy",
+    "pandas >=0.24.1",
+    "ptable",
+    "pyarrow >=0.5.0",
+    "python >=3.6",
+    "sos >=0.19.7",
+    "sos-pbs >=0.19.6",
+    "sqlalchemy",
+    "sympy",
+    "tzlocal",
+    "h5py",
+    "msgpack-python",
+    "numexpr",
+    "numpy",
+    "pandas >=0.24.1",
+    "ptable",
+    "pyarrow >=0.5.0",
+    "python >=3.6",
+    "sos >=0.19.7",
+    "sos-pbs >=0.19.6",
+    "sqlalchemy",
+    "sympy",
+    "tzlocal",
+    "h5py",
+    "msgpack-python",
+    "numexpr",
+    "numpy",
+    "pandas >=0.24.1",
+    "ptable",
+    "pyarrow >=0.5.0",
+    "python >=3.6",
+    "sos >=0.19.7",
+    "sos-pbs >=0.19.6",
+    "sqlalchemy",
+    "sympy",
+    "tzlocal"
+   ]
+  },
+  "source":{
+   "sha256":"d339d3041bfd612c2171d245ef86a551d68507f2d833c0713d71dce08d4aa44c",
+   "url":"https://pypi.io/packages/source/d/dsc/dsc-0.4.2.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "dsc --help",
+    "dsc-query --help",
+    "dsc-io --help",
+    "dsc --help",
+    "dsc-query --help",
+    "dsc-io --help",
+    "dsc --help",
+    "dsc-query --help",
+    "dsc-io --help"
+   ],
+   "imports":[
+    "dsc",
+    "dsc.parser",
+    "dsc",
+    "dsc.parser",
+    "dsc",
+    "dsc.parser"
+   ]
+  }
+ },
+ "name":"dsc",
+ "new_version":"0.4.2",
+ "pinning_version":"2019.12.18",
+ "raw_meta_yaml":"{% set name = \"dsc\" %}\n{% set version = \"0.4.2\" %}\n\npackage:\n  name: \"{{ name|lower }}\"\n  version: \"{{ version }}\"\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: d339d3041bfd612c2171d245ef86a551d68507f2d833c0713d71dce08d4aa44c\n\nbuild:\n  noarch: python\n  number: 0\n  entry_points:\n    - dsc = dsc.__main__:main\n    - dsc-query = dsc.__query__:main\n    - dsc-io = dsc.dsc_io:main\n  script: \"{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv \"\n\nrequirements:\n  host:\n    - pip\n    - python >=3.6\n  run:\n    - h5py\n    - msgpack-python\n    - numexpr\n    - numpy\n    - pandas >=0.24.1\n    - ptable\n    - pyarrow >=0.5.0\n    - python >=3.6\n    - sos >=0.19.7\n    - sos-pbs >=0.19.6\n    - sqlalchemy\n    - sympy\n    - tzlocal\n\ntest:\n  imports:\n    - dsc\n    - dsc.parser\n  commands:\n    - dsc --help\n    - dsc-query --help\n    - dsc-io --help\n\nabout:\n  home: https://github.com/stephenslab/dsc\n  license: MIT\n  license_family: MIT\n  license_file: '{{ environ[\"RECIPE_DIR\"] }}/LICENSE'\n  summary: Implementation of Dynamic Statistical Comparisons\n  doc_url: https://stephenslab.github.io/dsc-wiki/\n\nextra:\n  recipe-maintainers:\n    - gaow\n    - jdblischak\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "h5py",
+   "msgpack-python",
+   "numexpr",
+   "numpy",
+   "pandas",
+   "pip",
+   "ptable",
+   "pyarrow",
+   "python",
+   "sos",
+   "sos-pbs",
+   "sqlalchemy",
+   "sympy",
+   "tzlocal"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "h5py",
+    "msgpack-python",
+    "numexpr",
+    "numpy",
+    "pandas",
+    "ptable",
+    "pyarrow",
+    "python",
+    "sos",
+    "sos-pbs",
+    "sqlalchemy",
+    "sympy",
+    "tzlocal"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.6.5",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3.6"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "h5py",
+    "msgpack-python",
+    "numexpr",
+    "numpy",
+    "pandas >=0.24.1",
+    "ptable",
+    "pyarrow >=0.5.0",
+    "python >=3.6",
+    "sos >=0.19.7",
+    "sos-pbs >=0.19.6",
+    "sqlalchemy",
+    "sympy",
+    "tzlocal"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/d/dsc/dsc-0.3.9.tar.gz",
+ "version":"0.4.2"
+}

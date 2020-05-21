@@ -1,0 +1,146 @@
+{
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"cleanlab",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"cleanlab is a machine learning python package for learning with noisy labels and finding label errors in datasets.\ncleanlab CLEANs LABels. It is powered by the theory of confident learning. Using the confidentlearning-reproduce\nrepo, cleanlab v0.1.0 reproduces results in the CL paper.\n",
+   "dev_url":"https://github.com/cgnorthcutt/cleanlab",
+   "doc_url":"https://pypi.org/project/cleanlab/#description",
+   "home":"https://github.com/cgnorthcutt/cleanlab",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"LICENSE",
+   "summary":"Find label errors in datasets, weak supervision, and learning with noisy labels. Works for all datasets and models."
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "ndmaxar",
+    "oblute",
+    "rluria14",
+    "ndmaxar",
+    "oblute",
+    "rluria14",
+    "ndmaxar",
+    "oblute",
+    "rluria14"
+   ]
+  },
+  "package":{
+   "name":"cleanlab",
+   "version":"0.1.1"
+  },
+  "requirements":{
+   "host":[
+    "pip",
+    "python",
+    "pip",
+    "python",
+    "pip",
+    "python"
+   ],
+   "run":[
+    "numpy >=1.11.3",
+    "python",
+    "scikit-learn >=0.18",
+    "scipy >=1.1.0",
+    "numpy >=1.11.3",
+    "python",
+    "scikit-learn >=0.18",
+    "scipy >=1.1.0",
+    "numpy >=1.11.3",
+    "python",
+    "scikit-learn >=0.18",
+    "scipy >=1.1.0"
+   ]
+  },
+  "source":{
+   "sha256":"f32b95ff2167368609abf1c68f3ec735658c053dd5e87cb7fac4e3aab614d913",
+   "url":"https://pypi.io/packages/source/c/cleanlab/cleanlab-0.1.1.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "cleanlab",
+    "cleanlab.models",
+    "cleanlab",
+    "cleanlab.models",
+    "cleanlab",
+    "cleanlab.models"
+   ]
+  }
+ },
+ "name":"cleanlab",
+ "new_version":"0.1.1",
+ "raw_meta_yaml":"{% set name = \"cleanlab\" %}\n{% set version = \"0.1.1\" %}\n\npackage:\n  name: \"{{ name|lower }}\"\n  version: \"{{ version }}\"\n\nsource:\n  url: \"https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\"\n  sha256: f32b95ff2167368609abf1c68f3ec735658c053dd5e87cb7fac4e3aab614d913\n\nbuild:\n  noarch: python\n  number: 0\n  script: \"{{ PYTHON }} -m pip install . -vv\"\n\nrequirements:\n  host:\n    - pip\n    - python\n  run:\n    - numpy >=1.11.3\n    - python\n    - scikit-learn >=0.18\n    - scipy >=1.1.0\n\ntest:\n  imports:\n    - cleanlab\n    - cleanlab.models\n\nabout:\n  home: \"https://github.com/cgnorthcutt/cleanlab\"\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE # license not included in tarball, issue open on github here: https://github.com/cgnorthcutt/cleanlab/issues/24\n  summary: \"Find label errors in datasets, weak supervision, and learning with noisy labels. Works for all datasets and models.\"\n  doc_url: https://pypi.org/project/cleanlab/#description\n  dev_url: https://github.com/cgnorthcutt/cleanlab\n  description: |\n    cleanlab is a machine learning python package for learning with noisy labels and finding label errors in datasets.\n    cleanlab CLEANs LABels. It is powered by the theory of confident learning. Using the confidentlearning-reproduce \n    repo, cleanlab v0.1.0 reproduces results in the CL paper.\n\nextra:\n  recipe-maintainers:\n    - ndmaxar\n    - oblute\n    - rluria14\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "numpy",
+   "pip",
+   "python",
+   "scikit-learn",
+   "scipy"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "numpy",
+    "python",
+    "scikit-learn",
+    "scipy"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "numpy >=1.11.3",
+    "python",
+    "scikit-learn >=0.18",
+    "scipy >=1.1.0"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/c/cleanlab/cleanlab-0.1.1.tar.gz",
+ "version":"0.1.1"
+}

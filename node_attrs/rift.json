@@ -1,0 +1,556 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/333761132.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.0.14.6"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/361269604.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"python38"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/370344839.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.0.14.7"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/371009389.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.0.15.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/375413392.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.0.15.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/375635177.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MatplotlibBase",
+    "migrator_version":0,
+    "name":"matplotlib-to-matplotlib-base"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"rift",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "dev_url":"https://git.ligo.org/richard-oshaughnessy/research-projects-RIT",
+   "home":"https://git.ligo.org/richard-oshaughnessy/research-projects-RIT",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"LICENSE.md",
+   "summary":"RIFT parameter estimation pipeline"
+  },
+  "build":{
+   "number":"0",
+   "script":" -m pip install . -vv",
+   "skip":true
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "duncanmmacleod",
+    "oshaughn",
+    "duncanmmacleod",
+    "oshaughn",
+    "duncanmmacleod",
+    "oshaughn"
+   ]
+  },
+  "outputs":[
+   {
+    "name":"rift"
+   },
+   {
+    "about":{
+     "dev_url":"https://git.ligo.org/richard-oshaughnessy/research-projects-RIT",
+     "home":"https://git.ligo.org/richard-oshaughnessy/research-projects-RIT",
+     "license":"MIT",
+     "license_family":"MIT",
+     "license_file":"LICENSE.md",
+     "summary":"RIFT parameter estimation pipeline GPU metapackage"
+    },
+    "build":{
+     "skip":true
+    },
+    "name":"rift-gpu",
+    "requirements":{
+     "host":[
+      "python"
+     ],
+     "run":[
+      "cupy",
+      "python",
+      "pytorch",
+      "rift"
+     ]
+    }
+   },
+   {
+    "name":"rift"
+   },
+   {
+    "about":{
+     "dev_url":"https://git.ligo.org/richard-oshaughnessy/research-projects-RIT",
+     "home":"https://git.ligo.org/richard-oshaughnessy/research-projects-RIT",
+     "license":"MIT",
+     "license_family":"MIT",
+     "license_file":"LICENSE.md",
+     "summary":"RIFT parameter estimation pipeline GPU metapackage"
+    },
+    "build":{
+     "skip":true
+    },
+    "name":"rift-gpu",
+    "requirements":{
+     "host":[
+      "python"
+     ],
+     "run":[
+      "cupy",
+      "python",
+      "pytorch",
+      "rift"
+     ]
+    }
+   },
+   {
+    "name":"rift"
+   },
+   {
+    "about":{
+     "dev_url":"https://git.ligo.org/richard-oshaughnessy/research-projects-RIT",
+     "home":"https://git.ligo.org/richard-oshaughnessy/research-projects-RIT",
+     "license":"MIT",
+     "license_family":"MIT",
+     "license_file":"LICENSE.md",
+     "summary":"RIFT parameter estimation pipeline GPU metapackage"
+    },
+    "build":null,
+    "name":"rift-gpu",
+    "requirements":{
+     "host":[
+      "python"
+     ],
+     "run":[
+      "cupy",
+      "python",
+      "pytorch",
+      "rift"
+     ]
+    }
+   }
+  ],
+  "package":{
+   "name":"rift",
+   "version":"0.0.15.1"
+  },
+  "requirements":{
+   "host":[
+    "pip",
+    "python",
+    "setuptools",
+    "pip",
+    "python",
+    "setuptools",
+    "pip",
+    "python",
+    "setuptools"
+   ],
+   "run":[
+    "corner",
+    "gwdatafind",
+    "h5py",
+    "lalsuite",
+    "ligo-segments",
+    "matplotlib",
+    "numba",
+    "numpy",
+    "pip",
+    "python",
+    "python-ligo-lw",
+    "scikit-learn",
+    "setuptools",
+    "corner",
+    "gwdatafind",
+    "h5py",
+    "lalsuite",
+    "ligo-segments",
+    "matplotlib",
+    "numba",
+    "numpy",
+    "pip",
+    "python",
+    "python-ligo-lw",
+    "scikit-learn",
+    "setuptools",
+    "corner",
+    "gwdatafind",
+    "h5py",
+    "lalsuite",
+    "ligo-segments",
+    "matplotlib",
+    "numba",
+    "numpy",
+    "pip",
+    "python",
+    "python-ligo-lw",
+    "scikit-learn",
+    "setuptools"
+   ]
+  },
+  "source":{
+   "sha256":"4f31bc581b91bfa4a7fb7cc0820163a9ea14be161e4f7471d2e596b9618cbede",
+   "url":"https://pypi.io/packages/source/R/RIFT/RIFT-0.0.15.1.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "export EOB_ARCHIVE=\"${HOME}\"",
+    "export EOB_BASE=\"\"",
+    "export EOB_C_BASE=\"\"",
+    "export EOB_C_ARCHIVE=\"${HOME}\"",
+    "export EOB_C_ARCHIVE_NMAX=\"1\"",
+    "export EOS_TABLES=\"${HOME}\"",
+    "export GW_SURROGATE=\"\"",
+    "export MATLAB_BASE=\"\"",
+    "export MPLBACKEND=\"agg\"",
+    "convergence_test_samples.py --help",
+    "convert_dat_to_hdf5.py --help",
+    "convert_output_format_ile2inference --help",
+    "convert_output_format_inference2ile --help",
+    "convert_psd_ascii2xml --help",
+    "create_event_parameter_pipeline_BasicIteration --help",
+    "create_postprocessing_event_dag.py --help",
+    "helper_LDG_Events.py --help",
+    "integrate_likelihood_extrinsic --help",
+    "integrate_likelihood_extrinsic_batchmode --help",
+    "integrate_likelihood_extrinsic_no-op --help",
+    "plot_posterior_corner.py --help",
+    "util_AdaptiveExponent.py --help",
+    "util_CoincIFOUtility.py --help",
+    "util_ConstructIntrinsicPosterior_GenericCoordinates.py --help",
+    "util_EstimateWaveformDuration.py --help",
+    "util_FrameZeroNoiseSNR.py --help",
+    "util_GenerateMaxlnLWaveform.py --help",
+    "util_GridRecenter.py --help",
+    "util_ILENextGeneration.py --help",
+    "util_IterativeFisher.py --help",
+    "util_JoinXML.py --help",
+    "util_LALCompareApproximantsOnSamples.py --help",
+    "util_LALWriteFrame.py --help",
+    "util_ManualOverlapGrid.py --help",
+    "util_MarginalizedLikelihoodEOSIntegralFromIntermediate.py --help",
+    "util_MassGrid.py --help",
+    "util_MassGridCoalesce.py --help",
+    "util_ParameterFilter.py --help",
+    "util_ParameterPuffball.py --help",
+    "util_ParameterRandomize.py --help",
+    "util_PrintInjection.py --help",
+    "util_ROMWriteFrame.py --help",
+    "util_ResampleILEOutputWithExtrinsic.py --help",
+    "util_TestSpokesIO.py --help",
+    "util_TestXMLParameterStorage.py --help",
+    "util_TidalPlotSimulationStrain.py --help",
+    "util_WriteInjectionFile.py --help",
+    "export EOB_ARCHIVE=\"${HOME}\"",
+    "export EOB_BASE=\"\"",
+    "export EOB_C_BASE=\"\"",
+    "export EOB_C_ARCHIVE=\"${HOME}\"",
+    "export EOB_C_ARCHIVE_NMAX=\"1\"",
+    "export EOS_TABLES=\"${HOME}\"",
+    "export GW_SURROGATE=\"\"",
+    "export MATLAB_BASE=\"\"",
+    "export MPLBACKEND=\"agg\"",
+    "convergence_test_samples.py --help",
+    "convert_dat_to_hdf5.py --help",
+    "convert_output_format_ile2inference --help",
+    "convert_output_format_inference2ile --help",
+    "convert_psd_ascii2xml --help",
+    "create_event_parameter_pipeline_BasicIteration --help",
+    "create_postprocessing_event_dag.py --help",
+    "helper_LDG_Events.py --help",
+    "integrate_likelihood_extrinsic --help",
+    "integrate_likelihood_extrinsic_batchmode --help",
+    "integrate_likelihood_extrinsic_no-op --help",
+    "plot_posterior_corner.py --help",
+    "util_AdaptiveExponent.py --help",
+    "util_CoincIFOUtility.py --help",
+    "util_ConstructIntrinsicPosterior_GenericCoordinates.py --help",
+    "util_EstimateWaveformDuration.py --help",
+    "util_FrameZeroNoiseSNR.py --help",
+    "util_GenerateMaxlnLWaveform.py --help",
+    "util_GridRecenter.py --help",
+    "util_ILENextGeneration.py --help",
+    "util_IterativeFisher.py --help",
+    "util_JoinXML.py --help",
+    "util_LALCompareApproximantsOnSamples.py --help",
+    "util_LALWriteFrame.py --help",
+    "util_ManualOverlapGrid.py --help",
+    "util_MarginalizedLikelihoodEOSIntegralFromIntermediate.py --help",
+    "util_MassGrid.py --help",
+    "util_MassGridCoalesce.py --help",
+    "util_ParameterFilter.py --help",
+    "util_ParameterPuffball.py --help",
+    "util_ParameterRandomize.py --help",
+    "util_PrintInjection.py --help",
+    "util_ROMWriteFrame.py --help",
+    "util_ResampleILEOutputWithExtrinsic.py --help",
+    "util_TestSpokesIO.py --help",
+    "util_TestXMLParameterStorage.py --help",
+    "util_TidalPlotSimulationStrain.py --help",
+    "util_WriteInjectionFile.py --help",
+    "export EOB_ARCHIVE=\"${HOME}\"",
+    "export EOB_BASE=\"\"",
+    "export EOB_C_BASE=\"\"",
+    "export EOB_C_ARCHIVE=\"${HOME}\"",
+    "export EOB_C_ARCHIVE_NMAX=\"1\"",
+    "export EOS_TABLES=\"${HOME}\"",
+    "export GW_SURROGATE=\"\"",
+    "export MATLAB_BASE=\"\"",
+    "export MPLBACKEND=\"agg\"",
+    "convergence_test_samples.py --help",
+    "convert_dat_to_hdf5.py --help",
+    "convert_output_format_ile2inference --help",
+    "convert_output_format_inference2ile --help",
+    "convert_psd_ascii2xml --help",
+    "create_event_parameter_pipeline_BasicIteration --help",
+    "create_postprocessing_event_dag.py --help",
+    "helper_LDG_Events.py --help",
+    "integrate_likelihood_extrinsic --help",
+    "integrate_likelihood_extrinsic_batchmode --help",
+    "integrate_likelihood_extrinsic_no-op --help",
+    "plot_posterior_corner.py --help",
+    "util_AdaptiveExponent.py --help",
+    "util_CoincIFOUtility.py --help",
+    "util_ConstructIntrinsicPosterior_GenericCoordinates.py --help",
+    "util_EstimateWaveformDuration.py --help",
+    "util_FrameZeroNoiseSNR.py --help",
+    "util_GenerateMaxlnLWaveform.py --help",
+    "util_GridRecenter.py --help",
+    "util_ILENextGeneration.py --help",
+    "util_IterativeFisher.py --help",
+    "util_JoinXML.py --help",
+    "util_LALCompareApproximantsOnSamples.py --help",
+    "util_LALWriteFrame.py --help",
+    "util_ManualOverlapGrid.py --help",
+    "util_MarginalizedLikelihoodEOSIntegralFromIntermediate.py --help",
+    "util_MassGrid.py --help",
+    "util_MassGridCoalesce.py --help",
+    "util_ParameterFilter.py --help",
+    "util_ParameterPuffball.py --help",
+    "util_ParameterRandomize.py --help",
+    "util_PrintInjection.py --help",
+    "util_ROMWriteFrame.py --help",
+    "util_ResampleILEOutputWithExtrinsic.py --help",
+    "util_TestSpokesIO.py --help",
+    "util_TestXMLParameterStorage.py --help",
+    "util_TidalPlotSimulationStrain.py --help",
+    "util_WriteInjectionFile.py --help"
+   ],
+   "imports":[
+    "RIFT",
+    "RIFT.integrators",
+    "RIFT.interpolators",
+    "RIFT.likelihood",
+    "RIFT.physics",
+    "RIFT",
+    "RIFT.integrators",
+    "RIFT.interpolators",
+    "RIFT.likelihood",
+    "RIFT.physics",
+    "RIFT",
+    "RIFT.integrators",
+    "RIFT.interpolators",
+    "RIFT.likelihood",
+    "RIFT.physics"
+   ]
+  }
+ },
+ "name":"rift",
+ "new_version":"0.0.15.1",
+ "outputs_names":[
+  "rift",
+  "rift-gpu"
+ ],
+ "pinning_version":"2020.02.12",
+ "raw_meta_yaml":"{% set name = \"RIFT\" %}\n{% set version = \"0.0.15.1\" %}\n\npackage:\n  name: \"{{ name|lower }}\"\n  version: \"{{ version }}\"\n\nsource:\n  url: \"https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\"\n  sha256: 4f31bc581b91bfa4a7fb7cc0820163a9ea14be161e4f7471d2e596b9618cbede\n\nbuild:\n  number: 0\n  skip: true  # [win or py<=30]\n  script: \"{{ PYTHON }} -m pip install . -vv\"\n\nrequirements:\n  host:\n    - pip\n    - python\n    - setuptools\n  run:\n    - corner\n    - gwdatafind\n    - h5py\n    - lalsuite\n    - ligo-segments\n    - matplotlib\n    - numba\n    - numpy\n    - pip\n    - python\n    - python-ligo-lw\n    - scikit-learn\n    - setuptools\n\ntest:\n  imports:\n    - RIFT\n    - RIFT.integrators\n    - RIFT.interpolators\n    - RIFT.likelihood\n    - RIFT.physics\n  commands:\n    # set environment\n    - export EOB_ARCHIVE=\"${HOME}\"\n    - export EOB_BASE=\"\"\n    - export EOB_C_BASE=\"\"\n    - export EOB_C_ARCHIVE=\"${HOME}\"\n    - export EOB_C_ARCHIVE_NMAX=\"1\"\n    - export EOS_TABLES=\"${HOME}\"\n    - export GW_SURROGATE=\"\"\n    - export MATLAB_BASE=\"\"\n    - export MPLBACKEND=\"agg\"\n    # test scripts\n    - convergence_test_samples.py --help\n    - convert_dat_to_hdf5.py --help\n    - convert_output_format_ile2inference --help\n    - convert_output_format_inference2ile --help\n    - convert_psd_ascii2xml --help\n    - create_event_parameter_pipeline_BasicIteration --help\n    - create_postprocessing_event_dag.py --help\n    - helper_LDG_Events.py --help\n    - integrate_likelihood_extrinsic --help\n    - integrate_likelihood_extrinsic_batchmode --help\n    - integrate_likelihood_extrinsic_no-op --help\n    - plot_posterior_corner.py --help\n    - util_AdaptiveExponent.py --help\n    - util_CoincIFOUtility.py --help\n    - util_ConstructIntrinsicPosterior_GenericCoordinates.py --help\n    - util_EstimateWaveformDuration.py --help\n    - util_FrameZeroNoiseSNR.py --help\n    - util_GenerateMaxlnLWaveform.py --help\n    - util_GridRecenter.py --help\n    - util_ILENextGeneration.py --help\n    - util_IterativeFisher.py --help\n    - util_JoinXML.py --help\n    - util_LALCompareApproximantsOnSamples.py --help\n    - util_LALWriteFrame.py --help\n    - util_ManualOverlapGrid.py --help\n    - util_MarginalizedLikelihoodEOSIntegralFromIntermediate.py --help\n    - util_MassGrid.py --help\n    - util_MassGridCoalesce.py --help\n    - util_ParameterFilter.py --help\n    - util_ParameterPuffball.py --help\n    - util_ParameterRandomize.py --help\n    - util_PrintInjection.py --help\n    - util_ROMWriteFrame.py --help\n    - util_ResampleILEOutputWithExtrinsic.py --help\n    - util_TestSpokesIO.py --help\n    - util_TestXMLParameterStorage.py --help\n    - util_TidalPlotSimulationStrain.py --help\n    - util_WriteInjectionFile.py --help\n\noutputs:\n  - name: rift\n\n  - name: rift-gpu\n    build:\n      # pytorch is not py38 as of 5/2/20\n      skip: true  # [not linux or py>37]\n    requirements:\n      host:\n        - python\n      run:\n        - cupy\n        - python\n        - pytorch\n        - {{ pin_subpackage('rift', exact=True) }}\n    # NOTE: we can't run the tests because we don't have access to a GPU\n    #       everywhere\n    #test:\n    #  imports:\n    #    - RIFT.likelihood.optimized_gpu_tools\n    about:\n      home: \"https://git.ligo.org/richard-oshaughnessy/research-projects-RIT\"\n      dev_url: \"https://git.ligo.org/richard-oshaughnessy/research-projects-RIT\"\n      license: \"MIT\"\n      license_family: \"MIT\"\n      license_file: \"LICENSE.md\"\n      summary: \"RIFT parameter estimation pipeline GPU metapackage\"\n\nabout:\n  home: \"https://git.ligo.org/richard-oshaughnessy/research-projects-RIT\"\n  dev_url: \"https://git.ligo.org/richard-oshaughnessy/research-projects-RIT\"\n  license: \"MIT\"\n  license_family: \"MIT\"\n  license_file: \"LICENSE.md\"\n  summary: \"RIFT parameter estimation pipeline\"\n\nextra:\n  recipe-maintainers:\n    - duncanmmacleod\n    - oshaughn\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "corner",
+   "cupy",
+   "gwdatafind",
+   "h5py",
+   "lalsuite",
+   "ligo-segments",
+   "matplotlib",
+   "numba",
+   "numpy",
+   "pip",
+   "python",
+   "python-ligo-lw",
+   "pytorch",
+   "rift",
+   "scikit-learn",
+   "setuptools"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python",
+    "setuptools"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "corner",
+    "cupy",
+    "gwdatafind",
+    "h5py",
+    "lalsuite",
+    "ligo-segments",
+    "matplotlib",
+    "numba",
+    "numpy",
+    "pip",
+    "python",
+    "python-ligo-lw",
+    "pytorch",
+    "rift",
+    "scikit-learn",
+    "setuptools"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.6.8",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python",
+    "setuptools"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "corner",
+    "cupy",
+    "gwdatafind",
+    "h5py",
+    "lalsuite",
+    "ligo-segments",
+    "matplotlib",
+    "numba",
+    "numpy",
+    "pip",
+    "python",
+    "python-ligo-lw",
+    "pytorch",
+    "rift",
+    "scikit-learn",
+    "setuptools"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/R/RIFT/RIFT-0.0.14.5.tar.gz",
+ "version":"0.0.15.1"
+}

@@ -1,0 +1,129 @@
+{
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"nionswift-usim",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "dev_url":"https://github.com/nion-software/nionswift-usim",
+   "home":"https://github.com/nion-software/nionswift-usim",
+   "license":"GPLv3",
+   "license_family":"GPL3",
+   "license_file":"LICENSE",
+   "summary":"A Nion Swift package to simulate a STEM microscope, scanner, and cameras"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "cmeyer",
+    "ericpre",
+    "cmeyer",
+    "ericpre",
+    "cmeyer",
+    "ericpre"
+   ]
+  },
+  "package":{
+   "name":"nionswift-usim",
+   "version":"0.2.1"
+  },
+  "requirements":{
+   "host":[
+    "pip",
+    "python >=3.6",
+    "pip",
+    "python >=3.6",
+    "pip",
+    "python >=3.6"
+   ],
+   "run":[
+    "nionswift-instrumentation >=0.18.3",
+    "python >=3.6",
+    "nionswift-instrumentation >=0.18.3",
+    "python >=3.6",
+    "nionswift-instrumentation >=0.18.3",
+    "python >=3.6"
+   ]
+  },
+  "source":{
+   "sha256":"d797357c549a891cf0fec01023cd9d7ef28cc03e61008edbc249af9e114a13c6",
+   "url":"https://pypi.io/packages/source/n/nionswift-usim/nionswift-usim-0.2.1.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "nionswift_plugin.usim",
+    "nionswift_plugin.usim.test",
+    "nionswift_plugin.usim",
+    "nionswift_plugin.usim.test",
+    "nionswift_plugin.usim",
+    "nionswift_plugin.usim.test"
+   ]
+  }
+ },
+ "name":"nionswift-usim",
+ "new_version":"0.2.1",
+ "raw_meta_yaml":"{% set name = \"nionswift-usim\" %}\n{% set version = \"0.2.1\" %}\n\npackage:\n  name: \"{{ name|lower }}\"\n  version: \"{{ version }}\"\n\nsource:\n  url: \"https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\"\n  sha256: d797357c549a891cf0fec01023cd9d7ef28cc03e61008edbc249af9e114a13c6\n\nbuild:\n  number: 0\n  noarch: python\n  script: \"{{ PYTHON }} -m pip install . -vv\"\n\nrequirements:\n  host:\n    - pip\n    - python >=3.6\n  run:\n    - nionswift-instrumentation >=0.18.3\n    - python >=3.6\n\ntest:\n  imports:\n    - nionswift_plugin.usim\n    - nionswift_plugin.usim.test\n\nabout:\n  home: \"https://github.com/nion-software/nionswift-usim\"\n  license: GPLv3\n  license_family: GPL3\n  license_file: LICENSE\n  summary: \"A Nion Swift package to simulate a STEM microscope, scanner, and cameras\"\n  dev_url: https://github.com/nion-software/nionswift-usim\n\nextra:\n  recipe-maintainers:\n    - cmeyer\n    - ericpre\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "nionswift-instrumentation",
+   "pip",
+   "python"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "nionswift-instrumentation",
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3.6"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "nionswift-instrumentation >=0.18.3",
+    "python >=3.6"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/n/nionswift-usim/nionswift-usim-0.2.1.tar.gz",
+ "version":"0.2.1"
+}

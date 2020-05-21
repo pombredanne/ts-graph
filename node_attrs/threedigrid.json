@@ -1,0 +1,457 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/212890408.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/214563059.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.0.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/215901984.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.0.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/215917629.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.0.3"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/223530218.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.0.4"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/230778450.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.0.6"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.0.11"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/271653497.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.0.12"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/275019264.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.0.13"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/289685518.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.0.14"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/294783130.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.0.15"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/295335202.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.0.16"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/346600195.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.0.17"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/346771469.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.0.18"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/369657909.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.0.19"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/370727316.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.0.19.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"threedigrid",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"Features: access to the threedicore administration by a single instance of\nthe GridH5Admin object, query the model data by pre-defined subsets and django\nstyle filters,  export model data to gis formats like shapefile and geopackage,\nserialize model data as geojson\n",
+   "dev_url":"https://github.com/nens/threedigrid",
+   "doc_url":"https://threedigrid.readthedocs.io/",
+   "home":"https://github.com/nens/threedigrid",
+   "license":"BSD-3-Clause",
+   "license_family":"BSD",
+   "license_file":"LICENSE",
+   "summary":"Python package for the threedigrid administration"
+  },
+  "build":{
+   "entry_points":[
+    "3digrid_explore = threedigrid.management.commands.kick:kick_start",
+    "3digrid_export = threedigrid.management.commands.kick:export_to",
+    "3digrid_explore = threedigrid.management.commands.kick:kick_start",
+    "3digrid_export = threedigrid.management.commands.kick:export_to",
+    "3digrid_explore = threedigrid.management.commands.kick:kick_start",
+    "3digrid_export = threedigrid.management.commands.kick:export_to"
+   ],
+   "noarch":"python",
+   "number":"0",
+   "script":"python -m pip install --no-deps --ignore-installed ."
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "caspervdw",
+    "larsclaussen",
+    "jpprins1",
+    "byrman",
+    "caspervdw",
+    "larsclaussen",
+    "jpprins1",
+    "byrman",
+    "caspervdw",
+    "larsclaussen",
+    "jpprins1",
+    "byrman"
+   ]
+  },
+  "package":{
+   "name":"threedigrid",
+   "version":"1.0.16"
+  },
+  "requirements":{
+   "build":[
+    "python",
+    "pip",
+    "python",
+    "pip",
+    "python",
+    "pip"
+   ],
+   "run":[
+    "python",
+    "numpy >=1.13",
+    "h5py >=2.7.1",
+    "cftime >=1.0.1",
+    "click >=6.0",
+    "mercantile >=1.0.1",
+    "pyproj >=1.9.5.1",
+    "shapely >=1.6.4",
+    "geojson >=2.3.0",
+    "python",
+    "numpy >=1.13",
+    "h5py >=2.7.1",
+    "cftime >=1.0.1",
+    "click >=6.0",
+    "mercantile >=1.0.1",
+    "pyproj >=1.9.5.1",
+    "shapely >=1.6.4",
+    "geojson >=2.3.0",
+    "python",
+    "numpy >=1.13",
+    "h5py >=2.7.1",
+    "cftime >=1.0.1",
+    "click >=6.0",
+    "mercantile >=1.0.1",
+    "pyproj >=1.9.5.1",
+    "shapely >=1.6.4",
+    "geojson >=2.3.0"
+   ]
+  },
+  "source":{
+   "sha256":"87514eead7be65ef88f2517fdbd3f57f50a8dbb6a5ed30ae8f1af44a7e7f8cc7",
+   "url":"https://pypi.io/packages/source/t/threedigrid/threedigrid-1.0.16.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "threedigrid",
+    "threedigrid",
+    "threedigrid"
+   ]
+  }
+ },
+ "name":"threedigrid",
+ "new_version":"1.0.20.7",
+ "pinning_version":"2020.01.27",
+ "raw_meta_yaml":"{% set name = \"threedigrid\" %}\n{% set version = \"1.0.16\" %}\n{% set sha256 = \"87514eead7be65ef88f2517fdbd3f57f50a8dbb6a5ed30ae8f1af44a7e7f8cc7\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 0\n  script: python -m pip install --no-deps --ignore-installed .\n  entry_points:\n    - 3digrid_explore = threedigrid.management.commands.kick:kick_start\n    - 3digrid_export = threedigrid.management.commands.kick:export_to\n\nrequirements:\n  build:\n    - python\n    - pip\n  run:\n    - python\n    - numpy >=1.13\n    - h5py >=2.7.1\n    - cftime >=1.0.1\n    - click >=6.0\n    - mercantile >=1.0.1\n    - pyproj >=1.9.5.1\n    - shapely >=1.6.4\n    - geojson >=2.3.0\n\ntest:\n  imports:\n    - threedigrid\n\nabout:\n  home: https://github.com/nens/threedigrid\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: LICENSE\n  summary: 'Python package for the threedigrid administration'\n  description: |\n    Features: access to the threedicore administration by a single instance of \n    the GridH5Admin object, query the model data by pre-defined subsets and django\n    style filters,  export model data to gis formats like shapefile and geopackage,\n    serialize model data as geojson\n  doc_url: https://threedigrid.readthedocs.io/\n  dev_url: https://github.com/nens/threedigrid\n\nextra:\n  recipe-maintainers:\n    - caspervdw\n    - larsclaussen\n    - jpprins1\n    - byrman\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "cftime",
+   "click",
+   "geojson",
+   "h5py",
+   "mercantile",
+   "numpy",
+   "pip",
+   "pyproj",
+   "python",
+   "shapely"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "cftime",
+    "click",
+    "geojson",
+    "h5py",
+    "mercantile",
+    "numpy",
+    "pyproj",
+    "python",
+    "shapely"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.6.7",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "cftime >=1.0.1",
+    "click >=6.0",
+    "geojson >=2.3.0",
+    "h5py >=2.7.1",
+    "mercantile >=1.0.1",
+    "numpy >=1.13",
+    "pyproj >=1.9.5.1",
+    "python",
+    "shapely >=1.6.4"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/t/threedigrid/threedigrid-1.0.16.tar.gz",
+ "version":"1.0.16"
+}

@@ -1,0 +1,237 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/414252299.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"python38"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"dragonfly2",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"Dragonfly is a speech recognition framework for Python that makes it convenient to\ncreate custom commands to use with speech recognition software. It was written\nto make it very easy for Python macros, scripts, and applications to interface\nwith speech recognition engines. Its design allows speech commands and grammar\nobjects to be treated as first-class Python objects.\n",
+   "dev_url":"https://github.com/dictation-toolbox/dragonfly",
+   "doc_url":"https://dragonfly2.readthedocs.io/en/latest/",
+   "home":"https://github.com/dictation-toolbox/dragonfly",
+   "license":"GPL-3.0-only",
+   "license_family":"GPL3",
+   "license_file":"LICENSE",
+   "summary":"Dragonfly is a speech recognition framework for Python that makes it convenient to create custom commands to use with speech recognition software."
+  },
+  "build":{
+   "number":"0"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "ndmaxar",
+    "oblute",
+    "rluria14",
+    "ndmaxar",
+    "oblute",
+    "rluria14",
+    "ndmaxar",
+    "oblute",
+    "rluria14"
+   ]
+  },
+  "package":{
+   "name":"dragonfly2",
+   "version":"0.23.2"
+  },
+  "requirements":{
+   "host":[
+    "python",
+    "pip",
+    "python",
+    "pip",
+    "python",
+    "pip"
+   ],
+   "run":[
+    "python",
+    "setuptools >=40.0.0",
+    "packaging >=19.0",
+    "six",
+    "pyperclip >=1.7.0",
+    "enum34",
+    "regex",
+    "decorator",
+    "lark-parser",
+    "comtypes",
+    "pywin32",
+    "json-rpc",
+    "Werkzeug",
+    "requests",
+    "python",
+    "setuptools >=40.0.0",
+    "packaging >=19.0",
+    "six",
+    "pyperclip >=1.7.0",
+    "enum34",
+    "regex",
+    "decorator",
+    "lark-parser",
+    "pynput >=1.4.2",
+    "pyobjc-core >=5.2",
+    "py-applescript",
+    "json-rpc",
+    "Werkzeug",
+    "requests",
+    "python",
+    "setuptools >=40.0.0",
+    "packaging >=19.0",
+    "six",
+    "pyperclip >=1.7.0",
+    "enum34",
+    "regex",
+    "decorator",
+    "lark-parser",
+    "psutil >=5.5.1",
+    "pynput >=1.4.2",
+    "json-rpc",
+    "Werkzeug",
+    "requests"
+   ]
+  },
+  "source":{
+   "sha256":"8d1df2dc6459c361382e6123a7306f3aae44345818f99c63e4809cdd7544dc8f",
+   "url":"https://pypi.io/packages/source/d/dragonfly2/dragonfly2-0.23.2.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "dragonfly",
+    "dragonfly",
+    "dragonfly"
+   ]
+  }
+ },
+ "name":"dragonfly2",
+ "new_version":"0.23.2",
+ "pinning_version":"2020.05.04.19.59.17",
+ "raw_meta_yaml":"{% set name = \"dragonfly2\" %}\n{% set version = \"0.23.2\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: 8d1df2dc6459c361382e6123a7306f3aae44345818f99c63e4809cdd7544dc8f\n\n\nbuild:\n  number: 0\n\nrequirements:\n  host:\n    - python\n    - pip\n   \n  run:\n    - python\n    - setuptools >=40.0.0\n    - packaging >=19.0\n    - six\n    - pyperclip >=1.7.0\n    - enum34\n    - regex\n    - decorator\n    - lark-parser\n    - comtypes  # [win]\n    - pywin32  # [win]\n    - psutil >=5.5.1  # [linux]\n    - pynput >=1.4.2  # [linux]\n    - pynput >=1.4.2  # [osx]\n    - pyobjc-core >=5.2  # [osx]\n    - py-applescript  # [osx]\n    - json-rpc\n    - Werkzeug\n    - requests\n\ntest:\n  imports:\n    - dragonfly\n\nabout:\n  home: https://github.com/dictation-toolbox/dragonfly\n  license: GPL-3.0-only\n  license_family: GPL3\n  license_file: LICENSE\n  summary: 'Dragonfly is a speech recognition framework for Python that makes it convenient to create custom commands to use with speech recognition software.'\n  description: |\n    Dragonfly is a speech recognition framework for Python that makes it convenient to\n    create custom commands to use with speech recognition software. It was written\n    to make it very easy for Python macros, scripts, and applications to interface\n    with speech recognition engines. Its design allows speech commands and grammar\n    objects to be treated as first-class Python objects.\n  doc_url: https://dragonfly2.readthedocs.io/en/latest/\n  dev_url: https://github.com/dictation-toolbox/dragonfly\n\nextra:\n  recipe-maintainers:\n    - ndmaxar\n    - oblute\n    - rluria14\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "comtypes",
+   "decorator",
+   "enum34",
+   "json-rpc",
+   "lark-parser",
+   "packaging",
+   "pip",
+   "psutil",
+   "py-applescript",
+   "pynput",
+   "pyobjc-core",
+   "pyperclip",
+   "python",
+   "pywin32",
+   "regex",
+   "requests",
+   "setuptools",
+   "six",
+   "werkzeug"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "comtypes",
+    "decorator",
+    "enum34",
+    "json-rpc",
+    "lark-parser",
+    "packaging",
+    "psutil",
+    "py-applescript",
+    "pynput",
+    "pyobjc-core",
+    "pyperclip",
+    "python",
+    "pywin32",
+    "regex",
+    "requests",
+    "setuptools",
+    "six",
+    "werkzeug"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.7.0\n",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "Werkzeug",
+    "comtypes",
+    "decorator",
+    "enum34",
+    "json-rpc",
+    "lark-parser",
+    "packaging >=19.0",
+    "psutil >=5.5.1",
+    "py-applescript",
+    "pynput >=1.4.2",
+    "pyobjc-core >=5.2",
+    "pyperclip >=1.7.0",
+    "python",
+    "pywin32",
+    "regex",
+    "requests",
+    "setuptools >=40.0.0",
+    "six"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/d/dragonfly2/dragonfly2-0.23.2.tar.gz",
+ "version":"0.23.2"
+}

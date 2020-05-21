@@ -1,0 +1,156 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/415676126.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.1.5"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"napari-plugin-engine",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"A fork of pluggy - plugin management package.\n",
+   "dev_url":"https://github.com/napari/napari-plugin-engine",
+   "doc_url":"https://napari-plugin-engine.readthedocs.io/",
+   "home":"https://github.com/napari/napari-plugin-engine",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"LICENSE",
+   "summary":"A fork of pluggy - plugin management package"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":"-m pip install . -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "tlambert03",
+    "jni",
+    "sofroniewn",
+    "tlambert03",
+    "jni",
+    "sofroniewn",
+    "tlambert03",
+    "jni",
+    "sofroniewn"
+   ]
+  },
+  "package":{
+   "name":"napari-plugin-engine",
+   "version":"0.1.5"
+  },
+  "requirements":{
+   "host":[
+    "python >=3.6",
+    "pip",
+    "setuptools_scm",
+    "python >=3.6",
+    "pip",
+    "setuptools_scm",
+    "python >=3.6",
+    "pip",
+    "setuptools_scm"
+   ],
+   "run":[
+    "python >=3.6",
+    "python >=3.6",
+    "python >=3.6"
+   ]
+  },
+  "source":{
+   "sha256":"7f53434753fb0726981c818af11fc2f71907371d348b8a87ce8fc0feeda68f76",
+   "url":"https://pypi.io/packages/source/n/napari-plugin-engine/napari-plugin-engine-0.1.5.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "napari_plugin_engine",
+    "napari_plugin_engine",
+    "napari_plugin_engine"
+   ]
+  }
+ },
+ "name":"napari-plugin-engine",
+ "new_version":"0.1.5",
+ "new_version_attempts":{
+  "0.1.5":1
+ },
+ "new_version_errors":{},
+ "pinning_version":"2020.05.09.00.08.03",
+ "raw_meta_yaml":"{% set name = \"napari-plugin-engine\" %}\n{% set version = \"0.1.5\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: 7f53434753fb0726981c818af11fc2f71907371d348b8a87ce8fc0feeda68f76\n\nbuild:\n  noarch: python\n  number: 0\n  script: {{ PYTHON }} -m pip install . -vv\n\nrequirements:\n  host:\n    - python >=3.6\n    - pip\n    - setuptools_scm\n  run:\n    - python >=3.6\n\ntest:\n  imports:\n    - napari_plugin_engine\n\nabout:\n  home: https://github.com/napari/napari-plugin-engine\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE\n  summary: A fork of pluggy - plugin management package\n\n  # The remaining entries in this section are optional, but recommended.\n  description: |\n    A fork of pluggy - plugin management package.\n  doc_url: https://napari-plugin-engine.readthedocs.io/\n  dev_url: https://github.com/napari/napari-plugin-engine\n\nextra:\n  recipe-maintainers:\n    - tlambert03\n    - jni\n    - sofroniewn\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "pip",
+   "python",
+   "setuptools_scm"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python",
+    "setuptools_scm"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.7.0\n",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3.6",
+    "setuptools_scm"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "python >=3.6"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/n/napari-plugin-engine/napari-plugin-engine-0.1.4.tar.gz",
+ "version":"0.1.5"
+}

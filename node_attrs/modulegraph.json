@@ -1,0 +1,166 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/362823041.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.18"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"modulegraph",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "dev_url":"https://bitbucket.org/ronaldoussoren/modulegraph",
+   "doc_url":"https://modulegraph.readthedocs.io/en/latest/",
+   "home":"http://bitbucket.org/ronaldoussoren/modulegraph",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"LICENSE",
+   "summary":"modulegraph determines a dependency graph between Python modules primarily\nby bytecode analysis for import statements. modulegraph uses similar methods\nto modulefinder from the standard library, but uses a more flexible internal\nrepresentation, has more extensive knowledge of special cases, and is extensible.\n"
+  },
+  "build":{
+   "entry_points":[
+    "modulegraph = modulegraph.__main__:main",
+    "modulegraph = modulegraph.__main__:main",
+    "modulegraph = modulegraph.__main__:main"
+   ],
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "bkpoon",
+    "bkpoon",
+    "bkpoon"
+   ]
+  },
+  "package":{
+   "name":"modulegraph",
+   "version":"0.18"
+  },
+  "requirements":{
+   "host":[
+    "pip",
+    "python",
+    "setuptools",
+    "pip",
+    "python",
+    "setuptools",
+    "pip",
+    "python",
+    "setuptools"
+   ],
+   "run":[
+    "altgraph >=0.15",
+    "python",
+    "setuptools",
+    "altgraph >=0.15",
+    "python",
+    "setuptools",
+    "altgraph >=0.15",
+    "python",
+    "setuptools"
+   ]
+  },
+  "source":{
+   "sha256":"11c03dac1368bb9e7f780b58d251a0880c30b5a14816b6f88ec5a6fe1e3e5611",
+   "url":"https://pypi.io/packages/source/m/modulegraph/modulegraph-0.18.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "modulegraph --help",
+    "modulegraph --help",
+    "modulegraph --help"
+   ],
+   "imports":[
+    "modulegraph",
+    "modulegraph",
+    "modulegraph"
+   ]
+  }
+ },
+ "name":"modulegraph",
+ "new_version":"0.18",
+ "pinning_version":"2020.01.10",
+ "raw_meta_yaml":"{% set name = \"modulegraph\" %}\n{% set version = \"0.18\" %}\n\npackage:\n  name: \"{{ name|lower }}\"\n  version: \"{{ version }}\"\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: 11c03dac1368bb9e7f780b58d251a0880c30b5a14816b6f88ec5a6fe1e3e5611\n\nbuild:\n  noarch: python\n  number: 0\n  entry_points:\n    - modulegraph = modulegraph.__main__:main\n  script: \"{{ PYTHON }} -m pip install . -vv\"\n\nrequirements:\n  host:\n    - pip\n    - python\n    - setuptools\n  run:\n    - altgraph >=0.15\n    - python\n    - setuptools\n\ntest:\n  imports:\n    - modulegraph\n  commands:\n    - modulegraph --help\n\nabout:\n  home: http://bitbucket.org/ronaldoussoren/modulegraph\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE\n  summary: |\n    modulegraph determines a dependency graph between Python modules primarily\n    by bytecode analysis for import statements. modulegraph uses similar methods\n    to modulefinder from the standard library, but uses a more flexible internal\n    representation, has more extensive knowledge of special cases, and is extensible.\n  doc_url: https://modulegraph.readthedocs.io/en/latest/\n  dev_url: https://bitbucket.org/ronaldoussoren/modulegraph\n\nextra:\n  recipe-maintainers:\n    - bkpoon\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "altgraph",
+   "pip",
+   "python",
+   "setuptools"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python",
+    "setuptools"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "altgraph",
+    "python",
+    "setuptools"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.6.5",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python",
+    "setuptools"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "altgraph >=0.15",
+    "python",
+    "setuptools"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/m/modulegraph/modulegraph-0.17.tar.gz",
+ "version":"0.18"
+}

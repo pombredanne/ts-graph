@@ -1,0 +1,305 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/348688555.json"
+   },
+   "data":{
+    "bot_rerun":1579272528.9150648,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"python38"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/350509231.json"
+   },
+   "data":{
+    "bot_rerun":1579272528.9179072,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"python38"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/350597917.json"
+   },
+   "data":{
+    "bot_rerun":1579272528.9254305,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"python38"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "id":"37af90e4-0035-4dc1-8c6b-29d610db5153",
+    "merged_at":"never issued",
+    "state":"closed"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"python38"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/372409326.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.0.59"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/406895533.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.0.60"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"toad",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"Toad is developed to facilitate the model development work - especially credit risk scorecard.\n",
+   "dev_url":"https://github.com/amphibian-dev/toad",
+   "doc_url":"https://toad.readthedocs.io/",
+   "home":"https://github.com/amphibian-dev/toad",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"LICENSE",
+   "summary":"Toad is developed to facilitate the model development work - especially credit risk scorecard."
+  },
+  "build":{
+   "entry_points":[
+    "toad = toad.cli:main",
+    "toad = toad.cli:main",
+    "toad = toad.cli:main"
+   ],
+   "number":"0",
+   "script":"-m pip install . -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "Secbone",
+    "Secbone",
+    "Secbone"
+   ]
+  },
+  "package":{
+   "name":"toad",
+   "version":"0.0.60"
+  },
+  "requirements":{
+   "build":[
+    "c_compiler_stub",
+    "c_compiler_stub",
+    "c_compiler_stub"
+   ],
+   "host":[
+    "python",
+    "pip",
+    "numpy >=1.17.3",
+    "cython  >=0.29.15",
+    "setuptools",
+    "python",
+    "pip",
+    "numpy >=1.17.3",
+    "cython  >=0.29.15",
+    "setuptools",
+    "python",
+    "pip",
+    "numpy >=1.17.3",
+    "cython  >=0.29.15",
+    "setuptools"
+   ],
+   "run":[
+    "python",
+    "numpy",
+    "pandas",
+    "scipy",
+    "scikit-learn >=0.22",
+    "seaborn >=0.10.0",
+    "python",
+    "numpy",
+    "pandas",
+    "scipy",
+    "scikit-learn >=0.22",
+    "seaborn >=0.10.0",
+    "python",
+    "numpy",
+    "pandas",
+    "scipy",
+    "scikit-learn >=0.22",
+    "seaborn >=0.10.0"
+   ]
+  },
+  "source":{
+   "sha256":"bd9246af21637edafdf9bbe455fb1f5cb6902caa8bf4f487f7b0dda9923ca991",
+   "url":"https://pypi.io/packages/source/t/toad/toad-0.0.60.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "toad -h",
+    "toad -h",
+    "toad -h"
+   ],
+   "imports":[
+    "toad",
+    "toad",
+    "toad"
+   ]
+  }
+ },
+ "name":"toad",
+ "new_version":"0.0.60",
+ "new_version_attempts":{
+  "0.0.60":1
+ },
+ "new_version_errors":{},
+ "pinning_version":"2020.04.21.12.59.15",
+ "raw_meta_yaml":"{% set name = \"toad\" %}\n{% set version = \"0.0.60\" %} \n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: bd9246af21637edafdf9bbe455fb1f5cb6902caa8bf4f487f7b0dda9923ca991\n\nbuild:\n  number: 0\n  skip: true  # [py2k]\n  entry_points:\n    - toad = toad.cli:main\n  script: {{ PYTHON }} -m pip install . -vv\n\nrequirements:\n  build:\n    - {{ compiler('c') }}\n  host:\n    - python\n    - pip\n    - numpy >=1.17.3\n    - cython  >=0.29.15\n    - setuptools\n  run:\n    - python\n    - {{ pin_compatible('numpy') }}\n    - pandas\n    - scipy\n    - scikit-learn >=0.22\n    - seaborn >=0.10.0\n\ntest:\n  imports:\n    - toad\n  commands:\n    - toad -h\n\nabout:\n  home: https://github.com/amphibian-dev/toad\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE\n  summary: Toad is developed to facilitate the model development work - especially credit risk scorecard.\n  description: |\n    Toad is developed to facilitate the model development work - especially credit risk scorecard.\n  doc_url: https://toad.readthedocs.io/\n  dev_url: https://github.com/amphibian-dev/toad\n\nextra:\n  recipe-maintainers:\n    - Secbone\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "c_compiler_stub",
+   "cython",
+   "numpy",
+   "pandas",
+   "pip",
+   "python",
+   "scikit-learn",
+   "scipy",
+   "seaborn",
+   "setuptools"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "cython",
+    "numpy",
+    "pip",
+    "python",
+    "setuptools"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "numpy",
+    "pandas",
+    "python",
+    "scikit-learn",
+    "scipy",
+    "seaborn"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.6.16",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "cython  >=0.29.15",
+    "numpy >=1.17.3",
+    "pip",
+    "python",
+    "setuptools"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "numpy",
+    "pandas",
+    "python",
+    "scikit-learn >=0.22",
+    "scipy",
+    "seaborn >=0.10.0"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/t/toad/toad-0.0.58.tar.gz",
+ "version":"0.0.60"
+}

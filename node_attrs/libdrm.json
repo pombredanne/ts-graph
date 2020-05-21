@@ -1,0 +1,240 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/237150510.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/246841477.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.4.97"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/272038291.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.4.98"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/293884493.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.4.99"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/328982055.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.4.100"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "compiler_stack":"comp7",
+  "max_py_ver":"37",
+  "max_r_ver":"35"
+ },
+ "feedstock_name":"libdrm",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"This  is libdrm,  a userspace  library for  accessing the  DRM, direct\nrendering  manager, on  Linux,  BSD and  other  operating systems that\nsupport the  ioctl interface.  The library  provides wrapper functions\nfor the  ioctls to avoid  exposing the kernel interface  directly, and\nfor chipsets with drm memory manager, support for tracking relocations\nand  buffers.   libdrm  is  a  low-level library,  typically  used  by\ngraphics drivers  such as the Mesa  DRI drivers, the  X drivers, libva\nand  similar projects.  New  functionality in  the kernel  DRM drivers\ntypically requires  a new  libdrm, but a  new libdrm will  always work\nwith an older kernel.\n",
+   "home":"https://gitlab.freedesktop.org/mesa/drm",
+   "license":"MIT?",
+   "license_family":"MIT",
+   "summary":"userspace library for drm"
+  },
+  "build":{
+   "number":"0",
+   "run_exports":[
+    "libdrm",
+    "libdrm",
+    "libdrm"
+   ],
+   "script":[
+    "./configure --prefix=",
+    "make -j$(nproc) install",
+    "./configure --prefix=",
+    "make -j$(nproc) install",
+    "./configure --prefix=",
+    "make -j$(nproc) install"
+   ],
+   "skip":true
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "hmaarrfk",
+    "hmaarrfk",
+    "hmaarrfk"
+   ]
+  },
+  "package":{
+   "name":"libdrm",
+   "version":"2.4.100"
+  },
+  "requirements":{
+   "build":[
+    "c_compiler_stub",
+    "pkg-config",
+    "c_compiler_stub",
+    "pkg-config",
+    "c_compiler_stub",
+    "pkg-config"
+   ],
+   "host":[
+    "libpciaccess >=0.14",
+    "libpciaccess >=0.14",
+    "libpciaccess >=0.14"
+   ]
+  },
+  "source":{
+   "sha256":"6a5337c054c0c47bc16607a21efa2b622e08030be4101ef4a241c5eb05b6619b",
+   "url":"https://dri.freedesktop.org/libdrm/libdrm-2.4.100.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "test -f $PREFIX/include/xf86drm.h",
+    "test -f $PREFIX/include/xf86drmMode.h",
+    "test -f $PREFIX/include/libsync.h",
+    "test -f $PREFIX/include/libkms/libkms.h",
+    "test -d $PREFIX/include/libdrm",
+    "test -f $PREFIX/lib/libdrm.so",
+    "test -f $PREFIX/lib/libdrm.so.2",
+    "test -f $PREFIX/include/xf86drm.h",
+    "test -f $PREFIX/include/xf86drmMode.h",
+    "test -f $PREFIX/include/libsync.h",
+    "test -f $PREFIX/include/libkms/libkms.h",
+    "test -d $PREFIX/include/libdrm",
+    "test -f $PREFIX/lib/libdrm.so",
+    "test -f $PREFIX/lib/libdrm.so.2",
+    "test -f $PREFIX/include/xf86drm.h",
+    "test -f $PREFIX/include/xf86drmMode.h",
+    "test -f $PREFIX/include/libsync.h",
+    "test -f $PREFIX/include/libkms/libkms.h",
+    "test -d $PREFIX/include/libdrm",
+    "test -f $PREFIX/lib/libdrm.so",
+    "test -f $PREFIX/lib/libdrm.so.2"
+   ]
+  }
+ },
+ "name":"libdrm",
+ "new_version":"2.4.100",
+ "pinning_version":"2019.10.11",
+ "raw_meta_yaml":"{% set name = \"libdrm\" %}\n{% set version = \"2.4.100\" %}\n\n# http://www.linuxfromscratch.org/blfs/view/8.2/x/libdrm.html\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://dri.freedesktop.org/libdrm/libdrm-{{ version }}.tar.gz\n  sha256: 6a5337c054c0c47bc16607a21efa2b622e08030be4101ef4a241c5eb05b6619b\n\nbuild:\n  skip: True  # [not linux]\n  number: 0\n  run_exports:\n    - {{ pin_subpackage('libdrm', max_pin='x.x') }}\n  script:\n    - ./configure --prefix={{ PREFIX }}\n    - make -j$(nproc) install\n\nrequirements:\n  build:\n    - {{ compiler('c') }}\n    - pkg-config\n  host:\n    # build 0 of libpciaccess 0.14 didn't have the run_exports\n    - libpciaccess >=0.14\n\ntest:\n  commands:\n    - test -f $PREFIX/include/xf86drm.h\n    - test -f $PREFIX/include/xf86drmMode.h\n    - test -f $PREFIX/include/libsync.h\n    - test -f $PREFIX/include/libkms/libkms.h\n    - test -d $PREFIX/include/libdrm\n    - test -f $PREFIX/lib/libdrm.so\n    - test -f $PREFIX/lib/libdrm.so.2\n\nabout:\n  home: https://gitlab.freedesktop.org/mesa/drm\n  license: MIT?\n  license_family: MIT\n  # license_file: COPYING\n  summary: 'userspace library for drm'\n\n  # The remaining entries in this section are optional, but recommended\n  description: |\n    This  is libdrm,  a userspace  library for  accessing the  DRM, direct\n    rendering  manager, on  Linux,  BSD and  other  operating systems that\n    support the  ioctl interface.  The library  provides wrapper functions\n    for the  ioctls to avoid  exposing the kernel interface  directly, and\n    for chipsets with drm memory manager, support for tracking relocations\n    and  buffers.   libdrm  is  a  low-level library,  typically  used  by\n    graphics drivers  such as the Mesa  DRI drivers, the  X drivers, libva\n    and  similar projects.  New  functionality in  the kernel  DRM drivers\n    typically requires  a new  libdrm, but a  new libdrm will  always work\n    with an older kernel.\n\nextra:\n  recipe-maintainers:\n    - hmaarrfk\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "c_compiler_stub",
+   "libpciaccess",
+   "pkg-config"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "pkg-config"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "libpciaccess"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.6.0",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "pkg-config"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "libpciaccess >=0.14"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://dri.freedesktop.org/libdrm/libdrm-2.4.99.tar.gz",
+ "version":"2.4.100"
+}

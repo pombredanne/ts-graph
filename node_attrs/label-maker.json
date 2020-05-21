@@ -1,0 +1,375 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/337532273.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.6.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/340093234.json"
+   },
+   "data":{
+    "bot_rerun":1579272528.8467474,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.6.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/343383297.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"python38"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/345403788.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.6.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/353029105.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.7.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/417509145.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.8.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "provider":{
+   "win":"azure"
+  }
+ },
+ "feedstock_name":"label-maker",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "dev_url":"https://github.com/developmentseed/label-maker",
+   "home":"https://github.com/developmentseed/label-maker/",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"LICENSE.txt",
+   "summary":"Data preparation for satellite machine learning"
+  },
+  "build":{
+   "entry_points":[
+    "label-maker=label_maker.main:cli",
+    "label-maker=label_maker.main:cli",
+    "label-maker=label_maker.main:cli"
+   ],
+   "noarch":"python",
+   "number":"0",
+   "script":"-m pip install . --no-deps -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "rluria14",
+    "benhuff",
+    "oblute",
+    "rluria14",
+    "benhuff",
+    "oblute",
+    "rluria14",
+    "benhuff",
+    "oblute"
+   ]
+  },
+  "package":{
+   "name":"label-maker",
+   "version":"0.8.0"
+  },
+  "requirements":{
+   "host":[
+    "python",
+    "pip",
+    "python",
+    "pip",
+    "python",
+    "pip"
+   ],
+   "run":[
+    "python",
+    "numpy >=1.13.3",
+    "cerberus >=1.1",
+    "click >=6.7",
+    "geojson >=2.3.0",
+    "homura >=0.1.5",
+    "humanize >=0.5.1",
+    "mercantile >=1.0.0",
+    "olefile >=0.44",
+    "pillow >=4.3.0",
+    "protobuf >=3.5.0.post1",
+    "pyclipper >=1.0.6",
+    "pycurl >=7.43.0.1",
+    "pyproj >=1.9.5.1",
+    "rasterio >=1.0a12",
+    "requests >=2.20.0",
+    "shapely >=1.6.3",
+    "six >=1.10.0",
+    "mapbox-vector-tile >=1.2.0",
+    "mbutil >=0.3.0",
+    "tilepie >=0.2.1",
+    "tqdm",
+    "python",
+    "numpy >=1.13.3",
+    "cerberus >=1.1",
+    "click >=6.7",
+    "geojson >=2.3.0",
+    "homura >=0.1.5",
+    "humanize >=0.5.1",
+    "mercantile >=1.0.0",
+    "olefile >=0.44",
+    "pillow >=4.3.0",
+    "protobuf >=3.5.0.post1",
+    "pyclipper >=1.0.6",
+    "pycurl >=7.43.0.1",
+    "pyproj >=1.9.5.1",
+    "rasterio >=1.0a12",
+    "requests >=2.20.0",
+    "shapely >=1.6.3",
+    "six >=1.10.0",
+    "mapbox-vector-tile >=1.2.0",
+    "mbutil >=0.3.0",
+    "tilepie >=0.2.1",
+    "tqdm",
+    "python",
+    "numpy >=1.13.3",
+    "cerberus >=1.1",
+    "click >=6.7",
+    "geojson >=2.3.0",
+    "homura >=0.1.5",
+    "humanize >=0.5.1",
+    "mercantile >=1.0.0",
+    "olefile >=0.44",
+    "pillow >=4.3.0",
+    "protobuf >=3.5.0.post1",
+    "pyclipper >=1.0.6",
+    "pycurl >=7.43.0.1",
+    "pyproj >=1.9.5.1",
+    "rasterio >=1.0a12",
+    "requests >=2.20.0",
+    "shapely >=1.6.3",
+    "six >=1.10.0",
+    "mapbox-vector-tile >=1.2.0",
+    "mbutil >=0.3.0",
+    "tilepie >=0.2.1",
+    "tqdm"
+   ]
+  },
+  "source":{
+   "sha256":"19270d87d8087270cfc750ebc16f1cf1f5cfb8fe7349f6794b4408445ce4be29",
+   "url":"https://pypi.io/packages/source/l/label-maker/label-maker-0.8.0.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "label-maker --help",
+    "label-maker --help",
+    "label-maker --help"
+   ],
+   "imports":[
+    "label_maker",
+    "label_maker",
+    "label_maker"
+   ]
+  }
+ },
+ "name":"label-maker",
+ "new_version":"0.8.0",
+ "new_version_attempts":{
+  "0.8.0":1
+ },
+ "new_version_errors":{},
+ "pinning_version":"2020.05.13.13.23.43",
+ "raw_meta_yaml":"{% set version = \"0.8.0\" %}\n\npackage:\n  name: label-maker\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/l/label-maker/label-maker-{{ version }}.tar.gz\n  sha256: 19270d87d8087270cfc750ebc16f1cf1f5cfb8fe7349f6794b4408445ce4be29\n\nbuild:\n  noarch: python\n  number: 0\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n  entry_points:\n    - label-maker=label_maker.main:cli\n\nrequirements:\n  host:\n    - python\n    - pip\n  run:\n    - python\n    - numpy >=1.13.3\n    - cerberus >=1.1\n    - click >=6.7\n    - geojson >=2.3.0\n    - homura >=0.1.5\n    - humanize >=0.5.1\n    - mercantile >=1.0.0\n    - olefile >=0.44\n    - pillow >=4.3.0\n    - protobuf >=3.5.0.post1\n    - pyclipper >=1.0.6\n    - pycurl >=7.43.0.1\n    - pyproj >=1.9.5.1\n    - rasterio >=1.0a12\n    - requests >=2.20.0\n    - shapely >=1.6.3\n    - six >=1.10.0\n    - mapbox-vector-tile >=1.2.0\n    - mbutil >=0.3.0\n    - tilepie >=0.2.1\n    - tqdm\n\ntest:\n  imports:\n    - label_maker\n  commands:\n    - label-maker --help\n\nabout:\n  home: https://github.com/developmentseed/label-maker/\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE.txt\n  summary: Data preparation for satellite machine learning\n  dev_url: https://github.com/developmentseed/label-maker\n\nextra:\n  recipe-maintainers:\n    - rluria14\n    - benhuff\n    - oblute\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "cerberus",
+   "click",
+   "geojson",
+   "homura",
+   "humanize",
+   "mapbox-vector-tile",
+   "mbutil",
+   "mercantile",
+   "numpy",
+   "olefile",
+   "pillow",
+   "pip",
+   "protobuf",
+   "pyclipper",
+   "pycurl",
+   "pyproj",
+   "python",
+   "rasterio",
+   "requests",
+   "shapely",
+   "six",
+   "tilepie",
+   "tqdm"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "cerberus",
+    "click",
+    "geojson",
+    "homura",
+    "humanize",
+    "mapbox-vector-tile",
+    "mbutil",
+    "mercantile",
+    "numpy",
+    "olefile",
+    "pillow",
+    "protobuf",
+    "pyclipper",
+    "pycurl",
+    "pyproj",
+    "python",
+    "rasterio",
+    "requests",
+    "shapely",
+    "six",
+    "tilepie",
+    "tqdm"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.7.1\n",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "cerberus >=1.1",
+    "click >=6.7",
+    "geojson >=2.3.0",
+    "homura >=0.1.5",
+    "humanize >=0.5.1",
+    "mapbox-vector-tile >=1.2.0",
+    "mbutil >=0.3.0",
+    "mercantile >=1.0.0",
+    "numpy >=1.13.3",
+    "olefile >=0.44",
+    "pillow >=4.3.0",
+    "protobuf >=3.5.0.post1",
+    "pyclipper >=1.0.6",
+    "pycurl >=7.43.0.1",
+    "pyproj >=1.9.5.1",
+    "python",
+    "rasterio >=1.0a12",
+    "requests >=2.20.0",
+    "shapely >=1.6.3",
+    "six >=1.10.0",
+    "tilepie >=0.2.1",
+    "tqdm"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/l/label-maker/label-maker-0.5.1.tar.gz",
+ "version":"0.8.0"
+}

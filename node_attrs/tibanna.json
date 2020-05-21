@@ -1,0 +1,388 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "id":"f073590b-9345-43ed-bbc2-87e5bb7cd35e",
+    "merged_at":"never issued",
+    "state":"closed"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"python38"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/340118699.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.10.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/344769817.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.11.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/344961982.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.11.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/354292750.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.11.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/360726017.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.12.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/370959237.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.13.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/375137412.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.14.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/378660877.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.15.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/32b5ee1e-7eeb-4c1f-bd42-93fd2bb74f0b.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"pypy"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/419716016.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.18.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"tibanna",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "doc_url":"https://tibanna.readthedocs.io/en/latest/",
+   "home":"http://data.4dnucleome.org",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"LICENSE.txt",
+   "summary":"Tibanna runs portable pipelines (in CWL/WDL) on the AWS Cloud."
+  },
+  "build":{
+   "entry_points":[
+    "tibanna = tibanna.__main__:main",
+    "tibanna = tibanna.__main__:main",
+    "tibanna = tibanna.__main__:main"
+   ],
+   "number":"0",
+   "script":" -m pip install . -vv "
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "soolee",
+    "soolee",
+    "soolee"
+   ]
+  },
+  "package":{
+   "name":"tibanna",
+   "version":"0.15.0"
+  },
+  "requirements":{
+   "host":[
+    "benchmark-4dn >=0.5.8",
+    "boto3 >=1.9.0",
+    "botocore >=1.12.1",
+    "pip",
+    "python ==3.6",
+    "python-lambda-4dn ==0.12.3",
+    "requests ==2.22.0",
+    "urllib3 >=1.24",
+    "benchmark-4dn >=0.5.8",
+    "boto3 >=1.9.0",
+    "botocore >=1.12.1",
+    "pip",
+    "python ==3.6",
+    "python-lambda-4dn ==0.12.3",
+    "requests ==2.22.0",
+    "urllib3 >=1.24",
+    "benchmark-4dn >=0.5.8",
+    "boto3 >=1.9.0",
+    "botocore >=1.12.1",
+    "pip",
+    "python ==3.6",
+    "python-lambda-4dn ==0.12.3",
+    "requests ==2.22.0",
+    "urllib3 >=1.24"
+   ],
+   "run":[
+    "benchmark-4dn >=0.5.8",
+    "boto3 >=1.9.0",
+    "botocore >=1.12.1",
+    "python ==3.6",
+    "python-lambda-4dn ==0.12.3",
+    "requests ==2.22.0",
+    "urllib3 >=1.24",
+    "benchmark-4dn >=0.5.8",
+    "boto3 >=1.9.0",
+    "botocore >=1.12.1",
+    "python ==3.6",
+    "python-lambda-4dn ==0.12.3",
+    "requests ==2.22.0",
+    "urllib3 >=1.24",
+    "benchmark-4dn >=0.5.8",
+    "boto3 >=1.9.0",
+    "botocore >=1.12.1",
+    "python ==3.6",
+    "python-lambda-4dn ==0.12.3",
+    "requests ==2.22.0",
+    "urllib3 >=1.24"
+   ]
+  },
+  "source":{
+   "sha256":"92d2e1e8e8c82c3def97daf13067ec96851c6e82a2dcf50fdeaa667efa39e9fc",
+   "url":"https://pypi.io/packages/source/t/tibanna/tibanna-0.15.0.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "tibanna",
+    "tibanna",
+    "tibanna"
+   ]
+  }
+ },
+ "name":"tibanna",
+ "new_version":"0.18.0",
+ "new_version_attempts":{
+  "0.18.0":1
+ },
+ "new_version_errors":{},
+ "pinning_version":"2020.05.18.14.31.44",
+ "raw_meta_yaml":"{% set name = \"tibanna\" %}\n{% set version = \"0.15.0\" %}\n\npackage:\n  name: \"{{ name|lower }}\"\n  version: \"{{ version }}\"\n\nsource:\n  url: \"https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\"\n  sha256: 92d2e1e8e8c82c3def97daf13067ec96851c6e82a2dcf50fdeaa667efa39e9fc\n\nbuild:\n  number: 0\n  entry_points:\n    - tibanna = tibanna.__main__:main\n  script: \"{{ PYTHON }} -m pip install . -vv \"\n\nrequirements:\n  host:\n    - benchmark-4dn >=0.5.8\n    - boto3 >=1.9.0\n    - botocore >=1.12.1\n    - pip\n    - python ==3.6\n    - python-lambda-4dn ==0.12.3\n    - requests ==2.22.0\n    - urllib3 >=1.24\n  run:\n    - benchmark-4dn >=0.5.8\n    - boto3 >=1.9.0\n    - botocore >=1.12.1\n    - python ==3.6\n    - python-lambda-4dn ==0.12.3\n    - requests ==2.22.0\n    - urllib3 >=1.24\n\ntest:\n  imports:\n    - tibanna\n\nabout:\n  home: \"http://data.4dnucleome.org\"\n  license: \"MIT\"\n  license_family: \"MIT\"\n  license_file: \"LICENSE.txt\"\n  summary: \"Tibanna runs portable pipelines (in CWL/WDL) on the AWS Cloud.\"\n  doc_url: \"https://tibanna.readthedocs.io/en/latest/\"\n\nextra:\n  recipe-maintainers:\n    - soolee\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "benchmark-4dn",
+   "boto3",
+   "botocore",
+   "pip",
+   "python",
+   "python-lambda-4dn",
+   "requests",
+   "urllib3"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "benchmark-4dn",
+    "boto3",
+    "botocore",
+    "pip",
+    "python",
+    "python-lambda-4dn",
+    "requests",
+    "urllib3"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "benchmark-4dn",
+    "boto3",
+    "botocore",
+    "python",
+    "python-lambda-4dn",
+    "requests",
+    "urllib3"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.7.3\n",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "benchmark-4dn >=0.5.8",
+    "boto3 >=1.9.0",
+    "botocore >=1.12.1",
+    "pip",
+    "python ==3.6",
+    "python-lambda-4dn ==0.12.3",
+    "requests ==2.22.0",
+    "urllib3 >=1.24"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "benchmark-4dn >=0.5.8",
+    "boto3 >=1.9.0",
+    "botocore >=1.12.1",
+    "python ==3.6",
+    "python-lambda-4dn ==0.12.3",
+    "requests ==2.22.0",
+    "urllib3 >=1.24"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/t/tibanna/tibanna-0.10.1.tar.gz",
+ "version":"0.15.0"
+}

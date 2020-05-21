@@ -1,0 +1,145 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/217549660.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"begins",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "dev_url":"https://github.com/aliles/begins",
+   "doc_url":"http://begins.readthedocs.org",
+   "home":"http://begins.readthedocs.org",
+   "license":"Apache 2.0",
+   "license_family":"Apache",
+   "license_file":"LICENSE",
+   "summary":"Command line programs for busy developers"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"1",
+   "script":" -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "pmlandwehr",
+    "pmlandwehr",
+    "pmlandwehr"
+   ]
+  },
+  "package":{
+   "name":"begins",
+   "version":"0.9"
+  },
+  "requirements":{
+   "host":[
+    "python >=3.5",
+    "pip",
+    "python >=3.5",
+    "pip",
+    "python >=3.5",
+    "pip"
+   ],
+   "run":[
+    "python >=3.5",
+    "setuptools",
+    "python >=3.5",
+    "setuptools",
+    "python >=3.5",
+    "setuptools"
+   ]
+  },
+  "source":{
+   "sha256":"98864dc7593ce438074ed30e4c030dcb37e795376726d9150d557ed9d868ef55",
+   "url":"https://pypi.io/packages/source/b/begins/begins-0.9.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "begin",
+    "begin",
+    "begin"
+   ]
+  }
+ },
+ "name":"begins",
+ "new_version":"0.9",
+ "pinning_version":"2018.09.20",
+ "raw_meta_yaml":"{% set version = \"0.9\" %}\n\npackage:\n  name: begins\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/b/begins/begins-{{ version }}.tar.gz\n  sha256: 98864dc7593ce438074ed30e4c030dcb37e795376726d9150d557ed9d868ef55\n\nbuild:\n  number: 1\n  noarch: python\n  script: \"{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv\"\n\nrequirements:\n  host:\n    - python >=3.5\n    - pip\n  run:\n    - python >=3.5\n    - setuptools\n\ntest:\n  imports:\n    - begin\n\nabout:\n  home: http://begins.readthedocs.org\n  license: Apache 2.0\n  license_file: LICENSE\n  license_family: Apache\n  summary: 'Command line programs for busy developers'\n  doc_url: http://begins.readthedocs.org\n  dev_url: https://github.com/aliles/begins\n\nextra:\n  recipe-maintainers:\n    - pmlandwehr\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "pip",
+   "python",
+   "setuptools"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "python",
+    "setuptools"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.1.12",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3.5"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "python >=3.5",
+    "setuptools"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/b/begins/begins-0.9.tar.gz",
+ "version":"0.9"
+}

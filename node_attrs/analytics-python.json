@@ -1,0 +1,180 @@
+{
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"analytics-python",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"analytics-python\n-------------------------\nanalytics-python is a python client for [Segment](https://segment.com)\n\n<div align=\"center\">\n  <img src=\"https://user-images.githubusercontent.com/16131737/53616895-a1142d80-3b99-11e9-8e0e-594c0b0dcdc9.png\"/>\n  <p><b><i>You can't fix what you can't measure</i></b></p>\n</div>\n\nAnalytics helps you measure your users, product, and business. It unlocks insights into your app's funnel, core business metrics, and whether you have product-market fit.\n\n1. **Collect analytics data** from your app(s).\n    - The top 200 Segment companies collect data from 5+ source types (web, mobile, server, CRM, etc.).\n2. **Send the data to analytics tools** (for example, Google Analytics, Amplitude, Mixpanel).\n    - Over 250+ Segment companies send data to eight categories of destinations such as analytics tools, warehouses, email marketing and remarketing systems, session recording, and more.\n3. **Explore your data** by creating metrics (for example, new signups, retention cohorts, and revenue generation).\n    - The best Segment companies use retention cohorts to measure product market fit. Netflix has 70% paid retention after 12 months, 30% after 7 years.\n\n[Segment](https://segment.com) collects analytics data and allows you to send it to more than 250 apps (such as Google Analytics, Mixpanel, Optimizely, Facebook Ads, Slack, Sentry) just by flipping a switch. You only need one Segment code snippet, and you can turn integrations on and off at will, with no additional code. [Sign up with Segment today](https://app.segment.com/signup).\n\n1. **Power all your analytics apps with the same data**. Instead of writing code to integrate all of your tools individually, send data to Segment, once.\n\n2. **Install tracking for the last time**. We're the last integration you'll ever need to write. You only need to instrument Segment once. Reduce all of your tracking code and advertising tags into a single set of API calls.\n\n3. **Send data from anywhere**. Send Segment data from any device, and we'll transform and send it on to any tool.\n\n4. **Query your data in SQL**. Slice, dice, and analyze your data in detail with Segment SQL. We'll transform and load your customer behavioral data directly from your apps into Amazon Redshift, Google BigQuery, or Postgres. Save weeks of engineering time by not having to invent your own data warehouse and ETL pipeline.\n\n    For example, you can capture data on any app:\n    `analytics.track('Order Completed', { price: 99.84 })`\n    ```\n    Then, query the resulting data in SQL:\n    `select * from app.order_completed order by price desc`\n\n<div align=\"center\">\n  <a href=\"https://segment.com/startups\">\n  <img src=\"https://user-images.githubusercontent.com/16131737/53128952-08d3d400-351b-11e9-9730-7da35adda781.png\" />\n  </a>\n</div>\nIf you are part of a new startup  (&lt;$5M raised, &lt;2 years since founding), we just launched a new startup program\nfor you. You can get a Segment Team plan  (up to <b>$25,000 value</b> in Segment credits) for free up to 2 years\n[apply here](https://segment.com/startups/)!\n",
+   "dev_url":"https://github.com/segmentio/analytics-python",
+   "doc_url":"https://segment.com/libraries/python",
+   "home":"https://github.com/segmentio/analytics-python",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"README.md",
+   "summary":"The hassle-free way to integrate analytics into any python application, [Segment](https://segment.com/libraries/python)"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . --no-deps --ignore-installed --verbose"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "BrentDorsey",
+    "BrentDorsey",
+    "BrentDorsey"
+   ]
+  },
+  "package":{
+   "name":"analytics-python",
+   "version":"1.2.9"
+  },
+  "requirements":{
+   "host":[
+    "python",
+    "pip >=18.1",
+    "requests >=2.7,<3.0",
+    "six >=1.5",
+    "python-dateutil >2.1",
+    "python",
+    "pip >=18.1",
+    "requests >=2.7,<3.0",
+    "six >=1.5",
+    "python-dateutil >2.1",
+    "python",
+    "pip >=18.1",
+    "requests >=2.7,<3.0",
+    "six >=1.5",
+    "python-dateutil >2.1"
+   ],
+   "run":[
+    "requests",
+    "six",
+    "python-dateutil",
+    "requests",
+    "six",
+    "python-dateutil",
+    "requests",
+    "six",
+    "python-dateutil"
+   ]
+  },
+  "source":{
+   "sha256":"f3d1ca27cb277da67c10d71a5c9c593d2a9ec99109e31409ab771b44821a86bf",
+   "url":"https://pypi.io/packages/source/a/analytics-python/analytics-python-1.2.9.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "analytics",
+    "analytics.client",
+    "analytics.consumer",
+    "analytics.request",
+    "analytics.test",
+    "analytics.test.client",
+    "analytics.test.consumer",
+    "analytics.test.module",
+    "analytics.test.request",
+    "analytics.test.utils",
+    "analytics.utils",
+    "analytics.version",
+    "analytics",
+    "analytics.client",
+    "analytics.consumer",
+    "analytics.request",
+    "analytics.test",
+    "analytics.test.client",
+    "analytics.test.consumer",
+    "analytics.test.module",
+    "analytics.test.request",
+    "analytics.test.utils",
+    "analytics.utils",
+    "analytics.version",
+    "analytics",
+    "analytics.client",
+    "analytics.consumer",
+    "analytics.request",
+    "analytics.test",
+    "analytics.test.client",
+    "analytics.test.consumer",
+    "analytics.test.module",
+    "analytics.test.request",
+    "analytics.test.utils",
+    "analytics.utils",
+    "analytics.version"
+   ]
+  }
+ },
+ "name":"analytics-python",
+ "new_version":"1.2.9",
+ "raw_meta_yaml":"{% set name = \"analytics-python\" %}\n{% set version = \"1.2.9\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: f3d1ca27cb277da67c10d71a5c9c593d2a9ec99109e31409ab771b44821a86bf\n\nbuild:\n  noarch: python\n  number: 0\n  script: \"{{ PYTHON }} -m pip install . --no-deps --ignore-installed --verbose\"\n\nrequirements:\n  host:\n    - python\n    - pip >=18.1\n    - requests >=2.7,<3.0\n    - six >=1.5\n    - python-dateutil >2.1\n  run:\n    - requests\n    - six\n    - python-dateutil\n\ntest:\n  imports:\n    - analytics\n    - analytics.client\n    - analytics.consumer\n    - analytics.request\n    - analytics.test\n    - analytics.test.client\n    - analytics.test.consumer\n    - analytics.test.module\n    - analytics.test.request\n    - analytics.test.utils\n    - analytics.utils\n    - analytics.version\n\nabout:\n  home: https://github.com/segmentio/analytics-python\n  license: MIT\n  license_family: MIT\n  license_file: README.md\n  summary: The hassle-free way to integrate analytics into any python application, [Segment](https://segment.com/libraries/python)\n  description: |\n    analytics-python\n    -------------------------\n    analytics-python is a python client for [Segment](https://segment.com)\n\n    <div align=\"center\">\n      <img src=\"https://user-images.githubusercontent.com/16131737/53616895-a1142d80-3b99-11e9-8e0e-594c0b0dcdc9.png\"/>\n      <p><b><i>You can't fix what you can't measure</i></b></p>\n    </div>\n\n    Analytics helps you measure your users, product, and business. It unlocks insights into your app's funnel, core business metrics, and whether you have product-market fit.\n\n    ## How to get started\n    1. **Collect analytics data** from your app(s).\n        - The top 200 Segment companies collect data from 5+ source types (web, mobile, server, CRM, etc.).\n    2. **Send the data to analytics tools** (for example, Google Analytics, Amplitude, Mixpanel).\n        - Over 250+ Segment companies send data to eight categories of destinations such as analytics tools, warehouses, email marketing and remarketing systems, session recording, and more.\n    3. **Explore your data** by creating metrics (for example, new signups, retention cohorts, and revenue generation).\n        - The best Segment companies use retention cohorts to measure product market fit. Netflix has 70% paid retention after 12 months, 30% after 7 years.\n\n    [Segment](https://segment.com) collects analytics data and allows you to send it to more than 250 apps (such as Google Analytics, Mixpanel, Optimizely, Facebook Ads, Slack, Sentry) just by flipping a switch. You only need one Segment code snippet, and you can turn integrations on and off at will, with no additional code. [Sign up with Segment today](https://app.segment.com/signup).\n\n    ### Why?\n    1. **Power all your analytics apps with the same data**. Instead of writing code to integrate all of your tools individually, send data to Segment, once.\n\n    2. **Install tracking for the last time**. We're the last integration you'll ever need to write. You only need to instrument Segment once. Reduce all of your tracking code and advertising tags into a single set of API calls.\n\n    3. **Send data from anywhere**. Send Segment data from any device, and we'll transform and send it on to any tool.\n\n    4. **Query your data in SQL**. Slice, dice, and analyze your data in detail with Segment SQL. We'll transform and load your customer behavioral data directly from your apps into Amazon Redshift, Google BigQuery, or Postgres. Save weeks of engineering time by not having to invent your own data warehouse and ETL pipeline.\n\n        For example, you can capture data on any app:\n        `analytics.track('Order Completed', { price: 99.84 })`\n        ```\n        Then, query the resulting data in SQL:\n        `select * from app.order_completed order by price desc`\n\n    ### Startup Program\n    <div align=\"center\">\n      <a href=\"https://segment.com/startups\">\n      <img src=\"https://user-images.githubusercontent.com/16131737/53128952-08d3d400-351b-11e9-9730-7da35adda781.png\" />\n      </a>\n    </div>\n    If you are part of a new startup  (&lt;$5M raised, &lt;2 years since founding), we just launched a new startup program\n    for you. You can get a Segment Team plan  (up to <b>$25,000 value</b> in Segment credits) for free up to 2 years\n    [apply here](https://segment.com/startups/)!\n\n\n  doc_url: https://segment.com/libraries/python\n  dev_url: https://github.com/segmentio/analytics-python\n\nextra:\n  recipe-maintainers:\n    - BrentDorsey\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "pip",
+   "python",
+   "python-dateutil",
+   "requests",
+   "six"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python",
+    "python-dateutil",
+    "requests",
+    "six"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "python-dateutil",
+    "requests",
+    "six"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip >=18.1",
+    "python",
+    "python-dateutil >2.1",
+    "requests >=2.7,<3.0",
+    "six >=1.5"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "python-dateutil",
+    "requests",
+    "six"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/a/analytics-python/analytics-python-1.2.9.tar.gz",
+ "version":"1.2.9"
+}

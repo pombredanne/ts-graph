@@ -1,0 +1,601 @@
+{
+ "PRed":[
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"5.5.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/200417794.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Noarch",
+    "migrator_version":0
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/201449221.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"5.6.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/216679534.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"5.7.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/220238429.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/231628707.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"5.7.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/231790787.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"5.7.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/238954644.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"5.7.3"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/239090573.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"5.7.4"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/258681554.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"5.7.5"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/259717516.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"5.7.6"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/266200808.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"5.7.8"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/298120947.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"6.0.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/298122012.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"ArchRebuild",
+    "migrator_version":1,
+    "name":"aarch64 and ppc64le addition"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/309775178.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"6.0.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/336525210.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"6.0.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/336969599.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"python38"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/365466887.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"6.0.3"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/402307973.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"pypy"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "compiler_stack":"comp7",
+  "max_py_ver":"37",
+  "max_r_ver":"35",
+  "provider":{
+   "linux_aarch64":"default",
+   "linux_ppc64le":"default",
+   "win":"azure"
+  }
+ },
+ "feedstock_name":"notebook",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "dev_url":"https://github.com/jupyter/notebook",
+   "doc_source_url":"https://github.com/jupyter/notebook/tree/master/docs",
+   "doc_url":"https://jupyter-notebook.readthedocs.io",
+   "home":"https://jupyter.org",
+   "license":"BSD-3-Clause",
+   "license_family":"BSD",
+   "license_file":"LICENSE",
+   "summary":"A web-based notebook environment for interactive computing"
+  },
+  "build":{
+   "entry_points":[
+    "jupyter-notebook = notebook.notebookapp:main",
+    "jupyter-nbextension = notebook.nbextensions:main",
+    "jupyter-serverextension = notebook.serverextensions:main",
+    "jupyter-bundlerextension = notebook.bundler.bundlerextensions:main",
+    "jupyter-notebook = notebook.notebookapp:main",
+    "jupyter-nbextension = notebook.nbextensions:main",
+    "jupyter-serverextension = notebook.serverextensions:main",
+    "jupyter-bundlerextension = notebook.bundler.bundlerextensions:main",
+    "jupyter-notebook = notebook.notebookapp:main",
+    "jupyter-nbextension = notebook.nbextensions:main",
+    "jupyter-serverextension = notebook.serverextensions:main",
+    "jupyter-bundlerextension = notebook.bundler.bundlerextensions:main"
+   ],
+   "number":"0",
+   "script":[
+    " -m pip install . --no-deps -vv",
+    " -m pip install . --no-deps -vv",
+    "find  -name '*.js.map' -delete",
+    " -m pip install . --no-deps -vv",
+    "find  -name '*.js.map' -delete"
+   ]
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "SylvainCorlay",
+    "jakirkham",
+    "minrk",
+    "pelson",
+    "gnestor",
+    "takluyver",
+    "lresende",
+    "bollwyvl",
+    "blink1073",
+    "SylvainCorlay",
+    "jakirkham",
+    "minrk",
+    "pelson",
+    "gnestor",
+    "takluyver",
+    "lresende",
+    "bollwyvl",
+    "blink1073",
+    "SylvainCorlay",
+    "jakirkham",
+    "minrk",
+    "pelson",
+    "gnestor",
+    "takluyver",
+    "lresende",
+    "bollwyvl",
+    "blink1073"
+   ]
+  },
+  "package":{
+   "name":"notebook",
+   "version":"6.0.3"
+  },
+  "requirements":{
+   "host":[
+    "python",
+    "pip",
+    "python",
+    "pip",
+    "python",
+    "pip"
+   ],
+   "run":[
+    "ipykernel",
+    "ipython_genutils",
+    "jinja2",
+    "jupyter_core >=4.6.1",
+    "jupyter_client >=5.3.4",
+    "nbconvert",
+    "nbformat",
+    "python",
+    "pyzmq >=17",
+    "send2trash",
+    "terminado >=0.8.1",
+    "tornado >=5.0",
+    "traitlets >=4.2.1",
+    "prometheus_client",
+    "ipykernel",
+    "ipython_genutils",
+    "jinja2",
+    "jupyter_core >=4.6.1",
+    "jupyter_client >=5.3.4",
+    "nbconvert",
+    "nbformat",
+    "python",
+    "pyzmq >=17",
+    "send2trash",
+    "terminado >=0.8.1",
+    "tornado >=5.0",
+    "traitlets >=4.2.1",
+    "prometheus_client",
+    "ipykernel",
+    "ipython_genutils",
+    "jinja2",
+    "jupyter_core >=4.6.1",
+    "jupyter_client >=5.3.4",
+    "nbconvert",
+    "nbformat",
+    "python",
+    "pyzmq >=17",
+    "send2trash",
+    "terminado >=0.8.1",
+    "tornado >=5.0",
+    "traitlets >=4.2.1",
+    "prometheus_client"
+   ]
+  },
+  "source":{
+   "sha256":"47a9092975c9e7965ada00b9a20f0cf637d001db60d241d479f53c0be117ad48",
+   "url":"https://pypi.io/packages/source/n/notebook/notebook-6.0.3.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "python -m pip check",
+    "jupyter notebook -h",
+    "jupyter nbextension -h",
+    "jupyter serverextension -h",
+    "jupyter bundlerextension -h",
+    "python -m pip check",
+    "jupyter notebook -h",
+    "jupyter nbextension -h",
+    "jupyter serverextension -h",
+    "jupyter bundlerextension -h",
+    "python -m pip check",
+    "jupyter notebook -h",
+    "jupyter nbextension -h",
+    "jupyter serverextension -h",
+    "jupyter bundlerextension -h"
+   ],
+   "imports":[
+    "notebook",
+    "notebook",
+    "notebook"
+   ],
+   "requires":[
+    "pip",
+    "pip",
+    "pip"
+   ]
+  }
+ },
+ "name":"notebook",
+ "new_version":"6.0.3",
+ "pinning_version":"2020.04.10.23.07.47",
+ "raw_meta_yaml":"{% set version = \"6.0.3\" %}\n\npackage:\n  name: notebook\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/n/notebook/notebook-{{ version }}.tar.gz\n  sha256: 47a9092975c9e7965ada00b9a20f0cf637d001db60d241d479f53c0be117ad48\n\nbuild:\n  script:\n    - \"{{ PYTHON }} -m pip install . --no-deps -vv\"\n    - find {{ PREFIX }} -name '*.js.map' -delete  # [not win]\n  number: 0\n  entry_points:\n    - jupyter-notebook = notebook.notebookapp:main\n    - jupyter-nbextension = notebook.nbextensions:main\n    - jupyter-serverextension = notebook.serverextensions:main\n    - jupyter-bundlerextension = notebook.bundler.bundlerextensions:main\n  skip: true  # [py2k]\n\nrequirements:\n  host:\n    - python\n    - pip\n  run:\n    - ipykernel\n    - ipython_genutils\n    - jinja2\n    - jupyter_core >=4.6.1\n    - jupyter_client >=5.3.4\n    - nbconvert\n    - nbformat\n    - python\n    - pyzmq >=17\n    - send2trash\n    - terminado >=0.8.1\n    - tornado >=5.0\n    - traitlets >=4.2.1\n    - prometheus_client\n\ntest:\n  requires:\n    - pip\n  commands:\n    - python -m pip check\n    - jupyter notebook -h\n    - jupyter nbextension -h\n    - jupyter serverextension -h\n    - jupyter bundlerextension -h\n  imports:\n    - notebook\n\nabout:\n  home: https://jupyter.org\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: LICENSE\n  summary: A web-based notebook environment for interactive computing\n  dev_url: https://github.com/jupyter/notebook\n  doc_url: https://jupyter-notebook.readthedocs.io\n  doc_source_url: https://github.com/jupyter/notebook/tree/master/docs\n\nextra:\n  recipe-maintainers:\n    - SylvainCorlay\n    - jakirkham\n    - minrk\n    - pelson\n    - gnestor\n    - takluyver\n    - lresende\n    - bollwyvl\n    - blink1073\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "ipykernel",
+   "ipython_genutils",
+   "jinja2",
+   "jupyter_client",
+   "jupyter_core",
+   "nbconvert",
+   "nbformat",
+   "pip",
+   "prometheus_client",
+   "python",
+   "pyzmq",
+   "send2trash",
+   "terminado",
+   "tornado",
+   "traitlets"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "ipykernel",
+    "ipython_genutils",
+    "jinja2",
+    "jupyter_client",
+    "jupyter_core",
+    "nbconvert",
+    "nbformat",
+    "prometheus_client",
+    "python",
+    "pyzmq",
+    "send2trash",
+    "terminado",
+    "tornado",
+    "traitlets"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "pip"
+   ]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.6.16",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "ipykernel",
+    "ipython_genutils",
+    "jinja2",
+    "jupyter_client >=5.3.4",
+    "jupyter_core >=4.6.1",
+    "nbconvert",
+    "nbformat",
+    "prometheus_client",
+    "python",
+    "pyzmq >=17",
+    "send2trash",
+    "terminado >=0.8.1",
+    "tornado >=5.0",
+    "traitlets >=4.2.1"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "pip"
+   ]
+  }
+ },
+ "url":"https://pypi.io/packages/source/n/notebook/notebook-6.0.1.tar.gz",
+ "version":"6.0.3"
+}

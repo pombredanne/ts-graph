@@ -1,0 +1,455 @@
+{
+ "PRed":[
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.10"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/231712313.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/261086152.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.12"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/296921348.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.14"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/298579066.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"RBaseRebuild",
+    "migrator_version":0,
+    "name":"r-base-3.6.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/340575877.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.17"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/346108993.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.18"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/352613275.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/364988164.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/412680488.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":2,
+    "migrator_version":0,
+    "name":"r400"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "bot":{
+   "automerge":true
+  },
+  "provider":{
+   "win":"azure"
+  }
+ },
+ "feedstock_name":"r-rmarkdown",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"https://github.com/rstudio/rmarkdown",
+   "license":"GPL-3.0-only",
+   "license_family":"GPL3",
+   "license_file":"/lib/R/share/licenses/GPL-3",
+   "summary":"Convert R Markdown documents into a variety of formats."
+  },
+  "build":{
+   "merge_build_host":true,
+   "noarch":"generic",
+   "number":"1",
+   "rpaths":[
+    "lib/R/lib/",
+    "lib/",
+    "lib/R/lib/",
+    "lib/",
+    "lib/R/lib/",
+    "lib/"
+   ]
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "conda-forge/r",
+    "mdehollander",
+    "bsennblad",
+    "philip-khor",
+    "conda-forge/r",
+    "mdehollander",
+    "bsennblad",
+    "philip-khor",
+    "conda-forge/r",
+    "mdehollander",
+    "bsennblad",
+    "philip-khor"
+   ]
+  },
+  "package":{
+   "name":"r-rmarkdown",
+   "version":"2.1"
+  },
+  "requirements":{
+   "build":null,
+   "host":[
+    "r-base",
+    "r-base64enc",
+    "r-evaluate >=0.13",
+    "r-htmltools >=0.3.5",
+    "r-jsonlite",
+    "r-knitr >=1.22",
+    "r-mime",
+    "r-stringr >=1.2.0",
+    "r-tinytex >=0.11",
+    "r-xfun",
+    "r-yaml >=2.1.19",
+    "r-base",
+    "r-base64enc",
+    "r-evaluate >=0.13",
+    "r-htmltools >=0.3.5",
+    "r-jsonlite",
+    "r-knitr >=1.22",
+    "r-mime",
+    "r-stringr >=1.2.0",
+    "r-tinytex >=0.11",
+    "r-xfun",
+    "r-yaml >=2.1.19",
+    "r-base",
+    "r-base64enc",
+    "r-evaluate >=0.13",
+    "r-htmltools >=0.3.5",
+    "r-jsonlite",
+    "r-knitr >=1.22",
+    "r-mime",
+    "r-stringr >=1.2.0",
+    "r-tinytex >=0.11",
+    "r-xfun",
+    "r-yaml >=2.1.19"
+   ],
+   "run":[
+    "r-base",
+    "r-base64enc",
+    "r-evaluate >=0.13",
+    "r-htmltools >=0.3.5",
+    "r-jsonlite",
+    "r-knitr >=1.22",
+    "r-mime",
+    "r-stringr >=1.2.0",
+    "r-tinytex >=0.11",
+    "r-xfun",
+    "r-yaml >=2.1.19",
+    "pandoc >=1.12.3,<3.0",
+    "r-base",
+    "r-base64enc",
+    "r-evaluate >=0.13",
+    "r-htmltools >=0.3.5",
+    "r-jsonlite",
+    "r-knitr >=1.22",
+    "r-mime",
+    "r-stringr >=1.2.0",
+    "r-tinytex >=0.11",
+    "r-xfun",
+    "r-yaml >=2.1.19",
+    "pandoc >=1.12.3,<3.0",
+    "r-base",
+    "r-base64enc",
+    "r-evaluate >=0.13",
+    "r-htmltools >=0.3.5",
+    "r-jsonlite",
+    "r-knitr >=1.22",
+    "r-mime",
+    "r-stringr >=1.2.0",
+    "r-tinytex >=0.11",
+    "r-xfun",
+    "r-yaml >=2.1.19",
+    "pandoc >=1.12.3,<3.0"
+   ]
+  },
+  "source":{
+   "sha256":"ef450e21206c454aa78eeca9023bbc78d1b2939e0b4bed9fdec9f2bf81ee455d",
+   "url":[
+    "https://cran.r-project.org/src/contrib/rmarkdown_2.1.tar.gz",
+    "https://cran.r-project.org/src/contrib/Archive/rmarkdown/rmarkdown_2.1.tar.gz",
+    "https://cran.r-project.org/src/contrib/rmarkdown_2.1.tar.gz",
+    "https://cran.r-project.org/src/contrib/Archive/rmarkdown/rmarkdown_2.1.tar.gz",
+    "https://cran.r-project.org/src/contrib/rmarkdown_2.1.tar.gz",
+    "https://cran.r-project.org/src/contrib/Archive/rmarkdown/rmarkdown_2.1.tar.gz"
+   ]
+  },
+  "test":{
+   "commands":[
+    "\"%R%\" -e \"library('rmarkdown')\"",
+    "\"%R%\" -e \"x <- tempfile(fileext = '.Rmd'); file.create(x); rmarkdown::render(x)\"",
+    "$R -e \"library('rmarkdown')\"",
+    "$R -e \"capabilities()\" || true",
+    "$R -e \"grSoftVersion()\" || true",
+    "$R -e \"x <- tempfile(fileext = '.Rmd'); file.create(x); rmarkdown::render(x)\"",
+    "$R -e \"library('rmarkdown')\"",
+    "$R -e \"capabilities()\" || true",
+    "$R -e \"grSoftVersion()\" || true",
+    "$R -e \"x <- tempfile(fileext = '.Rmd'); file.create(x); rmarkdown::render(x)\""
+   ],
+   "requires":[
+    "xorg-libxt",
+    "xorg-libsm"
+   ]
+  }
+ },
+ "name":"r-rmarkdown",
+ "new_version":"2.1",
+ "pinning_version":"2020.05.03.19.37.20",
+ "raw_meta_yaml":"{% set version = \"2.1\" %}\n{% set posix = 'm2-' if win else '' %}\n{% set native = 'm2w64-' if win else '' %}\n\npackage:\n  name: r-rmarkdown\n  version: {{ version|replace(\"-\", \"_\") }}\n\nsource:\n  url:\n    - {{ cran_mirror }}/src/contrib/rmarkdown_{{ version }}.tar.gz\n    - {{ cran_mirror }}/src/contrib/Archive/rmarkdown/rmarkdown_{{ version }}.tar.gz\n  sha256: ef450e21206c454aa78eeca9023bbc78d1b2939e0b4bed9fdec9f2bf81ee455d\n\nbuild:\n  merge_build_host: True  # [win]\n  number: 1\n  noarch: generic\n  rpaths:\n    - lib/R/lib/\n    - lib/\n\nrequirements:\n  build:\n    - {{ posix }}zip               # [win]\n  host:\n    - r-base\n    - r-base64enc\n    - r-evaluate >=0.13\n    - r-htmltools >=0.3.5\n    - r-jsonlite\n    - r-knitr >=1.22\n    - r-mime\n    - r-stringr >=1.2.0\n    - r-tinytex >=0.11\n    - r-xfun\n    - r-yaml >=2.1.19\n  run:\n    - r-base\n    - r-base64enc\n    - r-evaluate >=0.13\n    - r-htmltools >=0.3.5\n    - r-jsonlite\n    - r-knitr >=1.22\n    - r-mime\n    - r-stringr >=1.2.0\n    - r-tinytex >=0.11\n    - r-xfun\n    - r-yaml >=2.1.19\n    - pandoc >=1.12.3,<3.0\n\ntest:\n  requires:\n    - xorg-libxt                             # [not win]\n    - xorg-libsm                             # [not win]\n  commands:\n    - $R -e \"library('rmarkdown')\"           # [not win]\n    - \"\\\"%R%\\\" -e \\\"library('rmarkdown')\\\"\"  # [win]\n    - $R -e \"capabilities()\" || true         # [not win]\n    - $R -e \"grSoftVersion()\" || true        # [not win]\n    - $R -e \"x <- tempfile(fileext = '.Rmd'); file.create(x); rmarkdown::render(x)\"  # [not win]\n    - \"\\\"%R%\\\" -e \\\"x <- tempfile(fileext = '.Rmd'); file.create(x); rmarkdown::render(x)\\\"\"  # [win]\n\nabout:\n  home: https://github.com/rstudio/rmarkdown\n  license: GPL-3.0-only\n  summary: Convert R Markdown documents into a variety of formats.\n  license_family: GPL3\n  license_file: '{{ environ[\"PREFIX\"] }}/lib/R/share/licenses/GPL-3'\n\nextra:\n  recipe-maintainers:\n    - conda-forge/r\n    - mdehollander\n    - bsennblad\n    - philip-khor\n\n# Package: rmarkdown\n# Type: Package\n# Title: Dynamic Documents for R\n# Version: 1.16\n# Authors@R: c( person(\"JJ\", \"Allaire\", role = \"aut\", email = \"jj@rstudio.com\"), person(\"Yihui\", \"Xie\", role = c(\"aut\", \"cre\"), email = \"xie@yihui.name\", comment = c(ORCID = \"0000-0003-0645-5666\")), person(\"Jonathan\", \"McPherson\", role = \"aut\", email = \"jonathan@rstudio.com\"), person(\"Javier\", \"Luraschi\", role = \"aut\", email = \"javier@rstudio.com\"), person(\"Kevin\", \"Ushey\", role = \"aut\", email = \"kevin@rstudio.com\"), person(\"Aron\", \"Atkins\", role = \"aut\", email = \"aron@rstudio.com\"), person(\"Hadley\", \"Wickham\", role = \"aut\", email = \"hadley@rstudio.com\"), person(\"Joe\", \"Cheng\", role = \"aut\", email = \"joe@rstudio.com\"), person(\"Winston\", \"Chang\", role = \"aut\", email = \"winston@rstudio.com\"), person(\"Richard\", \"Iannone\", role = \"aut\", email = \"rich@rstudio.com\", comment = c(ORCID = \"0000-0003-3925-190X\")), # # Contributors, ordered alphabetically by first name person(\"Atsushi\", \"Yasumoto\", role = \"ctb\", comment = c(ORCID = \"0000-0002-8335-495X\")), person(\"Barret\", \"Schloerke\", role = \"ctb\"), person(\"Christophe\", \"Dervieux\", role = \"ctb\"), person(\"Frederik\", \"Aust\", role = \"ctb\", email = \"frederik.aust@uni-koeln.de\", comment = c(ORCID = \"0000-0003-4900-788X\")), person(\"Jeff\", \"Allen\", role = \"ctb\", email = \"jeff@rstudio.com\"), person(\"Malcolm\", \"Barrett\", role = \"ctb\"), person(\"Rob\", \"Hyndman\", role = \"ctb\", email = \"Rob.Hyndman@monash.edu\"), person(\"Romain\", \"Lesur\", role = \"ctb\"), person(\"Roy\", \"Storey\", role = \"ctb\"), person(\"Ruben\", \"Arslan\", role = \"ctb\", email = \"ruben.arslan@uni-goettingen.de\"), # # Copyright holders person(family = \"RStudio, Inc.\", role = \"cph\"), person(family = \"jQuery Foundation\", role = \"cph\", comment = \"jQuery library\"), person(family = \"jQuery contributors\", role = c(\"ctb\", \"cph\"), comment = \"jQuery library; authors listed in inst/rmd/h/jquery-AUTHORS.txt\"), person(family = \"jQuery UI contributors\", role = c(\"ctb\", \"cph\"), comment = \"jQuery UI library; authors listed in inst/rmd/h/jqueryui-AUTHORS.txt\"), person(\"Mark\", \"Otto\", role = \"ctb\", comment = \"Bootstrap library\"), person(\"Jacob\", \"Thornton\", role = \"ctb\", comment = \"Bootstrap library\"), person(family = \"Bootstrap contributors\", role = \"ctb\", comment = \"Bootstrap library\"), person(family = \"Twitter, Inc\", role = \"cph\", comment = \"Bootstrap library\"), person(\"Alexander\", \"Farkas\", role = c(\"ctb\", \"cph\"), comment = \"html5shiv library\"), person(\"Scott\", \"Jehl\", role = c(\"ctb\", \"cph\"), comment = \"Respond.js library\"), person(\"Ivan\", \"Sagalaev\", role = c(\"ctb\", \"cph\"), comment = \"highlight.js library\"), person(\"Greg\", \"Franko\", role = c(\"ctb\", \"cph\"), comment = \"tocify library\"), person(\"John\", \"MacFarlane\", role = c(\"ctb\", \"cph\"), comment = \"Pandoc templates\"), person(family = \"Google, Inc.\", role = c(\"ctb\", \"cph\"), comment = \"ioslides library\"), person(\"Dave\", \"Raggett\", role = \"ctb\", comment = \"slidy library\"), person(family = \"W3C\", role = \"cph\", comment = \"slidy library\"), person(\"Dave\", \"Gandy\", role = c(\"ctb\", \"cph\"), comment = \"Font-Awesome\"), person(\"Ben\", \"Sperry\", role = \"ctb\", comment = \"Ionicons\"), person(family = \"Drifty\", role = \"cph\", comment = \"Ionicons\"), person(\"Aidan\", \"Lister\", role = c(\"ctb\", \"cph\"),  comment = \"jQuery StickyTabs\"), person(\"Benct Philip\", \"Jonsson\", role = c(\"ctb\", \"cph\"),  comment = \"pagebreak lua filter\"), person(\"Albert\", \"Krewinkel\", role = c(\"ctb\", \"cph\"),  comment = \"pagebreak lua filter\") )\n# Maintainer: Yihui Xie <xie@yihui.name>\n# Description: Convert R Markdown documents into a variety of formats.\n# Depends: R (>= 3.0)\n# Imports: tools, utils, knitr (>= 1.22), yaml (>= 2.1.19), htmltools (>= 0.3.5), evaluate (>= 0.13), base64enc, jsonlite, mime, tinytex (>= 0.11), xfun, methods, stringr (>= 1.2.0)\n# Suggests: shiny (>= 0.11), tufte, testthat, digest, dygraphs, tibble, fs, pkgdown, callr (>= 2.0.0)\n# SystemRequirements: pandoc (>= 1.12.3) - http://pandoc.org\n# URL: https://github.com/rstudio/rmarkdown\n# BugReports: https://github.com/rstudio/rmarkdown/issues\n# License: GPL-3\n# RoxygenNote: 6.1.1\n# Encoding: UTF-8\n# VignetteBuilder: knitr\n# NeedsCompilation: no\n# Packaged: 2019-10-01 17:58:00 UTC; yihui\n# Author: JJ Allaire [aut], Yihui Xie [aut, cre] (<https://orcid.org/0000-0003-0645-5666>), Jonathan McPherson [aut], Javier Luraschi [aut], Kevin Ushey [aut], Aron Atkins [aut], Hadley Wickham [aut], Joe Cheng [aut], Winston Chang [aut], Richard Iannone [aut] (<https://orcid.org/0000-0003-3925-190X>), Atsushi Yasumoto [ctb] (<https://orcid.org/0000-0002-8335-495X>), Barret Schloerke [ctb], Christophe Dervieux [ctb], Frederik Aust [ctb] (<https://orcid.org/0000-0003-4900-788X>), Jeff Allen [ctb], Malcolm Barrett [ctb], Rob Hyndman [ctb], Romain Lesur [ctb], Roy Storey [ctb], Ruben Arslan [ctb], RStudio, Inc. [cph], jQuery Foundation [cph] (jQuery library), jQuery contributors [ctb, cph] (jQuery library; authors listed in inst/rmd/h/jquery-AUTHORS.txt), jQuery UI contributors [ctb, cph] (jQuery UI library; authors listed in inst/rmd/h/jqueryui-AUTHORS.txt), Mark Otto [ctb] (Bootstrap library), Jacob Thornton [ctb] (Bootstrap library), Bootstrap contributors [ctb] (Bootstrap library), Twitter, Inc [cph] (Bootstrap library), Alexander Farkas [ctb, cph] (html5shiv library), Scott Jehl [ctb, cph] (Respond.js library), Ivan Sagalaev [ctb, cph] (highlight.js library), Greg Franko [ctb, cph] (tocify library), John MacFarlane [ctb, cph] (Pandoc templates), Google, Inc. [ctb, cph] (ioslides library), Dave Raggett [ctb] (slidy library), W3C [cph] (slidy library), Dave Gandy [ctb, cph] (Font-Awesome), Ben Sperry [ctb] (Ionicons), Drifty [cph] (Ionicons), Aidan Lister [ctb, cph] (jQuery StickyTabs), Benct Philip Jonsson [ctb, cph] (pagebreak lua filter), Albert Krewinkel [ctb, cph] (pagebreak lua filter)\n# Repository: CRAN\n# Date/Publication: 2019-10-01 19:10:09 UTC\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "pandoc",
+   "r-base",
+   "r-base64enc",
+   "r-evaluate",
+   "r-htmltools",
+   "r-jsonlite",
+   "r-knitr",
+   "r-mime",
+   "r-stringr",
+   "r-tinytex",
+   "r-xfun",
+   "r-yaml"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "r-base",
+    "r-base64enc",
+    "r-evaluate",
+    "r-htmltools",
+    "r-jsonlite",
+    "r-knitr",
+    "r-mime",
+    "r-stringr",
+    "r-tinytex",
+    "r-xfun",
+    "r-yaml"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "pandoc",
+    "r-base",
+    "r-base64enc",
+    "r-evaluate",
+    "r-htmltools",
+    "r-jsonlite",
+    "r-knitr",
+    "r-mime",
+    "r-stringr",
+    "r-tinytex",
+    "r-xfun",
+    "r-yaml"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "xorg-libsm",
+    "xorg-libxt"
+   ]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.7.0\n",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "r-base",
+    "r-base64enc",
+    "r-evaluate >=0.13",
+    "r-htmltools >=0.3.5",
+    "r-jsonlite",
+    "r-knitr >=1.22",
+    "r-mime",
+    "r-stringr >=1.2.0",
+    "r-tinytex >=0.11",
+    "r-xfun",
+    "r-yaml >=2.1.19"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "pandoc >=1.12.3,<3.0",
+    "r-base",
+    "r-base64enc",
+    "r-evaluate >=0.13",
+    "r-htmltools >=0.3.5",
+    "r-jsonlite",
+    "r-knitr >=1.22",
+    "r-mime",
+    "r-stringr >=1.2.0",
+    "r-tinytex >=0.11",
+    "r-xfun",
+    "r-yaml >=2.1.19"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "xorg-libsm",
+    "xorg-libxt"
+   ]
+  }
+ },
+ "url":[
+  "https://cran.r-project.org/src/contrib/rmarkdown_1.15.tar.gz",
+  "https://cran.r-project.org/src/contrib/Archive/rmarkdown/rmarkdown_1.15.tar.gz",
+  "https://cran.r-project.org/src/contrib/rmarkdown_1.15.tar.gz",
+  "https://cran.r-project.org/src/contrib/Archive/rmarkdown/rmarkdown_1.15.tar.gz",
+  "https://cran.r-project.org/src/contrib/rmarkdown_1.15.tar.gz",
+  "https://cran.r-project.org/src/contrib/Archive/rmarkdown/rmarkdown_1.15.tar.gz"
+ ],
+ "version":"2.1"
+}

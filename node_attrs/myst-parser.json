@@ -1,0 +1,177 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/419154543.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.8.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"myst-parser",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "doc_url":"https://myst-parser.readthedocs.io",
+   "home":"https://github.com/ExecutableBookProject/MyST-Parser",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"LICENSE",
+   "summary":"An extended commonmark compliant parser, with bridges to docutils & sphinx."
+  },
+  "build":{
+   "entry_points":[
+    "myst-benchmark = myst_parser.cli.benchmark:main",
+    "myst-benchmark = myst_parser.cli.benchmark:main",
+    "myst-benchmark = myst_parser.cli.benchmark:main"
+   ],
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . --no-deps --ignore-installed -vv "
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "chrisjsewell",
+    "choldgraf",
+    "chrisjsewell",
+    "choldgraf",
+    "chrisjsewell",
+    "choldgraf"
+   ]
+  },
+  "package":{
+   "name":"myst-parser",
+   "version":"0.8.1"
+  },
+  "requirements":{
+   "host":[
+    "pip",
+    "python >=3.5",
+    "pip",
+    "python >=3.5",
+    "pip",
+    "python >=3.5"
+   ],
+   "run":[
+    "docutils >=0.14",
+    "markdown-it-py ~=0.4.5",
+    "python >=3.5",
+    "pyyaml",
+    "sphinx >=2,<3",
+    "docutils >=0.14",
+    "markdown-it-py ~=0.4.5",
+    "python >=3.5",
+    "pyyaml",
+    "sphinx >=2,<3",
+    "docutils >=0.14",
+    "markdown-it-py ~=0.4.5",
+    "python >=3.5",
+    "pyyaml",
+    "sphinx >=2,<3"
+   ]
+  },
+  "source":{
+   "sha256":"ba4c32275ce4d682ab9086d30d88627e3d3f8d3f1ba4fe1dbd837262dc0829eb",
+   "url":"https://pypi.io/packages/source/m/myst-parser/myst-parser-0.8.1.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "myst_parser",
+    "myst_parser.cli",
+    "myst_parser",
+    "myst_parser.cli",
+    "myst_parser",
+    "myst_parser.cli"
+   ]
+  }
+ },
+ "name":"myst-parser",
+ "new_version":"0.8.1",
+ "new_version_attempts":{
+  "0.8.1":1
+ },
+ "new_version_errors":{},
+ "pinning_version":"2020.05.14.17.14.20",
+ "raw_meta_yaml":"{% set name = \"myst-parser\" %}\n{% set version = \"0.8.1\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: ba4c32275ce4d682ab9086d30d88627e3d3f8d3f1ba4fe1dbd837262dc0829eb\n\nbuild:\n  number: 0\n  entry_points:\n    - myst-benchmark = myst_parser.cli.benchmark:main\n  noarch: python\n  script: '{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv '\n\nrequirements:\n  host:\n    - pip\n    - python >=3.5\n  run:\n    - docutils >=0.14\n    - markdown-it-py ~=0.4.5\n    - python >=3.5\n    - pyyaml\n    - sphinx >=2,<3\n\ntest:\n  imports:\n    - myst_parser\n    - myst_parser.cli\n\nabout:\n  home: https://github.com/ExecutableBookProject/MyST-Parser\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE\n  summary: An extended commonmark compliant parser, with bridges to docutils & sphinx.\n  doc_url: https://myst-parser.readthedocs.io\n\nextra:\n  recipe-maintainers:\n    - chrisjsewell\n    - choldgraf\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "docutils",
+   "markdown-it-py",
+   "pip",
+   "python",
+   "pyyaml",
+   "sphinx"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "docutils",
+    "markdown-it-py",
+    "python",
+    "pyyaml",
+    "sphinx"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.7.2\n",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3.5"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "docutils >=0.14",
+    "markdown-it-py ~=0.4.5",
+    "python >=3.5",
+    "pyyaml",
+    "sphinx >=2,<3"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/m/myst-parser/myst-parser-0.8.0.tar.gz",
+ "version":"0.8.1"
+}

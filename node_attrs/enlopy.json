@@ -1,0 +1,192 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/339459554.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"python38"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/375764315.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MatplotlibBase",
+    "migrator_version":0,
+    "name":"matplotlib-to-matplotlib-base"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "provider":{
+   "win":"azure"
+  }
+ },
+ "feedstock_name":"enlopy",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "dev_url":"https://www.github.com/kavvkon/enlopy",
+   "doc_url":"https://enlopy.readthedocs.io/",
+   "home":"https://github.com/kavvkon/enlopy",
+   "license":"BSD-3-Clause",
+   "license_family":"BSD",
+   "license_file":"LICENSE",
+   "summary":"Python library with methods to generate, process, analyze, and plot energy related timeseries."
+  },
+  "build":{
+   "noarch":"python",
+   "number":"1",
+   "script":" -m pip install . --no-deps --ignore-installed -vvv "
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "kavvkon",
+    "kavvkon",
+    "kavvkon"
+   ]
+  },
+  "package":{
+   "name":"enlopy",
+   "version":"0.1.dev12"
+  },
+  "requirements":{
+   "host":[
+    "pip",
+    "python",
+    "setuptools >=3.3",
+    "pip",
+    "python",
+    "setuptools >=3.3",
+    "pip",
+    "python",
+    "setuptools >=3.3"
+   ],
+   "run":[
+    "matplotlib-base >=2.2",
+    "numpy >=1.12",
+    "pandas >=0.20",
+    "python",
+    "scipy >=1.0",
+    "matplotlib-base >=2.2",
+    "numpy >=1.12",
+    "pandas >=0.20",
+    "python",
+    "scipy >=1.0",
+    "matplotlib-base >=2.2",
+    "numpy >=1.12",
+    "pandas >=0.20",
+    "python",
+    "scipy >=1.0"
+   ]
+  },
+  "source":{
+   "sha256":"c0b6b7b2fe99208bd5be31e0f90baadf1eff2a3f9c152d99bed6a3bb040257a3",
+   "url":"https://pypi.io/packages/source/e/enlopy/enlopy-0.1.dev12.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "enlopy",
+    "enlopy",
+    "enlopy"
+   ]
+  }
+ },
+ "name":"enlopy",
+ "new_version":false,
+ "pinning_version":"2020.02.12",
+ "raw_meta_yaml":"{% set name = \"enlopy\" %}\n{% set version = \"0.1.dev12\" %}\n\npackage:\n  name: \"{{ name|lower }}\"\n  version: \"{{ version }}\"\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: c0b6b7b2fe99208bd5be31e0f90baadf1eff2a3f9c152d99bed6a3bb040257a3\n\nbuild:\n  noarch: python\n  number: 1\n  script: \"{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vvv \"\n\nrequirements:\n  host:\n    - pip\n    - python\n    - setuptools >=3.3\n  run:\n    - matplotlib-base >=2.2\n    - numpy >=1.12\n    - pandas >=0.20\n    - python\n    - scipy >=1.0\n\ntest:\n  imports:\n    - enlopy\n\nabout:\n  home: https://github.com/kavvkon/enlopy\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: LICENSE \n  summary: Python library with methods to generate, process, analyze, and plot energy related timeseries.\n  doc_url: https://enlopy.readthedocs.io/\n  dev_url: https://www.github.com/kavvkon/enlopy\n\nextra:\n  recipe-maintainers:\n    - kavvkon\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "matplotlib-base",
+   "numpy",
+   "pandas",
+   "pip",
+   "python",
+   "scipy",
+   "setuptools"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python",
+    "setuptools"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "matplotlib-base",
+    "numpy",
+    "pandas",
+    "python",
+    "scipy"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.6.8",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python",
+    "setuptools >=3.3"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "matplotlib-base >=2.2",
+    "numpy >=1.12",
+    "pandas >=0.20",
+    "python",
+    "scipy >=1.0"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/e/enlopy/enlopy-0.1.dev11.tar.gz",
+ "version":"0.1.dev12"
+}

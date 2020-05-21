@@ -1,0 +1,240 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/314802957.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.9.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/331344274.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.9.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/339695008.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.9.3"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"snorkel",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"Snorkel is a system for programmatically building and managing training\ndatasets to rapidly and flexibly fuel machine learning models.\nUsers write programmatic operations to label, transform, and structure training\ndatasets for machine learning, without needing to hand label any training data.\nSnorkel then uses modern, theoretically-grounded modeling techniques to clean and\nintegrate the resulting training data.\n",
+   "dev_url":"https://github.com/snorkel-team/snorkel",
+   "doc_url":"https://snorkel.readthedocs.io",
+   "home":"https://snorkel.org",
+   "license":"Apache 2.0",
+   "license_family":"Apache",
+   "license_file":"LICENSE",
+   "summary":"Snorkel is a system for programmatically building and managing training datasets to rapidly and flexibly fuel machine learning models."
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "henryre",
+    "vincentschen",
+    "adbeda",
+    "oblute",
+    "rluria14",
+    "henryre",
+    "vincentschen",
+    "adbeda",
+    "oblute",
+    "rluria14",
+    "henryre",
+    "vincentschen",
+    "adbeda",
+    "oblute",
+    "rluria14"
+   ]
+  },
+  "package":{
+   "name":"snorkel",
+   "version":"0.9.5"
+  },
+  "requirements":{
+   "host":[
+    "python >=3.6",
+    "pip",
+    "python >=3.6",
+    "pip",
+    "python >=3.6",
+    "pip"
+   ],
+   "run":[
+    "python >=3.6",
+    "munkres >=1.0.6",
+    "numpy >=1.16.0,<2.0.0",
+    "scipy >=1.2.0,<2.0.0",
+    "pandas >=0.25.0,<0.26.0",
+    "tqdm >=4.33.0,<5.0.0",
+    "scikit-learn >=0.20.2,<0.22.0",
+    "pytorch >=1.2.0,<2.0.0",
+    "tensorboard >=1.14.0,<2.0.0",
+    "networkx >=2.2,<2.4",
+    "python >=3.6",
+    "munkres >=1.0.6",
+    "numpy >=1.16.0,<2.0.0",
+    "scipy >=1.2.0,<2.0.0",
+    "pandas >=0.25.0,<0.26.0",
+    "tqdm >=4.33.0,<5.0.0",
+    "scikit-learn >=0.20.2,<0.22.0",
+    "pytorch >=1.2.0,<2.0.0",
+    "tensorboard >=1.14.0,<2.0.0",
+    "networkx >=2.2,<2.4",
+    "python >=3.6",
+    "munkres >=1.0.6",
+    "numpy >=1.16.0,<2.0.0",
+    "scipy >=1.2.0,<2.0.0",
+    "pandas >=0.25.0,<0.26.0",
+    "tqdm >=4.33.0,<5.0.0",
+    "scikit-learn >=0.20.2,<0.22.0",
+    "pytorch >=1.2.0,<2.0.0",
+    "tensorboard >=1.14.0,<2.0.0",
+    "networkx >=2.2,<2.4"
+   ]
+  },
+  "source":{
+   "sha256":"44e794f2897bb4c115e1385ab4656122383f94386329b85af286ae189a60e0fa",
+   "url":"https://github.com/snorkel-team/snorkel/releases/download/v0.9.5/snorkel-0.9.5.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "snorkel",
+    "snorkel",
+    "snorkel"
+   ]
+  }
+ },
+ "name":"snorkel",
+ "new_version":"0.9.3",
+ "pinning_version":"2019.11.01",
+ "raw_meta_yaml":"{% set name = \"snorkel\" %}\n{% set version = \"0.9.5\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://github.com/snorkel-team/{{ name }}/releases/download/v{{ version }}/{{ name }}-{{ version }}.tar.gz\n  sha256: 44e794f2897bb4c115e1385ab4656122383f94386329b85af286ae189a60e0fa\n\nbuild:\n\n  noarch: python\n  number: 0\n  script: \"{{ PYTHON }} -m pip install . -vv\"\n\nrequirements:\n  host:\n    - python >=3.6\n    - pip\n  run:\n    - python >=3.6\n    - munkres >=1.0.6\n    - numpy >=1.16.0,<2.0.0\n    - scipy >=1.2.0,<2.0.0\n    - pandas >=0.25.0,<0.26.0\n    - tqdm >=4.33.0,<5.0.0\n    - scikit-learn >=0.20.2,<0.22.0\n    - pytorch >=1.2.0,<2.0.0\n    - tensorboard >=1.14.0,<2.0.0\n    - networkx >=2.2,<2.4\n\ntest:\n  imports:\n    - snorkel\n\nabout:\n  home: https://snorkel.org\n  license: Apache 2.0\n  license_family: Apache\n  license_file: LICENSE\n  summary: 'Snorkel is a system for programmatically building and managing training datasets to rapidly and flexibly fuel machine learning models.'\n\n  description: |\n    Snorkel is a system for programmatically building and managing training\n    datasets to rapidly and flexibly fuel machine learning models.\n    Users write programmatic operations to label, transform, and structure training\n    datasets for machine learning, without needing to hand label any training data.\n    Snorkel then uses modern, theoretically-grounded modeling techniques to clean and\n    integrate the resulting training data.\n  doc_url: https://snorkel.readthedocs.io\n  dev_url: https://github.com/snorkel-team/snorkel\n\nextra:\n  recipe-maintainers:\n    - henryre\n    - vincentschen\n    - adbeda\n    - oblute\n    - rluria14\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "munkres",
+   "networkx",
+   "numpy",
+   "pandas",
+   "pip",
+   "python",
+   "pytorch",
+   "scikit-learn",
+   "scipy",
+   "tensorboard",
+   "tqdm"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "munkres",
+    "networkx",
+    "numpy",
+    "pandas",
+    "python",
+    "pytorch",
+    "scikit-learn",
+    "scipy",
+    "tensorboard",
+    "tqdm"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.6.2",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3.6"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "munkres >=1.0.6",
+    "networkx >=2.2,<2.4",
+    "numpy >=1.16.0,<2.0.0",
+    "pandas >=0.25.0,<0.26.0",
+    "python >=3.6",
+    "pytorch >=1.2.0,<2.0.0",
+    "scikit-learn >=0.20.2,<0.22.0",
+    "scipy >=1.2.0,<2.0.0",
+    "tensorboard >=1.14.0,<2.0.0",
+    "tqdm >=4.33.0,<5.0.0"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://github.com/snorkel-team/snorkel/releases/download/v0.9.1/snorkel-0.9.1.tar.gz",
+ "version":"0.9.5"
+}

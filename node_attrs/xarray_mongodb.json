@@ -1,0 +1,163 @@
+{
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"xarray_mongodb",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"https://github.com/AmphoraInc/xarray_mongodb",
+   "license":"APACHE-2.0",
+   "license_family":"APACHE",
+   "license_file":"LICENSE",
+   "summary":"Store xarray objects in MongoDB"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":"python -m pip install --no-deps --ignore-installed ."
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "crusaderky",
+    "gimperiale",
+    "crusaderky",
+    "gimperiale",
+    "crusaderky",
+    "gimperiale"
+   ]
+  },
+  "package":{
+   "name":"xarray_mongodb",
+   "version":"0.1.0"
+  },
+  "requirements":{
+   "build":[
+    "python >=3.6",
+    "pip",
+    "python >=3.6",
+    "pip",
+    "python >=3.6",
+    "pip"
+   ],
+   "run":[
+    "python >=3.6",
+    "numpy >=1.13",
+    "pandas >=0.21",
+    "dask >=1.1",
+    "xarray >=0.10.4",
+    "pymongo >=3.7",
+    "python >=3.6",
+    "numpy >=1.13",
+    "pandas >=0.21",
+    "dask >=1.1",
+    "xarray >=0.10.4",
+    "pymongo >=3.7",
+    "python >=3.6",
+    "numpy >=1.13",
+    "pandas >=0.21",
+    "dask >=1.1",
+    "xarray >=0.10.4",
+    "pymongo >=3.7"
+   ]
+  },
+  "source":{
+   "sha256":"d55c766d9d320a6e83b1d49a0db4b0b0617972b6bca39078fd1da207d0a026dd",
+   "url":"https://pypi.io/packages/source/x/xarray_mongodb/xarray_mongodb-0.1.0.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "xarray_mongodb",
+    "xarray_mongodb",
+    "xarray_mongodb"
+   ],
+   "requires":[
+    "pytest >=3.7",
+    "pytest-asyncio >=0.10",
+    "pytest >=3.7",
+    "pytest-asyncio >=0.10",
+    "pytest >=3.7",
+    "pytest-asyncio >=0.10"
+   ]
+  }
+ },
+ "name":"xarray_mongodb",
+ "new_version":"0.1.0",
+ "raw_meta_yaml":"{% set version = \"0.1.0\" %}\n\npackage:\n  name: xarray_mongodb\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/x/xarray_mongodb/xarray_mongodb-{{ version }}.tar.gz\n  sha256: d55c766d9d320a6e83b1d49a0db4b0b0617972b6bca39078fd1da207d0a026dd\n\nbuild:\n  noarch: python\n  number: 0\n  script: python -m pip install --no-deps --ignore-installed .\n\nrequirements:\n  build:\n    - python >=3.6\n    - pip\n  run:\n    - python >=3.6\n    - numpy >=1.13\n    - pandas >=0.21\n    - dask >=1.1\n    - xarray >=0.10.4\n    - pymongo >=3.7\n\ntest:\n  imports:\n    - xarray_mongodb\n  requires:\n    - pytest >=3.7\n    - pytest-asyncio >=0.10\n\nabout:\n  home: https://github.com/AmphoraInc/xarray_mongodb\n  license: APACHE-2.0\n  license_family: APACHE\n  license_file: LICENSE\n  summary: Store xarray objects in MongoDB\n\nextra:\n  recipe-maintainers:\n    - crusaderky\n    - gimperiale\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "dask",
+   "numpy",
+   "pandas",
+   "pip",
+   "pymongo",
+   "python",
+   "xarray"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "dask",
+    "numpy",
+    "pandas",
+    "pymongo",
+    "python",
+    "xarray"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "pytest",
+    "pytest-asyncio"
+   ]
+  }
+ },
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3.6"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "dask >=1.1",
+    "numpy >=1.13",
+    "pandas >=0.21",
+    "pymongo >=3.7",
+    "python >=3.6",
+    "xarray >=0.10.4"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "pytest >=3.7",
+    "pytest-asyncio >=0.10"
+   ]
+  }
+ },
+ "url":"https://pypi.io/packages/source/x/xarray_mongodb/xarray_mongodb-0.1.0.tar.gz",
+ "version":"0.1.0"
+}

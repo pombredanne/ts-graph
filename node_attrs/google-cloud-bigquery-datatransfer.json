@@ -1,0 +1,131 @@
+{
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"google-cloud-bigquery-datatransfer",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"BigQuery Data Transfer API is a Google Cloud service that lets client applications transfer data from partner SaaS applications to Google BigQuery on a scheduled, managed basis.\nSee the [quick start guide](https://googleapis.dev/python/bigquerydatatransfer/latest/index.html#quick-start).",
+   "dev_url":"https://github.com/googleapis/python-bigquery-datatransfer",
+   "doc_url":"https://googleapis.dev/python/bigquerydatatransfer/latest/index.html",
+   "home":"https://github.com/googleapis/python-bigquery-datatransfer",
+   "license":"Apache-2.0",
+   "license_family":"Apache",
+   "license_file":"LICENSE",
+   "summary":"BigQuery Data Transfer API client library"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":"-m pip install . --no-deps -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "parthea",
+    "parthea",
+    "parthea"
+   ]
+  },
+  "package":{
+   "name":"google-cloud-bigquery-datatransfer",
+   "version":"1.0.0"
+  },
+  "requirements":{
+   "host":[
+    "python",
+    "pip >=18.1",
+    "python",
+    "pip >=18.1",
+    "python",
+    "pip >=18.1"
+   ],
+   "run":[
+    "python",
+    "google-api-core-grpc >=1.14.0,<2.0.0dev",
+    "python",
+    "google-api-core-grpc >=1.14.0,<2.0.0dev",
+    "python",
+    "google-api-core-grpc >=1.14.0,<2.0.0dev"
+   ]
+  },
+  "source":{
+   "sha256":"6eae79e6950f70d48b0578ae95f93530b4eac28216b96e2279cb2f94c5f2ba33",
+   "url":"https://pypi.io/packages/source/g/google-cloud-bigquery-datatransfer/google-cloud-bigquery-datatransfer-1.0.0.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "grpc",
+    "google.cloud.bigquery_datatransfer",
+    "google.cloud.bigquery_datatransfer_v1",
+    "grpc",
+    "google.cloud.bigquery_datatransfer",
+    "google.cloud.bigquery_datatransfer_v1",
+    "grpc",
+    "google.cloud.bigquery_datatransfer",
+    "google.cloud.bigquery_datatransfer_v1"
+   ]
+  }
+ },
+ "name":"google-cloud-bigquery-datatransfer",
+ "new_version":"1.0.0",
+ "raw_meta_yaml":"{% set name = \"google-cloud-bigquery-datatransfer\" %}\n{% set version = \"1.0.0\" %}\n{% set sha256 = \"6eae79e6950f70d48b0578ae95f93530b4eac28216b96e2279cb2f94c5f2ba33\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  noarch: python\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  host:\n    - python\n    - pip >=18.1\n  run:\n    - python\n    - google-api-core-grpc >=1.14.0,<2.0.0dev\n\ntest:\n  imports:\n    - grpc\n    - google.cloud.bigquery_datatransfer\n    - google.cloud.bigquery_datatransfer_v1\n\nabout:\n  home: https://github.com/googleapis/python-bigquery-datatransfer\n  license: Apache-2.0\n  license_family: Apache\n  license_file: LICENSE\n  summary: 'BigQuery Data Transfer API client library'\n  description: BigQuery Data Transfer API is a Google Cloud service that lets client applications transfer data\n    from partner SaaS applications to Google BigQuery on a scheduled, managed basis.\n\n    See the [quick start guide](https://googleapis.dev/python/bigquerydatatransfer/latest/index.html#quick-start).\n\n  doc_url: https://googleapis.dev/python/bigquerydatatransfer/latest/index.html\n  dev_url: https://github.com/googleapis/python-bigquery-datatransfer\n\nextra:\n  recipe-maintainers:\n    - parthea\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "google-api-core-grpc",
+   "pip",
+   "python"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "google-api-core-grpc",
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip >=18.1",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "google-api-core-grpc >=1.14.0,<2.0.0dev",
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/g/google-cloud-bigquery-datatransfer/google-cloud-bigquery-datatransfer-1.0.0.tar.gz",
+ "version":"1.0.0"
+}

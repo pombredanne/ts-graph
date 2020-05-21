@@ -1,0 +1,12 @@
+{
+ "bad":"Upstream: Error getting upstream version",
+ "conda-forge.yml":{
+  "provider":{
+   "win":"azure"
+  }
+ },
+ "feedstock_name":"itk-meshtopolydata",
+ "new_version":false,
+ "raw_meta_yaml":"{% set version = \"0.6.0\" %}\n\n{% set pyver = \"cp{}{}\".format(PY_VER[0], PY_VER[2]) %}\n\n{% set platform = \"win_amd64\" %}  # [win]\n{% set platform = \"manylinux1_x86_64\" %}  # [linux]\n{% set platform = \"macosx_10_9_x86_64\" %}  # [osx]\n\n{% set fn = \"{}-{}-{}-{}m-{}.whl\".format(\"itk_meshtopolydata\", version, pyver, pyver, platform) %}\n\npackage:\n  name: itk-meshtopolydata\n  version: {{ version }}\n\nsource:\n  fn: {{ fn }}\n  url: https://pypi.io/packages/{{ pyver }}/i/itk_meshtopolydata/{{ fn }}\n  sha256: af9aaea8ca845b8a194803bd92a517580ccc08c97a5acc096048328a8dfcf489  # [osx and py36]\n  sha256: 3765c147f8422f35fee1fb18ed5a6c6ade810a7fd6041f2b927aed635515b14c  # [osx and py37]\n  sha256: cca08c4cc2f0a3aad19f54dd073eb4cdf10e66523692b54d2c69335107a68a3b  # [osx and py38]\n\n  sha256: fad1c7135af2c36c85c2afdf353c1fbaab99ae1629f108d185283d63def03aea  # [linux and py36]\n  sha256: f82969f3176e45de38940f9549644f5acd45c27c31eefe81df3065cf60ad3f15  # [linux and py37]\n  sha256: 302a433c3da28a98fe33c55ebeb5da93a9ef95e5f0cf9d784551a7647d573af4  # [linux and py38]\n\n  sha256: 6fc084faa43d1409633d41d3d7a8e13ed6dae558928f4c9b3238f69fc173735e  # [win and py36]\n  sha256: 728513695fa7d6c48b6bb508069f0542a8a3e6237436fd094a614c7a67b1148d  # [win and py37]\n  sha256: 2664b665a5a662a7413c4d6c1e925464277107a529fc3eff605a98d1cbe2aa22  # [win and py38]\n\nbuild:\n  number: 0\n  skip: True  # [py2k]\n  script: \"{{ PYTHON }} -m pip install --no-deps -vv {{ fn }}\"\n\nrequirements:\n  build:\n    - python\n    - pip\n  run:\n    - python\n    - itk >=5.1.0\n    - numpy\n\ntest:\n  imports:\n    - itk\n\nabout:\n  home: http://github.com/InsightSoftwareConsortium/ITKMeshToPolyData\n  license: Apache-2.0\n  license_file: LICENSE.txt\n  summary: 'Convert an ITK Mesh to a simple data structure compatible with vtk.js PolyData'\n\n  description: |\n    ITK is an open-source, cross-platform library that provides developers\n    with an extensive suite of software tools for image analysis. This package\n    supports conversion of an itk.Mesh to a data structure compatible with\n    vtk.js PolyData. It is used by the itk-jupyter-widgets (the itkwidgets package).\n\nextra:\n  recipe-maintainers:\n    - thewtex\n",
+ "time":1568135263.5453308
+}

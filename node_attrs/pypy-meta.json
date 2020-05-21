@@ -1,0 +1,364 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/388827476.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"ArchRebuild",
+    "migrator_version":1,
+    "name":"aarch64 and ppc64le addition"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":"Upstream: Error getting upstream version",
+ "conda-forge.yml":{
+  "provider":{
+   "linux_aarch64":"default",
+   "linux_ppc64le":"default"
+  }
+ },
+ "feedstock_name":"pypy-meta",
+ "meta_yaml":{
+  "about":{
+   "home":"https://github.com/conda-forge/pypy-feedstock",
+   "license":"BSD-3-Clause",
+   "license_family":"BSD",
+   "license_file":"LICENSE",
+   "summary":"Metapackage to select pypy as python implementation"
+  },
+  "build":{
+   "number":"2",
+   "skip":true
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "isuruf",
+    "isuruf",
+    "isuruf"
+   ]
+  },
+  "outputs":[
+   {
+    "build":{
+     "number":"2",
+     "run_exports":{
+      "noarch":[
+       "python"
+      ],
+      "weak":[
+       "pypy3.6 >=7.3.1",
+       "python_abi 3.6 *_pypy36_pp73"
+      ]
+     },
+     "script":[
+      "ln -sf ${PREFIX}/bin/pypy3 ${PREFIX}/bin/python",
+      "ln -sf ${PREFIX}/bin/pypy3 ${PREFIX}/bin/python3",
+      "ln -sf ${PREFIX}/bin/pypy3 ${PREFIX}/bin/python3.6",
+      "ln -sf ${PREFIX}/bin/pypy3 ${PREFIX}/bin/pypy"
+     ],
+     "skip":true,
+     "string":"2_73_pypy",
+     "track_features":[
+      "pypy"
+     ]
+    },
+    "name":"python",
+    "requirements":{
+     "host":[
+      "pypy3.6 7.3.1"
+     ],
+     "run":[
+      "pypy3.6 7.3.1",
+      "python_abi 3.6 *_pypy36_pp73"
+     ]
+    },
+    "test":{
+     "commands":[
+      "python --version",
+      "test $(python -c \"import sys;print('.'.join(str(i) for i in sys.version_info[:3]))\") == \"3.6.9\""
+     ]
+    },
+    "version":"3.6.9"
+   },
+   {
+    "build":{
+     "noarch":"generic",
+     "number":"2"
+    },
+    "name":"pypy",
+    "requirements":{
+     "run":[
+      "python 3.6.9 2_73_pypy"
+     ]
+    },
+    "test":{
+     "commands":[
+      "pypy --version"
+     ]
+    },
+    "version":"7.3.1"
+   },
+   {
+    "build":{
+     "noarch":"generic",
+     "number":"2",
+     "string":"2_pypy"
+    },
+    "name":"cffi",
+    "requirements":{
+     "run":[
+      "pypy3.6 7.3.1",
+      "python 3.6.9 2_73_pypy",
+      "python_abi 3.6 *_pypy36_pp73"
+     ]
+    },
+    "test":{
+     "commands":[
+      "test $(python -c \"import cffi;print(cffi.__version__)\") == \"1.14.0\""
+     ]
+    },
+    "version":"1.14.0"
+   },
+   {
+    "build":{
+     "number":"2",
+     "run_exports":{
+      "noarch":[
+       "python"
+      ],
+      "weak":[
+       "pypy3.6 >=7.3.1",
+       "python_abi 3.6 *_pypy36_pp73"
+      ]
+     },
+     "script":[
+      "ln -sf ${PREFIX}/bin/pypy3 ${PREFIX}/bin/python",
+      "ln -sf ${PREFIX}/bin/pypy3 ${PREFIX}/bin/python3",
+      "ln -sf ${PREFIX}/bin/pypy3 ${PREFIX}/bin/python3.6",
+      "ln -sf ${PREFIX}/bin/pypy3 ${PREFIX}/bin/pypy"
+     ],
+     "string":"2_73_pypy",
+     "track_features":[
+      "pypy"
+     ]
+    },
+    "name":"python",
+    "requirements":{
+     "host":[
+      "pypy3.6 7.3.1"
+     ],
+     "run":[
+      "pypy3.6 7.3.1",
+      "python_abi 3.6 *_pypy36_pp73"
+     ]
+    },
+    "test":{
+     "commands":[
+      "python --version",
+      "test $(python -c \"import sys;print('.'.join(str(i) for i in sys.version_info[:3]))\") == \"3.6.9\""
+     ]
+    },
+    "version":"3.6.9"
+   },
+   {
+    "build":{
+     "noarch":"generic",
+     "number":"2"
+    },
+    "name":"pypy",
+    "requirements":{
+     "run":[
+      "python 3.6.9 2_73_pypy"
+     ]
+    },
+    "test":{
+     "commands":[
+      "pypy --version"
+     ]
+    },
+    "version":"7.3.1"
+   },
+   {
+    "build":{
+     "noarch":"generic",
+     "number":"2",
+     "string":"2_pypy"
+    },
+    "name":"cffi",
+    "requirements":{
+     "run":[
+      "pypy3.6 7.3.1",
+      "python 3.6.9 2_73_pypy",
+      "python_abi 3.6 *_pypy36_pp73"
+     ]
+    },
+    "test":{
+     "commands":[
+      "test $(python -c \"import cffi;print(cffi.__version__)\") == \"1.14.0\""
+     ]
+    },
+    "version":"1.14.0"
+   },
+   {
+    "build":{
+     "number":"2",
+     "run_exports":{
+      "noarch":[
+       "python"
+      ],
+      "weak":[
+       "pypy3.6 >=7.3.1",
+       "python_abi 3.6 *_pypy36_pp73"
+      ]
+     },
+     "script":[
+      "ln -sf ${PREFIX}/bin/pypy3 ${PREFIX}/bin/python",
+      "ln -sf ${PREFIX}/bin/pypy3 ${PREFIX}/bin/python3",
+      "ln -sf ${PREFIX}/bin/pypy3 ${PREFIX}/bin/python3.6",
+      "ln -sf ${PREFIX}/bin/pypy3 ${PREFIX}/bin/pypy"
+     ],
+     "string":"2_73_pypy",
+     "track_features":[
+      "pypy"
+     ]
+    },
+    "name":"python",
+    "requirements":{
+     "host":[
+      "pypy3.6 7.3.1"
+     ],
+     "run":[
+      "pypy3.6 7.3.1",
+      "python_abi 3.6 *_pypy36_pp73"
+     ]
+    },
+    "test":{
+     "commands":[
+      "python --version",
+      "test $(python -c \"import sys;print('.'.join(str(i) for i in sys.version_info[:3]))\") == \"3.6.9\""
+     ]
+    },
+    "version":"3.6.9"
+   },
+   {
+    "build":{
+     "noarch":"generic",
+     "number":"2"
+    },
+    "name":"pypy",
+    "requirements":{
+     "run":[
+      "python 3.6.9 2_73_pypy"
+     ]
+    },
+    "test":{
+     "commands":[
+      "pypy --version"
+     ]
+    },
+    "version":"7.3.1"
+   },
+   {
+    "build":{
+     "noarch":"generic",
+     "number":"2",
+     "string":"2_pypy"
+    },
+    "name":"cffi",
+    "requirements":{
+     "run":[
+      "pypy3.6 7.3.1",
+      "python 3.6.9 2_73_pypy",
+      "python_abi 3.6 *_pypy36_pp73"
+     ]
+    },
+    "test":{
+     "commands":[
+      "test $(python -c \"import cffi;print(cffi.__version__)\") == \"1.14.0\""
+     ]
+    },
+    "version":"1.14.0"
+   }
+  ],
+  "package":{
+   "name":"pypy-meta",
+   "version":"7.3.1"
+  }
+ },
+ "name":"pypy-meta",
+ "new_version":false,
+ "outputs_names":[
+  "cffi",
+  "pypy",
+  "python"
+ ],
+ "pinning_version":"2020.03.14",
+ "raw_meta_yaml":"{% set version = \"7.3.1\" %}\n{% set python_version = \"3.6.9\" %}\n{% set cffi_version = \"1.14.0\" %}\n{% set python_maj_min = \".\".join(python_version.split(\".\")[:2]) %}\n# Keep increasing this until we get a new python_version. Do not reset\n{% set build_num = \"2\" %}\n{% set pypy_abi = \"\".join(version.split(\".\")[:2]) %}\n\npackage:\n  name: pypy-meta\n  version: {{ version }}\n\nbuild:\n  number: {{ build_num }}\n  skip: True  # [win64]\n\noutputs:\n  - name: python\n    version: {{ python_version }}\n    build:\n      number: {{ build_num }}\n      string: {{ build_num }}_{{ pypy_abi }}_pypy\n      skip: True  # [win64]\n      track_features:\n        - pypy\n      run_exports:\n        weak:\n          - pypy{{ python_maj_min }} >={{ version }}\n          - python_abi {{ python_maj_min }} *_pypy{{ python_maj_min.replace(\".\", \"\") }}_pp{{ pypy_abi }}\n        noarch:\n          - {{ pin_subpackage(\"python\", max_pin=\"x.x\", min_pin=\"x.x\") }}\n      script:\n        - ln -sf ${PREFIX}/bin/pypy3 ${PREFIX}/bin/python\n        - ln -sf ${PREFIX}/bin/pypy3 ${PREFIX}/bin/python3\n        - ln -sf ${PREFIX}/bin/pypy3 ${PREFIX}/bin/python{{ python_maj_min }}\n        - ln -sf ${PREFIX}/bin/pypy3 ${PREFIX}/bin/pypy\n    requirements:\n      host:\n        - pypy{{ python_maj_min }} {{ version }}\n      run:\n        - pypy{{ python_maj_min }} {{ version }}\n        - python_abi {{ python_maj_min }} *_pypy{{ python_maj_min.replace(\".\", \"\") }}_pp{{ pypy_abi }}\n    test:\n      commands:\n        - python --version\n        - test $(python -c \"import sys;print('.'.join(str(i) for i in sys.version_info[:3]))\") == \"{{ python_version }}\"\n\n  - name: pypy\n    version: {{ version }}\n    build:\n      number: {{ build_num }}\n      noarch: generic\n    requirements:\n      run:\n        - python {{ python_version }} {{ build_num }}_{{ pypy_abi }}_pypy\n    test:\n      commands:\n        - pypy --version\n\n  - name: cffi\n    version: {{ cffi_version }}\n    build:\n      number: {{ build_num }}\n      string: {{ build_num }}_pypy\n      noarch: generic\n    requirements:\n      run:\n        - pypy{{ python_maj_min }} {{ version }}\n        - python {{ python_version }} {{ build_num }}_{{ pypy_abi }}_pypy\n        - python_abi {{ python_maj_min }} *_pypy{{ python_maj_min.replace(\".\", \"\") }}_pp{{ pypy_abi }}\n    test:\n      commands:\n        - test $(python -c \"import cffi;print(cffi.__version__)\") == \"{{ cffi_version }}\"\n\nabout:\n  home: https://github.com/conda-forge/pypy-feedstock\n  summary: Metapackage to select pypy as python implementation\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: LICENSE\n\nextra:\n  recipe-maintainers:\n    - isuruf\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "pypy3.6",
+   "python",
+   "python_abi"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pypy3.6"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "pypy3.6",
+    "python",
+    "python_abi"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.6.12",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pypy3.6 7.3.1"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "pypy3.6 7.3.1",
+    "python 3.6.9 2_73_pypy",
+    "python_abi 3.6 *_pypy36_pp73"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "version":"7.3.1"
+}

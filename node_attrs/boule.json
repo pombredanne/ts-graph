@@ -1,0 +1,152 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/361504330.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.1.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"boule",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"Boule is Python library for representing Reference Ellipsoids, calculating\ntheir gravity fields, and converting coordinates defined on the ellipsoids.\nThe main use cases are 1) calculating normal gravity (for gravity anomalies\nand disturbances); 2) spherical gravity modeling, which requires geodetic\nto geocentric spherical coordinate conversions; 3) input ellipsoid\nparameters for spherical harmonic analysis. Boule is French for ball and\nalso a traditional shape of bread resembling a squashed ball (much like the\nEarth).\n",
+   "dev_url":"https://github.com/fatiando/boule",
+   "doc_url":"https://www.fatiando.org/boule/",
+   "home":"https://github.com/fatiando/boule",
+   "license":"BSD-3-Clause",
+   "license_family":"BSD",
+   "license_file":"LICENSE.txt",
+   "summary":"Reference ellipsoids for geodesy, geophysics, and coordinate calculations"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "leouieda",
+    "leouieda",
+    "leouieda"
+   ]
+  },
+  "package":{
+   "name":"boule",
+   "version":"0.1.1"
+  },
+  "requirements":{
+   "host":[
+    "python >=3.6",
+    "pip",
+    "python >=3.6",
+    "pip",
+    "python >=3.6",
+    "pip"
+   ],
+   "run":[
+    "python >=3.6",
+    "numpy",
+    "attrs",
+    "python >=3.6",
+    "numpy",
+    "attrs",
+    "python >=3.6",
+    "numpy",
+    "attrs"
+   ]
+  },
+  "source":{
+   "sha256":"1caa2685c9ac70232d352cf225ff10a2589a60f58b409ee8f0b2e8d09ed4e474",
+   "url":"https://pypi.io/packages/source/b/boule/boule-0.1.1.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "boule",
+    "boule",
+    "boule"
+   ]
+  }
+ },
+ "name":"boule",
+ "new_version":"0.1.1",
+ "pinning_version":"2020.01.08",
+ "raw_meta_yaml":"{% set name = \"boule\" %}\n{% set version = \"0.1.1\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: 1caa2685c9ac70232d352cf225ff10a2589a60f58b409ee8f0b2e8d09ed4e474\n\nbuild:\n  noarch: python\n  number: 0\n  script: \"{{ PYTHON }} -m pip install . -vv\"\n\nrequirements:\n  host:\n    - python >=3.6\n    - pip\n  run:\n    - python >=3.6\n    - numpy\n    - attrs\n\ntest:\n  imports:\n    - boule\n\nabout:\n  home: https://github.com/fatiando/boule\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: LICENSE.txt\n  summary: 'Reference ellipsoids for geodesy, geophysics, and coordinate calculations'\n  description: |\n    Boule is Python library for representing Reference Ellipsoids, calculating\n    their gravity fields, and converting coordinates defined on the ellipsoids.\n    The main use cases are 1) calculating normal gravity (for gravity anomalies\n    and disturbances); 2) spherical gravity modeling, which requires geodetic\n    to geocentric spherical coordinate conversions; 3) input ellipsoid\n    parameters for spherical harmonic analysis. Boule is French for ball and\n    also a traditional shape of bread resembling a squashed ball (much like the\n    Earth).\n  doc_url: https://www.fatiando.org/boule/\n  dev_url: https://github.com/fatiando/boule\n\nextra:\n  recipe-maintainers:\n    - leouieda\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "attrs",
+   "numpy",
+   "pip",
+   "python"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "attrs",
+    "numpy",
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.6.5",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3.6"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "attrs",
+    "numpy",
+    "python >=3.6"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/b/boule/boule-0.1.0.tar.gz",
+ "version":"0.1.1"
+}

@@ -1,0 +1,131 @@
+{
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"sphinxcontrib-napoleon",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"https://sphinxcontrib-napoleon.readthedocs.io",
+   "license":"BSD-2-Clause",
+   "license_family":"BSD",
+   "license_file":"LICENSE",
+   "summary":"Sphinx 'napoleon' extension"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . --no-deps -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "ocefpaf",
+    "ocefpaf",
+    "ocefpaf"
+   ]
+  },
+  "package":{
+   "name":"sphinxcontrib-napoleon",
+   "version":"0.7"
+  },
+  "requirements":{
+   "host":[
+    "python",
+    "pip",
+    "python",
+    "pip",
+    "python",
+    "pip"
+   ],
+   "run":[
+    "python",
+    "pockets >=0.3",
+    "six >=1.5.2",
+    "python",
+    "pockets >=0.3",
+    "six >=1.5.2",
+    "python",
+    "pockets >=0.3",
+    "six >=1.5.2"
+   ]
+  },
+  "source":{
+   "sha256":"407382beed396e9f2d7f3043fad6afda95719204a1e1a231ac865f40abcbfcf8",
+   "url":"https://pypi.io/packages/source/s/sphinxcontrib-napoleon/sphinxcontrib-napoleon-0.7.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "sphinxcontrib",
+    "sphinxcontrib.napoleon",
+    "sphinxcontrib",
+    "sphinxcontrib.napoleon",
+    "sphinxcontrib",
+    "sphinxcontrib.napoleon"
+   ]
+  }
+ },
+ "name":"sphinxcontrib-napoleon",
+ "new_version":"0.7",
+ "raw_meta_yaml":"{% set version = \"0.7\" %}\n\npackage:\n  name: sphinxcontrib-napoleon\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/s/sphinxcontrib-napoleon/sphinxcontrib-napoleon-{{ version }}.tar.gz\n  sha256: 407382beed396e9f2d7f3043fad6afda95719204a1e1a231ac865f40abcbfcf8\n\nbuild:\n  number: 0\n  noarch: python\n  script: \"{{ PYTHON }} -m pip install . --no-deps -vv\"\n\nrequirements:\n  host:\n    - python\n    - pip\n  run:\n    - python\n    - pockets >=0.3\n    - six >=1.5.2\n\ntest:\n  imports:\n    - sphinxcontrib\n    - sphinxcontrib.napoleon\n\nabout:\n  home: https://sphinxcontrib-napoleon.readthedocs.io\n  license: BSD-2-Clause\n  license_family: BSD\n  license_file: LICENSE\n  summary: \"Sphinx 'napoleon' extension\"\n\nextra:\n  recipe-maintainers:\n    - ocefpaf\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "pip",
+   "pockets",
+   "python",
+   "six"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "pockets",
+    "python",
+    "six"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "pockets >=0.3",
+    "python",
+    "six >=1.5.2"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/s/sphinxcontrib-napoleon/sphinxcontrib-napoleon-0.7.tar.gz",
+ "version":"0.7"
+}

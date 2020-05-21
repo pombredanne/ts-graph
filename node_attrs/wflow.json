@@ -1,0 +1,187 @@
+{
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"wflow",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"wflow consists of a set of Python programs that can be run on the command line\nand perform hydrological simulations. The models are based on the PCRaster\nPython framework. In wflow this framework is extended (the wf_DynamicFramework)\nso that models build using the framework can be controlled using the API.\nLinks to BMI, OpenMI and OpenDAP have been made.\n",
+   "dev_url":"https://github.com/openstreams/wflow",
+   "doc_url":"https://wflow.readthedocs.io/",
+   "home":"https://github.com/openstreams/wflow",
+   "license":"GPL-3.0-or-later",
+   "license_file":"LICENSE",
+   "summary":"wflow hydrological modeling framework"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "verseve",
+    "visr",
+    "verseve",
+    "visr",
+    "verseve",
+    "visr"
+   ]
+  },
+  "package":{
+   "name":"wflow",
+   "version":"2020.1"
+  },
+  "requirements":{
+   "host":[
+    "python >=3.6",
+    "pip",
+    "setuptools_scm",
+    "python >=3.6",
+    "pip",
+    "setuptools_scm",
+    "python >=3.6",
+    "pip",
+    "setuptools_scm"
+   ],
+   "run":[
+    "python >=3.6",
+    "pcraster >=4.3",
+    "numpy >=1.12",
+    "scipy >=1.0",
+    "gdal >=3",
+    "netcdf4 >=1.4.1",
+    "xarray >=0.11",
+    "cftime >=1.0.4",
+    "numba >=0.48",
+    "pyproj >=2.4",
+    "python-dateutil >=2.7",
+    "python >=3.6",
+    "pcraster >=4.3",
+    "numpy >=1.12",
+    "scipy >=1.0",
+    "gdal >=3",
+    "netcdf4 >=1.4.1",
+    "xarray >=0.11",
+    "cftime >=1.0.4",
+    "numba >=0.48",
+    "pyproj >=2.4",
+    "python-dateutil >=2.7",
+    "python >=3.6",
+    "pcraster >=4.3",
+    "numpy >=1.12",
+    "scipy >=1.0",
+    "gdal >=3",
+    "netcdf4 >=1.4.1",
+    "xarray >=0.11",
+    "cftime >=1.0.4",
+    "numba >=0.48",
+    "pyproj >=2.4",
+    "python-dateutil >=2.7"
+   ]
+  },
+  "source":{
+   "sha256":"170442f72e4d932d765c802f0db0803f269ecba5f206add1463e86f769cd678e",
+   "url":"https://github.com/openstreams/wflow/releases/download/2020.1/wflow-2020.1.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "wflow",
+    "wflow",
+    "wflow"
+   ]
+  }
+ },
+ "name":"wflow",
+ "new_version":"2020.1",
+ "raw_meta_yaml":"{% set name = \"wflow\" %}\n{% set version = \"2020.1\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://github.com/openstreams/wflow/releases/download/{{ version }}/wflow-{{ version }}.tar.gz\n  sha256: 170442f72e4d932d765c802f0db0803f269ecba5f206add1463e86f769cd678e\n\nbuild:\n  noarch: python\n  number: 0\n  script: \"{{ PYTHON }} -m pip install . -vv\"\n\nrequirements:\n  host:\n    - python >=3.6\n    - pip\n    - setuptools_scm\n  run:\n    - python >=3.6\n    - pcraster >=4.3\n    - numpy >=1.12\n    - scipy >=1.0\n    - gdal >=3\n    - netcdf4 >=1.4.1\n    - xarray >=0.11\n    - cftime >=1.0.4\n    - numba >=0.48\n    - pyproj >=2.4\n    - python-dateutil >=2.7\n\ntest:\n  imports:\n    - wflow\n\nabout:\n  home: https://github.com/openstreams/wflow\n  license: GPL-3.0-or-later\n  license_file: LICENSE\n  summary: 'wflow hydrological modeling framework'\n\n  description: |\n    wflow consists of a set of Python programs that can be run on the command line\n    and perform hydrological simulations. The models are based on the PCRaster\n    Python framework. In wflow this framework is extended (the wf_DynamicFramework)\n    so that models build using the framework can be controlled using the API.\n    Links to BMI, OpenMI and OpenDAP have been made.\n  doc_url: https://wflow.readthedocs.io/\n  dev_url: https://github.com/openstreams/wflow\n\nextra:\n  recipe-maintainers:\n    - verseve\n    - visr\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "cftime",
+   "gdal",
+   "netcdf4",
+   "numba",
+   "numpy",
+   "pcraster",
+   "pip",
+   "pyproj",
+   "python",
+   "python-dateutil",
+   "scipy",
+   "setuptools_scm",
+   "xarray"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python",
+    "setuptools_scm"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "cftime",
+    "gdal",
+    "netcdf4",
+    "numba",
+    "numpy",
+    "pcraster",
+    "pyproj",
+    "python",
+    "python-dateutil",
+    "scipy",
+    "xarray"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3.6",
+    "setuptools_scm"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "cftime >=1.0.4",
+    "gdal >=3",
+    "netcdf4 >=1.4.1",
+    "numba >=0.48",
+    "numpy >=1.12",
+    "pcraster >=4.3",
+    "pyproj >=2.4",
+    "python >=3.6",
+    "python-dateutil >=2.7",
+    "scipy >=1.0",
+    "xarray >=0.11"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://github.com/openstreams/wflow/releases/download/2020.1/wflow-2020.1.tar.gz",
+ "version":"2020.1"
+}

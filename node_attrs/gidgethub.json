@@ -1,0 +1,267 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/214478550.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.0.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/238867080.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.1.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/335672757.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.2.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/364375981.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.3.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/395163816.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"4.0.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/405607979.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"4.1.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "bot":{
+   "automerge":true
+  }
+ },
+ "feedstock_name":"gidgethub",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "dev_url":"https://github.com/brettcannon/gidgethub",
+   "doc_url":"https://gidgethub.readthedocs.io/en/latest/",
+   "home":"https://gidgethub.readthedocs.io/en/latest/",
+   "license":"Apache-2.0",
+   "license_family":"Apache",
+   "license_file":"LICENSE",
+   "summary":"An async GitHub API library for Python"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":"-m flit install --deps=none"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "asmeurer",
+    "ocefpaf",
+    "asmeurer",
+    "ocefpaf",
+    "asmeurer",
+    "ocefpaf"
+   ]
+  },
+  "package":{
+   "name":"gidgethub",
+   "version":"4.1.0"
+  },
+  "requirements":{
+   "host":[
+    "python >=3.6",
+    "flit",
+    "python >=3.6",
+    "flit",
+    "python >=3.6",
+    "flit"
+   ],
+   "run":[
+    "cryptography >=2.9",
+    "pyjwt >=1.7.1",
+    "python >=3.6",
+    "uritemplate >=3.0.1",
+    "cryptography >=2.9",
+    "pyjwt >=1.7.1",
+    "python >=3.6",
+    "uritemplate >=3.0.1",
+    "cryptography >=2.9",
+    "pyjwt >=1.7.1",
+    "python >=3.6",
+    "uritemplate >=3.0.1"
+   ]
+  },
+  "source":{
+   "sha256":"95674e830110e9d9a0d01ee51a5d74fa28cffa4ba62376ab8b7f2303cfb5369b",
+   "url":"https://pypi.io/packages/source/g/gidgethub/gidgethub-4.1.0.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "pip check",
+    "pip check",
+    "pip check"
+   ],
+   "imports":[
+    "gidgethub",
+    "gidgethub",
+    "gidgethub"
+   ],
+   "requires":[
+    "pip",
+    "pip",
+    "pip"
+   ]
+  }
+ },
+ "name":"gidgethub",
+ "new_version":"4.1.0",
+ "new_version_attempts":{
+  "4.1.0":1
+ },
+ "new_version_errors":{},
+ "pinning_version":"2020.04.18.00.00.57",
+ "raw_meta_yaml":"{% set version = \"4.1.0\" %}\n\npackage:\n  name: gidgethub\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/g/gidgethub/gidgethub-{{ version }}.tar.gz\n  sha256: 95674e830110e9d9a0d01ee51a5d74fa28cffa4ba62376ab8b7f2303cfb5369b\n\nbuild:\n  number: 0\n  noarch: python\n  script: {{PYTHON}} -m flit install --deps=none\n\nrequirements:\n  host:\n    - python >=3.6\n    - flit\n  run:\n    - cryptography >=2.9\n    - pyjwt >=1.7.1\n    - python >=3.6\n    - uritemplate >=3.0.1\n\n\ntest:\n  requires:\n    - pip\n  commands:\n    - pip check\n  imports:\n    - gidgethub\n\nabout:\n  home: https://gidgethub.readthedocs.io/en/latest/\n  license: Apache-2.0\n  license_family: Apache\n  license_file: LICENSE\n  summary: An async GitHub API library for Python\n\n  doc_url: https://gidgethub.readthedocs.io/en/latest/\n  dev_url: https://github.com/brettcannon/gidgethub\n\nextra:\n  recipe-maintainers:\n    - asmeurer\n    - ocefpaf\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "cryptography",
+   "flit",
+   "pyjwt",
+   "python",
+   "uritemplate"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "flit",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "cryptography",
+    "pyjwt",
+    "python",
+    "uritemplate"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "pip"
+   ]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.6.16",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "flit",
+    "python >=3.6"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "cryptography >=2.9",
+    "pyjwt >=1.7.1",
+    "python >=3.6",
+    "uritemplate >=3.0.1"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "pip"
+   ]
+  }
+ },
+ "url":"https://pypi.io/packages/source/g/gidgethub/gidgethub-3.1.0.tar.gz",
+ "version":"4.1.0"
+}

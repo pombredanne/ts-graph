@@ -1,0 +1,475 @@
+{
+ "PRed":[
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.2.25"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/199919631.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Noarch",
+    "migrator_version":0
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/200481708.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.2.26"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/200883342.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.2.27"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/200952046.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.2.28"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/222648661.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/229062560.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.2.29"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/260867692.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.2.30"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/277467240.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.2.31"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/283175183.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.0.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/283439548.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.0.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/323747293.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.0.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/336437952.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"python38"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/338897298.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.0.3"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/372583369.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.0.4"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "compiler_stack":"comp7",
+  "max_py_ver":"37",
+  "max_r_ver":"35",
+  "provider":{
+   "win":"azure"
+  }
+ },
+ "feedstock_name":"pandas-plink",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "dev_url":"https://github.com/limix/pandas-plink",
+   "doc_url":"https://pandas-plink.readthedocs.io",
+   "home":"https://github.com/limix/pandas-plink",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"LICENSE.md",
+   "summary":"Convert PLINK files to data array"
+  },
+  "build":{
+   "number":"0",
+   "script":" -m pip install . --no-deps --ignore-installed -vv "
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "Horta",
+    "Horta",
+    "Horta"
+   ]
+  },
+  "package":{
+   "name":"pandas-plink",
+   "version":"2.0.4"
+  },
+  "requirements":{
+   "build":[
+    "c_compiler_stub",
+    "c_compiler_stub",
+    "c_compiler_stub"
+   ],
+   "host":[
+    "python",
+    "pip",
+    "pytest-runner",
+    "cffi >=1.7",
+    "python",
+    "pip",
+    "pytest-runner",
+    "cffi >=1.7",
+    "python",
+    "pip",
+    "pytest-runner",
+    "cffi >=1.7"
+   ],
+   "run":[
+    "Deprecated >=1.2.5",
+    "cffi >=1.7",
+    "dask >=1.0",
+    "numpy >=1.12",
+    "pandas >=0.23",
+    "pytest >=3.3.2",
+    "pytest-runner >=4.2",
+    "python",
+    "toolz >=0.9",
+    "tqdm >=4.15",
+    "xarray >=0.12.1",
+    "zstandard >=0.11.1",
+    "Deprecated >=1.2.5",
+    "cffi >=1.7",
+    "dask >=1.0",
+    "numpy >=1.12",
+    "pandas >=0.23",
+    "pytest >=3.3.2",
+    "pytest-runner >=4.2",
+    "python",
+    "toolz >=0.9",
+    "tqdm >=4.15",
+    "xarray >=0.12.1",
+    "zstandard >=0.11.1",
+    "Deprecated >=1.2.5",
+    "cffi >=1.7",
+    "dask >=1.0",
+    "numpy >=1.12",
+    "pandas >=0.23",
+    "pytest >=3.3.2",
+    "pytest-runner >=4.2",
+    "python",
+    "toolz >=0.9",
+    "tqdm >=4.15",
+    "xarray >=0.12.1",
+    "zstandard >=0.11.1"
+   ]
+  },
+  "source":{
+   "fn":"pandas-plink-2.0.4.tar.gz",
+   "sha256":"215dcb78a82adf20ee01f5dae00507547f997c1cb926749f93d31a01f108bfa8",
+   "url":"https://pypi.io/packages/source/p/pandas-plink/pandas_plink-2.0.4.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "python -c \"import sys; import pandas; import pandas_plink; sys.exit(pandas_plink.test())\"",
+    "python -c \"import sys; import pandas; import pandas_plink; sys.exit(pandas_plink.test())\"",
+    "python -c \"import sys; import pandas; import pandas_plink; sys.exit(pandas_plink.test())\""
+   ],
+   "imports":[
+    "pandas",
+    "pandas_plink",
+    "pandas",
+    "pandas_plink",
+    "pandas",
+    "pandas_plink"
+   ]
+  }
+ },
+ "name":"pandas-plink",
+ "new_version":"2.0.4",
+ "pinning_version":"2020.01.28",
+ "raw_meta_yaml":"{% set name = \"pandas-plink\" %}\n{% set version = \"2.0.4\" %}\n{% set sha256 = \"215dcb78a82adf20ee01f5dae00507547f997c1cb926749f93d31a01f108bfa8\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  fn: {{ name }}-{{ version }}.tar.gz\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pandas_plink-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  script: \"{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv \"\n  skip: True  # [py27]\n\nrequirements:\n  build:\n    - \"{{ compiler('c') }}\"\n  host:\n    - python\n    - pip\n    - pytest-runner\n    - cffi >=1.7\n  run:\n    - Deprecated >=1.2.5\n    - cffi >=1.7\n    - dask >=1.0\n    - numpy >=1.12\n    - pandas >=0.23\n    - pytest >=3.3.2\n    - pytest-runner >=4.2\n    - python\n    - toolz >=0.9\n    - tqdm >=4.15\n    - xarray >=0.12.1\n    - zstandard >=0.11.1\n\ntest:\n  imports:\n    - pandas\n    - pandas_plink\n  commands:\n    - python -c \"import sys; import pandas; import pandas_plink; sys.exit(pandas_plink.test())\"\n\nabout:\n  home: https://github.com/limix/pandas-plink\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE.md\n  summary: 'Convert PLINK files to data array'\n  doc_url: https://pandas-plink.readthedocs.io\n  dev_url: https://github.com/limix/pandas-plink\n\nextra:\n  recipe-maintainers:\n    - Horta\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "c_compiler_stub",
+   "cffi",
+   "dask",
+   "deprecated",
+   "numpy",
+   "pandas",
+   "pip",
+   "pytest",
+   "pytest-runner",
+   "python",
+   "toolz",
+   "tqdm",
+   "xarray",
+   "zstandard"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "cffi",
+    "pip",
+    "pytest-runner",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "cffi",
+    "dask",
+    "deprecated",
+    "numpy",
+    "pandas",
+    "pytest",
+    "pytest-runner",
+    "python",
+    "toolz",
+    "tqdm",
+    "xarray",
+    "zstandard"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.6.8",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "cffi >=1.7",
+    "pip",
+    "pytest-runner",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "Deprecated >=1.2.5",
+    "cffi >=1.7",
+    "dask >=1.0",
+    "numpy >=1.12",
+    "pandas >=0.23",
+    "pytest >=3.3.2",
+    "pytest-runner >=4.2",
+    "python",
+    "toolz >=0.9",
+    "tqdm >=4.15",
+    "xarray >=0.12.1",
+    "zstandard >=0.11.1"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/p/pandas-plink/pandas_plink-2.0.1.tar.gz",
+ "version":"2.0.4"
+}

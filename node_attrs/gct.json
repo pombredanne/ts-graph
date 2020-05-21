@@ -1,0 +1,320 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/278279639.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Rebuild",
+    "migrator_object_version":3,
+    "migrator_version":0,
+    "name":"OpenSSL"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/369919082.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"ArchRebuild",
+    "migrator_version":1,
+    "name":"aarch64 and ppc64le addition"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"gct",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"The GCT is a nascent effort to provide community-based support for critical\nsoftware packages for grid computing.\n\nThe GCT is based on a fork of the Globus Toolkit but is not the Globus\nToolkit. If you are interested in the Globus Toolkit, you can find it at\nhttp://toolkit.globus.org.\n",
+   "dev_url":"https://github.com/gridcf/gct/",
+   "home":"https://gridcf.org",
+   "license":"Apache-2.0",
+   "license_family":"Apache",
+   "license_file":"GLOBUS_LICENSE",
+   "summary":"Grid Community Toolkit"
+  },
+  "build":{
+   "number":"1",
+   "run_exports":[
+    "gct",
+    "gct",
+    "gct"
+   ],
+   "skip":true
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "chrisburr",
+    "chrisburr",
+    "chrisburr"
+   ]
+  },
+  "package":{
+   "name":"gct",
+   "version":"6.2.1550507116"
+  },
+  "requirements":{
+   "build":[
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "automake",
+    "make",
+    "pkg-config",
+    "libtool",
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "automake",
+    "make",
+    "pkg-config",
+    "libtool",
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "automake",
+    "make",
+    "pkg-config",
+    "libtool"
+   ],
+   "host":[
+    "openssl",
+    "zlib",
+    "openssl",
+    "zlib",
+    "openssl",
+    "zlib"
+   ],
+   "run":[
+    "perl",
+    "perl",
+    "perl"
+   ]
+  },
+  "source":{
+   "sha256":"a34bba682a252c35f67cbf25873dd04a4acb60eafef6f99317e1386331fe737a",
+   "url":"https://repo.gridcf.org/gct6/sources/gct-6.2.1550507116.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "globus-domainname",
+    "globus-gass-cache -dirs",
+    "which globus-gass-cache-destroy",
+    "globus-job-status -help",
+    "globus-gass-cache-util -help",
+    "globus-gass-server -help",
+    "globus-gass-server-shutdown -version",
+    "globus-hostname",
+    "globus-job-cancel -help",
+    "globus-job-clean -help",
+    "globus-job-get-output -help",
+    "globus-job-get-output-helper -help",
+    "globus-job-run -help",
+    "globus-job-submit -help",
+    "globus-makefile-header -help",
+    "globus-sh-exec -version",
+    "which globus-url-copy",
+    "globus-version",
+    "globus-xioperf -help",
+    "globusrun -help",
+    "grid-ca-create -help",
+    "grid-ca-package -help",
+    "grid-ca-sign -help",
+    "grid-cert-diagnostics",
+    "which grid-cert-info",
+    "grid-cert-request -help",
+    "grid-change-pass-phrase -help",
+    "grid-proxy-destroy -help",
+    "grid-proxy-info -help",
+    "grid-proxy-init -help",
+    "touch /tmp/example_file",
+    "gsiscp /tmp/example_file /tmp/example_file_123456",
+    "rm /tmp/example_file /tmp/example_file_123456",
+    "which gsisftp",
+    "which gsissh",
+    "which gsissh-add",
+    "which gsissh-agent",
+    "gsissh-keygen -f /tmp/examplekey -P asdadasdas",
+    "gsissh-keyscan -f /tmp/examplekey",
+    "rm /tmp/examplekey /tmp/examplekey.pub",
+    "globus-domainname",
+    "globus-gass-cache -dirs",
+    "which globus-gass-cache-destroy",
+    "globus-job-status -help",
+    "globus-gass-cache-util -help",
+    "globus-gass-server -help",
+    "globus-gass-server-shutdown -version",
+    "globus-hostname",
+    "globus-job-cancel -help",
+    "globus-job-clean -help",
+    "globus-job-get-output -help",
+    "globus-job-get-output-helper -help",
+    "globus-job-run -help",
+    "globus-job-submit -help",
+    "globus-makefile-header -help",
+    "globus-sh-exec -version",
+    "which globus-url-copy",
+    "globus-version",
+    "globus-xioperf -help",
+    "globusrun -help",
+    "grid-ca-create -help",
+    "grid-ca-package -help",
+    "grid-ca-sign -help",
+    "grid-cert-diagnostics",
+    "which grid-cert-info",
+    "grid-cert-request -help",
+    "grid-change-pass-phrase -help",
+    "grid-proxy-destroy -help",
+    "grid-proxy-info -help",
+    "grid-proxy-init -help",
+    "touch /tmp/example_file",
+    "gsiscp /tmp/example_file /tmp/example_file_123456",
+    "rm /tmp/example_file /tmp/example_file_123456",
+    "which gsisftp",
+    "which gsissh",
+    "which gsissh-add",
+    "which gsissh-agent",
+    "gsissh-keygen -f /tmp/examplekey -P asdadasdas",
+    "gsissh-keyscan -f /tmp/examplekey",
+    "rm /tmp/examplekey /tmp/examplekey.pub",
+    "globus-domainname",
+    "globus-gass-cache -dirs",
+    "which globus-gass-cache-destroy",
+    "globus-job-status -help",
+    "globus-gass-cache-util -help",
+    "globus-gass-server -help",
+    "globus-gass-server-shutdown -version",
+    "globus-hostname",
+    "globus-job-cancel -help",
+    "globus-job-clean -help",
+    "globus-job-get-output -help",
+    "globus-job-get-output-helper -help",
+    "globus-job-run -help",
+    "globus-job-submit -help",
+    "globus-makefile-header -help",
+    "globus-sh-exec -version",
+    "which globus-url-copy",
+    "globus-version",
+    "globus-xioperf -help",
+    "globusrun -help",
+    "grid-ca-create -help",
+    "grid-ca-package -help",
+    "grid-ca-sign -help",
+    "grid-cert-diagnostics",
+    "which grid-cert-info",
+    "grid-cert-request -help",
+    "grid-change-pass-phrase -help",
+    "grid-proxy-destroy -help",
+    "grid-proxy-info -help",
+    "grid-proxy-init -help",
+    "touch /tmp/example_file",
+    "gsiscp /tmp/example_file /tmp/example_file_123456",
+    "rm /tmp/example_file /tmp/example_file_123456",
+    "which gsisftp",
+    "which gsissh",
+    "which gsissh-add",
+    "which gsissh-agent",
+    "gsissh-keygen -f /tmp/examplekey -P asdadasdas",
+    "gsissh-keyscan -f /tmp/examplekey",
+    "rm /tmp/examplekey /tmp/examplekey.pub"
+   ]
+  }
+ },
+ "name":"gct",
+ "new_version":false,
+ "pinning_version":"2020.01.27",
+ "raw_meta_yaml":"{% set name = \"gct\" %}\n{% set version = \"6.2.1550507116\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://repo.gridcf.org/gct6/sources/gct-{{ version }}.tar.gz\n  sha256: a34bba682a252c35f67cbf25873dd04a4acb60eafef6f99317e1386331fe737a\n\nbuild:\n  number: 1\n  skip: true  # [win]\n  run_exports:\n    - {{ pin_subpackage('gct', max_pin='x.x') }}\n\nrequirements:\n  build:\n    - {{ compiler('c') }}\n    - {{ compiler('cxx') }}\n    - automake\n    - make\n    - pkg-config\n    - libtool\n  host:\n    - openssl\n    - zlib\n  run:\n    - perl\n\ntest:\n  commands:\n    - globus-domainname\n    - globus-gass-cache -dirs\n    - which globus-gass-cache-destroy\n    - globus-job-status -help\n    - globus-gass-cache-util -help\n    - globus-gass-server -help\n    - globus-gass-server-shutdown -version\n    - globus-hostname\n    - globus-job-cancel -help\n    - globus-job-clean -help\n    - globus-job-get-output -help\n    - globus-job-get-output-helper -help\n    - globus-job-run -help\n    - globus-job-submit -help\n    - globus-makefile-header -help\n    - globus-sh-exec -version\n    - which globus-url-copy\n    - globus-version\n    - globus-xioperf -help\n    - globusrun -help\n    - grid-ca-create -help\n    - grid-ca-package -help\n    - grid-ca-sign -help\n    - grid-cert-diagnostics\n    - which grid-cert-info\n    - grid-cert-request -help\n    - grid-change-pass-phrase -help\n    - grid-proxy-destroy -help\n    - grid-proxy-info -help\n    - grid-proxy-init -help\n    - touch /tmp/example_file\n    - gsiscp /tmp/example_file /tmp/example_file_123456\n    - rm /tmp/example_file /tmp/example_file_123456\n    - which gsisftp\n    - which gsissh\n    - which gsissh-add\n    - which gsissh-agent\n    - gsissh-keygen -f /tmp/examplekey -P asdadasdas\n    - gsissh-keyscan -f /tmp/examplekey\n    - rm /tmp/examplekey /tmp/examplekey.pub\n\nabout:\n  home: https://gridcf.org\n  license: Apache-2.0\n  license_family: Apache\n  license_file: GLOBUS_LICENSE\n  summary: 'Grid Community Toolkit'\n  description: |\n    The GCT is a nascent effort to provide community-based support for critical\n    software packages for grid computing.\n\n    The GCT is based on a fork of the Globus Toolkit but is not the Globus\n    Toolkit. If you are interested in the Globus Toolkit, you can find it at\n    http://toolkit.globus.org.\n  dev_url: https://github.com/gridcf/gct/\n\nextra:\n  recipe-maintainers:\n    - chrisburr\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "automake",
+   "c_compiler_stub",
+   "cxx_compiler_stub",
+   "libtool",
+   "make",
+   "openssl",
+   "perl",
+   "pkg-config",
+   "zlib"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "automake",
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "libtool",
+    "make",
+    "pkg-config"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "openssl",
+    "zlib"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "perl"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.6.6",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "automake",
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "libtool",
+    "make",
+    "pkg-config"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "openssl",
+    "zlib"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "perl"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://repo.gridcf.org/gct6/sources/gct-6.2.1550507116.tar.gz",
+ "version":"6.2.1550507116"
+}

@@ -1,0 +1,210 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/315379694.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.6.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"cclib",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"cclib is a Python library that provides parsers for output files of\ncomputational chemistry packages. It also provides a platform for\ncomputational chemists to implement algorithms in a\nplatform-independent way.\n",
+   "dev_url":"https://github.com/cclib/cclib",
+   "doc_url":"http://cclib.github.io",
+   "home":"http://cclib.github.io/",
+   "license":"BSD-3-Clause",
+   "license_family":"BSD",
+   "license_file":"LICENSE",
+   "summary":"Parsers and algorithms for computational chemistry logfiles"
+  },
+  "build":{
+   "entry_points":[
+    "ccframe = cclib.scripts.ccframe:main",
+    "ccget = cclib.scripts.ccget:ccget",
+    "ccwrite = cclib.scripts.ccwrite:main",
+    "cda = cclib.scripts.cda:main",
+    "ccframe = cclib.scripts.ccframe:main",
+    "ccget = cclib.scripts.ccget:ccget",
+    "ccwrite = cclib.scripts.ccwrite:main",
+    "cda = cclib.scripts.cda:main",
+    "ccframe = cclib.scripts.ccframe:main",
+    "ccget = cclib.scripts.ccget:ccget",
+    "ccwrite = cclib.scripts.ccwrite:main",
+    "cda = cclib.scripts.cda:main"
+   ],
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . --no-deps -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "jaimergp",
+    "richardjgowers",
+    "berquist",
+    "langner",
+    "jaimergp",
+    "richardjgowers",
+    "berquist",
+    "langner",
+    "jaimergp",
+    "richardjgowers",
+    "berquist",
+    "langner"
+   ]
+  },
+  "package":{
+   "name":"cclib",
+   "version":"1.6.2"
+  },
+  "requirements":{
+   "host":[
+    "python",
+    "pip",
+    "python",
+    "pip",
+    "python",
+    "pip"
+   ],
+   "run":[
+    "python",
+    "six",
+    "numpy",
+    "scipy",
+    "pandas",
+    "periodictable",
+    "biopython",
+    "python",
+    "six",
+    "numpy",
+    "scipy",
+    "pandas",
+    "periodictable",
+    "biopython",
+    "python",
+    "six",
+    "numpy",
+    "scipy",
+    "pandas",
+    "periodictable",
+    "biopython"
+   ]
+  },
+  "source":{
+   "sha256":"b6514a2fabd3ab2b07d39b02d245bf8ad62f3ece7152dc937005b7e489591261",
+   "url":"https://pypi.io/packages/source/c/cclib/cclib-1.6.2.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "ccframe --help",
+    "ccget --help",
+    "ccwrite --help",
+    "ccframe --help",
+    "ccget --help",
+    "ccwrite --help",
+    "ccframe --help",
+    "ccget --help",
+    "ccwrite --help"
+   ],
+   "imports":[
+    "cclib",
+    "cclib",
+    "cclib"
+   ]
+  }
+ },
+ "name":"cclib",
+ "new_version":"1.6.2",
+ "pinning_version":"2019.09.08",
+ "raw_meta_yaml":"{% set name = \"cclib\" %}\n{% set version = \"1.6.2\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: b6514a2fabd3ab2b07d39b02d245bf8ad62f3ece7152dc937005b7e489591261\n\nbuild:\n  number: 0\n  script: \"{{ PYTHON }} -m pip install . --no-deps -vv\"\n  noarch: python\n  entry_points:\n    - ccframe = cclib.scripts.ccframe:main\n    - ccget = cclib.scripts.ccget:ccget\n    - ccwrite = cclib.scripts.ccwrite:main\n    - cda = cclib.scripts.cda:main\n\nrequirements:\n  host:\n    - python\n    - pip\n  run:\n    - python\n    - six\n    - numpy\n    - scipy\n    - pandas\n    - periodictable\n    - biopython\n    # - openbabel (optional, not yet available on conda-forge)\n    # - pyquante (optional, not yet available on conda-forge)\n\ntest:\n  imports:\n    - cclib\n  commands:\n    - ccframe --help\n    - ccget --help\n    - ccwrite --help\n\nabout:\n  home: http://cclib.github.io/\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: LICENSE\n  summary: 'Parsers and algorithms for computational chemistry logfiles'\n  description: |\n    cclib is a Python library that provides parsers for output files of\n    computational chemistry packages. It also provides a platform for\n    computational chemists to implement algorithms in a\n    platform-independent way.\n  doc_url: http://cclib.github.io\n  dev_url: https://github.com/cclib/cclib\n\nextra:\n  recipe-maintainers:\n    - jaimergp\n    - richardjgowers\n    - berquist\n    - langner\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "biopython",
+   "numpy",
+   "pandas",
+   "periodictable",
+   "pip",
+   "python",
+   "scipy",
+   "six"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "biopython",
+    "numpy",
+    "pandas",
+    "periodictable",
+    "python",
+    "scipy",
+    "six"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.4.5",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "biopython",
+    "numpy",
+    "pandas",
+    "periodictable",
+    "python",
+    "scipy",
+    "six"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/c/cclib/cclib-1.6.2.tar.gz",
+ "version":"1.6.2"
+}

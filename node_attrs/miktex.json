@@ -1,0 +1,157 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/209958149.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "compiler_stack":"comp7",
+  "max_py_ver":"37",
+  "max_r_ver":"35"
+ },
+ "feedstock_name":"miktex",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"http://miktex.org/",
+   "license":"various, see http://miktex.org/copying",
+   "summary":"Implementation of TeX/LaTeX for Windows (repackaged binaries)"
+  },
+  "build":{
+   "binary_relocation":false,
+   "ignore_run_exports":[
+    "vc",
+    "vc",
+    "vc"
+   ],
+   "number":"1000",
+   "skip":true
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "ivoflipse",
+    "jankatins",
+    "ivoflipse",
+    "jankatins",
+    "ivoflipse",
+    "jankatins"
+   ]
+  },
+  "package":{
+   "name":"miktex",
+   "version":"2.9.6753"
+  },
+  "requirements":{
+   "build":[
+    "7za",
+    "c_compiler_stub",
+    "7za",
+    "c_compiler_stub",
+    "7za",
+    "c_compiler_stub"
+   ],
+   "run":[
+    "vs2015_runtime",
+    "vs2015_runtime",
+    "vs2015_runtime"
+   ]
+  },
+  "source":{
+   "sha256":"c8b85fc4694d748e8e481ea8e9a31057688c9e16dda8ea7686c00b29b9d6f6e2",
+   "url":"http://mirrors.ctan.org/systems/win32/miktex/setup/windows-x86/miktex-portable-2.9.6753.exe"
+  },
+  "test":{
+   "commands":[
+    "pdflatex.exe --help",
+    "mpm --help",
+    "initexmf.exe --report",
+    "kpsewhich cmss10.tfm | findstr cmss10",
+    "pdflatex.exe --help",
+    "mpm --help",
+    "initexmf.exe --report",
+    "kpsewhich cmss10.tfm | findstr cmss10",
+    "pdflatex.exe --help",
+    "mpm --help",
+    "initexmf.exe --report",
+    "kpsewhich cmss10.tfm | findstr cmss10"
+   ]
+  }
+ },
+ "name":"miktex",
+ "new_version":false,
+ "pinning_version":"2018.08.21",
+ "raw_meta_yaml":"{% set version = \"2.9.6753\" %}\n\npackage:\n  name: miktex\n  version: {{ version }}\n\nsource:\n  url: http://mirrors.ctan.org/systems/win32/miktex/setup/windows-x86/miktex-portable-{{ version }}.exe\n  sha256: c8b85fc4694d748e8e481ea8e9a31057688c9e16dda8ea7686c00b29b9d6f6e2\n\nbuild:\n  skip: True  # [not win]\n  skip: True  # [win and vc!=14]\n  number: 1000\n  binary_relocation: false\n  ignore_run_exports:\n    - vc\n\nrequirements:\n  build:\n    - 7za\n    - {{ compiler(\"c\") }}\n  run:\n    - vs2015_runtime\n\ntest:\n  commands:\n    - pdflatex.exe --help\n    - mpm --help\n    - initexmf.exe --report\n    # this is from the problem in matplotlib: it needs to find that font file\n    - kpsewhich cmss10.tfm | findstr cmss10\n\nabout:\n  home: http://miktex.org/\n  license: various, see http://miktex.org/copying\n  summary: Implementation of TeX/LaTeX for Windows (repackaged binaries)\n\nextra:\n  recipe-maintainers:\n    - ivoflipse\n    - jankatins\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "7za",
+   "c_compiler_stub",
+   "vs2015_runtime"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "7za",
+    "c_compiler_stub"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "vs2015_runtime"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.1.12",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "7za",
+    "c_compiler_stub"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "vs2015_runtime"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"http://mirrors.ctan.org/systems/win32/miktex/setup/windows-x86/miktex-portable-2.9.6753.exe",
+ "version":"2.9.6753"
+}

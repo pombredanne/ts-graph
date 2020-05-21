@@ -1,0 +1,190 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/258455756.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.2.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/328517441.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.2.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"tldextract",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "dev_url":"https://github.com/john-kurkowski/tldextract",
+   "home":"https://github.com/john-kurkowski/tldextract",
+   "license":"BSD 3-Clause",
+   "license_family":"BSD",
+   "license_file":"LICENSE",
+   "summary":"Accurately separate the TLD from the registered domain andsubdomains of a URL, using the Public Suffix List."
+  },
+  "build":{
+   "entry_points":[
+    "tldextract = tldextract.cli:main",
+    "tldextract = tldextract.cli:main",
+    "tldextract = tldextract.cli:main"
+   ],
+   "noarch":"python",
+   "number":"0",
+   "preserve_egg_dir":true,
+   "script":"python setup.py install --single-version-externally-managed --record=record.txt"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "pmlandwehr",
+    "pmlandwehr",
+    "pmlandwehr"
+   ]
+  },
+  "package":{
+   "name":"tldextract",
+   "version":"2.2.1"
+  },
+  "requirements":{
+   "build":[
+    "python",
+    "setuptools",
+    "python",
+    "setuptools",
+    "python",
+    "setuptools"
+   ],
+   "run":[
+    "python",
+    "setuptools",
+    "idna",
+    "requests >=2.1.0",
+    "requests-file >=1.4",
+    "python",
+    "setuptools",
+    "idna",
+    "requests >=2.1.0",
+    "requests-file >=1.4",
+    "python",
+    "setuptools",
+    "idna",
+    "requests >=2.1.0",
+    "requests-file >=1.4"
+   ]
+  },
+  "source":{
+   "fn":"tldextract-2.2.1.tar.gz",
+   "sha256":"b72bef6013de67c7fa181250bc2c2e089a994d259c09ca95a9771f2f97e29ed1",
+   "url":"https://pypi.io/packages/source/t/tldextract/tldextract-2.2.1.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "tldextract --help",
+    "tldextract --help",
+    "tldextract --help"
+   ],
+   "imports":[
+    "tldextract",
+    "tldextract",
+    "tldextract"
+   ]
+  }
+ },
+ "name":"tldextract",
+ "new_version":"2.2.2",
+ "pinning_version":"2019.10.11",
+ "raw_meta_yaml":"{% set name = \"tldextract\" %}\n{% set version = \"2.2.1\" %}\n{% set bundle = \"tar.gz\" %}\n{% set hash_type = \"sha256\" %}\n{% set hash = \"b72bef6013de67c7fa181250bc2c2e089a994d259c09ca95a9771f2f97e29ed1\" %}\n{% set build = 0 %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  fn: {{ name }}-{{ version }}.{{ bundle }}\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.{{ bundle }}\n  {{ hash_type }}: {{ hash }}\n\nbuild:\n  noarch: python\n  preserve_egg_dir: True\n  entry_points:\n    - tldextract = tldextract.cli:main\n  number: {{ build }}\n  script: python setup.py install --single-version-externally-managed --record=record.txt\n\nrequirements:\n  build:\n    - python\n    - setuptools\n\n  run:\n    - python\n    - setuptools\n    - idna\n    - requests >=2.1.0\n    - requests-file >=1.4\n\ntest:\n  imports:\n    - tldextract\n\n  commands:\n    - tldextract --help\n\nabout:\n  home: https://github.com/john-kurkowski/tldextract\n  license_file: LICENSE\n  license: BSD 3-Clause\n  license_family: BSD\n  summary: 'Accurately separate the TLD from the registered domain andsubdomains of a URL, using the Public Suffix List.'\n  dev_url: https://github.com/john-kurkowski/tldextract\n\nextra:\n  recipe-maintainers:\n    - pmlandwehr\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "idna",
+   "python",
+   "requests",
+   "requests-file",
+   "setuptools"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "python",
+    "setuptools"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "idna",
+    "python",
+    "requests",
+    "requests-file",
+    "setuptools"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.6.0",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "python",
+    "setuptools"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "idna",
+    "python",
+    "requests >=2.1.0",
+    "requests-file >=1.4",
+    "setuptools"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/t/tldextract/tldextract-2.2.1.tar.gz",
+ "version":"2.2.1"
+}

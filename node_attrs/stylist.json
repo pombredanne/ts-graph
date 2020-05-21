@@ -1,0 +1,138 @@
+{
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"stylist",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"Extensible code style checker currently supporting Fortran, PSyclone DSL, etc\n",
+   "dev_url":"https://github.com/MetOffice/stylist",
+   "doc_url":"https://github.com/MetOffice/stylist",
+   "home":"https://github.com/MetOffice/stylist",
+   "license":"BSD-3-Clause",
+   "license_family":"BSD",
+   "license_file":"LICENSE",
+   "summary":"Extensible code style checker"
+  },
+  "build":{
+   "entry_points":[
+    "stylist=stylist.__main__:main",
+    "stylist=stylist.__main__:main",
+    "stylist=stylist.__main__:main"
+   ],
+   "noarch":"python",
+   "number":"1",
+   "script":" -m pip install . --no-deps --ignore-installed -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "matthewrmshin",
+    "MatthewHambley",
+    "matthewrmshin",
+    "MatthewHambley",
+    "matthewrmshin",
+    "MatthewHambley"
+   ]
+  },
+  "package":{
+   "name":"stylist",
+   "version":"0.1"
+  },
+  "requirements":{
+   "host":[
+    "pip",
+    "python >=3.6",
+    "pip",
+    "python >=3.6",
+    "pip",
+    "python >=3.6"
+   ],
+   "run":[
+    "fparser",
+    "python >=3.6",
+    "fparser",
+    "python >=3.6",
+    "fparser",
+    "python >=3.6"
+   ]
+  },
+  "source":{
+   "sha256":"e178164596e20e719a8b15963ad37369c85beec356a652314e878d8173da505d",
+   "url":"https://pypi.io/packages/source/s/stylist/stylist-0.1.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "stylist --help",
+    "stylist --help",
+    "stylist --help"
+   ],
+   "imports":[
+    "stylist",
+    "stylist",
+    "stylist"
+   ]
+  }
+ },
+ "name":"stylist",
+ "new_version":"0.1",
+ "raw_meta_yaml":"{% set name = \"stylist\" %}\n{% set version = \"0.1\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: e178164596e20e719a8b15963ad37369c85beec356a652314e878d8173da505d\n\nbuild:\n  entry_points:\n    - stylist=stylist.__main__:main\n  noarch: python\n  number: 1\n  script: \"{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv\"\n\nrequirements:\n  host:\n    - pip\n    - python >=3.6\n  run:\n    - fparser\n    - python >=3.6\n\ntest:\n  imports:\n    - stylist\n  commands:\n    - stylist --help\n\nabout:\n  home: https://github.com/MetOffice/stylist\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: LICENSE\n  summary: Extensible code style checker\n  description: |\n    Extensible code style checker currently supporting Fortran, PSyclone DSL, etc\n  doc_url: https://github.com/MetOffice/stylist\n  dev_url: https://github.com/MetOffice/stylist\n\nextra:\n  recipe-maintainers:\n    - matthewrmshin\n    - MatthewHambley\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "fparser",
+   "pip",
+   "python"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "fparser",
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3.6"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "fparser",
+    "python >=3.6"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/s/stylist/stylist-0.1.tar.gz",
+ "version":"0.1"
+}

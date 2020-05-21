@@ -1,0 +1,352 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/237064820.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/299595010.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"RBaseRebuild",
+    "migrator_version":0,
+    "name":"r-base-3.6.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/414175734.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":2,
+    "migrator_version":0,
+    "name":"r400"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "bot":{
+   "automerge":true
+  },
+  "provider":{
+   "win":"azure"
+  }
+ },
+ "feedstock_name":"r-juniperkernel",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"https://github.com/JuniperKernel/JuniperKernel",
+   "license":"GPL (>= 2)",
+   "license_family":"GPL3",
+   "license_file":"/lib/R/share/licenses/GPL-3",
+   "summary":"Provides a full implementation of the 'Jupyter' <http://jupyter.org/> messaging protocol in C++ by leveraging 'Rcpp' and 'Xeus' <https://github.com/QuantStack/xeus>. 'Jupyter' supplies an interactive computing environment and a messaging protocol defined over 'ZeroMQ' for multiple programming languages. This package implements the 'Jupyter' kernel interface so that 'R' is exposed to this interactive computing environment. 'ZeroMQ' functionality is provided by the 'pbdZMQ' package. 'Xeus' is a C++ library that facilitates the implementation of kernels for 'Jupyter'. Additionally, 'Xeus' provides an interface to libraries that exist in the 'Jupyter' ecosystem for building widgets, plotting, and more <https://blog.jupyter.org/interactive-workflows-for-c-with-jupyter-fe9b54227d92>. 'JuniperKernel' uses 'Xeus' as a library for the 'Jupyter' messaging protocol."
+  },
+  "build":{
+   "merge_build_host":true,
+   "number":"1005",
+   "rpaths":[
+    "lib/R/lib/",
+    "lib/",
+    "lib/R/lib/",
+    "lib/",
+    "lib/R/lib/",
+    "lib/"
+   ]
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "conda-forge/r",
+    "johanneskoester",
+    "bgruening",
+    "daler",
+    "jdblischak",
+    "cbrueffer",
+    "dbast",
+    "conda-forge/r",
+    "johanneskoester",
+    "bgruening",
+    "daler",
+    "jdblischak",
+    "cbrueffer",
+    "dbast",
+    "conda-forge/r",
+    "johanneskoester",
+    "bgruening",
+    "daler",
+    "jdblischak",
+    "cbrueffer",
+    "dbast"
+   ]
+  },
+  "package":{
+   "name":"r-juniperkernel",
+   "version":"1.4.1.0"
+  },
+  "requirements":{
+   "build":[
+    "m2w64_c_compiler_stub",
+    "m2w64_cxx_compiler_stub",
+    "filesystem",
+    "sed",
+    "grep",
+    "autoconf",
+    "automake-wrapper",
+    "pkg-config",
+    "make",
+    "coreutils",
+    "zip",
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "autoconf",
+    "automake",
+    "pkg-config",
+    "make",
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "autoconf",
+    "automake",
+    "pkg-config",
+    "make"
+   ],
+   "host":[
+    "r-base",
+    "r-rcpp >=0.11.0",
+    "r-data.table",
+    "r-gdtools >=0.1.6",
+    "r-jsonlite",
+    "r-pbdzmq >=0.3_2",
+    "r-repr",
+    "r-base",
+    "r-rcpp >=0.11.0",
+    "r-data.table",
+    "r-gdtools >=0.1.6",
+    "r-jsonlite",
+    "r-pbdzmq >=0.3_2",
+    "r-repr",
+    "r-base",
+    "r-rcpp >=0.11.0",
+    "r-data.table",
+    "r-gdtools >=0.1.6",
+    "r-jsonlite",
+    "r-pbdzmq >=0.3_2",
+    "r-repr"
+   ],
+   "run":[
+    "r-base",
+    "gcc-libs",
+    "r-rcpp >=0.11.0",
+    "r-data.table",
+    "r-gdtools >=0.1.6",
+    "r-jsonlite",
+    "r-pbdzmq >=0.3_2",
+    "r-repr",
+    "r-base",
+    "r-rcpp >=0.11.0",
+    "r-data.table",
+    "r-gdtools >=0.1.6",
+    "r-jsonlite",
+    "r-pbdzmq >=0.3_2",
+    "r-repr",
+    "r-base",
+    "r-rcpp >=0.11.0",
+    "r-data.table",
+    "r-gdtools >=0.1.6",
+    "r-jsonlite",
+    "r-pbdzmq >=0.3_2",
+    "r-repr"
+   ]
+  },
+  "source":{
+   "sha256":"f6458915d529b670296734c942193b827def9c41bedc46cf95527302b9a3f0fd",
+   "url":[
+    "https://cran.r-project.org/src/contrib/JuniperKernel_1.4.1.0.tar.gz",
+    "https://cran.r-project.org/src/contrib/Archive/JuniperKernel/JuniperKernel_1.4.1.0.tar.gz",
+    "https://cran.r-project.org/src/contrib/JuniperKernel_1.4.1.0.tar.gz",
+    "https://cran.r-project.org/src/contrib/Archive/JuniperKernel/JuniperKernel_1.4.1.0.tar.gz",
+    "https://cran.r-project.org/src/contrib/JuniperKernel_1.4.1.0.tar.gz",
+    "https://cran.r-project.org/src/contrib/Archive/JuniperKernel/JuniperKernel_1.4.1.0.tar.gz"
+   ]
+  },
+  "test":{
+   "commands":[
+    "\"%R%\" -e \"library('JuniperKernel')\"",
+    "$R -e \"library('JuniperKernel')\"",
+    "$R -e \"library('JuniperKernel')\""
+   ]
+  }
+ },
+ "name":"r-juniperkernel",
+ "new_version":"1.4.1.0",
+ "pinning_version":"2020.05.04.19.59.17",
+ "raw_meta_yaml":"{% set version = '1.4.1.0' %}\n{% set posix = 'm2-' if win else '' %}\n{% set native = 'm2w64-' if win else '' %}\n\npackage:\n  name: r-juniperkernel\n  version: {{ version|replace(\"-\", \"_\") }}\n\nsource:\n  url:\n    - {{ cran_mirror }}/src/contrib/JuniperKernel_{{ version }}.tar.gz\n    - {{ cran_mirror }}/src/contrib/Archive/JuniperKernel/JuniperKernel_{{ version }}.tar.gz\n  sha256: f6458915d529b670296734c942193b827def9c41bedc46cf95527302b9a3f0fd\n\nbuild:\n  merge_build_host: True  # [win]\n  number: 1005\n  rpaths:\n    - lib/R/lib/\n    - lib/\n\nrequirements:\n  build:\n    - {{ compiler('c') }}        # [not win]\n    - {{ compiler('cxx') }}      # [not win]\n    - {{ compiler('m2w64_c') }}        # [win]\n    - {{ compiler('m2w64_cxx') }}        # [win]\n    - {{ posix }}filesystem        # [win]\n    - {{ posix }}sed               # [win]\n    - {{ posix }}grep              # [win]\n    - {{ posix }}autoconf\n    - {{ posix }}automake          # [not win]\n    - {{ posix }}automake-wrapper  # [win]\n    - {{ posix }}pkg-config\n    - {{ posix }}make\n    - {{ posix }}coreutils         # [win]\n    - {{ posix }}zip               # [win]\n  host:\n    - r-base\n    - r-rcpp >=0.11.0\n    - r-data.table\n    - r-gdtools >=0.1.6\n    - r-jsonlite\n    - r-pbdzmq >=0.3_2\n    - r-repr\n  run:\n    - r-base\n    - {{ native }}gcc-libs         # [win]\n    - r-rcpp >=0.11.0\n    - r-data.table\n    - r-gdtools >=0.1.6\n    - r-jsonlite\n    - r-pbdzmq >=0.3_2\n    - r-repr\n\ntest:\n  commands:\n    - $R -e \"library('JuniperKernel')\"           # [not win]\n    - \"\\\"%R%\\\" -e \\\"library('JuniperKernel')\\\"\"  # [win]\n\nabout:\n  home: https://github.com/JuniperKernel/JuniperKernel\n  license: GPL (>= 2)\n  summary: Provides a full implementation of the 'Jupyter' <http://jupyter.org/> messaging protocol\n    in C++ by leveraging 'Rcpp' and 'Xeus' <https://github.com/QuantStack/xeus>. 'Jupyter'\n    supplies an interactive computing environment and a messaging protocol defined over\n    'ZeroMQ' for multiple programming languages. This package implements the 'Jupyter'\n    kernel interface so that 'R' is exposed to this interactive computing environment.\n    'ZeroMQ' functionality is provided by the 'pbdZMQ' package. 'Xeus' is a C++ library\n    that facilitates the implementation of kernels for 'Jupyter'. Additionally, 'Xeus'\n    provides an interface to libraries that exist in the 'Jupyter' ecosystem for building\n    widgets, plotting, and more <https://blog.jupyter.org/interactive-workflows-for-c-with-jupyter-fe9b54227d92>.\n    'JuniperKernel' uses 'Xeus' as a library for the 'Jupyter' messaging protocol.\n  license_family: GPL3\n  license_file: '{{ environ[\"PREFIX\"] }}/lib/R/share/licenses/GPL-3'\n\nextra:\n  recipe-maintainers:\n    - conda-forge/r\n    - johanneskoester\n    - bgruening\n    - daler\n    - jdblischak\n    - cbrueffer\n    - dbast\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "autoconf",
+   "automake",
+   "automake-wrapper",
+   "c_compiler_stub",
+   "coreutils",
+   "cxx_compiler_stub",
+   "filesystem",
+   "gcc-libs",
+   "grep",
+   "m2w64_c_compiler_stub",
+   "m2w64_cxx_compiler_stub",
+   "make",
+   "pkg-config",
+   "r-base",
+   "r-data.table",
+   "r-gdtools",
+   "r-jsonlite",
+   "r-pbdzmq",
+   "r-rcpp",
+   "r-repr",
+   "sed",
+   "zip"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "autoconf",
+    "automake",
+    "automake-wrapper",
+    "c_compiler_stub",
+    "coreutils",
+    "cxx_compiler_stub",
+    "filesystem",
+    "grep",
+    "m2w64_c_compiler_stub",
+    "m2w64_cxx_compiler_stub",
+    "make",
+    "pkg-config",
+    "sed",
+    "zip"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "r-base",
+    "r-data.table",
+    "r-gdtools",
+    "r-jsonlite",
+    "r-pbdzmq",
+    "r-rcpp",
+    "r-repr"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "gcc-libs",
+    "r-base",
+    "r-data.table",
+    "r-gdtools",
+    "r-jsonlite",
+    "r-pbdzmq",
+    "r-rcpp",
+    "r-repr"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.7.0\n",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "autoconf",
+    "automake",
+    "automake-wrapper",
+    "c_compiler_stub",
+    "coreutils",
+    "cxx_compiler_stub",
+    "filesystem",
+    "grep",
+    "m2w64_c_compiler_stub",
+    "m2w64_cxx_compiler_stub",
+    "make",
+    "pkg-config",
+    "sed",
+    "zip"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "r-base",
+    "r-data.table",
+    "r-gdtools >=0.1.6",
+    "r-jsonlite",
+    "r-pbdzmq >=0.3_2",
+    "r-rcpp >=0.11.0",
+    "r-repr"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "gcc-libs",
+    "r-base",
+    "r-data.table",
+    "r-gdtools >=0.1.6",
+    "r-jsonlite",
+    "r-pbdzmq >=0.3_2",
+    "r-rcpp >=0.11.0",
+    "r-repr"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":[
+  "https://cran.r-project.org/src/contrib/JuniperKernel_1.4.1.0.tar.gz",
+  "https://cran.r-project.org/src/contrib/Archive/JuniperKernel/JuniperKernel_1.4.1.0.tar.gz",
+  "https://cran.r-project.org/src/contrib/JuniperKernel_1.4.1.0.tar.gz",
+  "https://cran.r-project.org/src/contrib/Archive/JuniperKernel/JuniperKernel_1.4.1.0.tar.gz",
+  "https://cran.r-project.org/src/contrib/JuniperKernel_1.4.1.0.tar.gz",
+  "https://cran.r-project.org/src/contrib/Archive/JuniperKernel/JuniperKernel_1.4.1.0.tar.gz"
+ ],
+ "version":"1.4.1.0"
+}

@@ -1,0 +1,135 @@
+{
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"sadisplay",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"Simple package for describing SQLAlchemy schema and display raw database\ntables by reflecting feature. Works with mapped classes and raw tables.\nRelation detecting by ForeignKey columns. Supports mapped class inherit.\n",
+   "dev_url":"http://bitbucket.org/estin/sadisplay",
+   "doc_url":"https://bitbucket.org/estin/sadisplay/wiki/Home",
+   "home":"http://bitbucket.org/estin/sadisplay",
+   "license":"BSD-3-clause",
+   "license_family":"BSD",
+   "license_file":"LICENSE",
+   "summary":"SqlAlchemy schema display script"
+  },
+  "build":{
+   "entry_points":[
+    "sadisplay = sadisplay.reflect:run",
+    "sadisplay = sadisplay.reflect:run",
+    "sadisplay = sadisplay.reflect:run"
+   ],
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . --no-deps --ignore-installed -vv "
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "mwcraig",
+    "mwcraig",
+    "mwcraig"
+   ]
+  },
+  "package":{
+   "name":"sadisplay",
+   "version":"0.4.9"
+  },
+  "requirements":{
+   "host":[
+    "pip",
+    "python",
+    "pip",
+    "python",
+    "pip",
+    "python"
+   ],
+   "run":[
+    "python",
+    "sqlalchemy >=0.5",
+    "python",
+    "sqlalchemy >=0.5",
+    "python",
+    "sqlalchemy >=0.5"
+   ]
+  },
+  "source":{
+   "sha256":"af67160f89123886ab42b247262862bfcde0a3c236229ecdd59de0a1e8e35d96",
+   "url":"https://pypi.io/packages/source/s/sadisplay/sadisplay-0.4.9.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "sadisplay --help",
+    "sadisplay --help",
+    "sadisplay --help"
+   ],
+   "imports":[
+    "sadisplay",
+    "sadisplay",
+    "sadisplay"
+   ]
+  }
+ },
+ "name":"sadisplay",
+ "new_version":"0.4.9",
+ "raw_meta_yaml":"{% set name = \"sadisplay\" %}\n{% set version = \"0.4.9\" %}\n\npackage:\n  name: \"{{ name|lower }}\"\n  version: \"{{ version }}\"\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: af67160f89123886ab42b247262862bfcde0a3c236229ecdd59de0a1e8e35d96\n\nbuild:\n  number: 0\n  entry_points:\n    - sadisplay = sadisplay.reflect:run\n  noarch: python\n  script: \"{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv \"\n\n\nrequirements:\n  host:\n    - pip\n    - python\n  run:\n    - python\n    - sqlalchemy >=0.5\n\ntest:\n  imports:\n    - sadisplay\n  commands:\n    - sadisplay --help\n\nabout:\n  home: http://bitbucket.org/estin/sadisplay\n  license: BSD-3-clause\n  license_family: BSD\n  license_file: LICENSE\n  summary: SqlAlchemy schema display script\n  description: |\n    Simple package for describing SQLAlchemy schema and display raw database\n    tables by reflecting feature. Works with mapped classes and raw tables.\n    Relation detecting by ForeignKey columns. Supports mapped class inherit.\n  doc_url: https://bitbucket.org/estin/sadisplay/wiki/Home\n  dev_url: http://bitbucket.org/estin/sadisplay\n\nextra:\n  recipe-maintainers:\n    - mwcraig\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "pip",
+   "python",
+   "sqlalchemy"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "python",
+    "sqlalchemy"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "python",
+    "sqlalchemy >=0.5"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/s/sadisplay/sadisplay-0.4.9.tar.gz",
+ "version":"0.4.9"
+}

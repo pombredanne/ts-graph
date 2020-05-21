@@ -1,0 +1,168 @@
+{
+ "bad":"Upstream: Error getting upstream version",
+ "conda-forge.yml":{},
+ "feedstock_name":"gfortran_osx-64",
+ "meta_yaml":{
+  "about":{
+   "home":"http://gcc.gnu.org/",
+   "license":"GPL-3.0-or-later WITH GCC-exception-3.1",
+   "license_file":"COPYING3",
+   "summary":"Fortran compiler from the GNU Compiler Collection"
+  },
+  "build":{
+   "number":"11",
+   "run_exports":{
+    "strong":[
+     "libgfortran >=4.0.0,<5.0.0.a0",
+     "libgfortran >=4.0.0,<5.0.0.a0",
+     "libgfortran >=4.0.0,<5.0.0.a0"
+    ]
+   },
+   "skip":true
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "beckermr",
+    "isuruf",
+    "beckermr",
+    "isuruf",
+    "beckermr",
+    "isuruf"
+   ]
+  },
+  "package":{
+   "name":"gfortran_osx-64",
+   "version":"7.3.0"
+  },
+  "requirements":{
+   "host":[
+    "clang",
+    "ld64",
+    "cctools",
+    "gfortran_impl_osx-64 ==7.3.0",
+    "libgfortran >=4.0.0,<5.0.0.a0",
+    "clang",
+    "ld64",
+    "cctools",
+    "gfortran_impl_osx-64 ==7.3.0",
+    "libgfortran >=4.0.0,<5.0.0.a0",
+    "clang",
+    "ld64",
+    "cctools",
+    "gfortran_impl_osx-64 ==7.3.0",
+    "libgfortran >=4.0.0,<5.0.0.a0"
+   ],
+   "run":[
+    "clang",
+    "ld64",
+    "cctools",
+    "gfortran_impl_osx-64 ==7.3.0",
+    "libgfortran >=4.0.0,<5.0.0.a0",
+    "clang",
+    "ld64",
+    "cctools",
+    "gfortran_impl_osx-64 ==7.3.0",
+    "libgfortran >=4.0.0,<5.0.0.a0",
+    "clang",
+    "ld64",
+    "cctools",
+    "gfortran_impl_osx-64 ==7.3.0",
+    "libgfortran >=4.0.0,<5.0.0.a0"
+   ]
+  },
+  "test":{
+   "commands":[
+    "gfortran --help",
+    "test \"$(readlink $PREFIX/lib/gcc//7.3.0/clang)\" = \"../../../../bin/clang\"",
+    "gfortran --help",
+    "test \"$(readlink $PREFIX/lib/gcc//7.3.0/clang)\" = \"../../../../bin/clang\"",
+    "gfortran --help",
+    "test \"$(readlink $PREFIX/lib/gcc//7.3.0/clang)\" = \"../../../../bin/clang\""
+   ],
+   "files":[
+    "hello.f90",
+    "maths.f90",
+    "hello.f90",
+    "maths.f90",
+    "hello.f90",
+    "maths.f90"
+   ]
+  }
+ },
+ "name":"gfortran_osx-64",
+ "new_version":false,
+ "raw_meta_yaml":"{% set version = \"7.3.0\" %}\n{% set libgfortran_version = \"4.0.0\" %}\n{% set max_libgfortran_version = \"5.0.0.a0\" %}\n\npackage:\n  name: gfortran_osx-64\n  version: {{ version }}\n\nbuild:\n  number: 11\n  skip: True  # [not osx]\n  run_exports:\n    strong:\n      - libgfortran >={{ libgfortran_version }},<{{ max_libgfortran_version }}\n\nrequirements:\n  host:\n    - clang\n    - ld64\n    - cctools\n    - gfortran_impl_osx-64 =={{ version }}\n    - libgfortran >={{ libgfortran_version }},<{{ max_libgfortran_version }}\n  run:\n    - clang\n    - ld64\n    - cctools\n    - gfortran_impl_osx-64 =={{ version }}\n    - libgfortran >={{ libgfortran_version }},<{{ max_libgfortran_version }}\n\ntest:\n  files:\n    - hello.f90\n    - maths.f90\n  commands:\n    - gfortran --help\n    - test \"$(readlink $PREFIX/lib/gcc/{{ macos_machine }}/{{ version }}/clang)\" = \"../../../../bin/clang\"\n\nabout:\n  home: http://gcc.gnu.org/\n  license: GPL-3.0-or-later WITH GCC-exception-3.1\n  license_file: COPYING3\n  summary: Fortran compiler from the GNU Compiler Collection\n\nextra:\n  recipe-maintainers:\n    - beckermr\n    - isuruf\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "cctools",
+   "clang",
+   "gfortran_impl_osx-64",
+   "ld64",
+   "libgfortran"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "cctools",
+    "clang",
+    "gfortran_impl_osx-64",
+    "ld64",
+    "libgfortran"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "cctools",
+    "clang",
+    "gfortran_impl_osx-64",
+    "ld64",
+    "libgfortran"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "strong_exports":true,
+ "time":1568135300.087941,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "cctools",
+    "clang",
+    "gfortran_impl_osx-64 ==7.3.0",
+    "ld64",
+    "libgfortran >=4.0.0,<5.0.0.a0"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "cctools",
+    "clang",
+    "gfortran_impl_osx-64 ==7.3.0",
+    "ld64",
+    "libgfortran >=4.0.0,<5.0.0.a0"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "version":"7.3.0"
+}

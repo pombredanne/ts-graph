@@ -1,0 +1,98 @@
+{
+ "bad":"Upstream: Error getting upstream version",
+ "conda-forge.yml":{},
+ "feedstock_name":"lhcbdirac-config",
+ "meta_yaml":{
+  "about":{
+   "home":"https://lhcb-dirac.readthedocs.io/",
+   "license":"GPL-3.0",
+   "license_family":"GPL",
+   "license_file":"LICENSE",
+   "summary":"Configuration package for LHCbDIRAC"
+  },
+  "build":{
+   "noarch":"generic",
+   "number":"0"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "chrisburr",
+    "chrisburr",
+    "chrisburr"
+   ]
+  },
+  "package":{
+   "name":"lhcbdirac-config",
+   "version":"2020.01.28"
+  },
+  "requirements":{
+   "run":[
+    "ca-policy-lcg",
+    "ca-policy-lcg",
+    "ca-policy-lcg"
+   ]
+  },
+  "test":{
+   "commands":[
+    "test -f \"${CONDA_PREFIX}/etc/dirac.cfg\"",
+    "echo \"${X509_VOMS_DIR}\"",
+    "test -f \"${CONDA_PREFIX}/etc/dirac.cfg\"",
+    "echo \"${X509_VOMS_DIR}\"",
+    "test -f \"${CONDA_PREFIX}/etc/dirac.cfg\"",
+    "echo \"${X509_VOMS_DIR}\""
+   ]
+  }
+ },
+ "name":"lhcbdirac-config",
+ "new_version":false,
+ "raw_meta_yaml":"{% set name = \"lhcbdirac-config\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: \"2020.01.28\"\n\nbuild:\n  noarch: generic\n  number: 0\n\nrequirements:\n  run:\n    - ca-policy-lcg\n\ntest:\n  commands:\n    - test -f \"${CONDA_PREFIX}/etc/dirac.cfg\"\n    - echo \"${X509_VOMS_DIR}\"\n\nabout:\n  home: https://lhcb-dirac.readthedocs.io/\n  license: GPL-3.0\n  license_family: GPL\n  license_file: LICENSE\n  summary: 'Configuration package for LHCbDIRAC'\n\nextra:\n  recipe-maintainers:\n    - chrisburr\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "ca-policy-lcg"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "ca-policy-lcg"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "strong_exports":false,
+ "time":1568135309.265262,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "ca-policy-lcg"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "version":"2020.01.28"
+}

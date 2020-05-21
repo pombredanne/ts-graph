@@ -1,0 +1,466 @@
+{
+ "PRed":[
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.36.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/196597325.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.36.3"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/202728937.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.36.4"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/213308315.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.37.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/221548905.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.37.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/229187208.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/235909339.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.38.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.40.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/257179189.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.40.3"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/273976234.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.41.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/314073517.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.41.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/325875528.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.41.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/338897533.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"python38"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/340793534.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.42.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/349575972.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.42.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "compiler_stack":"comp7",
+  "max_py_ver":"37",
+  "max_r_ver":"35",
+  "provider":{
+   "win":"azure"
+  }
+ },
+ "feedstock_name":"oslo.utils",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "dev_url":"https://git.openstack.org/cgit/openstack/oslo.utils",
+   "doc_url":"https://docs.openstack.org/developer/oslo.utils/",
+   "home":"https://docs.openstack.org/developer/oslo.utils/",
+   "license":"Apache 2.0",
+   "license_family":"Apache",
+   "license_file":"LICENSE",
+   "summary":"Support for common utility type functions, such as encoding, exception handling, string manipulation, and time handling."
+  },
+  "build":{
+   "number":"0",
+   "script":"-m pip install . --no-deps -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "pmlandwehr",
+    "anguslees",
+    "pmlandwehr",
+    "anguslees",
+    "pmlandwehr",
+    "anguslees"
+   ]
+  },
+  "package":{
+   "name":"oslo.utils",
+   "version":"3.41.0"
+  },
+  "requirements":{
+   "build":[
+    "python",
+    "setuptools",
+    "pbr !=2.1.0,>=2.0.0",
+    "python",
+    "setuptools",
+    "pbr !=2.1.0,>=2.0.0",
+    "python",
+    "setuptools",
+    "pbr !=2.1.0,>=2.0.0"
+   ],
+   "run":[
+    "python",
+    "pbr !=2.1.0,>=2.0.0",
+    "six >=1.10.0",
+    "iso8601 >=0.1.11",
+    "oslo.i18n >=3.15.3",
+    "monotonic >=0.6",
+    "pytz >=2013.6",
+    "netaddr >=0.7.18",
+    "netifaces >=0.10.4",
+    "debtcollector >=1.2.0",
+    "pyparsing >=2.1.0",
+    "python",
+    "pbr !=2.1.0,>=2.0.0",
+    "six >=1.10.0",
+    "iso8601 >=0.1.11",
+    "oslo.i18n >=3.15.3",
+    "monotonic >=0.6",
+    "pytz >=2013.6",
+    "netaddr >=0.7.18",
+    "netifaces >=0.10.4",
+    "debtcollector >=1.2.0",
+    "pyparsing >=2.1.0",
+    "python",
+    "pbr !=2.1.0,>=2.0.0",
+    "six >=1.10.0",
+    "iso8601 >=0.1.11",
+    "oslo.i18n >=3.15.3",
+    "monotonic >=0.6",
+    "pytz >=2013.6",
+    "netaddr >=0.7.18",
+    "netifaces >=0.10.4",
+    "debtcollector >=1.2.0",
+    "pyparsing >=2.1.0"
+   ]
+  },
+  "source":{
+   "fn":"oslo.utils-3.41.0.tar.gz",
+   "sha256":"3f6ed3da33ddd1648baa6cd20b1cf64ceb6c3cb3e1c745d63e793a7e5b1520c2",
+   "url":"https://pypi.org/packages/source/o/oslo.utils/oslo.utils-3.41.0.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "oslo_utils",
+    "oslo_utils.encodeutils",
+    "oslo_utils.eventletutils",
+    "oslo_utils.excutils",
+    "oslo_utils.fileutils",
+    "oslo_utils.fixture",
+    "oslo_utils.importutils",
+    "oslo_utils",
+    "oslo_utils.encodeutils",
+    "oslo_utils.eventletutils",
+    "oslo_utils.excutils",
+    "oslo_utils.fileutils",
+    "oslo_utils.fixture",
+    "oslo_utils.importutils",
+    "oslo_utils",
+    "oslo_utils.encodeutils",
+    "oslo_utils.eventletutils",
+    "oslo_utils.excutils",
+    "oslo_utils.fileutils",
+    "oslo_utils.fixture",
+    "oslo_utils.importutils"
+   ]
+  }
+ },
+ "name":"oslo.utils",
+ "new_version":"4.1.1",
+ "pinning_version":"2019.12.02",
+ "raw_meta_yaml":"{% set name = \"oslo.utils\" %}\n{% set version = \"3.41.0\" %}\n{% set bundle = \"tar.gz\" %}\n{% set hash_type = \"sha256\" %}\n{% set hash = \"3f6ed3da33ddd1648baa6cd20b1cf64ceb6c3cb3e1c745d63e793a7e5b1520c2\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  fn: {{ name }}-{{ version }}.{{ bundle }}\n  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.{{ bundle }}\n  {{ hash_type }}: {{ hash }}\n\nbuild:\n  number: 0\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  build:\n    - python\n    - setuptools\n    - pbr !=2.1.0,>=2.0.0\n\n  run:\n    - python\n    - pbr !=2.1.0,>=2.0.0\n    - six >=1.10.0\n    - funcsigs >=1.0.0  # [py2k]\n    - iso8601 >=0.1.11\n    - oslo.i18n >=3.15.3\n    - monotonic >=0.6\n    - pytz >=2013.6\n    - netaddr >=0.7.18\n    - netifaces >=0.10.4\n    - debtcollector >=1.2.0\n    - pyparsing >=2.1.0\n\ntest:\n  imports:\n    - oslo_utils\n    - oslo_utils.encodeutils\n    - oslo_utils.eventletutils\n    - oslo_utils.excutils\n    - oslo_utils.fileutils\n    - oslo_utils.fixture\n    - oslo_utils.importutils\n\nabout:\n  home: https://docs.openstack.org/developer/oslo.utils/\n  license_file: LICENSE\n  license: Apache 2.0\n  license_family: Apache\n  summary: Support for common utility type functions, such as encoding, exception handling, string manipulation, and time handling.\n  doc_url: https://docs.openstack.org/developer/oslo.utils/\n  dev_url: https://git.openstack.org/cgit/openstack/oslo.utils\n\nextra:\n  recipe-maintainers:\n    - pmlandwehr\n    - anguslees\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "debtcollector",
+   "iso8601",
+   "monotonic",
+   "netaddr",
+   "netifaces",
+   "oslo.i18n",
+   "pbr",
+   "pyparsing",
+   "python",
+   "pytz",
+   "setuptools",
+   "six"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "pbr",
+    "python",
+    "setuptools"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "debtcollector",
+    "iso8601",
+    "monotonic",
+    "netaddr",
+    "netifaces",
+    "oslo.i18n",
+    "pbr",
+    "pyparsing",
+    "python",
+    "pytz",
+    "six"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.6.3",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "pbr !=2.1.0,>=2.0.0",
+    "python",
+    "setuptools"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "debtcollector >=1.2.0",
+    "iso8601 >=0.1.11",
+    "monotonic >=0.6",
+    "netaddr >=0.7.18",
+    "netifaces >=0.10.4",
+    "oslo.i18n >=3.15.3",
+    "pbr !=2.1.0,>=2.0.0",
+    "pyparsing >=2.1.0",
+    "python",
+    "pytz >=2013.6",
+    "six >=1.10.0"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.org/packages/source/o/oslo.utils/oslo.utils-3.41.0.tar.gz",
+ "version":"3.41.0"
+}

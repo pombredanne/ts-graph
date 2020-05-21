@@ -1,0 +1,356 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/243931253.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/321825530.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.6.7"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/335861487.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"python38"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/393698829.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"pypy"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "compiler_stack":"comp7",
+  "max_py_ver":"37",
+  "max_r_ver":"35"
+ },
+ "feedstock_name":"ldas-tools-ldasgen-swig",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"https://wiki.ligo.org/Computing/LDASTools",
+   "license":"GPLv3",
+   "license_family":"GPL",
+   "license_file":"COPYING",
+   "summary":"SWIG interface for the LDAS Tools generic library"
+  },
+  "build":{
+   "number":"0",
+   "skip":true
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "duncanmmacleod",
+    "emaros",
+    "duncanmmacleod",
+    "emaros",
+    "duncanmmacleod",
+    "emaros"
+   ]
+  },
+  "outputs":[
+   {
+    "name":"ldas-tools-ldasgen-swig"
+   },
+   {
+    "about":{
+     "dev_url":"https://git.ligo.org/ldastools/LDAS_Tools",
+     "home":"https://wiki.ligo.org/Computing/LDASTools",
+     "license":"GPL-3.0-or-later",
+     "license_family":"GPL",
+     "license_file":"COPYING",
+     "summary":"Python bindings for the LDAS Tools generic library"
+    },
+    "name":"python-ldas-tools-ldasgen",
+    "requirements":{
+     "build":[
+      "cxx_compiler_stub",
+      "cmake >=3.6"
+     ],
+     "host":[
+      "ldas-tools-cmake >=1.0.8",
+      "ldas-tools-ldasgen 2.7.0",
+      "ldas-tools-ldasgen-swig",
+      "python",
+      "swig >=3.0.7,<4.0.0a0"
+     ],
+     "run":[
+      "ldas-tools-ldasgen >=2.7.0",
+      "python",
+      "python-ldas-tools-al >=2.6.7"
+     ]
+    },
+    "script":"install-python.sh",
+    "test":{
+     "imports":[
+      "LDAStools.LDASlogging"
+     ]
+    }
+   },
+   {
+    "name":"ldas-tools-ldasgen-swig"
+   },
+   {
+    "about":{
+     "dev_url":"https://git.ligo.org/ldastools/LDAS_Tools",
+     "home":"https://wiki.ligo.org/Computing/LDASTools",
+     "license":"GPL-3.0-or-later",
+     "license_family":"GPL",
+     "license_file":"COPYING",
+     "summary":"Python bindings for the LDAS Tools generic library"
+    },
+    "name":"python-ldas-tools-ldasgen",
+    "requirements":{
+     "build":[
+      "cxx_compiler_stub",
+      "cmake >=3.6",
+      "pkg-config"
+     ],
+     "host":[
+      "ldas-tools-cmake >=1.0.8",
+      "ldas-tools-ldasgen 2.7.0",
+      "ldas-tools-ldasgen-swig",
+      "python",
+      "swig >=3.0.7,<4.0.0a0"
+     ],
+     "run":[
+      "ldas-tools-ldasgen >=2.7.0",
+      "python",
+      "python-ldas-tools-al >=2.6.7"
+     ]
+    },
+    "script":"install-python.sh",
+    "test":{
+     "imports":[
+      "LDAStools.LDASlogging"
+     ]
+    }
+   },
+   {
+    "name":"ldas-tools-ldasgen-swig"
+   },
+   {
+    "about":{
+     "dev_url":"https://git.ligo.org/ldastools/LDAS_Tools",
+     "home":"https://wiki.ligo.org/Computing/LDASTools",
+     "license":"GPL-3.0-or-later",
+     "license_family":"GPL",
+     "license_file":"COPYING",
+     "summary":"Python bindings for the LDAS Tools generic library"
+    },
+    "name":"python-ldas-tools-ldasgen",
+    "requirements":{
+     "build":[
+      "cxx_compiler_stub",
+      "cmake >=3.6",
+      "pkg-config"
+     ],
+     "host":[
+      "ldas-tools-cmake >=1.0.8",
+      "ldas-tools-ldasgen 2.7.0",
+      "ldas-tools-ldasgen-swig",
+      "python",
+      "swig >=3.0.7,<4.0.0a0"
+     ],
+     "run":[
+      "ldas-tools-ldasgen >=2.7.0",
+      "python",
+      "python-ldas-tools-al >=2.6.7"
+     ]
+    },
+    "script":"install-python.sh",
+    "test":{
+     "imports":[
+      "LDAStools.LDASlogging"
+     ]
+    }
+   }
+  ],
+  "package":{
+   "name":"ldas-tools-ldasgen-swig",
+   "version":"2.6.7"
+  },
+  "requirements":{
+   "build":[
+    "cxx_compiler_stub",
+    "cmake >=3.6",
+    "cxx_compiler_stub",
+    "cmake >=3.6",
+    "pkg-config",
+    "cxx_compiler_stub",
+    "cmake >=3.6",
+    "pkg-config"
+   ],
+   "host":[
+    "ldas-tools-cmake >=1.0.8",
+    "ldas-tools-ldasgen 2.7.0",
+    "swig >=3.0.7,<4.0.0a0",
+    "ldas-tools-cmake >=1.0.8",
+    "ldas-tools-ldasgen 2.7.0",
+    "swig >=3.0.7,<4.0.0a0",
+    "ldas-tools-cmake >=1.0.8",
+    "ldas-tools-ldasgen 2.7.0",
+    "swig >=3.0.7,<4.0.0a0"
+   ],
+   "run":[
+    "ldas-tools-ldasgen >=2.7.0",
+    "ldas-tools-ldasgen >=2.7.0",
+    "ldas-tools-ldasgen >=2.7.0"
+   ]
+  },
+  "source":{
+   "sha256":"8a438b53d8fb9cfdb7f57ac3cc132e9a51a723d11d7feaa4550350bde30d947f",
+   "url":"http://software.ligo.org/lscsoft/source/ldas-tools-ldasgen-swig-2.6.7.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "test -f ${PREFIX}/include/genericAPI/LDASlogging.i"
+   ]
+  }
+ },
+ "name":"ldas-tools-ldasgen-swig",
+ "new_version":"2.6.7",
+ "outputs_names":[
+  "ldas-tools-ldasgen-swig",
+  "python-ldas-tools-ldasgen"
+ ],
+ "pinning_version":"2020.03.24",
+ "raw_meta_yaml":"{% set name = \"ldas-tools-ldasgen-swig\" %}\n{% set version = \"2.6.7\" %}\n{% set sha256 = \"8a438b53d8fb9cfdb7f57ac3cc132e9a51a723d11d7feaa4550350bde30d947f\" %}\n\n# dependency versions\n{% set ldas_tools_cmake_version = \"1.0.8\" %}\n{% set ldas_tools_al_swig_version = \"2.6.7\" %}\n{% set ldas_tools_ldasgen_version = \"2.7.0\" %}\n\npackage:\n  name: \"{{ name|lower }}\"\n  version: \"{{ version }}\"\n\nsource:\n  url: \"http://software.ligo.org/lscsoft/source/{{ name }}-{{ version }}.tar.gz\"\n  sha256: \"{{ sha256 }}\"\n\nbuild:\n  number: 0\n  skip: true  # [win]\n\nrequirements:\n  build:\n    - {{ compiler('cxx') }}\n    - cmake >=3.6\n    - pkg-config  # [unix]\n  host:\n    - ldas-tools-cmake >={{ ldas_tools_cmake_version }}\n    - ldas-tools-ldasgen {{ ldas_tools_ldasgen_version }}\n    - swig >=3.0.7,<4.0.0a0\n  run:\n    - ldas-tools-ldasgen >={{ ldas_tools_ldasgen_version }}\n\ntest:\n  commands:\n    - test -f ${PREFIX}/include/genericAPI/LDASlogging.i  # [unix]\n\noutputs:\n  - name: ldas-tools-ldasgen-swig\n\n  - name: python-ldas-tools-ldasgen\n    script: install-python.sh\n    requirements:\n      build:\n        - {{ compiler('cxx') }}\n        - cmake >=3.6\n        - pkg-config  # [unix]\n      host:\n        - ldas-tools-cmake >={{ ldas_tools_cmake_version }}\n        - ldas-tools-ldasgen {{ ldas_tools_ldasgen_version }}\n        - {{ pin_subpackage('ldas-tools-ldasgen-swig', exact=True) }}\n        - python\n        - swig >=3.0.7,<4.0.0a0\n      run:\n        - ldas-tools-ldasgen >={{ ldas_tools_ldasgen_version }}\n        - python\n        - python-ldas-tools-al >={{ ldas_tools_al_swig_version }}\n    test:\n      imports:\n        - LDAStools.LDASlogging\n    about:\n      home: \"https://wiki.ligo.org/Computing/LDASTools\"\n      dev_url: \"https://git.ligo.org/ldastools/LDAS_Tools\"\n      license: \"GPL-3.0-or-later\"\n      license_family: \"GPL\"\n      license_file: \"COPYING\"\n      summary: \"Python bindings for the LDAS Tools generic library\"\n\nabout:\n  home: \"https://wiki.ligo.org/Computing/LDASTools\"\n  license: \"GPLv3\"\n  license_family: \"GPL\"\n  license_file: \"COPYING\"\n  summary: \"SWIG interface for the LDAS Tools generic library\"\n\nextra:\n  recipe-maintainers:\n    - duncanmmacleod\n    - emaros\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "cmake",
+   "cxx_compiler_stub",
+   "ldas-tools-cmake",
+   "ldas-tools-ldasgen",
+   "ldas-tools-ldasgen-swig",
+   "pkg-config",
+   "python",
+   "python-ldas-tools-al",
+   "swig"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "cmake",
+    "cxx_compiler_stub",
+    "pkg-config"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "ldas-tools-cmake",
+    "ldas-tools-ldasgen",
+    "ldas-tools-ldasgen-swig",
+    "python",
+    "swig"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "ldas-tools-ldasgen",
+    "python",
+    "python-ldas-tools-al"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.6.15",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "cmake >=3.6",
+    "cxx_compiler_stub",
+    "pkg-config"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "ldas-tools-cmake >=1.0.8",
+    "ldas-tools-ldasgen 2.7.0",
+    "ldas-tools-ldasgen-swig",
+    "python",
+    "swig >=3.0.7,<4.0.0a0"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "ldas-tools-ldasgen >=2.7.0",
+    "python",
+    "python-ldas-tools-al >=2.6.7"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"http://software.ligo.org/lscsoft/source/ldas-tools-ldasgen-swig-2.6.6.tar.gz",
+ "version":"2.6.7"
+}

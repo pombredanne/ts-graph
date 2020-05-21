@@ -1,0 +1,5 @@
+{
+ "bad":false,
+ "feedstock_name":"pytest-tldr",
+ "raw_meta_yaml":"{% set name = \"pytest-tldr\" %}\n{% set version = \"0.2.1\" %}\n\npackage:\n  name: \"{{ name|lower }}\"\n  version: \"{{ version }}\"\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: 008b7d53cabbce9d49ee7a92754ed4adafc056bc49ae01b257c2ffb1f5ce2408\n\nbuild:\n  number: 0\n  noarch: python\n  script: \"{{ PYTHON }} -m pip install . -vv\"\n\nrequirements:\n  host:\n    - pip\n    - python\n    - pytest-runner\n    - pytest >=3.5.0\n  run:\n    - python\n    - pytest >=3.5.0\ntest:\n  imports:\n    - pytest_tldr\n  commands:\n    - pip check\n  requires:\n    - pip\nabout:\n  home: https://github.com/freakboy3742/pytest-tldr\n  license: BSD-3-Clause\n  license_file: LICENSE\n  summary: \"A pytest plugin that limits the output to just the things you need.\"\n  dev_url: https://github.com/freakboy3742/pytest-tldr\n\nextra:\n  recipe-maintainers:\n    - philip-khor\n"
+}

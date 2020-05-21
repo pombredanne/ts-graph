@@ -1,0 +1,309 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/344294982.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"python38"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/391709142.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.2.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/395418239.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"pypy"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/403288755.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.2.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"gstools",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"GeoStatTools provides geostatistical tools for various purposes:\n- random field generation\n- conditioned field generation\n- incompressible random vector field generation\n- simple and ordinary kriging\n- variogram estimation and fitting\n- many readily provided and even user-defined covariance models\n- plotting and exporting routines\n",
+   "dev_url":"https://github.com/GeoStat-Framework/GSTools",
+   "doc_url":"https://geostat-framework.readthedocs.io/projects/gstools",
+   "home":"https://github.com/GeoStat-Framework/GSTools",
+   "license":"GNU Lesser General Public v3 (LGPLv3)",
+   "license_family":"LGPL",
+   "license_file":"LICENSE",
+   "summary":"GSTools: A geostatistical toolbox."
+  },
+  "build":{
+   "number":"0",
+   "script":[
+    "-m pip install . --no-deps --global-option=\"--openmp\" -vv",
+    "-m pip install . --no-deps --global-option=\"--openmp\" -vv",
+    "-m pip install . --no-deps --global-option=\"--openmp\" -vv"
+   ]
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "MuellerSeb",
+    "LSchueler",
+    "MuellerSeb",
+    "LSchueler",
+    "MuellerSeb",
+    "LSchueler"
+   ]
+  },
+  "package":{
+   "name":"gstools",
+   "version":"1.2.1"
+  },
+  "requirements":{
+   "build":[
+    "llvm-openmp",
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "llvm-openmp",
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "llvm-openmp",
+    "c_compiler_stub",
+    "cxx_compiler_stub"
+   ],
+   "host":[
+    "llvm-openmp",
+    "pip",
+    "python",
+    "setuptools >=45",
+    "setuptools_scm >=3.4",
+    "cython >=0.28.3",
+    "numpy >=1.14.5",
+    "llvm-openmp",
+    "pip",
+    "python",
+    "setuptools >=45",
+    "setuptools_scm >=3.4",
+    "cython >=0.28.3",
+    "numpy >=1.14.5",
+    "llvm-openmp",
+    "pip",
+    "python",
+    "setuptools >=45",
+    "setuptools_scm >=3.4",
+    "cython >=0.28.3",
+    "numpy >=1.14.5"
+   ],
+   "run":[
+    "llvm-openmp",
+    "python",
+    "numpy",
+    "scipy >=1.1.0",
+    "emcee >=3.0.0",
+    "hankel >=1.0.2",
+    "pyevtk >=1.1.1",
+    "llvm-openmp",
+    "python",
+    "numpy",
+    "scipy >=1.1.0",
+    "emcee >=3.0.0",
+    "hankel >=1.0.2",
+    "pyevtk >=1.1.1",
+    "llvm-openmp",
+    "python",
+    "numpy",
+    "scipy >=1.1.0",
+    "emcee >=3.0.0",
+    "hankel >=1.0.2",
+    "pyevtk >=1.1.1"
+   ]
+  },
+  "source":{
+   "sha256":"14f6b1f276c63b03260d0159afab122dfc4e122dd58676f684d25d8ec33eb016",
+   "url":"https://pypi.io/packages/source/g/gstools/gstools-1.2.1.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "pytest -vv tests",
+    "pytest -vv tests",
+    "pytest -vv tests"
+   ],
+   "imports":[
+    "gstools",
+    "gstools",
+    "gstools"
+   ],
+   "requires":[
+    "pytest",
+    "pytest",
+    "pytest"
+   ],
+   "source_files":[
+    "tests",
+    "tests",
+    "tests"
+   ]
+  }
+ },
+ "name":"gstools",
+ "new_version":"1.2.1",
+ "new_version_attempts":{
+  "1.2.1":1
+ },
+ "new_version_errors":{},
+ "pinning_version":"2020.04.14.12.02.49",
+ "raw_meta_yaml":"{% set name = \"gstools\" %}\n{% set version = \"1.2.1\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: 14f6b1f276c63b03260d0159afab122dfc4e122dd58676f684d25d8ec33eb016\n\nbuild:\n  number: 0\n  script:\n    - {{ PYTHON }} -m pip install . --no-deps --global-option=\"--openmp\" -vv\n\nrequirements:\n  build:\n    - llvm-openmp\n    - {{ compiler('c') }}\n    - {{ compiler('cxx') }}\n  host:\n    - llvm-openmp\n    - pip\n    - python\n    - setuptools >=45\n    - setuptools_scm >=3.4\n    - cython >=0.28.3\n    - numpy >=1.14.5\n  run:\n    - llvm-openmp\n    - python\n    - {{ pin_compatible('numpy') }}\n    - scipy >=1.1.0\n    - emcee >=3.0.0\n    - hankel >=1.0.2\n    - pyevtk >=1.1.1\n\ntest:\n  imports:\n    - gstools\n  requires:\n    - pytest\n  source_files:\n    - tests\n  commands:\n    - pytest -vv tests\n\nabout:\n  home: https://github.com/GeoStat-Framework/GSTools\n  license: GNU Lesser General Public v3 (LGPLv3)\n  license_family: LGPL\n  license_file: LICENSE\n  summary: 'GSTools: A geostatistical toolbox.'\n  description: |\n    GeoStatTools provides geostatistical tools for various purposes:\n    - random field generation\n    - conditioned field generation\n    - incompressible random vector field generation\n    - simple and ordinary kriging\n    - variogram estimation and fitting\n    - many readily provided and even user-defined covariance models\n    - plotting and exporting routines\n  doc_url: https://geostat-framework.readthedocs.io/projects/gstools\n  dev_url: https://github.com/GeoStat-Framework/GSTools\n\nextra:\n  recipe-maintainers:\n    - MuellerSeb\n    - LSchueler\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "c_compiler_stub",
+   "cxx_compiler_stub",
+   "cython",
+   "emcee",
+   "hankel",
+   "llvm-openmp",
+   "numpy",
+   "pip",
+   "pyevtk",
+   "python",
+   "scipy",
+   "setuptools",
+   "setuptools_scm"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "llvm-openmp"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "cython",
+    "llvm-openmp",
+    "numpy",
+    "pip",
+    "python",
+    "setuptools",
+    "setuptools_scm"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "emcee",
+    "hankel",
+    "llvm-openmp",
+    "numpy",
+    "pyevtk",
+    "python",
+    "scipy"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "pytest"
+   ]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.6.16",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "llvm-openmp"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "cython >=0.28.3",
+    "llvm-openmp",
+    "numpy >=1.14.5",
+    "pip",
+    "python",
+    "setuptools >=45",
+    "setuptools_scm >=3.4"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "emcee >=3.0.0",
+    "hankel >=1.0.2",
+    "llvm-openmp",
+    "numpy",
+    "pyevtk >=1.1.1",
+    "python",
+    "scipy >=1.1.0"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "pytest"
+   ]
+  }
+ },
+ "url":"https://pypi.io/packages/source/g/gstools/gstools-1.1.1.tar.gz",
+ "version":"1.2.1"
+}

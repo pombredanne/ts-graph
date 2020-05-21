@@ -1,0 +1,207 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/419683180.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"python38"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"cf-python",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"https://pypi.org/project/cf-python/",
+   "license":"MIT",
+   "license_file":"LICENSE",
+   "summary":"A CF-compliant earth science data analysis library"
+  },
+  "build":{
+   "number":"0",
+   "script":"-m pip install . -vv",
+   "skip":true
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "ocefpaf",
+    "ocefpaf",
+    "ocefpaf"
+   ]
+  },
+  "package":{
+   "name":"cf-python",
+   "version":"3.4.0"
+  },
+  "requirements":{
+   "build":[
+    "c_compiler_stub",
+    "make",
+    "c_compiler_stub",
+    "make",
+    "c_compiler_stub",
+    "make"
+   ],
+   "host":[
+    "python",
+    "pip",
+    "python",
+    "pip",
+    "python",
+    "pip"
+   ],
+   "run":[
+    "python",
+    "cfdm ==1.8.3",
+    "cftime >=1.1.1",
+    "cfunits >=3.2.5",
+    "netcdf4 >=1.5.3",
+    "numpy >=1.15",
+    "psutil >=0.6.0",
+    "python",
+    "cfdm ==1.8.3",
+    "cftime >=1.1.1",
+    "cfunits >=3.2.5",
+    "netcdf4 >=1.5.3",
+    "numpy >=1.15",
+    "psutil >=0.6.0",
+    "python",
+    "cfdm ==1.8.3",
+    "cftime >=1.1.1",
+    "cfunits >=3.2.5",
+    "netcdf4 >=1.5.3",
+    "numpy >=1.15",
+    "psutil >=0.6.0"
+   ]
+  },
+  "source":{
+   "sha256":"d7622d60357811599352a31cce9d8055ed82fc3710db498ee2d376d52726d50a",
+   "url":"https://pypi.io/packages/source/c/cf-python/cf-python-3.4.0.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "pip check",
+    "pip check",
+    "pip check"
+   ],
+   "imports":[
+    "cf",
+    "cf.abstract",
+    "cf",
+    "cf.abstract",
+    "cf",
+    "cf.abstract"
+   ],
+   "requires":[
+    "pip",
+    "pip",
+    "pip"
+   ]
+  }
+ },
+ "name":"cf-python",
+ "new_version":"3.4.0",
+ "pinning_version":"2020.05.18.14.31.44",
+ "raw_meta_yaml":"{% set name = \"cf-python\" %}\n{% set version = \"3.4.0\" %}\n\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: d7622d60357811599352a31cce9d8055ed82fc3710db498ee2d376d52726d50a\n\nbuild:\n  number: 0\n  skip: True  # [win or py2k]\n  script: {{ PYTHON }} -m pip install . -vv\n\nrequirements:\n  build:\n    - {{ compiler('c') }}\n    - make\n  host:\n    - python\n    - pip\n  run:\n    - python\n    - cfdm ==1.8.3\n    - cftime >=1.1.1\n    - cfunits >=3.2.5\n    - netcdf4 >=1.5.3\n    - numpy >=1.15\n    - psutil >=0.6.0\n\ntest:\n  imports:\n    - cf\n    - cf.abstract\n  commands:\n    - pip check\n  requires:\n    - pip\n\nabout:\n  home: https://pypi.org/project/cf-python/\n  summary: A CF-compliant earth science data analysis library\n  license: MIT\n  license_file: LICENSE\n\nextra:\n  recipe-maintainers:\n    - ocefpaf\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "c_compiler_stub",
+   "cfdm",
+   "cftime",
+   "cfunits",
+   "make",
+   "netcdf4",
+   "numpy",
+   "pip",
+   "psutil",
+   "python"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "make"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "cfdm",
+    "cftime",
+    "cfunits",
+    "netcdf4",
+    "numpy",
+    "psutil",
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "pip"
+   ]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.7.3\n",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "make"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "cfdm ==1.8.3",
+    "cftime >=1.1.1",
+    "cfunits >=3.2.5",
+    "netcdf4 >=1.5.3",
+    "numpy >=1.15",
+    "psutil >=0.6.0",
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "pip"
+   ]
+  }
+ },
+ "url":"https://pypi.io/packages/source/c/cf-python/cf-python-3.4.0.tar.gz",
+ "version":"3.4.0"
+}

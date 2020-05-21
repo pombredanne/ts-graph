@@ -1,0 +1,154 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/336037380.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"python38"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"jupyterhub-systemdspawner",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"If you want to use Linux Containers (Docker, rkt, etc) for isolation and\nsecurity benefits, but don't want the headache and complexity of container\nimage management, then you should use the SystemdSpawner.\n\nWith the systemdspawner, you get to use the familiar, traditional system\nadministration tools, whether you love or meh them, without having to learn\nan extra layer of container related tooling.\n",
+   "dev_url":"https://github.com/jupyterhub/systemdspawner",
+   "doc_url":"https://github.com/jupyterhub/systemdspawner",
+   "home":"https://github.com/jupyterhub/systemdspawner",
+   "license":"BSD-3-Clause",
+   "license_family":"BSD",
+   "license_file":"LICENSE",
+   "summary":"JupyterHub Spawner using systemd for resource isolation"
+  },
+  "build":{
+   "number":"0",
+   "script":" -m pip install . -vv ",
+   "skip":true
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "mwcraig",
+    "mwcraig",
+    "mwcraig"
+   ]
+  },
+  "package":{
+   "name":"jupyterhub-systemdspawner",
+   "version":"0.13"
+  },
+  "requirements":{
+   "host":[
+    "pip",
+    "python",
+    "pip",
+    "python",
+    "pip",
+    "python"
+   ],
+   "run":[
+    "jupyterhub >=0.9",
+    "python",
+    "tornado >=5.0",
+    "jupyterhub >=0.9",
+    "python",
+    "tornado >=5.0",
+    "jupyterhub >=0.9",
+    "python",
+    "tornado >=5.0"
+   ]
+  },
+  "source":{
+   "sha256":"542fba3d42c6f423f893d25eba33cc295a482bfa9de0b1fdc9e01f9f3df737bb",
+   "url":"https://pypi.io/packages/source/j/jupyterhub-systemdspawner/jupyterhub-systemdspawner-0.13.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "systemdspawner",
+    "systemdspawner",
+    "systemdspawner"
+   ]
+  }
+ },
+ "name":"jupyterhub-systemdspawner",
+ "new_version":"0.13",
+ "pinning_version":"2019.11.01",
+ "raw_meta_yaml":"{% set name = \"jupyterhub-systemdspawner\" %}\n{% set version = \"0.13\" %}\n\npackage:\n  name: \"{{ name|lower }}\"\n  version: \"{{ version }}\"\n\nsource:\n  url: \"https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\"\n  sha256: \"542fba3d42c6f423f893d25eba33cc295a482bfa9de0b1fdc9e01f9f3df737bb\"\n\nbuild:\n  number: 0\n  skip: true  # [osx or win or py2k]\n  script: \"{{ PYTHON }} -m pip install . -vv \"\n\nrequirements:\n  host:\n    - pip\n    - python\n  run:\n    - jupyterhub >=0.9\n    - python\n    - tornado >=5.0\n\ntest:\n  imports:\n    - systemdspawner\n\nabout:\n  home: \"https://github.com/jupyterhub/systemdspawner\"\n  license: \"BSD-3-Clause\"\n  license_family: \"BSD\"\n  license_file: \"LICENSE\"\n  summary: \"JupyterHub Spawner using systemd for resource isolation\"\n  description: |\n    If you want to use Linux Containers (Docker, rkt, etc) for isolation and\n    security benefits, but don't want the headache and complexity of container\n    image management, then you should use the SystemdSpawner.\n\n    With the systemdspawner, you get to use the familiar, traditional system\n    administration tools, whether you love or meh them, without having to learn\n    an extra layer of container related tooling.\n  doc_url: \"https://github.com/jupyterhub/systemdspawner\"\n  dev_url: \"https://github.com/jupyterhub/systemdspawner\"\n\nextra:\n  recipe-maintainers:\n    - mwcraig\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "jupyterhub",
+   "pip",
+   "python",
+   "tornado"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "jupyterhub",
+    "python",
+    "tornado"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.6.1",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "jupyterhub >=0.9",
+    "python",
+    "tornado >=5.0"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/j/jupyterhub-systemdspawner/jupyterhub-systemdspawner-0.13.tar.gz",
+ "version":"0.13"
+}

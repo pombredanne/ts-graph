@@ -1,0 +1,187 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/417760500.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.0.3"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"zfit-physics",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "dev_url":"https://github.com/zfit/zfit-physics",
+   "home":"https://github.com/zfit/zfit-physics",
+   "license":"BSD-3-Clause",
+   "license_family":"BSD",
+   "license_file":"LICENSE",
+   "summary":"Physics extension to zfit"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . -vv "
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "chrisburr",
+    "mayou36",
+    "chrisburr",
+    "mayou36",
+    "chrisburr",
+    "mayou36"
+   ]
+  },
+  "package":{
+   "name":"zfit-physics",
+   "version":"0.0.3"
+  },
+  "requirements":{
+   "host":[
+    "pip",
+    "python >=3.6,<3.8",
+    "setuptools_scm",
+    "setuptools_scm_git_archive",
+    "pip",
+    "python >=3.6,<3.8",
+    "setuptools_scm",
+    "setuptools_scm_git_archive",
+    "pip",
+    "python >=3.6,<3.8",
+    "setuptools_scm",
+    "setuptools_scm_git_archive"
+   ],
+   "run":[
+    "python >=3.6,<3.8",
+    "numpy",
+    "zfit >=0.5.1",
+    "decorator",
+    "cloudpickle >=0.6.1",
+    "python >=3.6,<3.8",
+    "numpy",
+    "zfit >=0.5.1",
+    "decorator",
+    "cloudpickle >=0.6.1",
+    "python >=3.6,<3.8",
+    "numpy",
+    "zfit >=0.5.1",
+    "decorator",
+    "cloudpickle >=0.6.1"
+   ]
+  },
+  "source":{
+   "sha256":"1fc7f77e220dc526c04bec04450454f758d78dcf4bfe3e7ef49cb9e01a937e2d",
+   "url":"https://github.com/zfit/zfit-physics/archive/0.0.3.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "zfit_physics",
+    "zfit_physics.models",
+    "zfit_physics.unstable",
+    "zfit_physics",
+    "zfit_physics.models",
+    "zfit_physics.unstable",
+    "zfit_physics",
+    "zfit_physics.models",
+    "zfit_physics.unstable"
+   ]
+  }
+ },
+ "name":"zfit-physics",
+ "new_version":"0.0.3",
+ "new_version_attempts":{
+  "0.0.3":1
+ },
+ "new_version_errors":{},
+ "pinning_version":"2020.05.13.13.23.43",
+ "raw_meta_yaml":"{% set name = \"zfit-physics\" %}\n{% set version = \"0.0.3\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://github.com/zfit/zfit-physics/archive/{{ version }}.tar.gz\n  sha256: 1fc7f77e220dc526c04bec04450454f758d78dcf4bfe3e7ef49cb9e01a937e2d\n\nbuild:\n  number: 0\n  script: '{{ PYTHON }} -m pip install . -vv '\n  noarch: python\n\nrequirements:\n  host:\n    - pip\n    - python >=3.6,<3.8\n    - setuptools_scm\n    - setuptools_scm_git_archive\n  run:\n    - python >=3.6,<3.8\n    - numpy\n    - zfit >=0.5.1\n    # Workaround for https://github.com/conda-forge/tensorflow-probability-feedstock/pull/11\n    - decorator\n    - cloudpickle >=0.6.1\n\ntest:\n  imports:\n    - zfit_physics\n    - zfit_physics.models\n    - zfit_physics.unstable\n\nabout:\n  home: https://github.com/zfit/zfit-physics\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: LICENSE\n  summary: Physics extension to zfit\n  dev_url: https://github.com/zfit/zfit-physics\n\nextra:\n  recipe-maintainers:\n    - chrisburr\n    - mayou36\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "cloudpickle",
+   "decorator",
+   "numpy",
+   "pip",
+   "python",
+   "setuptools_scm",
+   "setuptools_scm_git_archive",
+   "zfit"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python",
+    "setuptools_scm",
+    "setuptools_scm_git_archive"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "cloudpickle",
+    "decorator",
+    "numpy",
+    "python",
+    "zfit"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.7.1\n",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3.6,<3.8",
+    "setuptools_scm",
+    "setuptools_scm_git_archive"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "cloudpickle >=0.6.1",
+    "decorator",
+    "numpy",
+    "python >=3.6,<3.8",
+    "zfit >=0.5.1"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://github.com/zfit/zfit-physics/archive/0.0.2.tar.gz",
+ "version":"0.0.3"
+}

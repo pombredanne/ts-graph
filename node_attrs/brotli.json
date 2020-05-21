@@ -1,0 +1,262 @@
+{
+ "PRed":[
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.0.4"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/198230600.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.0.5"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/215214597.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/216633818.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.0.6"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/224950967.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.0.7"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/287648398.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"ArchRebuild",
+    "migrator_version":1,
+    "name":"aarch64 and ppc64le addition"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "compiler_stack":"comp7",
+  "max_py_ver":"37",
+  "max_r_ver":"35",
+  "provider":{
+   "linux_aarch64":"default",
+   "linux_ppc64le":"default",
+   "win":"azure"
+  }
+ },
+ "feedstock_name":"brotli",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"http://github.com/google/brotli",
+   "license":"MIT",
+   "license_file":"LICENSE",
+   "summary":"Brotli compression format"
+  },
+  "build":{
+   "number":"1001",
+   "skip":true
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "wesm",
+    "xhochy",
+    "CJ-Wright",
+    "wesm",
+    "xhochy",
+    "CJ-Wright",
+    "wesm",
+    "xhochy",
+    "CJ-Wright"
+   ]
+  },
+  "package":{
+   "name":"brotli",
+   "version":"1.0.7"
+  },
+  "requirements":{
+   "build":[
+    "cmake",
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "ninja",
+    "cmake",
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "ninja",
+    "cmake",
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "ninja"
+   ],
+   "host":null
+  },
+  "source":{
+   "fn":"brotli-1.0.7.tar.gz",
+   "sha256":"4c61bfb0faca87219ea587326c467b95acb25555b53d1a421ffa3c8a9296ee2c",
+   "url":"https://github.com/google/brotli/archive/v1.0.7.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "brotli --help",
+    "if not exist %LIBRARY_BIN%\\\\brotli.exe exit 1",
+    "if not exist %LIBRARY_BIN%\\\\brotlicommon.dll exit 1",
+    "if not exist %LIBRARY_BIN%\\\\brotlidec.dll exit 1",
+    "if not exist %LIBRARY_BIN%\\\\brotlienc.dll exit 1",
+    "if not exist %LIBRARY_LIB%\\\\brotlicommon.lib exit 1",
+    "if not exist %LIBRARY_LIB%\\\\brotlicommon-static.lib exit 1",
+    "if not exist %LIBRARY_LIB%\\\\brotlidec.lib exit 1",
+    "if not exist %LIBRARY_LIB%\\\\brotlidec-static.lib exit 1",
+    "if not exist %LIBRARY_LIB%\\\\brotlienc.lib exit 1",
+    "if not exist %LIBRARY_LIB%\\\\brotlienc-static.lib exit 1",
+    "if not exist %LIBRARY_INC%\\\\brotli\\\\encode.h exit 1",
+    "brotli --help",
+    "test -f $PREFIX/lib/libbrotlienc$SHLIB_EXT",
+    "test -f $PREFIX/lib/libbrotlienc-static.a",
+    "test -f $PREFIX/lib/libbrotlidec$SHLIB_EXT",
+    "test -f $PREFIX/lib/libbrotlidec-static.a",
+    "test -f $PREFIX/lib/libbrotlicommon$SHLIB_EXT",
+    "test -f $PREFIX/lib/libbrotlicommon-static.a",
+    "test -f $PREFIX/include/brotli/encode.h",
+    "brotli --help",
+    "test -f $PREFIX/lib/libbrotlienc$SHLIB_EXT",
+    "test -f $PREFIX/lib/libbrotlienc-static.a",
+    "test -f $PREFIX/lib/libbrotlidec$SHLIB_EXT",
+    "test -f $PREFIX/lib/libbrotlidec-static.a",
+    "test -f $PREFIX/lib/libbrotlicommon$SHLIB_EXT",
+    "test -f $PREFIX/lib/libbrotlicommon-static.a",
+    "test -f $PREFIX/include/brotli/encode.h"
+   ]
+  }
+ },
+ "name":"brotli",
+ "new_version":"1.0.7",
+ "pinning_version":"2019.06.09",
+ "raw_meta_yaml":"{% set version = \"1.0.7\" %}\n\npackage:\n  name: brotli\n  version: {{ version }}\n\nsource:\n  fn: brotli-{{ version }}.tar.gz\n  url: https://github.com/google/brotli/archive/v{{ version }}.tar.gz\n  sha256: 4c61bfb0faca87219ea587326c467b95acb25555b53d1a421ffa3c8a9296ee2c\n\nbuild:\n  number: 1001\n  skip: true  # [win and vc<14]\n\n\nrequirements:\n  build:\n    - cmake\n    - {{ compiler('c') }}\n    - {{ compiler('cxx') }}\n    - ninja\n  host:\n\ntest:\n  commands:\n    - brotli --help\n    - test -f $PREFIX/lib/libbrotlienc$SHLIB_EXT     # [unix]\n    - test -f $PREFIX/lib/libbrotlienc-static.a      # [unix]\n    - test -f $PREFIX/lib/libbrotlidec$SHLIB_EXT     # [unix]\n    - test -f $PREFIX/lib/libbrotlidec-static.a      # [unix]\n    - test -f $PREFIX/lib/libbrotlicommon$SHLIB_EXT  # [unix]\n    - test -f $PREFIX/lib/libbrotlicommon-static.a   # [unix]\n    - test -f $PREFIX/include/brotli/encode.h        # [unix]\n    - if not exist %LIBRARY_BIN%\\\\brotli.exe exit 1               # [win]\n    - if not exist %LIBRARY_BIN%\\\\brotlicommon.dll exit 1         # [win]\n    - if not exist %LIBRARY_BIN%\\\\brotlidec.dll exit 1            # [win]\n    - if not exist %LIBRARY_BIN%\\\\brotlienc.dll exit 1            # [win]\n    - if not exist %LIBRARY_LIB%\\\\brotlicommon.lib exit 1         # [win]\n    - if not exist %LIBRARY_LIB%\\\\brotlicommon-static.lib exit 1  # [win]\n    - if not exist %LIBRARY_LIB%\\\\brotlidec.lib exit 1            # [win]\n    - if not exist %LIBRARY_LIB%\\\\brotlidec-static.lib exit 1     # [win]\n    - if not exist %LIBRARY_LIB%\\\\brotlienc.lib exit 1            # [win]\n    - if not exist %LIBRARY_LIB%\\\\brotlienc-static.lib exit 1     # [win]\n    - if not exist %LIBRARY_INC%\\\\brotli\\\\encode.h exit 1         # [win]\n\nabout:\n  home: http://github.com/google/brotli\n  license: MIT\n  license_file: LICENSE\n  summary: 'Brotli compression format'\n\nextra:\n  recipe-maintainers:\n    - wesm\n    - xhochy\n    - CJ-Wright\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "c_compiler_stub",
+   "cmake",
+   "cxx_compiler_stub",
+   "ninja"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "cmake",
+    "cxx_compiler_stub",
+    "ninja"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.3.7",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "cmake",
+    "cxx_compiler_stub",
+    "ninja"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://github.com/google/brotli/archive/v1.0.7.tar.gz",
+ "version":"1.0.7"
+}

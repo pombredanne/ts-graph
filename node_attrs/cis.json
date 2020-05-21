@@ -1,0 +1,343 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/200147047.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Noarch",
+    "migrator_version":0
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/233394352.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/248585476.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.7.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/260525000.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.7.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/340730616.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"python38"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/374970730.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MatplotlibBase",
+    "migrator_version":0,
+    "name":"matplotlib-to-matplotlib-base"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "compiler_stack":"comp7",
+  "max_py_ver":"37",
+  "max_r_ver":"35",
+  "provider":{
+   "win":"azure"
+  }
+ },
+ "feedstock_name":"cis",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"http://www.cistools.net",
+   "license":"LGPL-3.0",
+   "license_file":"COPYING",
+   "summary":"Community Inter-comparison Suite"
+  },
+  "build":{
+   "number":"0",
+   "script":" -m pip install . -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "duncanwp",
+    "duncanwp",
+    "duncanwp"
+   ]
+  },
+  "package":{
+   "name":"cis",
+   "version":"1.7.1"
+  },
+  "requirements":{
+   "host":[
+    "python",
+    "pip",
+    "matplotlib >=2,<3",
+    "netcdf4 >=1.0",
+    "numpy >=1.10,<1.16",
+    "scipy",
+    "iris >=2.0.0",
+    "psutil",
+    "pandas",
+    "pyhamcrest",
+    "python",
+    "pip",
+    "matplotlib >=2,<3",
+    "netcdf4 >=1.0",
+    "numpy >=1.10,<1.16",
+    "scipy",
+    "iris >=2.0.0",
+    "pyhdf",
+    "psutil",
+    "pandas",
+    "pyhamcrest",
+    "python",
+    "pip",
+    "matplotlib >=2,<3",
+    "netcdf4 >=1.0",
+    "numpy >=1.10,<1.16",
+    "scipy",
+    "iris >=2.0.0",
+    "pyhdf",
+    "psutil",
+    "pandas",
+    "pyhamcrest"
+   ],
+   "run":[
+    "python",
+    "matplotlib >=2,<3",
+    "netcdf4 >=1.0",
+    "numpy",
+    "scipy",
+    "iris >=2.0.0",
+    "psutil",
+    "pandas",
+    "python",
+    "matplotlib >=2,<3",
+    "netcdf4 >=1.0",
+    "numpy",
+    "scipy",
+    "iris >=2.0.0",
+    "pyhdf",
+    "psutil",
+    "pandas",
+    "python",
+    "matplotlib >=2,<3",
+    "netcdf4 >=1.0",
+    "numpy",
+    "scipy",
+    "iris >=2.0.0",
+    "pyhdf",
+    "psutil",
+    "pandas"
+   ]
+  },
+  "source":{
+   "sha256":"adb0c5de1b828b1e1e9c1d1b7996ca4a9c7cbf01c8b80987427a5f723a89cc8a",
+   "url":"https://github.com/cedadev/cis/archive/1.7.1.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "cis version",
+    "cis version",
+    "cis version"
+   ],
+   "imports":[
+    "cis",
+    "cis",
+    "cis"
+   ],
+   "requires":[
+    "mock",
+    "nose",
+    "pyhamcrest",
+    "mock",
+    "nose",
+    "pyhamcrest",
+    "mock",
+    "nose",
+    "pyhamcrest"
+   ]
+  }
+ },
+ "name":"cis",
+ "new_version":"1.7.1",
+ "pinning_version":"2020.02.12",
+ "raw_meta_yaml":"{% set version = \"1.7.1\" %}\n\npackage:\n  name: cis\n  version: {{ version }}\n\nsource:\n  url: https://github.com/cedadev/cis/archive/{{ version }}.tar.gz\n  sha256: adb0c5de1b828b1e1e9c1d1b7996ca4a9c7cbf01c8b80987427a5f723a89cc8a\n\nbuild:\n  number: 0\n  script: \"{{ PYTHON }} -m pip install . -vv\"\n\nrequirements:\n  host:\n    - python\n    - pip\n    - matplotlib >=2,<3\n    - netcdf4 >=1.0\n    - numpy >=1.10,<1.16\n    - scipy\n    - iris >=2.0.0\n    - pyhdf  # [not win]\n    - psutil\n    - pandas\n    - pyhamcrest\n  run:\n    - python\n    - matplotlib >=2,<3\n    - netcdf4 >=1.0\n    - {{ pin_compatible('numpy') }}\n    - scipy\n    - iris >=2.0.0\n    - pyhdf  # [not win]\n    - psutil\n    - pandas\n\ntest:\n  imports:\n    - cis\n  commands:\n    - cis version\n  requires:\n    - mock\n    - nose\n    - pyhamcrest\n\nabout:\n  home: http://www.cistools.net\n  license: LGPL-3.0\n  license_file: COPYING\n  summary: 'Community Inter-comparison Suite'\n\nextra:\n  recipe-maintainers:\n    - duncanwp\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "iris",
+   "matplotlib",
+   "netcdf4",
+   "numpy",
+   "pandas",
+   "pip",
+   "psutil",
+   "pyhamcrest",
+   "pyhdf",
+   "python",
+   "scipy"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "iris",
+    "matplotlib",
+    "netcdf4",
+    "numpy",
+    "pandas",
+    "pip",
+    "psutil",
+    "pyhamcrest",
+    "pyhdf",
+    "python",
+    "scipy"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "iris",
+    "matplotlib",
+    "netcdf4",
+    "numpy",
+    "pandas",
+    "psutil",
+    "pyhdf",
+    "python",
+    "scipy"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "mock",
+    "nose",
+    "pyhamcrest"
+   ]
+  }
+ },
+ "smithy_version":"3.6.8",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "iris >=2.0.0",
+    "matplotlib >=2,<3",
+    "netcdf4 >=1.0",
+    "numpy >=1.10,<1.16",
+    "pandas",
+    "pip",
+    "psutil",
+    "pyhamcrest",
+    "pyhdf",
+    "python",
+    "scipy"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "iris >=2.0.0",
+    "matplotlib >=2,<3",
+    "netcdf4 >=1.0",
+    "numpy",
+    "pandas",
+    "psutil",
+    "pyhdf",
+    "python",
+    "scipy"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "mock",
+    "nose",
+    "pyhamcrest"
+   ]
+  }
+ },
+ "url":"https://github.com/cedadev/cis/archive/1.7.1.tar.gz",
+ "version":"1.7.1"
+}

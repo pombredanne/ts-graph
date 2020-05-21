@@ -1,0 +1,233 @@
+{
+ "PRed":[
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.2.6"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/200482888.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Noarch",
+    "migrator_version":0
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/233377993.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/337535376.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"python38"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "compiler_stack":"comp7",
+  "max_py_ver":"37",
+  "max_r_ver":"35"
+ },
+ "feedstock_name":"ipypivot",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"This is a jupyter widget (or ipywidget) wrapping the very convenient pivotTable.js library.\nIt enables to display and embed a pivotTable in a Jupyter notebook in a few Python lines.\n",
+   "dev_url":"https://github.com/PierreMarion23/ipypivot",
+   "home":"https://github.com/PierreMarion23/ipypivot",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"LICENSE",
+   "summary":"A jupyter widget (or ipywidget) wrapping the very convenient pivotTable.js library"
+  },
+  "build":{
+   "number":"1000",
+   "script":"python setup.py install --single-version-externally-managed --record record.txt"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "PierreMarion23",
+    "ocoudray",
+    "oscar6echo",
+    "PierreMarion23",
+    "ocoudray",
+    "oscar6echo",
+    "PierreMarion23",
+    "ocoudray",
+    "oscar6echo"
+   ]
+  },
+  "package":{
+   "name":"ipypivot",
+   "version":"0.2.6"
+  },
+  "requirements":{
+   "build":[
+    "python",
+    "setuptools",
+    "jupyter",
+    "python",
+    "setuptools",
+    "jupyter",
+    "python",
+    "setuptools",
+    "jupyter"
+   ],
+   "run":[
+    "python",
+    "ipywidgets >=7.0.0,<8.0",
+    "traitlets >=4.3.0,<5.0",
+    "traittypes >=0.0.6",
+    "numpy >=1.10.4",
+    "pandas",
+    "python",
+    "ipywidgets >=7.0.0,<8.0",
+    "traitlets >=4.3.0,<5.0",
+    "traittypes >=0.0.6",
+    "numpy >=1.10.4",
+    "pandas",
+    "python",
+    "ipywidgets >=7.0.0,<8.0",
+    "traitlets >=4.3.0,<5.0",
+    "traittypes >=0.0.6",
+    "numpy >=1.10.4",
+    "pandas"
+   ]
+  },
+  "source":{
+   "fn":"ipypivot-0.2.6.tar.gz",
+   "sha256":"a000076319285f05a8cf8988098cf3fcefcdbbc609765b45e2e86a0362ff096c",
+   "url":"https://pypi.io/packages/source/i/ipypivot/ipypivot-0.2.6.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "ipypivot",
+    "ipypivot",
+    "ipypivot"
+   ]
+  }
+ },
+ "name":"ipypivot",
+ "new_version":"0.2.6",
+ "pinning_version":"2019.11.01",
+ "raw_meta_yaml":"{% set version = \"0.2.6\" %}\n{% set sha256 = \"a000076319285f05a8cf8988098cf3fcefcdbbc609765b45e2e86a0362ff096c\" %}\n\npackage:\n  name: ipypivot\n  version: {{ version }}\n\nsource:\n  fn: ipypivot-{{ version }}.tar.gz\n  url: https://pypi.io/packages/source/i/ipypivot/ipypivot-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 1000\n  script: python setup.py install --single-version-externally-managed --record record.txt\n\nrequirements:\n    build:\n        - python\n        - setuptools\n        - jupyter\n    run:\n        - python\n        - ipywidgets >=7.0.0,<8.0\n        - traitlets >=4.3.0,<5.0\n        - traittypes >=0.0.6\n        - numpy >=1.10.4\n        - pandas\n\ntest:\n    imports:\n        - ipypivot\n\nabout:\n  home: https://github.com/PierreMarion23/ipypivot\n  license: MIT\n  license_file: LICENSE\n  license_family: MIT\n  summary: 'A jupyter widget (or ipywidget) wrapping the very convenient pivotTable.js library'\n\n  description: |\n    This is a jupyter widget (or ipywidget) wrapping the very convenient pivotTable.js library.\n    It enables to display and embed a pivotTable in a Jupyter notebook in a few Python lines.\n  dev_url: https://github.com/PierreMarion23/ipypivot\n\nextra:\n  recipe-maintainers:\n    - PierreMarion23\n    - ocoudray\n    - oscar6echo\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "ipywidgets",
+   "jupyter",
+   "numpy",
+   "pandas",
+   "python",
+   "setuptools",
+   "traitlets",
+   "traittypes"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "jupyter",
+    "python",
+    "setuptools"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "ipywidgets",
+    "numpy",
+    "pandas",
+    "python",
+    "traitlets",
+    "traittypes"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.6.1",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "jupyter",
+    "python",
+    "setuptools"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "ipywidgets >=7.0.0,<8.0",
+    "numpy >=1.10.4",
+    "pandas",
+    "python",
+    "traitlets >=4.3.0,<5.0",
+    "traittypes >=0.0.6"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/i/ipypivot/ipypivot-0.2.6.tar.gz",
+ "version":"0.2.6"
+}

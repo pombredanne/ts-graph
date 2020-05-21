@@ -1,0 +1,126 @@
+{
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"yagmail",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"https://github.com/kootenpv/yagmail",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"LICENSE",
+   "summary":"Yet Another GMAIL client"
+  },
+  "build":{
+   "entry_points":[
+    "yagmail = yagmail.__main__:main",
+    "yagmail = yagmail.__main__:main",
+    "yagmail = yagmail.__main__:main"
+   ],
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "setu4993",
+    "setu4993",
+    "setu4993"
+   ]
+  },
+  "package":{
+   "name":"yagmail",
+   "version":"0.11.224"
+  },
+  "requirements":{
+   "host":[
+    "pip",
+    "python",
+    "pip",
+    "python",
+    "pip",
+    "python"
+   ],
+   "run":[
+    "python",
+    "python",
+    "python"
+   ]
+  },
+  "source":{
+   "sha256":"ca5ff7eee3c190eedd7cbdf05bff69c5c0ae357aef64f89dcc42e4872c6ebe7c",
+   "url":"https://pypi.io/packages/source/y/yagmail/yagmail-0.11.224.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "yagmail --help",
+    "yagmail --help",
+    "yagmail --help"
+   ],
+   "imports":[
+    "yagmail",
+    "yagmail",
+    "yagmail"
+   ]
+  }
+ },
+ "name":"yagmail",
+ "new_version":"0.11.224",
+ "raw_meta_yaml":"{% set name = \"yagmail\" %}\n{% set version = \"0.11.224\" %}\n\npackage:\n  name: \"{{ name|lower }}\"\n  version: \"{{ version }}\"\n\nsource:\n  url: \"https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\"\n  sha256: ca5ff7eee3c190eedd7cbdf05bff69c5c0ae357aef64f89dcc42e4872c6ebe7c\n\nbuild:\n  number: 0\n  noarch: python\n  entry_points:\n    - yagmail = yagmail.__main__:main\n  script: \"{{ PYTHON }} -m pip install . -vv\"\n\nrequirements:\n  host:\n    - pip\n    - python\n  run:\n    - python\n\ntest:\n  imports:\n    - yagmail\n  commands:\n    - yagmail --help\n\nabout:\n  home: \"https://github.com/kootenpv/yagmail\"\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE\n  summary: \"Yet Another GMAIL client\"\n\nextra:\n  recipe-maintainers:\n    - setu4993\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "pip",
+   "python"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/y/yagmail/yagmail-0.11.224.tar.gz",
+ "version":"0.11.224"
+}

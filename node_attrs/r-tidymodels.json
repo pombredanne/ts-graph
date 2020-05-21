@@ -1,0 +1,459 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/241562882.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/299533333.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"RBaseRebuild",
+    "migrator_version":0,
+    "name":"r-base-3.6.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/375874390.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.1.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/414040191.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":2,
+    "migrator_version":0,
+    "name":"r400"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "bot":{
+   "automerge":true
+  },
+  "provider":{
+   "win":"azure"
+  }
+ },
+ "feedstock_name":"r-tidymodels",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"https://github.com/tidymodels/tidymodels",
+   "license":"GPL-3",
+   "license_family":"GPL3",
+   "license_file":"/lib/R/share/licenses/GPL-3",
+   "summary":"The tidy modeling \"verse\" is a collection of packages for  modeling and statistical analysis that share the underlying design philosophy, grammar, and data structures of the tidyverse."
+  },
+  "build":{
+   "merge_build_host":true,
+   "noarch":"generic",
+   "number":"1",
+   "rpaths":[
+    "lib/R/lib/",
+    "lib/",
+    "lib/R/lib/",
+    "lib/",
+    "lib/R/lib/",
+    "lib/"
+   ]
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "conda-forge/r",
+    "philip-khor",
+    "conda-forge/r",
+    "philip-khor",
+    "conda-forge/r",
+    "philip-khor"
+   ]
+  },
+  "package":{
+   "name":"r-tidymodels",
+   "version":"0.1.0"
+  },
+  "requirements":{
+   "build":null,
+   "host":[
+    "r-base",
+    "r-broom >=0.5.4",
+    "r-cli >=2.0.1",
+    "r-crayon >=1.3.4",
+    "r-dials >=0.0.4",
+    "r-dplyr >=0.8.4",
+    "r-ggplot2 >=3.2.1",
+    "r-infer >=0.5.1",
+    "r-magrittr >=1.5",
+    "r-parsnip >=0.0.5",
+    "r-pillar >=1.4.2",
+    "r-purrr >=0.3.3",
+    "r-recipes >=0.1.9",
+    "r-rlang >=0.4.4",
+    "r-rsample >=0.0.5",
+    "r-rstudioapi >=0.11",
+    "r-tibble >=2.1.3",
+    "r-tidytext >=0.2.2",
+    "r-tidypredict >=0.4.3",
+    "r-tidyposterior >=0.0.2",
+    "r-tune >=0.0.1",
+    "r-workflows >=0.1.0",
+    "r-yardstick >=0.0.4",
+    "r-base",
+    "r-broom >=0.5.4",
+    "r-cli >=2.0.1",
+    "r-crayon >=1.3.4",
+    "r-dials >=0.0.4",
+    "r-dplyr >=0.8.4",
+    "r-ggplot2 >=3.2.1",
+    "r-infer >=0.5.1",
+    "r-magrittr >=1.5",
+    "r-parsnip >=0.0.5",
+    "r-pillar >=1.4.2",
+    "r-purrr >=0.3.3",
+    "r-recipes >=0.1.9",
+    "r-rlang >=0.4.4",
+    "r-rsample >=0.0.5",
+    "r-rstudioapi >=0.11",
+    "r-tibble >=2.1.3",
+    "r-tidytext >=0.2.2",
+    "r-tidypredict >=0.4.3",
+    "r-tidyposterior >=0.0.2",
+    "r-tune >=0.0.1",
+    "r-workflows >=0.1.0",
+    "r-yardstick >=0.0.4",
+    "r-base",
+    "r-broom >=0.5.4",
+    "r-cli >=2.0.1",
+    "r-crayon >=1.3.4",
+    "r-dials >=0.0.4",
+    "r-dplyr >=0.8.4",
+    "r-ggplot2 >=3.2.1",
+    "r-infer >=0.5.1",
+    "r-magrittr >=1.5",
+    "r-parsnip >=0.0.5",
+    "r-pillar >=1.4.2",
+    "r-purrr >=0.3.3",
+    "r-recipes >=0.1.9",
+    "r-rlang >=0.4.4",
+    "r-rsample >=0.0.5",
+    "r-rstudioapi >=0.11",
+    "r-tibble >=2.1.3",
+    "r-tidytext >=0.2.2",
+    "r-tidypredict >=0.4.3",
+    "r-tidyposterior >=0.0.2",
+    "r-tune >=0.0.1",
+    "r-workflows >=0.1.0",
+    "r-yardstick >=0.0.4"
+   ],
+   "run":[
+    "r-base",
+    "r-broom >=0.5.4",
+    "r-cli >=2.0.1",
+    "r-crayon >=1.3.4",
+    "r-dials >=0.0.4",
+    "r-dplyr >=0.8.4",
+    "r-ggplot2 >=3.2.1",
+    "r-infer >=0.5.1",
+    "r-magrittr >=1.5",
+    "r-parsnip >=0.0.5",
+    "r-pillar >=1.4.2",
+    "r-purrr >=0.3.3",
+    "r-recipes >=0.1.9",
+    "r-rlang >=0.4.4",
+    "r-rsample >=0.0.5",
+    "r-rstudioapi >=0.11",
+    "r-tibble >=2.1.3",
+    "r-tidytext >=0.2.2",
+    "r-tidypredict >=0.4.3",
+    "r-tidyposterior >=0.0.2",
+    "r-tune >=0.0.1",
+    "r-workflows >=0.1.0",
+    "r-yardstick >=0.0.4",
+    "r-base",
+    "r-broom >=0.5.4",
+    "r-cli >=2.0.1",
+    "r-crayon >=1.3.4",
+    "r-dials >=0.0.4",
+    "r-dplyr >=0.8.4",
+    "r-ggplot2 >=3.2.1",
+    "r-infer >=0.5.1",
+    "r-magrittr >=1.5",
+    "r-parsnip >=0.0.5",
+    "r-pillar >=1.4.2",
+    "r-purrr >=0.3.3",
+    "r-recipes >=0.1.9",
+    "r-rlang >=0.4.4",
+    "r-rsample >=0.0.5",
+    "r-rstudioapi >=0.11",
+    "r-tibble >=2.1.3",
+    "r-tidytext >=0.2.2",
+    "r-tidypredict >=0.4.3",
+    "r-tidyposterior >=0.0.2",
+    "r-tune >=0.0.1",
+    "r-workflows >=0.1.0",
+    "r-yardstick >=0.0.4",
+    "r-base",
+    "r-broom >=0.5.4",
+    "r-cli >=2.0.1",
+    "r-crayon >=1.3.4",
+    "r-dials >=0.0.4",
+    "r-dplyr >=0.8.4",
+    "r-ggplot2 >=3.2.1",
+    "r-infer >=0.5.1",
+    "r-magrittr >=1.5",
+    "r-parsnip >=0.0.5",
+    "r-pillar >=1.4.2",
+    "r-purrr >=0.3.3",
+    "r-recipes >=0.1.9",
+    "r-rlang >=0.4.4",
+    "r-rsample >=0.0.5",
+    "r-rstudioapi >=0.11",
+    "r-tibble >=2.1.3",
+    "r-tidytext >=0.2.2",
+    "r-tidypredict >=0.4.3",
+    "r-tidyposterior >=0.0.2",
+    "r-tune >=0.0.1",
+    "r-workflows >=0.1.0",
+    "r-yardstick >=0.0.4"
+   ]
+  },
+  "source":{
+   "sha256":"a84a28113d2b175a416446ee2208ea73d6800fb5ef2ae5e18ac2190710dc25ae",
+   "url":[
+    "https://cran.r-project.org/src/contrib/tidymodels_0.1.0.tar.gz",
+    "https://cran.r-project.org/src/contrib/Archive/tidymodels/tidymodels_0.1.0.tar.gz",
+    "https://cran.r-project.org/src/contrib/tidymodels_0.1.0.tar.gz",
+    "https://cran.r-project.org/src/contrib/Archive/tidymodels/tidymodels_0.1.0.tar.gz",
+    "https://cran.r-project.org/src/contrib/tidymodels_0.1.0.tar.gz",
+    "https://cran.r-project.org/src/contrib/Archive/tidymodels/tidymodels_0.1.0.tar.gz"
+   ]
+  },
+  "test":{
+   "commands":[
+    "\"%R%\" -e \"library('tidymodels')\"",
+    "$R -e \"library('tidymodels')\"",
+    "$R -e \"library('tidymodels')\""
+   ]
+  }
+ },
+ "name":"r-tidymodels",
+ "new_version":"0.1.0",
+ "pinning_version":"2020.05.04.19.59.17",
+ "raw_meta_yaml":"{% set version = \"0.1.0\" %}\n{% set posix = 'm2-' if win else '' %}\n{% set native = 'm2w64-' if win else '' %}\n\npackage:\n  name: r-tidymodels\n  version: {{ version|replace(\"-\", \"_\") }}\n\nsource:\n  url:\n    - {{ cran_mirror }}/src/contrib/tidymodels_{{ version }}.tar.gz\n    - {{ cran_mirror }}/src/contrib/Archive/tidymodels/tidymodels_{{ version }}.tar.gz\n  sha256: a84a28113d2b175a416446ee2208ea73d6800fb5ef2ae5e18ac2190710dc25ae\n\nbuild:\n  merge_build_host: True  # [win]\n  number: 1\n  noarch: generic\n  rpaths:\n    - lib/R/lib/\n    - lib/\n\nrequirements:\n  build:\n    - {{ posix }}zip               # [win]\n  host:\n    - r-base\n    - r-broom >=0.5.4\n    - r-cli >=2.0.1\n    - r-crayon >=1.3.4\n    - r-dials >=0.0.4\n    - r-dplyr >=0.8.4\n    - r-ggplot2 >=3.2.1\n    - r-infer >=0.5.1\n    - r-magrittr >=1.5\n    - r-parsnip >=0.0.5\n    - r-pillar >=1.4.2\n    - r-purrr >=0.3.3\n    - r-recipes >=0.1.9\n    - r-rlang >=0.4.4\n    - r-rsample >=0.0.5\n    - r-rstudioapi >=0.11\n    - r-tibble >=2.1.3\n    - r-tidytext >=0.2.2\n    - r-tidypredict >=0.4.3\n    - r-tidyposterior >=0.0.2\n    - r-tune >=0.0.1\n    - r-workflows >=0.1.0\n    - r-yardstick >=0.0.4\n  run:\n    - r-base\n    - r-broom >=0.5.4\n    - r-cli >=2.0.1\n    - r-crayon >=1.3.4\n    - r-dials >=0.0.4\n    - r-dplyr >=0.8.4\n    - r-ggplot2 >=3.2.1\n    - r-infer >=0.5.1\n    - r-magrittr >=1.5\n    - r-parsnip >=0.0.5\n    - r-pillar >=1.4.2\n    - r-purrr >=0.3.3\n    - r-recipes >=0.1.9\n    - r-rlang >=0.4.4\n    - r-rsample >=0.0.5\n    - r-rstudioapi >=0.11\n    - r-tibble >=2.1.3\n    - r-tidytext >=0.2.2\n    - r-tidypredict >=0.4.3\n    - r-tidyposterior >=0.0.2\n    - r-tune >=0.0.1\n    - r-workflows >=0.1.0\n    - r-yardstick >=0.0.4\n\ntest:\n  commands:\n    - $R -e \"library('tidymodels')\"           # [not win]\n    - \"\\\"%R%\\\" -e \\\"library('tidymodels')\\\"\"  # [win]\n\nabout:\n  home: https://github.com/tidymodels/tidymodels\n  license: GPL-3\n  summary: The tidy modeling \"verse\" is a collection of packages for  modeling and statistical\n    analysis that share the underlying design philosophy, grammar, and data structures\n    of the tidyverse.\n  license_family: GPL3\n  license_file: '{{ environ[\"PREFIX\"] }}/lib/R/share/licenses/GPL-3'\n\nextra:\n  recipe-maintainers:\n    - conda-forge/r\n    - philip-khor\n\n# Package: tidymodels\n# Title: Easily Install and Load the 'Tidymodels' Packages\n# Version: 0.0.3\n# Authors@R: c( person(given = \"Max\",    family = \"Kuhn\",    email = \"max@rstudio.com\",      role = c(\"aut\", \"cre\")), person(given = \"Hadley\", family = \"Wickham\", email = \"hadley@rstudio.com\",   role = c(\"aut\")), person(\"RStudio\", role = c(\"cph\", \"fnd\")) )\n# Description: The tidy modeling \"verse\" is a collection of packages for  modeling and statistical analysis that share the underlying design philosophy, grammar, and data structures of the tidyverse.\n# License: GPL-3 | file LICENSE\n# URL: https://github.com/tidymodels/tidymodels\n# BugReports: https://github.com/tidymodels/tidymodels/issues\n# Depends: R (>= 3.1)\n# Imports: broom (>= 0.5.2), cli (>= 1.1.0), crayon (>= 1.3.4), dials (>= 0.0.3), dplyr (>= 0.8.3), ggplot2 (>= 3.2.1), infer (>= 0.5.0), magrittr (>= 1.5), parsnip (>= 0.0.3.1), pillar (>= 1.4.2), purrr (>= 0.3.2), recipes (>= 0.1.7), rlang (>= 0.4.0), rsample (>= 0.0.5), rstudioapi (>= 0.10), tibble (>= 2.1.3), tidytext (>= 0.2.2), tidypredict (>= 0.4.3), tidyposterior (>= 0.0.2), yardstick (>= 0.0.4)\n# Suggests: covr, knitr, rmarkdown, testthat, xml2\n# Encoding: UTF-8\n# LazyData: true\n# RoxygenNote: 6.1.1\n# NeedsCompilation: no\n# Packaged: 2019-10-04 21:11:00 UTC; max\n# Author: Max Kuhn [aut, cre], Hadley Wickham [aut], RStudio [cph, fnd]\n# Maintainer: Max Kuhn <max@rstudio.com>\n# Repository: CRAN\n# Date/Publication: 2019-10-04 23:00:02 UTC\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "r-base",
+   "r-broom",
+   "r-cli",
+   "r-crayon",
+   "r-dials",
+   "r-dplyr",
+   "r-ggplot2",
+   "r-infer",
+   "r-magrittr",
+   "r-parsnip",
+   "r-pillar",
+   "r-purrr",
+   "r-recipes",
+   "r-rlang",
+   "r-rsample",
+   "r-rstudioapi",
+   "r-tibble",
+   "r-tidyposterior",
+   "r-tidypredict",
+   "r-tidytext",
+   "r-tune",
+   "r-workflows",
+   "r-yardstick"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "r-base",
+    "r-broom",
+    "r-cli",
+    "r-crayon",
+    "r-dials",
+    "r-dplyr",
+    "r-ggplot2",
+    "r-infer",
+    "r-magrittr",
+    "r-parsnip",
+    "r-pillar",
+    "r-purrr",
+    "r-recipes",
+    "r-rlang",
+    "r-rsample",
+    "r-rstudioapi",
+    "r-tibble",
+    "r-tidyposterior",
+    "r-tidypredict",
+    "r-tidytext",
+    "r-tune",
+    "r-workflows",
+    "r-yardstick"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "r-base",
+    "r-broom",
+    "r-cli",
+    "r-crayon",
+    "r-dials",
+    "r-dplyr",
+    "r-ggplot2",
+    "r-infer",
+    "r-magrittr",
+    "r-parsnip",
+    "r-pillar",
+    "r-purrr",
+    "r-recipes",
+    "r-rlang",
+    "r-rsample",
+    "r-rstudioapi",
+    "r-tibble",
+    "r-tidyposterior",
+    "r-tidypredict",
+    "r-tidytext",
+    "r-tune",
+    "r-workflows",
+    "r-yardstick"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.7.0\n",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "r-base",
+    "r-broom >=0.5.4",
+    "r-cli >=2.0.1",
+    "r-crayon >=1.3.4",
+    "r-dials >=0.0.4",
+    "r-dplyr >=0.8.4",
+    "r-ggplot2 >=3.2.1",
+    "r-infer >=0.5.1",
+    "r-magrittr >=1.5",
+    "r-parsnip >=0.0.5",
+    "r-pillar >=1.4.2",
+    "r-purrr >=0.3.3",
+    "r-recipes >=0.1.9",
+    "r-rlang >=0.4.4",
+    "r-rsample >=0.0.5",
+    "r-rstudioapi >=0.11",
+    "r-tibble >=2.1.3",
+    "r-tidyposterior >=0.0.2",
+    "r-tidypredict >=0.4.3",
+    "r-tidytext >=0.2.2",
+    "r-tune >=0.0.1",
+    "r-workflows >=0.1.0",
+    "r-yardstick >=0.0.4"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "r-base",
+    "r-broom >=0.5.4",
+    "r-cli >=2.0.1",
+    "r-crayon >=1.3.4",
+    "r-dials >=0.0.4",
+    "r-dplyr >=0.8.4",
+    "r-ggplot2 >=3.2.1",
+    "r-infer >=0.5.1",
+    "r-magrittr >=1.5",
+    "r-parsnip >=0.0.5",
+    "r-pillar >=1.4.2",
+    "r-purrr >=0.3.3",
+    "r-recipes >=0.1.9",
+    "r-rlang >=0.4.4",
+    "r-rsample >=0.0.5",
+    "r-rstudioapi >=0.11",
+    "r-tibble >=2.1.3",
+    "r-tidyposterior >=0.0.2",
+    "r-tidypredict >=0.4.3",
+    "r-tidytext >=0.2.2",
+    "r-tune >=0.0.1",
+    "r-workflows >=0.1.0",
+    "r-yardstick >=0.0.4"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":[
+  "https://cran.r-project.org/src/contrib/tidymodels_0.0.2.tar.gz",
+  "https://cran.r-project.org/src/contrib/Archive/tidymodels/tidymodels_0.0.2.tar.gz",
+  "https://cran.r-project.org/src/contrib/tidymodels_0.0.2.tar.gz",
+  "https://cran.r-project.org/src/contrib/Archive/tidymodels/tidymodels_0.0.2.tar.gz",
+  "https://cran.r-project.org/src/contrib/tidymodels_0.0.2.tar.gz",
+  "https://cran.r-project.org/src/contrib/Archive/tidymodels/tidymodels_0.0.2.tar.gz"
+ ],
+ "version":"0.1.0"
+}

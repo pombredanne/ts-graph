@@ -1,0 +1,267 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/203978562.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Compiler",
+    "migrator_version":0
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/235001498.json"
+   },
+   "data":{
+    "bot_rerun":1579272528.1077921,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/339862943.json"
+   },
+   "data":{
+    "bot_rerun":1579272528.1081107,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"python38"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "id":"da7a4e1a-e6c4-492b-894d-ed95058dd1f9",
+    "merged_at":"never issued",
+    "state":"closed"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"python38"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/400571572.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"pypy"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"opty",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"opty utilizes symbolic descriptions of ordinary differential equations\nexpressed with SymPy to form the constraints needed to solve optimal\ncontrol and parameter identification problems using the direct collocation\nmethod and non-linear programming. In general, if one can express the\ncontinuous first order ordinary differential equations of the system as\nsymbolic expressions opty will automatically generate a function to\nefficiently evaluate the dynamical constraints and a function that\nevaluates the sparse Jacobian of the constraints, which have been optimized\nfor speed and memory consumption. The translation of the dynamical system\ndescription to the NLP form, primarily the formation of the constraints and\nthe Jabcobian of the constraints, manually is a time consuming and error\nprone process. opty eliminates both of those issues.\n",
+   "dev_url":"http://github.com/csu-hmc/opty",
+   "home":"http://github.com/csu-hmc/opty",
+   "license":"BSD-2-Clause",
+   "license_family":"BSD",
+   "license_file":"LICENSE",
+   "summary":"Tools for optimizing dynamic systems using direct collocation."
+  },
+  "build":{
+   "number":"2",
+   "script":"python setup.py install --single-version-externally-managed --record record.txt",
+   "skip":true
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "moorepants",
+    "moorepants",
+    "moorepants"
+   ]
+  },
+  "package":{
+   "name":"opty",
+   "version":"1.0.0"
+  },
+  "requirements":{
+   "build":null,
+   "host":[
+    "python",
+    "setuptools",
+    "python",
+    "setuptools",
+    "python",
+    "setuptools"
+   ],
+   "run":[
+    "python",
+    "numpy >=1.8.1",
+    "scipy >=0.14.1",
+    "sympy >=1.0.0",
+    "cython >=0.20.1",
+    "cyipopt >=0.1.7",
+    "python",
+    "numpy >=1.8.1",
+    "scipy >=0.14.1",
+    "sympy >=1.0.0",
+    "cython >=0.20.1",
+    "cyipopt >=0.1.7",
+    "python",
+    "numpy >=1.8.1",
+    "scipy >=0.14.1",
+    "sympy >=1.0.0",
+    "cython >=0.20.1",
+    "cyipopt >=0.1.7"
+   ]
+  },
+  "source":{
+   "fn":"opty-1.0.0.tar.gz",
+   "sha256":"9eb5a53e1ca173bbe08f3f4553f0b5b568f1da0cc7f784657be0021f1c73816e",
+   "url":"https://pypi.io/packages/source/o/opty/opty-1.0.0.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "python betts2003.py",
+    "python betts2003.py",
+    "python betts2003.py"
+   ],
+   "files":[
+    "betts2003.py",
+    "betts2003.py",
+    "betts2003.py"
+   ],
+   "imports":[
+    "opty",
+    "opty.direct_collocation",
+    "opty.parameter_identification",
+    "opty.utils",
+    "opty.tests",
+    "opty",
+    "opty.direct_collocation",
+    "opty.parameter_identification",
+    "opty.utils",
+    "opty.tests",
+    "opty",
+    "opty.direct_collocation",
+    "opty.parameter_identification",
+    "opty.utils",
+    "opty.tests"
+   ]
+  }
+ },
+ "name":"opty",
+ "new_version":"1.0.0",
+ "pinning_version":"2020.04.08",
+ "raw_meta_yaml":"{% set name = \"opty\" %}\n{% set version = \"1.0.0\" %}\n{% set sha256 = \"9eb5a53e1ca173bbe08f3f4553f0b5b568f1da0cc7f784657be0021f1c73816e\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  fn: {{ name }}-{{ version }}.tar.gz\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 2\n  skip: True  # [win]\n  script: python setup.py install --single-version-externally-managed --record record.txt\nrequirements:\n  build:\n  host:\n    - python\n    - setuptools\n  run:\n    - python\n    - numpy >=1.8.1\n    - scipy >=0.14.1\n    - sympy >=1.0.0\n    - cython >=0.20.1\n    - cyipopt >=0.1.7\n\ntest:\n  imports:\n    - opty\n    - opty.direct_collocation\n    - opty.parameter_identification\n    - opty.utils\n    - opty.tests\n  files:\n    - betts2003.py\n  commands:\n    - python betts2003.py\n\nabout:\n  home: http://github.com/csu-hmc/opty\n  license: BSD-2-Clause\n  license_family: BSD\n  license_file: LICENSE\n  summary: 'Tools for optimizing dynamic systems using direct collocation.'\n  description: |\n    opty utilizes symbolic descriptions of ordinary differential equations\n    expressed with SymPy to form the constraints needed to solve optimal\n    control and parameter identification problems using the direct collocation\n    method and non-linear programming. In general, if one can express the\n    continuous first order ordinary differential equations of the system as\n    symbolic expressions opty will automatically generate a function to\n    efficiently evaluate the dynamical constraints and a function that\n    evaluates the sparse Jacobian of the constraints, which have been optimized\n    for speed and memory consumption. The translation of the dynamical system\n    description to the NLP form, primarily the formation of the constraints and\n    the Jabcobian of the constraints, manually is a time consuming and error\n    prone process. opty eliminates both of those issues.\n  dev_url: http://github.com/csu-hmc/opty\n\nextra:\n  recipe-maintainers:\n    - moorepants\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "cyipopt",
+   "cython",
+   "numpy",
+   "python",
+   "scipy",
+   "setuptools",
+   "sympy"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "python",
+    "setuptools"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "cyipopt",
+    "cython",
+    "numpy",
+    "python",
+    "scipy",
+    "sympy"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.6.15",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "python",
+    "setuptools"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "cyipopt >=0.1.7",
+    "cython >=0.20.1",
+    "numpy >=1.8.1",
+    "python",
+    "scipy >=0.14.1",
+    "sympy >=1.0.0"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/o/opty/opty-1.0.0.tar.gz",
+ "version":"1.0.0"
+}

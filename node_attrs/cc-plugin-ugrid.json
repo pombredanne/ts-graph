@@ -1,0 +1,133 @@
+{
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"cc-plugin-ugrid",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"https://github.com/ioos/cc-plugin-ugrid",
+   "license":"Apache 2.0",
+   "license_file":"LICENSE",
+   "summary":"UGRID plugin for the IOOS Compliance Checker Plugin"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . --no-deps -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "ocefpaf",
+    "ocefpaf",
+    "ocefpaf"
+   ]
+  },
+  "package":{
+   "name":"cc-plugin-ugrid",
+   "version":"1.0.0"
+  },
+  "requirements":{
+   "host":[
+    "python",
+    "pip",
+    "python",
+    "pip",
+    "python",
+    "pip"
+   ],
+   "run":[
+    "python",
+    "setuptools",
+    "compliance-checker >=4.0.0",
+    "netcdf4 >=1.4.0",
+    "python",
+    "setuptools",
+    "compliance-checker >=4.0.0",
+    "netcdf4 >=1.4.0",
+    "python",
+    "setuptools",
+    "compliance-checker >=4.0.0",
+    "netcdf4 >=1.4.0"
+   ]
+  },
+  "source":{
+   "sha256":"e6fdc0b80eef0a81c3e1bf11c90baa8f3b8fdd498d3fb78e71e22d61196d5d45",
+   "url":"https://github.com/ioos/cc-plugin-ugrid/archive/v1.0.0.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "cc_plugin_ugrid",
+    "cc_plugin_ugrid",
+    "cc_plugin_ugrid"
+   ]
+  }
+ },
+ "name":"cc-plugin-ugrid",
+ "new_version":"1.0.0",
+ "raw_meta_yaml":"{% set version = \"1.0.0\" %}\n\npackage:\n  name: cc-plugin-ugrid\n  version: {{ version }}\n\nsource:\n  url: https://github.com/ioos/cc-plugin-ugrid/archive/v{{ version }}.tar.gz\n  sha256: e6fdc0b80eef0a81c3e1bf11c90baa8f3b8fdd498d3fb78e71e22d61196d5d45\n\nbuild:\n  number: 0\n  noarch: python\n  script: \"{{ PYTHON }} -m pip install . --no-deps -vv\"\n\nrequirements:\n  host:\n    - python\n    - pip\n  run:\n    - python\n    - setuptools\n    - compliance-checker >=4.0.0\n    - netcdf4 >=1.4.0\n\ntest:\n  imports:\n    - cc_plugin_ugrid\n\nabout:\n  home: https://github.com/ioos/cc-plugin-ugrid\n  license: Apache 2.0\n  license_file: LICENSE\n  summary: UGRID plugin for the IOOS Compliance Checker Plugin\n\nextra:\n  recipe-maintainers:\n    - ocefpaf\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "compliance-checker",
+   "netcdf4",
+   "pip",
+   "python",
+   "setuptools"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "compliance-checker",
+    "netcdf4",
+    "python",
+    "setuptools"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "compliance-checker >=4.0.0",
+    "netcdf4 >=1.4.0",
+    "python",
+    "setuptools"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://github.com/ioos/cc-plugin-ugrid/archive/v1.0.0.tar.gz",
+ "version":"1.0.0"
+}

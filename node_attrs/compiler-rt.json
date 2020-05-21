@@ -1,0 +1,443 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/216600552.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"7.0.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/228102445.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/238893981.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"7.0.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/263060543.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"8.0.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/271384111.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"7.1.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/375720127.json"
+   },
+   "data":{
+    "bot_rerun":1581793709.501565,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"11-init"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/393064345.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"10.0.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "provider":{
+   "linux_aarch64":"default",
+   "linux_ppc64le":"default"
+  }
+ },
+ "feedstock_name":"compiler-rt",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"builtins - low-level target-specific hooks required by code generation and other\n  runtime components\nsanitizer runtimes - AddressSanitizer, ThreadSanitizer, UndefinedBehaviorSanitizer,\n  MemorySanitizer, LeakSanitizer, DataFlowSanitizer\nprofile - library which is used to collect coverage information\nBlocksRuntime - target-independent implementation of Apple \"Blocks\" runtime\n  interfaces\n",
+   "home":"http://llvm.org/",
+   "license":"NCSA",
+   "license_file":"LICENSE.TXT",
+   "summary":"compiler-rt runtime libraries"
+  },
+  "build":{
+   "number":"0"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "SylvainCorlay",
+    "inducer",
+    "jakirkham",
+    "isuruf",
+    "SylvainCorlay",
+    "inducer",
+    "jakirkham",
+    "isuruf",
+    "SylvainCorlay",
+    "inducer",
+    "jakirkham",
+    "isuruf"
+   ]
+  },
+  "outputs":[
+   {
+    "build":{
+     "detect_binary_files_with_prefix":false,
+     "ignore_run_exports":[
+      "vc",
+      "libcxx",
+      "libgcc-ng",
+      "libstdcxx-ng"
+     ],
+     "noarch":"generic"
+    },
+    "files":[
+     "lib/clang/10.0.0/lib"
+    ],
+    "name":"compiler-rt_",
+    "requirements":{
+     "build":[
+      "cxx_compiler_stub"
+     ],
+     "run":[
+      "clang 10.0.0",
+      "clangxx 10.0.0"
+     ],
+     "run_constrained":[
+      "compiler-rt 10.0.0"
+     ]
+    }
+   },
+   {
+    "files":[
+     "Library/lib/clang/10.0.0/share",
+     "Library/lib/clang/10.0.0/include",
+     "Library/lib/clang/10.0.0/lib"
+    ],
+    "name":"compiler-rt",
+    "requirements":{
+     "build":[
+      "cxx_compiler_stub"
+     ],
+     "run":[
+      "clang 10.0.0",
+      "clangxx 10.0.0",
+      "compiler-rt_ 10.0.0"
+     ]
+    }
+   },
+   {
+    "build":{
+     "ignore_run_exports":[
+      "vc",
+      "libcxx",
+      "libgcc-ng",
+      "libstdcxx-ng"
+     ],
+     "noarch":"generic"
+    },
+    "files":[
+     "lib/clang/10.0.0/lib"
+    ],
+    "name":"compiler-rt_",
+    "requirements":{
+     "build":[
+      "cxx_compiler_stub"
+     ],
+     "run":[
+      "libcxx >=",
+      "clang 10.0.0",
+      "clangxx 10.0.0"
+     ],
+     "run_constrained":[
+      "compiler-rt 10.0.0"
+     ]
+    }
+   },
+   {
+    "files":[
+     "lib/clang/10.0.0/share",
+     "lib/clang/10.0.0/include"
+    ],
+    "name":"compiler-rt",
+    "requirements":{
+     "build":[
+      "cxx_compiler_stub"
+     ],
+     "run":[
+      "clang 10.0.0",
+      "clangxx 10.0.0",
+      "compiler-rt_ 10.0.0"
+     ]
+    }
+   },
+   {
+    "build":{
+     "ignore_run_exports":[
+      "vc",
+      "libcxx",
+      "libgcc-ng",
+      "libstdcxx-ng"
+     ],
+     "noarch":"generic"
+    },
+    "files":[
+     "lib/clang/10.0.0/lib"
+    ],
+    "name":"compiler-rt_",
+    "requirements":{
+     "build":[
+      "cxx_compiler_stub"
+     ],
+     "run":[
+      "clang 10.0.0",
+      "clangxx 10.0.0"
+     ],
+     "run_constrained":[
+      "compiler-rt 10.0.0"
+     ]
+    }
+   },
+   {
+    "files":[
+     "lib/clang/10.0.0/share",
+     "lib/clang/10.0.0/include"
+    ],
+    "name":"compiler-rt",
+    "requirements":{
+     "build":[
+      "cxx_compiler_stub"
+     ],
+     "run":[
+      "clang 10.0.0",
+      "clangxx 10.0.0",
+      "compiler-rt_ 10.0.0"
+     ]
+    }
+   }
+  ],
+  "package":{
+   "name":"compiler-rt-packages",
+   "version":"10.0.0"
+  },
+  "requirements":{
+   "build":[
+    "cmake >=3.4.3",
+    "cxx_compiler_stub",
+    "python",
+    "cmake >=3.4.3",
+    "cxx_compiler_stub",
+    "python",
+    "make",
+    "cmake >=3.4.3",
+    "cxx_compiler_stub",
+    "python",
+    "make"
+   ],
+   "host":[
+    "clangdev 10.0.0",
+    "llvmdev 10.0.0",
+    "clangdev 10.0.0",
+    "llvmdev 10.0.0",
+    "libcxx",
+    "clangdev 10.0.0",
+    "llvmdev 10.0.0"
+   ]
+  },
+  "source":{
+   "patches":[
+    "no_codesign.diff",
+    "macosx_10_9.patch",
+    "no_codesign.diff",
+    "macosx_10_9.patch",
+    "no_codesign.diff",
+    "macosx_10_9.patch"
+   ],
+   "sha256":"6a7da64d3a0a7320577b68b9ca4933bdcab676e898b759850e827333c3282c75",
+   "url":"https://github.com/llvm/llvm-project/releases/download/llvmorg-10.0.0/compiler-rt-10.0.0.src.tar.xz"
+  },
+  "test":{
+   "commands":[
+    "sed \"s/@MACOSX_DEPLOYMENT_TARGET@/10.14/g\" test.c.in > test.c",
+    "sed \"s/@MACOSX_DEPLOYMENT_TARGET@/10.14/g\" test.c.in > test.c",
+    "clang -mmacosx-version-min= test.c",
+    "test -f $PREFIX/lib/clang/10.0.0/include/sanitizer/asan_interface.h",
+    "sed \"s/@MACOSX_DEPLOYMENT_TARGET@/10.14/g\" test.c.in > test.c",
+    "test -f $PREFIX/lib/clang/10.0.0/include/sanitizer/asan_interface.h"
+   ],
+   "files":[
+    "test.c.in",
+    "test.c.in",
+    "test.c.in"
+   ]
+  }
+ },
+ "name":"compiler-rt-packages",
+ "new_version":"10.0.0",
+ "outputs_names":[
+  "compiler-rt",
+  "compiler-rt_"
+ ],
+ "pinning_version":"2020.03.23",
+ "raw_meta_yaml":"{% set name = \"compiler-rt-packages\" %}\n{% set version = \"10.0.0\" %}\n{% set build_number = 0 %}\n{% set sha256 = \"6a7da64d3a0a7320577b68b9ca4933bdcab676e898b759850e827333c3282c75\" %}\n\npackage:\n  name: {{ name }}\n  version: {{ version }}\n\nsource:\n  url: https://github.com/llvm/llvm-project/releases/download/llvmorg-{{ version }}/compiler-rt-{{ version }}.src.tar.xz\n  sha256: {{ sha256 }}\n  patches:\n    - no_codesign.diff\n    - macosx_10_9.patch\n\nbuild:\n  number: {{ build_number }}\n\nrequirements:\n  build:\n    - cmake >=3.4.3\n    - {{ compiler('cxx') }}\n    - python\n    - make  # [unix]\n  host:\n    - clangdev {{ version }}\n    - llvmdev {{ version }}\n    - libcxx {{ cxx_compiler_version }}  # [osx]\n\ntest:\n  files:\n    - test.c.in\n  commands:\n  {% set NEW_TARGET=\"10.\" ~ (((MACOSX_DEPLOYMENT_TARGET|default(\"10.13\")).split(\".\")[1])|int + 1) %}\n    - sed \"s/@MACOSX_DEPLOYMENT_TARGET@/{{ NEW_TARGET }}/g\" test.c.in > test.c\n    - clang -mmacosx-version-min={{ MACOSX_DEPLOYMENT_TARGET }} test.c  # [osx]\n    - test -f $PREFIX/lib/clang/{{ version }}/include/sanitizer/asan_interface.h  # [unix]\n\noutputs:\n  - name: compiler-rt_{{ target_platform }}\n    build:\n      noarch: generic\n      ignore_run_exports:\n        - vc\n        - libcxx\n        - libgcc-ng\n        - libstdcxx-ng\n      detect_binary_files_with_prefix: false  # [win]\n    requirements:\n      build:\n        - {{ compiler('cxx') }}\n      run:\n        - libcxx >={{ cxx_compiler_version }}  # [osx]\n        - clang {{ version }}\n        - clangxx {{ version }}\n      run_constrained:\n        - compiler-rt {{ version }}\n    files:\n      - lib/clang/{{ version }}/lib\n\n  - name: compiler-rt\n    requirements:\n      build:\n        - {{ compiler('cxx') }}\n      run:\n        - clang {{ version }}\n        - clangxx {{ version }}\n        - compiler-rt_{{ target_platform }} {{ version }}\n    files:\n      - lib/clang/{{ version }}/share             # [unix]\n      - lib/clang/{{ version }}/include           # [unix]\n      - Library/lib/clang/{{ version }}/share     # [win]\n      - Library/lib/clang/{{ version }}/include   # [win]\n      - Library/lib/clang/{{ version }}/lib       # [win]\n\nabout:\n  home: http://llvm.org/\n  license: NCSA\n  license_file: LICENSE.TXT\n  summary: compiler-rt runtime libraries\n  description: |\n    builtins - low-level target-specific hooks required by code generation and other\n      runtime components\n    sanitizer runtimes - AddressSanitizer, ThreadSanitizer, UndefinedBehaviorSanitizer,\n      MemorySanitizer, LeakSanitizer, DataFlowSanitizer\n    profile - library which is used to collect coverage information\n    BlocksRuntime - target-independent implementation of Apple \"Blocks\" runtime\n      interfaces\n\nextra:\n  recipe-maintainers:\n    - SylvainCorlay\n    - inducer\n    - jakirkham\n    - isuruf\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "clang",
+   "clangdev",
+   "clangxx",
+   "cmake",
+   "compiler-rt_",
+   "cxx_compiler_stub",
+   "libcxx",
+   "llvmdev",
+   "make",
+   "python"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "cmake",
+    "cxx_compiler_stub",
+    "make",
+    "python"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "clangdev",
+    "libcxx",
+    "llvmdev"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "clang",
+    "clangxx",
+    "compiler-rt_",
+    "libcxx"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.6.15",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "cmake >=3.4.3",
+    "cxx_compiler_stub",
+    "make",
+    "python"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "clangdev 10.0.0",
+    "libcxx",
+    "llvmdev 10.0.0"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "clang 10.0.0",
+    "clangxx 10.0.0",
+    "compiler-rt_ 10.0.0",
+    "libcxx >="
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://github.com/llvm/llvm-project/releases/download/llvmorg-8.0.1/compiler-rt-8.0.1.src.tar.xz",
+ "version":"10.0.0"
+}

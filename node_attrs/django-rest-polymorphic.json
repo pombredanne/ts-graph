@@ -1,0 +1,5 @@
+{
+ "bad":false,
+ "feedstock_name":"django-rest-polymorphic",
+ "raw_meta_yaml":"{% set name = \"django-rest-polymorphic\" %}\n{% set version = \"0.1.8\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: 8a763ab0459b93724d186e101c3b92d0b1916305b6b221f65064c02ebc2267a8\n\nbuild:\n  noarch: python\n  number: 0\n  script: {{ PYTHON }} -m pip install . -vv\n\nrequirements:\n  host:\n    - pip\n    - python\n  run:\n    - django\n    - django_polymorphic\n    - djangorestframework\n    - python\n    - six\n\ntest:\n  imports:\n    - rest_polymorphic\n\nabout:\n  home: https://github.com/apirobot/django-rest-polymorphic\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE\n  summary: \"Polymorphic serializers for Django REST Framework.\"\n  dev_url: https://github.com/apirobot/django-rest-polymorphic\n\nextra:\n  recipe-maintainers:\n    - rluria14\n    - oblute\n"
+}

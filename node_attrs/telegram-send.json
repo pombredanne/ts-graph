@@ -1,0 +1,140 @@
+{
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"telegram-send",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "dev_url":"https://github.com/rahiel/telegram-send",
+   "home":"https://github.com/rahiel/telegram-send",
+   "license":"GPL-3.0",
+   "license_family":"GPL3",
+   "license_file":"LICENSE.txt",
+   "summary":"Send messages and files over Telegram from the command-line."
+  },
+  "build":{
+   "entry_points":[
+    "telegram-send=telegram_send:main",
+    "telegram-send=telegram_send:main",
+    "telegram-send=telegram_send:main"
+   ],
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "proinsias",
+    "proinsias",
+    "proinsias"
+   ]
+  },
+  "package":{
+   "name":"telegram-send",
+   "version":"0.25"
+  },
+  "requirements":{
+   "host":[
+    "pip",
+    "python >=3.6",
+    "pip",
+    "python >=3.6",
+    "pip",
+    "python >=3.6"
+   ],
+   "run":[
+    "appdirs",
+    "colorama",
+    "python >=3.6",
+    "python-telegram-bot >=12.1.1",
+    "appdirs",
+    "colorama",
+    "python >=3.6",
+    "python-telegram-bot >=12.1.1",
+    "appdirs",
+    "colorama",
+    "python >=3.6",
+    "python-telegram-bot >=12.1.1"
+   ]
+  },
+  "source":{
+   "sha256":"e6cda001a89e1cd02317fcd0456288a0cdd5aa56970dec6fbd83ad9af1db05ac",
+   "url":"https://pypi.io/packages/source/t/telegram-send/telegram-send-0.25.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "telegram-send --help",
+    "telegram-send --help",
+    "telegram-send --help"
+   ]
+  }
+ },
+ "name":"telegram-send",
+ "new_version":"0.25",
+ "raw_meta_yaml":"{% set name = \"telegram-send\" %}\n{% set version = \"0.25\" %}\n\npackage:\n  name: \"{{ name|lower }}\"\n  version: \"{{ version }}\"\n\nsource:\n  url: \"https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\"\n  sha256: e6cda001a89e1cd02317fcd0456288a0cdd5aa56970dec6fbd83ad9af1db05ac\n\nbuild:\n  number: 0\n  entry_points:\n    - telegram-send=telegram_send:main\n  script: \"{{ PYTHON }} -m pip install . -vv\"\n  noarch: python\n\nrequirements:\n  host:\n    - pip\n    - python >=3.6\n  run:\n    - appdirs\n    - colorama\n    - python >=3.6\n    - python-telegram-bot >=12.1.1\n\ntest:\n  commands:\n    - telegram-send --help\n\nabout:\n  home: \"https://github.com/rahiel/telegram-send\"\n  license: GPL-3.0\n  license_family: GPL3\n  license_file: LICENSE.txt\n  summary: \"Send messages and files over Telegram from the command-line.\"\n  dev_url: https://github.com/rahiel/telegram-send\n\nextra:\n  recipe-maintainers:\n    - proinsias\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "appdirs",
+   "colorama",
+   "pip",
+   "python",
+   "python-telegram-bot"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "appdirs",
+    "colorama",
+    "python",
+    "python-telegram-bot"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3.6"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "appdirs",
+    "colorama",
+    "python >=3.6",
+    "python-telegram-bot >=12.1.1"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/t/telegram-send/telegram-send-0.25.tar.gz",
+ "version":"0.25"
+}

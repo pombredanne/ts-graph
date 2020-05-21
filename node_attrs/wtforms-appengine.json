@@ -1,0 +1,146 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/199864591.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Noarch",
+    "migrator_version":0
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"wtforms-appengine",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "dev_url":"https://github.com/wtforms/wtforms-appengine/",
+   "home":"https://github.com/wtforms/wtforms-appengine/",
+   "license":"BSD 3-Clause",
+   "license_file":"LICENSE.txt",
+   "summary":"Appengine tools for WTForms"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"1",
+   "script":" -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "pmlandwehr",
+    "pmlandwehr",
+    "pmlandwehr"
+   ]
+  },
+  "package":{
+   "name":"wtforms-appengine",
+   "version":"0.1"
+  },
+  "requirements":{
+   "host":[
+    "python",
+    "pip",
+    "wtforms >=1.0.5",
+    "python",
+    "pip",
+    "wtforms >=1.0.5",
+    "python",
+    "pip",
+    "wtforms >=1.0.5"
+   ],
+   "run":[
+    "python",
+    "wtforms >=1.0.5",
+    "python",
+    "wtforms >=1.0.5",
+    "python",
+    "wtforms >=1.0.5"
+   ]
+  },
+  "source":{
+   "sha256":"56824d785458a8da68fab3d3ba3561831115965197a85a624e4bb9534c69fe19",
+   "url":"https://pypi.org/packages/source/w/wtforms-appengine/WTForms-Appengine-0.1.zip"
+  },
+  "test":{
+   "imports":[
+    "wtforms_appengine",
+    "wtforms_appengine",
+    "wtforms_appengine"
+   ]
+  }
+ },
+ "name":"wtforms-appengine",
+ "new_version":"0.1",
+ "pinning_version":"2018.07.01",
+ "raw_meta_yaml":"{% set name = \"wtforms-appengine\" %}\n{% set camelName = \"WTForms-Appengine\" %}\n{% set version = \"0.1\" %}\n{% set bundle = \"zip\" %}\n{% set hash_type = \"sha256\" %}\n{% set hash_val = \"56824d785458a8da68fab3d3ba3561831115965197a85a624e4bb9534c69fe19\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ camelName }}-{{ version }}.{{ bundle }}\n  {{ hash_type }}: {{ hash_val }}\n\nbuild:\n  number: 1\n  noarch: python\n  script: \"{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv\"\n\nrequirements:\n  host:\n    - python\n    - pip\n    - wtforms >=1.0.5\n\n  run:\n    - python\n    - wtforms >=1.0.5\n\ntest:\n  imports:\n    - wtforms_appengine\n\nabout:\n  home: https://github.com/wtforms/wtforms-appengine/\n  license: BSD 3-Clause\n  license_file: LICENSE.txt\n  summary: 'Appengine tools for WTForms'\n  dev_url: https://github.com/wtforms/wtforms-appengine/\n\nextra:\n  recipe-maintainers:\n    - pmlandwehr\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "pip",
+   "python",
+   "wtforms"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python",
+    "wtforms"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "python",
+    "wtforms"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.1.6",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python",
+    "wtforms >=1.0.5"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "python",
+    "wtforms >=1.0.5"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.org/packages/source/w/wtforms-appengine/WTForms-Appengine-0.1.zip",
+ "version":"0.1"
+}

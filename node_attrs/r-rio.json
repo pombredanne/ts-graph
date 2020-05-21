@@ -1,0 +1,275 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/231736229.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/298942037.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"RBaseRebuild",
+    "migrator_version":0,
+    "name":"r-base-3.6.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/413071961.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":2,
+    "migrator_version":0,
+    "name":"r400"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "bot":{
+   "automerge":true
+  },
+  "provider":{
+   "win":"azure"
+  }
+ },
+ "feedstock_name":"r-rio",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"https://github.com/leeper/rio",
+   "license":"GPL-2",
+   "license_family":"GPL2",
+   "license_file":"/lib/R/share/licenses/GPL-2",
+   "summary":"Streamlined data import and export by making assumptions that the user is probably willing to make: 'import()' and 'export()' determine the data structure from the file extension, reasonable defaults are used for data import and export (e.g., 'stringsAsFactors=FALSE'), web-based import is natively supported (including from SSL/HTTPS), compressed files can be read directly without explicit decompression, and fast import packages are used where appropriate. An additional convenience function, 'convert()', provides a simple method for converting between file types."
+  },
+  "build":{
+   "merge_build_host":true,
+   "noarch":"generic",
+   "number":"1002",
+   "rpaths":[
+    "lib/R/lib/",
+    "lib/",
+    "lib/R/lib/",
+    "lib/",
+    "lib/R/lib/",
+    "lib/"
+   ]
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "conda-forge/r",
+    "conda-forge/r",
+    "conda-forge/r"
+   ]
+  },
+  "package":{
+   "name":"r-rio",
+   "version":"0.5.16"
+  },
+  "requirements":{
+   "build":null,
+   "host":[
+    "r-base",
+    "r-curl >=0.6",
+    "r-data.table >=1.9.8",
+    "r-foreign",
+    "r-haven >=1.1.0",
+    "r-openxlsx",
+    "r-readxl >=0.1.1",
+    "r-tibble",
+    "r-base",
+    "r-curl >=0.6",
+    "r-data.table >=1.9.8",
+    "r-foreign",
+    "r-haven >=1.1.0",
+    "r-openxlsx",
+    "r-readxl >=0.1.1",
+    "r-tibble",
+    "r-base",
+    "r-curl >=0.6",
+    "r-data.table >=1.9.8",
+    "r-foreign",
+    "r-haven >=1.1.0",
+    "r-openxlsx",
+    "r-readxl >=0.1.1",
+    "r-tibble"
+   ],
+   "run":[
+    "r-base",
+    "r-curl >=0.6",
+    "r-data.table >=1.9.8",
+    "r-foreign",
+    "r-haven >=1.1.0",
+    "r-openxlsx",
+    "r-readxl >=0.1.1",
+    "r-tibble",
+    "r-base",
+    "r-curl >=0.6",
+    "r-data.table >=1.9.8",
+    "r-foreign",
+    "r-haven >=1.1.0",
+    "r-openxlsx",
+    "r-readxl >=0.1.1",
+    "r-tibble",
+    "r-base",
+    "r-curl >=0.6",
+    "r-data.table >=1.9.8",
+    "r-foreign",
+    "r-haven >=1.1.0",
+    "r-openxlsx",
+    "r-readxl >=0.1.1",
+    "r-tibble"
+   ]
+  },
+  "source":{
+   "fn":"rio_0.5.16.tar.gz",
+   "sha256":"d3eb8d5a11e0a3d26169bb9d08f834a51a6516a349854250629072d59c29d465",
+   "url":[
+    "https://cran.r-project.org/src/contrib/rio_0.5.16.tar.gz",
+    "https://cran.r-project.org/src/contrib/Archive/rio/rio_0.5.16.tar.gz",
+    "https://cran.r-project.org/src/contrib/rio_0.5.16.tar.gz",
+    "https://cran.r-project.org/src/contrib/Archive/rio/rio_0.5.16.tar.gz",
+    "https://cran.r-project.org/src/contrib/rio_0.5.16.tar.gz",
+    "https://cran.r-project.org/src/contrib/Archive/rio/rio_0.5.16.tar.gz"
+   ]
+  },
+  "test":{
+   "commands":[
+    "\"%R%\" -e \"library('rio')\"",
+    "$R -e \"library('rio')\"",
+    "$R -e \"library('rio')\""
+   ]
+  }
+ },
+ "name":"r-rio",
+ "new_version":"0.5.16",
+ "pinning_version":"2020.05.04.05.46.47",
+ "raw_meta_yaml":"{% set version = '0.5.16' %}\n{% set posix = 'm2-' if win else '' %}\n{% set native = 'm2w64-' if win else '' %}\n\npackage:\n  name: r-rio\n  version: {{ version|replace(\"-\", \"_\") }}\n\nsource:\n  fn: rio_{{ version }}.tar.gz\n  url:\n    - {{ cran_mirror }}/src/contrib/rio_{{ version }}.tar.gz\n    - {{ cran_mirror }}/src/contrib/Archive/rio/rio_{{ version }}.tar.gz\n  sha256: d3eb8d5a11e0a3d26169bb9d08f834a51a6516a349854250629072d59c29d465\n\nbuild:\n  noarch: generic\n  merge_build_host: True  # [win]\n  number: 1002\n  rpaths:\n    - lib/R/lib/\n    - lib/\n\nrequirements:\n  build:\n  host:\n    - r-base\n    - r-curl >=0.6\n    - r-data.table >=1.9.8\n    - r-foreign\n    - r-haven >=1.1.0\n    - r-openxlsx\n    - r-readxl >=0.1.1\n    - r-tibble\n  run:\n    - r-base\n    - r-curl >=0.6\n    - r-data.table >=1.9.8\n    - r-foreign\n    - r-haven >=1.1.0\n    - r-openxlsx\n    - r-readxl >=0.1.1\n    - r-tibble\n\ntest:\n  commands:\n    - $R -e \"library('rio')\"           # [not win]\n    - \"\\\"%R%\\\" -e \\\"library('rio')\\\"\"  # [win]\n\nabout:\n  home: https://github.com/leeper/rio\n  license: GPL-2\n  summary: 'Streamlined data import and export by making assumptions that the user is probably\n    willing to make: ''import()'' and ''export()'' determine the data structure from\n    the file extension, reasonable defaults are used for data import and export (e.g.,\n    ''stringsAsFactors=FALSE''), web-based import is natively supported (including from\n    SSL/HTTPS), compressed files can be read directly without explicit decompression,\n    and fast import packages are used where appropriate. An additional convenience function,\n    ''convert()'', provides a simple method for converting between file types.'\n  license_family: GPL2\n  license_file: '{{ environ[\"PREFIX\"] }}/lib/R/share/licenses/GPL-2'\n\nextra:\n  recipe-maintainers:\n    - conda-forge/r\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "r-base",
+   "r-curl",
+   "r-data.table",
+   "r-foreign",
+   "r-haven",
+   "r-openxlsx",
+   "r-readxl",
+   "r-tibble"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "r-base",
+    "r-curl",
+    "r-data.table",
+    "r-foreign",
+    "r-haven",
+    "r-openxlsx",
+    "r-readxl",
+    "r-tibble"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "r-base",
+    "r-curl",
+    "r-data.table",
+    "r-foreign",
+    "r-haven",
+    "r-openxlsx",
+    "r-readxl",
+    "r-tibble"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.7.0\n",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "r-base",
+    "r-curl >=0.6",
+    "r-data.table >=1.9.8",
+    "r-foreign",
+    "r-haven >=1.1.0",
+    "r-openxlsx",
+    "r-readxl >=0.1.1",
+    "r-tibble"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "r-base",
+    "r-curl >=0.6",
+    "r-data.table >=1.9.8",
+    "r-foreign",
+    "r-haven >=1.1.0",
+    "r-openxlsx",
+    "r-readxl >=0.1.1",
+    "r-tibble"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":[
+  "https://cran.r-project.org/src/contrib/rio_0.5.16.tar.gz",
+  "https://cran.r-project.org/src/contrib/Archive/rio/rio_0.5.16.tar.gz",
+  "https://cran.r-project.org/src/contrib/rio_0.5.16.tar.gz",
+  "https://cran.r-project.org/src/contrib/Archive/rio/rio_0.5.16.tar.gz",
+  "https://cran.r-project.org/src/contrib/rio_0.5.16.tar.gz",
+  "https://cran.r-project.org/src/contrib/Archive/rio/rio_0.5.16.tar.gz"
+ ],
+ "version":"0.5.16"
+}

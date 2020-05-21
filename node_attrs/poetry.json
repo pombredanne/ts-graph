@@ -1,0 +1,715 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/228048550.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/228477539.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.12.6"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/229550710.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.12.7"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/230594471.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.12.8"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/232113876.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.12.9"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/233083995.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.12.10"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/244308877.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.12.11"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/269796385.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.12.12"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/273899845.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.12.13"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/274011518.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.12.14"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/275735255.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.12.15"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/280037906.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.12.16"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/280050589.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"ArchRebuild",
+    "migrator_version":1,
+    "name":"aarch64 and ppc64le addition"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/294336727.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.12.17"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/336019540.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"python38"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/352616149.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.0.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/361444459.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.0.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/361521045.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.0.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/369705581.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.0.3"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/381554091.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.0.4"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/381934021.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.0.5"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/390149357.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"pypy"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "provider":{
+   "linux_aarch64":"default",
+   "linux_ppc64le":"azure",
+   "win":"azure"
+  }
+ },
+ "feedstock_name":"poetry",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"https://poetry.eustace.io/",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"LICENSE",
+   "summary":"Python dependency management and packaging made easy"
+  },
+  "build":{
+   "entry_points":[
+    "poetry = poetry.console:main",
+    "poetry = poetry.console:main",
+    "poetry = poetry.console:main"
+   ],
+   "number":"0",
+   "script":"-m pip install . --no-deps -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "ocefpaf",
+    "ocefpaf",
+    "ocefpaf"
+   ]
+  },
+  "package":{
+   "name":"poetry",
+   "version":"1.0.5"
+  },
+  "requirements":{
+   "host":[
+    "python",
+    "pip",
+    "intreehooks",
+    "cachecontrol >=0.12.4,<0.13.0",
+    "lockfile >=0.9",
+    "cachy >=0.3.0,<0.4.0",
+    "cleo >=0.7.6,<0.8.0",
+    "clikit >=0.4.2,<0.5.0",
+    "html5lib >=1.0,<2.0",
+    "jsonschema >=3.1,<4.0",
+    "pexpect >=4.7.0,<5.0.0",
+    "pkginfo >=1.4,<2.0",
+    "pyparsing >=2.2,<3.0",
+    "pyrsistent >=0.14.2,<0.15.0",
+    "requests-toolbelt >=0.8.0,<0.9.0",
+    "requests >=2.18,<3.0",
+    "shellingham >=1.1,<2.0",
+    "tomlkit >=0.5.11,<0.6.0",
+    "importlib_metadata >=1.1.3,<1.2.0",
+    "keyring >=18.0.1,<19.0.0",
+    "python",
+    "pip",
+    "intreehooks",
+    "cachecontrol >=0.12.4,<0.13.0",
+    "lockfile >=0.9",
+    "cachy >=0.3.0,<0.4.0",
+    "cleo >=0.7.6,<0.8.0",
+    "clikit >=0.4.2,<0.5.0",
+    "html5lib >=1.0,<2.0",
+    "jsonschema >=3.1,<4.0",
+    "pexpect >=4.7.0,<5.0.0",
+    "pkginfo >=1.4,<2.0",
+    "pyparsing >=2.2,<3.0",
+    "pyrsistent >=0.14.2,<0.15.0",
+    "requests-toolbelt >=0.8.0,<0.9.0",
+    "requests >=2.18,<3.0",
+    "shellingham >=1.1,<2.0",
+    "tomlkit >=0.5.11,<0.6.0",
+    "importlib_metadata >=1.1.3,<1.2.0",
+    "keyring >=18.0.1,<19.0.0",
+    "python",
+    "pip",
+    "intreehooks",
+    "cachecontrol >=0.12.4,<0.13.0",
+    "lockfile >=0.9",
+    "cachy >=0.3.0,<0.4.0",
+    "cleo >=0.7.6,<0.8.0",
+    "clikit >=0.4.2,<0.5.0",
+    "html5lib >=1.0,<2.0",
+    "jsonschema >=3.1,<4.0",
+    "pexpect >=4.7.0,<5.0.0",
+    "pkginfo >=1.4,<2.0",
+    "pyparsing >=2.2,<3.0",
+    "pyrsistent >=0.14.2,<0.15.0",
+    "requests-toolbelt >=0.8.0,<0.9.0",
+    "requests >=2.18,<3.0",
+    "shellingham >=1.1,<2.0",
+    "tomlkit >=0.5.11,<0.6.0",
+    "importlib_metadata >=1.1.3,<1.2.0",
+    "keyring >=18.0.1,<19.0.0"
+   ],
+   "run":[
+    "python",
+    "cachecontrol >=0.12.4,<0.13.0",
+    "lockfile >=0.9",
+    "cachy >=0.3.0,<0.4.0",
+    "cleo >=0.7.6,<0.8.0",
+    "clikit >=0.4.2,<0.5.0",
+    "html5lib >=1.0,<2.0",
+    "jsonschema >=3.1,<4.0",
+    "pexpect >=4.7.0,<5.0.0",
+    "pkginfo >=1.4,<2.0",
+    "pyparsing >=2.2,<3.0",
+    "pyrsistent >=0.14.2,<0.15.0",
+    "requests-toolbelt >=0.8.0,<0.9.0",
+    "requests >=2.18,<3.0",
+    "shellingham >=1.1,<2.0",
+    "tomlkit >=0.5.11,<0.6.0",
+    "importlib_metadata >=1.1.3,<1.2.0",
+    "keyring >=18.0.1,<19.0.0",
+    "python",
+    "cachecontrol >=0.12.4,<0.13.0",
+    "lockfile >=0.9",
+    "cachy >=0.3.0,<0.4.0",
+    "cleo >=0.7.6,<0.8.0",
+    "clikit >=0.4.2,<0.5.0",
+    "html5lib >=1.0,<2.0",
+    "jsonschema >=3.1,<4.0",
+    "pexpect >=4.7.0,<5.0.0",
+    "pkginfo >=1.4,<2.0",
+    "pyparsing >=2.2,<3.0",
+    "pyrsistent >=0.14.2,<0.15.0",
+    "requests-toolbelt >=0.8.0,<0.9.0",
+    "requests >=2.18,<3.0",
+    "shellingham >=1.1,<2.0",
+    "tomlkit >=0.5.11,<0.6.0",
+    "importlib_metadata >=1.1.3,<1.2.0",
+    "keyring >=18.0.1,<19.0.0",
+    "python",
+    "cachecontrol >=0.12.4,<0.13.0",
+    "lockfile >=0.9",
+    "cachy >=0.3.0,<0.4.0",
+    "cleo >=0.7.6,<0.8.0",
+    "clikit >=0.4.2,<0.5.0",
+    "html5lib >=1.0,<2.0",
+    "jsonschema >=3.1,<4.0",
+    "pexpect >=4.7.0,<5.0.0",
+    "pkginfo >=1.4,<2.0",
+    "pyparsing >=2.2,<3.0",
+    "pyrsistent >=0.14.2,<0.15.0",
+    "requests-toolbelt >=0.8.0,<0.9.0",
+    "requests >=2.18,<3.0",
+    "shellingham >=1.1,<2.0",
+    "tomlkit >=0.5.11,<0.6.0",
+    "importlib_metadata >=1.1.3,<1.2.0",
+    "keyring >=18.0.1,<19.0.0"
+   ]
+  },
+  "source":{
+   "sha256":"8e195ea8a4bce4f418a23fd828aa2f9ce06be7655720efd1d95beb0ee641030a",
+   "url":"https://pypi.io/packages/source/p/poetry/poetry-1.0.5.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "poetry -V",
+    "poetry -V",
+    "poetry -V"
+   ],
+   "imports":[
+    "poetry",
+    "poetry",
+    "poetry"
+   ],
+   "requires":[
+    "pip",
+    "pip",
+    "pip"
+   ]
+  }
+ },
+ "name":"poetry",
+ "new_version":"1.0.5",
+ "pinning_version":"2020.03.16",
+ "raw_meta_yaml":"{% set version = \"1.0.5\" %}\n\npackage:\n  name: poetry\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/p/poetry/poetry-{{ version }}.tar.gz\n  sha256: 8e195ea8a4bce4f418a23fd828aa2f9ce06be7655720efd1d95beb0ee641030a\n\nbuild:\n  number: 0\n  # poetry still supports py2k but conda-forge does not have all the old deps for it.\n  skip: True  # [py2k]\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n  entry_points:\n    - poetry = poetry.console:main\n\nrequirements:\n  host:\n    - python\n    - pip\n    - intreehooks\n    - cachecontrol >=0.12.4,<0.13.0\n    # cachecontrol:filecache\n    - lockfile >=0.9\n    - cachy >=0.3.0,<0.4.0\n    - cleo >=0.7.6,<0.8.0\n    - clikit >=0.4.2,<0.5.0\n    - html5lib >=1.0,<2.0\n    - jsonschema >=3.1,<4.0\n    - pexpect >=4.7.0,<5.0.0\n    - pkginfo >=1.4,<2.0\n    - pyparsing >=2.2,<3.0\n    - pyrsistent >=0.14.2,<0.15.0\n    - requests-toolbelt >=0.8.0,<0.9.0\n    - requests >=2.18,<3.0\n    - shellingham >=1.1,<2.0\n    - tomlkit >=0.5.11,<0.6.0\n    # legacy python\n    - importlib_metadata >=1.1.3,<1.2.0  # [py<38]\n    - virtualenv >=16.7.9,<17.0.0  # [py27]\n    - functools32 >=3.2.3,<4.0.0  # [py27]\n    - typing >=3.6,<4  # [py<35]\n    - pathlib2 >=2.3,<3.0  # [py<35]\n    - glob2 >=0.6,<0.7  # [py<35]\n    - keyring >=18.0.1,<19  # [py<35]\n    - subprocess32 >=3.5,<4  # [py<35]\n    # modern python\n    - keyring >=18.0.1,<19.0.0  # [py>=35]\n  run:\n    - python\n    - cachecontrol >=0.12.4,<0.13.0\n    # cachecontrol:filecache\n    - lockfile >=0.9\n    - cachy >=0.3.0,<0.4.0\n    - cleo >=0.7.6,<0.8.0\n    - clikit >=0.4.2,<0.5.0\n    - html5lib >=1.0,<2.0\n    - jsonschema >=3.1,<4.0\n    - pexpect >=4.7.0,<5.0.0\n    - pkginfo >=1.4,<2.0\n    - pyparsing >=2.2,<3.0\n    - pyrsistent >=0.14.2,<0.15.0\n    - requests-toolbelt >=0.8.0,<0.9.0\n    - requests >=2.18,<3.0\n    - shellingham >=1.1,<2.0\n    - tomlkit >=0.5.11,<0.6.0\n    # legacy python\n    - importlib_metadata >=1.1.3,<1.2.0  # [py<38]\n    - virtualenv >=16.7.9,<17.0.0  # [py27]\n    - functools32 >=3.2.3,<4.0.0  # [py27]\n    - typing >=3.6,<4  # [py<35]\n    - pathlib2 >=2.3,<3.0  # [py<35]\n    - glob2 >=0.6,<0.7  # [py<35]\n    - keyring >=18.0.1,<19  # [py<35]\n    - subprocess32 >=3.5,<4  # [py<35]\n    # modern python\n    - keyring >=18.0.1,<19.0.0  # [py>=35]\n\ntest:\n  requires:\n    - pip\n  commands:\n    - pip check\n  imports:\n    - poetry\n  commands:\n    - poetry -V\n\nabout:\n  home: https://poetry.eustace.io/\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE\n  summary: Python dependency management and packaging made easy\n\nextra:\n  recipe-maintainers:\n    - ocefpaf\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "cachecontrol",
+   "cachy",
+   "cleo",
+   "clikit",
+   "html5lib",
+   "importlib_metadata",
+   "intreehooks",
+   "jsonschema",
+   "keyring",
+   "lockfile",
+   "pexpect",
+   "pip",
+   "pkginfo",
+   "pyparsing",
+   "pyrsistent",
+   "python",
+   "requests",
+   "requests-toolbelt",
+   "shellingham",
+   "tomlkit"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "cachecontrol",
+    "cachy",
+    "cleo",
+    "clikit",
+    "html5lib",
+    "importlib_metadata",
+    "intreehooks",
+    "jsonschema",
+    "keyring",
+    "lockfile",
+    "pexpect",
+    "pip",
+    "pkginfo",
+    "pyparsing",
+    "pyrsistent",
+    "python",
+    "requests",
+    "requests-toolbelt",
+    "shellingham",
+    "tomlkit"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "cachecontrol",
+    "cachy",
+    "cleo",
+    "clikit",
+    "html5lib",
+    "importlib_metadata",
+    "jsonschema",
+    "keyring",
+    "lockfile",
+    "pexpect",
+    "pkginfo",
+    "pyparsing",
+    "pyrsistent",
+    "python",
+    "requests",
+    "requests-toolbelt",
+    "shellingham",
+    "tomlkit"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "pip"
+   ]
+  }
+ },
+ "smithy_version":"3.6.12",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "cachecontrol >=0.12.4,<0.13.0",
+    "cachy >=0.3.0,<0.4.0",
+    "cleo >=0.7.6,<0.8.0",
+    "clikit >=0.4.2,<0.5.0",
+    "html5lib >=1.0,<2.0",
+    "importlib_metadata >=1.1.3,<1.2.0",
+    "intreehooks",
+    "jsonschema >=3.1,<4.0",
+    "keyring >=18.0.1,<19.0.0",
+    "lockfile >=0.9",
+    "pexpect >=4.7.0,<5.0.0",
+    "pip",
+    "pkginfo >=1.4,<2.0",
+    "pyparsing >=2.2,<3.0",
+    "pyrsistent >=0.14.2,<0.15.0",
+    "python",
+    "requests >=2.18,<3.0",
+    "requests-toolbelt >=0.8.0,<0.9.0",
+    "shellingham >=1.1,<2.0",
+    "tomlkit >=0.5.11,<0.6.0"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "cachecontrol >=0.12.4,<0.13.0",
+    "cachy >=0.3.0,<0.4.0",
+    "cleo >=0.7.6,<0.8.0",
+    "clikit >=0.4.2,<0.5.0",
+    "html5lib >=1.0,<2.0",
+    "importlib_metadata >=1.1.3,<1.2.0",
+    "jsonschema >=3.1,<4.0",
+    "keyring >=18.0.1,<19.0.0",
+    "lockfile >=0.9",
+    "pexpect >=4.7.0,<5.0.0",
+    "pkginfo >=1.4,<2.0",
+    "pyparsing >=2.2,<3.0",
+    "pyrsistent >=0.14.2,<0.15.0",
+    "python",
+    "requests >=2.18,<3.0",
+    "requests-toolbelt >=0.8.0,<0.9.0",
+    "shellingham >=1.1,<2.0",
+    "tomlkit >=0.5.11,<0.6.0"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "pip"
+   ]
+  }
+ },
+ "url":"https://pypi.io/packages/source/p/poetry/poetry-0.12.17.tar.gz",
+ "version":"1.0.5"
+}

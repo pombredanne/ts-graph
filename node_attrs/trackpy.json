@@ -1,0 +1,271 @@
+{
+ "PRed":[
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.4.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/199962285.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Noarch",
+    "migrator_version":0
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/327994088.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.4.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/375681877.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MatplotlibBase",
+    "migrator_version":0,
+    "name":"matplotlib-to-matplotlib-base"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"trackpy",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"trackpy is a Python package for particle tracking in 2D, 3D,\nand higher dimensions.\n",
+   "doc_url":"http://soft-matter.github.io/trackpy",
+   "home":"https://github.com/soft-matter/trackpy",
+   "license":"BSD-3-Clause",
+   "license_file":"LICENSE",
+   "summary":"Python particle tracking toolkit"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":"-m pip install . --no-deps -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "danielballan",
+    "tacaswell",
+    "nkeim",
+    "caspervdw",
+    "danielballan",
+    "tacaswell",
+    "nkeim",
+    "caspervdw",
+    "danielballan",
+    "tacaswell",
+    "nkeim",
+    "caspervdw"
+   ]
+  },
+  "package":{
+   "name":"trackpy",
+   "version":"0.4.2"
+  },
+  "requirements":{
+   "host":[
+    "pip",
+    "python",
+    "setuptools",
+    "numpy >=1.8",
+    "scipy >=0.12",
+    "six >=1.8",
+    "pandas >=0.13",
+    "pyyaml",
+    "matplotlib",
+    "pip",
+    "python",
+    "setuptools",
+    "numpy >=1.8",
+    "scipy >=0.12",
+    "six >=1.8",
+    "pandas >=0.13",
+    "pyyaml",
+    "matplotlib",
+    "pip",
+    "python",
+    "setuptools",
+    "numpy >=1.8",
+    "scipy >=0.12",
+    "six >=1.8",
+    "pandas >=0.13",
+    "pyyaml",
+    "matplotlib"
+   ],
+   "run":[
+    "python",
+    "setuptools",
+    "numpy >=1.8",
+    "scipy >=0.12",
+    "six >=1.8",
+    "pandas >=0.13",
+    "pyyaml",
+    "matplotlib",
+    "python",
+    "setuptools",
+    "numpy >=1.8",
+    "scipy >=0.12",
+    "six >=1.8",
+    "pandas >=0.13",
+    "pyyaml",
+    "matplotlib",
+    "python",
+    "setuptools",
+    "numpy >=1.8",
+    "scipy >=0.12",
+    "six >=1.8",
+    "pandas >=0.13",
+    "pyyaml",
+    "matplotlib"
+   ]
+  },
+  "source":{
+   "fn":"trackpy-0.4.2.tar.gz",
+   "sha256":"ed3e53087cd98480e09473d774f13077906dca3cbdbc7c7cbb8c2ac6e3d95d70",
+   "url":"https://pypi.io/packages/source/t/trackpy/trackpy-0.4.2.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "trackpy",
+    "trackpy",
+    "trackpy"
+   ]
+  }
+ },
+ "name":"trackpy",
+ "new_version":"0.4.2",
+ "pinning_version":"2020.02.12",
+ "raw_meta_yaml":"{% set name = \"trackpy\" %}\n{% set version = \"0.4.2\" %}\n{% set sha256 = \"ed3e53087cd98480e09473d774f13077906dca3cbdbc7c7cbb8c2ac6e3d95d70\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  fn: {{ name }}-{{ version }}.tar.gz\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 0\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  host:\n    - pip\n    - python\n    - setuptools\n    - numpy >=1.8\n    - scipy >=0.12\n    - six >=1.8\n    - pandas >=0.13\n    - pyyaml\n    - matplotlib\n  run:\n    - python\n    - setuptools\n    - numpy >=1.8\n    - scipy >=0.12\n    - six >=1.8\n    - pandas >=0.13\n    - pyyaml\n    - matplotlib\n\ntest:\n  imports:\n    - trackpy\n\nabout:\n  home: https://github.com/soft-matter/trackpy\n  license: BSD-3-Clause\n  license_file: LICENSE\n  summary: 'Python particle tracking toolkit'\n  description: |\n    trackpy is a Python package for particle tracking in 2D, 3D,\n    and higher dimensions.\n  doc_url: http://soft-matter.github.io/trackpy\n\nextra:\n  recipe-maintainers:\n    - danielballan\n    - tacaswell\n    - nkeim\n    - caspervdw\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "matplotlib",
+   "numpy",
+   "pandas",
+   "pip",
+   "python",
+   "pyyaml",
+   "scipy",
+   "setuptools",
+   "six"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "matplotlib",
+    "numpy",
+    "pandas",
+    "pip",
+    "python",
+    "pyyaml",
+    "scipy",
+    "setuptools",
+    "six"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "matplotlib",
+    "numpy",
+    "pandas",
+    "python",
+    "pyyaml",
+    "scipy",
+    "setuptools",
+    "six"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.6.8",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "matplotlib",
+    "numpy >=1.8",
+    "pandas >=0.13",
+    "pip",
+    "python",
+    "pyyaml",
+    "scipy >=0.12",
+    "setuptools",
+    "six >=1.8"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "matplotlib",
+    "numpy >=1.8",
+    "pandas >=0.13",
+    "python",
+    "pyyaml",
+    "scipy >=0.12",
+    "setuptools",
+    "six >=1.8"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/t/trackpy/trackpy-0.4.1.tar.gz",
+ "version":"0.4.2"
+}

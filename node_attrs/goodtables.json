@@ -1,0 +1,406 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/292068595.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.2.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/295227382.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.2.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/333647207.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.3.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/334180216.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.3.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/334968834.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.4.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/336020101.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"python38"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/345791565.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.4.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/354507005.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.4.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/380789034.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.4.3"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/382483318.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.4.4"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/385535040.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.4.5"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/385551760.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.4.6"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/394386541.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"pypy"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "provider":{
+   "win":"azure"
+  }
+ },
+ "feedstock_name":"goodtables",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"http://github.com/frictionlessdata/goodtables-py",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"LICENSE.md",
+   "summary":"Goodtables is a framework to validate tabular data"
+  },
+  "build":{
+   "entry_points":[
+    "goodtables = goodtables.cli:cli",
+    "goodtables = goodtables.cli:cli",
+    "goodtables = goodtables.cli:cli"
+   ],
+   "number":"1",
+   "script":" -m pip install . --no-deps -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "roll",
+    "roll",
+    "roll"
+   ]
+  },
+  "package":{
+   "name":"goodtables",
+   "version":"2.4.2"
+  },
+  "requirements":{
+   "host":[
+    "python",
+    "pip",
+    "python",
+    "pip",
+    "python",
+    "pip"
+   ],
+   "run":[
+    "python",
+    "six >=1.9",
+    "click >=6.6",
+    "click-default-group",
+    "requests >=2.10",
+    "simpleeval >=0.9",
+    "tabulator >=1.20",
+    "tableschema >=1.0.3",
+    "datapackage >=1.2",
+    "python",
+    "six >=1.9",
+    "click >=6.6",
+    "click-default-group",
+    "requests >=2.10",
+    "simpleeval >=0.9",
+    "tabulator >=1.20",
+    "tableschema >=1.0.3",
+    "datapackage >=1.2",
+    "python",
+    "six >=1.9",
+    "click >=6.6",
+    "click-default-group",
+    "requests >=2.10",
+    "simpleeval >=0.9",
+    "tabulator >=1.20",
+    "tableschema >=1.0.3",
+    "datapackage >=1.2"
+   ]
+  },
+  "source":{
+   "sha256":"be35977664fd8f1132ea2c92f33ca46f0b9fa48f80831bae3f5edb9075733fda",
+   "url":"https://pypi.io/packages/source/g/goodtables/goodtables-2.4.2.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "goodtables --help",
+    "goodtables --help",
+    "goodtables --help"
+   ],
+   "imports":[
+    "goodtables",
+    "goodtables",
+    "goodtables"
+   ]
+  }
+ },
+ "name":"goodtables",
+ "new_version":"2.4.16",
+ "pinning_version":"2020.03.24",
+ "raw_meta_yaml":"{% set name = \"goodtables\" %}\n{% set version = \"2.4.2\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: be35977664fd8f1132ea2c92f33ca46f0b9fa48f80831bae3f5edb9075733fda\n\nbuild:\n  number: 1\n  entry_points:\n    - goodtables = goodtables.cli:cli\n  script: \"{{ PYTHON }} -m pip install . --no-deps -vv\"\n\nrequirements:\n  host:\n    - python\n    - pip\n  run:\n    - python\n    - six >=1.9\n    - click >=6.6\n    - click-default-group\n    - requests >=2.10\n    - simpleeval >=0.9\n    - statistics >=1.0  # [py2k]\n    - tabulator >=1.20\n    - tableschema >=1.0.3\n    - datapackage >=1.2\n\ntest:\n  imports:\n    - goodtables\n  commands:\n    - goodtables --help\n\nabout:\n  home: http://github.com/frictionlessdata/goodtables-py\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE.md\n  summary: 'Goodtables is a framework to validate tabular data'\n\nextra:\n  recipe-maintainers:\n    - roll\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "click",
+   "click-default-group",
+   "datapackage",
+   "pip",
+   "python",
+   "requests",
+   "simpleeval",
+   "six",
+   "tableschema",
+   "tabulator"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "click",
+    "click-default-group",
+    "datapackage",
+    "python",
+    "requests",
+    "simpleeval",
+    "six",
+    "tableschema",
+    "tabulator"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.6.15",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "click >=6.6",
+    "click-default-group",
+    "datapackage >=1.2",
+    "python",
+    "requests >=2.10",
+    "simpleeval >=0.9",
+    "six >=1.9",
+    "tableschema >=1.0.3",
+    "tabulator >=1.20"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/g/goodtables/goodtables-2.2.1.tar.gz",
+ "version":"2.4.2"
+}

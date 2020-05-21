@@ -1,0 +1,144 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/395158925.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.1.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"scramp",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"A Python implementation of the SCRAM authentication protocol defined by\nRFC 5802 and RFC 7677.\n",
+   "home":"https://github.com/tlocke/scramp",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"LICENSE",
+   "summary":"A pure-Python implementation of the SCRAM authentication protocol"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":"-m pip install . -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "nicolas-geniteau",
+    "maximerihouey",
+    "ncolomer",
+    "nicolas-geniteau",
+    "maximerihouey",
+    "ncolomer",
+    "nicolas-geniteau",
+    "maximerihouey",
+    "ncolomer"
+   ]
+  },
+  "package":{
+   "name":"scramp",
+   "version":"1.1.1"
+  },
+  "requirements":{
+   "host":[
+    "python >3.5",
+    "pip",
+    "python >3.5",
+    "pip",
+    "python >3.5",
+    "pip"
+   ],
+   "run":[
+    "python >3.5",
+    "python >3.5",
+    "python >3.5"
+   ]
+  },
+  "source":{
+   "sha256":"b57eb0ae2f9240b15b5d0dab2ea8e40b43eef13ac66d3f627a79ef85a6da0927",
+   "url":"https://pypi.io/packages/source/s/scramp/scramp-1.1.1.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "scramp",
+    "scramp",
+    "scramp"
+   ]
+  }
+ },
+ "name":"scramp",
+ "new_version":"1.1.1",
+ "pinning_version":"2020.03.28",
+ "raw_meta_yaml":"{% set name = \"scramp\" %}\n{% set version = \"1.1.1\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: b57eb0ae2f9240b15b5d0dab2ea8e40b43eef13ac66d3f627a79ef85a6da0927\n\nbuild:\n  number: 0\n  script: {{ PYTHON }} -m pip install . -vv\n  noarch: python\n\nrequirements:\n  host:\n    - python >3.5\n    - pip\n  run:\n    - python >3.5\n\ntest:\n  imports:\n    - scramp\n\nabout:\n  home: https://github.com/tlocke/scramp\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE\n  summary: A pure-Python implementation of the SCRAM authentication protocol\n  description: |\n    A Python implementation of the SCRAM authentication protocol defined by\n    RFC 5802 and RFC 7677.\n\nextra:\n  recipe-maintainers:\n    - nicolas-geniteau\n    - maximerihouey\n    - ncolomer\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "pip",
+   "python"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.6.15",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >3.5"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "python >3.5"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/s/scramp/scramp-1.1.0.tar.gz",
+ "version":"1.1.1"
+}

@@ -1,0 +1,430 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/278443536.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.20.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.20.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/308565709.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.22"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "head":{
+     "ref":"<this_is_not_a_branch>"
+    },
+    "state":"closed"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.0.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/377932831.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.0.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/378740463.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.0.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/400982454.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.0.3"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/410596436.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.0.4"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"molecule",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"Molecule is designed to aid in the development and testing\nof Ansible roles.\nMolecule provides support for testing with multiple instances,\noperating systems and distributions, virtualization providers,\ntest frameworks and testing scenarios.\nMolecule encourages an approach that results in consistently\ndeveloped roles that are well-written, easily\nunderstood and maintained.\n",
+   "dev_url":"https://github.com/ansible/molecule",
+   "doc_url":"https://molecule.readthedocs.io/",
+   "home":"https://github.com/ansible/molecule",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"LICENSE",
+   "summary":"Molecule aids in the development and testing of Ansible roles"
+  },
+  "build":{
+   "entry_points":[
+    "molecule = molecule.__main__:main",
+    "molecule = molecule.__main__:main",
+    "molecule = molecule.__main__:main"
+   ],
+   "noarch":"python",
+   "number":"1",
+   "script":"-m pip install . --no-deps -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "knightdave",
+    "knightdave",
+    "knightdave"
+   ]
+  },
+  "package":{
+   "name":"molecule",
+   "version":"3.0.4"
+  },
+  "requirements":{
+   "host":[
+    "python",
+    "pip",
+    "setuptools_scm",
+    "setuptools_scm_git_archive",
+    "pbr",
+    "python",
+    "pip",
+    "setuptools_scm",
+    "setuptools_scm_git_archive",
+    "pbr",
+    "python",
+    "pip",
+    "setuptools_scm",
+    "setuptools_scm_git_archive",
+    "pbr"
+   ],
+   "run":[
+    "python",
+    "ansible >=2.5",
+    "ansible-lint >=4.0.2,<5",
+    "anyconfig >=0.9.7",
+    "flake8 >=3.6.0",
+    "cerberus <=1.3.1",
+    "click >=6.7",
+    "click-completion >=0.3.1",
+    "click-help-colors >=0.8",
+    "colorama >=0.3.9",
+    "cookiecutter >=1.6.0",
+    "python-gilt >=1.2.1,< 2",
+    "Jinja2 >=2.10.1",
+    "paramiko >=2.5.0,< 3",
+    "pathlib2",
+    "pexpect >=4.6.0,< 5",
+    "psutil >=5.4.6,< 6",
+    "PyYAML >=5.1,< 6",
+    "sh >=1.12.14",
+    "six >=1.11.0",
+    "tabulate >=0.8.3",
+    "testinfra >=3.0.5,< 5",
+    "tree-format >=0.1.2",
+    "yamllint >=1.15.0,< 2",
+    "python",
+    "ansible >=2.5",
+    "ansible-lint >=4.0.2,<5",
+    "anyconfig >=0.9.7",
+    "flake8 >=3.6.0",
+    "cerberus <=1.3.1",
+    "click >=6.7",
+    "click-completion >=0.3.1",
+    "click-help-colors >=0.8",
+    "colorama >=0.3.9",
+    "cookiecutter >=1.6.0",
+    "python-gilt >=1.2.1,< 2",
+    "Jinja2 >=2.10.1",
+    "paramiko >=2.5.0,< 3",
+    "pathlib2",
+    "pexpect >=4.6.0,< 5",
+    "psutil >=5.4.6,< 6",
+    "PyYAML >=5.1,< 6",
+    "sh >=1.12.14",
+    "six >=1.11.0",
+    "tabulate >=0.8.3",
+    "testinfra >=3.0.5,< 5",
+    "tree-format >=0.1.2",
+    "yamllint >=1.15.0,< 2",
+    "python",
+    "ansible >=2.5",
+    "ansible-lint >=4.0.2,<5",
+    "anyconfig >=0.9.7",
+    "flake8 >=3.6.0",
+    "cerberus <=1.3.1",
+    "click >=6.7",
+    "click-completion >=0.3.1",
+    "click-help-colors >=0.8",
+    "colorama >=0.3.9",
+    "cookiecutter >=1.6.0",
+    "python-gilt >=1.2.1,< 2",
+    "Jinja2 >=2.10.1",
+    "paramiko >=2.5.0,< 3",
+    "pathlib2",
+    "pexpect >=4.6.0,< 5",
+    "psutil >=5.4.6,< 6",
+    "PyYAML >=5.1,< 6",
+    "sh >=1.12.14",
+    "six >=1.11.0",
+    "tabulate >=0.8.3",
+    "testinfra >=3.0.5,< 5",
+    "tree-format >=0.1.2",
+    "yamllint >=1.15.0,< 2"
+   ]
+  },
+  "source":{
+   "sha256":"29137de659d45ecdef28d107c0dc7e85ab3d5e37d5d17813430a7cc15be5b02e",
+   "url":"https://pypi.io/packages/source/m/molecule/molecule-3.0.4.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "molecule --version",
+    "molecule --version",
+    "molecule --version"
+   ],
+   "imports":[
+    "molecule",
+    "molecule",
+    "molecule"
+   ]
+  }
+ },
+ "name":"molecule",
+ "new_version":"3.0.4",
+ "new_version_attempts":{
+  "3.0.3":1,
+  "3.0.4":1
+ },
+ "new_version_errors":{},
+ "pinning_version":"2020.04.28.13.02.26",
+ "raw_meta_yaml":"{% set name = \"molecule\" %}\n{% set version = \"3.0.4\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: 29137de659d45ecdef28d107c0dc7e85ab3d5e37d5d17813430a7cc15be5b02e\n\nbuild:\n  number: 1\n  noarch: python\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n  entry_points:\n    - molecule = molecule.__main__:main\n\nrequirements:\n  host:\n    - python\n    - pip\n    - setuptools_scm\n    - setuptools_scm_git_archive\n    - pbr\n  run:\n    - python\n    - ansible >=2.5\n    - ansible-lint >=4.0.2,<5\n    - anyconfig >=0.9.7\n    - flake8 >=3.6.0\n    - cerberus <=1.3.1\n    - click >=6.7\n    - click-completion >=0.3.1\n    - click-help-colors >=0.8\n    - colorama >=0.3.9\n    - cookiecutter >=1.6.0\n    - python-gilt >=1.2.1,< 2\n    - Jinja2 >=2.10.1\n    - paramiko >=2.5.0,< 3\n    - pathlib2\n    - pexpect >=4.6.0,< 5\n    - psutil >=5.4.6,< 6\n    - PyYAML >=5.1,< 6\n    - sh >=1.12.14\n    - six >=1.11.0\n    - tabulate >=0.8.3\n    - testinfra >=3.0.5,< 5\n    - tree-format >=0.1.2\n    - yamllint >=1.15.0,< 2\n\ntest:\n  imports:\n    - molecule\n  commands:\n    - molecule --version\n\nabout:\n  home: https://github.com/ansible/molecule\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE\n  summary: Molecule aids in the development and testing of Ansible roles\n\n  description: |\n    Molecule is designed to aid in the development and testing\n    of Ansible roles.\n    Molecule provides support for testing with multiple instances,\n    operating systems and distributions, virtualization providers,\n    test frameworks and testing scenarios.\n    Molecule encourages an approach that results in consistently\n    developed roles that are well-written, easily\n    understood and maintained.\n  doc_url: https://molecule.readthedocs.io/\n  dev_url: https://github.com/ansible/molecule\n\nextra:\n  recipe-maintainers:\n    - knightdave\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "ansible",
+   "ansible-lint",
+   "anyconfig",
+   "cerberus",
+   "click",
+   "click-completion",
+   "click-help-colors",
+   "colorama",
+   "cookiecutter",
+   "flake8",
+   "jinja2",
+   "paramiko",
+   "pathlib2",
+   "pbr",
+   "pexpect",
+   "pip",
+   "psutil",
+   "python",
+   "python-gilt",
+   "pyyaml",
+   "setuptools_scm",
+   "setuptools_scm_git_archive",
+   "sh",
+   "six",
+   "tabulate",
+   "testinfra",
+   "tree-format",
+   "yamllint"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pbr",
+    "pip",
+    "python",
+    "setuptools_scm",
+    "setuptools_scm_git_archive"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "ansible",
+    "ansible-lint",
+    "anyconfig",
+    "cerberus",
+    "click",
+    "click-completion",
+    "click-help-colors",
+    "colorama",
+    "cookiecutter",
+    "flake8",
+    "jinja2",
+    "paramiko",
+    "pathlib2",
+    "pexpect",
+    "psutil",
+    "python",
+    "python-gilt",
+    "pyyaml",
+    "sh",
+    "six",
+    "tabulate",
+    "testinfra",
+    "tree-format",
+    "yamllint"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.7.0",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pbr",
+    "pip",
+    "python",
+    "setuptools_scm",
+    "setuptools_scm_git_archive"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "Jinja2 >=2.10.1",
+    "PyYAML >=5.1,< 6",
+    "ansible >=2.5",
+    "ansible-lint >=4.0.2,<5",
+    "anyconfig >=0.9.7",
+    "cerberus <=1.3.1",
+    "click >=6.7",
+    "click-completion >=0.3.1",
+    "click-help-colors >=0.8",
+    "colorama >=0.3.9",
+    "cookiecutter >=1.6.0",
+    "flake8 >=3.6.0",
+    "paramiko >=2.5.0,< 3",
+    "pathlib2",
+    "pexpect >=4.6.0,< 5",
+    "psutil >=5.4.6,< 6",
+    "python",
+    "python-gilt >=1.2.1,< 2",
+    "sh >=1.12.14",
+    "six >=1.11.0",
+    "tabulate >=0.8.3",
+    "testinfra >=3.0.5,< 5",
+    "tree-format >=0.1.2",
+    "yamllint >=1.15.0,< 2"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/m/molecule/molecule-2.22.tar.gz",
+ "version":"3.0.4"
+}

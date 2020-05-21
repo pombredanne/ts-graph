@@ -1,0 +1,328 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/283401242.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.0.5"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/298575415.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.0.6"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/303919806.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.0.7"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/321775641.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.0.8"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/325987480.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.0.9"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/352612836.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.0.10"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/386320098.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.0.11"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"geocube",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"https://github.com/corteva/geocube",
+   "license":"BSD-3-Clause",
+   "license_family":"BSD",
+   "license_file":"LICENSE",
+   "summary":"Tool to convert geopandas vector data into rasterized xarray data"
+  },
+  "build":{
+   "entry_points":[
+    "geocube=geocube.cli.geocube:geocube",
+    "geocube=geocube.cli.geocube:geocube",
+    "geocube=geocube.cli.geocube:geocube"
+   ],
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . --no-deps -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "snowman2",
+    "ocefpaf",
+    "snowman2",
+    "ocefpaf",
+    "snowman2",
+    "ocefpaf"
+   ]
+  },
+  "package":{
+   "name":"geocube",
+   "version":"0.0.12"
+  },
+  "requirements":{
+   "host":[
+    "python 3",
+    "pip",
+    "python 3",
+    "pip",
+    "python 3",
+    "pip"
+   ],
+   "run":[
+    "appdirs",
+    "click >=6.0",
+    "datacube",
+    "geopandas",
+    "python 3",
+    "rasterio",
+    "rioxarray >=0.0.22",
+    "xarray",
+    "pyproj >=2",
+    "appdirs",
+    "click >=6.0",
+    "datacube",
+    "geopandas",
+    "python 3",
+    "rasterio",
+    "rioxarray >=0.0.22",
+    "xarray",
+    "pyproj >=2",
+    "appdirs",
+    "click >=6.0",
+    "datacube",
+    "geopandas",
+    "python 3",
+    "rasterio",
+    "rioxarray >=0.0.22",
+    "xarray",
+    "pyproj >=2"
+   ]
+  },
+  "source":{
+   "sha256":"ceb54f56e7e5b599dcd7e265d55d5f8c488760435969b55b8acc4299b22ae097",
+   "url":"https://pypi.io/packages/source/g/geocube/geocube-0.0.12.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "geocube --help",
+    "geocube --help",
+    "geocube --help"
+   ],
+   "imports":[
+    "geocube",
+    "geocube.api",
+    "geocube.geo_utils",
+    "geocube.xarray_extensions",
+    "geocube",
+    "geocube.api",
+    "geocube.geo_utils",
+    "geocube.xarray_extensions",
+    "geocube",
+    "geocube.api",
+    "geocube.geo_utils",
+    "geocube.xarray_extensions"
+   ],
+   "requires":[
+    "mock",
+    "pytest >=3.6",
+    "pytest-cov",
+    "mock",
+    "pytest >=3.6",
+    "pytest-cov",
+    "mock",
+    "pytest >=3.6",
+    "pytest-cov"
+   ]
+  }
+ },
+ "name":"geocube",
+ "new_version":"0.0.12",
+ "pinning_version":"2020.03.10",
+ "raw_meta_yaml":"{% set version = \"0.0.12\" %}\n\npackage:\n  name: geocube\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/g/geocube/geocube-{{ version }}.tar.gz\n  sha256: ceb54f56e7e5b599dcd7e265d55d5f8c488760435969b55b8acc4299b22ae097\n\nbuild:\n  number: 0\n  noarch: python\n  entry_points:\n    - geocube=geocube.cli.geocube:geocube\n  script: \"{{ PYTHON }} -m pip install . --no-deps -vv\"\n\nrequirements:\n  host:\n    - python 3\n    - pip\n  run:\n    - appdirs\n    - click >=6.0\n    - datacube\n    - geopandas\n    - python 3\n    - rasterio\n    - rioxarray >=0.0.22\n    - xarray\n    - pyproj >=2\n\ntest:\n  imports:\n    - geocube\n    - geocube.api\n    - geocube.geo_utils\n    - geocube.xarray_extensions\n  commands:\n    - geocube --help\n  requires:\n    - mock\n    - pytest >=3.6\n    - pytest-cov\n\nabout:\n  home: https://github.com/corteva/geocube\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: LICENSE\n  summary: Tool to convert geopandas vector data into rasterized xarray data\n\nextra:\n  recipe-maintainers:\n    - snowman2\n    - ocefpaf\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "appdirs",
+   "click",
+   "datacube",
+   "geopandas",
+   "pip",
+   "pyproj",
+   "python",
+   "rasterio",
+   "rioxarray",
+   "xarray"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "appdirs",
+    "click",
+    "datacube",
+    "geopandas",
+    "pyproj",
+    "python",
+    "rasterio",
+    "rioxarray",
+    "xarray"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "mock",
+    "pytest",
+    "pytest-cov"
+   ]
+  }
+ },
+ "smithy_version":"3.6.11",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python 3"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "appdirs",
+    "click >=6.0",
+    "datacube",
+    "geopandas",
+    "pyproj >=2",
+    "python 3",
+    "rasterio",
+    "rioxarray >=0.0.22",
+    "xarray"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "mock",
+    "pytest >=3.6",
+    "pytest-cov"
+   ]
+  }
+ },
+ "url":"https://pypi.io/packages/source/g/geocube/geocube-0.0.7.tar.gz",
+ "version":"0.0.12"
+}

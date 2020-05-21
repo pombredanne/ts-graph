@@ -1,0 +1,129 @@
+{
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"kronprod",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "dev_url":"https://github.com/Jbwasse2/kronprod",
+   "home":"https://github.com/Jbwasse2/kronprod",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"LICENSE",
+   "summary":"Helpful functions for using the properties of the Kronecker product, also has a memory efficient dot product."
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . --no-deps -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "Jbwasse2",
+    "Jbwasse2",
+    "Jbwasse2"
+   ]
+  },
+  "package":{
+   "name":"kronprod",
+   "version":"1.0.4"
+  },
+  "requirements":{
+   "host":[
+    "python >=3.4",
+    "pip",
+    "python >=3.4",
+    "pip",
+    "python >=3.4",
+    "pip"
+   ],
+   "run":[
+    "python >=3.4",
+    "numpy",
+    "scipy",
+    "python >=3.4",
+    "numpy",
+    "scipy",
+    "python >=3.4",
+    "numpy",
+    "scipy"
+   ]
+  },
+  "source":{
+   "sha256":"2fefedf5d3077a88a77aeb237d7b0ef3c1e91b645ecbe92db5047a5fddd1e10c",
+   "url":"https://github.com/Jbwasse2/kronprod/archive/1.0.4.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "kronprod",
+    "kronprod",
+    "kronprod"
+   ]
+  }
+ },
+ "name":"kronprod",
+ "new_version":"1.0.4",
+ "raw_meta_yaml":"{% set name = \"kronprod\" %}\n{% set version = \"1.0.4\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n    url: https://github.com/Jbwasse2/{{ name }}/archive/{{ version }}.tar.gz\n    sha256: 2fefedf5d3077a88a77aeb237d7b0ef3c1e91b645ecbe92db5047a5fddd1e10c \n\nbuild:\n  number: 0\n  script: \"{{ PYTHON }} -m pip install . --no-deps -vv\"\n  noarch: python\n\nrequirements:\n  host:\n    - python >=3.4\n    - pip\n  run:\n    - python >=3.4\n    - numpy\n    - scipy\n\ntest:\n  imports:\n    - kronprod\n\nabout:\n  home: https://github.com/Jbwasse2/kronprod \n  license: MIT\n  license_family: MIT\n  license_file: LICENSE\n  summary: 'Helpful functions for using the properties of the Kronecker product, also has a memory efficient dot product.'\n\n  dev_url: https://github.com/Jbwasse2/kronprod\n\nextra:\n  recipe-maintainers:\n    - Jbwasse2\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "numpy",
+   "pip",
+   "python",
+   "scipy"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "numpy",
+    "python",
+    "scipy"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3.4"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "numpy",
+    "python >=3.4",
+    "scipy"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://github.com/Jbwasse2/kronprod/archive/1.0.4.tar.gz",
+ "version":"1.0.4"
+}

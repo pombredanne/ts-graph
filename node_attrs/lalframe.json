@@ -1,0 +1,512 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/218162813.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.4.4"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/241349581.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/281854688.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.4.5"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/339513116.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"python38"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "compiler_stack":"comp7",
+  "max_py_ver":"37",
+  "max_r_ver":"35"
+ },
+ "feedstock_name":"lalframe",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"The LSC Algorithm Frame Library for gravitational wave data analysis.\nThis package contains the shared-object libraries needed to run\napplications that use the LAL Frame library.  If you want to install\nthe Python bindings, please install the associated python-lalframe\npackage.\n",
+   "dev_url":"https://git.ligo.org/lscsoft/lalsuite/",
+   "doc_url":"https://lscsoft.docs.ligo.org/lalsuite/lalframe/",
+   "home":"https://wiki.ligo.org/Computing/LALSuite",
+   "license":"GPL-2.0-or-later",
+   "license_family":"GPL",
+   "license_file":"COPYING",
+   "summary":"LSC Algorithm Frame Library"
+  },
+  "build":{
+   "error_overdepending":true,
+   "error_overlinking":true,
+   "number":"2",
+   "skip":true
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "duncanmmacleod",
+    "skymoo",
+    "duncanmmacleod",
+    "skymoo",
+    "duncanmmacleod",
+    "skymoo"
+   ]
+  },
+  "outputs":[
+   {
+    "build":{
+     "run_exports":[
+      "lalframe"
+     ]
+    },
+    "name":"lalframe"
+   },
+   {
+    "about":{
+     "description":"The LSC Algorithm Frame Library for gravitational wave data analysis.\nThis package contains the python bindings.\n",
+     "dev_url":"https://git.ligo.org/lscsoft/lalsuite/",
+     "doc_url":"https://lscsoft.docs.ligo.org/lalsuite/lalframe/",
+     "home":"https://wiki.ligo.org/Computing/LALSuite",
+     "license":"GPL-2.0-or-later",
+     "license_family":"GPL",
+     "license_file":"COPYING",
+     "summary":"LSC Algorithm Frame Library"
+    },
+    "build":{
+     "error_overdepending":true,
+     "error_overlinking":true,
+     "ignore_run_exports":[
+      "python"
+     ]
+    },
+    "name":"python-lalframe",
+    "requirements":{
+     "build":[
+      "c_compiler_stub",
+      "make",
+      "pkg-config >=0.18.0",
+      "swig >=3.0.7"
+     ],
+     "host":[
+      "lalframe",
+      "numpy",
+      "python"
+     ],
+     "run":[
+      "lal >=6.21.0",
+      "lalframe",
+      "numpy",
+      "python",
+      "python-lal >=6.21.0"
+     ]
+    },
+    "script":"install-python.sh",
+    "test":{
+     "commands":[
+      "pushd test/python; python -m pytest -v; popd"
+     ],
+     "imports":[
+      "lalframe",
+      "lalframe.frread"
+     ],
+     "requires":[
+      "pytest >=4.0.0a0"
+     ],
+     "source_files":[
+      "test/F-TEST-600000060-60.gwf",
+      "test/python"
+     ]
+    }
+   },
+   {
+    "build":{
+     "run_exports":[
+      "lalframe"
+     ]
+    },
+    "name":"lalframe"
+   },
+   {
+    "about":{
+     "description":"The LSC Algorithm Frame Library for gravitational wave data analysis.\nThis package contains the python bindings.\n",
+     "dev_url":"https://git.ligo.org/lscsoft/lalsuite/",
+     "doc_url":"https://lscsoft.docs.ligo.org/lalsuite/lalframe/",
+     "home":"https://wiki.ligo.org/Computing/LALSuite",
+     "license":"GPL-2.0-or-later",
+     "license_family":"GPL",
+     "license_file":"COPYING",
+     "summary":"LSC Algorithm Frame Library"
+    },
+    "build":{
+     "error_overdepending":true,
+     "error_overlinking":true,
+     "ignore_run_exports":[
+      "python"
+     ]
+    },
+    "name":"python-lalframe",
+    "requirements":{
+     "build":[
+      "c_compiler_stub",
+      "make",
+      "pkg-config >=0.18.0",
+      "swig >=3.0.7"
+     ],
+     "host":[
+      "lalframe",
+      "numpy",
+      "python"
+     ],
+     "run":[
+      "lal >=6.21.0",
+      "lalframe",
+      "numpy",
+      "python",
+      "python-lal >=6.21.0"
+     ]
+    },
+    "script":"install-python.sh",
+    "test":{
+     "commands":[
+      "pushd test/python; python -m pytest -v; popd"
+     ],
+     "imports":[
+      "lalframe",
+      "lalframe.frread"
+     ],
+     "requires":[
+      "pytest >=4.0.0a0"
+     ],
+     "source_files":[
+      "test/F-TEST-600000060-60.gwf",
+      "test/python"
+     ]
+    }
+   },
+   {
+    "build":{
+     "run_exports":[
+      "lalframe"
+     ]
+    },
+    "name":"lalframe"
+   },
+   {
+    "about":{
+     "description":"The LSC Algorithm Frame Library for gravitational wave data analysis.\nThis package contains the python bindings.\n",
+     "dev_url":"https://git.ligo.org/lscsoft/lalsuite/",
+     "doc_url":"https://lscsoft.docs.ligo.org/lalsuite/lalframe/",
+     "home":"https://wiki.ligo.org/Computing/LALSuite",
+     "license":"GPL-2.0-or-later",
+     "license_family":"GPL",
+     "license_file":"COPYING",
+     "summary":"LSC Algorithm Frame Library"
+    },
+    "build":{
+     "error_overdepending":true,
+     "error_overlinking":true,
+     "ignore_run_exports":[
+      "python"
+     ]
+    },
+    "name":"python-lalframe",
+    "requirements":{
+     "build":[
+      "c_compiler_stub",
+      "make",
+      "pkg-config >=0.18.0",
+      "swig >=3.0.7"
+     ],
+     "host":[
+      "lalframe",
+      "numpy",
+      "python"
+     ],
+     "run":[
+      "lal >=6.21.0",
+      "lalframe",
+      "ldas-tools-framecpp >=2.5.5",
+      "libframe",
+      "numpy",
+      "python",
+      "python-lal >=6.21.0"
+     ]
+    },
+    "script":"install-python.sh",
+    "test":{
+     "commands":[
+      "pushd test/python; python -m pytest -v; popd"
+     ],
+     "imports":[
+      "lalframe",
+      "lalframe.frread"
+     ],
+     "requires":[
+      "pytest >=4.0.0a0"
+     ],
+     "source_files":[
+      "test/F-TEST-600000060-60.gwf",
+      "test/python"
+     ]
+    }
+   }
+  ],
+  "package":{
+   "name":"lalframe",
+   "version":"1.5.0"
+  },
+  "requirements":{
+   "build":[
+    "c_compiler_stub",
+    "make",
+    "pkg-config >=0.18.0",
+    "swig >=3.0.7",
+    "c_compiler_stub",
+    "make",
+    "pkg-config >=0.18.0",
+    "swig >=3.0.7",
+    "c_compiler_stub",
+    "make",
+    "pkg-config >=0.18.0",
+    "swig >=3.0.7"
+   ],
+   "host":[
+    "lal >=6.21.0",
+    "ldas-tools-framecpp >=2.5.5",
+    "libframe",
+    "lal >=6.21.0",
+    "ldas-tools-framecpp >=2.5.5",
+    "libframe",
+    "lal >=6.21.0",
+    "ldas-tools-framecpp >=2.5.5",
+    "libframe"
+   ],
+   "run":[
+    "lal >=6.21.0",
+    "ldas-tools-framecpp >=2.5.5",
+    "libframe",
+    "lal >=6.21.0",
+    "ldas-tools-framecpp >=2.5.5",
+    "libframe",
+    "lal >=6.21.0",
+    "ldas-tools-framecpp >=2.5.5",
+    "libframe"
+   ]
+  },
+  "source":{
+   "sha256":"a2c81201c36e64fe9467ac139374fe8fa793c56e48611e90fe6beca3a24f85dc",
+   "url":"http://software.ligo.org/lscsoft/source/lalsuite/lalframe-1.5.0.tar.xz"
+  },
+  "test":{
+   "commands":[
+    "pushd test",
+    "lalframe_version --verbose",
+    "lalfr-cksum F-TEST-600000000-60.gwf",
+    "lalfr-cut H1:LSC-AS_Q F-TEST-600000000-60.gwf > /dev/null",
+    "lalfr-dump F-TEST-600000000-60.gwf",
+    "lalfr-paste F-TEST-600000000-60.gwf > /dev/null",
+    "lalfr-split F-TEST-600000000-60.gwf",
+    "lalfr-stat F-TEST-600000000-60.gwf",
+    "lalfr-stream --channel H1:LSC-AS_Q --start-time 600000000 --duration 0.01 --frame-glob F-TEST-*.gwf",
+    "lalfr-vis --channel H1:LSC-AS_Q --start-time 600000000 --duration 0.01 --frame-glob F-TEST-*.gwf",
+    "popd",
+    "pushd test",
+    "lalframe_version --verbose",
+    "lalfr-cksum F-TEST-600000000-60.gwf",
+    "lalfr-cut H1:LSC-AS_Q F-TEST-600000000-60.gwf > /dev/null",
+    "lalfr-dump F-TEST-600000000-60.gwf",
+    "lalfr-paste F-TEST-600000000-60.gwf > /dev/null",
+    "lalfr-split F-TEST-600000000-60.gwf",
+    "lalfr-stat F-TEST-600000000-60.gwf",
+    "lalfr-stream --channel H1:LSC-AS_Q --start-time 600000000 --duration 0.01 --frame-glob F-TEST-*.gwf",
+    "lalfr-vis --channel H1:LSC-AS_Q --start-time 600000000 --duration 0.01 --frame-glob F-TEST-*.gwf",
+    "popd",
+    "test \"$(pkg-config --modversion ${PKG_NAME})\" == \"${PKG_VERSION}\"",
+    "pushd test",
+    "lalframe_version --verbose",
+    "lalfr-cksum F-TEST-600000000-60.gwf",
+    "lalfr-cut H1:LSC-AS_Q F-TEST-600000000-60.gwf > /dev/null",
+    "lalfr-dump F-TEST-600000000-60.gwf",
+    "lalfr-paste F-TEST-600000000-60.gwf > /dev/null",
+    "lalfr-split F-TEST-600000000-60.gwf",
+    "lalfr-stat F-TEST-600000000-60.gwf",
+    "lalfr-stream --channel H1:LSC-AS_Q --start-time 600000000 --duration 0.01 --frame-glob F-TEST-*.gwf",
+    "lalfr-vis --channel H1:LSC-AS_Q --start-time 600000000 --duration 0.01 --frame-glob F-TEST-*.gwf",
+    "popd",
+    "test \"$(pkg-config --modversion ${PKG_NAME})\" == \"${PKG_VERSION}\""
+   ],
+   "requires":[
+    "pkg-config"
+   ],
+   "source_files":[
+    "test/F-TEST-600000000-60.gwf",
+    "test/F-TEST-600000000-60.gwf",
+    "test/F-TEST-600000000-60.gwf"
+   ]
+  }
+ },
+ "name":"lalframe",
+ "new_version":"1.5.0",
+ "outputs_names":[
+  "lalframe",
+  "python-lalframe"
+ ],
+ "pinning_version":"2019.12.02",
+ "raw_meta_yaml":"{% set name = \"lalframe\" %}\n{% set version = \"1.5.0\" %}\n{% set sha256 = \"a2c81201c36e64fe9467ac139374fe8fa793c56e48611e90fe6beca3a24f85dc\" %}\n\n# dependencies\n{% set lal_version = \"6.21.0\" %}\n{% set framecpp_version = \"2.5.5\" %}\n\npackage:\n  name: \"{{ name|lower }}\"\n  version: \"{{ version }}\"\n\nsource:\n  url: \"http://software.ligo.org/lscsoft/source/lalsuite/{{ name }}-{{ version }}.tar.xz\"\n  sha256: \"{{ sha256 }}\"\n\nbuild:\n  error_overdepending: true\n  error_overlinking: true\n  number: 2\n  skip: true  # [win]\n\nrequirements:\n  build:\n    - {{ compiler('c') }}\n    - make\n    - pkg-config >=0.18.0\n    - swig >=3.0.7\n  host:\n    - lal >={{ lal_version }}\n    - ldas-tools-framecpp >={{ framecpp_version }}\n    - libframe\n  run:\n    - lal >={{ lal_version }}\n    - ldas-tools-framecpp >={{ framecpp_version }}\n    - libframe\n\ntest:\n  requires:\n    - pkg-config  # [unix]\n  source_files:\n    - test/F-TEST-600000000-60.gwf\n  commands:\n    - pushd test\n    - lalframe_version --verbose\n    - lalfr-cksum F-TEST-600000000-60.gwf\n    - lalfr-cut H1:LSC-AS_Q F-TEST-600000000-60.gwf > /dev/null\n    - lalfr-dump F-TEST-600000000-60.gwf\n    - lalfr-paste F-TEST-600000000-60.gwf > /dev/null\n    - lalfr-split F-TEST-600000000-60.gwf\n    - lalfr-stat F-TEST-600000000-60.gwf\n    - lalfr-stream --channel H1:LSC-AS_Q --start-time 600000000 --duration 0.01 --frame-glob F-TEST-*.gwf\n    - lalfr-vis --channel H1:LSC-AS_Q --start-time 600000000 --duration 0.01 --frame-glob F-TEST-*.gwf\n    - popd\n    - test \"$(pkg-config --modversion ${PKG_NAME})\" == \"${PKG_VERSION}\"  # [unix]\n\noutputs:\n  - name: lalframe\n    build:\n      run_exports:\n        - {{ pin_subpackage(\"lalframe\", max_pin=\"x.x\") }}\n\n  - name: python-lalframe\n    script: install-python.sh\n    build:\n      error_overdepending: true\n      error_overlinking: true\n      ignore_run_exports:\n        - python\n    requirements:\n      build:\n        - {{ compiler('c') }}\n        - make\n        - pkg-config >=0.18.0\n        - swig >=3.0.7\n      host:\n        - {{ pin_subpackage('lalframe', exact=True) }}\n        - numpy\n        - python\n      run:\n        - lal >={{ lal_version }}\n        - {{ pin_subpackage('lalframe', exact=True) }}\n        - ldas-tools-framecpp >={{ framecpp_version }}  # [linux]\n        - libframe  # [linux]\n        - {{ pin_compatible('numpy') }}\n        - python\n        - python-lal >={{ lal_version }}\n    test:\n      imports:\n        - lalframe\n        - lalframe.frread\n      requires:\n        - mock  # [py<33]\n        - pathlib  # [py<34]\n        - pytest >=4.0.0a0\n      source_files:\n        - test/F-TEST-600000060-60.gwf\n        - test/python\n      commands:\n        - pushd test/python; python -m pytest -v; popd\n    about:\n      home: \"https://wiki.ligo.org/Computing/LALSuite\"\n      doc_url: \"https://lscsoft.docs.ligo.org/lalsuite/lalframe/\"\n      dev_url: \"https://git.ligo.org/lscsoft/lalsuite/\"\n      license: \"GPL-2.0-or-later\"\n      license_family: \"GPL\"\n      license_file: \"COPYING\"\n      summary: \"LSC Algorithm Frame Library\"\n      description: |\n        The LSC Algorithm Frame Library for gravitational wave data analysis.\n        This package contains the python bindings.\n\nabout:\n  home: \"https://wiki.ligo.org/Computing/LALSuite\"\n  doc_url: \"https://lscsoft.docs.ligo.org/lalsuite/lalframe/\"\n  dev_url: \"https://git.ligo.org/lscsoft/lalsuite/\"\n  license: \"GPL-2.0-or-later\"\n  license_family: \"GPL\"\n  license_file: \"COPYING\"\n  summary: \"LSC Algorithm Frame Library\"\n  description: |\n    The LSC Algorithm Frame Library for gravitational wave data analysis.\n    This package contains the shared-object libraries needed to run\n    applications that use the LAL Frame library.  If you want to install\n    the Python bindings, please install the associated python-lalframe\n    package.\n\nextra:\n  recipe-maintainers:\n    - duncanmmacleod\n    - skymoo\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "c_compiler_stub",
+   "lal",
+   "lalframe",
+   "ldas-tools-framecpp",
+   "libframe",
+   "make",
+   "numpy",
+   "pkg-config",
+   "python",
+   "python-lal",
+   "swig"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "make",
+    "pkg-config",
+    "swig"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "lal",
+    "lalframe",
+    "ldas-tools-framecpp",
+    "libframe",
+    "numpy",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "lal",
+    "lalframe",
+    "ldas-tools-framecpp",
+    "libframe",
+    "numpy",
+    "python",
+    "python-lal"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "pkg-config",
+    "pytest"
+   ]
+  }
+ },
+ "smithy_version":"3.6.3",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "make",
+    "pkg-config >=0.18.0",
+    "swig >=3.0.7"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "lal >=6.21.0",
+    "lalframe",
+    "ldas-tools-framecpp >=2.5.5",
+    "libframe",
+    "numpy",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "lal >=6.21.0",
+    "lalframe",
+    "ldas-tools-framecpp >=2.5.5",
+    "libframe",
+    "numpy",
+    "python",
+    "python-lal >=6.21.0"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "pkg-config",
+    "pytest >=4.0.0a0"
+   ]
+  }
+ },
+ "url":"http://software.ligo.org/lscsoft/source/lalsuite/lalframe-1.4.5.tar.xz",
+ "version":"1.5.0"
+}

@@ -1,0 +1,424 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/208839041.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.9.11"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/232279235.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/299505888.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"RBaseRebuild",
+    "migrator_version":0,
+    "name":"r-base-3.6.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/361547028.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.9.12"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/391283782.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.9.13"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/413207838.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":2,
+    "migrator_version":0,
+    "name":"r400"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "bot":{
+   "automerge":true
+  },
+  "provider":{
+   "win":"azure"
+  }
+ },
+ "feedstock_name":"r-batchtools",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"https://github.com/mllg/batchtools",
+   "license":"LGPL-3",
+   "license_family":"LGPL",
+   "license_file":[
+    "/lib/R/share/licenses/LGPL-3",
+    "/lib/R/share/licenses/LGPL-3",
+    "/lib/R/share/licenses/LGPL-3"
+   ],
+   "summary":"As a successor of the packages 'BatchJobs' and 'BatchExperiments', this package provides a parallel implementation of the Map function for high performance computing systems managed by schedulers 'IBM Spectrum LSF' (<https://www.ibm.com/us-en/marketplace/hpc-workload-management>), 'OpenLava' (<http://www.openlava.org/>), 'Univa Grid Engine'/'Oracle Grid Engine' (<http://www.univa.com/>), 'Slurm' (<http://slurm.schedmd.com/>), 'TORQUE/PBS' (<https://adaptivecomputing.com/cherry-services/torque-resource-manager/>), or 'Docker Swarm' (<https://docs.docker.com/swarm/>). A multicore and socket mode allow the parallelization on a local machines, and multiple machines can be hooked up via SSH to create a makeshift cluster. Moreover, the package provides an abstraction mechanism to define large-scale computer experiments in a well-organized and reproducible way."
+  },
+  "build":{
+   "merge_build_host":true,
+   "number":"1",
+   "rpaths":[
+    "lib/R/lib/",
+    "lib/",
+    "lib/R/lib/",
+    "lib/",
+    "lib/R/lib/",
+    "lib/"
+   ]
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "conda-forge/r",
+    "nick-youngblut",
+    "conda-forge/r",
+    "nick-youngblut",
+    "conda-forge/r",
+    "nick-youngblut"
+   ]
+  },
+  "package":{
+   "name":"r-batchtools",
+   "version":"0.9.13"
+  },
+  "requirements":{
+   "build":[
+    "m2w64_c_compiler_stub",
+    "filesystem",
+    "make",
+    "sed",
+    "coreutils",
+    "zip",
+    "c_compiler_stub",
+    "make",
+    "c_compiler_stub",
+    "make"
+   ],
+   "host":[
+    "r-base",
+    "r-r6",
+    "r-backports >=1.1.2",
+    "r-base64url >=1.1",
+    "r-brew",
+    "r-checkmate >=1.8.5",
+    "r-data.table >=1.11.2",
+    "r-digest >=0.6.9",
+    "r-fs >=1.2.0",
+    "r-progress >=1.1.1",
+    "r-rappdirs",
+    "r-stringi",
+    "r-withr >=2.0.0",
+    "r-base",
+    "r-r6",
+    "r-backports >=1.1.2",
+    "r-base64url >=1.1",
+    "r-brew",
+    "r-checkmate >=1.8.5",
+    "r-data.table >=1.11.2",
+    "r-digest >=0.6.9",
+    "r-fs >=1.2.0",
+    "r-progress >=1.1.1",
+    "r-rappdirs",
+    "r-stringi",
+    "r-withr >=2.0.0",
+    "r-base",
+    "r-r6",
+    "r-backports >=1.1.2",
+    "r-base64url >=1.1",
+    "r-brew",
+    "r-checkmate >=1.8.5",
+    "r-data.table >=1.11.2",
+    "r-digest >=0.6.9",
+    "r-fs >=1.2.0",
+    "r-progress >=1.1.1",
+    "r-rappdirs",
+    "r-stringi",
+    "r-withr >=2.0.0"
+   ],
+   "run":[
+    "r-base",
+    "gcc-libs",
+    "r-r6",
+    "r-backports >=1.1.2",
+    "r-base64url >=1.1",
+    "r-brew",
+    "r-checkmate >=1.8.5",
+    "r-data.table >=1.11.2",
+    "r-digest >=0.6.9",
+    "r-fs >=1.2.0",
+    "r-progress >=1.1.1",
+    "r-rappdirs",
+    "r-stringi",
+    "r-withr >=2.0.0",
+    "r-base",
+    "r-r6",
+    "r-backports >=1.1.2",
+    "r-base64url >=1.1",
+    "r-brew",
+    "r-checkmate >=1.8.5",
+    "r-data.table >=1.11.2",
+    "r-digest >=0.6.9",
+    "r-fs >=1.2.0",
+    "r-progress >=1.1.1",
+    "r-rappdirs",
+    "r-stringi",
+    "r-withr >=2.0.0",
+    "r-base",
+    "r-r6",
+    "r-backports >=1.1.2",
+    "r-base64url >=1.1",
+    "r-brew",
+    "r-checkmate >=1.8.5",
+    "r-data.table >=1.11.2",
+    "r-digest >=0.6.9",
+    "r-fs >=1.2.0",
+    "r-progress >=1.1.1",
+    "r-rappdirs",
+    "r-stringi",
+    "r-withr >=2.0.0"
+   ]
+  },
+  "source":{
+   "sha256":"dafa5055dd568ef0f3adcb631019c85506f3e256f2a48486a1b6d8c76d747c09",
+   "url":[
+    "https://cran.r-project.org/src/contrib/batchtools_0.9.13.tar.gz",
+    "https://cran.r-project.org/src/contrib/Archive/batchtools/batchtools_0.9.13.tar.gz",
+    "https://cran.r-project.org/src/contrib/batchtools_0.9.13.tar.gz",
+    "https://cran.r-project.org/src/contrib/Archive/batchtools/batchtools_0.9.13.tar.gz",
+    "https://cran.r-project.org/src/contrib/batchtools_0.9.13.tar.gz",
+    "https://cran.r-project.org/src/contrib/Archive/batchtools/batchtools_0.9.13.tar.gz"
+   ]
+  },
+  "test":{
+   "commands":[
+    "\"%R%\" -e \"library('batchtools')\"",
+    "$R -e \"library('batchtools')\"",
+    "$R -e \"library('batchtools')\""
+   ]
+  }
+ },
+ "name":"r-batchtools",
+ "new_version":"0.9.13",
+ "pinning_version":"2020.05.04.19.59.17",
+ "raw_meta_yaml":"{% set version = \"0.9.13\" %}\n{% set posix = 'm2-' if win else '' %}\n{% set native = 'm2w64-' if win else '' %}\n\npackage:\n  name: r-batchtools\n  version: {{ version|replace(\"-\", \"_\") }}\n\nsource:\n  url:\n    - {{ cran_mirror }}/src/contrib/batchtools_{{ version }}.tar.gz\n    - {{ cran_mirror }}/src/contrib/Archive/batchtools/batchtools_{{ version }}.tar.gz\n  sha256: dafa5055dd568ef0f3adcb631019c85506f3e256f2a48486a1b6d8c76d747c09\n\nbuild:\n  merge_build_host: true  # [win]\n  number: 1\n  rpaths:\n    - lib/R/lib/\n    - lib/\n\nrequirements:\n  build:\n    - {{ compiler('c') }}              # [not win]\n    - {{ compiler('m2w64_c') }}        # [win]\n    - {{ posix }}filesystem        # [win]\n    - {{ posix }}make\n    - {{ posix }}sed               # [win]\n    - {{ posix }}coreutils         # [win]\n    - {{ posix }}zip               # [win]\n  host:\n    - r-base\n    - r-r6\n    - r-backports >=1.1.2\n    - r-base64url >=1.1\n    - r-brew\n    - r-checkmate >=1.8.5\n    - r-data.table >=1.11.2\n    - r-digest >=0.6.9\n    - r-fs >=1.2.0\n    - r-progress >=1.1.1\n    - r-rappdirs\n    - r-stringi\n    - r-withr >=2.0.0\n  run:\n    - r-base\n    - {{ native }}gcc-libs         # [win]\n    - r-r6\n    - r-backports >=1.1.2\n    - r-base64url >=1.1\n    - r-brew\n    - r-checkmate >=1.8.5\n    - r-data.table >=1.11.2\n    - r-digest >=0.6.9\n    - r-fs >=1.2.0\n    - r-progress >=1.1.1\n    - r-rappdirs\n    - r-stringi\n    - r-withr >=2.0.0\n\ntest:\n  commands:\n    - $R -e \"library('batchtools')\"           # [not win]\n    - \"\\\"%R%\\\" -e \\\"library('batchtools')\\\"\"  # [win]\n\nabout:\n  home: https://github.com/mllg/batchtools\n  license: LGPL-3\n  summary: As a successor of the packages 'BatchJobs' and 'BatchExperiments', this package provides a parallel implementation of the Map function for high performance\n    computing systems managed by schedulers 'IBM Spectrum LSF' (<https://www.ibm.com/us-en/marketplace/hpc-workload-management>), 'OpenLava' (<http://www.openlava.org/>),\n    'Univa Grid Engine'/'Oracle Grid Engine' (<http://www.univa.com/>), 'Slurm' (<http://slurm.schedmd.com/>), 'TORQUE/PBS' (<https://adaptivecomputing.com/cherry-services/torque-resource-manager/>),\n    or 'Docker Swarm' (<https://docs.docker.com/swarm/>). A multicore and socket mode allow the parallelization on a local machines, and multiple machines can be\n    hooked up via SSH to create a makeshift cluster. Moreover, the package provides an abstraction mechanism to define large-scale computer experiments in a well-organized\n    and reproducible way.\n  license_family: LGPL\n  license_file:\n    - {{ environ[\"PREFIX\"] }}/lib/R/share/licenses/LGPL-3\n\nextra:\n  recipe-maintainers:\n    - conda-forge/r\n    - nick-youngblut\n\n# Package: batchtools\n# Title: Tools for Computation on Batch Systems\n# Version: 0.9.12\n# Authors@R: c( person(\"Michel\", \"Lang\", NULL, \"michellang@gmail.com\", role = c(\"cre\", \"aut\"), comment = c(ORCID = \"0000-0001-9754-0393\")), person(\"Bernd\", \"Bischl\", NULL, \"bernd_bischl@gmx.net\", role = \"aut\"), person(\"Dirk\", \"Surmann\", NULL, \"surmann@statistik.tu-dortmund.de\", role = \"ctb\", comment = c(ORCID = \"0000-0003-0873-137X\")) )\n# Description: As a successor of the packages 'BatchJobs' and 'BatchExperiments', this package provides a parallel implementation of the Map function for high performance computing systems managed by schedulers 'IBM Spectrum LSF' (<https://www.ibm.com/us-en/marketplace/hpc-workload-management>), 'OpenLava' (<http://www.openlava.org/>), 'Univa Grid Engine'/'Oracle Grid Engine' (<http://www.univa.com/>), 'Slurm' (<http://slurm.schedmd.com/>), 'TORQUE/PBS' (<https://adaptivecomputing.com/cherry-services/torque-resource-manager/>), or 'Docker Swarm' (<https://docs.docker.com/swarm/>). A multicore and socket mode allow the parallelization on a local machines, and multiple machines can be hooked up via SSH to create a makeshift cluster. Moreover, the package provides an abstraction mechanism to define large-scale computer experiments in a well-organized and reproducible way.\n# License: LGPL-3\n# URL: https://github.com/mllg/batchtools\n# BugReports: https://github.com/mllg/batchtools/issues\n# NeedsCompilation: yes\n# ByteCompile: yes\n# Encoding: UTF-8\n# Depends: R (>= 3.0.0)\n# Imports: backports (>= 1.1.2), base64url (>= 1.1), brew, checkmate (>= 1.8.5), data.table (>= 1.11.2), digest (>= 0.6.9), fs (>= 1.2.0), parallel, progress (>= 1.1.1), R6, rappdirs, stats, stringi, utils, withr (>= 2.0.0)\n# Suggests: debugme, doParallel, doMPI, e1071, foreach, future, future.batchtools, knitr, parallelMap, ranger, rmarkdown, rpart, snow, testthat, tibble\n# VignetteBuilder: knitr\n# RoxygenNote: 7.0.2\n# Packaged: 2020-01-10 12:29:39 UTC; lang\n# Author: Michel Lang [cre, aut] (<https://orcid.org/0000-0001-9754-0393>), Bernd Bischl [aut], Dirk Surmann [ctb] (<https://orcid.org/0000-0003-0873-137X>)\n# Maintainer: Michel Lang <michellang@gmail.com>\n# Repository: CRAN\n# Date/Publication: 2020-01-10 16:30:07 UTC\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "c_compiler_stub",
+   "coreutils",
+   "filesystem",
+   "gcc-libs",
+   "m2w64_c_compiler_stub",
+   "make",
+   "r-backports",
+   "r-base",
+   "r-base64url",
+   "r-brew",
+   "r-checkmate",
+   "r-data.table",
+   "r-digest",
+   "r-fs",
+   "r-progress",
+   "r-r6",
+   "r-rappdirs",
+   "r-stringi",
+   "r-withr",
+   "sed",
+   "zip"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "coreutils",
+    "filesystem",
+    "m2w64_c_compiler_stub",
+    "make",
+    "sed",
+    "zip"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "r-backports",
+    "r-base",
+    "r-base64url",
+    "r-brew",
+    "r-checkmate",
+    "r-data.table",
+    "r-digest",
+    "r-fs",
+    "r-progress",
+    "r-r6",
+    "r-rappdirs",
+    "r-stringi",
+    "r-withr"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "gcc-libs",
+    "r-backports",
+    "r-base",
+    "r-base64url",
+    "r-brew",
+    "r-checkmate",
+    "r-data.table",
+    "r-digest",
+    "r-fs",
+    "r-progress",
+    "r-r6",
+    "r-rappdirs",
+    "r-stringi",
+    "r-withr"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.7.0\n",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "coreutils",
+    "filesystem",
+    "m2w64_c_compiler_stub",
+    "make",
+    "sed",
+    "zip"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "r-backports >=1.1.2",
+    "r-base",
+    "r-base64url >=1.1",
+    "r-brew",
+    "r-checkmate >=1.8.5",
+    "r-data.table >=1.11.2",
+    "r-digest >=0.6.9",
+    "r-fs >=1.2.0",
+    "r-progress >=1.1.1",
+    "r-r6",
+    "r-rappdirs",
+    "r-stringi",
+    "r-withr >=2.0.0"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "gcc-libs",
+    "r-backports >=1.1.2",
+    "r-base",
+    "r-base64url >=1.1",
+    "r-brew",
+    "r-checkmate >=1.8.5",
+    "r-data.table >=1.11.2",
+    "r-digest >=0.6.9",
+    "r-fs >=1.2.0",
+    "r-progress >=1.1.1",
+    "r-r6",
+    "r-rappdirs",
+    "r-stringi",
+    "r-withr >=2.0.0"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":[
+  "https://cran.r-project.org/src/contrib/batchtools_0.9.11.tar.gz",
+  "https://cran.r-project.org/src/contrib/Archive/batchtools/batchtools_0.9.11.tar.gz",
+  "https://cran.r-project.org/src/contrib/batchtools_0.9.11.tar.gz",
+  "https://cran.r-project.org/src/contrib/Archive/batchtools/batchtools_0.9.11.tar.gz",
+  "https://cran.r-project.org/src/contrib/batchtools_0.9.11.tar.gz",
+  "https://cran.r-project.org/src/contrib/Archive/batchtools/batchtools_0.9.11.tar.gz"
+ ],
+ "version":"0.9.13"
+}

@@ -1,0 +1,279 @@
+{
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"pangomm",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "dev_url":"https://gitlab.gnome.org/GNOME/pangomm",
+   "home":"https://developer.gnome.org/pangomm/",
+   "license":"LGPL-2.1-or-later",
+   "license_file":"COPYING",
+   "summary":"C++ bindings for pango"
+  },
+  "build":{
+   "number":"0",
+   "run_exports":[
+    "pangomm-1.4 >=2.42.1",
+    "pangomm-1.4 >=2.42.1",
+    "pangomm-1.4 >=2.42.1"
+   ],
+   "skip":true
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "isuruf",
+    "isuruf",
+    "isuruf"
+   ]
+  },
+  "outputs":[
+   {
+    "build":{
+     "run_exports":[
+      "pangomm-1.4 >=2.42.1"
+     ]
+    },
+    "name":"pangomm-1.4",
+    "requirements":{
+     "build":[
+      "cxx_compiler_stub",
+      "pkg-config",
+      "make"
+     ],
+     "host":[
+      "cairomm >=1.2.2",
+      "pango >=1.41.0",
+      "glibmm >=2.48.0",
+      "libsigcpp",
+      "glib",
+      "cairo"
+     ],
+     "run":[
+      "pango",
+      "glibmm"
+     ],
+     "run_constrained":[
+      "pangomm 2.42.1"
+     ]
+    },
+    "script":"build_pangomm.sh",
+    "test":{
+     "commands":[
+      "test -f ${PREFIX}/lib/libpangomm-1.4${SHLIB_EXT}"
+     ]
+    }
+   },
+   {
+    "name":"pangomm",
+    "requirements":{
+     "run":[
+      "pangomm-1.4  2.42.1"
+     ]
+    },
+    "test":{
+     "commands":[
+      "test -f ${PREFIX}/lib/pkg-config/pangomm-1.4.pc"
+     ]
+    }
+   },
+   {
+    "build":{
+     "run_exports":[
+      "pangomm-1.4 >=2.42.1"
+     ]
+    },
+    "name":"pangomm-1.4",
+    "requirements":{
+     "build":[
+      "cxx_compiler_stub",
+      "pkg-config",
+      "make"
+     ],
+     "host":[
+      "cairomm >=1.2.2",
+      "pango >=1.41.0",
+      "glibmm >=2.48.0",
+      "libsigcpp",
+      "glib",
+      "cairo"
+     ],
+     "run":[
+      "pango",
+      "glibmm"
+     ],
+     "run_constrained":[
+      "pangomm 2.42.1"
+     ]
+    },
+    "script":"build_pangomm.sh",
+    "test":{
+     "commands":[
+      "test -f ${PREFIX}/lib/libpangomm-1.4${SHLIB_EXT}"
+     ]
+    }
+   },
+   {
+    "name":"pangomm",
+    "requirements":{
+     "run":[
+      "pangomm-1.4  2.42.1"
+     ]
+    },
+    "test":{
+     "commands":[
+      "test -f ${PREFIX}/lib/pkg-config/pangomm-1.4.pc"
+     ]
+    }
+   },
+   {
+    "build":{
+     "run_exports":[
+      "pangomm-1.4 >=2.42.1"
+     ]
+    },
+    "name":"pangomm-1.4",
+    "requirements":{
+     "build":[
+      "cxx_compiler_stub",
+      "pkg-config",
+      "make"
+     ],
+     "host":[
+      "cairomm >=1.2.2",
+      "pango >=1.41.0",
+      "glibmm >=2.48.0",
+      "libsigcpp",
+      "glib",
+      "cairo"
+     ],
+     "run":[
+      "pango",
+      "glibmm"
+     ],
+     "run_constrained":[
+      "pangomm 2.42.1"
+     ]
+    },
+    "script":"build_pangomm.sh",
+    "test":{
+     "commands":[
+      "test -f ${PREFIX}/lib/libpangomm-1.4${SHLIB_EXT}"
+     ]
+    }
+   },
+   {
+    "name":"pangomm",
+    "requirements":{
+     "run":[
+      "pangomm-1.4  2.42.1"
+     ]
+    },
+    "test":{
+     "commands":[
+      "test -f ${PREFIX}/lib/pkg-config/pangomm-1.4.pc"
+     ]
+    }
+   }
+  ],
+  "package":{
+   "name":"pangomm",
+   "version":"2.42.1"
+  },
+  "source":{
+   "sha256":"14bf04939930870d5cfa96860ed953ad2ce07c3fd8713add4a1bfe585589f40f",
+   "url":"https://ftp.gnome.org/pub/GNOME/sources/pangomm/2.42/pangomm-2.42.1.tar.xz"
+  }
+ },
+ "name":"pangomm",
+ "new_version":false,
+ "outputs_names":[
+  "pangomm",
+  "pangomm-1.4"
+ ],
+ "raw_meta_yaml":"{% set version = \"2.42.1\" %}\n{% set major_minor = \".\".join(version.split(\".\")[:2]) %}\n{% set abi_version = \"1.4\" %}\n\npackage:\n  name: pangomm\n  version: {{ version }}\n\nsource:\n  url: https://ftp.gnome.org/pub/GNOME/sources/pangomm/{{ major_minor }}/pangomm-{{ version }}.tar.xz\n  sha256: 14bf04939930870d5cfa96860ed953ad2ce07c3fd8713add4a1bfe585589f40f\n\nbuild:\n  number: 0\n  skip: true  # [win]\n  run_exports:\n    - pangomm-{{ abi_version }} >={{ version }}\n\noutputs:\n  - name: pangomm-{{ abi_version }}\n    script: build_pangomm.sh\n    build:\n      run_exports:\n        - pangomm-{{ abi_version }} >={{ version }}\n    requirements:\n      build:\n        - {{ compiler('cxx') }}\n        - pkg-config\n        - make\n      host:\n        # These requirements can be found in configure.ac\n        - cairomm >=1.2.2\n        - pango >=1.41.0\n        - glibmm >=2.48.0\n        - libsigcpp\n        - glib\n        - cairo\n      run:\n        # TODO: remove this after pango, glibmm gets a run_exports PR\n        - {{ pin_compatible(\"pango\") }}\n        - {{ pin_compatible(\"glibmm\") }}\n      run_constrained:\n        - pangomm {{ version }}\n    test:\n      commands:\n        - test -f ${PREFIX}/lib/libpangomm-{{ abi_version }}${SHLIB_EXT}\n\n  - name: pangomm\n    requirements:\n      run:\n        - pangomm-{{ abi_version }}  {{ version }}\n    test:\n      commands:\n        - test -f ${PREFIX}/lib/pkg-config/pangomm-{{ abi_version }}.pc\n\nabout:\n  home: https://developer.gnome.org/pangomm/\n  license: LGPL-2.1-or-later\n  license_file: COPYING\n  summary: \"C++ bindings for pango\"\n  dev_url: https://gitlab.gnome.org/GNOME/pangomm\n\nextra:\n  recipe-maintainers:\n    - isuruf\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "cairo",
+   "cairomm",
+   "cxx_compiler_stub",
+   "glib",
+   "glibmm",
+   "libsigcpp",
+   "make",
+   "pango",
+   "pangomm-1.4",
+   "pkg-config"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "cxx_compiler_stub",
+    "make",
+    "pkg-config"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "cairo",
+    "cairomm",
+    "glib",
+    "glibmm",
+    "libsigcpp",
+    "pango"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "glibmm",
+    "pango",
+    "pangomm-1.4"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "cxx_compiler_stub",
+    "make",
+    "pkg-config"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "cairo",
+    "cairomm >=1.2.2",
+    "glib",
+    "glibmm >=2.48.0",
+    "libsigcpp",
+    "pango >=1.41.0"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "glibmm",
+    "pango",
+    "pangomm-1.4  2.42.1"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://ftp.gnome.org/pub/GNOME/sources/pangomm/2.42/pangomm-2.42.1.tar.xz",
+ "version":"2.42.1"
+}

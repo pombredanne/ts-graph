@@ -1,0 +1,398 @@
+{
+ "PRed":[
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"6.2.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/198512762.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"6.2.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/221976620.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/224326967.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"6.2.3"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/278214797.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"6.2.4"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/311936959.json"
+   },
+   "data":{
+    "bot_rerun":1579835211.728857,
+    "migrator_name":"ArchRebuild",
+    "migrator_version":1,
+    "name":"aarch64 and ppc64le addition"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/337023149.json"
+   },
+   "data":{
+    "bot_rerun":1579272527.9189935,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"python38"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/337507609.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"python38"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/388186844.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"ArchRebuild",
+    "migrator_version":1,
+    "name":"aarch64 and ppc64le addition"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/413852297.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"6.3.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "provider":{
+   "linux_aarch64":"default",
+   "linux_ppc64le":"default",
+   "win":"azure"
+  }
+ },
+ "feedstock_name":"ipyparallel",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"http://ipython.org",
+   "license":"BSD-3-Clause",
+   "license_family":"BSD",
+   "license_file":"COPYING.md",
+   "summary":"Interactive Parallel Computing with IPython"
+  },
+  "build":{
+   "entry_points":[
+    "ipcluster = ipyparallel.apps.ipclusterapp:launch_new_instance",
+    "ipcontroller = ipyparallel.apps.ipcontrollerapp:launch_new_instance",
+    "ipengine = ipyparallel.apps.ipengineapp:launch_new_instance",
+    "ipcluster = ipyparallel.apps.ipclusterapp:launch_new_instance",
+    "ipcontroller = ipyparallel.apps.ipcontrollerapp:launch_new_instance",
+    "ipengine = ipyparallel.apps.ipengineapp:launch_new_instance",
+    "ipcluster = ipyparallel.apps.ipclusterapp:launch_new_instance",
+    "ipcontroller = ipyparallel.apps.ipcontrollerapp:launch_new_instance",
+    "ipengine = ipyparallel.apps.ipengineapp:launch_new_instance"
+   ],
+   "number":"0",
+   "script":"pip install --no-deps --ignore-installed ."
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "jakirkham",
+    "minrk",
+    "jakirkham",
+    "minrk",
+    "jakirkham",
+    "minrk"
+   ]
+  },
+  "package":{
+   "name":"ipyparallel",
+   "version":"6.3.0"
+  },
+  "requirements":{
+   "host":[
+    "python",
+    "pip",
+    "python",
+    "pip",
+    "python",
+    "pip"
+   ],
+   "run":[
+    "python",
+    "decorator",
+    "tornado >=4",
+    "python-dateutil >=2.1",
+    "pyzmq >=13",
+    "ipython_genutils",
+    "ipython >=4",
+    "jupyter_client",
+    "ipykernel >=4.4",
+    "python",
+    "decorator",
+    "tornado >=4",
+    "python-dateutil >=2.1",
+    "pyzmq >=13",
+    "ipython_genutils",
+    "ipython >=4",
+    "jupyter_client",
+    "ipykernel >=4.4",
+    "python",
+    "decorator",
+    "tornado >=4",
+    "python-dateutil >=2.1",
+    "pyzmq >=13",
+    "ipython_genutils",
+    "ipython >=4",
+    "jupyter_client",
+    "ipykernel >=4.4"
+   ]
+  },
+  "source":{
+   "fn":"ipyparallel-6.3.0.tar.gz",
+   "sha256":"0a97b276c62db633e9e97a816282bdd166f9df74e28204f0c8fa54b71944cfdc",
+   "url":"https://pypi.io/packages/source/i/ipyparallel/ipyparallel-6.3.0.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "ipcluster -h",
+    "ipengine -h",
+    "ipcontroller -h",
+    "ipcluster -h",
+    "ipengine -h",
+    "ipcontroller -h",
+    "ipcluster -h",
+    "ipengine -h",
+    "ipcontroller -h"
+   ],
+   "imports":[
+    "ipyparallel",
+    "ipyparallel.apps",
+    "ipyparallel.client",
+    "ipyparallel.controller",
+    "ipyparallel.engine",
+    "ipyparallel.serialize",
+    "ipyparallel",
+    "ipyparallel.apps",
+    "ipyparallel.client",
+    "ipyparallel.controller",
+    "ipyparallel.engine",
+    "ipyparallel.serialize",
+    "ipyparallel",
+    "ipyparallel.apps",
+    "ipyparallel.client",
+    "ipyparallel.controller",
+    "ipyparallel.engine",
+    "ipyparallel.serialize"
+   ],
+   "requires":[
+    "notebook >=5.3",
+    "notebook >=5.3",
+    "notebook >=5.3"
+   ]
+  }
+ },
+ "name":"ipyparallel",
+ "new_version":"6.3.0",
+ "new_version_attempts":{
+  "6.3.0":1
+ },
+ "new_version_errors":{},
+ "pinning_version":"2020.05.04.19.59.17",
+ "raw_meta_yaml":"{% set version = \"6.3.0\" %}\n{% set sha256 = \"0a97b276c62db633e9e97a816282bdd166f9df74e28204f0c8fa54b71944cfdc\" %}\n\npackage:\n  name: ipyparallel\n  version: {{ version }}\n\nsource:\n  fn: ipyparallel-{{ version }}.tar.gz\n  url: https://pypi.io/packages/source/i/ipyparallel/ipyparallel-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  entry_points:\n    - ipcluster = ipyparallel.apps.ipclusterapp:launch_new_instance\n    - ipcontroller = ipyparallel.apps.ipcontrollerapp:launch_new_instance\n    - ipengine = ipyparallel.apps.ipengineapp:launch_new_instance\n  script: pip install --no-deps --ignore-installed .\n\n\nrequirements:\n  host:\n    - python\n    - pip\n\n  run:\n    - python\n    - futures               # [py2k]\n    - decorator\n    - tornado >=4\n    - python-dateutil >=2.1\n    - pyzmq >=13\n    - ipython_genutils\n    - ipython >=4\n    - jupyter_client\n    - ipykernel >=4.4\n\ntest:\n  requires:\n    - notebook >=5.3\n  imports:\n    - ipyparallel\n    - ipyparallel.apps\n    - ipyparallel.client\n    - ipyparallel.controller\n    - ipyparallel.engine\n    - ipyparallel.serialize\n  commands:\n    - ipcluster -h\n    - ipengine -h\n    - ipcontroller -h\n\nabout:\n  home: http://ipython.org\n  license: BSD-3-Clause\n  license_file: COPYING.md\n  license_family: BSD\n  summary: Interactive Parallel Computing with IPython\n\nextra:\n  recipe-maintainers:\n    - jakirkham\n    - minrk\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "decorator",
+   "ipykernel",
+   "ipython",
+   "ipython_genutils",
+   "jupyter_client",
+   "pip",
+   "python",
+   "python-dateutil",
+   "pyzmq",
+   "tornado"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "decorator",
+    "ipykernel",
+    "ipython",
+    "ipython_genutils",
+    "jupyter_client",
+    "python",
+    "python-dateutil",
+    "pyzmq",
+    "tornado"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "notebook"
+   ]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.7.0\n",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "decorator",
+    "ipykernel >=4.4",
+    "ipython >=4",
+    "ipython_genutils",
+    "jupyter_client",
+    "python",
+    "python-dateutil >=2.1",
+    "pyzmq >=13",
+    "tornado >=4"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "notebook >=5.3"
+   ]
+  }
+ },
+ "url":"https://pypi.io/packages/source/i/ipyparallel/ipyparallel-6.2.4.tar.gz",
+ "version":"6.3.0"
+}

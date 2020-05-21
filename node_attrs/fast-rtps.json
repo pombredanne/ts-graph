@@ -1,0 +1,6 @@
+{
+ "bad":"Upstream: Error getting upstream version",
+ "feedstock_name":"fast-rtps",
+ "new_version":false,
+ "raw_meta_yaml":"{% set name = \"fast-rtps\" %}\n{% set version = \"1.9.4\" %}\n{% set major_minor_version = version.split('.')[0] + '.' + version.split('.')[1] %}\n\npackage:\n  name: {{ name }}\n  version: {{ version }}\n\nsource:\n  - url: https://github.com/eProsima/Fast-RTPS/archive/v{{ version }}.tar.gz\n    sha256: 29ea86452b5c4969efe7f9ba2aaf51ab94176a3b567e9a6334f54a184b2e9b98\n\nbuild:\n  number: 0\n  skip: true  # [win and vc<14 or unix]\n  run_exports:\n    - {{ pin_subpackage(name, max_pin='x.x') }}\n\nrequirements:\n  build:\n    - {{ compiler('cxx') }}\n    - {{ compiler('c') }}\n    - cmake\n    - ninja\n    - pkg-config\n  host:\n    - fast-cdr\n    - asio\n    - tinyxml2\n    - openssl\n    - foonathan-memory\n  run:\n    - fast-cdr\n    - asio\n    - tinyxml2\n    - openssl\n    - foonathan-memory\n\ntest:\n  commands:\n    - if not exist %LIBRARY_PREFIX%\\\\bin\\\\fastrtps-{{ major_minor_version }}.dll exit 1  # [win]\n\nabout:\n  home: https://github.com/eProsima/Fast-RTPS\n  license: Apache-2.0\n  license_file: LICENSE\n  summary: |\n    eProsima Fast RTPS\n\nextra:\n  recipe-maintainers:\n    - seanyen\n"
+}

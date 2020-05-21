@@ -1,0 +1,105 @@
+{
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"go-lab",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "dev_url":"https://github.com/zaquestion/lab",
+   "doc_url":"https://zaquestion.github.io/lab",
+   "home":"https://github.com/zaquestion/lab",
+   "license":"CC0-1.0",
+   "license_file":"LICENSE",
+   "summary":"Lab wraps Git or Hub, making it simple to clone, fork, and interact with repositories on GitLab"
+  },
+  "build":{
+   "number":"0",
+   "script":[
+    "go install -ldflags \"-X main.version=0.17.2\" .",
+    "go install -ldflags \"-X main.version=0.17.2\" .",
+    "go install -ldflags \"-X main.version=0.17.2\" ."
+   ]
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "sodre",
+    "sodre",
+    "sodre"
+   ]
+  },
+  "package":{
+   "name":"go-lab",
+   "version":"0.17.2"
+  },
+  "requirements":{
+   "build":[
+    "go_compiler_stub",
+    "go_compiler_stub",
+    "go_compiler_stub"
+   ]
+  },
+  "source":{
+   "sha256":"467cb35793c4129e7da68e4c63ef5ee96e9ca43f933c88758e90850f0d6c77b9",
+   "url":"https://github.com/zaquestion/lab/archive/v0.17.2.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "where lab",
+    "which lab",
+    "which lab"
+   ]
+  }
+ },
+ "name":"go-lab",
+ "new_version":"0.17.2",
+ "raw_meta_yaml":"{% set name = \"lab\" %}\n{% set version = \"0.17.2\" %}\n\npackage:\n  name: go-{{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://github.com/zaquestion/lab/archive/v{{ version }}.tar.gz\n  sha256: 467cb35793c4129e7da68e4c63ef5ee96e9ca43f933c88758e90850f0d6c77b9\n\nbuild:\n  number: 0\n  script: \n    - go install -ldflags \"-X main.version={{ version }}\" .\n\nrequirements:\n  build:\n    - {{ compiler('go') }}\n\ntest:\n  commands:\n    # Lab needs a tty even for `lab --help`\n    - which lab  # [unix]\n    - where lab  # [win]\n\nabout:\n  home: https://github.com/zaquestion/lab\n  license: CC0-1.0\n  license_file: LICENSE\n  summary: 'Lab wraps Git or Hub, making it simple to clone, fork, and interact with repositories on GitLab'\n\n  doc_url: https://zaquestion.github.io/lab\n  dev_url: https://github.com/zaquestion/lab\n\nextra:\n  recipe-maintainers:\n    - sodre\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "go_compiler_stub"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "go_compiler_stub"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "go_compiler_stub"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://github.com/zaquestion/lab/archive/v0.17.2.tar.gz",
+ "version":"0.17.2"
+}

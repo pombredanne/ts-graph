@@ -1,0 +1,301 @@
+{
+ "PRed":[
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.2.6"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/211337323.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.2.7"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/242397805.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.2.8"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/336049767.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"python38"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/393882531.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"pypy"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "compiler_stack":"comp7",
+  "max_py_ver":"37",
+  "max_r_ver":"35",
+  "provider":{
+   "win":"azure"
+  }
+ },
+ "feedstock_name":"newspaper3k",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"Newspaper3k: Article scraping & curation",
+   "dev_url":"https://github.com/codelucas/newspaper",
+   "doc_url":"https://newspaper.readthedocs.io/en/latest",
+   "home":"https://github.com/codelucas/newspaper/",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"LICENSE",
+   "summary":"Simplified python article discovery & extraction."
+  },
+  "build":{
+   "number":"0",
+   "script":" -m pip install . --no-deps -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "ganeshhubale",
+    "ganeshhubale",
+    "ganeshhubale"
+   ]
+  },
+  "package":{
+   "name":"newspaper3k",
+   "version":"0.2.8"
+  },
+  "requirements":{
+   "build":[
+    "python",
+    "pip",
+    "python",
+    "pip",
+    "python",
+    "pip"
+   ],
+   "run":[
+    "python",
+    "beautifulsoup4 >=4.4.1",
+    "pillow >=3.3.0",
+    "pyyaml >=3.11",
+    "cssselect >=0.9.2",
+    "lxml >=3.6.0",
+    "nltk >=3.2.1",
+    "requests >=2.10.0",
+    "feedparser >=5.2.1",
+    "tldextract >=2.0.1",
+    "feedfinder2 >=0.0.4",
+    "jieba3k >=0.35.1",
+    "python-dateutil >=2.5.3",
+    "python",
+    "beautifulsoup4 >=4.4.1",
+    "pillow >=3.3.0",
+    "pyyaml >=3.11",
+    "cssselect >=0.9.2",
+    "lxml >=3.6.0",
+    "nltk >=3.2.1",
+    "requests >=2.10.0",
+    "feedparser >=5.2.1",
+    "tldextract >=2.0.1",
+    "feedfinder2 >=0.0.4",
+    "jieba3k >=0.35.1",
+    "python-dateutil >=2.5.3",
+    "python",
+    "beautifulsoup4 >=4.4.1",
+    "pillow >=3.3.0",
+    "pyyaml >=3.11",
+    "cssselect >=0.9.2",
+    "lxml >=3.6.0",
+    "nltk >=3.2.1",
+    "requests >=2.10.0",
+    "feedparser >=5.2.1",
+    "tldextract >=2.0.1",
+    "feedfinder2 >=0.0.4",
+    "jieba3k >=0.35.1",
+    "python-dateutil >=2.5.3"
+   ]
+  },
+  "source":{
+   "sha256":"9f1bd3e1fb48f400c715abf875cc7b0a67b7ddcd87f50c9aeeb8fcbbbd9004fb",
+   "url":"https://pypi.io/packages/source/n/newspaper3k/newspaper3k-0.2.8.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "newspaper",
+    "newspaper",
+    "newspaper"
+   ]
+  }
+ },
+ "name":"newspaper3k",
+ "new_version":"0.2.8",
+ "pinning_version":"2020.03.24",
+ "raw_meta_yaml":"{% set version = \"0.2.8\" %}\n\npackage:\n  name: newspaper3k\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/n/newspaper3k/newspaper3k-{{ version }}.tar.gz\n  sha256: 9f1bd3e1fb48f400c715abf875cc7b0a67b7ddcd87f50c9aeeb8fcbbbd9004fb\n\nbuild:\n  number: 0\n  script: \"{{ PYTHON }} -m pip install . --no-deps -vv\"\n  skip: True  # [py2k]\n  \nrequirements:\n  build:\n    - python\n    - pip  \n  run:\n    - python\n    - beautifulsoup4 >=4.4.1\n    - pillow >=3.3.0\n    - pyyaml >=3.11\n    - cssselect >=0.9.2\n    - lxml >=3.6.0\n    - nltk >=3.2.1\n    - requests >=2.10.0\n    - feedparser >=5.2.1\n    - tldextract >=2.0.1\n    - feedfinder2 >=0.0.4\n    - jieba3k >=0.35.1\n    - python-dateutil >=2.5.3\n\ntest:\n  imports:\n    - newspaper\n\nabout:\n  home: https://github.com/codelucas/newspaper/\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE\n  summary: Simplified python article discovery & extraction.\n  description: \"Newspaper3k: Article scraping & curation\"\n    \n  doc_url: https://newspaper.readthedocs.io/en/latest\n  dev_url: https://github.com/codelucas/newspaper\n  \n\nextra:\n  recipe-maintainers: \n  - ganeshhubale\n     \n  \n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "beautifulsoup4",
+   "cssselect",
+   "feedfinder2",
+   "feedparser",
+   "jieba3k",
+   "lxml",
+   "nltk",
+   "pillow",
+   "pip",
+   "python",
+   "python-dateutil",
+   "pyyaml",
+   "requests",
+   "tldextract"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "beautifulsoup4",
+    "cssselect",
+    "feedfinder2",
+    "feedparser",
+    "jieba3k",
+    "lxml",
+    "nltk",
+    "pillow",
+    "python",
+    "python-dateutil",
+    "pyyaml",
+    "requests",
+    "tldextract"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.6.15",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "beautifulsoup4 >=4.4.1",
+    "cssselect >=0.9.2",
+    "feedfinder2 >=0.0.4",
+    "feedparser >=5.2.1",
+    "jieba3k >=0.35.1",
+    "lxml >=3.6.0",
+    "nltk >=3.2.1",
+    "pillow >=3.3.0",
+    "python",
+    "python-dateutil >=2.5.3",
+    "pyyaml >=3.11",
+    "requests >=2.10.0",
+    "tldextract >=2.0.1"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/n/newspaper3k/newspaper3k-0.2.8.tar.gz",
+ "version":"0.2.8"
+}

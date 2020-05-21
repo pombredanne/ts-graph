@@ -1,0 +1,152 @@
+{
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"pymorphy2",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "doc_url":"https://pymorphy2.readthedocs.org/",
+   "home":"https://github.com/kmike/pymorphy2/",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"LICENSE.txt",
+   "summary":"Morphological analyzer (POS tagger + inflection engine) for Russian language."
+  },
+  "build":{
+   "entry_points":[
+    "pymorphy = pymorphy2.cli:main",
+    "pymorphy = pymorphy2.cli:main",
+    "pymorphy = pymorphy2.cli:main"
+   ],
+   "noarch":"python",
+   "number":"0",
+   "script":"-m pip install . -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "benhuff",
+    "oblute",
+    "mwilson8",
+    "benhuff",
+    "oblute",
+    "mwilson8",
+    "benhuff",
+    "oblute",
+    "mwilson8"
+   ]
+  },
+  "package":{
+   "name":"pymorphy2",
+   "version":"0.8"
+  },
+  "requirements":{
+   "host":[
+    "pip",
+    "python",
+    "pip",
+    "python",
+    "pip",
+    "python"
+   ],
+   "run":[
+    "dawg-python >=0.7",
+    "docopt >=0.6",
+    "pymorphy2-dicts-ru >=2.4",
+    "python",
+    "dawg-python >=0.7",
+    "docopt >=0.6",
+    "pymorphy2-dicts-ru >=2.4",
+    "python",
+    "dawg-python >=0.7",
+    "docopt >=0.6",
+    "pymorphy2-dicts-ru >=2.4",
+    "python"
+   ]
+  },
+  "source":{
+   "sha256":"3092c21f5e6f78a3a2fa54011236f975cbff8df29827ed6661cf4bde9aacdb8f",
+   "url":"https://pypi.io/packages/source/p/pymorphy2/pymorphy2-0.8.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "pymorphy2",
+    "pymorphy2.opencorpora_dict",
+    "pymorphy2.units",
+    "pymorphy2",
+    "pymorphy2.opencorpora_dict",
+    "pymorphy2.units",
+    "pymorphy2",
+    "pymorphy2.opencorpora_dict",
+    "pymorphy2.units"
+   ]
+  }
+ },
+ "name":"pymorphy2",
+ "new_version":"0.8",
+ "raw_meta_yaml":"{% set name = \"pymorphy2\" %}\n{% set version = \"0.8\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: 3092c21f5e6f78a3a2fa54011236f975cbff8df29827ed6661cf4bde9aacdb8f\n\nbuild:\n  number: 0\n  noarch: python\n  script: {{ PYTHON }} -m pip install . -vv\n  entry_points:\n    - pymorphy = pymorphy2.cli:main\n\nrequirements:\n  host:\n    - pip\n    - python\n  run:\n    - dawg-python >=0.7\n    - docopt >=0.6\n    - pymorphy2-dicts-ru >=2.4\n    - python\n\ntest:\n  imports:\n    - pymorphy2\n    - pymorphy2.opencorpora_dict\n    - pymorphy2.units\n\nabout:\n  home: https://github.com/kmike/pymorphy2/\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE.txt\n  summary: 'Morphological analyzer (POS tagger + inflection engine) for Russian language.'\n  doc_url: https://pymorphy2.readthedocs.org/\n\nextra:\n  recipe-maintainers:\n    - benhuff\n    - oblute\n    - mwilson8\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "dawg-python",
+   "docopt",
+   "pip",
+   "pymorphy2-dicts-ru",
+   "python"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "dawg-python",
+    "docopt",
+    "pymorphy2-dicts-ru",
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "dawg-python >=0.7",
+    "docopt >=0.6",
+    "pymorphy2-dicts-ru >=2.4",
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/p/pymorphy2/pymorphy2-0.8.tar.gz",
+ "version":"0.8"
+}

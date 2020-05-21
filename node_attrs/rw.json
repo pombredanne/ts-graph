@@ -1,0 +1,216 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/199635053.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Compiler",
+    "migrator_version":0
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/231818056.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/334603775.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"ArchRebuild",
+    "migrator_version":1,
+    "name":"aarch64 and ppc64le addition"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "compiler_stack":"comp7",
+  "max_py_ver":"37",
+  "max_r_ver":"35",
+  "provider":{
+   "linux_aarch64":"default",
+   "linux_ppc64le":"default"
+  }
+ },
+ "feedstock_name":"rw",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "dev_url":"https://sourceforge.net/p/rankwidth/code/HEAD/tree/",
+   "home":"https://sourceforge.net/projects/rankwidth/",
+   "license":"GPLv2",
+   "license_file":"COPYING",
+   "summary":"rw calculates rank-width and rank-decompositions"
+  },
+  "build":{
+   "number":"1001",
+   "skip":true
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "isuruf",
+    "isuruf",
+    "isuruf"
+   ]
+  },
+  "package":{
+   "name":"rw",
+   "version":"0.8"
+  },
+  "requirements":{
+   "build":[
+    "libtool",
+    "automake",
+    "pkg-config",
+    "make",
+    "c_compiler_stub",
+    "libtool",
+    "automake",
+    "pkg-config",
+    "make",
+    "c_compiler_stub",
+    "libtool",
+    "automake",
+    "pkg-config",
+    "make",
+    "c_compiler_stub"
+   ],
+   "host":[
+    "m4",
+    "igraph 0.7.*",
+    "m4",
+    "igraph 0.7.*",
+    "m4",
+    "igraph 0.7.*"
+   ],
+   "run":[
+    "igraph 0.7.*",
+    "igraph 0.7.*",
+    "igraph 0.7.*"
+   ]
+  },
+  "source":{
+   "fn":"rw-0.8.tar.gz",
+   "sha256":"60fd5320bef28a5156284fc224534376405f2655c6777a12a05fcacc0576d700",
+   "url":"https://excellmedia.dl.sourceforge.net/project/rankwidth/rw-0.8.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "test -f ${PREFIX}/include/rw.h",
+    "test -f ${PREFIX}/lib/librw.a",
+    "test -f ${PREFIX}/include/rw.h",
+    "test -f ${PREFIX}/lib/librw.a",
+    "test -f ${PREFIX}/lib/librw.dylib",
+    "test -f ${PREFIX}/include/rw.h",
+    "test -f ${PREFIX}/lib/librw.a",
+    "test -f ${PREFIX}/lib/librw.so"
+   ]
+  }
+ },
+ "name":"rw",
+ "new_version":false,
+ "pinning_version":"2019.10.28",
+ "raw_meta_yaml":"{% set version = \"0.8\" %}\n{% set name = \"rw\" %}\n\npackage:\n  name: {{ name }}\n  version: {{ version }}\n\nsource:\n  fn: {{ name }}-{{ version }}.tar.gz\n  url: https://excellmedia.dl.sourceforge.net/project/rankwidth/{{ name }}-{{ version }}.tar.gz\n  sha256: 60fd5320bef28a5156284fc224534376405f2655c6777a12a05fcacc0576d700\n\nbuild:\n  number: 1001\n  skip: true  # [win]\n\nrequirements:\n  build:\n    - libtool\n    - automake\n    - pkg-config\n    - make\n    - {{ compiler('c') }}\n  host:\n    - m4\n    - igraph 0.7.*\n\n  run:\n    - igraph 0.7.*\n\ntest:\n  commands:\n    - test -f ${PREFIX}/include/{{ name }}.h\n    - test -f ${PREFIX}/lib/lib{{ name }}.a\n    - test -f ${PREFIX}/lib/lib{{ name }}.dylib     # [osx]\n    - test -f ${PREFIX}/lib/lib{{ name }}.so        # [linux]\n\nabout:\n  home: https://sourceforge.net/projects/rankwidth/\n  license: GPLv2\n  license_file: COPYING\n  summary: rw calculates rank-width and rank-decompositions\n  dev_url: https://sourceforge.net/p/rankwidth/code/HEAD/tree/\n\nextra:\n  recipe-maintainers:\n    - isuruf\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "automake",
+   "c_compiler_stub",
+   "igraph",
+   "libtool",
+   "m4",
+   "make",
+   "pkg-config"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "automake",
+    "c_compiler_stub",
+    "libtool",
+    "make",
+    "pkg-config"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "igraph",
+    "m4"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "igraph"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.6.0",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "automake",
+    "c_compiler_stub",
+    "libtool",
+    "make",
+    "pkg-config"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "igraph 0.7.*",
+    "m4"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "igraph 0.7.*"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://excellmedia.dl.sourceforge.net/project/rankwidth/rw-0.8.tar.gz",
+ "version":"0.8"
+}

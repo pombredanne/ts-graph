@@ -1,0 +1,174 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/407680541.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.6.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/413757174.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.6.3"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"mimalloc",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"mimalloc (pronounced \"me-malloc\") is a general purpose allocator with\nexcellent performance characteristics. Initially developed by Daan Leijen\nfor the run-time systems of the Koka and Lean languages.\n",
+   "dev_url":"https://github.com/microsoft/mimalloc",
+   "home":"https://github.com/microsoft/mimalloc",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"LICENSE",
+   "summary":"mimalloc is a compact general purpose allocator with excellent performance."
+  },
+  "build":{
+   "number":"0",
+   "skip":true
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "elbaro",
+    "elbaro",
+    "elbaro"
+   ]
+  },
+  "package":{
+   "name":"mimalloc",
+   "version":"1.6.2"
+  },
+  "requirements":{
+   "build":[
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "cmake",
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "cmake",
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "cmake"
+   ]
+  },
+  "source":{
+   "patches":[
+    "0001-update-install-path-patch.patch",
+    "0001-update-install-path-patch.patch",
+    "0001-update-install-path-patch.patch"
+   ],
+   "sha256":"a4bf4e1e0764230e8abbcec88e2ffaf170804fdfcda15e6a17f63f7088d8e692",
+   "url":"https://github.com/microsoft/mimalloc/archive/v1.6.2.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "test -f $PREFIX/lib/libmimalloc.so",
+    "test -f $PREFIX/lib/libmimalloc.a",
+    "test -f $PREFIX/lib/mimalloc.o",
+    "test -f $PREFIX/include/mimalloc.h",
+    "test -f $PREFIX/lib/libmimalloc.so",
+    "test -f $PREFIX/lib/libmimalloc.a",
+    "test -f $PREFIX/lib/mimalloc.o",
+    "test -f $PREFIX/include/mimalloc.h",
+    "test -f $PREFIX/lib/libmimalloc.so",
+    "test -f $PREFIX/lib/libmimalloc.a",
+    "test -f $PREFIX/lib/mimalloc.o",
+    "test -f $PREFIX/include/mimalloc.h"
+   ]
+  }
+ },
+ "name":"mimalloc",
+ "new_version":"1.6.3",
+ "new_version_attempts":{
+  "1.6.2":1,
+  "1.6.3":1,
+  "4":6
+ },
+ "new_version_errors":{
+  "4":"The recipe did not change in the version migration, a URL did not hash, or there is jinja2 syntax the bot cannot handle!\n\nPlease check the URLs in your recipe with version '4' to make sure they exist!\n\nWe also found the following errors:\n\n - could not hash URL template 'https://github.com/microsoft/mimalloc/archive/v{{ version }}.tar.gz'\n"
+ },
+ "pinning_version":"2020.05.04.19.59.17",
+ "raw_meta_yaml":"{% set name = \"mimalloc\" %}\n{% set version = \"1.6.2\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://github.com/microsoft/mimalloc/archive/v{{ version }}.tar.gz\n  sha256: a4bf4e1e0764230e8abbcec88e2ffaf170804fdfcda15e6a17f63f7088d8e692\n  patches:\n    - 0001-update-install-path-patch.patch\n\nbuild:\n  number: 0\n  skip: true  # [not linux]\n\nrequirements:\n  build:\n    - {{ compiler('c') }}\n    - {{ compiler('cxx') }}\n    - cmake\n\n# .\n# \u251c\u2500\u2500 include\n# \u2502  \u251c\u2500\u2500 mimalloc-new-delete.h\n# \u2502  \u251c\u2500\u2500 mimalloc-override.h\n# \u2502  \u2514\u2500\u2500 mimalloc.h\n# \u2514\u2500\u2500 lib\n#    \u251c\u2500\u2500 libmimalloc.a\n#    \u251c\u2500\u2500 libmimalloc.so -> libmimalloc.so.1.6\n#    \u251c\u2500\u2500 libmimalloc.so.1.6\n#    \u2514\u2500\u2500 mimalloc.o\n\ntest:\n  commands:\n    - test -f $PREFIX/lib/libmimalloc.so\n    - test -f $PREFIX/lib/libmimalloc.a\n    - test -f $PREFIX/lib/mimalloc.o\n    - test -f $PREFIX/include/mimalloc.h\n\nabout:\n  home: https://github.com/microsoft/mimalloc\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE\n  summary: mimalloc is a compact general purpose allocator with excellent performance.\n\n  description: |\n    mimalloc (pronounced \"me-malloc\") is a general purpose allocator with\n    excellent performance characteristics. Initially developed by Daan Leijen\n    for the run-time systems of the Koka and Lean languages. \n  dev_url: https://github.com/microsoft/mimalloc\n\nextra:\n  recipe-maintainers:\n    - elbaro\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "c_compiler_stub",
+   "cmake",
+   "cxx_compiler_stub"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "cmake",
+    "cxx_compiler_stub"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.7.0\n",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "cmake",
+    "cxx_compiler_stub"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://github.com/microsoft/mimalloc/archive/v1.6.1.tar.gz",
+ "version":"1.6.2"
+}

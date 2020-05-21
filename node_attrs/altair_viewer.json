@@ -1,0 +1,207 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/363161791.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.2.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/383335547.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.2.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/396341180.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.3.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "bot":{
+   "automerge":true
+  }
+ },
+ "feedstock_name":"altair_viewer",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"http://github.com/altair-viz/altair_viewer/",
+   "license":"BSD-3-Clause",
+   "license_family":"BSD",
+   "license_file":"LICENSE",
+   "summary":"Viewer for Altair and Vega-Lite visualizations."
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":"-m pip install . -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "xhochy",
+    "xhochy",
+    "xhochy"
+   ]
+  },
+  "package":{
+   "name":"altair_viewer",
+   "version":"0.3.0"
+  },
+  "requirements":{
+   "host":[
+    "python >=3.6",
+    "pip",
+    "setuptools",
+    "python >=3.6",
+    "pip",
+    "setuptools",
+    "python >=3.6",
+    "pip",
+    "setuptools"
+   ],
+   "run":[
+    "python >=3.6",
+    "altair",
+    "altair_data_server >=0.4.0",
+    "python >=3.6",
+    "altair",
+    "altair_data_server >=0.4.0",
+    "python >=3.6",
+    "altair",
+    "altair_data_server >=0.4.0"
+   ]
+  },
+  "source":{
+   "sha256":"2964dbde6b7c5be723ddd9d509db4de67c9fb4c765d4e864087dc931c4524439",
+   "url":"https://pypi.io/packages/source/a/altair_viewer/altair_viewer-0.3.0.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "pip check",
+    "pip check",
+    "pip check"
+   ],
+   "imports":[
+    "altair_viewer",
+    "altair_viewer",
+    "altair_viewer"
+   ],
+   "requires":[
+    "pip",
+    "pip",
+    "pip"
+   ]
+  }
+ },
+ "name":"altair_viewer",
+ "new_version":"0.3.0",
+ "pinning_version":"2020.03.30",
+ "raw_meta_yaml":"{% set name = \"altair_viewer\" %}\n{% set version = \"0.3.0\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: 2964dbde6b7c5be723ddd9d509db4de67c9fb4c765d4e864087dc931c4524439\n\nbuild:\n  number: 0\n  noarch: python\n  script: {{ PYTHON }} -m pip install . -vv\n\nrequirements:\n  host:\n    - python >=3.6\n    - pip\n    - setuptools\n  run:\n    - python >=3.6\n    - altair\n    - altair_data_server >=0.4.0\n\ntest:\n  imports:\n    - altair_viewer\n  requires:\n    - pip\n  commands:\n    - pip check\n\nabout:\n  home: http://github.com/altair-viz/altair_viewer/\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: LICENSE\n  summary: Viewer for Altair and Vega-Lite visualizations.\n\nextra:\n  recipe-maintainers:\n    - xhochy\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "altair",
+   "altair_data_server",
+   "pip",
+   "python",
+   "setuptools"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python",
+    "setuptools"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "altair",
+    "altair_data_server",
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "pip"
+   ]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.6.15",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3.6",
+    "setuptools"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "altair",
+    "altair_data_server >=0.4.0",
+    "python >=3.6"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "pip"
+   ]
+  }
+ },
+ "url":"https://pypi.io/packages/source/a/altair_viewer/altair_viewer-0.1.2.tar.gz",
+ "version":"0.3.0"
+}

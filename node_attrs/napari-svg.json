@@ -1,0 +1,155 @@
+{
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"napari-svg",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"An io plugin for reading and writing svg files with napari\n",
+   "dev_url":"https://github.com/napari/napari-svg",
+   "doc_url":"https://github.com/napari/napari-svg",
+   "home":"https://github.com/napari/napari-svg",
+   "license":"BSD-3-Clause",
+   "license_family":"BSD",
+   "license_file":"LICENSE",
+   "summary":"An io plugin for reading and writing svg files with napari"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "sofroniewn",
+    "tlambert03",
+    "jni",
+    "sofroniewn",
+    "tlambert03",
+    "jni",
+    "sofroniewn",
+    "tlambert03",
+    "jni"
+   ]
+  },
+  "package":{
+   "name":"napari-svg",
+   "version":"0.1.2"
+  },
+  "requirements":{
+   "host":[
+    "python >=3.6",
+    "pip",
+    "setuptools_scm",
+    "python >=3.6",
+    "pip",
+    "setuptools_scm",
+    "python >=3.6",
+    "pip",
+    "setuptools_scm"
+   ],
+   "run":[
+    "imageio",
+    "numpy",
+    "napari-plugin-engine",
+    "vispy",
+    "python >=3.6",
+    "imageio",
+    "numpy",
+    "napari-plugin-engine",
+    "vispy",
+    "python >=3.6",
+    "imageio",
+    "numpy",
+    "napari-plugin-engine",
+    "vispy",
+    "python >=3.6"
+   ]
+  },
+  "source":{
+   "sha256":"c36ccabc1b07dd7e185e0c2a62198bee2d0e1e9673fcfe407c55fb0f2be8854e",
+   "url":"https://pypi.io/packages/source/n/napari-svg/napari-svg-0.1.2.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "napari_svg",
+    "napari_svg",
+    "napari_svg"
+   ]
+  }
+ },
+ "name":"napari-svg",
+ "new_version":"0.1.2",
+ "raw_meta_yaml":"{% set name = \"napari-svg\" %}\n{% set version = \"0.1.2\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: c36ccabc1b07dd7e185e0c2a62198bee2d0e1e9673fcfe407c55fb0f2be8854e\n\nbuild:\n  noarch: python\n  number: 0\n  script: \"{{ PYTHON }} -m pip install . -vv\"\n\nrequirements:\n  host:\n    - python >=3.6\n    - pip\n    - setuptools_scm\n  run:\n    - imageio\n    - numpy\n    - napari-plugin-engine\n    - vispy\n    - python >=3.6\n\ntest:\n  imports:\n    - napari_svg\n\nabout:\n  home: https://github.com/napari/napari-svg\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: LICENSE\n  summary: 'An io plugin for reading and writing svg files with napari'\n\n  # The remaining entries in this section are optional, but recommended.\n  description: |\n    An io plugin for reading and writing svg files with napari\n  doc_url: https://github.com/napari/napari-svg\n  dev_url: https://github.com/napari/napari-svg\n\nextra:\n  recipe-maintainers:\n    - sofroniewn\n    - tlambert03\n    - jni\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "imageio",
+   "napari-plugin-engine",
+   "numpy",
+   "pip",
+   "python",
+   "setuptools_scm",
+   "vispy"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python",
+    "setuptools_scm"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "imageio",
+    "napari-plugin-engine",
+    "numpy",
+    "python",
+    "vispy"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3.6",
+    "setuptools_scm"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "imageio",
+    "napari-plugin-engine",
+    "numpy",
+    "python >=3.6",
+    "vispy"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/n/napari-svg/napari-svg-0.1.2.tar.gz",
+ "version":"0.1.2"
+}

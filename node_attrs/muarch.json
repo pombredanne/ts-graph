@@ -1,0 +1,215 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/412549060.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"python38"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"muarch",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "dev_url":"https://github.com/DanielBok/muarch",
+   "doc_url":"https://muarch.rtfd.io",
+   "home":"https://github.com/DanielBok/muarch",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"LICENSE",
+   "summary":"Multiple Univariate ARCH modeling toolbox built on top of the ARCH package"
+  },
+  "build":{
+   "number":"0",
+   "script":" -m pip install . -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "DanielBok",
+    "DanielBok",
+    "DanielBok"
+   ]
+  },
+  "package":{
+   "name":"muarch",
+   "version":"0.2.2"
+  },
+  "requirements":{
+   "build":[
+    "c_compiler_stub",
+    "c_compiler_stub",
+    "c_compiler_stub"
+   ],
+   "host":[
+    "pip",
+    "python",
+    "setuptools",
+    "cython >=0.29",
+    "numpy",
+    "pip",
+    "python",
+    "setuptools",
+    "cython >=0.29",
+    "numpy",
+    "pip",
+    "python",
+    "setuptools",
+    "cython >=0.29",
+    "numpy"
+   ],
+   "run":[
+    "python",
+    "arch-py >=4.7",
+    "copulae >=0.4",
+    "numpy",
+    "scipy >=1.1",
+    "pandas >=0.23",
+    "python",
+    "arch-py >=4.7",
+    "copulae >=0.4",
+    "numpy",
+    "scipy >=1.1",
+    "pandas >=0.23",
+    "python",
+    "arch-py >=4.7",
+    "copulae >=0.4",
+    "numpy",
+    "scipy >=1.1",
+    "pandas >=0.23"
+   ]
+  },
+  "source":{
+   "sha256":"e81649e7eef494d9a10e20db6f87cc4edf45b19076ec5334bfd250881cb8636f",
+   "url":"https://pypi.io/packages/source/m/muarch/muarch-0.2.2.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "muarch",
+    "muarch.calibrate",
+    "muarch.datasets",
+    "muarch.distributions",
+    "muarch.funcs",
+    "muarch.mean",
+    "muarch.volatility",
+    "muarch",
+    "muarch.calibrate",
+    "muarch.datasets",
+    "muarch.distributions",
+    "muarch.funcs",
+    "muarch.mean",
+    "muarch.volatility",
+    "muarch",
+    "muarch.calibrate",
+    "muarch.datasets",
+    "muarch.distributions",
+    "muarch.funcs",
+    "muarch.mean",
+    "muarch.volatility"
+   ]
+  }
+ },
+ "name":"muarch",
+ "new_version":"0.2.2",
+ "pinning_version":"2020.05.02.14.58.15",
+ "raw_meta_yaml":"{% set name = \"muarch\" %}\n{% set version = \"0.2.2\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: e81649e7eef494d9a10e20db6f87cc4edf45b19076ec5334bfd250881cb8636f\n\nbuild:\n  number: 0\n  script: \"{{ PYTHON }} -m pip install . -vv\"\n  skip: True  # [py<37]\n\nrequirements:\n  build:\n    - {{ compiler('c') }}\n  host:\n    - pip\n    - python\n    - setuptools\n    - cython >=0.29\n    - numpy\n  run:\n    - python\n    - arch-py >=4.7\n    - copulae >=0.4\n    - {{ pin_compatible('numpy') }}\n    - scipy >=1.1\n    - pandas >=0.23\n\ntest:\n  imports:\n    - muarch\n    - muarch.calibrate\n    - muarch.datasets\n    - muarch.distributions\n    - muarch.funcs\n    - muarch.mean\n    - muarch.volatility\n\nabout:\n  home: https://github.com/DanielBok/muarch\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE\n  summary: Multiple Univariate ARCH modeling toolbox built on top of the ARCH package\n  dev_url: https://github.com/DanielBok/muarch\n  doc_url: https://muarch.rtfd.io\n\nextra:\n  recipe-maintainers:\n    - DanielBok\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "arch-py",
+   "c_compiler_stub",
+   "copulae",
+   "cython",
+   "numpy",
+   "pandas",
+   "pip",
+   "python",
+   "scipy",
+   "setuptools"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "cython",
+    "numpy",
+    "pip",
+    "python",
+    "setuptools"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "arch-py",
+    "copulae",
+    "numpy",
+    "pandas",
+    "python",
+    "scipy"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.7.0\n",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "cython >=0.29",
+    "numpy",
+    "pip",
+    "python",
+    "setuptools"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "arch-py >=4.7",
+    "copulae >=0.4",
+    "numpy",
+    "pandas >=0.23",
+    "python",
+    "scipy >=1.1"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/m/muarch/muarch-0.2.2.tar.gz",
+ "version":"0.2.2"
+}

@@ -1,0 +1,263 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/242524610.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/249031295.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.0.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/288086093.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.0.3"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/303522168.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.0.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/336487339.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"python38"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "compiler_stack":"comp7",
+  "max_py_ver":"37",
+  "max_r_ver":"35"
+ },
+ "feedstock_name":"dask-mpi",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"Easily deploy Dask in an MPI environment,\nsuch as one created with the mpirun or mpiexec MPI launch commands.\n",
+   "dev_url":"https://github.com/dask/dask-mpi",
+   "doc_url":"http://dask-mpi.readthedocs.io",
+   "home":"https://github.com/dask/dask-mpi",
+   "license":"BSD-3-Clause",
+   "license_family":"BSD",
+   "license_file":"LICENSE.txt",
+   "summary":"Deploy Dask using MPI4Py"
+  },
+  "build":{
+   "entry_points":[
+    "dask-mpi = dask_mpi.cli:go",
+    "dask-mpi = dask_mpi.cli:go",
+    "dask-mpi = dask_mpi.cli:go"
+   ],
+   "number":"1",
+   "script":" -m pip install . --no-deps -vv",
+   "skip":true
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "kmpaul",
+    "andersy005",
+    "mrocklin",
+    "kmpaul",
+    "andersy005",
+    "mrocklin",
+    "kmpaul",
+    "andersy005",
+    "mrocklin"
+   ]
+  },
+  "package":{
+   "name":"dask-mpi",
+   "version":"2.0.0"
+  },
+  "requirements":{
+   "host":[
+    "python >=3.5",
+    "pip",
+    "pyyaml",
+    "six",
+    "python >=3.5",
+    "pip",
+    "pyyaml",
+    "six",
+    "python >=3.5",
+    "pip",
+    "pyyaml",
+    "six"
+   ],
+   "run":[
+    "python >=3.5",
+    "distributed >=2.2.0",
+    "mpi4py",
+    "python >=3.5",
+    "distributed >=2.2.0",
+    "mpi4py",
+    "python >=3.5",
+    "distributed >=2.2.0",
+    "mpi4py"
+   ]
+  },
+  "source":{
+   "sha256":"774cd2d69e5f7154e1fa133c22498062edd31507ffa2ea19f4ab4d8975c27bc3",
+   "url":"https://pypi.io/packages/source/d/dask-mpi/dask-mpi-2.0.0.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "dask-mpi --help",
+    "dask-mpi --help",
+    "dask-mpi --help"
+   ],
+   "imports":[
+    "dask_mpi",
+    "dask_mpi",
+    "dask_mpi"
+   ],
+   "requires":[
+    "mpich",
+    "mpich",
+    "mpich"
+   ]
+  }
+ },
+ "name":"dask-mpi",
+ "new_version":"2.0.0",
+ "pinning_version":"2019.11.01",
+ "raw_meta_yaml":"{% set name = \"dask-mpi\" %}\n{% set version = \"2.0.0\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: 774cd2d69e5f7154e1fa133c22498062edd31507ffa2ea19f4ab4d8975c27bc3\n\nbuild:\n  skip: true  # [win]\n  number: 1\n  script: \"{{ PYTHON }} -m pip install . --no-deps -vv\"\n  entry_points:\n    - dask-mpi = dask_mpi.cli:go\n\nrequirements:\n  host:\n    - python >=3.5\n    - pip\n    - pyyaml\n    - six\n  run:\n    - python >=3.5\n    - distributed >=2.2.0\n    - mpi4py\n\ntest:\n  requires:\n    - mpich\n  imports:\n    - dask_mpi\n  commands:\n    - dask-mpi --help\n\nabout:\n  home: https://github.com/dask/dask-mpi\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: LICENSE.txt\n  summary: 'Deploy Dask using MPI4Py'\n  description: |\n    Easily deploy Dask in an MPI environment,\n    such as one created with the mpirun or mpiexec MPI launch commands.\n  doc_url: http://dask-mpi.readthedocs.io\n  dev_url: https://github.com/dask/dask-mpi\n\nextra:\n  recipe-maintainers:\n    - kmpaul\n    - andersy005\n    - mrocklin\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "distributed",
+   "mpi4py",
+   "pip",
+   "python",
+   "pyyaml",
+   "six"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python",
+    "pyyaml",
+    "six"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "distributed",
+    "mpi4py",
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "mpich"
+   ]
+  }
+ },
+ "smithy_version":"3.6.1",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3.5",
+    "pyyaml",
+    "six"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "distributed >=2.2.0",
+    "mpi4py",
+    "python >=3.5"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "mpich"
+   ]
+  }
+ },
+ "url":"https://pypi.io/packages/source/d/dask-mpi/dask-mpi-2.0.0.tar.gz",
+ "version":"2.0.0"
+}

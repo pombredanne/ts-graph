@@ -1,0 +1,230 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/204242520.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Compiler",
+    "migrator_version":0
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/234079834.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/339935079.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"python38"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "compiler_stack":"comp7",
+  "max_py_ver":"37",
+  "max_r_ver":"35"
+ },
+ "feedstock_name":"piqs",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "dev_url":"https://github.com/nathanshammah/piqs",
+   "doc_url":"http://piqs.readthedocs.io/",
+   "home":"https://github.com/nathanshammah/piqs",
+   "license":"BSD 3-Clause",
+   "license_family":"BSD",
+   "license_file":"LICENSE",
+   "summary":"Efficient numerical simulation of Lindblad dynamics of open quantum systems using permutational invariance."
+  },
+  "build":{
+   "number":"1000",
+   "script":"-m pip install . --no-deps -vv",
+   "skip":true
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "nathanshammah",
+    "nathanshammah",
+    "nathanshammah"
+   ]
+  },
+  "package":{
+   "name":"piqs",
+   "version":"1.2"
+  },
+  "requirements":{
+   "build":[
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "c_compiler_stub",
+    "cxx_compiler_stub"
+   ],
+   "host":[
+    "python",
+    "pip",
+    "numpy",
+    "cython >=0.21",
+    "python",
+    "pip",
+    "numpy",
+    "cython >=0.21",
+    "python",
+    "pip",
+    "numpy",
+    "cython >=0.21"
+   ],
+   "run":[
+    "python",
+    "numpy",
+    "cython >=0.21",
+    "scipy >=0.15",
+    "qutip >=4.2",
+    "python",
+    "numpy",
+    "cython >=0.21",
+    "scipy >=0.15",
+    "qutip >=4.2",
+    "python",
+    "numpy",
+    "cython >=0.21",
+    "scipy >=0.15",
+    "qutip >=4.2"
+   ]
+  },
+  "source":{
+   "sha256":"2be0f330ebf5cdad5c353c763d683054f09c6a9d08f8b34a71a056c29755cd75",
+   "url":"https://github.com/nathanshammah/piqs/archive/v1.2.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "piqs",
+    "piqs.tests",
+    "piqs",
+    "piqs.tests",
+    "piqs",
+    "piqs.tests"
+   ]
+  }
+ },
+ "name":"piqs",
+ "new_version":"1.2",
+ "pinning_version":"2019.11.01",
+ "raw_meta_yaml":"{% set name = \"piqs\" %}\n{% set version = \"1.2\" %}\n{% set sha256 = \"2be0f330ebf5cdad5c353c763d683054f09c6a9d08f8b34a71a056c29755cd75\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://github.com/nathanshammah/piqs/archive/v{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  skip: True  # [win or py<36]\n  number: 1000\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  build:\n    - {{ compiler('c') }}\n    - {{ compiler('cxx') }}\n  host:\n    - python\n    - pip\n    - numpy\n    - cython >=0.21\n  run:\n    - python\n    - {{ pin_compatible('numpy') }}\n    - cython >=0.21\n    - scipy >=0.15\n    - qutip >=4.2\n\ntest:\n imports:\n   - piqs\n   - piqs.tests\n\nabout:\n  home: https://github.com/nathanshammah/piqs\n  license: BSD 3-Clause\n  license_file: LICENSE\n  license_family: BSD\n  summary: 'Efficient numerical simulation of Lindblad dynamics of open quantum systems using permutational invariance.'\n  doc_url: http://piqs.readthedocs.io/\n  dev_url: https://github.com/nathanshammah/piqs\n\nextra:\n  recipe-maintainers:\n    - nathanshammah\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "c_compiler_stub",
+   "cxx_compiler_stub",
+   "cython",
+   "numpy",
+   "pip",
+   "python",
+   "qutip",
+   "scipy"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "cxx_compiler_stub"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "cython",
+    "numpy",
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "cython",
+    "numpy",
+    "python",
+    "qutip",
+    "scipy"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.6.2",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "cxx_compiler_stub"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "cython >=0.21",
+    "numpy",
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "cython >=0.21",
+    "numpy",
+    "python",
+    "qutip >=4.2",
+    "scipy >=0.15"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://github.com/nathanshammah/piqs/archive/v1.2.tar.gz",
+ "version":"1.2"
+}

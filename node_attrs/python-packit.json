@@ -1,0 +1,165 @@
+{
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"python-packit",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"https://pypi.org/project/packit",
+   "license":"Public Domain",
+   "license_family":"Public Domain",
+   "license_file":"LICENSE",
+   "summary":"PacKit is wrapper around pbr though it only uses it for interaction with setuptools/distutils through simplified interface."
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "r78v10a07",
+    "r78v10a07",
+    "r78v10a07"
+   ]
+  },
+  "package":{
+   "name":"python-packit",
+   "version":"0.24"
+  },
+  "requirements":{
+   "host":[
+    "python",
+    "pip",
+    "wheel >=0.24",
+    "pbr >=4.0",
+    "glob2 >=0.4.1",
+    "packaging >=16.8",
+    "python",
+    "pip",
+    "wheel >=0.24",
+    "pbr >=4.0",
+    "glob2 >=0.4.1",
+    "packaging >=16.8",
+    "python",
+    "pip",
+    "wheel >=0.24",
+    "pbr >=4.0",
+    "glob2 >=0.4.1",
+    "packaging >=16.8"
+   ],
+   "run":[
+    "python",
+    "wheel >=0.24",
+    "pbr >=4.0",
+    "glob2 >=0.4.1",
+    "packaging >=16.8",
+    "python",
+    "wheel >=0.24",
+    "pbr >=4.0",
+    "glob2 >=0.4.1",
+    "packaging >=16.8",
+    "python",
+    "wheel >=0.24",
+    "pbr >=4.0",
+    "glob2 >=0.4.1",
+    "packaging >=16.8"
+   ]
+  },
+  "source":{
+   "patches":[
+    "version.patch",
+    "version.patch",
+    "version.patch"
+   ],
+   "sha256":"f22cbf399a5fcded061c566691be58d421b6c2b668ee0602665749a0266715f7",
+   "url":"https://files.pythonhosted.org/packages/58/4f/0ac86eb3cc9ce74f87de314faf33426798052b5b17a8e18bb4f0a08686b4/packit-0.24.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "packit",
+    "packit",
+    "packit"
+   ]
+  }
+ },
+ "name":"python-packit",
+ "new_version":false,
+ "raw_meta_yaml":"{% set version = \"0.24\" %}\n{% set hash_value = \"f22cbf399a5fcded061c566691be58d421b6c2b668ee0602665749a0266715f7\" %}\n\npackage:\n  name: python-packit\n  version: '{{ version }}'\n\nsource:\n  url: https://files.pythonhosted.org/packages/58/4f/0ac86eb3cc9ce74f87de314faf33426798052b5b17a8e18bb4f0a08686b4/packit-{{ version }}.tar.gz\n  sha256: '{{ hash_value }}'\n  patches:\n    - version.patch\n\nbuild:\n  noarch: python\n  number: 0\n  script: \"{{ PYTHON }} -m pip install . -vv\"\n\nrequirements:\n  host:\n    - python\n    - pip\n    - wheel >=0.24\n    - pbr >=4.0\n    - glob2 >=0.4.1\n    - packaging >=16.8\n\n  run:\n    - python\n    - wheel >=0.24\n    - pbr >=4.0\n    - glob2 >=0.4.1\n    - packaging >=16.8\n\ntest:\n  imports:\n    - packit\n\nabout:\n  home: https://pypi.org/project/packit\n  license: Public Domain\n  summary: 'PacKit is wrapper around pbr though it only uses it for interaction with setuptools/distutils through simplified interface.'\n  license_file: LICENSE\n  license_family: Public Domain\n\nextra:\n  recipe-maintainers:\n    - r78v10a07\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "glob2",
+   "packaging",
+   "pbr",
+   "pip",
+   "python",
+   "wheel"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "glob2",
+    "packaging",
+    "pbr",
+    "pip",
+    "python",
+    "wheel"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "glob2",
+    "packaging",
+    "pbr",
+    "python",
+    "wheel"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "glob2 >=0.4.1",
+    "packaging >=16.8",
+    "pbr >=4.0",
+    "pip",
+    "python",
+    "wheel >=0.24"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "glob2 >=0.4.1",
+    "packaging >=16.8",
+    "pbr >=4.0",
+    "python",
+    "wheel >=0.24"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://files.pythonhosted.org/packages/58/4f/0ac86eb3cc9ce74f87de314faf33426798052b5b17a8e18bb4f0a08686b4/packit-0.24.tar.gz",
+ "version":"0.24"
+}

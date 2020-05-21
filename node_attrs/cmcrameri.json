@@ -1,0 +1,129 @@
+{
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"cmcrameri",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"cmcrameri is a Python wrapper around Fabio Crameri's perceptually uniform colour maps\nhttp://www.fabiocrameri.ch/colourmaps.php\n",
+   "home":"https://github.com/callumrollo/cmcrameri",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"LICENSE",
+   "summary":"Perceptually uniform colourmaps for geosciences"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "callumrollo",
+    "callumrollo",
+    "callumrollo"
+   ]
+  },
+  "package":{
+   "name":"cmcrameri",
+   "version":"0.12"
+  },
+  "requirements":{
+   "host":[
+    "python >=3.6",
+    "pip",
+    "python >=3.6",
+    "pip",
+    "python >=3.6",
+    "pip"
+   ],
+   "run":[
+    "matplotlib-base",
+    "numpy",
+    "python >=3.6",
+    "matplotlib-base",
+    "numpy",
+    "python >=3.6",
+    "matplotlib-base",
+    "numpy",
+    "python >=3.6"
+   ]
+  },
+  "source":{
+   "sha256":"9c7a7533647629ec620128c4adbeb03ffc308e4ffef7dab2af7fb87176977d65",
+   "url":"https://pypi.io/packages/source/c/cmcrameri/cmcrameri-0.12.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "cmcrameri",
+    "cmcrameri",
+    "cmcrameri"
+   ]
+  }
+ },
+ "name":"cmcrameri",
+ "new_version":"0.12",
+ "raw_meta_yaml":"{% set name = \"cmcrameri\" %}\n{% set version = \"0.12\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: 9c7a7533647629ec620128c4adbeb03ffc308e4ffef7dab2af7fb87176977d65\n\nbuild:\n  noarch: python\n  number: 0\n  script: \"{{ PYTHON }} -m pip install . -vv\"\n\nrequirements:\n  host:\n    - python >=3.6\n    - pip\n  run:\n    - matplotlib-base\n    - numpy\n    - python >=3.6\n\ntest:\n  imports:\n    - cmcrameri\n\nabout:\n  home: https://github.com/callumrollo/cmcrameri\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE\n  summary: 'Perceptually uniform colourmaps for geosciences'\n  description: |\n     cmcrameri is a Python wrapper around Fabio Crameri's perceptually uniform colour maps\n     http://www.fabiocrameri.ch/colourmaps.php\n\nextra:\n  recipe-maintainers:\n    - callumrollo\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "matplotlib-base",
+   "numpy",
+   "pip",
+   "python"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "matplotlib-base",
+    "numpy",
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3.6"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "matplotlib-base",
+    "numpy",
+    "python >=3.6"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/c/cmcrameri/cmcrameri-0.12.tar.gz",
+ "version":"0.12"
+}

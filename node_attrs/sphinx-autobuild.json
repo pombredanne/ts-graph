@@ -1,0 +1,188 @@
+{
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"sphinx-autobuild",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"https://github.com/GaretJax/sphinx-autobuild",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"LICENSE",
+   "summary":"Watch a Sphinx directory and rebuild the documentation when a change is detected. Also includes a livereload enabled web server."
+  },
+  "build":{
+   "entry_points":[
+    "sphinx-autobuild=sphinx_autobuild:main",
+    "sphinx-autobuild=sphinx_autobuild:main",
+    "sphinx-autobuild=sphinx_autobuild:main"
+   ],
+   "noarch":"python",
+   "number":"2",
+   "script":"-m pip install --no-deps --ignore-installed ."
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "jrderuiter",
+    "xhochy",
+    "jrderuiter",
+    "xhochy",
+    "jrderuiter",
+    "xhochy"
+   ]
+  },
+  "package":{
+   "name":"sphinx-autobuild",
+   "version":"0.7.1"
+  },
+  "requirements":{
+   "host":[
+    "pip",
+    "python",
+    "pip",
+    "python",
+    "pip",
+    "python"
+   ],
+   "run":[
+    "python",
+    "watchdog >=0.7.1",
+    "argh >=0.24.1",
+    "pathtools >=0.1.2",
+    "pyyaml >=3.10",
+    "tornado >=3.2",
+    "port-for >=0.3.1",
+    "livereload >=2.3.0",
+    "python",
+    "watchdog >=0.7.1",
+    "argh >=0.24.1",
+    "pathtools >=0.1.2",
+    "pyyaml >=3.10",
+    "tornado >=3.2",
+    "port-for >=0.3.1",
+    "livereload >=2.3.0",
+    "python",
+    "watchdog >=0.7.1",
+    "argh >=0.24.1",
+    "pathtools >=0.1.2",
+    "pyyaml >=3.10",
+    "tornado >=3.2",
+    "port-for >=0.3.1",
+    "livereload >=2.3.0"
+   ]
+  },
+  "source":{
+   "sha256":"66388f81884666e3821edbe05dd53a0cfb68093873d17320d0610de8db28c74e",
+   "url":"https://pypi.io/packages/source/s/sphinx-autobuild/sphinx-autobuild-0.7.1.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "sphinx-autobuild --help",
+    "pytest --pyargs sphinx_autobuild",
+    "sphinx-autobuild --help",
+    "pytest --pyargs sphinx_autobuild",
+    "sphinx-autobuild --help",
+    "pytest --pyargs sphinx_autobuild"
+   ],
+   "imports":[
+    "sphinx_autobuild",
+    "sphinx_autobuild",
+    "sphinx_autobuild"
+   ],
+   "requires":[
+    "pytest",
+    "mock",
+    "pytest",
+    "mock",
+    "pytest",
+    "mock"
+   ]
+  }
+ },
+ "name":"sphinx-autobuild",
+ "new_version":"0.7.1",
+ "raw_meta_yaml":"{% set name = \"sphinx-autobuild\" %}\n{% set version = \"0.7.1\" %}\n\npackage:\n  name: {{ name }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: 66388f81884666e3821edbe05dd53a0cfb68093873d17320d0610de8db28c74e\n\nbuild:\n  noarch: python\n  number: 2\n  script: {{ PYTHON }} -m pip install --no-deps --ignore-installed .\n  entry_points:\n    - sphinx-autobuild=sphinx_autobuild:main\n\nrequirements:\n  host:\n    - pip\n    - python\n\n  run:\n    - python\n    - watchdog >=0.7.1\n    - argh >=0.24.1\n    - pathtools >=0.1.2\n    - pyyaml >=3.10\n    - tornado >=3.2\n    - port-for >=0.3.1\n    - livereload >=2.3.0\n\ntest:\n  requires:\n    - pytest\n    - mock\n\n  imports:\n    - sphinx_autobuild\n\n  commands:\n    - sphinx-autobuild --help\n    - pytest --pyargs sphinx_autobuild\n\nabout:\n  home: https://github.com/GaretJax/sphinx-autobuild\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE\n  summary: 'Watch a Sphinx directory and rebuild the documentation when a change is detected. Also includes a livereload enabled web server.'\n\n\nextra:\n  recipe-maintainers:\n    - jrderuiter\n    - xhochy\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "argh",
+   "livereload",
+   "pathtools",
+   "pip",
+   "port-for",
+   "python",
+   "pyyaml",
+   "tornado",
+   "watchdog"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "argh",
+    "livereload",
+    "pathtools",
+    "port-for",
+    "python",
+    "pyyaml",
+    "tornado",
+    "watchdog"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "mock",
+    "pytest"
+   ]
+  }
+ },
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "argh >=0.24.1",
+    "livereload >=2.3.0",
+    "pathtools >=0.1.2",
+    "port-for >=0.3.1",
+    "python",
+    "pyyaml >=3.10",
+    "tornado >=3.2",
+    "watchdog >=0.7.1"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "mock",
+    "pytest"
+   ]
+  }
+ },
+ "url":"https://pypi.io/packages/source/s/sphinx-autobuild/sphinx-autobuild-0.7.1.tar.gz",
+ "version":"0.7.1"
+}

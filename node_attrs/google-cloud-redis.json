@@ -1,0 +1,162 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/417071843.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.0.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"google-cloud-redis",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"Google Cloud Memorystore for Redis API is a Google Cloud service that lets client applications communicate with a fully managed Redis service for Google Cloud. Applications running on Google Cloud can achieve extreme performance by leveraging the highly scalable, available, secure Redis service without the burden of managing complex Redis deployments.\nSee the [quick start guide](https://googleapis.dev/python/redis/latest/index.html#quick-start).",
+   "dev_url":"https://github.com/googleapis/python-redis",
+   "doc_url":"https://googleapis.dev/python/redis/latest/index.html",
+   "home":"https://github.com/googleapis/python-redis",
+   "license":"Apache-2.0",
+   "license_family":"Apache",
+   "license_file":"LICENSE",
+   "summary":"Google Cloud Memorystore for Redis API client library"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":"-m pip install . --no-deps -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "parthea",
+    "parthea",
+    "parthea"
+   ]
+  },
+  "package":{
+   "name":"google-cloud-redis",
+   "version":"0.4.0"
+  },
+  "requirements":{
+   "host":[
+    "python",
+    "pip >=18.1",
+    "python",
+    "pip >=18.1",
+    "python",
+    "pip >=18.1"
+   ],
+   "run":[
+    "python",
+    "google-api-core-grpc >=1.14.0,<2.0.0dev",
+    "enum34",
+    "python",
+    "google-api-core-grpc >=1.14.0,<2.0.0dev",
+    "enum34",
+    "python",
+    "google-api-core-grpc >=1.14.0,<2.0.0dev",
+    "enum34"
+   ]
+  },
+  "source":{
+   "sha256":"70a4cd5bb96f44586a11dbeabcc423d1a883b90d38c5f22948e9f1fd8f39ba33",
+   "url":"https://pypi.io/packages/source/g/google-cloud-redis/google-cloud-redis-0.4.0.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "grpc",
+    "google.cloud.redis",
+    "google.cloud.redis_v1",
+    "grpc",
+    "google.cloud.redis",
+    "google.cloud.redis_v1",
+    "grpc",
+    "google.cloud.redis",
+    "google.cloud.redis_v1"
+   ]
+  }
+ },
+ "name":"google-cloud-redis",
+ "new_version":"1.0.0",
+ "new_version_attempts":{
+  "1.0.0":1
+ },
+ "new_version_errors":{},
+ "pinning_version":"2020.05.12.18.03.58",
+ "raw_meta_yaml":"{% set name = \"google-cloud-redis\" %}\n{% set version = \"0.4.0\" %}\n{% set sha256 = \"70a4cd5bb96f44586a11dbeabcc423d1a883b90d38c5f22948e9f1fd8f39ba33\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  noarch: python\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  host:\n    - python\n    - pip >=18.1\n  run:\n    - python\n    - google-api-core-grpc >=1.14.0,<2.0.0dev\n    - enum34\n\ntest:\n  imports:\n    - grpc\n    - google.cloud.redis\n    - google.cloud.redis_v1\n\nabout:\n  home: https://github.com/googleapis/python-redis\n  license: Apache-2.0\n  license_family: Apache\n  license_file: LICENSE\n  summary: 'Google Cloud Memorystore for Redis API client library'\n  description: Google Cloud Memorystore for Redis API is a Google Cloud service that lets client applications\n    communicate with a fully managed Redis service for Google Cloud. Applications running on Google Cloud can\n    achieve extreme performance by leveraging the highly scalable, available, secure Redis service without the\n    burden of managing complex Redis deployments.\n\n    See the [quick start guide](https://googleapis.dev/python/redis/latest/index.html#quick-start).\n\n  doc_url: https://googleapis.dev/python/redis/latest/index.html\n  dev_url: https://github.com/googleapis/python-redis\n\nextra:\n  recipe-maintainers:\n    - parthea\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "enum34",
+   "google-api-core-grpc",
+   "pip",
+   "python"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "enum34",
+    "google-api-core-grpc",
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.7.1\n",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip >=18.1",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "enum34",
+    "google-api-core-grpc >=1.14.0,<2.0.0dev",
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/g/google-cloud-redis/google-cloud-redis-0.4.0.tar.gz",
+ "version":"0.4.0"
+}

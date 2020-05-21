@@ -1,0 +1,166 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/315400515.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.4.30"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/335814044.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.4.31"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"gstreamer-orc",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"https://gstreamer.freedesktop.org/modules/orc.html",
+   "license":"BSD-2-Clause AND BSD-3-Clause",
+   "license_file":"COPYING",
+   "summary":"Optimized Inner Loop Runtime Compiler"
+  },
+  "build":{
+   "number":"1",
+   "skip":true
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "sebastian-luna-valero",
+    "sebastian-luna-valero",
+    "sebastian-luna-valero"
+   ]
+  },
+  "package":{
+   "name":"gstreamer-orc",
+   "version":"0.4.31"
+  },
+  "requirements":{
+   "build":[
+    "c_compiler_stub",
+    "c_compiler_stub",
+    "c_compiler_stub"
+   ],
+   "host":[
+    "meson",
+    "meson",
+    "meson"
+   ]
+  },
+  "source":{
+   "patches":[
+    "0001-Add-install_rpath-to-meson.build.patch",
+    "0001-Add-install_rpath-to-meson.build.patch",
+    "0001-Add-install_rpath-to-meson.build.patch"
+   ],
+   "sha256":"a0ab5f10a6a9ae7c3a6b4218246564c3bf00d657cbdf587e6d34ec3ef0616075",
+   "url":"https://gstreamer.freedesktop.org/data/src/orc/orc-0.4.31.tar.xz"
+  },
+  "test":{
+   "commands":[
+    "orcc --help",
+    "orc-bugreport --help",
+    "test -f ${PREFIX}/lib/liborc-0.4${SHLIB_EXT}",
+    "orcc --help",
+    "orc-bugreport --help",
+    "test -f ${PREFIX}/lib/liborc-0.4${SHLIB_EXT}",
+    "chrpath -l ${PREFIX}/lib/liborc-0.4.so      | grep -qF 'RPATH=$ORIGIN/.'",
+    "chrpath -l ${PREFIX}/lib/liborc-test-0.4.so | grep -qF 'RPATH=$ORIGIN/.'",
+    "orcc --help",
+    "orc-bugreport --help"
+   ],
+   "requires":[
+    "chrpath"
+   ]
+  }
+ },
+ "name":"gstreamer-orc",
+ "new_version":"0.4.31",
+ "pinning_version":"2019.11.01",
+ "raw_meta_yaml":"{% set name = \"gstreamer-orc\" %}\n{% set version = \"0.4.31\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://gstreamer.freedesktop.org/data/src/orc/orc-{{version}}.tar.xz\n  sha256: a0ab5f10a6a9ae7c3a6b4218246564c3bf00d657cbdf587e6d34ec3ef0616075\n  patches:\n    - 0001-Add-install_rpath-to-meson.build.patch\n\nbuild:\n  number: 1\n  skip: True  # [win]\n\nrequirements:\n  build:\n    - {{ compiler('c') }}\n  host:\n    - meson\n\ntest:\n  requires:\n    - chrpath  # [linux]\n  commands:\n    - test -f ${PREFIX}/lib/liborc-0.4${SHLIB_EXT}  # [unix]\n    - chrpath -l ${PREFIX}/lib/liborc-0.4.so      | grep -qF 'RPATH=$ORIGIN/.'  # [linux]\n    - chrpath -l ${PREFIX}/lib/liborc-test-0.4.so | grep -qF 'RPATH=$ORIGIN/.'  # [linux]\n    - orcc --help\n    - orc-bugreport --help\n \nabout:\n  home: https://gstreamer.freedesktop.org/modules/orc.html\n  license: BSD-2-Clause AND BSD-3-Clause\n  license_file: COPYING\n  summary: 'Optimized Inner Loop Runtime Compiler'\n\nextra:\n  recipe-maintainers:\n    - sebastian-luna-valero\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "c_compiler_stub",
+   "meson"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "meson"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "chrpath"
+   ]
+  }
+ },
+ "smithy_version":"3.6.1",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "meson"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "chrpath"
+   ]
+  }
+ },
+ "url":"https://gstreamer.freedesktop.org/data/src/orc/orc-0.4.29.tar.xz",
+ "version":"0.4.31"
+}

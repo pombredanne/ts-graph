@@ -1,0 +1,606 @@
+{
+ "PRed":[
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.8.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/262688399.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"BlasRebuild",
+    "migrator_version":0,
+    "name":"blas2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/271421593.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.9.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/285575917.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.10.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/285902908.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Rebuild",
+    "migrator_version":0,
+    "name":"hdf5-1.10.5"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/289384289.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Rebuild",
+    "migrator_version":0,
+    "name":"gsl-2.5"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/302312434.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.11.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/309993159.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"GFortranOSXRebuild",
+    "migrator_version":0,
+    "name":"fortran_compiler_stub-7"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/327918812.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"ffmpeg41"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/339416995.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"python38"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/340218161.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.12.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/371552626.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"gsl26"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/375727467.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MatplotlibBase",
+    "migrator_version":0,
+    "name":"matplotlib-to-matplotlib-base"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/377351521.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.13.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/379758874.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.13.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"pymeep",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "dev_url":"https://github.com/NanoComp/meep",
+   "doc_url":"http://meep.readthedocs.io",
+   "home":"http:/github.com/NanoComp/meep",
+   "license":"GPL-2.0",
+   "license_file":"LICENSE",
+   "summary":"Free finite-difference time-domain (FDTD) software for electromagnetic simulations"
+  },
+  "build":{
+   "number":"100",
+   "run_exports":[
+    "pymeep * nompi_*",
+    "pymeep * nompi_*",
+    "pymeep * nompi_*"
+   ],
+   "skip":true,
+   "string":"nompi_pyh_100"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "ChristopherHogan",
+    "oskooi",
+    "ChristopherHogan",
+    "oskooi",
+    "ChristopherHogan",
+    "oskooi"
+   ]
+  },
+  "package":{
+   "name":"pymeep",
+   "version":"1.14"
+  },
+  "requirements":{
+   "build":[
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "fortran_compiler_stub",
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "fortran_compiler_stub",
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "fortran_compiler_stub"
+   ],
+   "host":[
+    "libblas",
+    "libcblas",
+    "liblapack",
+    "nompi",
+    "python",
+    "libctl >=4.2.0",
+    "harminv",
+    "mpb >=1.8.0 nompi_*",
+    "gsl",
+    "hdf5 1.10.4 nompi_*",
+    "numpy 1.11.*",
+    "mpi4py 3.0.*",
+    "libgdsii >=0.21",
+    "libblas",
+    "libcblas",
+    "liblapack",
+    "nompi",
+    "python",
+    "libctl >=4.2.0",
+    "harminv",
+    "mpb >=1.8.0 nompi_*",
+    "gsl",
+    "hdf5 1.10.4 nompi_*",
+    "numpy 1.11.*",
+    "mpi4py 3.0.*",
+    "libgdsii >=0.21",
+    "libblas",
+    "libcblas",
+    "liblapack",
+    "nompi",
+    "python",
+    "libctl >=4.2.0",
+    "harminv",
+    "mpb >=1.8.0 nompi_*",
+    "gsl",
+    "hdf5 1.10.4 nompi_*",
+    "numpy 1.11.*",
+    "mpi4py 3.0.*",
+    "libgdsii >=0.21"
+   ],
+   "run":[
+    "nompi",
+    "python",
+    "libctl >=4.2.0",
+    "harminv",
+    "mpb",
+    "numpy",
+    "hdf5",
+    "gsl",
+    "h5utils * nompi_*",
+    "h5py * nompi_*",
+    "scipy",
+    "mpi4py 3.0.*",
+    "matplotlib >=2.2",
+    "libgdsii >=0.21",
+    "ffmpeg >=4.0",
+    "mayavi",
+    "autograd",
+    "nompi",
+    "python",
+    "libctl >=4.2.0",
+    "harminv",
+    "mpb",
+    "numpy",
+    "hdf5",
+    "gsl",
+    "h5utils * nompi_*",
+    "h5py * nompi_*",
+    "scipy",
+    "mpi4py 3.0.*",
+    "matplotlib >=2.2",
+    "libgdsii >=0.21",
+    "ffmpeg >=4.0",
+    "mayavi",
+    "autograd",
+    "nompi",
+    "python",
+    "libctl >=4.2.0",
+    "harminv",
+    "mpb",
+    "numpy",
+    "hdf5",
+    "gsl",
+    "h5utils * nompi_*",
+    "h5py * nompi_*",
+    "scipy",
+    "mpi4py 3.0.*",
+    "matplotlib >=2.2",
+    "libgdsii >=0.21",
+    "ffmpeg >=4.0",
+    "mayavi",
+    "autograd"
+   ]
+  },
+  "source":{
+   "fn":"meep-1.14.tar.gz",
+   "sha256":"badfd67caa1d5cbc9ff038fee46d1b8ab0f5dece61f5bc70205eaebcae198717",
+   "url":"https://github.com/NanoComp/meep/releases/download/v1.14.0/meep-1.14.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "meep",
+    "meep.mpb",
+    "meep",
+    "meep.mpb",
+    "meep",
+    "meep.mpb"
+   ],
+   "requires":[
+    "parallel",
+    "parallel",
+    "parallel"
+   ],
+   "source_files":[
+    "tests/cyl-ellipsoid-eps-ref.h5",
+    "python/tests/*.py",
+    "python/tests/data/*",
+    "tests/cyl-ellipsoid-eps-ref.h5",
+    "python/tests/*.py",
+    "python/tests/data/*",
+    "tests/cyl-ellipsoid-eps-ref.h5",
+    "python/tests/*.py",
+    "python/tests/data/*"
+   ]
+  }
+ },
+ "name":"pymeep",
+ "new_version":"1.14.0",
+ "new_version_attempts":{
+  "1.14.0":47
+ },
+ "new_version_errors":{
+  "1.14.0":"The recipe did not change in the version migration, a URL did not hash, or there is jinja2 syntax the bot cannot handle!\n\nPlease check the URLs in your recipe with version '1.14.0' to make sure they exist!\n\nWe also found the following errors:\n\n - could not hash URL template 'https://github.com/NanoComp/meep/releases/download/v<{version}}/meep-{{ version }}.tar.gz'\n"
+ },
+ "pinning_version":"2020.02.20",
+ "raw_meta_yaml":"{% set name = \"pymeep\" %}\n{% set version = \"1.14\" %}\n{% set sha256 = \"badfd67caa1d5cbc9ff038fee46d1b8ab0f5dece61f5bc70205eaebcae198717\" %}\n{% set buildnumber = 0 %}\n# recipe-lint fails if mpi is undefined\n{% set mpi = mpi or 'nompi' %}\n{% if mpi == \"nompi\" %}\n# prioritize nompi via build number\n{% set buildnumber = buildnumber + 100 %}\n{% endif %}\n\npackage:\n  name: {{ name }}\n  version: {{ version }}\n\nsource:\n  fn: meep-{{ version }}.tar.gz\n  url: https://github.com/NanoComp/meep/releases/download/v{{version}}.0/meep-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: {{ buildnumber }}\n  {% if mpi != \"nompi\" %}\n  {% set mpi_prefix = \"mpi_\" + mpi %}\n  {% else %}\n  {% set mpi_prefix = \"nompi\" %}\n  {% endif %}\n  # add build string so packages can depend on\n  # mpi or nompi variants\n  # dependencies:\n  # `pymeep * mpi_mpich_*` for mpich\n  # `pymeep * mpi_*` for any mpi\n  # `pymeep * nompi_*` for no mpi\n  string: {{ mpi_prefix }}_py{{ py }}h{{ PKG_HASH }}_{{ buildnumber }}\n  run_exports:\n    - {{ name }} * {{ mpi_prefix }}_*\n  skip: true  # [win or osx]\n\nrequirements:\n  build:\n    - {{ compiler('c') }}\n    - {{ compiler('cxx') }}\n    - {{ compiler('fortran') }}\n  host:\n    - libblas\n    - libcblas\n    - liblapack\n    - {{ mpi }}  # [mpi != 'nompi']\n    - python\n    - libctl >=4.2.0\n    - harminv\n    - mpb >=1.8.0 {{ mpi_prefix }}_*\n    - gsl\n    - hdf5 1.10.4 {{ mpi_prefix }}_*\n    - numpy 1.11.*\n    - mpi4py 3.0.*  # [mpi != 'nompi']\n    - libgdsii >=0.21\n  run:\n    - {{ mpi }}  # [mpi != 'nompi']\n    - python\n    - libctl >=4.2.0\n    - harminv\n    - mpb\n    - {{ pin_compatible('numpy') }}\n    - hdf5\n    - gsl\n    - h5utils * {{ mpi_prefix }}_*\n    - h5py * {{ mpi_prefix }}_*\n    - scipy\n    - mpi4py 3.0.*  # [mpi != 'nompi']\n    - matplotlib >=2.2\n    - libgdsii >=0.21\n    - ffmpeg >=4.0\n    - mayavi\n    - autograd\n\ntest:\n  requires:\n    - parallel\n  imports:\n    - meep\n    - meep.mpb\n  source_files:\n    - tests/cyl-ellipsoid-eps-ref.h5\n    - python/tests/*.py\n    - python/tests/data/*\n\nabout:\n  home: http:/github.com/NanoComp/meep\n  license: GPL-2.0\n  license_file: LICENSE\n  summary: Free finite-difference time-domain (FDTD) software for electromagnetic simulations\n  doc_url: http://meep.readthedocs.io\n  dev_url: https://github.com/NanoComp/meep\n\nextra:\n  recipe-maintainers:\n    - ChristopherHogan\n    - oskooi\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "autograd",
+   "c_compiler_stub",
+   "cxx_compiler_stub",
+   "ffmpeg",
+   "fortran_compiler_stub",
+   "gsl",
+   "h5py",
+   "h5utils",
+   "harminv",
+   "hdf5",
+   "libblas",
+   "libcblas",
+   "libctl",
+   "libgdsii",
+   "liblapack",
+   "matplotlib",
+   "mayavi",
+   "mpb",
+   "mpi4py",
+   "nompi",
+   "numpy",
+   "python",
+   "scipy"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "fortran_compiler_stub"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "gsl",
+    "harminv",
+    "hdf5",
+    "libblas",
+    "libcblas",
+    "libctl",
+    "libgdsii",
+    "liblapack",
+    "mpb",
+    "mpi4py",
+    "nompi",
+    "numpy",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "autograd",
+    "ffmpeg",
+    "gsl",
+    "h5py",
+    "h5utils",
+    "harminv",
+    "hdf5",
+    "libctl",
+    "libgdsii",
+    "matplotlib",
+    "mayavi",
+    "mpb",
+    "mpi4py",
+    "nompi",
+    "numpy",
+    "python",
+    "scipy"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "parallel"
+   ]
+  }
+ },
+ "smithy_version":"3.6.8",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "fortran_compiler_stub"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "gsl",
+    "harminv",
+    "hdf5 1.10.4 nompi_*",
+    "libblas",
+    "libcblas",
+    "libctl >=4.2.0",
+    "libgdsii >=0.21",
+    "liblapack",
+    "mpb >=1.8.0 nompi_*",
+    "mpi4py 3.0.*",
+    "nompi",
+    "numpy 1.11.*",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "autograd",
+    "ffmpeg >=4.0",
+    "gsl",
+    "h5py * nompi_*",
+    "h5utils * nompi_*",
+    "harminv",
+    "hdf5",
+    "libctl >=4.2.0",
+    "libgdsii >=0.21",
+    "matplotlib >=2.2",
+    "mayavi",
+    "mpb",
+    "mpi4py 3.0.*",
+    "nompi",
+    "numpy",
+    "python",
+    "scipy"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "parallel"
+   ]
+  }
+ },
+ "url":"https://github.com/NanoComp/meep/releases/download/v1.11.0/meep-1.11.0.tar.gz",
+ "version":"1.14"
+}

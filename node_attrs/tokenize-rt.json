@@ -1,0 +1,197 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/199879358.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Noarch",
+    "migrator_version":0
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/220982263.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.1.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/381641390.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"4.0.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "provider":{
+   "linux":"azure",
+   "osx":"azure",
+   "win":"azure"
+  }
+ },
+ "feedstock_name":"tokenize-rt",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"https://github.com/asottile/tokenize-rt",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"LICENSE",
+   "summary":"A wrapper around the stdlib `tokenize` which roundtrips."
+  },
+  "build":{
+   "entry_points":[
+    "tokenize-rt = tokenize_rt:main",
+    "tokenize-rt = tokenize_rt:main",
+    "tokenize-rt = tokenize_rt:main"
+   ],
+   "noarch":"python",
+   "number":"0",
+   "script":"-m pip install . -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "sterlingbaldwin",
+    "deadsnakes-issues-bot",
+    "nicoddemus",
+    "sterlingbaldwin",
+    "deadsnakes-issues-bot",
+    "nicoddemus",
+    "sterlingbaldwin",
+    "deadsnakes-issues-bot",
+    "nicoddemus"
+   ]
+  },
+  "package":{
+   "name":"tokenize-rt",
+   "version":"4.0.0"
+  },
+  "requirements":{
+   "host":[
+    "python >=3.6.1",
+    "pip",
+    "setuptools",
+    "python >=3.6.1",
+    "pip",
+    "setuptools",
+    "python >=3.6.1",
+    "pip",
+    "setuptools"
+   ],
+   "run":[
+    "python >=3.6.1",
+    "python >=3.6.1",
+    "python >=3.6.1"
+   ]
+  },
+  "source":{
+   "sha256":"07d5f88b6a953612159b160129bcf9425677c8d062b0cb83250968ba803e1c64",
+   "url":"https://pypi.io/packages/source/t/tokenize-rt/tokenize_rt-4.0.0.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "tokenize-rt --help",
+    "tokenize-rt --help",
+    "tokenize-rt --help"
+   ],
+   "imports":[
+    "tokenize_rt",
+    "tokenize_rt",
+    "tokenize_rt"
+   ]
+  }
+ },
+ "name":"tokenize-rt",
+ "new_version":"4.0.0",
+ "pinning_version":"2020.02.20",
+ "raw_meta_yaml":"{% set name = \"tokenize-rt\" %}\n{% set version = \"4.0.0\" %}\n\npackage:\n  name: {{ name }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/tokenize_rt-{{ version }}.tar.gz\n  sha256: 07d5f88b6a953612159b160129bcf9425677c8d062b0cb83250968ba803e1c64\n\nbuild:\n  noarch: python\n  number: 0\n  script: {{ PYTHON }} -m pip install . -vv\n  entry_points:\n    - tokenize-rt = tokenize_rt:main\n\nrequirements:\n  host:\n    - python >=3.6.1\n    - pip\n    - setuptools\n  run:\n    - python >=3.6.1\n\ntest:\n  imports:\n    - tokenize_rt\n  commands:\n    - tokenize-rt --help\n\nabout:\n  home: https://github.com/asottile/tokenize-rt\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE\n  summary: A wrapper around the stdlib `tokenize` which roundtrips.\n\nextra:\n  recipe-maintainers:\n    - sterlingbaldwin\n    - deadsnakes-issues-bot\n    - nicoddemus\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "pip",
+   "python",
+   "setuptools"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python",
+    "setuptools"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.6.8",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3.6.1",
+    "setuptools"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "python >=3.6.1"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/t/tokenize-rt/tokenize_rt-3.2.0.tar.gz",
+ "version":"4.0.0"
+}

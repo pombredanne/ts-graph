@@ -1,0 +1,221 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/237315417.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.1.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/248620704.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.1.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/272377025.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.1.3"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/303787054.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.2.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/372846449.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.3.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"quart-cors",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"Quart-CORS is an extension for Quart to handle Cross Origin Resource\nSharing, CORS (also known as access control).\n",
+   "dev_url":"https://gitlab.com/pgjones/quart-cors",
+   "doc_url":"https://gitlab.com/pgjones/quart-cors",
+   "home":"https://gitlab.com/pgjones/quart-cors",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"LICENSE",
+   "summary":"A Quart extension to provide Cross Origin Resource Sharing, access control, support."
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":"python -m pip install --no-deps --ignore-installed ."
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "maxyme",
+    "maxyme",
+    "maxyme"
+   ]
+  },
+  "package":{
+   "name":"quart-cors",
+   "version":"0.2.0"
+  },
+  "requirements":{
+   "host":[
+    "pip",
+    "python >=3.6.1",
+    "setuptools >=40.6.2",
+    "pip",
+    "python >=3.6.1",
+    "setuptools >=40.6.2",
+    "pip",
+    "python >=3.6.1",
+    "setuptools >=40.6.2"
+   ],
+   "run":[
+    "python >=3.6.1",
+    "Quart >=0.6.0",
+    "python >=3.6.1",
+    "Quart >=0.6.0",
+    "python >=3.6.1",
+    "Quart >=0.6.0"
+   ]
+  },
+  "source":{
+   "fn":"Quart-CORS-0.2.0.tar.gz",
+   "sha256":"3b9e7fee3b564249c9264677c45417f3cdba2531db3b3d2b2b863bde75a34297",
+   "url":"https://pypi.io/packages/source/Q/Quart-CORS/Quart-CORS-0.2.0.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "quart_cors",
+    "quart_cors",
+    "quart_cors"
+   ]
+  }
+ },
+ "name":"quart-cors",
+ "new_version":"0.3.0",
+ "pinning_version":"2020.01.28",
+ "raw_meta_yaml":"{% set name = \"Quart-CORS\" %}\n{% set version = \"0.2.0\" %}\n{% set sha256 = \"3b9e7fee3b564249c9264677c45417f3cdba2531db3b3d2b2b863bde75a34297\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  fn: {{ name }}-{{ version }}.tar.gz\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 0\n  script: python -m pip install --no-deps --ignore-installed .\n\nrequirements:\n  host:\n    - pip\n    - python >=3.6.1\n    - setuptools >=40.6.2\n\n  run:\n    - python >=3.6.1\n    - Quart >=0.6.0\n\ntest:\n  imports:\n    - quart_cors\n\nabout:\n  home: https://gitlab.com/pgjones/quart-cors\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE\n  summary: 'A Quart extension to provide Cross Origin Resource Sharing, access control, support.'\n  description: |\n    Quart-CORS is an extension for Quart to handle Cross Origin Resource\n    Sharing, CORS (also known as access control).\n  doc_url: https://gitlab.com/pgjones/quart-cors\n  dev_url: https://gitlab.com/pgjones/quart-cors\n\nextra:\n  recipe-maintainers:\n    - maxyme\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "pip",
+   "python",
+   "quart",
+   "setuptools"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python",
+    "setuptools"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "python",
+    "quart"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.6.8",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3.6.1",
+    "setuptools >=40.6.2"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "Quart >=0.6.0",
+    "python >=3.6.1"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/Q/Quart-CORS/Quart-CORS-0.2.0.tar.gz",
+ "version":"0.2.0"
+}

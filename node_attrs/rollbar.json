@@ -1,0 +1,247 @@
+{
+ "PRed":[
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.14.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/196598236.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.14.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/257613512.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.14.7"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/399826421.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.15.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"rollbar",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"Python notifier for reporting exceptions, errors, and log messages to Rollbar.\n",
+   "doc_url":"https://rollbar.com/docs/notifier/pyrollbar/",
+   "home":"https://github.com/rollbar/pyrollbar",
+   "license":"MIT",
+   "license_family":"MIT",
+   "summary":"Rollbar notifier for Python"
+  },
+  "build":{
+   "entry_points":[
+    "rollbar = rollbar.cli:main",
+    "rollbar = rollbar.cli:main",
+    "rollbar = rollbar.cli:main"
+   ],
+   "noarch":"python",
+   "number":"0",
+   "script":"python setup.py install --single-version-externally-managed --record record.txt"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "TheOriginalAlex",
+    "TheOriginalAlex",
+    "TheOriginalAlex"
+   ]
+  },
+  "package":{
+   "name":"rollbar",
+   "version":"0.15.0"
+  },
+  "requirements":{
+   "build":[
+    "python",
+    "setuptools",
+    "python",
+    "setuptools",
+    "python",
+    "setuptools"
+   ],
+   "run":[
+    "python",
+    "requests >=0.12.1",
+    "six >=1.9.0",
+    "python",
+    "requests >=0.12.1",
+    "six >=1.9.0",
+    "python",
+    "requests >=0.12.1",
+    "six >=1.9.0"
+   ]
+  },
+  "source":{
+   "fn":"rollbar-0.15.0.tar.gz",
+   "sha256":"75add43e634f3f75e069e1edd2b793b8d1e8800f16419a1d83065b49dd5d1372",
+   "url":"https://pypi.io/packages/source/r/rollbar/rollbar-0.15.0.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "py.test --pyargs rollbar",
+    "rollbar --help",
+    "py.test --pyargs rollbar",
+    "rollbar --help",
+    "py.test --pyargs rollbar",
+    "rollbar --help"
+   ],
+   "imports":[
+    "rollbar",
+    "rollbar.test",
+    "rollbar",
+    "rollbar.test",
+    "rollbar",
+    "rollbar.test"
+   ],
+   "requires":[
+    "unittest2",
+    "mock",
+    "webob",
+    "blinker",
+    "pytest",
+    "unittest2",
+    "mock",
+    "webob",
+    "blinker",
+    "pytest",
+    "unittest2",
+    "mock",
+    "webob",
+    "blinker",
+    "pytest"
+   ]
+  }
+ },
+ "name":"rollbar",
+ "new_version":"0.15.0",
+ "new_version_attempts":{
+  "0.15.0":1
+ },
+ "pinning_version":"2020.04.06",
+ "raw_meta_yaml":"{% set name = \"rollbar\" %}\n{% set version = \"0.15.0\" %}\n{% set sha256 = \"75add43e634f3f75e069e1edd2b793b8d1e8800f16419a1d83065b49dd5d1372\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  fn: {{ name }}-{{ version }}.tar.gz\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 0\n  script: python setup.py install --single-version-externally-managed --record record.txt\n  entry_points:\n    - rollbar = rollbar.cli:main\n\nrequirements:\n  build:\n    - python\n    - setuptools\n  run:\n    - python\n    - requests >=0.12.1\n    - six >=1.9.0\n\ntest:\n  requires:\n    - unittest2\n    - mock\n    - webob\n    - blinker\n    - pytest\n  imports:\n    - rollbar\n    - rollbar.test\n  commands:\n    - py.test --pyargs rollbar\n    - rollbar --help\n\nabout:\n  home: https://github.com/rollbar/pyrollbar\n  license: MIT\n  license_family: MIT\n  summary: Rollbar notifier for Python\n\n  description: |\n    Python notifier for reporting exceptions, errors, and log messages to Rollbar.\n  doc_url: https://rollbar.com/docs/notifier/pyrollbar/\n\nextra:\n  recipe-maintainers:\n    - TheOriginalAlex\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "python",
+   "requests",
+   "setuptools",
+   "six"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "python",
+    "setuptools"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "python",
+    "requests",
+    "six"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "blinker",
+    "mock",
+    "pytest",
+    "unittest2",
+    "webob"
+   ]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.6.15",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "python",
+    "setuptools"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "python",
+    "requests >=0.12.1",
+    "six >=1.9.0"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "blinker",
+    "mock",
+    "pytest",
+    "unittest2",
+    "webob"
+   ]
+  }
+ },
+ "url":"https://pypi.io/packages/source/r/rollbar/rollbar-0.14.7.tar.gz",
+ "version":"0.15.0"
+}

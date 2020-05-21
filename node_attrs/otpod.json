@@ -1,0 +1,331 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/214922171.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.4"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/231599474.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.6"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/233614400.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.6.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/279779982.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.6.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/333486621.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.6.3"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/375540303.json"
+   },
+   "data":{
+    "bot_rerun":1582837959.4154491,
+    "migrator_name":"MatplotlibBase",
+    "migrator_version":0,
+    "name":"matplotlib-to-matplotlib-base"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/380950346.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.6.4"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/384807746.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MatplotlibBase",
+    "migrator_version":0,
+    "name":"matplotlib-to-matplotlib-base"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"otpod",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"http://openturns.org/",
+   "license":"LGPL-3.0-or-later",
+   "license_family":"LGPL",
+   "license_file":"COPYING.LESSER",
+   "summary":"A module to build Probability of Detection for Non Destructive Testing"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"2",
+   "script":"-m pip install . --no-deps --ignore-installed --no-cache-dir -vvv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "adumasphi",
+    "jschueller",
+    "adumasphi",
+    "jschueller",
+    "adumasphi",
+    "jschueller"
+   ]
+  },
+  "package":{
+   "name":"otpod",
+   "version":"0.6.4"
+  },
+  "requirements":{
+   "host":[
+    "pip",
+    "setuptools",
+    "python >=3",
+    "openturns 1.15*",
+    "pip",
+    "setuptools",
+    "python >=3",
+    "openturns 1.15*",
+    "pip",
+    "setuptools",
+    "python >=3",
+    "openturns 1.15*"
+   ],
+   "run":[
+    "python >=3",
+    "openturns 1.15*",
+    "matplotlib-base >=1.5",
+    "scikit-learn >=0.17",
+    "statsmodels >=0.6",
+    "decorator >=4.0",
+    "python >=3",
+    "openturns 1.15*",
+    "matplotlib-base >=1.5",
+    "scikit-learn >=0.17",
+    "statsmodels >=0.6",
+    "decorator >=4.0",
+    "python >=3",
+    "openturns 1.15*",
+    "matplotlib-base >=1.5",
+    "scikit-learn >=0.17",
+    "statsmodels >=0.6",
+    "decorator >=4.0"
+   ]
+  },
+  "source":{
+   "fn":"otpod-0.6.4.tar.gz",
+   "sha256":"664a4d209ef6b8462df72747f1d941791a6cf02842ce84e648ab2b9b333ee919",
+   "url":"https://github.com/openturns/otpod/archive/v0.6.4.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "py.test test/"
+   ],
+   "imports":[
+    "otpod",
+    "otpod",
+    "otpod"
+   ],
+   "requires":[
+    "pytest",
+    "nbformat",
+    "nbconvert",
+    "pytest",
+    "nbformat",
+    "nbconvert",
+    "pytest",
+    "nbformat",
+    "nbconvert"
+   ],
+   "source_files":[
+    "test/",
+    "doc/",
+    "test/",
+    "doc/",
+    "test/",
+    "doc/"
+   ]
+  }
+ },
+ "name":"otpod",
+ "new_version":"0.6.4",
+ "pinning_version":"2020.03.06",
+ "raw_meta_yaml":"{% set version = \"0.6.4\" %}\n\npackage:\n  name: otpod\n  version: {{ version }}\n\nsource:\n  fn: otpod-{{ version }}.tar.gz\n  url: https://github.com/openturns/otpod/archive/v{{ version }}.tar.gz\n  sha256: 664a4d209ef6b8462df72747f1d941791a6cf02842ce84e648ab2b9b333ee919\n\nbuild:\n  number: 2\n  noarch: python\n  script: {{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv\n\nrequirements:\n  host:\n    - pip\n    - setuptools\n    - python >=3\n    - openturns 1.15*\n  run:\n    - python >=3\n    - openturns 1.15*\n    - matplotlib-base >=1.5\n    - scikit-learn >=0.17\n    - statsmodels >=0.6\n    - decorator >=4.0\n\ntest:\n  source_files:\n    - test/\n    - doc/\n  requires:\n    - pytest\n    - nbformat\n    - nbconvert\n  commands:\n    - py.test test/  # [not osx]\n  imports:\n    - otpod\n\nabout:\n  home: http://openturns.org/\n  license: LGPL-3.0-or-later\n  license_family: LGPL\n  license_file: COPYING.LESSER\n  summary: A module to build Probability of Detection for Non Destructive Testing\n\nextra:\n  recipe-maintainers:\n    - adumasphi\n    - jschueller\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "decorator",
+   "matplotlib-base",
+   "openturns",
+   "pip",
+   "python",
+   "scikit-learn",
+   "setuptools",
+   "statsmodels"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "openturns",
+    "pip",
+    "python",
+    "setuptools"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "decorator",
+    "matplotlib-base",
+    "openturns",
+    "python",
+    "scikit-learn",
+    "statsmodels"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "nbconvert",
+    "nbformat",
+    "pytest"
+   ]
+  }
+ },
+ "smithy_version":"3.6.9",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "openturns 1.15*",
+    "pip",
+    "python >=3",
+    "setuptools"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "decorator >=4.0",
+    "matplotlib-base >=1.5",
+    "openturns 1.15*",
+    "python >=3",
+    "scikit-learn >=0.17",
+    "statsmodels >=0.6"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "nbconvert",
+    "nbformat",
+    "pytest"
+   ]
+  }
+ },
+ "url":"https://github.com/openturns/otpod/archive/v0.6.2.tar.gz",
+ "version":"0.6.4"
+}

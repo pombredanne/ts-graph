@@ -1,0 +1,7 @@
+{
+ "archived":true,
+ "bad":false,
+ "feedstock_name":"geemap",
+ "new_version":false,
+ "raw_meta_yaml":"{% set name = \"geemap\" %}\n{% set version = \"0.6.13\" %}\n\npackage:\n  name: \"{{ name|lower }}\"\n  version: \"{{ version }}\"\n\nsource:\n  url: \"https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\"\n  sha256: 67dacbbe306bb492d5ca0412e6a1ff510553cf3aca905abebe6e85f7737c7a56\n\nbuild:\n  number: 0\n  entry_points:\n    - geemap=geemap.cli:main\n  noarch: python\n  script: \"{{ PYTHON }} -m pip install . -vv\"\n\nrequirements:\n  host:\n    - pip\n    - python\n  run:\n    - bqplot\n    - click\n    - colour\n    - earthengine-api\n    - folium >=0.11.0\n    - geeadd\n    - geocoder\n    - ipyfilechooser\n    - ipyleaflet >=0.12.6\n    - ipynb-py-convert\n    - matplotlib\n    - mss\n    - pillow\n    - pyshp\n    - python\n    - pip\n\ntest:\n  imports:\n    - geemap\n  commands:\n    - geemap --help\n\nabout:\n  home: \"https://github.com/giswqs/geemap\"\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE\n  summary: \"A Python package for interactive mapping using Google Earth Engine and ipyleaflet\"\n  doc_url: https://geemap.readthedocs.io\n  dev_url: https://github.com/giswqs/geemap\n\nextra:\n  recipe-maintainers:\n    - giswqs\n"
+}

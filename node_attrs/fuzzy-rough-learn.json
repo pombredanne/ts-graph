@@ -1,0 +1,143 @@
+{
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"fuzzy-rough-learn",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"fuzzy-rough-learn is a package of scikit-learn extensions for fuzzy rough machine learning.\n",
+   "dev_url":"https://github.com/oulenz/fuzzy-rough-learn",
+   "doc_url":"http://fuzzy-rough-learn.readthedocs.io/",
+   "home":"http://github.com/oulenz/fuzzy-rough-learn",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"LICENSE",
+   "summary":"A package of tools for fuzzy rough machine learning."
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "oulenz",
+    "oulenz",
+    "oulenz"
+   ]
+  },
+  "package":{
+   "name":"fuzzy-rough-learn",
+   "version":"0.0.0"
+  },
+  "requirements":{
+   "host":[
+    "python >=3.7.0",
+    "pip",
+    "python >=3.7.0",
+    "pip",
+    "python >=3.7.0",
+    "pip"
+   ],
+   "run":[
+    "python >=3.7.0",
+    "scipy >=1.1.0",
+    "numpy >=1.15.0",
+    "scikit-learn >=0.20.0",
+    "python >=3.7.0",
+    "scipy >=1.1.0",
+    "numpy >=1.15.0",
+    "scikit-learn >=0.20.0",
+    "python >=3.7.0",
+    "scipy >=1.1.0",
+    "numpy >=1.15.0",
+    "scikit-learn >=0.20.0"
+   ]
+  },
+  "source":{
+   "sha256":"b855506904f33e9e880d6cd8bff271af49439339ea0dc8a3fe5f2a8d06eb1f40",
+   "url":"https://github.com/oulenz/fuzzy-rough-learn/archive/0.0.0.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "frlearn",
+    "frlearn.tests",
+    "frlearn.neighbours.tests",
+    "frlearn",
+    "frlearn.tests",
+    "frlearn.neighbours.tests",
+    "frlearn",
+    "frlearn.tests",
+    "frlearn.neighbours.tests"
+   ]
+  }
+ },
+ "name":"fuzzy-rough-learn",
+ "new_version":"0.0.0",
+ "raw_meta_yaml":"{% set name = \"fuzzy-rough-learn\" %}\n{% set version = \"0.0.0\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://github.com/oulenz/fuzzy-rough-learn/archive/{{ version }}.tar.gz\n  sha256: b855506904f33e9e880d6cd8bff271af49439339ea0dc8a3fe5f2a8d06eb1f40\n\nbuild:\n  number: 0\n  noarch: python\n  script: \"{{ PYTHON }} -m pip install . -vv\"\n\nrequirements:\n  host:\n    - python >=3.7.0\n    - pip\n  run:\n    - python >=3.7.0\n    - scipy >=1.1.0\n    - numpy >=1.15.0\n    - scikit-learn >=0.20.0\n\ntest:\n  imports:\n    - frlearn\n    - frlearn.tests\n    - frlearn.neighbours.tests\n\nabout:\n  home: http://github.com/oulenz/fuzzy-rough-learn\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE\n  summary: 'A package of tools for fuzzy rough machine learning.'\n\n  description: |\n    fuzzy-rough-learn is a package of scikit-learn extensions for fuzzy rough machine learning.\n  doc_url: http://fuzzy-rough-learn.readthedocs.io/\n  dev_url: https://github.com/oulenz/fuzzy-rough-learn\n\nextra:\n  recipe-maintainers:\n    - oulenz\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "numpy",
+   "pip",
+   "python",
+   "scikit-learn",
+   "scipy"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "numpy",
+    "python",
+    "scikit-learn",
+    "scipy"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3.7.0"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "numpy >=1.15.0",
+    "python >=3.7.0",
+    "scikit-learn >=0.20.0",
+    "scipy >=1.1.0"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://github.com/oulenz/fuzzy-rough-learn/archive/0.0.0.tar.gz",
+ "version":"0.0.0"
+}

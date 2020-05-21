@@ -1,0 +1,257 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/233198171.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/299403597.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"RBaseRebuild",
+    "migrator_version":0,
+    "name":"r-base-3.6.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/372043265.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.2.14"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/413080112.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":2,
+    "migrator_version":0,
+    "name":"r400"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "bot":{
+   "automerge":true
+  },
+  "provider":{
+   "win":"azure"
+  }
+ },
+ "feedstock_name":"r-genenet",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"http://strimmerlab.org/software/genenet/",
+   "license":"GPL (>= 3)",
+   "license_family":"GPL3",
+   "license_file":"/lib/R/share/licenses/GPL-3",
+   "summary":"Analyzes gene expression (time series) data with focus on the inference of gene networks. In particular, GeneNet implements the methods of Schaefer and  Strimmer (2005a,b,c) and Opgen-Rhein and Strimmer (2006, 2007) for learning large-scale gene association networks (including assignment of putative directions).  "
+  },
+  "build":{
+   "merge_build_host":true,
+   "noarch":"generic",
+   "number":"1",
+   "rpaths":[
+    "lib/R/lib/",
+    "lib/",
+    "lib/R/lib/",
+    "lib/",
+    "lib/R/lib/",
+    "lib/"
+   ]
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "conda-forge/r",
+    "MathiasHaudgaard",
+    "FrodePedersen",
+    "ArneKr",
+    "conda-forge/r",
+    "MathiasHaudgaard",
+    "FrodePedersen",
+    "ArneKr",
+    "conda-forge/r",
+    "MathiasHaudgaard",
+    "FrodePedersen",
+    "ArneKr"
+   ]
+  },
+  "package":{
+   "name":"r-genenet",
+   "version":"1.2.14"
+  },
+  "requirements":{
+   "build":null,
+   "host":[
+    "r-base",
+    "r-corpcor >=1.6.8",
+    "r-fdrtool >=1.2.15",
+    "r-longitudinal >=1.1.12",
+    "r-base",
+    "r-corpcor >=1.6.8",
+    "r-fdrtool >=1.2.15",
+    "r-longitudinal >=1.1.12",
+    "r-base",
+    "r-corpcor >=1.6.8",
+    "r-fdrtool >=1.2.15",
+    "r-longitudinal >=1.1.12"
+   ],
+   "run":[
+    "r-base",
+    "r-corpcor >=1.6.8",
+    "r-fdrtool >=1.2.15",
+    "r-longitudinal >=1.1.12",
+    "r-base",
+    "r-corpcor >=1.6.8",
+    "r-fdrtool >=1.2.15",
+    "r-longitudinal >=1.1.12",
+    "r-base",
+    "r-corpcor >=1.6.8",
+    "r-fdrtool >=1.2.15",
+    "r-longitudinal >=1.1.12"
+   ]
+  },
+  "source":{
+   "fn":"GeneNet_1.2.14.tar.gz",
+   "sha256":"76f4d1a5954b3060d95017b0108b2f0936fdf38c15e5c1fd051cfc5c82ccb031",
+   "url":[
+    "https://cran.r-project.org/src/contrib/GeneNet_1.2.14.tar.gz",
+    "https://cran.r-project.org/src/contrib/Archive/GeneNet/GeneNet_1.2.14.tar.gz",
+    "https://cran.r-project.org/src/contrib/GeneNet_1.2.14.tar.gz",
+    "https://cran.r-project.org/src/contrib/Archive/GeneNet/GeneNet_1.2.14.tar.gz",
+    "https://cran.r-project.org/src/contrib/GeneNet_1.2.14.tar.gz",
+    "https://cran.r-project.org/src/contrib/Archive/GeneNet/GeneNet_1.2.14.tar.gz"
+   ]
+  },
+  "test":{
+   "commands":[
+    "\"%R%\" -e \"library('GeneNet')\"",
+    "$R -e \"library('GeneNet')\"",
+    "$R -e \"library('GeneNet')\""
+   ]
+  }
+ },
+ "name":"r-genenet",
+ "new_version":"1.2.14",
+ "pinning_version":"2020.05.04.05.46.47",
+ "raw_meta_yaml":"{% set version = \"1.2.14\" %}\n{% set posix = 'm2-' if win else '' %}\n{% set native = 'm2w64-' if win else '' %}\n\npackage:\n  name: r-genenet\n  version: {{ version|replace(\"-\", \"_\") }}\n\nsource:\n  fn: GeneNet_{{ version }}.tar.gz\n  url:\n    - {{ cran_mirror }}/src/contrib/GeneNet_{{ version }}.tar.gz\n    - {{ cran_mirror }}/src/contrib/Archive/GeneNet/GeneNet_{{ version }}.tar.gz\n  sha256: 76f4d1a5954b3060d95017b0108b2f0936fdf38c15e5c1fd051cfc5c82ccb031\n\nbuild:\n  noarch: generic\n  merge_build_host: True  # [win]\n  number: 1\n  rpaths:\n    - lib/R/lib/\n    - lib/\n\nrequirements:\n  build:\n    - {{ posix }}zip               # [win]\n  host:\n    - r-base\n    - r-corpcor >=1.6.8\n    - r-fdrtool >=1.2.15\n    - r-longitudinal >=1.1.12\n  run:\n    - r-base\n    - r-corpcor >=1.6.8\n    - r-fdrtool >=1.2.15\n    - r-longitudinal >=1.1.12\n\ntest:\n  commands:\n    - $R -e \"library('GeneNet')\"           # [not win]\n    - \"\\\"%R%\\\" -e \\\"library('GeneNet')\\\"\"  # [win]\n\nabout:\n  home: http://strimmerlab.org/software/genenet/\n  license: GPL (>= 3)\n  summary: 'Analyzes gene expression (time series) data with focus on the inference of gene networks.\n    In particular, GeneNet implements the methods of Schaefer and  Strimmer (2005a,b,c)\n    and Opgen-Rhein and Strimmer (2006, 2007) for learning large-scale gene association\n    networks (including assignment of putative directions).  '\n  license_family: GPL3\n  license_file: '{{ environ[\"PREFIX\"] }}/lib/R/share/licenses/GPL-3'\n\nextra:\n  recipe-maintainers:\n    - conda-forge/r\n    - MathiasHaudgaard\n    - FrodePedersen\n    - ArneKr\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "r-base",
+   "r-corpcor",
+   "r-fdrtool",
+   "r-longitudinal"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "r-base",
+    "r-corpcor",
+    "r-fdrtool",
+    "r-longitudinal"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "r-base",
+    "r-corpcor",
+    "r-fdrtool",
+    "r-longitudinal"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.7.0\n",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "r-base",
+    "r-corpcor >=1.6.8",
+    "r-fdrtool >=1.2.15",
+    "r-longitudinal >=1.1.12"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "r-base",
+    "r-corpcor >=1.6.8",
+    "r-fdrtool >=1.2.15",
+    "r-longitudinal >=1.1.12"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":[
+  "https://cran.r-project.org/src/contrib/GeneNet_1.2.13.tar.gz",
+  "https://cran.r-project.org/src/contrib/Archive/GeneNet/GeneNet_1.2.13.tar.gz",
+  "https://cran.r-project.org/src/contrib/GeneNet_1.2.13.tar.gz",
+  "https://cran.r-project.org/src/contrib/Archive/GeneNet/GeneNet_1.2.13.tar.gz",
+  "https://cran.r-project.org/src/contrib/GeneNet_1.2.13.tar.gz",
+  "https://cran.r-project.org/src/contrib/Archive/GeneNet/GeneNet_1.2.13.tar.gz"
+ ],
+ "version":"1.2.14"
+}

@@ -1,0 +1,7 @@
+{
+ "archived":true,
+ "bad":false,
+ "feedstock_name":"sqlitecpp",
+ "new_version":false,
+ "raw_meta_yaml":"{% set name = \"sqlitecpp\" %}\n{% set version = \"3.0.0\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://github.com/SRombauts/SQLiteCpp/archive/{{ version }}.tar.gz\n  sha256: 152673de2d0deb918974be503dc624145c2c383e02eef9356fa67c08eb4c20f4\n\nbuild:\n  number: 0\n  skip: true  # [win]\n  run_exports:\n    - {{ pin_subpackage(name, max_pin='x.x' ) }}\n\nrequirements:\n  build:\n    - {{ compiler('c') }}\n    - {{ compiler('cxx') }}\n    - cmake\n    - make  # [unix]\n  host:\n    - sqlite\n    - gtest\n\ntest:\n  commands:\n    - test -f $PREFIX/lib/libSQLiteCpp${SHLIB_EXT}  # [unix]\n    - test -f $PREFIX/include/SQLiteCpp/Database.h  # [unix]\n\nabout:\n  home: https://github.com/SRombauts/SQLiteCpp\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE.txt\n  summary: 'SQLiteC++ (SQLiteCpp) is a smart and easy to use C++ SQLite3 wrapper.'\n  description: |\n    SQLiteC++ offers an encapsulation around the native C APIs of SQLite, with\n    a few intuitive and well documented C++ classes.\n\nextra:\n  recipe-maintainers:\n    - wolfv\n    - marimeireles\n    - SylvainCorlay\n    - JohanMabille\n"
+}

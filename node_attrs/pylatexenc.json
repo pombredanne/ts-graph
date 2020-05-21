@@ -1,0 +1,201 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/406645355.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/413509635.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.3"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/416955150.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.4"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"pylatexenc",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "dev_url":"https://github.com/phfaist/pylatexenc",
+   "doc_url":"https://pylatexenc.readthedocs.io/en/latest",
+   "home":"https://github.com/phfaist/pylatexenc",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"LICENSE.txt",
+   "summary":"Simple LaTeX parser providing latex-to-unicode and unicode-to-latex conversion"
+  },
+  "build":{
+   "entry_points":[
+    "latexwalker = pylatexenc.latexwalker.__main__:main",
+    "latex2text = pylatexenc.latex2text.__main__:main",
+    "latexencode = pylatexenc.latexencode.__main__:main",
+    "latexwalker = pylatexenc.latexwalker.__main__:main",
+    "latex2text = pylatexenc.latex2text.__main__:main",
+    "latexencode = pylatexenc.latexencode.__main__:main",
+    "latexwalker = pylatexenc.latexwalker.__main__:main",
+    "latex2text = pylatexenc.latex2text.__main__:main",
+    "latexencode = pylatexenc.latexencode.__main__:main"
+   ],
+   "noarch":"python",
+   "number":"0",
+   "script":"-m pip install . --no-deps -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "milljm",
+    "milljm",
+    "milljm"
+   ]
+  },
+  "package":{
+   "name":"pylatexenc",
+   "version":"2.4"
+  },
+  "requirements":{
+   "host":[
+    "python",
+    "pip",
+    "python",
+    "pip",
+    "python",
+    "pip"
+   ],
+   "run":[
+    "python",
+    "python",
+    "python"
+   ]
+  },
+  "source":{
+   "sha256":"c35528bde5ba873e96629db1801f37c1beabe66798364ac95f22ea754a5ebe4a",
+   "url":"https://github.com/phfaist/pylatexenc/archive/v2.4.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "latexwalker --help",
+    "latex2text --help",
+    "latexencode --help",
+    "latexwalker --help",
+    "latex2text --help",
+    "latexencode --help",
+    "latexwalker --help",
+    "latex2text --help",
+    "latexencode --help"
+   ],
+   "imports":[
+    "pylatexenc",
+    "pylatexenc",
+    "pylatexenc"
+   ]
+  }
+ },
+ "name":"pylatexenc",
+ "new_version":"2.4",
+ "new_version_attempts":{
+  "2.2":1,
+  "2.3":1,
+  "2.4":1
+ },
+ "new_version_errors":{},
+ "pinning_version":"2020.05.12.18.03.58",
+ "raw_meta_yaml":"{% set name = \"pylatexenc\" %}\n{% set version = \"2.4\" %}\n{% set sha256 = \"c35528bde5ba873e96629db1801f37c1beabe66798364ac95f22ea754a5ebe4a\" %}\n\npackage:\n  name: {{ name }}\n  version: {{ version }}\n\nsource:\n  url: https://github.com/phfaist/pylatexenc/archive/v{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n  noarch: python\n  entry_points:\n    - latexwalker = pylatexenc.latexwalker.__main__:main\n    - latex2text = pylatexenc.latex2text.__main__:main\n    - latexencode = pylatexenc.latexencode.__main__:main\n\nrequirements:\n  host:\n    - python\n    - pip\n  run:\n    - python\n\ntest:\n  imports:\n    - pylatexenc\n  commands:\n    - latexwalker --help\n    - latex2text --help\n    - latexencode --help\n\nabout:\n  home: https://github.com/phfaist/pylatexenc\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE.txt\n  summary: Simple LaTeX parser providing latex-to-unicode and unicode-to-latex conversion\n  doc_url: https://pylatexenc.readthedocs.io/en/latest\n  dev_url: https://github.com/phfaist/pylatexenc\n\nextra:\n  recipe-maintainers:\n    - milljm\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "pip",
+   "python"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.7.0\n",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://github.com/phfaist/pylatexenc/archive/v2.1.tar.gz",
+ "version":"2.4"
+}

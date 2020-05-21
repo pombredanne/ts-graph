@@ -1,0 +1,162 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/243817504.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/361737578.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.0.3.3"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "compiler_stack":"comp7",
+  "max_py_ver":"37",
+  "max_r_ver":"35",
+  "provider":{
+   "win":"azure"
+  }
+ },
+ "feedstock_name":"csm",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"csm is a C++ API for terrestrial and planetary sensor models\n",
+   "home":"http://github.com/sminster/csm",
+   "license":"Public Domain",
+   "license_file":"LICENSE",
+   "summary":"The Community Sensor Model API"
+  },
+  "build":{
+   "number":"1001"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "jlaura",
+    "jlaura",
+    "jlaura"
+   ]
+  },
+  "package":{
+   "name":"csm",
+   "version":"v3.0.3.1"
+  },
+  "requirements":{
+   "build":[
+    "cxx_compiler_stub"
+   ],
+   "host":[
+    "cmake",
+    "cmake",
+    "cmake"
+   ]
+  },
+  "source":{
+   "patches":[
+    "patches/add_cmake.patch",
+    "patches/add_cmake.patch",
+    "patches/add_cmake.patch"
+   ],
+   "sha256":"dbb207704c54d9d0358c77e1773f6a11272110d4c609bde75f88eb78767da1a1",
+   "url":"https://github.com/sminster/csm/archive/v3.0.3.1.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "if not exist %LIBRARY_BIN%\\csmapi.dll exit 1",
+    "if not exist %LIBRARY_INC%\\csm\\Ellipsoid.h exit 1",
+    "test -e $PREFIX/lib/libcsmapi.dylib",
+    "test -e $PREFIX/include/csm/Isd.h",
+    "test -e $PREFIX/include/csm/csm.h",
+    "test -e $PREFIX/lib/libcsmapi.so",
+    "test -e $PREFIX/include/csm/Isd.h",
+    "test -e $PREFIX/include/csm/csm.h"
+   ]
+  }
+ },
+ "name":"csm",
+ "new_version":"v3.0.3.3",
+ "pinning_version":"2020.01.10",
+ "raw_meta_yaml":"{% set name = \"csm\" %}\n{% set version = \"v3.0.3.1\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://github.com/sminster/{{ name }}/archive/{{ version }}.tar.gz\n  sha256: dbb207704c54d9d0358c77e1773f6a11272110d4c609bde75f88eb78767da1a1\n  patches:\n     - patches/add_cmake.patch  # Adds the CMake build system\n\nbuild:\n  number: 1001\n\nrequirements:\n  build:\n    - {{ compiler('cxx') }}  # [linux]\n  host:\n    - cmake\n\ntest:\n  commands:\n    - test -e $PREFIX/lib/libcsmapi.so  # [linux]\n    - test -e $PREFIX/lib/libcsmapi.dylib  # [osx]\n    - test -e $PREFIX/include/csm/Isd.h  # [not win]\n    - test -e $PREFIX/include/csm/csm.h  # [not win]\n    - if not exist %LIBRARY_BIN%\\csmapi.dll exit 1  # [win]\n    - if not exist %LIBRARY_INC%\\csm\\Ellipsoid.h exit 1  # [win]\n\nabout:\n  home: http://github.com/sminster/csm\n  license: Public Domain\n  license_file: LICENSE\n  summary: 'The Community Sensor Model API'\n  description: |\n    csm is a C++ API for terrestrial and planetary sensor models\n\nextra:\n  recipe-maintainers:\n    - jlaura\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "cmake",
+   "cxx_compiler_stub"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "cxx_compiler_stub"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "cmake"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.6.5",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "cxx_compiler_stub"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "cmake"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://github.com/sminster/csm/archive/v3.0.3.1.tar.gz",
+ "version":"v3.0.3.1"
+}

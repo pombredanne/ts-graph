@@ -1,0 +1,164 @@
+{
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"harmonica",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"Harmonica is a Python library for processing and modeling gravity and\nmagnetic data. It includes common processing steps, like calculation of\nBouguer and terrain corrections, reduction to the pole, upward\ncontinuation, equivalent layers, and more. There are forward modeling\nfunctions for basic geometric shapes, like spheres, prisms, polygonal\nprisms, and tesseroids. The inversion methods are implemented as classes\nwith an interface inspired by scikit-learn (like Verde).\n",
+   "dev_url":"https://github.com/fatiando/harmonica",
+   "doc_url":"https://www.fatiando.org/harmonica",
+   "home":"http://github.com/fatiando/harmonica",
+   "license":"BSD-3-Clause",
+   "license_family":"BSD",
+   "license_file":"LICENSE.txt",
+   "summary":"Processing and modeling gravity and magnetic data"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . --no-deps -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "leouieda",
+    "santisoler",
+    "leouieda",
+    "santisoler",
+    "leouieda",
+    "santisoler"
+   ]
+  },
+  "package":{
+   "name":"harmonica",
+   "version":"0.1.0"
+  },
+  "requirements":{
+   "host":[
+    "python >=3.6",
+    "pip",
+    "python >=3.6",
+    "pip",
+    "python >=3.6",
+    "pip"
+   ],
+   "run":[
+    "python >=3.6",
+    "numpy",
+    "scipy",
+    "pandas",
+    "xarray",
+    "numba",
+    "pooch >=0.7.0",
+    "verde",
+    "python >=3.6",
+    "numpy",
+    "scipy",
+    "pandas",
+    "xarray",
+    "numba",
+    "pooch >=0.7.0",
+    "verde",
+    "python >=3.6",
+    "numpy",
+    "scipy",
+    "pandas",
+    "xarray",
+    "numba",
+    "pooch >=0.7.0",
+    "verde"
+   ]
+  },
+  "source":{
+   "sha256":"552fb15217de85736dc7fea045feccc4c5a4bec3d6b25e617124f6fd633c288f",
+   "url":"https://pypi.io/packages/source/h/harmonica/harmonica-0.1.0.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "harmonica",
+    "harmonica",
+    "harmonica"
+   ]
+  }
+ },
+ "name":"harmonica",
+ "new_version":"0.1.0",
+ "raw_meta_yaml":"{% set name = \"harmonica\" %}\n{% set version = \"0.1.0\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: 552fb15217de85736dc7fea045feccc4c5a4bec3d6b25e617124f6fd633c288f\n\nbuild:\n  noarch: python\n  number: 0\n  script: \"{{ PYTHON }} -m pip install . --no-deps -vv\"\n\nrequirements:\n  host:\n    - python >=3.6\n    - pip\n  run:\n    - python >=3.6\n    - numpy\n    - scipy\n    - pandas\n    - xarray\n    - numba\n    - pooch >=0.7.0\n    - verde\n\ntest:\n  imports:\n    - harmonica\n\nabout:\n  home: http://github.com/fatiando/harmonica\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: LICENSE.txt\n  summary: \"Processing and modeling gravity and magnetic data\"\n  description: |\n    Harmonica is a Python library for processing and modeling gravity and\n    magnetic data. It includes common processing steps, like calculation of\n    Bouguer and terrain corrections, reduction to the pole, upward\n    continuation, equivalent layers, and more. There are forward modeling\n    functions for basic geometric shapes, like spheres, prisms, polygonal\n    prisms, and tesseroids. The inversion methods are implemented as classes\n    with an interface inspired by scikit-learn (like Verde).\n  doc_url: https://www.fatiando.org/harmonica\n  dev_url: https://github.com/fatiando/harmonica\n\nextra:\n  recipe-maintainers:\n    - leouieda\n    - santisoler\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "numba",
+   "numpy",
+   "pandas",
+   "pip",
+   "pooch",
+   "python",
+   "scipy",
+   "verde",
+   "xarray"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "numba",
+    "numpy",
+    "pandas",
+    "pooch",
+    "python",
+    "scipy",
+    "verde",
+    "xarray"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3.6"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "numba",
+    "numpy",
+    "pandas",
+    "pooch >=0.7.0",
+    "python >=3.6",
+    "scipy",
+    "verde",
+    "xarray"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/h/harmonica/harmonica-0.1.0.tar.gz",
+ "version":"0.1.0"
+}

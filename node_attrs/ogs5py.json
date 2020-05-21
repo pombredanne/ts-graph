@@ -1,0 +1,188 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/397744207.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.1.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"ogs5py",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"ogs5py: a python API for OpenGeoSys5",
+   "dev_url":"https://github.com/GeoStat-Framework/ogs5py",
+   "doc_url":"https://geostat-framework.readthedocs.io/projects/ogs5py/",
+   "home":"https://github.com/GeoStat-Framework/ogs5py",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"LICENSE",
+   "summary":"ogs5py: a python API for OpenGeoSys5"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":"SETUPTOOLS_SCM_PRETEND_VERSION=1.1.1  -m pip install . -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "MuellerSeb",
+    "MuellerSeb",
+    "MuellerSeb"
+   ]
+  },
+  "package":{
+   "name":"ogs5py",
+   "version":"1.1.1"
+  },
+  "requirements":{
+   "host":[
+    "pip",
+    "python >=3.5",
+    "setuptools >=41.0.1",
+    "setuptools_scm >=3.5",
+    "pip",
+    "python >=3.5",
+    "setuptools >=41.0.1",
+    "setuptools_scm >=3.5",
+    "pip",
+    "python >=3.5",
+    "setuptools >=41.0.1",
+    "setuptools_scm >=3.5"
+   ],
+   "run":[
+    "python >=3.5",
+    "numpy >=1.14.5",
+    "pandas >=0.23.2",
+    "meshio >=4.0.3,<5.0",
+    "lxml >=4.0,<5.0",
+    "pexpect >=4.0,<5.0",
+    "vtk >=8.1",
+    "python >=3.5",
+    "numpy >=1.14.5",
+    "pandas >=0.23.2",
+    "meshio >=4.0.3,<5.0",
+    "lxml >=4.0,<5.0",
+    "pexpect >=4.0,<5.0",
+    "vtk >=8.1",
+    "python >=3.5",
+    "numpy >=1.14.5",
+    "pandas >=0.23.2",
+    "meshio >=4.0.3,<5.0",
+    "lxml >=4.0,<5.0",
+    "pexpect >=4.0,<5.0",
+    "vtk >=8.1"
+   ]
+  },
+  "source":{
+   "sha256":"98fb1abf0ec8574150a14714f6b9e7861864b3a480fdb74893d5b83273413e82",
+   "url":"https://pypi.io/packages/source/o/ogs5py/ogs5py-1.1.1.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "ogs5py",
+    "ogs5py",
+    "ogs5py"
+   ]
+  }
+ },
+ "name":"ogs5py",
+ "new_version":"1.1.1",
+ "pinning_version":"2020.04.02",
+ "raw_meta_yaml":"{% set name = \"ogs5py\" %}\n{% set version = \"1.1.1\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: 98fb1abf0ec8574150a14714f6b9e7861864b3a480fdb74893d5b83273413e82\n\nbuild:\n  noarch: python\n  number: 0\n  script: SETUPTOOLS_SCM_PRETEND_VERSION={{ version }} {{ PYTHON }} -m pip install . -vv\n\nrequirements:\n  host:\n    - pip\n    - python >=3.5\n    - setuptools >=41.0.1\n    - setuptools_scm >=3.5\n  run:\n    - python >=3.5\n    - numpy >=1.14.5\n    - pandas >=0.23.2\n    - meshio >=4.0.3,<5.0\n    - lxml >=4.0,<5.0\n    - pexpect >=4.0,<5.0\n    - vtk >=8.1\n\ntest:\n  imports:\n    - ogs5py\n\nabout:\n  home: https://github.com/GeoStat-Framework/ogs5py\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE\n  summary: 'ogs5py: a python API for OpenGeoSys5'\n  description: 'ogs5py: a python API for OpenGeoSys5'\n  doc_url: https://geostat-framework.readthedocs.io/projects/ogs5py/\n  dev_url: https://github.com/GeoStat-Framework/ogs5py\n\nextra:\n  recipe-maintainers:\n    - MuellerSeb\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "lxml",
+   "meshio",
+   "numpy",
+   "pandas",
+   "pexpect",
+   "pip",
+   "python",
+   "setuptools",
+   "setuptools_scm",
+   "vtk"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python",
+    "setuptools",
+    "setuptools_scm"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "lxml",
+    "meshio",
+    "numpy",
+    "pandas",
+    "pexpect",
+    "python",
+    "vtk"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.6.15",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3.5",
+    "setuptools >=41.0.1",
+    "setuptools_scm >=3.5"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "lxml >=4.0,<5.0",
+    "meshio >=4.0.3,<5.0",
+    "numpy >=1.14.5",
+    "pandas >=0.23.2",
+    "pexpect >=4.0,<5.0",
+    "python >=3.5",
+    "vtk >=8.1"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/o/ogs5py/ogs5py-1.0.5.tar.gz",
+ "version":"1.1.1"
+}

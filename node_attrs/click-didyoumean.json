@@ -1,0 +1,6 @@
+{
+ "bad":"Upstream: Error getting upstream version",
+ "feedstock_name":"click-didyoumean",
+ "new_version":false,
+ "raw_meta_yaml":"{% set name = \"click-didyoumean\" %}\n{% set version = \"0.0.3\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: 112229485c9704ff51362fe34b2d4f0b12fc71cc20f6d2b3afabed4b8bfa6aeb\n\nbuild:\n  noarch: python\n  number: 0\n  script: '{{ PYTHON }} -m pip install . -vv'\n\nrequirements:\n  host:\n    - pip\n    - python\n  run:\n    - click\n    - python\n\ntest:\n  imports:\n    - click_didyoumean\n\nabout:\n  home: https://github.com/timofurrer/click-didyoumean\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE\n  summary: Enable git-like did-you-mean feature in click.\n\nextra:\n  recipe-maintainers:\n    - duncanmmacleod\n"
+}

@@ -1,0 +1,504 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/225027508.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.1.3"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/236014820.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.3.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/236355572.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.3.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/269695669.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.5.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/284365005.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.6.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/305697071.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.6.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/319245541.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.6.3"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/325921907.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.6.4"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/342388995.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.7.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/369629027.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.8.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/386688223.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.8.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/387774172.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.9.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/387914868.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.9.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/391172637.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.9.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/391972168.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.9.3"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/397326832.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.9.4"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/398356027.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.9.5"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"panel",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"Panel provides tools for easily composing widgets, plots, tables, and other\nviewable objects and controls into control panels, apps, and dashboards.\n",
+   "home":"https://panel.holoviz.org",
+   "license":"BSD-3-Clause",
+   "license_file":"LICENSE.txt",
+   "summary":"A high-level app and dashboarding solution for Python"
+  },
+  "build":{
+   "entry_points":[
+    "panel = panel.cli:main",
+    "panel = panel.cli:main",
+    "panel = panel.cli:main"
+   ],
+   "noarch":"python",
+   "number":"1",
+   "script":[
+    "rm -r panel/dist",
+    "cp /index.ts /panel/",
+    "-m pip install . -vv",
+    "rm -r panel/dist",
+    "cp /index.ts /panel/",
+    "-m pip install . -vv",
+    "rm -r panel/dist",
+    "cp /index.ts /panel/",
+    "-m pip install . -vv"
+   ]
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "philippjfr",
+    "ocefpaf",
+    "philippjfr",
+    "ocefpaf",
+    "philippjfr",
+    "ocefpaf"
+   ]
+  },
+  "package":{
+   "name":"panel",
+   "version":"0.9.5"
+  },
+  "requirements":{
+   "host":[
+    "python >=3",
+    "pip",
+    "pyct",
+    "bokeh >=2.0",
+    "nodejs >=10.13.0",
+    "python >=3",
+    "pip",
+    "pyct",
+    "bokeh >=2.0",
+    "nodejs >=10.13.0",
+    "python >=3",
+    "pip",
+    "pyct",
+    "bokeh >=2.0",
+    "nodejs >=10.13.0"
+   ],
+   "run":[
+    "python >=3",
+    "bokeh >=2.0",
+    "markdown",
+    "param >=1.9.3",
+    "pyct >=0.4.4",
+    "pyviz_comms >=0.7.4",
+    "tqdm",
+    "python >=3",
+    "bokeh >=2.0",
+    "markdown",
+    "param >=1.9.3",
+    "pyct >=0.4.4",
+    "pyviz_comms >=0.7.4",
+    "tqdm",
+    "python >=3",
+    "bokeh >=2.0",
+    "markdown",
+    "param >=1.9.3",
+    "pyct >=0.4.4",
+    "pyviz_comms >=0.7.4",
+    "tqdm"
+   ]
+  },
+  "source":{
+   "patches":[
+    "index-ts-fix.patch",
+    "index-ts-fix.patch",
+    "index-ts-fix.patch"
+   ],
+   "sha256":"53340615f30f67f3182793695ebe52bf25e7bbb0751aba6f29763244350d0f42",
+   "url":"https://pypi.io/packages/source/p/panel/panel-0.9.5.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "pip check",
+    "panel --help",
+    "pip check",
+    "panel --help",
+    "pip check",
+    "panel --help"
+   ],
+   "imports":[
+    "panel",
+    "panel.io",
+    "panel",
+    "panel.io",
+    "panel",
+    "panel.io"
+   ],
+   "requires":[
+    "pip",
+    "pip",
+    "pip"
+   ]
+  }
+ },
+ "name":"panel",
+ "new_version":"0.9.5",
+ "pinning_version":"2020.04.03",
+ "raw_meta_yaml":"{% set version = \"0.9.5\" %}\n\npackage:\n  name: panel\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/p/panel/panel-{{ version }}.tar.gz\n  sha256: 53340615f30f67f3182793695ebe52bf25e7bbb0751aba6f29763244350d0f42\n  patches:\n    - index-ts-fix.patch\n\nbuild:\n  number: 1\n  noarch: python\n  entry_points:\n    - panel = panel.cli:main\n  script:\n    # first two lines can probably be dropped in the next release.\n    - rm -r panel/dist\n    - cp {{ RECIPE_DIR }}/index.ts {{ SRC_DIR }}/panel/\n    - {{ PYTHON }} -m pip install . -vv\n\nrequirements:\n  host:\n    - python >=3\n    - pip\n    # These are also needed at build time.\n    - pyct\n    - bokeh >=2.0\n    - nodejs >=10.13.0\n  run:\n    - python >=3\n    - bokeh >=2.0\n    - markdown\n    - param >=1.9.3\n    - pyct >=0.4.4\n    - pyviz_comms >=0.7.4\n    - tqdm\n\ntest:\n  imports:\n    - panel\n    - panel.io\n  commands:\n    - pip check\n    - panel --help\n  requires:\n    - pip\n\nabout:\n  home: https://panel.holoviz.org\n  summary: A high-level app and dashboarding solution for Python\n  description: |\n    Panel provides tools for easily composing widgets, plots, tables, and other\n    viewable objects and controls into control panels, apps, and dashboards.\n  license: BSD-3-Clause\n  license_file: LICENSE.txt\n\nextra:\n  recipe-maintainers:\n    - philippjfr\n    - ocefpaf\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "bokeh",
+   "markdown",
+   "nodejs",
+   "param",
+   "pip",
+   "pyct",
+   "python",
+   "pyviz_comms",
+   "tqdm"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "bokeh",
+    "nodejs",
+    "pip",
+    "pyct",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "bokeh",
+    "markdown",
+    "param",
+    "pyct",
+    "python",
+    "pyviz_comms",
+    "tqdm"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "pip"
+   ]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.6.15",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "bokeh >=2.0",
+    "nodejs >=10.13.0",
+    "pip",
+    "pyct",
+    "python >=3"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "bokeh >=2.0",
+    "markdown",
+    "param >=1.9.3",
+    "pyct >=0.4.4",
+    "python >=3",
+    "pyviz_comms >=0.7.4",
+    "tqdm"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "pip"
+   ]
+  }
+ },
+ "url":"https://pypi.io/packages/source/p/panel/panel-0.6.2.tar.gz",
+ "version":"0.9.5"
+}

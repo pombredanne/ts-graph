@@ -1,0 +1,163 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/356507184.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.0.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"jaraco.collections",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "dev_url":"https://github.com/jaraco/jaraco.collections",
+   "doc_url":"https://jaracocollections.readthedocs.io/",
+   "home":"https://github.com/jaraco/jaraco.collections",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"LICENSE",
+   "summary":"Models and classes to supplement the stdlib 'collections' module."
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "carlodri",
+    "carlodri",
+    "carlodri"
+   ]
+  },
+  "package":{
+   "name":"jaraco.collections",
+   "version":"3.0.0"
+  },
+  "requirements":{
+   "host":[
+    "python >=3.6",
+    "pip",
+    "setuptools_scm >=1.15",
+    "python >=3.6",
+    "pip",
+    "setuptools_scm >=1.15",
+    "python >=3.6",
+    "pip",
+    "setuptools_scm >=1.15"
+   ],
+   "run":[
+    "python >=3.6",
+    "jaraco.text",
+    "jaraco.classes",
+    "six >=1.7.0",
+    "python >=3.6",
+    "jaraco.text",
+    "jaraco.classes",
+    "six >=1.7.0",
+    "python >=3.6",
+    "jaraco.text",
+    "jaraco.classes",
+    "six >=1.7.0"
+   ]
+  },
+  "source":{
+   "sha256":"be570ef4f2e7290b757449395238fa63d70a9255574624e73c5ff9f1ee554721",
+   "url":"https://pypi.io/packages/source/j/jaraco.collections/jaraco.collections-3.0.0.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "jaraco.collections",
+    "jaraco.collections",
+    "jaraco.collections"
+   ]
+  }
+ },
+ "name":"jaraco.collections",
+ "new_version":"3.0.0",
+ "pinning_version":"2019.12.18",
+ "raw_meta_yaml":"{% set name = \"jaraco.collections\" %}\n{% set version = \"3.0.0\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: be570ef4f2e7290b757449395238fa63d70a9255574624e73c5ff9f1ee554721\n\nbuild:\n  noarch: python\n  number: 0\n  script: \"{{ PYTHON }} -m pip install . -vv\"\n\nrequirements:\n  host:\n    - python >=3.6\n    - pip\n    - setuptools_scm >=1.15\n  run:\n    - python >=3.6\n    - jaraco.text\n    - jaraco.classes\n    - six >=1.7.0\n\ntest:\n  imports:\n    - jaraco.collections\n\nabout:\n  home: https://github.com/jaraco/jaraco.collections\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE\n  summary: \"Models and classes to supplement the stdlib 'collections' module.\"\n  doc_url: https://jaracocollections.readthedocs.io/\n  dev_url: https://github.com/jaraco/jaraco.collections\n\nextra:\n  recipe-maintainers:\n    - carlodri\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "jaraco.classes",
+   "jaraco.text",
+   "pip",
+   "python",
+   "setuptools_scm",
+   "six"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python",
+    "setuptools_scm"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "jaraco.classes",
+    "jaraco.text",
+    "python",
+    "six"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.6.5",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3.6",
+    "setuptools_scm >=1.15"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "jaraco.classes",
+    "jaraco.text",
+    "python >=3.6",
+    "six >=1.7.0"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/j/jaraco.collections/jaraco.collections-2.1.tar.gz",
+ "version":"3.0.0"
+}

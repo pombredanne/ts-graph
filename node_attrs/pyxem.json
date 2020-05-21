@@ -1,0 +1,361 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/278576261.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.8.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/281692210.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.8.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/300725472.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.9.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/313602291.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.9.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/317299545.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.9.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/339043701.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.10.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/375411594.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.10.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/375792914.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MatplotlibBase",
+    "migrator_version":0,
+    "name":"matplotlib-to-matplotlib-base"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/419183627.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.11.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"pyxem",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "doc_url":"http://pyxem.github.io/pyxem-website/",
+   "home":"https://github.com/pyxem/pyxem",
+   "license":"GPL-3.0-only",
+   "license_family":"GPL",
+   "license_file":"LICENSE",
+   "summary":"An open-source Python library for crystallographic diffraction microscopy"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . --no-deps --ignore-installed -vv "
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "dnjohnstone",
+    "pc494",
+    "dnjohnstone",
+    "pc494",
+    "dnjohnstone",
+    "pc494"
+   ]
+  },
+  "package":{
+   "name":"pyxem",
+   "version":"0.11.0"
+  },
+  "requirements":{
+   "host":[
+    "pip",
+    "python >=3",
+    "pip",
+    "python >=3",
+    "pip",
+    "python >=3"
+   ],
+   "run":[
+    "python >=3",
+    "diffsims >=0.2.3",
+    "hyperspy >=1.5.2",
+    "scikit-image ==0.16.2",
+    "matplotlib-base >=3.1.1",
+    "scikit-learn >=0.19",
+    "lmfit >=0.9.12",
+    "pyfai",
+    "numba",
+    "python >=3",
+    "diffsims >=0.2.3",
+    "hyperspy >=1.5.2",
+    "scikit-image ==0.16.2",
+    "matplotlib-base >=3.1.1",
+    "scikit-learn >=0.19",
+    "lmfit >=0.9.12",
+    "pyfai",
+    "numba",
+    "python >=3",
+    "diffsims >=0.2.3",
+    "hyperspy >=1.5.2",
+    "scikit-image ==0.16.2",
+    "matplotlib-base >=3.1.1",
+    "scikit-learn >=0.19",
+    "lmfit >=0.9.12",
+    "pyfai",
+    "numba"
+   ]
+  },
+  "source":{
+   "sha256":"d9f4150fce107a9f5b906d575abad68f00f9f9531dc712c60aed391a5166221f",
+   "url":"https://pypi.io/packages/source/p/pyxem/pyxem-0.11.0.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "pytest --pyargs pyxem",
+    "pytest --pyargs pyxem",
+    "pytest --pyargs pyxem"
+   ],
+   "imports":[
+    "pyxem",
+    "pyxem.utils",
+    "pyxem.detectors",
+    "pyxem.components",
+    "pyxem.generators",
+    "pyxem.signals",
+    "pyxem.libraries",
+    "pyxem",
+    "pyxem.utils",
+    "pyxem.detectors",
+    "pyxem.components",
+    "pyxem.generators",
+    "pyxem.signals",
+    "pyxem.libraries",
+    "pyxem",
+    "pyxem.utils",
+    "pyxem.detectors",
+    "pyxem.components",
+    "pyxem.generators",
+    "pyxem.signals",
+    "pyxem.libraries"
+   ],
+   "requires":[
+    "pytest",
+    "pytest",
+    "pytest"
+   ]
+  }
+ },
+ "name":"pyxem",
+ "new_version":"0.11.0",
+ "new_version_attempts":{
+  "0.11.0":1
+ },
+ "new_version_errors":{},
+ "pinning_version":"2020.05.14.17.14.20",
+ "raw_meta_yaml":"{% set name = \"pyxem\" %}\n{% set version = \"0.11.0\" %}\n\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: d9f4150fce107a9f5b906d575abad68f00f9f9531dc712c60aed391a5166221f\n\n\nbuild:\n  number: 0\n  noarch: python\n  script: '{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv '\n\nrequirements:\n  host:\n    - pip\n    - python >=3\n  run:\n    - python >=3\n    - diffsims >=0.2.3\n    - hyperspy >=1.5.2\n    - scikit-image ==0.16.2\n    - matplotlib-base >=3.1.1\n    - scikit-learn >=0.19\n    - lmfit >=0.9.12\n    - pyfai\n    - numba\n\ntest:\n  requires:\n    - pytest\n  imports:\n    - pyxem\n    - pyxem.utils\n    - pyxem.detectors\n    - pyxem.components\n    - pyxem.generators\n    - pyxem.signals\n    - pyxem.libraries\n  commands:\n    - pytest --pyargs pyxem\n\nabout:\n  home: https://github.com/pyxem/pyxem\n  license: GPL-3.0-only\n  license_family: GPL\n  license_file: LICENSE\n  summary: An open-source Python library for crystallographic diffraction microscopy\n  doc_url: http://pyxem.github.io/pyxem-website/\n\nextra:\n  recipe-maintainers:\n    - dnjohnstone\n    - pc494\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "diffsims",
+   "hyperspy",
+   "lmfit",
+   "matplotlib-base",
+   "numba",
+   "pip",
+   "pyfai",
+   "python",
+   "scikit-image",
+   "scikit-learn"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "diffsims",
+    "hyperspy",
+    "lmfit",
+    "matplotlib-base",
+    "numba",
+    "pyfai",
+    "python",
+    "scikit-image",
+    "scikit-learn"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "pytest"
+   ]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.7.2\n",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "diffsims >=0.2.3",
+    "hyperspy >=1.5.2",
+    "lmfit >=0.9.12",
+    "matplotlib-base >=3.1.1",
+    "numba",
+    "pyfai",
+    "python >=3",
+    "scikit-image ==0.16.2",
+    "scikit-learn >=0.19"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "pytest"
+   ]
+  }
+ },
+ "url":"https://pypi.io/packages/source/p/pyxem/pyxem-0.9.0.tar.gz",
+ "version":"0.11.0"
+}

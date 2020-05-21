@@ -1,0 +1,6 @@
+{
+ "bad":"Upstream: Error getting upstream version",
+ "feedstock_name":"pyjsparser",
+ "new_version":false,
+ "raw_meta_yaml":"{% set name = \"pyjsparser\" %}\n{% set version = \"2.7.1\" %}\n\npackage:\n  name: \"{{ name|lower }}\"\n  version: \"{{ version }}\"\n\nsource:\n  url: \"https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\"\n  sha256: be60da6b778cc5a5296a69d8e7d614f1f870faf94e1b1b6ac591f2ad5d729579\n\nbuild:\n  noarch: python\n  number: 0\n  script: \"{{ PYTHON }} -m pip install . -vv\"\n\nrequirements:\n  host:\n    - pip\n    - python\n  run:\n    - python\n\ntest:\n  imports:\n    - pyjsparser\n\nabout:\n  home: \"https://github.com/PiotrDabkowski/pyjsparser\"\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE\n  summary: \"Fast javascript parser (based on esprima.js)\"\n  doc_url: https://github.com/PiotrDabkowski/pyjsparser\n  dev_url: https://github.com/PiotrDabkowski/pyjsparser\n\nextra:\n  recipe-maintainers:\n    - dschreij\n    - smathot\n"
+}

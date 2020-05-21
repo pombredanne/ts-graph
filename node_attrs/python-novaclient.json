@@ -1,0 +1,218 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/402183248.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"17.0.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"python-novaclient",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "dev_url":"https://opendev.org/openstack/python-novaclient",
+   "doc_url":"https://docs.openstack.org/python-novaclient/latest",
+   "home":"https://docs.openstack.org/python-novaclient/latest",
+   "license":"Apache Software",
+   "license_family":"APACHE",
+   "license_file":"LICENSE",
+   "summary":"Client library for OpenStack Compute API"
+  },
+  "build":{
+   "entry_points":[
+    "nova = novaclient.shell:main",
+    "nova = novaclient.shell:main",
+    "nova = novaclient.shell:main"
+   ],
+   "noarch":"python",
+   "number":"0",
+   "script":"-m pip install . -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "tschoonj",
+    "tschoonj",
+    "tschoonj"
+   ]
+  },
+  "package":{
+   "name":"python-novaclient",
+   "version":"17.0.0"
+  },
+  "requirements":{
+   "host":[
+    "pbr",
+    "pip",
+    "python >=3.6",
+    "setuptools",
+    "pbr",
+    "pip",
+    "python >=3.6",
+    "setuptools",
+    "pbr",
+    "pip",
+    "python >=3.6",
+    "setuptools"
+   ],
+   "run":[
+    "babel",
+    "iso8601",
+    "keystoneauth1",
+    "oslo.i18n",
+    "oslo.serialization",
+    "oslo.utils",
+    "pbr",
+    "prettytable <0.8,>=0.7.2",
+    "python >=3.6",
+    "setuptools",
+    "simplejson",
+    "babel",
+    "iso8601",
+    "keystoneauth1",
+    "oslo.i18n",
+    "oslo.serialization",
+    "oslo.utils",
+    "pbr",
+    "prettytable <0.8,>=0.7.2",
+    "python >=3.6",
+    "setuptools",
+    "simplejson",
+    "babel",
+    "iso8601",
+    "keystoneauth1",
+    "oslo.i18n",
+    "oslo.serialization",
+    "oslo.utils",
+    "pbr",
+    "prettytable <0.8,>=0.7.2",
+    "python >=3.6",
+    "setuptools",
+    "simplejson"
+   ]
+  },
+  "source":{
+   "sha256":"3a0ab422f217eeb9043ba786ecb3925c8b66baa142195ed211db37c78eff3c5f",
+   "url":"https://pypi.io/packages/source/p/python-novaclient/python-novaclient-17.0.0.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "novaclient",
+    "novaclient",
+    "novaclient"
+   ]
+  }
+ },
+ "name":"python-novaclient",
+ "new_version":"17.0.0",
+ "new_version_attempts":{
+  "17.0.0":1
+ },
+ "new_version_errors":{},
+ "pinning_version":"2020.04.10.23.07.47",
+ "raw_meta_yaml":"{% set name = \"python-novaclient\" %}\n{% set version = \"17.0.0\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: 3a0ab422f217eeb9043ba786ecb3925c8b66baa142195ed211db37c78eff3c5f\n\nbuild:\n  number: 0\n  noarch: python\n  script: {{ PYTHON }} -m pip install . -vv\n  entry_points:\n    - nova = novaclient.shell:main\n\nrequirements:\n  host:\n    - pbr\n    - pip\n    - python >=3.6\n    - setuptools\n  run:\n    - babel\n    - iso8601\n    - keystoneauth1\n    - oslo.i18n\n    - oslo.serialization\n    - oslo.utils\n    - pbr\n    - prettytable <0.8,>=0.7.2\n    - python >=3.6\n    - setuptools\n    - simplejson\n\ntest:\n  imports:\n    - novaclient\n\nabout:\n  home: https://docs.openstack.org/python-novaclient/latest\n  license: Apache Software\n  license_family: APACHE\n  license_file: LICENSE\n  summary: Client library for OpenStack Compute API\n  doc_url: https://docs.openstack.org/python-novaclient/latest\n  dev_url: https://opendev.org/openstack/python-novaclient\n\nextra:\n  recipe-maintainers:\n    - tschoonj\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "babel",
+   "iso8601",
+   "keystoneauth1",
+   "oslo.i18n",
+   "oslo.serialization",
+   "oslo.utils",
+   "pbr",
+   "pip",
+   "prettytable",
+   "python",
+   "setuptools",
+   "simplejson"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pbr",
+    "pip",
+    "python",
+    "setuptools"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "babel",
+    "iso8601",
+    "keystoneauth1",
+    "oslo.i18n",
+    "oslo.serialization",
+    "oslo.utils",
+    "pbr",
+    "prettytable",
+    "python",
+    "setuptools",
+    "simplejson"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.6.16",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pbr",
+    "pip",
+    "python >=3.6",
+    "setuptools"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "babel",
+    "iso8601",
+    "keystoneauth1",
+    "oslo.i18n",
+    "oslo.serialization",
+    "oslo.utils",
+    "pbr",
+    "prettytable <0.8,>=0.7.2",
+    "python >=3.6",
+    "setuptools",
+    "simplejson"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/p/python-novaclient/python-novaclient-16.0.0.tar.gz",
+ "version":"17.0.0"
+}

@@ -1,0 +1,489 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/318663882.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.30.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/341890999.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"python38"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/368905680.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.30.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"superset",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "dev_url":"https://github.com/apache/incubating-superset",
+   "doc_url":"https://superset.incubator.apache.org",
+   "home":"https://superset.incubator.apache.org",
+   "license":"Apache-2.0",
+   "license_family":"Apache",
+   "license_file":"LICENSE.txt",
+   "summary":"Apache Superset (incubating) is a modern, enterprise-ready business intelligence web application"
+  },
+  "build":{
+   "entry_points":[
+    "superset = superset.bin.superset:cli",
+    "superset = superset.bin.superset:cli",
+    "superset = superset.bin.superset:cli"
+   ],
+   "number":"0",
+   "script":[
+    " -m pip install . -vv",
+    "mv superset/bin/superset superset/bin/superset.py",
+    " -m pip install . -vv",
+    "mv superset/bin/superset superset/bin/superset.py",
+    " -m pip install . -vv"
+   ],
+   "skip":true
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "sodre",
+    "CurtLH",
+    "sodre",
+    "CurtLH",
+    "sodre",
+    "CurtLH"
+   ]
+  },
+  "package":{
+   "name":"superset",
+   "version":"0.28.1"
+  },
+  "requirements":{
+   "host":[
+    "python",
+    "pip",
+    "python",
+    "pip",
+    "python",
+    "pip"
+   ],
+   "run":[
+    "python >=3.6",
+    "bleach",
+    "boto3 ==1.4.7",
+    "botocore >=1.7.0,<1.8.0",
+    "celery >=4.2.0",
+    "click ==6.7",
+    "colorama ==0.3.9",
+    "contextlib2",
+    "cryptography",
+    "flask <1.0.0",
+    "flask-appbuilder >=2,<3",
+    "flask-caching",
+    "flask-compress",
+    "flask-migrate",
+    "flask-wtf",
+    "flower",
+    "future >=0.16.0,<0.17",
+    "geopy",
+    "gunicorn",
+    "humanize",
+    "idna",
+    "isodate",
+    "markdown >=3.0",
+    "pandas ==0.23.4",
+    "parsedatetime",
+    "pathlib2",
+    "polyline",
+    "pydruid >=0.4.3",
+    "pyhive >=0.4.0",
+    "python-dateutil",
+    "python-geohash",
+    "pyyaml >=3.11",
+    "requests",
+    "sqlalchemy ==1.2.18",
+    "sqlalchemy-utils",
+    "sqlparse",
+    "tableschema",
+    "thrift >=0.9.3",
+    "thrift_sasl >=0.2.1",
+    "unicodecsv",
+    "unidecode >=0.04.21",
+    "python >=3.6",
+    "bleach",
+    "boto3 ==1.4.7",
+    "botocore >=1.7.0,<1.8.0",
+    "celery >=4.2.0",
+    "click ==6.7",
+    "colorama ==0.3.9",
+    "contextlib2",
+    "cryptography",
+    "flask <1.0.0",
+    "flask-appbuilder >=2,<3",
+    "flask-caching",
+    "flask-compress",
+    "flask-migrate",
+    "flask-wtf",
+    "flower",
+    "future >=0.16.0,<0.17",
+    "geopy",
+    "gunicorn",
+    "humanize",
+    "idna",
+    "isodate",
+    "markdown >=3.0",
+    "pandas ==0.23.4",
+    "parsedatetime",
+    "pathlib2",
+    "polyline",
+    "pydruid >=0.4.3",
+    "pyhive >=0.4.0",
+    "python-dateutil",
+    "python-geohash",
+    "pyyaml >=3.11",
+    "requests",
+    "sqlalchemy ==1.2.18",
+    "sqlalchemy-utils",
+    "sqlparse",
+    "tableschema",
+    "thrift >=0.9.3",
+    "thrift_sasl >=0.2.1",
+    "unicodecsv",
+    "unidecode >=0.04.21",
+    "python >=3.6",
+    "bleach",
+    "boto3 ==1.4.7",
+    "botocore >=1.7.0,<1.8.0",
+    "celery >=4.2.0",
+    "click ==6.7",
+    "colorama ==0.3.9",
+    "contextlib2",
+    "cryptography",
+    "flask <1.0.0",
+    "flask-appbuilder >=2,<3",
+    "flask-caching",
+    "flask-compress",
+    "flask-migrate",
+    "flask-wtf",
+    "flower",
+    "future >=0.16.0,<0.17",
+    "geopy",
+    "gunicorn",
+    "humanize",
+    "idna",
+    "isodate",
+    "markdown >=3.0",
+    "pandas ==0.23.4",
+    "parsedatetime",
+    "pathlib2",
+    "polyline",
+    "pydruid >=0.4.3",
+    "pyhive >=0.4.0",
+    "python-dateutil",
+    "python-geohash",
+    "pyyaml >=3.11",
+    "requests",
+    "sqlalchemy ==1.2.18",
+    "sqlalchemy-utils",
+    "sqlparse",
+    "tableschema",
+    "thrift >=0.9.3",
+    "thrift_sasl >=0.2.1",
+    "unicodecsv",
+    "unidecode >=0.04.21"
+   ]
+  },
+  "source":[
+   {
+    "sha256":"d17192941353b93375ad593e1c812858bd36b25076481dca00d864fcd050e99f",
+    "url":"https://pypi.io/packages/source/s/superset/superset-0.28.1.tar.gz"
+   },
+   {
+    "sha256":"600710369a31face16d98c10682bda5d513fe1136f39f0c12f6f6cd9e2ccfe98",
+    "url":"https://raw.githubusercontent.com/apache/incubator-superset/master/LICENSE.txt"
+   },
+   {
+    "patches":[
+     "replace-scripts-with-console.patch"
+    ]
+   },
+   {
+    "sha256":"d17192941353b93375ad593e1c812858bd36b25076481dca00d864fcd050e99f",
+    "url":"https://pypi.io/packages/source/s/superset/superset-0.28.1.tar.gz"
+   },
+   {
+    "sha256":"600710369a31face16d98c10682bda5d513fe1136f39f0c12f6f6cd9e2ccfe98",
+    "url":"https://raw.githubusercontent.com/apache/incubator-superset/master/LICENSE.txt"
+   },
+   {
+    "patches":[
+     "replace-scripts-with-console.patch"
+    ]
+   },
+   {
+    "sha256":"d17192941353b93375ad593e1c812858bd36b25076481dca00d864fcd050e99f",
+    "url":"https://pypi.io/packages/source/s/superset/superset-0.28.1.tar.gz"
+   },
+   {
+    "sha256":"600710369a31face16d98c10682bda5d513fe1136f39f0c12f6f6cd9e2ccfe98",
+    "url":"https://raw.githubusercontent.com/apache/incubator-superset/master/LICENSE.txt"
+   },
+   {
+    "patches":[
+     "replace-scripts-with-console.patch"
+    ]
+   }
+  ],
+  "test":{
+   "commands":[
+    "set SUPERSET_HOME=",
+    "superset --help",
+    "superset db upgrade",
+    "export FLASK_APP='superset'",
+    "flask fab create-admin --username admin --firstname admin --lastname admin --email admin@fab.org --password admin",
+    "superset load_examples",
+    "superset init",
+    "export SUPERSET_HOME=",
+    "superset --help",
+    "superset db upgrade",
+    "export FLASK_APP='superset'",
+    "flask fab create-admin --username admin --firstname admin --lastname admin --email admin@fab.org --password admin",
+    "superset load_examples",
+    "superset init",
+    "export SUPERSET_HOME=",
+    "superset --help",
+    "superset db upgrade",
+    "export FLASK_APP='superset'",
+    "flask fab create-admin --username admin --firstname admin --lastname admin --email admin@fab.org --password admin",
+    "superset load_examples",
+    "superset init"
+   ],
+   "imports":[
+    "superset",
+    "superset",
+    "superset"
+   ]
+  }
+ },
+ "name":"superset",
+ "new_version":"0.30.1",
+ "pinning_version":"2020.01.27",
+ "raw_meta_yaml":"{% set name = \"superset\" %}\n{% set version = \"0.28.1\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  - url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n    sha256: d17192941353b93375ad593e1c812858bd36b25076481dca00d864fcd050e99f\n  - url: https://raw.githubusercontent.com/apache/incubator-superset/master/LICENSE.txt\n    sha256: 600710369a31face16d98c10682bda5d513fe1136f39f0c12f6f6cd9e2ccfe98\n  - patches:\n      - replace-scripts-with-console.patch\n\nbuild:\n  number: 0\n  script:\n    {% set console_script=os.sep.join(['superset', 'bin', 'superset']) %}\n    - mv {{ console_script }} {{ console_script}}.py  # [unix]\n    - \"{{ PYTHON }} -m pip install . -vv\"\n  skip: True  # [win or not py36]\n  entry_points:\n    - superset = superset.bin.superset:cli\n\nrequirements:\n  host:\n    - python\n    - pip\n  run:\n    - python >=3.6\n    # All dependency comments come from github\n    # https://raw.githubusercontent.com/apache/incubator-superset/0.28/requirements.txt\n    - bleach\n    - boto3 ==1.4.7\n    - botocore >=1.7.0,<1.8.0\n    - celery >=4.2.0\n    - click ==6.7\n    - colorama ==0.3.9\n    - contextlib2 #==0.5.5\n    - cryptography #==1.9\n    - flask <1.0.0\n    - flask-appbuilder >=2,<3\n    - flask-caching #==1.4.0\n    - flask-compress #==1.4.0\n    - flask-migrate #==2.1.1\n    - flask-wtf #==0.14.2\n    - flower #==0.9.2  # deprecated\n    - future >=0.16.0,<0.17\n    - geopy #==1.11.0\n    - gunicorn #==19.8.0  # deprecated\n    - humanize #==0.5.1\n    - idna #==2.6\n    - isodate #==0.6.0\n    - markdown >=3.0\n    - pandas ==0.23.4\n    - parsedatetime #==2.0.0\n    - pathlib2 #==2.3.0\n    - polyline #==1.3.2\n    - pydruid >=0.4.3\n    - pyhive >=0.4.0 #==0.5.1\n    - python-dateutil #==2.6.1\n    - python-geohash #==0.8.5\n    - pyyaml >=3.11 #==3.12\n    - requests #==2.18.4\n    # see apache/incubator-superset#6977\n    - sqlalchemy ==1.2.18\n    - sqlalchemy-utils #==0.32.21\n    - sqlparse #==0.2.4\n    - tableschema #==1.1.0\n    - thrift >=0.9.3 #==0.11.0\n    - thrift_sasl >=0.2.1 #==0.3.0\n    - unicodecsv #==0.14.1\n    - unidecode >=0.04.21 #==1.0.22\n\ntest:\n  commands:\n    - export SUPERSET_HOME={{PREFIX}}  # [unix]\n    - set SUPERSET_HOME={{PREFIX}}  # [win]\n    - superset --help\n    - superset db upgrade\n    - export FLASK_APP='superset'\n    - flask fab create-admin\n        --username admin\n        --firstname admin\n        --lastname admin\n        --email admin@fab.org\n        --password admin\n    - superset load_examples\n    - superset init\n  imports:\n    - superset\n\nabout:\n  home: https://superset.incubator.apache.org\n  license: Apache-2.0\n  license_family: Apache\n  license_file: LICENSE.txt\n  summary: 'Apache Superset (incubating) is a modern, enterprise-ready business intelligence web application'\n\n  doc_url: https://superset.incubator.apache.org\n  dev_url: https://github.com/apache/incubating-superset\n\nextra:\n  recipe-maintainers:\n    - sodre\n    - CurtLH\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "bleach",
+   "boto3",
+   "botocore",
+   "celery",
+   "click",
+   "colorama",
+   "contextlib2",
+   "cryptography",
+   "flask",
+   "flask-appbuilder",
+   "flask-caching",
+   "flask-compress",
+   "flask-migrate",
+   "flask-wtf",
+   "flower",
+   "future",
+   "geopy",
+   "gunicorn",
+   "humanize",
+   "idna",
+   "isodate",
+   "markdown",
+   "pandas",
+   "parsedatetime",
+   "pathlib2",
+   "pip",
+   "polyline",
+   "pydruid",
+   "pyhive",
+   "python",
+   "python-dateutil",
+   "python-geohash",
+   "pyyaml",
+   "requests",
+   "sqlalchemy",
+   "sqlalchemy-utils",
+   "sqlparse",
+   "tableschema",
+   "thrift",
+   "thrift_sasl",
+   "unicodecsv",
+   "unidecode"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "bleach",
+    "boto3",
+    "botocore",
+    "celery",
+    "click",
+    "colorama",
+    "contextlib2",
+    "cryptography",
+    "flask",
+    "flask-appbuilder",
+    "flask-caching",
+    "flask-compress",
+    "flask-migrate",
+    "flask-wtf",
+    "flower",
+    "future",
+    "geopy",
+    "gunicorn",
+    "humanize",
+    "idna",
+    "isodate",
+    "markdown",
+    "pandas",
+    "parsedatetime",
+    "pathlib2",
+    "polyline",
+    "pydruid",
+    "pyhive",
+    "python",
+    "python-dateutil",
+    "python-geohash",
+    "pyyaml",
+    "requests",
+    "sqlalchemy",
+    "sqlalchemy-utils",
+    "sqlparse",
+    "tableschema",
+    "thrift",
+    "thrift_sasl",
+    "unicodecsv",
+    "unidecode"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.6.6",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "bleach",
+    "boto3 ==1.4.7",
+    "botocore >=1.7.0,<1.8.0",
+    "celery >=4.2.0",
+    "click ==6.7",
+    "colorama ==0.3.9",
+    "contextlib2",
+    "cryptography",
+    "flask <1.0.0",
+    "flask-appbuilder >=2,<3",
+    "flask-caching",
+    "flask-compress",
+    "flask-migrate",
+    "flask-wtf",
+    "flower",
+    "future >=0.16.0,<0.17",
+    "geopy",
+    "gunicorn",
+    "humanize",
+    "idna",
+    "isodate",
+    "markdown >=3.0",
+    "pandas ==0.23.4",
+    "parsedatetime",
+    "pathlib2",
+    "polyline",
+    "pydruid >=0.4.3",
+    "pyhive >=0.4.0",
+    "python >=3.6",
+    "python-dateutil",
+    "python-geohash",
+    "pyyaml >=3.11",
+    "requests",
+    "sqlalchemy ==1.2.18",
+    "sqlalchemy-utils",
+    "sqlparse",
+    "tableschema",
+    "thrift >=0.9.3",
+    "thrift_sasl >=0.2.1",
+    "unicodecsv",
+    "unidecode >=0.04.21"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/s/superset/superset-0.28.1.tar.gz",
+ "version":"0.28.1"
+}

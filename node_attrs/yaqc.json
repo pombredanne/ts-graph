@@ -1,0 +1,151 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/407020003.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.2.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"yaqc",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "dev_url":"https://gitlab.com/yaq/yaqc-python",
+   "home":"https://yaq.fyi",
+   "license":"LGPL-3.0-only",
+   "license_family":"LGPL",
+   "license_file":"LICENSE",
+   "summary":"Generic yaq client, written in Python."
+  },
+  "build":{
+   "noarch":"python",
+   "number":"1",
+   "script":"-m pip install . -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "untzag",
+    "ksunden",
+    "untzag",
+    "ksunden",
+    "untzag",
+    "ksunden"
+   ]
+  },
+  "package":{
+   "name":"yaqc",
+   "version":"0.2.0"
+  },
+  "requirements":{
+   "host":[
+    "python >=3.7",
+    "pip",
+    "python >=3.7",
+    "pip",
+    "python >=3.7",
+    "pip"
+   ],
+   "run":[
+    "python >=3.7",
+    "msgpack-python >=1.0.0",
+    "python >=3.7",
+    "msgpack-python >=1.0.0",
+    "python >=3.7",
+    "msgpack-python >=1.0.0"
+   ]
+  },
+  "source":{
+   "sha256":"c22f1e73cadf0a5147be6687d05563b412556c7a57bea5711172a010abe65544",
+   "url":"https://pypi.io/packages/source/y/yaqc/yaqc-0.2.0.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "yaqc",
+    "yaqc",
+    "yaqc"
+   ]
+  }
+ },
+ "name":"yaqc",
+ "new_version":"0.2.0",
+ "new_version_attempts":{
+  "0.2.0":1
+ },
+ "new_version_errors":{},
+ "pinning_version":"2020.04.22.02.05.22",
+ "raw_meta_yaml":"{% set name = \"yaqc\" %}\n{% set version = \"0.2.0\" %}\n{% set sha256 = \"c22f1e73cadf0a5147be6687d05563b412556c7a57bea5711172a010abe65544\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 1\n  script: {{ PYTHON }} -m pip install . -vv\n\nrequirements:\n  host:\n    - python >=3.7\n    - pip\n  run:\n    - python >=3.7\n    - msgpack-python >=1.0.0\n\ntest:\n  imports:\n    - yaqc\n\nabout:\n  home: https://yaq.fyi\n  dev_url: https://gitlab.com/yaq/yaqc-python\n  license: LGPL-3.0-only\n  license_family: LGPL\n  license_file: LICENSE\n  summary: Generic yaq client, written in Python.\n\nextra:\n  recipe-maintainers:\n    - untzag\n    - ksunden\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "msgpack-python",
+   "pip",
+   "python"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "msgpack-python",
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.6.16",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3.7"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "msgpack-python >=1.0.0",
+    "python >=3.7"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/y/yaqc/yaqc-0.1.2.tar.gz",
+ "version":"0.2.0"
+}

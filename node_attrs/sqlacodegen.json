@@ -1,0 +1,169 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/301758934.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.1.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"sqlacodegen",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"http://pypi.python.org/pypi/sqlacodegen/",
+   "license":"MIT",
+   "license_family":"MIT",
+   "summary":"Automatic model code generator for SQLAlchemy"
+  },
+  "build":{
+   "entry_points":[
+    "sqlacodegen = sqlacodegen.main:main",
+    "sqlacodegen = sqlacodegen.main:main",
+    "sqlacodegen = sqlacodegen.main:main"
+   ],
+   "noarch":"python",
+   "number":"0",
+   "script":"python -m pip install --no-deps --ignore-installed ."
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "rzillman",
+    "dhirschfeld",
+    "rzillman",
+    "dhirschfeld",
+    "rzillman",
+    "dhirschfeld"
+   ]
+  },
+  "package":{
+   "name":"sqlacodegen",
+   "version":"2.1.0"
+  },
+  "requirements":{
+   "host":[
+    "python",
+    "pip",
+    "setuptools  >=36.2.7",
+    "setuptools_scm  >=1.7.0",
+    "python",
+    "pip",
+    "setuptools  >=36.2.7",
+    "setuptools_scm  >=1.7.0",
+    "python",
+    "pip",
+    "setuptools  >=36.2.7",
+    "setuptools_scm  >=1.7.0"
+   ],
+   "run":[
+    "python",
+    "sqlalchemy >=0.9.0",
+    "inflect >=0.2.0",
+    "python",
+    "sqlalchemy >=0.9.0",
+    "inflect >=0.2.0",
+    "python",
+    "sqlalchemy >=0.9.0",
+    "inflect >=0.2.0"
+   ]
+  },
+  "source":{
+   "fn":"sqlacodegen-2.1.0.tar.gz",
+   "sha256":"eae258e36c3dce8dd9543d35a234552d4e37ab5561072b3fb08543c7e881107c",
+   "url":"https://pypi.io/packages/source/s/sqlacodegen/sqlacodegen-2.1.0.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "sqlacodegen",
+    "sqlacodegen",
+    "sqlacodegen"
+   ]
+  }
+ },
+ "name":"sqlacodegen",
+ "new_version":"2.1.0",
+ "pinning_version":"2019.07.26",
+ "raw_meta_yaml":"{% set name = \"sqlacodegen\" %}\n{% set version = \"2.1.0\" %}\n{% set sha256 = \"eae258e36c3dce8dd9543d35a234552d4e37ab5561072b3fb08543c7e881107c\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  fn: {{ name }}-{{ version }}.tar.gz\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 0\n  script: python -m pip install --no-deps --ignore-installed . \n  entry_points: \n    - sqlacodegen = sqlacodegen.main:main\n\nrequirements:\n  host:\n    - python\n    - pip\n    - setuptools  >=36.2.7\n    - setuptools_scm  >=1.7.0\n\n  run:\n    - python\n    - sqlalchemy >=0.9.0\n    - inflect >=0.2.0\n\ntest:  \n  imports:\n    - sqlacodegen\n\nabout:\n  home: http://pypi.python.org/pypi/sqlacodegen/\n  license: MIT\n  summary: 'Automatic model code generator for SQLAlchemy'\n  license_family: MIT\n\nextra:\n  recipe-maintainers:\n    - rzillman\n    - dhirschfeld\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "inflect",
+   "pip",
+   "python",
+   "setuptools",
+   "setuptools_scm",
+   "sqlalchemy"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python",
+    "setuptools",
+    "setuptools_scm"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "inflect",
+    "python",
+    "sqlalchemy"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.4.1",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python",
+    "setuptools  >=36.2.7",
+    "setuptools_scm  >=1.7.0"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "inflect >=0.2.0",
+    "python",
+    "sqlalchemy >=0.9.0"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/s/sqlacodegen/sqlacodegen-2.1.0.tar.gz",
+ "version":"2.1.0"
+}

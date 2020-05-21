@@ -1,0 +1,449 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/254943617.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.0.58"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/256378776.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.0.59"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/259320666.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.0.60"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/264643013.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.0.61"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/268834446.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.0.62"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/272823892.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.0.63"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/276137654.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.0.64"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/327607216.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.0.74"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/328116158.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.0.75"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/336108663.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.0.76"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/345519677.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.0.77"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"azure-cli-core",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "dev_url":"https://github.com/Azure/azure-cli",
+   "doc_url":"https://docs.microsoft.com/en-us/cli/azure",
+   "home":"https://github.com/Azure/azure-cli",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"LICENSE",
+   "summary":"Microsoft Azure Command-Line Tools Core Module"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . --no-deps -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "andreyz4k",
+    "andreyz4k",
+    "andreyz4k"
+   ]
+  },
+  "package":{
+   "name":"azure-cli-core",
+   "version":"2.0.61"
+  },
+  "requirements":{
+   "host":[
+    "python >=3",
+    "pip",
+    "python >=3",
+    "pip",
+    "python >=3",
+    "pip"
+   ],
+   "run":[
+    "python >=3",
+    "adal >=1.2.0",
+    "antlr-python-runtime",
+    "argcomplete >=1.8.0",
+    "azure-cli-telemetry",
+    "azure-mgmt-resource ==2.1.0",
+    "colorama >=0.3.9",
+    "humanfriendly >=4.7",
+    "jmespath",
+    "knack ==0.5.1",
+    "msrest >=0.4.4",
+    "msrestazure >=0.4.25",
+    "paramiko >=2.0.8",
+    "pip",
+    "pygments",
+    "pyjwt",
+    "pyopenssl >=17.1.0",
+    "pyyaml",
+    "requests >=2.20.0",
+    "six",
+    "tabulate >=0.7.7,<=0.8.2",
+    "wheel",
+    "python >=3",
+    "adal >=1.2.0",
+    "antlr-python-runtime",
+    "argcomplete >=1.8.0",
+    "azure-cli-telemetry",
+    "azure-mgmt-resource ==2.1.0",
+    "colorama >=0.3.9",
+    "humanfriendly >=4.7",
+    "jmespath",
+    "knack ==0.5.1",
+    "msrest >=0.4.4",
+    "msrestazure >=0.4.25",
+    "paramiko >=2.0.8",
+    "pip",
+    "pygments",
+    "pyjwt",
+    "pyopenssl >=17.1.0",
+    "pyyaml",
+    "requests >=2.20.0",
+    "six",
+    "tabulate >=0.7.7,<=0.8.2",
+    "wheel",
+    "python >=3",
+    "adal >=1.2.0",
+    "antlr-python-runtime",
+    "argcomplete >=1.8.0",
+    "azure-cli-telemetry",
+    "azure-mgmt-resource ==2.1.0",
+    "colorama >=0.3.9",
+    "humanfriendly >=4.7",
+    "jmespath",
+    "knack ==0.5.1",
+    "msrest >=0.4.4",
+    "msrestazure >=0.4.25",
+    "paramiko >=2.0.8",
+    "pip",
+    "pygments",
+    "pyjwt",
+    "pyopenssl >=17.1.0",
+    "pyyaml",
+    "requests >=2.20.0",
+    "six",
+    "tabulate >=0.7.7,<=0.8.2",
+    "wheel"
+   ]
+  },
+  "source":{
+   "sha256":"15184b916e9ebaab4a630716d980384992f6d6084cf2eff23c704ecaf421adf6",
+   "url":"https://pypi.io/packages/source/a/azure-cli-core/azure-cli-core-2.0.61.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "azure",
+    "azure.cli",
+    "azure.cli.core",
+    "azure.cli.core.commands",
+    "azure.cli.core.extension",
+    "azure.cli.core.profiles",
+    "azure",
+    "azure.cli",
+    "azure.cli.core",
+    "azure.cli.core.commands",
+    "azure.cli.core.extension",
+    "azure.cli.core.profiles",
+    "azure",
+    "azure.cli",
+    "azure.cli.core",
+    "azure.cli.core.commands",
+    "azure.cli.core.extension",
+    "azure.cli.core.profiles"
+   ]
+  }
+ },
+ "name":"azure-cli-core",
+ "new_version":"2.5.1",
+ "pinning_version":"2019.11.20",
+ "raw_meta_yaml":"{% set name = \"azure-cli-core\" %}\n{% set version = \"2.0.61\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: 15184b916e9ebaab4a630716d980384992f6d6084cf2eff23c704ecaf421adf6\n\nbuild:\n  noarch: python\n  number: 0\n  script: \"{{ PYTHON }} -m pip install . --no-deps -vv\"\n\nrequirements:\n  host:\n    - python >=3\n    - pip\n  run:\n    - python >=3\n    - adal >=1.2.0\n    - antlr-python-runtime\n    - argcomplete >=1.8.0\n    - azure-cli-telemetry\n    - azure-mgmt-resource ==2.1.0\n    - colorama >=0.3.9\n    - humanfriendly >=4.7\n    - jmespath\n    - knack ==0.5.1\n    - msrest >=0.4.4\n    - msrestazure >=0.4.25\n    - paramiko >=2.0.8\n    - pip\n    - pygments\n    - pyjwt\n    - pyopenssl >=17.1.0\n    - pyyaml\n    - requests >=2.20.0\n    - six\n    - tabulate >=0.7.7,<=0.8.2\n    - wheel\n\ntest:\n  imports:\n    - azure\n    - azure.cli\n    - azure.cli.core\n    - azure.cli.core.commands\n    - azure.cli.core.extension\n    - azure.cli.core.profiles\n\nabout:\n  home: https://github.com/Azure/azure-cli\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE\n  summary: Microsoft Azure Command-Line Tools Core Module\n\n  doc_url: https://docs.microsoft.com/en-us/cli/azure\n  dev_url: https://github.com/Azure/azure-cli\n\nextra:\n  recipe-maintainers:\n    - andreyz4k\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "adal",
+   "antlr-python-runtime",
+   "argcomplete",
+   "azure-cli-telemetry",
+   "azure-mgmt-resource",
+   "colorama",
+   "humanfriendly",
+   "jmespath",
+   "knack",
+   "msrest",
+   "msrestazure",
+   "paramiko",
+   "pip",
+   "pygments",
+   "pyjwt",
+   "pyopenssl",
+   "python",
+   "pyyaml",
+   "requests",
+   "six",
+   "tabulate",
+   "wheel"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "adal",
+    "antlr-python-runtime",
+    "argcomplete",
+    "azure-cli-telemetry",
+    "azure-mgmt-resource",
+    "colorama",
+    "humanfriendly",
+    "jmespath",
+    "knack",
+    "msrest",
+    "msrestazure",
+    "paramiko",
+    "pip",
+    "pygments",
+    "pyjwt",
+    "pyopenssl",
+    "python",
+    "pyyaml",
+    "requests",
+    "six",
+    "tabulate",
+    "wheel"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.6.2",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "adal >=1.2.0",
+    "antlr-python-runtime",
+    "argcomplete >=1.8.0",
+    "azure-cli-telemetry",
+    "azure-mgmt-resource ==2.1.0",
+    "colorama >=0.3.9",
+    "humanfriendly >=4.7",
+    "jmespath",
+    "knack ==0.5.1",
+    "msrest >=0.4.4",
+    "msrestazure >=0.4.25",
+    "paramiko >=2.0.8",
+    "pip",
+    "pygments",
+    "pyjwt",
+    "pyopenssl >=17.1.0",
+    "python >=3",
+    "pyyaml",
+    "requests >=2.20.0",
+    "six",
+    "tabulate >=0.7.7,<=0.8.2",
+    "wheel"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/a/azure-cli-core/azure-cli-core-2.0.60.tar.gz",
+ "version":"2.0.61"
+}

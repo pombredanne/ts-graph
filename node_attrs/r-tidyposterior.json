@@ -1,0 +1,296 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/241557840.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/299180196.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"RBaseRebuild",
+    "migrator_version":0,
+    "name":"r-base-3.6.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/413954732.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":2,
+    "migrator_version":0,
+    "name":"r400"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "bot":{
+   "automerge":true
+  },
+  "provider":{
+   "win":"azure"
+  }
+ },
+ "feedstock_name":"r-tidyposterior",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"https://tidymodels.github.io/tidyposterior",
+   "license":"GPL-2",
+   "license_family":"GPL2",
+   "license_file":"/lib/R/share/licenses/GPL-2",
+   "summary":"Bayesian analysis used here to answer the question: \"when looking at resampling results, are the differences between models 'real'?\" To answer this, a model can be created were the performance statistic is the resampling statistics (e.g. accuracy or RMSE). These values are explained by the model types. In doing this, we can get parameter estimates for each model's affect on performance and make statistical (and practical) comparisons between models. The methods included here are similar to Benavoli et al (2017) <http://jmlr.org/papers/v18/16-305.html>."
+  },
+  "build":{
+   "merge_build_host":true,
+   "noarch":"generic",
+   "number":"2002",
+   "rpaths":[
+    "lib/R/lib/",
+    "lib/",
+    "lib/R/lib/",
+    "lib/",
+    "lib/R/lib/",
+    "lib/"
+   ]
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "conda-forge/r",
+    "conda-forge/r",
+    "conda-forge/r"
+   ]
+  },
+  "package":{
+   "name":"r-tidyposterior",
+   "version":"0.0.2"
+  },
+  "requirements":{
+   "build":null,
+   "host":[
+    "r-base",
+    "r-dplyr",
+    "r-generics",
+    "r-ggplot2",
+    "r-purrr",
+    "r-rlang",
+    "r-rsample >=0.0.2",
+    "r-rstanarm >=2.15.3",
+    "r-tibble",
+    "r-tidyr >=0.7.1",
+    "r-base",
+    "r-dplyr",
+    "r-generics",
+    "r-ggplot2",
+    "r-purrr",
+    "r-rlang",
+    "r-rsample >=0.0.2",
+    "r-rstanarm >=2.15.3",
+    "r-tibble",
+    "r-tidyr >=0.7.1",
+    "r-base",
+    "r-dplyr",
+    "r-generics",
+    "r-ggplot2",
+    "r-purrr",
+    "r-rlang",
+    "r-rsample >=0.0.2",
+    "r-rstanarm >=2.15.3",
+    "r-tibble",
+    "r-tidyr >=0.7.1"
+   ],
+   "run":[
+    "r-base",
+    "r-dplyr",
+    "r-generics",
+    "r-ggplot2",
+    "r-purrr",
+    "r-rlang",
+    "r-rsample >=0.0.2",
+    "r-rstanarm >=2.15.3",
+    "r-tibble",
+    "r-tidyr >=0.7.1",
+    "r-base",
+    "r-dplyr",
+    "r-generics",
+    "r-ggplot2",
+    "r-purrr",
+    "r-rlang",
+    "r-rsample >=0.0.2",
+    "r-rstanarm >=2.15.3",
+    "r-tibble",
+    "r-tidyr >=0.7.1",
+    "r-base",
+    "r-dplyr",
+    "r-generics",
+    "r-ggplot2",
+    "r-purrr",
+    "r-rlang",
+    "r-rsample >=0.0.2",
+    "r-rstanarm >=2.15.3",
+    "r-tibble",
+    "r-tidyr >=0.7.1"
+   ]
+  },
+  "source":{
+   "sha256":"3a8b32607ba38771992e17f16a9ea188e8d95386fe1363bcf4585ae64756abe9",
+   "url":[
+    "https://cran.r-project.org/src/contrib/tidyposterior_0.0.2.tar.gz",
+    "https://cran.r-project.org/src/contrib/Archive/tidyposterior/tidyposterior_0.0.2.tar.gz",
+    "https://cran.r-project.org/src/contrib/tidyposterior_0.0.2.tar.gz",
+    "https://cran.r-project.org/src/contrib/Archive/tidyposterior/tidyposterior_0.0.2.tar.gz",
+    "https://cran.r-project.org/src/contrib/tidyposterior_0.0.2.tar.gz",
+    "https://cran.r-project.org/src/contrib/Archive/tidyposterior/tidyposterior_0.0.2.tar.gz"
+   ]
+  },
+  "test":{
+   "commands":[
+    "\"%R%\" -e \"library('tidyposterior')\"",
+    "$R -e \"library('tidyposterior')\"",
+    "$R -e \"library('tidyposterior')\""
+   ]
+  }
+ },
+ "name":"r-tidyposterior",
+ "new_version":"0.0.2",
+ "pinning_version":"2020.05.04.19.59.17",
+ "raw_meta_yaml":"{% set version = '0.0.2' %}\n{% set posix = 'm2-' if win else '' %}\n{% set native = 'm2w64-' if win else '' %}\n\npackage:\n  name: r-tidyposterior\n  version: {{ version|replace(\"-\", \"_\") }}\n\nsource:\n  url:\n    - {{ cran_mirror }}/src/contrib/tidyposterior_{{ version }}.tar.gz\n    - {{ cran_mirror }}/src/contrib/Archive/tidyposterior/tidyposterior_{{ version }}.tar.gz\n  sha256: 3a8b32607ba38771992e17f16a9ea188e8d95386fe1363bcf4585ae64756abe9\n\nbuild:\n  merge_build_host: True  # [win]\n  number: 2002\n  noarch: generic\n  rpaths:\n    - lib/R/lib/\n    - lib/\n\nrequirements:\n  build:\n\n  host:\n    - r-base\n    - r-dplyr\n    - r-generics\n    - r-ggplot2\n    - r-purrr\n    - r-rlang\n    - r-rsample >=0.0.2\n    - r-rstanarm >=2.15.3\n    - r-tibble\n    - r-tidyr >=0.7.1\n  run:\n    - r-base\n    - r-dplyr\n    - r-generics\n    - r-ggplot2\n    - r-purrr\n    - r-rlang\n    - r-rsample >=0.0.2\n    - r-rstanarm >=2.15.3\n    - r-tibble\n    - r-tidyr >=0.7.1\n\ntest:\n  commands:\n    - $R -e \"library('tidyposterior')\"           # [not win]\n    - \"\\\"%R%\\\" -e \\\"library('tidyposterior')\\\"\"  # [win]\n\nabout:\n  home: https://tidymodels.github.io/tidyposterior\n  license: GPL-2\n  summary: 'Bayesian analysis used here to answer the question: \"when looking at resampling results,\n    are the differences between models ''real''?\" To answer this, a model can be created\n    were the performance statistic is the resampling statistics (e.g. accuracy or RMSE).\n    These values are explained by the model types. In doing this, we can get parameter\n    estimates for each model''s affect on performance and make statistical (and practical)\n    comparisons between models. The methods included here are similar to Benavoli et\n    al (2017) <http://jmlr.org/papers/v18/16-305.html>.'\n  license_family: GPL2\n  license_file: '{{ environ[\"PREFIX\"] }}/lib/R/share/licenses/GPL-2'\n\nextra:\n  recipe-maintainers:\n    - conda-forge/r\n\n# Package: tidyposterior\n# Version: 0.0.2\n# Title: Bayesian Analysis to Compare Models using Resampling Statistics\n# Description: Bayesian analysis used here to answer the question: \"when looking at resampling results, are the differences between models 'real'?\" To answer this, a model can be created were the performance statistic is the resampling statistics (e.g. accuracy or RMSE). These values are explained by the model types. In doing this, we can get parameter estimates for each model's affect on performance and make statistical (and practical) comparisons between models. The methods included here are similar to Benavoli et al (2017) <http://jmlr.org/papers/v18/16-305.html>.\n# Authors@R: c( person(\"Max\", \"Kuhn\", , \"max@rstudio.com\", c(\"aut\", \"cre\")), person(\"RStudio\", role = \"cph\"))\n# License: GPL-2\n# URL: https://tidymodels.github.io/tidyposterior\n# BugReports: https://github.com/tidymodels/tidyposterior/issues\n# VignetteBuilder: knitr\n# Encoding: UTF-8\n# LazyData: true\n# ByteCompile: true\n# RoxygenNote: 6.1.0.9000\n# Depends: R (>= 2.10)\n# Imports: rsample (>= 0.0.2), tidyr (>= 0.7.1), dplyr, rstanarm (>= 2.15.3), rlang, utils, purrr, tibble, generics, ggplot2,\n# Suggests: knitr, testthat, covr\n# NeedsCompilation: no\n# Packaged: 2018-11-15 19:50:59 UTC; max\n# Author: Max Kuhn [aut, cre], RStudio [cph]\n# Maintainer: Max Kuhn <max@rstudio.com>\n# Repository: CRAN\n# Date/Publication: 2018-11-15 20:20:03 UTC\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "r-base",
+   "r-dplyr",
+   "r-generics",
+   "r-ggplot2",
+   "r-purrr",
+   "r-rlang",
+   "r-rsample",
+   "r-rstanarm",
+   "r-tibble",
+   "r-tidyr"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "r-base",
+    "r-dplyr",
+    "r-generics",
+    "r-ggplot2",
+    "r-purrr",
+    "r-rlang",
+    "r-rsample",
+    "r-rstanarm",
+    "r-tibble",
+    "r-tidyr"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "r-base",
+    "r-dplyr",
+    "r-generics",
+    "r-ggplot2",
+    "r-purrr",
+    "r-rlang",
+    "r-rsample",
+    "r-rstanarm",
+    "r-tibble",
+    "r-tidyr"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.7.0\n",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "r-base",
+    "r-dplyr",
+    "r-generics",
+    "r-ggplot2",
+    "r-purrr",
+    "r-rlang",
+    "r-rsample >=0.0.2",
+    "r-rstanarm >=2.15.3",
+    "r-tibble",
+    "r-tidyr >=0.7.1"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "r-base",
+    "r-dplyr",
+    "r-generics",
+    "r-ggplot2",
+    "r-purrr",
+    "r-rlang",
+    "r-rsample >=0.0.2",
+    "r-rstanarm >=2.15.3",
+    "r-tibble",
+    "r-tidyr >=0.7.1"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":[
+  "https://cran.r-project.org/src/contrib/tidyposterior_0.0.2.tar.gz",
+  "https://cran.r-project.org/src/contrib/Archive/tidyposterior/tidyposterior_0.0.2.tar.gz",
+  "https://cran.r-project.org/src/contrib/tidyposterior_0.0.2.tar.gz",
+  "https://cran.r-project.org/src/contrib/Archive/tidyposterior/tidyposterior_0.0.2.tar.gz",
+  "https://cran.r-project.org/src/contrib/tidyposterior_0.0.2.tar.gz",
+  "https://cran.r-project.org/src/contrib/Archive/tidyposterior/tidyposterior_0.0.2.tar.gz"
+ ],
+ "version":"0.0.2"
+}

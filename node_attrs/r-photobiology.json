@@ -1,0 +1,484 @@
+{
+ "PRed":[
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.9.20"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/198232704.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.9.21"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/200051298.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.9.22"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/231842607.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/254069430.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.9.26"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/273447153.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.9.27"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/286401232.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.9.28"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/299100585.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"RBaseRebuild",
+    "migrator_version":0,
+    "name":"r-base-3.6.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/316306541.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.9.29"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/361011109.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.9.30"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/397552900.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.10.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/405135533.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.10.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/409553654.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.10.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/412813814.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":2,
+    "migrator_version":0,
+    "name":"r400"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "bot":{
+   "automerge":true
+  },
+  "provider":{
+   "win":"azure"
+  }
+ },
+ "feedstock_name":"r-photobiology",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"https://www.r4photobiology.info/, https://bitbucket.org/aphalo/photobiology",
+   "license":"GPL (>= 2)",
+   "license_family":"GPL3",
+   "license_file":"/lib/R/share/licenses/GPL-2",
+   "summary":"Definitions of classes, methods, operators and functions for use in photobiology and radiation meteorology and climatology. Calculation of effective (weighted) and not-weighted irradiances/doses, fluence rates, transmittance, reflectance, absorptance, absorbance and diverse ratios and other derived quantities from spectral data. Local maxima and minima. Conversion between energy- and photon-based units. Wavelength interpolation. Astronomical calculations related solar angles and day length. Colours and vision. This package is part of the 'r4photobiology' suite, Aphalo P. J. (2015) <doi:10.19232/uv4pb.2015.1.14>."
+  },
+  "build":{
+   "merge_build_host":true,
+   "number":"1",
+   "rpaths":[
+    "lib/R/lib/",
+    "lib/",
+    "lib/R/lib/",
+    "lib/",
+    "lib/R/lib/",
+    "lib/"
+   ]
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "conda-forge/r",
+    "conda-forge/r",
+    "conda-forge/r"
+   ]
+  },
+  "package":{
+   "name":"r-photobiology",
+   "version":"0.10.2"
+  },
+  "requirements":{
+   "build":null,
+   "host":[
+    "r-base",
+    "r-dplyr >=0.8.1",
+    "r-lubridate >=1.7.4",
+    "r-plyr >=1.8.4",
+    "r-polynom >=1.4_0",
+    "r-rlang >=0.4.5",
+    "r-splus2r >=1.2_2",
+    "r-stringr >=1.4.0",
+    "r-tibble >=2.0.1",
+    "r-zoo >=1.8_7",
+    "r-base",
+    "r-dplyr >=0.8.1",
+    "r-lubridate >=1.7.4",
+    "r-plyr >=1.8.4",
+    "r-polynom >=1.4_0",
+    "r-rlang >=0.4.5",
+    "r-splus2r >=1.2_2",
+    "r-stringr >=1.4.0",
+    "r-tibble >=2.0.1",
+    "r-zoo >=1.8_7",
+    "r-base",
+    "r-dplyr >=0.8.1",
+    "r-lubridate >=1.7.4",
+    "r-plyr >=1.8.4",
+    "r-polynom >=1.4_0",
+    "r-rlang >=0.4.5",
+    "r-splus2r >=1.2_2",
+    "r-stringr >=1.4.0",
+    "r-tibble >=2.0.1",
+    "r-zoo >=1.8_7"
+   ],
+   "run":[
+    "r-base",
+    "r-dplyr >=0.8.1",
+    "r-lubridate >=1.7.4",
+    "r-plyr >=1.8.4",
+    "r-polynom >=1.4_0",
+    "r-rlang >=0.4.5",
+    "r-splus2r >=1.2_2",
+    "r-stringr >=1.4.0",
+    "r-tibble >=2.0.1",
+    "r-zoo >=1.8_7",
+    "r-base",
+    "r-dplyr >=0.8.1",
+    "r-lubridate >=1.7.4",
+    "r-plyr >=1.8.4",
+    "r-polynom >=1.4_0",
+    "r-rlang >=0.4.5",
+    "r-splus2r >=1.2_2",
+    "r-stringr >=1.4.0",
+    "r-tibble >=2.0.1",
+    "r-zoo >=1.8_7",
+    "r-base",
+    "r-dplyr >=0.8.1",
+    "r-lubridate >=1.7.4",
+    "r-plyr >=1.8.4",
+    "r-polynom >=1.4_0",
+    "r-rlang >=0.4.5",
+    "r-splus2r >=1.2_2",
+    "r-stringr >=1.4.0",
+    "r-tibble >=2.0.1",
+    "r-zoo >=1.8_7"
+   ]
+  },
+  "source":{
+   "sha256":"60fd2488054ce17132ac474f1dcb6a0d404a677d4e9f041631e1ef6ca3f86083",
+   "url":[
+    "https://cran.r-project.org/src/contrib/photobiology_0.10.2.tar.gz",
+    "https://cran.r-project.org/src/contrib/Archive/photobiology/photobiology_0.10.2.tar.gz",
+    "https://cran.r-project.org/src/contrib/photobiology_0.10.2.tar.gz",
+    "https://cran.r-project.org/src/contrib/Archive/photobiology/photobiology_0.10.2.tar.gz",
+    "https://cran.r-project.org/src/contrib/photobiology_0.10.2.tar.gz",
+    "https://cran.r-project.org/src/contrib/Archive/photobiology/photobiology_0.10.2.tar.gz"
+   ]
+  },
+  "test":{
+   "commands":[
+    "\"%R%\" -e \"library('photobiology')\"",
+    "$R -e \"library('photobiology')\"",
+    "$R -e \"library('photobiology')\""
+   ]
+  }
+ },
+ "name":"r-photobiology",
+ "new_version":"0.10.2",
+ "new_version_attempts":{
+  "0.10.1":1,
+  "0.10.2":1
+ },
+ "new_version_errors":{},
+ "pinning_version":"2020.05.04.05.46.47",
+ "raw_meta_yaml":"{% set version = \"0.10.2\" %}\n{% set posix = 'm2-' if win else '' %}\n{% set native = 'm2w64-' if win else '' %}\n\npackage:\n  name: r-photobiology\n  version: {{ version|replace(\"-\", \"_\") }}\n\nsource:\n  url:\n    - {{ cran_mirror }}/src/contrib/photobiology_{{ version }}.tar.gz\n    - {{ cran_mirror }}/src/contrib/Archive/photobiology/photobiology_{{ version }}.tar.gz\n  sha256: 60fd2488054ce17132ac474f1dcb6a0d404a677d4e9f041631e1ef6ca3f86083\n\nbuild:\n  merge_build_host: true  # [win]\n  number: 1\n  skip: True  # [r_base == \"3.5.1\"]\n  rpaths:\n    - lib/R/lib/\n    - lib/\n\nrequirements:\n  build:\n    - {{ posix }}zip               # [win]\n  host:\n    - r-base\n    - r-dplyr >=0.8.1\n    - r-lubridate >=1.7.4\n    - r-plyr >=1.8.4\n    - r-polynom >=1.4_0\n    - r-rlang >=0.4.5\n    - r-splus2r >=1.2_2\n    - r-stringr >=1.4.0\n    - r-tibble >=2.0.1\n    - r-zoo >=1.8_7\n  run:\n    - r-base\n\n    - r-dplyr >=0.8.1\n    - r-lubridate >=1.7.4\n    - r-plyr >=1.8.4\n    - r-polynom >=1.4_0\n    - r-rlang >=0.4.5\n    - r-splus2r >=1.2_2\n    - r-stringr >=1.4.0\n    - r-tibble >=2.0.1\n    - r-zoo >=1.8_7\n\ntest:\n  commands:\n    - $R -e \"library('photobiology')\"           # [not win]\n    - \"\\\"%R%\\\" -e \\\"library('photobiology')\\\"\"  # [win]\n\nabout:\n  home: https://www.r4photobiology.info/, https://bitbucket.org/aphalo/photobiology\n  license: GPL (>= 2)\n  summary: Definitions of classes, methods, operators and functions for use in photobiology and radiation meteorology and climatology. Calculation of effective (weighted) and not-weighted irradiances/doses, fluence rates, transmittance, reflectance, absorptance, absorbance and diverse ratios and other derived quantities\n    from spectral data. Local maxima and minima. Conversion between energy- and photon-based units. Wavelength interpolation. Astronomical calculations related solar angles and day length. Colours and vision. This package is part of the 'r4photobiology' suite, Aphalo P. J. (2015) <doi:10.19232/uv4pb.2015.1.14>.\n  license_family: GPL3\n  license_file: {{ environ[\"PREFIX\"] }}/lib/R/share/licenses/GPL-2\n\nextra:\n  recipe-maintainers:\n    - conda-forge/r\n\n# Package: photobiology\n# Type: Package\n# Title: Photobiological Calculations\n# Version: 0.9.26\n# Date: 2019-02-11\n# Authors@R:  c( person(\"Pedro J.\", \"Aphalo\", email = \"pedro.aphalo@helsinki.fi\", role = c(\"aut\", \"cre\"), comment = c(ORCID = \"0000-0003-3385-972X\")), person(\"Titta K.\", \"Kotilainen\", role = \"ctb\", comment = c(ORCID = \"0000-0002-2822-9734\")), person(\"Glenn\", \"Davis\", email = \"gdavis@gluonics.com\", role = \"ctb\") )\n# Description: Definitions of classes, methods, operators and functions for use in photobiology and radiation meteorology and climatology. Calculation of effective (weighted) and not-weighted irradiances/doses, fluence rates, transmittance, reflectance, absorptance, absorbance and diverse ratios and other derived quantities from spectral data. Local maxima and minima. Conversion between energy- and photon-based units. Wavelength interpolation. Astronomical calculations related solar angles and day length. Colours and vision. This package is part of the 'r4photobiology' suite, Aphalo P. J. (2015) <doi:10.19232/uv4pb.2015.1.14>.\n# License: GPL (>= 2)\n# Depends: R (>= 3.4.0), tibble (>= 2.0.1)\n# Imports: stats, polynom (>= 1.3-9), lubridate (>= 1.7.4), plyr (>= 1.8.4), dplyr (>= 0.7.8), splus2R (>= 1.2-2), zoo (>= 1.8-4), rlang (>= 0.3.1)\n# Suggests: knitr (>= 1.21), rmarkdown (>= 1.11), testthat (>= 2.0.1), roxygen2 (>= 6.1.1)\n# LazyLoad: yes\n# LazyData: yes\n# ByteCompile: true\n# URL: https://www.r4photobiology.info/, https://bitbucket.org/aphalo/photobiology\n# BugReports: https://bitbucket.org/aphalo/photobiology/issues\n# Encoding: UTF-8\n# RoxygenNote: 6.1.1\n# VignetteBuilder: knitr\n# NeedsCompilation: no\n# Packaged: 2019-02-12 08:47:24 UTC; aphalo\n# Author: Pedro J. Aphalo [aut, cre] (<https://orcid.org/0000-0003-3385-972X>), Titta K. Kotilainen [ctb] (<https://orcid.org/0000-0002-2822-9734>), Glenn Davis [ctb]\n# Maintainer: Pedro J. Aphalo <pedro.aphalo@helsinki.fi>\n# Repository: CRAN\n# Date/Publication: 2019-02-12 10:50:02 UTC\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "r-base",
+   "r-dplyr",
+   "r-lubridate",
+   "r-plyr",
+   "r-polynom",
+   "r-rlang",
+   "r-splus2r",
+   "r-stringr",
+   "r-tibble",
+   "r-zoo"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "r-base",
+    "r-dplyr",
+    "r-lubridate",
+    "r-plyr",
+    "r-polynom",
+    "r-rlang",
+    "r-splus2r",
+    "r-stringr",
+    "r-tibble",
+    "r-zoo"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "r-base",
+    "r-dplyr",
+    "r-lubridate",
+    "r-plyr",
+    "r-polynom",
+    "r-rlang",
+    "r-splus2r",
+    "r-stringr",
+    "r-tibble",
+    "r-zoo"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.7.0\n",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "r-base",
+    "r-dplyr >=0.8.1",
+    "r-lubridate >=1.7.4",
+    "r-plyr >=1.8.4",
+    "r-polynom >=1.4_0",
+    "r-rlang >=0.4.5",
+    "r-splus2r >=1.2_2",
+    "r-stringr >=1.4.0",
+    "r-tibble >=2.0.1",
+    "r-zoo >=1.8_7"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "r-base",
+    "r-dplyr >=0.8.1",
+    "r-lubridate >=1.7.4",
+    "r-plyr >=1.8.4",
+    "r-polynom >=1.4_0",
+    "r-rlang >=0.4.5",
+    "r-splus2r >=1.2_2",
+    "r-stringr >=1.4.0",
+    "r-tibble >=2.0.1",
+    "r-zoo >=1.8_7"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":[
+  "https://cran.r-project.org/src/contrib/photobiology_0.9.28.tar.gz",
+  "https://cran.r-project.org/src/contrib/Archive/photobiology/photobiology_0.9.28.tar.gz",
+  "https://cran.r-project.org/src/contrib/photobiology_0.9.28.tar.gz",
+  "https://cran.r-project.org/src/contrib/Archive/photobiology/photobiology_0.9.28.tar.gz",
+  "https://cran.r-project.org/src/contrib/photobiology_0.9.28.tar.gz",
+  "https://cran.r-project.org/src/contrib/Archive/photobiology/photobiology_0.9.28.tar.gz"
+ ],
+ "version":"0.10.2"
+}

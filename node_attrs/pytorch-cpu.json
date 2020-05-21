@@ -1,0 +1,322 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/241520094.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/336081523.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"python38"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/392303271.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"pypy"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/394415328.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"ArchRebuild",
+    "migrator_version":1,
+    "name":"aarch64 and ppc64le addition"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":"Upstream: Error getting upstream version",
+ "conda-forge.yml":{
+  "compiler_stack":"comp7",
+  "max_py_ver":"37",
+  "max_r_ver":"35",
+  "provider":{
+   "osx":"circle",
+   "win":"azure"
+  }
+ },
+ "feedstock_name":"pytorch-cpu",
+ "meta_yaml":{
+  "about":{
+   "home":"https://pytorch.org/",
+   "license":"BSD-3-Clause",
+   "license_family":"BSD",
+   "license_file":"LICENSE",
+   "summary":"PyTorch is an optimized tensor library for deep learning using GPUs and CPUs."
+  },
+  "build":{
+   "number":"0",
+   "script":[
+    "set TN_BINARY_BUILD=1",
+    "set PYTORCH_BINARY_BUILD=1",
+    "set NO_CUDA=1",
+    "set PYTORCH_BUILD_VERSION=",
+    "set PYTORCH_BUILD_NUMBER=",
+    "set BUILD_CUSTOM_PROTOBUF=ON",
+    "set CMAKE_GENERATOR=Ninja",
+    "set NO_MKLDNN=1",
+    "set EXTRA_CAFFE2_CMAKE_FLAGS=\"-DUSE_MPI=OFF -DUSE_NUMA=OFF -DUSE_NCCL=OFF -DATEN_NO_TEST=OFF\"",
+    " -m pip install . --no-deps -vv --disable-pip-version-check",
+    "set TN_BINARY_BUILD=1",
+    "set PYTORCH_BINARY_BUILD=1",
+    "set NO_CUDA=1",
+    "set PYTORCH_BUILD_VERSION=",
+    "set PYTORCH_BUILD_NUMBER=",
+    "set BUILD_CUSTOM_PROTOBUF=ON",
+    "set CMAKE_GENERATOR=Ninja",
+    "set NO_MKLDNN=1",
+    "set EXTRA_CAFFE2_CMAKE_FLAGS=\"-DUSE_MPI=OFF -DUSE_NUMA=OFF -DUSE_NCCL=OFF -DATEN_NO_TEST=OFF\"",
+    "export CXXFLAGS=\"-I/include/ $CXXFLAGS\"",
+    "export CFLAGS=\"-I/include/ $CFLAGS\"",
+    " -m pip install . --no-deps -vv --disable-pip-version-check",
+    "set TN_BINARY_BUILD=1",
+    "set PYTORCH_BINARY_BUILD=1",
+    "set NO_CUDA=1",
+    "set PYTORCH_BUILD_VERSION=",
+    "set PYTORCH_BUILD_NUMBER=",
+    "set BUILD_CUSTOM_PROTOBUF=ON",
+    "set CMAKE_GENERATOR=Ninja",
+    "export CXXFLAGS=\"-Wno-error=unused-result $CXXFLAGS\"",
+    "export CFLAGS=\"-Wno-error=unused-result $CFLAGS\"",
+    "set NO_MKLDNN=1",
+    "set EXTRA_CAFFE2_CMAKE_FLAGS=\"-DUSE_MPI=OFF -DUSE_NUMA=OFF -DUSE_NCCL=OFF -DATEN_NO_TEST=OFF\"",
+    "export CXXFLAGS=\"-I/include/ $CXXFLAGS\"",
+    "export CFLAGS=\"-I/include/ $CFLAGS\"",
+    " -m pip install . --no-deps -vv --disable-pip-version-check"
+   ]
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "hmaarrfk",
+    "sodre",
+    "hmaarrfk",
+    "sodre",
+    "hmaarrfk",
+    "sodre"
+   ]
+  },
+  "package":{
+   "name":"pytorch-cpu",
+   "version":"1.1.0"
+  },
+  "requirements":{
+   "build":[
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "cmake",
+    "ninja",
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "cmake",
+    "ninja",
+    "make",
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "cmake",
+    "ninja",
+    "make"
+   ],
+   "host":[
+    "python",
+    "pip",
+    "pyyaml",
+    "numpy 1.11",
+    "setuptools",
+    "cffi",
+    "ninja",
+    "pybind11",
+    "python",
+    "pip",
+    "pyyaml",
+    "numpy 1.11",
+    "setuptools",
+    "cffi",
+    "ninja",
+    "pybind11",
+    "python",
+    "pip",
+    "pyyaml",
+    "numpy 1.11",
+    "setuptools",
+    "cffi",
+    "ninja",
+    "pybind11"
+   ],
+   "run":[
+    "python",
+    "numpy",
+    "ninja",
+    "cffi",
+    "python",
+    "numpy",
+    "ninja",
+    "cffi",
+    "python",
+    "numpy",
+    "ninja",
+    "cffi"
+   ]
+  },
+  "source":{
+   "git_rev":"v1.1.0",
+   "git_url":"https://github.com/pytorch/pytorch.git"
+  },
+  "test":{
+   "imports":[
+    "torch",
+    "torch",
+    "torch"
+   ]
+  }
+ },
+ "name":"pytorch-cpu",
+ "new_version":false,
+ "pinning_version":"2020.03.24",
+ "raw_meta_yaml":"{% set version = \"1.1.0\" %}\n\npackage:\n  name: pytorch-cpu\n  version: {{ version }}\n\nsource:\n  # The tar source needs serious patching since it is trying to build\n  # all 3rd party modules\n  # url: https://github.com/pytorch/pytorch/archive/v{{ version }}.tar.gz\n  # fn: pytorch-v{{ version }}.tar.gz\n  # sha256: f360b7954e441bc5c4b36c49e711697a5c351de8b146c2982809385e3b3cfdcb\n  git_url: https://github.com/pytorch/pytorch.git\n  git_tag: v{{ version }}\n\n# The build needs to set many environment variables\n# This is an easy way to do it cross platform\n{% set export = \"export\" %}  # [not win]\n{% set export = \"set\" %}     # [win]\n\nbuild:\n  number: 0\n  # Support for Windows and Python 2.7 is very experimental\n  # https://ci.appveyor.com/project/conda-forge/staged-recipes/builds/21220961#L972\n  skip: true  # [win and py27]\n  script:\n    # Most of this script is adapted from the pytorch/pythorch-cpu\n    # meta.yaml.template build.sh and bld.bat scripts\n    - {{ export }} TN_BINARY_BUILD=1\n    - {{ export }} PYTORCH_BINARY_BUILD=1\n    - {{ export }} NO_CUDA=1\n    - {{ export }} PYTORCH_BUILD_VERSION={{ PKG_VERSION }}\n    - {{ export }} PYTORCH_BUILD_NUMBER={{ PKG_BUILDNUM }}\n    - {{ export }} BUILD_CUSTOM_PROTOBUF=ON\n    # Use ninja as the build just won't finish on windows\n    - {{ export }} CMAKE_GENERATOR=Ninja\n    # I have no idea what this flag does, but they recommend turning it on\n    # when we don't find three of their headers.\n    # It seemed to be required on Appveyor, but not azure, strange???\n    # - {{ export }} GEN_TO_SOURCE=1                          # [win]\n    # Why are all warnings treated as errors???\n    - export CXXFLAGS=\"-Wno-error=unused-result $CXXFLAGS\"  # [linux]\n    - export CFLAGS=\"-Wno-error=unused-result $CFLAGS\"      # [linux]\n    # Disable this other 3rd party binary\n    - {{ export }} NO_MKLDNN=1\n    # - {{ export }} NO_TEST=1\n    # I couldn't find any documentation on this, but eventually they call\n    # a script tools/build_pytorch_libs.sh\n    # whcih passes EXTRA_CAFFE2_CMAKE_FLAGS at the end of the cmake command\n    # to all 3rd party libraries.\n    - {{ export }} EXTRA_CAFFE2_CMAKE_FLAGS=\"-DUSE_MPI=OFF -DUSE_NUMA=OFF -DUSE_NCCL=OFF -DATEN_NO_TEST=OFF\"\n    # Why do I need to export these?\n    #\n    # The CMake for onnx reports:\n    # therefore, it clearly has a bug somewhere\n    # --   Protobuf compiler     : /home/mark2/miniconda3/envs/compile/bin/protoc\n    # --   Protobuf includes     : /usr/include\n    # --   Protobuf libraries    : /home/mark2/miniconda3/envs/compile/lib/libprotobuf.so;-lpthread\n    - export CXXFLAGS=\"-I{{ PREFIX }}/include/ $CXXFLAGS\"  # [unix]\n    - export CFLAGS=\"-I{{ PREFIX }}/include/ $CFLAGS\"  # [unix]\n    # How do we add /std:c++11 to windows CFLAGS\n    # There is an other weird python package called ninja\n    # which is their preferred method of building\n    # that said, it does nothing but call \"ninja\"\n    # - pip install ninja\n    - \"{{ PYTHON }} -m pip install . --no-deps -vv --disable-pip-version-check\"\n\nrequirements:\n  build:\n    - {{ compiler('c') }}\n    - {{ compiler('cxx') }}\n    - cmake\n    - ninja\n    - make  # [unix]\n  host:\n    - python\n    - pip\n    - pyyaml\n    - numpy 1.11\n    - setuptools\n    - cffi\n    - typing  # [py <= 35]\n    - ninja\n    # 3rd party libraries that we are unbundling\n    - pybind11\n    # They seem to be pinned to something like protobuf 3.5\n    # maybe we can remove this pin?\n    # - protobuf  #  3.5\n  run:\n    - python\n    - {{ pin_compatible('numpy') }}\n    # ninja and cffi are included in\n    - ninja\n    - cffi\n    - future  # [py==27]\n\ntest:\n  imports:\n    - torch\n    # Maybe we should have a test for a simple Neural Network???\n\nabout:\n  home: https://pytorch.org/\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: LICENSE\n  summary: \"PyTorch is an optimized tensor library for deep learning using GPUs and CPUs.\"\n\nextra:\n  recipe-maintainers:\n    - hmaarrfk\n    - sodre\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "c_compiler_stub",
+   "cffi",
+   "cmake",
+   "cxx_compiler_stub",
+   "make",
+   "ninja",
+   "numpy",
+   "pip",
+   "pybind11",
+   "python",
+   "pyyaml",
+   "setuptools"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "cmake",
+    "cxx_compiler_stub",
+    "make",
+    "ninja"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "cffi",
+    "ninja",
+    "numpy",
+    "pip",
+    "pybind11",
+    "python",
+    "pyyaml",
+    "setuptools"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "cffi",
+    "ninja",
+    "numpy",
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.6.15",
+ "strong_exports":false,
+ "time":1568135301.1552057,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "cmake",
+    "cxx_compiler_stub",
+    "make",
+    "ninja"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "cffi",
+    "ninja",
+    "numpy 1.11",
+    "pip",
+    "pybind11",
+    "python",
+    "pyyaml",
+    "setuptools"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "cffi",
+    "ninja",
+    "numpy",
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":null,
+ "version":"1.1.0"
+}

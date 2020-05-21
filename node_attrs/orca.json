@@ -1,0 +1,224 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/200060409.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Noarch",
+    "migrator_version":0
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/331784549.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.5.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/331798324.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.5.3"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"orca",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"Orca is a pipeline orchestration tool that allows you to define dynamic\ndata sources and explicitly connect them to processing functions. Orca has\nmany features for working with Pandas data structures, but it can be used\nwith anything.\n",
+   "dev_url":"http://github.com/udst/orca",
+   "doc_url":"https://udst.github.io/orca/",
+   "home":"http://github.com/udst/orca",
+   "license":"BSD-3-Clause",
+   "license_family":"BSD",
+   "license_file":"LICENSE.txt",
+   "summary":"A pipeline orchestration tool with Pandas support"
+  },
+  "build":{
+   "entry_points":[
+    "orca-server = orca.server.server:main",
+    "orca-server = orca.server.server:main",
+    "orca-server = orca.server.server:main"
+   ],
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "smmaurer",
+    "smmaurer",
+    "smmaurer"
+   ]
+  },
+  "package":{
+   "name":"orca",
+   "version":"1.5.3"
+  },
+  "requirements":{
+   "host":[
+    "python",
+    "pip",
+    "python",
+    "pip",
+    "python",
+    "pip"
+   ],
+   "run":[
+    "python",
+    "flask >=0.10",
+    "pandas >=0.15.0",
+    "pygments >=2.0",
+    "pytables >=3.1.0",
+    "six >=1.9.0",
+    "toolz >=0.8.1",
+    "python",
+    "flask >=0.10",
+    "pandas >=0.15.0",
+    "pygments >=2.0",
+    "pytables >=3.1.0",
+    "six >=1.9.0",
+    "toolz >=0.8.1",
+    "python",
+    "flask >=0.10",
+    "pandas >=0.15.0",
+    "pygments >=2.0",
+    "pytables >=3.1.0",
+    "six >=1.9.0",
+    "toolz >=0.8.1"
+   ]
+  },
+  "source":{
+   "sha256":"ed1d7d12bff3e7120c5252374833150e58b840eb0c51d875e69cd95df6811e86",
+   "url":"https://pypi.io/packages/source/o/orca/orca-1.5.3.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "orca-server --help",
+    "orca-server --help",
+    "orca-server --help"
+   ],
+   "imports":[
+    "orca",
+    "orca.server",
+    "orca.utils",
+    "orca",
+    "orca.server",
+    "orca.utils",
+    "orca",
+    "orca.server",
+    "orca.utils"
+   ]
+  }
+ },
+ "name":"orca",
+ "new_version":"1.5.3",
+ "pinning_version":"2019.10.11",
+ "raw_meta_yaml":"{% set version = \"1.5.3\" %}\n{% set sha256 = \"ed1d7d12bff3e7120c5252374833150e58b840eb0c51d875e69cd95df6811e86\" %}\n\npackage:\n  name: orca\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/o/orca/orca-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 0\n  script: \"{{ PYTHON }} -m pip install . -vv\"\n  entry_points:\n    - orca-server = orca.server.server:main\n\nrequirements:\n  host:\n    - python\n    - pip\n  run:\n    - python\n    - flask >=0.10\n    - pandas >=0.15.0\n    - pygments >=2.0\n    - pytables >=3.1.0\n    - six >=1.9.0\n    - toolz >=0.8.1\n\ntest:\n  imports:\n    - orca\n    - orca.server\n    - orca.utils\n\n  commands:\n    - orca-server --help\n\nabout:\n  home: http://github.com/udst/orca\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: LICENSE.txt\n  summary: 'A pipeline orchestration tool with Pandas support'\n  description: |\n    Orca is a pipeline orchestration tool that allows you to define dynamic\n    data sources and explicitly connect them to processing functions. Orca has\n    many features for working with Pandas data structures, but it can be used\n    with anything.\n  doc_url: https://udst.github.io/orca/\n  dev_url: http://github.com/udst/orca\n\nextra:\n  recipe-maintainers:\n    - smmaurer\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "flask",
+   "pandas",
+   "pip",
+   "pygments",
+   "pytables",
+   "python",
+   "six",
+   "toolz"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "flask",
+    "pandas",
+    "pygments",
+    "pytables",
+    "python",
+    "six",
+    "toolz"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.6.0",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "flask >=0.10",
+    "pandas >=0.15.0",
+    "pygments >=2.0",
+    "pytables >=3.1.0",
+    "python",
+    "six >=1.9.0",
+    "toolz >=0.8.1"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://github.com/UDST/orca/archive/v1.5.1.tar.gz",
+ "version":"1.5.3"
+}

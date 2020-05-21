@@ -1,0 +1,313 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/351005622.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.4.15"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/367159960.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.4.16"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/403946708.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.4.17"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/413283553.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.4.18"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/415676174.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.4.19"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/416987635.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.4.20"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"catkin_pkg",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "dev_url":"https://github.com/ros-infrastructure/catkin_pkg",
+   "home":"http://wiki.ros.org/catkin_pkg",
+   "license":"BSD-3-Clause",
+   "license_family":"BSD",
+   "license_file":"LICENSE",
+   "summary":"Standalone Python library for the catkin build system."
+  },
+  "build":{
+   "entry_points":[
+    "catkin_create_pkg = catkin_pkg.cli.create_pkg:main",
+    "catkin_find_pkg = catkin_pkg.cli.find_pkg:main",
+    "catkin_generate_changelog = catkin_pkg.cli.generate_changelog:main_catching_runtime_error",
+    "catkin_package_version = catkin_pkg.cli.package_version:main",
+    "catkin_prepare_release = catkin_pkg.cli.prepare_release:main",
+    "catkin_tag_changelog = catkin_pkg.cli.tag_changelog:main",
+    "catkin_test_changelog = catkin_pkg.cli.test_changelog:main",
+    "catkin_create_pkg = catkin_pkg.cli.create_pkg:main",
+    "catkin_find_pkg = catkin_pkg.cli.find_pkg:main",
+    "catkin_generate_changelog = catkin_pkg.cli.generate_changelog:main_catching_runtime_error",
+    "catkin_package_version = catkin_pkg.cli.package_version:main",
+    "catkin_prepare_release = catkin_pkg.cli.prepare_release:main",
+    "catkin_tag_changelog = catkin_pkg.cli.tag_changelog:main",
+    "catkin_test_changelog = catkin_pkg.cli.test_changelog:main",
+    "catkin_create_pkg = catkin_pkg.cli.create_pkg:main",
+    "catkin_find_pkg = catkin_pkg.cli.find_pkg:main",
+    "catkin_generate_changelog = catkin_pkg.cli.generate_changelog:main_catching_runtime_error",
+    "catkin_package_version = catkin_pkg.cli.package_version:main",
+    "catkin_prepare_release = catkin_pkg.cli.prepare_release:main",
+    "catkin_tag_changelog = catkin_pkg.cli.tag_changelog:main",
+    "catkin_test_changelog = catkin_pkg.cli.test_changelog:main"
+   ],
+   "noarch":"python",
+   "number":"0",
+   "script":"-m pip install . --no-deps -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "wolfv",
+    "lesteve",
+    "seanyen",
+    "wolfv",
+    "lesteve",
+    "seanyen",
+    "wolfv",
+    "lesteve",
+    "seanyen"
+   ]
+  },
+  "package":{
+   "name":"catkin_pkg",
+   "version":"0.4.20"
+  },
+  "requirements":{
+   "host":[
+    "python",
+    "pip",
+    "setuptools",
+    "python",
+    "pip",
+    "setuptools",
+    "python",
+    "pip",
+    "setuptools"
+   ],
+   "run":[
+    "python",
+    "setuptools",
+    "docutils",
+    "python-dateutil",
+    "pyparsing >=1.5.7",
+    "python",
+    "setuptools",
+    "docutils",
+    "python-dateutil",
+    "pyparsing >=1.5.7",
+    "python",
+    "setuptools",
+    "docutils",
+    "python-dateutil",
+    "pyparsing >=1.5.7"
+   ]
+  },
+  "source":{
+   "fn":"catkin_pkg-0.4.20.tar.gz",
+   "sha256":"4f3dd4dd08360205da899610a4296d017bdef48a4c3e6e15923e6c04a2d35bee",
+   "url":"https://github.com/ros-infrastructure/catkin_pkg/archive/0.4.20.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "catkin_create_pkg --help",
+    "catkin_find_pkg --help",
+    "catkin_generate_changelog --help",
+    "catkin_package_version --help",
+    "catkin_prepare_release --help",
+    "catkin_tag_changelog --help",
+    "catkin_test_changelog --help",
+    "catkin_create_pkg --help",
+    "catkin_find_pkg --help",
+    "catkin_generate_changelog --help",
+    "catkin_package_version --help",
+    "catkin_prepare_release --help",
+    "catkin_tag_changelog --help",
+    "catkin_test_changelog --help",
+    "catkin_create_pkg --help",
+    "catkin_find_pkg --help",
+    "catkin_generate_changelog --help",
+    "catkin_package_version --help",
+    "catkin_prepare_release --help",
+    "catkin_tag_changelog --help",
+    "catkin_test_changelog --help"
+   ],
+   "imports":[
+    "catkin_pkg",
+    "catkin_pkg",
+    "catkin_pkg"
+   ]
+  }
+ },
+ "name":"catkin_pkg",
+ "new_version":"0.4.20",
+ "new_version_attempts":{
+  "0.4.17":1,
+  "0.4.18":2,
+  "0.4.19":1,
+  "0.4.20":1
+ },
+ "new_version_errors":{},
+ "pinning_version":"2020.05.12.18.03.58",
+ "raw_meta_yaml":"{% set name = \"catkin_pkg\" %}\n{% set version = \"0.4.20\" %}\n{% set sha256 = \"4f3dd4dd08360205da899610a4296d017bdef48a4c3e6e15923e6c04a2d35bee\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  fn: {{ name }}-{{ version }}.tar.gz\n  url: https://github.com/ros-infrastructure/catkin_pkg/archive/{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n  number: 0\n  noarch: python\n  entry_points:\n    - catkin_create_pkg = catkin_pkg.cli.create_pkg:main\n    - catkin_find_pkg = catkin_pkg.cli.find_pkg:main\n    - catkin_generate_changelog = catkin_pkg.cli.generate_changelog:main_catching_runtime_error\n    - catkin_package_version = catkin_pkg.cli.package_version:main\n    - catkin_prepare_release = catkin_pkg.cli.prepare_release:main\n    - catkin_tag_changelog = catkin_pkg.cli.tag_changelog:main\n    - catkin_test_changelog = catkin_pkg.cli.test_changelog:main\n\nrequirements:\n  host:\n    - python\n    - pip\n    - setuptools\n  run:\n    - python\n    - setuptools\n    - docutils\n    - python-dateutil\n    - pyparsing >=1.5.7\n\ntest:\n  commands:\n    - catkin_create_pkg --help\n    - catkin_find_pkg --help\n    - catkin_generate_changelog --help\n    - catkin_package_version --help\n    - catkin_prepare_release --help\n    - catkin_tag_changelog --help\n    - catkin_test_changelog --help\n  imports:\n    - catkin_pkg\n\nabout:\n  home: http://wiki.ros.org/catkin_pkg\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: LICENSE\n  summary: Standalone Python library for the catkin build system.\n  dev_url: https://github.com/ros-infrastructure/catkin_pkg\n\nextra:\n  recipe-maintainers:\n    - wolfv\n    - lesteve\n    - seanyen\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "docutils",
+   "pip",
+   "pyparsing",
+   "python",
+   "python-dateutil",
+   "setuptools"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python",
+    "setuptools"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "docutils",
+    "pyparsing",
+    "python",
+    "python-dateutil",
+    "setuptools"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.7.0\n",
+ "strong_exports":false,
+ "time":1568135305.534258,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python",
+    "setuptools"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "docutils",
+    "pyparsing >=1.5.7",
+    "python",
+    "python-dateutil",
+    "setuptools"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://github.com/ros-infrastructure/catkin_pkg/archive/0.4.14.tar.gz",
+ "version":"0.4.20"
+}

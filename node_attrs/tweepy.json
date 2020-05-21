@@ -1,0 +1,229 @@
+{
+ "PRed":[
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.6.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/200015812.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Noarch",
+    "migrator_version":0
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/221637174.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/234142332.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.7.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/297445326.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.8.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"tweepy",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "dev_url":"https://github.com/tweepy/tweepy",
+   "doc_url":"http://tweepy.readthedocs.io",
+   "home":"http://www.tweepy.org",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"LICENSE",
+   "summary":"An easy-to-use Python library for accessing the Twitter API"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "nikicc",
+    "ocefpaf",
+    "nikicc",
+    "ocefpaf",
+    "nikicc",
+    "ocefpaf"
+   ]
+  },
+  "package":{
+   "name":"tweepy",
+   "version":"3.8.0"
+  },
+  "requirements":{
+   "host":[
+    "python",
+    "pip",
+    "python",
+    "pip",
+    "python",
+    "pip"
+   ],
+   "run":[
+    "python",
+    "requests >=2.11.1",
+    "requests-oauthlib >=0.7.0",
+    "six >=1.10.0",
+    "pysocks >=1.5.7",
+    "python",
+    "requests >=2.11.1",
+    "requests-oauthlib >=0.7.0",
+    "six >=1.10.0",
+    "pysocks >=1.5.7",
+    "python",
+    "requests >=2.11.1",
+    "requests-oauthlib >=0.7.0",
+    "six >=1.10.0",
+    "pysocks >=1.5.7"
+   ]
+  },
+  "source":{
+   "sha256":"8abd828ba51a85a2b5bb7373715d6d3bb32d18ac624e3a4db02e4ef8ab48316b",
+   "url":"https://pypi.io/packages/source/t/tweepy/tweepy-3.8.0.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "tweepy",
+    "tweepy",
+    "tweepy"
+   ]
+  }
+ },
+ "name":"tweepy",
+ "new_version":"3.8.0",
+ "pinning_version":"2019.07.13",
+ "raw_meta_yaml":"{% set version = \"3.8.0\" %}\n\npackage:\n  name: tweepy\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/t/tweepy/tweepy-{{ version }}.tar.gz\n  sha256: 8abd828ba51a85a2b5bb7373715d6d3bb32d18ac624e3a4db02e4ef8ab48316b\n\nbuild:\n  number: 0\n  noarch: python\n  script: \"{{ PYTHON }} -m pip install . -vv\"\n\nrequirements:\n  host:\n    - python\n    - pip\n  run:\n    - python\n    - requests >=2.11.1\n    - requests-oauthlib >=0.7.0\n    - six >=1.10.0\n    - pysocks >=1.5.7\n\ntest:\n  imports:\n    - tweepy\n\nabout:\n  home: http://www.tweepy.org\n  license: MIT\n  license_file: LICENSE\n  license_family: MIT\n  summary: 'An easy-to-use Python library for accessing the Twitter API'\n\n  doc_url: http://tweepy.readthedocs.io\n  dev_url: https://github.com/tweepy/tweepy\n\nextra:\n  recipe-maintainers:\n    - nikicc\n    - ocefpaf\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "pip",
+   "pysocks",
+   "python",
+   "requests",
+   "requests-oauthlib",
+   "six"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "pysocks",
+    "python",
+    "requests",
+    "requests-oauthlib",
+    "six"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.4.0",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "pysocks >=1.5.7",
+    "python",
+    "requests >=2.11.1",
+    "requests-oauthlib >=0.7.0",
+    "six >=1.10.0"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/t/tweepy/tweepy-3.8.0.tar.gz",
+ "version":"3.8.0"
+}

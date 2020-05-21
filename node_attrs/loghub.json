@@ -1,0 +1,187 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/200127347.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Noarch",
+    "migrator_version":0
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/388308262.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.5.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"loghub",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"Generate changelogs based on Github milestones or tags.\n",
+   "dev_url":"https://github.com/spyder-ide/loghub",
+   "home":"https://github.com/spyder-ide/loghub",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"LICENSE.txt",
+   "summary":"Generate changelogs based on Github milestones or tags."
+  },
+  "build":{
+   "entry_points":[
+    "loghub = loghub.cli.main:main",
+    "loghub-labels = loghub.cli.label_creator:main",
+    "loghub = loghub.cli.main:main",
+    "loghub-labels = loghub.cli.label_creator:main",
+    "loghub = loghub.cli.main:main",
+    "loghub-labels = loghub.cli.label_creator:main"
+   ],
+   "noarch":"python",
+   "number":"0",
+   "script":"-m pip install . --no-deps -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "ccordoba12",
+    "goanpeca",
+    "ccordoba12",
+    "goanpeca",
+    "ccordoba12",
+    "goanpeca"
+   ]
+  },
+  "package":{
+   "name":"loghub",
+   "version":"0.5.0"
+  },
+  "requirements":{
+   "host":[
+    "pip",
+    "python",
+    "setuptools",
+    "pip",
+    "python",
+    "setuptools",
+    "pip",
+    "python",
+    "setuptools"
+   ],
+   "run":[
+    "jinja2",
+    "python",
+    "requests",
+    "jinja2",
+    "python",
+    "requests",
+    "jinja2",
+    "python",
+    "requests"
+   ]
+  },
+  "source":{
+   "fn":"loghub-0.5.0.tar.gz",
+   "sha256":"3e590bac578f9b23cb8cb3e8724913bd38cf648cffdf9500c3698ad6e6d124c0",
+   "url":"https://pypi.io/packages/source/l/loghub/loghub-0.5.0.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "loghub --help",
+    "loghub-labels --help",
+    "loghub --help",
+    "loghub-labels --help",
+    "loghub --help",
+    "loghub-labels --help"
+   ]
+  }
+ },
+ "name":"loghub",
+ "new_version":"0.5.0",
+ "pinning_version":"2020.03.13",
+ "raw_meta_yaml":"{% set name = \"loghub\" %}\n{% set version = \"0.5.0\" %}\n{% set hash = \"3e590bac578f9b23cb8cb3e8724913bd38cf648cffdf9500c3698ad6e6d124c0\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  fn: {{ name }}-{{ version }}.tar.gz\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ hash }}\n\nbuild:\n  noarch: python\n  number: 0\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n  entry_points:\n    - loghub = loghub.cli.main:main\n    - loghub-labels = loghub.cli.label_creator:main\n\nrequirements:\n  host:\n    - pip\n    - python\n    - setuptools\n  run:\n    - jinja2\n    - python\n    - requests\n\ntest:\n  commands:\n    - loghub --help\n    - loghub-labels --help\n\nabout:\n  home: https://github.com/spyder-ide/loghub\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE.txt\n  summary: Generate changelogs based on Github milestones or tags.\n  description: |\n    Generate changelogs based on Github milestones or tags.\n  dev_url: https://github.com/spyder-ide/loghub\n\nextra:\n  recipe-maintainers:\n    - ccordoba12\n    - goanpeca\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "jinja2",
+   "pip",
+   "python",
+   "requests",
+   "setuptools"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python",
+    "setuptools"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "jinja2",
+    "python",
+    "requests"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.6.12",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python",
+    "setuptools"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "jinja2",
+    "python",
+    "requests"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/l/loghub/loghub-0.4.0.tar.gz",
+ "version":"0.5.0"
+}

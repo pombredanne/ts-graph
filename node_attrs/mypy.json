@@ -1,0 +1,484 @@
+{
+ "PRed":[
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.610"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/201401505.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.620"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/215997041.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.630"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/222968384.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.641"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/227066691.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/236981519.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.650"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/245335687.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.660"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.670"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/267983546.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.700"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/271079332.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.701"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/289914865.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.710"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/291211572.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.711"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/297228119.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.720"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/321802847.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.730"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/329022745.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.740"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/347143487.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.750"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/356496448.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.761"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/386449449.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.770"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"mypy",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"Add type annotations to your Python programs, and use mypy to type check\nthem. Mypy is essentially a Python linter on steroids, and it can catch\nmany programming errors by analyzing your program, withoutactually having\nto run it.  Mypy has a powerful type system with features such as type\ninference, gradual typing, generics and union types.\n",
+   "dev_url":"https://github.com/python/mypy",
+   "doc_url":"http://mypy.readthedocs.io",
+   "home":"http://www.mypy-lang.org/",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"LICENSE",
+   "summary":"Optional static typing for Python"
+  },
+  "build":{
+   "entry_points":[
+    "mypy = mypy.__main__:console_entry",
+    "stubgen = mypy.stubgen:main",
+    "dmypy = mypy.dmypy.client:console_entry",
+    "stubtest = mypy.stubtest:main",
+    "mypy = mypy.__main__:console_entry",
+    "stubgen = mypy.stubgen:main",
+    "dmypy = mypy.dmypy.client:console_entry",
+    "stubtest = mypy.stubtest:main",
+    "mypy = mypy.__main__:console_entry",
+    "stubgen = mypy.stubgen:main",
+    "dmypy = mypy.dmypy.client:console_entry",
+    "stubtest = mypy.stubtest:main"
+   ],
+   "noarch":"python",
+   "number":"0",
+   "script":"-m pip install . -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "nehaljwani",
+    "ocefpaf",
+    "nehaljwani",
+    "ocefpaf",
+    "nehaljwani",
+    "ocefpaf"
+   ]
+  },
+  "package":{
+   "name":"mypy",
+   "version":"0.770"
+  },
+  "requirements":{
+   "host":[
+    "python >=3.5",
+    "pip",
+    "python >=3.5",
+    "pip",
+    "python >=3.5",
+    "pip"
+   ],
+   "run":[
+    "python >=3.5",
+    "mypy_extensions >=0.4.3,<0.5.0",
+    "typed-ast >=1.4.0,<1.5.0",
+    "typing_extensions >=3.7.4",
+    "psutil >=4.0",
+    "python >=3.5",
+    "mypy_extensions >=0.4.3,<0.5.0",
+    "typed-ast >=1.4.0,<1.5.0",
+    "typing_extensions >=3.7.4",
+    "psutil >=4.0",
+    "python >=3.5",
+    "mypy_extensions >=0.4.3,<0.5.0",
+    "typed-ast >=1.4.0,<1.5.0",
+    "typing_extensions >=3.7.4",
+    "psutil >=4.0"
+   ]
+  },
+  "source":{
+   "sha256":"8a627507ef9b307b46a1fea9513d5c98680ba09591253082b4c48697ba05a4ae",
+   "url":"https://pypi.io/packages/source/m/mypy/mypy-0.770.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "mypy --help",
+    "stubgen --help",
+    "dmypy --help",
+    "stubtest --help",
+    "mypy --help",
+    "stubgen --help",
+    "dmypy --help",
+    "stubtest --help",
+    "mypy --help",
+    "stubgen --help",
+    "dmypy --help",
+    "stubtest --help"
+   ],
+   "imports":[
+    "mypy",
+    "mypy.plugins",
+    "mypy.server",
+    "mypy",
+    "mypy.plugins",
+    "mypy.server",
+    "mypy",
+    "mypy.plugins",
+    "mypy.server"
+   ]
+  }
+ },
+ "name":"mypy",
+ "new_version":"0.770",
+ "pinning_version":"2020.03.10",
+ "raw_meta_yaml":"{% set version = \"0.770\" %}\n\npackage:\n  name: mypy\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/m/mypy/mypy-{{ version }}.tar.gz\n  sha256: 8a627507ef9b307b46a1fea9513d5c98680ba09591253082b4c48697ba05a4ae\n\nbuild:\n  number: 0\n  noarch: python\n  script: {{ PYTHON }} -m pip install . -vv\n  entry_points:\n    - mypy = mypy.__main__:console_entry\n    - stubgen = mypy.stubgen:main\n    - dmypy = mypy.dmypy.client:console_entry\n    - stubtest = mypy.stubtest:main\n  \nrequirements:\n  host:\n    - python >=3.5\n    - pip\n  run:\n    - python >=3.5\n    - mypy_extensions >=0.4.3,<0.5.0\n    - typed-ast >=1.4.0,<1.5.0\n    - typing_extensions >=3.7.4\n    # extra: dmypy\n    - psutil >=4.0\n\ntest:\n  imports:\n    - mypy\n    - mypy.plugins\n    - mypy.server\n  commands:\n    - mypy --help\n    - stubgen --help\n    - dmypy --help\n    - stubtest --help\n\nabout:\n  home: http://www.mypy-lang.org/\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE\n  summary: Optional static typing for Python\n  description: |\n    Add type annotations to your Python programs, and use mypy to type check\n    them. Mypy is essentially a Python linter on steroids, and it can catch\n    many programming errors by analyzing your program, withoutactually having\n    to run it.  Mypy has a powerful type system with features such as type\n    inference, gradual typing, generics and union types.\n  doc_url: http://mypy.readthedocs.io\n  dev_url: https://github.com/python/mypy\n\nextra:\n  recipe-maintainers:\n    - nehaljwani\n    - ocefpaf\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "mypy_extensions",
+   "pip",
+   "psutil",
+   "python",
+   "typed-ast",
+   "typing_extensions"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "mypy_extensions",
+    "psutil",
+    "python",
+    "typed-ast",
+    "typing_extensions"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.6.11",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3.5"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "mypy_extensions >=0.4.3,<0.5.0",
+    "psutil >=4.0",
+    "python >=3.5",
+    "typed-ast >=1.4.0,<1.5.0",
+    "typing_extensions >=3.7.4"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/m/mypy/mypy-0.720.tar.gz",
+ "version":"0.770"
+}

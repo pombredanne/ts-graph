@@ -1,0 +1,146 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/199138201.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Noarch",
+    "migrator_version":0
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"pytest-cache",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"http://bitbucket.org/hpk42/pytest-cache",
+   "license":"MIT",
+   "license_file":"LICENSE",
+   "summary":"pytest plugin with mechanisms for caching across test runs"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"2",
+   "script":" -m pip install . --no-deps -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "ocefpaf",
+    "ocefpaf",
+    "ocefpaf"
+   ]
+  },
+  "package":{
+   "name":"pytest-cache",
+   "version":"1.0"
+  },
+  "requirements":{
+   "build":[
+    "python",
+    "pip",
+    "python",
+    "pip",
+    "python",
+    "pip"
+   ],
+   "run":[
+    "python",
+    "pytest >=2.2",
+    "execnet >=1.1.dev1",
+    "python",
+    "pytest >=2.2",
+    "execnet >=1.1.dev1",
+    "python",
+    "pytest >=2.2",
+    "execnet >=1.1.dev1"
+   ]
+  },
+  "source":{
+   "sha256":"be7468edd4d3d83f1e844959fd6e3fd28e77a481440a7118d430130ea31b07a9",
+   "url":"https://pypi.io/packages/source/p/pytest-cache/pytest-cache-1.0.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "pytest_cache",
+    "pytest_cache",
+    "pytest_cache"
+   ]
+  }
+ },
+ "name":"pytest-cache",
+ "new_version":"1.0",
+ "pinning_version":"2018.07.01",
+ "raw_meta_yaml":"{% set version = \"1.0\" %}\n\npackage:\n  name: pytest-cache\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/p/pytest-cache/pytest-cache-{{ version }}.tar.gz\n  sha256: be7468edd4d3d83f1e844959fd6e3fd28e77a481440a7118d430130ea31b07a9\n\nbuild:\n  number: 2\n  noarch: python\n  script: \"{{ PYTHON }} -m pip install . --no-deps -vv\"\n\nrequirements:\n  build:\n    - python\n    - pip\n  run:\n    - python\n    - pytest >=2.2\n    - execnet >=1.1.dev1\n\ntest:\n  imports:\n    - pytest_cache\n\nabout:\n  home: http://bitbucket.org/hpk42/pytest-cache\n  license: MIT\n  license_file: LICENSE\n  summary: 'pytest plugin with mechanisms for caching across test runs'\n\nextra:\n  recipe-maintainers:\n    - ocefpaf\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "execnet",
+   "pip",
+   "pytest",
+   "python"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "execnet",
+    "pytest",
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.1.6",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "execnet >=1.1.dev1",
+    "pytest >=2.2",
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/p/pytest-cache/pytest-cache-1.0.tar.gz",
+ "version":"1.0"
+}

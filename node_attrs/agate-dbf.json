@@ -1,0 +1,175 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/201500433.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Noarch",
+    "migrator_version":0
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/261795406.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.2.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"agate-dbf",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "dev_url":"https://github.com/wireservice/agate-dbf",
+   "doc_url":"http://agate-dbf.readthedocs.org/",
+   "home":"http://agate-dbf.readthedocs.org/",
+   "license":"MIT",
+   "license_family":"MIT",
+   "summary":"agate-dbf adds read support for dbf files to agate."
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":"python -m pip install --no-deps --ignore-installed ."
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "pmlandwehr",
+    "pmlandwehr",
+    "pmlandwehr"
+   ]
+  },
+  "package":{
+   "name":"agate-dbf",
+   "version":"0.2.1"
+  },
+  "requirements":{
+   "host":[
+    "python",
+    "pip",
+    "agate >=1.5.0",
+    "dbfread >=2.0.5",
+    "python",
+    "pip",
+    "agate >=1.5.0",
+    "dbfread >=2.0.5",
+    "python",
+    "pip",
+    "agate >=1.5.0",
+    "dbfread >=2.0.5"
+   ],
+   "run":[
+    "python",
+    "agate >=1.5.0",
+    "dbfread >=2.0.5",
+    "python",
+    "agate >=1.5.0",
+    "dbfread >=2.0.5",
+    "python",
+    "agate >=1.5.0",
+    "dbfread >=2.0.5"
+   ]
+  },
+  "source":{
+   "sha256":"00c93c498ec9a04cc587bf63dd7340e67e2541f0df4c9a7259d7cb3dd4ce372f",
+   "url":"https://pypi.io/packages/source/a/agate-dbf/agate-dbf-0.2.1.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "agatedbf",
+    "agatedbf",
+    "agatedbf"
+   ]
+  }
+ },
+ "name":"agate-dbf",
+ "new_version":"0.2.1",
+ "pinning_version":"2019.03.14",
+ "raw_meta_yaml":"{% set version = \"0.2.1\" %}\n\npackage:\n  name: agate-dbf\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/a/agate-dbf/agate-dbf-{{ version }}.tar.gz\n  sha256: 00c93c498ec9a04cc587bf63dd7340e67e2541f0df4c9a7259d7cb3dd4ce372f\n\nbuild:\n  number: 0\n  noarch: python\n  script: python -m pip install --no-deps --ignore-installed .\n\nrequirements:\n  host:\n    - python\n    - pip\n    - agate >=1.5.0\n    - dbfread >=2.0.5\n\n  run:\n    - python\n    - agate >=1.5.0\n    - dbfread >=2.0.5\n\ntest:\n  imports:\n    - agatedbf\n\nabout:\n  home: http://agate-dbf.readthedocs.org/\n  license: MIT\n  license_family: MIT\n  # license_file: COPYING - No manifest - see https://github.com/wireservice/agate-dbf/pull/3\n  summary: 'agate-dbf adds read support for dbf files to agate.'\n  doc_url: http://agate-dbf.readthedocs.org/\n  dev_url: https://github.com/wireservice/agate-dbf\n\nextra:\n  recipe-maintainers:\n    - pmlandwehr\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "agate",
+   "dbfread",
+   "pip",
+   "python"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "agate",
+    "dbfread",
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "agate",
+    "dbfread",
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.2.14",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "agate >=1.5.0",
+    "dbfread >=2.0.5",
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "agate >=1.5.0",
+    "dbfread >=2.0.5",
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/a/agate-dbf/agate-dbf-0.2.1.tar.gz",
+ "version":"0.2.1"
+}

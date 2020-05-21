@@ -1,0 +1,152 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/217726785.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "compiler_stack":"comp7",
+  "max_py_ver":"37",
+  "max_r_ver":"35"
+ },
+ "feedstock_name":"reindent",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"Reindent python cleanup script\n\nChange Python (.py) files to use 4-space indents and no hard\ntab characters.  Also trim excess spaces and tabs from ends of\nlines, and remove empty lines at the end of files.  Also\nensure the last line ends with a newline.\n",
+   "home":"https://pypi.python.org/pypi/Reindent",
+   "license":"Public Domain",
+   "license_family":"PUBLIC-DOMAIN",
+   "license_file":"README.txt",
+   "summary":"reindent script by Tim Peters"
+  },
+  "build":{
+   "entry_points":[
+    "reindent = reindent:main",
+    "reindent = reindent:main",
+    "reindent = reindent:main"
+   ],
+   "noarch":"python",
+   "number":"1000",
+   "script":" -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "smithsp",
+    "smithsp",
+    "smithsp"
+   ]
+  },
+  "package":{
+   "name":"reindent",
+   "version":"0.1.1"
+  },
+  "requirements":{
+   "host":[
+    "python <3",
+    "pip",
+    "python <3",
+    "pip",
+    "python <3",
+    "pip"
+   ],
+   "run":[
+    "python <3",
+    "python <3",
+    "python <3"
+   ]
+  },
+  "source":{
+   "sha256":"d61226a0d0109aef3495033b42e8a0258c6bef1c014d9f26e31c62f071352b82",
+   "url":"https://pypi.io/packages/source/R/Reindent/Reindent-0.1.1.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "echo \"pass\" | reindent",
+    "echo \"pass\" | reindent",
+    "echo \"pass\" | reindent"
+   ],
+   "imports":[
+    "reindent",
+    "reindent",
+    "reindent"
+   ]
+  }
+ },
+ "name":"reindent",
+ "new_version":"0.1.1",
+ "pinning_version":"2018.09.20",
+ "raw_meta_yaml":"{% set version = \"0.1.1\" %}\n\npackage:\n  name: reindent\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/R/Reindent/Reindent-{{ version }}.tar.gz\n  sha256: d61226a0d0109aef3495033b42e8a0258c6bef1c014d9f26e31c62f071352b82\n\nbuild:\n  number: 1000\n  noarch: python\n  script: \"{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv\"\n  entry_points:\n    - reindent = reindent:main\n\nrequirements:\n  host:\n    - python <3\n    - pip\n  run:\n    - python <3\n\ntest:\n  imports:\n    - reindent\n  commands:\n    - echo \"pass\" | reindent\n\nabout:\n  home: https://pypi.python.org/pypi/Reindent\n  license: Public Domain\n  license_family: PUBLIC-DOMAIN\n  license_file: 'README.txt'\n  summary: reindent script by Tim Peters\n  description: |\n    Reindent python cleanup script\n    \n    Change Python (.py) files to use 4-space indents and no hard\n    tab characters.  Also trim excess spaces and tabs from ends of\n    lines, and remove empty lines at the end of files.  Also\n    ensure the last line ends with a newline.\n\nextra:\n  recipe-maintainers:\n    - smithsp\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "pip",
+   "python"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.1.12",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python <3"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "python <3"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/R/Reindent/Reindent-0.1.1.tar.gz",
+ "version":"0.1.1"
+}

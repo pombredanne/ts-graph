@@ -1,0 +1,5 @@
+{
+ "bad":"Upstream: Error getting upstream version",
+ "feedstock_name":"gcc_impl_",
+ "new_version":false
+}

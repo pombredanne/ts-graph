@@ -1,0 +1,1182 @@
+{
+ "PRed":[
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"8.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/204195489.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Compiler",
+    "migrator_version":0
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/206012547.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"8.3"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/223783549.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"8.4"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/240659517.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"8.5"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/244956454.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"8.6"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/263871123.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"8.7"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/263875687.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"BlasRebuild",
+    "migrator_version":0,
+    "name":"blas2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/289405528.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Rebuild",
+    "migrator_version":0,
+    "name":"gsl-2.5"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/289406238.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Rebuild",
+    "migrator_version":0,
+    "name":"singular-4.1.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/289576260.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Rebuild",
+    "migrator_version":0,
+    "name":"pari-2.11"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/289994026.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Rebuild",
+    "migrator_version":0,
+    "name":"ntl-11.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/292167585.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"8.8"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/294283446.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Rebuild",
+    "migrator_version":0,
+    "name":"readline-8.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/322555054.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"8.9"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/337025130.json"
+   },
+   "data":{
+    "bot_rerun":1579272528.2897654,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"python38"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/337420697.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"python38"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/358482571.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"9.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/371524699.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"gsl26"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/387820041.json"
+   },
+   "data":{
+    "bot_rerun":1584123185.7939506,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":2,
+    "migrator_version":0,
+    "name":"boost172"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/408992122.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"ntl_11.4.3"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"sagelib",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "dev_url":"https://trac.sagemath.org",
+   "doc_url":"https://doc.sagemath.org",
+   "home":"https://www.sagemath.org",
+   "license":"GPLv2+",
+   "license_file":"COPYING.txt",
+   "summary":"Open Source Mathematical Software"
+  },
+  "build":{
+   "number":"4",
+   "skip":true
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "isuruf",
+    "saraedum",
+    "isuruf",
+    "saraedum",
+    "isuruf",
+    "saraedum"
+   ]
+  },
+  "package":{
+   "name":"sagelib",
+   "version":"9.0"
+  },
+  "requirements":{
+   "build":[
+    "libtool",
+    "automake",
+    "cxx_compiler_stub",
+    "c_compiler_stub",
+    "make",
+    "libtool",
+    "automake",
+    "cxx_compiler_stub",
+    "c_compiler_stub",
+    "make",
+    "libtool",
+    "automake",
+    "cxx_compiler_stub",
+    "c_compiler_stub",
+    "make"
+   ],
+   "host":[
+    "pip",
+    "setuptools",
+    "libblas",
+    "libcblas",
+    "liblapack",
+    "liblapacke",
+    "arb",
+    "boost-cpp",
+    "brial         1.2.*",
+    "libbrial      1.2.*",
+    "cliquer       1.21.*",
+    "cypari2       2.1.*",
+    "cysignals     1.10.*",
+    "cython        >=0.29.12",
+    "ecl           16.1.2",
+    "eclib         20190909",
+    "ecm           7.*",
+    "future",
+    "gap-core      4.10.*",
+    "glpk",
+    "gmp",
+    "gmpy2         2.1.*",
+    "gsl",
+    "iml           1.0.*",
+    "jinja2        2.10.*",
+    "jupyter_core  4.*",
+    "lcalc         1.23",
+    "lrcalc        1.2",
+    "libbraiding   1.0",
+    "libflint      2.5.*",
+    "libgd         2.2.*",
+    "libhomfly     1.02.*",
+    "libpng",
+    "linbox        >=1.6.3",
+    "givaro        4.1.*",
+    "fflas-ffpack  2.4.*",
+    "m4ri          20140914",
+    "m4rie         20150908",
+    "mpc           1.1.*",
+    "mpfi          1.5.*",
+    "mpfr",
+    "ntl",
+    "numpy",
+    "pari",
+    "pkgconfig",
+    "pkg-config",
+    "planarity     3.*",
+    "ppl           1.2",
+    "pplpy         0.8.*",
+    "pynac         0.7.26",
+    "python",
+    "ratpoints     2.1.*",
+    "readline",
+    "rw            0.7",
+    "singular      4.1.1.*",
+    "six",
+    "symmetrica    2.0",
+    "zlib",
+    "zn_poly       0.9.*",
+    "ipython       >=5.8.0,<6",
+    "psutil        >=5",
+    "pexpect       >=4.6.0,<5",
+    "three.js",
+    "notebook      >=5.7.6,<6",
+    "jmol          >=14.6.1,<15",
+    "pip",
+    "setuptools",
+    "libblas",
+    "libcblas",
+    "liblapack",
+    "liblapacke",
+    "arb",
+    "boost-cpp",
+    "brial         1.2.*",
+    "libbrial      1.2.*",
+    "cliquer       1.21.*",
+    "cypari2       2.1.*",
+    "cysignals     1.10.*",
+    "cython        >=0.29.12",
+    "ecl           16.1.2",
+    "eclib         20190909",
+    "ecm           7.*",
+    "future",
+    "gap-core      4.10.*",
+    "glpk",
+    "gmp",
+    "gmpy2         2.1.*",
+    "gsl",
+    "iml           1.0.*",
+    "jinja2        2.10.*",
+    "jupyter_core  4.*",
+    "lcalc         1.23",
+    "lrcalc        1.2",
+    "libbraiding   1.0",
+    "libflint      2.5.*",
+    "libgd         2.2.*",
+    "libhomfly     1.02.*",
+    "libpng",
+    "linbox        >=1.6.3",
+    "givaro        4.1.*",
+    "fflas-ffpack  2.4.*",
+    "m4ri          20140914",
+    "m4rie         20150908",
+    "mpc           1.1.*",
+    "mpfi          1.5.*",
+    "mpfr",
+    "ntl",
+    "numpy",
+    "pari",
+    "pkgconfig",
+    "pkg-config",
+    "planarity     3.*",
+    "ppl           1.2",
+    "pplpy         0.8.*",
+    "pynac         0.7.26",
+    "python",
+    "ratpoints     2.1.*",
+    "readline",
+    "rw            0.7",
+    "singular      4.1.1.*",
+    "six",
+    "symmetrica    2.0",
+    "zlib",
+    "zn_poly       0.9.*",
+    "ipython       >=5.8.0,<6",
+    "psutil        >=5",
+    "pexpect       >=4.6.0,<5",
+    "three.js",
+    "notebook      >=5.7.6,<6",
+    "jmol          >=14.6.1,<15",
+    "pip",
+    "setuptools",
+    "libblas",
+    "libcblas",
+    "liblapack",
+    "liblapacke",
+    "arb",
+    "boost-cpp",
+    "brial         1.2.*",
+    "libbrial      1.2.*",
+    "cliquer       1.21.*",
+    "cypari2       2.1.*",
+    "cysignals     1.10.*",
+    "cython        >=0.29.12",
+    "ecl           16.1.2",
+    "eclib         20190909",
+    "ecm           7.*",
+    "future",
+    "gap-core      4.10.*",
+    "glpk",
+    "gmp",
+    "gmpy2         2.1.*",
+    "gsl",
+    "iml           1.0.*",
+    "jinja2        2.10.*",
+    "jupyter_core  4.*",
+    "lcalc         1.23",
+    "lrcalc        1.2",
+    "libbraiding   1.0",
+    "libflint      2.5.*",
+    "libgd         2.2.*",
+    "libhomfly     1.02.*",
+    "libpng",
+    "linbox        >=1.6.3",
+    "givaro        4.1.*",
+    "fflas-ffpack  2.4.*",
+    "m4ri          20140914",
+    "m4rie         20150908",
+    "mpc           1.1.*",
+    "mpfi          1.5.*",
+    "mpfr",
+    "ntl",
+    "numpy",
+    "pari",
+    "pkgconfig",
+    "pkg-config",
+    "planarity     3.*",
+    "ppl           1.2",
+    "pplpy         0.8.*",
+    "pynac         0.7.26",
+    "python",
+    "ratpoints     2.1.*",
+    "readline",
+    "rw            0.7",
+    "singular      4.1.1.*",
+    "six",
+    "symmetrica    2.0",
+    "zlib",
+    "zn_poly       0.9.*",
+    "ipython       >=5.8.0,<6",
+    "psutil        >=5",
+    "pexpect       >=4.6.0,<5",
+    "three.js",
+    "notebook      >=5.7.6,<6",
+    "jmol          >=14.6.1,<15"
+   ],
+   "run":[
+    "libbrial",
+    "cliquer",
+    "cypari2",
+    "cysignals",
+    "cython",
+    "ecl",
+    "eclib",
+    "ecm",
+    "future",
+    "gap-core",
+    "glpk",
+    "gmp",
+    "gmpy2",
+    "gsl",
+    "iml",
+    "jinja2",
+    "jupyter_core",
+    "lcalc",
+    "lrcalc",
+    "libbraiding",
+    "libflint",
+    "libgd",
+    "libhomfly",
+    "libpng",
+    "linbox",
+    "givaro",
+    "fflas-ffpack",
+    "m4ri",
+    "m4rie",
+    "mpc",
+    "mpfi",
+    "mpfr",
+    "ntl",
+    "numpy",
+    "pari",
+    "planarity",
+    "ppl",
+    "pplpy",
+    "pynac",
+    "python",
+    "ratpoints",
+    "readline",
+    "rw",
+    "singular",
+    "six",
+    "symmetrica",
+    "zlib",
+    "zn_poly",
+    "ipython       >=5.8.0,<6",
+    "psutil        >=5",
+    "pexpect       >=4.6.0,<5",
+    "libbrial",
+    "cliquer",
+    "cypari2",
+    "cysignals",
+    "cython",
+    "ecl",
+    "eclib",
+    "ecm",
+    "future",
+    "gap-core",
+    "glpk",
+    "gmp",
+    "gmpy2",
+    "gsl",
+    "iml",
+    "jinja2",
+    "jupyter_core",
+    "lcalc",
+    "lrcalc",
+    "libbraiding",
+    "libflint",
+    "libgd",
+    "libhomfly",
+    "libpng",
+    "linbox",
+    "givaro",
+    "fflas-ffpack",
+    "m4ri",
+    "m4rie",
+    "mpc",
+    "mpfi",
+    "mpfr",
+    "ntl",
+    "numpy",
+    "pari",
+    "planarity",
+    "ppl",
+    "pplpy",
+    "pynac",
+    "python",
+    "ratpoints",
+    "readline",
+    "rw",
+    "singular",
+    "six",
+    "symmetrica",
+    "zlib",
+    "zn_poly",
+    "ipython       >=5.8.0,<6",
+    "psutil        >=5",
+    "pexpect       >=4.6.0,<5",
+    "libbrial",
+    "cliquer",
+    "cypari2",
+    "cysignals",
+    "cython",
+    "ecl",
+    "eclib",
+    "ecm",
+    "future",
+    "gap-core",
+    "glpk",
+    "gmp",
+    "gmpy2",
+    "gsl",
+    "iml",
+    "jinja2",
+    "jupyter_core",
+    "lcalc",
+    "lrcalc",
+    "libbraiding",
+    "libflint",
+    "libgd",
+    "libhomfly",
+    "libpng",
+    "linbox",
+    "givaro",
+    "fflas-ffpack",
+    "m4ri",
+    "m4rie",
+    "mpc",
+    "mpfi",
+    "mpfr",
+    "ntl",
+    "numpy",
+    "pari",
+    "planarity",
+    "ppl",
+    "pplpy",
+    "pynac",
+    "python",
+    "ratpoints",
+    "readline",
+    "rw",
+    "singular",
+    "six",
+    "symmetrica",
+    "zlib",
+    "zn_poly",
+    "ipython       >=5.8.0,<6",
+    "psutil        >=5",
+    "pexpect       >=4.6.0,<5"
+   ]
+  },
+  "source":{
+   "sha256":"6f5d42b306a2c03073dd95086f80602bd1a0b929b8ad19c6d219c8ca8e96da26",
+   "url":"https://github.com/sagemath/sage/archive/9.0.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "sage -v",
+    "sage -c 1+1",
+    "sage -tp src/sage/version.py",
+    "sage -v",
+    "sage -c 1+1",
+    "sage -tp src/sage/version.py",
+    "sage -v",
+    "sage -c 1+1",
+    "sage -tp src/sage/version.py"
+   ],
+   "imports":[
+    "sage",
+    "sage",
+    "sage"
+   ],
+   "requires":[
+    "sympy",
+    "ipywidgets",
+    "pip",
+    "sympy",
+    "ipywidgets",
+    "pip",
+    "sympy",
+    "ipywidgets",
+    "pip"
+   ],
+   "source_files":[
+    "src/sage/version.py",
+    "src/sage/version.py",
+    "src/sage/version.py"
+   ]
+  }
+ },
+ "name":"sagelib",
+ "new_version":false,
+ "pinning_version":"2020.04.24.22.56.04",
+ "raw_meta_yaml":"{% set version = \"9.0\" %}\n{% set name = \"sagelib\" %}\n\npackage:\n  name: {{ name }}\n  version: {{ version }}\n\nsource:\n  url: https://github.com/sagemath/sage/archive/{{ version }}.tar.gz\n  sha256: 6f5d42b306a2c03073dd95086f80602bd1a0b929b8ad19c6d219c8ca8e96da26\n\nbuild:\n  number: 4\n  skip: true  # [win]\n  skip: true  # [py3k and py<36]\n\nrequirements:\n  build:\n    - libtool\n    - automake\n    - {{ compiler('cxx') }}\n    - {{ compiler('c') }}\n    - make\n  host:\n    - pip\n    - setuptools\n    - libblas\n    - libcblas\n    - liblapack\n    - liblapacke\n    - arb\n    - boost-cpp\n    - brial         1.2.*\n    - libbrial      1.2.*\n    - cliquer       1.21.*\n    - cypari2       2.1.*\n    - cysignals     1.10.*\n    - cython        >=0.29.12\n    # There are issues with ecl 16.1.3\n    - ecl           16.1.2\n    - eclib         20190909\n    - ecm           7.*\n    - future\n    - gap-core      4.10.*\n    - glpk\n    - gmp\n    - gmpy2         2.1.*\n    - gsl\n    - iml           1.0.*\n    - jinja2        2.10.*\n    - jupyter_core  4.*\n    - lcalc         1.23\n    - lrcalc        1.2\n    - libbraiding   1.0\n    - libflint      2.5.*\n    - libgd         2.2.*\n    - libhomfly     1.02.*\n    - libpng\n    - linbox        >=1.6.3\n    - givaro        4.1.*\n    - fflas-ffpack  2.4.*\n    - m4ri          20140914\n    - m4rie         20150908\n    - mpc           1.1.*\n    - mpfi          1.5.*\n    - mpfr\n    - ntl\n    - numpy\n    - pari\n    - pkgconfig\n    - pkg-config\n    - planarity     3.*\n    - ppl           1.2\n    - pplpy         0.8.*\n    - pynac         0.7.26\n    - python\n    - ratpoints     2.1.*\n    - readline\n    - rw            0.7\n    - singular      4.1.1.*\n    - six\n    - symmetrica    2.0\n    - zlib\n    - zn_poly       0.9.*\n    # sageruntime deps\n    - ipython       >=5.8.0,<6\n    - psutil        >=5\n    - pexpect       >=4.6.0,<5\n    # for the symlinks\n    - three.js\n    - notebook      >=5.7.6,<6\n    - jmol          >=14.6.1,<15\n\n  # We can not include all actual runtime dependencies of Sage here as some of\n  # them require Sage to build, such as some of the database packages.\n  # The packages listed here are taken from the `SAGERUNTIME` variable in\n  # `build/make/Makefile`.\n  # These dependencies are enough to `import sage` and start `sage` but lots of\n  # things do not work. To get all the standard dependencies of Sage, install\n  # the \"sage\" package (which requires this \"sagelib\" package.)\n  run:\n    - {{ pin_compatible(\"libbrial\", max_pin=\"x.x\") }}\n    - {{ pin_compatible(\"cliquer\", max_pin=\"x.x\") }}\n    - {{ pin_compatible(\"cypari2\") }}\n    - {{ pin_compatible(\"cysignals\") }}\n    - {{ pin_compatible(\"cython\") }}\n    - {{ pin_compatible(\"ecl\", max_pin=\"x.x\") }}\n    - eclib\n    - {{ pin_compatible(\"ecm\") }}\n    - future\n    - {{ pin_compatible(\"gap-core\", max_pin=\"x.x\") }}\n    - glpk\n    - gmp\n    - {{ pin_compatible(\"gmpy2\", max_pin=\"x.x\") }}\n    - gsl\n    - {{ pin_compatible(\"iml\", max_pin=\"x.x\") }}\n    - {{ pin_compatible(\"jinja2\", max_pin=\"x.x\") }}\n    - {{ pin_compatible(\"jupyter_core\") }}\n    - {{ pin_compatible(\"lcalc\", max_pin=\"x.x\") }}\n    - {{ pin_compatible(\"lrcalc\", max_pin=\"x.x\") }}\n    - {{ pin_compatible(\"libbraiding\", max_pin=\"x.x\") }}\n    - {{ pin_compatible(\"libflint\", max_pin=\"x.x\") }}\n    - {{ pin_compatible(\"libgd\", max_pin=\"x.x\") }}\n    - {{ pin_compatible(\"libhomfly\", max_pin=\"x.x\") }}\n    - libpng\n    - {{ pin_compatible(\"linbox\", max_pin=\"x.x\") }}\n    - givaro\n    - fflas-ffpack\n    - m4ri\n    - {{ pin_compatible(\"m4rie\") }}\n    - mpc\n    - mpfi\n    - mpfr\n    - ntl\n    - {{ pin_compatible(\"numpy\") }}\n    - pari\n    - {{ pin_compatible(\"planarity\") }}\n    - {{ pin_compatible(\"ppl\", max_pin=\"x.x\") }}\n    - {{ pin_compatible(\"pplpy\", max_pin=\"x.x\") }}\n    - {{ pin_compatible(\"pynac\", max_pin=\"x.x.x\") }}\n    - python\n    - {{ pin_compatible(\"ratpoints\", max_pin=\"x.x\") }}\n    - readline\n    - {{ pin_compatible(\"rw\", max_pin=\"x.x\") }}\n    - singular\n    - six\n    - {{ pin_compatible(\"symmetrica\", max_pin=\"x.x\") }}\n    - zlib\n    - {{ pin_compatible(\"zn_poly\", max_pin=\"x.x\") }}\n    # sageruntime deps\n    - ipython       >=5.8.0,<6\n    - psutil        >=5\n    - pexpect       >=4.6.0,<5\n\ntest:\n  requires:\n    # Sage's doctesting framework uses a pretty printing command from sympy\n    - sympy\n    - ipywidgets\n    - pip\n  source_files:\n    - src/sage/version.py\n  imports:\n    - sage\n  commands:\n    - sage -v\n    - sage -c 1+1\n    # too many doctests fail still but we test that the doctesting framework works by testing a trivial file\n    - sage -tp src/sage/version.py\n\nabout:\n  home: https://www.sagemath.org\n  license: GPLv2+\n  license_file: COPYING.txt\n  summary: Open Source Mathematical Software\n  dev_url: https://trac.sagemath.org\n  doc_url: https://doc.sagemath.org\n\nextra:\n  recipe-maintainers:\n    - isuruf\n    - saraedum\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "arb",
+   "automake",
+   "boost-cpp",
+   "brial",
+   "c_compiler_stub",
+   "cliquer",
+   "cxx_compiler_stub",
+   "cypari2",
+   "cysignals",
+   "cython",
+   "ecl",
+   "eclib",
+   "ecm",
+   "fflas-ffpack",
+   "future",
+   "gap-core",
+   "givaro",
+   "glpk",
+   "gmp",
+   "gmpy2",
+   "gsl",
+   "iml",
+   "ipython",
+   "jinja2",
+   "jmol",
+   "jupyter_core",
+   "lcalc",
+   "libblas",
+   "libbraiding",
+   "libbrial",
+   "libcblas",
+   "libflint",
+   "libgd",
+   "libhomfly",
+   "liblapack",
+   "liblapacke",
+   "libpng",
+   "libtool",
+   "linbox",
+   "lrcalc",
+   "m4ri",
+   "m4rie",
+   "make",
+   "mpc",
+   "mpfi",
+   "mpfr",
+   "notebook",
+   "ntl",
+   "numpy",
+   "pari",
+   "pexpect",
+   "pip",
+   "pkg-config",
+   "pkgconfig",
+   "planarity",
+   "ppl",
+   "pplpy",
+   "psutil",
+   "pynac",
+   "python",
+   "ratpoints",
+   "readline",
+   "rw",
+   "setuptools",
+   "singular",
+   "six",
+   "symmetrica",
+   "three.js",
+   "zlib",
+   "zn_poly"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "automake",
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "libtool",
+    "make"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "arb",
+    "boost-cpp",
+    "brial",
+    "cliquer",
+    "cypari2",
+    "cysignals",
+    "cython",
+    "ecl",
+    "eclib",
+    "ecm",
+    "fflas-ffpack",
+    "future",
+    "gap-core",
+    "givaro",
+    "glpk",
+    "gmp",
+    "gmpy2",
+    "gsl",
+    "iml",
+    "ipython",
+    "jinja2",
+    "jmol",
+    "jupyter_core",
+    "lcalc",
+    "libblas",
+    "libbraiding",
+    "libbrial",
+    "libcblas",
+    "libflint",
+    "libgd",
+    "libhomfly",
+    "liblapack",
+    "liblapacke",
+    "libpng",
+    "linbox",
+    "lrcalc",
+    "m4ri",
+    "m4rie",
+    "mpc",
+    "mpfi",
+    "mpfr",
+    "notebook",
+    "ntl",
+    "numpy",
+    "pari",
+    "pexpect",
+    "pip",
+    "pkg-config",
+    "pkgconfig",
+    "planarity",
+    "ppl",
+    "pplpy",
+    "psutil",
+    "pynac",
+    "python",
+    "ratpoints",
+    "readline",
+    "rw",
+    "setuptools",
+    "singular",
+    "six",
+    "symmetrica",
+    "three.js",
+    "zlib",
+    "zn_poly"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "cliquer",
+    "cypari2",
+    "cysignals",
+    "cython",
+    "ecl",
+    "eclib",
+    "ecm",
+    "fflas-ffpack",
+    "future",
+    "gap-core",
+    "givaro",
+    "glpk",
+    "gmp",
+    "gmpy2",
+    "gsl",
+    "iml",
+    "ipython",
+    "jinja2",
+    "jupyter_core",
+    "lcalc",
+    "libbraiding",
+    "libbrial",
+    "libflint",
+    "libgd",
+    "libhomfly",
+    "libpng",
+    "linbox",
+    "lrcalc",
+    "m4ri",
+    "m4rie",
+    "mpc",
+    "mpfi",
+    "mpfr",
+    "ntl",
+    "numpy",
+    "pari",
+    "pexpect",
+    "planarity",
+    "ppl",
+    "pplpy",
+    "psutil",
+    "pynac",
+    "python",
+    "ratpoints",
+    "readline",
+    "rw",
+    "singular",
+    "six",
+    "symmetrica",
+    "zlib",
+    "zn_poly"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "ipywidgets",
+    "pip",
+    "sympy"
+   ]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.6.17",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "automake",
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "libtool",
+    "make"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "arb",
+    "boost-cpp",
+    "brial         1.2.*",
+    "cliquer       1.21.*",
+    "cypari2       2.1.*",
+    "cysignals     1.10.*",
+    "cython        >=0.29.12",
+    "ecl           16.1.2",
+    "eclib         20190909",
+    "ecm           7.*",
+    "fflas-ffpack  2.4.*",
+    "future",
+    "gap-core      4.10.*",
+    "givaro        4.1.*",
+    "glpk",
+    "gmp",
+    "gmpy2         2.1.*",
+    "gsl",
+    "iml           1.0.*",
+    "ipython       >=5.8.0,<6",
+    "jinja2        2.10.*",
+    "jmol          >=14.6.1,<15",
+    "jupyter_core  4.*",
+    "lcalc         1.23",
+    "libblas",
+    "libbraiding   1.0",
+    "libbrial      1.2.*",
+    "libcblas",
+    "libflint      2.5.*",
+    "libgd         2.2.*",
+    "libhomfly     1.02.*",
+    "liblapack",
+    "liblapacke",
+    "libpng",
+    "linbox        >=1.6.3",
+    "lrcalc        1.2",
+    "m4ri          20140914",
+    "m4rie         20150908",
+    "mpc           1.1.*",
+    "mpfi          1.5.*",
+    "mpfr",
+    "notebook      >=5.7.6,<6",
+    "ntl",
+    "numpy",
+    "pari",
+    "pexpect       >=4.6.0,<5",
+    "pip",
+    "pkg-config",
+    "pkgconfig",
+    "planarity     3.*",
+    "ppl           1.2",
+    "pplpy         0.8.*",
+    "psutil        >=5",
+    "pynac         0.7.26",
+    "python",
+    "ratpoints     2.1.*",
+    "readline",
+    "rw            0.7",
+    "setuptools",
+    "singular      4.1.1.*",
+    "six",
+    "symmetrica    2.0",
+    "three.js",
+    "zlib",
+    "zn_poly       0.9.*"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "cliquer",
+    "cypari2",
+    "cysignals",
+    "cython",
+    "ecl",
+    "eclib",
+    "ecm",
+    "fflas-ffpack",
+    "future",
+    "gap-core",
+    "givaro",
+    "glpk",
+    "gmp",
+    "gmpy2",
+    "gsl",
+    "iml",
+    "ipython       >=5.8.0,<6",
+    "jinja2",
+    "jupyter_core",
+    "lcalc",
+    "libbraiding",
+    "libbrial",
+    "libflint",
+    "libgd",
+    "libhomfly",
+    "libpng",
+    "linbox",
+    "lrcalc",
+    "m4ri",
+    "m4rie",
+    "mpc",
+    "mpfi",
+    "mpfr",
+    "ntl",
+    "numpy",
+    "pari",
+    "pexpect       >=4.6.0,<5",
+    "planarity",
+    "ppl",
+    "pplpy",
+    "psutil        >=5",
+    "pynac",
+    "python",
+    "ratpoints",
+    "readline",
+    "rw",
+    "singular",
+    "six",
+    "symmetrica",
+    "zlib",
+    "zn_poly"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "ipywidgets",
+    "pip",
+    "sympy"
+   ]
+  }
+ },
+ "url":"https://github.com/sagemath/sage/archive/8.9.beta5.tar.gz",
+ "version":"9.0"
+}

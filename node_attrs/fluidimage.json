@@ -1,0 +1,352 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/340490770.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"python38"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/375772165.json"
+   },
+   "data":{
+    "bot_rerun":1581959318.7317965,
+    "migrator_name":"MatplotlibBase",
+    "migrator_version":0,
+    "name":"matplotlib-to-matplotlib-base"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/384808209.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MatplotlibBase",
+    "migrator_version":0,
+    "name":"matplotlib-to-matplotlib-base"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "provider":{
+   "win":"azure"
+  }
+ },
+ "feedstock_name":"fluidimage",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"This package is young but already good enough to be used \u201cin production\u201d\nto display and pre-process images, compute displacement or velocity fields\nwith Particle Image Velocimetry (PIV, i.e. displacements of pattern\nobtained by correlations of cropped images) and optical flow, analyze and\ndisplay PIV fields.\n",
+   "doc_url":"https://fluidimage.readthedocs.io",
+   "home":"https://bitbucket.org/fluiddyn/fluidimage",
+   "license":"CeCILL-B",
+   "license_file":"LICENSE.txt",
+   "summary":"libre Python framework for scientific processing of large series of images."
+  },
+  "build":{
+   "entry_points":[
+    "fluidimviewer-pg = fluidimage.gui.pg_main:main",
+    "fluidimviewer-pg = fluidimage.gui.pg_main:main",
+    "fluidimviewer-pg = fluidimage.gui.pg_main:main"
+   ],
+   "number":"1",
+   "script":" -m pip install . -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "CyrilleBonamy",
+    "paugier",
+    "CyrilleBonamy",
+    "paugier",
+    "CyrilleBonamy",
+    "paugier"
+   ]
+  },
+  "package":{
+   "name":"fluidimage",
+   "version":"0.1.2"
+  },
+  "requirements":{
+   "build":[
+    "cxx_compiler_stub",
+    "cxx_compiler_stub",
+    "cxx_compiler_stub"
+   ],
+   "host":[
+    "python",
+    "pip",
+    "setuptools_scm",
+    "transonic >=0.4.2",
+    "pythran",
+    "numpy 1.17.*",
+    "python",
+    "pip",
+    "setuptools_scm",
+    "transonic >=0.4.2",
+    "pythran",
+    "numpy 1.17.*",
+    "python",
+    "pip",
+    "setuptools_scm",
+    "transonic >=0.4.2",
+    "pythran",
+    "numpy 1.17.*"
+   ],
+   "run":[
+    "python",
+    "transonic >=0.4.2",
+    "dask",
+    "fluiddyn >=0.2.0",
+    "h5netcdf",
+    "h5py",
+    "imageio",
+    "matplotlib-base >=1.4.2",
+    "numpy",
+    "pims",
+    "pyfftw >=0.10.4",
+    "scipy >=0.14.1",
+    "trio",
+    "ipython",
+    "opencv",
+    "transonic",
+    "python",
+    "transonic >=0.4.2",
+    "dask",
+    "fluiddyn >=0.2.0",
+    "h5netcdf",
+    "h5py",
+    "imageio",
+    "matplotlib-base >=1.4.2",
+    "numpy",
+    "pims",
+    "pyfftw >=0.10.4",
+    "scipy >=0.14.1",
+    "trio",
+    "ipython",
+    "opencv",
+    "transonic",
+    "python",
+    "transonic >=0.4.2",
+    "dask",
+    "fluiddyn >=0.2.0",
+    "h5netcdf",
+    "h5py",
+    "imageio",
+    "matplotlib-base >=1.4.2",
+    "numpy",
+    "pims",
+    "pyfftw >=0.10.4",
+    "scipy >=0.14.1",
+    "trio",
+    "ipython",
+    "opencv",
+    "transonic"
+   ]
+  },
+  "source":{
+   "sha256":"f2910a799bcd625a3a10ae6afb3e05668629e21764ea6ee171774a0817afee00",
+   "url":"https://pypi.io/packages/source/f/fluidimage/fluidimage-0.1.2.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "fluidimviewer-pg --help",
+    "fluidimviewer-pg --help",
+    "fluidimviewer-pg --help"
+   ],
+   "imports":[
+    "fluidimage",
+    "fluidimage.calcul",
+    "fluidimage.calcul.interpolate",
+    "fluidimage.calibration",
+    "fluidimage.data_objects",
+    "fluidimage.executors",
+    "fluidimage.gui",
+    "fluidimage.gui.launcher",
+    "fluidimage.postproc",
+    "fluidimage.preproc",
+    "fluidimage.reconstruct",
+    "fluidimage.topologies",
+    "fluidimage.util",
+    "fluidimage.works",
+    "fluidimage.works.piv",
+    "fluidimage",
+    "fluidimage.calcul",
+    "fluidimage.calcul.interpolate",
+    "fluidimage.calibration",
+    "fluidimage.data_objects",
+    "fluidimage.executors",
+    "fluidimage.gui",
+    "fluidimage.gui.launcher",
+    "fluidimage.postproc",
+    "fluidimage.preproc",
+    "fluidimage.reconstruct",
+    "fluidimage.topologies",
+    "fluidimage.util",
+    "fluidimage.works",
+    "fluidimage.works.piv",
+    "fluidimage",
+    "fluidimage.calcul",
+    "fluidimage.calcul.interpolate",
+    "fluidimage.calibration",
+    "fluidimage.data_objects",
+    "fluidimage.executors",
+    "fluidimage.gui",
+    "fluidimage.gui.launcher",
+    "fluidimage.postproc",
+    "fluidimage.preproc",
+    "fluidimage.reconstruct",
+    "fluidimage.topologies",
+    "fluidimage.util",
+    "fluidimage.works",
+    "fluidimage.works.piv"
+   ]
+  }
+ },
+ "name":"fluidimage",
+ "new_version":"0.1.2",
+ "pinning_version":"2020.03.06",
+ "raw_meta_yaml":"{% set version = \"0.1.2\" %}\n\npackage:\n  name: fluidimage\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/f/fluidimage/fluidimage-{{ version }}.tar.gz\n  sha256: f2910a799bcd625a3a10ae6afb3e05668629e21764ea6ee171774a0817afee00\n\nbuild:\n  number: 1\n  script: \"{{ PYTHON }} -m pip install . -vv\"\n  skip: true  # [py<36]\n  entry_points:\n    - fluidimviewer-pg = fluidimage.gui.pg_main:main\n\nrequirements:\n  build:\n    - {{ compiler('cxx') }}\n  host:\n    - python\n    - pip\n    - setuptools_scm\n    - transonic >=0.4.2\n    - pythran\n    - numpy 1.17.*\n  run:\n    - python\n    - transonic >=0.4.2\n    - dask\n    - fluiddyn >=0.2.0\n    - h5netcdf\n    - h5py\n    - imageio\n    - matplotlib-base >=1.4.2\n    - {{ pin_compatible('numpy') }}\n    - pims\n    - pyfftw >=0.10.4\n    - scipy >=0.14.1\n    - trio\n    - ipython\n    - opencv\n    - transonic\n\ntest:\n  imports:\n    - fluidimage\n    - fluidimage.calcul\n    - fluidimage.calcul.interpolate\n    - fluidimage.calibration\n    - fluidimage.data_objects\n    - fluidimage.executors\n    - fluidimage.gui\n    - fluidimage.gui.launcher\n    - fluidimage.postproc\n    - fluidimage.preproc\n    - fluidimage.reconstruct\n    - fluidimage.topologies\n    - fluidimage.util\n    - fluidimage.works\n    - fluidimage.works.piv\n  commands:\n    - fluidimviewer-pg --help\n\nabout:\n  home: https://bitbucket.org/fluiddyn/fluidimage\n  license: CeCILL-B\n  license_file: LICENSE.txt\n  summary: libre Python framework for scientific processing of large series\n    of images.\n  description: |\n    This package is young but already good enough to be used \u201cin production\u201d\n    to display and pre-process images, compute displacement or velocity fields\n    with Particle Image Velocimetry (PIV, i.e. displacements of pattern\n    obtained by correlations of cropped images) and optical flow, analyze and\n    display PIV fields.\n\n  doc_url: https://fluidimage.readthedocs.io\n\nextra:\n  recipe-maintainers:\n    - CyrilleBonamy\n    - paugier\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "cxx_compiler_stub",
+   "dask",
+   "fluiddyn",
+   "h5netcdf",
+   "h5py",
+   "imageio",
+   "ipython",
+   "matplotlib-base",
+   "numpy",
+   "opencv",
+   "pims",
+   "pip",
+   "pyfftw",
+   "python",
+   "pythran",
+   "scipy",
+   "setuptools_scm",
+   "transonic",
+   "trio"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "cxx_compiler_stub"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "numpy",
+    "pip",
+    "python",
+    "pythran",
+    "setuptools_scm",
+    "transonic"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "dask",
+    "fluiddyn",
+    "h5netcdf",
+    "h5py",
+    "imageio",
+    "ipython",
+    "matplotlib-base",
+    "numpy",
+    "opencv",
+    "pims",
+    "pyfftw",
+    "python",
+    "scipy",
+    "transonic",
+    "trio"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.6.9",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "cxx_compiler_stub"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "numpy 1.17.*",
+    "pip",
+    "python",
+    "pythran",
+    "setuptools_scm",
+    "transonic >=0.4.2"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "dask",
+    "fluiddyn >=0.2.0",
+    "h5netcdf",
+    "h5py",
+    "imageio",
+    "ipython",
+    "matplotlib-base >=1.4.2",
+    "numpy",
+    "opencv",
+    "pims",
+    "pyfftw >=0.10.4",
+    "python",
+    "scipy >=0.14.1",
+    "transonic",
+    "transonic >=0.4.2",
+    "trio"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/f/fluidimage/fluidimage-0.1.2.tar.gz",
+ "version":"0.1.2"
+}

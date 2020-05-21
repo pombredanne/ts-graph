@@ -1,0 +1,231 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/263736947.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Rebuild",
+    "migrator_object_version":3,
+    "migrator_version":0,
+    "name":"OpenSSL"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/369935441.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"ArchRebuild",
+    "migrator_version":1,
+    "name":"aarch64 and ppc64le addition"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "provider":{
+   "linux_aarch64":"default",
+   "linux_ppc64le":"default"
+  }
+ },
+ "feedstock_name":"voms",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"The Virtual Organization Membership Service (VOMS) is an attribute\nauthority which serves as central repository for VO user authorization\ninformation, providing support for sorting users into group hierarchies,\nkeeping track of their roles and other attributes in order to issue\ntrusted attribute certificates and SAML assertions used in the Grid\nenvironment for authorization purposes.\n",
+   "dev_url":"https://github.com/italiangrid/voms",
+   "doc_url":"https://italiangrid.github.io/voms/documentation.html",
+   "home":"http://italiangrid.github.io/voms/",
+   "license":"Apache 2.0",
+   "license_family":"Apache",
+   "license_file":"LICENSE",
+   "summary":"Virtual Organisation Membership Service (C/C++ clients and APIs)"
+  },
+  "build":{
+   "number":"1",
+   "skip":true
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "chrisburr",
+    "chrisburr",
+    "chrisburr"
+   ]
+  },
+  "package":{
+   "name":"voms",
+   "version":"2.1.0rc0"
+  },
+  "requirements":{
+   "build":[
+    "cxx_compiler_stub",
+    "automake",
+    "libtool",
+    "make",
+    "pkg-config",
+    "cxx_compiler_stub",
+    "automake",
+    "libtool",
+    "make",
+    "pkg-config",
+    "cxx_compiler_stub",
+    "automake",
+    "libtool",
+    "make",
+    "pkg-config"
+   ],
+   "host":[
+    "expat",
+    "gsoap",
+    "openssl",
+    "zlib",
+    "expat",
+    "gsoap",
+    "openssl",
+    "zlib",
+    "expat",
+    "gsoap",
+    "openssl",
+    "zlib"
+   ],
+   "run_constrained":[
+    "voms-clients ==9999999",
+    "voms-clients ==9999999",
+    "voms-clients ==9999999"
+   ]
+  },
+  "source":{
+   "patches":[
+    "0001-PATCH-Fix-for-GCC-7.patch",
+    "0002-PATCH-wsdl2h-m4-Fix-detection-of-modern-wsdl2h-versions.patch",
+    "0003-HACK-Add-NI_MAXHOST-and-NI_MAXSERV-for-macOS.patch",
+    "0001-PATCH-Fix-for-GCC-7.patch",
+    "0002-PATCH-wsdl2h-m4-Fix-detection-of-modern-wsdl2h-versions.patch",
+    "0003-HACK-Add-NI_MAXHOST-and-NI_MAXSERV-for-macOS.patch",
+    "0001-PATCH-Fix-for-GCC-7.patch",
+    "0002-PATCH-wsdl2h-m4-Fix-detection-of-modern-wsdl2h-versions.patch",
+    "0003-HACK-Add-NI_MAXHOST-and-NI_MAXSERV-for-macOS.patch"
+   ],
+   "sha256":"69ffb09cf71bba2f43bc898b6c28644a75c4471f68331a047d3fafc7a63f9e84",
+   "url":"https://github.com/italiangrid/voms/archive/v2.1.0-rc0.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "voms-proxy-destroy --help",
+    "voms-proxy-fake --help",
+    "voms-proxy-info --help",
+    "voms-proxy-init --help",
+    "voms-proxy-list --help",
+    "which voms-verify",
+    "voms-proxy-destroy --help",
+    "voms-proxy-fake --help",
+    "voms-proxy-info --help",
+    "voms-proxy-init --help",
+    "voms-proxy-list --help",
+    "which voms-verify",
+    "voms-proxy-destroy --help",
+    "voms-proxy-fake --help",
+    "voms-proxy-info --help",
+    "voms-proxy-init --help",
+    "voms-proxy-list --help",
+    "which voms-verify"
+   ]
+  }
+ },
+ "name":"voms",
+ "new_version":"2.0.14",
+ "pinning_version":"2020.01.27",
+ "raw_meta_yaml":"{% set name = \"voms\" %}\n{% set version = \"2.1.0rc0\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  # Use the release candidate as it's now very old (tagged Jan 2017)\n  # Main difference is support for newer OpenSSL versions and would need to be patched regardless\n  url: https://github.com/italiangrid/{{ name }}/archive/v{{ version|replace('rc', '-rc') }}.tar.gz\n  sha256: 69ffb09cf71bba2f43bc898b6c28644a75c4471f68331a047d3fafc7a63f9e84\n  patches:\n    - 0001-PATCH-Fix-for-GCC-7.patch\n    - 0002-PATCH-wsdl2h-m4-Fix-detection-of-modern-wsdl2h-versions.patch\n    - 0003-HACK-Add-NI_MAXHOST-and-NI_MAXSERV-for-macOS.patch\n\nbuild:\n  number: 1\n  skip: True  # [win]\n\nrequirements:\n  build:\n    - {{ compiler('cxx') }}\n    - automake\n    - libtool\n    - make\n    - pkg-config\n  host:\n    - expat\n    - gsoap\n    - openssl\n    - zlib\n  run_constrained:\n    # Mark voms as conflicting with voms-clients\n    - voms-clients ==9999999\n\ntest:\n  commands:\n    - voms-proxy-destroy --help\n    - voms-proxy-fake --help\n    - voms-proxy-info --help\n    - voms-proxy-init --help\n    - voms-proxy-list --help\n    - which voms-verify\n\nabout:\n  home: http://italiangrid.github.io/voms/\n  license: Apache 2.0\n  license_family: Apache\n  license_file: LICENSE\n  summary: 'Virtual Organisation Membership Service (C/C++ clients and APIs)'\n\n  description: |\n     The Virtual Organization Membership Service (VOMS) is an attribute\n     authority which serves as central repository for VO user authorization\n     information, providing support for sorting users into group hierarchies,\n     keeping track of their roles and other attributes in order to issue\n     trusted attribute certificates and SAML assertions used in the Grid\n     environment for authorization purposes.\n  doc_url: https://italiangrid.github.io/voms/documentation.html\n  dev_url: https://github.com/italiangrid/voms\n\nextra:\n  recipe-maintainers:\n    - chrisburr\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "automake",
+   "cxx_compiler_stub",
+   "expat",
+   "gsoap",
+   "libtool",
+   "make",
+   "openssl",
+   "pkg-config",
+   "zlib"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "automake",
+    "cxx_compiler_stub",
+    "libtool",
+    "make",
+    "pkg-config"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "expat",
+    "gsoap",
+    "openssl",
+    "zlib"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.6.6",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "automake",
+    "cxx_compiler_stub",
+    "libtool",
+    "make",
+    "pkg-config"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "expat",
+    "gsoap",
+    "openssl",
+    "zlib"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://github.com/italiangrid/voms/archive/v2.1.0-rc0.tar.gz",
+ "version":"2.1.0rc0"
+}

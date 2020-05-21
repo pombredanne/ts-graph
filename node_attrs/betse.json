@@ -1,0 +1,374 @@
+{
+ "PRed":[
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.8.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/220969421.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.9.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/237051879.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.9.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/269918836.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.0.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/301795053.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Rebuild",
+    "migrator_version":0,
+    "name":"graphviz-2.40"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/321554754.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.1.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/346072752.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.1.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/375768318.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MatplotlibBase",
+    "migrator_version":0,
+    "name":"matplotlib-to-matplotlib-base"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"betse",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"BETSE (BioElectric Tissue Simulation Engine) is an open-source\ncross-platform finite volume simulator for 2D computational multiphysics\nproblems in the life sciences - including electrodiffusion,\nelectro-osmosis, galvanotaxis, voltage-gated ion channels, gene regulatory\nnetworks, and biochemical reaction networks (e.g., metabolism). BETSE is\nportably implemented in pure Python 3, continuously stress-tested with\nGitLab-CI * Appveyor + py.test, and permissively distributed under the BSD\n2-clause license.\n",
+   "dev_url":"https://gitlab.com/betse/betse",
+   "doc_url":"https://www.dropbox.com/s/3rsbrjq2ljal8dl/BETSE_Documentation_April10th2019.pdf?dl=0",
+   "home":"https://gitlab.com/betse/betse",
+   "license":"BSD-2-Clause",
+   "license_family":"BSD",
+   "license_file":"LICENSE",
+   "summary":"BETSE, the BioElectric Tissue Simulation Engine"
+  },
+  "build":{
+   "entry_points":[
+    "betse = betse.__main__:main",
+    "betse = betse.__main__:main",
+    "betse = betse.__main__:main"
+   ],
+   "noarch":"python",
+   "number":"1",
+   "script":" -m pip install . --no-deps --no-build-isolation --ignore-installed --no-cache-dir -vvv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "leycec",
+    "leycec",
+    "leycec"
+   ]
+  },
+  "package":{
+   "name":"betse",
+   "version":"1.1.1"
+  },
+  "requirements":{
+   "host":[
+    "python >=3.5",
+    "setuptools >=38.2.0",
+    "pip",
+    "python >=3.5",
+    "setuptools >=38.2.0",
+    "pip",
+    "python >=3.5",
+    "setuptools >=38.2.0",
+    "pip"
+   ],
+   "run":[
+    "python >=3.5",
+    "setuptools >=38.2.0",
+    "dill >=0.2.3",
+    "distro >=1.0.4",
+    "graphviz >=2.38.0",
+    "matplotlib-base >=1.5.0",
+    "networkx >=2.0",
+    "numpy >=1.13.0",
+    "pillow >=2.3.0",
+    "pydot >=1.0.28",
+    "ruamel.yaml >=0.15.24",
+    "scipy >=0.12.0",
+    "six >=1.5.2",
+    "ffmpeg",
+    "pyside2",
+    "python >=3.5",
+    "setuptools >=38.2.0",
+    "dill >=0.2.3",
+    "distro >=1.0.4",
+    "graphviz >=2.38.0",
+    "matplotlib-base >=1.5.0",
+    "networkx >=2.0",
+    "numpy >=1.13.0",
+    "pillow >=2.3.0",
+    "pydot >=1.0.28",
+    "ruamel.yaml >=0.15.24",
+    "scipy >=0.12.0",
+    "six >=1.5.2",
+    "ffmpeg",
+    "pyside2",
+    "python >=3.5",
+    "setuptools >=38.2.0",
+    "dill >=0.2.3",
+    "distro >=1.0.4",
+    "graphviz >=2.38.0",
+    "matplotlib-base >=1.5.0",
+    "networkx >=2.0",
+    "numpy >=1.13.0",
+    "pillow >=2.3.0",
+    "pydot >=1.0.28",
+    "ruamel.yaml >=0.15.24",
+    "scipy >=0.12.0",
+    "six >=1.5.2",
+    "ffmpeg",
+    "pyside2"
+   ]
+  },
+  "source":{
+   "fn":"betse-1.1.1.tar.gz",
+   "sha256":"5b91706195227391d94b4bca7c2a31a1a040226eb6fc5ae91a98e9d94dae72ea",
+   "url":"https://pypi.org/packages/source/b/betse/betse-1.1.1.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "betse --headless",
+    "betse --headless --help",
+    "betse --headless --version",
+    "betse --headless info",
+    "betse --headless",
+    "betse --headless --help",
+    "betse --headless --version",
+    "betse --headless info",
+    "betse --headless",
+    "betse --headless --help",
+    "betse --headless --version",
+    "betse --headless info"
+   ],
+   "imports":[
+    "betse",
+    "betse.cli",
+    "betse.lib",
+    "betse.util",
+    "betse",
+    "betse.cli",
+    "betse.lib",
+    "betse.util",
+    "betse",
+    "betse.cli",
+    "betse.lib",
+    "betse.util"
+   ]
+  }
+ },
+ "name":"betse",
+ "new_version":"1.1.1",
+ "pinning_version":"2020.02.12",
+ "raw_meta_yaml":"{% set name = \"betse\" %}\n{% set version = \"1.1.1\" %}\n{% set sha256 = \"5b91706195227391d94b4bca7c2a31a1a040226eb6fc5ae91a98e9d94dae72ea\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  fn: {{ name }}-{{ version }}.tar.gz\n  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 1\n  entry_points:\n    - betse = betse.__main__:main\n  script: \"{{ PYTHON }} -m pip install . --no-deps --no-build-isolation --ignore-installed --no-cache-dir -vvv\"\n  noarch: python\n\nrequirements:\n  host:\n    - python >=3.5\n    - setuptools >=38.2.0\n    - pip\n  run:\n    - python >=3.5\n    - setuptools >=38.2.0\n    - dill >=0.2.3\n    - distro >=1.0.4\n    - graphviz >=2.38.0\n    - matplotlib-base >=1.5.0\n    - networkx >=2.0\n    - numpy >=1.13.0\n    - pillow >=2.3.0\n    - pydot >=1.0.28\n    - ruamel.yaml >=0.15.24\n    - scipy >=0.12.0\n    - six >=1.5.2\n    - ffmpeg\n    - pyside2\n\ntest:\n  imports:\n    - betse\n    - betse.cli\n    - betse.lib\n    - betse.util\n  commands:\n    - betse --headless\n    - betse --headless --help\n    - betse --headless --version\n    - betse --headless info\n\nabout:\n  home: https://gitlab.com/betse/betse\n  license: BSD-2-Clause\n  license_family: BSD\n  license_file: LICENSE\n  summary: BETSE, the BioElectric Tissue Simulation Engine\n  description: |\n    BETSE (BioElectric Tissue Simulation Engine) is an open-source\n    cross-platform finite volume simulator for 2D computational multiphysics\n    problems in the life sciences - including electrodiffusion,\n    electro-osmosis, galvanotaxis, voltage-gated ion channels, gene regulatory\n    networks, and biochemical reaction networks (e.g., metabolism). BETSE is\n    portably implemented in pure Python 3, continuously stress-tested with\n    GitLab-CI * Appveyor + py.test, and permissively distributed under the BSD\n    2-clause license.\n  doc_url: https://www.dropbox.com/s/3rsbrjq2ljal8dl/BETSE_Documentation_April10th2019.pdf?dl=0\n  dev_url: https://gitlab.com/betse/betse\n\nextra:\n  recipe-maintainers:\n    - leycec\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "dill",
+   "distro",
+   "ffmpeg",
+   "graphviz",
+   "matplotlib-base",
+   "networkx",
+   "numpy",
+   "pillow",
+   "pip",
+   "pydot",
+   "pyside2",
+   "python",
+   "ruamel.yaml",
+   "scipy",
+   "setuptools",
+   "six"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python",
+    "setuptools"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "dill",
+    "distro",
+    "ffmpeg",
+    "graphviz",
+    "matplotlib-base",
+    "networkx",
+    "numpy",
+    "pillow",
+    "pydot",
+    "pyside2",
+    "python",
+    "ruamel.yaml",
+    "scipy",
+    "setuptools",
+    "six"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.6.8",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3.5",
+    "setuptools >=38.2.0"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "dill >=0.2.3",
+    "distro >=1.0.4",
+    "ffmpeg",
+    "graphviz >=2.38.0",
+    "matplotlib-base >=1.5.0",
+    "networkx >=2.0",
+    "numpy >=1.13.0",
+    "pillow >=2.3.0",
+    "pydot >=1.0.28",
+    "pyside2",
+    "python >=3.5",
+    "ruamel.yaml >=0.15.24",
+    "scipy >=0.12.0",
+    "setuptools >=38.2.0",
+    "six >=1.5.2"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.org/packages/source/b/betse/betse-1.0.0.tar.gz",
+ "version":"1.1.1"
+}

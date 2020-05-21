@@ -1,0 +1,185 @@
+{
+ "PRed":[
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.1.5"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/200127592.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Noarch",
+    "migrator_version":0
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"osmnet",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"Tools for the extraction of OpenStreetMap (OSM) street network data.\nIntended to be used in tandem with Pandana and UrbanAccess libraries to\nextract street network nodes and edges.\n",
+   "dev_url":"https://github.com/UDST/osmnet",
+   "doc_url":"https://udst.github.io/osmnet/",
+   "home":"https://github.com/UDST/osmnet",
+   "license":"AGPL-3.0",
+   "license_family":"AGPL",
+   "license_file":"LICENSE.txt",
+   "summary":"Tools for the extraction of OpenStreetMap street network data for use in Pandana accessibility analyses."
+  },
+  "build":{
+   "noarch":"python",
+   "number":"3",
+   "script":" -m pip install . --no-deps -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "pksohn",
+    "smmaurer",
+    "pksohn",
+    "smmaurer",
+    "pksohn",
+    "smmaurer"
+   ]
+  },
+  "package":{
+   "name":"osmnet",
+   "version":"0.1.5"
+  },
+  "requirements":{
+   "host":[
+    "python",
+    "pip",
+    "python",
+    "pip",
+    "python",
+    "pip"
+   ],
+   "run":[
+    "python",
+    "requests >=2.9.1",
+    "pandas >=0.16.0",
+    "numpy >=1.10",
+    "geopandas >=0.2.1",
+    "shapely >=1.5",
+    "python",
+    "requests >=2.9.1",
+    "pandas >=0.16.0",
+    "numpy >=1.10",
+    "geopandas >=0.2.1",
+    "shapely >=1.5",
+    "python",
+    "requests >=2.9.1",
+    "pandas >=0.16.0",
+    "numpy >=1.10",
+    "geopandas >=0.2.1",
+    "shapely >=1.5"
+   ]
+  },
+  "source":{
+   "sha256":"2fb96a7a95e34af45d1b8c5f88705da6876143820781220b1f55adf1f242639e",
+   "url":"https://pypi.io/packages/source/o/osmnet/osmnet-0.1.5.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "osmnet",
+    "osmnet",
+    "osmnet"
+   ]
+  }
+ },
+ "name":"osmnet",
+ "new_version":"0.1.5",
+ "pinning_version":"2018.07.01",
+ "raw_meta_yaml":"{% set version = \"0.1.5\" %}\n\npackage:\n  name: osmnet\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/o/osmnet/osmnet-{{ version }}.tar.gz\n  sha256: 2fb96a7a95e34af45d1b8c5f88705da6876143820781220b1f55adf1f242639e\n\nbuild:\n  number: 3\n  noarch: python\n  script: \"{{ PYTHON }} -m pip install . --no-deps -vv\"\n\nrequirements:\n  host:\n    - python\n    - pip\n  run:\n    - python\n    - requests >=2.9.1\n    - pandas >=0.16.0\n    - numpy >=1.10\n    - geopandas >=0.2.1\n    - shapely >=1.5\n\ntest:\n  imports:\n    - osmnet\n\nabout:\n  home: https://github.com/UDST/osmnet\n  license: AGPL-3.0\n  license_family: AGPL\n  license_file: LICENSE.txt\n  summary: 'Tools for the extraction of OpenStreetMap street network data for use in Pandana accessibility analyses.'\n  description: |\n    Tools for the extraction of OpenStreetMap (OSM) street network data.\n    Intended to be used in tandem with Pandana and UrbanAccess libraries to\n    extract street network nodes and edges.\n  doc_url: https://udst.github.io/osmnet/\n  dev_url: https://github.com/UDST/osmnet\n\nextra:\n  recipe-maintainers:\n    - pksohn\n    - smmaurer\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "geopandas",
+   "numpy",
+   "pandas",
+   "pip",
+   "python",
+   "requests",
+   "shapely"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "geopandas",
+    "numpy",
+    "pandas",
+    "python",
+    "requests",
+    "shapely"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.1.6",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "geopandas >=0.2.1",
+    "numpy >=1.10",
+    "pandas >=0.16.0",
+    "python",
+    "requests >=2.9.1",
+    "shapely >=1.5"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/o/osmnet/osmnet-0.1.5.tar.gz",
+ "version":"0.1.5"
+}

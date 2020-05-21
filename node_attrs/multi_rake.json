@@ -1,0 +1,147 @@
+{
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"multi_rake",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "dev_url":"https://github.com/vgrabovets/multi_rake",
+   "home":"https://github.com/vgrabovets/multi_rake",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"LICENSE",
+   "summary":"Multilingual Rapid Keyword Extraction (RAKE)"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "rluria14",
+    "oblute",
+    "benhuff",
+    "rluria14",
+    "oblute",
+    "benhuff",
+    "rluria14",
+    "oblute",
+    "benhuff"
+   ]
+  },
+  "package":{
+   "name":"multi_rake",
+   "version":"0.0.1"
+  },
+  "requirements":{
+   "host":[
+    "pip",
+    "python >=3.5",
+    "pip",
+    "python >=3.5",
+    "pip",
+    "python >=3.5"
+   ],
+   "run":[
+    "cld2-cffi >=0.1.4",
+    "numpy >=1.14.4",
+    "pyrsistent >=0.14.2",
+    "python >=3.5",
+    "regex >=2018.6.6",
+    "cld2-cffi >=0.1.4",
+    "numpy >=1.14.4",
+    "pyrsistent >=0.14.2",
+    "python >=3.5",
+    "regex >=2018.6.6",
+    "cld2-cffi >=0.1.4",
+    "numpy >=1.14.4",
+    "pyrsistent >=0.14.2",
+    "python >=3.5",
+    "regex >=2018.6.6"
+   ]
+  },
+  "source":{
+   "sha256":"885ab2fd795cb96015aa552f22b35b8ae9065ae2d2d5c1af42a1bb32e081bec4",
+   "url":"https://pypi.io/packages/source/m/multi_rake/multi_rake-0.0.1.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "multi_rake",
+    "multi_rake",
+    "multi_rake"
+   ]
+  }
+ },
+ "name":"multi_rake",
+ "new_version":"0.0.1",
+ "raw_meta_yaml":"{% set name = \"multi_rake\" %}\n{% set version = \"0.0.1\" %}\n\npackage:\n  name: \"{{ name|lower }}\"\n  version: \"{{ version }}\"\n\nsource:\n  url: \"https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\"\n  sha256: 885ab2fd795cb96015aa552f22b35b8ae9065ae2d2d5c1af42a1bb32e081bec4\n\nbuild:\n  noarch: python\n  number: 0\n  script: \"{{ PYTHON }} -m pip install . -vv\"\n\nrequirements:\n  host:\n    - pip\n    - python >=3.5\n  run:\n    - cld2-cffi >=0.1.4\n    - numpy >=1.14.4\n    - pyrsistent >=0.14.2\n    - python >=3.5\n    - regex >=2018.6.6\n\ntest:\n  imports:\n    - multi_rake\n\nabout:\n  home: \"https://github.com/vgrabovets/multi_rake\"\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE\n  summary: \"Multilingual Rapid Keyword Extraction (RAKE)\"\n  dev_url: \"https://github.com/vgrabovets/multi_rake\"\n\nextra:\n  recipe-maintainers:\n    - rluria14\n    - oblute\n    - benhuff\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "cld2-cffi",
+   "numpy",
+   "pip",
+   "pyrsistent",
+   "python",
+   "regex"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "cld2-cffi",
+    "numpy",
+    "pyrsistent",
+    "python",
+    "regex"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3.5"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "cld2-cffi >=0.1.4",
+    "numpy >=1.14.4",
+    "pyrsistent >=0.14.2",
+    "python >=3.5",
+    "regex >=2018.6.6"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/m/multi_rake/multi_rake-0.0.1.tar.gz",
+ "version":"0.0.1"
+}

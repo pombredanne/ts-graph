@@ -1,0 +1,142 @@
+{
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"xcb-util",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"https://xcb.freedesktop.org/",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"COPYING",
+   "summary":"Standard X key constants and conversion to/from keycodes"
+  },
+  "build":{
+   "number":"0",
+   "run_exports":[
+    "xcb-util",
+    "xcb-util",
+    "xcb-util"
+   ],
+   "skip":true
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "scopatz",
+    "scopatz",
+    "scopatz"
+   ]
+  },
+  "package":{
+   "name":"xcb-util",
+   "version":"0.4.0"
+  },
+  "requirements":{
+   "build":[
+    "c_compiler_stub",
+    "make",
+    "pkg-config",
+    "c_compiler_stub",
+    "make",
+    "pkg-config",
+    "c_compiler_stub",
+    "make",
+    "pkg-config"
+   ],
+   "host":[
+    "libxcb >=1.13",
+    "xorg-xproto",
+    "libxcb >=1.13",
+    "xorg-xproto",
+    "libxcb >=1.13",
+    "xorg-xproto"
+   ],
+   "run":[
+    "libxcb >=1.13",
+    "libxcb >=1.13",
+    "libxcb >=1.13"
+   ]
+  },
+  "source":{
+   "sha256":"46e49469cb3b594af1d33176cd7565def2be3fa8be4371d62271fabb5eae50e9",
+   "url":"https://xcb.freedesktop.org/dist/xcb-util-0.4.0.tar.bz2"
+  },
+  "test":{
+   "commands":[
+    "test -f ${PREFIX}/lib/libxcb-util.so",
+    "test -f ${PREFIX}/lib/libxcb-util.so",
+    "test -f ${PREFIX}/lib/libxcb-util.so"
+   ]
+  }
+ },
+ "name":"xcb-util",
+ "new_version":false,
+ "raw_meta_yaml":"{% set name = \"xcb-util\" %}\n{% set version = \"0.4.0\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://xcb.freedesktop.org/dist/xcb-util-{{ version }}.tar.bz2\n  sha256: 46e49469cb3b594af1d33176cd7565def2be3fa8be4371d62271fabb5eae50e9\n\nbuild:\n  number: 0\n  skip: true  # [not linux]\n  run_exports:\n    - {{ pin_subpackage('xcb-util', max_pin='x.x') }}\n\nrequirements:\n  build:\n    - {{ compiler('c') }}\n    - make\n    - pkg-config\n  host:\n    - libxcb >=1.13\n    - xorg-xproto\n  run:\n    - libxcb >=1.13\n\ntest:\n  commands:\n    - test -f ${PREFIX}/lib/libxcb-util.so\n\nabout:\n  home: https://xcb.freedesktop.org/\n  license: MIT\n  license_family: MIT\n  license_file: COPYING\n  summary: 'Standard X key constants and conversion to/from keycodes'\n\nextra:\n  recipe-maintainers:\n    - scopatz\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "c_compiler_stub",
+   "libxcb",
+   "make",
+   "pkg-config",
+   "xorg-xproto"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "make",
+    "pkg-config"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "libxcb",
+    "xorg-xproto"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "libxcb"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "make",
+    "pkg-config"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "libxcb >=1.13",
+    "xorg-xproto"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "libxcb >=1.13"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://xcb.freedesktop.org/dist/xcb-util-0.4.0.tar.bz2",
+ "version":"0.4.0"
+}

@@ -1,0 +1,247 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/299544929.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"RBaseRebuild",
+    "migrator_version":0,
+    "name":"r-base-3.6.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/340027322.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.0.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/344119341.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.0.3"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/413894653.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":2,
+    "migrator_version":0,
+    "name":"r400"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "bot":{
+   "automerge":true
+  },
+  "provider":{
+   "win":"azure"
+  }
+ },
+ "feedstock_name":"r-rmagic",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"https://CRAN.R-project.org/package=Rmagic",
+   "license":"GPL-2",
+   "license_family":"GPL2",
+   "license_file":"/lib/R/share/licenses/GPL-2",
+   "summary":"MAGIC (Markov affinity-based graph imputation of cells) is a method for addressing technical noise in single-cell data, including under-sampling of mRNA molecules, often termed \"dropout\" which can severely obscure important gene-gene relationships. MAGIC shares information across similar cells, via data diffusion, to denoise the cell count matrix and fill in missing transcripts. Read more: van Dijk et al. (2018) <DOI:10.1016/j.cell.2018.05.061>."
+  },
+  "build":{
+   "merge_build_host":true,
+   "noarch":"generic",
+   "number":"1",
+   "rpaths":[
+    "lib/R/lib/",
+    "lib/",
+    "lib/R/lib/",
+    "lib/",
+    "lib/R/lib/",
+    "lib/"
+   ]
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "conda-forge/r",
+    "conda-forge/r",
+    "conda-forge/r"
+   ]
+  },
+  "package":{
+   "name":"r-rmagic",
+   "version":"2.0.3"
+  },
+  "requirements":{
+   "build":null,
+   "host":[
+    "r-base",
+    "r-matrix >=1.2_0",
+    "r-ggplot2",
+    "r-reticulate >=1.4",
+    "r-base",
+    "r-matrix >=1.2_0",
+    "r-ggplot2",
+    "r-reticulate >=1.4",
+    "r-base",
+    "r-matrix >=1.2_0",
+    "r-ggplot2",
+    "r-reticulate >=1.4"
+   ],
+   "run":[
+    "r-base",
+    "r-matrix >=1.2_0",
+    "r-ggplot2",
+    "r-reticulate >=1.4",
+    "r-base",
+    "r-matrix >=1.2_0",
+    "r-ggplot2",
+    "r-reticulate >=1.4",
+    "r-base",
+    "r-matrix >=1.2_0",
+    "r-ggplot2",
+    "r-reticulate >=1.4"
+   ]
+  },
+  "source":{
+   "sha256":"a13f958cbe34b5b12269575a67e1e211b9b8a5cd0e2af6a5971908b40f424e3c",
+   "url":[
+    "https://cran.r-project.org/src/contrib/Rmagic_2.0.3.tar.gz",
+    "https://cran.r-project.org/src/contrib/Archive/Rmagic/Rmagic_2.0.3.tar.gz",
+    "https://cran.r-project.org/src/contrib/Rmagic_2.0.3.tar.gz",
+    "https://cran.r-project.org/src/contrib/Archive/Rmagic/Rmagic_2.0.3.tar.gz",
+    "https://cran.r-project.org/src/contrib/Rmagic_2.0.3.tar.gz",
+    "https://cran.r-project.org/src/contrib/Archive/Rmagic/Rmagic_2.0.3.tar.gz"
+   ]
+  },
+  "test":{
+   "commands":[
+    "\"%R%\" -e \"library('Rmagic')\"",
+    "$R -e \"library('Rmagic')\"",
+    "$R -e \"library('Rmagic')\""
+   ]
+  }
+ },
+ "name":"r-rmagic",
+ "new_version":"2.0.3",
+ "pinning_version":"2020.05.04.19.59.17",
+ "raw_meta_yaml":"{% set version = \"2.0.3\" %}\n{% set posix = 'm2-' if win else '' %}\n{% set native = 'm2w64-' if win else '' %}\n\npackage:\n  name: r-rmagic\n  version: {{ version|replace(\"-\", \"_\") }}\n\nsource:\n  url:\n    - {{ cran_mirror }}/src/contrib/Rmagic_{{ version }}.tar.gz\n    - {{ cran_mirror }}/src/contrib/Archive/Rmagic/Rmagic_{{ version }}.tar.gz\n  sha256: a13f958cbe34b5b12269575a67e1e211b9b8a5cd0e2af6a5971908b40f424e3c\n\nbuild:\n  merge_build_host: True  # [win]\n  number: 1\n  noarch: generic\n  rpaths:\n    - lib/R/lib/\n    - lib/\n\nrequirements:\n  build:\n    - {{ posix }}zip               # [win]\n  host:\n    - r-base\n    - r-matrix >=1.2_0\n    - r-ggplot2\n    - r-reticulate >=1.4\n  run:\n    - r-base\n    - r-matrix >=1.2_0\n    - r-ggplot2\n    - r-reticulate >=1.4\n\ntest:\n  commands:\n    - $R -e \"library('Rmagic')\"           # [not win]\n    - \"\\\"%R%\\\" -e \\\"library('Rmagic')\\\"\"  # [win]\n\nabout:\n  home: https://CRAN.R-project.org/package=Rmagic\n  license: GPL-2\n  summary: 'MAGIC (Markov affinity-based graph imputation of cells) is a method for addressing\n    technical noise in single-cell data, including under-sampling of mRNA molecules,\n    often termed \"dropout\" which can severely obscure important gene-gene relationships.\n    MAGIC shares information across similar cells, via data diffusion, to denoise the\n    cell count matrix and fill in missing transcripts. Read more: van Dijk et al. (2018)\n    <DOI:10.1016/j.cell.2018.05.061>.'\n  license_family: GPL2\n  license_file: '{{ environ[\"PREFIX\"] }}/lib/R/share/licenses/GPL-2'\n\nextra:\n  recipe-maintainers:\n    - conda-forge/r\n\n# Package: Rmagic\n# Type: Package\n# Title: MAGIC - Markov Affinity-Based Graph Imputation of Cells\n# Version: 1.4.0\n# Authors@R: c(person(given = \"David\", family = \"van Dijk\", email = \"davidvandijk@gmail.com\", role = c(\"aut\")), person(given = 'Scott', family = 'Gigante', email = 'scott.gigante@yale.edu', role = 'cre',  comment = c(ORCID = '0000-0002-4544-2764')))\n# Maintainer: Scott Gigante <scott.gigante@yale.edu>\n# Description: MAGIC (Markov affinity-based graph imputation of cells) is a method for addressing technical noise in single-cell data, including under-sampling of mRNA molecules, often termed \"dropout\" which can severely obscure important gene-gene relationships. MAGIC shares information across similar cells, via data diffusion, to denoise the cell count matrix and fill in missing transcripts. Read more: van Dijk et al. (2018) <DOI:10.1016/j.cell.2018.05.061>.\n# Depends: R (>= 3.3), Matrix (>= 1.2-0)\n# Imports: methods, stats, reticulate (>= 1.4), ggplot2\n# Suggests: readr, viridis, phateR\n# License: GPL-2 | file LICENSE\n# LazyData: true\n# RoxygenNote: 6.1.0\n# Encoding: UTF-8\n# NeedsCompilation: no\n# Packaged: 2018-11-24 19:09:42 UTC; scott\n# Author: David van Dijk [aut], Scott Gigante [cre] (<https://orcid.org/0000-0002-4544-2764>)\n# Repository: CRAN\n# Date/Publication: 2018-11-24 19:30:02 UTC\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "r-base",
+   "r-ggplot2",
+   "r-matrix",
+   "r-reticulate"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "r-base",
+    "r-ggplot2",
+    "r-matrix",
+    "r-reticulate"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "r-base",
+    "r-ggplot2",
+    "r-matrix",
+    "r-reticulate"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.7.0\n",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "r-base",
+    "r-ggplot2",
+    "r-matrix >=1.2_0",
+    "r-reticulate >=1.4"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "r-base",
+    "r-ggplot2",
+    "r-matrix >=1.2_0",
+    "r-reticulate >=1.4"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":[
+  "https://cran.r-project.org/src/contrib/Rmagic_1.4.0.tar.gz",
+  "https://cran.r-project.org/src/contrib/Archive/Rmagic/Rmagic_1.4.0.tar.gz",
+  "https://cran.r-project.org/src/contrib/Rmagic_1.4.0.tar.gz",
+  "https://cran.r-project.org/src/contrib/Archive/Rmagic/Rmagic_1.4.0.tar.gz",
+  "https://cran.r-project.org/src/contrib/Rmagic_1.4.0.tar.gz",
+  "https://cran.r-project.org/src/contrib/Archive/Rmagic/Rmagic_1.4.0.tar.gz"
+ ],
+ "version":"2.0.3"
+}

@@ -1,0 +1,124 @@
+{
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"colcon-parallel-executor",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"https://github.com/colcon/colcon-parallel-executor",
+   "license":"Apache-2.0",
+   "license_file":"LICENSE",
+   "summary":"An extension for colcon-core to process packages in parallel.\n"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "seanyen",
+    "wolfv",
+    "seanyen",
+    "wolfv",
+    "seanyen",
+    "wolfv"
+   ]
+  },
+  "package":{
+   "name":"colcon-parallel-executor",
+   "version":"0.2.4"
+  },
+  "requirements":{
+   "host":[
+    "pip",
+    "python >=3.5",
+    "pip",
+    "python >=3.5",
+    "pip",
+    "python >=3.5"
+   ],
+   "run":[
+    "python >=3.5",
+    "colcon-core >=0.3.15",
+    "python >=3.5",
+    "colcon-core >=0.3.15",
+    "python >=3.5",
+    "colcon-core >=0.3.15"
+   ]
+  },
+  "source":{
+   "sha256":"08bdb728fd5830f343230e999eb6ef421b198de8cd44f7c262fe9d4dfa2aacde",
+   "url":"https://github.com/colcon/colcon-parallel-executor/archive/0.2.4.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "colcon_parallel_executor",
+    "colcon_parallel_executor",
+    "colcon_parallel_executor"
+   ]
+  }
+ },
+ "name":"colcon-parallel-executor",
+ "new_version":"0.2.4",
+ "raw_meta_yaml":"{% set name = \"colcon-parallel-executor\" %}\n{% set version = \"0.2.4\" %}\n\npackage:\n  name: \"{{ name|lower }}\"\n  version: \"{{ version }}\"\n\nsource:\n  url: https://github.com/colcon/{{ name }}/archive/{{ version }}.tar.gz\n  sha256: 08bdb728fd5830f343230e999eb6ef421b198de8cd44f7c262fe9d4dfa2aacde\n\nbuild:\n  number: 0\n  script: \"{{ PYTHON }} -m pip install . -vv\"\n  noarch: python\n\nrequirements:\n  host:\n    - pip\n    - python >=3.5\n  run:\n    - python >=3.5\n    - colcon-core >=0.3.15\n\ntest:\n  imports:\n    - {{ name.replace(\"-\", \"_\") }}\n\nabout:\n  home: https://github.com/colcon/{{ name }}\n  license: Apache-2.0\n  license_file: LICENSE\n  summary: |\n    An extension for colcon-core to process packages in parallel.\n\nextra:\n  recipe-maintainers:\n    - seanyen\n    - wolfv\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "colcon-core",
+   "pip",
+   "python"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "colcon-core",
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3.5"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "colcon-core >=0.3.15",
+    "python >=3.5"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://github.com/colcon/colcon-parallel-executor/archive/0.2.4.tar.gz",
+ "version":"0.2.4"
+}

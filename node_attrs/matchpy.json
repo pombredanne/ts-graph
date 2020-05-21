@@ -1,0 +1,182 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/263865697.json"
+   },
+   "data":{
+    "bot_rerun":1579272528.5065618,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.5.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/274693487.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.5.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"matchpy",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "dev_url":"https://github.com/HPAC/matchpy",
+   "doc_url":"https://matchpy.readthedocs.io/",
+   "home":"https://github.com/HPAC/matchpy",
+   "license":"MIT",
+   "license_family":"MIT",
+   "summary":"MatchPy is a pattern matching library for Python."
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":"python -m pip install --no-deps --ignore-installed ."
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "asmeurer",
+    "henrik227",
+    "asmeurer",
+    "henrik227",
+    "asmeurer",
+    "henrik227"
+   ]
+  },
+  "package":{
+   "name":"matchpy",
+   "version":"0.5.1"
+  },
+  "requirements":{
+   "host":[
+    "python >=3.6",
+    "pip",
+    "setuptools_scm >=1.7.0",
+    "pytest-runner",
+    "python >=3.6",
+    "pip",
+    "setuptools_scm >=1.7.0",
+    "pytest-runner",
+    "python >=3.6",
+    "pip",
+    "setuptools_scm >=1.7.0",
+    "pytest-runner"
+   ],
+   "run":[
+    "python >=3.6",
+    "hopcroftkarp >=1.2,<2.0",
+    "multiset >=2.0,<3.0",
+    "python >=3.6",
+    "hopcroftkarp >=1.2,<2.0",
+    "multiset >=2.0,<3.0",
+    "python >=3.6",
+    "hopcroftkarp >=1.2,<2.0",
+    "multiset >=2.0,<3.0"
+   ]
+  },
+  "source":{
+   "sha256":"59444ab56f67251d96291231b9f7a328340b0670895dbf7f0dbff0991a0b6eef",
+   "url":"https://pypi.io/packages/source/m/matchpy/matchpy-0.5.1.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "matchpy",
+    "matchpy",
+    "matchpy"
+   ]
+  }
+ },
+ "name":"matchpy",
+ "new_version":"0.5.1",
+ "pinning_version":"2019.04.25",
+ "raw_meta_yaml":"{% set name = \"matchpy\" %}\n{% set version = \"0.5.1\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: 59444ab56f67251d96291231b9f7a328340b0670895dbf7f0dbff0991a0b6eef\n\nbuild:\n  number: 0\n  script: python -m pip install --no-deps --ignore-installed .\n  noarch: python\n\nrequirements:\n  host:\n    - python >=3.6\n    - pip\n    - setuptools_scm >=1.7.0\n    - pytest-runner\n  run:\n    - python >=3.6\n    - hopcroftkarp >=1.2,<2.0\n    - multiset >=2.0,<3.0\n\ntest:\n  imports:\n    - matchpy\n\nabout:\n  home: https://github.com/HPAC/matchpy\n  license: MIT\n  license_family: MIT\n  summary: 'MatchPy is a pattern matching library for Python.'\n\n  doc_url: https://matchpy.readthedocs.io/\n  dev_url: https://github.com/HPAC/matchpy\n\nextra:\n  recipe-maintainers:\n    - asmeurer\n    - henrik227\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "hopcroftkarp",
+   "multiset",
+   "pip",
+   "pytest-runner",
+   "python",
+   "setuptools_scm"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "pytest-runner",
+    "python",
+    "setuptools_scm"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "hopcroftkarp",
+    "multiset",
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.3.4",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "pytest-runner",
+    "python >=3.6",
+    "setuptools_scm >=1.7.0"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "hopcroftkarp >=1.2,<2.0",
+    "multiset >=2.0,<3.0",
+    "python >=3.6"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/m/matchpy/matchpy-0.5.1.tar.gz",
+ "version":"0.5.1"
+}

@@ -1,0 +1,289 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/205478674.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.4.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/223352640.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.5.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/223566327.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.5.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/309629354.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.6.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/376198590.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MatplotlibBase",
+    "migrator_version":0,
+    "name":"matplotlib-to-matplotlib-base"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"plotnine",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "dev_url":"https://github.com/has2k1/plotnine",
+   "doc_url":"https://plotnine.readthedocs.io",
+   "home":"https://github.com/has2k1/plotnine",
+   "license":"GPL 2.0",
+   "license_family":"GPL2",
+   "license_file":"/LICENSE",
+   "summary":"A grammar of graphics for python"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"1",
+   "script":"python -m pip install --no-deps --ignore-installed ."
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "pmlandwehr",
+    "has2k1",
+    "pmlandwehr",
+    "has2k1",
+    "pmlandwehr",
+    "has2k1"
+   ]
+  },
+  "package":{
+   "name":"plotnine",
+   "version":"0.6.0"
+  },
+  "requirements":{
+   "build":[
+    "python >=3.6.0",
+    "pip",
+    "python >=3.6.0",
+    "pip",
+    "python >=3.6.0",
+    "pip"
+   ],
+   "run":[
+    "python >=3.6.0",
+    "mizani >=0.6.0",
+    "matplotlib-base >=3.1.1",
+    "numpy >=1.16.0",
+    "scipy >=1.2.0",
+    "patsy >=0.4.1",
+    "statsmodels >=0.9.0",
+    "pandas >=0.25.0",
+    "descartes >=1.1.0",
+    "python >=3.6.0",
+    "mizani >=0.6.0",
+    "matplotlib-base >=3.1.1",
+    "numpy >=1.16.0",
+    "scipy >=1.2.0",
+    "patsy >=0.4.1",
+    "statsmodels >=0.9.0",
+    "pandas >=0.25.0",
+    "descartes >=1.1.0",
+    "python >=3.6.0",
+    "mizani >=0.6.0",
+    "matplotlib-base >=3.1.1",
+    "numpy >=1.16.0",
+    "scipy >=1.2.0",
+    "patsy >=0.4.1",
+    "statsmodels >=0.9.0",
+    "pandas >=0.25.0",
+    "descartes >=1.1.0"
+   ]
+  },
+  "source":{
+   "fn":"plotnine-0.6.0.tar.gz",
+   "sha256":"aae2c8164abb209ef4f28cab01132d23f6879fcf8d492657487359e1241459e5",
+   "url":"https://pypi.org/packages/source/p/plotnine/plotnine-0.6.0.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "plotnine",
+    "plotnine.coords",
+    "plotnine.data",
+    "plotnine.facets",
+    "plotnine.geoms",
+    "plotnine.guides",
+    "plotnine.positions",
+    "plotnine.scales",
+    "plotnine.stats",
+    "plotnine.tests",
+    "plotnine.themes",
+    "plotnine",
+    "plotnine.coords",
+    "plotnine.data",
+    "plotnine.facets",
+    "plotnine.geoms",
+    "plotnine.guides",
+    "plotnine.positions",
+    "plotnine.scales",
+    "plotnine.stats",
+    "plotnine.tests",
+    "plotnine.themes",
+    "plotnine",
+    "plotnine.coords",
+    "plotnine.data",
+    "plotnine.facets",
+    "plotnine.geoms",
+    "plotnine.guides",
+    "plotnine.positions",
+    "plotnine.scales",
+    "plotnine.stats",
+    "plotnine.tests",
+    "plotnine.themes"
+   ]
+  }
+ },
+ "name":"plotnine",
+ "new_version":"0.6.0",
+ "pinning_version":"2020.02.12",
+ "raw_meta_yaml":"{% set name = \"plotnine\" %}\n{% set version = \"0.6.0\" %}\n{% set bundle = \"tar.gz\" %}\n{% set hash_type = \"sha256\" %}\n{% set hash = \"aae2c8164abb209ef4f28cab01132d23f6879fcf8d492657487359e1241459e5\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  fn: {{ name }}-{{ version }}.{{ bundle }}\n  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.{{ bundle }}\n  {{ hash_type }}: {{ hash }}\n\nbuild:\n  number: 1\n  script: python -m pip install --no-deps --ignore-installed .\n  noarch: python\n\nrequirements:\n  build:\n    - python >=3.6.0\n    - pip\n\n  run:\n    - python >=3.6.0\n    - mizani >=0.6.0\n    - matplotlib-base >=3.1.1\n    - numpy >=1.16.0\n    - scipy >=1.2.0\n    - patsy >=0.4.1\n    - statsmodels >=0.9.0\n    - pandas >=0.25.0\n    # - geopandas >=0.3.0\n    - descartes >=1.1.0\n\ntest:\n  imports:\n    - plotnine\n    - plotnine.coords\n    - plotnine.data\n    - plotnine.facets\n    - plotnine.geoms\n    - plotnine.guides\n    - plotnine.positions\n    - plotnine.scales\n    - plotnine.stats\n    - plotnine.tests\n    - plotnine.themes\n\nabout:\n  home: https://github.com/has2k1/plotnine\n  license_file: {{ RECIPE_DIR }}/LICENSE\n  license: GPL 2.0\n  license_family: GPL2\n  summary: 'A grammar of graphics for python'\n  dev_url: https://github.com/has2k1/plotnine\n  doc_url: https://plotnine.readthedocs.io\n\nextra:\n  recipe-maintainers:\n    - pmlandwehr\n    - has2k1\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "descartes",
+   "matplotlib-base",
+   "mizani",
+   "numpy",
+   "pandas",
+   "patsy",
+   "pip",
+   "python",
+   "scipy",
+   "statsmodels"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "descartes",
+    "matplotlib-base",
+    "mizani",
+    "numpy",
+    "pandas",
+    "patsy",
+    "python",
+    "scipy",
+    "statsmodels"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.6.8",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3.6.0"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "descartes >=1.1.0",
+    "matplotlib-base >=3.1.1",
+    "mizani >=0.6.0",
+    "numpy >=1.16.0",
+    "pandas >=0.25.0",
+    "patsy >=0.4.1",
+    "python >=3.6.0",
+    "scipy >=1.2.0",
+    "statsmodels >=0.9.0"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.org/packages/source/p/plotnine/plotnine-0.6.0.tar.gz",
+ "version":"0.6.0"
+}

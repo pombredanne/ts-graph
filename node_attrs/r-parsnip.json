@@ -1,0 +1,432 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/237740575.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/299296978.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"RBaseRebuild",
+    "migrator_version":0,
+    "name":"r-base-3.6.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/302956209.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.0.3"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/304626138.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.0.3.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/335905633.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.0.4"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/360176302.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.0.5"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/401217213.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.1.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/412758103.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":2,
+    "migrator_version":0,
+    "name":"r400"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/413917805.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.1.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "bot":{
+   "automerge":true
+  },
+  "provider":{
+   "win":"azure"
+  }
+ },
+ "feedstock_name":"r-parsnip",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"https://tidymodels.github.io/parsnip, https://github.com/tidymodels/parsnip",
+   "license":"GPL-2",
+   "license_family":"GPL2",
+   "license_file":[
+    "/lib/R/share/licenses/GPL-2",
+    "/lib/R/share/licenses/GPL-2",
+    "/lib/R/share/licenses/GPL-2"
+   ],
+   "summary":"A common interface is provided to allow users to specify a model without having to remember the different argument names across different functions or computational engines (e.g. 'R', 'Spark', 'Stan', etc)."
+  },
+  "build":{
+   "merge_build_host":true,
+   "noarch":"generic",
+   "number":"0",
+   "rpaths":[
+    "lib/R/lib/",
+    "lib/",
+    "lib/R/lib/",
+    "lib/",
+    "lib/R/lib/",
+    "lib/"
+   ]
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "apcamargo",
+    "conda-forge/r",
+    "apcamargo",
+    "conda-forge/r",
+    "apcamargo",
+    "conda-forge/r"
+   ]
+  },
+  "package":{
+   "name":"r-parsnip",
+   "version":"0.1.1"
+  },
+  "requirements":{
+   "build":null,
+   "host":[
+    "r-base",
+    "r-dplyr >=0.8.0.1",
+    "r-generics",
+    "r-globals",
+    "r-glue",
+    "r-magrittr",
+    "r-prettyunits",
+    "r-purrr",
+    "r-rlang >=0.3.1",
+    "r-tibble >=2.1.1",
+    "r-tidyr",
+    "r-vctrs >=0.2.0",
+    "r-base",
+    "r-dplyr >=0.8.0.1",
+    "r-generics",
+    "r-globals",
+    "r-glue",
+    "r-magrittr",
+    "r-prettyunits",
+    "r-purrr",
+    "r-rlang >=0.3.1",
+    "r-tibble >=2.1.1",
+    "r-tidyr",
+    "r-vctrs >=0.2.0",
+    "r-base",
+    "r-dplyr >=0.8.0.1",
+    "r-generics",
+    "r-globals",
+    "r-glue",
+    "r-magrittr",
+    "r-prettyunits",
+    "r-purrr",
+    "r-rlang >=0.3.1",
+    "r-tibble >=2.1.1",
+    "r-tidyr",
+    "r-vctrs >=0.2.0"
+   ],
+   "run":[
+    "r-base",
+    "r-dplyr >=0.8.0.1",
+    "r-generics",
+    "r-globals",
+    "r-glue",
+    "r-magrittr",
+    "r-prettyunits",
+    "r-purrr",
+    "r-rlang >=0.3.1",
+    "r-tibble >=2.1.1",
+    "r-tidyr",
+    "r-vctrs >=0.2.0",
+    "r-base",
+    "r-dplyr >=0.8.0.1",
+    "r-generics",
+    "r-globals",
+    "r-glue",
+    "r-magrittr",
+    "r-prettyunits",
+    "r-purrr",
+    "r-rlang >=0.3.1",
+    "r-tibble >=2.1.1",
+    "r-tidyr",
+    "r-vctrs >=0.2.0",
+    "r-base",
+    "r-dplyr >=0.8.0.1",
+    "r-generics",
+    "r-globals",
+    "r-glue",
+    "r-magrittr",
+    "r-prettyunits",
+    "r-purrr",
+    "r-rlang >=0.3.1",
+    "r-tibble >=2.1.1",
+    "r-tidyr",
+    "r-vctrs >=0.2.0"
+   ]
+  },
+  "source":{
+   "sha256":"f49038cc71099df7956dfbdf90fbc7449c456a8482e41955c1968a26f55263dc",
+   "url":[
+    "https://cran.r-project.org/src/contrib/parsnip_0.1.1.tar.gz",
+    "https://cran.r-project.org/src/contrib/Archive/parsnip/parsnip_0.1.1.tar.gz",
+    "https://cran.r-project.org/src/contrib/parsnip_0.1.1.tar.gz",
+    "https://cran.r-project.org/src/contrib/Archive/parsnip/parsnip_0.1.1.tar.gz",
+    "https://cran.r-project.org/src/contrib/parsnip_0.1.1.tar.gz",
+    "https://cran.r-project.org/src/contrib/Archive/parsnip/parsnip_0.1.1.tar.gz"
+   ]
+  },
+  "test":{
+   "commands":[
+    "\"%R%\" -e \"library('parsnip')\"",
+    "$R -e \"library('parsnip')\"",
+    "$R -e \"library('parsnip')\""
+   ]
+  }
+ },
+ "name":"r-parsnip",
+ "new_version":"0.1.1",
+ "new_version_attempts":{
+  "0.1.0":1,
+  "0.1.1":1
+ },
+ "new_version_errors":{},
+ "pinning_version":"2020.05.04.19.59.17",
+ "raw_meta_yaml":"{% set version = \"0.1.1\" %}\n{% set posix = 'm2-' if win else '' %}\n{% set native = 'm2w64-' if win else '' %}\n\npackage:\n  name: r-parsnip\n  version: {{ version|replace(\"-\", \"_\") }}\n\nsource:\n  url:\n    - {{ cran_mirror }}/src/contrib/parsnip_{{ version }}.tar.gz\n    - {{ cran_mirror }}/src/contrib/Archive/parsnip/parsnip_{{ version }}.tar.gz\n  sha256: f49038cc71099df7956dfbdf90fbc7449c456a8482e41955c1968a26f55263dc\n\nbuild:\n  merge_build_host: true  # [win]\n  number: 0\n  noarch: generic\n  rpaths:\n    - lib/R/lib/\n    - lib/\n\nrequirements:\n  build:\n    - {{ posix }}zip               # [win]\n  host:\n    - r-base\n    - r-dplyr >=0.8.0.1\n    - r-generics\n    - r-globals\n    - r-glue\n    - r-magrittr\n    - r-prettyunits\n    - r-purrr\n    - r-rlang >=0.3.1\n    - r-tibble >=2.1.1\n    - r-tidyr\n    - r-vctrs >=0.2.0\n  run:\n    - r-base\n    - r-dplyr >=0.8.0.1\n    - r-generics\n    - r-globals\n    - r-glue\n    - r-magrittr\n    - r-prettyunits\n    - r-purrr\n    - r-rlang >=0.3.1\n    - r-tibble >=2.1.1\n    - r-tidyr\n    - r-vctrs >=0.2.0\n\ntest:\n  commands:\n    - $R -e \"library('parsnip')\"           # [not win]\n    - \"\\\"%R%\\\" -e \\\"library('parsnip')\\\"\"  # [win]\n\nabout:\n  home: https://tidymodels.github.io/parsnip, https://github.com/tidymodels/parsnip\n  license: GPL-2\n  summary: A common interface is provided to allow users to specify a model without having to remember the different argument names across different functions or computational engines (e.g. 'R', 'Spark', 'Stan', etc).\n  license_family: GPL2\n  license_file:\n    - {{ environ[\"PREFIX\"] }}/lib/R/share/licenses/GPL-2\n\nextra:\n  recipe-maintainers:\n    - apcamargo\n    - conda-forge/r\n\n# Package: parsnip\n# Version: 0.0.4\n# Title: A Common API to Modeling and Analysis Functions\n# Description: A common interface is provided to allow users to specify a model without having to remember the different argument names across different functions or computational engines (e.g. 'R', 'Spark', 'Stan', etc).\n# Authors@R: c( person(given = \"Max\",   family = \"Kuhn\",    email = \"max@rstudio.com\",   role = c(\"aut\", \"cre\")), person(given = \"Davis\", family = \"Vaughan\", email = \"davis@rstudio.com\", role = c(\"aut\")), person(\"RStudio\", role = \"cph\"))\n# Maintainer: Max Kuhn <max@rstudio.com>\n# URL: https://tidymodels.github.io/parsnip, https://github.com/tidymodels/parsnip\n# BugReports: https://github.com/tidymodels/parsnip/issues\n# License: GPL-2\n# Encoding: UTF-8\n# LazyData: true\n# ByteCompile: true\n# VignetteBuilder: knitr\n# Depends: R (>= 2.10)\n# Imports: dplyr (>= 0.8.0.1), rlang (>= 0.3.1), purrr, utils, tibble (>= 2.1.1), generics, glue, magrittr, stats, tidyr, globals, prettyunits, vctrs (>= 0.2.0)\n# RoxygenNote: 6.1.99.9001\n# Suggests: testthat, knitr, rmarkdown, survival, keras, xgboost, covr, C50, sparklyr (>= 1.0.0), earth, glmnet, kernlab, kknn, randomForest, ranger, rpart, MASS, nlme\n# NeedsCompilation: no\n# Packaged: 2019-11-02 17:04:10 UTC; max\n# Author: Max Kuhn [aut, cre], Davis Vaughan [aut], RStudio [cph]\n# Repository: CRAN\n# Date/Publication: 2019-11-02 17:30:02 UTC\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "r-base",
+   "r-dplyr",
+   "r-generics",
+   "r-globals",
+   "r-glue",
+   "r-magrittr",
+   "r-prettyunits",
+   "r-purrr",
+   "r-rlang",
+   "r-tibble",
+   "r-tidyr",
+   "r-vctrs"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "r-base",
+    "r-dplyr",
+    "r-generics",
+    "r-globals",
+    "r-glue",
+    "r-magrittr",
+    "r-prettyunits",
+    "r-purrr",
+    "r-rlang",
+    "r-tibble",
+    "r-tidyr",
+    "r-vctrs"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "r-base",
+    "r-dplyr",
+    "r-generics",
+    "r-globals",
+    "r-glue",
+    "r-magrittr",
+    "r-prettyunits",
+    "r-purrr",
+    "r-rlang",
+    "r-tibble",
+    "r-tidyr",
+    "r-vctrs"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.7.0\n",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "r-base",
+    "r-dplyr >=0.8.0.1",
+    "r-generics",
+    "r-globals",
+    "r-glue",
+    "r-magrittr",
+    "r-prettyunits",
+    "r-purrr",
+    "r-rlang >=0.3.1",
+    "r-tibble >=2.1.1",
+    "r-tidyr",
+    "r-vctrs >=0.2.0"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "r-base",
+    "r-dplyr >=0.8.0.1",
+    "r-generics",
+    "r-globals",
+    "r-glue",
+    "r-magrittr",
+    "r-prettyunits",
+    "r-purrr",
+    "r-rlang >=0.3.1",
+    "r-tibble >=2.1.1",
+    "r-tidyr",
+    "r-vctrs >=0.2.0"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":[
+  "https://cran.r-project.org/src/contrib/parsnip_0.0.3.1.tar.gz",
+  "https://cran.r-project.org/src/contrib/Archive/parsnip/parsnip_0.0.3.1.tar.gz",
+  "https://cran.r-project.org/src/contrib/parsnip_0.0.3.1.tar.gz",
+  "https://cran.r-project.org/src/contrib/Archive/parsnip/parsnip_0.0.3.1.tar.gz",
+  "https://cran.r-project.org/src/contrib/parsnip_0.0.3.1.tar.gz",
+  "https://cran.r-project.org/src/contrib/Archive/parsnip/parsnip_0.0.3.1.tar.gz"
+ ],
+ "version":"0.1.1"
+}

@@ -1,0 +1,128 @@
+{
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"rb-sass",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "dev_url":"https://github.com/sass/ruby-sass",
+   "home":"https://rubygems.org/gems/sass",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"sass-3.7.4/MIT-LICENSE",
+   "summary":"Sass makes CSS fun again."
+  },
+  "build":{
+   "noarch":"generic",
+   "number":"0",
+   "script":[
+    "gem install --norc -l -V --ignore-dependencies sass-3.7.4.gem",
+    "gem unpack sass-3.7.4.gem",
+    "gem install --norc -l -V --ignore-dependencies sass-3.7.4.gem",
+    "gem unpack sass-3.7.4.gem",
+    "gem install --norc -l -V --ignore-dependencies sass-3.7.4.gem",
+    "gem unpack sass-3.7.4.gem"
+   ],
+   "skip":null
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "sodre",
+    "sodre",
+    "sodre"
+   ]
+  },
+  "package":{
+   "name":"rb-sass",
+   "version":"3.7.4"
+  },
+  "requirements":{
+   "host":[
+    "ruby",
+    "ruby",
+    "ruby"
+   ],
+   "run":[
+    "ruby",
+    "rb-sass-listen >=4.0.0,<4.1",
+    "ruby",
+    "rb-sass-listen >=4.0.0,<4.1",
+    "ruby",
+    "rb-sass-listen >=4.0.0,<4.1"
+   ]
+  },
+  "source":{
+   "sha256":"808b0d39053aa69068df939e24671fe84fd5a9d3314486e1a1457d0934a4255d",
+   "url":"https://rubygems.org/downloads/sass-3.7.4.gem"
+  },
+  "test":{
+   "commands":[
+    "ruby -r sass -e 'exit 0'",
+    "sass --help",
+    "ruby -r sass -e 'exit 0'",
+    "sass --help",
+    "ruby -r sass -e 'exit 0'",
+    "sass --help"
+   ]
+  }
+ },
+ "name":"rb-sass",
+ "new_version":false,
+ "raw_meta_yaml":"{% set name = \"sass\" %}\n{% set version = \"3.7.4\" %}\n\npackage:\n  name: rb-{{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://rubygems.org/downloads/{{ name }}-{{ version }}.gem\n  sha256: 808b0d39053aa69068df939e24671fe84fd5a9d3314486e1a1457d0934a4255d\n\nbuild:\n  noarch: generic\n  number: 0\n  script:\n    - gem install --norc -l -V --ignore-dependencies {{ name }}-{{ version }}.gem\n    - gem unpack {{ name }}-{{ version }}.gem\n  skip: {{ win }}\n\nrequirements:\n  host:\n    - ruby\n  run:\n    - ruby\n    - rb-sass-listen >=4.0.0,<4.1\n\ntest:\n  commands:\n    - ruby -r {{ name }} -e 'exit 0'\n    - sass --help\n\nabout:\n  home: https://rubygems.org/gems/{{ name }}\n  license: MIT\n  license_family: MIT\n  license_file: {{ name }}-{{ version }}/MIT-LICENSE\n  summary: Sass makes CSS fun again.\n\n  dev_url: https://github.com/sass/ruby-sass\n\nextra:\n  recipe-maintainers:\n    - sodre\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "rb-sass-listen",
+   "ruby"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "ruby"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "rb-sass-listen",
+    "ruby"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "ruby"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "rb-sass-listen >=4.0.0,<4.1",
+    "ruby"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://rubygems.org/downloads/sass-3.7.4.gem",
+ "version":"3.7.4"
+}

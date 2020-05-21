@@ -1,0 +1,5 @@
+{
+ "bad":false,
+ "feedstock_name":"pyod",
+ "raw_meta_yaml":"{% set name = \"pyod\" %}\n{% set version = \"0.7.7.1\" %}\n\npackage:\n  name: \"{{ name|lower }}\"\n  version: \"{{ version }}\"\n\nsource:\n  url: \"https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\"\n  sha256: 22cd28595187ca54e06418522b699b80ab6eae658ac3de194c3ef85730127016\n\nbuild:\n  number: 0\n  noarch: python\n  script: \"{{ PYTHON }} -m pip install . -vv\"\n\nrequirements:\n  host:\n    - pip\n    - python\n  run:\n    - joblib\n    - matplotlib-base\n    - numba >=0.35\n    - numpy >=1.13\n    - python\n    - scikit-learn >=0.19.1\n    - scipy >=0.19.1\n    - six\n\ntest:\n  imports:\n    - pyod\n    - pyod.models\n    - pyod.utils\n\nabout:\n  home: \"https://github.com/yzhao062/pyod\"\n  license: BSD-2-Clause\n  license_family: BSD\n  license_file: LICENSE\n  summary: \"A Python Toolkit for Scalable Outlier Detection (Anomaly Detection)\"\n  doc_url: \"https://pyod.readthedocs.io\"\n\nextra:\n  recipe-maintainers:\n    - yzhao062\n    - apcamargo\n"
+}

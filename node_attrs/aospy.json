@@ -1,0 +1,269 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/199859575.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Noarch",
+    "migrator_version":0
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/231848866.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.3.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/233397522.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/339462925.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"python38"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "compiler_stack":"comp7",
+  "max_py_ver":"37",
+  "max_r_ver":"35"
+ },
+ "feedstock_name":"aospy",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"A framework that enables automated calculations using gridded\nclimate data. Following some basic description of where your data\nlives and defining any functions of variables stored in that data\nyou want to compute, aospy enables you to fire off an arbitrary\nnumber of calculations using that data.\n",
+   "dev_url":"https://github.com/spencerahill/aospy",
+   "doc_url":"https://aospy.readthedocs.io/",
+   "home":"https://github.com/spencerahill/aospy",
+   "license":"Apache-2.0",
+   "license_family":"Apache",
+   "license_file":"LICENSE",
+   "summary":"Automated gridded climate data analysis and management"
+  },
+  "build":{
+   "number":"1000",
+   "script":" -m pip install . --no-deps --ignore-installed -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "spencerahill",
+    "spencerahill",
+    "spencerahill"
+   ]
+  },
+  "package":{
+   "name":"aospy",
+   "version":"0.3.1"
+  },
+  "requirements":{
+   "host":[
+    "python",
+    "pip",
+    "python",
+    "pip",
+    "python",
+    "pip"
+   ],
+   "run":[
+    "python",
+    "numpy >=1.7",
+    "scipy >=0.16",
+    "pandas >=0.15.0",
+    "netcdf4 >=1.2",
+    "toolz >=0.7.2",
+    "dask >=0.14",
+    "distributed >=1.16.1",
+    "xarray >=0.9.1",
+    "cloudpickle >=0.2.1",
+    "cftime >=1.0.0",
+    "python",
+    "numpy >=1.7",
+    "scipy >=0.16",
+    "pandas >=0.15.0",
+    "netcdf4 >=1.2",
+    "toolz >=0.7.2",
+    "dask >=0.14",
+    "distributed >=1.16.1",
+    "xarray >=0.9.1",
+    "cloudpickle >=0.2.1",
+    "cftime >=1.0.0",
+    "python",
+    "numpy >=1.7",
+    "scipy >=0.16",
+    "pandas >=0.15.0",
+    "netcdf4 >=1.2",
+    "toolz >=0.7.2",
+    "dask >=0.14",
+    "distributed >=1.16.1",
+    "xarray >=0.9.1",
+    "cloudpickle >=0.2.1",
+    "cftime >=1.0.0"
+   ]
+  },
+  "source":{
+   "sha256":"57c16f869161f7a3c2fa754bbc2f576abae0caee682b2e9d5cc5ba1fa95bcfdb",
+   "url":"https://github.com/spencerahill/aospy/archive/v0.3.1.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "aospy",
+    "aospy.examples",
+    "aospy.test",
+    "aospy.test.data",
+    "aospy.test.data.objects",
+    "aospy.utils",
+    "aospy",
+    "aospy.examples",
+    "aospy.test",
+    "aospy.test.data",
+    "aospy.test.data.objects",
+    "aospy.utils",
+    "aospy",
+    "aospy.examples",
+    "aospy.test",
+    "aospy.test.data",
+    "aospy.test.data.objects",
+    "aospy.utils"
+   ]
+  }
+ },
+ "name":"aospy",
+ "new_version":"0.3.1",
+ "pinning_version":"2019.11.01",
+ "raw_meta_yaml":"{% set version = \"0.3.1\" %}\n\npackage:\n  name: aospy\n  version: {{ version }}\n\nsource:\n  url: https://github.com/spencerahill/aospy/archive/v{{ version }}.tar.gz\n  sha256: 57c16f869161f7a3c2fa754bbc2f576abae0caee682b2e9d5cc5ba1fa95bcfdb\n\nbuild:\n  number: 1000\n  skip: True  # [py27]\n  script: \"{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv\"\n\nrequirements:\n  host:\n    - python\n    - pip\n  run:\n    - python\n    - numpy >=1.7\n    - scipy >=0.16\n    - pandas >=0.15.0\n    - netcdf4 >=1.2\n    - toolz >=0.7.2\n    - dask >=0.14\n    - distributed >=1.16.1\n    - xarray >=0.9.1\n    - cloudpickle >=0.2.1\n    - cftime >=1.0.0\n\ntest:\n  imports:\n    - aospy\n    - aospy.examples\n    - aospy.test\n    - aospy.test.data\n    - aospy.test.data.objects\n    - aospy.utils\n\nabout:\n  home: https://github.com/spencerahill/aospy\n  license: Apache-2.0\n  license_family: Apache\n  license_file: LICENSE\n  summary: 'Automated gridded climate data analysis and management'\n\n  description: |\n     A framework that enables automated calculations using gridded\n     climate data. Following some basic description of where your data\n     lives and defining any functions of variables stored in that data\n     you want to compute, aospy enables you to fire off an arbitrary\n     number of calculations using that data.\n  doc_url: https://aospy.readthedocs.io/\n  dev_url: https://github.com/spencerahill/aospy\n\nextra:\n  recipe-maintainers:\n    - spencerahill\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "cftime",
+   "cloudpickle",
+   "dask",
+   "distributed",
+   "netcdf4",
+   "numpy",
+   "pandas",
+   "pip",
+   "python",
+   "scipy",
+   "toolz",
+   "xarray"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "cftime",
+    "cloudpickle",
+    "dask",
+    "distributed",
+    "netcdf4",
+    "numpy",
+    "pandas",
+    "python",
+    "scipy",
+    "toolz",
+    "xarray"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.6.2",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "cftime >=1.0.0",
+    "cloudpickle >=0.2.1",
+    "dask >=0.14",
+    "distributed >=1.16.1",
+    "netcdf4 >=1.2",
+    "numpy >=1.7",
+    "pandas >=0.15.0",
+    "python",
+    "scipy >=0.16",
+    "toolz >=0.7.2",
+    "xarray >=0.9.1"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://github.com/spencerahill/aospy/archive/v0.3.1.tar.gz",
+ "version":"0.3.1"
+}

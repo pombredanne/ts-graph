@@ -1,0 +1,308 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/245989431.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/254704943.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.2.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "id":"2dda0636-10e3-491f-80b3-2ac3ff98f84e",
+    "merged_at":"never issued",
+    "state":"closed"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"python38"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/364283478.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.3.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/393911502.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"pypy"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"faunus",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"Faunus is a framework for molecular simulations using Metropolis\nMonte Carlo techniques. It is written in C++14 and has experimental\nsupport for python bindings.\n",
+   "dev_url":"https://github.com/mlund/faunus",
+   "doc_url":"https://faunus.readthedocs.io",
+   "home":"https://github.com/mlund/faunus",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"LICENSE",
+   "summary":"A Framework for Molecular Monte Carlo Simulations"
+  },
+  "build":{
+   "number":"1",
+   "script":[
+    "cmake -DENABLE_MPI=on -DVERSION_STRING=v2.3.0 -DCMAKE_INSTALL_PREFIX:PATH=$PREFIX",
+    "make",
+    "make install",
+    "cmake -DENABLE_MPI=on -DVERSION_STRING=v2.3.0 -DCMAKE_INSTALL_PREFIX:PATH=$PREFIX",
+    "make",
+    "make install",
+    "unset _CONDA_PYTHON_SYSCONFIGDATA_NAME",
+    "cmake -DENABLE_MPI=on -DVERSION_STRING=v2.3.0 -DCMAKE_INSTALL_PREFIX:PATH=$PREFIX",
+    "make",
+    "make install"
+   ],
+   "skip":true
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "mlund",
+    "mlund",
+    "mlund"
+   ]
+  },
+  "package":{
+   "name":"faunus",
+   "version":"2.3.0"
+  },
+  "requirements":{
+   "build":[
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "cmake >=3.11.4",
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "cmake >=3.11.4",
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "cmake >=3.11.4"
+   ],
+   "host":[
+    null,
+    "python",
+    "pandoc 2.2.1",
+    "pypandoc 1.4",
+    "beautifulsoup4 4.8.*",
+    "ruamel_yaml 0.15.*",
+    "jinja2",
+    "sdl2",
+    null,
+    "python",
+    "pandoc 2.2.1",
+    "pypandoc 1.4",
+    "beautifulsoup4 4.8.*",
+    "ruamel_yaml 0.15.*",
+    "jinja2",
+    "sdl2",
+    null,
+    "python",
+    "pandoc 2.2.1",
+    "pypandoc 1.4",
+    "beautifulsoup4 4.8.*",
+    "ruamel_yaml 0.15.*",
+    "jinja2",
+    "sdl2"
+   ],
+   "run":[
+    null,
+    "python",
+    "ruamel_yaml >=0.15",
+    "pygments >=2.2",
+    "jinja2",
+    null,
+    "python",
+    "ruamel_yaml >=0.15",
+    "pygments >=2.2",
+    "jinja2",
+    null,
+    "python",
+    "ruamel_yaml >=0.15",
+    "pygments >=2.2",
+    "jinja2"
+   ]
+  },
+  "source":{
+   "fn":"2.3.0.tar.gz",
+   "sha256":"09bb68560e2889cf564801bcd600e434a1779db4da8872dbe6b2741009b9c759",
+   "url":"https://github.com/mlund/faunus/archive/v2.3.0.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "test -x $PREFIX/bin/faunus",
+    "$PREFIX/bin/faunus --version",
+    "test -x $PREFIX/bin/faunus",
+    "$PREFIX/bin/faunus --version",
+    "test -x $PREFIX/bin/faunus",
+    "$PREFIX/bin/faunus --version"
+   ],
+   "imports":[
+    "pyfaunus",
+    "pyfaunus",
+    "pyfaunus"
+   ]
+  }
+ },
+ "name":"faunus",
+ "new_version":"2.3.0",
+ "pinning_version":"2020.03.24",
+ "raw_meta_yaml":"{% set name = \"faunus\" %}\n{% set version = \"2.3.0\" %}\n{% set sha256 = \"09bb68560e2889cf564801bcd600e434a1779db4da8872dbe6b2741009b9c759\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  fn: {{ version }}.tar.gz\n  url: https://github.com/mlund/{{ name }}/archive/v{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 1\n  skip: True  # [win or py<36]\n  script:\n    - unset _CONDA_PYTHON_SYSCONFIGDATA_NAME  # [linux]\n    - cmake -DVERSION_STRING=v{{ version }} -DCMAKE_INSTALL_PREFIX:PATH=$PREFIX  # [mpi == 'nompi']\n    - cmake -DENABLE_MPI=on -DVERSION_STRING=v{{ version }} -DCMAKE_INSTALL_PREFIX:PATH=$PREFIX  # [mpi != 'nompi']\n    - make\n    - make install\n\nrequirements:\n  build:\n    - {{ compiler('c') }}\n    - {{ compiler('cxx') }}\n    - cmake >=3.11.4\n  host:\n    - {{ mpi }}  # [mpi != 'nompi']\n    - python\n    - pandoc 2.2.1\n    - pypandoc 1.4\n    - beautifulsoup4 4.8.*\n    - ruamel_yaml 0.15.*\n    - jinja2\n    - sdl2\n  run:\n    - {{ mpi }}  # [mpi != 'nompi']\n    - python\n    - ruamel_yaml >=0.15\n    - pygments >=2.2\n    - jinja2\n\ntest:\n  commands:\n    - test -x $PREFIX/bin/faunus\n    - $PREFIX/bin/faunus --version\n  imports:\n    - pyfaunus\n\nabout:\n  home: https://github.com/mlund/faunus\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE\n  summary: 'A Framework for Molecular Monte Carlo Simulations'\n  description: |\n      Faunus is a framework for molecular simulations using Metropolis\n      Monte Carlo techniques. It is written in C++14 and has experimental\n      support for python bindings.\n  doc_url: https://faunus.readthedocs.io\n  dev_url: https://github.com/mlund/faunus\n\nextra:\n  recipe-maintainers:\n    - mlund\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "beautifulsoup4",
+   "c_compiler_stub",
+   "cmake",
+   "cxx_compiler_stub",
+   "jinja2",
+   "pandoc",
+   "pygments",
+   "pypandoc",
+   "python",
+   "ruamel_yaml",
+   "sdl2"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "cmake",
+    "cxx_compiler_stub"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "beautifulsoup4",
+    "jinja2",
+    "pandoc",
+    "pypandoc",
+    "python",
+    "ruamel_yaml",
+    "sdl2"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "jinja2",
+    "pygments",
+    "python",
+    "ruamel_yaml"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.6.15",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "cmake >=3.11.4",
+    "cxx_compiler_stub"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "beautifulsoup4 4.8.*",
+    "jinja2",
+    "pandoc 2.2.1",
+    "pypandoc 1.4",
+    "python",
+    "ruamel_yaml 0.15.*",
+    "sdl2"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "jinja2",
+    "pygments >=2.2",
+    "python",
+    "ruamel_yaml >=0.15"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://github.com/mlund/faunus/archive/v2.2.0.tar.gz",
+ "version":"2.3.0"
+}

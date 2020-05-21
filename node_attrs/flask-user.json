@@ -1,0 +1,241 @@
+{
+ "PRed":[
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.0.1.5"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/344238633.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.0.2.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/345622149.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.0.2.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/347219589.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.0.2.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"flask-user",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "dev_url":"http://github.com/lingthio/Flask-User",
+   "doc_url":"https://pythonhosted.org/Flask-User/",
+   "home":"http://github.com/lingthio/Flask-User",
+   "license":"BSD 2-Clause",
+   "license_family":"BSD",
+   "license_file":"LICENSE.txt",
+   "summary":"Customizable User Account Management for Flask: Register, Confirm email, Login, Change username, Change password, Forgot password and more."
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":"python -m pip install --no-deps --ignore-installed ."
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "pmlandwehr",
+    "pmlandwehr",
+    "pmlandwehr"
+   ]
+  },
+  "package":{
+   "name":"flask-user",
+   "version":"1.0.1.5"
+  },
+  "requirements":{
+   "build":[
+    "python",
+    "pip",
+    "flask-login",
+    "python",
+    "pip",
+    "flask-login",
+    "python",
+    "pip",
+    "flask-login"
+   ],
+   "run":[
+    "python",
+    "passlib >=1.6",
+    "bcrypt >=2.0",
+    "cryptography >=1.6",
+    "flask >=0.9",
+    "flask-login >=0.2",
+    "flask-mail >=0.9",
+    "flask-sqlalchemy >=1.0",
+    "flask-wtf >=0.9",
+    "python",
+    "passlib >=1.6",
+    "bcrypt >=2.0",
+    "cryptography >=1.6",
+    "flask >=0.9",
+    "flask-login >=0.2",
+    "flask-mail >=0.9",
+    "flask-sqlalchemy >=1.0",
+    "flask-wtf >=0.9",
+    "python",
+    "passlib >=1.6",
+    "bcrypt >=2.0",
+    "cryptography >=1.6",
+    "flask >=0.9",
+    "flask-login >=0.2",
+    "flask-mail >=0.9",
+    "flask-sqlalchemy >=1.0",
+    "flask-wtf >=0.9"
+   ]
+  },
+  "source":{
+   "fn":"Flask-User-1.0.1.5.tar.gz",
+   "sha256":"ca6e1bffe83c4efcefac3a509daca95003c69cea373a558d6b2466e37cd5238c",
+   "url":"https://pypi.org/packages/source/F/Flask-User/Flask-User-1.0.1.5.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "flask_user",
+    "flask_user",
+    "flask_user"
+   ]
+  }
+ },
+ "name":"flask-user",
+ "new_version":"1.0.2.2",
+ "pinning_version":"2019.11.26",
+ "raw_meta_yaml":"{% set name = \"Flask-User\" %}\n{% set version = \"1.0.1.5\" %}\n{% set bundle = \"tar.gz\" %}\n{% set hash_type = \"sha256\" %}\n{% set hash_val = \"ca6e1bffe83c4efcefac3a509daca95003c69cea373a558d6b2466e37cd5238c\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  fn: {{ name }}-{{ version }}.{{ bundle }}\n  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.{{ bundle }}\n  {{ hash_type }}: {{ hash_val }}\n\nbuild:\n  noarch: python\n  number: 0\n  script: python -m pip install --no-deps --ignore-installed .\n\nrequirements:\n  build:\n    - python\n    - pip\n    - flask-login\n\n  run:\n    - python\n    - passlib >=1.6\n    - bcrypt >=2.0\n    - cryptography >=1.6\n    - flask >=0.9\n    - flask-login >=0.2\n    - flask-mail >=0.9\n    - flask-sqlalchemy >=1.0\n    - flask-wtf >=0.9\n\ntest:\n  imports:\n    - flask_user\n\nabout:\n  home: http://github.com/lingthio/Flask-User\n  license: BSD 2-Clause\n  license_file: LICENSE.txt\n  license_family: BSD\n  summary: 'Customizable User Account Management for Flask: Register, Confirm email, Login, Change username, Change password, Forgot password and more.'\n  dev_url: http://github.com/lingthio/Flask-User\n  doc_url: https://pythonhosted.org/Flask-User/\n\nextra:\n  recipe-maintainers:\n    - pmlandwehr\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "bcrypt",
+   "cryptography",
+   "flask",
+   "flask-login",
+   "flask-mail",
+   "flask-sqlalchemy",
+   "flask-wtf",
+   "passlib",
+   "pip",
+   "python"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "flask-login",
+    "pip",
+    "python"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "bcrypt",
+    "cryptography",
+    "flask",
+    "flask-login",
+    "flask-mail",
+    "flask-sqlalchemy",
+    "flask-wtf",
+    "passlib",
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.6.3",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "flask-login",
+    "pip",
+    "python"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "bcrypt >=2.0",
+    "cryptography >=1.6",
+    "flask >=0.9",
+    "flask-login >=0.2",
+    "flask-mail >=0.9",
+    "flask-sqlalchemy >=1.0",
+    "flask-wtf >=0.9",
+    "passlib >=1.6",
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.org/packages/source/F/Flask-User/Flask-User-1.0.1.5.tar.gz",
+ "version":"1.0.1.5"
+}

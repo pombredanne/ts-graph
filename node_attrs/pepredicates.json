@@ -1,0 +1,186 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/386576917.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.0.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/393286707.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.0.3"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"pepredicates",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"Code for computing various P_BLAH quantities in a general way from PE\nsamples.\n",
+   "doc_url":"https://charlie.hoy.docs.ligo.org/pepredicates/index.html",
+   "home":"https://charlie.hoy.docs.ligo.org/pepredicates/index.html",
+   "license":"AGPL-3.0",
+   "license_family":"AGPL",
+   "license_file":"LICENSE",
+   "summary":"Code for computing various P_BLAH quantities in a general way from PE samples."
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . --no-deps --ignore-installed -vv "
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "hoyc1",
+    "hoyc1",
+    "hoyc1"
+   ]
+  },
+  "package":{
+   "name":"pepredicates",
+   "version":"0.0.3"
+  },
+  "requirements":{
+   "host":[
+    "pip",
+    "python >=3.6",
+    "setuptools",
+    "pip",
+    "python >=3.6",
+    "setuptools",
+    "pip",
+    "python >=3.6",
+    "setuptools"
+   ],
+   "run":[
+    "astropy >=4.0",
+    "matplotlib-base",
+    "numpy",
+    "python >=3.6",
+    "seaborn",
+    "astropy >=4.0",
+    "matplotlib-base",
+    "numpy",
+    "python >=3.6",
+    "seaborn",
+    "astropy >=4.0",
+    "matplotlib-base",
+    "numpy",
+    "python >=3.6",
+    "seaborn"
+   ]
+  },
+  "source":{
+   "sha256":"80a8476fbdca517e1736dc82590793402849eb87522b481dd027c8744fc39d87",
+   "url":"https://pypi.io/packages/source/p/pepredicates/pepredicates-0.0.3.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "pepredicates",
+    "pepredicates",
+    "pepredicates"
+   ]
+  }
+ },
+ "name":"pepredicates",
+ "new_version":"0.0.3",
+ "pinning_version":"2020.03.24",
+ "raw_meta_yaml":"{% set name = \"pepredicates\" %}\n{% set version = \"0.0.3\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: 80a8476fbdca517e1736dc82590793402849eb87522b481dd027c8744fc39d87\n\nbuild:\n  number: 0\n  noarch: python\n  script: '{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv '\n\nrequirements:\n  host:\n    - pip\n    - python >=3.6\n    - setuptools\n  run:\n    - astropy >=4.0\n    - matplotlib-base\n    - numpy\n    - python >=3.6\n    - seaborn\n\ntest:\n  imports:\n    - pepredicates\n\nabout:\n  home: https://charlie.hoy.docs.ligo.org/pepredicates/index.html\n  doc_url: https://charlie.hoy.docs.ligo.org/pepredicates/index.html\n  license: AGPL-3.0\n  license_family: AGPL\n  license_file: LICENSE\n  summary: Code for computing various P_BLAH quantities in a general way from PE samples.\n  description: |\n    Code for computing various P_BLAH quantities in a general way from PE\n    samples.\nextra:\n  recipe-maintainers:\n    - hoyc1\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "astropy",
+   "matplotlib-base",
+   "numpy",
+   "pip",
+   "python",
+   "seaborn",
+   "setuptools"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python",
+    "setuptools"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "astropy",
+    "matplotlib-base",
+    "numpy",
+    "python",
+    "seaborn"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.6.15",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3.6",
+    "setuptools"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "astropy >=4.0",
+    "matplotlib-base",
+    "numpy",
+    "python >=3.6",
+    "seaborn"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/p/pepredicates/pepredicates-0.0.1.tar.gz",
+ "version":"0.0.3"
+}

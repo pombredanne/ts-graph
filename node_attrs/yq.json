@@ -1,0 +1,327 @@
+{
+ "PRed":[
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.6.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/206219757.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.7.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/228755755.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.7.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/243445218.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.7.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/332604354.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.8.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/333235088.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.8.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/336436054.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.9.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/356500426.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.10.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"yq",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "dev_url":"https://github.com/kislyuk/yq",
+   "doc_url":"https://yq.readthedocs.io/en/latest/",
+   "home":"https://github.com/kislyuk/yq",
+   "license":"Apache-2.0",
+   "license_family":"Apache",
+   "license_file":"LICENSE",
+   "summary":"jq wrapper for YAML and XML documents"
+  },
+  "build":{
+   "entry_points":[
+    "yq = yq:main",
+    "xq = yq:xq_cli",
+    "tq = yq:tq_cli",
+    "yq = yq:main",
+    "xq = yq:xq_cli",
+    "tq = yq:tq_cli",
+    "yq = yq:main",
+    "xq = yq:xq_cli",
+    "tq = yq:tq_cli"
+   ],
+   "noarch":"python",
+   "number":"0",
+   "script":[
+    "python -m pip install --no-deps --ignore-installed .",
+    "python -m pip install --no-deps --ignore-installed .",
+    "python -m pip install --no-deps --ignore-installed ."
+   ]
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "sodre",
+    "sodre",
+    "sodre"
+   ]
+  },
+  "package":{
+   "name":"yq",
+   "version":"2.7.2"
+  },
+  "requirements":{
+   "build":[
+    "python",
+    "pip",
+    "python",
+    "pip",
+    "python",
+    "pip"
+   ],
+   "run":[
+    "python",
+    "pyyaml >=3.11",
+    "xmltodict >=0.11.0",
+    "toml >=0.9.4",
+    "jq",
+    "python",
+    "pyyaml >=3.11",
+    "xmltodict >=0.11.0",
+    "toml >=0.9.4",
+    "jq",
+    "python",
+    "pyyaml >=3.11",
+    "xmltodict >=0.11.0",
+    "toml >=0.9.4",
+    "jq"
+   ]
+  },
+  "source":{
+   "fn":"yq-2.7.2.tar.gz",
+   "patches":null,
+   "sha256":"f7dafd1e53d1f806ffe11de6da814e231d866595e2faae0dfc38135b8ee79bbb",
+   "url":"https://pypi.io/packages/source/y/yq/yq-2.7.2.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "pytest test/test.py",
+    "yq --help",
+    "xq --help",
+    "tq --help",
+    "test $(cat $RECIPE_DIR/meta.yaml | yq -r .package.name) = 'yq'",
+    "pytest test/test.py",
+    "yq --help",
+    "xq --help",
+    "tq --help",
+    "test $(cat $RECIPE_DIR/meta.yaml | yq -r .package.name) = 'yq'",
+    "pytest test/test.py",
+    "yq --help",
+    "xq --help",
+    "tq --help",
+    "test $(cat $RECIPE_DIR/meta.yaml | yq -r .package.name) = 'yq'"
+   ],
+   "imports":[
+    "yq",
+    "yq",
+    "yq"
+   ],
+   "requires":[
+    "pytest",
+    "pytest",
+    "pytest"
+   ],
+   "source_files":[
+    "test",
+    "test",
+    "test"
+   ]
+  }
+ },
+ "name":"yq",
+ "new_version":"2.10.1",
+ "pinning_version":"2019.12.18",
+ "raw_meta_yaml":"{% set name = \"yq\" %}\n{% set version = \"2.7.2\" %}\n{% set sha256 = \"f7dafd1e53d1f806ffe11de6da814e231d866595e2faae0dfc38135b8ee79bbb\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  fn: {{ name }}-{{ version }}.tar.gz\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n  patches:\n    # github.com/sodre/yq:entry_points: replace scripts with entry-points\n    #- github_com__sodre__yq__entry_points.patch\n    # This patch is needed when running on my MacBook Pro, but not on CircleCI\n    #- github_com__sodre__yq__fix-jq-errcode.patch\n\nbuild:\n  number: 0\n  noarch: python\n  entry_points:\n    - yq = yq:main\n    - xq = yq:xq_cli\n    - tq = yq:tq_cli\n  script: \n    - python -m pip install --no-deps --ignore-installed .\n\nrequirements:\n  build:\n    - python\n    - pip\n  run:\n    - python\n    - pyyaml >=3.11\n    - xmltodict >=0.11.0\n    - toml >=0.9.4\n    - jq\n\ntest:\n  requires:\n    - pytest\n  source_files:\n    - test\n  imports:\n    - yq\n  commands:\n    - pytest test/test.py\n    - yq --help\n    - xq --help\n    - tq --help\n    - test $(cat $RECIPE_DIR/meta.yaml | yq -r .package.name) = 'yq'\n\nabout:\n  home: https://github.com/kislyuk/yq\n  license: Apache-2.0\n  license_family: Apache\n  license_file: LICENSE\n  summary: 'jq wrapper for YAML and XML documents'\n\n  doc_url: https://yq.readthedocs.io/en/latest/\n  dev_url: https://github.com/kislyuk/yq\n\nextra:\n  recipe-maintainers:\n    - sodre\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "jq",
+   "pip",
+   "python",
+   "pyyaml",
+   "toml",
+   "xmltodict"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "jq",
+    "python",
+    "pyyaml",
+    "toml",
+    "xmltodict"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "pytest"
+   ]
+  }
+ },
+ "smithy_version":"3.6.5",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "jq",
+    "python",
+    "pyyaml >=3.11",
+    "toml >=0.9.4",
+    "xmltodict >=0.11.0"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "pytest"
+   ]
+  }
+ },
+ "url":"https://pypi.io/packages/source/y/yq/yq-2.7.2.tar.gz",
+ "version":"2.7.2"
+}

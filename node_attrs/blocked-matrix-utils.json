@@ -1,0 +1,122 @@
+{
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"blocked-matrix-utils",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"https://github.com/vahtras/util",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"LICENSE",
+   "summary":"NumPy wrappers for blocked matrices"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "vahtras",
+    "vahtras",
+    "vahtras"
+   ]
+  },
+  "package":{
+   "name":"blocked-matrix-utils",
+   "version":"1.0.4"
+  },
+  "requirements":{
+   "host":[
+    "python >=3",
+    "pip",
+    "python >=3",
+    "pip",
+    "python >=3",
+    "pip"
+   ],
+   "run":[
+    "numpy",
+    "python >=3",
+    "numpy",
+    "python >=3",
+    "numpy",
+    "python >=3"
+   ]
+  },
+  "source":{
+   "sha256":"550f5f7ee147b513abca70432cd85b0fe4fc87218e0447e9d538db33ec00d02d",
+   "url":"https://pypi.io/packages/source/b/blocked-matrix-utils/blocked-matrix-utils-1.0.4.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "util",
+    "util",
+    "util"
+   ]
+  }
+ },
+ "name":"blocked-matrix-utils",
+ "new_version":"1.0.4",
+ "raw_meta_yaml":"{% set name = \"blocked-matrix-utils\" %}\n{% set version = \"1.0.4\" %}\n\npackage:\n  name: \"{{ name|lower }}\"\n  version: \"{{ version }}\"\n\nsource:\n  url: \"https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\"\n  sha256: 550f5f7ee147b513abca70432cd85b0fe4fc87218e0447e9d538db33ec00d02d\n\nbuild:\n  number: 0\n  script: \"{{ PYTHON }} -m pip install . -vv\"\n  noarch: python\n\nrequirements:\n  host:\n    - python >=3\n    - pip\n  run:\n    - numpy\n    - python >=3\n\ntest:\n  imports:\n    - util\n\nabout:\n  home: \"https://github.com/vahtras/util\"\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE\n  summary: \"NumPy wrappers for blocked matrices\"\n\nextra:\n  recipe-maintainers:\n    - vahtras\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "numpy",
+   "pip",
+   "python"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "numpy",
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "numpy",
+    "python >=3"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/b/blocked-matrix-utils/blocked-matrix-utils-1.0.4.tar.gz",
+ "version":"1.0.4"
+}

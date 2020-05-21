@@ -1,0 +1,143 @@
+{
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"nim",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"Nim is a statically typed compiled systems programming language. It combines successful concepts from mature languages like Python, Ada and Modula.\n",
+   "dev_url":"https://github.com/nim-lang/Nim",
+   "doc_url":"https://nim-lang.org/documentation.html",
+   "home":"https://nim-lang.org/",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"LICENSE",
+   "summary":"Nim programming language, by Andreas Rumpf (araq@)"
+  },
+  "build":{
+   "number":"3",
+   "skip":true
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "pb-cdunn",
+    "pb-cdunn",
+    "pb-cdunn"
+   ]
+  },
+  "package":{
+   "name":"nim",
+   "version":"1.0.2"
+  },
+  "requirements":{
+   "build":[
+    "cxx_compiler_stub",
+    "rsync",
+    "cxx_compiler_stub",
+    "rsync",
+    "cxx_compiler_stub",
+    "rsync"
+   ],
+   "host":[
+    "cxx_compiler_stub",
+    "cxx_compiler_stub",
+    "cxx_compiler_stub"
+   ],
+   "run":[
+    "cxx_compiler_stub",
+    "cxx_compiler_stub",
+    "cxx_compiler_stub"
+   ]
+  },
+  "source":{
+   "folder":"nim",
+   "sha256":"73a0ae099e1da39cc913c4a4054b5bf3d843ab93df95ffb98988a51074b651e6",
+   "url":"https://nim-lang.org/download/nim-1.0.2.tar.xz"
+  },
+  "test":{
+   "commands":[
+    "set vex",
+    "which nim",
+    "nim -v",
+    "readlink -f $(which nim)",
+    "ls -larth",
+    "ls -l $(dirname $(readlink -f $(which nim)))",
+    "set vex",
+    "which nim",
+    "nim -v",
+    "readlink -f $(which nim)",
+    "ls -larth",
+    "ls -l $(dirname $(readlink -f $(which nim)))",
+    "set vex",
+    "which nim",
+    "nim -v",
+    "readlink -f $(which nim)",
+    "ls -larth",
+    "ls -l $(dirname $(readlink -f $(which nim)))"
+   ]
+  }
+ },
+ "name":"nim",
+ "new_version":false,
+ "raw_meta_yaml":"{% set version = \"1.0.2\" %}\n{% set sha256 = \"73a0ae099e1da39cc913c4a4054b5bf3d843ab93df95ffb98988a51074b651e6\" %}\n\npackage:\n  name: nim\n  version: {{ version }}\n\nsource:\n  url: https://nim-lang.org/download/nim-{{ version }}.tar.xz\n  sha256: {{ sha256 }}\n  folder: nim\n\nbuild:\n  number: 3\n  skip: True  # [not linux64]\n\nrequirements:\n  build:\n    - {{ compiler('cxx') }}\n    - rsync\n  host:\n    - {{ compiler('cxx') }}\n  run:\n    - {{ compiler('cxx') }}\n\ntest:\n  commands:\n    - set vex\n    - which nim\n    - nim -v\n    - readlink -f $(which nim)\n    - ls -larth\n    - ls -l $(dirname $(readlink -f $(which nim)))\n#    - echo 'echo \"hello\"' >| foo.nim\n#    - nim c -r foo.nim\n\nabout:\n  home: https://nim-lang.org/\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE\n  summary: 'Nim programming language, by Andreas Rumpf (araq@)'\n  description: |\n      Nim is a statically typed compiled systems programming language. It combines successful concepts from mature languages like Python, Ada and Modula.\n  doc_url: https://nim-lang.org/documentation.html\n  dev_url: https://github.com/nim-lang/Nim\n\nextra:\n  recipe-maintainers:\n    - pb-cdunn\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "cxx_compiler_stub",
+   "rsync"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "cxx_compiler_stub",
+    "rsync"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "cxx_compiler_stub"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "cxx_compiler_stub"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "cxx_compiler_stub",
+    "rsync"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "cxx_compiler_stub"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "cxx_compiler_stub"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://nim-lang.org/download/nim-1.0.2.tar.xz",
+ "version":"1.0.2"
+}

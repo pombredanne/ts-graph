@@ -1,0 +1,5 @@
+{
+ "bad":false,
+ "feedstock_name":"autoray",
+ "raw_meta_yaml":"{% set name = \"autoray\" %}\n{% set version = \"0.2.2\" %}\n{% set sha256 = \"004e964b40309bf1a91b37b0a4e5ad5e014eb139eecf75830dde23c8379940fb\" %}\n\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  noarch: python\n  script: {{ PYTHON }} -m pip install . -vv\n\nrequirements:\n  host:\n    - pip\n    - python >=3.5\n  run:\n    - numpy\n    - python >=3.5\n\ntest:\n  imports:\n    - autoray\n  commands:\n    - pip check\n  requires:\n    - pip\n\nabout:\n  home: https://github.com/jcmgray/autoray/\n  summary: Write backend agnostic numeric code compatible with any numpy-ish array library.\n  license: Apache-2.0\n  license_file: LICENSE\n  license_family: Apache\n\nextra:\n  recipe-maintainers:\n    - jcmgray\n"
+}

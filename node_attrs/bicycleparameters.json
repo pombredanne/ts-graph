@@ -1,0 +1,228 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/199901423.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Noarch",
+    "migrator_version":0
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/375561466.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MatplotlibBase",
+    "migrator_version":0,
+    "name":"matplotlib-to-matplotlib-base"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"bicycleparameters",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"A python program designed to produce and manipulate the basic parameters\nneeded for the Whipple bicycle model.\n",
+   "dev_url":"https://github.com/moorepants/bicycleparameters",
+   "doc_url":"http://bicycleparameters.readthedocs.io/",
+   "home":"http://github.com/moorepants/bicycleparameters",
+   "license":"BSD-2-Clause",
+   "license_family":"BSD",
+   "license_file":"LICENSE.txt",
+   "summary":"Generates and manipulates the physical parameters of a bicycle."
+  },
+  "build":{
+   "noarch":"python",
+   "number":"2",
+   "script":"python -m pip install --no-deps --ignore-installed ."
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "moorepants",
+    "moorepants",
+    "moorepants"
+   ]
+  },
+  "package":{
+   "name":"bicycleparameters",
+   "version":"1.0.0"
+  },
+  "requirements":{
+   "host":[
+    "pip",
+    "python",
+    "setuptools",
+    "pip",
+    "python",
+    "setuptools",
+    "pip",
+    "python",
+    "setuptools"
+   ],
+   "run":[
+    "python",
+    "numpy >=1.6.1",
+    "scipy >=0.9.0",
+    "matplotlib-base >=1.1.1",
+    "uncertainties >=2.0.0",
+    "dynamicisttoolkit >=0.1.0",
+    "yeadon >=1.1.0",
+    "python",
+    "numpy >=1.6.1",
+    "scipy >=0.9.0",
+    "matplotlib-base >=1.1.1",
+    "uncertainties >=2.0.0",
+    "dynamicisttoolkit >=0.1.0",
+    "yeadon >=1.1.0",
+    "python",
+    "numpy >=1.6.1",
+    "scipy >=0.9.0",
+    "matplotlib-base >=1.1.1",
+    "uncertainties >=2.0.0",
+    "dynamicisttoolkit >=0.1.0",
+    "yeadon >=1.1.0"
+   ]
+  },
+  "source":{
+   "fn":"BicycleParameters-1.0.0.tar.gz",
+   "sha256":"e3aea4dc5a0cf8b21707b77db4c8e887e0366d8f9dbcaf0761a61080e1f2eb3d",
+   "url":"https://pypi.io/packages/source/B/BicycleParameters/BicycleParameters-1.0.0.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "bicycleparameters",
+    "bicycleparameters.bicycle",
+    "bicycleparameters.com",
+    "bicycleparameters.geometry",
+    "bicycleparameters.inertia",
+    "bicycleparameters.io",
+    "bicycleparameters.main",
+    "bicycleparameters.period",
+    "bicycleparameters.plot",
+    "bicycleparameters.rider",
+    "bicycleparameters.tables",
+    "bicycleparameters",
+    "bicycleparameters.bicycle",
+    "bicycleparameters.com",
+    "bicycleparameters.geometry",
+    "bicycleparameters.inertia",
+    "bicycleparameters.io",
+    "bicycleparameters.main",
+    "bicycleparameters.period",
+    "bicycleparameters.plot",
+    "bicycleparameters.rider",
+    "bicycleparameters.tables",
+    "bicycleparameters",
+    "bicycleparameters.bicycle",
+    "bicycleparameters.com",
+    "bicycleparameters.geometry",
+    "bicycleparameters.inertia",
+    "bicycleparameters.io",
+    "bicycleparameters.main",
+    "bicycleparameters.period",
+    "bicycleparameters.plot",
+    "bicycleparameters.rider",
+    "bicycleparameters.tables"
+   ]
+  }
+ },
+ "name":"bicycleparameters",
+ "new_version":"1.0.0",
+ "pinning_version":"2020.02.12",
+ "raw_meta_yaml":"{% set name = \"BicycleParameters\" %}\n{% set version = \"1.0.0\" %}\n{% set sha256 = \"e3aea4dc5a0cf8b21707b77db4c8e887e0366d8f9dbcaf0761a61080e1f2eb3d\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  fn: {{ name }}-{{ version }}.tar.gz\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 2\n  script: python -m pip install --no-deps --ignore-installed .\n\nrequirements:\n  host:\n    - pip\n    - python\n    - setuptools\n  run:\n    - python\n    - numpy >=1.6.1\n    - scipy >=0.9.0\n    - matplotlib-base >=1.1.1\n    - uncertainties >=2.0.0\n    - dynamicisttoolkit >=0.1.0\n    - yeadon >=1.1.0\n\ntest:\n  imports:\n    - bicycleparameters\n    - bicycleparameters.bicycle\n    - bicycleparameters.com\n    - bicycleparameters.geometry\n    - bicycleparameters.inertia\n    - bicycleparameters.io\n    - bicycleparameters.main\n    - bicycleparameters.period\n    - bicycleparameters.plot\n    - bicycleparameters.rider\n    - bicycleparameters.tables\n\nabout:\n  home: http://github.com/moorepants/bicycleparameters\n  license: BSD-2-Clause\n  license_family: BSD\n  license_file: LICENSE.txt\n  summary: 'Generates and manipulates the physical parameters of a bicycle.'\n  description: |\n    A python program designed to produce and manipulate the basic parameters\n    needed for the Whipple bicycle model.\n  doc_url: http://bicycleparameters.readthedocs.io/\n  dev_url: https://github.com/moorepants/bicycleparameters\n\nextra:\n  recipe-maintainers:\n    - moorepants\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "dynamicisttoolkit",
+   "matplotlib-base",
+   "numpy",
+   "pip",
+   "python",
+   "scipy",
+   "setuptools",
+   "uncertainties",
+   "yeadon"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python",
+    "setuptools"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "dynamicisttoolkit",
+    "matplotlib-base",
+    "numpy",
+    "python",
+    "scipy",
+    "uncertainties",
+    "yeadon"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.6.8",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python",
+    "setuptools"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "dynamicisttoolkit >=0.1.0",
+    "matplotlib-base >=1.1.1",
+    "numpy >=1.6.1",
+    "python",
+    "scipy >=0.9.0",
+    "uncertainties >=2.0.0",
+    "yeadon >=1.1.0"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/B/BicycleParameters/BicycleParameters-1.0.0.tar.gz",
+ "version":"1.0.0"
+}

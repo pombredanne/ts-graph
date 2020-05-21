@@ -1,0 +1,353 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/296752230.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.0.27"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/402016951.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.0.28"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"watchme",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "dev_url":"https://github.com/vsoch/watchme",
+   "doc_url":"https://vsoch.github.io/watchme",
+   "home":"https://github.com/vsoch/wathchme",
+   "license":"MPL-2.0",
+   "license_family":"OTHER",
+   "license_file":"LICENSE",
+   "summary":"reproducible monitoring and temporal database with git"
+  },
+  "build":{
+   "entry_points":[
+    "watchme=watchme.client:main",
+    "watchme=watchme.client:main",
+    "watchme=watchme.client:main"
+   ],
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . --no-deps --ignore-installed -vv "
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "vsoch",
+    "vsoch",
+    "vsoch"
+   ]
+  },
+  "package":{
+   "name":"watchme",
+   "version":"0.0.28"
+  },
+  "requirements":{
+   "host":[
+    "pip",
+    "python >=3",
+    "setuptools",
+    "pytest-runner",
+    "pip",
+    "python >=3",
+    "setuptools",
+    "pytest-runner",
+    "pip",
+    "python >=3",
+    "setuptools",
+    "pytest-runner"
+   ],
+   "run":[
+    "python >=3.6",
+    "python-crontab >=2.3.6",
+    "configparser >=3.5.3",
+    "requests >=2.21.0",
+    "beautifulsoup4 >=4.6.0",
+    "lxml >=4.1.1",
+    "psutil >=5.4.3",
+    "python >=3.6",
+    "python-crontab >=2.3.6",
+    "configparser >=3.5.3",
+    "requests >=2.21.0",
+    "beautifulsoup4 >=4.6.0",
+    "lxml >=4.1.1",
+    "psutil >=5.4.3",
+    "python >=3.6",
+    "python-crontab >=2.3.6",
+    "configparser >=3.5.3",
+    "requests >=2.21.0",
+    "beautifulsoup4 >=4.6.0",
+    "lxml >=4.1.1",
+    "psutil >=5.4.3"
+   ]
+  },
+  "source":{
+   "sha256":"73e76494f050c3ecd26efed6b57fc7616b27545f6ea02b8a3f13b5b76535fd19",
+   "url":"https://pypi.io/packages/source/w/watchme/watchme-0.0.28.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "watchme --help",
+    "watchme --help",
+    "watchme --help"
+   ],
+   "imports":[
+    "watchme",
+    "watchme.config",
+    "watchme.defaults",
+    "watchme.version",
+    "watchme.client",
+    "watchme.client.activate",
+    "watchme.client.create",
+    "watchme.client.deactivate",
+    "watchme.client.edit",
+    "watchme.client.export",
+    "watchme.client.get",
+    "watchme.client.init",
+    "watchme.client.inspect",
+    "watchme.client.monitor",
+    "watchme.client.protect",
+    "watchme.client.remove",
+    "watchme.client.ls",
+    "watchme.client.run",
+    "watchme.client.schedule",
+    "watchme.watchers",
+    "watchme.watchers.data",
+    "watchme.watchers.schedule",
+    "watchme.watchers.settings",
+    "watchme.watchers.psutils",
+    "watchme.watchers.psutils.decorators",
+    "watchme.watchers.psutils.tasks",
+    "watchme.watchers.results",
+    "watchme.watchers.results.tasks",
+    "watchme.watchers.urls",
+    "watchme.watchers.urls.helpers",
+    "watchme.watchers.urls.tasks",
+    "watchme.command",
+    "watchme.command.commit",
+    "watchme.command.create",
+    "watchme.command.utils",
+    "watchme.logger",
+    "watchme.logger.message",
+    "watchme.logger.namer",
+    "watchme.logger.spinner",
+    "watchme.utils",
+    "watchme.utils.fileio",
+    "watchme.utils.terminal",
+    "watchme.tests",
+    "watchme.tasks",
+    "watchme.tasks.decorators",
+    "watchme.tasks.worker",
+    "watchme",
+    "watchme.config",
+    "watchme.defaults",
+    "watchme.version",
+    "watchme.client",
+    "watchme.client.activate",
+    "watchme.client.create",
+    "watchme.client.deactivate",
+    "watchme.client.edit",
+    "watchme.client.export",
+    "watchme.client.get",
+    "watchme.client.init",
+    "watchme.client.inspect",
+    "watchme.client.monitor",
+    "watchme.client.protect",
+    "watchme.client.remove",
+    "watchme.client.ls",
+    "watchme.client.run",
+    "watchme.client.schedule",
+    "watchme.watchers",
+    "watchme.watchers.data",
+    "watchme.watchers.schedule",
+    "watchme.watchers.settings",
+    "watchme.watchers.psutils",
+    "watchme.watchers.psutils.decorators",
+    "watchme.watchers.psutils.tasks",
+    "watchme.watchers.results",
+    "watchme.watchers.results.tasks",
+    "watchme.watchers.urls",
+    "watchme.watchers.urls.helpers",
+    "watchme.watchers.urls.tasks",
+    "watchme.command",
+    "watchme.command.commit",
+    "watchme.command.create",
+    "watchme.command.utils",
+    "watchme.logger",
+    "watchme.logger.message",
+    "watchme.logger.namer",
+    "watchme.logger.spinner",
+    "watchme.utils",
+    "watchme.utils.fileio",
+    "watchme.utils.terminal",
+    "watchme.tests",
+    "watchme.tasks",
+    "watchme.tasks.decorators",
+    "watchme.tasks.worker",
+    "watchme",
+    "watchme.config",
+    "watchme.defaults",
+    "watchme.version",
+    "watchme.client",
+    "watchme.client.activate",
+    "watchme.client.create",
+    "watchme.client.deactivate",
+    "watchme.client.edit",
+    "watchme.client.export",
+    "watchme.client.get",
+    "watchme.client.init",
+    "watchme.client.inspect",
+    "watchme.client.monitor",
+    "watchme.client.protect",
+    "watchme.client.remove",
+    "watchme.client.ls",
+    "watchme.client.run",
+    "watchme.client.schedule",
+    "watchme.watchers",
+    "watchme.watchers.data",
+    "watchme.watchers.schedule",
+    "watchme.watchers.settings",
+    "watchme.watchers.psutils",
+    "watchme.watchers.psutils.decorators",
+    "watchme.watchers.psutils.tasks",
+    "watchme.watchers.results",
+    "watchme.watchers.results.tasks",
+    "watchme.watchers.urls",
+    "watchme.watchers.urls.helpers",
+    "watchme.watchers.urls.tasks",
+    "watchme.command",
+    "watchme.command.commit",
+    "watchme.command.create",
+    "watchme.command.utils",
+    "watchme.logger",
+    "watchme.logger.message",
+    "watchme.logger.namer",
+    "watchme.logger.spinner",
+    "watchme.utils",
+    "watchme.utils.fileio",
+    "watchme.utils.terminal",
+    "watchme.tests",
+    "watchme.tasks",
+    "watchme.tasks.decorators",
+    "watchme.tasks.worker"
+   ]
+  }
+ },
+ "name":"watchme",
+ "new_version":"0.0.28",
+ "new_version_attempts":{
+  "0.0.28":1
+ },
+ "new_version_errors":{},
+ "pinning_version":"2020.04.10.16.51.29",
+ "raw_meta_yaml":"{% set name = \"watchme\" %}\n{% set version = \"0.0.28\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: 73e76494f050c3ecd26efed6b57fc7616b27545f6ea02b8a3f13b5b76535fd19\n\nbuild:\n  number: 0\n  entry_points:\n    - watchme=watchme.client:main\n  script: '{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv '\n  noarch: python\n\nrequirements:\n  host:\n    - pip\n    - python >=3\n    - setuptools\n    - pytest-runner\n  run:\n    - python >=3.6\n    - python-crontab >=2.3.6\n    - configparser >=3.5.3\n    - requests >=2.21.0\n    - beautifulsoup4 >=4.6.0\n    - lxml >=4.1.1\n    - psutil >=5.4.3\n\ntest:\n  imports:\n    - watchme\n    - watchme.config\n    - watchme.defaults\n    - watchme.version\n    - watchme.client\n    - watchme.client.activate\n    - watchme.client.create\n    - watchme.client.deactivate\n    - watchme.client.edit\n    - watchme.client.export\n    - watchme.client.get\n    - watchme.client.init\n    - watchme.client.inspect\n    - watchme.client.monitor\n    - watchme.client.protect\n    - watchme.client.remove\n    - watchme.client.ls\n    - watchme.client.run\n    - watchme.client.schedule\n    - watchme.watchers\n    - watchme.watchers.data\n    - watchme.watchers.schedule\n    - watchme.watchers.settings\n    - watchme.watchers.psutils\n    - watchme.watchers.psutils.decorators\n    - watchme.watchers.psutils.tasks\n    - watchme.watchers.results\n    - watchme.watchers.results.tasks\n    - watchme.watchers.urls\n    - watchme.watchers.urls.helpers\n    - watchme.watchers.urls.tasks\n    - watchme.command\n    - watchme.command.commit\n    - watchme.command.create\n    - watchme.command.utils\n    - watchme.logger\n    - watchme.logger.message\n    - watchme.logger.namer\n    - watchme.logger.spinner\n    - watchme.utils\n    - watchme.utils.fileio\n    - watchme.utils.terminal\n    - watchme.tests\n    - watchme.tasks\n    - watchme.tasks.decorators\n    - watchme.tasks.worker\n  commands:\n    - watchme --help\n\nabout:\n  home: https://github.com/vsoch/wathchme\n  license: MPL-2.0\n  license_family: OTHER\n  license_file: LICENSE\n  summary: reproducible monitoring and temporal database with git\n  doc_url: https://vsoch.github.io/watchme\n  dev_url: https://github.com/vsoch/watchme\n\nextra:\n  recipe-maintainers:\n    - vsoch\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "beautifulsoup4",
+   "configparser",
+   "lxml",
+   "pip",
+   "psutil",
+   "pytest-runner",
+   "python",
+   "python-crontab",
+   "requests",
+   "setuptools"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "pytest-runner",
+    "python",
+    "setuptools"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "beautifulsoup4",
+    "configparser",
+    "lxml",
+    "psutil",
+    "python",
+    "python-crontab",
+    "requests"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.6.16",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "pytest-runner",
+    "python >=3",
+    "setuptools"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "beautifulsoup4 >=4.6.0",
+    "configparser >=3.5.3",
+    "lxml >=4.1.1",
+    "psutil >=5.4.3",
+    "python >=3.6",
+    "python-crontab >=2.3.6",
+    "requests >=2.21.0"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/w/watchme/watchme-0.0.27.tar.gz",
+ "version":"0.0.28"
+}

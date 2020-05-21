@@ -1,0 +1,504 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/203641388.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.10.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/217829700.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.11.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/225205631.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.12.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/228096271.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/238787913.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.12.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/241892187.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.12.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/256024896.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.13.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/258565235.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.13.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/288418407.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.14.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/317092834.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.15.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/319097833.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.0.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/333952818.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.0.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/336076854.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"python38"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/345481203.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.0.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/352885046.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.1.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/397694886.json"
+   },
+   "data":{
+    "bot_rerun":1587096823.4391332,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"pypy"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/404901603.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.2.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "compiler_stack":"comp7",
+  "max_py_ver":"37",
+  "max_r_ver":"35",
+  "provider":{
+   "win":"azure"
+  }
+ },
+ "feedstock_name":"tensorboard",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"https://github.com/tensorflow/tensorboard",
+   "license":"Apache-2.0",
+   "license_file":"/LICENSE",
+   "summary":"TensorFlow's Visualization Toolkit"
+  },
+  "build":{
+   "entry_points":[
+    "tensorboard = tensorboard.main:run_main",
+    "tensorboard = tensorboard.main:run_main",
+    "tensorboard = tensorboard.main:run_main"
+   ],
+   "noarch":"python",
+   "number":"1",
+   "script":[
+    "python -m pip install --no-deps --ignore-installed ./tensorboard-2.1.1-py3-none-any.whl",
+    "python -m pip install --no-deps --ignore-installed ./tensorboard-2.1.1-py3-none-any.whl",
+    "python -m pip install --no-deps --ignore-installed ./tensorboard-2.1.1-py3-none-any.whl"
+   ]
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "sdvillal",
+    "gilbertfrancois",
+    "farhantejani",
+    "mdraw",
+    "sdvillal",
+    "gilbertfrancois",
+    "farhantejani",
+    "mdraw",
+    "sdvillal",
+    "gilbertfrancois",
+    "farhantejani",
+    "mdraw"
+   ]
+  },
+  "package":{
+   "name":"tensorboard",
+   "version":"2.1.1"
+  },
+  "requirements":{
+   "host":[
+    "python >=3.2",
+    "pip",
+    "python >=3.2",
+    "pip",
+    "python >=3.2",
+    "pip"
+   ],
+   "run":[
+    "python >=3.2",
+    "wheel >=0.26",
+    "numpy >=1.12.0",
+    "six >=1.10.0",
+    "protobuf >=3.6.0",
+    "werkzeug >=0.11.15",
+    "markdown >=2.6.8",
+    "absl-py >=0.4",
+    "grpcio >=1.24.3",
+    "google-auth-oauthlib ==0.4.1",
+    "python >=3.2",
+    "wheel >=0.26",
+    "numpy >=1.12.0",
+    "six >=1.10.0",
+    "protobuf >=3.6.0",
+    "werkzeug >=0.11.15",
+    "markdown >=2.6.8",
+    "absl-py >=0.4",
+    "grpcio >=1.24.3",
+    "google-auth-oauthlib ==0.4.1",
+    "python >=3.2",
+    "wheel >=0.26",
+    "numpy >=1.12.0",
+    "six >=1.10.0",
+    "protobuf >=3.6.0",
+    "werkzeug >=0.11.15",
+    "markdown >=2.6.8",
+    "absl-py >=0.4",
+    "grpcio >=1.24.3",
+    "google-auth-oauthlib ==0.4.1"
+   ]
+  },
+  "source":{
+   "sha256":"3a36da59d4e13fb140d04636aaf544f1a38364a7e3609a15cdaf01a5d3073b37",
+   "url":"https://pypi.io/packages/py3/t/tensorboard/tensorboard-2.1.1-py3-none-any.whl"
+  },
+  "test":{
+   "commands":[
+    "tensorboard -h",
+    "tensorboard -h",
+    "tensorboard -h"
+   ],
+   "imports":[
+    "tensorboard",
+    "tensorboard",
+    "tensorboard"
+   ]
+  }
+ },
+ "name":"tensorboard",
+ "new_version":"2.2.1",
+ "new_version_attempts":{
+  "2.2.0":221,
+  "2.2.1":25
+ },
+ "new_version_errors":{
+  "2.2.0":"The recipe did not change in the version migration, a URL did not hash, or there is jinja2 syntax the bot cannot handle!\n\nPlease check the URLs in your recipe with version '2.2.0' to make sure they exist!\n\nWe also found the following errors:\n\n - could not hash URL template 'https://pypi.io/packages/py2/t/tensorboard/tensorboard-{{ version }}-py2-none-any.whl'\n",
+  "2.2.1":"The recipe did not change in the version migration, a URL did not hash, or there is jinja2 syntax the bot cannot handle!\n\nPlease check the URLs in your recipe with version '2.2.1' to make sure they exist!\n\nWe also found the following errors:\n\n - could not hash URL template 'https://pypi.io/packages/py2/t/tensorboard/tensorboard-{{ version }}-py2-none-any.whl'\n"
+ },
+ "pinning_version":"2020.04.17.01.00.32",
+ "raw_meta_yaml":"{% set name = \"tensorboard\" %}\n{% set version = \"2.1.1\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/py3/t/tensorboard/tensorboard-{{ version }}-py3-none-any.whl\n  sha256: 3a36da59d4e13fb140d04636aaf544f1a38364a7e3609a15cdaf01a5d3073b37\n\nbuild:\n  number: 1\n  noarch: python\n  script:\n    - python -m pip install --no-deps --ignore-installed ./tensorboard-{{ version }}-py3-none-any.whl\n  entry_points:\n    - tensorboard = tensorboard.main:run_main\n\nrequirements:\n  host:\n    - python >=3.2\n    - pip\n  run:\n    - python >=3.2\n    - wheel >=0.26\n    - numpy >=1.12.0\n    - six >=1.10.0\n    - protobuf >=3.6.0\n    - werkzeug >=0.11.15\n    - markdown >=2.6.8\n    - absl-py >=0.4\n    - grpcio >=1.24.3\n    - google-auth-oauthlib ==0.4.1\n\ntest:\n  imports:\n    - tensorboard\n  commands:\n    - tensorboard -h\n\nabout:\n  home: https://github.com/tensorflow/tensorboard\n  license: Apache-2.0\n  license_file: {{ environ[\"RECIPE_DIR\"] }}/LICENSE\n  summary: TensorFlow's Visualization Toolkit\n\nextra:\n  recipe-maintainers:\n    - sdvillal\n    - gilbertfrancois\n    - farhantejani\n    - mdraw\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "absl-py",
+   "google-auth-oauthlib",
+   "grpcio",
+   "markdown",
+   "numpy",
+   "pip",
+   "protobuf",
+   "python",
+   "six",
+   "werkzeug",
+   "wheel"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "absl-py",
+    "google-auth-oauthlib",
+    "grpcio",
+    "markdown",
+    "numpy",
+    "protobuf",
+    "python",
+    "six",
+    "werkzeug",
+    "wheel"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.6.16",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3.2"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "absl-py >=0.4",
+    "google-auth-oauthlib ==0.4.1",
+    "grpcio >=1.24.3",
+    "markdown >=2.6.8",
+    "numpy >=1.12.0",
+    "protobuf >=3.6.0",
+    "python >=3.2",
+    "six >=1.10.0",
+    "werkzeug >=0.11.15",
+    "wheel >=0.26"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/py3/t/tensorboard/tensorboard-1.14.0-py3-none-any.whl",
+ "version":"2.1.1"
+}

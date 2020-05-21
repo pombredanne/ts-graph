@@ -1,0 +1,6 @@
+{
+ "bad":"Upstream: Error getting upstream version",
+ "feedstock_name":"pseudorandom",
+ "new_version":false,
+ "raw_meta_yaml":"{% set name = \"pseudorandom\" %}\n{% set pypiname = \"python-\" + name %}\n{% set version = \"0.2.2\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: \"https://pypi.io/packages/source/{{ pypiname[0] }}/{{ pypiname }}/{{ pypiname }}-{{ version }}.tar.gz\"\n  sha256: \"1910f965ae3fec5d3b972360b8f0292960f8414611dd9ab19349bbf159508da8\"\n\nbuild:\n  noarch: python\n  script: \"{{ PYTHON }} -m pip install . --no-deps -vv\"\n  number: 0\n\nrequirements:\n  host:\n    - pip\n    - python\n    - datamatrix\n\n  run:\n    - python\n    - datamatrix\n\ntest:\n  imports:\n    - pseudorandom\n\nabout:\n  home: https://github.com/smathot/python-pseudorandom\n  license: GPLv3\n  license_family: GPL\n  license_file: LICENSE\n  summary: 'A Python library for generating pseudorandom condition/ stimulus lists for psychological experiments'\n\nextra:\n  recipe-maintainers:\n    - dschreij\n    - smathot\n"
+}

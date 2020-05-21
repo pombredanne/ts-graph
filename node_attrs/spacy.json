@@ -1,0 +1,748 @@
+{
+ "PRed":[
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.0.11"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/198459167.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Compiler",
+    "migrator_version":0
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/203013826.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.0.12"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/222682901.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.0.13"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/222730314.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/222747675.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.0.14"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/222888651.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.0.15"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/222907528.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.0.16"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/233553661.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.0.17"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/235165523.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.0.18"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/262213949.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.1.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/262842891.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.1.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/263634059.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.1.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/263848108.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.1.3"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/278013090.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.1.4"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/297070446.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.1.5"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/297140239.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.1.6"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/303502582.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.1.7"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/305512183.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.1.8"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/323807068.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.2.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/324272115.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.2.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/335042157.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.2.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/341033103.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"python38"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/344193810.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.2.3"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/387274844.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.2.4"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "compiler_stack":"comp7",
+  "max_py_ver":"37",
+  "max_r_ver":"35",
+  "provider":{
+   "win":"azure"
+  }
+ },
+ "feedstock_name":"spacy",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"spaCy is a library for advanced natural language processing in Python and\nCython.\n",
+   "dev_url":"https://github.com/explosion/spaCy",
+   "doc_url":"https://spacy.io",
+   "home":"https://spacy.io/",
+   "license":"MIT",
+   "license_file":"LICENSE",
+   "summary":"Industrial-strength Natural Language Processing"
+  },
+  "build":{
+   "number":"1",
+   "script":"-m pip install . --no-deps --ignore-installed --no-cache-dir -vvv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "rmax",
+    "honnibal",
+    "ines",
+    "rmax",
+    "honnibal",
+    "ines",
+    "rmax",
+    "honnibal",
+    "ines"
+   ]
+  },
+  "package":{
+   "name":"spacy",
+   "version":"2.2.4"
+  },
+  "requirements":{
+   "build":[
+    "pip",
+    "cxx_compiler_stub",
+    "wheel",
+    "cython >=0.25",
+    "cymem >=2.0.2,<2.1.0",
+    "preshed >=3.0.2,<3.1.0",
+    "murmurhash >=0.28.0,<1.1.0",
+    "thinc ==7.4.0",
+    "importlib-metadata >=0.20",
+    "pip",
+    "cxx_compiler_stub",
+    "wheel",
+    "cython >=0.25",
+    "cymem >=2.0.2,<2.1.0",
+    "preshed >=3.0.2,<3.1.0",
+    "murmurhash >=0.28.0,<1.1.0",
+    "thinc ==7.4.0",
+    "importlib-metadata >=0.20",
+    "pip",
+    "cxx_compiler_stub",
+    "wheel",
+    "cython >=0.25",
+    "cymem >=2.0.2,<2.1.0",
+    "preshed >=3.0.2,<3.1.0",
+    "murmurhash >=0.28.0,<1.1.0",
+    "thinc ==7.4.0",
+    "importlib-metadata >=0.20"
+   ],
+   "host":[
+    "pip",
+    "python",
+    "numpy 1.16.*",
+    "wheel",
+    "cython >=0.25",
+    "cymem >=2.0.2,<2.1.0",
+    "preshed >=3.0.2,<3.1.0",
+    "murmurhash >=0.28.0,<1.1.0",
+    "thinc ==7.4.0",
+    "importlib_metadata >=0.20",
+    "pip",
+    "python",
+    "numpy 1.16.*",
+    "wheel",
+    "cython >=0.25",
+    "cymem >=2.0.2,<2.1.0",
+    "preshed >=3.0.2,<3.1.0",
+    "murmurhash >=0.28.0,<1.1.0",
+    "thinc ==7.4.0",
+    "importlib_metadata >=0.20",
+    "pip",
+    "python",
+    "numpy 1.16.*",
+    "wheel",
+    "cython >=0.25",
+    "cymem >=2.0.2,<2.1.0",
+    "preshed >=3.0.2,<3.1.0",
+    "murmurhash >=0.28.0,<1.1.0",
+    "thinc ==7.4.0",
+    "importlib_metadata >=0.20"
+   ],
+   "run":[
+    "python",
+    "numpy",
+    "murmurhash >=0.28.0,<1.1.0",
+    "cymem >=2.0.2,<2.1.0",
+    "preshed >=3.0.2,<3.1.0",
+    "thinc ==7.4.0",
+    "cython-blis >=0.4.0,<0.5.0",
+    "catalogue >=0.0.7,<1.1.0",
+    "plac <1.0.0,>=0.9.6",
+    "requests >=2.13.0,<3.0.0",
+    "wasabi >=0.4.0,<1.1.0",
+    "srsly >=1.0.2,<1.1.0",
+    "jsonschema",
+    "importlib-metadata >=0.20",
+    "python",
+    "numpy",
+    "murmurhash >=0.28.0,<1.1.0",
+    "cymem >=2.0.2,<2.1.0",
+    "preshed >=3.0.2,<3.1.0",
+    "thinc ==7.4.0",
+    "cython-blis >=0.4.0,<0.5.0",
+    "catalogue >=0.0.7,<1.1.0",
+    "plac <1.0.0,>=0.9.6",
+    "requests >=2.13.0,<3.0.0",
+    "wasabi >=0.4.0,<1.1.0",
+    "srsly >=1.0.2,<1.1.0",
+    "jsonschema",
+    "importlib-metadata >=0.20",
+    "python",
+    "numpy",
+    "murmurhash >=0.28.0,<1.1.0",
+    "cymem >=2.0.2,<2.1.0",
+    "preshed >=3.0.2,<3.1.0",
+    "thinc ==7.4.0",
+    "cython-blis >=0.4.0,<0.5.0",
+    "catalogue >=0.0.7,<1.1.0",
+    "plac <1.0.0,>=0.9.6",
+    "requests >=2.13.0,<3.0.0",
+    "wasabi >=0.4.0,<1.1.0",
+    "srsly >=1.0.2,<1.1.0",
+    "jsonschema",
+    "importlib-metadata >=0.20"
+   ]
+  },
+  "source":{
+   "fn":"spacy-2.2.4.tar.gz",
+   "patches":"patches/0002-skip-multiproc-test.patch",
+   "sha256":"f0f3a67c5841e6e35d62c98f40ebb3d132587d3aba4f4dccac5056c4e90ff5b9",
+   "url":"https://pypi.io/packages/source/s/spacy/spacy-2.2.4.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "python -m pytest --tb=native --pyargs spacy",
+    "python -m pytest --tb=native --pyargs spacy",
+    "python -m pytest --tb=native --pyargs spacy"
+   ],
+   "imports":[
+    "spacy",
+    "spacy",
+    "spacy"
+   ],
+   "requires":[
+    "pytest",
+    "mock",
+    "pytest",
+    "mock",
+    "pytest",
+    "mock"
+   ]
+  }
+ },
+ "name":"spacy",
+ "new_version":"2.2.4",
+ "pinning_version":"2020.03.10",
+ "raw_meta_yaml":"{% set name = \"spacy\" %}\n{% set version = \"2.2.4\" %}\n{% set sha256sum = \"f0f3a67c5841e6e35d62c98f40ebb3d132587d3aba4f4dccac5056c4e90ff5b9\" %}\n\npackage:\n  name: {{ name }}\n  version: {{ version }}\n\nsource:\n  fn: {{ name }}-{{ version }}.tar.gz\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256sum }}\n  patches: patches/0002-skip-multiproc-test.patch\n\n\nbuild:\n  number: 1\n  script: {{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv\n  skip: true  # [(win and py27) or (osx and py27)]\n\nrequirements:\n  build:\n    - pip\n    - {{ compiler('cxx') }}\n    - wheel\n    - cython >=0.25\n    - cymem >=2.0.2,<2.1.0\n    - preshed >=3.0.2,<3.1.0\n    - murmurhash >=0.28.0,<1.1.0\n    - thinc ==7.4.0\n    - importlib-metadata >=0.20\n  host:\n    - pip\n    - python\n    - numpy 1.16.*\n    - wheel\n    - cython >=0.25\n    - cymem >=2.0.2,<2.1.0\n    - preshed >=3.0.2,<3.1.0\n    - murmurhash >=0.28.0,<1.1.0\n    - thinc ==7.4.0\n    - importlib_metadata >=0.20\n  run:\n    - python\n    - {{ pin_compatible('numpy') }}\n    - murmurhash >=0.28.0,<1.1.0\n    - cymem >=2.0.2,<2.1.0\n    - preshed >=3.0.2,<3.1.0\n    - thinc ==7.4.0\n    - cython-blis >=0.4.0,<0.5.0\n    - catalogue >=0.0.7,<1.1.0\n    - plac <1.0.0,>=0.9.6\n    - requests >=2.13.0,<3.0.0\n    - wasabi >=0.4.0,<1.1.0\n    - srsly >=1.0.2,<1.1.0\n    - jsonschema\n    - pathlib >=1.0.0,<2.0.0  # [py27]\n    - importlib-metadata >=0.20\n\ntest:\n  requires:\n    - pytest\n    - mock\n  imports:\n    - spacy\n  commands:\n    - python -m pytest --tb=native --pyargs {{ name }}\n\nabout:\n  home: https://spacy.io/\n  license: MIT\n  license_file: LICENSE\n  summary: Industrial-strength Natural Language Processing\n  description: |\n    spaCy is a library for advanced natural language processing in Python and\n    Cython.\n  doc_url: https://spacy.io\n  dev_url: https://github.com/explosion/spaCy\n\nextra:\n  recipe-maintainers:\n    - rmax\n    - honnibal\n    - ines\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "catalogue",
+   "cxx_compiler_stub",
+   "cymem",
+   "cython",
+   "cython-blis",
+   "importlib-metadata",
+   "importlib_metadata",
+   "jsonschema",
+   "murmurhash",
+   "numpy",
+   "pip",
+   "plac",
+   "preshed",
+   "python",
+   "requests",
+   "srsly",
+   "thinc",
+   "wasabi",
+   "wheel"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "cxx_compiler_stub",
+    "cymem",
+    "cython",
+    "importlib-metadata",
+    "murmurhash",
+    "pip",
+    "preshed",
+    "thinc",
+    "wheel"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "cymem",
+    "cython",
+    "importlib_metadata",
+    "murmurhash",
+    "numpy",
+    "pip",
+    "preshed",
+    "python",
+    "thinc",
+    "wheel"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "catalogue",
+    "cymem",
+    "cython-blis",
+    "importlib-metadata",
+    "jsonschema",
+    "murmurhash",
+    "numpy",
+    "plac",
+    "preshed",
+    "python",
+    "requests",
+    "srsly",
+    "thinc",
+    "wasabi"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "mock",
+    "pytest"
+   ]
+  }
+ },
+ "smithy_version":"3.6.12",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "cxx_compiler_stub",
+    "cymem >=2.0.2,<2.1.0",
+    "cython >=0.25",
+    "importlib-metadata >=0.20",
+    "murmurhash >=0.28.0,<1.1.0",
+    "pip",
+    "preshed >=3.0.2,<3.1.0",
+    "thinc ==7.4.0",
+    "wheel"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "cymem >=2.0.2,<2.1.0",
+    "cython >=0.25",
+    "importlib_metadata >=0.20",
+    "murmurhash >=0.28.0,<1.1.0",
+    "numpy 1.16.*",
+    "pip",
+    "preshed >=3.0.2,<3.1.0",
+    "python",
+    "thinc ==7.4.0",
+    "wheel"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "catalogue >=0.0.7,<1.1.0",
+    "cymem >=2.0.2,<2.1.0",
+    "cython-blis >=0.4.0,<0.5.0",
+    "importlib-metadata >=0.20",
+    "jsonschema",
+    "murmurhash >=0.28.0,<1.1.0",
+    "numpy",
+    "plac <1.0.0,>=0.9.6",
+    "preshed >=3.0.2,<3.1.0",
+    "python",
+    "requests >=2.13.0,<3.0.0",
+    "srsly >=1.0.2,<1.1.0",
+    "thinc ==7.4.0",
+    "wasabi >=0.4.0,<1.1.0"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "mock",
+    "pytest"
+   ]
+  }
+ },
+ "url":"https://pypi.io/packages/source/s/spacy/spacy-2.1.8.tar.gz",
+ "version":"2.2.4"
+}

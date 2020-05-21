@@ -1,0 +1,247 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/402379593.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.4.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/402386620.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.4.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"nteract-scrapbook",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"THE scrapbook library records a notebook\u2019s data values and generated visual\ncontent as \"scraps\". Recorded scraps can be read at a future time.\n",
+   "doc_source_url":"https://github.com/nteract/scrapbook/tree/master/docs",
+   "doc_url":"https://nteract-scrapbook.readthedocs.io",
+   "home":"https://github.com/nteract/scrapbook",
+   "license":"BSD-3-Clause",
+   "license_family":"BSD",
+   "license_file":"LICENSE",
+   "summary":"A library for recording and reading data in notebooks. "
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":"-m pip install . -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "bollwyvl",
+    "mseal",
+    "bollwyvl",
+    "mseal",
+    "bollwyvl",
+    "mseal"
+   ]
+  },
+  "package":{
+   "name":"nteract-scrapbook",
+   "version":"0.4.1"
+  },
+  "requirements":{
+   "host":[
+    "python >=3.5",
+    "pip",
+    "python >=3.5",
+    "pip",
+    "python >=3.5",
+    "pip"
+   ],
+   "run":[
+    "ipython",
+    "jsonschema",
+    "pandas",
+    "papermill",
+    "pyarrow",
+    "python >=3.5",
+    "ipython",
+    "jsonschema",
+    "pandas",
+    "papermill",
+    "pyarrow",
+    "python >=3.5",
+    "ipython",
+    "jsonschema",
+    "pandas",
+    "papermill",
+    "pyarrow",
+    "python >=3.5"
+   ]
+  },
+  "source":{
+   "sha256":"27dfad870797e6b49152b49cacc55869349e259097568732f273d8703bae91fe",
+   "url":"https://pypi.io/packages/source/n/nteract-scrapbook/nteract-scrapbook-0.4.1.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "python -m pytest --pyargs scrapbook --cov scrapbook -v",
+    "python -m pip check",
+    "python -m pytest --pyargs scrapbook --cov scrapbook -v",
+    "python -m pip check",
+    "python -m pytest --pyargs scrapbook --cov scrapbook -v",
+    "python -m pip check"
+   ],
+   "imports":[
+    "scrapbook",
+    "scrapbook",
+    "scrapbook"
+   ],
+   "requires":[
+    "coverage",
+    "ipython",
+    "mock",
+    "pip",
+    "pytest >=4.1",
+    "pytest-cov >=2.6.1",
+    "pytest-env >=0.6.2",
+    "pytest-mock >=1.10",
+    "coverage",
+    "ipython",
+    "mock",
+    "pip",
+    "pytest >=4.1",
+    "pytest-cov >=2.6.1",
+    "pytest-env >=0.6.2",
+    "pytest-mock >=1.10",
+    "coverage",
+    "ipython",
+    "mock",
+    "pip",
+    "pytest >=4.1",
+    "pytest-cov >=2.6.1",
+    "pytest-env >=0.6.2",
+    "pytest-mock >=1.10"
+   ]
+  }
+ },
+ "name":"nteract-scrapbook",
+ "new_version":"0.4.1",
+ "new_version_attempts":{
+  "0.4.0":1,
+  "0.4.1":1
+ },
+ "new_version_errors":{},
+ "pinning_version":"2020.04.12.13.56.44",
+ "raw_meta_yaml":"{% set name = \"nteract-scrapbook\" %}\n{% set version = \"0.4.1\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: 27dfad870797e6b49152b49cacc55869349e259097568732f273d8703bae91fe\n\nbuild:\n  noarch: python\n  number: 0\n  script: {{ PYTHON }} -m pip install . -vv\n\nrequirements:\n  host:\n    - python >=3.5\n    - pip\n  run:\n    - ipython\n    - jsonschema\n    - pandas\n    - papermill\n    - pyarrow\n    - python >=3.5\n\ntest:\n  requires:\n    - coverage\n    - ipython\n    - mock\n    - pip\n    - pytest >=4.1\n    - pytest-cov >=2.6.1\n    - pytest-env >=0.6.2\n    - pytest-mock >=1.10\n  imports:\n    - scrapbook\n  commands:\n    - python -m pytest --pyargs scrapbook --cov scrapbook -v\n    - python -m pip check\n\nabout:\n  home: https://github.com/nteract/scrapbook\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: LICENSE\n  summary: 'A library for recording and reading data in notebooks. '\n  description: |\n    THE scrapbook library records a notebook\u2019s data values and generated visual\n    content as \"scraps\". Recorded scraps can be read at a future time.\n  doc_url: https://nteract-scrapbook.readthedocs.io\n  doc_source_url: https://github.com/nteract/scrapbook/tree/master/docs\n\nextra:\n  recipe-maintainers:\n    - bollwyvl\n    - mseal\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "ipython",
+   "jsonschema",
+   "pandas",
+   "papermill",
+   "pip",
+   "pyarrow",
+   "python"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "ipython",
+    "jsonschema",
+    "pandas",
+    "papermill",
+    "pyarrow",
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "coverage",
+    "ipython",
+    "mock",
+    "pip",
+    "pytest",
+    "pytest-cov",
+    "pytest-env",
+    "pytest-mock"
+   ]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.6.16",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3.5"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "ipython",
+    "jsonschema",
+    "pandas",
+    "papermill",
+    "pyarrow",
+    "python >=3.5"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "coverage",
+    "ipython",
+    "mock",
+    "pip",
+    "pytest >=4.1",
+    "pytest-cov >=2.6.1",
+    "pytest-env >=0.6.2",
+    "pytest-mock >=1.10"
+   ]
+  }
+ },
+ "url":"https://pypi.io/packages/source/n/nteract-scrapbook/nteract-scrapbook-0.3.1.tar.gz",
+ "version":"0.4.1"
+}

@@ -1,0 +1,232 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/285475100.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2019.03.22.14.36"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/293802260.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2019.07.02.16.09"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/326731468.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2019.10.05.12.26"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/388562765.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2020.03.14.11.44"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/388855410.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2020.03.15.13.27"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"acpype",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"A tool based in Python to use Antechamber to generate topologies\nfor chemical compounds and to interface with other python\napplications like CCPN or ARIA.\n",
+   "dev_url":"https://github.com/alanwilter/acpype",
+   "doc_url":"https://github.com/alanwilter/acpype",
+   "home":"https://github.com/alanwilter/acpype",
+   "license":"GPL-3.0",
+   "license_family":"GPL",
+   "license_file":"LICENSE",
+   "summary":"Generates topologies for chemical compounds"
+  },
+  "build":{
+   "entry_points":[
+    "acpype=scripts.acpype:init_main",
+    "acpype=scripts.acpype:init_main",
+    "acpype=scripts.acpype:init_main"
+   ],
+   "noarch":"python",
+   "number":"0",
+   "script":[
+    "mv recipe/setup_conda.py setup.py",
+    "-m pip install . -vv",
+    "mv recipe/setup_conda.py setup.py",
+    "-m pip install . -vv",
+    "mv recipe/setup_conda.py setup.py",
+    "-m pip install . -vv"
+   ]
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "simonbray",
+    "simonbray",
+    "simonbray"
+   ]
+  },
+  "package":{
+   "name":"acpype",
+   "version":"2020.03.15.13.27"
+  },
+  "requirements":{
+   "host":[
+    "python >=3",
+    "pip",
+    "python >=3",
+    "pip",
+    "python >=3",
+    "pip"
+   ],
+   "run":[
+    "openbabel",
+    "python >=3",
+    "ambertools",
+    "openbabel",
+    "python >=3",
+    "ambertools",
+    "openbabel",
+    "python >=3",
+    "ambertools"
+   ]
+  },
+  "source":{
+   "sha256":"d59a0d7e3d3cc93d32170dc2ad31750faede418d76422acf9656a9216c9bed7b",
+   "url":"https://github.com/alanwilter/acpype/archive/2020.03.15.13.27.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "acpype -h",
+    "acpype -h",
+    "acpype -h"
+   ]
+  }
+ },
+ "name":"acpype",
+ "new_version":"2020.03.15.13.27",
+ "pinning_version":"2020.03.14",
+ "raw_meta_yaml":"{% set name = \"acpype\" %}\n{% set version = \"2020.03.15.13.27\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\nsource:\n  url: https://github.com/alanwilter/{{ name }}/archive/{{ version }}.tar.gz\n  sha256: d59a0d7e3d3cc93d32170dc2ad31750faede418d76422acf9656a9216c9bed7b\nbuild:\n  number: 0\n  script:\n    - mv recipe/setup_conda.py setup.py\n    - {{ PYTHON }} -m pip install . -vv\n  noarch: python\n  entry_points:\n    - acpype=scripts.acpype:init_main\nrequirements:\n  host:\n    - python >=3\n    - pip\n  run:\n    - openbabel\n    - python >=3\n    - ambertools\ntest:\n  commands:\n    - acpype -h\nabout:\n  home: https://github.com/alanwilter/acpype\n  license: GPL-3.0\n  license_family: GPL\n  license_file: LICENSE\n  summary: Generates topologies for chemical compounds\n  description: |\n    A tool based in Python to use Antechamber to generate topologies \n    for chemical compounds and to interface with other python \n    applications like CCPN or ARIA.\n\n  doc_url: https://github.com/alanwilter/acpype\n  dev_url: https://github.com/alanwilter/acpype\n\nextra:\n  recipe-maintainers:\n    - simonbray\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "ambertools",
+   "openbabel",
+   "pip",
+   "python"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "ambertools",
+    "openbabel",
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.6.12",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "ambertools",
+    "openbabel",
+    "python >=3"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://github.com/alanwilter/acpype/archive/d99be8e17e3f999e06a401e5efdbe5f2fc9a2959.tar.gz",
+ "version":"2020.03.15.13.27"
+}

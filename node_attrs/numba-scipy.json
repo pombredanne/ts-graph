@@ -1,0 +1,142 @@
+{
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"numba-scipy",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"https://github.com/numba/numba-scipy",
+   "license":"BSD-2-Clause",
+   "license_family":"BSD",
+   "license_file":"LICENSE",
+   "summary":"numba-scipy extends Numba to make it aware of SciPy"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"1",
+   "script":" -m pip install . -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "xhochy",
+    "xhochy",
+    "xhochy"
+   ]
+  },
+  "package":{
+   "name":"numba-scipy",
+   "version":"0.2.0"
+  },
+  "requirements":{
+   "host":[
+    "pip",
+    "python >=3.6",
+    "setuptools",
+    "pip",
+    "python >=3.6",
+    "setuptools",
+    "pip",
+    "python >=3.6",
+    "setuptools"
+   ],
+   "run":[
+    "python >=3.6",
+    "numba >=0.45",
+    "scipy >=0.16",
+    "setuptools",
+    "python >=3.6",
+    "numba >=0.45",
+    "scipy >=0.16",
+    "setuptools",
+    "python >=3.6",
+    "numba >=0.45",
+    "scipy >=0.16",
+    "setuptools"
+   ]
+  },
+  "source":{
+   "sha256":"78d707dc8ba960fa63da13da2ad744b9d351bb72abf183a99e10d79596dfd30b",
+   "url":"https://pypi.io/packages/source/n/numba-scipy/numba-scipy-0.2.0.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "numba_scipy",
+    "numba_scipy.special",
+    "numba_scipy",
+    "numba_scipy.special",
+    "numba_scipy",
+    "numba_scipy.special"
+   ]
+  }
+ },
+ "name":"numba-scipy",
+ "new_version":"0.2.0",
+ "raw_meta_yaml":"{% set name = \"numba-scipy\" %}\n{% set version = \"0.2.0\" %}\n\npackage:\n  name: \"{{ name|lower }}\"\n  version: \"{{ version }}\"\n\nsource:\n  url: \"https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\"\n  sha256: 78d707dc8ba960fa63da13da2ad744b9d351bb72abf183a99e10d79596dfd30b\n\nbuild:\n  number: 1\n  noarch: python\n  script: \"{{ PYTHON }} -m pip install . -vv\"\n\nrequirements:\n  host:\n    - pip\n    - python >=3.6\n    - setuptools\n  run:\n    - python >=3.6\n    - numba >=0.45\n    - scipy >=0.16\n    - setuptools\n\ntest:\n  imports:\n    - numba_scipy\n    - numba_scipy.special\n\nabout:\n  home: \"https://github.com/numba/numba-scipy\"\n  license: BSD-2-Clause\n  license_family: BSD\n  license_file: LICENSE\n  summary: \"numba-scipy extends Numba to make it aware of SciPy\"\n\nextra:\n  recipe-maintainers:\n    - xhochy\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "numba",
+   "pip",
+   "python",
+   "scipy",
+   "setuptools"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python",
+    "setuptools"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "numba",
+    "python",
+    "scipy",
+    "setuptools"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3.6",
+    "setuptools"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "numba >=0.45",
+    "python >=3.6",
+    "scipy >=0.16",
+    "setuptools"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/n/numba-scipy/numba-scipy-0.2.0.tar.gz",
+ "version":"0.2.0"
+}

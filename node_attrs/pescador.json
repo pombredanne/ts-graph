@@ -1,0 +1,205 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/199959571.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Noarch",
+    "migrator_version":0
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/235307746.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.0.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/312374760.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.1.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"pescador",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"http://github.com/pescadores/pescador",
+   "license":"ISC",
+   "license_family":"OTHER",
+   "summary":"Multiplex generators for incremental learning"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":"python -m pip install --no-deps --ignore-installed ."
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "bmcfee",
+    "bmcfee",
+    "bmcfee"
+   ]
+  },
+  "package":{
+   "name":"pescador",
+   "version":"2.1.0"
+  },
+  "requirements":{
+   "host":[
+    "pip",
+    "python",
+    "setuptools",
+    "pip",
+    "python",
+    "setuptools",
+    "pip",
+    "python",
+    "setuptools"
+   ],
+   "run":[
+    "python",
+    "joblib >=0.9",
+    "six >=1.8",
+    "pyzmq >=15.0",
+    "numpy >=1.9",
+    "decorator >=4.0",
+    "python",
+    "joblib >=0.9",
+    "six >=1.8",
+    "pyzmq >=15.0",
+    "numpy >=1.9",
+    "decorator >=4.0",
+    "python",
+    "joblib >=0.9",
+    "six >=1.8",
+    "pyzmq >=15.0",
+    "numpy >=1.9",
+    "decorator >=4.0"
+   ]
+  },
+  "source":{
+   "fn":"pescador-2.1.0.tar.gz",
+   "sha256":"3e3be068f91d4ca80b09a73360457921837aa62d2c0cf3fa0e98eac8a85c7787",
+   "url":"https://pypi.io/packages/source/p/pescador/pescador-2.1.0.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "pescador",
+    "pescador",
+    "pescador"
+   ]
+  }
+ },
+ "name":"pescador",
+ "new_version":"2.1.0",
+ "pinning_version":"2019.08.27",
+ "raw_meta_yaml":"{% set version = \"2.1.0\" %}\n{% set hash_type = \"sha256\" %}\n{% set hash_val = \"3e3be068f91d4ca80b09a73360457921837aa62d2c0cf3fa0e98eac8a85c7787\" %}\n\npackage:\n  name: pescador\n  version: {{ version }}\n\nsource:\n  fn: pescador-{{ version }}.tar.gz\n  url: https://pypi.io/packages/source/p/pescador/pescador-{{ version }}.tar.gz\n  {{ hash_type }}: {{ hash_val }}\n\nbuild:\n  noarch: python\n  number: 0\n  script: python -m pip install --no-deps --ignore-installed .\n\nrequirements:\n  host:\n    - pip\n    - python\n    - setuptools\n\n  run:\n    - python\n    - joblib >=0.9\n    - six >=1.8\n    - pyzmq >=15.0\n    - numpy >=1.9\n    - decorator >=4.0\n\ntest:\n  # Python imports\n  imports:\n    - pescador\n\nabout:\n  home: http://github.com/pescadores/pescador\n  license: ISC\n  summary: 'Multiplex generators for incremental learning'\n  license_family: OTHER\n\nextra:\n  recipe-maintainers:\n    - bmcfee\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "decorator",
+   "joblib",
+   "numpy",
+   "pip",
+   "python",
+   "pyzmq",
+   "setuptools",
+   "six"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python",
+    "setuptools"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "decorator",
+    "joblib",
+    "numpy",
+    "python",
+    "pyzmq",
+    "six"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.4.1",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python",
+    "setuptools"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "decorator >=4.0",
+    "joblib >=0.9",
+    "numpy >=1.9",
+    "python",
+    "pyzmq >=15.0",
+    "six >=1.8"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/p/pescador/pescador-2.1.0.tar.gz",
+ "version":"2.1.0"
+}

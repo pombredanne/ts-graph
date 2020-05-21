@@ -1,0 +1,190 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/204076980.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Pinning",
+    "migrator_version":0
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/223672388.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/380413446.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"ArchRebuild",
+    "migrator_version":1,
+    "name":"aarch64 and ppc64le addition"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "compiler_stack":"comp7",
+  "max_py_ver":"37",
+  "max_r_ver":"35",
+  "provider":{
+   "osx":"circle"
+  }
+ },
+ "feedstock_name":"mysql",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"The MySQL(TM) software delivers a very fast, multi-threaded, multi-user,\nand robust SQL (Structured Query Language) database server. MySQL Server\nis intended for mission-critical, heavy-load production systems as well\nas for embedding into mass-deployed software.\n",
+   "home":"https://www.mysql.com/",
+   "license":"GPL-2.0",
+   "license_family":"GPL",
+   "license_file":"COPYING",
+   "summary":"Open source relational database management system."
+  },
+  "build":{
+   "merge_build_host":true,
+   "number":"1001",
+   "skip":true
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "beckermr",
+    "beckermr",
+    "beckermr"
+   ]
+  },
+  "package":{
+   "name":"mysql",
+   "version":"5.7.20"
+  },
+  "requirements":{
+   "build":[
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "cmake",
+    "perl",
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "cmake",
+    "perl",
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "cmake",
+    "perl"
+   ]
+  },
+  "source":{
+   "fn":"mysql-boost-5.7.20.tar.gz",
+   "sha256":"260582844ac18222ce2826f48b6c7ca387990b19ddb88331af26738b394e42a4",
+   "url":"https://downloads.mysql.com/archives/get/file/mysql-boost-5.7.20.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "mysql_config --version",
+    "my_print_defaults --version",
+    "mysqld --help --verbose",
+    "command -v mysql.server",
+    "mysql_config --version",
+    "my_print_defaults --version",
+    "mysqld --help --verbose",
+    "command -v mysql.server",
+    "mysql_config --version",
+    "my_print_defaults --version",
+    "mysqld --help --verbose",
+    "command -v mysql.server"
+   ]
+  }
+ },
+ "name":"mysql",
+ "new_version":false,
+ "pinning_version":"2020.02.20",
+ "raw_meta_yaml":"{% set name = \"mysql\" %}\n{% set major_minor_version = \"5.7\" %}\n{% set micro_version = \"20\" %}\n{% set sha256 = \"260582844ac18222ce2826f48b6c7ca387990b19ddb88331af26738b394e42a4\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ major_minor_version }}.{{ micro_version }}\n\nsource:\n  fn: mysql-boost-{{ major_minor_version }}.{{ micro_version }}.tar.gz\n  url: https://downloads.mysql.com/archives/get/file/mysql-boost-{{ major_minor_version }}.{{ micro_version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 1001\n  skip: True  # [win]\n  merge_build_host: True\n\nrequirements:\n  build:\n    - {{ compiler('c') }}\n    - {{ compiler('cxx') }}\n    - cmake\n    - perl\n\ntest:\n  commands:\n    - mysql_config --version\n    - my_print_defaults --version\n    - mysqld --help --verbose\n    - command -v mysql.server\n\nabout:\n  home: https://www.mysql.com/\n  license: GPL-2.0\n  license_family: GPL\n  license_file: COPYING\n  summary: 'Open source relational database management system.'\n\n  description: |\n    The MySQL(TM) software delivers a very fast, multi-threaded, multi-user,\n    and robust SQL (Structured Query Language) database server. MySQL Server\n    is intended for mission-critical, heavy-load production systems as well\n    as for embedding into mass-deployed software.\n\nextra:\n  recipe-maintainers:\n    - beckermr\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "c_compiler_stub",
+   "cmake",
+   "cxx_compiler_stub",
+   "perl"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "cmake",
+    "cxx_compiler_stub",
+    "perl"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.6.8",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "cmake",
+    "cxx_compiler_stub",
+    "perl"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://downloads.mysql.com/archives/get/file/mysql-boost-5.7.20.tar.gz",
+ "version":"5.7.20"
+}

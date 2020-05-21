@@ -1,0 +1,228 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/381264472.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.1.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/412725511.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":2,
+    "migrator_version":0,
+    "name":"r400"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "bot":{
+   "automerge":true
+  }
+ },
+ "feedstock_name":"r-hardhat",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"https://github.com/tidymodels/hardhat",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":[
+    "/lib/R/share/licenses/MIT",
+    "LICENSE",
+    "/lib/R/share/licenses/MIT",
+    "LICENSE",
+    "/lib/R/share/licenses/MIT",
+    "LICENSE"
+   ],
+   "summary":"Building modeling packages is hard. A large amount of effort generally goes into providing an implementation for a new method that is efficient, fast, and correct, but often less emphasis is put on the user interface. A good interface requires specialized knowledge about S3 methods and formulas, which the average package developer might not have. The goal of 'hardhat' is to reduce the burden around building new modeling packages by providing functionality for preprocessing, predicting, and validating input."
+  },
+  "build":{
+   "merge_build_host":true,
+   "noarch":"generic",
+   "number":"1",
+   "rpaths":[
+    "lib/R/lib/",
+    "lib/",
+    "lib/R/lib/",
+    "lib/",
+    "lib/R/lib/",
+    "lib/"
+   ]
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "conda-forge/r",
+    "conda-forge/r",
+    "conda-forge/r"
+   ]
+  },
+  "package":{
+   "name":"r-hardhat",
+   "version":"0.1.2"
+  },
+  "requirements":{
+   "build":null,
+   "host":[
+    "r-base",
+    "r-glue",
+    "r-rlang >=0.4.1",
+    "r-tibble",
+    "r-vctrs >=0.2.0",
+    "r-base",
+    "r-glue",
+    "r-rlang >=0.4.1",
+    "r-tibble",
+    "r-vctrs >=0.2.0",
+    "r-base",
+    "r-glue",
+    "r-rlang >=0.4.1",
+    "r-tibble",
+    "r-vctrs >=0.2.0"
+   ],
+   "run":[
+    "r-base",
+    "r-glue",
+    "r-rlang >=0.4.1",
+    "r-tibble",
+    "r-vctrs >=0.2.0",
+    "r-base",
+    "r-glue",
+    "r-rlang >=0.4.1",
+    "r-tibble",
+    "r-vctrs >=0.2.0",
+    "r-base",
+    "r-glue",
+    "r-rlang >=0.4.1",
+    "r-tibble",
+    "r-vctrs >=0.2.0"
+   ]
+  },
+  "source":{
+   "sha256":"343a7c25f5beb00c795b30250e6678da33e6c4ba2b5625cd6ef340b96c341aba",
+   "url":[
+    "https://cran.r-project.org/src/contrib/hardhat_0.1.2.tar.gz",
+    "https://cran.r-project.org/src/contrib/Archive/hardhat/hardhat_0.1.2.tar.gz",
+    "https://cran.r-project.org/src/contrib/hardhat_0.1.2.tar.gz",
+    "https://cran.r-project.org/src/contrib/Archive/hardhat/hardhat_0.1.2.tar.gz",
+    "https://cran.r-project.org/src/contrib/hardhat_0.1.2.tar.gz",
+    "https://cran.r-project.org/src/contrib/Archive/hardhat/hardhat_0.1.2.tar.gz"
+   ]
+  },
+  "test":{
+   "commands":[
+    "\"%R%\" -e \"library('hardhat')\"",
+    "$R -e \"library('hardhat')\"",
+    "$R -e \"library('hardhat')\""
+   ]
+  }
+ },
+ "name":"r-hardhat",
+ "new_version":"0.1.2",
+ "pinning_version":"2020.05.04.00.11.09",
+ "raw_meta_yaml":"{% set version = \"0.1.2\" %}\n{% set posix = 'm2-' if win else '' %}\n{% set native = 'm2w64-' if win else '' %}\n\npackage:\n  name: r-hardhat\n  version: {{ version|replace(\"-\", \"_\") }}\n\nsource:\n  url:\n    - {{ cran_mirror }}/src/contrib/hardhat_{{ version }}.tar.gz\n    - {{ cran_mirror }}/src/contrib/Archive/hardhat/hardhat_{{ version }}.tar.gz\n  sha256: 343a7c25f5beb00c795b30250e6678da33e6c4ba2b5625cd6ef340b96c341aba\n\nbuild:\n  merge_build_host: true  # [win]\n  number: 1\n  noarch: generic\n  rpaths:\n    - lib/R/lib/\n    - lib/\n\nrequirements:\n  build:\n    - {{ posix }}zip               # [win]\n  host:\n    - r-base\n    - r-glue\n    - r-rlang >=0.4.1\n    - r-tibble\n    - r-vctrs >=0.2.0\n  run:\n    - r-base\n    - r-glue\n    - r-rlang >=0.4.1\n    - r-tibble\n    - r-vctrs >=0.2.0\n\ntest:\n  commands:\n    - $R -e \"library('hardhat')\"           # [not win]\n    - \"\\\"%R%\\\" -e \\\"library('hardhat')\\\"\"  # [win]\n\nabout:\n  home: https://github.com/tidymodels/hardhat\n  license: MIT\n  summary: Building modeling packages is hard. A large amount of effort generally goes into providing an implementation for a new method that is efficient, fast,\n    and correct, but often less emphasis is put on the user interface. A good interface requires specialized knowledge about S3 methods and formulas, which the average\n    package developer might not have. The goal of 'hardhat' is to reduce the burden around building new modeling packages by providing functionality for preprocessing,\n    predicting, and validating input.\n  license_family: MIT\n  license_file:\n    - {{ environ[\"PREFIX\"] }}/lib/R/share/licenses/MIT\n    - LICENSE\n\nextra:\n  recipe-maintainers:\n    - conda-forge/r\n\n# Package: hardhat\n# Title: Construct Modeling Packages\n# Version: 0.1.1\n# Authors@R: c( person(\"Davis\", \"Vaughan\", , \"davis@rstudio.com\", c(\"aut\", \"cre\")), person(\"Max\", \"Kuhn\", , \"max@rstudio.com\", c(\"aut\")), person(\"RStudio\", role = \"cph\"))\n# Maintainer: Davis Vaughan <davis@rstudio.com>\n# Description: Building modeling packages is hard. A large amount of effort generally goes into providing an implementation for a new method that is efficient, fast, and correct, but often less emphasis is put on the user interface. A good interface requires specialized knowledge about S3 methods and formulas, which the average package developer might not have. The goal of 'hardhat' is to reduce the burden around building new modeling packages by providing functionality for preprocessing, predicting, and validating input.\n# License: MIT + file LICENSE\n# Encoding: UTF-8\n# LazyData: true\n# RoxygenNote: 7.0.2\n# Suggests: recipes (>= 0.1.8), testthat (>= 2.1.0), covr, knitr, rmarkdown, usethis, roxygen2, devtools\n# Imports: glue, rlang (>= 0.4.1), tibble, vctrs (>= 0.2.0)\n# URL: https://github.com/tidymodels/hardhat\n# BugReports: https://github.com/tidymodels/hardhat/issues\n# VignetteBuilder: knitr\n# NeedsCompilation: no\n# Packaged: 2020-01-07 15:27:41 UTC; davis\n# Author: Davis Vaughan [aut, cre], Max Kuhn [aut], RStudio [cph]\n# Repository: CRAN\n# Date/Publication: 2020-01-08 23:01:24 UTC\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "r-base",
+   "r-glue",
+   "r-rlang",
+   "r-tibble",
+   "r-vctrs"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "r-base",
+    "r-glue",
+    "r-rlang",
+    "r-tibble",
+    "r-vctrs"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "r-base",
+    "r-glue",
+    "r-rlang",
+    "r-tibble",
+    "r-vctrs"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.7.0\n",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "r-base",
+    "r-glue",
+    "r-rlang >=0.4.1",
+    "r-tibble",
+    "r-vctrs >=0.2.0"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "r-base",
+    "r-glue",
+    "r-rlang >=0.4.1",
+    "r-tibble",
+    "r-vctrs >=0.2.0"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":[
+  "https://cran.r-project.org/src/contrib/hardhat_0.1.1.tar.gz",
+  "https://cran.r-project.org/src/contrib/Archive/hardhat/hardhat_0.1.1.tar.gz",
+  "https://cran.r-project.org/src/contrib/hardhat_0.1.1.tar.gz",
+  "https://cran.r-project.org/src/contrib/Archive/hardhat/hardhat_0.1.1.tar.gz",
+  "https://cran.r-project.org/src/contrib/hardhat_0.1.1.tar.gz",
+  "https://cran.r-project.org/src/contrib/Archive/hardhat/hardhat_0.1.1.tar.gz"
+ ],
+ "version":"0.1.2"
+}

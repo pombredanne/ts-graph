@@ -1,0 +1,6 @@
+{
+ "bad":"Upstream: Error getting upstream version",
+ "feedstock_name":"fileinspector",
+ "new_version":false,
+ "raw_meta_yaml":"{% set name = \"fileinspector\" %}\n{% set pypiname = \"python-\" + name %}\n{% set version = \"1.0.2\" %}\n\npackage:\n  name: \"{{ name|lower }}\"\n  version: \"{{ version }}\"\n\nsource:\n  url: \"https://pypi.io/packages/source/{{ pypiname[0] }}/{{ pypiname }}/{{ pypiname }}-{{ version }}.tar.gz\"\n  sha256: b7c766267b2a1872431148463dab4ced9421377a8f6372d4ebf8022b6805bd22\n\nbuild:\n  noarch: python\n  number: 0\n  script: \"{{ PYTHON }} -m pip install . -vv\"\n\nrequirements:\n  host:\n    - pip\n    - python\n  run:\n    - python\n\ntest:\n  imports:\n    - fileinspector\n\nabout:\n  home: \"https://github.com/dschreij/fileinspector\"\n  license: \"GPLv3\"\n  license_family: GPL\n  license_file: LICENSE\n  summary: \"A module to infer file mimetypes\"\n  doc_url: \"https://github.com/dschreij/fileinspector\"\n  dev_url: \"https://github.com/dschreij/fileinspector\"\n\nextra:\n  recipe-maintainers:\n    - dschreij\n    - smathot\n"
+}

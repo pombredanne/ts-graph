@@ -1,0 +1,153 @@
+{
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"pyglmnet",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"https://github.com/glm-tools/pyglmnet",
+   "license":"MIT",
+   "license_file":"LICENSE",
+   "summary":"Elastic-net regularized generalized linear models."
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":"-m pip install . -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "xhochy",
+    "xhochy",
+    "xhochy"
+   ]
+  },
+  "package":{
+   "name":"pyglmnet",
+   "version":"1.1"
+  },
+  "requirements":{
+   "host":[
+    "pip",
+    "python",
+    "pip",
+    "python",
+    "pip",
+    "python"
+   ],
+   "run":[
+    "python",
+    "numpy >=1.11",
+    "scipy >=0.17",
+    "scikit-learn >=0.18",
+    "pandas >=0.20",
+    "python",
+    "numpy >=1.11",
+    "scipy >=0.17",
+    "scikit-learn >=0.18",
+    "pandas >=0.20",
+    "python",
+    "numpy >=1.11",
+    "scipy >=0.17",
+    "scikit-learn >=0.18",
+    "pandas >=0.20"
+   ]
+  },
+  "source":{
+   "sha256":"6949eb9ea14ca43b6fbfbdb25b89fc3493f8b8f78705523b3a603dcd85d707a6",
+   "url":"https://pypi.io/packages/source/p/pyglmnet/pyglmnet-1.1.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "pip check",
+    "pip check",
+    "pip check"
+   ],
+   "imports":[
+    "pyglmnet",
+    "pyglmnet",
+    "pyglmnet"
+   ],
+   "requires":[
+    "pip",
+    "pip",
+    "pip"
+   ]
+  }
+ },
+ "name":"pyglmnet",
+ "new_version":"1.1",
+ "raw_meta_yaml":"{% set name = \"pyglmnet\" %}\n{% set version = \"1.1\" %}\n\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: 6949eb9ea14ca43b6fbfbdb25b89fc3493f8b8f78705523b3a603dcd85d707a6\n\nbuild:\n  number: 0\n  noarch: python\n  script: {{ PYTHON }} -m pip install . -vv\n\nrequirements:\n  host:\n    - pip\n    - python\n  run:\n    - python\n    - numpy >=1.11\n    - scipy >=0.17\n    - scikit-learn >=0.18\n    - pandas >=0.20\n\ntest:\n  imports:\n    - pyglmnet\n  commands:\n    - pip check\n  requires:\n    - pip\n\nabout:\n  home: https://github.com/glm-tools/pyglmnet\n  summary: Elastic-net regularized generalized linear models.\n  license: MIT\n  license_file: LICENSE\n\nextra:\n  recipe-maintainers:\n    - xhochy\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "numpy",
+   "pandas",
+   "pip",
+   "python",
+   "scikit-learn",
+   "scipy"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "numpy",
+    "pandas",
+    "python",
+    "scikit-learn",
+    "scipy"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "pip"
+   ]
+  }
+ },
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "numpy >=1.11",
+    "pandas >=0.20",
+    "python",
+    "scikit-learn >=0.18",
+    "scipy >=0.17"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "pip"
+   ]
+  }
+ },
+ "url":"https://pypi.io/packages/source/p/pyglmnet/pyglmnet-1.1.tar.gz",
+ "version":"1.1"
+}

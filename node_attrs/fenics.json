@@ -1,0 +1,1426 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/196873350.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Compiler",
+    "migrator_version":0
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/233155161.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/265764718.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"BlasRebuild",
+    "migrator_version":0,
+    "name":"blas2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/283365438.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Rebuild",
+    "migrator_version":0,
+    "name":"boost-cpp-1.70.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/286416526.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Rebuild",
+    "migrator_version":0,
+    "name":"hdf5-1.10.5"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/321001160.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Rebuild",
+    "migrator_version":0,
+    "name":"ptscotch-6.0.8"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "id":"620da754-4aea-415a-83ae-29a806c35266",
+    "merged_at":"never issued",
+    "state":"closed"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"python38"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/341858517.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"petsc-3.12"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/349441781.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"suitesparse-5.6"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/377678558.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"boost172"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/3b574d83-a6b8-4572-81d4-ba3f251f8a31.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":2,
+    "migrator_version":0,
+    "name":"boost172"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/404153949.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"hdf51106"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/405510417.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"petsc313"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"fenics",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"FEniCS is a collection of free software for automated, efficient solution of differential equations\n(<http://fenicsproject.org>). It provides C++ and Python interfaces, and creates effecient solvers via\nexpression of finite variational statements in a domain-specific language that are transformed and\njust-in-time compiled into efficient implementations.\n",
+   "dev_url":"https://bitbucket.org/fenics-project/",
+   "doc_url":"http://fenics.readthedocs.io/",
+   "home":"http://www.fenicsproject.org",
+   "license":"LGPL 3.0",
+   "license_file":"dolfin/COPYING.LESSER",
+   "summary":"FEniCS is a collection of free software for automated, efficient solution of differential equations"
+  },
+  "build":{
+   "number":"9",
+   "skip":true
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "garth-wells",
+    "johannesring",
+    "mikaem",
+    "minrk",
+    "garth-wells",
+    "johannesring",
+    "mikaem",
+    "minrk",
+    "garth-wells",
+    "johannesring",
+    "mikaem",
+    "minrk"
+   ]
+  },
+  "outputs":[
+   {
+    "build":{
+     "noarch":"python",
+     "script":"$PYTHON -m pip install --no-deps ./dijitso"
+    },
+    "name":"fenics-dijitso",
+    "requirements":{
+     "host":[
+      "python >=3.5",
+      "pip"
+     ],
+     "run":[
+      "python >=3.5",
+      "numpy",
+      "setuptools"
+     ],
+     "run_constrained":[
+      "fenics ==2019.1.0"
+     ]
+    },
+    "test":{
+     "imports":[
+      "dijitso"
+     ]
+    }
+   },
+   {
+    "build":{
+     "noarch":"python",
+     "script":"$PYTHON -m pip install --no-deps ./fiat"
+    },
+    "name":"fenics-fiat",
+    "requirements":{
+     "host":[
+      "python >=3.5",
+      "pip"
+     ],
+     "run":[
+      "python >=3.5",
+      "setuptools",
+      "numpy",
+      "sympy >=1"
+     ],
+     "run_constrained":[
+      "fenics ==2019.1.0"
+     ]
+    },
+    "test":{
+     "imports":[
+      "FIAT"
+     ]
+    }
+   },
+   {
+    "build":{
+     "noarch":"python",
+     "script":"$PYTHON -m pip install --no-deps ./ufl"
+    },
+    "name":"fenics-ufl",
+    "requirements":{
+     "host":[
+      "python >=3.5",
+      "pip"
+     ],
+     "run":[
+      "python >=3.5",
+      "setuptools",
+      "numpy"
+     ],
+     "run_constrained":[
+      "fenics ==2019.1.0"
+     ]
+    },
+    "test":{
+     "imports":[
+      "ufl",
+      "ufl.utils",
+      "ufl.finiteelement",
+      "ufl.core",
+      "ufl.corealg",
+      "ufl.algorithms"
+     ]
+    }
+   },
+   {
+    "build":{
+     "noarch":"python",
+     "script":[
+      "$PYTHON -m pip install --no-deps ./ffc",
+      "mkdir -p $PREFIX/include",
+      "cp ffc/ffc/backends/ufc/*.h $PREFIX/include/"
+     ]
+    },
+    "name":"fenics-ffc",
+    "requirements":{
+     "host":[
+      "python >=3.5",
+      "pip"
+     ],
+     "run":[
+      "python >=3.5",
+      "numpy",
+      "fenics-dijitso ==2019.1.0",
+      "fenics-fiat ==2019.1.0",
+      "fenics-ufl ==2019.1.0"
+     ],
+     "run_constrained":[
+      "fenics ==2019.1.0"
+     ]
+    },
+    "test":{
+     "commands":[
+      "ffc --help",
+      "test -f $PREFIX/include/ufc.h",
+      "test -f $PREFIX/include/ufc_geometry.h"
+     ],
+     "imports":[
+      "ffc",
+      "ffc.backends",
+      "ffc.backends.dolfin",
+      "ffc.backends.ufc",
+      "ffc.errorcontrol",
+      "ffc.quadrature"
+     ]
+    }
+   },
+   {
+    "build":{
+     "script":"${RECIPE_DIR}/build-libdolfin.sh",
+     "skip":true
+    },
+    "name":"fenics-libdolfin",
+    "requirements":{
+     "build":[
+      "c_compiler_stub",
+      "cxx_compiler_stub"
+     ],
+     "host":[
+      "libblas",
+      "libcblas",
+      "boost-cpp",
+      "cmake >=3.9",
+      "eigen",
+      "hdf5 * mpi__*",
+      "hdf5",
+      "parmetis",
+      "pkg-config",
+      "ptscotch",
+      "suitesparse",
+      "zlib",
+      null,
+      "petsc",
+      "slepc",
+      "fenics-ffc ==2019.1.0"
+     ],
+     "run":[
+      "boost-cpp",
+      "cmake >=3.9",
+      "eigen",
+      "hdf5",
+      null,
+      "parmetis",
+      "petsc",
+      "slepc",
+      "pkg-config",
+      "ptscotch",
+      "suitesparse",
+      "zlib",
+      "fenics-ffc ==2019.1.0"
+     ],
+     "run_constrained":[
+      "fenics ==2019.1.0"
+     ]
+    },
+    "test":{
+     "commands":[
+      "test -f ${PREFIX}/lib/libdolfin${SHLIB_EXT}"
+     ]
+    }
+   },
+   {
+    "build":{
+     "script":"${RECIPE_DIR}/build-dolfin.sh",
+     "skip":true
+    },
+    "name":"fenics-dolfin",
+    "requirements":{
+     "build":[
+      "c_compiler_stub",
+      "cxx_compiler_stub"
+     ],
+     "host":[
+      "libblas",
+      "libcblas",
+      "python",
+      "pip",
+      "cmake >=3.9",
+      "pkgconfig",
+      null,
+      "mpi4py",
+      "petsc4py",
+      "slepc4py",
+      "numpy",
+      "pybind11",
+      "six",
+      "sympy >=1",
+      "fenics-libdolfin",
+      "fenics-dijitso ==2019.1.0",
+      "fenics-fiat ==2019.1.0",
+      "fenics-ufl ==2019.1.0",
+      "fenics-ffc ==2019.1.0"
+     ],
+     "run":[
+      "python",
+      "setuptools",
+      null,
+      "mpi4py",
+      "petsc",
+      "petsc4py",
+      "slepc",
+      "slepc4py",
+      "pkgconfig",
+      "pybind11",
+      "numpy",
+      "six",
+      "sympy >=1",
+      "fenics-libdolfin",
+      "fenics-dijitso ==2019.1.0",
+      "fenics-fiat ==2019.1.0",
+      "fenics-ufl ==2019.1.0",
+      "fenics-ffc ==2019.1.0"
+     ],
+     "run_constrained":[
+      "fenics ==2019.1.0"
+     ]
+    },
+    "test":{
+     "commands":[
+      "bash ${RECIPE_DIR}/parent/test-dolfin.sh"
+     ],
+     "imports":[
+      "dolfin"
+     ],
+     "requires":[
+      "nose",
+      "pytest",
+      "git",
+      "decorator"
+     ],
+     "source_files":[
+      "dolfin/python/test"
+     ]
+    }
+   },
+   {
+    "build":{
+     "script":"echo 1",
+     "skip":true
+    },
+    "name":"fenics",
+    "requirements":{
+     "host":[
+      "python"
+     ],
+     "run":[
+      "python",
+      "fenics-dijitso ==2019.1.0",
+      "fenics-fiat ==2019.1.0",
+      "fenics-ufl ==2019.1.0",
+      "fenics-ffc ==2019.1.0",
+      "fenics-dolfin"
+     ]
+    },
+    "test":{
+     "imports":[
+      "dolfin"
+     ]
+    }
+   },
+   {
+    "build":{
+     "noarch":"python",
+     "script":"$PYTHON -m pip install --no-deps ./dijitso"
+    },
+    "name":"fenics-dijitso",
+    "requirements":{
+     "host":[
+      "python >=3.5",
+      "pip"
+     ],
+     "run":[
+      "python >=3.5",
+      "numpy",
+      "setuptools"
+     ],
+     "run_constrained":[
+      "fenics ==2019.1.0"
+     ]
+    },
+    "test":{
+     "imports":[
+      "dijitso"
+     ]
+    }
+   },
+   {
+    "build":{
+     "noarch":"python",
+     "script":"$PYTHON -m pip install --no-deps ./fiat"
+    },
+    "name":"fenics-fiat",
+    "requirements":{
+     "host":[
+      "python >=3.5",
+      "pip"
+     ],
+     "run":[
+      "python >=3.5",
+      "setuptools",
+      "numpy",
+      "sympy >=1"
+     ],
+     "run_constrained":[
+      "fenics ==2019.1.0"
+     ]
+    },
+    "test":{
+     "imports":[
+      "FIAT"
+     ]
+    }
+   },
+   {
+    "build":{
+     "noarch":"python",
+     "script":"$PYTHON -m pip install --no-deps ./ufl"
+    },
+    "name":"fenics-ufl",
+    "requirements":{
+     "host":[
+      "python >=3.5",
+      "pip"
+     ],
+     "run":[
+      "python >=3.5",
+      "setuptools",
+      "numpy"
+     ],
+     "run_constrained":[
+      "fenics ==2019.1.0"
+     ]
+    },
+    "test":{
+     "imports":[
+      "ufl",
+      "ufl.utils",
+      "ufl.finiteelement",
+      "ufl.core",
+      "ufl.corealg",
+      "ufl.algorithms"
+     ]
+    }
+   },
+   {
+    "build":{
+     "noarch":"python",
+     "script":[
+      "$PYTHON -m pip install --no-deps ./ffc",
+      "mkdir -p $PREFIX/include",
+      "cp ffc/ffc/backends/ufc/*.h $PREFIX/include/"
+     ]
+    },
+    "name":"fenics-ffc",
+    "requirements":{
+     "host":[
+      "python >=3.5",
+      "pip"
+     ],
+     "run":[
+      "python >=3.5",
+      "numpy",
+      "fenics-dijitso ==2019.1.0",
+      "fenics-fiat ==2019.1.0",
+      "fenics-ufl ==2019.1.0"
+     ],
+     "run_constrained":[
+      "fenics ==2019.1.0"
+     ]
+    },
+    "test":{
+     "commands":[
+      "ffc --help",
+      "test -f $PREFIX/include/ufc.h",
+      "test -f $PREFIX/include/ufc_geometry.h"
+     ],
+     "imports":[
+      "ffc",
+      "ffc.backends",
+      "ffc.backends.dolfin",
+      "ffc.backends.ufc",
+      "ffc.errorcontrol",
+      "ffc.quadrature"
+     ]
+    }
+   },
+   {
+    "build":{
+     "script":"${RECIPE_DIR}/build-libdolfin.sh"
+    },
+    "name":"fenics-libdolfin",
+    "requirements":{
+     "build":[
+      "c_compiler_stub",
+      "cxx_compiler_stub"
+     ],
+     "host":[
+      "libblas",
+      "libcblas",
+      "boost-cpp",
+      "cmake >=3.9",
+      "eigen",
+      "hdf5 * mpi__*",
+      "hdf5",
+      "parmetis",
+      "pkg-config",
+      "ptscotch",
+      "suitesparse",
+      "zlib",
+      null,
+      "petsc",
+      "slepc",
+      "fenics-ffc ==2019.1.0"
+     ],
+     "run":[
+      "boost-cpp",
+      "cmake >=3.9",
+      "eigen",
+      "hdf5",
+      null,
+      "parmetis",
+      "petsc",
+      "slepc",
+      "pkg-config",
+      "ptscotch",
+      "suitesparse",
+      "zlib",
+      "fenics-ffc ==2019.1.0"
+     ],
+     "run_constrained":[
+      "fenics ==2019.1.0"
+     ]
+    },
+    "test":{
+     "commands":[
+      "test -f ${PREFIX}/lib/libdolfin${SHLIB_EXT}",
+      "test -f ${PREFIX}/lib/libdolfin.2019.1.0${SHLIB_EXT}"
+     ]
+    }
+   },
+   {
+    "build":{
+     "script":"${RECIPE_DIR}/build-dolfin.sh"
+    },
+    "name":"fenics-dolfin",
+    "requirements":{
+     "build":[
+      "c_compiler_stub",
+      "cxx_compiler_stub"
+     ],
+     "host":[
+      "libblas",
+      "libcblas",
+      "python",
+      "pip",
+      "cmake >=3.9",
+      "pkgconfig",
+      null,
+      "mpi4py",
+      "petsc4py",
+      "slepc4py",
+      "numpy",
+      "pybind11",
+      "six",
+      "sympy >=1",
+      "fenics-libdolfin",
+      "fenics-dijitso ==2019.1.0",
+      "fenics-fiat ==2019.1.0",
+      "fenics-ufl ==2019.1.0",
+      "fenics-ffc ==2019.1.0"
+     ],
+     "run":[
+      "python",
+      "setuptools",
+      null,
+      "mpi4py",
+      "petsc",
+      "petsc4py",
+      "slepc",
+      "slepc4py",
+      "pkgconfig",
+      "pybind11",
+      "numpy",
+      "six",
+      "sympy >=1",
+      "fenics-libdolfin",
+      "fenics-dijitso ==2019.1.0",
+      "fenics-fiat ==2019.1.0",
+      "fenics-ufl ==2019.1.0",
+      "fenics-ffc ==2019.1.0"
+     ],
+     "run_constrained":[
+      "fenics ==2019.1.0"
+     ]
+    },
+    "test":{
+     "commands":[
+      "bash ${RECIPE_DIR}/parent/test-dolfin.sh"
+     ],
+     "imports":[
+      "dolfin"
+     ],
+     "requires":[
+      "nose",
+      "pytest",
+      "git",
+      "decorator"
+     ],
+     "source_files":[
+      "dolfin/python/test"
+     ]
+    }
+   },
+   {
+    "build":{
+     "script":"echo 1"
+    },
+    "name":"fenics",
+    "requirements":{
+     "host":[
+      "python"
+     ],
+     "run":[
+      "python",
+      "fenics-dijitso ==2019.1.0",
+      "fenics-fiat ==2019.1.0",
+      "fenics-ufl ==2019.1.0",
+      "fenics-ffc ==2019.1.0",
+      "fenics-dolfin"
+     ]
+    },
+    "test":{
+     "imports":[
+      "dolfin"
+     ]
+    }
+   },
+   {
+    "build":{
+     "noarch":"python",
+     "script":"$PYTHON -m pip install --no-deps ./dijitso"
+    },
+    "name":"fenics-dijitso",
+    "requirements":{
+     "host":[
+      "python >=3.5",
+      "pip"
+     ],
+     "run":[
+      "python >=3.5",
+      "numpy",
+      "setuptools"
+     ],
+     "run_constrained":[
+      "fenics ==2019.1.0"
+     ]
+    },
+    "test":{
+     "imports":[
+      "dijitso"
+     ]
+    }
+   },
+   {
+    "build":{
+     "noarch":"python",
+     "script":"$PYTHON -m pip install --no-deps ./fiat"
+    },
+    "name":"fenics-fiat",
+    "requirements":{
+     "host":[
+      "python >=3.5",
+      "pip"
+     ],
+     "run":[
+      "python >=3.5",
+      "setuptools",
+      "numpy",
+      "sympy >=1"
+     ],
+     "run_constrained":[
+      "fenics ==2019.1.0"
+     ]
+    },
+    "test":{
+     "imports":[
+      "FIAT"
+     ]
+    }
+   },
+   {
+    "build":{
+     "noarch":"python",
+     "script":"$PYTHON -m pip install --no-deps ./ufl"
+    },
+    "name":"fenics-ufl",
+    "requirements":{
+     "host":[
+      "python >=3.5",
+      "pip"
+     ],
+     "run":[
+      "python >=3.5",
+      "setuptools",
+      "numpy"
+     ],
+     "run_constrained":[
+      "fenics ==2019.1.0"
+     ]
+    },
+    "test":{
+     "imports":[
+      "ufl",
+      "ufl.utils",
+      "ufl.finiteelement",
+      "ufl.core",
+      "ufl.corealg",
+      "ufl.algorithms"
+     ]
+    }
+   },
+   {
+    "build":{
+     "noarch":"python",
+     "script":[
+      "$PYTHON -m pip install --no-deps ./ffc",
+      "mkdir -p $PREFIX/include",
+      "cp ffc/ffc/backends/ufc/*.h $PREFIX/include/"
+     ]
+    },
+    "name":"fenics-ffc",
+    "requirements":{
+     "host":[
+      "python >=3.5",
+      "pip"
+     ],
+     "run":[
+      "python >=3.5",
+      "numpy",
+      "fenics-dijitso ==2019.1.0",
+      "fenics-fiat ==2019.1.0",
+      "fenics-ufl ==2019.1.0"
+     ],
+     "run_constrained":[
+      "fenics ==2019.1.0"
+     ]
+    },
+    "test":{
+     "commands":[
+      "ffc --help",
+      "test -f $PREFIX/include/ufc.h",
+      "test -f $PREFIX/include/ufc_geometry.h"
+     ],
+     "imports":[
+      "ffc",
+      "ffc.backends",
+      "ffc.backends.dolfin",
+      "ffc.backends.ufc",
+      "ffc.errorcontrol",
+      "ffc.quadrature"
+     ]
+    }
+   },
+   {
+    "build":{
+     "script":"${RECIPE_DIR}/build-libdolfin.sh"
+    },
+    "name":"fenics-libdolfin",
+    "requirements":{
+     "build":[
+      "c_compiler_stub",
+      "cxx_compiler_stub"
+     ],
+     "host":[
+      "libblas",
+      "libcblas",
+      "boost-cpp",
+      "cmake >=3.9",
+      "eigen",
+      "hdf5 * mpi__*",
+      "hdf5",
+      "parmetis",
+      "pkg-config",
+      "ptscotch",
+      "suitesparse",
+      "zlib",
+      null,
+      "petsc",
+      "slepc",
+      "fenics-ffc ==2019.1.0"
+     ],
+     "run":[
+      "cxx_compiler_stub",
+      "boost-cpp",
+      "cmake >=3.9",
+      "eigen",
+      "hdf5",
+      null,
+      "parmetis",
+      "petsc",
+      "slepc",
+      "pkg-config",
+      "ptscotch",
+      "suitesparse",
+      "zlib",
+      "fenics-ffc ==2019.1.0"
+     ],
+     "run_constrained":[
+      "fenics ==2019.1.0"
+     ]
+    },
+    "test":{
+     "commands":[
+      "test -f ${PREFIX}/lib/libdolfin${SHLIB_EXT}",
+      "test -f ${PREFIX}/lib/libdolfin${SHLIB_EXT}.2019.1.0"
+     ]
+    }
+   },
+   {
+    "build":{
+     "script":"${RECIPE_DIR}/build-dolfin.sh"
+    },
+    "name":"fenics-dolfin",
+    "requirements":{
+     "build":[
+      "c_compiler_stub",
+      "cxx_compiler_stub"
+     ],
+     "host":[
+      "libblas",
+      "libcblas",
+      "python",
+      "pip",
+      "cmake >=3.9",
+      "pkgconfig",
+      null,
+      "mpi4py",
+      "petsc4py",
+      "slepc4py",
+      "numpy",
+      "pybind11",
+      "six",
+      "sympy >=1",
+      "fenics-libdolfin",
+      "fenics-dijitso ==2019.1.0",
+      "fenics-fiat ==2019.1.0",
+      "fenics-ufl ==2019.1.0",
+      "fenics-ffc ==2019.1.0"
+     ],
+     "run":[
+      "cxx_compiler_stub",
+      "python",
+      "setuptools",
+      null,
+      "mpi4py",
+      "petsc",
+      "petsc4py",
+      "slepc",
+      "slepc4py",
+      "pkgconfig",
+      "pybind11",
+      "numpy",
+      "six",
+      "sympy >=1",
+      "fenics-libdolfin",
+      "fenics-dijitso ==2019.1.0",
+      "fenics-fiat ==2019.1.0",
+      "fenics-ufl ==2019.1.0",
+      "fenics-ffc ==2019.1.0"
+     ],
+     "run_constrained":[
+      "fenics ==2019.1.0"
+     ]
+    },
+    "test":{
+     "commands":[
+      "bash ${RECIPE_DIR}/parent/test-dolfin.sh"
+     ],
+     "imports":[
+      "dolfin"
+     ],
+     "requires":[
+      "nose",
+      "pytest",
+      "git",
+      "decorator"
+     ],
+     "source_files":[
+      "dolfin/python/test"
+     ]
+    }
+   },
+   {
+    "build":{
+     "script":"echo 1"
+    },
+    "name":"fenics",
+    "requirements":{
+     "host":[
+      "python"
+     ],
+     "run":[
+      "python",
+      "fenics-dijitso ==2019.1.0",
+      "fenics-fiat ==2019.1.0",
+      "fenics-ufl ==2019.1.0",
+      "fenics-ffc ==2019.1.0",
+      "fenics-dolfin"
+     ]
+    },
+    "test":{
+     "imports":[
+      "dolfin"
+     ]
+    }
+   }
+  ],
+  "package":{
+   "name":"fenics-pkgs",
+   "version":"2019.1.0"
+  },
+  "source":[
+   {
+    "folder":"dijitso",
+    "sha256":"eaa45eec4457f3f865d72a926b7cba86df089410e78de04cd89b15bb405e8fd9",
+    "url":"https://bitbucket.org/fenics-project/dijitso/downloads/dijitso-2019.1.0.tar.gz"
+   },
+   {
+    "folder":"ffc",
+    "patches":[
+     "ufc-include-path.patch"
+    ],
+    "sha256":"4ff821a234869d8b9aaf8c5d7f617d42f9c134a2529e76c9519b681dff35affd",
+    "url":"https://bitbucket.org/fenics-project/ffc/downloads/ffc-2019.1.0.tar.gz"
+   },
+   {
+    "folder":"fiat",
+    "sha256":"341a1046cbe0f5f2eb26630c2f71f378b0dca51daf9892a54a2ff193970371e9",
+    "url":"https://bitbucket.org/fenics-project/fiat/downloads/fiat-2019.1.0.tar.gz"
+   },
+   {
+    "folder":"ufl",
+    "sha256":"213a56bfa2edb0365909fa6f110f970e582b10a3f5f1fd9a0e85254f1eefaa11",
+    "url":"https://bitbucket.org/fenics-project/ufl/downloads/ufl-2019.1.0.tar.gz"
+   },
+   {
+    "folder":"dolfin",
+    "sha256":"61abdcdb13684ba2a3ba4afb7ea6c7907aa0896a46439d3af7e8848483d4392f",
+    "url":"https://bitbucket.org/fenics-project/dolfin/downloads/dolfin-2019.1.0.post0.tar.gz"
+   },
+   {
+    "folder":"dijitso",
+    "sha256":"eaa45eec4457f3f865d72a926b7cba86df089410e78de04cd89b15bb405e8fd9",
+    "url":"https://bitbucket.org/fenics-project/dijitso/downloads/dijitso-2019.1.0.tar.gz"
+   },
+   {
+    "folder":"ffc",
+    "patches":[
+     "ufc-include-path.patch"
+    ],
+    "sha256":"4ff821a234869d8b9aaf8c5d7f617d42f9c134a2529e76c9519b681dff35affd",
+    "url":"https://bitbucket.org/fenics-project/ffc/downloads/ffc-2019.1.0.tar.gz"
+   },
+   {
+    "folder":"fiat",
+    "sha256":"341a1046cbe0f5f2eb26630c2f71f378b0dca51daf9892a54a2ff193970371e9",
+    "url":"https://bitbucket.org/fenics-project/fiat/downloads/fiat-2019.1.0.tar.gz"
+   },
+   {
+    "folder":"ufl",
+    "sha256":"213a56bfa2edb0365909fa6f110f970e582b10a3f5f1fd9a0e85254f1eefaa11",
+    "url":"https://bitbucket.org/fenics-project/ufl/downloads/ufl-2019.1.0.tar.gz"
+   },
+   {
+    "folder":"dolfin",
+    "sha256":"61abdcdb13684ba2a3ba4afb7ea6c7907aa0896a46439d3af7e8848483d4392f",
+    "url":"https://bitbucket.org/fenics-project/dolfin/downloads/dolfin-2019.1.0.post0.tar.gz"
+   },
+   {
+    "folder":"dijitso",
+    "sha256":"eaa45eec4457f3f865d72a926b7cba86df089410e78de04cd89b15bb405e8fd9",
+    "url":"https://bitbucket.org/fenics-project/dijitso/downloads/dijitso-2019.1.0.tar.gz"
+   },
+   {
+    "folder":"ffc",
+    "patches":[
+     "ufc-include-path.patch"
+    ],
+    "sha256":"4ff821a234869d8b9aaf8c5d7f617d42f9c134a2529e76c9519b681dff35affd",
+    "url":"https://bitbucket.org/fenics-project/ffc/downloads/ffc-2019.1.0.tar.gz"
+   },
+   {
+    "folder":"fiat",
+    "sha256":"341a1046cbe0f5f2eb26630c2f71f378b0dca51daf9892a54a2ff193970371e9",
+    "url":"https://bitbucket.org/fenics-project/fiat/downloads/fiat-2019.1.0.tar.gz"
+   },
+   {
+    "folder":"ufl",
+    "sha256":"213a56bfa2edb0365909fa6f110f970e582b10a3f5f1fd9a0e85254f1eefaa11",
+    "url":"https://bitbucket.org/fenics-project/ufl/downloads/ufl-2019.1.0.tar.gz"
+   },
+   {
+    "folder":"dolfin",
+    "sha256":"61abdcdb13684ba2a3ba4afb7ea6c7907aa0896a46439d3af7e8848483d4392f",
+    "url":"https://bitbucket.org/fenics-project/dolfin/downloads/dolfin-2019.1.0.post0.tar.gz"
+   }
+  ]
+ },
+ "name":"fenics-pkgs",
+ "new_version":false,
+ "outputs_names":[
+  "fenics",
+  "fenics-dijitso",
+  "fenics-dolfin",
+  "fenics-ffc",
+  "fenics-fiat",
+  "fenics-libdolfin",
+  "fenics-ufl"
+ ],
+ "pinning_version":"2020.04.18.00.00.57",
+ "raw_meta_yaml":"{% set version = \"2019.1.0\" %}\n\npackage:\n  name: fenics-pkgs\n  version: {{ version }}\n\nsource:\n  - url: https://bitbucket.org/fenics-project/dijitso/downloads/dijitso-{{version}}.tar.gz\n    sha256: eaa45eec4457f3f865d72a926b7cba86df089410e78de04cd89b15bb405e8fd9\n    folder: dijitso\n  - url: https://bitbucket.org/fenics-project/ffc/downloads/ffc-{{version}}.tar.gz\n    sha256: 4ff821a234869d8b9aaf8c5d7f617d42f9c134a2529e76c9519b681dff35affd\n    folder: ffc\n    patches:\n      - ufc-include-path.patch\n  - url: https://bitbucket.org/fenics-project/fiat/downloads/fiat-{{version}}.tar.gz\n    sha256: 341a1046cbe0f5f2eb26630c2f71f378b0dca51daf9892a54a2ff193970371e9\n    folder: fiat\n  - url: https://bitbucket.org/fenics-project/ufl/downloads/ufl-{{version}}.tar.gz\n    sha256: 213a56bfa2edb0365909fa6f110f970e582b10a3f5f1fd9a0e85254f1eefaa11\n    folder: ufl\n  - url: https://bitbucket.org/fenics-project/dolfin/downloads/dolfin-{{version}}.post0.tar.gz\n    sha256: 61abdcdb13684ba2a3ba4afb7ea6c7907aa0896a46439d3af7e8848483d4392f\n    folder: dolfin\n\nbuild:\n  number: 9\n  skip: true  # [win]\n\noutputs:\n  - name: fenics-dijitso\n    build:\n      noarch: python\n      script: $PYTHON -m pip install --no-deps ./dijitso\n    requirements:\n      host:\n        - python >=3.5\n        - pip\n      run:\n        - python >=3.5\n        - numpy\n        - setuptools\n      run_constrained:\n        - fenics =={{ version }}\n    test:\n      imports:\n        - dijitso\n\n  - name: fenics-fiat\n    build:\n      noarch: python\n      script: $PYTHON -m pip install --no-deps ./fiat\n    requirements:\n      host:\n        - python >=3.5\n        - pip\n      run:\n        - python >=3.5\n        - setuptools\n        - numpy\n        - sympy >=1\n      run_constrained:\n        - fenics =={{ version }}\n    test:\n      imports:\n        - FIAT\n\n  - name: fenics-ufl\n    build:\n      noarch: python\n      script: $PYTHON -m pip install --no-deps ./ufl\n    requirements:\n      host:\n        - python >=3.5\n        - pip\n      run:\n        - python >=3.5\n        - setuptools\n        - numpy\n      run_constrained:\n        - fenics =={{ version }}\n    test:\n      imports:\n        - ufl\n        - ufl.utils\n        - ufl.finiteelement\n        - ufl.core\n        - ufl.corealg\n        - ufl.algorithms\n\n  - name: fenics-ffc\n    build:\n      noarch: python\n      script:\n        - $PYTHON -m pip install --no-deps ./ffc\n        - mkdir -p $PREFIX/include\n        - cp ffc/ffc/backends/ufc/*.h $PREFIX/include/\n    requirements:\n      host:\n        - python >=3.5\n        - pip\n      run:\n        - python >=3.5\n        - numpy\n        - fenics-dijitso =={{ version }}\n        - fenics-fiat =={{ version }}\n        - fenics-ufl =={{ version }}\n      run_constrained:\n        - fenics =={{ version }}\n    test:\n      imports:\n        - ffc\n        - ffc.backends\n        - ffc.backends.dolfin\n        - ffc.backends.ufc\n        - ffc.errorcontrol\n        - ffc.quadrature\n      commands:\n        - ffc --help\n        - test -f $PREFIX/include/ufc.h\n        - test -f $PREFIX/include/ufc_geometry.h\n\n  - name: fenics-libdolfin\n    build:\n      script: ${RECIPE_DIR}/build-libdolfin.sh\n      skip: true  # [win and vc<14]\n    requirements:\n      build:\n        - {{ compiler('c') }}\n        - {{ compiler('cxx') }}\n      host:\n        - libblas\n        - libcblas\n        - boost-cpp\n        - cmake >=3.9\n        - eigen\n        - hdf5 * mpi_{{ mpi }}_*\n        - hdf5\n        - parmetis\n        - pkg-config\n        - ptscotch\n        - suitesparse\n        - zlib\n        - {{ mpi }}\n        - petsc\n        - slepc\n        - fenics-ffc =={{ version }}\n      run:\n        - {{ compiler('cxx') }}  # [linux]\n        - boost-cpp\n        - cmake >=3.9\n        - eigen\n        - hdf5\n        - {{ mpi }}\n        - parmetis\n        - petsc\n        - slepc\n        - pkg-config\n        - ptscotch\n        - suitesparse\n        - zlib\n        - fenics-ffc =={{ version }}\n      run_constrained:\n        - fenics =={{ version }}\n    test:\n      commands:\n        - test -f ${PREFIX}/lib/libdolfin${SHLIB_EXT}\n        - test -f ${PREFIX}/lib/libdolfin.{{ version }}${SHLIB_EXT}  # [osx]\n        - test -f ${PREFIX}/lib/libdolfin${SHLIB_EXT}.{{ version }}  # [linux]\n\n  - name: fenics-dolfin\n    build:\n      script: ${RECIPE_DIR}/build-dolfin.sh\n      skip: true  # [win or py2k]\n    requirements:\n      build:\n        - {{ compiler('c') }}\n        - {{ compiler('cxx') }}\n      host:\n        - libblas\n        - libcblas\n        - python\n        - pip\n        - cmake >=3.9\n        - pkgconfig\n        - {{ mpi }}\n        - mpi4py\n        - petsc4py\n        - slepc4py\n        - numpy\n        - pybind11\n        - six\n        - sympy >=1\n        - {{ pin_subpackage(\"fenics-libdolfin\", exact=True) }}\n        - fenics-dijitso =={{ version }}\n        - fenics-fiat =={{ version }}\n        - fenics-ufl =={{ version }}\n        - fenics-ffc =={{ version }}\n      run:\n        - {{ compiler('cxx') }}  # [linux]\n        - python\n        - setuptools\n        - {{ mpi }}\n        - mpi4py\n        - petsc\n        - petsc4py\n        - slepc\n        - slepc4py\n        - pkgconfig  # Python pkgconfig package\n        - pybind11\n        - {{ pin_compatible('numpy', max_pin=None) }}\n        - six\n        - sympy >=1\n        - {{ pin_subpackage(\"fenics-libdolfin\", exact=True) }}\n        - fenics-dijitso =={{ version }}\n        - fenics-fiat =={{ version }}\n        - fenics-ufl =={{ version }}\n        - fenics-ffc =={{ version }}\n      run_constrained:\n        - fenics =={{ version }}\n\n    test:\n      commands:\n        - bash ${RECIPE_DIR}/parent/test-dolfin.sh\n      source_files:\n        - dolfin/python/test\n\n      requires:\n        - nose\n        - pytest\n        - git\n        - decorator\n\n      imports:\n        - dolfin\n\n  - name: fenics\n    build:\n      skip: true  # [win or py2k]\n      script: \"echo 1\"\n    requirements:\n      host:\n        - python\n      run:\n        - python\n        - fenics-dijitso =={{ version }}\n        - fenics-fiat =={{ version }}\n        - fenics-ufl =={{ version }}\n        - fenics-ffc =={{ version }}\n        - {{ pin_subpackage('fenics-dolfin', exact=True) }}\n    test:\n      imports:\n        - dolfin\n\nabout:\n  home: http://www.fenicsproject.org\n  license: LGPL 3.0\n  license_file: dolfin/COPYING.LESSER\n  summary: 'FEniCS is a collection of free software for automated, efficient solution of differential equations'\n\n  description: |\n    FEniCS is a collection of free software for automated, efficient solution of differential equations\n    (<http://fenicsproject.org>). It provides C++ and Python interfaces, and creates effecient solvers via\n    expression of finite variational statements in a domain-specific language that are transformed and\n    just-in-time compiled into efficient implementations.\n  doc_url: http://fenics.readthedocs.io/\n  dev_url: https://bitbucket.org/fenics-project/\n\nextra:\n  recipe-maintainers:\n    - garth-wells\n    - johannesring\n    - mikaem\n    - minrk\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "boost-cpp",
+   "c_compiler_stub",
+   "cmake",
+   "cxx_compiler_stub",
+   "eigen",
+   "fenics-dijitso",
+   "fenics-dolfin",
+   "fenics-ffc",
+   "fenics-fiat",
+   "fenics-libdolfin",
+   "fenics-ufl",
+   "hdf5",
+   "libblas",
+   "libcblas",
+   "mpi4py",
+   "numpy",
+   "parmetis",
+   "petsc",
+   "petsc4py",
+   "pip",
+   "pkg-config",
+   "pkgconfig",
+   "ptscotch",
+   "pybind11",
+   "python",
+   "setuptools",
+   "six",
+   "slepc",
+   "slepc4py",
+   "suitesparse",
+   "sympy",
+   "zlib"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "cxx_compiler_stub"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "boost-cpp",
+    "cmake",
+    "eigen",
+    "fenics-dijitso",
+    "fenics-ffc",
+    "fenics-fiat",
+    "fenics-libdolfin",
+    "fenics-ufl",
+    "hdf5",
+    "libblas",
+    "libcblas",
+    "mpi4py",
+    "numpy",
+    "parmetis",
+    "petsc",
+    "petsc4py",
+    "pip",
+    "pkg-config",
+    "pkgconfig",
+    "ptscotch",
+    "pybind11",
+    "python",
+    "six",
+    "slepc",
+    "slepc4py",
+    "suitesparse",
+    "sympy",
+    "zlib"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "boost-cpp",
+    "cmake",
+    "cxx_compiler_stub",
+    "eigen",
+    "fenics-dijitso",
+    "fenics-dolfin",
+    "fenics-ffc",
+    "fenics-fiat",
+    "fenics-libdolfin",
+    "fenics-ufl",
+    "hdf5",
+    "mpi4py",
+    "numpy",
+    "parmetis",
+    "petsc",
+    "petsc4py",
+    "pkg-config",
+    "pkgconfig",
+    "ptscotch",
+    "pybind11",
+    "python",
+    "setuptools",
+    "six",
+    "slepc",
+    "slepc4py",
+    "suitesparse",
+    "sympy",
+    "zlib"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "decorator",
+    "git",
+    "nose",
+    "pytest"
+   ]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.6.16",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "cxx_compiler_stub"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "boost-cpp",
+    "cmake >=3.9",
+    "eigen",
+    "fenics-dijitso ==2019.1.0",
+    "fenics-ffc ==2019.1.0",
+    "fenics-fiat ==2019.1.0",
+    "fenics-libdolfin",
+    "fenics-ufl ==2019.1.0",
+    "hdf5",
+    "hdf5 * mpi__*",
+    "libblas",
+    "libcblas",
+    "mpi4py",
+    "numpy",
+    "parmetis",
+    "petsc",
+    "petsc4py",
+    "pip",
+    "pkg-config",
+    "pkgconfig",
+    "ptscotch",
+    "pybind11",
+    "python",
+    "python >=3.5",
+    "six",
+    "slepc",
+    "slepc4py",
+    "suitesparse",
+    "sympy >=1",
+    "zlib"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "boost-cpp",
+    "cmake >=3.9",
+    "cxx_compiler_stub",
+    "eigen",
+    "fenics-dijitso ==2019.1.0",
+    "fenics-dolfin",
+    "fenics-ffc ==2019.1.0",
+    "fenics-fiat ==2019.1.0",
+    "fenics-libdolfin",
+    "fenics-ufl ==2019.1.0",
+    "hdf5",
+    "mpi4py",
+    "numpy",
+    "parmetis",
+    "petsc",
+    "petsc4py",
+    "pkg-config",
+    "pkgconfig",
+    "ptscotch",
+    "pybind11",
+    "python",
+    "python >=3.5",
+    "setuptools",
+    "six",
+    "slepc",
+    "slepc4py",
+    "suitesparse",
+    "sympy >=1",
+    "zlib"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "decorator",
+    "git",
+    "nose",
+    "pytest"
+   ]
+  }
+ },
+ "url":"https://bitbucket.org/fenics-project/dijitso/downloads/dijitso-2019.1.0.tar.gz",
+ "version":"2019.1.0"
+}

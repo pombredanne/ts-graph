@@ -1,0 +1,345 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/317959215.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.6.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/413862706.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":2,
+    "migrator_version":0,
+    "name":"r400"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "bot":{
+   "automerge":true
+  }
+ },
+ "feedstock_name":"r-metabma",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"https://github.com/danheck/metaBMA",
+   "license":"GPL-3",
+   "license_family":"GPL3",
+   "license_file":"/lib/R/share/licenses/GPL-3",
+   "summary":"Computes the posterior model probabilities for standard meta-analysis models  (null model vs. alternative model assuming either fixed- or random-effects, respectively). These posterior probabilities are used to estimate the overall mean effect size  as the weighted average of the mean effect size estimates of the random- and  fixed-effect model as proposed by Gronau, Van Erp, Heck, Cesario, Jonas, &  Wagenmakers (2017, <doi:10.1080/23743603.2017.1326760>). The user can define  a wide range of non-informative or informative priors for the mean effect size  and the heterogeneity coefficient. Moreover, using pre-compiled Stan models,  meta-analysis with continuous and discrete moderators with Jeffreys-Zellner-Siow (JZS)  priors can be fitted and tested. This allows to compute Bayes factors and  perform Bayesian model averaging across random- and fixed-effects meta-analysis  with and without moderators."
+  },
+  "build":{
+   "merge_build_host":true,
+   "number":"1",
+   "rpaths":[
+    "lib/R/lib/",
+    "lib/",
+    "lib/R/lib/",
+    "lib/",
+    "lib/R/lib/",
+    "lib/"
+   ],
+   "skip":true
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "conda-forge/r",
+    "conda-forge/r",
+    "conda-forge/r"
+   ]
+  },
+  "package":{
+   "name":"r-metabma",
+   "version":"0.6.2"
+  },
+  "requirements":{
+   "build":[
+    "m2w64_c_compiler_stub",
+    "m2w64_cxx_compiler_stub",
+    "filesystem",
+    "make",
+    "sed",
+    "coreutils",
+    "zip",
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "make",
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "make"
+   ],
+   "host":[
+    "r-base",
+    "r-bh >=1.69.0_1",
+    "r-laplacesdemon",
+    "r-rcpp >=1.0.0",
+    "r-rcppeigen >=0.3.3.5.0",
+    "r-stanheaders >=2.18.0",
+    "r-bridgesampling",
+    "r-coda",
+    "r-logspline",
+    "r-mvtnorm",
+    "r-rstan >=2.18.1",
+    "r-rstantools >=1.5.1",
+    "r-base",
+    "r-bh >=1.69.0_1",
+    "r-laplacesdemon",
+    "r-rcpp >=1.0.0",
+    "r-rcppeigen >=0.3.3.5.0",
+    "r-stanheaders >=2.18.0",
+    "r-bridgesampling",
+    "r-coda",
+    "r-logspline",
+    "r-mvtnorm",
+    "r-rstan >=2.18.1",
+    "r-rstantools >=1.5.1",
+    "r-base",
+    "r-bh >=1.69.0_1",
+    "r-laplacesdemon",
+    "r-rcpp >=1.0.0",
+    "r-rcppeigen >=0.3.3.5.0",
+    "r-stanheaders >=2.18.0",
+    "r-bridgesampling",
+    "r-coda",
+    "r-logspline",
+    "r-mvtnorm",
+    "r-rstan >=2.18.1",
+    "r-rstantools >=1.5.1"
+   ],
+   "run":[
+    "r-base",
+    "gcc-libs",
+    "r-bh >=1.69.0_1",
+    "r-laplacesdemon",
+    "r-rcpp >=1.0.0",
+    "r-rcppeigen >=0.3.3.5.0",
+    "r-stanheaders >=2.18.0",
+    "r-bridgesampling",
+    "r-coda",
+    "r-logspline",
+    "r-mvtnorm",
+    "r-rstan >=2.18.1",
+    "r-rstantools >=1.5.1",
+    "r-base",
+    "r-bh >=1.69.0_1",
+    "r-laplacesdemon",
+    "r-rcpp >=1.0.0",
+    "r-rcppeigen >=0.3.3.5.0",
+    "r-stanheaders >=2.18.0",
+    "r-bridgesampling",
+    "r-coda",
+    "r-logspline",
+    "r-mvtnorm",
+    "r-rstan >=2.18.1",
+    "r-rstantools >=1.5.1",
+    "r-base",
+    "r-bh >=1.69.0_1",
+    "r-laplacesdemon",
+    "r-rcpp >=1.0.0",
+    "r-rcppeigen >=0.3.3.5.0",
+    "r-stanheaders >=2.18.0",
+    "r-bridgesampling",
+    "r-coda",
+    "r-logspline",
+    "r-mvtnorm",
+    "r-rstan >=2.18.1",
+    "r-rstantools >=1.5.1"
+   ]
+  },
+  "source":{
+   "sha256":"be225f719a3da4c61d91c3442291b819ea61c4a09cdc867b72c0e19cf2bb563c",
+   "url":[
+    "https://cran.r-project.org/src/contrib/metaBMA_0.6.2.tar.gz",
+    "https://cran.r-project.org/src/contrib/Archive/metaBMA/metaBMA_0.6.2.tar.gz",
+    "https://cran.r-project.org/src/contrib/metaBMA_0.6.2.tar.gz",
+    "https://cran.r-project.org/src/contrib/Archive/metaBMA/metaBMA_0.6.2.tar.gz",
+    "https://cran.r-project.org/src/contrib/metaBMA_0.6.2.tar.gz",
+    "https://cran.r-project.org/src/contrib/Archive/metaBMA/metaBMA_0.6.2.tar.gz"
+   ]
+  },
+  "test":{
+   "commands":[
+    "\"%R%\" -e \"library('metaBMA')\"",
+    "$R -e \"library('metaBMA')\"",
+    "$R -e \"library('metaBMA')\""
+   ]
+  }
+ },
+ "name":"r-metabma",
+ "new_version":"0.6.2",
+ "pinning_version":"2020.05.04.19.59.17",
+ "raw_meta_yaml":"{% set version = \"0.6.2\" %}\n{% set posix = 'm2-' if win else '' %}\n{% set native = 'm2w64-' if win else '' %}\n\npackage:\n  name: r-metabma\n  version: {{ version|replace(\"-\", \"_\") }}\n\nsource:\n  url:\n    - {{ cran_mirror }}/src/contrib/metaBMA_{{ version }}.tar.gz\n    - {{ cran_mirror }}/src/contrib/Archive/metaBMA/metaBMA_{{ version }}.tar.gz\n  sha256: be225f719a3da4c61d91c3442291b819ea61c4a09cdc867b72c0e19cf2bb563c\n\nbuild:\n  merge_build_host: True  # [win]\n  # r-rstan unavailable on win\n  skip: True  # [win]\n  number: 1\n  rpaths:\n    - lib/R/lib/\n    - lib/\n\nrequirements:\n  build:\n    - {{ compiler('c') }}              # [not win]\n    - {{ compiler('m2w64_c') }}        # [win]\n    - {{ compiler('cxx') }}            # [not win]\n    - {{ compiler('m2w64_cxx') }}      # [win]\n    - {{ posix }}filesystem        # [win]\n    - {{ posix }}make\n    - {{ posix }}sed               # [win]\n    - {{ posix }}coreutils         # [win]\n    - {{ posix }}zip               # [win]\n  host:\n    - r-base\n    - r-bh >=1.69.0_1\n    - r-laplacesdemon\n    - r-rcpp >=1.0.0\n    - r-rcppeigen >=0.3.3.5.0\n    - r-stanheaders >=2.18.0\n    - r-bridgesampling\n    - r-coda\n    - r-logspline\n    - r-mvtnorm\n    - r-rstan >=2.18.1\n    - r-rstantools >=1.5.1\n  run:\n    - r-base\n    - {{ native }}gcc-libs         # [win]\n    - r-bh >=1.69.0_1\n    - r-laplacesdemon\n    - r-rcpp >=1.0.0\n    - r-rcppeigen >=0.3.3.5.0\n    - r-stanheaders >=2.18.0\n    - r-bridgesampling\n    - r-coda\n    - r-logspline\n    - r-mvtnorm\n    - r-rstan >=2.18.1\n    - r-rstantools >=1.5.1\n\ntest:\n  commands:\n    - $R -e \"library('metaBMA')\"           # [not win]\n    - \"\\\"%R%\\\" -e \\\"library('metaBMA')\\\"\"  # [win]\n\nabout:\n  home: https://github.com/danheck/metaBMA\n  license: GPL-3\n  summary: Computes the posterior model probabilities for standard meta-analysis models  (null\n    model vs. alternative model assuming either fixed- or random-effects, respectively).\n    These posterior probabilities are used to estimate the overall mean effect size  as\n    the weighted average of the mean effect size estimates of the random- and  fixed-effect\n    model as proposed by Gronau, Van Erp, Heck, Cesario, Jonas, &  Wagenmakers (2017,\n    <doi:10.1080/23743603.2017.1326760>). The user can define  a wide range of non-informative\n    or informative priors for the mean effect size  and the heterogeneity coefficient.\n    Moreover, using pre-compiled Stan models,  meta-analysis with continuous and discrete\n    moderators with Jeffreys-Zellner-Siow (JZS)  priors can be fitted and tested. This\n    allows to compute Bayes factors and  perform Bayesian model averaging across random-\n    and fixed-effects meta-analysis  with and without moderators.\n  license_family: GPL3\n  license_file: '{{ environ[\"PREFIX\"] }}/lib/R/share/licenses/GPL-3'\n\nextra:\n  recipe-maintainers:\n    - conda-forge/r\n\n# Package: metaBMA\n# Type: Package\n# Date: 2019-07-10\n# Title: Bayesian Model Averaging for Random and Fixed Effects Meta-Analysis\n# Version: 0.6.1\n# Authors@R: c(person(\"Daniel W.\",\"Heck\",email=\"heck@uni-mannheim.de\",role=c(\"aut\",\"cre\")), person(\"Quentin F.\", \"Gronau\", email=\"quentingronau@web.de\", role = c(\"ctb\")))\n# Maintainer: Daniel W. Heck <heck@uni-mannheim.de>\n# Description: Computes the posterior model probabilities for standard meta-analysis models  (null model vs. alternative model assuming either fixed- or random-effects, respectively). These posterior probabilities are used to estimate the overall mean effect size  as the weighted average of the mean effect size estimates of the random- and  fixed-effect model as proposed by Gronau, Van Erp, Heck, Cesario, Jonas, &  Wagenmakers (2017, <doi:10.1080/23743603.2017.1326760>). The user can define  a wide range of non-informative or informative priors for the mean effect size  and the heterogeneity coefficient. Moreover, using pre-compiled Stan models,  meta-analysis with continuous and discrete moderators with Jeffreys-Zellner-Siow (JZS)  priors can be fitted and tested. This allows to compute Bayes factors and  perform Bayesian model averaging across random- and fixed-effects meta-analysis  with and without moderators.\n# Depends: R (>= 3.4.0), Rcpp (>= 1.0.0), methods\n# Imports: mvtnorm, logspline, coda, LaplacesDemon, rstan (>= 2.18.1), rstantools (>= 1.5.1), bridgesampling\n# Suggests: testthat, knitr\n# LinkingTo: BH (>= 1.69.0-1), Rcpp (>= 1.0.0), RcppEigen (>= 0.3.3.5.0), rstan (>= 2.18.1), StanHeaders (>= 2.18.0)\n# VignetteBuilder: knitr\n# URL: https://github.com/danheck/metaBMA\n# License: GPL-3\n# Encoding: UTF-8\n# LazyData: true\n# NeedsCompilation: yes\n# SystemRequirements: GNU make\n# RoxygenNote: 6.1.1\n# Packaged: 2019-07-09 22:14:42 UTC; Daniel\n# Author: Daniel W. Heck [aut, cre], Quentin F. Gronau [ctb]\n# Repository: CRAN\n# Date/Publication: 2019-07-10 07:50:03 UTC\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "c_compiler_stub",
+   "coreutils",
+   "cxx_compiler_stub",
+   "filesystem",
+   "gcc-libs",
+   "m2w64_c_compiler_stub",
+   "m2w64_cxx_compiler_stub",
+   "make",
+   "r-base",
+   "r-bh",
+   "r-bridgesampling",
+   "r-coda",
+   "r-laplacesdemon",
+   "r-logspline",
+   "r-mvtnorm",
+   "r-rcpp",
+   "r-rcppeigen",
+   "r-rstan",
+   "r-rstantools",
+   "r-stanheaders",
+   "sed",
+   "zip"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "coreutils",
+    "cxx_compiler_stub",
+    "filesystem",
+    "m2w64_c_compiler_stub",
+    "m2w64_cxx_compiler_stub",
+    "make",
+    "sed",
+    "zip"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "r-base",
+    "r-bh",
+    "r-bridgesampling",
+    "r-coda",
+    "r-laplacesdemon",
+    "r-logspline",
+    "r-mvtnorm",
+    "r-rcpp",
+    "r-rcppeigen",
+    "r-rstan",
+    "r-rstantools",
+    "r-stanheaders"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "gcc-libs",
+    "r-base",
+    "r-bh",
+    "r-bridgesampling",
+    "r-coda",
+    "r-laplacesdemon",
+    "r-logspline",
+    "r-mvtnorm",
+    "r-rcpp",
+    "r-rcppeigen",
+    "r-rstan",
+    "r-rstantools",
+    "r-stanheaders"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.7.0\n",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "coreutils",
+    "cxx_compiler_stub",
+    "filesystem",
+    "m2w64_c_compiler_stub",
+    "m2w64_cxx_compiler_stub",
+    "make",
+    "sed",
+    "zip"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "r-base",
+    "r-bh >=1.69.0_1",
+    "r-bridgesampling",
+    "r-coda",
+    "r-laplacesdemon",
+    "r-logspline",
+    "r-mvtnorm",
+    "r-rcpp >=1.0.0",
+    "r-rcppeigen >=0.3.3.5.0",
+    "r-rstan >=2.18.1",
+    "r-rstantools >=1.5.1",
+    "r-stanheaders >=2.18.0"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "gcc-libs",
+    "r-base",
+    "r-bh >=1.69.0_1",
+    "r-bridgesampling",
+    "r-coda",
+    "r-laplacesdemon",
+    "r-logspline",
+    "r-mvtnorm",
+    "r-rcpp >=1.0.0",
+    "r-rcppeigen >=0.3.3.5.0",
+    "r-rstan >=2.18.1",
+    "r-rstantools >=1.5.1",
+    "r-stanheaders >=2.18.0"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":[
+  "https://cran.r-project.org/src/contrib/metaBMA_0.6.1.tar.gz",
+  "https://cran.r-project.org/src/contrib/Archive/metaBMA/metaBMA_0.6.1.tar.gz",
+  "https://cran.r-project.org/src/contrib/metaBMA_0.6.1.tar.gz",
+  "https://cran.r-project.org/src/contrib/Archive/metaBMA/metaBMA_0.6.1.tar.gz",
+  "https://cran.r-project.org/src/contrib/metaBMA_0.6.1.tar.gz",
+  "https://cran.r-project.org/src/contrib/Archive/metaBMA/metaBMA_0.6.1.tar.gz"
+ ],
+ "version":"0.6.2"
+}

@@ -1,0 +1,104 @@
+{
+ "bad":"Upstream: Error getting upstream version",
+ "conda-forge.yml":{
+  "provider":{
+   "win":"azure"
+  }
+ },
+ "feedstock_name":"chemfiles",
+ "meta_yaml":{
+  "about":{
+   "dev_url":"https://github.com/chemfiles/chemfiles",
+   "doc_url":"https://chemfiles.org/chemfiles/0.9.1/",
+   "home":"https://chemfiles.org",
+   "license":"BSD-3-Clause",
+   "summary":"Modern library for chemistry file reading and writing"
+  },
+  "build":{
+   "number":"0"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "luthaf",
+    "luthaf",
+    "luthaf"
+   ]
+  },
+  "package":{
+   "name":"chemfiles",
+   "version":"0.9.1"
+  },
+  "requirements":{
+   "run":[
+    "chemfiles-lib 0.9.*",
+    "chemfiles-python 0.9.*",
+    "chemfiles-lib 0.9.*",
+    "chemfiles-python 0.9.*",
+    "chemfiles-lib 0.9.*",
+    "chemfiles-python 0.9.*"
+   ]
+  },
+  "test":{
+   "commands":[
+    "python -c \"import chemfiles; chemfiles.Atom('H')\"",
+    "python -c \"import chemfiles; chemfiles.Atom('H')\"",
+    "python -c \"import chemfiles; chemfiles.Atom('H')\""
+   ]
+  }
+ },
+ "name":"chemfiles",
+ "new_version":false,
+ "raw_meta_yaml":"{% set version = \"0.9.1\" %}\n\npackage:\n  name: chemfiles\n  version: {{ version }}\n\nbuild:\n  skip: true  # [win and py2k]\n  number: 0\n\nrequirements:\n  run:\n    - chemfiles-lib 0.9.*\n    - chemfiles-python 0.9.*\n\ntest:\n  commands:\n    # If we can load the python extension and create new object, both the python\n    # binding and the shared library are installled in the right place\n    - python -c \"import chemfiles; chemfiles.Atom('H')\"\n\nabout:\n  home: https://chemfiles.org\n  license: BSD-3-Clause\n  summary: Modern library for chemistry file reading and writing\n  doc_url: https://chemfiles.org/chemfiles/{{ version }}/\n  dev_url: https://github.com/chemfiles/chemfiles\n\nextra:\n  recipe-maintainers:\n    - luthaf\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "chemfiles-lib",
+   "chemfiles-python"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "chemfiles-lib",
+    "chemfiles-python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "strong_exports":false,
+ "time":1568135272.5238461,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "chemfiles-lib 0.9.*",
+    "chemfiles-python 0.9.*"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "version":"0.9.1"
+}

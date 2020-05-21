@@ -1,0 +1,222 @@
+{
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"cwinpy",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"A Python module for performing Bayesian inference for continuous gravitational-wave signals from pulsars.\n",
+   "dev_url":"https://github.com/cwinpy/cwinpy/",
+   "doc_url":"https://cwinpy.readthedocs.io/en/latest/",
+   "home":"https://github.com/cwinpy/cwinpy/",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"LICENSE",
+   "summary":"CW Inference in Python"
+  },
+  "build":{
+   "entry_points":[
+    "cwinpy_knope = cwinpy.knope.knope:knope_cli",
+    "cwinpy_knope_dag = cwinpy.knope.knope:knope_dag_cli",
+    "cwinpy_knope_generate_pp_plots = cwinpy.knope.testing:generate_pp_plots",
+    "cwinpy_knope = cwinpy.knope.knope:knope_cli",
+    "cwinpy_knope_dag = cwinpy.knope.knope:knope_dag_cli",
+    "cwinpy_knope_generate_pp_plots = cwinpy.knope.testing:generate_pp_plots",
+    "cwinpy_knope = cwinpy.knope.knope:knope_cli",
+    "cwinpy_knope_dag = cwinpy.knope.knope:knope_dag_cli",
+    "cwinpy_knope_generate_pp_plots = cwinpy.knope.testing:generate_pp_plots"
+   ],
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "mattpitkin",
+    "duncanmmacleod",
+    "mattpitkin",
+    "duncanmmacleod",
+    "mattpitkin",
+    "duncanmmacleod"
+   ]
+  },
+  "package":{
+   "name":"cwinpy",
+   "version":"0.2.1"
+  },
+  "requirements":{
+   "host":[
+    "pip",
+    "python >=3.6",
+    "setuptools",
+    "pip",
+    "python >=3.6",
+    "setuptools",
+    "pip",
+    "python >=3.6",
+    "setuptools"
+   ],
+   "run":[
+    "astropy",
+    "bilby >=0.5.8",
+    "bilby_pipe >=0.2.0",
+    "gwpy",
+    "lintegrate",
+    "matplotlib-base",
+    "numba",
+    "numpy >=1.15",
+    "pycondor",
+    "python >=3.6",
+    "python-lal",
+    "python-lalpulsar",
+    "scipy",
+    "astropy",
+    "bilby >=0.5.8",
+    "bilby_pipe >=0.2.0",
+    "gwpy",
+    "lintegrate",
+    "matplotlib-base",
+    "numba",
+    "numpy >=1.15",
+    "pycondor",
+    "python >=3.6",
+    "python-lal",
+    "python-lalpulsar",
+    "scipy",
+    "astropy",
+    "bilby >=0.5.8",
+    "bilby_pipe >=0.2.0",
+    "gwpy",
+    "lintegrate",
+    "matplotlib-base",
+    "numba",
+    "numpy >=1.15",
+    "pycondor",
+    "python >=3.6",
+    "python-lal",
+    "python-lalpulsar",
+    "scipy"
+   ]
+  },
+  "source":{
+   "sha256":"3caedf3aac6b8ef9bc0df8467e1610587c1fae3b2a0266ee6c839d45a79e5cb0",
+   "url":"https://pypi.io/packages/source/c/cwinpy/cwinpy-0.2.1.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "cwinpy_knope --help",
+    "cwinpy_knope_dag --help",
+    "cwinpy_knope_generate_pp_plots --help",
+    "cwinpy_knope --help",
+    "cwinpy_knope_dag --help",
+    "cwinpy_knope_generate_pp_plots --help",
+    "cwinpy_knope --help",
+    "cwinpy_knope_dag --help",
+    "cwinpy_knope_generate_pp_plots --help"
+   ],
+   "imports":[
+    "cwinpy",
+    "cwinpy",
+    "cwinpy"
+   ]
+  }
+ },
+ "name":"cwinpy",
+ "new_version":"0.2.1",
+ "raw_meta_yaml":"{% set name = \"cwinpy\" %}\n{% set version = \"0.2.1\" %}\n\npackage:\n  name: \"{{ name|lower }}\"\n  version: \"{{ version }}\"\n\nsource:\n  url: \"https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\"\n  sha256: 3caedf3aac6b8ef9bc0df8467e1610587c1fae3b2a0266ee6c839d45a79e5cb0\n\nbuild:\n  entry_points:\n    - cwinpy_knope = cwinpy.knope.knope:knope_cli\n    - cwinpy_knope_dag = cwinpy.knope.knope:knope_dag_cli\n    - cwinpy_knope_generate_pp_plots = cwinpy.knope.testing:generate_pp_plots\n  number: 0\n  noarch: python\n  script: \"{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv\"\n\nrequirements:\n  host:\n    - pip\n    - python >=3.6\n    - setuptools\n  run:\n    - astropy\n    - bilby >=0.5.8\n    - bilby_pipe >=0.2.0\n    - gwpy\n    - lintegrate\n    - matplotlib-base\n    - numba\n    - numpy >=1.15\n    - pycondor\n    - python >=3.6\n    - python-lal\n    - python-lalpulsar\n    - scipy\n\ntest:\n  imports:\n    - cwinpy\n  commands:\n    - cwinpy_knope --help\n    - cwinpy_knope_dag --help\n    - cwinpy_knope_generate_pp_plots --help\n\nabout:\n  home: \"https://github.com/cwinpy/cwinpy/\"\n  license: \"MIT\"\n  license_family: \"MIT\"\n  license_file: \"LICENSE\"\n  summary: \"CW Inference in Python\"\n  doc_url: \"https://cwinpy.readthedocs.io/en/latest/\"\n  dev_url: \"https://github.com/cwinpy/cwinpy/\"\n  description: |\n    A Python module for performing Bayesian inference for continuous gravitational-wave signals from pulsars.\n\nextra:\n  recipe-maintainers:\n    - mattpitkin\n    - duncanmmacleod\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "astropy",
+   "bilby",
+   "bilby_pipe",
+   "gwpy",
+   "lintegrate",
+   "matplotlib-base",
+   "numba",
+   "numpy",
+   "pip",
+   "pycondor",
+   "python",
+   "python-lal",
+   "python-lalpulsar",
+   "scipy",
+   "setuptools"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python",
+    "setuptools"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "astropy",
+    "bilby",
+    "bilby_pipe",
+    "gwpy",
+    "lintegrate",
+    "matplotlib-base",
+    "numba",
+    "numpy",
+    "pycondor",
+    "python",
+    "python-lal",
+    "python-lalpulsar",
+    "scipy"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3.6",
+    "setuptools"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "astropy",
+    "bilby >=0.5.8",
+    "bilby_pipe >=0.2.0",
+    "gwpy",
+    "lintegrate",
+    "matplotlib-base",
+    "numba",
+    "numpy >=1.15",
+    "pycondor",
+    "python >=3.6",
+    "python-lal",
+    "python-lalpulsar",
+    "scipy"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/c/cwinpy/cwinpy-0.2.1.tar.gz",
+ "version":"0.2.1"
+}

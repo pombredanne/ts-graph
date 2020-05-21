@@ -1,0 +1,297 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/411610096.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MatplotlibBase",
+    "migrator_version":0,
+    "name":"matplotlib-to-matplotlib-base"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"sdt-python",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "dev_url":"https://github.com/schuetzgroup/sdt-python",
+   "doc_url":"https://schuetzgroup.github.io/sdt-python",
+   "home":"https://github.com/schuetzgroup/sdt-python",
+   "license":"BSD-3-Clause",
+   "license_file":[
+    "LICENSES/BSD-3-Clause.txt",
+    "LICENSES/CC-BY-4.0.txt",
+    "LICENSES/CC0-1.0.txt",
+    "LICENSES/LGPL-3.0-or-later.txt",
+    "LICENSES/MIT.txt",
+    "LICENSES/BSD-3-Clause.txt",
+    "LICENSES/CC-BY-4.0.txt",
+    "LICENSES/CC0-1.0.txt",
+    "LICENSES/LGPL-3.0-or-later.txt",
+    "LICENSES/MIT.txt",
+    "LICENSES/BSD-3-Clause.txt",
+    "LICENSES/CC-BY-4.0.txt",
+    "LICENSES/CC0-1.0.txt",
+    "LICENSES/LGPL-3.0-or-later.txt",
+    "LICENSES/MIT.txt"
+   ],
+   "summary":"Tools for fluorescence microscopy data analysis"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"1",
+   "script":" -m pip install . --no-deps -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "lschr",
+    "lschr",
+    "lschr"
+   ]
+  },
+  "package":{
+   "name":"sdt-python",
+   "version":"14.3.2"
+  },
+  "requirements":{
+   "host":[
+    "python",
+    "pip",
+    "python",
+    "pip",
+    "python",
+    "pip"
+   ],
+   "run":[
+    "python",
+    "numpy >=1.10",
+    "pandas",
+    "pytables",
+    "scipy >0.18",
+    "tifffile >=0.14.0",
+    "pyyaml",
+    "pims >=0.3.0",
+    "numba",
+    "qtpy >=1.1",
+    "matplotlib-base",
+    "pywavelets >=0.3.0",
+    "python",
+    "numpy >=1.10",
+    "pandas",
+    "pytables",
+    "scipy >0.18",
+    "tifffile >=0.14.0",
+    "pyyaml",
+    "pims >=0.3.0",
+    "numba",
+    "qtpy >=1.1",
+    "matplotlib-base",
+    "pywavelets >=0.3.0",
+    "python",
+    "numpy >=1.10",
+    "pandas",
+    "pytables",
+    "scipy >0.18",
+    "tifffile >=0.14.0",
+    "pyyaml",
+    "pims >=0.3.0",
+    "numba",
+    "qtpy >=1.1",
+    "matplotlib-base",
+    "pywavelets >=0.3.0"
+   ]
+  },
+  "source":{
+   "sha256":"c331494130284d6360e68de21a5ce0092988b2e16f34594dc7445a3fc1029c13",
+   "url":"https://github.com/schuetzgroup/sdt-python/archive/14.3.2.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "pytest -v tests",
+    "pytest -v tests",
+    "pytest -v tests"
+   ],
+   "imports":[
+    "sdt",
+    "sdt.brightness",
+    "sdt.changepoint",
+    "sdt.chromatic",
+    "sdt.exp_fit",
+    "sdt.flatfield",
+    "sdt.fret",
+    "sdt.gaussian_fit",
+    "sdt.helper",
+    "sdt.image",
+    "sdt.io",
+    "sdt.loc",
+    "sdt.motion",
+    "sdt.multicolor",
+    "sdt.roi",
+    "sdt.sim",
+    "sdt.spatial",
+    "sdt",
+    "sdt.brightness",
+    "sdt.changepoint",
+    "sdt.chromatic",
+    "sdt.exp_fit",
+    "sdt.flatfield",
+    "sdt.fret",
+    "sdt.gaussian_fit",
+    "sdt.helper",
+    "sdt.image",
+    "sdt.io",
+    "sdt.loc",
+    "sdt.motion",
+    "sdt.multicolor",
+    "sdt.roi",
+    "sdt.sim",
+    "sdt.spatial",
+    "sdt",
+    "sdt.brightness",
+    "sdt.changepoint",
+    "sdt.chromatic",
+    "sdt.exp_fit",
+    "sdt.flatfield",
+    "sdt.fret",
+    "sdt.gaussian_fit",
+    "sdt.helper",
+    "sdt.image",
+    "sdt.io",
+    "sdt.loc",
+    "sdt.motion",
+    "sdt.multicolor",
+    "sdt.roi",
+    "sdt.sim",
+    "sdt.spatial"
+   ],
+   "requires":[
+    "pytest",
+    "trackpy",
+    "lmfit",
+    "pytest",
+    "trackpy",
+    "lmfit",
+    "pytest",
+    "trackpy",
+    "lmfit"
+   ],
+   "source_files":[
+    "tests",
+    "tests",
+    "tests"
+   ]
+  }
+ },
+ "name":"sdt-python",
+ "new_version":"14.3.2",
+ "pinning_version":"2020.04.30.13.04.49",
+ "raw_meta_yaml":"# SPDX-FileCopyrightText: 2020 Lukas Schrangl <lukas.schrangl@tuwien.ac.at>\n#\n# SPDX-License-Identifier: BSD-3-Clause\n{% set name = \"sdt-python\" %}\n{% set version = \"14.3.2\" %}\n\npackage:\n    name: {{ name }}\n    version: {{ version }}\n\nsource:\n    url: https://github.com/schuetzgroup/{{ name }}/archive/{{ version }}.tar.gz\n    sha256: c331494130284d6360e68de21a5ce0092988b2e16f34594dc7445a3fc1029c13\n\nbuild:\n    number: 1\n    script: \"{{ PYTHON }} -m pip install . --no-deps -vv\"\n    noarch: python\n\nrequirements:\n    host:\n        - python\n        - pip\n    run:\n        - python\n        - numpy >=1.10\n        - pandas\n        - pytables\n        - scipy >0.18\n        - tifffile >=0.14.0\n        - pyyaml\n        - pims >=0.3.0\n        - numba\n        - qtpy >=1.1\n        - matplotlib-base\n        - pywavelets >=0.3.0\n\ntest:\n    requires:\n        - pytest\n        - trackpy\n        - lmfit\n    commands:\n        - pytest -v tests\n    source_files:\n        - tests\n    imports:\n        - sdt\n        - sdt.brightness\n        - sdt.changepoint\n        - sdt.chromatic\n        - sdt.exp_fit\n        - sdt.flatfield\n        - sdt.fret\n        - sdt.gaussian_fit\n        - sdt.helper\n        - sdt.image\n        - sdt.io\n        - sdt.loc\n        - sdt.motion\n        - sdt.multicolor\n        - sdt.roi\n        - sdt.sim\n        - sdt.spatial\n\nabout:\n    home: https://github.com/schuetzgroup/sdt-python\n    license: BSD-3-Clause\n    license_file:\n        - LICENSES/BSD-3-Clause.txt\n        - LICENSES/CC-BY-4.0.txt\n        - LICENSES/CC0-1.0.txt\n        - LICENSES/LGPL-3.0-or-later.txt\n        - LICENSES/MIT.txt\n    summary: \"Tools for fluorescence microscopy data analysis\"\n    dev_url: https://github.com/schuetzgroup/sdt-python\n    doc_url: https://schuetzgroup.github.io/sdt-python\n\nextra:\n    recipe-maintainers:\n        - lschr\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "matplotlib-base",
+   "numba",
+   "numpy",
+   "pandas",
+   "pims",
+   "pip",
+   "pytables",
+   "python",
+   "pywavelets",
+   "pyyaml",
+   "qtpy",
+   "scipy",
+   "tifffile"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "matplotlib-base",
+    "numba",
+    "numpy",
+    "pandas",
+    "pims",
+    "pytables",
+    "python",
+    "pywavelets",
+    "pyyaml",
+    "qtpy",
+    "scipy",
+    "tifffile"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "lmfit",
+    "pytest",
+    "trackpy"
+   ]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.7.0",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "matplotlib-base",
+    "numba",
+    "numpy >=1.10",
+    "pandas",
+    "pims >=0.3.0",
+    "pytables",
+    "python",
+    "pywavelets >=0.3.0",
+    "pyyaml",
+    "qtpy >=1.1",
+    "scipy >0.18",
+    "tifffile >=0.14.0"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "lmfit",
+    "pytest",
+    "trackpy"
+   ]
+  }
+ },
+ "url":"https://github.com/schuetzgroup/sdt-python/archive/14.3.2.tar.gz",
+ "version":"14.3.2"
+}

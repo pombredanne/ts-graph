@@ -1,0 +1,181 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/312439148.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.0.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/321868310.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.0.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/371588956.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.1.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"rb-jekyll-sass-converter",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "dev_url":"https://github.com/jekyll/jekyll-sass-converter",
+   "doc_url":"http://www.rubydoc.info/gems/jekyll-sass-converter",
+   "home":"https://rubygems.org/gems/jekyll-sass-converter",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"LICENSE.txt",
+   "summary":"A basic Sass converter for Jekyll."
+  },
+  "build":{
+   "noarch":"generic",
+   "number":"0",
+   "script":[
+    "gem install --norc -l -V --ignore-dependencies jekyll-sass-converter-2.0.1.gem",
+    "gem unpack jekyll-sass-converter-2.0.1.gem",
+    "gem install --norc -l -V --ignore-dependencies jekyll-sass-converter-2.0.1.gem",
+    "gem unpack jekyll-sass-converter-2.0.1.gem",
+    "gem install --norc -l -V --ignore-dependencies jekyll-sass-converter-2.0.1.gem",
+    "gem unpack jekyll-sass-converter-2.0.1.gem"
+   ],
+   "skip":null
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "sodre",
+    "sodre",
+    "sodre"
+   ]
+  },
+  "package":{
+   "name":"rb-jekyll-sass-converter",
+   "version":"2.0.1"
+  },
+  "requirements":{
+   "host":[
+    "ruby",
+    "ruby",
+    "ruby"
+   ],
+   "run":[
+    "ruby",
+    "rb-sassc >=2.0.1,<3.0",
+    "ruby",
+    "rb-sassc >=2.0.1,<3.0",
+    "ruby",
+    "rb-sassc >=2.0.1,<3.0"
+   ]
+  },
+  "source":{
+   "sha256":"a302048fdad95e1c810a0833fa82b8759c63b30653dd2f9cdd22e332eec55f76",
+   "url":"https://rubygems.org/downloads/jekyll-sass-converter-2.0.1.gem"
+  },
+  "test":{
+   "commands":[
+    "gem list | grep -s jekyll-sass-converter",
+    "gem list | grep -s jekyll-sass-converter",
+    "gem list | grep -s jekyll-sass-converter"
+   ]
+  }
+ },
+ "name":"rb-jekyll-sass-converter",
+ "new_version":"2.1.0",
+ "pinning_version":"2020.01.28",
+ "raw_meta_yaml":"{% set name = \"jekyll-sass-converter\" %}\n{% set version = \"2.0.1\" %}\n\npackage:\n  name: rb-{{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://rubygems.org/downloads/{{ name }}-{{ version }}.gem\n  sha256: a302048fdad95e1c810a0833fa82b8759c63b30653dd2f9cdd22e332eec55f76\n\nbuild:\n  noarch: generic\n  number: 0\n  script:\n    - gem install --norc -l -V --ignore-dependencies {{ name }}-{{ version }}.gem\n    - gem unpack {{ name }}-{{ version }}.gem\n  skip: {{ win }}\n\nrequirements:\n  host:\n    - ruby\n  run:\n    - ruby\n    - rb-sassc >=2.0.1,<3.0\n\ntest:\n  commands:\n    - gem list | grep -s {{ name }}\n    # We can't test the module because it depends on jekyll itself\n    # - ruby -r {{ name }} -e 'exit 0'\n\nabout:\n  home: https://rubygems.org/gems/{{ name }}\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE.txt\n  summary: A basic Sass converter for Jekyll.\n\n  doc_url: http://www.rubydoc.info/gems/{{ name }}\n  dev_url: https://github.com/jekyll/{{ name }}\n\nextra:\n  recipe-maintainers:\n    - sodre\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "rb-sassc",
+   "ruby"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "ruby"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "rb-sassc",
+    "ruby"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.6.7",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "ruby"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "rb-sassc >=2.0.1,<3.0",
+    "ruby"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://rubygems.org/downloads/jekyll-sass-converter-2.0.0.gem",
+ "version":"2.0.1"
+}

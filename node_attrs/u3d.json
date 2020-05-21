@@ -1,0 +1,273 @@
+{
+ "PRed":[
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.3.3"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/206831605.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Compiler",
+    "migrator_version":0
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/223709619.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/230098426.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.3.4"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/230830601.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.3.5"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/335510926.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"python38"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":{
+  "exception":"MD5 mismatch: '9f3f63422e0efa772b8bf5a774061170' != '6f6e17de3413c2232a96f40df63afb42'",
+  "traceback":[
+   "Traceback (most recent call last):",
+   "  File \"/root/repo/cf-scripts/conda_forge_tick/auto_tick.py\", line 834, in main",
+   "    hash_type=attrs.get(\"hash_type\", \"sha256\"),",
+   "  File \"/root/repo/cf-scripts/conda_forge_tick/auto_tick.py\", line 189, in run",
+   "    migrator.run_post_piggyback_migrations(recipe_dir, feedstock_ctx.attrs, **kwargs)",
+   "  File \"/root/repo/cf-scripts/conda_forge_tick/migrators/core.py\", line 258, in run_post_piggyback_migrations",
+   "    mini_migrator.migrate(recipe_dir, attrs, **kwargs)",
+   "  File \"/root/repo/cf-scripts/conda_forge_tick/migrators/license.py\", line 271, in migrate",
+   "    cb_work_dir = _get_source_code(recipe_dir)",
+   "  File \"/root/repo/cf-scripts/conda_forge_tick/migrators/core.py\", line 71, in _get_source_code",
+   "    return provide(md)",
+   "  File \"/opt/conda/envs/run_env/lib/python3.7/site-packages/conda_build/source.py\", line 654, in provide",
+   "    timeout=metadata.config.timeout, locking=metadata.config.locking)",
+   "  File \"/opt/conda/envs/run_env/lib/python3.7/site-packages/conda_build/source.py\", line 139, in unpack",
+   "    src_path, unhashed_fn = download_to_cache(cache_folder, recipe_path, source_dict, verbose)",
+   "  File \"/opt/conda/envs/run_env/lib/python3.7/site-packages/conda_build/source.py\", line 105, in download_to_cache",
+   "    (tp.upper(), hashed, expected_hash))",
+   "RuntimeError: MD5 mismatch: '9f3f63422e0efa772b8bf5a774061170' != '6f6e17de3413c2232a96f40df63afb42'",
+   ""
+  ]
+ },
+ "conda-forge.yml":{},
+ "feedstock_name":"u3d",
+ "hash_type":"md5",
+ "meta_yaml":{
+  "about":{
+   "home":"https://github.com/ClinicalGraphics/u3d",
+   "license":"Apache-2.0",
+   "summary":"Universal 3D Sample Software"
+  },
+  "build":{
+   "features":null,
+   "number":"0"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "Maxyme",
+    "EelcoHoogendoorn",
+    "Maxyme",
+    "EelcoHoogendoorn",
+    "Maxyme",
+    "EelcoHoogendoorn"
+   ]
+  },
+  "package":{
+   "name":"u3d",
+   "version":"0.3.5"
+  },
+  "requirements":{
+   "build":[
+    "python",
+    "cmake",
+    "jpeg 9*",
+    "libpng >=1.6.28,<1.7",
+    "zlib 1.2.*",
+    "cmake",
+    "jpeg 9*",
+    "libpng >=1.6.28,<1.7",
+    "zlib 1.2.*",
+    "cmake",
+    "jpeg 9*",
+    "libpng >=1.6.28,<1.7",
+    "zlib 1.2.*"
+   ],
+   "run":[
+    "jpeg 9*",
+    "libpng >=1.6.28,<1.7",
+    "zlib 1.2.*",
+    "jpeg 9*",
+    "libpng >=1.6.28,<1.7",
+    "zlib 1.2.*",
+    "jpeg 9*",
+    "libpng >=1.6.28,<1.7",
+    "zlib 1.2.*"
+   ]
+  },
+  "source":{
+   "fn":"u3d-v0.3.5.tar.gz",
+   "md5":"6f6e17de3413c2232a96f40df63afb42",
+   "url":"https://github.com/ClinicalGraphics/u3d/archive/0.3.5.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "IDTFGen || ver>nul",
+    "IDTFConverter -input test.idtf -output test.u3d -debuglevel 0",
+    "IDTFGen || true",
+    "IDTFConverter -input test.idtf -output test.u3d -debuglevel 0",
+    "IDTFGen || true",
+    "IDTFConverter -input test.idtf -output test.u3d -debuglevel 0"
+   ],
+   "requires":null
+  }
+ },
+ "name":"u3d",
+ "new_version":"0.3.5",
+ "pinning_version":"2019.11.01",
+ "raw_meta_yaml":"{% set version = \"0.3.5\" %}\n\npackage:\n  name: u3d\n  version: {{ version }}\n\nsource:\n  fn: u3d-v{{ version }}.tar.gz\n  url: https://github.com/ClinicalGraphics/u3d/archive/{{ version }}.tar.gz\n  md5: 6f6e17de3413c2232a96f40df63afb42\n\nbuild:\n  features:\n  - vc9  # [win and py27]\n  - vc10  # [win and py34]\n  - vc14  # [win and py35]\n  number: 0\n\nrequirements:\n  build:\n  - python  # [win]\n  - cmake\n  - jpeg 9*\n  - libpng >=1.6.28,<1.7\n  - zlib 1.2.*\n  run:\n  - jpeg 9*\n  - libpng >=1.6.28,<1.7\n  - zlib 1.2.*\n\ntest:\n  requires:\n  - python {{ environ['PY_VER'] + '*' }}  # [win]\n  commands:\n  # generate a test.idtf file. this tool never exit code 0 so we force it\n  - IDTFGen || true  # [not win]\n  - IDTFGen || ver>nul  # [win]\n  # then try to generate a u3d file. this tool only exits 0 if it succeeds\n  - IDTFConverter -input test.idtf -output test.u3d -debuglevel 0\n\nabout:\n  home: https://github.com/ClinicalGraphics/u3d\n  license: Apache-2.0\n  summary: Universal 3D Sample Software\n  \nextra:\n  recipe-maintainers:\n    - Maxyme\n    - EelcoHoogendoorn\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "cmake",
+   "jpeg",
+   "libpng",
+   "python",
+   "zlib"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "cmake",
+    "jpeg",
+    "libpng",
+    "python",
+    "zlib"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "jpeg",
+    "libpng",
+    "zlib"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.6.0",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "cmake",
+    "jpeg 9*",
+    "libpng >=1.6.28,<1.7",
+    "python",
+    "zlib 1.2.*"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "jpeg 9*",
+    "libpng >=1.6.28,<1.7",
+    "zlib 1.2.*"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://github.com/ClinicalGraphics/u3d/archive/0.3.5.tar.gz",
+ "version":"0.3.5"
+}

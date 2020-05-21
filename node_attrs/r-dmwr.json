@@ -1,0 +1,307 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/233291809.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/299636617.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"RBaseRebuild",
+    "migrator_version":0,
+    "name":"r-base-3.6.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/414441410.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":2,
+    "migrator_version":0,
+    "name":"r400"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "bot":{
+   "automerge":true
+  },
+  "provider":{
+   "win":"azure"
+  }
+ },
+ "feedstock_name":"r-dmwr",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"https://CRAN.R-project.org/package=DMwR",
+   "license":"GPL (>= 2)",
+   "license_family":"GPL3",
+   "license_file":"/lib/R/share/licenses/GPL-3",
+   "summary":"This package includes functions and data accompanying the book  \"Data Mining with R, learning with case studies\" by Luis Torgo, CRC Press 2010."
+  },
+  "build":{
+   "merge_build_host":true,
+   "noarch":"generic",
+   "number":"1003",
+   "rpaths":[
+    "lib/R/lib/",
+    "lib/",
+    "lib/R/lib/",
+    "lib/",
+    "lib/R/lib/",
+    "lib/"
+   ]
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "conda-forge/r",
+    "johanneskoester",
+    "bgruening",
+    "daler",
+    "jdblischak",
+    "cbrueffer",
+    "dbast",
+    "pravs3683",
+    "conda-forge/r",
+    "johanneskoester",
+    "bgruening",
+    "daler",
+    "jdblischak",
+    "cbrueffer",
+    "dbast",
+    "pravs3683",
+    "conda-forge/r",
+    "johanneskoester",
+    "bgruening",
+    "daler",
+    "jdblischak",
+    "cbrueffer",
+    "dbast",
+    "pravs3683"
+   ]
+  },
+  "package":{
+   "name":"r-dmwr",
+   "version":"0.4.1"
+  },
+  "requirements":{
+   "build":null,
+   "host":[
+    "r-base",
+    "r-rocr >=1.0",
+    "r-abind >=1.1_0",
+    "r-class >=7.3_1",
+    "r-lattice >=0.18_3",
+    "r-quantmod >=0.3_8",
+    "r-rpart >=3.1_46",
+    "r-xts >=0.6_7",
+    "r-zoo >=1.6_4",
+    "r-base",
+    "r-rocr >=1.0",
+    "r-abind >=1.1_0",
+    "r-class >=7.3_1",
+    "r-lattice >=0.18_3",
+    "r-quantmod >=0.3_8",
+    "r-rpart >=3.1_46",
+    "r-xts >=0.6_7",
+    "r-zoo >=1.6_4",
+    "r-base",
+    "r-rocr >=1.0",
+    "r-abind >=1.1_0",
+    "r-class >=7.3_1",
+    "r-lattice >=0.18_3",
+    "r-quantmod >=0.3_8",
+    "r-rpart >=3.1_46",
+    "r-xts >=0.6_7",
+    "r-zoo >=1.6_4"
+   ],
+   "run":[
+    "r-base",
+    "r-rocr >=1.0",
+    "r-abind >=1.1_0",
+    "r-class >=7.3_1",
+    "r-lattice >=0.18_3",
+    "r-quantmod >=0.3_8",
+    "r-rpart >=3.1_46",
+    "r-xts >=0.6_7",
+    "r-zoo >=1.6_4",
+    "r-base",
+    "r-rocr >=1.0",
+    "r-abind >=1.1_0",
+    "r-class >=7.3_1",
+    "r-lattice >=0.18_3",
+    "r-quantmod >=0.3_8",
+    "r-rpart >=3.1_46",
+    "r-xts >=0.6_7",
+    "r-zoo >=1.6_4",
+    "r-base",
+    "r-rocr >=1.0",
+    "r-abind >=1.1_0",
+    "r-class >=7.3_1",
+    "r-lattice >=0.18_3",
+    "r-quantmod >=0.3_8",
+    "r-rpart >=3.1_46",
+    "r-xts >=0.6_7",
+    "r-zoo >=1.6_4"
+   ]
+  },
+  "source":{
+   "fn":"DMwR_0.4.1.tar.gz",
+   "sha256":"8ead6a21194e165d516196259c2d5f3b4d587b2e3dc6001023f5edf6139d3ee3",
+   "url":[
+    "https://cran.r-project.org/src/contrib/DMwR_0.4.1.tar.gz",
+    "https://cran.r-project.org/src/contrib/Archive/DMwR/DMwR_0.4.1.tar.gz",
+    "https://cran.r-project.org/src/contrib/DMwR_0.4.1.tar.gz",
+    "https://cran.r-project.org/src/contrib/Archive/DMwR/DMwR_0.4.1.tar.gz",
+    "https://cran.r-project.org/src/contrib/DMwR_0.4.1.tar.gz",
+    "https://cran.r-project.org/src/contrib/Archive/DMwR/DMwR_0.4.1.tar.gz"
+   ]
+  },
+  "test":{
+   "commands":[
+    "\"%R%\" -e \"library('DMwR')\"",
+    "$R -e \"library('DMwR')\"",
+    "$R -e \"library('DMwR')\""
+   ]
+  }
+ },
+ "name":"r-dmwr",
+ "new_version":"0.4.1",
+ "pinning_version":"2020.05.06.22.15.02",
+ "raw_meta_yaml":"{% set version = '0.4.1' %}\n{% set posix = 'm2-' if win else '' %}\n{% set native = 'm2w64-' if win else '' %}\n\npackage:\n  name: r-dmwr\n  version: {{ version|replace(\"-\", \"_\") }}\n\nsource:\n  fn: DMwR_{{ version }}.tar.gz\n  url:\n    - {{ cran_mirror }}/src/contrib/DMwR_{{ version }}.tar.gz\n    - {{ cran_mirror }}/src/contrib/Archive/DMwR/DMwR_{{ version }}.tar.gz\n  sha256: 8ead6a21194e165d516196259c2d5f3b4d587b2e3dc6001023f5edf6139d3ee3\n\nbuild:\n  noarch: generic\n  merge_build_host: True  # [win]\n  number: 1003\n  rpaths:\n    - lib/R/lib/\n    - lib/\n\nrequirements:\n  build:\n    - {{ posix }}zip               # [win]\n  host:\n    - r-base\n    - r-rocr >=1.0\n    - r-abind >=1.1_0\n    - r-class >=7.3_1\n    - r-lattice >=0.18_3\n    - r-quantmod >=0.3_8\n    - r-rpart >=3.1_46\n    - r-xts >=0.6_7\n    - r-zoo >=1.6_4\n  run:\n    - r-base\n    - r-rocr >=1.0\n    - r-abind >=1.1_0\n    - r-class >=7.3_1\n    - r-lattice >=0.18_3\n    - r-quantmod >=0.3_8\n    - r-rpart >=3.1_46\n    - r-xts >=0.6_7\n    - r-zoo >=1.6_4\n\ntest:\n  commands:\n    - $R -e \"library('DMwR')\"           # [not win]\n    - \"\\\"%R%\\\" -e \\\"library('DMwR')\\\"\"  # [win]\n\nabout:\n  home: https://CRAN.R-project.org/package=DMwR\n  license: GPL (>= 2)\n  summary: This package includes functions and data accompanying the book  \"Data Mining with\n    R, learning with case studies\" by Luis Torgo, CRC Press 2010.\n  license_family: GPL3\n  license_file: '{{ environ[\"PREFIX\"] }}/lib/R/share/licenses/GPL-3'\n\nextra:\n  recipe-maintainers:\n    - conda-forge/r\n    - johanneskoester\n    - bgruening\n    - daler\n    - jdblischak\n    - cbrueffer\n    - dbast\n    - pravs3683\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "r-abind",
+   "r-base",
+   "r-class",
+   "r-lattice",
+   "r-quantmod",
+   "r-rocr",
+   "r-rpart",
+   "r-xts",
+   "r-zoo"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "r-abind",
+    "r-base",
+    "r-class",
+    "r-lattice",
+    "r-quantmod",
+    "r-rocr",
+    "r-rpart",
+    "r-xts",
+    "r-zoo"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "r-abind",
+    "r-base",
+    "r-class",
+    "r-lattice",
+    "r-quantmod",
+    "r-rocr",
+    "r-rpart",
+    "r-xts",
+    "r-zoo"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.7.0\n",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "r-abind >=1.1_0",
+    "r-base",
+    "r-class >=7.3_1",
+    "r-lattice >=0.18_3",
+    "r-quantmod >=0.3_8",
+    "r-rocr >=1.0",
+    "r-rpart >=3.1_46",
+    "r-xts >=0.6_7",
+    "r-zoo >=1.6_4"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "r-abind >=1.1_0",
+    "r-base",
+    "r-class >=7.3_1",
+    "r-lattice >=0.18_3",
+    "r-quantmod >=0.3_8",
+    "r-rocr >=1.0",
+    "r-rpart >=3.1_46",
+    "r-xts >=0.6_7",
+    "r-zoo >=1.6_4"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":[
+  "https://cran.r-project.org/src/contrib/DMwR_0.4.1.tar.gz",
+  "https://cran.r-project.org/src/contrib/Archive/DMwR/DMwR_0.4.1.tar.gz",
+  "https://cran.r-project.org/src/contrib/DMwR_0.4.1.tar.gz",
+  "https://cran.r-project.org/src/contrib/Archive/DMwR/DMwR_0.4.1.tar.gz",
+  "https://cran.r-project.org/src/contrib/DMwR_0.4.1.tar.gz",
+  "https://cran.r-project.org/src/contrib/Archive/DMwR/DMwR_0.4.1.tar.gz"
+ ],
+ "version":"0.4.1"
+}

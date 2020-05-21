@@ -1,0 +1,303 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/414195353.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":2,
+    "migrator_version":0,
+    "name":"r400"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/417015194.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.3.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "bot":{
+   "automerge":true
+  }
+ },
+ "feedstock_name":"r-ipaddress",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"https://davidchall.github.io/ipaddress, https://github.com/davidchall/ipaddress",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":[
+    "/lib/R/share/licenses/MIT",
+    "LICENSE",
+    "/lib/R/share/licenses/MIT",
+    "LICENSE",
+    "/lib/R/share/licenses/MIT",
+    "LICENSE"
+   ],
+   "summary":"Classes and functions for working with IP (Internet Protocol) addresses and networks, inspired by the Python 'ipaddress' module.  Offers full support for both IPv4 and IPv6 (Internet Protocol versions 4 and 6) address spaces. It is specifically designed to work well with the 'tidyverse'."
+  },
+  "build":{
+   "merge_build_host":true,
+   "number":"0",
+   "rpaths":[
+    "lib/R/lib/",
+    "lib/",
+    "lib/R/lib/",
+    "lib/",
+    "lib/R/lib/",
+    "lib/"
+   ]
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "conda-forge/r",
+    "halldc",
+    "conda-forge/r",
+    "halldc",
+    "conda-forge/r",
+    "halldc"
+   ]
+  },
+  "package":{
+   "name":"r-ipaddress",
+   "version":"0.3.0"
+  },
+  "requirements":{
+   "build":[
+    "m2w64_c_compiler_stub",
+    "m2w64_cxx_compiler_stub",
+    "filesystem",
+    "make",
+    "sed",
+    "coreutils",
+    "zip",
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "make",
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "make"
+   ],
+   "host":[
+    "r-base",
+    "r-asioheaders",
+    "r-bh",
+    "r-rcpp",
+    "r-blob >=1.2.0",
+    "r-rlang >=0.4.0",
+    "r-vctrs >=0.3.0",
+    "r-base",
+    "r-asioheaders",
+    "r-bh",
+    "r-rcpp",
+    "r-blob >=1.2.0",
+    "r-rlang >=0.4.0",
+    "r-vctrs >=0.3.0",
+    "r-base",
+    "r-asioheaders",
+    "r-bh",
+    "r-rcpp",
+    "r-blob >=1.2.0",
+    "r-rlang >=0.4.0",
+    "r-vctrs >=0.3.0"
+   ],
+   "run":[
+    "r-base",
+    "gcc-libs",
+    "r-asioheaders",
+    "r-bh",
+    "r-rcpp",
+    "r-blob >=1.2.0",
+    "r-rlang >=0.4.0",
+    "r-vctrs >=0.3.0",
+    "r-base",
+    "r-asioheaders",
+    "r-bh",
+    "r-rcpp",
+    "r-blob >=1.2.0",
+    "r-rlang >=0.4.0",
+    "r-vctrs >=0.3.0",
+    "r-base",
+    "r-asioheaders",
+    "r-bh",
+    "r-rcpp",
+    "r-blob >=1.2.0",
+    "r-rlang >=0.4.0",
+    "r-vctrs >=0.3.0"
+   ]
+  },
+  "source":{
+   "sha256":"8dd8cd242a39e2b5e6f3349fa9fe64d5da3287df500e31cbcb5c0535814b3f4f",
+   "url":[
+    "https://cran.r-project.org/src/contrib/ipaddress_0.3.0.tar.gz",
+    "https://cran.r-project.org/src/contrib/Archive/ipaddress/ipaddress_0.3.0.tar.gz",
+    "https://cran.r-project.org/src/contrib/ipaddress_0.3.0.tar.gz",
+    "https://cran.r-project.org/src/contrib/Archive/ipaddress/ipaddress_0.3.0.tar.gz",
+    "https://cran.r-project.org/src/contrib/ipaddress_0.3.0.tar.gz",
+    "https://cran.r-project.org/src/contrib/Archive/ipaddress/ipaddress_0.3.0.tar.gz"
+   ]
+  },
+  "test":{
+   "commands":[
+    "\"%R%\" -e \"library('ipaddress')\"",
+    "$R -e \"library('ipaddress')\"",
+    "$R -e \"library('ipaddress')\""
+   ]
+  }
+ },
+ "name":"r-ipaddress",
+ "new_version":"0.3.0",
+ "new_version_attempts":{
+  "0.3.0":1
+ },
+ "new_version_errors":{},
+ "pinning_version":"2020.05.12.18.03.58",
+ "raw_meta_yaml":"{% set version = \"0.3.0\" %}\n{% set posix = 'm2-' if win else '' %}\n{% set native = 'm2w64-' if win else '' %}\n\npackage:\n  name: r-ipaddress\n  version: {{ version|replace(\"-\", \"_\") }}\n\nsource:\n  url:\n    - {{ cran_mirror }}/src/contrib/ipaddress_{{ version }}.tar.gz\n    - {{ cran_mirror }}/src/contrib/Archive/ipaddress/ipaddress_{{ version }}.tar.gz\n  sha256: 8dd8cd242a39e2b5e6f3349fa9fe64d5da3287df500e31cbcb5c0535814b3f4f\n\nbuild:\n  merge_build_host: true  # [win]\n  number: 0\n  rpaths:\n    - lib/R/lib/\n    - lib/\n\nrequirements:\n  build:\n    - {{ compiler('c') }}              # [not win]\n    - {{ compiler('m2w64_c') }}        # [win]\n    - {{ compiler('cxx') }}            # [not win]\n    - {{ compiler('m2w64_cxx') }}      # [win]\n    - {{ posix }}filesystem        # [win]\n    - {{ posix }}make\n    - {{ posix }}sed               # [win]\n    - {{ posix }}coreutils         # [win]\n    - {{ posix }}zip               # [win]\n  host:\n    - r-base\n    - r-asioheaders\n    - r-bh\n    - r-rcpp\n    - r-blob >=1.2.0\n    - r-rlang >=0.4.0\n    - r-vctrs >=0.3.0\n  run:\n    - r-base\n    - {{ native }}gcc-libs         # [win]\n    - r-asioheaders\n    - r-bh\n    - r-rcpp\n    - r-blob >=1.2.0\n    - r-rlang >=0.4.0\n    - r-vctrs >=0.3.0\n\ntest:\n  commands:\n    - $R -e \"library('ipaddress')\"           # [not win]\n    - \"\\\"%R%\\\" -e \\\"library('ipaddress')\\\"\"  # [win]\n\nabout:\n  home: https://davidchall.github.io/ipaddress, https://github.com/davidchall/ipaddress\n  license: MIT\n  summary: Classes and functions for working with IP (Internet Protocol) addresses and networks, inspired by the Python 'ipaddress' module.  Offers full support for both IPv4 and IPv6 (Internet Protocol versions 4 and 6) address spaces. It is specifically designed to work well with the 'tidyverse'.\n  license_family: MIT\n  license_file:\n    - {{ environ[\"PREFIX\"] }}/lib/R/share/licenses/MIT\n    - LICENSE\n\nextra:\n  recipe-maintainers:\n    - conda-forge/r\n    - halldc\n\n# Package: ipaddress\n# Title: Tidy IP Addresses\n# Version: 0.2.0\n# Authors@R: person(given = \"David\", family = \"Hall\", role = c(\"aut\", \"cre\"), email = \"david.hall.physics@gmail.com\", comment = c(ORCID = \"0000-0002-2193-0480\"))\n# Description: Classes and functions for working with IP (Internet Protocol) addresses and networks, inspired by the Python 'ipaddress' module.  Offers full support for both IPv4 and IPv6 (Internet Protocol versions 4 and 6) address spaces. It is specifically designed to work well with the 'tidyverse'.\n# License: MIT + file LICENSE\n# URL: https://davidchall.github.io/ipaddress, https://github.com/davidchall/ipaddress\n# BugReports: https://github.com/davidchall/ipaddress/issues\n# Depends: R (>= 3.2.0)\n# Imports: blob (>= 1.2.0), methods, Rcpp, rlang (>= 0.4.0), vctrs (>= 0.2.2)\n# Suggests: knitr, rmarkdown, testthat (>= 2.1.0)\n# LinkingTo: AsioHeaders, Rcpp\n# VignetteBuilder: knitr\n# Encoding: UTF-8\n# LazyData: true\n# RoxygenNote: 7.1.0\n# SystemRequirements: C++11\n# NeedsCompilation: yes\n# Packaged: 2020-03-25 17:06:17 UTC; david\n# Author: David Hall [aut, cre] (<https://orcid.org/0000-0002-2193-0480>)\n# Maintainer: David Hall <david.hall.physics@gmail.com>\n# Repository: CRAN\n# Date/Publication: 2020-03-25 17:30:02 UTC\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "c_compiler_stub",
+   "coreutils",
+   "cxx_compiler_stub",
+   "filesystem",
+   "gcc-libs",
+   "m2w64_c_compiler_stub",
+   "m2w64_cxx_compiler_stub",
+   "make",
+   "r-asioheaders",
+   "r-base",
+   "r-bh",
+   "r-blob",
+   "r-rcpp",
+   "r-rlang",
+   "r-vctrs",
+   "sed",
+   "zip"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "coreutils",
+    "cxx_compiler_stub",
+    "filesystem",
+    "m2w64_c_compiler_stub",
+    "m2w64_cxx_compiler_stub",
+    "make",
+    "sed",
+    "zip"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "r-asioheaders",
+    "r-base",
+    "r-bh",
+    "r-blob",
+    "r-rcpp",
+    "r-rlang",
+    "r-vctrs"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "gcc-libs",
+    "r-asioheaders",
+    "r-base",
+    "r-bh",
+    "r-blob",
+    "r-rcpp",
+    "r-rlang",
+    "r-vctrs"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.7.1\n",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "coreutils",
+    "cxx_compiler_stub",
+    "filesystem",
+    "m2w64_c_compiler_stub",
+    "m2w64_cxx_compiler_stub",
+    "make",
+    "sed",
+    "zip"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "r-asioheaders",
+    "r-base",
+    "r-bh",
+    "r-blob >=1.2.0",
+    "r-rcpp",
+    "r-rlang >=0.4.0",
+    "r-vctrs >=0.3.0"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "gcc-libs",
+    "r-asioheaders",
+    "r-base",
+    "r-bh",
+    "r-blob >=1.2.0",
+    "r-rcpp",
+    "r-rlang >=0.4.0",
+    "r-vctrs >=0.3.0"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":[
+  "https://cran.r-project.org/src/contrib/ipaddress_0.2.0.tar.gz",
+  "https://cran.r-project.org/src/contrib/Archive/ipaddress/ipaddress_0.2.0.tar.gz",
+  "https://cran.r-project.org/src/contrib/ipaddress_0.2.0.tar.gz",
+  "https://cran.r-project.org/src/contrib/Archive/ipaddress/ipaddress_0.2.0.tar.gz",
+  "https://cran.r-project.org/src/contrib/ipaddress_0.2.0.tar.gz",
+  "https://cran.r-project.org/src/contrib/Archive/ipaddress/ipaddress_0.2.0.tar.gz"
+ ],
+ "version":"0.3.0"
+}

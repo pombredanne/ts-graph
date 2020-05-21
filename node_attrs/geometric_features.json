@@ -1,0 +1,375 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/277852578.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.1.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/305715574.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.1.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/305738376.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.1.3"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/333203085.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.1.4"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/374009068.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.1.5"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "head":{
+     "ref":"<this_is_not_a_branch>"
+    },
+    "state":"closed"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3SMv3grids"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/375720882.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MatplotlibBase",
+    "migrator_version":0,
+    "name":"matplotlib-to-matplotlib-base"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/406991589.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.1.7"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"geometric_features",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"Tools for manipulating regions, transects, and points in geojson format\nfor use in initializing climate models and analyzing their output.\n",
+   "dev_url":"https://github.com/MPAS-Dev/geometric_features",
+   "doc_url":"https://github.com/MPAS-Dev/geometric_features/README.md",
+   "home":"https://github.com/MPAS-Dev/geometric_features",
+   "license":"BSD-3-Clause",
+   "license_family":"BSD",
+   "license_file":"LICENSE",
+   "summary":"Tools for manipulating collections of geojson geometric features"
+  },
+  "build":{
+   "entry_points":[
+    "combine_features = geometric_features.__main__:combine_features",
+    "difference_features = geometric_features.__main__:difference_features",
+    "fix_features_at_antimeridian = geometric_features.__main__:fix_features_at_antimeridian",
+    "merge_features = geometric_features.__main__:merge_features",
+    "plot_features = geometric_features.__main__:plot_features",
+    "set_group_name = geometric_features.__main__:set_group_name",
+    "simplify_features = geometric_features.__main__:simplify_features",
+    "split_features = geometric_features.__main__:split_features",
+    "tag_features = geometric_features.__main__:tag_features",
+    "combine_features = geometric_features.__main__:combine_features",
+    "difference_features = geometric_features.__main__:difference_features",
+    "fix_features_at_antimeridian = geometric_features.__main__:fix_features_at_antimeridian",
+    "merge_features = geometric_features.__main__:merge_features",
+    "plot_features = geometric_features.__main__:plot_features",
+    "set_group_name = geometric_features.__main__:set_group_name",
+    "simplify_features = geometric_features.__main__:simplify_features",
+    "split_features = geometric_features.__main__:split_features",
+    "tag_features = geometric_features.__main__:tag_features",
+    "combine_features = geometric_features.__main__:combine_features",
+    "difference_features = geometric_features.__main__:difference_features",
+    "fix_features_at_antimeridian = geometric_features.__main__:fix_features_at_antimeridian",
+    "merge_features = geometric_features.__main__:merge_features",
+    "plot_features = geometric_features.__main__:plot_features",
+    "set_group_name = geometric_features.__main__:set_group_name",
+    "simplify_features = geometric_features.__main__:simplify_features",
+    "split_features = geometric_features.__main__:split_features",
+    "tag_features = geometric_features.__main__:tag_features"
+   ],
+   "noarch":"python",
+   "number":"100",
+   "string":"no_data_py_h_100"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "xylar",
+    "xylar",
+    "xylar"
+   ]
+  },
+  "package":{
+   "name":"geometric_features",
+   "version":"0.1.7"
+  },
+  "requirements":{
+   "host":[
+    "python",
+    "pip",
+    "python",
+    "pip",
+    "python",
+    "pip"
+   ],
+   "run":[
+    "python",
+    "numpy",
+    "matplotlib-base",
+    "cartopy",
+    "shapely",
+    "requests",
+    "progressbar2",
+    "python",
+    "numpy",
+    "matplotlib-base",
+    "cartopy",
+    "shapely",
+    "requests",
+    "progressbar2",
+    "python",
+    "numpy",
+    "matplotlib-base",
+    "cartopy",
+    "shapely",
+    "requests",
+    "progressbar2"
+   ]
+  },
+  "source":{
+   "sha256":"d2b7486a10d43f5152f990b8229cd268caccb4b441ae9a05abc5d052feb4de72",
+   "url":"https://github.com/MPAS-Dev/geometric_features/archive/0.1.7.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "pytest --pyargs geometric_features",
+    "combine_features -v",
+    "difference_features -v",
+    "fix_features_at_antimeridian -v",
+    "merge_features -v",
+    "plot_features -v",
+    "set_group_name -v",
+    "simplify_features -v",
+    "split_features -v",
+    "tag_features -v",
+    "pytest --pyargs geometric_features",
+    "combine_features -v",
+    "difference_features -v",
+    "fix_features_at_antimeridian -v",
+    "merge_features -v",
+    "plot_features -v",
+    "set_group_name -v",
+    "simplify_features -v",
+    "split_features -v",
+    "tag_features -v",
+    "pytest --pyargs geometric_features",
+    "combine_features -v",
+    "difference_features -v",
+    "fix_features_at_antimeridian -v",
+    "merge_features -v",
+    "plot_features -v",
+    "set_group_name -v",
+    "simplify_features -v",
+    "split_features -v",
+    "tag_features -v"
+   ],
+   "imports":[
+    "geometric_features",
+    "pytest",
+    "geometric_features",
+    "pytest",
+    "geometric_features",
+    "pytest"
+   ],
+   "requires":[
+    "pytest",
+    "pytest",
+    "pytest"
+   ]
+  }
+ },
+ "name":"geometric_features",
+ "new_version":"3SMv3grids",
+ "new_version_attempts":{
+  "0.1.7":1
+ },
+ "new_version_errors":{},
+ "pinning_version":"2020.04.21.12.59.15",
+ "raw_meta_yaml":"{% set name = \"geometric_features\" %}\n{% set version = \"0.1.7\" %}\n{% set build = 0 %}\n\n{% if with_data != \"True\" %}\n# prioritize no data via build number\n{% set build = build + 100 %}\n{% endif %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://github.com/MPAS-Dev/{{ name }}/archive/{{ version }}.tar.gz\n  sha256: d2b7486a10d43f5152f990b8229cd268caccb4b441ae9a05abc5d052feb4de72\n\nbuild:\n  number: {{ build }}\n  noarch: python\n\n  {% if with_data == \"True\" %}\n  {% set data_prefix = \"with_data\" %}\n  {% else %}\n  {% set data_prefix = \"no_data\" %}\n  {% endif %}\n  # add build string so packages can depend on\n  # with_data or no_data variants\n  # dependencies:\n  # `PKG_NAME * no_data*` for no geometric data included\n  # `PKG_NAME * with_data*` for all geometric data included\n  string: {{ data_prefix }}_py_h{{ PKG_HASH }}_{{ build }}\n\n  entry_points:\n    - combine_features = geometric_features.__main__:combine_features\n    - difference_features = geometric_features.__main__:difference_features\n    - fix_features_at_antimeridian = geometric_features.__main__:fix_features_at_antimeridian\n    - merge_features = geometric_features.__main__:merge_features\n    - plot_features = geometric_features.__main__:plot_features\n    - set_group_name = geometric_features.__main__:set_group_name\n    - simplify_features = geometric_features.__main__:simplify_features\n    - split_features = geometric_features.__main__:split_features\n    - tag_features = geometric_features.__main__:tag_features\n\nrequirements:\n  host:\n    - python\n    - pip\n  run:\n    - python\n    - numpy\n    - matplotlib-base\n    - cartopy\n    - shapely\n    - requests\n    - progressbar2\n\ntest:\n  requires:\n    - pytest\n  imports:\n    - geometric_features\n    - pytest\n  commands:\n    - pytest --pyargs geometric_features\n    - combine_features -v\n    - difference_features -v\n    - fix_features_at_antimeridian -v\n    - merge_features -v\n    - plot_features -v\n    - set_group_name -v\n    - simplify_features -v\n    - split_features -v\n    - tag_features -v\n\nabout:\n  home: https://github.com/MPAS-Dev/geometric_features\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: LICENSE\n  summary: Tools for manipulating collections of geojson geometric features\n  description: |\n    Tools for manipulating regions, transects, and points in geojson format\n    for use in initializing climate models and analyzing their output.\n  doc_url: https://github.com/MPAS-Dev/geometric_features/README.md\n  dev_url: https://github.com/MPAS-Dev/geometric_features\n\nextra:\n  recipe-maintainers:\n    - xylar\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "cartopy",
+   "matplotlib-base",
+   "numpy",
+   "pip",
+   "progressbar2",
+   "python",
+   "requests",
+   "shapely"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "cartopy",
+    "matplotlib-base",
+    "numpy",
+    "progressbar2",
+    "python",
+    "requests",
+    "shapely"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "pytest"
+   ]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.6.16",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "cartopy",
+    "matplotlib-base",
+    "numpy",
+    "progressbar2",
+    "python",
+    "requests",
+    "shapely"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "pytest"
+   ]
+  }
+ },
+ "url":"https://github.com/MPAS-Dev/geometric_features/archive/0.1.3.tar.gz",
+ "version":"0.1.7"
+}

@@ -1,0 +1,190 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/312959513.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.0.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/356684001.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.0.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/400030827.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.0.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"rb-tzinfo",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "dev_url":"https://github.com/tzinfo/tzinfo",
+   "doc_url":"https://www.rubydoc.info/gems/tzinfo",
+   "home":"https://rubygems.org/gems/tzinfo",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"tzinfo-2.0.0/LICENSE",
+   "summary":"TZInfo provides access to time zone data and allows times to be converted using time zone rules."
+  },
+  "build":{
+   "noarch":"generic",
+   "number":"0",
+   "script":[
+    "gem install -N -l -V --norc --ignore-dependencies tzinfo-2.0.0.gem",
+    "gem unpack tzinfo-2.0.0.gem",
+    "gem install -N -l -V --norc --ignore-dependencies tzinfo-2.0.0.gem",
+    "gem unpack tzinfo-2.0.0.gem",
+    "gem install -N -l -V --norc --ignore-dependencies tzinfo-2.0.0.gem",
+    "gem unpack tzinfo-2.0.0.gem"
+   ],
+   "skip":null
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "sodre",
+    "sodre",
+    "sodre"
+   ]
+  },
+  "package":{
+   "name":"rb-tzinfo",
+   "version":"2.0.0"
+  },
+  "requirements":{
+   "host":[
+    "ruby",
+    "ruby",
+    "ruby"
+   ],
+   "run":[
+    "ruby",
+    "rb-thread_safe >=0.1,<1",
+    "rb-concurrent-ruby",
+    "ruby",
+    "rb-thread_safe >=0.1,<1",
+    "rb-concurrent-ruby",
+    "ruby",
+    "rb-thread_safe >=0.1,<1",
+    "rb-concurrent-ruby"
+   ]
+  },
+  "source":{
+   "sha256":"6b2ebc114edce74eb6b56cb1c02017d49b67acb529f0c209c2e62b204271e94a",
+   "url":"https://rubygems.org/downloads/tzinfo-2.0.0.gem"
+  },
+  "test":{
+   "commands":[
+    "ruby -r tzinfo -e 'exit 0'",
+    "ruby -r tzinfo -e 'exit 0'",
+    "ruby -r tzinfo -e 'exit 0'"
+   ]
+  }
+ },
+ "name":"rb-tzinfo",
+ "new_version":"2.0.2",
+ "new_version_attempts":{
+  "2.0.2":1
+ },
+ "pinning_version":"2020.04.07",
+ "raw_meta_yaml":"{% set name = \"tzinfo\" %}\n{% set version = \"2.0.0\" %}\n\npackage:\n  name: rb-{{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://rubygems.org/downloads/{{ name }}-{{ version }}.gem\n  sha256: 6b2ebc114edce74eb6b56cb1c02017d49b67acb529f0c209c2e62b204271e94a\n\nbuild:\n  noarch: generic\n  number: 0\n  script:\n    - gem install -N -l -V --norc --ignore-dependencies {{ name }}-{{ version }}.gem\n    - gem unpack {{ name }}-{{ version }}.gem\n  skip: {{ win }}\n\nrequirements:\n  host:\n    - ruby\n  run:\n    - ruby\n    - rb-thread_safe >=0.1,<1\n    - rb-concurrent-ruby\n\ntest:\n  commands:\n    - ruby -r {{ name }} -e 'exit 0'\n\nabout:\n  home: https://rubygems.org/gems/{{ name }}\n  license: MIT\n  license_family: MIT\n  license_file: {{ name }}-{{ version }}/LICENSE\n  summary: TZInfo provides access to time zone data and allows times to be converted using time zone rules.\n\n  doc_url: https://www.rubydoc.info/gems/{{ name }}\n  dev_url: https://github.com/tzinfo/{{ name }}\n\nextra:\n  recipe-maintainers:\n    - sodre\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "rb-concurrent-ruby",
+   "rb-thread_safe",
+   "ruby"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "ruby"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "rb-concurrent-ruby",
+    "rb-thread_safe",
+    "ruby"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.6.15",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "ruby"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "rb-concurrent-ruby",
+    "rb-thread_safe >=0.1,<1",
+    "ruby"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://rubygems.org/downloads/tzinfo-2.0.0.gem",
+ "version":"2.0.0"
+}

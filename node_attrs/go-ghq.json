@@ -1,0 +1,104 @@
+{
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"go-ghq",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "dev_url":"https://github.com/x-motemen/ghq",
+   "home":"https://github.com/x-motemen/ghq",
+   "license":"MIT",
+   "license_file":"LICENSE",
+   "summary":"ghq provides a way to organize remote repository clones, like go get does."
+  },
+  "build":{
+   "number":"0",
+   "script":[
+    "go install -ldflags \"-X main.revision=1.1.0\" .",
+    "go install -ldflags \"-X main.revision=1.1.0\" .",
+    "go install -ldflags \"-X main.revision=1.1.0\" ."
+   ]
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "sodre",
+    "sodre",
+    "sodre"
+   ]
+  },
+  "package":{
+   "name":"go-ghq",
+   "version":"1.1.0"
+  },
+  "requirements":{
+   "build":[
+    "go_compiler_stub",
+    "go_compiler_stub",
+    "go_compiler_stub"
+   ]
+  },
+  "source":{
+   "sha256":"fbd40f1ba18ace399ea8625fb01da2d008a5c2b500b17979196577aaa827511b",
+   "url":"https://github.com/x-motemen/ghq/archive/v1.1.0.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "ghq --help",
+    "ghq --help",
+    "ghq --help"
+   ]
+  }
+ },
+ "name":"go-ghq",
+ "new_version":"1.1.0",
+ "raw_meta_yaml":"{% set name = \"ghq\" %}\n{% set version = \"1.1.0\" %}\n\npackage:\n  name: go-{{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://github.com/x-motemen/{{ name }}/archive/v{{ version }}.tar.gz\n  sha256: fbd40f1ba18ace399ea8625fb01da2d008a5c2b500b17979196577aaa827511b\n\nbuild:\n  number: 0\n  script: \n    - go install -ldflags \"-X main.revision={{ version }}\" .\n\nrequirements:\n  build:\n    - {{ compiler('go') }}\n\ntest:\n  commands:\n    - ghq --help\n\nabout:\n  home: https://github.com/x-motemen/ghq\n  license: MIT\n  license_file: LICENSE\n  summary: ghq provides a way to organize remote repository clones, like go get does.\n\n  dev_url: https://github.com/x-motemen/ghq\n\nextra:\n  recipe-maintainers:\n    - sodre\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "go_compiler_stub"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "go_compiler_stub"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "go_compiler_stub"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://github.com/x-motemen/ghq/archive/v1.1.0.tar.gz",
+ "version":"1.1.0"
+}

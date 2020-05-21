@@ -1,0 +1,174 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/411549198.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2020.4.30"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"pop-tools",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"Tools to support analysis of the [Parallel Ocean Program v2(POP2)](http://www.cesm.ucar.edu/models/cesm1.0/pop2/doc/sci/POPRefManual.pdf)\n-- the ocean component of CESM -- model solutions with xarray.\n",
+   "dev_url":"https://github.com/NCAR/pop-tools",
+   "doc_url":"https://pop-tools.readthedocs.io",
+   "home":"https://github.com/NCAR/pop-tools",
+   "license":"Apache-2.0",
+   "license_family":"Apache",
+   "license_file":"LICENSE",
+   "summary":"Tools to support analysis of POP2-CESM model solutions with xarray"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":"-m pip install . --no-deps -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "andersy005",
+    "andersy005",
+    "andersy005"
+   ]
+  },
+  "package":{
+   "name":"pop-tools",
+   "version":"2020.4.30"
+  },
+  "requirements":{
+   "host":[
+    "python >=3.6",
+    "pip",
+    "setuptools_scm",
+    "python >=3.6",
+    "pip",
+    "setuptools_scm",
+    "python >=3.6",
+    "pip",
+    "setuptools_scm"
+   ],
+   "run":[
+    "python >=3.6",
+    "dask >=2.10",
+    "numba >=0.48",
+    "xarray >=0.15.0",
+    "pooch >=0.7.0",
+    "python >=3.6",
+    "dask >=2.10",
+    "numba >=0.48",
+    "xarray >=0.15.0",
+    "pooch >=0.7.0",
+    "python >=3.6",
+    "dask >=2.10",
+    "numba >=0.48",
+    "xarray >=0.15.0",
+    "pooch >=0.7.0"
+   ]
+  },
+  "source":{
+   "sha256":"521ca97a506725509298cdabb54219473c69317d883949a239fdb7f26c7bb298",
+   "url":"https://pypi.io/packages/source/p/pop-tools/pop-tools-2020.4.30.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "pop_tools",
+    "pop_tools",
+    "pop_tools"
+   ]
+  }
+ },
+ "name":"pop-tools",
+ "new_version":"2020.4.30",
+ "new_version_attempts":{
+  "2020.4.30":1
+ },
+ "new_version_errors":{},
+ "pinning_version":"2020.04.30.13.04.49",
+ "raw_meta_yaml":"{% set name = \"pop-tools\" %}\n{% set version = \"2020.4.30\" %}\n\npackage:\n  name: {{ name }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: 521ca97a506725509298cdabb54219473c69317d883949a239fdb7f26c7bb298\n\nbuild:\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n  number: 0\n  noarch: python\n\nrequirements:\n  host:\n    - python >=3.6\n    - pip\n    - setuptools_scm\n\n  run:\n    - python >=3.6\n    - dask >=2.10\n    - numba >=0.48\n    - xarray >=0.15.0\n    - pooch >=0.7.0\n\ntest:\n  imports:\n    - pop_tools\n\nabout:\n  home: https://github.com/NCAR/pop-tools\n  license: Apache-2.0\n  license_family: Apache\n  license_file: LICENSE\n  summary: Tools to support analysis of POP2-CESM model solutions with xarray\n  dev_url: https://github.com/NCAR/pop-tools\n  description: |\n    Tools to support analysis of the [Parallel Ocean Program v2(POP2)](http://www.cesm.ucar.edu/models/cesm1.0/pop2/doc/sci/POPRefManual.pdf) \n    -- the ocean component of CESM -- model solutions with xarray.\n  doc_url: https://pop-tools.readthedocs.io\n\nextra:\n  recipe-maintainers:\n    - andersy005\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "dask",
+   "numba",
+   "pip",
+   "pooch",
+   "python",
+   "setuptools_scm",
+   "xarray"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python",
+    "setuptools_scm"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "dask",
+    "numba",
+    "pooch",
+    "python",
+    "xarray"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.7.0",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3.6",
+    "setuptools_scm"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "dask >=2.10",
+    "numba >=0.48",
+    "pooch >=0.7.0",
+    "python >=3.6",
+    "xarray >=0.15.0"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/p/pop-tools/pop-tools-2020.2.17.tar.gz",
+ "version":"2020.4.30"
+}

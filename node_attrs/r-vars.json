@@ -1,0 +1,288 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/206334787.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.5_3"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/232446294.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/299521994.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"RBaseRebuild",
+    "migrator_version":0,
+    "name":"r-base-3.6.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/413262092.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":2,
+    "migrator_version":0,
+    "name":"r400"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "bot":{
+   "automerge":true
+  },
+  "provider":{
+   "win":"azure"
+  }
+ },
+ "feedstock_name":"r-vars",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"http://www.pfaffikus.de",
+   "license":"GPL (>= 2)",
+   "license_family":"GPL3",
+   "license_file":"/lib/R/share/licenses/GPL-3",
+   "summary":"Estimation, lag selection, diagnostic testing, forecasting, causality analysis, forecast error variance decomposition and impulse response functions of VAR models and estimation of SVAR and SVEC models."
+  },
+  "build":{
+   "merge_build_host":true,
+   "noarch":"generic",
+   "number":"1003",
+   "rpaths":[
+    "lib/R/lib/",
+    "lib/",
+    "lib/R/lib/",
+    "lib/",
+    "lib/R/lib/",
+    "lib/"
+   ]
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "conda-forge/r",
+    "johanneskoester",
+    "bgruening",
+    "daler",
+    "jdblischak",
+    "cbrueffer",
+    "dbast",
+    "conda-forge/r",
+    "johanneskoester",
+    "bgruening",
+    "daler",
+    "jdblischak",
+    "cbrueffer",
+    "dbast",
+    "conda-forge/r",
+    "johanneskoester",
+    "bgruening",
+    "daler",
+    "jdblischak",
+    "cbrueffer",
+    "dbast"
+   ]
+  },
+  "package":{
+   "name":"r-vars",
+   "version":"1.5_3"
+  },
+  "requirements":{
+   "build":null,
+   "host":[
+    "r-base",
+    "r-mass",
+    "r-lmtest >=0.9_26",
+    "r-sandwich >=2.2_4",
+    "r-strucchange",
+    "r-urca >=1.1_6",
+    "r-base",
+    "r-mass",
+    "r-lmtest >=0.9_26",
+    "r-sandwich >=2.2_4",
+    "r-strucchange",
+    "r-urca >=1.1_6",
+    "r-base",
+    "r-mass",
+    "r-lmtest >=0.9_26",
+    "r-sandwich >=2.2_4",
+    "r-strucchange",
+    "r-urca >=1.1_6"
+   ],
+   "run":[
+    "r-base",
+    "r-mass",
+    "r-lmtest >=0.9_26",
+    "r-sandwich >=2.2_4",
+    "r-strucchange",
+    "r-urca >=1.1_6",
+    "r-base",
+    "r-mass",
+    "r-lmtest >=0.9_26",
+    "r-sandwich >=2.2_4",
+    "r-strucchange",
+    "r-urca >=1.1_6",
+    "r-base",
+    "r-mass",
+    "r-lmtest >=0.9_26",
+    "r-sandwich >=2.2_4",
+    "r-strucchange",
+    "r-urca >=1.1_6"
+   ]
+  },
+  "source":{
+   "fn":"vars_1.5-3.tar.gz",
+   "sha256":"86afa75dff18f6b0d4c044d6fafde6f817e3e4732a0c8b10b029507a04da867d",
+   "url":[
+    "https://cran.r-project.org/src/contrib/vars_1.5-3.tar.gz",
+    "https://cran.r-project.org/src/contrib/Archive/vars/vars_1.5-3.tar.gz",
+    "https://cran.r-project.org/src/contrib/vars_1.5-3.tar.gz",
+    "https://cran.r-project.org/src/contrib/Archive/vars/vars_1.5-3.tar.gz",
+    "https://cran.r-project.org/src/contrib/vars_1.5-3.tar.gz",
+    "https://cran.r-project.org/src/contrib/Archive/vars/vars_1.5-3.tar.gz"
+   ]
+  },
+  "test":{
+   "commands":[
+    "\"%R%\" -e \"library('vars')\"",
+    "$R -e \"library('vars')\"",
+    "$R -e \"library('vars')\""
+   ]
+  }
+ },
+ "name":"r-vars",
+ "new_version":"1.5_3",
+ "pinning_version":"2020.05.04.19.59.17",
+ "raw_meta_yaml":"{% set version = '1.5-3' %}\n{% set posix = 'm2-' if win else '' %}\n{% set native = 'm2w64-' if win else '' %}\n\npackage:\n  name: r-vars\n  version: {{ version|replace(\"-\", \"_\") }}\n\nsource:\n  fn: vars_{{ version }}.tar.gz\n  url:\n    - {{ cran_mirror }}/src/contrib/vars_{{ version }}.tar.gz\n    - {{ cran_mirror }}/src/contrib/Archive/vars/vars_{{ version }}.tar.gz\n  sha256: 86afa75dff18f6b0d4c044d6fafde6f817e3e4732a0c8b10b029507a04da867d\n\nbuild:\n  noarch: generic\n  merge_build_host: True  # [win]\n  number: 1003\n  rpaths:\n    - lib/R/lib/\n    - lib/\n\nrequirements:\n  build:\n    - {{ posix }}zip               # [win]\n  host:\n    - r-base\n    - r-mass\n    - r-lmtest >=0.9_26\n    - r-sandwich >=2.2_4\n    - r-strucchange\n    - r-urca >=1.1_6\n  run:\n    - r-base\n    - r-mass\n    - r-lmtest >=0.9_26\n    - r-sandwich >=2.2_4\n    - r-strucchange\n    - r-urca >=1.1_6\n\ntest:\n  commands:\n    - $R -e \"library('vars')\"           # [not win]\n    - \"\\\"%R%\\\" -e \\\"library('vars')\\\"\"  # [win]\n\nabout:\n  home: http://www.pfaffikus.de\n  license: GPL (>= 2)\n  summary: Estimation, lag selection, diagnostic testing, forecasting, causality analysis, forecast\n    error variance decomposition and impulse response functions of VAR models and estimation\n    of SVAR and SVEC models.\n  license_family: GPL3\n  license_file: '{{ environ[\"PREFIX\"] }}/lib/R/share/licenses/GPL-3'\n\nextra:\n  recipe-maintainers:\n    - conda-forge/r\n    - johanneskoester\n    - bgruening\n    - daler\n    - jdblischak\n    - cbrueffer\n    - dbast\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "r-base",
+   "r-lmtest",
+   "r-mass",
+   "r-sandwich",
+   "r-strucchange",
+   "r-urca"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "r-base",
+    "r-lmtest",
+    "r-mass",
+    "r-sandwich",
+    "r-strucchange",
+    "r-urca"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "r-base",
+    "r-lmtest",
+    "r-mass",
+    "r-sandwich",
+    "r-strucchange",
+    "r-urca"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.7.0\n",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "r-base",
+    "r-lmtest >=0.9_26",
+    "r-mass",
+    "r-sandwich >=2.2_4",
+    "r-strucchange",
+    "r-urca >=1.1_6"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "r-base",
+    "r-lmtest >=0.9_26",
+    "r-mass",
+    "r-sandwich >=2.2_4",
+    "r-strucchange",
+    "r-urca >=1.1_6"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":[
+  "https://cran.r-project.org/src/contrib/vars_1.5-3.tar.gz",
+  "https://cran.r-project.org/src/contrib/Archive/vars/vars_1.5-3.tar.gz",
+  "https://cran.r-project.org/src/contrib/vars_1.5-3.tar.gz",
+  "https://cran.r-project.org/src/contrib/Archive/vars/vars_1.5-3.tar.gz",
+  "https://cran.r-project.org/src/contrib/vars_1.5-3.tar.gz",
+  "https://cran.r-project.org/src/contrib/Archive/vars/vars_1.5-3.tar.gz"
+ ],
+ "version":"1.5_3"
+}

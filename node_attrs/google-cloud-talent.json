@@ -1,0 +1,156 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/417071542.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.6.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"google-cloud-talent",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"Cloud Talent Solution API provides the capability to create, read, update, and delete job postings, as well as search jobs based on keywords and filters.\nSee the [quick start guide](https://googleapis.dev/python/talent/latest/index.html#quick-start).",
+   "dev_url":"https://github.com/googleapis/python-talent",
+   "doc_url":"https://googleapis.dev/python/talent/latest/index.html",
+   "home":"https://github.com/googleapis/python-talent",
+   "license":"Apache-2.0",
+   "license_family":"Apache",
+   "license_file":"LICENSE",
+   "summary":"Google Cloud Talent Solution API client library"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":"-m pip install . --no-deps -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "parthea",
+    "parthea",
+    "parthea"
+   ]
+  },
+  "package":{
+   "name":"google-cloud-talent",
+   "version":"0.6.0"
+  },
+  "requirements":{
+   "host":[
+    "python",
+    "pip >=18.1",
+    "python",
+    "pip >=18.1",
+    "python",
+    "pip >=18.1"
+   ],
+   "run":[
+    "python",
+    "google-api-core-grpc >=1.14.0,<2.0.0dev",
+    "python",
+    "google-api-core-grpc >=1.14.0,<2.0.0dev",
+    "python",
+    "google-api-core-grpc >=1.14.0,<2.0.0dev"
+   ]
+  },
+  "source":{
+   "sha256":"b80ece0c75c0a4059fc2eec90f79e97111b93461ef7bc4ac8945c30490f4e02a",
+   "url":"https://pypi.io/packages/source/g/google-cloud-talent/google-cloud-talent-0.6.0.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "grpc",
+    "google.cloud.talent",
+    "google.cloud.talent_v4beta1",
+    "grpc",
+    "google.cloud.talent",
+    "google.cloud.talent_v4beta1",
+    "grpc",
+    "google.cloud.talent",
+    "google.cloud.talent_v4beta1"
+   ]
+  }
+ },
+ "name":"google-cloud-talent",
+ "new_version":"0.6.1",
+ "new_version_attempts":{
+  "0.6.1":1
+ },
+ "new_version_errors":{},
+ "pinning_version":"2020.05.12.18.03.58",
+ "raw_meta_yaml":"{% set name = \"google-cloud-talent\" %}\n{% set version = \"0.6.0\" %}\n{% set sha256 = \"b80ece0c75c0a4059fc2eec90f79e97111b93461ef7bc4ac8945c30490f4e02a\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  noarch: python\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  host:\n    - python\n    - pip >=18.1\n  run:\n    - python\n    - google-api-core-grpc >=1.14.0,<2.0.0dev\n\ntest:\n  imports:\n    - grpc\n    - google.cloud.talent\n    - google.cloud.talent_v4beta1\n\nabout:\n  home: https://github.com/googleapis/python-talent\n  license: Apache-2.0\n  license_family: Apache\n  license_file: LICENSE\n  summary: 'Google Cloud Talent Solution API client library'\n  description: Cloud Talent Solution API provides the capability to create, read, update, and delete \n    job postings, as well as search jobs based on keywords and filters.\n\n    See the [quick start guide](https://googleapis.dev/python/talent/latest/index.html#quick-start).\n\n  doc_url: https://googleapis.dev/python/talent/latest/index.html\n  dev_url: https://github.com/googleapis/python-talent\n\nextra:\n  recipe-maintainers:\n    - parthea\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "google-api-core-grpc",
+   "pip",
+   "python"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "google-api-core-grpc",
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.7.1\n",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip >=18.1",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "google-api-core-grpc >=1.14.0,<2.0.0dev",
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/g/google-cloud-talent/google-cloud-talent-0.6.0.tar.gz",
+ "version":"0.6.0"
+}

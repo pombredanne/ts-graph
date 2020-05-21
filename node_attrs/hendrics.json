@@ -1,0 +1,251 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/199948045.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Noarch",
+    "migrator_version":0
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/233415551.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/343514888.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"python38"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/374436909.json"
+   },
+   "data":{
+    "bot_rerun":1581545267.2517228,
+    "migrator_name":"MatplotlibBase",
+    "migrator_version":0
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/375318568.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MatplotlibBase",
+    "migrator_version":0,
+    "name":"matplotlib-to-matplotlib-base"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "compiler_stack":"comp7",
+  "max_py_ver":"37",
+  "max_r_ver":"35"
+ },
+ "feedstock_name":"hendrics",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"This Astropy-affiliated software package is designed\nto do correctly and fairly easily a **quick-look (spectral-) timing\nanalysis** of X-ray data, including most of the functionality implemented\nin stingray (github.com/stingraysoftware/stingray), but from the command line,\nstarting from mission-specific event files (NuSTAR, RXTE, XMM, and more).\n",
+   "dev_url":"https://github.com/StingraySoftware/hendrics",
+   "doc_url":"http://hendrics.readthedocs.io/",
+   "home":"http://github.com/StingraySoftware/hendrics",
+   "license":"3-clause BSD",
+   "license_family":"BSD",
+   "license_file":"LICENSE.rst",
+   "summary":"High-ENergy Data Reduction Interface from the Command Shell"
+  },
+  "build":{
+   "number":"1001",
+   "script":"python setup.py install --offline --single-version-externally-managed --record record.txt"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "matteobachetti",
+    "dhuppenkothen",
+    "evandromr",
+    "matteobachetti",
+    "dhuppenkothen",
+    "evandromr",
+    "matteobachetti",
+    "dhuppenkothen",
+    "evandromr"
+   ]
+  },
+  "package":{
+   "name":"hendrics",
+   "version":"4.0rc1.post2"
+  },
+  "requirements":{
+   "build":[
+    "python",
+    "setuptools",
+    "numpy >=1.11.0",
+    "python",
+    "setuptools",
+    "numpy >=1.11.0",
+    "python",
+    "setuptools",
+    "numpy >=1.11.0"
+   ],
+   "run":[
+    "python",
+    "astropy",
+    "scipy >=0.18.0",
+    "numpy >=1.11.0",
+    "matplotlib-base >=1.3",
+    "stingray >=0.1rc1",
+    "python",
+    "astropy",
+    "scipy >=0.18.0",
+    "numpy >=1.11.0",
+    "matplotlib-base >=1.3",
+    "stingray >=0.1rc1",
+    "python",
+    "astropy",
+    "scipy >=0.18.0",
+    "numpy >=1.11.0",
+    "matplotlib-base >=1.3",
+    "stingray >=0.1rc1"
+   ]
+  },
+  "source":{
+   "fn":"hendrics-4.0rc1.post2.tar.gz",
+   "sha256":"16956660f9705dc10e881b60073079ae7f4db835d811f2732623816a832c09b3",
+   "url":"https://pypi.io/packages/source/h/hendrics/hendrics-4.0rc1.post2.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "hendrics",
+    "hendrics",
+    "hendrics"
+   ]
+  }
+ },
+ "name":"hendrics",
+ "new_version":false,
+ "pinning_version":"2020.02.12",
+ "raw_meta_yaml":"{% set name = \"hendrics\" %}\n{% set version = \"4.0rc1.post2\" %}\n{% set sha256 = \"16956660f9705dc10e881b60073079ae7f4db835d811f2732623816a832c09b3\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  fn: {{ name }}-{{ version }}.tar.gz\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 1001\n  script: python setup.py install --offline --single-version-externally-managed --record record.txt\n\nrequirements:\n  build:\n    - python\n    - setuptools\n    - numpy >=1.11.0\n  run:\n    - python\n    - astropy\n    - scipy >=0.18.0\n    - numpy >=1.11.0\n    - matplotlib-base >=1.3\n    - stingray >=0.1rc1\n\ntest:\n  imports:\n    - hendrics\n\nabout:\n  home: http://github.com/StingraySoftware/hendrics\n  license: 3-clause BSD\n  license_family: BSD\n  license_file: LICENSE.rst\n  summary: 'High-ENergy Data Reduction Interface from the Command Shell'\n  description: |\n    This Astropy-affiliated software package is designed\n    to do correctly and fairly easily a **quick-look (spectral-) timing\n    analysis** of X-ray data, including most of the functionality implemented\n    in stingray (github.com/stingraysoftware/stingray), but from the command line,\n    starting from mission-specific event files (NuSTAR, RXTE, XMM, and more).\n  doc_url: http://hendrics.readthedocs.io/\n  dev_url: https://github.com/StingraySoftware/hendrics\n\nextra:\n  recipe-maintainers:\n    - matteobachetti\n    - dhuppenkothen\n    - evandromr\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "astropy",
+   "matplotlib-base",
+   "numpy",
+   "python",
+   "scipy",
+   "setuptools",
+   "stingray"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "numpy",
+    "python",
+    "setuptools"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "astropy",
+    "matplotlib-base",
+    "numpy",
+    "python",
+    "scipy",
+    "stingray"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.6.8",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "numpy >=1.11.0",
+    "python",
+    "setuptools"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "astropy",
+    "matplotlib-base >=1.3",
+    "numpy >=1.11.0",
+    "python",
+    "scipy >=0.18.0",
+    "stingray >=0.1rc1"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/h/hendrics/hendrics-4.0rc1.post2.tar.gz",
+ "version":"4.0rc1.post2"
+}

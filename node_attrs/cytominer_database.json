@@ -1,0 +1,219 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/349493736.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.3.3"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"cytominer_database",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"Software tools such as CellProfiler can extract hundreds of measurements from millions of cells in a typical high-throughput imaging experiment. The measurements are stored across thousands of CSV files. cytominer-database helps you organize these data into a single database backend, such as SQLite.",
+   "dev_url":"https://github.com/cytomining/cytominer-database",
+   "doc_url":"https://readthedocs.org/projects/cytominer-database/",
+   "home":"https://github.com/cytomining/cytominer-database",
+   "license":"BSD",
+   "license_family":"BSD",
+   "license_file":"LICENSE.md",
+   "summary":"cytominer-database provides command-line tools for organizing measurements extracted from images."
+  },
+  "build":{
+   "entry_points":[
+    "cytominer-database=cytominer_database.command:command",
+    "cytominer-database=cytominer_database.command:command",
+    "cytominer-database=cytominer_database.command:command"
+   ],
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . --no-deps --ignore-installed -vv "
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "gwaygenomics",
+    "gwaygenomics",
+    "gwaygenomics"
+   ]
+  },
+  "package":{
+   "name":"cytominer_database",
+   "version":"0.3.0"
+  },
+  "requirements":{
+   "host":[
+    "backports.tempfile >=1.0rc1",
+    "click >=6.7",
+    "configparser >=3.5.0",
+    "csvkit >=1.0.2",
+    "pandas >=0.20.3",
+    "pip",
+    "python",
+    "setuptools",
+    "backports.tempfile >=1.0rc1",
+    "click >=6.7",
+    "configparser >=3.5.0",
+    "csvkit >=1.0.2",
+    "pandas >=0.20.3",
+    "pip",
+    "python",
+    "setuptools",
+    "backports.tempfile >=1.0rc1",
+    "click >=6.7",
+    "configparser >=3.5.0",
+    "csvkit >=1.0.2",
+    "pandas >=0.20.3",
+    "pip",
+    "python",
+    "setuptools"
+   ],
+   "run":[
+    "backports.tempfile >=1.0rc1",
+    "click >=6.7",
+    "configparser >=3.5.0",
+    "csvkit >=1.0.2",
+    "pandas >=0.20.3",
+    "python",
+    "setuptools",
+    "backports.tempfile >=1.0rc1",
+    "click >=6.7",
+    "configparser >=3.5.0",
+    "csvkit >=1.0.2",
+    "pandas >=0.20.3",
+    "python",
+    "setuptools",
+    "backports.tempfile >=1.0rc1",
+    "click >=6.7",
+    "configparser >=3.5.0",
+    "csvkit >=1.0.2",
+    "pandas >=0.20.3",
+    "python",
+    "setuptools"
+   ]
+  },
+  "source":{
+   "sha256":"f253822e2e9c01e815492e06a6611405c4bb8daa615f24745c4308f41645ec10",
+   "url":"https://pypi.io/packages/source/c/cytominer_database/cytominer_database-0.3.0.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "cytominer-database --help",
+    "cytominer-database --help",
+    "cytominer-database --help"
+   ],
+   "imports":[
+    "cytominer_database",
+    "cytominer_database.commands",
+    "cytominer_database",
+    "cytominer_database.commands",
+    "cytominer_database",
+    "cytominer_database.commands"
+   ]
+  }
+ },
+ "name":"cytominer_database",
+ "new_version":"0.3.3",
+ "pinning_version":"2019.12.02",
+ "raw_meta_yaml":"{% set name = \"cytominer_database\" %}\n{% set version = \"0.3.0\" %}\n\npackage:\n  name: \"{{ name|lower }}\"\n  version: \"{{ version }}\"\n\nsource:\n  url: \"https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\"\n  sha256: \"f253822e2e9c01e815492e06a6611405c4bb8daa615f24745c4308f41645ec10\"\n\nbuild:\n  number: 0\n  noarch: python\n  entry_points:\n    - cytominer-database=cytominer_database.command:command\n  script: \"{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv \"\n\nrequirements:\n  host:\n    - backports.tempfile >=1.0rc1\n    - click >=6.7\n    - configparser >=3.5.0\n    - csvkit >=1.0.2\n    - pandas >=0.20.3\n    - pip\n    - python\n    - setuptools\n  run:\n    - backports.tempfile >=1.0rc1\n    - click >=6.7\n    - configparser >=3.5.0\n    - csvkit >=1.0.2\n    - pandas >=0.20.3\n    - python\n    - setuptools\n\ntest:\n  imports:\n    - cytominer_database\n    - cytominer_database.commands\n  commands:\n    - cytominer-database --help\n\nabout:\n  home: \"https://github.com/cytomining/cytominer-database\"\n  license: \"BSD\"\n  license_family: \"BSD\"\n  license_file: \"LICENSE.md\"\n  summary: \"cytominer-database provides command-line tools for organizing measurements extracted from images.\"\n  description:\n    \"Software tools such as CellProfiler can extract hundreds of measurements from millions of cells in a typical\n     high-throughput imaging experiment. The measurements are stored across thousands of CSV files.\n     cytominer-database helps you organize these data into a single database backend, such as SQLite.\"\n  doc_url: \"https://readthedocs.org/projects/cytominer-database/\"\n  dev_url: \"https://github.com/cytomining/cytominer-database\"\n\nextra:\n  recipe-maintainers:\n    - gwaygenomics\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "backports.tempfile",
+   "click",
+   "configparser",
+   "csvkit",
+   "pandas",
+   "pip",
+   "python",
+   "setuptools"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "backports.tempfile",
+    "click",
+    "configparser",
+    "csvkit",
+    "pandas",
+    "pip",
+    "python",
+    "setuptools"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "backports.tempfile",
+    "click",
+    "configparser",
+    "csvkit",
+    "pandas",
+    "python",
+    "setuptools"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.6.3",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "backports.tempfile >=1.0rc1",
+    "click >=6.7",
+    "configparser >=3.5.0",
+    "csvkit >=1.0.2",
+    "pandas >=0.20.3",
+    "pip",
+    "python",
+    "setuptools"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "backports.tempfile >=1.0rc1",
+    "click >=6.7",
+    "configparser >=3.5.0",
+    "csvkit >=1.0.2",
+    "pandas >=0.20.3",
+    "python",
+    "setuptools"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/c/cytominer_database/cytominer_database-0.3.0.tar.gz",
+ "version":"0.3.0"
+}

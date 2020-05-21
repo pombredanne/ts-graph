@@ -1,0 +1,185 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/349099129.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"4.2.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"ansible-lint",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"Ansible Lint is a commandline tool for linting playbooks. Use it to detect behaviors and practices that could potentially be improved.\nThe tool is used by the Ansible Galaxy project to lint and calculate quality scores for content contributed to the Galaxy Hub.\nThe project was originally started by @willthames, and has since been transferred to the Ansible project team.\n",
+   "dev_url":"https://github.com/ansible/ansible-lint",
+   "doc_url":"https://docs.ansible.com/ansible-lint/",
+   "home":"https://github.com/ansible/ansible-lint",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"LICENSE",
+   "summary":"Checks playbooks for practices and behaviour that could potentially be improved"
+  },
+  "build":{
+   "entry_points":[
+    "ansible-lint = ansiblelint.__main__:main",
+    "ansible-lint = ansiblelint.__main__:main",
+    "ansible-lint = ansiblelint.__main__:main"
+   ],
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . --no-deps -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "knightdave",
+    "knightdave",
+    "knightdave"
+   ]
+  },
+  "package":{
+   "name":"ansible-lint",
+   "version":"4.2.0"
+  },
+  "requirements":{
+   "host":[
+    "python",
+    "pip",
+    "setuptools_scm",
+    "setuptools_scm_git_archive",
+    "ansible >=2.8",
+    "ruamel.yaml",
+    "python",
+    "pip",
+    "setuptools_scm",
+    "setuptools_scm_git_archive",
+    "ansible >=2.8",
+    "ruamel.yaml",
+    "python",
+    "pip",
+    "setuptools_scm",
+    "setuptools_scm_git_archive",
+    "ansible >=2.8",
+    "ruamel.yaml"
+   ],
+   "run":[
+    "python >=3.6",
+    "ansible >=2.8",
+    "six",
+    "ruamel.yaml",
+    "python >=3.6",
+    "ansible >=2.8",
+    "six",
+    "ruamel.yaml",
+    "python >=3.6",
+    "ansible >=2.8",
+    "six",
+    "ruamel.yaml"
+   ]
+  },
+  "source":{
+   "sha256":"eb925d8682d70563ccb80e2aca7b3edf84fb0b768cea3edc6846aac7abdc414a",
+   "url":"https://pypi.io/packages/source/a/ansible-lint/ansible-lint-4.2.0.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "ansiblelint",
+    "ansiblelint",
+    "ansiblelint"
+   ]
+  }
+ },
+ "name":"ansible-lint",
+ "new_version":"4.2.0",
+ "pinning_version":"2019.12.02",
+ "raw_meta_yaml":"{% set name = \"ansible-lint\" %}\n{% set version = \"4.2.0\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: eb925d8682d70563ccb80e2aca7b3edf84fb0b768cea3edc6846aac7abdc414a\n\nbuild:\n  number: 0\n  noarch: python\n  script: \"{{ PYTHON }} -m pip install . --no-deps -vv\"\n  entry_points:\n    - ansible-lint = ansiblelint.__main__:main\nrequirements:\n  host:\n    - python\n    - pip\n    - setuptools_scm\n    - setuptools_scm_git_archive\n    - ansible >=2.8\n    - ruamel.yaml\n  run:\n    - python >=3.6\n    - ansible >=2.8\n    - six\n    - ruamel.yaml\n\ntest:\n  imports:\n    - ansiblelint\n\nabout:\n  home: https://github.com/ansible/ansible-lint\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE\n  summary: 'Checks playbooks for practices and behaviour that could potentially be improved'\n  description: |\n    Ansible Lint is a commandline tool for linting playbooks. Use it to detect behaviors and practices that could potentially be improved.\n    The tool is used by the Ansible Galaxy project to lint and calculate quality scores for content contributed to the Galaxy Hub.\n    The project was originally started by @willthames, and has since been transferred to the Ansible project team.\n  doc_url: https://docs.ansible.com/ansible-lint/\n  dev_url: https://github.com/ansible/ansible-lint\n\nextra:\n  recipe-maintainers:\n    - knightdave\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "ansible",
+   "pip",
+   "python",
+   "ruamel.yaml",
+   "setuptools_scm",
+   "setuptools_scm_git_archive",
+   "six"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "ansible",
+    "pip",
+    "python",
+    "ruamel.yaml",
+    "setuptools_scm",
+    "setuptools_scm_git_archive"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "ansible",
+    "python",
+    "ruamel.yaml",
+    "six"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.6.3",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "ansible >=2.8",
+    "pip",
+    "python",
+    "ruamel.yaml",
+    "setuptools_scm",
+    "setuptools_scm_git_archive"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "ansible >=2.8",
+    "python >=3.6",
+    "ruamel.yaml",
+    "six"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/a/ansible-lint/ansible-lint-4.1.0.tar.gz",
+ "version":"4.2.0"
+}

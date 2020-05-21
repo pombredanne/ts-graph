@@ -1,0 +1,545 @@
+{
+ "PRed":[
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.13.3"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/224358478.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.13.4"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/230933544.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.14.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/233183999.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.14.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/233288799.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.14.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/281383904.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Rebuild",
+    "migrator_version":0,
+    "name":"pyqt-5.9.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/290869940.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.15.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/291186878.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.15.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/291319361.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.15.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/292488350.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.15.3"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/295429273.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.15.4"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/295850543.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.15.5"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/310065734.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.15.6"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "id":"2a1228ef-9ccb-4478-9192-d4637df11812",
+    "merged_at":"never issued",
+    "state":"closed"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"python38"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/374999428.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MatplotlibBase",
+    "migrator_version":0,
+    "name":"matplotlib-to-matplotlib-base"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "compiler_stack":"comp7",
+  "max_py_ver":"37",
+  "max_r_ver":"35",
+  "provider":{
+   "win":"azure"
+  }
+ },
+ "feedstock_name":"glue-core",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"http://glueviz.org",
+   "license":"BSD 3-Clause",
+   "license_file":"LICENSE",
+   "summary":"Multi-dimensional linked data exploration"
+  },
+  "build":{
+   "entry_points":[
+    "glue = glue.main:main",
+    "glue-config = glue.config_gen:main",
+    "glue-deps = glue._deps:main",
+    "glue = glue.main:main",
+    "glue-config = glue.config_gen:main",
+    "glue-deps = glue._deps:main",
+    "glue = glue.main:main",
+    "glue-config = glue.config_gen:main",
+    "glue-deps = glue._deps:main"
+   ],
+   "number":"1",
+   "osx_is_app":true,
+   "script":" -m pip install . --no-deps -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "astrofrog-conda-forge",
+    "astrofrog-conda-forge",
+    "astrofrog-conda-forge"
+   ]
+  },
+  "package":{
+   "name":"glue-core",
+   "version":"0.15.6"
+  },
+  "requirements":{
+   "build":[
+    "python",
+    "pip",
+    "setuptools >=30.3",
+    "setuptools_scm",
+    "python",
+    "pip",
+    "setuptools >=30.3",
+    "setuptools_scm",
+    "python",
+    "pip",
+    "setuptools >=30.3",
+    "setuptools_scm"
+   ],
+   "run":[
+    "python",
+    "numpy >=1.9",
+    "matplotlib-base >=2.1",
+    "scipy >=1.0",
+    "pandas >=0.14",
+    "astropy >=2.0",
+    "setuptools >=1.0",
+    "qtpy >=1.2",
+    "ipython >=4.0",
+    "ipykernel >=4.0,!=5.0.0,!=5.1.0",
+    "qtconsole",
+    "dill >=0.2",
+    "xlrd >=1.0",
+    "h5py >=2.4",
+    "mpl-scatter-density >=0.4",
+    "bottleneck >=1.2",
+    "pyqt",
+    "scikit-image",
+    "dask",
+    "python.app",
+    "python",
+    "numpy >=1.9",
+    "matplotlib-base >=2.1",
+    "scipy >=1.0",
+    "pandas >=0.14",
+    "astropy >=2.0",
+    "setuptools >=1.0",
+    "qtpy >=1.2",
+    "ipython >=4.0",
+    "ipykernel >=4.0,!=5.0.0,!=5.1.0",
+    "qtconsole",
+    "dill >=0.2",
+    "xlrd >=1.0",
+    "h5py >=2.4",
+    "mpl-scatter-density >=0.4",
+    "bottleneck >=1.2",
+    "pyqt",
+    "scikit-image",
+    "dask",
+    "python",
+    "numpy >=1.9",
+    "matplotlib-base >=2.1",
+    "scipy >=1.0",
+    "pandas >=0.14",
+    "astropy >=2.0",
+    "setuptools >=1.0",
+    "qtpy >=1.2",
+    "ipython >=4.0",
+    "ipykernel >=4.0,!=5.0.0,!=5.1.0",
+    "qtconsole",
+    "dill >=0.2",
+    "xlrd >=1.0",
+    "h5py >=2.4",
+    "mpl-scatter-density >=0.4",
+    "bottleneck >=1.2",
+    "pyqt",
+    "scikit-image",
+    "dask"
+   ]
+  },
+  "source":{
+   "fn":"glue-core-0.15.6.tar.gz",
+   "sha256":"f9c753f13de918671c0fcab680404390b2e133c5e85c7248e4d279e8b29ec266",
+   "url":"https://pypi.io/packages/source/g/glue-core/glue-core-0.15.6.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "glue --version",
+    "glue-deps list",
+    "glue --version",
+    "glue-deps list",
+    "glue --version",
+    "glue-deps list"
+   ],
+   "imports":[
+    "glue",
+    "glue.core",
+    "glue.app.qt",
+    "glue",
+    "glue.core",
+    "glue.app.qt",
+    "glue",
+    "glue.core",
+    "glue.app.qt"
+   ]
+  }
+ },
+ "name":"glue-core",
+ "new_version":"0.15.6",
+ "pinning_version":"2020.02.12",
+ "raw_meta_yaml":"{% set version = \"0.15.6\" %}\n\npackage:\n  name: glue-core\n  version: {{version}}\n\nsource:\n\n  fn: glue-core-{{version}}.tar.gz\n  url: https://pypi.io/packages/source/g/glue-core/glue-core-{{version}}.tar.gz\n  sha256: f9c753f13de918671c0fcab680404390b2e133c5e85c7248e4d279e8b29ec266\n\nbuild:\n  number: 1\n  script: \"{{ PYTHON }} -m pip install . --no-deps -vv\"\n  entry_points:\n    - glue = glue.main:main\n    - glue-config = glue.config_gen:main\n    - glue-deps = glue._deps:main\n  osx_is_app: True\n\nrequirements:\n\n  build:\n\n    - python\n    - pip\n    - setuptools >=30.3\n    - setuptools_scm\n\n  run:\n\n    # The following is needed to make sure that the package works as a GUI\n    # application (glue needs to be run with python.app, not python)\n    - python.app  # [osx]\n\n    # Required dependencies\n    - python\n    - numpy >=1.9\n    - matplotlib-base >=2.1\n    - scipy >=1.0\n    - pandas >=0.14\n    - astropy >=2.0\n    - setuptools >=1.0\n    - qtpy >=1.2\n    - ipython >=4.0\n    - ipykernel >=4.0,!=5.0.0,!=5.1.0\n    - qtconsole\n    - dill >=0.2\n    - xlrd >=1.0\n    - h5py >=2.4\n    - mpl-scatter-density >=0.4\n    - bottleneck >=1.2\n    - pyqt\n\n    # Optional dependencies (defined in ``extras_require``)\n    - scikit-image\n\n    # Temporary: the scikit-image conda package is missing the dask dependency\n    # so we add it here for now\n    - dask\n\ntest:\n  imports:\n    - glue\n    - glue.core\n    - glue.app.qt\n  commands:\n    - glue --version\n    - glue-deps list\n\n# NOTE: we deliberatey do NOT include an app entry here, because we instead do this\n# in the glueviz meta-package (we don't want glue to appear twice in the navigator)\n\nabout:\n  home: http://glueviz.org\n  license: BSD 3-Clause\n  license_file: LICENSE\n  summary: Multi-dimensional linked data exploration\n\nextra:\n  recipe-maintainers:\n    - astrofrog-conda-forge\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "astropy",
+   "bottleneck",
+   "dask",
+   "dill",
+   "h5py",
+   "ipykernel",
+   "ipython",
+   "matplotlib-base",
+   "mpl-scatter-density",
+   "numpy",
+   "pandas",
+   "pip",
+   "pyqt",
+   "python",
+   "python.app",
+   "qtconsole",
+   "qtpy",
+   "scikit-image",
+   "scipy",
+   "setuptools",
+   "setuptools_scm",
+   "xlrd"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python",
+    "setuptools",
+    "setuptools_scm"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "astropy",
+    "bottleneck",
+    "dask",
+    "dill",
+    "h5py",
+    "ipykernel",
+    "ipython",
+    "matplotlib-base",
+    "mpl-scatter-density",
+    "numpy",
+    "pandas",
+    "pyqt",
+    "python",
+    "python.app",
+    "qtconsole",
+    "qtpy",
+    "scikit-image",
+    "scipy",
+    "setuptools",
+    "xlrd"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.6.8",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python",
+    "setuptools >=30.3",
+    "setuptools_scm"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "astropy >=2.0",
+    "bottleneck >=1.2",
+    "dask",
+    "dill >=0.2",
+    "h5py >=2.4",
+    "ipykernel >=4.0,!=5.0.0,!=5.1.0",
+    "ipython >=4.0",
+    "matplotlib-base >=2.1",
+    "mpl-scatter-density >=0.4",
+    "numpy >=1.9",
+    "pandas >=0.14",
+    "pyqt",
+    "python",
+    "python.app",
+    "qtconsole",
+    "qtpy >=1.2",
+    "scikit-image",
+    "scipy >=1.0",
+    "setuptools >=1.0",
+    "xlrd >=1.0"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/g/glue-core/glue-core-0.15.6.tar.gz",
+ "version":"0.15.6"
+}

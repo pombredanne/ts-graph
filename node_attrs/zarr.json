@@ -1,0 +1,250 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/263779724.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.3.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/264194682.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.3.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/338474723.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"python38"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/361683799.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.4.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "provider":{
+   "win":"azure"
+  }
+ },
+ "feedstock_name":"zarr",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"https://github.com/zarr-developers/zarr",
+   "license":"MIT",
+   "license_file":"LICENSE",
+   "summary":"An implementation of chunked, compressed, N-dimensional arrays for Python."
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . --no-deps -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "alimanfoo",
+    "jakirkham",
+    "jrbourbeau",
+    "alimanfoo",
+    "jakirkham",
+    "jrbourbeau",
+    "alimanfoo",
+    "jakirkham",
+    "jrbourbeau"
+   ]
+  },
+  "package":{
+   "name":"zarr",
+   "version":"2.4.0"
+  },
+  "requirements":{
+   "host":[
+    "python >=3.5",
+    "pip",
+    "setuptools >=38.6.0",
+    "setuptools_scm >1.5.4",
+    "python >=3.5",
+    "pip",
+    "setuptools >=38.6.0",
+    "setuptools_scm >1.5.4",
+    "python >=3.5",
+    "pip",
+    "setuptools >=38.6.0",
+    "setuptools_scm >1.5.4"
+   ],
+   "run":[
+    "python >=3.5",
+    "asciitree",
+    "numpy >=1.7",
+    "fasteners",
+    "numcodecs >=0.6.4",
+    "python >=3.5",
+    "asciitree",
+    "numpy >=1.7",
+    "fasteners",
+    "numcodecs >=0.6.4",
+    "python >=3.5",
+    "asciitree",
+    "numpy >=1.7",
+    "fasteners",
+    "numcodecs >=0.6.4"
+   ]
+  },
+  "source":{
+   "fn":"zarr-2.4.0.tar.gz",
+   "sha256":"53aa21b989a47ddc5e916eaff6115b824c0864444b1c6f3aaf4f6cf9a51ed608",
+   "url":"https://pypi.io/packages/source/z/zarr/zarr-2.4.0.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "pytest -v --pyargs zarr",
+    "pytest -v --pyargs zarr",
+    "pytest -v --pyargs zarr"
+   ],
+   "imports":[
+    "zarr",
+    "zarr",
+    "zarr"
+   ],
+   "requires":[
+    "pytest",
+    "pytest",
+    "pytest"
+   ]
+  }
+ },
+ "name":"zarr",
+ "new_version":"2.4.0",
+ "pinning_version":"2020.01.10",
+ "raw_meta_yaml":"{% set name = \"zarr\" %}\n{% set version = \"2.4.0\" %}\n{% set sha256 = \"53aa21b989a47ddc5e916eaff6115b824c0864444b1c6f3aaf4f6cf9a51ed608\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  fn: {{ name }}-{{ version }}.tar.gz\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  script: \"{{ PYTHON }} -m pip install . --no-deps -vv\"\n  noarch: python\n\nrequirements:\n  host:\n    - python >=3.5\n    - pip\n    - setuptools >=38.6.0\n    - setuptools_scm >1.5.4\n  run:\n    - python >=3.5\n    - asciitree\n    - numpy >=1.7\n    - fasteners\n    - numcodecs >=0.6.4\n\ntest:\n  requires:\n    - pytest\n  imports:\n    - zarr\n  commands:\n    - pytest -v --pyargs zarr\n\nabout:\n  home: https://github.com/zarr-developers/zarr\n  license: MIT\n  license_file: LICENSE\n  summary: An implementation of chunked, compressed, N-dimensional arrays for Python.\n\nextra:\n  recipe-maintainers:\n    - alimanfoo\n    - jakirkham\n    - jrbourbeau\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "asciitree",
+   "fasteners",
+   "numcodecs",
+   "numpy",
+   "pip",
+   "python",
+   "setuptools",
+   "setuptools_scm"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python",
+    "setuptools",
+    "setuptools_scm"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "asciitree",
+    "fasteners",
+    "numcodecs",
+    "numpy",
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "pytest"
+   ]
+  }
+ },
+ "smithy_version":"3.6.5",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3.5",
+    "setuptools >=38.6.0",
+    "setuptools_scm >1.5.4"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "asciitree",
+    "fasteners",
+    "numcodecs >=0.6.4",
+    "numpy >=1.7",
+    "python >=3.5"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "pytest"
+   ]
+  }
+ },
+ "url":"https://pypi.io/packages/source/z/zarr/zarr-2.3.2.tar.gz",
+ "version":"2.4.0"
+}

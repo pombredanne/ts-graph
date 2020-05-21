@@ -1,0 +1,415 @@
+{
+ "PRed":[
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.0.18"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/196996968.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Compiler",
+    "migrator_version":0
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/202185847.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.1.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/207567680.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.1.3"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.2.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/268813699.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.2.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/306321746.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Rebuild",
+    "migrator_version":0,
+    "name":"gdal-3.0.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/322491863.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.2.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/325700087.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.2.3"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/369948690.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"python38"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/375182307.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MatplotlibBase",
+    "migrator_version":0,
+    "name":"matplotlib-to-matplotlib-base"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"nansat",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"The main goal of Nansat is to facilitate:\neasy development and testing of scientific algorithms,\neasy analysis of geospatial data, and\nefficient operational processing.\nWe appreciate acknowledments of Nansat.\nPlease add \"The image analysis was performed with the open-source\nNansat (https://github.com/nansencenter/nansat) python package\"\nif you use Nansat in scientific publications. And refer to our publication:\nKorosov A.A., Hansen M.W., Dagestad K.-F., Yamakawa A., Vines A., Riechert M.,\nNansat: a Scientist-Orientated Python Package for Geospatial Data Processing,\nJournal of Open Research Software 4(1):e39, 2016\nhttps://openresearchsoftware.metajnl.com/articles/10.5334/jors.120/\n",
+   "dev_url":"https://github.com/nansencenter/nansat",
+   "doc_url":"http://nansat.readthedocs.io/",
+   "home":"https://github.com/nansencenter/nansat",
+   "license":"GPL-3.0",
+   "license_family":"GPL",
+   "license_file":"LICENSE",
+   "summary":"Nansat is a scientist friendly Python toolbox for processing 2D satellite Earth observation data."
+  },
+  "build":{
+   "number":"0",
+   "script":"python setup.py install --single-version-externally-managed --record record.txt"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "aleksandervines",
+    "akorosov",
+    "aleksandervines",
+    "akorosov",
+    "aleksandervines",
+    "akorosov"
+   ]
+  },
+  "package":{
+   "name":"nansat",
+   "version":"1.1.0"
+  },
+  "requirements":{
+   "build":[
+    "python",
+    "setuptools",
+    "toolchain",
+    "pythesint 1.4.5",
+    "numpy 1.14.5",
+    "scipy 1.1.0",
+    "matplotlib 2.2.2",
+    "basemap 1.1.0",
+    "netcdf4 1.4.0",
+    "gdal 2.2.4",
+    "pillow 5.1.0",
+    "python",
+    "setuptools",
+    "toolchain",
+    "pythesint 1.4.5",
+    "numpy 1.14.5",
+    "scipy 1.1.0",
+    "matplotlib 2.2.2",
+    "basemap 1.1.0",
+    "netcdf4 1.4.0",
+    "gdal 2.2.4",
+    "pillow 5.1.0",
+    "python",
+    "setuptools",
+    "toolchain",
+    "pythesint 1.4.5",
+    "numpy 1.14.5",
+    "scipy 1.1.0",
+    "matplotlib 2.2.2",
+    "basemap 1.1.0",
+    "netcdf4 1.4.0",
+    "gdal 2.2.4",
+    "pillow 5.1.0"
+   ],
+   "run":[
+    "python",
+    "pythesint >=1.4.5",
+    "numpy >=1.14.5",
+    "scipy 1.1.0",
+    "matplotlib >=2.2.2",
+    "basemap >=1.1.0",
+    "netcdf4 >=1.4.0",
+    "gdal >=2.2.4",
+    "pillow >=5.1.0",
+    "python",
+    "pythesint >=1.4.5",
+    "numpy >=1.14.5",
+    "scipy 1.1.0",
+    "matplotlib >=2.2.2",
+    "basemap >=1.1.0",
+    "netcdf4 >=1.4.0",
+    "gdal >=2.2.4",
+    "pillow >=5.1.0",
+    "python",
+    "pythesint >=1.4.5",
+    "numpy >=1.14.5",
+    "scipy 1.1.0",
+    "matplotlib >=2.2.2",
+    "basemap >=1.1.0",
+    "netcdf4 >=1.4.0",
+    "gdal >=2.2.4",
+    "pillow >=5.1.0"
+   ]
+  },
+  "source":{
+   "fn":"v1.1.0.tar.gz",
+   "sha256":"f5e73fc6e22dc8cb921a0aa54710978961d3d161fcd5119d607fa9e04c2fd648",
+   "url":"https://github.com/nansencenter/nansat/archive/v1.1.0.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "nosetests nansat",
+    "nosetests nansat",
+    "nosetests nansat"
+   ],
+   "requires":[
+    "mock",
+    "nose",
+    "mock",
+    "nose",
+    "mock",
+    "nose"
+   ]
+  }
+ },
+ "name":"nansat",
+ "new_version":"1.2.5",
+ "pinning_version":"2020.02.12",
+ "raw_meta_yaml":"{% set name = \"nansat\" %}\n{% set version = \"1.1.0\" %}\n{% set sha256 = \"f5e73fc6e22dc8cb921a0aa54710978961d3d161fcd5119d607fa9e04c2fd648\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n fn: v{{ version }}.tar.gz\n url: https://github.com/nansencenter/nansat/archive/v{{ version }}.tar.gz\n sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  script: python setup.py install --single-version-externally-managed --record record.txt\n\nrequirements:\n  build:\n    - python\n    - setuptools\n    - toolchain\n    - pythesint 1.4.5\n    - numpy 1.14.5\n    - scipy 1.1.0\n    - matplotlib 2.2.2\n    - basemap 1.1.0\n    - netcdf4 1.4.0\n    - gdal 2.2.4\n    - pillow 5.1.0\n  run:\n    - python\n    - pythesint >=1.4.5\n    - numpy >=1.14.5\n    - scipy 1.1.0\n    - matplotlib >=2.2.2\n    - basemap >=1.1.0\n    - netcdf4 >=1.4.0\n    - gdal >=2.2.4\n    - pillow >=5.1.0\n\ntest:\n  requires:\n    - mock\n    - nose\n  commands:\n    - nosetests nansat\n\nabout:\n  home: https://github.com/nansencenter/nansat\n  license: GPL-3.0\n  license_family: GPL\n  license_file: LICENSE\n  summary: 'Nansat is a scientist friendly Python toolbox for processing 2D satellite Earth observation data.'\n\n  description: |\n    The main goal of Nansat is to facilitate:\n    easy development and testing of scientific algorithms,\n    easy analysis of geospatial data, and\n    efficient operational processing.\n    We appreciate acknowledments of Nansat.\n    Please add \"The image analysis was performed with the open-source\n    Nansat (https://github.com/nansencenter/nansat) python package\"\n    if you use Nansat in scientific publications. And refer to our publication:\n    Korosov A.A., Hansen M.W., Dagestad K.-F., Yamakawa A., Vines A., Riechert M.,\n    Nansat: a Scientist-Orientated Python Package for Geospatial Data Processing,\n    Journal of Open Research Software 4(1):e39, 2016\n    https://openresearchsoftware.metajnl.com/articles/10.5334/jors.120/\n  doc_url: http://nansat.readthedocs.io/\n  dev_url: https://github.com/nansencenter/nansat\n\nextra:\n  recipe-maintainers:\n    - aleksandervines\n    - akorosov\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "basemap",
+   "gdal",
+   "matplotlib",
+   "netcdf4",
+   "numpy",
+   "pillow",
+   "pythesint",
+   "python",
+   "scipy",
+   "setuptools",
+   "toolchain"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "basemap",
+    "gdal",
+    "matplotlib",
+    "netcdf4",
+    "numpy",
+    "pillow",
+    "pythesint",
+    "python",
+    "scipy",
+    "setuptools",
+    "toolchain"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "basemap",
+    "gdal",
+    "matplotlib",
+    "netcdf4",
+    "numpy",
+    "pillow",
+    "pythesint",
+    "python",
+    "scipy"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "mock",
+    "nose"
+   ]
+  }
+ },
+ "smithy_version":"3.6.8",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "basemap 1.1.0",
+    "gdal 2.2.4",
+    "matplotlib 2.2.2",
+    "netcdf4 1.4.0",
+    "numpy 1.14.5",
+    "pillow 5.1.0",
+    "pythesint 1.4.5",
+    "python",
+    "scipy 1.1.0",
+    "setuptools",
+    "toolchain"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "basemap >=1.1.0",
+    "gdal >=2.2.4",
+    "matplotlib >=2.2.2",
+    "netcdf4 >=1.4.0",
+    "numpy >=1.14.5",
+    "pillow >=5.1.0",
+    "pythesint >=1.4.5",
+    "python",
+    "scipy 1.1.0"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "mock",
+    "nose"
+   ]
+  }
+ },
+ "url":"https://github.com/nansencenter/nansat/archive/v1.1.0.tar.gz",
+ "version":"1.1.0"
+}

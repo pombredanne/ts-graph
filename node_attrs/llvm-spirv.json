@@ -1,0 +1,171 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/382267831.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"9.0.1-1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/396199646.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"10.0.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"llvm-spirv",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"https://github.com/KhronosGroup/SPIRV-LLVM-Translator",
+   "license":"NCSA",
+   "license_family":"BSD",
+   "license_file":"LICENSE.TXT",
+   "summary":"A tool and a library for bi-directional translation between SPIR-V and LLVM IR"
+  },
+  "build":{
+   "number":"0",
+   "skip":true
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "isuruf",
+    "isuruf",
+    "isuruf"
+   ]
+  },
+  "package":{
+   "name":"llvm-spirv",
+   "version":"9.0.0_1"
+  },
+  "requirements":{
+   "build":[
+    "cxx_compiler_stub",
+    "cmake",
+    "make",
+    "cxx_compiler_stub",
+    "cmake",
+    "make",
+    "cxx_compiler_stub",
+    "cmake",
+    "make"
+   ],
+   "host":[
+    "llvmdev  9.0.0",
+    "llvm  9.0.0",
+    "llvmdev  9.0.0",
+    "llvm  9.0.0",
+    "llvmdev  9.0.0",
+    "llvm  9.0.0"
+   ],
+   "run_constrained":[
+    "llvmdev  9.0.0",
+    "llvmdev  9.0.0",
+    "llvmdev  9.0.0"
+   ]
+  },
+  "source":{
+   "sha256":"19eff5daedb2c1aac8ab8d64a9f8228976dbaad71b1c1a3d3cd4c17cccdb0e55",
+   "url":"https://github.com/KhronosGroup/SPIRV-LLVM-Translator/archive/v9.0.0-1.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "llvm-spirv -help",
+    "llvm-spirv -help",
+    "llvm-spirv -help"
+   ]
+  }
+ },
+ "name":"llvm-spirv",
+ "new_version":"10.0.0",
+ "pinning_version":"2020.03.30",
+ "raw_meta_yaml":"{% set name = \"llvm-spirv\" %}\n{% set llvm_version = \"9.0.0\" %}\n{% set version = \"9.0.0_1\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://github.com/KhronosGroup/SPIRV-LLVM-Translator/archive/v{{ version.replace(\"_\", \"-\") }}.tar.gz\n  sha256: 19eff5daedb2c1aac8ab8d64a9f8228976dbaad71b1c1a3d3cd4c17cccdb0e55\n\nbuild:\n  number: 0\n  skip: True  # [not linux]\n\nrequirements:\n  build:\n    - {{ compiler('cxx') }}\n    - cmake\n    - make\n  host:\n    - llvmdev  {{ llvm_version }}\n    - llvm  {{ llvm_version }}\n  run_constrained:\n    - llvmdev  {{ llvm_version }}\n\ntest:\n  commands:\n    - llvm-spirv -help\n\nabout:\n  home: https://github.com/KhronosGroup/SPIRV-LLVM-Translator\n  license: NCSA\n  license_file: LICENSE.TXT\n  license_family: BSD\n  summary: 'A tool and a library for bi-directional translation between SPIR-V and LLVM IR'\n\nextra:\n  recipe-maintainers:\n    - isuruf\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "cmake",
+   "cxx_compiler_stub",
+   "llvm",
+   "llvmdev",
+   "make"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "cmake",
+    "cxx_compiler_stub",
+    "make"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "llvm",
+    "llvmdev"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.6.15",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "cmake",
+    "cxx_compiler_stub",
+    "make"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "llvm  9.0.0",
+    "llvmdev  9.0.0"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://github.com/KhronosGroup/SPIRV-LLVM-Translator/archive/v9.0.0-1.tar.gz",
+ "version":"9.0.0_1"
+}

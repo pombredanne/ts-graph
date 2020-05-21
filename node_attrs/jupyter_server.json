@@ -1,0 +1,386 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/220574196.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/279466408.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.0.5"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/298120172.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.1.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/304513072.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.1.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/336970001.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"python38"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/356495374.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.2.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/361605235.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.2.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/402308057.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"pypy"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/407586841.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.3.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "provider":{
+   "win":"azure"
+  }
+ },
+ "feedstock_name":"jupyter_server",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"The Jupyter Server provides the backend for Jupyter web applications such as the Jupyter notebook and JupyterLab.",
+   "dev_url":"https://github.com/jupyter/jupyter_server",
+   "home":"http://jupyter.org",
+   "license":"BSD-3-Clause",
+   "license_family":"BSD",
+   "license_file":"COPYING.md",
+   "summary":"Jupyter Server"
+  },
+  "build":{
+   "entry_points":[
+    "jupyter-server = jupyter_server.serverapp:main",
+    "jupyter-bundlerextension = jupyter_server.bundlerextensions:main",
+    "jupyter-server = jupyter_server.serverapp:main",
+    "jupyter-bundlerextension = jupyter_server.bundlerextensions:main",
+    "jupyter-server = jupyter_server.serverapp:main",
+    "jupyter-bundlerextension = jupyter_server.bundlerextensions:main"
+   ],
+   "number":"1",
+   "script":" -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "SylvainCorlay",
+    "maartenbreddels",
+    "blink1073",
+    "minrk",
+    "SylvainCorlay",
+    "maartenbreddels",
+    "blink1073",
+    "minrk",
+    "SylvainCorlay",
+    "maartenbreddels",
+    "blink1073",
+    "minrk"
+   ]
+  },
+  "package":{
+   "name":"jupyter_server",
+   "version":"0.2.1"
+  },
+  "requirements":{
+   "host":[
+    "python",
+    "pip",
+    "python",
+    "pip",
+    "python",
+    "pip"
+   ],
+   "run":[
+    "ipykernel",
+    "ipython_genutils",
+    "jinja2",
+    "jupyter_core >=4.4.0",
+    "jupyter_client >=5.3.1",
+    "nbconvert",
+    "nbformat",
+    "python",
+    "pyzmq >=17",
+    "send2trash",
+    "terminado >=0.8.1",
+    "tornado >=4",
+    "traitlets >=4.2.1",
+    "prometheus_client",
+    "ipykernel",
+    "ipython_genutils",
+    "jinja2",
+    "jupyter_core >=4.4.0",
+    "jupyter_client >=5.3.1",
+    "nbconvert",
+    "nbformat",
+    "python",
+    "pyzmq >=17",
+    "send2trash",
+    "terminado >=0.8.1",
+    "tornado >=4",
+    "traitlets >=4.2.1",
+    "prometheus_client",
+    "ipykernel",
+    "ipython_genutils",
+    "jinja2",
+    "jupyter_core >=4.4.0",
+    "jupyter_client >=5.3.1",
+    "nbconvert",
+    "nbformat",
+    "python",
+    "pyzmq >=17",
+    "send2trash",
+    "terminado >=0.8.1",
+    "tornado >=4",
+    "traitlets >=4.2.1",
+    "prometheus_client"
+   ]
+  },
+  "source":{
+   "sha256":"906ecd782925c78063db65dc17d30173372708e314e2a10b3c05366f743e9469",
+   "url":"https://pypi.io/packages/source/j/jupyter_server/jupyter_server-0.2.1.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "jupyter server -h",
+    "jupyter server -h",
+    "jupyter server -h"
+   ],
+   "imports":[
+    "jupyter_server",
+    "jupyter_server",
+    "jupyter_server"
+   ]
+  }
+ },
+ "name":"jupyter_server",
+ "new_version":"0.3.0",
+ "new_version_attempts":{
+  "0.3.0":1
+ },
+ "new_version_errors":{},
+ "pinning_version":"2020.04.22.03.51.02",
+ "raw_meta_yaml":"{% set name = \"jupyter_server\" %}\n{% set version = \"0.2.1\" %}\n{% set sha256 = \"906ecd782925c78063db65dc17d30173372708e314e2a10b3c05366f743e9469\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 1\n  script: \"{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv\"\n  entry_points:\n    - jupyter-server = jupyter_server.serverapp:main\n    - jupyter-bundlerextension = jupyter_server.bundlerextensions:main\n\nrequirements:\n  host:\n    - python\n    - pip\n  run:\n    - ipykernel\n    - ipython_genutils\n    - jinja2\n    - jupyter_core >=4.4.0\n    - jupyter_client >=5.3.1\n    - nbconvert\n    - nbformat\n    - python\n    - pyzmq >=17\n    - send2trash\n    - terminado >=0.8.1\n    - tornado >=4\n    - traitlets >=4.2.1\n    - prometheus_client\n    - ipaddress  # [py2k]\n\ntest:\n  commands:\n    - jupyter server -h\n  imports:\n    - jupyter_server\n\nabout:\n  home: http://jupyter.org\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: COPYING.md\n  summary: 'Jupyter Server'\n  description: 'The Jupyter Server provides the backend for Jupyter web applications such as the Jupyter notebook and JupyterLab.'\n  dev_url: https://github.com/jupyter/jupyter_server\n\nextra:\n  recipe-maintainers:\n    - SylvainCorlay\n    - maartenbreddels\n    - blink1073\n    - minrk\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "ipykernel",
+   "ipython_genutils",
+   "jinja2",
+   "jupyter_client",
+   "jupyter_core",
+   "nbconvert",
+   "nbformat",
+   "pip",
+   "prometheus_client",
+   "python",
+   "pyzmq",
+   "send2trash",
+   "terminado",
+   "tornado",
+   "traitlets"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "ipykernel",
+    "ipython_genutils",
+    "jinja2",
+    "jupyter_client",
+    "jupyter_core",
+    "nbconvert",
+    "nbformat",
+    "prometheus_client",
+    "python",
+    "pyzmq",
+    "send2trash",
+    "terminado",
+    "tornado",
+    "traitlets"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.6.17",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "ipykernel",
+    "ipython_genutils",
+    "jinja2",
+    "jupyter_client >=5.3.1",
+    "jupyter_core >=4.4.0",
+    "nbconvert",
+    "nbformat",
+    "prometheus_client",
+    "python",
+    "pyzmq >=17",
+    "send2trash",
+    "terminado >=0.8.1",
+    "tornado >=4",
+    "traitlets >=4.2.1"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/j/jupyter_server/jupyter_server-0.1.1.tar.gz",
+ "version":"0.2.1"
+}

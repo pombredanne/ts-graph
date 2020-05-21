@@ -1,0 +1,141 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/379220221.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.5.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"rb-mini_portile2",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "dev_url":"https://github.com/flavorjones/mini_portile",
+   "doc_url":"https://www.rubydoc.info/gems/mini_portile2",
+   "home":"https://rubygems.org/gems/mini_portile2",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"mini_portile2-2.4.0/LICENSE.txt",
+   "summary":"Simplistic port-like solution for developers. It provides a standard and simplified way to compile against dependency libraries without messing up your system."
+  },
+  "build":{
+   "noarch":"generic",
+   "number":"0",
+   "script":[
+    "gem install -N -l -V --norc --ignore-dependencies mini_portile2-2.4.0.gem",
+    "gem unpack mini_portile2-2.4.0.gem",
+    "gem install -N -l -V --norc --ignore-dependencies mini_portile2-2.4.0.gem",
+    "gem unpack mini_portile2-2.4.0.gem",
+    "gem install -N -l -V --norc --ignore-dependencies mini_portile2-2.4.0.gem",
+    "gem unpack mini_portile2-2.4.0.gem"
+   ],
+   "skip":null
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "sodre",
+    "sodre",
+    "sodre"
+   ]
+  },
+  "package":{
+   "name":"rb-mini_portile2",
+   "version":"2.4.0"
+  },
+  "requirements":{
+   "host":[
+    "ruby",
+    "ruby",
+    "ruby"
+   ],
+   "run":[
+    "ruby",
+    "ruby",
+    "ruby"
+   ]
+  },
+  "source":{
+   "sha256":"7e178a397ad62bb8a96977986130dc81f1b13201c6dd95a48bd8cec1dda5f797",
+   "url":"https://rubygems.org/downloads/mini_portile2-2.4.0.gem"
+  },
+  "test":{
+   "commands":[
+    "ruby -r mini_portile2 -e 'exit 0'",
+    "ruby -r mini_portile2 -e 'exit 0'",
+    "ruby -r mini_portile2 -e 'exit 0'"
+   ]
+  }
+ },
+ "name":"rb-mini_portile2",
+ "new_version":"2.5.0",
+ "pinning_version":"2020.02.20",
+ "raw_meta_yaml":"{% set name = \"mini_portile2\" %}\n{% set version = \"2.4.0\" %}\n\npackage:\n  name: rb-{{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://rubygems.org/downloads/{{ name }}-{{ version }}.gem\n  sha256: 7e178a397ad62bb8a96977986130dc81f1b13201c6dd95a48bd8cec1dda5f797\n\nbuild:\n  noarch: generic\n  number: 0\n  script:\n    - gem install -N -l -V --norc --ignore-dependencies {{ name }}-{{ version }}.gem\n    - gem unpack {{ name }}-{{ version }}.gem\n  skip: {{ win }}\n\nrequirements:\n  host:\n    - ruby\n  run:\n    - ruby\n\ntest:\n  commands:\n    - ruby -r {{ name }} -e 'exit 0'\n\nabout:\n  home: https://rubygems.org/gems/{{ name }}\n  license: MIT\n  license_family: MIT\n  license_file: {{ name }}-{{ version }}/LICENSE.txt\n  summary: Simplistic port-like solution for developers. It provides a standard and simplified way to compile against dependency libraries without messing up your system.\n\n  doc_url: https://www.rubydoc.info/gems/{{ name }}\n  dev_url: https://github.com/flavorjones/mini_portile\n\nextra:\n  recipe-maintainers:\n    - sodre\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "ruby"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "ruby"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "ruby"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.6.8",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "ruby"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "ruby"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://rubygems.org/downloads/mini_portile2-2.4.0.gem",
+ "version":"2.4.0"
+}

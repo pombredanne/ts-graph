@@ -1,0 +1,138 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/349555410.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.0.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"pycron",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "dev_url":"https://github.com/kipe/pycron",
+   "home":"https://github.com/kipe/pycron",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"LICENSE",
+   "summary":"Simple cron-like parser, which determines if current datetime matches conditions."
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "synapticarbors",
+    "synapticarbors",
+    "synapticarbors"
+   ]
+  },
+  "package":{
+   "name":"pycron",
+   "version":"3.0.0"
+  },
+  "requirements":{
+   "host":[
+    "python >=3.5",
+    "pip",
+    "python >=3.5",
+    "pip",
+    "python >=3.5",
+    "pip"
+   ],
+   "run":[
+    "python >=3.5",
+    "python >=3.5",
+    "python >=3.5"
+   ]
+  },
+  "source":{
+   "sha256":"b916044e3e8253d5409c68df3ac64a3472c4e608dab92f40e8f595e5d3acb3de",
+   "url":"https://pypi.io/packages/source/p/pycron/pycron-3.0.0.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "pycron",
+    "pycron",
+    "pycron"
+   ]
+  }
+ },
+ "name":"pycron",
+ "new_version":"3.0.0",
+ "pinning_version":"2019.12.02",
+ "raw_meta_yaml":"{% set name = \"pycron\" %}\n{% set version = \"3.0.0\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: b916044e3e8253d5409c68df3ac64a3472c4e608dab92f40e8f595e5d3acb3de\n\nbuild:\n  noarch: python\n  number: 0\n  script: \"{{ PYTHON }} -m pip install . -vv\"\n\nrequirements:\n  host:\n    - python >=3.5\n    - pip\n  run:\n    - python >=3.5\n\ntest:\n  imports:\n    - pycron\n\nabout:\n  home: https://github.com/kipe/pycron\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE\n  summary: 'Simple cron-like parser, which determines if current datetime matches conditions.'\n  dev_url: https://github.com/kipe/pycron\n\nextra:\n  recipe-maintainers:\n    - synapticarbors\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "pip",
+   "python"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.6.3",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3.5"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "python >=3.5"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/p/pycron/pycron-1.0.0.tar.gz",
+ "version":"3.0.0"
+}

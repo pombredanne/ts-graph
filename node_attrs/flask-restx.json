@@ -1,0 +1,199 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/372732540.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.1.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/392090829.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.2.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"flask-restx",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"Flask-RESTX is an extension for Flask that adds support for quickly building REST APIs.\nFlask-RESTX encourages best practices with minimal setup. If you are familiar with Flask,\nFlask-RESTX should be easy to pick up. It provides a coherent collection of decorators and\ntools to describe your API and expose its documentation properly using Swagger.\n",
+   "dev_url":"https://github.com/python-restx/flask-restx/",
+   "doc_url":"https://flask-restx.readthedocs.io/",
+   "home":"https://github.com/python-restx/flask-restx/",
+   "license":"BSD-3-Clause",
+   "license_family":"BSD",
+   "license_file":"LICENSE",
+   "summary":"Fully featured framework for fast, easy and documented API development with Flask"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "SVilgelm",
+    "SVilgelm",
+    "SVilgelm"
+   ]
+  },
+  "package":{
+   "name":"flask-restx",
+   "version":"0.1.1"
+  },
+  "requirements":{
+   "host":[
+    "python",
+    "pip",
+    "python",
+    "pip",
+    "python",
+    "pip"
+   ],
+   "run":[
+    "python",
+    "aniso8601 >=0.82",
+    "jsonschema",
+    "Flask >=0.8",
+    "werkzeug <=0.16.1",
+    "pytz",
+    "six >=1.3.0",
+    "enum34",
+    "python",
+    "aniso8601 >=0.82",
+    "jsonschema",
+    "Flask >=0.8",
+    "werkzeug <=0.16.1",
+    "pytz",
+    "six >=1.3.0",
+    "enum34",
+    "python",
+    "aniso8601 >=0.82",
+    "jsonschema",
+    "Flask >=0.8",
+    "werkzeug <=0.16.1",
+    "pytz",
+    "six >=1.3.0",
+    "enum34"
+   ]
+  },
+  "source":{
+   "sha256":"641759fe7cba1cb073d15b4258b1b15840af8cffe6edbd0da3e6b61eae0a67a6",
+   "url":"https://pypi.io/packages/source/f/flask-restx/flask-restx-0.1.1.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "flask_restx",
+    "flask_restx",
+    "flask_restx"
+   ]
+  }
+ },
+ "name":"flask-restx",
+ "new_version":"0.2.0",
+ "pinning_version":"2020.03.23",
+ "raw_meta_yaml":"{% set name = \"flask-restx\" %}\n{% set version = \"0.1.1\" %}\n{% set sha256 = \"641759fe7cba1cb073d15b4258b1b15840af8cffe6edbd0da3e6b61eae0a67a6\" %}\n{% set requirements = [\"aniso8601 >=0.82\", \"jsonschema\", \"Flask >=0.8\", \"werkzeug <=0.16.1\", \"pytz\", \"six >=1.3.0\", \"enum34\"] %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 0\n  script: \"{{ PYTHON }} -m pip install . -vv\"\n\nrequirements:\n  host:\n    - python\n    - pip\n  run:\n    - python\n{% for item in requirements %}\n    - {{ item }}\n{% endfor %}\n\ntest:\n  imports:\n    - flask_restx\n\nabout:\n  home: https://github.com/python-restx/flask-restx/\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: LICENSE\n  summary: 'Fully featured framework for fast, easy and documented API development with Flask'\n\n  description: |\n    Flask-RESTX is an extension for Flask that adds support for quickly building REST APIs.\n    Flask-RESTX encourages best practices with minimal setup. If you are familiar with Flask,\n    Flask-RESTX should be easy to pick up. It provides a coherent collection of decorators and\n    tools to describe your API and expose its documentation properly using Swagger.\n  doc_url: https://flask-restx.readthedocs.io/\n  dev_url: https://github.com/python-restx/flask-restx/\n\nextra:\n  recipe-maintainers:\n    - SVilgelm\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "aniso8601",
+   "enum34",
+   "flask",
+   "jsonschema",
+   "pip",
+   "python",
+   "pytz",
+   "six",
+   "werkzeug"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "aniso8601",
+    "enum34",
+    "flask",
+    "jsonschema",
+    "python",
+    "pytz",
+    "six",
+    "werkzeug"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.6.15",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "Flask >=0.8",
+    "aniso8601 >=0.82",
+    "enum34",
+    "jsonschema",
+    "python",
+    "pytz",
+    "six >=1.3.0",
+    "werkzeug <=0.16.1"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/f/flask-restx/flask-restx-0.1.0.tar.gz",
+ "version":"0.1.1"
+}

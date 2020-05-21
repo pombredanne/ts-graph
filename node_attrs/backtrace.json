@@ -1,0 +1,114 @@
+{
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"backtrace",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"https://github.com/ianlancetaylor/libbacktrace",
+   "license":"BSD-3-Clause",
+   "license_file":"LICENSE",
+   "summary":"A C library that may be linked into a C/C++ program to produce symbolic backtraces"
+  },
+  "build":{
+   "number":"0",
+   "skip":true
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "bluescarni",
+    "bluescarni",
+    "bluescarni"
+   ]
+  },
+  "package":{
+   "name":"backtrace",
+   "version":"20200511"
+  },
+  "requirements":{
+   "build":[
+    "c_compiler_stub",
+    "c_compiler_stub",
+    "c_compiler_stub"
+   ],
+   "host":[
+    "zlib",
+    "zlib",
+    "zlib"
+   ]
+  },
+  "source":{
+   "sha256":"1f9a46461717176677ef6693e69045f4001cf8f3fdc25ac632011e45e3b4fa04",
+   "url":"https://github.com/ianlancetaylor/libbacktrace/archive/14465a957475927900d3483db822b8222e17a196.zip"
+  },
+  "test":{
+   "commands":[
+    "test -f ${PREFIX}/lib/libbacktrace.a",
+    "test -f ${PREFIX}/include/backtrace.h",
+    "test -f ${PREFIX}/lib/libbacktrace.a",
+    "test -f ${PREFIX}/lib/libbacktrace.dylib",
+    "test -f ${PREFIX}/include/backtrace.h",
+    "test -f ${PREFIX}/lib/libbacktrace.a",
+    "test -f ${PREFIX}/lib/libbacktrace.so",
+    "test -f ${PREFIX}/include/backtrace.h"
+   ]
+  }
+ },
+ "name":"backtrace",
+ "new_version":false,
+ "raw_meta_yaml":"{% set version = \"20200511\" %}\n\npackage:\n    name: backtrace\n    version: {{ version }}\n\nsource:\n    url: https://github.com/ianlancetaylor/libbacktrace/archive/14465a957475927900d3483db822b8222e17a196.zip\n    sha256: 1f9a46461717176677ef6693e69045f4001cf8f3fdc25ac632011e45e3b4fa04\n\nbuild:\n    number: 0\n    skip: true  # [win]\n\nrequirements:\n    build:\n        - {{ compiler('c') }}\n    host:\n        - zlib\n\ntest:\n    commands:\n        - test -f ${PREFIX}/lib/libbacktrace.a\n        - test -f ${PREFIX}/lib/libbacktrace.so     # [linux]\n        - test -f ${PREFIX}/lib/libbacktrace.dylib  # [osx]\n        - test -f ${PREFIX}/include/backtrace.h\n\nabout:\n    home: https://github.com/ianlancetaylor/libbacktrace\n    license: BSD-3-Clause\n    summary: A C library that may be linked into a C/C++ program to produce symbolic backtraces\n    license_file: LICENSE\n\nextra:\n    recipe-maintainers:\n        - bluescarni\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "c_compiler_stub",
+   "zlib"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "zlib"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "zlib"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://github.com/ianlancetaylor/libbacktrace/archive/5a99ff7fed66b8ea8f09c9805c138524a7035ece.zip",
+ "version":"20200511"
+}

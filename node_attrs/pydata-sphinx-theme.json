@@ -1,0 +1,6 @@
+{
+ "bad":"Upstream: Error getting upstream version",
+ "feedstock_name":"pydata-sphinx-theme",
+ "new_version":false,
+ "raw_meta_yaml":"{% set name = \"pydata-sphinx-theme\" %}\n{% set version = \"0.1.1\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: e07d160542fbb61976323d9bd333f8f2e6a25e4363f93035bff55fe327a5000f\n\nbuild:\n  number: 0\n  noarch: python\n  script: \"{{ PYTHON }} -m pip install . -vv\"\n\nrequirements:\n  host:\n    - python >=3.5\n    - pip\n  run:\n    - python >=3.5\n    - sphinx\n\ntest:\n  imports:\n    - pydata_sphinx_theme\n\nabout:\n  home: https://github.com/pandas-dev/pydata-sphinx-theme\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: LICENSE\n  summary: 'Bootstrap-based Sphinx theme from the PyData community'\n  doc_url: https://pydata-sphinx-theme.readthedocs.io/\n  dev_url: https://github.com/pandas-dev/pydata-sphinx-theme\n\nextra:\n  recipe-maintainers:\n    - jorisvandenbossche\n"
+}

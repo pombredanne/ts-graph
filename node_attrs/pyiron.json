@@ -1,0 +1,588 @@
+{
+ "PRed":[
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.1.5"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/202764531.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.1.7"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/211827419.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.1.8"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/232588145.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.2.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/263917707.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.2.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/303274742.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.2.3"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/303383878.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.2.4"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/322031816.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.2.6"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/322909979.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.2.8"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/326890811.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.2.9"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/349050536.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.2.10"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/375647159.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MatplotlibBase",
+    "migrator_version":0,
+    "name":"matplotlib-to-matplotlib-base"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/401313447.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.2.11"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/408686225.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.2.12"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/412558262.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.2.13"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/414587897.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.2.14"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "bot":{
+   "automerge":true
+  }
+ },
+ "feedstock_name":"pyiron",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"pyiron was initially developed in the Computational Materials Design department of Joerg Neugebauer at the\nMax Planck Insitut f\u00fcr Eisenforschung (Max Planck Insitute for iron research) as a framework for ab initio\nthermodynamics. In collaboration with the Interdisciplinary Centre for Advanced Materials Simulation (ICAMS)\nthe framework was recently extended for high throughput applications resulting in the opensource release of\npyiron.\n",
+   "dev_url":"https://github.com/pyiron",
+   "doc_url":"https://pyiron.readthedocs.io",
+   "home":"https://pyiron.org",
+   "license":"BSD-3-Clause",
+   "license_family":"BSD",
+   "license_file":"LICENSE",
+   "summary":"pyiron - an integrated development environment (IDE) for computational materials science."
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":"-m pip install . --no-deps -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "pyiron-runner",
+    "jan-janssen",
+    "sudarsan-surendralal",
+    "pyiron-runner",
+    "jan-janssen",
+    "sudarsan-surendralal",
+    "pyiron-runner",
+    "jan-janssen",
+    "sudarsan-surendralal"
+   ]
+  },
+  "package":{
+   "name":"pyiron",
+   "version":"0.2.14"
+  },
+  "requirements":{
+   "build":[
+    "python",
+    "pip",
+    "python",
+    "pip",
+    "python",
+    "pip"
+   ],
+   "run":[
+    "python",
+    "pip",
+    "ase >=3.17",
+    "defusedxml >=0.5.0",
+    "dill >=0.3.0",
+    "future >=0.17.1",
+    "gitpython >=2.1.11",
+    "h5io >=0.1.1",
+    "h5py >=2.9.0",
+    "matplotlib-base >=2.2.4",
+    "mendeleev >=0.5.1",
+    "numpy >=1.16.4",
+    "pandas >=0.24.2",
+    "pathlib2 >=2.3.4",
+    "phonopy >=2.3.2",
+    "psutil >=5.6.3",
+    "pyfileindex >=0.0.4",
+    "pysqa >=0.0.7",
+    "pytables >=3.5.1",
+    "scipy >=1.2.1",
+    "six >=1.12.0",
+    "spglib >=1.14.1",
+    "sqlalchemy >=1.3.8",
+    "tqdm >=4.35.0",
+    "quickff >=2.2.4",
+    "molmod >=1.4.5",
+    "tamkin >=1.2.6",
+    "yaff >=1.4.2",
+    "seekpath >=1.9.4",
+    "scikit-learn >=0.22",
+    "python",
+    "pip",
+    "ase >=3.17",
+    "defusedxml >=0.5.0",
+    "dill >=0.3.0",
+    "future >=0.17.1",
+    "gitpython >=2.1.11",
+    "h5io >=0.1.1",
+    "h5py >=2.9.0",
+    "matplotlib-base >=2.2.4",
+    "mendeleev >=0.5.1",
+    "numpy >=1.16.4",
+    "pandas >=0.24.2",
+    "pathlib2 >=2.3.4",
+    "phonopy >=2.3.2",
+    "psutil >=5.6.3",
+    "pyfileindex >=0.0.4",
+    "pysqa >=0.0.7",
+    "pytables >=3.5.1",
+    "scipy >=1.2.1",
+    "six >=1.12.0",
+    "spglib >=1.14.1",
+    "sqlalchemy >=1.3.8",
+    "tqdm >=4.35.0",
+    "quickff >=2.2.4",
+    "molmod >=1.4.5",
+    "tamkin >=1.2.6",
+    "yaff >=1.4.2",
+    "seekpath >=1.9.4",
+    "scikit-learn >=0.22",
+    "python",
+    "pip",
+    "ase >=3.17",
+    "defusedxml >=0.5.0",
+    "dill >=0.3.0",
+    "future >=0.17.1",
+    "gitpython >=2.1.11",
+    "h5io >=0.1.1",
+    "h5py >=2.9.0",
+    "matplotlib-base >=2.2.4",
+    "mendeleev >=0.5.1",
+    "numpy >=1.16.4",
+    "pandas >=0.24.2",
+    "pathlib2 >=2.3.4",
+    "phonopy >=2.3.2",
+    "psutil >=5.6.3",
+    "pyfileindex >=0.0.4",
+    "pysqa >=0.0.7",
+    "pytables >=3.5.1",
+    "scipy >=1.2.1",
+    "six >=1.12.0",
+    "spglib >=1.14.1",
+    "sqlalchemy >=1.3.8",
+    "tqdm >=4.35.0",
+    "quickff >=2.2.4",
+    "molmod >=1.4.5",
+    "tamkin >=1.2.6",
+    "yaff >=1.4.2",
+    "seekpath >=1.9.4",
+    "scikit-learn >=0.22"
+   ]
+  },
+  "source":{
+   "fn":"pyiron-0.2.14.tar.gz",
+   "sha256":"1b72ab6bc7da5a40203067e7f6a96e0ef809de1995a5f47c5c65f7e0408c4a4b",
+   "url":"https://pypi.io/packages/source/p/pyiron/pyiron-0.2.14.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "pip check",
+    "pip check",
+    "pip check"
+   ],
+   "imports":[
+    "pyiron",
+    "pyiron",
+    "pyiron"
+   ]
+  }
+ },
+ "name":"pyiron",
+ "new_version":"0.2.14",
+ "new_version_attempts":{
+  "0.2.11":1,
+  "0.2.12":1,
+  "0.2.13":1,
+  "0.2.14":1
+ },
+ "new_version_errors":{},
+ "pinning_version":"2020.05.06.22.15.02",
+ "raw_meta_yaml":"{% set name = \"pyiron\" %}\n{% set version = \"0.2.14\" %}\n{% set sha256 = \"1b72ab6bc7da5a40203067e7f6a96e0ef809de1995a5f47c5c65f7e0408c4a4b\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  fn: {{ name }}-{{ version }}.tar.gz\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 0\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  build:\n    - python\n    - pip\n  run:\n    - python\n    - pip\n    - ase >=3.17\n    - defusedxml >=0.5.0\n    - dill >=0.3.0\n    - future >=0.17.1\n    - gitpython >=2.1.11\n    - h5io >=0.1.1\n    - h5py >=2.9.0\n    - matplotlib-base >=2.2.4\n    - mendeleev >=0.5.1\n    - numpy >=1.16.4\n    - pandas >=0.24.2\n    - pathlib2 >=2.3.4\n    - phonopy >=2.3.2\n    - psutil >=5.6.3\n    - pyfileindex >=0.0.4\n    - pysqa >=0.0.7\n    - pytables >=3.5.1\n    - scipy >=1.2.1\n    - six >=1.12.0\n    - spglib >=1.14.1\n    - sqlalchemy >=1.3.8\n    - tqdm >=4.35.0\n    - quickff >=2.2.4\n    - molmod >=1.4.5\n    - tamkin >=1.2.6\n    - yaff >=1.4.2\n    - seekpath >=1.9.4\n    - scikit-learn >=0.22\n\ntest:\n  imports:\n    - pyiron\n  commands:\n    - pip check\n\nabout:\n  home: https://pyiron.org\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: LICENSE\n  summary: pyiron - an integrated development environment (IDE) for computational materials science.\n  description: |\n    pyiron was initially developed in the Computational Materials Design department of Joerg Neugebauer at the\n    Max Planck Insitut f\u00fcr Eisenforschung (Max Planck Insitute for iron research) as a framework for ab initio\n    thermodynamics. In collaboration with the Interdisciplinary Centre for Advanced Materials Simulation (ICAMS)\n    the framework was recently extended for high throughput applications resulting in the opensource release of\n    pyiron.\n  doc_url: https://pyiron.readthedocs.io\n  dev_url: https://github.com/pyiron\n\nextra:\n  recipe-maintainers:\n    - pyiron-runner\n    - jan-janssen\n    - sudarsan-surendralal\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "ase",
+   "defusedxml",
+   "dill",
+   "future",
+   "gitpython",
+   "h5io",
+   "h5py",
+   "matplotlib-base",
+   "mendeleev",
+   "molmod",
+   "numpy",
+   "pandas",
+   "pathlib2",
+   "phonopy",
+   "pip",
+   "psutil",
+   "pyfileindex",
+   "pysqa",
+   "pytables",
+   "python",
+   "quickff",
+   "scikit-learn",
+   "scipy",
+   "seekpath",
+   "six",
+   "spglib",
+   "sqlalchemy",
+   "tamkin",
+   "tqdm",
+   "yaff"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "ase",
+    "defusedxml",
+    "dill",
+    "future",
+    "gitpython",
+    "h5io",
+    "h5py",
+    "matplotlib-base",
+    "mendeleev",
+    "molmod",
+    "numpy",
+    "pandas",
+    "pathlib2",
+    "phonopy",
+    "pip",
+    "psutil",
+    "pyfileindex",
+    "pysqa",
+    "pytables",
+    "python",
+    "quickff",
+    "scikit-learn",
+    "scipy",
+    "seekpath",
+    "six",
+    "spglib",
+    "sqlalchemy",
+    "tamkin",
+    "tqdm",
+    "yaff"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.7.0\n",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "ase >=3.17",
+    "defusedxml >=0.5.0",
+    "dill >=0.3.0",
+    "future >=0.17.1",
+    "gitpython >=2.1.11",
+    "h5io >=0.1.1",
+    "h5py >=2.9.0",
+    "matplotlib-base >=2.2.4",
+    "mendeleev >=0.5.1",
+    "molmod >=1.4.5",
+    "numpy >=1.16.4",
+    "pandas >=0.24.2",
+    "pathlib2 >=2.3.4",
+    "phonopy >=2.3.2",
+    "pip",
+    "psutil >=5.6.3",
+    "pyfileindex >=0.0.4",
+    "pysqa >=0.0.7",
+    "pytables >=3.5.1",
+    "python",
+    "quickff >=2.2.4",
+    "scikit-learn >=0.22",
+    "scipy >=1.2.1",
+    "seekpath >=1.9.4",
+    "six >=1.12.0",
+    "spglib >=1.14.1",
+    "sqlalchemy >=1.3.8",
+    "tamkin >=1.2.6",
+    "tqdm >=4.35.0",
+    "yaff >=1.4.2"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/p/pyiron/pyiron-0.2.5.tar.gz",
+ "version":"0.2.14"
+}

@@ -1,0 +1,171 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/368213394.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.3.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"demquery",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"Wrapper around rasterio to query points on a Digital Elevation Model\n",
+   "dev_url":"https://github.com/kylebarron/demquery",
+   "doc_source_url":"https://github.com/kylebarron/demquery/blob/master/README.md",
+   "doc_url":"https://pypi.python.org/pypi/demquery",
+   "home":"https://github.com/kylebarron/demquery",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"LICENSE",
+   "summary":"Wrapper around rasterio to query points on a Digital Elevation Model"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . --no-deps -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "kylebarron",
+    "kylebarron",
+    "kylebarron"
+   ]
+  },
+  "package":{
+   "name":"demquery",
+   "version":"0.2.1"
+  },
+  "requirements":{
+   "host":[
+    "python >=3.5.0",
+    "pip",
+    "twine",
+    "python >=3.5.0",
+    "pip",
+    "twine",
+    "python >=3.5.0",
+    "pip",
+    "twine"
+   ],
+   "run":[
+    "python >=3.5.0",
+    "gdal >=2.4.0",
+    "numpy >=1.16",
+    "rasterio >=1.0",
+    "scipy",
+    "python >=3.5.0",
+    "gdal >=2.4.0",
+    "numpy >=1.16",
+    "rasterio >=1.0",
+    "scipy",
+    "python >=3.5.0",
+    "gdal >=2.4.0",
+    "numpy >=1.16",
+    "rasterio >=1.0",
+    "scipy"
+   ]
+  },
+  "source":{
+   "sha256":"91c9ccaf8726c3b435e135151916dd1d87678e5ab8409c717fdf6fbece273914",
+   "url":"https://pypi.io/packages/source/d/demquery/demquery-0.2.1.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "demquery",
+    "demquery",
+    "demquery"
+   ]
+  }
+ },
+ "name":"demquery",
+ "new_version":"0.3.0",
+ "pinning_version":"2020.01.27",
+ "raw_meta_yaml":"{% set version = \"0.2.1\" %}\n{% set name = \"demquery\" %}\n\npackage:\n  name: {{ name }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: 91c9ccaf8726c3b435e135151916dd1d87678e5ab8409c717fdf6fbece273914\n\nbuild:\n  noarch: python\n  number: 0\n  script: \"{{ PYTHON }} -m pip install . --no-deps -vv\"\n\nrequirements:\n  host:\n    - python >=3.5.0\n    - pip\n    - twine\n  run:\n    - python >=3.5.0\n    - gdal >=2.4.0\n    - numpy >=1.16\n    - rasterio >=1.0\n    - scipy\n\ntest:\n  imports:\n    - {{ name }}\n\nabout:\n  home: https://github.com/kylebarron/{{ name }}\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE\n  summary: 'Wrapper around rasterio to query points on a Digital Elevation Model'\n  description: |\n    Wrapper around rasterio to query points on a Digital Elevation Model\n  dev_url: https://github.com/kylebarron/{{ name }}\n  doc_url: https://pypi.python.org/pypi/{{ name }}\n  doc_source_url: https://github.com/kylebarron/{{ name }}/blob/master/README.md\n\nextra:\n  recipe-maintainers:\n    - kylebarron\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "gdal",
+   "numpy",
+   "pip",
+   "python",
+   "rasterio",
+   "scipy",
+   "twine"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python",
+    "twine"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "gdal",
+    "numpy",
+    "python",
+    "rasterio",
+    "scipy"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.6.6",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3.5.0",
+    "twine"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "gdal >=2.4.0",
+    "numpy >=1.16",
+    "python >=3.5.0",
+    "rasterio >=1.0",
+    "scipy"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/d/demquery/demquery-0.2.1.tar.gz",
+ "version":"0.2.1"
+}

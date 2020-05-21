@@ -1,0 +1,163 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/265472086.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.6.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"tornado-sqlalchemy",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "dev_url":"https://github.com/siddhantgoel/tornado-sqlalchemy",
+   "doc_url":"https://tornado-sqlalchemy.readthedocs.io/",
+   "home":"https://github.com/siddhantgoel/tornado-sqlalchemy",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":null,
+   "summary":"SQLAlchemy helpers for working in Tornado"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "lincrosenbach",
+    "kfasolin",
+    "nicoddemus",
+    "lincrosenbach",
+    "kfasolin",
+    "nicoddemus",
+    "lincrosenbach",
+    "kfasolin",
+    "nicoddemus"
+   ]
+  },
+  "package":{
+   "name":"tornado-sqlalchemy",
+   "version":"0.6.1"
+  },
+  "requirements":{
+   "host":[
+    "pip",
+    "python >=3.5",
+    "pip",
+    "python >=3.5",
+    "pip",
+    "python >=3.5"
+   ],
+   "run":[
+    "python >=3.5",
+    "sqlalchemy >=1.0",
+    "tornado >=4.0",
+    "python >=3.5",
+    "sqlalchemy >=1.0",
+    "tornado >=4.0",
+    "python >=3.5",
+    "sqlalchemy >=1.0",
+    "tornado >=4.0"
+   ]
+  },
+  "source":{
+   "sha256":"0d5d616a4edf4a01825a8e4acf7ff6b3c4192a1b49ca537da9a893a82bcb5b97",
+   "url":"https://pypi.io/packages/source/t/tornado-sqlalchemy/tornado_sqlalchemy-0.6.1.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "tornado_sqlalchemy",
+    "tornado_sqlalchemy",
+    "tornado_sqlalchemy"
+   ]
+  }
+ },
+ "name":"tornado-sqlalchemy",
+ "new_version":"0.7.0",
+ "new_version_attempts":{
+  "0.7.0":717
+ },
+ "new_version_errors":{
+  "0.7.0":"The recipe did not change in the version migration, a URL did not hash, or there is jinja2 syntax the bot cannot handle!\n\nPlease check the URLs in your recipe with version '0.7.0' to make sure they exist!\n\nWe also found the following errors:\n\n - could not hash URL template 'https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/tornado_sqlalchemy-{{ version }}.tar.gz'\n"
+ },
+ "pinning_version":"2019.03.17",
+ "raw_meta_yaml":"{% set name = \"tornado-sqlalchemy\" %}\n{% set version = \"0.6.1\" %}\n\npackage:\n  name: \"{{ name|lower }}\"\n  version: \"{{ version }}\"\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/tornado_sqlalchemy-{{ version }}.tar.gz\n  sha256: 0d5d616a4edf4a01825a8e4acf7ff6b3c4192a1b49ca537da9a893a82bcb5b97\n\nbuild:\n  noarch: python\n  number: 0\n  script: \"{{ PYTHON }} -m pip install . -vv\"\n\nrequirements:\n  host:\n    - pip\n    - python >=3.5\n  run:\n    - python >=3.5\n    - sqlalchemy >=1.0\n    - tornado >=4.0\n\ntest:\n  imports:\n    - tornado_sqlalchemy\n\nabout:\n  home: https://github.com/siddhantgoel/tornado-sqlalchemy\n  license: MIT\n  license_family: MIT\n  license_file: \n  summary: SQLAlchemy helpers for working in Tornado\n  doc_url: https://tornado-sqlalchemy.readthedocs.io/\n  dev_url: https://github.com/siddhantgoel/tornado-sqlalchemy\n\nextra:\n  recipe-maintainers:\n    - lincrosenbach\n    - kfasolin\n    - nicoddemus\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "pip",
+   "python",
+   "sqlalchemy",
+   "tornado"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "python",
+    "sqlalchemy",
+    "tornado"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.3.2",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3.5"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "python >=3.5",
+    "sqlalchemy >=1.0",
+    "tornado >=4.0"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/t/tornado-sqlalchemy/tornado_sqlalchemy-0.6.1.tar.gz",
+ "version":"0.6.1"
+}

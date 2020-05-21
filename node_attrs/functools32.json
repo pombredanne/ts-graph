@@ -1,0 +1,139 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/217485129.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"functools32",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"https://github.com/MiCHiLU/python-functools32",
+   "license":"PSF 2",
+   "license_file":"LICENSE",
+   "summary":"Backport of the functools module from Python 3.2.3 for use on 2.7 and PyPy"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"3",
+   "script":" -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "jakirkham",
+    "ocefpaf",
+    "jakirkham",
+    "ocefpaf",
+    "jakirkham",
+    "ocefpaf"
+   ]
+  },
+  "package":{
+   "name":"functools32",
+   "version":"3.2.3.2"
+  },
+  "requirements":{
+   "host":[
+    "python <3",
+    "pip",
+    "python <3",
+    "pip",
+    "python <3",
+    "pip"
+   ],
+   "run":[
+    "python <3",
+    "python <3",
+    "python <3"
+   ]
+  },
+  "source":{
+   "sha256":"f6253dfbe0538ad2e387bd8fdfd9293c925d63553f5813c4e587745416501e6d",
+   "url":"https://pypi.io/packages/source/f/functools32/functools32-3.2.3-2.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "functools32",
+    "functools32",
+    "functools32"
+   ]
+  }
+ },
+ "name":"functools32",
+ "new_version":"3.2.3-2",
+ "pinning_version":"2018.09.20",
+ "raw_meta_yaml":"{% set version = \"3.2.3\" %}\n{% set subversion = \"2\" %}\n\npackage:\n  name: functools32\n  version: {{ version }}.{{ subversion }}\n\nsource:\n  url: https://pypi.io/packages/source/f/functools32/functools32-{{ version }}-{{ subversion }}.tar.gz\n  sha256: f6253dfbe0538ad2e387bd8fdfd9293c925d63553f5813c4e587745416501e6d\n\nbuild:\n  number: 3\n  noarch: python\n  script: \"{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv\"\n\nrequirements:\n  host:\n    - python <3\n    - pip\n  run:\n    - python <3\n\ntest:\n  imports:\n    - functools32\n\nabout:\n  home: https://github.com/MiCHiLU/python-functools32\n  license: PSF 2\n  license_file: LICENSE\n  summary: 'Backport of the functools module from Python 3.2.3 for use on 2.7 and PyPy'\n\nextra:\n  recipe-maintainers:\n    - jakirkham\n    - ocefpaf\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "pip",
+   "python"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.1.12",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python <3"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "python <3"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/f/functools32/functools32-3.2.3-2.tar.gz",
+ "version":"3.2.3.2"
+}

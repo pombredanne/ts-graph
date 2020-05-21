@@ -1,0 +1,163 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/274134706.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.6.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"sphinxcontrib-doxylink",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "dev_url":"https://github.com/sphinx-contrib/doxylink",
+   "doc_url":"http://sphinxcontrib-doxylink.readthedocs.io",
+   "home":"http://sphinxcontrib-doxylink.readthedocs.io",
+   "license":"BSD",
+   "license_family":"BSD",
+   "license_file":"LICENSE",
+   "summary":"Sphinx extension for linking to Doxygen documentation."
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . --no-deps --ignore-installed -vv "
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "duncanmmacleod",
+    "duncanmmacleod",
+    "duncanmmacleod"
+   ]
+  },
+  "package":{
+   "name":"sphinxcontrib-doxylink",
+   "version":"1.6.1"
+  },
+  "requirements":{
+   "host":[
+    "python >=3.4",
+    "pip",
+    "setuptools",
+    "python >=3.4",
+    "pip",
+    "setuptools",
+    "python >=3.4",
+    "pip",
+    "setuptools"
+   ],
+   "run":[
+    "pyparsing",
+    "python >=3.4",
+    "sphinx >=0.6",
+    "sphinxcontrib",
+    "pyparsing",
+    "python >=3.4",
+    "sphinx >=0.6",
+    "sphinxcontrib",
+    "pyparsing",
+    "python >=3.4",
+    "sphinx >=0.6",
+    "sphinxcontrib"
+   ]
+  },
+  "source":{
+   "sha256":"021fa1df54041de9cb683bd7a297bd04ebad4107b3a64917ec26bbeb5923dfda",
+   "url":"https://pypi.io/packages/source/s/sphinxcontrib-doxylink/sphinxcontrib-doxylink-1.6.1.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "sphinxcontrib.doxylink",
+    "sphinxcontrib.doxylink",
+    "sphinxcontrib.doxylink"
+   ]
+  }
+ },
+ "name":"sphinxcontrib-doxylink",
+ "new_version":"1.6.1",
+ "pinning_version":"2019.04.25",
+ "raw_meta_yaml":"{% set name = \"sphinxcontrib-doxylink\" %}\n{% set version = \"1.6.1\" %}\n\npackage:\n  name: \"{{ name|lower }}\"\n  version: \"{{ version }}\"\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: 021fa1df54041de9cb683bd7a297bd04ebad4107b3a64917ec26bbeb5923dfda\n\nbuild:\n  number: 0\n  noarch: python\n  script: \"{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv \"\n\nrequirements:\n  host:\n    - python >=3.4\n    - pip\n    - setuptools\n  run:\n    - pyparsing\n    - python >=3.4\n    - sphinx >=0.6\n    - sphinxcontrib\n\ntest:\n  imports:\n    - sphinxcontrib.doxylink\n\nabout:\n  home: http://sphinxcontrib-doxylink.readthedocs.io\n  license: BSD\n  license_family: BSD\n  license_file: LICENSE\n  summary: Sphinx extension for linking to Doxygen documentation.\n  doc_url: http://sphinxcontrib-doxylink.readthedocs.io\n  dev_url: https://github.com/sphinx-contrib/doxylink\n\nextra:\n  recipe-maintainers:\n    - duncanmmacleod\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "pip",
+   "pyparsing",
+   "python",
+   "setuptools",
+   "sphinx",
+   "sphinxcontrib"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python",
+    "setuptools"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "pyparsing",
+    "python",
+    "sphinx",
+    "sphinxcontrib"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.3.4",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3.4",
+    "setuptools"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "pyparsing",
+    "python >=3.4",
+    "sphinx >=0.6",
+    "sphinxcontrib"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/s/sphinxcontrib-doxylink/sphinxcontrib-doxylink-1.6.1.tar.gz",
+ "version":"1.6.1"
+}

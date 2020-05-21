@@ -1,0 +1,6 @@
+{
+ "bad":"Upstream: Error getting upstream version",
+ "feedstock_name":"aha",
+ "new_version":false,
+ "raw_meta_yaml":"{% set version = \"0.5\" %}\n\npackage:\n  name: aha\n  version: {{ version }}\n\nsource:\n  url: https://github.com/theZiz/aha/archive/{{ version }}.tar.gz\n  sha256: 6f8b044bee9760a1a85dffbc362e532d7dd91bb20b7ed4f241ff1119ad74758f\n\nbuild:\n  skip: true  # [win]\n  number: 0 \n\nrequirements:\n  build:\n    - {{ compiler('c') }}\n    - make  # [not win]\n\ntest:\n  commands:\n    - aha -h\n\nabout:\n  home: https://github.com/theZiz/aha\n  license: MPL-1.1\n  license_file: LICENSE.MPL1.1\n  summary: \"Converts ANSI escape sequences of a unix terminal to HTML code.\"\n  description: |\n    Converts ANSI escape sequences of a unix terminal to HTML code.\n  doc_url: https://github.com/theZiz/aha\n  dev_url: https://github.com/theZiz/aha\n\nextra:\n  recipe-maintainers:\n    - bsipos\n"
+}

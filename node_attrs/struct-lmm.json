@@ -1,0 +1,170 @@
+{
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"struct-lmm",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "dev_url":"https://github.com/limix/struct-lmm",
+   "home":"https://github.com/limix/struct-lmm",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"LICENSE.md",
+   "summary":"StructLMM tests for and characterizes loci that interact with environments"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "Horta",
+    "Horta",
+    "Horta"
+   ]
+  },
+  "package":{
+   "name":"struct-lmm",
+   "version":"0.3.1"
+  },
+  "requirements":{
+   "host":[
+    "pip",
+    "pytest-runner",
+    "python >3",
+    "setuptools >=39.0.1",
+    "pip",
+    "pytest-runner",
+    "python >3",
+    "setuptools >=39.0.1",
+    "pip",
+    "pytest-runner",
+    "python >3",
+    "setuptools >=39.0.1"
+   ],
+   "run":[
+    "chiscore >=0.2.0",
+    "glimix-core >=3.1.7",
+    "numpy >=1.15",
+    "numpy-sugar >=1.5.0",
+    "pytest >=4",
+    "pytest-doctestplus >=0.3.0",
+    "python >3",
+    "chiscore >=0.2.0",
+    "glimix-core >=3.1.7",
+    "numpy >=1.15",
+    "numpy-sugar >=1.5.0",
+    "pytest >=4",
+    "pytest-doctestplus >=0.3.0",
+    "python >3",
+    "chiscore >=0.2.0",
+    "glimix-core >=3.1.7",
+    "numpy >=1.15",
+    "numpy-sugar >=1.5.0",
+    "pytest >=4",
+    "pytest-doctestplus >=0.3.0",
+    "python >3"
+   ]
+  },
+  "source":{
+   "sha256":"608cb82be883d640ef5490e513179984c0353d319c221af183b0dbe7b77af9f7",
+   "url":"https://pypi.io/packages/source/s/struct-lmm/struct-lmm-0.3.1.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "python -c \"import sys; import struct_lmm; sys.exit(struct_lmm.test())\"",
+    "python -c \"import sys; import struct_lmm; sys.exit(struct_lmm.test())\"",
+    "python -c \"import sys; import struct_lmm; sys.exit(struct_lmm.test())\""
+   ],
+   "imports":[
+    "struct_lmm",
+    "struct_lmm",
+    "struct_lmm"
+   ]
+  }
+ },
+ "name":"struct-lmm",
+ "new_version":"0.3.1",
+ "raw_meta_yaml":"{% set name = \"struct-lmm\" %}\n{% set version = \"0.3.1\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: 608cb82be883d640ef5490e513179984c0353d319c221af183b0dbe7b77af9f7\n\nbuild:\n  noarch: python\n  number: 0\n  script: \"{{ PYTHON }} -m pip install . -vv\"\n\nrequirements:\n  host:\n    - pip\n    - pytest-runner\n    - python >3\n    - setuptools >=39.0.1\n  run:\n    - chiscore >=0.2.0\n    - glimix-core >=3.1.7\n    - numpy >=1.15\n    - numpy-sugar >=1.5.0\n    - pytest >=4\n    - pytest-doctestplus >=0.3.0\n    - python >3\n\ntest:\n  imports:\n    - struct_lmm\n  commands:\n    - python -c \"import sys; import struct_lmm; sys.exit(struct_lmm.test())\"\n\nabout:\n  home: https://github.com/limix/struct-lmm\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE.md\n  summary: 'StructLMM tests for and characterizes loci that interact with environments'\n  dev_url: https://github.com/limix/struct-lmm\n\nextra:\n  recipe-maintainers:\n    - Horta\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "chiscore",
+   "glimix-core",
+   "numpy",
+   "numpy-sugar",
+   "pip",
+   "pytest",
+   "pytest-doctestplus",
+   "pytest-runner",
+   "python",
+   "setuptools"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "pytest-runner",
+    "python",
+    "setuptools"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "chiscore",
+    "glimix-core",
+    "numpy",
+    "numpy-sugar",
+    "pytest",
+    "pytest-doctestplus",
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "pytest-runner",
+    "python >3",
+    "setuptools >=39.0.1"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "chiscore >=0.2.0",
+    "glimix-core >=3.1.7",
+    "numpy >=1.15",
+    "numpy-sugar >=1.5.0",
+    "pytest >=4",
+    "pytest-doctestplus >=0.3.0",
+    "python >3"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/s/struct-lmm/struct-lmm-0.3.1.tar.gz",
+ "version":"0.3.1"
+}

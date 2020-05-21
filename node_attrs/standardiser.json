@@ -1,0 +1,156 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/296108901.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.1.9"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"standardiser",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "dev_url":"https://github.com/flatkinson/standardiser",
+   "home":"https://www.ebi.ac.uk/chembldb/index.php/ws",
+   "license":"Apache Software",
+   "license_family":"APACHE",
+   "summary":"Provides a simple way of standardising molecules as a prelude to e.g. molecular modelling exercises."
+  },
+  "build":{
+   "entry_points":[
+    "standardiser=standardiser.bin.standardiser:main",
+    "standardiser=standardiser.bin.standardiser:main",
+    "standardiser=standardiser.bin.standardiser:main"
+   ],
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . --no-deps --ignore-installed -vv "
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "tsenapathi",
+    "tsenapathi",
+    "tsenapathi"
+   ]
+  },
+  "package":{
+   "name":"standardiser",
+   "version":"0.1.7"
+  },
+  "requirements":{
+   "host":[
+    "pip",
+    "python <3",
+    "pip",
+    "python <3",
+    "pip",
+    "python <3"
+   ],
+   "run":[
+    "python <3",
+    "rdkit",
+    "python <3",
+    "rdkit",
+    "python <3",
+    "rdkit"
+   ]
+  },
+  "source":{
+   "sha256":"58438da017fa559a8ec7d9b3d3c18ff06d172f2437c8172af50d0d67dc39f462",
+   "url":"https://pypi.io/packages/source/s/standardiser/standardiser-0.1.7.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "standardiser --help",
+    "standardiser --help",
+    "standardiser --help"
+   ],
+   "imports":[
+    "standardiser",
+    "standardiser.bin",
+    "standardiser",
+    "standardiser.bin",
+    "standardiser",
+    "standardiser.bin"
+   ]
+  }
+ },
+ "name":"standardiser",
+ "new_version":"0.1.9",
+ "pinning_version":"2019.07.04",
+ "raw_meta_yaml":"{% set name = \"standardiser\" %}\n{% set version = \"0.1.7\" %}\n\npackage:\n  name: \"{{ name|lower }}\"\n  version: \"{{ version }}\"\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: 58438da017fa559a8ec7d9b3d3c18ff06d172f2437c8172af50d0d67dc39f462\n\nbuild:\n  noarch: python\n  number: 0\n  entry_points:\n    - standardiser=standardiser.bin.standardiser:main\n  script: \"{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv \"\n\nrequirements:\n  host:\n    - pip\n    - python <3\n  run:\n    - python <3\n    - rdkit\n\ntest:\n  imports:\n    - standardiser\n    - standardiser.bin\n  commands:\n    - standardiser --help\n\nabout:\n  home: https://www.ebi.ac.uk/chembldb/index.php/ws\n  license: Apache Software\n  license_family: APACHE\n  summary: Provides a simple way of standardising molecules as a prelude to e.g. molecular modelling exercises. \n  dev_url: https://github.com/flatkinson/standardiser\n\nextra:\n  recipe-maintainers:\n    - tsenapathi\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "pip",
+   "python",
+   "rdkit"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "python",
+    "rdkit"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.4.0",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python <3"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "python <3",
+    "rdkit"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/s/standardiser/standardiser-0.1.7.tar.gz",
+ "version":"0.1.7"
+}

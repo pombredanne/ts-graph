@@ -1,0 +1,125 @@
+{
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"jupyterlab_latex",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"An extension for JupyterLab which allows for live-editing of LaTeX\ndocuments.\n",
+   "dev_url":"https://github.com/jupyterlab/jupyterlab-latex",
+   "doc_url":"https://github.com/jupyterlab/jupyterlab-latex/blob/master/docs/advanced.md",
+   "home":"http://jupyter.org",
+   "license":"BSD-3-Clause",
+   "license_family":"BSD",
+   "license_file":"LICENSE",
+   "summary":"JupyterLab extension for live editing of LaTeX documents"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "jan-janssen",
+    "jan-janssen",
+    "jan-janssen"
+   ]
+  },
+  "package":{
+   "name":"jupyterlab_latex",
+   "version":"2.0.0"
+  },
+  "requirements":{
+   "host":[
+    "python >=3.6",
+    "pip",
+    "python >=3.6",
+    "pip",
+    "python >=3.6",
+    "pip"
+   ],
+   "run":[
+    "python >=3.6",
+    "notebook",
+    "python >=3.6",
+    "notebook",
+    "python >=3.6",
+    "notebook"
+   ]
+  },
+  "source":{
+   "sha256":"722558144e6ce71abe4fba0fb01c13c37271fa2497881bfebe9b6422d1fc795b",
+   "url":"https://pypi.io/packages/source/j/jupyterlab_latex/jupyterlab_latex-2.0.0.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "jupyterlab_latex",
+    "jupyterlab_latex",
+    "jupyterlab_latex"
+   ]
+  }
+ },
+ "name":"jupyterlab_latex",
+ "new_version":"2.0.0",
+ "raw_meta_yaml":"{% set name = \"jupyterlab_latex\" %}\n{% set version = \"2.0.0\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: 722558144e6ce71abe4fba0fb01c13c37271fa2497881bfebe9b6422d1fc795b\n\nbuild:\n  noarch: python\n  number: 0\n  script: \"{{ PYTHON }} -m pip install . -vv\"\n\nrequirements:\n  host:\n    - python >=3.6\n    - pip\n  run:\n    - python >=3.6\n    - notebook\n\ntest:\n  imports:\n    - jupyterlab_latex\n\nabout:\n  home: http://jupyter.org\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: LICENSE\n  summary: 'JupyterLab extension for live editing of LaTeX documents'\n\n  description: |\n    An extension for JupyterLab which allows for live-editing of LaTeX \n    documents.\n  doc_url: https://github.com/jupyterlab/jupyterlab-latex/blob/master/docs/advanced.md\n  dev_url: https://github.com/jupyterlab/jupyterlab-latex\n\nextra:\n  recipe-maintainers:\n    - jan-janssen\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "notebook",
+   "pip",
+   "python"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "notebook",
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3.6"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "notebook",
+    "python >=3.6"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/j/jupyterlab_latex/jupyterlab_latex-2.0.0.tar.gz",
+ "version":"2.0.0"
+}

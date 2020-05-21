@@ -1,0 +1,218 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/408733526.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.36.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/0b08612b-ad96-4035-855a-bdc355b06012.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"pypy"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/410858644.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"python38"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"adwaita-icon-theme",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"This package contains the default icon theme used by the GNOME desktop.\nThe icons are used in many of the official GNOME applications like eog,\nEvince, system monitor, and many more.\n",
+   "dev_url":"https://gitlab.gnome.org/GNOME/adwaita-icon-theme",
+   "home":"https://developer.gnome.org",
+   "license":"LGPL-3.0-or-later OR CC-BY-SA-3.0",
+   "license_family":"LGPL",
+   "license_file":"COPYING",
+   "summary":"The default icon theme used by the GNOME desktop"
+  },
+  "build":{
+   "ignore_run_exports":null,
+   "merge_build_host":false,
+   "number":"0"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "ryanvolz",
+    "stuarteberg",
+    "ryanvolz",
+    "stuarteberg",
+    "ryanvolz",
+    "stuarteberg"
+   ]
+  },
+  "package":{
+   "name":"adwaita-icon-theme",
+   "version":"3.36.1"
+  },
+  "requirements":{
+   "build":[
+    "gtk3",
+    "librsvg",
+    "python",
+    "gtk3",
+    "librsvg",
+    "make",
+    "python",
+    "gtk3",
+    "librsvg",
+    "make",
+    "python"
+   ],
+   "host":null,
+   "run":[
+    "hicolor-icon-theme",
+    "librsvg",
+    "hicolor-icon-theme",
+    "librsvg",
+    "hicolor-icon-theme",
+    "librsvg"
+   ]
+  },
+  "source":{
+   "sha256":"e498518627044dfd7db7d79a5b3d437848caf1991ef4ef036a2d3a2ac2c1f14d",
+   "url":"https://download.gnome.org/sources/adwaita-icon-theme/3.36/adwaita-icon-theme-3.36.1.tar.xz"
+  },
+  "test":{
+   "commands":[
+    "if not exist %PREFIX%\\Library\\share\\icons\\Adwaita\\icon-theme.cache exit 1",
+    "if not exist %PREFIX%\\Library\\share\\icons\\Adwaita\\index.theme exit 1",
+    "if not exist %PREFIX%\\Library\\share\\icons\\Adwaita\\16x16\\devices\\computer.png  exit 1",
+    "if not exist %PREFIX%\\Library\\share\\icons\\Adwaita\\16x16\\devices\\computer-symbolic.symbolic.png  exit 1",
+    "if not exist %PREFIX%\\Library\\share\\icons\\Adwaita\\cursors\\cross exit 1",
+    "if not exist %PREFIX%\\Library\\share\\icons\\Adwaita\\cursors\\cross.cur exit 1",
+    "if not exist %PREFIX%\\Library\\share\\icons\\Adwaita\\scalable\\devices\\computer-symbolic.svg exit 1",
+    "test -f $PREFIX/share/icons/Adwaita/icon-theme.cache",
+    "test -f $PREFIX/share/icons/Adwaita/index.theme",
+    "test -f $PREFIX/share/icons/Adwaita/16x16/devices/computer.png",
+    "test -f $PREFIX/share/icons/Adwaita/16x16/devices/computer-symbolic.symbolic.png",
+    "test -f $PREFIX/share/icons/Adwaita/cursors/cross",
+    "test -f $PREFIX/share/icons/Adwaita/scalable/devices/computer-symbolic.svg",
+    "test -f $PREFIX/share/icons/Adwaita/icon-theme.cache",
+    "test -f $PREFIX/share/icons/Adwaita/index.theme",
+    "test -f $PREFIX/share/icons/Adwaita/16x16/devices/computer.png",
+    "test -f $PREFIX/share/icons/Adwaita/16x16/devices/computer-symbolic.symbolic.png",
+    "test -f $PREFIX/share/icons/Adwaita/cursors/cross",
+    "test -f $PREFIX/share/icons/Adwaita/scalable/devices/computer-symbolic.svg"
+   ]
+  }
+ },
+ "name":"adwaita-icon-theme",
+ "new_version":"3.36.1",
+ "new_version_attempts":{
+  "3.36.1":1
+ },
+ "new_version_errors":{},
+ "pinning_version":"2020.04.28.13.02.26",
+ "raw_meta_yaml":"{% set name = \"adwaita-icon-theme\" %}\n{% set version = \"3.36.1\" %}\n{% set majmin_version = \"3.36\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://download.gnome.org/sources/{{ name }}/{{ majmin_version }}/{{ name }}-{{ version }}.tar.xz\n  sha256: e498518627044dfd7db7d79a5b3d437848caf1991ef4ef036a2d3a2ac2c1f14d\n\nbuild:\n  number: 0\n  merge_build_host: false  # [not win]\n  # windows build assume one prefix (between e.g. python/gtk3), so use merged host/build\n  merge_build_host: true  # [win]\n  ignore_run_exports:\n    - gtk3  # [win]\n    - librsvg  # [win]\n\nrequirements:\n  build:\n    # gtk3 and librsvg here for rendering svg to png, build ok because platform independent\n    - gtk3\n    - librsvg\n    - make  # [unix]\n    - python\n  host:\n    # explicitly empty\n  run:\n    - hicolor-icon-theme\n    # librsvg needed at runtime for libpixbufloader-svg.so so svgs can be rendered\n    - librsvg\n\ntest:\n  commands:\n    # test that a representative set of files get installed\n    - test -f $PREFIX/share/icons/Adwaita/icon-theme.cache  # [unix]\n    - test -f $PREFIX/share/icons/Adwaita/index.theme  # [unix]\n    - test -f $PREFIX/share/icons/Adwaita/16x16/devices/computer.png  # [unix]\n    - test -f $PREFIX/share/icons/Adwaita/16x16/devices/computer-symbolic.symbolic.png  # [unix]\n    - test -f $PREFIX/share/icons/Adwaita/cursors/cross  # [unix]\n    - test -f $PREFIX/share/icons/Adwaita/scalable/devices/computer-symbolic.svg  # [unix]\n    - if not exist %PREFIX%\\Library\\share\\icons\\Adwaita\\icon-theme.cache exit 1  # [win]\n    - if not exist %PREFIX%\\Library\\share\\icons\\Adwaita\\index.theme exit 1  # [win]\n    - if not exist %PREFIX%\\Library\\share\\icons\\Adwaita\\16x16\\devices\\computer.png  exit 1  # [win]\n    - if not exist %PREFIX%\\Library\\share\\icons\\Adwaita\\16x16\\devices\\computer-symbolic.symbolic.png  exit 1  # [win]\n    - if not exist %PREFIX%\\Library\\share\\icons\\Adwaita\\cursors\\cross exit 1  # [win]\n    - if not exist %PREFIX%\\Library\\share\\icons\\Adwaita\\cursors\\cross.cur exit 1  # [win]\n    - if not exist %PREFIX%\\Library\\share\\icons\\Adwaita\\scalable\\devices\\computer-symbolic.svg exit 1  # [win]\n\nabout:\n  home: https://developer.gnome.org\n  license: LGPL-3.0-or-later OR CC-BY-SA-3.0\n  license_family: LGPL\n  license_file: COPYING\n  summary: The default icon theme used by the GNOME desktop\n  description: |\n    This package contains the default icon theme used by the GNOME desktop.\n    The icons are used in many of the official GNOME applications like eog,\n    Evince, system monitor, and many more.\n  dev_url: https://gitlab.gnome.org/GNOME/adwaita-icon-theme\n\nextra:\n  recipe-maintainers:\n    - ryanvolz\n    - stuarteberg\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "gtk3",
+   "hicolor-icon-theme",
+   "librsvg",
+   "make",
+   "python"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "gtk3",
+    "librsvg",
+    "make",
+    "python"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "hicolor-icon-theme",
+    "librsvg"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.7.0",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "gtk3",
+    "librsvg",
+    "make",
+    "python"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "hicolor-icon-theme",
+    "librsvg"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://download.gnome.org/sources/adwaita-icon-theme/3.36/adwaita-icon-theme-3.36.0.tar.xz",
+ "version":"3.36.1"
+}

@@ -1,0 +1,467 @@
+{
+ "PRed":[
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.10.5"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/199951331.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.10.7"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/226623837.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.10.8"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/245716817.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.11.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/256354960.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.11.3"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/269322380.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.12.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/274999415.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.12.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/280462920.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.12.3"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/304329092.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.12.4"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/307465491.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.12.5"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/326014440.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.12.6"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/344749174.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.12.7"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/391973710.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.13.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/393654038.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.13.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/397322046.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.13.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"holoviews",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"HoloViews is an open-source Python library designed to make data analysis\nand visualization seamless and simple. With HoloViews, you can usually\nexpress what you want to do in very few lines of code, letting you focus on\nwhat you are trying to explore and convey, not on the process of plotting.\n",
+   "dev_url":"https://github.com/ioam/holoviews",
+   "doc_url":"http://holoviews.org/getting_started/index.html",
+   "home":"www.holoviews.org",
+   "license":"BSD-3-Clause",
+   "license_file":"LICENSE.txt",
+   "summary":"Stop plotting your data - annotate your data and let it visualize itself."
+  },
+  "build":{
+   "entry_points":[
+    "holoviews = holoviews.util.command:main",
+    "holoviews = holoviews.util.command:main",
+    "holoviews = holoviews.util.command:main"
+   ],
+   "noarch":"python",
+   "number":"0",
+   "script":"-m pip install . --no-deps -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "jlstevens",
+    "philippjfr",
+    "basnijholt",
+    "jlstevens",
+    "philippjfr",
+    "basnijholt",
+    "jlstevens",
+    "philippjfr",
+    "basnijholt"
+   ]
+  },
+  "package":{
+   "name":"holoviews",
+   "version":"1.13.2"
+  },
+  "requirements":{
+   "host":[
+    "python",
+    "pip",
+    "pyct",
+    "param >=1.6.1,<2.0",
+    "python",
+    "pip",
+    "pyct",
+    "param >=1.6.1,<2.0",
+    "python",
+    "pip",
+    "pyct",
+    "param >=1.6.1,<2.0"
+   ],
+   "run":[
+    "python",
+    "param >=1.9.3,<2.0",
+    "panel >=0.7.0",
+    "numpy >=1.0",
+    "pandas >=0.20.0",
+    "matplotlib-base >=2.2",
+    "bokeh >=1.1.0",
+    "notebook",
+    "ipython >=5.4.0",
+    "pyviz_comms >=0.7.4",
+    "python",
+    "param >=1.9.3,<2.0",
+    "panel >=0.7.0",
+    "numpy >=1.0",
+    "pandas >=0.20.0",
+    "matplotlib-base >=2.2",
+    "bokeh >=1.1.0",
+    "notebook",
+    "ipython >=5.4.0",
+    "pyviz_comms >=0.7.4",
+    "python",
+    "param >=1.9.3,<2.0",
+    "panel >=0.7.0",
+    "numpy >=1.0",
+    "pandas >=0.20.0",
+    "matplotlib-base >=2.2",
+    "bokeh >=1.1.0",
+    "notebook",
+    "ipython >=5.4.0",
+    "pyviz_comms >=0.7.4"
+   ]
+  },
+  "source":{
+   "sha256":"cf2dd426cdc08bf2ca669268ca0432634574429e5b143314ee06ad88c5382802",
+   "url":"https://pypi.io/packages/source/h/holoviews/holoviews-1.13.2.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "pip check",
+    "holoviews -h",
+    "pip check",
+    "holoviews -h",
+    "pip check",
+    "holoviews -h"
+   ],
+   "imports":[
+    "holoviews",
+    "holoviews",
+    "holoviews"
+   ],
+   "requires":[
+    "pip",
+    "pip",
+    "pip"
+   ]
+  }
+ },
+ "name":"holoviews",
+ "new_version":"1.13.2",
+ "pinning_version":"2020.03.30",
+ "raw_meta_yaml":"{% set version = \"1.13.2\" %}\n\npackage:\n  name: holoviews\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/h/holoviews/holoviews-{{ version }}.tar.gz\n  sha256: cf2dd426cdc08bf2ca669268ca0432634574429e5b143314ee06ad88c5382802\n\nbuild:\n  number: 0\n  noarch: python\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n  entry_points:\n    - holoviews = holoviews.util.command:main\n\nrequirements:\n  host:\n    - python\n    - pip\n    - pyct\n    - param >=1.6.1,<2.0\n  run:\n    - python\n    - param >=1.9.3,<2.0\n    - panel >=0.7.0\n    - numpy >=1.0\n    - pandas >=0.20.0\n    - matplotlib-base >=2.2\n    - bokeh >=1.1.0\n    - notebook\n    - ipython >=5.4.0\n    - pyviz_comms >=0.7.4\n\ntest:\n  imports:\n    - holoviews\n  commands:\n    - pip check\n    - holoviews -h\n  requires:\n    - pip\n\nabout:\n  home: www.holoviews.org\n  summary: Stop plotting your data - annotate your data and let it visualize itself.\n  description: |\n    HoloViews is an open-source Python library designed to make data analysis\n    and visualization seamless and simple. With HoloViews, you can usually\n    express what you want to do in very few lines of code, letting you focus on\n    what you are trying to explore and convey, not on the process of plotting.\n  license: BSD-3-Clause\n  license_file: LICENSE.txt\n  dev_url: https://github.com/ioam/holoviews\n  doc_url: http://holoviews.org/getting_started/index.html\n\nextra:\n  recipe-maintainers:\n    - jlstevens\n    - philippjfr\n    - basnijholt\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "bokeh",
+   "ipython",
+   "matplotlib-base",
+   "notebook",
+   "numpy",
+   "pandas",
+   "panel",
+   "param",
+   "pip",
+   "pyct",
+   "python",
+   "pyviz_comms"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "param",
+    "pip",
+    "pyct",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "bokeh",
+    "ipython",
+    "matplotlib-base",
+    "notebook",
+    "numpy",
+    "pandas",
+    "panel",
+    "param",
+    "python",
+    "pyviz_comms"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "pip"
+   ]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.6.15",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "param >=1.6.1,<2.0",
+    "pip",
+    "pyct",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "bokeh >=1.1.0",
+    "ipython >=5.4.0",
+    "matplotlib-base >=2.2",
+    "notebook",
+    "numpy >=1.0",
+    "pandas >=0.20.0",
+    "panel >=0.7.0",
+    "param >=1.9.3,<2.0",
+    "python",
+    "pyviz_comms >=0.7.4"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "pip"
+   ]
+  }
+ },
+ "url":"https://pypi.io/packages/source/h/holoviews/holoviews-1.12.5.tar.gz",
+ "version":"1.13.2"
+}

@@ -1,0 +1,493 @@
+{
+ "PRed":[
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.7"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/204226002.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Compiler",
+    "migrator_version":0
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/235001363.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/284220079.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.8"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/339861942.json"
+   },
+   "data":{
+    "bot_rerun":1579272528.166255,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"python38"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/339966563.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"python38"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/346726621.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.8.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/375678054.json"
+   },
+   "data":{
+    "bot_rerun":1589819711.70352,
+    "migrator_name":"MatplotlibBase",
+    "migrator_version":0,
+    "name":"matplotlib-to-matplotlib-base"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/385184535.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.8.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "head":{
+     "ref":"<this_is_not_a_branch>"
+    },
+    "state":"closed"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.8.3"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/419629797.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MatplotlibBase",
+    "migrator_version":0,
+    "name":"matplotlib-to-matplotlib-base"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"pycalphad",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "dev_url":"https://github.com/pycalphad/pycalphad",
+   "doc_url":"https://docs.pycalphad.org/",
+   "home":"https://pycalphad.org/",
+   "license":"MIT",
+   "license_file":"/LICENSE.txt",
+   "summary":"CALPHAD tools for designing thermodynamic models, calculating phase diagrams and investigating phase equilibria."
+  },
+  "build":{
+   "number":"1",
+   "skip":true
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "richardotis",
+    "bocklund",
+    "richardotis",
+    "bocklund",
+    "richardotis",
+    "bocklund"
+   ]
+  },
+  "package":{
+   "name":"pycalphad",
+   "version":"0.8.3"
+  },
+  "requirements":{
+   "build":[
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "c_compiler_stub",
+    "cxx_compiler_stub"
+   ],
+   "host":[
+    "python",
+    "setuptools",
+    "matplotlib-base",
+    "pandas",
+    "nose",
+    "mock",
+    "xarray >=0.11.2",
+    "sympy ==1.5.1",
+    "pyparsing",
+    "tinydb >=3.8",
+    "scipy",
+    "numpy >=1.13",
+    "dill",
+    "cython >=0.24",
+    "cyipopt",
+    "python-symengine ==0.6.0",
+    "symengine ==0.6.0",
+    "python",
+    "setuptools",
+    "matplotlib-base",
+    "pandas",
+    "nose",
+    "mock",
+    "xarray >=0.11.2",
+    "sympy ==1.5.1",
+    "pyparsing",
+    "tinydb >=3.8",
+    "scipy",
+    "numpy >=1.13",
+    "dill",
+    "cython >=0.24",
+    "cyipopt",
+    "python-symengine ==0.6.0",
+    "symengine ==0.6.0",
+    "python",
+    "setuptools",
+    "matplotlib-base",
+    "pandas",
+    "nose",
+    "mock",
+    "xarray >=0.11.2",
+    "sympy ==1.5.1",
+    "pyparsing",
+    "tinydb >=3.8",
+    "scipy",
+    "numpy >=1.13",
+    "dill",
+    "cython >=0.24",
+    "cyipopt",
+    "python-symengine ==0.6.0",
+    "symengine ==0.6.0"
+   ],
+   "run":[
+    "python",
+    "matplotlib-base",
+    "pandas",
+    "xarray >=0.11.2",
+    "sympy ==1.5.1",
+    "pyparsing",
+    "tinydb >=3.8",
+    "scipy",
+    "numpy",
+    "cython >=0.24",
+    "dill",
+    "cyipopt",
+    "python-symengine ==0.6.0",
+    "symengine ==0.6.0",
+    "python",
+    "matplotlib-base",
+    "pandas",
+    "xarray >=0.11.2",
+    "sympy ==1.5.1",
+    "pyparsing",
+    "tinydb >=3.8",
+    "scipy",
+    "numpy",
+    "cython >=0.24",
+    "dill",
+    "cyipopt",
+    "python-symengine ==0.6.0",
+    "symengine ==0.6.0",
+    "python",
+    "matplotlib-base",
+    "pandas",
+    "xarray >=0.11.2",
+    "sympy ==1.5.1",
+    "pyparsing",
+    "tinydb >=3.8",
+    "scipy",
+    "numpy",
+    "cython >=0.24",
+    "dill",
+    "cyipopt",
+    "python-symengine ==0.6.0",
+    "symengine ==0.6.0"
+   ]
+  },
+  "source":{
+   "fn":"pycalphad-0.8.3.tar.gz",
+   "sha256":"0cda31546d47608d64ebf826cdf9700c933584622580900acc7022685d877be7",
+   "url":"https://pypi.io/packages/source/p/pycalphad/pycalphad-0.8.3.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "pycalphad",
+    "pycalphad.core",
+    "pycalphad.io",
+    "pycalphad.plot",
+    "pycalphad",
+    "pycalphad.core",
+    "pycalphad.io",
+    "pycalphad.plot",
+    "pycalphad",
+    "pycalphad.core",
+    "pycalphad.io",
+    "pycalphad.plot"
+   ]
+  }
+ },
+ "name":"pycalphad",
+ "new_version":"0.8.3",
+ "pinning_version":"2020.05.18.14.31.44",
+ "raw_meta_yaml":"{% set version = \"0.8.3\" %}\n{% set sha256 = \"0cda31546d47608d64ebf826cdf9700c933584622580900acc7022685d877be7\" %}\npackage:\n  name: pycalphad\n  version: {{ version }}\n\nsource:\n  fn: pycalphad-{{ version }}.tar.gz\n  url: https://pypi.io/packages/source/p/pycalphad/pycalphad-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  skip: true  # [win]\n  skip: true  # [py2k]\n  number: 1\n\nrequirements:\n  build:\n    - {{ compiler('c') }}\n    - {{ compiler('cxx') }}\n  host:\n    - python\n    - setuptools\n    - matplotlib-base\n    - pandas\n    - nose\n    - mock\n    - xarray >=0.11.2\n    - sympy ==1.5.1\n    - pyparsing\n    - tinydb >=3.8\n    - scipy\n    - numpy >=1.13\n    - dill\n    - cython >=0.24\n    - cyipopt\n    - python-symengine ==0.6.0\n    - symengine ==0.6.0\n\n  run:\n    - python\n    - matplotlib-base\n    - pandas\n    - xarray >=0.11.2\n    - sympy ==1.5.1\n    - pyparsing\n    - tinydb >=3.8\n    - scipy\n    - {{ pin_compatible('numpy') }}\n    - cython >=0.24\n    - dill\n    - cyipopt\n    - python-symengine ==0.6.0\n    - symengine ==0.6.0\n\ntest:\n  imports:\n    - pycalphad\n    - pycalphad.core\n    - pycalphad.io\n    - pycalphad.plot\n\nabout:\n  home: https://pycalphad.org/\n  license: MIT\n  license_file: {{ environ[\"RECIPE_DIR\"] }}/LICENSE.txt\n  summary: CALPHAD tools for designing thermodynamic models, calculating phase diagrams and investigating phase equilibria.\n  doc_url: https://docs.pycalphad.org/\n  dev_url: https://github.com/pycalphad/pycalphad\n\nextra:\n  recipe-maintainers:\n    - richardotis\n    - bocklund\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "c_compiler_stub",
+   "cxx_compiler_stub",
+   "cyipopt",
+   "cython",
+   "dill",
+   "matplotlib-base",
+   "mock",
+   "nose",
+   "numpy",
+   "pandas",
+   "pyparsing",
+   "python",
+   "python-symengine",
+   "scipy",
+   "setuptools",
+   "symengine",
+   "sympy",
+   "tinydb",
+   "xarray"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "cxx_compiler_stub"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "cyipopt",
+    "cython",
+    "dill",
+    "matplotlib-base",
+    "mock",
+    "nose",
+    "numpy",
+    "pandas",
+    "pyparsing",
+    "python",
+    "python-symengine",
+    "scipy",
+    "setuptools",
+    "symengine",
+    "sympy",
+    "tinydb",
+    "xarray"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "cyipopt",
+    "cython",
+    "dill",
+    "matplotlib-base",
+    "numpy",
+    "pandas",
+    "pyparsing",
+    "python",
+    "python-symengine",
+    "scipy",
+    "symengine",
+    "sympy",
+    "tinydb",
+    "xarray"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.7.2\n",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "cxx_compiler_stub"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "cyipopt",
+    "cython >=0.24",
+    "dill",
+    "matplotlib-base",
+    "mock",
+    "nose",
+    "numpy >=1.13",
+    "pandas",
+    "pyparsing",
+    "python",
+    "python-symengine ==0.6.0",
+    "scipy",
+    "setuptools",
+    "symengine ==0.6.0",
+    "sympy ==1.5.1",
+    "tinydb >=3.8",
+    "xarray >=0.11.2"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "cyipopt",
+    "cython >=0.24",
+    "dill",
+    "matplotlib-base",
+    "numpy",
+    "pandas",
+    "pyparsing",
+    "python",
+    "python-symengine ==0.6.0",
+    "scipy",
+    "symengine ==0.6.0",
+    "sympy ==1.5.1",
+    "tinydb >=3.8",
+    "xarray >=0.11.2"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/p/pycalphad/pycalphad-0.8.tar.gz",
+ "version":"0.8.3"
+}

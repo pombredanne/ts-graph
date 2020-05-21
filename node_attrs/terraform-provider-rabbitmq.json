@@ -1,0 +1,217 @@
+{
+ "PRed":[
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.0.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/215159512.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/290630421.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.1.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/360591476.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.2.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/394785496.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.3.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "bot":{
+   "automerge":true
+  },
+  "provider":{
+   "win":"azure"
+  }
+ },
+ "feedstock_name":"terraform-provider-rabbitmq",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "dev_url":"https://github.com/terraform-providers/terraform-provider-rabbitmq",
+   "doc_url":"https://www.terraform.io/docs/providers/rabbitmq/index.html",
+   "home":"https://www.terraform.io",
+   "license":"MPL-2.0",
+   "license_file":"LICENSE",
+   "summary":"The Terraform RabbitMQ provider"
+  },
+  "build":{
+   "number":"0",
+   "script":[
+    "go build -v -o terraform-provider-rabbitmq_v1.3.0_x4",
+    "go build -v -o terraform-provider-rabbitmq_v1.3.0_x4",
+    "go build -v -o terraform-provider-rabbitmq_v1.3.0_x4"
+   ]
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "conda-forge/terraform",
+    "conda-forge/terraform",
+    "conda-forge/terraform"
+   ]
+  },
+  "package":{
+   "name":"terraform-provider-rabbitmq",
+   "version":"1.3.0"
+  },
+  "requirements":{
+   "build":[
+    "go_compiler_stub 1.13",
+    "go_compiler_stub 1.13",
+    "go_compiler_stub 1.13"
+   ],
+   "run":[
+    "terraform 0.12",
+    "terraform 0.12",
+    "terraform 0.12"
+   ]
+  },
+  "source":{
+   "sha256":"56b0ad67e9ad3eb6b21b4eb425d2ef54455c2cc231e4cbf28ae3e4717e6a1e6b",
+   "url":"https://github.com/terraform-providers/terraform-provider-rabbitmq/archive/v1.3.0.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "echo provider \"rabbitmq\" { version=\"1.3.0\" } > init.tf",
+    "terraform init",
+    "if not exist .terraform\\plugins\\_\\lock.json exit 1",
+    "if exist .terraform\\plugins\\_\\terraform-provider-rabbitmq_v1.3.0_x4 exit 1",
+    "echo 'provider \"rabbitmq\" { version=\"1.3.0\" }' > init.tf",
+    "terraform init",
+    "test -f .terraform/plugins/_/lock.json",
+    "test ! -f .terraform/plugins/_/terraform-provider-rabbitmq_v1.3.0_x4",
+    "echo 'provider \"rabbitmq\" { version=\"1.3.0\" }' > init.tf",
+    "terraform init",
+    "test -f .terraform/plugins/_/lock.json",
+    "test ! -f .terraform/plugins/_/terraform-provider-rabbitmq_v1.3.0_x4"
+   ]
+  }
+ },
+ "name":"terraform-provider-rabbitmq",
+ "new_version":"1.3.0",
+ "pinning_version":"2020.03.24",
+ "raw_meta_yaml":"{% set provider = \"RabbitMQ\" %}\n{% set goname = \"github.com/terraform-providers/terraform-provider-\"+provider.lower() %}\n{% set version = \"1.3.0\" %}\n\n{% set name = goname.split('/')[-1] %}\n\n{% set x4_plugin = name + '_v' + version + \"_x4\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://{{ goname }}/archive/v{{ version }}.tar.gz\n  sha256: 56b0ad67e9ad3eb6b21b4eb425d2ef54455c2cc231e4cbf28ae3e4717e6a1e6b\n\nbuild:\n  number: 0\n  script:\n    - go build -v -o {{ target_gobin }}{{ x4_plugin }}{{ target_goexe }}\n\nrequirements:\n  build:\n    - {{ compiler('go') }} 1.13\n  run:\n    - terraform 0.12\n\ntest:\n  commands:\n    # Create a sample init.tf loading the provider\n    - echo 'provider \"{{ provider|lower }}\" { version=\"{{ version }}\" }' > init.tf  # [unix]\n    - echo provider \"{{ provider|lower }}\" { version=\"{{ version }}\" } > init.tf    # [win]\n\n    # Initialize\n    - terraform init\n\n    # Tests that init was successful\n    - test -f .terraform/plugins/{{ target_goos }}_{{ target_goarch }}/lock.json              # [unix]\n    - if not exist .terraform\\plugins\\{{ target_goos }}_{{ target_goarch }}\\lock.json exit 1  # [win]\n\n    # Test that the provider was not downloaded\n    - test ! -f .terraform/plugins/{{ target_goos }}_{{ target_goarch }}/{{ x4_plugin }}{{ target_goexe }}        # [unix]\n    - if exist .terraform\\plugins\\{{ target_goos }}_{{ target_goarch }}\\{{ x4_plugin }}{{ target_goexe }} exit 1  # [win]\n\nabout:\n  home: https://www.terraform.io\n  license: MPL-2.0\n  license_file: LICENSE\n  summary: The Terraform {{ provider }} provider\n  doc_url: https://www.terraform.io/docs/providers/{{ provider|lower }}/index.html\n  dev_url: https://github.com/terraform-providers/{{ name }}\n\nextra:\n  recipe-maintainers:\n    - conda-forge/terraform\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "go_compiler_stub",
+   "terraform"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "go_compiler_stub"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "terraform"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.6.15",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "go_compiler_stub 1.13"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "terraform 0.12"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://github.com/terraform-providers/terraform-provider-rabbitmq/archive/v1.1.0.tar.gz",
+ "version":"1.3.0"
+}

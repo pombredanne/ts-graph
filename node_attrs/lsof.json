@@ -1,0 +1,121 @@
+{
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"lsof",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"The free, open-source, Unix administrative tool lsof (for LiSt Open Files)\ndisplays information about files open to Unix processes.\n",
+   "doc_url":"https://people.freebsd.org/~abe/",
+   "home":"http://people.freebsd.org/~abe/",
+   "license":"BSD-compatible",
+   "license_family":"BSD",
+   "summary":"LiSt Open Files"
+  },
+  "build":{
+   "number":"0",
+   "skip":true
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "keuv-grvl",
+    "keuv-grvl",
+    "keuv-grvl"
+   ]
+  },
+  "package":{
+   "name":"lsof",
+   "version":"4.89"
+  },
+  "requirements":{
+   "build":[
+    "perl",
+    "perl",
+    "perl"
+   ]
+  },
+  "source":{
+   "patches":[
+    "patches/manpage",
+    "patches/examples",
+    "patches/tests",
+    "patches/obsolete",
+    "patches/preset-ccdate",
+    "patches/manpage",
+    "patches/examples",
+    "patches/tests",
+    "patches/obsolete",
+    "patches/preset-ccdate",
+    "patches/manpage",
+    "patches/examples",
+    "patches/tests",
+    "patches/obsolete",
+    "patches/preset-ccdate"
+   ],
+   "sha256":"17688b122b9e0330042625ae6c15c4486699a11e2483e3d0e97ec1642b93d7b2",
+   "url":"http://http.debian.net/debian/pool/main/l/lsof/lsof_4.89+dfsg.orig.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "lsof -v",
+    "lsof .",
+    "lsof -v",
+    "lsof .",
+    "lsof -v",
+    "lsof ."
+   ]
+  }
+ },
+ "name":"lsof",
+ "new_version":false,
+ "raw_meta_yaml":"{% set name = 'lsof' %}\n{% set version = \"4.89\" %}\n{% set sha256 = \"17688b122b9e0330042625ae6c15c4486699a11e2483e3d0e97ec1642b93d7b2\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: http://http.debian.net/debian/pool/main/l/{{ name }}/{{ name }}_{{ version }}+dfsg.orig.tar.gz\n  sha256: {{ sha256 }}\n  # Following are Debian patches from\n  # http://http.debian.net/debian/pool/main/l/lsof/lsof_4.89+dfsg-0.1.debian.tar.xz\n  patches:\n    - patches/manpage\n    - patches/examples\n    - patches/tests\n    - patches/obsolete\n    - patches/preset-ccdate\n\nbuild:\n  skip: true  # [not linux]\n  number: 0\n\nrequirements:\n  build:\n    - perl\n\ntest:\n  commands:\n    - lsof -v\n    - lsof .\n\nabout:\n  home: http://people.freebsd.org/~abe/\n  license: BSD-compatible\n  license_family: BSD\n  summary: LiSt Open Files\n  description: |\n    The free, open-source, Unix administrative tool lsof (for LiSt Open Files)\n    displays information about files open to Unix processes.\n  doc_url: https://people.freebsd.org/~abe/\n\nextra:\n  recipe-maintainers:\n    - keuv-grvl\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "perl"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "perl"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "perl"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"http://http.debian.net/debian/pool/main/l/lsof/lsof_4.89+dfsg.orig.tar.gz",
+ "version":"4.89"
+}

@@ -1,0 +1,281 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/196927958.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Compiler",
+    "migrator_version":0
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/215022542.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/253757832.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"ArchRebuild",
+    "migrator_version":1,
+    "name":"aarch64 and ppc64le addition"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "compiler_stack":"comp7",
+  "max_py_ver":"37",
+  "max_r_ver":"35",
+  "provider":{
+   "linux_aarch64":"azure",
+   "linux_ppc64le":"azure",
+   "win":"azure"
+  }
+ },
+ "feedstock_name":"icu",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"http://site.icu-project.org/",
+   "license":"MIT",
+   "license_file":"LICENSE",
+   "summary":"International Components for Unicode."
+  },
+  "build":{
+   "number":"0",
+   "run_exports":[
+    "icu",
+    "icu",
+    "icu"
+   ],
+   "skip":true
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "ccordoba12",
+    "jakirkham",
+    "msarahan",
+    "ocefpaf",
+    "ccordoba12",
+    "jakirkham",
+    "msarahan",
+    "ocefpaf",
+    "ccordoba12",
+    "jakirkham",
+    "msarahan",
+    "ocefpaf"
+   ]
+  },
+  "package":{
+   "name":"icu",
+   "version":"67.1"
+  },
+  "requirements":{
+   "build":[
+    "m2-base",
+    "m2-make",
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "make",
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "make"
+   ],
+   "host":null,
+   "run":null
+  },
+  "source":[
+   {
+    "patches":[
+     "icu4c-4_9_1-mingw-w64-mkdir-compatibility.patch",
+     "icu-config.patch"
+    ],
+    "sha256":"94a80cd6f251a53bd2a997f6f1b5ac6653fe791dfab66e1eb0227740fb86d5dc",
+    "url":"https://github.com/unicode-org/icu/releases/download/release-67-1/icu4c-67_1-src.tgz"
+   },
+   {
+    "folder":"source/data",
+    "sha256":"7c16a59cc8c06128b7ecc1dc4fc056b36b17349312829b17408b9e67b05c4a7e",
+    "url":"https://github.com/unicode-org/icu/releases/download/release-67-1/icu4c-67_1-data.zip"
+   },
+   {
+    "patches":[
+     "mach-port-t.patch"
+    ],
+    "sha256":"94a80cd6f251a53bd2a997f6f1b5ac6653fe791dfab66e1eb0227740fb86d5dc",
+    "url":"https://github.com/unicode-org/icu/releases/download/release-67-1/icu4c-67_1-src.tgz"
+   },
+   {
+    "folder":"source/data",
+    "sha256":"7c16a59cc8c06128b7ecc1dc4fc056b36b17349312829b17408b9e67b05c4a7e",
+    "url":"https://github.com/unicode-org/icu/releases/download/release-67-1/icu4c-67_1-data.zip"
+   },
+   {
+    "patches":null,
+    "sha256":"94a80cd6f251a53bd2a997f6f1b5ac6653fe791dfab66e1eb0227740fb86d5dc",
+    "url":"https://github.com/unicode-org/icu/releases/download/release-67-1/icu4c-67_1-src.tgz"
+   },
+   {
+    "folder":"source/data",
+    "sha256":"7c16a59cc8c06128b7ecc1dc4fc056b36b17349312829b17408b9e67b05c4a7e",
+    "url":"https://github.com/unicode-org/icu/releases/download/release-67-1/icu4c-67_1-data.zip"
+   }
+  ],
+  "test":{
+   "commands":[
+    "genbrk --help",
+    "gencfu --help",
+    "gencnval --help",
+    "gendict --help",
+    "icuinfo --help",
+    "makeconv gb-18030-2000.ucm",
+    "test -f $PREFIX/lib/libicudata.a",
+    "test -f $PREFIX/lib/libicudata.67.1.dylib",
+    "test -f $PREFIX/lib/libicui18n.a",
+    "test -f $PREFIX/lib/libicui18n.67.1.dylib",
+    "test -f $PREFIX/lib/libicuio.a",
+    "test -f $PREFIX/lib/libicuio.67.1.dylib",
+    "test -f $PREFIX/lib/libicutest.a",
+    "test -f $PREFIX/lib/libicutest.67.1.dylib",
+    "test -f $PREFIX/lib/libicutu.a",
+    "test -f $PREFIX/lib/libicutu.67.1.dylib",
+    "test -f $PREFIX/lib/libicuuc.a",
+    "test -f $PREFIX/lib/libicuuc.67.1.dylib",
+    "genbrk --help",
+    "gencfu --help",
+    "gencnval --help",
+    "gendict --help",
+    "icuinfo --help",
+    "icu-config --help",
+    "makeconv gb-18030-2000.ucm",
+    "conda inspect linkages -p $PREFIX $PKG_NAME",
+    "conda inspect objects -p $PREFIX $PKG_NAME",
+    "test -f $PREFIX/lib/libicudata.a",
+    "test -f $PREFIX/lib/libicudata.so.67.1",
+    "test -f $PREFIX/lib/libicui18n.a",
+    "test -f $PREFIX/lib/libicui18n.so.67.1",
+    "test -f $PREFIX/lib/libicuio.a",
+    "test -f $PREFIX/lib/libicuio.so.67.1",
+    "test -f $PREFIX/lib/libicutest.a",
+    "test -f $PREFIX/lib/libicutest.so.67.1",
+    "test -f $PREFIX/lib/libicutu.a",
+    "test -f $PREFIX/lib/libicutu.so.67.1",
+    "test -f $PREFIX/lib/libicuuc.a",
+    "test -f $PREFIX/lib/libicuuc.so.67.1",
+    "genbrk --help",
+    "gencfu --help",
+    "gencnval --help",
+    "gendict --help",
+    "icuinfo --help",
+    "icu-config --help",
+    "makeconv gb-18030-2000.ucm",
+    "conda inspect linkages -p $PREFIX $PKG_NAME"
+   ],
+   "files":[
+    "gb-18030-2000.ucm",
+    "de.txt",
+    "gb-18030-2000.ucm",
+    "de.txt",
+    "gb-18030-2000.ucm",
+    "de.txt"
+   ]
+  }
+ },
+ "name":"icu",
+ "new_version":false,
+ "pinning_version":"2019.02.15",
+ "raw_meta_yaml":"{% set version = \"67.1\" %}\n{% set version_under = version.replace(\".\", \"_\") %}\n{% set version_hyphen = version.replace(\".\", \"-\") %}\n\npackage:\n  name: icu\n  version: {{ version }}\n\nsource:\n  - url: https://github.com/unicode-org/icu/releases/download/release-{{ version_hyphen }}/icu4c-{{ version_under }}-src.tgz\n    sha256: 94a80cd6f251a53bd2a997f6f1b5ac6653fe791dfab66e1eb0227740fb86d5dc\n    patches:\n      # Include an extra header when using mingw.\n      - icu4c-4_9_1-mingw-w64-mkdir-compatibility.patch  # [win]\n      # Omit lib prefix on libraries.\n      - icu-config.patch  # [win]\n      - mach-port-t.patch  # [osx]\n\n  - url: https://github.com/unicode-org/icu/releases/download/release-{{ version_hyphen }}/icu4c-{{ version_under }}-data.zip\n    sha256: 7c16a59cc8c06128b7ecc1dc4fc056b36b17349312829b17408b9e67b05c4a7e\n    folder: source/data\n\nbuild:\n  number: 0\n  run_exports:\n    # icu changes their file extension with each major rev.  Default pin OK.\n    - {{ pin_subpackage('icu') }}\n  skip: True   # [win and vc<14]\n\nrequirements:\n  build:\n    - m2-base  # [win]\n    - m2-make  # [win]\n    - {{ compiler('c') }}\n    - {{ compiler('cxx') }}\n    - make     # [unix]\n  host:\n  run:\n\ntest:\n  files:\n    # From http://source.icu-project.org/repos/icu/data/trunk/charset/data/ucm/gb-18030-2000.ucm\n    - gb-18030-2000.ucm\n    # From ICU's data folder.\n    - de.txt\n  commands:\n    # Libraries\n    {% set libs = [\n       \"libicudata\",\n       \"libicui18n\",\n       \"libicuio\",\n       \"libicutest\",\n       \"libicutu\",\n       \"libicuuc\"\n     ] %}\n    {% for each_lib in libs %}\n    - test -f $PREFIX/lib/{{ each_lib }}.a  # [not win]\n    - test -f $PREFIX/lib/{{ each_lib }}.{{ version }}.dylib   # [osx]\n    - test -f $PREFIX/lib/{{ each_lib }}.so.{{ version }}  # [linux]\n    {% endfor %}\n\n    # CLI tests\n    - genbrk --help\n    - gencfu --help\n    - gencnval --help\n    - gendict --help\n    - icuinfo --help\n    - icu-config --help  # [not win]\n    - makeconv gb-18030-2000.ucm\n    - conda inspect linkages -p $PREFIX $PKG_NAME  # [not win]\n    - conda inspect objects -p $PREFIX $PKG_NAME  # [osx]\n\nabout:\n  home: http://site.icu-project.org/\n  license: MIT\n  license_file: LICENSE\n  summary: 'International Components for Unicode.'\n\nextra:\n  recipe-maintainers:\n    - ccordoba12\n    - jakirkham\n    - msarahan\n    - ocefpaf\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "c_compiler_stub",
+   "cxx_compiler_stub",
+   "m2-base",
+   "m2-make",
+   "make"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "m2-base",
+    "m2-make",
+    "make"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.2.13",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "m2-base",
+    "m2-make",
+    "make"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"http://download.icu-project.org/files/icu4c/64.2/icu4c-64_2-src.tgz",
+ "version":"67.1"
+}

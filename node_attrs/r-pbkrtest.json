@@ -1,0 +1,266 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/231714973.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/298743143.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"RBaseRebuild",
+    "migrator_version":0,
+    "name":"r-base-3.6.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/378003936.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.4_8.6"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/412667813.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":2,
+    "migrator_version":0,
+    "name":"r400"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "bot":{
+   "automerge":true
+  },
+  "provider":{
+   "win":"azure"
+  }
+ },
+ "feedstock_name":"r-pbkrtest",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"http://people.math.aau.dk/~sorenh/software/pbkrtest/",
+   "license":"GPL (>= 2)",
+   "license_family":"GPL3",
+   "license_file":"/lib/R/share/licenses/GPL-3",
+   "summary":"Test in mixed effects models. Attention is on mixed effects models as implemented in the 'lme4' package. This package implements a parametric bootstrap test and a Kenward Roger modification of F-tests for linear mixed effects models and a parametric bootstrap test for generalized linear mixed models."
+  },
+  "build":{
+   "merge_build_host":true,
+   "noarch":"generic",
+   "number":"1003",
+   "rpaths":[
+    "lib/R/lib/",
+    "lib/",
+    "lib/R/lib/",
+    "lib/",
+    "lib/R/lib/",
+    "lib/"
+   ]
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "conda-forge/r",
+    "johanneskoester",
+    "bgruening",
+    "daler",
+    "jdblischak",
+    "cbrueffer",
+    "dbast",
+    "conda-forge/r",
+    "johanneskoester",
+    "bgruening",
+    "daler",
+    "jdblischak",
+    "cbrueffer",
+    "dbast",
+    "conda-forge/r",
+    "johanneskoester",
+    "bgruening",
+    "daler",
+    "jdblischak",
+    "cbrueffer",
+    "dbast"
+   ]
+  },
+  "package":{
+   "name":"r-pbkrtest",
+   "version":"0.4_7"
+  },
+  "requirements":{
+   "build":null,
+   "host":[
+    "r-base",
+    "r-mass",
+    "r-matrix >=1.2.3",
+    "r-lme4 >=1.1.10",
+    "r-base",
+    "r-mass",
+    "r-matrix >=1.2.3",
+    "r-lme4 >=1.1.10",
+    "r-base",
+    "r-mass",
+    "r-matrix >=1.2.3",
+    "r-lme4 >=1.1.10"
+   ],
+   "run":[
+    "r-base",
+    "r-mass",
+    "r-matrix >=1.2.3",
+    "r-lme4 >=1.1.10",
+    "r-base",
+    "r-mass",
+    "r-matrix >=1.2.3",
+    "r-lme4 >=1.1.10",
+    "r-base",
+    "r-mass",
+    "r-matrix >=1.2.3",
+    "r-lme4 >=1.1.10"
+   ]
+  },
+  "source":{
+   "fn":"pbkrtest_0.4-7.tar.gz",
+   "sha256":"5cbb03ad2b2468720a5a610a0ebda48ac08119a34fca77810a85f554225c23ea",
+   "url":[
+    "https://cran.r-project.org/src/contrib/pbkrtest_0.4-7.tar.gz",
+    "https://cran.r-project.org/src/contrib/Archive/pbkrtest/pbkrtest_0.4-7.tar.gz",
+    "https://cran.r-project.org/src/contrib/pbkrtest_0.4-7.tar.gz",
+    "https://cran.r-project.org/src/contrib/Archive/pbkrtest/pbkrtest_0.4-7.tar.gz",
+    "https://cran.r-project.org/src/contrib/pbkrtest_0.4-7.tar.gz",
+    "https://cran.r-project.org/src/contrib/Archive/pbkrtest/pbkrtest_0.4-7.tar.gz"
+   ]
+  },
+  "test":{
+   "commands":[
+    "\"%R%\" -e \"library('pbkrtest')\"",
+    "$R -e \"library('pbkrtest')\"",
+    "$R -e \"library('pbkrtest')\""
+   ]
+  }
+ },
+ "name":"r-pbkrtest",
+ "new_version":"0.4_8.6",
+ "pinning_version":"2020.05.03.19.37.20",
+ "raw_meta_yaml":"{% set version = '0.4-7' %}\n{% set posix = 'm2-' if win else '' %}\n{% set native = 'm2w64-' if win else '' %}\n\npackage:\n  name: r-pbkrtest\n  version: {{ version|replace(\"-\", \"_\") }}\n\nsource:\n  fn: pbkrtest_{{ version }}.tar.gz\n  url:\n    - {{ cran_mirror }}/src/contrib/pbkrtest_{{ version }}.tar.gz\n    - {{ cran_mirror }}/src/contrib/Archive/pbkrtest/pbkrtest_{{ version }}.tar.gz\n  sha256: 5cbb03ad2b2468720a5a610a0ebda48ac08119a34fca77810a85f554225c23ea\n\nbuild:\n  noarch: generic\n  merge_build_host: True  # [win]\n  number: 1003\n  rpaths:\n    - lib/R/lib/\n    - lib/\n\nrequirements:\n  build:\n    - {{ posix }}zip               # [win]\n  host:\n    - r-base\n    - r-mass\n    - r-matrix >=1.2.3\n    - r-lme4 >=1.1.10\n  run:\n    - r-base\n    - r-mass\n    - r-matrix >=1.2.3\n    - r-lme4 >=1.1.10\n\ntest:\n  commands:\n    - $R -e \"library('pbkrtest')\"           # [not win]\n    - \"\\\"%R%\\\" -e \\\"library('pbkrtest')\\\"\"  # [win]\n\nabout:\n  home: http://people.math.aau.dk/~sorenh/software/pbkrtest/\n  license: GPL (>= 2)\n  summary: Test in mixed effects models. Attention is on mixed effects models as implemented\n    in the 'lme4' package. This package implements a parametric bootstrap test and a\n    Kenward Roger modification of F-tests for linear mixed effects models and a parametric\n    bootstrap test for generalized linear mixed models.\n  license_family: GPL3\n  license_file: '{{ environ[\"PREFIX\"] }}/lib/R/share/licenses/GPL-3'\n\nextra:\n  recipe-maintainers:\n    - conda-forge/r\n    - johanneskoester\n    - bgruening\n    - daler\n    - jdblischak\n    - cbrueffer\n    - dbast\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "r-base",
+   "r-lme4",
+   "r-mass",
+   "r-matrix"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "r-base",
+    "r-lme4",
+    "r-mass",
+    "r-matrix"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "r-base",
+    "r-lme4",
+    "r-mass",
+    "r-matrix"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.7.0\n",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "r-base",
+    "r-lme4 >=1.1.10",
+    "r-mass",
+    "r-matrix >=1.2.3"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "r-base",
+    "r-lme4 >=1.1.10",
+    "r-mass",
+    "r-matrix >=1.2.3"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":[
+  "https://cran.r-project.org/src/contrib/pbkrtest_0.4-7.tar.gz",
+  "https://cran.r-project.org/src/contrib/Archive/pbkrtest/pbkrtest_0.4-7.tar.gz",
+  "https://cran.r-project.org/src/contrib/pbkrtest_0.4-7.tar.gz",
+  "https://cran.r-project.org/src/contrib/Archive/pbkrtest/pbkrtest_0.4-7.tar.gz",
+  "https://cran.r-project.org/src/contrib/pbkrtest_0.4-7.tar.gz",
+  "https://cran.r-project.org/src/contrib/Archive/pbkrtest/pbkrtest_0.4-7.tar.gz"
+ ],
+ "version":"0.4_7"
+}

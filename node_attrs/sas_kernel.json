@@ -1,0 +1,230 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/222680116.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/226624031.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.2.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/336751226.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"python38"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/31ca1746-01d6-4037-9a00-ac692f38045f.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"pypy"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "compiler_stack":"comp7",
+  "max_py_ver":"37",
+  "max_r_ver":"35"
+ },
+ "feedstock_name":"sas_kernel",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"https://github.com/sassoftware/sas_kernel",
+   "license":"Apache-2.0",
+   "license_file":"LICENSE.txt",
+   "summary":"A Jupyter kernel for SAS"
+  },
+  "build":{
+   "number":"1001",
+   "script":"NO_KERNEL_INSTALL=1  -m pip install . --no-deps -vv",
+   "skip":true
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "danielfrg",
+    "danielfrg",
+    "danielfrg"
+   ]
+  },
+  "package":{
+   "name":"sas_kernel",
+   "version":"2.2.0"
+  },
+  "requirements":{
+   "build":[
+    "python",
+    "pip",
+    "ipython >=4",
+    "python",
+    "pip",
+    "ipython >=4",
+    "python",
+    "pip",
+    "ipython >=4"
+   ],
+   "run":[
+    "python",
+    "ipython >=4",
+    "saspy >=1.2.2",
+    "pygments",
+    "metakernel >=0.18.0",
+    "jupyter_client >=4.4.0",
+    "python",
+    "ipython >=4",
+    "saspy >=1.2.2",
+    "pygments",
+    "metakernel >=0.18.0",
+    "jupyter_client >=4.4.0",
+    "python",
+    "ipython >=4",
+    "saspy >=1.2.2",
+    "pygments",
+    "metakernel >=0.18.0",
+    "jupyter_client >=4.4.0"
+   ]
+  },
+  "source":{
+   "sha256":"3ebddf4a85311b718acf12f56cc342f808039e83771cf0ae2b1f2f163c98c6b8",
+   "url":"https://pypi.io/packages/source/s/sas_kernel/SAS_kernel-2.2.0.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "sas_kernel",
+    "sas_kernel",
+    "sas_kernel"
+   ]
+  }
+ },
+ "name":"sas_kernel",
+ "new_version":"2.2.0",
+ "pinning_version":"2020.03.20",
+ "raw_meta_yaml":"{% set version = \"2.2.0\" %}\n\npackage:\n  name: sas_kernel\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/s/sas_kernel/SAS_kernel-{{ version }}.tar.gz\n  sha256: 3ebddf4a85311b718acf12f56cc342f808039e83771cf0ae2b1f2f163c98c6b8\n\nbuild:\n  number: 1001\n  script: \"NO_KERNEL_INSTALL=1 {{ PYTHON }} -m pip install . --no-deps -vv\"\n  skip: true  # [not linux]\n  skip: true  # [py2k]\n\nrequirements:\n  build:\n    - python \n    - pip\n    - ipython >=4\n  run:\n    - python\n    - ipython >=4\n    - saspy >=1.2.2\n    - pygments\n    - metakernel >=0.18.0\n    - jupyter_client >=4.4.0\n\ntest:\n  imports:\n    - sas_kernel\n\nabout:\n  home: https://github.com/sassoftware/sas_kernel\n  license: Apache-2.0\n  license_file: LICENSE.txt\n  summary: A Jupyter kernel for SAS\n\nextra:\n  recipe-maintainers:\n    - danielfrg\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "ipython",
+   "jupyter_client",
+   "metakernel",
+   "pip",
+   "pygments",
+   "python",
+   "saspy"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "ipython",
+    "pip",
+    "python"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "ipython",
+    "jupyter_client",
+    "metakernel",
+    "pygments",
+    "python",
+    "saspy"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.6.14",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "ipython >=4",
+    "pip",
+    "python"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "ipython >=4",
+    "jupyter_client >=4.4.0",
+    "metakernel >=0.18.0",
+    "pygments",
+    "python",
+    "saspy >=1.2.2"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/s/sas_kernel/SAS_kernel-2.2.0.tar.gz",
+ "version":"2.2.0"
+}

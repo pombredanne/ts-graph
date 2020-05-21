@@ -1,0 +1,180 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/375786375.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MatplotlibBase",
+    "migrator_version":0,
+    "name":"matplotlib-to-matplotlib-base"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"python-picard",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"This is a library to run the Preconditioned ICA for Real Data (PICARD)\nalgorithm and its orthogonal version (PICARD-O). These algorithms\nshow fast convergence even on real data for which sources independence do\nnot perfectly hold.\n",
+   "dev_url":"https://github.com/pierreablin/picard",
+   "home":"https://pierreablin.github.io/picard/",
+   "license":"BSD-3-Clause",
+   "license_family":"BSD",
+   "license_file":"LICENSE",
+   "summary":"Preconditioned ICA for Real Data (PICARD) algorithm and its orthogonal version (PICARD-O)"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"1",
+   "script":" -m pip install . -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "hoechenberger",
+    "hoechenberger",
+    "hoechenberger"
+   ]
+  },
+  "package":{
+   "name":"python-picard",
+   "version":"0.4"
+  },
+  "requirements":{
+   "host":[
+    "python",
+    "pip",
+    "setuptools",
+    "numpy",
+    "python",
+    "pip",
+    "setuptools",
+    "numpy",
+    "python",
+    "pip",
+    "setuptools",
+    "numpy"
+   ],
+   "run":[
+    "python",
+    "numpy >=1.8",
+    "matplotlib-base >=1.3",
+    "numexpr >=2.0",
+    "scipy >=0.19",
+    "python",
+    "numpy >=1.8",
+    "matplotlib-base >=1.3",
+    "numexpr >=2.0",
+    "scipy >=0.19",
+    "python",
+    "numpy >=1.8",
+    "matplotlib-base >=1.3",
+    "numexpr >=2.0",
+    "scipy >=0.19"
+   ]
+  },
+  "source":{
+   "sha256":"e7359f44ac4c0988faed690b2efaa6ad9424a297e3e2d37433a263ea9dbd537f",
+   "url":"https://pypi.io/packages/source/p/python-picard/python-picard-0.4.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "picard",
+    "picard.densities",
+    "picard.solver",
+    "picard",
+    "picard.densities",
+    "picard.solver",
+    "picard",
+    "picard.densities",
+    "picard.solver"
+   ]
+  }
+ },
+ "name":"python-picard",
+ "new_version":"0.4",
+ "pinning_version":"2020.02.12",
+ "raw_meta_yaml":"{% set name = \"python-picard\" %}\n{% set version = \"0.4\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: e7359f44ac4c0988faed690b2efaa6ad9424a297e3e2d37433a263ea9dbd537f\n\nbuild:\n  noarch: python\n  number: 1\n  script: \"{{ PYTHON }} -m pip install . -vv\"\n\nrequirements:\n  host:\n    - python\n    - pip\n    - setuptools\n    - numpy  # for numpy.distutils.core.setup()\n  run:\n    - python\n    - numpy >=1.8\n    - matplotlib-base >=1.3\n    - numexpr >=2.0\n    - scipy >=0.19\n\ntest:\n  imports:\n    - picard\n    - picard.densities\n    - picard.solver\n\nabout:\n  home: https://pierreablin.github.io/picard/\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: LICENSE\n  summary: 'Preconditioned ICA for Real Data (PICARD) algorithm and its orthogonal version (PICARD-O)'\n  description: |\n    This is a library to run the Preconditioned ICA for Real Data (PICARD)\n    algorithm and its orthogonal version (PICARD-O). These algorithms\n    show fast convergence even on real data for which sources independence do\n    not perfectly hold.\n  dev_url: https://github.com/pierreablin/picard\n\nextra:\n  recipe-maintainers:\n    - hoechenberger\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "matplotlib-base",
+   "numexpr",
+   "numpy",
+   "pip",
+   "python",
+   "scipy",
+   "setuptools"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "numpy",
+    "pip",
+    "python",
+    "setuptools"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "matplotlib-base",
+    "numexpr",
+    "numpy",
+    "python",
+    "scipy"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.6.8",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "numpy",
+    "pip",
+    "python",
+    "setuptools"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "matplotlib-base >=1.3",
+    "numexpr >=2.0",
+    "numpy >=1.8",
+    "python",
+    "scipy >=0.19"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/p/python-picard/python-picard-0.4.tar.gz",
+ "version":"0.4"
+}

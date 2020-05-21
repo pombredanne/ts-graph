@@ -1,0 +1,202 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/199923698.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Noarch",
+    "migrator_version":0
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/301239168.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.3"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"autograd",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"https://github.com/HIPS/autograd",
+   "license":"MIT",
+   "summary":"Efficiently computes derivatives of numpy code."
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":"python -m pip install --no-deps --ignore-installed ."
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "richardotis",
+    "ericmjl",
+    "richardotis",
+    "ericmjl",
+    "richardotis",
+    "ericmjl"
+   ]
+  },
+  "package":{
+   "name":"autograd",
+   "version":"1.3"
+  },
+  "requirements":{
+   "host":[
+    "pip",
+    "python",
+    "setuptools",
+    "numpy >=1.10",
+    "future >=0.15.2",
+    "scipy >=0.17",
+    "pip",
+    "python",
+    "setuptools",
+    "numpy >=1.10",
+    "future >=0.15.2",
+    "scipy >=0.17",
+    "pip",
+    "python",
+    "setuptools",
+    "numpy >=1.10",
+    "future >=0.15.2",
+    "scipy >=0.17"
+   ],
+   "run":[
+    "python",
+    "numpy >=1.10",
+    "future >=0.15.2",
+    "scipy >=0.17",
+    "python",
+    "numpy >=1.10",
+    "future >=0.15.2",
+    "scipy >=0.17",
+    "python",
+    "numpy >=1.10",
+    "future >=0.15.2",
+    "scipy >=0.17"
+   ]
+  },
+  "source":{
+   "fn":"autograd-1.3.tar.gz",
+   "sha256":"a15d147577e10de037de3740ca93bfa3b5a7cdfbc34cfb9105429c3580a33ec4",
+   "url":"https://pypi.io/packages/source/a/autograd/autograd-1.3.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "autograd",
+    "autograd.numpy",
+    "autograd.scipy",
+    "autograd.scipy.stats",
+    "autograd",
+    "autograd.numpy",
+    "autograd.scipy",
+    "autograd.scipy.stats",
+    "autograd",
+    "autograd.numpy",
+    "autograd.scipy",
+    "autograd.scipy.stats"
+   ]
+  }
+ },
+ "name":"autograd",
+ "new_version":"1.3",
+ "pinning_version":"2019.07.23",
+ "raw_meta_yaml":"{% set version = \"1.3\" %}\n{% set sha256 = \"a15d147577e10de037de3740ca93bfa3b5a7cdfbc34cfb9105429c3580a33ec4\" %}\n\npackage:\n  name: autograd\n  version: {{ version }}\n\nsource:\n  fn: autograd-{{ version }}.tar.gz\n  url: https://pypi.io/packages/source/a/autograd/autograd-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 0\n  script: python -m pip install --no-deps --ignore-installed .\n\nrequirements:\n  host:\n    - pip\n    - python\n    - setuptools\n    - numpy >=1.10\n    - future >=0.15.2\n    - scipy >=0.17\n\n  run:\n    - python\n    - numpy >=1.10\n    - future >=0.15.2\n    - scipy >=0.17\n\ntest:\n  imports:\n    - autograd\n    - autograd.numpy\n    - autograd.scipy\n    - autograd.scipy.stats\n\nabout:\n  home: https://github.com/HIPS/autograd\n  license: MIT\n  summary: 'Efficiently computes derivatives of numpy code.'\n\nextra:\n  recipe-maintainers:\n    - richardotis\n    - ericmjl\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "future",
+   "numpy",
+   "pip",
+   "python",
+   "scipy",
+   "setuptools"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "future",
+    "numpy",
+    "pip",
+    "python",
+    "scipy",
+    "setuptools"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "future",
+    "numpy",
+    "python",
+    "scipy"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.4.1",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "future >=0.15.2",
+    "numpy >=1.10",
+    "pip",
+    "python",
+    "scipy >=0.17",
+    "setuptools"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "future >=0.15.2",
+    "numpy >=1.10",
+    "python",
+    "scipy >=0.17"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/a/autograd/autograd-1.3.tar.gz",
+ "version":"1.3"
+}

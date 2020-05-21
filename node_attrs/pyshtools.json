@@ -1,0 +1,258 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/417720798.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"python38"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"pyshtools",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"SHTOOLS/pysthools is a Fortran-95/Python library that can be used to\nperform spherical harmonic transforms, multitaper spectral analyses on the\nsphere, expansions of functions into Slepian bases, and standard operations\non global gravitational and magnetic field data.\n",
+   "dev_url":"https://github.com/SHTOOLS/SHTOOLS",
+   "doc_url":"https://shtools.github.io/SHTOOLS/",
+   "home":"https://github.com/SHTOOLS/SHTOOLS",
+   "license":"GPL-2.0-or-later",
+   "license_family":"GPL",
+   "license_file":"LICENSE",
+   "summary":"Tools for working with spherical harmonics"
+  },
+  "build":{
+   "number":"1",
+   "script":" -m pip install . -vv",
+   "skip":true
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "megies",
+    "moorepants",
+    "megies",
+    "moorepants",
+    "megies",
+    "moorepants"
+   ]
+  },
+  "package":{
+   "name":"pyshtools",
+   "version":"4.6.2"
+  },
+  "requirements":{
+   "build":[
+    "c_compiler_stub",
+    "fortran_compiler_stub",
+    "c_compiler_stub",
+    "fortran_compiler_stub",
+    "c_compiler_stub",
+    "fortran_compiler_stub"
+   ],
+   "host":[
+    "python",
+    "pip",
+    "setuptools",
+    "numpy",
+    "fftw >=3",
+    "liblapack",
+    "python",
+    "pip",
+    "setuptools",
+    "numpy",
+    "fftw >=3",
+    "liblapack",
+    "python",
+    "pip",
+    "setuptools",
+    "numpy",
+    "fftw >=3",
+    "liblapack"
+   ],
+   "run":[
+    "python",
+    "numpy",
+    "scipy >=0.14.0",
+    "matplotlib-base",
+    "astropy",
+    "xarray",
+    "fftw >=3",
+    "requests",
+    "python",
+    "numpy",
+    "scipy >=0.14.0",
+    "matplotlib-base",
+    "astropy",
+    "xarray",
+    "fftw >=3",
+    "requests",
+    "python",
+    "numpy",
+    "scipy >=0.14.0",
+    "matplotlib-base",
+    "astropy",
+    "xarray",
+    "fftw >=3",
+    "requests"
+   ]
+  },
+  "source":{
+   "sha256":"dd9d6ebb8f6e04cfc7f5989a21c27ede5fc781252f2ef65ae1acd9203c94a30d",
+   "url":"https://pypi.io/packages/source/p/pyshtools/pyshtools-4.6.2.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "wget https://pypi.io/packages/source/p/pyshtools/pyshtools-4.6.2.tar.gz",
+    "tar -xvf pyshtools-4.6.2.tar.gz",
+    "cd pyshtools-4.6.2",
+    "make -C examples/python -f Makefile no-timing",
+    "wget https://pypi.io/packages/source/p/pyshtools/pyshtools-4.6.2.tar.gz",
+    "tar -xvf pyshtools-4.6.2.tar.gz",
+    "cd pyshtools-4.6.2",
+    "make -C examples/python -f Makefile no-timing",
+    "wget https://pypi.io/packages/source/p/pyshtools/pyshtools-4.6.2.tar.gz",
+    "tar -xvf pyshtools-4.6.2.tar.gz",
+    "cd pyshtools-4.6.2",
+    "make -C examples/python -f Makefile no-timing"
+   ],
+   "imports":[
+    "pyshtools",
+    "pyshtools",
+    "pyshtools"
+   ],
+   "requires":[
+    "make",
+    "tar",
+    "wget",
+    "make",
+    "tar",
+    "wget",
+    "make",
+    "tar",
+    "wget"
+   ]
+  }
+ },
+ "name":"pyshtools",
+ "new_version":"4.6.2",
+ "pinning_version":"2020.05.13.13.23.43",
+ "raw_meta_yaml":"{% set name = \"pyshtools\" %}\n{% set version = \"4.6.2\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: dd9d6ebb8f6e04cfc7f5989a21c27ede5fc781252f2ef65ae1acd9203c94a30d\n\nbuild:\n  number: 1\n  skip: True  # [win]\n  script: \"{{ PYTHON }} -m pip install . -vv\"\n\nrequirements:\n  build:\n    - {{ compiler('c') }}\n    - {{ compiler('fortran') }}\n  host:\n    - python\n    - pip\n    - setuptools\n    - numpy\n    - fftw >=3\n    - liblapack\n  run:\n    - python\n    - numpy\n    - scipy >=0.14.0\n    - matplotlib-base\n    - astropy\n    - xarray\n    - fftw >=3\n    - requests\n\ntest:\n  requires:\n    - make\n    - tar\n    - wget\n  imports:\n    - pyshtools\n  commands:\n    - \"wget https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\"\n    - \"tar -xvf {{ name }}-{{ version }}.tar.gz\"\n    - cd {{ name }}-{{ version }}\n    - \"make -C examples/python -f Makefile no-timing\"\n\nabout:\n  home: https://github.com/SHTOOLS/SHTOOLS\n  license: GPL-2.0-or-later\n  license_family: GPL\n  license_file: LICENSE\n  summary: 'Tools for working with spherical harmonics'\n\n  description: |\n    SHTOOLS/pysthools is a Fortran-95/Python library that can be used to\n    perform spherical harmonic transforms, multitaper spectral analyses on the\n    sphere, expansions of functions into Slepian bases, and standard operations\n    on global gravitational and magnetic field data.\n  doc_url: https://shtools.github.io/SHTOOLS/\n  dev_url: https://github.com/SHTOOLS/SHTOOLS\n\nextra:\n  recipe-maintainers:\n    - megies\n    - moorepants\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "astropy",
+   "c_compiler_stub",
+   "fftw",
+   "fortran_compiler_stub",
+   "liblapack",
+   "matplotlib-base",
+   "numpy",
+   "pip",
+   "python",
+   "requests",
+   "scipy",
+   "setuptools",
+   "xarray"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "fortran_compiler_stub"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "fftw",
+    "liblapack",
+    "numpy",
+    "pip",
+    "python",
+    "setuptools"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "astropy",
+    "fftw",
+    "matplotlib-base",
+    "numpy",
+    "python",
+    "requests",
+    "scipy",
+    "xarray"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "make",
+    "tar",
+    "wget"
+   ]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.7.1\n",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "fortran_compiler_stub"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "fftw >=3",
+    "liblapack",
+    "numpy",
+    "pip",
+    "python",
+    "setuptools"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "astropy",
+    "fftw >=3",
+    "matplotlib-base",
+    "numpy",
+    "python",
+    "requests",
+    "scipy >=0.14.0",
+    "xarray"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "make",
+    "tar",
+    "wget"
+   ]
+  }
+ },
+ "url":"https://pypi.io/packages/source/p/pyshtools/pyshtools-4.6.2.tar.gz",
+ "version":"4.6.2"
+}

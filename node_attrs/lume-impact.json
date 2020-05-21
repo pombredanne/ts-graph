@@ -1,0 +1,166 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/408231650.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.4.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"lume-impact",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"LUME Python wrapper Impact-T\n",
+   "home":"https://github.com/ChristopherMayes/lume-impact",
+   "license":"APACHE-2.0",
+   "license_family":"APACHE",
+   "license_file":"LICENSE",
+   "summary":"LUME Python wrapper Impact-T"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":"-m pip install . -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "ChristopherMayes",
+    "ChristopherMayes",
+    "ChristopherMayes"
+   ]
+  },
+  "package":{
+   "name":"lume-impact",
+   "version":"0.4.0"
+  },
+  "requirements":{
+   "host":[
+    "python >=3.6",
+    "pip",
+    "python >=3.6",
+    "pip",
+    "python >=3.6",
+    "pip"
+   ],
+   "run":[
+    "python >=3.6",
+    "bokeh",
+    "distgen",
+    "numpy",
+    "openpmd-beamphysics",
+    "python >=3.6",
+    "bokeh",
+    "distgen",
+    "numpy",
+    "openpmd-beamphysics",
+    "python >=3.6",
+    "bokeh",
+    "distgen",
+    "numpy",
+    "openpmd-beamphysics"
+   ]
+  },
+  "source":{
+   "sha256":"ac29b91dca811e87d18022aefe1973bd4665c6f97e7c91128b612caa4464dc4a",
+   "url":"https://github.com/ChristopherMayes/lume-impact/archive/v0.4.0.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "impact",
+    "impact",
+    "impact"
+   ]
+  }
+ },
+ "name":"lume-impact",
+ "new_version":"0.4.0",
+ "new_version_attempts":{
+  "0.4.0":1
+ },
+ "new_version_errors":{},
+ "pinning_version":"2020.04.23.16.40.11",
+ "raw_meta_yaml":"{% set name = \"lume-impact\" %}\n{% set version = \"0.4.0\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://github.com/ChristopherMayes/{{ name }}/archive/v{{ version }}.tar.gz\n  sha256: ac29b91dca811e87d18022aefe1973bd4665c6f97e7c91128b612caa4464dc4a\n\nbuild:\n  noarch: python\n  number: 0\n  script: {{ PYTHON }} -m pip install . -vv\n\nrequirements:\n  host:\n    - python >=3.6\n    - pip\n  run:\n    - python >=3.6\n    - bokeh\n    - distgen\n    - numpy\n    - openpmd-beamphysics\n\ntest:\n  imports:\n    - impact\n\nabout:\n  home: https://github.com/ChristopherMayes/{{ name }}\n  license: APACHE-2.0\n  license_family: APACHE\n  license_file: LICENSE\n  summary: LUME Python wrapper Impact-T\n  description: |\n    LUME Python wrapper Impact-T\n\nextra:\n  recipe-maintainers:\n    - ChristopherMayes\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "bokeh",
+   "distgen",
+   "numpy",
+   "openpmd-beamphysics",
+   "pip",
+   "python"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "bokeh",
+    "distgen",
+    "numpy",
+    "openpmd-beamphysics",
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.6.17",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3.6"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "bokeh",
+    "distgen",
+    "numpy",
+    "openpmd-beamphysics",
+    "python >=3.6"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://github.com/ChristopherMayes/lume-impact/archive/v0.1.0.tar.gz",
+ "version":"0.4.0"
+}

@@ -1,0 +1,193 @@
+{
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"cadquery",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"CadQuery is an intuitive, easy-to-use python library for building\nparametric 3D CAD models. It has several goals:\n- Build models with scripts that are as close as possible to how you\u2019d\n  describe the object to a human, using a standard, already established\n  programming language\n- Create parametric models that can be very easily customized by end users\n- Output high quality CAD formats like STEP and AMF in addition to\n  traditional STL\n- Provide a non-proprietary, plain text model format that can be edited and\n  executed with only a web browser\n",
+   "dev_url":"https://github.com/dcowden/cadquery",
+   "doc_url":"http://dcowden.github.io/cadquery/",
+   "home":"https://github.com/dcowden/cadquery",
+   "license":"Apache-2.0",
+   "license_family":"Apache",
+   "license_file":"src/LICENSE",
+   "summary":"CadQuery is a parametric scripting language for creating and traversing\nCAD models\n"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"2",
+   "script":"cd dist && python -m pip install --no-deps --ignore-installed ."
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "bollwyvl",
+    "bollwyvl",
+    "bollwyvl"
+   ]
+  },
+  "package":{
+   "name":"cadquery",
+   "version":"1.2.0"
+  },
+  "requirements":{
+   "host":[
+    "python >=3.6,<3.7",
+    "pip",
+    "python >=3.6,<3.7",
+    "pip",
+    "python >=3.6,<3.7",
+    "pip"
+   ],
+   "run":[
+    "python >=3.6,<3.7",
+    "pyparsing",
+    "freecad",
+    "python >=3.6,<3.7",
+    "pyparsing",
+    "freecad",
+    "python >=3.6,<3.7",
+    "pyparsing",
+    "freecad"
+   ]
+  },
+  "source":[
+   {
+    "folder":"dist",
+    "patches":[
+     "osx_freecad_path.patch"
+    ],
+    "sha256":"9988adad97357a699128967bd379d9b8d63c8947e06c3584e6371df699363abc",
+    "url":"https://pypi.io/packages/source/c/cadquery/cadquery-1.2.0.tar.gz"
+   },
+   {
+    "folder":"src",
+    "sha256":"cda199182eda0e757f5021d08453090234585f35c6f628336197c6d85883027d",
+    "url":"https://github.com/dcowden/cadquery/archive/v1.2.0.tar.gz"
+   },
+   {
+    "folder":"dist",
+    "patches":[
+     "osx_freecad_path.patch"
+    ],
+    "sha256":"9988adad97357a699128967bd379d9b8d63c8947e06c3584e6371df699363abc",
+    "url":"https://pypi.io/packages/source/c/cadquery/cadquery-1.2.0.tar.gz"
+   },
+   {
+    "folder":"src",
+    "sha256":"cda199182eda0e757f5021d08453090234585f35c6f628336197c6d85883027d",
+    "url":"https://github.com/dcowden/cadquery/archive/v1.2.0.tar.gz"
+   },
+   {
+    "folder":"dist",
+    "patches":[
+     "osx_freecad_path.patch"
+    ],
+    "sha256":"9988adad97357a699128967bd379d9b8d63c8947e06c3584e6371df699363abc",
+    "url":"https://pypi.io/packages/source/c/cadquery/cadquery-1.2.0.tar.gz"
+   },
+   {
+    "folder":"src",
+    "sha256":"cda199182eda0e757f5021d08453090234585f35c6f628336197c6d85883027d",
+    "url":"https://github.com/dcowden/cadquery/archive/v1.2.0.tar.gz"
+   }
+  ],
+  "test":{
+   "commands":[
+    "cd src",
+    "python runtests.py",
+    "cd src",
+    "python runtests.py",
+    "cd src",
+    "python runtests.py"
+   ],
+   "imports":[
+    "cadquery",
+    "cadquery",
+    "cadquery"
+   ],
+   "requires":[
+    "mock",
+    "mock",
+    "mock"
+   ],
+   "source_files":[
+    "src/tests",
+    "src/runtests.py",
+    "src/tests",
+    "src/runtests.py",
+    "src/tests",
+    "src/runtests.py"
+   ]
+  }
+ },
+ "name":"cadquery",
+ "new_version":"1.2.0",
+ "raw_meta_yaml":"{% set name = \"cadquery\" %}\n{% set version = \"1.2.0\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  - folder: dist\n    url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n    sha256: 9988adad97357a699128967bd379d9b8d63c8947e06c3584e6371df699363abc\n    patches:\n      - osx_freecad_path.patch\n  - folder: src\n    url: https://github.com/dcowden/cadquery/archive/v{{ version }}.tar.gz\n    sha256: cda199182eda0e757f5021d08453090234585f35c6f628336197c6d85883027d\n\nbuild:\n  number: 2\n  noarch: python\n  script: cd dist && python -m pip install --no-deps --ignore-installed .\n\nrequirements:\n  host:\n    - python >=3.6,<3.7\n    - pip\n  run:\n    - python >=3.6,<3.7\n    - pyparsing\n    - freecad\n\ntest:\n  source_files:\n    - src/tests\n    - src/runtests.py\n  requires:\n    - mock\n  imports:\n    - cadquery\n  commands:\n    - cd src\n    - python runtests.py\n\nabout:\n  home: https://github.com/dcowden/cadquery\n  license: Apache-2.0\n  license_family: Apache\n  license_file: src/LICENSE\n  summary: |\n    CadQuery is a parametric scripting language for creating and traversing\n    CAD models\n  description: |\n    CadQuery is an intuitive, easy-to-use python library for building\n    parametric 3D CAD models. It has several goals:\n    - Build models with scripts that are as close as possible to how you\u2019d\n      describe the object to a human, using a standard, already established\n      programming language\n    - Create parametric models that can be very easily customized by end users\n    - Output high quality CAD formats like STEP and AMF in addition to\n      traditional STL\n    - Provide a non-proprietary, plain text model format that can be edited and\n      executed with only a web browser\n  doc_url: http://dcowden.github.io/cadquery/\n  dev_url: https://github.com/dcowden/cadquery\n\nextra:\n  recipe-maintainers:\n    - bollwyvl\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "freecad",
+   "pip",
+   "pyparsing",
+   "python"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "freecad",
+    "pyparsing",
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "mock"
+   ]
+  }
+ },
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3.6,<3.7"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "freecad",
+    "pyparsing",
+    "python >=3.6,<3.7"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "mock"
+   ]
+  }
+ },
+ "url":"https://pypi.io/packages/source/c/cadquery/cadquery-1.2.0.tar.gz",
+ "version":"1.2.0"
+}

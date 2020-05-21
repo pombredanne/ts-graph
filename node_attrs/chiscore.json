@@ -1,0 +1,179 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/279584632.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.2.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"chiscore",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "dev_url":"https://github.com/limix/chiscore",
+   "home":"https://github.com/limix/chiscore",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"LICENSE.md",
+   "summary":"Test statistics derived from linear combination of chi-squared distributions"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "Horta",
+    "Horta",
+    "Horta"
+   ]
+  },
+  "package":{
+   "name":"chiscore",
+   "version":"0.2.0"
+  },
+  "requirements":{
+   "host":[
+    "pytest-runner",
+    "python >3",
+    "setuptools >=39.0.1",
+    "pip",
+    "pytest-runner",
+    "python >3",
+    "setuptools >=39.0.1",
+    "pip",
+    "pytest-runner",
+    "python >3",
+    "setuptools >=39.0.1",
+    "pip"
+   ],
+   "run":[
+    "python >3",
+    "chi2comb-py >=0.0.4",
+    "pytest-doctestplus >=0.3.0",
+    "scipy >=1.0.1",
+    "numpy >=1.14.3",
+    "python >3",
+    "chi2comb-py >=0.0.4",
+    "pytest-doctestplus >=0.3.0",
+    "scipy >=1.0.1",
+    "numpy >=1.14.3",
+    "python >3",
+    "chi2comb-py >=0.0.4",
+    "pytest-doctestplus >=0.3.0",
+    "scipy >=1.0.1",
+    "numpy >=1.14.3"
+   ]
+  },
+  "source":{
+   "sha256":"4f5c42401e4c2d7daeb235018c1f0244cb3ef8c575bb23663b4547502e789a79",
+   "url":"https://pypi.io/packages/source/c/chiscore/chiscore-0.2.0.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "python -c \"import sys; import chiscore; sys.exit(chiscore.test())\"",
+    "python -c \"import sys; import chiscore; sys.exit(chiscore.test())\"",
+    "python -c \"import sys; import chiscore; sys.exit(chiscore.test())\""
+   ],
+   "imports":[
+    "chiscore",
+    "chiscore",
+    "chiscore"
+   ]
+  }
+ },
+ "name":"chiscore",
+ "new_version":"0.2.0",
+ "pinning_version":"2019.05.11",
+ "raw_meta_yaml":"{% set name = \"chiscore\" %}\n{% set version = \"0.2.0\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: 4f5c42401e4c2d7daeb235018c1f0244cb3ef8c575bb23663b4547502e789a79\n\nbuild:\n  noarch: python\n  number: 0\n  script: \"{{ PYTHON }} -m pip install . -vv\"\n\nrequirements:\n  host:\n    - pytest-runner\n    - python >3\n    - setuptools >=39.0.1\n    - pip\n  run:\n    - python >3\n    - chi2comb-py >=0.0.4\n    - pytest-doctestplus >=0.3.0\n    - scipy >=1.0.1\n    - numpy >=1.14.3\n\ntest:\n  imports:\n    - chiscore\n  commands:\n    - python -c \"import sys; import chiscore; sys.exit(chiscore.test())\"\n\nabout:\n  home: https://github.com/limix/chiscore\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE.md\n  summary: 'Test statistics derived from linear combination of chi-squared distributions'\n  dev_url: https://github.com/limix/chiscore\n\nextra:\n  recipe-maintainers:\n    - Horta\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "chi2comb-py",
+   "numpy",
+   "pip",
+   "pytest-doctestplus",
+   "pytest-runner",
+   "python",
+   "scipy",
+   "setuptools"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "pytest-runner",
+    "python",
+    "setuptools"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "chi2comb-py",
+    "numpy",
+    "pytest-doctestplus",
+    "python",
+    "scipy"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.3.4",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "pytest-runner",
+    "python >3",
+    "setuptools >=39.0.1"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "chi2comb-py >=0.0.4",
+    "numpy >=1.14.3",
+    "pytest-doctestplus >=0.3.0",
+    "python >3",
+    "scipy >=1.0.1"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/c/chiscore/chiscore-0.2.0.tar.gz",
+ "version":"0.2.0"
+}

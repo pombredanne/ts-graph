@@ -1,0 +1,189 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/257965388.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.0.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/258767532.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.0.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/263283750.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.0.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"tinycss2",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"tinycss2 is a rewrite of tinycss with a simpler API, based on the more recent\nCSS Syntax Level 3 Specification.\n",
+   "dev_url":"https://github.com/Kozea/tinycss2",
+   "doc_url":"http://tinycss2.readthedocs.io",
+   "home":"https://github.com/Kozea/tinycss2",
+   "license":"BSD=3-Clause",
+   "license_family":"BSD",
+   "license_file":"LICENSE",
+   "summary":"Low-level CSS parser for Python"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"1",
+   "script":" -m pip install . --no-deps -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "johanneskoester",
+    "mrandrewandrade",
+    "johanneskoester",
+    "mrandrewandrade",
+    "johanneskoester",
+    "mrandrewandrade"
+   ]
+  },
+  "package":{
+   "name":"tinycss2",
+   "version":"1.0.2"
+  },
+  "requirements":{
+   "host":[
+    "python >3.5",
+    "pip",
+    "pytest-runner",
+    "python >3.5",
+    "pip",
+    "pytest-runner",
+    "python >3.5",
+    "pip",
+    "pytest-runner"
+   ],
+   "run":[
+    "python >3.5",
+    "webencodings >=0.4",
+    "python >3.5",
+    "webencodings >=0.4",
+    "python >3.5",
+    "webencodings >=0.4"
+   ]
+  },
+  "source":{
+   "sha256":"6427d0e3faa0a5e0e8c9f6437e2de26148a7a197a8b0992789f23d9a802788cf",
+   "url":"https://pypi.io/packages/source/t/tinycss2/tinycss2-1.0.2.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "tinycss2",
+    "tinycss2",
+    "tinycss2"
+   ]
+  }
+ },
+ "name":"tinycss2",
+ "new_version":"1.0.2",
+ "pinning_version":"2019.03.17",
+ "raw_meta_yaml":"{% set version = \"1.0.2\" %}\n\npackage:\n  name: tinycss2\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/t/tinycss2/tinycss2-{{ version }}.tar.gz\n  sha256: 6427d0e3faa0a5e0e8c9f6437e2de26148a7a197a8b0992789f23d9a802788cf\n\nbuild:\n  number: 1\n  noarch: python\n  script: \"{{ PYTHON }} -m pip install . --no-deps -vv\"\n\nrequirements:\n  host:\n    - python >3.5\n    - pip\n    - pytest-runner\n  run:\n    - python >3.5\n    - webencodings >=0.4\n\ntest:\n  imports:\n    - tinycss2\n\nabout:\n  home: https://github.com/Kozea/tinycss2\n  license: BSD=3-Clause\n  license_family: BSD\n  license_file: LICENSE\n  summary: Low-level CSS parser for Python\n  description: |\n    tinycss2 is a rewrite of tinycss with a simpler API, based on the more recent\n    CSS Syntax Level 3 Specification.\n  doc_url: http://tinycss2.readthedocs.io\n  dev_url: https://github.com/Kozea/tinycss2\n\nextra:\n  recipe-maintainers:\n    - johanneskoester\n    - mrandrewandrade\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "pip",
+   "pytest-runner",
+   "python",
+   "webencodings"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "pytest-runner",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "python",
+    "webencodings"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.3.2",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "pytest-runner",
+    "python >3.5"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "python >3.5",
+    "webencodings >=0.4"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/t/tinycss2/tinycss2-1.0.2.tar.gz",
+ "version":"1.0.2"
+}

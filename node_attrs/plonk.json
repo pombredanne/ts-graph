@@ -1,0 +1,186 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/374637422.json"
+   },
+   "data":{
+    "bot_rerun":1589819730.460596,
+    "migrator_name":"MatplotlibBase",
+    "migrator_version":0
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"plonk",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"Smoothed particle hydrodynamics analysis and visualization with Python.",
+   "dev_url":"https://github.com/dmentipl/plonk",
+   "doc_url":"https://plonk.readthedocs.io/",
+   "home":"https://github.com/dmentipl/plonk",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"LICENSE.txt",
+   "summary":"Smoothed particle hydrodynamics analysis and visualization with Python."
+  },
+  "build":{
+   "noarch":"python",
+   "number":"1",
+   "script":" -m pip install . -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "dmentipl",
+    "dmentipl",
+    "dmentipl"
+   ]
+  },
+  "package":{
+   "name":"plonk",
+   "version":"0.5.0"
+  },
+  "requirements":{
+   "host":[
+    "python >=3.6",
+    "pip",
+    "python >=3.6",
+    "pip",
+    "python >=3.6",
+    "pip"
+   ],
+   "run":[
+    "python >=3.6",
+    "h5py",
+    "matplotlib-base",
+    "numba",
+    "numpy",
+    "pandas",
+    "pint",
+    "scikit-image >=0.16",
+    "scipy",
+    "python >=3.6",
+    "h5py",
+    "matplotlib-base",
+    "numba",
+    "numpy",
+    "pandas",
+    "pint",
+    "scikit-image >=0.16",
+    "scipy",
+    "python >=3.6",
+    "h5py",
+    "matplotlib-base",
+    "numba",
+    "numpy",
+    "pandas",
+    "pint",
+    "scikit-image >=0.16",
+    "scipy"
+   ]
+  },
+  "source":{
+   "sha256":"21d28e46148f7a86fa63b777fddb2a93460dae986754d3604afe0c893d0e63c0",
+   "url":"https://pypi.io/packages/source/p/plonk/plonk-0.5.0.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "plonk",
+    "plonk",
+    "plonk"
+   ]
+  }
+ },
+ "name":"plonk",
+ "new_version":"0.5.0",
+ "pinning_version":"2020.02.12",
+ "raw_meta_yaml":"{% set name = \"plonk\" %}\n{% set version = \"0.5.0\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: 21d28e46148f7a86fa63b777fddb2a93460dae986754d3604afe0c893d0e63c0\n\nbuild:\n  noarch: python\n  number: 1\n  script: \"{{ PYTHON }} -m pip install . -vv\"\n\nrequirements:\n  host:\n    - python >=3.6\n    - pip\n  run:\n    - python >=3.6\n    - h5py\n    - matplotlib-base\n    - numba\n    - numpy\n    - pandas\n    - pint\n    - scikit-image >=0.16\n    - scipy\n\ntest:\n  imports:\n    - plonk\n\nabout:\n  home: https://github.com/dmentipl/plonk\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE.txt\n  summary: 'Smoothed particle hydrodynamics analysis and visualization with Python.'\n\n  description: 'Smoothed particle hydrodynamics analysis and visualization with Python.'\n  doc_url: https://plonk.readthedocs.io/\n  dev_url: https://github.com/dmentipl/plonk\n\nextra:\n  recipe-maintainers:\n    - dmentipl\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "h5py",
+   "matplotlib-base",
+   "numba",
+   "numpy",
+   "pandas",
+   "pint",
+   "pip",
+   "python",
+   "scikit-image",
+   "scipy"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "h5py",
+    "matplotlib-base",
+    "numba",
+    "numpy",
+    "pandas",
+    "pint",
+    "python",
+    "scikit-image",
+    "scipy"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.6.8",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3.6"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "h5py",
+    "matplotlib-base",
+    "numba",
+    "numpy",
+    "pandas",
+    "pint",
+    "python >=3.6",
+    "scikit-image >=0.16",
+    "scipy"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/p/plonk/plonk-0.3.0.tar.gz",
+ "version":"0.5.0"
+}

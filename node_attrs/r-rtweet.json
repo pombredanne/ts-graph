@@ -1,0 +1,340 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/240817669.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/299218683.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"RBaseRebuild",
+    "migrator_version":0,
+    "name":"r-base-3.6.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/360699170.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.7.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/413319194.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":2,
+    "migrator_version":0,
+    "name":"r400"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "bot":{
+   "automerge":true
+  },
+  "provider":{
+   "win":"azure"
+  }
+ },
+ "feedstock_name":"r-rtweet",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"https://CRAN.R-project.org/package=rtweet",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"LICENSE",
+   "summary":"An implementation of calls designed to collect and organize Twitter data via Twitter's REST and stream Application Program Interfaces (API), which can be found at the following URL: <https://developer.twitter.com/en/docs>."
+  },
+  "build":{
+   "merge_build_host":true,
+   "number":"1",
+   "rpaths":[
+    "lib/R/lib/",
+    "lib/",
+    "lib/R/lib/",
+    "lib/",
+    "lib/R/lib/",
+    "lib/"
+   ]
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "conda-forge/r",
+    "philip-khor",
+    "conda-forge/r",
+    "philip-khor",
+    "conda-forge/r",
+    "philip-khor"
+   ]
+  },
+  "package":{
+   "name":"r-rtweet",
+   "version":"0.7.0"
+  },
+  "requirements":{
+   "build":[
+    "m2w64_c_compiler_stub",
+    "m2w64_cxx_compiler_stub",
+    "filesystem",
+    "make",
+    "sed",
+    "coreutils",
+    "zip",
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "make",
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "make"
+   ],
+   "host":[
+    "r-base",
+    "r-rcpp",
+    "r-httpuv",
+    "r-httr >=1.3.0",
+    "r-jsonlite >=0.9.22",
+    "r-magrittr >=1.5.0",
+    "r-progress",
+    "r-tibble >=1.3.4",
+    "r-base",
+    "r-rcpp",
+    "r-httpuv",
+    "r-httr >=1.3.0",
+    "r-jsonlite >=0.9.22",
+    "r-magrittr >=1.5.0",
+    "r-progress",
+    "r-tibble >=1.3.4",
+    "r-base",
+    "r-rcpp",
+    "r-httpuv",
+    "r-httr >=1.3.0",
+    "r-jsonlite >=0.9.22",
+    "r-magrittr >=1.5.0",
+    "r-progress",
+    "r-tibble >=1.3.4"
+   ],
+   "run":[
+    "r-base",
+    "gcc-libs",
+    "r-rcpp",
+    "r-httpuv",
+    "r-httr >=1.3.0",
+    "r-jsonlite >=0.9.22",
+    "r-magrittr >=1.5.0",
+    "r-progress",
+    "r-tibble >=1.3.4",
+    "r-base",
+    "r-rcpp",
+    "r-httpuv",
+    "r-httr >=1.3.0",
+    "r-jsonlite >=0.9.22",
+    "r-magrittr >=1.5.0",
+    "r-progress",
+    "r-tibble >=1.3.4",
+    "r-base",
+    "r-rcpp",
+    "r-httpuv",
+    "r-httr >=1.3.0",
+    "r-jsonlite >=0.9.22",
+    "r-magrittr >=1.5.0",
+    "r-progress",
+    "r-tibble >=1.3.4"
+   ]
+  },
+  "source":{
+   "sha256":"36d9ebb2e7b9d26bb714908b52479ed64535e630c6e8b4ca48c6d52d6adfeb16",
+   "url":[
+    "https://cran.r-project.org/src/contrib/rtweet_0.7.0.tar.gz",
+    "https://cran.r-project.org/src/contrib/Archive/rtweet/rtweet_0.7.0.tar.gz",
+    "https://cran.r-project.org/src/contrib/rtweet_0.7.0.tar.gz",
+    "https://cran.r-project.org/src/contrib/Archive/rtweet/rtweet_0.7.0.tar.gz",
+    "https://cran.r-project.org/src/contrib/rtweet_0.7.0.tar.gz",
+    "https://cran.r-project.org/src/contrib/Archive/rtweet/rtweet_0.7.0.tar.gz"
+   ]
+  },
+  "test":{
+   "commands":[
+    "\"%R%\" -e \"library('rtweet')\"",
+    "$R -e \"library('rtweet')\"",
+    "$R -e \"library('rtweet')\""
+   ]
+  }
+ },
+ "name":"r-rtweet",
+ "new_version":"0.7.0",
+ "pinning_version":"2020.05.04.19.59.17",
+ "raw_meta_yaml":"{% set version = \"0.7.0\" %}\n{% set posix = 'm2-' if win else '' %}\n{% set native = 'm2w64-' if win else '' %}\n\npackage:\n  name: r-rtweet\n  version: {{ version|replace(\"-\", \"_\") }}\n\nsource:\n  url:\n    - {{ cran_mirror }}/src/contrib/rtweet_{{ version }}.tar.gz\n    - {{ cran_mirror }}/src/contrib/Archive/rtweet/rtweet_{{ version }}.tar.gz\n  sha256: 36d9ebb2e7b9d26bb714908b52479ed64535e630c6e8b4ca48c6d52d6adfeb16\n\nbuild:\n  merge_build_host: True  # [win]\n  number: 1\n  rpaths:\n    - lib/R/lib/\n    - lib/\n\nrequirements:\n  build:\n    - {{ compiler('c') }}              # [not win]\n    - {{ compiler('m2w64_c') }}        # [win]\n    - {{ compiler('cxx') }}            # [not win]\n    - {{ compiler('m2w64_cxx') }}      # [win]\n    - {{ posix }}filesystem        # [win]\n    - {{ posix }}make\n    - {{ posix }}sed               # [win]\n    - {{ posix }}coreutils         # [win]\n    - {{ posix }}zip               # [win]\n  host:\n    - r-base\n    - r-rcpp\n    - r-httpuv\n    - r-httr >=1.3.0\n    - r-jsonlite >=0.9.22\n    - r-magrittr >=1.5.0\n    - r-progress\n    - r-tibble >=1.3.4\n  run:\n    - r-base\n    - {{ native }}gcc-libs         # [win]\n    - r-rcpp\n    - r-httpuv\n    - r-httr >=1.3.0\n    - r-jsonlite >=0.9.22\n    - r-magrittr >=1.5.0\n    - r-progress\n    - r-tibble >=1.3.4\n\ntest:\n  commands:\n    - $R -e \"library('rtweet')\"           # [not win]\n    - \"\\\"%R%\\\" -e \\\"library('rtweet')\\\"\"  # [win]\n\nabout:\n  home: https://CRAN.R-project.org/package=rtweet\n  license: MIT\n  license_file: LICENSE\n  summary: 'An implementation of calls designed to collect and organize Twitter data via Twitter''s\n    REST and stream Application Program Interfaces (API), which can be found at the\n    following URL: <https://developer.twitter.com/en/docs>.'\n  license_family: MIT\n\nextra:\n  recipe-maintainers:\n    - conda-forge/r\n    - philip-khor\n\n# Package: rtweet\n# Type: Package\n# Version: 0.6.9\n# Title: Collecting Twitter Data\n# Authors@R: c( person(\"Michael W.\", \"Kearney\", , email = \"kearneymw@missouri.edu\", role = c(\"aut\", \"cre\"), comment = c(ORCID = \"0000-0002-0730-4694\")) ## add contributor template (middle name/initial optional) #person(\"First Middle\", \"Last\", , #email = \"email@address.com\", role = c(\"ctb\")) )\n# Description: An implementation of calls designed to collect and organize Twitter data via Twitter's REST and stream Application Program Interfaces (API), which can be found at the following URL: <https://developer.twitter.com/en/docs>.\n# Depends: R (>= 3.1.0)\n# Imports: httr (>= 1.3.0), jsonlite (>= 0.9.22), magrittr (>= 1.5.0), tibble (>= 1.3.4), utils, progress, Rcpp, httpuv\n# License: MIT + file LICENSE\n# URL: https://CRAN.R-project.org/package=rtweet\n# BugReports: https://github.com/mkearney/rtweet/issues\n# Encoding: UTF-8\n# Suggests: ggplot2, knitr, magick, openssl, readr, rmarkdown, testthat (>= 2.1.0), webshot, covr, igraph\n# VignetteBuilder: knitr\n# LazyData: yes\n# RoxygenNote: 6.1.1\n# LinkingTo: Rcpp\n# NeedsCompilation: yes\n# Packaged: 2019-05-19 22:25:42 UTC; mwk\n# Author: Michael W. Kearney [aut, cre] (<https://orcid.org/0000-0002-0730-4694>)\n# Maintainer: Michael W. Kearney <kearneymw@missouri.edu>\n# Repository: CRAN\n# Date/Publication: 2019-05-19 23:10:03 UTC\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "c_compiler_stub",
+   "coreutils",
+   "cxx_compiler_stub",
+   "filesystem",
+   "gcc-libs",
+   "m2w64_c_compiler_stub",
+   "m2w64_cxx_compiler_stub",
+   "make",
+   "r-base",
+   "r-httpuv",
+   "r-httr",
+   "r-jsonlite",
+   "r-magrittr",
+   "r-progress",
+   "r-rcpp",
+   "r-tibble",
+   "sed",
+   "zip"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "coreutils",
+    "cxx_compiler_stub",
+    "filesystem",
+    "m2w64_c_compiler_stub",
+    "m2w64_cxx_compiler_stub",
+    "make",
+    "sed",
+    "zip"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "r-base",
+    "r-httpuv",
+    "r-httr",
+    "r-jsonlite",
+    "r-magrittr",
+    "r-progress",
+    "r-rcpp",
+    "r-tibble"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "gcc-libs",
+    "r-base",
+    "r-httpuv",
+    "r-httr",
+    "r-jsonlite",
+    "r-magrittr",
+    "r-progress",
+    "r-rcpp",
+    "r-tibble"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.7.0\n",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "coreutils",
+    "cxx_compiler_stub",
+    "filesystem",
+    "m2w64_c_compiler_stub",
+    "m2w64_cxx_compiler_stub",
+    "make",
+    "sed",
+    "zip"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "r-base",
+    "r-httpuv",
+    "r-httr >=1.3.0",
+    "r-jsonlite >=0.9.22",
+    "r-magrittr >=1.5.0",
+    "r-progress",
+    "r-rcpp",
+    "r-tibble >=1.3.4"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "gcc-libs",
+    "r-base",
+    "r-httpuv",
+    "r-httr >=1.3.0",
+    "r-jsonlite >=0.9.22",
+    "r-magrittr >=1.5.0",
+    "r-progress",
+    "r-rcpp",
+    "r-tibble >=1.3.4"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":[
+  "https://cran.r-project.org/src/contrib/rtweet_0.6.9.tar.gz",
+  "https://cran.r-project.org/src/contrib/Archive/rtweet/rtweet_0.6.9.tar.gz",
+  "https://cran.r-project.org/src/contrib/rtweet_0.6.9.tar.gz",
+  "https://cran.r-project.org/src/contrib/Archive/rtweet/rtweet_0.6.9.tar.gz",
+  "https://cran.r-project.org/src/contrib/rtweet_0.6.9.tar.gz",
+  "https://cran.r-project.org/src/contrib/Archive/rtweet/rtweet_0.6.9.tar.gz"
+ ],
+ "version":"0.7.0"
+}

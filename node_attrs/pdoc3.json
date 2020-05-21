@@ -1,0 +1,252 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/364138429.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.7.4"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/394504613.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.7.5"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/403549047.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.8.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/404067452.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.8.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"pdoc3",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"https://pdoc3.github.io/pdoc/",
+   "license":"GNU Affero General Public v3 or later (AGPLv3+)",
+   "license_family":"AGPL",
+   "license_file":"LICENSE.txt",
+   "summary":"Auto-generate API documentation for Python projects."
+  },
+  "build":{
+   "entry_points":[
+    "pdoc = pdoc.cli:main",
+    "pdoc3 = pdoc.cli:main",
+    "pdoc = pdoc.cli:main",
+    "pdoc3 = pdoc.cli:main",
+    "pdoc = pdoc.cli:main",
+    "pdoc3 = pdoc.cli:main"
+   ],
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . --no-deps --ignore-installed -vv "
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "msarahan",
+    "msarahan",
+    "msarahan"
+   ]
+  },
+  "package":{
+   "name":"pdoc3",
+   "version":"0.7.2"
+  },
+  "requirements":{
+   "host":[
+    "mako",
+    "markdown >=3.0",
+    "pip",
+    "python >=3.5",
+    "setuptools_scm",
+    "setuptools-git",
+    "mako",
+    "markdown >=3.0",
+    "pip",
+    "python >=3.5",
+    "setuptools_scm",
+    "setuptools-git",
+    "mako",
+    "markdown >=3.0",
+    "pip",
+    "python >=3.5",
+    "setuptools_scm",
+    "setuptools-git"
+   ],
+   "run":[
+    "mako",
+    "markdown >=3.0",
+    "python >=3.5",
+    "mako",
+    "markdown >=3.0",
+    "python >=3.5",
+    "mako",
+    "markdown >=3.0",
+    "python >=3.5"
+   ]
+  },
+  "source":{
+   "sha256":"df43a7f1a139a5a61e778f424f167719acc33ed71bf13b6c34c7ebd139866eb7",
+   "url":"https://pypi.io/packages/source/p/pdoc3/pdoc3-0.7.2.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "pdoc --help",
+    "pdoc3 --help",
+    "python -m pdoc.test.__init__",
+    "pdoc --help",
+    "pdoc3 --help",
+    "python -m pdoc.test.__init__",
+    "pdoc --help",
+    "pdoc3 --help",
+    "python -m pdoc.test.__init__"
+   ],
+   "imports":[
+    "pdoc",
+    "pdoc.cli",
+    "pdoc.html_helpers",
+    "pdoc",
+    "pdoc.cli",
+    "pdoc.html_helpers",
+    "pdoc",
+    "pdoc.cli",
+    "pdoc.html_helpers"
+   ]
+  }
+ },
+ "name":"pdoc3",
+ "new_version":"0.8.1",
+ "new_version_attempts":{
+  "0.8.0":1,
+  "0.8.1":1
+ },
+ "new_version_errors":{},
+ "pinning_version":"2020.04.15.23.38.20",
+ "raw_meta_yaml":"{% set name = \"pdoc3\" %}\n{% set version = \"0.7.2\" %}\n\npackage:\n  name: \"{{ name|lower }}\"\n  version: \"{{ version }}\"\n\nsource:\n  url: \"https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\"\n  sha256: \"df43a7f1a139a5a61e778f424f167719acc33ed71bf13b6c34c7ebd139866eb7\"\n\nbuild:\n  number: 0\n  noarch: python\n  entry_points:\n    - pdoc = pdoc.cli:main\n    - pdoc3 = pdoc.cli:main\n  script: \"{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv \"\n\nrequirements:\n  host:\n    - mako\n    - markdown >=3.0\n    - pip\n    - python >=3.5\n    - setuptools_scm\n    - setuptools-git\n  run:\n    - mako\n    - markdown >=3.0\n    - python >=3.5\n\ntest:\n  imports:\n    - pdoc\n    - pdoc.cli\n    - pdoc.html_helpers\n\n  commands:\n    - pdoc --help\n    - pdoc3 --help\n    - python -m pdoc.test.__init__\n\nabout:\n  home: \"https://pdoc3.github.io/pdoc/\"\n  license: \"GNU Affero General Public v3 or later (AGPLv3+)\"\n  license_family: \"AGPL\"\n  license_file: \"LICENSE.txt\"\n  summary: \"Auto-generate API documentation for Python projects.\"\n\nextra:\n  recipe-maintainers:\n    - msarahan\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "mako",
+   "markdown",
+   "pip",
+   "python",
+   "setuptools-git",
+   "setuptools_scm"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "mako",
+    "markdown",
+    "pip",
+    "python",
+    "setuptools-git",
+    "setuptools_scm"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "mako",
+    "markdown",
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.6.16",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "mako",
+    "markdown >=3.0",
+    "pip",
+    "python >=3.5",
+    "setuptools-git",
+    "setuptools_scm"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "mako",
+    "markdown >=3.0",
+    "python >=3.5"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/p/pdoc3/pdoc3-0.7.2.tar.gz",
+ "version":"0.7.2"
+}

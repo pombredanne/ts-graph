@@ -1,0 +1,126 @@
+{
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"rb-dnsruby",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "dev_url":"https://github.com/alexdalitz/dnsruby",
+   "doc_url":"https://www.rubydoc.info/gems/dnsruby",
+   "home":"https://rubygems.org/gems/dnsruby",
+   "license":"Apache-2.0",
+   "license_family":"Apache",
+   "license_file":"dnsruby-1.61.3/LICENSE",
+   "summary":"Dnsruby is a pure Ruby DNS client library which implements a stub resolver. It aims to comply with all DNS RFCs, including DNSSEC NSEC3 support."
+  },
+  "build":{
+   "noarch":"generic",
+   "number":"0",
+   "script":[
+    "gem install -N -l -V --norc --ignore-dependencies dnsruby-1.61.3.gem",
+    "gem unpack dnsruby-1.61.3.gem",
+    "gem install -N -l -V --norc --ignore-dependencies dnsruby-1.61.3.gem",
+    "gem unpack dnsruby-1.61.3.gem",
+    "gem install -N -l -V --norc --ignore-dependencies dnsruby-1.61.3.gem",
+    "gem unpack dnsruby-1.61.3.gem"
+   ],
+   "skip":null
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "sodre",
+    "sodre",
+    "sodre"
+   ]
+  },
+  "package":{
+   "name":"rb-dnsruby",
+   "version":"1.61.3"
+  },
+  "requirements":{
+   "host":[
+    "ruby",
+    "ruby",
+    "ruby"
+   ],
+   "run":[
+    "ruby",
+    "rb-addressable >=2.5,<3",
+    "ruby",
+    "rb-addressable >=2.5,<3",
+    "ruby",
+    "rb-addressable >=2.5,<3"
+   ]
+  },
+  "source":{
+   "sha256":"d33d16b07cd5309f30bdc99bb0e3502c991a4946119e074a3b988c34055d2c8d",
+   "url":"https://rubygems.org/downloads/dnsruby-1.61.3.gem"
+  },
+  "test":{
+   "commands":[
+    "ruby -r dnsruby -e 'exit 0'",
+    "ruby -r dnsruby -e 'exit 0'",
+    "ruby -r dnsruby -e 'exit 0'"
+   ]
+  }
+ },
+ "name":"rb-dnsruby",
+ "new_version":false,
+ "raw_meta_yaml":"{% set name = \"dnsruby\" %}\n{% set version = \"1.61.3\" %}\n\npackage:\n  name: rb-{{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://rubygems.org/downloads/{{ name }}-{{ version }}.gem\n  sha256: d33d16b07cd5309f30bdc99bb0e3502c991a4946119e074a3b988c34055d2c8d\n\nbuild:\n  noarch: generic\n  number: 0\n  script:\n    - gem install -N -l -V --norc --ignore-dependencies {{ name }}-{{ version }}.gem\n    - gem unpack {{ name }}-{{ version }}.gem\n  skip: {{ win }}\n\nrequirements:\n  host:\n    - ruby\n  run:\n    - ruby\n    - rb-addressable >=2.5,<3\n\ntest:\n  commands:\n    - ruby -r {{ name }} -e 'exit 0'\n\nabout:\n  home: https://rubygems.org/gems/{{ name }}\n  license: Apache-2.0\n  license_family: Apache\n  license_file: {{ name }}-{{ version }}/LICENSE\n  summary: Dnsruby is a pure Ruby DNS client library which implements a stub resolver. It aims to comply with all DNS RFCs, including DNSSEC NSEC3 support.\n\n  doc_url: https://www.rubydoc.info/gems/{{ name }}\n  dev_url: https://github.com/alexdalitz/{{ name }}\n\nextra:\n  recipe-maintainers:\n    - sodre\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "rb-addressable",
+   "ruby"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "ruby"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "rb-addressable",
+    "ruby"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "ruby"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "rb-addressable >=2.5,<3",
+    "ruby"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://rubygems.org/downloads/dnsruby-1.61.3.gem",
+ "version":"1.61.3"
+}

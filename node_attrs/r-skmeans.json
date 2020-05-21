@@ -1,0 +1,244 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/232550193.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/299536231.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"RBaseRebuild",
+    "migrator_version":0,
+    "name":"r-base-3.6.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/413297310.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":2,
+    "migrator_version":0,
+    "name":"r400"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "bot":{
+   "automerge":true
+  },
+  "provider":{
+   "win":"azure"
+  }
+ },
+ "feedstock_name":"r-skmeans",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"https://CRAN.R-project.org/package=skmeans",
+   "license":"GPL-2",
+   "license_family":"GPL2",
+   "license_file":"/lib/R/share/licenses/GPL-2",
+   "summary":"Algorithms to compute spherical k-means partitions. Features several methods, including a genetic and a fixed-point algorithm and an interface to the CLUTO vcluster program."
+  },
+  "build":{
+   "noarch":"generic",
+   "number":"1002",
+   "rpaths":[
+    "lib/R/lib/",
+    "lib/",
+    "lib/R/lib/",
+    "lib/",
+    "lib/R/lib/",
+    "lib/"
+   ]
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "conda-forge/r",
+    "johanneskoester",
+    "bgruening",
+    "daler",
+    "jdblischak",
+    "cbrueffer",
+    "conda-forge/r",
+    "johanneskoester",
+    "bgruening",
+    "daler",
+    "jdblischak",
+    "cbrueffer",
+    "conda-forge/r",
+    "johanneskoester",
+    "bgruening",
+    "daler",
+    "jdblischak",
+    "cbrueffer"
+   ]
+  },
+  "package":{
+   "name":"r-skmeans",
+   "version":"0.2_11"
+  },
+  "requirements":{
+   "build":[
+    "r-base",
+    "r-clue >=0.3_39",
+    "r-cluster",
+    "r-slam >=0.1_31",
+    "r-base",
+    "r-clue >=0.3_39",
+    "r-cluster",
+    "r-slam >=0.1_31",
+    "r-base",
+    "r-clue >=0.3_39",
+    "r-cluster",
+    "r-slam >=0.1_31"
+   ],
+   "run":[
+    "r-base",
+    "r-clue >=0.3_39",
+    "r-cluster",
+    "r-slam >=0.1_31",
+    "r-base",
+    "r-clue >=0.3_39",
+    "r-cluster",
+    "r-slam >=0.1_31",
+    "r-base",
+    "r-clue >=0.3_39",
+    "r-cluster",
+    "r-slam >=0.1_31"
+   ]
+  },
+  "source":{
+   "fn":"skmeans_0.2-11.tar.gz",
+   "sha256":"b67aed3ed58399d2b092d00383103a98264db96831706b47f8c05d533de516a9",
+   "url":[
+    "https://cran.r-project.org/src/contrib/skmeans_0.2-11.tar.gz",
+    "https://cran.r-project.org/src/contrib/Archive/skmeans/skmeans_0.2-11.tar.gz",
+    "https://cran.r-project.org/src/contrib/skmeans_0.2-11.tar.gz",
+    "https://cran.r-project.org/src/contrib/Archive/skmeans/skmeans_0.2-11.tar.gz",
+    "https://cran.r-project.org/src/contrib/skmeans_0.2-11.tar.gz",
+    "https://cran.r-project.org/src/contrib/Archive/skmeans/skmeans_0.2-11.tar.gz"
+   ]
+  },
+  "test":{
+   "commands":[
+    "\"%R%\" -e \"library('skmeans')\"",
+    "$R -e \"library('skmeans')\"",
+    "$R -e \"library('skmeans')\""
+   ]
+  }
+ },
+ "name":"r-skmeans",
+ "new_version":"0.2_11",
+ "pinning_version":"2020.05.04.19.59.17",
+ "raw_meta_yaml":"{% set version = '0.2-11' %}\n{% set posix = 'm2-' if win else '' %}\n{% set native = 'm2w64-' if win else '' %}\n\npackage:\n  name: r-skmeans\n  version: {{ version|replace(\"-\", \"_\") }}\n\nsource:\n  fn: skmeans_{{ version }}.tar.gz\n  url:\n    - https://cran.r-project.org/src/contrib/skmeans_{{ version }}.tar.gz\n    - https://cran.r-project.org/src/contrib/Archive/skmeans/skmeans_{{ version }}.tar.gz\n  sha256: b67aed3ed58399d2b092d00383103a98264db96831706b47f8c05d533de516a9\n\nbuild:\n  noarch: generic\n  number: 1002\n\n  rpaths:\n    - lib/R/lib/\n    - lib/\n\nrequirements:\n  build:\n    - r-base\n    - r-clue >=0.3_39\n    - r-cluster\n    - r-slam >=0.1_31\n\n  run:\n    - r-base\n    - r-clue >=0.3_39\n    - r-cluster\n    - r-slam >=0.1_31\n\ntest:\n  commands:\n    - $R -e \"library('skmeans')\"  # [not win]\n    - \"\\\"%R%\\\" -e \\\"library('skmeans')\\\"\"  # [win]\n\nabout:\n  home: https://CRAN.R-project.org/package=skmeans\n  license: GPL-2\n  summary: Algorithms to compute spherical k-means partitions. Features several methods, including\n    a genetic and a fixed-point algorithm and an interface to the CLUTO vcluster program.\n  license_family: GPL2\n  license_file: '{{ environ[\"PREFIX\"] }}/lib/R/share/licenses/GPL-2'\n\nextra:\n  recipe-maintainers:\n    - conda-forge/r\n    - johanneskoester\n    - bgruening\n    - daler\n    - jdblischak\n    - cbrueffer\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "r-base",
+   "r-clue",
+   "r-cluster",
+   "r-slam"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "r-base",
+    "r-clue",
+    "r-cluster",
+    "r-slam"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "r-base",
+    "r-clue",
+    "r-cluster",
+    "r-slam"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.7.0\n",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "r-base",
+    "r-clue >=0.3_39",
+    "r-cluster",
+    "r-slam >=0.1_31"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "r-base",
+    "r-clue >=0.3_39",
+    "r-cluster",
+    "r-slam >=0.1_31"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":[
+  "https://cran.r-project.org/src/contrib/skmeans_0.2-11.tar.gz",
+  "https://cran.r-project.org/src/contrib/Archive/skmeans/skmeans_0.2-11.tar.gz",
+  "https://cran.r-project.org/src/contrib/skmeans_0.2-11.tar.gz",
+  "https://cran.r-project.org/src/contrib/Archive/skmeans/skmeans_0.2-11.tar.gz",
+  "https://cran.r-project.org/src/contrib/skmeans_0.2-11.tar.gz",
+  "https://cran.r-project.org/src/contrib/Archive/skmeans/skmeans_0.2-11.tar.gz"
+ ],
+ "version":"0.2_11"
+}

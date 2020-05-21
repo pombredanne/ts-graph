@@ -1,0 +1,160 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/407343338.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.4.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"lume-astra",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"Tools for analyzing and viewing particle data in the openPMD standard,\nextension beamphysics.\n",
+   "home":"https://github.com/ChristopherMayes/lume-astra",
+   "license":"APACHE-2.0",
+   "license_family":"APACHE",
+   "license_file":"LICENSE",
+   "summary":"Python wrapper for Astra (A Space Charge Tracking Algorithm, DESY) for use in LUME"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":"-m pip install . -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "ChristopherMayes",
+    "ChristopherMayes",
+    "ChristopherMayes"
+   ]
+  },
+  "package":{
+   "name":"lume-astra",
+   "version":"0.4.0"
+  },
+  "requirements":{
+   "host":[
+    "python >=3.6",
+    "pip",
+    "python >=3.6",
+    "pip",
+    "python >=3.6",
+    "pip"
+   ],
+   "run":[
+    "python >=3.6",
+    "distgen",
+    "numpy",
+    "openpmd-beamphysics",
+    "python >=3.6",
+    "distgen",
+    "numpy",
+    "openpmd-beamphysics",
+    "python >=3.6",
+    "distgen",
+    "numpy",
+    "openpmd-beamphysics"
+   ]
+  },
+  "source":{
+   "sha256":"3e05eb6587e0ea731fb5c49274afcdd8d4c827a95a20a48d615e6bf4fceb9c14",
+   "url":"https://github.com/ChristopherMayes/lume-astra/archive/v0.4.0.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "astra",
+    "astra",
+    "astra"
+   ]
+  }
+ },
+ "name":"lume-astra",
+ "new_version":"0.4.0",
+ "new_version_attempts":{
+  "0.4.0":1
+ },
+ "new_version_errors":{},
+ "pinning_version":"2020.04.22.03.51.02",
+ "raw_meta_yaml":"{% set name = \"lume-astra\" %}\n{% set version = \"0.4.0\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://github.com/ChristopherMayes/{{ name }}/archive/v{{ version }}.tar.gz\n  sha256: 3e05eb6587e0ea731fb5c49274afcdd8d4c827a95a20a48d615e6bf4fceb9c14\n\nbuild:\n  noarch: python\n  number: 0\n  script: {{ PYTHON }} -m pip install . -vv\n\nrequirements:\n  host:\n    - python >=3.6\n    - pip\n  run:\n    - python >=3.6\n    - distgen\n    - numpy\n    - openpmd-beamphysics\n\ntest:\n  imports:\n    - astra\n\nabout:\n  home: https://github.com/ChristopherMayes/{{ name }}\n  license: APACHE-2.0\n  license_family: APACHE\n  license_file: LICENSE\n  summary: Python wrapper for Astra (A Space Charge Tracking Algorithm, DESY) for use in LUME\n  description: |\n    Tools for analyzing and viewing particle data in the openPMD standard,\n    extension beamphysics.\n\nextra:\n  recipe-maintainers:\n    - ChristopherMayes\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "distgen",
+   "numpy",
+   "openpmd-beamphysics",
+   "pip",
+   "python"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "distgen",
+    "numpy",
+    "openpmd-beamphysics",
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.6.17",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3.6"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "distgen",
+    "numpy",
+    "openpmd-beamphysics",
+    "python >=3.6"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://github.com/ChristopherMayes/lume-astra/archive/v0.1.1.tar.gz",
+ "version":"0.4.0"
+}

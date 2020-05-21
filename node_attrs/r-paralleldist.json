@@ -1,0 +1,255 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/413924378.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":2,
+    "migrator_version":0,
+    "name":"r400"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "bot":{
+   "automerge":true
+  }
+ },
+ "feedstock_name":"r-paralleldist",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"https://github.com/alexeckert/parallelDist, https://www.alexandereckert.com/R",
+   "license":"GPL-2",
+   "license_family":"GPL2",
+   "license_file":[
+    "/lib/R/share/licenses/GPL-2",
+    "/lib/R/share/licenses/GPL-2",
+    "/lib/R/share/licenses/GPL-2"
+   ],
+   "summary":"A fast parallelized alternative to R's native 'dist' function to calculate distance matrices for continuous, binary, and multi-dimensional input matrices, which supports a broad variety of 41 predefined distance functions from the 'stats', 'proxy' and 'dtw' R packages, as well as user- defined functions written in C++. For ease of use, the 'parDist' function extends the signature of the 'dist' function and uses the same parameter naming conventions as distance methods of existing R packages. The package is mainly implemented in C++ and leverages the 'RcppParallel' package to parallelize the distance computations with the help of the 'TinyThread' library. Furthermore, the 'Armadillo' linear algebra library is used for optimized matrix operations during distance calculations. The curiously recurring template pattern (CRTP) technique is applied to avoid virtual functions, which improves the Dynamic Time Warping calculations while the implementation stays flexible enough to support different DTW step patterns and normalization methods."
+  },
+  "build":{
+   "merge_build_host":true,
+   "number":"1",
+   "rpaths":[
+    "lib/R/lib/",
+    "lib/",
+    "lib/R/lib/",
+    "lib/",
+    "lib/R/lib/",
+    "lib/"
+   ]
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "conda-forge/r",
+    "alexeckert",
+    "zdk123",
+    "conda-forge/r",
+    "alexeckert",
+    "zdk123",
+    "conda-forge/r",
+    "alexeckert",
+    "zdk123"
+   ]
+  },
+  "package":{
+   "name":"r-paralleldist",
+   "version":"0.2.4"
+  },
+  "requirements":{
+   "build":[
+    "m2w64_c_compiler_stub",
+    "m2w64_cxx_compiler_stub",
+    "filesystem",
+    "make",
+    "sed",
+    "coreutils",
+    "zip",
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "make",
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "make"
+   ],
+   "host":[
+    "r-base",
+    "r-rcpp >=0.12.6",
+    "r-rcpparmadillo",
+    "r-rcppparallel >=4.3.20",
+    "r-base",
+    "r-rcpp >=0.12.6",
+    "r-rcpparmadillo",
+    "r-rcppparallel >=4.3.20",
+    "r-base",
+    "r-rcpp >=0.12.6",
+    "r-rcpparmadillo",
+    "r-rcppparallel >=4.3.20"
+   ],
+   "run":[
+    "r-base",
+    "gcc-libs",
+    "r-rcpp >=0.12.6",
+    "r-rcpparmadillo",
+    "r-rcppparallel >=4.3.20",
+    "libopenblas",
+    "r-base",
+    "r-rcpp >=0.12.6",
+    "r-rcpparmadillo",
+    "r-rcppparallel >=4.3.20",
+    "libopenblas",
+    "r-base",
+    "r-rcpp >=0.12.6",
+    "r-rcpparmadillo",
+    "r-rcppparallel >=4.3.20",
+    "libopenblas"
+   ]
+  },
+  "source":{
+   "sha256":"7bb2a4b09b19b9000814612cf4b0163e4a14293c5b069264a76e5198e24e0e3f",
+   "url":[
+    "https://cran.r-project.org/src/contrib/parallelDist_0.2.4.tar.gz",
+    "https://cran.r-project.org/src/contrib/Archive/parallelDist/parallelDist_0.2.4.tar.gz",
+    "https://cran.r-project.org/src/contrib/parallelDist_0.2.4.tar.gz",
+    "https://cran.r-project.org/src/contrib/Archive/parallelDist/parallelDist_0.2.4.tar.gz",
+    "https://cran.r-project.org/src/contrib/parallelDist_0.2.4.tar.gz",
+    "https://cran.r-project.org/src/contrib/Archive/parallelDist/parallelDist_0.2.4.tar.gz"
+   ]
+  },
+  "test":{
+   "commands":[
+    "\"%R%\" -e \"library('parallelDist')\"",
+    "$R -e \"library('parallelDist')\"",
+    "$R -e \"library('parallelDist')\""
+   ]
+  }
+ },
+ "name":"r-paralleldist",
+ "new_version":"0.2.4",
+ "pinning_version":"2020.05.04.19.59.17",
+ "raw_meta_yaml":"{% set version = '0.2.4' %}\n{% set posix = 'm2-' if win else '' %}\n{% set native = 'm2w64-' if win else '' %}\n\npackage:\n  name: r-paralleldist\n  version: {{ version|replace(\"-\", \"_\") }}\n\nsource:\n  url:\n    - {{ cran_mirror }}/src/contrib/parallelDist_{{ version }}.tar.gz\n    - {{ cran_mirror }}/src/contrib/Archive/parallelDist/parallelDist_{{ version }}.tar.gz\n  sha256: 7bb2a4b09b19b9000814612cf4b0163e4a14293c5b069264a76e5198e24e0e3f\n\nbuild:\n  merge_build_host: True  # [win]\n  number: 1\n  rpaths:\n    - lib/R/lib/\n    - lib/\n\nrequirements:\n  build:\n    - {{ compiler('c') }}              # [not win]\n    - {{ compiler('m2w64_c') }}        # [win]\n    - {{ compiler('cxx') }}            # [not win]\n    - {{ compiler('m2w64_cxx') }}      # [win]\n    - {{ posix }}filesystem        # [win]\n    - {{ posix }}make\n    - {{ posix }}sed               # [win]\n    - {{ posix }}coreutils         # [win]\n    - {{ posix }}zip               # [win]\n  host:\n    - r-base\n    - r-rcpp >=0.12.6\n    - r-rcpparmadillo\n    - r-rcppparallel >=4.3.20\n  run:\n    - r-base\n    - {{ native }}gcc-libs         # [win]\n    - r-rcpp >=0.12.6\n    - r-rcpparmadillo\n    - r-rcppparallel >=4.3.20\n    - libopenblas\n\ntest:\n  commands:\n    - $R -e \"library('parallelDist')\"           # [not win]\n    - \"\\\"%R%\\\" -e \\\"library('parallelDist')\\\"\"  # [win]\n\nabout:\n  home: https://github.com/alexeckert/parallelDist, https://www.alexandereckert.com/R\n  license: GPL-2\n  summary: A fast parallelized alternative to R's native 'dist' function to calculate distance\n    matrices for continuous, binary, and multi-dimensional input matrices, which supports\n    a broad variety of 41 predefined distance functions from the 'stats', 'proxy' and\n    'dtw' R packages, as well as user- defined functions written in C++. For ease of\n    use, the 'parDist' function extends the signature of the 'dist' function and uses\n    the same parameter naming conventions as distance methods of existing R packages.\n    The package is mainly implemented in C++ and leverages the 'RcppParallel' package\n    to parallelize the distance computations with the help of the 'TinyThread' library.\n    Furthermore, the 'Armadillo' linear algebra library is used for optimized matrix\n    operations during distance calculations. The curiously recurring template pattern\n    (CRTP) technique is applied to avoid virtual functions, which improves the Dynamic\n    Time Warping calculations while the implementation stays flexible enough to support\n    different DTW step patterns and normalization methods.\n  license_family: GPL2\n  license_file:\n    - '{{ environ[\"PREFIX\"] }}/lib/R/share/licenses/GPL-2'\n\nextra:\n  recipe-maintainers:\n    - conda-forge/r\n    - alexeckert\n    - zdk123\n    \n\n# Package: parallelDist\n# Type: Package\n# Title: Parallel Distance Matrix Computation using Multiple Threads\n# Version: 0.2.4\n# Author: Alexander Eckert [aut, cre], Lucas Godoy [ctb], Srikanth KS [ctb]\n# Authors@R: c( person(\"Alexander\", \"Eckert\", role = c(\"aut\", \"cre\"), email = \"info@alexandereckert.com\"), person(\"Lucas\", \"Godoy\", role = \"ctb\", email = \"lucasdac.godoy@gmail.com\"), person(\"Srikanth\", \"KS\", role = \"ctb\", email = \"sri.teach@gmail.com\") )\n# Maintainer: Alexander Eckert <info@alexandereckert.com>\n# Description: A fast parallelized alternative to R's native 'dist' function to calculate distance matrices for continuous, binary, and multi-dimensional input matrices, which supports a broad variety of 41 predefined distance functions from the 'stats', 'proxy' and 'dtw' R packages, as well as user- defined functions written in C++. For ease of use, the 'parDist' function extends the signature of the 'dist' function and uses the same parameter naming conventions as distance methods of existing R packages. The package is mainly implemented in C++ and leverages the 'RcppParallel' package to parallelize the distance computations with the help of the 'TinyThread' library. Furthermore, the 'Armadillo' linear algebra library is used for optimized matrix operations during distance calculations. The curiously recurring template pattern (CRTP) technique is applied to avoid virtual functions, which improves the Dynamic Time Warping calculations while the implementation stays flexible enough to support different DTW step patterns and normalization methods.\n# License: GPL (>= 2)\n# LazyData: TRUE\n# URL: https://github.com/alexeckert/parallelDist, https://www.alexandereckert.com/R\n# BugReports: https://github.com/alexeckert/parallelDist/issues\n# NeedsCompilation: yes\n# Depends: R (>= 3.0.2)\n# Imports: Rcpp (>= 0.12.6), RcppParallel (>= 4.3.20)\n# LinkingTo: Rcpp, RcppParallel, RcppArmadillo\n# SystemRequirements: C++11\n# Suggests: dtw, ggplot2, proxy, testthat, RcppArmadillo, RcppXPtrUtils\n# Packaged: 2018-12-12 21:13:09 UTC; alex\n# Repository: CRAN\n# Date/Publication: 2018-12-12 22:50:02 UTC\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "c_compiler_stub",
+   "coreutils",
+   "cxx_compiler_stub",
+   "filesystem",
+   "gcc-libs",
+   "libopenblas",
+   "m2w64_c_compiler_stub",
+   "m2w64_cxx_compiler_stub",
+   "make",
+   "r-base",
+   "r-rcpp",
+   "r-rcpparmadillo",
+   "r-rcppparallel",
+   "sed",
+   "zip"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "coreutils",
+    "cxx_compiler_stub",
+    "filesystem",
+    "m2w64_c_compiler_stub",
+    "m2w64_cxx_compiler_stub",
+    "make",
+    "sed",
+    "zip"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "r-base",
+    "r-rcpp",
+    "r-rcpparmadillo",
+    "r-rcppparallel"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "gcc-libs",
+    "libopenblas",
+    "r-base",
+    "r-rcpp",
+    "r-rcpparmadillo",
+    "r-rcppparallel"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.7.0\n",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "coreutils",
+    "cxx_compiler_stub",
+    "filesystem",
+    "m2w64_c_compiler_stub",
+    "m2w64_cxx_compiler_stub",
+    "make",
+    "sed",
+    "zip"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "r-base",
+    "r-rcpp >=0.12.6",
+    "r-rcpparmadillo",
+    "r-rcppparallel >=4.3.20"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "gcc-libs",
+    "libopenblas",
+    "r-base",
+    "r-rcpp >=0.12.6",
+    "r-rcpparmadillo",
+    "r-rcppparallel >=4.3.20"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":[
+  "https://cran.r-project.org/src/contrib/parallelDist_0.2.4.tar.gz",
+  "https://cran.r-project.org/src/contrib/Archive/parallelDist/parallelDist_0.2.4.tar.gz",
+  "https://cran.r-project.org/src/contrib/parallelDist_0.2.4.tar.gz",
+  "https://cran.r-project.org/src/contrib/Archive/parallelDist/parallelDist_0.2.4.tar.gz",
+  "https://cran.r-project.org/src/contrib/parallelDist_0.2.4.tar.gz",
+  "https://cran.r-project.org/src/contrib/Archive/parallelDist/parallelDist_0.2.4.tar.gz"
+ ],
+ "version":"0.2.4"
+}

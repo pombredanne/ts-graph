@@ -1,0 +1,133 @@
+{
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"nionswift-instrumentation",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "dev_url":"https://github.com/nion-software/nionswift-instrumentation-kit",
+   "doc_url":"https://nionswift-instrumentation.readthedocs.io",
+   "home":"https://nionswift-instrumentation.readthedocs.io",
+   "license":"GPLv3",
+   "license_family":"GPL3",
+   "license_file":"LICENSE",
+   "summary":"A Nion Swift library for STEM instrumentation (Camera, Scan, Video, Microscope)."
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "cmeyer",
+    "ericpre",
+    "cmeyer",
+    "ericpre",
+    "cmeyer",
+    "ericpre"
+   ]
+  },
+  "package":{
+   "name":"nionswift-instrumentation",
+   "version":"0.18.3"
+  },
+  "requirements":{
+   "host":[
+    "pip",
+    "python >=3.6",
+    "pip",
+    "python >=3.6",
+    "pip",
+    "python >=3.6"
+   ],
+   "run":[
+    "nionswift >=0.14.0",
+    "python >=3.6",
+    "nionswift >=0.14.0",
+    "python >=3.6",
+    "nionswift >=0.14.0",
+    "python >=3.6"
+   ]
+  },
+  "source":{
+   "sha256":"332bc7b8b798d38a9afb2ebb5fbf0068e9084153cb60d458b28f735708f86096",
+   "url":"https://pypi.io/packages/source/n/nionswift-instrumentation/nionswift-instrumentation-0.18.3.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "nion.instrumentation",
+    "nion.instrumentation.test",
+    "nionswift_plugin.nion_instrumentation_ui",
+    "nion.instrumentation",
+    "nion.instrumentation.test",
+    "nionswift_plugin.nion_instrumentation_ui",
+    "nion.instrumentation",
+    "nion.instrumentation.test",
+    "nionswift_plugin.nion_instrumentation_ui"
+   ]
+  }
+ },
+ "name":"nionswift-instrumentation",
+ "new_version":"0.18.3",
+ "raw_meta_yaml":"{% set name = \"nionswift-instrumentation\" %}\n{% set version = \"0.18.3\" %}\n\npackage:\n  name: \"{{ name|lower }}\"\n  version: \"{{ version }}\"\n\nsource:\n  url: \"https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\"\n  sha256: 332bc7b8b798d38a9afb2ebb5fbf0068e9084153cb60d458b28f735708f86096\n\nbuild:\n  number: 0\n  noarch: python\n  script: \"{{ PYTHON }} -m pip install . -vv\"\n\nrequirements:\n  host:\n    - pip\n    - python >=3.6\n  run:\n    - nionswift >=0.14.0\n    - python >=3.6\n\ntest:\n  imports:\n    - nion.instrumentation\n    - nion.instrumentation.test\n    - nionswift_plugin.nion_instrumentation_ui\n\nabout:\n  home: \"https://nionswift-instrumentation.readthedocs.io\"\n  license: GPLv3\n  license_family: GPL3\n  license_file: LICENSE\n  summary: \"A Nion Swift library for STEM instrumentation (Camera, Scan, Video, Microscope).\"\n  doc_url: https://nionswift-instrumentation.readthedocs.io\n  dev_url: https://github.com/nion-software/nionswift-instrumentation-kit\n\nextra:\n  recipe-maintainers:\n    - cmeyer\n    - ericpre\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "nionswift",
+   "pip",
+   "python"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "nionswift",
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3.6"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "nionswift >=0.14.0",
+    "python >=3.6"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/n/nionswift-instrumentation/nionswift-instrumentation-0.18.3.tar.gz",
+ "version":"0.18.3"
+}

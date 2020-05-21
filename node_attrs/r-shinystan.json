@@ -1,0 +1,417 @@
+{
+ "PRed":[
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.5.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/241488436.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/299099338.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"RBaseRebuild",
+    "migrator_version":0,
+    "name":"r-base-3.6.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/413893110.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":2,
+    "migrator_version":0,
+    "name":"r400"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "bot":{
+   "automerge":true
+  },
+  "provider":{
+   "win":"azure"
+  }
+ },
+ "feedstock_name":"r-shinystan",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"http://mc-stan.org/, http://discourse.mc-stan.org",
+   "license":"GPL (>= 3)",
+   "license_family":"GPL3",
+   "license_file":"/lib/R/share/licenses/GPL-3",
+   "summary":"A graphical user interface for interactive Markov chain Monte Carlo (MCMC) diagnostics and plots and tables helpful for analyzing a posterior sample. The interface is powered by the 'Shiny' web application framework from 'RStudio' and works with the output of MCMC  programs written in any programming language (and has extended  functionality for 'Stan' models fit using the 'rstan' and 'rstanarm'  packages)."
+  },
+  "build":{
+   "merge_build_host":true,
+   "noarch":"generic",
+   "number":"1003",
+   "rpaths":[
+    "lib/R/lib/",
+    "lib/",
+    "lib/R/lib/",
+    "lib/",
+    "lib/R/lib/",
+    "lib/"
+   ]
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "conda-forge/r",
+    "johanneskoester",
+    "bgruening",
+    "daler",
+    "jdblischak",
+    "cbrueffer",
+    "dbast",
+    "conda-forge/r",
+    "johanneskoester",
+    "bgruening",
+    "daler",
+    "jdblischak",
+    "cbrueffer",
+    "dbast",
+    "conda-forge/r",
+    "johanneskoester",
+    "bgruening",
+    "daler",
+    "jdblischak",
+    "cbrueffer",
+    "dbast"
+   ]
+  },
+  "package":{
+   "name":"r-shinystan",
+   "version":"2.5.0"
+  },
+  "requirements":{
+   "build":null,
+   "host":[
+    "r-base",
+    "r-dt >=0.2",
+    "r-bayesplot >=1.5.0",
+    "r-colourpicker",
+    "r-dygraphs >=1.1.1.2",
+    "r-ggplot2 >=2.1.1",
+    "r-gridextra",
+    "r-gtools",
+    "r-markdown >=0.7.4",
+    "r-reshape2",
+    "r-rsconnect >=0.4.2",
+    "r-rstan >=2.17.1",
+    "r-shiny >=1.0.3",
+    "r-shinyjs >=0.6.0",
+    "r-shinythemes >=1.0.1",
+    "r-threejs >=0.2.1",
+    "r-xtable",
+    "r-xts >=0.9_7",
+    "r-base",
+    "r-dt >=0.2",
+    "r-bayesplot >=1.5.0",
+    "r-colourpicker",
+    "r-dygraphs >=1.1.1.2",
+    "r-ggplot2 >=2.1.1",
+    "r-gridextra",
+    "r-gtools",
+    "r-markdown >=0.7.4",
+    "r-reshape2",
+    "r-rsconnect >=0.4.2",
+    "r-rstan >=2.17.1",
+    "r-shiny >=1.0.3",
+    "r-shinyjs >=0.6.0",
+    "r-shinythemes >=1.0.1",
+    "r-threejs >=0.2.1",
+    "r-xtable",
+    "r-xts >=0.9_7",
+    "r-base",
+    "r-dt >=0.2",
+    "r-bayesplot >=1.5.0",
+    "r-colourpicker",
+    "r-dygraphs >=1.1.1.2",
+    "r-ggplot2 >=2.1.1",
+    "r-gridextra",
+    "r-gtools",
+    "r-markdown >=0.7.4",
+    "r-reshape2",
+    "r-rsconnect >=0.4.2",
+    "r-rstan >=2.17.1",
+    "r-shiny >=1.0.3",
+    "r-shinyjs >=0.6.0",
+    "r-shinythemes >=1.0.1",
+    "r-threejs >=0.2.1",
+    "r-xtable",
+    "r-xts >=0.9_7"
+   ],
+   "run":[
+    "r-base",
+    "r-dt >=0.2",
+    "r-bayesplot >=1.5.0",
+    "r-colourpicker",
+    "r-dygraphs >=1.1.1.2",
+    "r-ggplot2 >=2.1.1",
+    "r-gridextra",
+    "r-gtools",
+    "r-markdown >=0.7.4",
+    "r-reshape2",
+    "r-rsconnect >=0.4.2",
+    "r-rstan >=2.17.1",
+    "r-shiny >=1.0.3",
+    "r-shinyjs >=0.6.0",
+    "r-shinythemes >=1.0.1",
+    "r-threejs >=0.2.1",
+    "r-xtable",
+    "r-xts >=0.9_7",
+    "r-base",
+    "r-dt >=0.2",
+    "r-bayesplot >=1.5.0",
+    "r-colourpicker",
+    "r-dygraphs >=1.1.1.2",
+    "r-ggplot2 >=2.1.1",
+    "r-gridextra",
+    "r-gtools",
+    "r-markdown >=0.7.4",
+    "r-reshape2",
+    "r-rsconnect >=0.4.2",
+    "r-rstan >=2.17.1",
+    "r-shiny >=1.0.3",
+    "r-shinyjs >=0.6.0",
+    "r-shinythemes >=1.0.1",
+    "r-threejs >=0.2.1",
+    "r-xtable",
+    "r-xts >=0.9_7",
+    "r-base",
+    "r-dt >=0.2",
+    "r-bayesplot >=1.5.0",
+    "r-colourpicker",
+    "r-dygraphs >=1.1.1.2",
+    "r-ggplot2 >=2.1.1",
+    "r-gridextra",
+    "r-gtools",
+    "r-markdown >=0.7.4",
+    "r-reshape2",
+    "r-rsconnect >=0.4.2",
+    "r-rstan >=2.17.1",
+    "r-shiny >=1.0.3",
+    "r-shinyjs >=0.6.0",
+    "r-shinythemes >=1.0.1",
+    "r-threejs >=0.2.1",
+    "r-xtable",
+    "r-xts >=0.9_7"
+   ]
+  },
+  "source":{
+   "fn":"shinystan_2.5.0.tar.gz",
+   "sha256":"45f9c552a31035c5de8658bb9e5d72da7ec1f88fbddb520d15fe701c677154a1",
+   "url":[
+    "https://cran.r-project.org/src/contrib/shinystan_2.5.0.tar.gz",
+    "https://cran.r-project.org/src/contrib/Archive/shinystan/shinystan_2.5.0.tar.gz",
+    "https://cran.r-project.org/src/contrib/shinystan_2.5.0.tar.gz",
+    "https://cran.r-project.org/src/contrib/Archive/shinystan/shinystan_2.5.0.tar.gz",
+    "https://cran.r-project.org/src/contrib/shinystan_2.5.0.tar.gz",
+    "https://cran.r-project.org/src/contrib/Archive/shinystan/shinystan_2.5.0.tar.gz"
+   ]
+  },
+  "test":{
+   "commands":[
+    "\"%R%\" -e \"library('shinystan')\"",
+    "$R -e \"library('shinystan')\"",
+    "$R -e \"library('shinystan')\""
+   ]
+  }
+ },
+ "name":"r-shinystan",
+ "new_version":"2.5.0",
+ "pinning_version":"2020.05.04.19.59.17",
+ "raw_meta_yaml":"{% set version = '2.5.0' %}\n{% set posix = 'm2-' if win else '' %}\n{% set native = 'm2w64-' if win else '' %}\n\npackage:\n  name: r-shinystan\n  version: {{ version|replace(\"-\", \"_\") }}\n\nsource:\n  fn: shinystan_{{ version }}.tar.gz\n  url:\n    - {{ cran_mirror }}/src/contrib/shinystan_{{ version }}.tar.gz\n    - {{ cran_mirror }}/src/contrib/Archive/shinystan/shinystan_{{ version }}.tar.gz\n  sha256: 45f9c552a31035c5de8658bb9e5d72da7ec1f88fbddb520d15fe701c677154a1\n\nbuild:\n  noarch: generic\n  merge_build_host: True  # [win]\n  number: 1003\n  rpaths:\n    - lib/R/lib/\n    - lib/\n\nrequirements:\n  build:\n  host:\n    - r-base\n    - r-dt >=0.2\n    - r-bayesplot >=1.5.0\n    - r-colourpicker\n    - r-dygraphs >=1.1.1.2\n    - r-ggplot2 >=2.1.1\n    - r-gridextra\n    - r-gtools\n    - r-markdown >=0.7.4\n    - r-reshape2\n    - r-rsconnect >=0.4.2\n    - r-rstan >=2.17.1\n    - r-shiny >=1.0.3\n    - r-shinyjs >=0.6.0\n    - r-shinythemes >=1.0.1\n    - r-threejs >=0.2.1\n    - r-xtable\n    - r-xts >=0.9_7\n  run:\n    - r-base\n    - r-dt >=0.2\n    - r-bayesplot >=1.5.0\n    - r-colourpicker\n    - r-dygraphs >=1.1.1.2\n    - r-ggplot2 >=2.1.1\n    - r-gridextra\n    - r-gtools\n    - r-markdown >=0.7.4\n    - r-reshape2\n    - r-rsconnect >=0.4.2\n    - r-rstan >=2.17.1\n    - r-shiny >=1.0.3\n    - r-shinyjs >=0.6.0\n    - r-shinythemes >=1.0.1\n    - r-threejs >=0.2.1\n    - r-xtable\n    - r-xts >=0.9_7\n\ntest:\n  commands:\n    - $R -e \"library('shinystan')\"           # [not win]\n    - \"\\\"%R%\\\" -e \\\"library('shinystan')\\\"\"  # [win]\n\nabout:\n  home: http://mc-stan.org/, http://discourse.mc-stan.org\n  license: GPL (>= 3)\n  summary: A graphical user interface for interactive Markov chain Monte Carlo (MCMC) diagnostics\n    and plots and tables helpful for analyzing a posterior sample. The interface is\n    powered by the 'Shiny' web application framework from 'RStudio' and works with the\n    output of MCMC  programs written in any programming language (and has extended  functionality\n    for 'Stan' models fit using the 'rstan' and 'rstanarm'  packages).\n  license_family: GPL3\n  license_file: '{{ environ[\"PREFIX\"] }}/lib/R/share/licenses/GPL-3'\n\nextra:\n  recipe-maintainers:\n    - conda-forge/r\n    - johanneskoester\n    - bgruening\n    - daler\n    - jdblischak\n    - cbrueffer\n    - dbast\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "r-base",
+   "r-bayesplot",
+   "r-colourpicker",
+   "r-dt",
+   "r-dygraphs",
+   "r-ggplot2",
+   "r-gridextra",
+   "r-gtools",
+   "r-markdown",
+   "r-reshape2",
+   "r-rsconnect",
+   "r-rstan",
+   "r-shiny",
+   "r-shinyjs",
+   "r-shinythemes",
+   "r-threejs",
+   "r-xtable",
+   "r-xts"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "r-base",
+    "r-bayesplot",
+    "r-colourpicker",
+    "r-dt",
+    "r-dygraphs",
+    "r-ggplot2",
+    "r-gridextra",
+    "r-gtools",
+    "r-markdown",
+    "r-reshape2",
+    "r-rsconnect",
+    "r-rstan",
+    "r-shiny",
+    "r-shinyjs",
+    "r-shinythemes",
+    "r-threejs",
+    "r-xtable",
+    "r-xts"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "r-base",
+    "r-bayesplot",
+    "r-colourpicker",
+    "r-dt",
+    "r-dygraphs",
+    "r-ggplot2",
+    "r-gridextra",
+    "r-gtools",
+    "r-markdown",
+    "r-reshape2",
+    "r-rsconnect",
+    "r-rstan",
+    "r-shiny",
+    "r-shinyjs",
+    "r-shinythemes",
+    "r-threejs",
+    "r-xtable",
+    "r-xts"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.7.0\n",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "r-base",
+    "r-bayesplot >=1.5.0",
+    "r-colourpicker",
+    "r-dt >=0.2",
+    "r-dygraphs >=1.1.1.2",
+    "r-ggplot2 >=2.1.1",
+    "r-gridextra",
+    "r-gtools",
+    "r-markdown >=0.7.4",
+    "r-reshape2",
+    "r-rsconnect >=0.4.2",
+    "r-rstan >=2.17.1",
+    "r-shiny >=1.0.3",
+    "r-shinyjs >=0.6.0",
+    "r-shinythemes >=1.0.1",
+    "r-threejs >=0.2.1",
+    "r-xtable",
+    "r-xts >=0.9_7"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "r-base",
+    "r-bayesplot >=1.5.0",
+    "r-colourpicker",
+    "r-dt >=0.2",
+    "r-dygraphs >=1.1.1.2",
+    "r-ggplot2 >=2.1.1",
+    "r-gridextra",
+    "r-gtools",
+    "r-markdown >=0.7.4",
+    "r-reshape2",
+    "r-rsconnect >=0.4.2",
+    "r-rstan >=2.17.1",
+    "r-shiny >=1.0.3",
+    "r-shinyjs >=0.6.0",
+    "r-shinythemes >=1.0.1",
+    "r-threejs >=0.2.1",
+    "r-xtable",
+    "r-xts >=0.9_7"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":[
+  "https://cran.r-project.org/src/contrib/shinystan_2.5.0.tar.gz",
+  "https://cran.r-project.org/src/contrib/Archive/shinystan/shinystan_2.5.0.tar.gz",
+  "https://cran.r-project.org/src/contrib/shinystan_2.5.0.tar.gz",
+  "https://cran.r-project.org/src/contrib/Archive/shinystan/shinystan_2.5.0.tar.gz",
+  "https://cran.r-project.org/src/contrib/shinystan_2.5.0.tar.gz",
+  "https://cran.r-project.org/src/contrib/Archive/shinystan/shinystan_2.5.0.tar.gz"
+ ],
+ "version":"2.5.0"
+}

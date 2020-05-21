@@ -1,0 +1,171 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/401871132.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.0.3"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"opyplus",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"opyplus is a python package is a package that can be used to work with EnergyPlus in Python.\nMore specifically, it allows to::\n     Parse, query and modify idf files efficiently, with a number of checks ensuring that your idf file remains correct throughout your work\n     Parse and create epw files\n     Launch simulations on EnergyPlus\n     Parse EnergyPlus output files\n",
+   "dev_url":"https://github.com/openergy/opyplus",
+   "doc_url":"https://opyplus.readthedocs.io/",
+   "home":"https://github.com/openergy/opyplus",
+   "license":"MPL-2.0",
+   "license_family":"MOZILLA",
+   "license_file":"LICENSE.txt",
+   "summary":"A package to work with EnergyPlus in python"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":"-m pip install . -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "zach-b",
+    "zach-b",
+    "zach-b"
+   ]
+  },
+  "package":{
+   "name":"opyplus",
+   "version":"1.0.3"
+  },
+  "requirements":{
+   "host":[
+    "python >=3.6",
+    "pip",
+    "python >=3.6",
+    "pip",
+    "python >=3.6",
+    "pip"
+   ],
+   "run":[
+    "python >=3.6",
+    "pandas >=0.20.0,<2.0",
+    "unidecode >=1.0.22,<2.0",
+    "python-slugify >=3.0.2,<4.0",
+    "cchardet >=2.1.4,<3.0",
+    "python >=3.6",
+    "pandas >=0.20.0,<2.0",
+    "unidecode >=1.0.22,<2.0",
+    "python-slugify >=3.0.2,<4.0",
+    "cchardet >=2.1.4,<3.0",
+    "python >=3.6",
+    "pandas >=0.20.0,<2.0",
+    "unidecode >=1.0.22,<2.0",
+    "python-slugify >=3.0.2,<4.0",
+    "cchardet >=2.1.4,<3.0"
+   ]
+  },
+  "source":{
+   "sha256":"fb4b4e60198a6ad2984a17f4f8c16a3b1e126fa344584525dafbb9f922ea47f2",
+   "url":"https://github.com/openergy/opyplus/archive/v1.0.3.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "opyplus",
+    "opyplus",
+    "opyplus"
+   ]
+  }
+ },
+ "name":"opyplus",
+ "new_version":"9.0.1",
+ "new_version_attempts":{
+  "1.0.3":1,
+  "9.0.1":319
+ },
+ "new_version_errors":{
+  "9.0.1":"The recipe did not change in the version migration, a URL did not hash, or there is jinja2 syntax the bot cannot handle!\n\nPlease check the URLs in your recipe with version '9.0.1' to make sure they exist!\n\nWe also found the following errors:\n\n - could not hash URL template 'https://github.com/openergy/opyplus/archive/v{{ version }}.tar.gz'\n"
+ },
+ "pinning_version":"2020.04.10",
+ "raw_meta_yaml":"{% set name = \"opyplus\" %}\n{% set version = \"1.0.3\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://github.com/openergy/opyplus/archive/v{{ version }}.tar.gz\n  sha256: fb4b4e60198a6ad2984a17f4f8c16a3b1e126fa344584525dafbb9f922ea47f2\n\nbuild:\n  noarch: python\n  number: 0\n  script: {{ PYTHON }} -m pip install . -vv\n\nrequirements:\n  host:\n    - python >=3.6\n    - pip\n  run:\n    - python >=3.6\n    - pandas >=0.20.0,<2.0\n    - unidecode >=1.0.22,<2.0\n    - python-slugify >=3.0.2,<4.0\n    - cchardet >=2.1.4,<3.0\n\ntest:\n  imports:\n    - opyplus\n\nabout:\n  home: https://github.com/openergy/opyplus\n  license: MPL-2.0\n  license_family: MOZILLA\n  license_file: LICENSE.txt\n  summary: A package to work with EnergyPlus in python\n  description: |\n    opyplus is a python package is a package that can be used to work with EnergyPlus in Python. \n    More specifically, it allows to::\n         Parse, query and modify idf files efficiently, with a number of checks ensuring that your idf file remains correct throughout your work\n         Parse and create epw files\n         Launch simulations on EnergyPlus\n         Parse EnergyPlus output files\n  doc_url: https://opyplus.readthedocs.io/\n  dev_url: https://github.com/openergy/opyplus\n\nextra:\n  recipe-maintainers:\n    - zach-b\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "cchardet",
+   "pandas",
+   "pip",
+   "python",
+   "python-slugify",
+   "unidecode"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "cchardet",
+    "pandas",
+    "python",
+    "python-slugify",
+    "unidecode"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.6.16",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3.6"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "cchardet >=2.1.4,<3.0",
+    "pandas >=0.20.0,<2.0",
+    "python >=3.6",
+    "python-slugify >=3.0.2,<4.0",
+    "unidecode >=1.0.22,<2.0"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://github.com/openergy/opyplus/archive/v1.0.0.dev4.tar.gz",
+ "version":"1.0.3"
+}

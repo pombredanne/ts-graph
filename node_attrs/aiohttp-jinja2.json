@@ -1,0 +1,177 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/297030353.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.1.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/330475925.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.2.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"aiohttp-jinja2",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "doc_url":"http://aiohttp-jinja2.readthedocs.org/",
+   "home":"https://github.com/aio-libs/aiohttp-jinja2/",
+   "license":"Apache Software",
+   "license_family":"APACHE",
+   "license_file":"LICENSE",
+   "summary":"jinja2 template renderer for aiohttp.web (http server for asyncio)"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . --no-deps --ignore-installed -vv "
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "epruesse",
+    "epruesse",
+    "epruesse"
+   ]
+  },
+  "package":{
+   "name":"aiohttp-jinja2",
+   "version":"1.1.2"
+  },
+  "requirements":{
+   "host":[
+    "aiohttp >=3.2.0",
+    "jinja2 >=2.10.1",
+    "pip",
+    "python >3.5.3",
+    "aiohttp >=3.2.0",
+    "jinja2 >=2.10.1",
+    "pip",
+    "python >3.5.3",
+    "aiohttp >=3.2.0",
+    "jinja2 >=2.10.1",
+    "pip",
+    "python >3.5.3"
+   ],
+   "run":[
+    "aiohttp >=3.2.0",
+    "jinja2 >=2.10.1",
+    "python >3.5.3",
+    "aiohttp >=3.2.0",
+    "jinja2 >=2.10.1",
+    "python >3.5.3",
+    "aiohttp >=3.2.0",
+    "jinja2 >=2.10.1",
+    "python >3.5.3"
+   ]
+  },
+  "source":{
+   "sha256":"4569ba360dbef2f6e2edfcb1eb34452e85498b7e17740baa5a4adc296ac3973c",
+   "url":"https://pypi.io/packages/source/a/aiohttp-jinja2/aiohttp-jinja2-1.1.2.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "aiohttp_jinja2",
+    "aiohttp_jinja2",
+    "aiohttp_jinja2"
+   ]
+  }
+ },
+ "name":"aiohttp-jinja2",
+ "new_version":"1.2.0",
+ "pinning_version":"2019.10.11",
+ "raw_meta_yaml":"{% set name = \"aiohttp-jinja2\" %}\n{% set version = \"1.1.2\" %}\n\npackage:\n  name: \"{{ name|lower }}\"\n  version: \"{{ version }}\"\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: 4569ba360dbef2f6e2edfcb1eb34452e85498b7e17740baa5a4adc296ac3973c\n\nbuild:\n  number: 0\n  noarch: python\n  script: \"{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv \"\n\nrequirements:\n  host:\n    - aiohttp >=3.2.0\n    - jinja2 >=2.10.1\n    - pip\n    - python >3.5.3\n  run:\n    - aiohttp >=3.2.0\n    - jinja2 >=2.10.1\n    - python >3.5.3\n\ntest:\n  imports:\n    - aiohttp_jinja2\n\nabout:\n  home: https://github.com/aio-libs/aiohttp-jinja2/\n  license: Apache Software\n  license_family: APACHE\n  license_file: LICENSE\n  summary: jinja2 template renderer for aiohttp.web (http server for asyncio)\n  doc_url: http://aiohttp-jinja2.readthedocs.org/\n\nextra:\n  recipe-maintainers:\n    - epruesse\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "aiohttp",
+   "jinja2",
+   "pip",
+   "python"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "aiohttp",
+    "jinja2",
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "aiohttp",
+    "jinja2",
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.6.0",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "aiohttp >=3.2.0",
+    "jinja2 >=2.10.1",
+    "pip",
+    "python >3.5.3"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "aiohttp >=3.2.0",
+    "jinja2 >=2.10.1",
+    "python >3.5.3"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/a/aiohttp-jinja2/aiohttp-jinja2-1.1.2.tar.gz",
+ "version":"1.1.2"
+}

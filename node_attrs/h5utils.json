@@ -1,0 +1,232 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/232533981.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/285639864.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Rebuild",
+    "migrator_version":0,
+    "name":"hdf5-1.10.5"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "compiler_stack":"comp7",
+  "max_py_ver":"37",
+  "max_r_ver":"35"
+ },
+ "feedstock_name":"h5utils",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "dev_url":"https://github.com/NanoComp/h5utils",
+   "doc_url":"https://github.com/NanoComp/h5utils/tree/master/doc",
+   "home":"http:/github.com/NanoComp/h5utils",
+   "license":"MIT, GPL2",
+   "license_file":"COPYING",
+   "summary":"A set of utilities for visualization and conversion of scientific data in the free portable HDF5 format"
+  },
+  "build":{
+   "number":"1106",
+   "run_exports":[
+    "h5utils * nompi_*",
+    "h5utils * nompi_*",
+    "h5utils * nompi_*"
+   ],
+   "skip":true,
+   "string":"nompi_h_1106"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "ChristopherHogan",
+    "ChristopherHogan",
+    "ChristopherHogan"
+   ]
+  },
+  "package":{
+   "name":"h5utils",
+   "version":"1.13.1"
+  },
+  "requirements":{
+   "build":[
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "c_compiler_stub",
+    "cxx_compiler_stub"
+   ],
+   "host":[
+    "nompi",
+    "libpng",
+    "hdf5 * nompi_*",
+    "zlib",
+    "nompi",
+    "libpng",
+    "hdf5 * nompi_*",
+    "zlib",
+    "nompi",
+    "libpng",
+    "hdf5 * nompi_*",
+    "zlib"
+   ],
+   "run":[
+    "nompi",
+    "libpng",
+    "hdf5",
+    "zlib",
+    "nompi",
+    "libpng",
+    "hdf5",
+    "zlib",
+    "nompi",
+    "libpng",
+    "hdf5",
+    "zlib"
+   ]
+  },
+  "source":{
+   "fn":"h5utils-1.13.1.tar.gz",
+   "sha256":"c5a76f064d6daa3e65583dce2b61202510e67cf6590f076af9a8aa72511d7d65",
+   "url":"https://github.com/NanoComp/h5utils/releases/download/1.13.1/h5utils-1.13.1.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "h5topng -h",
+    "h5totxt -h",
+    "h5fromtxt -h",
+    "h5tovtk -h",
+    "h5topng -h",
+    "h5totxt -h",
+    "h5fromtxt -h",
+    "h5tovtk -h",
+    "h5topng -h",
+    "h5totxt -h",
+    "h5fromtxt -h",
+    "h5tovtk -h"
+   ],
+   "requires":[
+    "h5py",
+    "numpy",
+    "h5py",
+    "numpy",
+    "h5py",
+    "numpy"
+   ]
+  }
+ },
+ "name":"h5utils",
+ "new_version":false,
+ "pinning_version":"2019.06.05",
+ "raw_meta_yaml":"{% set name = \"h5utils\" %}\n{% set version = \"1.13.1\" %}\n{% set sha256 = \"c5a76f064d6daa3e65583dce2b61202510e67cf6590f076af9a8aa72511d7d65\" %}\n{% set build = 1006 %}\n\n# recipe-lint fails if mpi is undefined\n{% set mpi = mpi or 'nompi' %}\n{% if mpi == \"nompi\" %}\n# prioritize nompi via build number\n{% set build = build + 100 %}\n{% endif %}\n\npackage:\n  name: {{ name }}\n  version: {{ version }}\n\nsource:\n  fn: {{ name }}-{{ version }}.tar.gz\n  url: https://github.com/NanoComp/{{ name }}/releases/download/{{ version }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: {{ build }}\n  skip: true  # [win]\n  {% if mpi != \"nompi\" %}\n  {% set mpi_prefix = \"mpi_\" + mpi %}\n  {% else %}\n  {% set mpi_prefix = \"nompi\" %}\n  {% endif %}\n  # add build string so packages can depend on\n  # mpi or nompi variants\n  # dependencies:\n  # `h5utils * mpi_mpich_*` for mpich\n  # `h5utils * mpi_*` for any mpi\n  # `h5utils * nompi_*` for no mpi\n  string: \"{{ mpi_prefix }}_h{{ PKG_HASH }}_{{ build }}\"\n  run_exports:\n    - {{ name }} * {{ mpi_prefix }}_*\n\nrequirements:\n  build:\n    - {{ compiler('c') }}\n    - {{ compiler('cxx') }}\n  host:\n    - {{ mpi }}  # [mpi != 'nompi']\n    - libpng\n    - hdf5 * {{ mpi_prefix }}_*\n    - zlib\n  run:\n    - {{ mpi }}  # [mpi != 'nompi']\n    - libpng\n    - hdf5\n    - zlib\n\ntest:\n  requires:\n    - h5py\n    - numpy\n  commands:\n    - h5topng -h\n    - h5totxt -h\n    - h5fromtxt -h\n    - h5tovtk -h\n\nabout:\n  home: http:/github.com/NanoComp/h5utils\n  license: MIT, GPL2\n  license_file: COPYING\n  summary: A set of utilities for visualization and conversion of scientific data in the free portable HDF5 format\n  doc_url: https://github.com/NanoComp/h5utils/tree/master/doc\n  dev_url: https://github.com/NanoComp/h5utils\n\nextra:\n  recipe-maintainers:\n    - ChristopherHogan\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "c_compiler_stub",
+   "cxx_compiler_stub",
+   "hdf5",
+   "libpng",
+   "nompi",
+   "zlib"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "cxx_compiler_stub"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "hdf5",
+    "libpng",
+    "nompi",
+    "zlib"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "hdf5",
+    "libpng",
+    "nompi",
+    "zlib"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "h5py",
+    "numpy"
+   ]
+  }
+ },
+ "smithy_version":"3.3.6",
+ "strong_exports":false,
+ "time":1568135295.4975731,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "cxx_compiler_stub"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "hdf5 * nompi_*",
+    "libpng",
+    "nompi",
+    "zlib"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "hdf5",
+    "libpng",
+    "nompi",
+    "zlib"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "h5py",
+    "numpy"
+   ]
+  }
+ },
+ "url":"https://github.com/NanoComp/h5utils/releases/download/1.13.1/h5utils-1.13.1.tar.gz",
+ "version":"1.13.1"
+}

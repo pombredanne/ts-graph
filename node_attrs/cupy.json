@@ -1,0 +1,462 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/332698192.json"
+   },
+   "data":{
+    "bot_rerun":1579272528.8871853,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"6.5.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/332779813.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"6.5.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/336087514.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"python38"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/349274460.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"7.0.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/363537536.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"7.1.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/365744357.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"7.1.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/375246971.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"7.2.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/392604596.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"pypy"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/392785307.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"7.3.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/407761228.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"7.4.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"cupy",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"https://cupy.chainer.org/",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"LICENSE",
+   "summary":"CuPy is an implementation of a NumPy-compatible multi-dimensional array on CUDA."
+  },
+  "build":{
+   "missing_dso_whitelist":[
+    "*/libcuda.*",
+    "*/libcuda.*",
+    "*/libcuda.*"
+   ],
+   "number":"2",
+   "script":[
+    "export CFLAGS=\"${CFLAGS} -I/usr/include\"",
+    "export CPPFLAGS=\"${CPPFLAGS} -I/usr/include\"",
+    "export CXXFLAGS=\"${CXXFLAGS} -I/usr/include\"",
+    "-m pip install . -vv",
+    "mkdir -p \"${PREFIX}/etc/conda/activate.d\"",
+    "cp \"${RECIPE_DIR}/activate.sh\" \"${PREFIX}/etc/conda/activate.d/cupy_activate.sh\"",
+    "mkdir -p \"${PREFIX}/etc/conda/deactivate.d\"",
+    "cp \"${RECIPE_DIR}/deactivate.sh\" \"${PREFIX}/etc/conda/deactivate.d/cupy_deactivate.sh\"",
+    "export CFLAGS=\"${CFLAGS} -I/usr/include\"",
+    "export CPPFLAGS=\"${CPPFLAGS} -I/usr/include\"",
+    "export CXXFLAGS=\"${CXXFLAGS} -I/usr/include\"",
+    "-m pip install . -vv",
+    "mkdir -p \"${PREFIX}/etc/conda/activate.d\"",
+    "cp \"${RECIPE_DIR}/activate.sh\" \"${PREFIX}/etc/conda/activate.d/cupy_activate.sh\"",
+    "mkdir -p \"${PREFIX}/etc/conda/deactivate.d\"",
+    "cp \"${RECIPE_DIR}/deactivate.sh\" \"${PREFIX}/etc/conda/deactivate.d/cupy_deactivate.sh\"",
+    "export CFLAGS=\"${CFLAGS} -I/usr/include\"",
+    "export CPPFLAGS=\"${CPPFLAGS} -I/usr/include\"",
+    "export CXXFLAGS=\"${CXXFLAGS} -I/usr/include\"",
+    "-m pip install . -vv",
+    "mkdir -p \"${PREFIX}/etc/conda/activate.d\"",
+    "cp \"${RECIPE_DIR}/activate.sh\" \"${PREFIX}/etc/conda/activate.d/cupy_activate.sh\"",
+    "mkdir -p \"${PREFIX}/etc/conda/deactivate.d\"",
+    "cp \"${RECIPE_DIR}/deactivate.sh\" \"${PREFIX}/etc/conda/deactivate.d/cupy_deactivate.sh\""
+   ],
+   "skip":true
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "jakirkham",
+    "leofang",
+    "kmaehashi",
+    "beam2d",
+    "asi1024",
+    "emcastillo",
+    "hvy",
+    "toslunar",
+    "jakirkham",
+    "leofang",
+    "kmaehashi",
+    "beam2d",
+    "asi1024",
+    "emcastillo",
+    "hvy",
+    "toslunar",
+    "jakirkham",
+    "leofang",
+    "kmaehashi",
+    "beam2d",
+    "asi1024",
+    "emcastillo",
+    "hvy",
+    "toslunar"
+   ]
+  },
+  "package":{
+   "name":"cupy",
+   "version":"7.4.0"
+  },
+  "requirements":{
+   "build":[
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "cuda_compiler_stub",
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "cuda_compiler_stub",
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "cuda_compiler_stub"
+   ],
+   "host":[
+    "python",
+    "pip",
+    "setuptools",
+    "cython >=0.24.0",
+    "fastrlock >=0.3",
+    "cudnn",
+    "nccl",
+    "python",
+    "pip",
+    "setuptools",
+    "cython >=0.24.0",
+    "fastrlock >=0.3",
+    "cudnn",
+    "nccl",
+    "python",
+    "pip",
+    "setuptools",
+    "cython >=0.24.0",
+    "fastrlock >=0.3",
+    "cudnn",
+    "nccl"
+   ],
+   "run":[
+    "python",
+    "setuptools",
+    "fastrlock >=0.3",
+    "numpy >=1.9.0",
+    "six >=1.9.0",
+    "python",
+    "setuptools",
+    "fastrlock >=0.3",
+    "numpy >=1.9.0",
+    "six >=1.9.0",
+    "python",
+    "setuptools",
+    "fastrlock >=0.3",
+    "numpy >=1.9.0",
+    "six >=1.9.0"
+   ]
+  },
+  "source":[
+   {
+    "sha256":"e8026947b1984d8bd7eda7292d332ee60a9aaa601e065a560c48aa40bfa1df55",
+    "url":"https://github.com/cupy/cupy/archive/v7.4.0.tar.gz"
+   },
+   {
+    "sha256":"e8026947b1984d8bd7eda7292d332ee60a9aaa601e065a560c48aa40bfa1df55",
+    "url":"https://github.com/cupy/cupy/archive/v7.4.0.tar.gz"
+   },
+   {
+    "sha256":"e8026947b1984d8bd7eda7292d332ee60a9aaa601e065a560c48aa40bfa1df55",
+    "url":"https://github.com/cupy/cupy/archive/v7.4.0.tar.gz"
+   }
+  ],
+  "test":{
+   "requires":[
+    "pytest",
+    "mock",
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "cuda_compiler_stub",
+    "pytest",
+    "mock",
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "cuda_compiler_stub",
+    "pytest",
+    "mock",
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "cuda_compiler_stub"
+   ],
+   "source_files":[
+    "tests",
+    "tests",
+    "tests"
+   ]
+  }
+ },
+ "name":"cupy",
+ "new_version":"7.4.0",
+ "new_version_attempts":{
+  "7.4.0":1
+ },
+ "new_version_errors":{},
+ "pinning_version":"2020.04.23.05.37.39",
+ "raw_meta_yaml":"{% set name = \"cupy\" %}\n{% set version = \"7.4.0\" %}\n{% set sha256 = \"e8026947b1984d8bd7eda7292d332ee60a9aaa601e065a560c48aa40bfa1df55\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  - url: https://github.com/cupy/cupy/archive/v{{ version }}.tar.gz\n    sha256: {{ sha256 }}\n\n  # CUB support has too many bugs, let us wait for a bit longer\n  ## 1. The CUB support has been extensively tested with v1.8.0, so we should pin it here\n  ## 2. This dependency should be removed once CuPy bundles CUB (cupy/cupy#2584)\n  #- url: https://github.com/NVlabs/cub/archive/v1.8.0.tar.gz\n  #  sha256: 025658f4c933cd2aa8cc88a559d013338d68de3fa639cc1f2b12cf61dc759667\n  #  folder: cub_v1.8.0  # so the source code is in cupy/cub_v1.8.0\n\nbuild:\n  number: 2\n  # temporarily disable PyPy build (conda-forge/cupy-feedstock#43)\n  skip: true  # [python_impl == \"pypy\"]\n  skip: true  # [cuda_compiler_version in (undefined, \"None\")]\n  script:\n    # CUDA 10.1 moves some headers to `/usr/include`\n    # So add that location last in the header search paths\n    - export CFLAGS=\"${CFLAGS} -I/usr/include\"\n    - export CPPFLAGS=\"${CPPFLAGS} -I/usr/include\"\n    - export CXXFLAGS=\"${CXXFLAGS} -I/usr/include\"\n    #- export CUB_PATH=${PWD}/cub_v1.8.0  # TODO(leofang): remove this\n    - {{ PYTHON }} -m pip install . -vv\n\n    # copy activate/deactivate scripts\n    - mkdir -p \"${PREFIX}/etc/conda/activate.d\"\n    - cp \"${RECIPE_DIR}/activate.sh\" \"${PREFIX}/etc/conda/activate.d/cupy_activate.sh\"\n    - mkdir -p \"${PREFIX}/etc/conda/deactivate.d\"\n    - cp \"${RECIPE_DIR}/deactivate.sh\" \"${PREFIX}/etc/conda/deactivate.d/cupy_deactivate.sh\"\n  missing_dso_whitelist:\n    - '*/libcuda.*'\n\nrequirements:\n  build:\n    - {{ compiler(\"c\") }}\n    - {{ compiler(\"cxx\") }}\n    - {{ compiler(\"cuda\") }}\n\n  host:\n    - python\n    - pip\n    - setuptools\n    - cython >=0.24.0\n    - fastrlock >=0.3\n    - cudnn\n    - nccl\n\n  run:\n    - python\n    - setuptools\n    - fastrlock >=0.3\n    - numpy >=1.9.0\n    - six >=1.9.0\n    # - cudnn  <-- added via run_export\n    # - nccl   <-- added via run_export\n\ntest:\n  requires:\n    - pytest\n    - mock\n    - {{ compiler(\"c\") }}\n    - {{ compiler(\"cxx\") }}\n    - {{ compiler(\"cuda\") }}  # tests need nvcc\n    #- scipy >=1.0,<1.1  <-- cause error\n\n  source_files:\n    - tests\n\nabout:\n  home: https://cupy.chainer.org/\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE\n  summary: CuPy is an implementation of a NumPy-compatible multi-dimensional array on CUDA.\n\nextra:\n  recipe-maintainers:\n    - jakirkham\n    - leofang\n    - kmaehashi\n    - beam2d\n    - asi1024\n    - emcastillo\n    - hvy\n    - toslunar\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "c_compiler_stub",
+   "cuda_compiler_stub",
+   "cudnn",
+   "cxx_compiler_stub",
+   "cython",
+   "fastrlock",
+   "nccl",
+   "numpy",
+   "pip",
+   "python",
+   "setuptools",
+   "six"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "cuda_compiler_stub",
+    "cxx_compiler_stub"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "cudnn",
+    "cython",
+    "fastrlock",
+    "nccl",
+    "pip",
+    "python",
+    "setuptools"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "fastrlock",
+    "numpy",
+    "python",
+    "setuptools",
+    "six"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "cuda_compiler_stub",
+    "cxx_compiler_stub",
+    "mock",
+    "pytest"
+   ]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.6.17",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "cuda_compiler_stub",
+    "cxx_compiler_stub"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "cudnn",
+    "cython >=0.24.0",
+    "fastrlock >=0.3",
+    "nccl",
+    "pip",
+    "python",
+    "setuptools"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "fastrlock >=0.3",
+    "numpy >=1.9.0",
+    "python",
+    "setuptools",
+    "six >=1.9.0"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "cuda_compiler_stub",
+    "cxx_compiler_stub",
+    "mock",
+    "pytest"
+   ]
+  }
+ },
+ "url":"https://github.com/cupy/cupy/archive/v6.4.0.tar.gz",
+ "version":"7.4.0"
+}

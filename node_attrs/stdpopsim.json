@@ -1,0 +1,186 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/358763644.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.1.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"stdpopsim",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"Stdpopsim provides a standard library of population genetic simulations, based\naround a catalog of species definitions, empirical genetic maps and demograpic\nmodels.\n",
+   "dev_url":"https://github.com/popsim-consortium/stdpopsim",
+   "doc_url":"http://stdpopsim.readthedocs.io/",
+   "home":"http://github.com/popsim-consortium/stdpopsim",
+   "license":"GPLv3+",
+   "license_family":"GPL",
+   "license_file":"LICENSE",
+   "summary":"A community-maintained standard library of population genetic simulations"
+  },
+  "build":{
+   "entry_points":[
+    "stdpopsim=stdpopsim.cli:stdpopsim_main",
+    "stdpopsim=stdpopsim.cli:stdpopsim_main",
+    "stdpopsim=stdpopsim.cli:stdpopsim_main"
+   ],
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . --no-deps -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "jeromekelleher",
+    "jeromekelleher",
+    "jeromekelleher"
+   ]
+  },
+  "package":{
+   "name":"stdpopsim",
+   "version":"0.1.1"
+  },
+  "requirements":{
+   "host":[
+    "setuptools",
+    "setuptools_scm",
+    "python >=3.6",
+    "pip",
+    "setuptools",
+    "setuptools_scm",
+    "python >=3.6",
+    "pip",
+    "setuptools",
+    "setuptools_scm",
+    "python >=3.6",
+    "pip"
+   ],
+   "run":[
+    "python >=3.6",
+    "msprime >=0.7.1",
+    "attrs >=18.2.0",
+    "appdirs",
+    "humanize",
+    "python >=3.6",
+    "msprime >=0.7.1",
+    "attrs >=18.2.0",
+    "appdirs",
+    "humanize",
+    "python >=3.6",
+    "msprime >=0.7.1",
+    "attrs >=18.2.0",
+    "appdirs",
+    "humanize"
+   ]
+  },
+  "source":{
+   "sha256":"e4783bca9d7a1f8dabd4a165542edd9166367f15417aaa3b994a60165982b3d8",
+   "url":"https://pypi.io/packages/source/s/stdpopsim/stdpopsim-0.1.1.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "stdpopsim -h",
+    "stdpopsim -h",
+    "stdpopsim -h"
+   ],
+   "imports":[
+    "stdpopsim",
+    "stdpopsim",
+    "stdpopsim"
+   ]
+  }
+ },
+ "name":"stdpopsim",
+ "new_version":"0.1.1",
+ "pinning_version":"2019.12.18",
+ "raw_meta_yaml":"{% set name = \"stdpopsim\" %}\n{% set version = \"0.1.1\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: e4783bca9d7a1f8dabd4a165542edd9166367f15417aaa3b994a60165982b3d8\n\nbuild:\n  number: 0\n  script: \"{{ PYTHON }} -m pip install . --no-deps -vv\"\n  entry_points:\n    - stdpopsim=stdpopsim.cli:stdpopsim_main\n  noarch: python\n\nrequirements:\n  host:\n    - setuptools\n    - setuptools_scm\n    - python >=3.6\n    - pip\n  run:\n    - python >=3.6\n    - msprime >=0.7.1\n    - attrs >=18.2.0\n    - appdirs\n    - humanize\n\ntest:\n  commands:\n    - stdpopsim -h\n  imports:\n    - stdpopsim\n\nabout:\n  home: http://github.com/popsim-consortium/stdpopsim\n  license: GPLv3+\n  license_family: GPL\n  license_file: LICENSE\n  summary: 'A community-maintained standard library of population genetic simulations'\n  description: |\n    Stdpopsim provides a standard library of population genetic simulations, based \n    around a catalog of species definitions, empirical genetic maps and demograpic\n    models.\n  doc_url: http://stdpopsim.readthedocs.io/\n  dev_url: https://github.com/popsim-consortium/stdpopsim\n\nextra:\n  recipe-maintainers:\n    - jeromekelleher\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "appdirs",
+   "attrs",
+   "humanize",
+   "msprime",
+   "pip",
+   "python",
+   "setuptools",
+   "setuptools_scm"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python",
+    "setuptools",
+    "setuptools_scm"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "appdirs",
+    "attrs",
+    "humanize",
+    "msprime",
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.6.5",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3.6",
+    "setuptools",
+    "setuptools_scm"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "appdirs",
+    "attrs >=18.2.0",
+    "humanize",
+    "msprime >=0.7.1",
+    "python >=3.6"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/s/stdpopsim/stdpopsim-0.1.0.tar.gz",
+ "version":"0.1.1"
+}

@@ -1,0 +1,162 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/410469097.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.1.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"temporal-cache",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"Time-based cache invalidation\n",
+   "dev_url":"https://github.com/timkpaine/temporal-cache",
+   "doc_url":"https://temporal-cache.readthedocs.io",
+   "home":"http://github.com/timkpaine/temporal-cache",
+   "license":"Apache-2.0",
+   "license_family":"Apache",
+   "license_file":"LICENSE",
+   "summary":"Time-based cache invalidation"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":"-m pip install . -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "timkpaine",
+    "timkpaine",
+    "timkpaine"
+   ]
+  },
+  "package":{
+   "name":"temporal-cache",
+   "version":"0.1.1"
+  },
+  "requirements":{
+   "host":[
+    "python >=3.7",
+    "pip",
+    "python >=3.7",
+    "pip",
+    "python >=3.7",
+    "pip"
+   ],
+   "run":[
+    "python >=3.7",
+    "frozendict >=1.2",
+    "six >=1.13.0",
+    "tzlocal >=2.0.0",
+    "python >=3.7",
+    "frozendict >=1.2",
+    "six >=1.13.0",
+    "tzlocal >=2.0.0",
+    "python >=3.7",
+    "frozendict >=1.2",
+    "six >=1.13.0",
+    "tzlocal >=2.0.0"
+   ]
+  },
+  "source":{
+   "sha256":"7a71d68537f1f51991adcdba2ad79cf0f9d78d1b26f14090ce56054d18ef2c78",
+   "url":"https://pypi.io/packages/source/t/temporal-cache/temporal-cache-0.1.1.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "temporalcache",
+    "temporalcache",
+    "temporalcache"
+   ]
+  }
+ },
+ "name":"temporal-cache",
+ "new_version":"0.1.1",
+ "new_version_attempts":{
+  "0.1.1":1
+ },
+ "new_version_errors":{},
+ "pinning_version":"2020.04.28.13.02.26",
+ "raw_meta_yaml":"{% set name = \"temporal-cache\" %}\n{% set version = \"0.1.1\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: 7a71d68537f1f51991adcdba2ad79cf0f9d78d1b26f14090ce56054d18ef2c78\n\nbuild:\n  number: 0\n  noarch: python\n  script: {{ PYTHON }} -m pip install . -vv\n\nrequirements:\n  host:\n    - python >=3.7\n    - pip\n  run:\n    - python >=3.7\n    - frozendict >=1.2\n    - six >=1.13.0\n    - tzlocal >=2.0.0\n\ntest:\n  imports:\n    - temporalcache\n\nabout:\n  home: http://github.com/timkpaine/temporal-cache\n  license: Apache-2.0\n  license_family: Apache\n  license_file: LICENSE\n  summary: Time-based cache invalidation\n  description: |\n    Time-based cache invalidation\n  dev_url: https://github.com/timkpaine/temporal-cache\n  doc_url: https://temporal-cache.readthedocs.io\n\nextra:\n  recipe-maintainers:\n    - timkpaine\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "frozendict",
+   "pip",
+   "python",
+   "six",
+   "tzlocal"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "frozendict",
+    "python",
+    "six",
+    "tzlocal"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.7.0",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3.7"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "frozendict >=1.2",
+    "python >=3.7",
+    "six >=1.13.0",
+    "tzlocal >=2.0.0"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/t/temporal-cache/temporal-cache-0.0.7.tar.gz",
+ "version":"0.1.1"
+}

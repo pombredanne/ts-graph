@@ -1,0 +1,202 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/199877987.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Noarch",
+    "migrator_version":0
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/278684776.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.0.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/374625657.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MatplotlibBase",
+    "migrator_version":0
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"ctd",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"https://github.com/pyoceans/python-ctd",
+   "license":"BSD-3-Clause",
+   "license_file":"LICENSE.txt",
+   "summary":"Tools to load hydrographic data formats as pandas DataFrames"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"1",
+   "script":" -m pip install . --no-deps -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "ocefpaf",
+    "ocefpaf",
+    "ocefpaf"
+   ]
+  },
+  "package":{
+   "name":"ctd",
+   "version":"1.0.0"
+  },
+  "requirements":{
+   "host":[
+    "python >=3",
+    "pip",
+    "python >=3",
+    "pip",
+    "python >=3",
+    "pip"
+   ],
+   "run":[
+    "python >=3",
+    "gsw >=3.3.0",
+    "matplotlib-base",
+    "numpy",
+    "pandas-flavor",
+    "pandas >=0.24.0",
+    "scipy",
+    "python >=3",
+    "gsw >=3.3.0",
+    "matplotlib-base",
+    "numpy",
+    "pandas-flavor",
+    "pandas >=0.24.0",
+    "scipy",
+    "python >=3",
+    "gsw >=3.3.0",
+    "matplotlib-base",
+    "numpy",
+    "pandas-flavor",
+    "pandas >=0.24.0",
+    "scipy"
+   ]
+  },
+  "source":{
+   "sha256":"c354b87d0ba4af2b39105ce1f2e91339da5d2bf2a869b8f74da6be5dab3dbaec",
+   "url":"https://pypi.io/packages/source/c/ctd/ctd-1.0.0.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "ctd",
+    "ctd",
+    "ctd"
+   ]
+  }
+ },
+ "name":"ctd",
+ "new_version":"1.0.0",
+ "pinning_version":"2020.02.12",
+ "raw_meta_yaml":"{% set version = \"1.0.0\" %}\n\npackage:\n  name: ctd\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/c/ctd/ctd-{{ version }}.tar.gz\n  sha256: c354b87d0ba4af2b39105ce1f2e91339da5d2bf2a869b8f74da6be5dab3dbaec\n\nbuild:\n  number: 1\n  noarch: python\n  script: \"{{ PYTHON }} -m pip install . --no-deps -vv\"\n\nrequirements:\n  host:\n    - python >=3\n    - pip\n  run:\n    - python >=3\n    - gsw >=3.3.0\n    - matplotlib-base\n    - numpy\n    - pandas-flavor\n    - pandas >=0.24.0\n    - scipy\n\n\ntest:\n  imports:\n    - ctd\n\nabout:\n  home: https://github.com/pyoceans/python-ctd\n  license: BSD-3-Clause\n  license_file: LICENSE.txt\n  summary: 'Tools to load hydrographic data formats as pandas DataFrames'\n\nextra:\n  recipe-maintainers:\n    - ocefpaf\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "gsw",
+   "matplotlib-base",
+   "numpy",
+   "pandas",
+   "pandas-flavor",
+   "pip",
+   "python",
+   "scipy"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "gsw",
+    "matplotlib-base",
+    "numpy",
+    "pandas",
+    "pandas-flavor",
+    "python",
+    "scipy"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.6.8",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "gsw >=3.3.0",
+    "matplotlib-base",
+    "numpy",
+    "pandas >=0.24.0",
+    "pandas-flavor",
+    "python >=3",
+    "scipy"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/c/ctd/ctd-1.0.0.tar.gz",
+ "version":"1.0.0"
+}

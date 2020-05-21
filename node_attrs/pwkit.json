@@ -1,0 +1,215 @@
+{
+ "PRed":[
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.8.19"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/221450377.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.8.20"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"pwkit",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"A grab-bag of helpful tools for doing science in Python.\n",
+   "dev_url":"https://github.com/pkgw/pwkit",
+   "doc_url":"https://pwkit.readthedocs.io/",
+   "home":"https://github.com/pkgw/pwkit/",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"LICENSE",
+   "summary":"Miscellaneous scientific and astronomical tools."
+  },
+  "build":{
+   "entry_points":[
+    "astrotool = pwkit.cli.astrotool:commandline",
+    "casatask = pwkit.environments.casa.tasks:commandline",
+    "imtool = pwkit.cli.imtool:commandline",
+    "pkcasascript = pwkit.environments.casa.scripting:commandline",
+    "pkenvtool = pwkit.environments:commandline",
+    "wrapout = pwkit.cli.wrapout:commandline",
+    "astrotool = pwkit.cli.astrotool:commandline",
+    "casatask = pwkit.environments.casa.tasks:commandline",
+    "imtool = pwkit.cli.imtool:commandline",
+    "pkcasascript = pwkit.environments.casa.scripting:commandline",
+    "pkenvtool = pwkit.environments:commandline",
+    "wrapout = pwkit.cli.wrapout:commandline",
+    "astrotool = pwkit.cli.astrotool:commandline",
+    "casatask = pwkit.environments.casa.tasks:commandline",
+    "imtool = pwkit.cli.imtool:commandline",
+    "pkcasascript = pwkit.environments.casa.scripting:commandline",
+    "pkenvtool = pwkit.environments:commandline",
+    "wrapout = pwkit.cli.wrapout:commandline"
+   ],
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . --no-deps -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "pkgw",
+    "pkgw",
+    "pkgw"
+   ]
+  },
+  "package":{
+   "name":"pwkit",
+   "version":"1.0.0"
+  },
+  "requirements":{
+   "build":[
+    "pip",
+    "python",
+    "setuptools",
+    "pip",
+    "python",
+    "setuptools",
+    "pip",
+    "python",
+    "setuptools"
+   ],
+   "run":[
+    "pathlib",
+    "python",
+    "six",
+    "pathlib",
+    "python",
+    "six",
+    "pathlib",
+    "python",
+    "six"
+   ]
+  },
+  "source":{
+   "sha256":"095319d0f8ab600d3be7d85ba95e24623a91b597da861e7977fc1ed5c3295644",
+   "url":"https://pypi.io/packages/source/p/pwkit/pwkit-1.0.0.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "astrotool flux2lum 1e-15 10",
+    "imtool help",
+    "pkenvtool --help",
+    "wrapout echo hello",
+    "astrotool flux2lum 1e-15 10",
+    "imtool help",
+    "pkenvtool --help",
+    "wrapout echo hello",
+    "astrotool flux2lum 1e-15 10",
+    "imtool help",
+    "pkenvtool --help",
+    "wrapout echo hello"
+   ],
+   "imports":[
+    "pwkit",
+    "pwkit",
+    "pwkit"
+   ],
+   "requires":[
+    "numpy",
+    "numpy",
+    "numpy"
+   ]
+  }
+ },
+ "name":"pwkit",
+ "new_version":"1.0.0",
+ "pinning_version":"2018.10.08",
+ "raw_meta_yaml":"{% set name = \"pwkit\" %}\n{% set version = \"1.0.0\" %}\n{% set sha256 = \"095319d0f8ab600d3be7d85ba95e24623a91b597da861e7977fc1ed5c3295644\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  noarch: python\n  script: \"{{ PYTHON }} -m pip install . --no-deps -vv\"\n  entry_points:\n    - astrotool = pwkit.cli.astrotool:commandline\n    - casatask = pwkit.environments.casa.tasks:commandline\n    - imtool = pwkit.cli.imtool:commandline\n    - pkcasascript = pwkit.environments.casa.scripting:commandline\n    - pkenvtool = pwkit.environments:commandline\n    - wrapout = pwkit.cli.wrapout:commandline\n\nrequirements:\n  build:\n    - pip\n    - python\n    - setuptools\n\n  run:\n    - pathlib\n    - python\n    - six\n\ntest:\n  requires:\n    - numpy\n  imports:\n    - pwkit\n  commands:\n    - astrotool flux2lum 1e-15 10\n    - imtool help\n    - pkenvtool --help\n    - wrapout echo hello\n\nabout:\n  home: https://github.com/pkgw/pwkit/\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE\n  summary: 'Miscellaneous scientific and astronomical tools.'\n  description: |\n    A grab-bag of helpful tools for doing science in Python.\n  doc_url: https://pwkit.readthedocs.io/\n  dev_url: https://github.com/pkgw/pwkit\n\nextra:\n  recipe-maintainers:\n    - pkgw\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "pathlib",
+   "pip",
+   "python",
+   "setuptools",
+   "six"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python",
+    "setuptools"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "pathlib",
+    "python",
+    "six"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "numpy"
+   ]
+  }
+ },
+ "smithy_version":"3.1.12",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python",
+    "setuptools"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "pathlib",
+    "python",
+    "six"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "numpy"
+   ]
+  }
+ },
+ "url":"https://pypi.io/packages/source/p/pwkit/pwkit-0.8.20.tar.gz",
+ "version":"1.0.0"
+}

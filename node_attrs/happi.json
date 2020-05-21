@@ -1,0 +1,7 @@
+{
+ "archived":true,
+ "bad":false,
+ "feedstock_name":"happi",
+ "new_version":false,
+ "raw_meta_yaml":"{% set name = \"happi\" %}\n{% set version = \"1.6.0\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://github.com/pcdshub/{{ name }}/archive/v{{ version }}.tar.gz\n  sha256: d1fea41b003d5e3bef168c596cc768af2e33b01c5030ce73ec187cdb4fe0e129\n\nbuild:\n  noarch: python\n  number: 0\n  script: \"{{ PYTHON }} -m pip install . -vv\"\n  entry_points:\n    - happi = happi.cli:main\n\nrequirements:\n  host:\n    - python >=3.6\n    - pip\n  run:\n    - python >=3.6\n    - jinja2\n    - prettytable\n    - simplejson\n    - coloredlogs\n    - ipython\n    - entrypoints\n\ntest:\n  imports:\n    - happi \n  commands:\n    - happi --help\n\nabout:\n  home: https://github.com/pcdshub/happi \n  dev_url: https://github.com/pcdshub/happi \n  doc_url: https://pcdshub.github.io/happi\n  license: SLAC Open\n  license_family: OTHER\n  license_file: LICENSE.md\n  summary: 'Heuristic Access to Positions of Photon Instruments'\n\nextra:\n  recipe-maintainers:\n    - hhslepicka\n    - klauer\n    - ZLLentz\n"
+}

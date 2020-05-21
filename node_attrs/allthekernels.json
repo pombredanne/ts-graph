@@ -1,0 +1,170 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/352496625.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.1.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"allthekernels",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"Multiplexing kernel for Jupyter\nUse all your kernels in a single notebook.\nSpecify which kernel each should run by starting the cell with\n>kernel-name\n",
+   "dev_url":"https://github.com/minrk/allthekernels",
+   "doc_url":"https://github.com/minrk/allthekernels",
+   "home":"http://github.com/minrk/allthekernels",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"LICENSE",
+   "summary":"Multiplexing kernel for Jupyter"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . -vv --no-binary :all:"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "SylvainCorlay",
+    "wolfv",
+    "minrk",
+    "SylvainCorlay",
+    "wolfv",
+    "minrk",
+    "SylvainCorlay",
+    "wolfv",
+    "minrk"
+   ]
+  },
+  "package":{
+   "name":"allthekernels",
+   "version":"1.1.0"
+  },
+  "requirements":{
+   "host":[
+    "python >=3.5",
+    "pip",
+    "python >=3.5",
+    "pip",
+    "python >=3.5",
+    "pip"
+   ],
+   "run":[
+    "python >=3.5",
+    "ipykernel >=4.3",
+    "jupyter_client >=5",
+    "pyzmq >=15.2",
+    "tornado >=4",
+    "python >=3.5",
+    "ipykernel >=4.3",
+    "jupyter_client >=5",
+    "pyzmq >=15.2",
+    "tornado >=4",
+    "python >=3.5",
+    "ipykernel >=4.3",
+    "jupyter_client >=5",
+    "pyzmq >=15.2",
+    "tornado >=4"
+   ]
+  },
+  "source":{
+   "sha256":"45409bce377b8458c928f4e845b602126726fadb16ca6e7f9dbf1bc82579e56e",
+   "url":"https://pypi.io/packages/source/a/allthekernels/allthekernels-1.1.0.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "allthekernels",
+    "allthekernels",
+    "allthekernels"
+   ]
+  }
+ },
+ "name":"allthekernels",
+ "new_version":"1.1.0",
+ "pinning_version":"2019.12.02",
+ "raw_meta_yaml":"{% set name = \"allthekernels\" %}\n{% set version = \"1.1.0\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: 45409bce377b8458c928f4e845b602126726fadb16ca6e7f9dbf1bc82579e56e\n\nbuild:\n  noarch: python\n  number: 0\n  # Using the --no-binary option to prevent pip to build the wheel, so that\n  # the full path to python is included in the kernelspec.\n  script: \"{{ PYTHON }} -m pip install . -vv --no-binary :all:\"\n\nrequirements:\n  host:\n    - python >=3.5\n    - pip\n  run:\n    - python >=3.5\n    - ipykernel >=4.3\n    - jupyter_client >=5\n    - pyzmq >=15.2\n    - tornado >=4\n\ntest:\n  imports:\n    - allthekernels\n\nabout:\n  home: http://github.com/minrk/allthekernels\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE\n  summary: 'Multiplexing kernel for Jupyter'\n  description: |\n    Multiplexing kernel for Jupyter\n    Use all your kernels in a single notebook.\n    Specify which kernel each should run by starting the cell with\n    >kernel-name    \n  doc_url: https://github.com/minrk/allthekernels\n  dev_url: https://github.com/minrk/allthekernels\n\nextra:\n  recipe-maintainers:\n    - SylvainCorlay\n    - wolfv\n    - minrk\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "ipykernel",
+   "jupyter_client",
+   "pip",
+   "python",
+   "pyzmq",
+   "tornado"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "ipykernel",
+    "jupyter_client",
+    "python",
+    "pyzmq",
+    "tornado"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.6.3",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3.5"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "ipykernel >=4.3",
+    "jupyter_client >=5",
+    "python >=3.5",
+    "pyzmq >=15.2",
+    "tornado >=4"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/a/allthekernels/allthekernels-1.0.2.tar.gz",
+ "version":"1.1.0"
+}

@@ -1,0 +1,226 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/241420944.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "compiler_stack":"comp7",
+  "max_py_ver":"37",
+  "max_r_ver":"35",
+  "provider":{
+   "win":"azure"
+  }
+ },
+ "feedstock_name":"xorg-libxinerama",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"https://gitlab.freedesktop.org/xorg/lib/libxinerama",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"COPYING",
+   "summary":"Client library for the Xinerama extension to the X11 protocol."
+  },
+  "build":{
+   "detect_binary_files_with_prefix":true,
+   "number":"1000",
+   "run_exports":[
+    "xorg-libxinerama",
+    "xorg-libxinerama",
+    "xorg-libxinerama"
+   ]
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "hmaarrfk",
+    "hmaarrfk",
+    "hmaarrfk"
+   ]
+  },
+  "package":{
+   "name":"xorg-libxinerama",
+   "version":"1.1.4"
+  },
+  "requirements":{
+   "build":[
+    "m2w64_c_compiler_stub",
+    "m2w64_cxx_compiler_stub",
+    "m2-autoconf",
+    "m2-automake1.15",
+    "m2-libtool",
+    "m2w64-pkg-config",
+    "posix",
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "autoconf",
+    "automake 1.15",
+    "libtool",
+    "pkg-config",
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "autoconf",
+    "automake 1.15",
+    "libtool",
+    "pkg-config"
+   ],
+   "host":[
+    "xorg-util-macros >1.8",
+    "xorg-libx11 >=1.6",
+    "xorg-xineramaproto >=1.1.99",
+    "xorg-libxext",
+    "xorg-util-macros >1.8",
+    "xorg-libx11 >=1.6",
+    "xorg-xineramaproto >=1.1.99",
+    "xorg-libxext",
+    "xorg-util-macros >1.8",
+    "xorg-libx11 >=1.6",
+    "xorg-xineramaproto >=1.1.99",
+    "xorg-libxext"
+   ],
+   "run":[
+    "xorg-libxext",
+    "xorg-libxext",
+    "xorg-libxext"
+   ]
+  },
+  "source":{
+   "sha256":"d9fb7f224281f5467d36f54b01a8f49e866a994410d5bce3b019f2da8bf8e643",
+   "url":"https://gitlab.freedesktop.org/xorg/lib/libxinerama/-/archive/libXinerama-1.1.4/libxinerama-libXinerama-1.1.4.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "if not exist %PREFIX%/Library/lib/libXinerama.dll.a exit /b 1",
+    "if not exist %PREFIX%/Library/bin/msys-Xinerama-*.dll exit /b 1",
+    "test -f $PREFIX/lib/libXinerama.dylib",
+    "conda inspect linkages -p $PREFIX $PKG_NAME",
+    "conda inspect objects -p $PREFIX $PKG_NAME",
+    "test -f $PREFIX/lib/libXinerama.so",
+    "conda inspect linkages -p $PREFIX $PKG_NAME"
+   ]
+  }
+ },
+ "name":"xorg-libxinerama",
+ "new_version":false,
+ "pinning_version":"2018.12.28",
+ "raw_meta_yaml":"{% set version = \"1.1.4\" %}\n{% set xorg_category = \"lib\" %}\n{% set xorg_name = \"libXinerama\" %}\n{% set name = \"xorg-\" ~ xorg_name %}\n{% set am_version = \"1.15\" %} # keep synchronized with build.sh\n\npackage:\n  name: {{ name | lower }}\n  version: {{ version }}\n\nsource:\n  url: https://gitlab.freedesktop.org/xorg/lib/{{ xorg_name | lower }}/-/archive/{{ xorg_name }}-{{ version }}/{{ xorg_name | lower }}-{{ xorg_name }}-{{ version }}.tar.gz\n  sha256: d9fb7f224281f5467d36f54b01a8f49e866a994410d5bce3b019f2da8bf8e643\n\nbuild:\n  number: 1000\n  run_exports:\n    - {{ pin_subpackage('xorg-libxinerama', max_pin='x.x') }}\n  # Is this one line below still needed?\n  detect_binary_files_with_prefix: true\n\nrequirements:\n  build:\n    - {{ compiler('c') }}    # [not win]\n    - {{ compiler('cxx') }}  # [not win]\n    - {{ compiler('m2w64_c') }}  # [win]\n    - {{ compiler('m2w64_cxx') }}  # [win]\n    - autoconf  # [not win]\n    - automake {{ am_version }}  # [not win]\n    - libtool  # [not win]\n    - pkg-config  # [not win]\n    - m2-autoconf  # [win]\n    - m2-automake{{ am_version }}  # [win]\n    - m2-libtool  # [win]\n    - m2w64-pkg-config  # [win]\n    - posix  # [win]\n  host:\n    - xorg-util-macros >1.8\n    - xorg-libx11 >=1.6\n    - xorg-xineramaproto >=1.1.99\n    - xorg-libxext\n  run:\n    - xorg-libxext\n\ntest:\n  commands:\n    {% set lib_idents = [ \"Xinerama\" ] %}\n    {% for lib_ident in lib_idents %}\n    - test -f $PREFIX/lib/lib{{ lib_ident }}.dylib  # [osx]\n    - test -f $PREFIX/lib/lib{{ lib_ident }}.so     # [linux]\n    - if not exist %PREFIX%/Library/lib/lib{{ lib_ident }}.dll.a exit /b 1    # [win]\n    - if not exist %PREFIX%/Library/bin/msys-{{ lib_ident }}-*.dll exit /b 1  # [win]\n    {% endfor %}\n    - conda inspect linkages -p $PREFIX $PKG_NAME  # [not win]\n    - conda inspect objects -p $PREFIX $PKG_NAME   # [osx]\n\nabout:\n  home: https://gitlab.freedesktop.org/xorg/lib/libxinerama\n  license: MIT\n  license_family: MIT\n  license_file: COPYING\n  summary: 'Client library for the Xinerama extension to the X11 protocol.'\n\n\nextra:\n  recipe-maintainers:\n    - hmaarrfk\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "autoconf",
+   "automake",
+   "c_compiler_stub",
+   "cxx_compiler_stub",
+   "libtool",
+   "m2-autoconf",
+   "m2-automake1.15",
+   "m2-libtool",
+   "m2w64-pkg-config",
+   "m2w64_c_compiler_stub",
+   "m2w64_cxx_compiler_stub",
+   "pkg-config",
+   "posix",
+   "xorg-libx11",
+   "xorg-libxext",
+   "xorg-util-macros",
+   "xorg-xineramaproto"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "autoconf",
+    "automake",
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "libtool",
+    "m2-autoconf",
+    "m2-automake1.15",
+    "m2-libtool",
+    "m2w64-pkg-config",
+    "m2w64_c_compiler_stub",
+    "m2w64_cxx_compiler_stub",
+    "pkg-config",
+    "posix"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "xorg-libx11",
+    "xorg-libxext",
+    "xorg-util-macros",
+    "xorg-xineramaproto"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "xorg-libxext"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.2.2",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "autoconf",
+    "automake 1.15",
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "libtool",
+    "m2-autoconf",
+    "m2-automake1.15",
+    "m2-libtool",
+    "m2w64-pkg-config",
+    "m2w64_c_compiler_stub",
+    "m2w64_cxx_compiler_stub",
+    "pkg-config",
+    "posix"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "xorg-libx11 >=1.6",
+    "xorg-libxext",
+    "xorg-util-macros >1.8",
+    "xorg-xineramaproto >=1.1.99"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "xorg-libxext"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://gitlab.freedesktop.org/xorg/lib/libxinerama/-/archive/libXinerama-1.1.4/libxinerama-libXinerama-1.1.4.tar.gz",
+ "version":"1.1.4"
+}

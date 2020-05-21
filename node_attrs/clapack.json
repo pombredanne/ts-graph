@@ -1,0 +1,159 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/206801395.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Compiler",
+    "migrator_version":0
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/211872787.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "compiler_stack":"comp7",
+  "max_py_ver":"37",
+  "max_r_ver":"35"
+ },
+ "feedstock_name":"clapack",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"The CLAPACK library was built using a Fortran to C\nconversion utility called f2c. The entire Fortran 77\nLAPACK library is run through f2c to obtain C code,\nand then modified to improve readability. CLAPACK's\ngoal is to provide LAPACK for someone who does not have\naccess to a Fortran compiler.\n",
+   "dev_url":"http://www.netlib.org/clapack/",
+   "home":"http://www.netlib.org/clapack/faq.html",
+   "license":"BSD 3-Clause",
+   "license_file":"COPYING",
+   "summary":"LAPACK provides routines for solving systems of equations"
+  },
+  "build":{
+   "number":"1001",
+   "skip":true
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "dnadeau4",
+    "doutriaux1",
+    "dnadeau4",
+    "doutriaux1",
+    "dnadeau4",
+    "doutriaux1"
+   ]
+  },
+  "package":{
+   "name":"clapack",
+   "version":"3.2.1"
+  },
+  "requirements":{
+   "build":[
+    "cmake",
+    "c_compiler_stub",
+    "cmake",
+    "c_compiler_stub",
+    "cmake",
+    "c_compiler_stub"
+   ],
+   "host":null,
+   "run":null
+  },
+  "source":{
+   "fn":"clapack-uvcdat-3.2.1.tar.gz",
+   "sha256":"0b3f782bc24845d85f36bafbff0f2f1384dc72df730fda4e7924ec1a70baca5a",
+   "url":"http://uvcdat.llnl.gov/cdat/resources/clapack-3.2.1-CMAKE.tgz"
+  },
+  "test":{
+   "commands":[
+    "test -f $PREFIX/lib/liblapack.a",
+    "test -f $PREFIX/lib/libblas.a",
+    "test -f $PREFIX/lib/libf2c.a",
+    "test -f $PREFIX/lib/liblapack.a",
+    "test -f $PREFIX/lib/libblas.a",
+    "test -f $PREFIX/lib/libf2c.a",
+    "test -f $PREFIX/lib/liblapack.a",
+    "test -f $PREFIX/lib/libblas.a",
+    "test -f $PREFIX/lib/libf2c.a"
+   ]
+  }
+ },
+ "name":"clapack",
+ "new_version":false,
+ "pinning_version":"2018.08.28",
+ "raw_meta_yaml":"package:\n{% set name = \"clapack\" %}\n{% set version = \"3.2.1\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  fn: {{ name }}-uvcdat-{{ version }}.tar.gz\n  url: http://uvcdat.llnl.gov/cdat/resources/clapack-3.2.1-CMAKE.tgz\n  sha256: 0b3f782bc24845d85f36bafbff0f2f1384dc72df730fda4e7924ec1a70baca5a\n\nbuild:\n  number: 1001\n  skip: True  # [win]\n\nrequirements:\n  build:\n    - cmake\n    - {{ compiler('c') }}\n  host:\n  run:\n\ntest:\n  commands:\n    - test -f $PREFIX/lib/liblapack.a\n    - test -f $PREFIX/lib/libblas.a\n    - test -f $PREFIX/lib/libf2c.a\n\nabout:\n  home: http://www.netlib.org/clapack/faq.html\n  license: BSD 3-Clause\n  license_file: 'COPYING'\n  summary: 'LAPACK provides routines for solving systems of equations'\n  description: |\n      The CLAPACK library was built using a Fortran to C\n      conversion utility called f2c. The entire Fortran 77\n      LAPACK library is run through f2c to obtain C code,\n      and then modified to improve readability. CLAPACK's\n      goal is to provide LAPACK for someone who does not have\n      access to a Fortran compiler.\n  dev_url: http://www.netlib.org/clapack/\n\nextra:\n  recipe-maintainers:\n    - dnadeau4\n    - doutriaux1\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "c_compiler_stub",
+   "cmake"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "cmake"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.1.12",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "cmake"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"http://uvcdat.llnl.gov/cdat/resources/clapack-3.2.1-CMAKE.tgz",
+ "version":"3.2.1"
+}

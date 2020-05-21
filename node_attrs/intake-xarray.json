@@ -1,0 +1,172 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/304376349.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.3.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"intake-xarray",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"https://github.com/ContinuumIO/intake-xarray",
+   "license":"BSD-2-Clause",
+   "license_file":"/LICENSE",
+   "summary":"xarray plugins for Intake"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . --no-deps --ignore-installed -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "ocefpaf",
+    "jsignell",
+    "martindurant",
+    "ocefpaf",
+    "jsignell",
+    "martindurant",
+    "ocefpaf",
+    "jsignell",
+    "martindurant"
+   ]
+  },
+  "package":{
+   "name":"intake-xarray",
+   "version":"0.3.1"
+  },
+  "requirements":{
+   "host":[
+    "python >=3.5",
+    "pip",
+    "python >=3.5",
+    "pip",
+    "python >=3.5",
+    "pip"
+   ],
+   "run":[
+    "python >=3.5",
+    "intake >=0.5.2",
+    "xarray >=0.12.0",
+    "zarr",
+    "dask >=2.2",
+    "netcdf4",
+    "python >=3.5",
+    "intake >=0.5.2",
+    "xarray >=0.12.0",
+    "zarr",
+    "dask >=2.2",
+    "netcdf4",
+    "python >=3.5",
+    "intake >=0.5.2",
+    "xarray >=0.12.0",
+    "zarr",
+    "dask >=2.2",
+    "netcdf4"
+   ]
+  },
+  "source":{
+   "sha256":"cb284d6346b6e8fb6752a1fe616e594ad3c1ed50ffd336bbe8d07cd8d5ea9de4",
+   "url":"https://pypi.io/packages/source/i/intake-xarray/intake-xarray-0.3.1.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "intake_xarray",
+    "intake_xarray",
+    "intake_xarray"
+   ]
+  }
+ },
+ "name":"intake-xarray",
+ "new_version":"0.3.1",
+ "pinning_version":"2019.07.26",
+ "raw_meta_yaml":"{% set version = \"0.3.1\" %}\n\npackage:\n   name: intake-xarray\n   version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/i/intake-xarray/intake-xarray-{{ version }}.tar.gz\n  sha256: cb284d6346b6e8fb6752a1fe616e594ad3c1ed50ffd336bbe8d07cd8d5ea9de4\n\nbuild:\n  number: 0\n  noarch: python\n  script: \"{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv\"\n\nrequirements:\n  host:\n    - python >=3.5\n    - pip\n  run:\n    - python >=3.5\n    - intake >=0.5.2\n    - xarray >=0.12.0\n    - zarr\n    - dask >=2.2\n    - netcdf4\n\ntest:\n  imports:\n    - intake_xarray\n\nabout:\n  home: https://github.com/ContinuumIO/intake-xarray\n  license: BSD-2-Clause\n  license_file: '{{ environ[\"RECIPE_DIR\"] }}/LICENSE'\n  summary: xarray plugins for Intake\n\nextra:\n  recipe-maintainers:\n    - ocefpaf\n    - jsignell\n    - martindurant\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "dask",
+   "intake",
+   "netcdf4",
+   "pip",
+   "python",
+   "xarray",
+   "zarr"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "dask",
+    "intake",
+    "netcdf4",
+    "python",
+    "xarray",
+    "zarr"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.4.1",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3.5"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "dask >=2.2",
+    "intake >=0.5.2",
+    "netcdf4",
+    "python >=3.5",
+    "xarray >=0.12.0",
+    "zarr"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/i/intake-xarray/intake-xarray-0.3.1.tar.gz",
+ "version":"0.3.1"
+}

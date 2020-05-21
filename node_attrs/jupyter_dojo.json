@@ -1,0 +1,196 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/201502642.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Noarch",
+    "migrator_version":0
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/220574231.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "compiler_stack":"comp7",
+  "max_py_ver":"37",
+  "max_r_ver":"35"
+ },
+ "feedstock_name":"jupyter_dojo",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "dev_url":"https://github.com/JoaoFelipe/ipython-unittest",
+   "home":"https://github.com/JoaoFelipe/ipython-unittest",
+   "license":"MIT",
+   "license_family":"MIT",
+   "summary":"Install the coding dojo extension for ipython_unittest"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"1",
+   "script":[
+    " -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv",
+    "jupyter nbextension install jupyter_dojo --py --sys-prefix --overwrite",
+    " -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv",
+    "jupyter nbextension install jupyter_dojo --py --sys-prefix --overwrite",
+    " -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv",
+    "jupyter nbextension install jupyter_dojo --py --sys-prefix --overwrite"
+   ]
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "JoaoFelipe",
+    "JoaoFelipe",
+    "JoaoFelipe"
+   ]
+  },
+  "package":{
+   "name":"jupyter_dojo",
+   "version":"0.3.2"
+  },
+  "requirements":{
+   "host":[
+    "python",
+    "pip",
+    "ipython_unittest >=0.3",
+    "notebook >=4.3",
+    "jupyter",
+    "python",
+    "pip",
+    "ipython_unittest >=0.3",
+    "notebook >=4.3",
+    "jupyter",
+    "python",
+    "pip",
+    "ipython_unittest >=0.3",
+    "notebook >=4.3",
+    "jupyter"
+   ],
+   "run":[
+    "python",
+    "notebook >=4.3",
+    "jupyter",
+    "ipython_unittest",
+    "python",
+    "notebook >=4.3",
+    "jupyter",
+    "ipython_unittest",
+    "python",
+    "notebook >=4.3",
+    "jupyter",
+    "ipython_unittest"
+   ]
+  },
+  "source":{
+   "sha256":"a473ba827fcbf8f99c86373c7863b95e308ecc9c9efafe1ddd4180310efcaa8e",
+   "url":"https://pypi.io/packages/source/j/jupyter_dojo/jupyter_dojo-0.3.2.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "jupyter_dojo",
+    "jupyter_dojo",
+    "jupyter_dojo"
+   ]
+  }
+ },
+ "name":"jupyter_dojo",
+ "new_version":"0.3.2",
+ "pinning_version":"2018.10.01",
+ "raw_meta_yaml":"{% set version = \"0.3.2\" %}\n\npackage:\n  name: jupyter_dojo\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/j/jupyter_dojo/jupyter_dojo-{{ version }}.tar.gz\n  sha256: a473ba827fcbf8f99c86373c7863b95e308ecc9c9efafe1ddd4180310efcaa8e\n\nbuild:\n  number: 1\n  noarch: python\n  script:\n    - \"{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv\"\n    - jupyter nbextension install jupyter_dojo --py --sys-prefix --overwrite\n\nrequirements:\n  host:\n    - python\n    - pip\n    - ipython_unittest >=0.3\n    - notebook >=4.3\n    - jupyter\n  run:\n    - python\n    - notebook >=4.3\n    - jupyter\n    - ipython_unittest\n\ntest:\n  imports:\n    - jupyter_dojo\n\nabout:\n  home: https://github.com/JoaoFelipe/ipython-unittest\n  license: MIT\n  license_family: MIT\n  summary: 'Install the coding dojo extension for ipython_unittest'\n  dev_url: https://github.com/JoaoFelipe/ipython-unittest\n\nextra:\n  recipe-maintainers:\n    - JoaoFelipe\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "ipython_unittest",
+   "jupyter",
+   "notebook",
+   "pip",
+   "python"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "ipython_unittest",
+    "jupyter",
+    "notebook",
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "ipython_unittest",
+    "jupyter",
+    "notebook",
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.1.12",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "ipython_unittest >=0.3",
+    "jupyter",
+    "notebook >=4.3",
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "ipython_unittest",
+    "jupyter",
+    "notebook >=4.3",
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/j/jupyter_dojo/jupyter_dojo-0.3.2.tar.gz",
+ "version":"0.3.2"
+}

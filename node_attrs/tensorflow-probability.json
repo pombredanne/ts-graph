@@ -1,0 +1,263 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/256517185.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.6.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/290326464.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.7"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/356495697.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.8.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/362974586.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.9.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/418310279.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.10.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"tensorflow-probability",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"TensorFlow Probability is a library for probabilistic reasoning\nand statistical analysis in TensorFlow. As part of the TensorFlow\necosystem, TensorFlow Probability provides integration of\nprobabilistic methods with deep networks, gradient-based inference\nvia automatic differentiation, and scalability to large datasets\nand models via hardware acceleration (e.g., GPUs) and distributed\ncomputation.\n",
+   "dev_url":"https://github.com/tensorflow/probability",
+   "doc_url":"https://www.tensorflow.org/probability/overview",
+   "home":"https://www.tensorflow.org/probability/",
+   "license":"Apache-2.0",
+   "license_family":"Apache",
+   "license_file":"LICENSE",
+   "summary":"TensorFlow Probability is a library for probabilistic reasoning and statistical analysis in TensorFlow"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":[
+    "rm -f BUILD",
+    " -m pip install . --no-deps -vv",
+    "rm -f BUILD",
+    " -m pip install . --no-deps -vv",
+    "rm -f BUILD",
+    " -m pip install . --no-deps -vv"
+   ]
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "sodre",
+    "adbeda",
+    "oblute",
+    "rluria14",
+    "sodre",
+    "adbeda",
+    "oblute",
+    "rluria14",
+    "sodre",
+    "adbeda",
+    "oblute",
+    "rluria14"
+   ]
+  },
+  "package":{
+   "name":"tensorflow-probability",
+   "version":"0.8.0"
+  },
+  "requirements":{
+   "host":[
+    "python",
+    "pip",
+    "python",
+    "pip",
+    "python",
+    "pip"
+   ],
+   "run":[
+    "python",
+    "numpy >=1.13.3",
+    "six >=1.10.0",
+    "decorator",
+    "cloudpickle >=0.6.1",
+    "tensorflow-base >=1.14.0",
+    "python",
+    "numpy >=1.13.3",
+    "six >=1.10.0",
+    "decorator",
+    "cloudpickle >=0.6.1",
+    "tensorflow-base >=1.14.0",
+    "python",
+    "numpy >=1.13.3",
+    "six >=1.10.0",
+    "decorator",
+    "cloudpickle >=0.6.1",
+    "tensorflow-base >=1.14.0"
+   ]
+  },
+  "source":{
+   "patches":[
+    "0001-always-build-release.patch",
+    "0001-always-build-release.patch",
+    "0001-always-build-release.patch"
+   ],
+   "sha256":"f6049549f6d6b82962523a6bf61c40c1d0c7ac685f209c0084a6da81dd78181d",
+   "url":"https://github.com/tensorflow/probability/archive/0.8.0.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "tensorflow_probability",
+    "tensorflow_probability",
+    "tensorflow_probability"
+   ]
+  }
+ },
+ "name":"tensorflow-probability",
+ "new_version":"0.10.0",
+ "new_version_attempts":{
+  "0.10.0":1
+ },
+ "new_version_errors":{},
+ "pinning_version":"2020.05.14.17.14.20",
+ "raw_meta_yaml":"{% set name = \"tensorflow-probability\" %}\n{% set version = \"0.8.0\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://github.com/tensorflow/probability/archive/{{ version }}.tar.gz\n  sha256: f6049549f6d6b82962523a6bf61c40c1d0c7ac685f209c0084a6da81dd78181d\n  patches:\n    - 0001-always-build-release.patch\n\nbuild:\n  noarch: python\n  number: 0\n  script: \n    - rm -f BUILD\n    - \"{{ PYTHON }} -m pip install . --no-deps -vv\"\n\nrequirements:\n  host:\n    - python\n    - pip\n  run:\n    - python\n    - numpy >=1.13.3\n    - six >=1.10.0\n    - decorator\n    - cloudpickle >=0.6.1\n    - tensorflow-base >=1.14.0\n\ntest:\n  imports:\n    - tensorflow_probability\n\nabout:\n  home: https://www.tensorflow.org/probability/\n  license: Apache-2.0\n  license_family: Apache\n  license_file: LICENSE\n  summary: 'TensorFlow Probability is a library for probabilistic reasoning and statistical analysis in TensorFlow'\n\n  description: |\n    TensorFlow Probability is a library for probabilistic reasoning \n    and statistical analysis in TensorFlow. As part of the TensorFlow\n    ecosystem, TensorFlow Probability provides integration of\n    probabilistic methods with deep networks, gradient-based inference\n    via automatic differentiation, and scalability to large datasets\n    and models via hardware acceleration (e.g., GPUs) and distributed\n    computation.\n  doc_url: https://www.tensorflow.org/probability/overview\n  dev_url: https://github.com/tensorflow/probability\n\nextra:\n  recipe-maintainers:\n    - sodre\n    - adbeda\n    - oblute\n    - rluria14\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "cloudpickle",
+   "decorator",
+   "numpy",
+   "pip",
+   "python",
+   "six",
+   "tensorflow-base"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "cloudpickle",
+    "decorator",
+    "numpy",
+    "python",
+    "six",
+    "tensorflow-base"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.7.1\n",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "cloudpickle >=0.6.1",
+    "decorator",
+    "numpy >=1.13.3",
+    "python",
+    "six >=1.10.0",
+    "tensorflow-base >=1.14.0"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://github.com/tensorflow/probability/archive/v0.7.tar.gz",
+ "version":"0.8.0"
+}

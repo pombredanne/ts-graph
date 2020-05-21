@@ -1,0 +1,286 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/236936808.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.2.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/248327736.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.2.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.2.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/294721511.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.2.3"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"pysot",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"pySOT is an asynchronous parallel optimization toolbox for global deterministic optimization problems. The main purpose of\nthe toolbox is for optimization of computationally expensive black-box objective functions with continuous and/or integer\nvariables where the number of evaluations is limited. If there are several processors available it may make sense to evaluate\nthe objective function using either asynchronous or synchronous parallel. pySOT uses the event-driven framework for\nasynchronous optimization strategies POAP (https://github.com/dbindel/POAP) to provide this functionality.\n",
+   "dev_url":"https://github.com/dme65/pySOT",
+   "doc_url":"http://http://pysot.readthedocs.io/",
+   "home":"https://github.com/dme65/pySOT",
+   "license":"BSD 3-Clause",
+   "license_family":"BSD",
+   "license_file":"LICENSE.rst",
+   "summary":"Surrogate Optimization Toolbox"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"1",
+   "script":" -m pip install . --no-deps -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "tadeu",
+    "jaimeambrus",
+    "tadeu",
+    "jaimeambrus",
+    "tadeu",
+    "jaimeambrus"
+   ]
+  },
+  "package":{
+   "name":"pysot",
+   "version":"0.2.3"
+  },
+  "requirements":{
+   "host":[
+    "pip",
+    "python",
+    "numpy",
+    "pip",
+    "python",
+    "numpy",
+    "pip",
+    "python",
+    "numpy"
+   ],
+   "run":[
+    "python",
+    "scipy",
+    "pydoe2",
+    "poap >=0.1.25",
+    "py_dempster_shafer",
+    "six",
+    "dill",
+    "pytest",
+    "python",
+    "scipy",
+    "pydoe2",
+    "poap >=0.1.25",
+    "py_dempster_shafer",
+    "six",
+    "dill",
+    "pytest",
+    "python",
+    "scipy",
+    "pydoe2",
+    "poap >=0.1.25",
+    "py_dempster_shafer",
+    "six",
+    "dill",
+    "pytest"
+   ]
+  },
+  "source":{
+   "fn":"pySOT-0.2.3.tar.gz",
+   "sha256":"025162c3eaacd073774d28662dacb689720d2e22a6911b9ae7722ac63a8bc14c",
+   "url":"https://pypi.io/packages/source/p/pySOT/pySOT-0.2.3.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "cd pySOT",
+    "cd tests",
+    "python test_auxiliary_problems.py",
+    "python test_controller.py",
+    "python test_experimental_designs.py",
+    "python test_optimization_problems.py",
+    "python test_strategies.py",
+    "python test_surrogates.py",
+    "python test_utils.py",
+    "cd pySOT",
+    "cd tests",
+    "python test_auxiliary_problems.py",
+    "python test_controller.py",
+    "python test_experimental_designs.py",
+    "python test_optimization_problems.py",
+    "python test_strategies.py",
+    "python test_surrogates.py",
+    "python test_utils.py",
+    "cd pySOT",
+    "cd tests",
+    "python test_auxiliary_problems.py",
+    "python test_controller.py",
+    "python test_experimental_designs.py",
+    "python test_optimization_problems.py",
+    "python test_strategies.py",
+    "python test_surrogates.py",
+    "python test_utils.py"
+   ],
+   "imports":[
+    "pySOT",
+    "pySOT.tests",
+    "pySOT",
+    "pySOT.tests",
+    "pySOT",
+    "pySOT.tests"
+   ],
+   "requires":[
+    "scikit-learn",
+    "scikit-learn",
+    "scikit-learn"
+   ],
+   "source_files":[
+    "pySOT/tests",
+    "pySOT/tests",
+    "pySOT/tests"
+   ]
+  }
+ },
+ "name":"pysot",
+ "new_version":"0.2.3",
+ "pinning_version":"2019.07.01",
+ "raw_meta_yaml":"{% set name = \"pySOT\" %}\n{% set version = \"0.2.3\" %}\n{% set sha256 = \"025162c3eaacd073774d28662dacb689720d2e22a6911b9ae7722ac63a8bc14c\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  fn: {{ name }}-{{ version }}.tar.gz\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 1\n  script: \"{{ PYTHON }} -m pip install . --no-deps -vv\"\n\nrequirements:\n  host:\n    - pip\n    - python\n    # `numpy` is required to avoid the following error during `pip install`:\n    # RuntimeError: Setuptools downloading is disabled in conda build. Be sure to add all dependencies in the meta.yaml\n    - numpy\n\n  run:\n    - python\n    - scipy\n    - pydoe2\n    - poap >=0.1.25\n    - py_dempster_shafer\n    - six\n    - dill\n    - pytest\n\ntest:\n  imports:\n    - pySOT\n    - pySOT.tests\n\n  source_files:\n    - pySOT/tests\n\n  commands:\n    - cd pySOT\n    - cd tests\n    - python test_auxiliary_problems.py\n    - python test_controller.py\n    - python test_experimental_designs.py\n    - python test_optimization_problems.py\n    - python test_strategies.py\n    - python test_surrogates.py\n    - python test_utils.py\n\n  requires:\n    - scikit-learn\n\nabout:\n  home: https://github.com/dme65/pySOT\n  license: BSD 3-Clause\n  license_family: BSD\n  license_file: LICENSE.rst\n  summary: 'Surrogate Optimization Toolbox'\n  description: |\n    pySOT is an asynchronous parallel optimization toolbox for global deterministic optimization problems. The main purpose of\n    the toolbox is for optimization of computationally expensive black-box objective functions with continuous and/or integer\n    variables where the number of evaluations is limited. If there are several processors available it may make sense to evaluate\n    the objective function using either asynchronous or synchronous parallel. pySOT uses the event-driven framework for\n    asynchronous optimization strategies POAP (https://github.com/dbindel/POAP) to provide this functionality.\n  doc_url: http://http://pysot.readthedocs.io/\n  dev_url: https://github.com/dme65/pySOT\n\nextra:\n  recipe-maintainers:\n    - tadeu\n    - jaimeambrus\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "dill",
+   "numpy",
+   "pip",
+   "poap",
+   "py_dempster_shafer",
+   "pydoe2",
+   "pytest",
+   "python",
+   "scipy",
+   "six"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "numpy",
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "dill",
+    "poap",
+    "py_dempster_shafer",
+    "pydoe2",
+    "pytest",
+    "python",
+    "scipy",
+    "six"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "scikit-learn"
+   ]
+  }
+ },
+ "smithy_version":"3.4.0",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "numpy",
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "dill",
+    "poap >=0.1.25",
+    "py_dempster_shafer",
+    "pydoe2",
+    "pytest",
+    "python",
+    "scipy",
+    "six"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "scikit-learn"
+   ]
+  }
+ },
+ "url":"https://pypi.io/packages/source/p/pySOT/pySOT-0.2.3.tar.gz",
+ "version":"0.2.3"
+}

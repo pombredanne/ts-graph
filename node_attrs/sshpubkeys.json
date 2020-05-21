@@ -1,0 +1,129 @@
+{
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"sshpubkeys",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "dev_url":"https://github.com/ojarva/python-sshpubkeys",
+   "home":"https://github.com/ojarva/python-sshpubkeys",
+   "license":"BSD 3-Clause",
+   "license_family":"BSD",
+   "license_file":"LICENSE.txt",
+   "summary":"SSH public key parser"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . --no-deps --ignore-installed -vv "
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "mariusvniekerk",
+    "mariusvniekerk",
+    "mariusvniekerk"
+   ]
+  },
+  "package":{
+   "name":"sshpubkeys",
+   "version":"3.1.0"
+  },
+  "requirements":{
+   "host":[
+    "pip",
+    "python",
+    "pip",
+    "python",
+    "pip",
+    "python"
+   ],
+   "run":[
+    "cryptography >=2.1.4",
+    "ecdsa >=0.13",
+    "python",
+    "cryptography >=2.1.4",
+    "ecdsa >=0.13",
+    "python",
+    "cryptography >=2.1.4",
+    "ecdsa >=0.13",
+    "python"
+   ]
+  },
+  "source":{
+   "sha256":"b388399caeeccdc145f06fd0d2665eeecc545385c60b55c282a15a022215af80",
+   "url":"https://pypi.io/packages/source/s/sshpubkeys/sshpubkeys-3.1.0.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "sshpubkeys",
+    "sshpubkeys",
+    "sshpubkeys"
+   ]
+  }
+ },
+ "name":"sshpubkeys",
+ "new_version":"3.1.0",
+ "raw_meta_yaml":"{% set name = \"sshpubkeys\" %}\n{% set version = \"3.1.0\" %}\n\npackage:\n  name: \"{{ name|lower }}\"\n  version: \"{{ version }}\"\n\nsource:\n  url: \"https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\"\n  sha256: \"b388399caeeccdc145f06fd0d2665eeecc545385c60b55c282a15a022215af80\"\n\nbuild:\n  number: 0\n  script: \"{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv \"\n  noarch: python\n\nrequirements:\n  host:\n    - pip\n    - python\n  run:\n    - cryptography >=2.1.4\n    - ecdsa >=0.13\n    - python\n\ntest:\n  imports:\n    - sshpubkeys\n\nabout:\n  home: \"https://github.com/ojarva/python-sshpubkeys\"\n  license: \"BSD 3-Clause\"\n  license_family: \"BSD\"\n  license_file: \"LICENSE.txt\"\n  summary: \"SSH public key parser\"\n  dev_url: \"https://github.com/ojarva/python-sshpubkeys\"\n\nextra:\n  recipe-maintainers:\n    - mariusvniekerk\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "cryptography",
+   "ecdsa",
+   "pip",
+   "python"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "cryptography",
+    "ecdsa",
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "cryptography >=2.1.4",
+    "ecdsa >=0.13",
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/s/sshpubkeys/sshpubkeys-3.1.0.tar.gz",
+ "version":"3.1.0"
+}

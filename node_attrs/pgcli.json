@@ -1,0 +1,451 @@
+{
+ "PRed":[
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.9.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/199959724.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Noarch",
+    "migrator_version":0
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/201467185.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.10.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/202908034.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.10.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/203384451.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.10.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.10.3"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/217822788.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.11.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/219780453.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.0.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/231855698.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.0.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/241886645.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.0.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/268057116.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.1.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/283857113.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.1.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/349027317.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.2.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/402090368.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.0.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"pgcli",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "dev_url":"https://github.com/dbcli/pgcli",
+   "doc_url":"http://simplejson.readthedocs.io/",
+   "home":"http://pgcli.com",
+   "license":"BSD-3-Clause",
+   "license_family":"BSD",
+   "license_file":"LICENSE.txt",
+   "summary":"CLI for Postgres Database. With auto-completion and syntax highlighting."
+  },
+  "build":{
+   "entry_points":[
+    "pgcli=pgcli.main:cli",
+    "pgcli=pgcli.main:cli",
+    "pgcli=pgcli.main:cli"
+   ],
+   "noarch":"python",
+   "number":"0",
+   "script":"-m pip install . --no-deps -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "mariusvniekerk",
+    "dhirschfeld",
+    "mariusvniekerk",
+    "dhirschfeld",
+    "mariusvniekerk",
+    "dhirschfeld"
+   ]
+  },
+  "package":{
+   "name":"pgcli",
+   "version":"3.0.0"
+  },
+  "requirements":{
+   "host":[
+    "pip",
+    "python",
+    "setuptools",
+    "pip",
+    "python",
+    "setuptools",
+    "pip",
+    "python",
+    "setuptools"
+   ],
+   "run":[
+    "python",
+    "pgspecial >=1.11.8",
+    "click >=4.1",
+    "cli_helpers >=1.2.1",
+    "pygments >=2.0",
+    "prompt_toolkit >=3.0.0,<4.0.0",
+    "psycopg2 >=2.8",
+    "sqlparse >=0.3.0,<0.4",
+    "configobj >=5.0.6",
+    "humanize >=0.5.1",
+    "setproctitle >=1.1.9",
+    "tabulate",
+    "python",
+    "pgspecial >=1.11.8",
+    "click >=4.1",
+    "cli_helpers >=1.2.1",
+    "pygments >=2.0",
+    "prompt_toolkit >=3.0.0,<4.0.0",
+    "psycopg2 >=2.8",
+    "sqlparse >=0.3.0,<0.4",
+    "configobj >=5.0.6",
+    "humanize >=0.5.1",
+    "setproctitle >=1.1.9",
+    "tabulate",
+    "python",
+    "pgspecial >=1.11.8",
+    "click >=4.1",
+    "cli_helpers >=1.2.1",
+    "pygments >=2.0",
+    "prompt_toolkit >=3.0.0,<4.0.0",
+    "psycopg2 >=2.8",
+    "sqlparse >=0.3.0,<0.4",
+    "configobj >=5.0.6",
+    "humanize >=0.5.1",
+    "setproctitle >=1.1.9",
+    "tabulate"
+   ]
+  },
+  "source":{
+   "fn":"pgcli-3.0.0.tar.gz",
+   "sha256":"4920225838e8004ae6d2ec42f566e0a8b99c4bd42bc2c876d0de8501da0a4082",
+   "url":"https://pypi.io/packages/source/p/pgcli/pgcli-3.0.0.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "pgcli --help",
+    "pgcli --help",
+    "pgcli --help"
+   ],
+   "imports":[
+    "pgcli",
+    "pgcli.packages",
+    "pgcli.packages.parseutils",
+    "pgcli.packages.pgliterals",
+    "pgcli",
+    "pgcli.packages",
+    "pgcli.packages.parseutils",
+    "pgcli.packages.pgliterals",
+    "pgcli",
+    "pgcli.packages",
+    "pgcli.packages.parseutils",
+    "pgcli.packages.pgliterals"
+   ]
+  }
+ },
+ "name":"pgcli",
+ "new_version":"3.0.0",
+ "new_version_attempts":{
+  "3.0.0":1
+ },
+ "new_version_errors":{},
+ "pinning_version":"2020.04.10.18.29.06",
+ "raw_meta_yaml":"{% set name = \"pgcli\" %}\n{% set version = \"3.0.0\" %}\n{% set sha256 = \"4920225838e8004ae6d2ec42f566e0a8b99c4bd42bc2c876d0de8501da0a4082\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  fn: {{ name }}-{{ version }}.tar.gz\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 0\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n  entry_points:\n    - pgcli=pgcli.main:cli\n\nrequirements:\n  host:\n    - pip\n    - python\n    - setuptools\n  run:\n    - python\n    - pgspecial >=1.11.8\n    - click >=4.1\n    - cli_helpers >=1.2.1\n    - pygments >=2.0\n    - prompt_toolkit >=3.0.0,<4.0.0\n    - psycopg2 >=2.8\n    - sqlparse >=0.3.0,<0.4\n    - configobj >=5.0.6\n    - humanize >=0.5.1\n    - setproctitle >=1.1.9\n    - tabulate\n\ntest:\n  imports:\n    - pgcli\n    - pgcli.packages\n    - pgcli.packages.parseutils\n    - pgcli.packages.pgliterals\n  commands:\n    - pgcli --help\n\nabout:\n  home: http://pgcli.com\n  license: BSD-3-Clause\n  license_file: LICENSE.txt\n  license_family: BSD\n  # xref: https://github.com/dbcli/pgcli/pull/728\n  #license_file: LICENSE.txt\n  summary: CLI for Postgres Database. With auto-completion and syntax highlighting.\n  doc_url: http://simplejson.readthedocs.io/\n  dev_url: https://github.com/dbcli/pgcli\n\nextra:\n  recipe-maintainers:\n    - mariusvniekerk\n    - dhirschfeld\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "cli_helpers",
+   "click",
+   "configobj",
+   "humanize",
+   "pgspecial",
+   "pip",
+   "prompt_toolkit",
+   "psycopg2",
+   "pygments",
+   "python",
+   "setproctitle",
+   "setuptools",
+   "sqlparse",
+   "tabulate"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python",
+    "setuptools"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "cli_helpers",
+    "click",
+    "configobj",
+    "humanize",
+    "pgspecial",
+    "prompt_toolkit",
+    "psycopg2",
+    "pygments",
+    "python",
+    "setproctitle",
+    "sqlparse",
+    "tabulate"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.6.16",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python",
+    "setuptools"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "cli_helpers >=1.2.1",
+    "click >=4.1",
+    "configobj >=5.0.6",
+    "humanize >=0.5.1",
+    "pgspecial >=1.11.8",
+    "prompt_toolkit >=3.0.0,<4.0.0",
+    "psycopg2 >=2.8",
+    "pygments >=2.0",
+    "python",
+    "setproctitle >=1.1.9",
+    "sqlparse >=0.3.0,<0.4",
+    "tabulate"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/p/pgcli/pgcli-2.1.1.tar.gz",
+ "version":"3.0.0"
+}

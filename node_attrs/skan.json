@@ -1,0 +1,260 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/223386310.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/295131841.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.8"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/375738859.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MatplotlibBase",
+    "migrator_version":0,
+    "name":"matplotlib-to-matplotlib-base"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "provider":{
+   "win":"azure"
+  }
+ },
+ "feedstock_name":"skan",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"skan: skeleton analysis in Python.\n\nInspired by the \"Analyze skeletons\" Fiji plugin by\nIgnacio Arganda-Carreras.\n",
+   "dev_url":"https://github.com/jni/skan",
+   "doc_url":"https://jni.github.io/skan",
+   "home":"http://github.com/jni/skan",
+   "license":"BSD-3-Clause",
+   "license_file":"LICENSE",
+   "summary":"skan: skeleton analysis in Python"
+  },
+  "build":{
+   "entry_points":[
+    "skan-gui = skan.gui:launch",
+    "skan-gui = skan.gui:launch",
+    "skan-gui = skan.gui:launch"
+   ],
+   "noarch":"python",
+   "number":"1",
+   "script":" -m pip install . --no-deps -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "jni",
+    "jni",
+    "jni"
+   ]
+  },
+  "package":{
+   "name":"skan",
+   "version":"0.8"
+  },
+  "requirements":{
+   "build":[
+    "python >=3.6",
+    "pip",
+    "python >=3.6",
+    "pip",
+    "python >=3.6",
+    "pip"
+   ],
+   "run":[
+    "python >=3.6",
+    "numpy >=1.11",
+    "scipy >=0.18",
+    "networkx >=1.11",
+    "pandas >=0.18",
+    "openpyxl >=2.4",
+    "xlrd >=1.0",
+    "numba >=0.29",
+    "matplotlib-base >=1.5",
+    "scikit-image >=0.12",
+    "imageio >=2.0",
+    "tqdm >=4.11",
+    "nose >=1.3",
+    "click >=0.5",
+    "python >=3.6",
+    "numpy >=1.11",
+    "scipy >=0.18",
+    "networkx >=1.11",
+    "pandas >=0.18",
+    "openpyxl >=2.4",
+    "xlrd >=1.0",
+    "numba >=0.29",
+    "matplotlib-base >=1.5",
+    "scikit-image >=0.12",
+    "imageio >=2.0",
+    "tqdm >=4.11",
+    "nose >=1.3",
+    "click >=0.5",
+    "python >=3.6",
+    "numpy >=1.11",
+    "scipy >=0.18",
+    "networkx >=1.11",
+    "pandas >=0.18",
+    "openpyxl >=2.4",
+    "xlrd >=1.0",
+    "numba >=0.29",
+    "matplotlib-base >=1.5",
+    "scikit-image >=0.12",
+    "imageio >=2.0",
+    "tqdm >=4.11",
+    "nose >=1.3",
+    "click >=0.5"
+   ]
+  },
+  "source":{
+   "sha256":"d5f369156b51f405e5ab2982c05df3a522e39abc97ac25501ca2a7bdeccfb730",
+   "url":"https://pypi.io/packages/source/s/skan/skan-0.8.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "skan",
+    "skan",
+    "skan"
+   ]
+  }
+ },
+ "name":"skan",
+ "new_version":"0.8",
+ "pinning_version":"2020.02.12",
+ "raw_meta_yaml":"{% set version = \"0.8\" %}\n\npackage:\n  name: skan\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/s/skan/skan-{{ version }}.tar.gz\n  sha256: d5f369156b51f405e5ab2982c05df3a522e39abc97ac25501ca2a7bdeccfb730\n\nbuild:\n  number: 1\n  noarch: python\n  script: \"{{ PYTHON }} -m pip install . --no-deps -vv\"\n  entry_points:\n    - skan-gui = skan.gui:launch\n\nrequirements:\n  build:\n    - python >=3.6\n    - pip\n  run:\n    - python >=3.6\n    - numpy >=1.11\n    - scipy >=0.18\n    - networkx >=1.11\n    - pandas >=0.18\n    - openpyxl >=2.4\n    - xlrd >=1.0\n    - numba >=0.29\n    - matplotlib-base >=1.5\n    - scikit-image >=0.12\n    - imageio >=2.0\n    - tqdm >=4.11\n    - nose >=1.3\n    - click >=0.5\n\ntest:\n  imports:\n    - skan\n\nabout:\n  home: http://github.com/jni/skan\n  license: BSD-3-Clause\n  license_file: LICENSE\n  summary: 'skan: skeleton analysis in Python'\n\n  description: |\n    skan: skeleton analysis in Python.\n\n    Inspired by the \"Analyze skeletons\" Fiji plugin by\n    Ignacio Arganda-Carreras.\n  doc_url: https://jni.github.io/skan\n  dev_url: https://github.com/jni/skan\n\nextra:\n  recipe-maintainers:\n    - jni\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "click",
+   "imageio",
+   "matplotlib-base",
+   "networkx",
+   "nose",
+   "numba",
+   "numpy",
+   "openpyxl",
+   "pandas",
+   "pip",
+   "python",
+   "scikit-image",
+   "scipy",
+   "tqdm",
+   "xlrd"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "click",
+    "imageio",
+    "matplotlib-base",
+    "networkx",
+    "nose",
+    "numba",
+    "numpy",
+    "openpyxl",
+    "pandas",
+    "python",
+    "scikit-image",
+    "scipy",
+    "tqdm",
+    "xlrd"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.6.8",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3.6"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "click >=0.5",
+    "imageio >=2.0",
+    "matplotlib-base >=1.5",
+    "networkx >=1.11",
+    "nose >=1.3",
+    "numba >=0.29",
+    "numpy >=1.11",
+    "openpyxl >=2.4",
+    "pandas >=0.18",
+    "python >=3.6",
+    "scikit-image >=0.12",
+    "scipy >=0.18",
+    "tqdm >=4.11",
+    "xlrd >=1.0"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/s/skan/skan-0.8.tar.gz",
+ "version":"0.8"
+}

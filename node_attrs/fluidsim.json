@@ -1,0 +1,264 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/340971081.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"python38"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/341032504.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"fluidsim",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"Fluidsim is an extensible framework for studying fluid dynamics with\nnumerical simulations using Python. Fluidsim is an object-oriented library\nto develop solvers (mainly using pseudo-spectral methods) by writing mainly\nPython code. The result is very efficient even compared to a pure Fortran or\nC++ code since the time-consuming tasks are performed by optimized compiled\nfunctions.\n",
+   "doc_url":"https://fluidsim.readthedocs.io",
+   "home":"https://bitbucket.org/fluiddyn/fluidsim",
+   "license":"CeCILL-B",
+   "license_file":"LICENSE.txt",
+   "summary":"Framework for studying fluid dynamics with simulations."
+  },
+  "build":{
+   "entry_points":[
+    "fluidsim = fluidsim.util.console.__main__:run",
+    "fluidsim-bench = fluidsim.util.console.__main__:run_bench",
+    "fluidsim-bench-analysis = fluidsim.util.console.__main__:run_bench_analysis",
+    "fluidsim-create-xml-description = fluidsim.base.output:run",
+    "fluidsim-profile = fluidsim.util.console.__main__:run_profile",
+    "fluidsim-test = fluidsim.util.testing:run",
+    "fluidsim = fluidsim.util.console.__main__:run",
+    "fluidsim-bench = fluidsim.util.console.__main__:run_bench",
+    "fluidsim-bench-analysis = fluidsim.util.console.__main__:run_bench_analysis",
+    "fluidsim-create-xml-description = fluidsim.base.output:run",
+    "fluidsim-profile = fluidsim.util.console.__main__:run_profile",
+    "fluidsim-test = fluidsim.util.testing:run",
+    "fluidsim = fluidsim.util.console.__main__:run",
+    "fluidsim-bench = fluidsim.util.console.__main__:run_bench",
+    "fluidsim-bench-analysis = fluidsim.util.console.__main__:run_bench_analysis",
+    "fluidsim-create-xml-description = fluidsim.base.output:run",
+    "fluidsim-profile = fluidsim.util.console.__main__:run_profile",
+    "fluidsim-test = fluidsim.util.testing:run"
+   ],
+   "number":"100",
+   "skip":true,
+   "string":"nompi_h_100"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "CyrilleBonamy",
+    "paugier",
+    "CyrilleBonamy",
+    "paugier",
+    "CyrilleBonamy",
+    "paugier"
+   ]
+  },
+  "package":{
+   "name":"fluidsim",
+   "version":"0.3.1"
+  },
+  "requirements":{
+   "build":[
+    "cxx_compiler_stub",
+    "cxx_compiler_stub",
+    "cxx_compiler_stub"
+   ],
+   "host":[
+    "pip",
+    "python >=3.6",
+    "nompi",
+    "mpi4py",
+    "transonic",
+    "setuptools_scm",
+    "pythran",
+    "pip",
+    "python >=3.6",
+    "nompi",
+    "mpi4py",
+    "transonic",
+    "setuptools_scm",
+    "pythran",
+    "pip",
+    "python >=3.6",
+    "nompi",
+    "mpi4py",
+    "transonic",
+    "setuptools_scm",
+    "pythran"
+   ],
+   "run":[
+    "fluidfft",
+    "fluidfft * mpi_nompi_*",
+    "numpy >=1.15.4",
+    "cached-property",
+    "setuptools_scm",
+    "xarray",
+    "pandas",
+    "transonic",
+    "fluidfft",
+    "fluidfft * mpi_nompi_*",
+    "numpy >=1.15.4",
+    "cached-property",
+    "setuptools_scm",
+    "xarray",
+    "pandas",
+    "transonic",
+    "fluidfft",
+    "fluidfft * mpi_nompi_*",
+    "numpy >=1.15.4",
+    "cached-property",
+    "setuptools_scm",
+    "xarray",
+    "pandas",
+    "transonic"
+   ]
+  },
+  "source":{
+   "sha256":"2959d2edfed940433980a780616db8846ad7ced2acd46dac7225196f0bab7eec",
+   "url":"https://pypi.io/packages/source/f/fluidsim/fluidsim-0.3.1.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "fluidsim-test -v",
+    "fluidsim-test -v",
+    "fluidsim-test -v"
+   ],
+   "imports":[
+    "fluidsim",
+    "fluidsim",
+    "fluidsim"
+   ]
+  }
+ },
+ "name":"fluidsim",
+ "new_version":"0.3.2",
+ "pinning_version":"2019.11.13",
+ "raw_meta_yaml":"{% set name = \"fluidsim\" %}\n{% set version = \"0.3.1\" %}\n{% set build = 0000 %}\n# ensure mpi is defined (needed for conda-smithy recipe-lint)\n{% set mpi = mpi or 'nompi' %}\n\n{% if mpi == 'nompi' %}\n# prioritize nompi variant via build number\n{% set build = build + 100 %}\n{% endif %}\n\npackage:\n  name: \"{{ name|lower }}\"\n  version: \"{{ version }}\"\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: 2959d2edfed940433980a780616db8846ad7ced2acd46dac7225196f0bab7eec\n\nbuild:\n  number: {{ build }}\n  # add build string so packages can depend on\n  # mpi or nompi variants explicitly:\n  # `pkg * mpi_mpich_*` for mpich\n  # `pkg * mpi_*` for any mpi\n  # `pkg * nompi_*` for no mpi\n\n  {% if mpi != 'nompi' %}\n  {% set mpi_prefix = \"mpi_\" + mpi %}\n  {% else %}\n  {% set mpi_prefix = \"nompi\" %}\n  {% endif %}\n  string: \"{{ mpi_prefix }}_h{{ PKG_HASH }}_{{ build }}\"\n\n  {% if mpi != 'nompi' %}\n\n  run_exports:\n    - {{ name }} * {{ mpi_prefix }}_*\n  {% endif %}\n\n\n  entry_points:\n    - fluidsim = fluidsim.util.console.__main__:run\n    - fluidsim-bench = fluidsim.util.console.__main__:run_bench\n    - fluidsim-bench-analysis = fluidsim.util.console.__main__:run_bench_analysis\n    - fluidsim-create-xml-description = fluidsim.base.output:run\n    - fluidsim-profile = fluidsim.util.console.__main__:run_profile\n    - fluidsim-test = fluidsim.util.testing:run\n  skip: true  # [win]\n\nrequirements:\n  build:\n    - {{ compiler('cxx') }}\n  host:\n    - pip\n    - python >=3.6\n    - {{ mpi }}  # [ mpi != 'nompi' ]\n    - openssh  # [ mpi == 'openmpi' ]\n    - mpi4py  # [ mpi != 'nompi' ]\n    - transonic\n    - setuptools_scm\n    - pythran\n  run:\n    - fluidfft\n    - fluidfft * mpi_{{ mpi }}_*  # [mpi != 'nompi']\n    - numpy >=1.15.4\n    - cached-property\n    - setuptools_scm\n    - xarray\n    - pandas\n    - transonic\n\ntest:\n  imports:\n    - fluidsim\n  commands:\n    - fluidsim-test -v\n\nabout:\n  home: https://bitbucket.org/fluiddyn/fluidsim\n  license: CeCILL-B\n  license_file: LICENSE.txt \n  summary: Framework for studying fluid dynamics with simulations.\n  description: |\n    Fluidsim is an extensible framework for studying fluid dynamics with\n    numerical simulations using Python. Fluidsim is an object-oriented library\n    to develop solvers (mainly using pseudo-spectral methods) by writing mainly\n    Python code. The result is very efficient even compared to a pure Fortran or\n    C++ code since the time-consuming tasks are performed by optimized compiled\n    functions.\n  doc_url: https://fluidsim.readthedocs.io  \n\nextra:\n  recipe-maintainers:\n    - CyrilleBonamy\n    - paugier\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "cached-property",
+   "cxx_compiler_stub",
+   "fluidfft",
+   "mpi4py",
+   "nompi",
+   "numpy",
+   "pandas",
+   "pip",
+   "python",
+   "pythran",
+   "setuptools_scm",
+   "transonic",
+   "xarray"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "cxx_compiler_stub"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "mpi4py",
+    "nompi",
+    "pip",
+    "python",
+    "pythran",
+    "setuptools_scm",
+    "transonic"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "cached-property",
+    "fluidfft",
+    "numpy",
+    "pandas",
+    "setuptools_scm",
+    "transonic",
+    "xarray"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.6.2",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "cxx_compiler_stub"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "mpi4py",
+    "nompi",
+    "pip",
+    "python >=3.6",
+    "pythran",
+    "setuptools_scm",
+    "transonic"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "cached-property",
+    "fluidfft",
+    "fluidfft * mpi_nompi_*",
+    "numpy >=1.15.4",
+    "pandas",
+    "setuptools_scm",
+    "transonic",
+    "xarray"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/f/fluidsim/fluidsim-0.3.1.tar.gz",
+ "version":"0.3.1"
+}

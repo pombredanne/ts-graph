@@ -1,0 +1,333 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/349892710.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.1.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/368501580.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.1.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/407309470.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.2.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/414380290.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":2,
+    "migrator_version":0,
+    "name":"r400"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "bot":{
+   "automerge":true
+  },
+  "provider":{
+   "win":"azure"
+  }
+ },
+ "feedstock_name":"r-fable",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"https://fable.tidyverts.org",
+   "license":"GPL-3",
+   "license_family":"GPL3",
+   "license_file":"/lib/R/share/licenses/GPL-3",
+   "summary":"Provides a collection of commonly used univariate and multivariate time series forecasting models including automatically selected exponential  smoothing (ETS) and autoregressive integrated moving average (ARIMA) models. These models work within the 'fable' framework provided by the 'fabletools' package, which provides the tools to evaluate, visualise, and combine models  in a workflow consistent with the tidyverse."
+  },
+  "build":{
+   "merge_build_host":true,
+   "number":"1",
+   "rpaths":[
+    "lib/R/lib/",
+    "lib/",
+    "lib/R/lib/",
+    "lib/",
+    "lib/R/lib/",
+    "lib/"
+   ]
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "conda-forge/r",
+    "philip-khor",
+    "conda-forge/r",
+    "philip-khor",
+    "conda-forge/r",
+    "philip-khor"
+   ]
+  },
+  "package":{
+   "name":"r-fable",
+   "version":"0.2.0"
+  },
+  "requirements":{
+   "build":[
+    "m2w64_c_compiler_stub",
+    "m2w64_cxx_compiler_stub",
+    "filesystem",
+    "make",
+    "sed",
+    "coreutils",
+    "zip",
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "make",
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "make"
+   ],
+   "host":[
+    "r-base",
+    "r-rcpp >=0.11.0",
+    "r-dplyr >=0.8.0",
+    "r-fabletools",
+    "r-rlang >=0.2.0",
+    "r-tidyr",
+    "r-tsibble >=0.8.0",
+    "r-base",
+    "r-rcpp >=0.11.0",
+    "r-dplyr >=0.8.0",
+    "r-fabletools",
+    "r-rlang >=0.2.0",
+    "r-tidyr",
+    "r-tsibble >=0.8.0",
+    "r-base",
+    "r-rcpp >=0.11.0",
+    "r-dplyr >=0.8.0",
+    "r-fabletools",
+    "r-rlang >=0.2.0",
+    "r-tidyr",
+    "r-tsibble >=0.8.0"
+   ],
+   "run":[
+    "r-base",
+    "gcc-libs",
+    "r-rcpp >=0.11.0",
+    "r-dplyr >=0.8.0",
+    "r-fabletools",
+    "r-rlang >=0.2.0",
+    "r-tidyr",
+    "r-tsibble >=0.8.0",
+    "r-base",
+    "r-rcpp >=0.11.0",
+    "r-dplyr >=0.8.0",
+    "r-fabletools",
+    "r-rlang >=0.2.0",
+    "r-tidyr",
+    "r-tsibble >=0.8.0",
+    "r-base",
+    "r-rcpp >=0.11.0",
+    "r-dplyr >=0.8.0",
+    "r-fabletools",
+    "r-rlang >=0.2.0",
+    "r-tidyr",
+    "r-tsibble >=0.8.0"
+   ]
+  },
+  "source":{
+   "sha256":"c3c359ee3825497603d89fe079f238fe665799262df23f3d15e9fb1f8c537efc",
+   "url":[
+    "https://cran.r-project.org/src/contrib/fable_0.2.0.tar.gz",
+    "https://cran.r-project.org/src/contrib/Archive/fable/fable_0.2.0.tar.gz",
+    "https://cran.r-project.org/src/contrib/fable_0.2.0.tar.gz",
+    "https://cran.r-project.org/src/contrib/Archive/fable/fable_0.2.0.tar.gz",
+    "https://cran.r-project.org/src/contrib/fable_0.2.0.tar.gz",
+    "https://cran.r-project.org/src/contrib/Archive/fable/fable_0.2.0.tar.gz"
+   ]
+  },
+  "test":{
+   "commands":[
+    "\"%R%\" -e \"library('fable')\"",
+    "$R -e \"library('fable')\"",
+    "$R -e \"library('fable')\""
+   ]
+  }
+ },
+ "name":"r-fable",
+ "new_version":"0.2.0",
+ "new_version_attempts":{
+  "0.2.0":1
+ },
+ "new_version_errors":{},
+ "pinning_version":"2020.05.06.22.15.02",
+ "raw_meta_yaml":"{% set version = \"0.2.0\" %}\n{% set posix = 'm2-' if win else '' %}\n{% set native = 'm2w64-' if win else '' %}\n\npackage:\n  name: r-fable\n  version: {{ version|replace(\"-\", \"_\") }}\n\nsource:\n  url:\n    - {{ cran_mirror }}/src/contrib/fable_{{ version }}.tar.gz\n    - {{ cran_mirror }}/src/contrib/Archive/fable/fable_{{ version }}.tar.gz\n  sha256: c3c359ee3825497603d89fe079f238fe665799262df23f3d15e9fb1f8c537efc\n\nbuild:\n  merge_build_host: true  # [win]\n  number: 1\n  rpaths:\n    - lib/R/lib/\n    - lib/\n\nrequirements:\n  build:\n    - {{ compiler('c') }}              # [not win]\n    - {{ compiler('m2w64_c') }}        # [win]\n    - {{ compiler('cxx') }}            # [not win]\n    - {{ compiler('m2w64_cxx') }}      # [win]\n    - {{ posix }}filesystem        # [win]\n    - {{ posix }}make\n    - {{ posix }}sed               # [win]\n    - {{ posix }}coreutils         # [win]\n    - {{ posix }}zip               # [win]\n  host:\n    - r-base\n    - r-rcpp >=0.11.0\n    - r-dplyr >=0.8.0\n    - r-fabletools\n    - r-rlang >=0.2.0\n    - r-tidyr\n    - r-tsibble >=0.8.0\n  run:\n    - r-base\n    - {{ native }}gcc-libs         # [win]\n    - r-rcpp >=0.11.0\n    - r-dplyr >=0.8.0\n    - r-fabletools\n    - r-rlang >=0.2.0\n    - r-tidyr\n    - r-tsibble >=0.8.0\n\ntest:\n  commands:\n    - $R -e \"library('fable')\"           # [not win]\n    - \"\\\"%R%\\\" -e \\\"library('fable')\\\"\"  # [win]\n\nabout:\n  home: https://fable.tidyverts.org\n  license: GPL-3\n  summary: Provides a collection of commonly used univariate and multivariate time series forecasting models including automatically selected exponential  smoothing\n    (ETS) and autoregressive integrated moving average (ARIMA) models. These models work within the 'fable' framework provided by the 'fabletools' package, which\n    provides the tools to evaluate, visualise, and combine models  in a workflow consistent with the tidyverse.\n  license_family: GPL3\n  license_file: {{ environ[\"PREFIX\"] }}/lib/R/share/licenses/GPL-3\n\nextra:\n  recipe-maintainers:\n    - conda-forge/r\n    - philip-khor\n\n# Package: fable\n# Title: Forecasting Models for Tidy Time Series\n# Version: 0.1.0\n# Description: Provides a collection of commonly used univariate and multivariate time series forecasting models including automatically selected exponential  smoothing (ETS) and autoregressive integrated moving average (ARIMA) models. These models work within the 'fable' framework provided by the 'fabletools' package, which provides the tools to evaluate, visualise, and combine models  in a workflow consistent with the tidyverse.\n# Authors@R:  c(person(given = \"Mitchell\", family = \"O'Hara-Wild\", email = \"mail@mitchelloharawild.com\", role = c(\"aut\", \"cre\")), person(given = \"Rob\", family = \"Hyndman\", role = \"aut\"), person(given = \"Earo\", family = \"Wang\", role = \"aut\"), person(given = \"Gabriel\", family = \"Caceres\", role = \"ctb\", comment = \"NNETAR implementation\"))\n# License: GPL-3\n# URL: https://fable.tidyverts.org\n# BugReports: https://github.com/tidyverts/fable/issues\n# Depends: R (>= 3.4.0), fabletools\n# Imports: Rcpp (>= 0.11.0), rlang (>= 0.2.0), stats, dplyr (>= 0.8.0), tsibble (>= 0.8.0), tidyr\n# Suggests: covr, feasts, forecast, knitr, nnet, rmarkdown, spelling, testthat, tsibbledata\n# LinkingTo: Rcpp (>= 0.11.0)\n# VignetteBuilder: knitr\n# ByteCompile: true\n# Encoding: UTF-8\n# Language: en-GB\n# LazyData: true\n# RoxygenNote: 6.1.1\n# NeedsCompilation: yes\n# Packaged: 2019-09-16 09:21:55 UTC; mitchell\n# Author: Mitchell O'Hara-Wild [aut, cre], Rob Hyndman [aut], Earo Wang [aut], Gabriel Caceres [ctb] (NNETAR implementation)\n# Maintainer: Mitchell O'Hara-Wild <mail@mitchelloharawild.com>\n# Repository: CRAN\n# Date/Publication: 2019-09-23 15:10:06 UTC\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "c_compiler_stub",
+   "coreutils",
+   "cxx_compiler_stub",
+   "filesystem",
+   "gcc-libs",
+   "m2w64_c_compiler_stub",
+   "m2w64_cxx_compiler_stub",
+   "make",
+   "r-base",
+   "r-dplyr",
+   "r-fabletools",
+   "r-rcpp",
+   "r-rlang",
+   "r-tidyr",
+   "r-tsibble",
+   "sed",
+   "zip"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "coreutils",
+    "cxx_compiler_stub",
+    "filesystem",
+    "m2w64_c_compiler_stub",
+    "m2w64_cxx_compiler_stub",
+    "make",
+    "sed",
+    "zip"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "r-base",
+    "r-dplyr",
+    "r-fabletools",
+    "r-rcpp",
+    "r-rlang",
+    "r-tidyr",
+    "r-tsibble"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "gcc-libs",
+    "r-base",
+    "r-dplyr",
+    "r-fabletools",
+    "r-rcpp",
+    "r-rlang",
+    "r-tidyr",
+    "r-tsibble"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.7.0\n",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "coreutils",
+    "cxx_compiler_stub",
+    "filesystem",
+    "m2w64_c_compiler_stub",
+    "m2w64_cxx_compiler_stub",
+    "make",
+    "sed",
+    "zip"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "r-base",
+    "r-dplyr >=0.8.0",
+    "r-fabletools",
+    "r-rcpp >=0.11.0",
+    "r-rlang >=0.2.0",
+    "r-tidyr",
+    "r-tsibble >=0.8.0"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "gcc-libs",
+    "r-base",
+    "r-dplyr >=0.8.0",
+    "r-fabletools",
+    "r-rcpp >=0.11.0",
+    "r-rlang >=0.2.0",
+    "r-tidyr",
+    "r-tsibble >=0.8.0"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":[
+  "https://cran.r-project.org/src/contrib/fable_0.1.0.tar.gz",
+  "https://cran.r-project.org/src/contrib/Archive/fable/fable_0.1.0.tar.gz",
+  "https://cran.r-project.org/src/contrib/fable_0.1.0.tar.gz",
+  "https://cran.r-project.org/src/contrib/Archive/fable/fable_0.1.0.tar.gz",
+  "https://cran.r-project.org/src/contrib/fable_0.1.0.tar.gz",
+  "https://cran.r-project.org/src/contrib/Archive/fable/fable_0.1.0.tar.gz"
+ ],
+ "version":"0.2.0"
+}

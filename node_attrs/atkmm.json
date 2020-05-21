@@ -1,0 +1,267 @@
+{
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"atkmm",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "dev_url":"https://gitlab.gnome.org/GNOME/atkmm",
+   "home":"https://developer.gnome.org/atkmm/",
+   "license":"LGPL-2.1-or-later",
+   "license_file":"COPYING",
+   "summary":"C++ bindings for atk"
+  },
+  "build":{
+   "number":"0",
+   "run_exports":[
+    "atkmm-1.6 >=2.28.0",
+    "atkmm-1.6 >=2.28.0",
+    "atkmm-1.6 >=2.28.0"
+   ],
+   "skip":true
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "isuruf",
+    "isuruf",
+    "isuruf"
+   ]
+  },
+  "outputs":[
+   {
+    "build":{
+     "run_exports":[
+      "atkmm-1.6 >=2.28.0"
+     ]
+    },
+    "name":"atkmm-1.6",
+    "requirements":{
+     "build":[
+      "cxx_compiler_stub",
+      "pkg-config",
+      "make"
+     ],
+     "host":[
+      "atk >=1.41.0",
+      "glibmm >=2.48.0",
+      "libsigcpp",
+      "glib"
+     ],
+     "run":[
+      "atk",
+      "glibmm"
+     ],
+     "run_constrained":[
+      "atkmm 2.28.0"
+     ]
+    },
+    "script":"build_atkmm.sh",
+    "test":{
+     "commands":[
+      "test -f ${PREFIX}/lib/libatkmm-1.6${SHLIB_EXT}"
+     ]
+    }
+   },
+   {
+    "name":"atkmm",
+    "requirements":{
+     "run":[
+      "atkmm-1.6  2.28.0"
+     ]
+    },
+    "test":{
+     "commands":[
+      "test -f ${PREFIX}/lib/pkg-config/atkmm-1.6.pc"
+     ]
+    }
+   },
+   {
+    "build":{
+     "run_exports":[
+      "atkmm-1.6 >=2.28.0"
+     ]
+    },
+    "name":"atkmm-1.6",
+    "requirements":{
+     "build":[
+      "cxx_compiler_stub",
+      "pkg-config",
+      "make"
+     ],
+     "host":[
+      "atk >=1.41.0",
+      "glibmm >=2.48.0",
+      "libsigcpp",
+      "glib"
+     ],
+     "run":[
+      "atk",
+      "glibmm"
+     ],
+     "run_constrained":[
+      "atkmm 2.28.0"
+     ]
+    },
+    "script":"build_atkmm.sh",
+    "test":{
+     "commands":[
+      "test -f ${PREFIX}/lib/libatkmm-1.6${SHLIB_EXT}"
+     ]
+    }
+   },
+   {
+    "name":"atkmm",
+    "requirements":{
+     "run":[
+      "atkmm-1.6  2.28.0"
+     ]
+    },
+    "test":{
+     "commands":[
+      "test -f ${PREFIX}/lib/pkg-config/atkmm-1.6.pc"
+     ]
+    }
+   },
+   {
+    "build":{
+     "run_exports":[
+      "atkmm-1.6 >=2.28.0"
+     ]
+    },
+    "name":"atkmm-1.6",
+    "requirements":{
+     "build":[
+      "cxx_compiler_stub",
+      "pkg-config",
+      "make"
+     ],
+     "host":[
+      "atk >=1.41.0",
+      "glibmm >=2.48.0",
+      "libsigcpp",
+      "glib"
+     ],
+     "run":[
+      "atk",
+      "glibmm"
+     ],
+     "run_constrained":[
+      "atkmm 2.28.0"
+     ]
+    },
+    "script":"build_atkmm.sh",
+    "test":{
+     "commands":[
+      "test -f ${PREFIX}/lib/libatkmm-1.6${SHLIB_EXT}"
+     ]
+    }
+   },
+   {
+    "name":"atkmm",
+    "requirements":{
+     "run":[
+      "atkmm-1.6  2.28.0"
+     ]
+    },
+    "test":{
+     "commands":[
+      "test -f ${PREFIX}/lib/pkg-config/atkmm-1.6.pc"
+     ]
+    }
+   }
+  ],
+  "package":{
+   "name":"atkmm",
+   "version":"2.28.0"
+  },
+  "source":{
+   "sha256":"4c4cfc917fd42d3879ce997b463428d6982affa0fb660cafcc0bc2d9afcedd3a",
+   "url":"https://ftp.gnome.org/pub/GNOME/sources/atkmm/2.28/atkmm-2.28.0.tar.xz"
+  }
+ },
+ "name":"atkmm",
+ "new_version":false,
+ "outputs_names":[
+  "atkmm",
+  "atkmm-1.6"
+ ],
+ "raw_meta_yaml":"{% set version = \"2.28.0\" %}\n{% set major_minor = \".\".join(version.split(\".\")[:2]) %}\n{% set abi_version = \"1.6\" %}\n\npackage:\n  name: atkmm\n  version: {{ version }}\n\nsource:\n  url: https://ftp.gnome.org/pub/GNOME/sources/atkmm/{{ major_minor }}/atkmm-{{ version }}.tar.xz\n  sha256: 4c4cfc917fd42d3879ce997b463428d6982affa0fb660cafcc0bc2d9afcedd3a\n\nbuild:\n  number: 0\n  skip: true  # [win]\n  run_exports:\n    - atkmm-{{ abi_version }} >={{ version }}\n\noutputs:\n  - name: atkmm-{{ abi_version }}\n    script: build_atkmm.sh\n    build:\n      run_exports:\n        - atkmm-{{ abi_version }} >={{ version }}\n    requirements:\n      build:\n        - {{ compiler('cxx') }}\n        - pkg-config\n        - make\n      host:\n        # These requirements can be found in configure.ac\n        - atk >=1.41.0\n        - glibmm >=2.48.0\n        - libsigcpp\n        - glib\n      run:\n        # TODO: remove this after atk, glibmm gets a run_exports PR\n        - {{ pin_compatible(\"atk\") }}\n        - {{ pin_compatible(\"glibmm\") }}\n      run_constrained:\n        - atkmm {{ version }}\n    test:\n      commands:\n        - test -f ${PREFIX}/lib/libatkmm-{{ abi_version }}${SHLIB_EXT}\n\n  - name: atkmm\n    requirements:\n      run:\n        - atkmm-{{ abi_version }}  {{ version }}\n    test:\n      commands:\n        - test -f ${PREFIX}/lib/pkg-config/atkmm-{{ abi_version }}.pc\n\nabout:\n  home: https://developer.gnome.org/atkmm/\n  license: LGPL-2.1-or-later\n  license_file: COPYING\n  summary: \"C++ bindings for atk\"\n  dev_url: https://gitlab.gnome.org/GNOME/atkmm\n\nextra:\n  recipe-maintainers:\n    - isuruf\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "atk",
+   "atkmm-1.6",
+   "cxx_compiler_stub",
+   "glib",
+   "glibmm",
+   "libsigcpp",
+   "make",
+   "pkg-config"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "cxx_compiler_stub",
+    "make",
+    "pkg-config"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "atk",
+    "glib",
+    "glibmm",
+    "libsigcpp"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "atk",
+    "atkmm-1.6",
+    "glibmm"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "cxx_compiler_stub",
+    "make",
+    "pkg-config"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "atk >=1.41.0",
+    "glib",
+    "glibmm >=2.48.0",
+    "libsigcpp"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "atk",
+    "atkmm-1.6  2.28.0",
+    "glibmm"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://ftp.gnome.org/pub/GNOME/sources/atkmm/2.28/atkmm-2.28.0.tar.xz",
+ "version":"2.28.0"
+}

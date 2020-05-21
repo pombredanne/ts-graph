@@ -1,0 +1,159 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/390699031.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.3.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"qtsass",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"Compile SCSS files to valid Qt stylesheets\n",
+   "dev_url":"http://github.com/spyder-ide/qtsass",
+   "home":"http://github.com/spyder-ide/qtsass",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"LICENSE.txt",
+   "summary":"Compile SCSS files to valid Qt stylesheets"
+  },
+  "build":{
+   "entry_points":[
+    "qtsass = qtsass.cli:main",
+    "qtsass = qtsass.cli:main",
+    "qtsass = qtsass.cli:main"
+   ],
+   "noarch":"python",
+   "number":"0",
+   "script":"-m pip install . --no-deps -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "goanpeca",
+    "ccordoba12",
+    "goanpeca",
+    "ccordoba12",
+    "goanpeca",
+    "ccordoba12"
+   ]
+  },
+  "package":{
+   "name":"qtsass",
+   "version":"0.1.1"
+  },
+  "requirements":{
+   "host":[
+    "python >=3",
+    "pip",
+    "python >=3",
+    "pip",
+    "python >=3",
+    "pip"
+   ],
+   "run":[
+    "python >=3",
+    "libsass",
+    "watchdog",
+    "python >=3",
+    "libsass",
+    "watchdog",
+    "python >=3",
+    "libsass",
+    "watchdog"
+   ]
+  },
+  "source":{
+   "sha256":"4b1491e9810c7216365647e416fd7b49aeadc1ac25add8c6131deddf7549a072",
+   "url":"https://pypi.io/packages/source/q/qtsass/qtsass-0.1.1.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "qtsass",
+    "qtsass",
+    "qtsass"
+   ]
+  }
+ },
+ "name":"qtsass",
+ "new_version":"0.3.0",
+ "pinning_version":"2020.03.16",
+ "raw_meta_yaml":"{% set hash = \"27c49f63cea9e23a0b9618f71f4a4e992833cd1cfdf78ed832c69ceea1de1fe7\" %}\n{% set name = \"qtsass\" %}\n{% set version = \"0.3.0\" %}\n{%- set name = \"qtsass\" -%}\n{%- set version = \"0.1.1\" -%}\n{%- set hash = \"4b1491e9810c7216365647e416fd7b49aeadc1ac25add8c6131deddf7549a072\" -%}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ hash }}\n\nbuild:\n  number: 0\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n  noarch: python\n  entry_points:\n    - qtsass = qtsass.cli:main\n\nrequirements:\n  host:\n    - python >=3\n    - pip\n  run:\n    - python >=3\n    - libsass\n    - watchdog\n\ntest:\n  imports:\n    - qtsass\n\nabout:\n  home: http://github.com/spyder-ide/qtsass\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE.txt\n  summary: Compile SCSS files to valid Qt stylesheets\n  description: |\n    Compile SCSS files to valid Qt stylesheets\n  dev_url: http://github.com/spyder-ide/qtsass\n\nextra:\n  recipe-maintainers:\n    - goanpeca\n    - ccordoba12\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "libsass",
+   "pip",
+   "python",
+   "watchdog"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "libsass",
+    "python",
+    "watchdog"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.6.12",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "libsass",
+    "python >=3",
+    "watchdog"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/q/qtsass/qtsass-0.1.1.tar.gz",
+ "version":"0.1.1"
+}

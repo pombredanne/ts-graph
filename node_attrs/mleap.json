@@ -1,0 +1,197 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/345375480.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.15.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"mleap",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"https://github.com/combust/mleap/",
+   "license":"Apache-2.0",
+   "license_family":"APACHE",
+   "license_file":"LICENSE",
+   "summary":"MLeap Python API"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . --no-deps --ignore-installed -vv "
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "xhochy",
+    "xhochy",
+    "xhochy"
+   ]
+  },
+  "package":{
+   "name":"mleap",
+   "version":"0.15.0"
+  },
+  "requirements":{
+   "host":[
+    "pip",
+    "python",
+    "pip",
+    "python",
+    "pip",
+    "python"
+   ],
+   "run":[
+    "nose-exclude >=0.5.0",
+    "numpy >=1.8.2",
+    "pandas >=0.18.1",
+    "python",
+    "scikit-learn >=0.18.dev0",
+    "scipy >=0.13.0b1",
+    "six >=1.10.0",
+    "nose-exclude >=0.5.0",
+    "numpy >=1.8.2",
+    "pandas >=0.18.1",
+    "python",
+    "scikit-learn >=0.18.dev0",
+    "scipy >=0.13.0b1",
+    "six >=1.10.0",
+    "nose-exclude >=0.5.0",
+    "numpy >=1.8.2",
+    "pandas >=0.18.1",
+    "python",
+    "scikit-learn >=0.18.dev0",
+    "scipy >=0.13.0b1",
+    "six >=1.10.0"
+   ]
+  },
+  "source":{
+   "sha256":"9f698ce539917ce861659891661680b5814bf0d42e26c8f637431fb8c02c28f3",
+   "url":"https://pypi.io/packages/source/m/mleap/mleap-0.15.0.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "mleap",
+    "mleap.bundle",
+    "mleap.sklearn",
+    "mleap.sklearn.decomposition",
+    "mleap.sklearn.ensemble",
+    "mleap.sklearn.extensions",
+    "mleap.sklearn.feature_extraction",
+    "mleap.sklearn.preprocessing",
+    "mleap.sklearn.tree",
+    "mleap",
+    "mleap.bundle",
+    "mleap.sklearn",
+    "mleap.sklearn.decomposition",
+    "mleap.sklearn.ensemble",
+    "mleap.sklearn.extensions",
+    "mleap.sklearn.feature_extraction",
+    "mleap.sklearn.preprocessing",
+    "mleap.sklearn.tree",
+    "mleap",
+    "mleap.bundle",
+    "mleap.sklearn",
+    "mleap.sklearn.decomposition",
+    "mleap.sklearn.ensemble",
+    "mleap.sklearn.extensions",
+    "mleap.sklearn.feature_extraction",
+    "mleap.sklearn.preprocessing",
+    "mleap.sklearn.tree"
+   ]
+  }
+ },
+ "name":"mleap",
+ "new_version":"0.15.0",
+ "pinning_version":"2019.11.20",
+ "raw_meta_yaml":"{% set name = \"mleap\" %}\n{% set version = \"0.15.0\" %}\n\npackage:\n  name: \"{{ name|lower }}\"\n  version: \"{{ version }}\"\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: 9f698ce539917ce861659891661680b5814bf0d42e26c8f637431fb8c02c28f3\n\nbuild:\n  number: 0\n  noarch: python\n  script: \"{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv \"\n\nrequirements:\n  host:\n    - pip\n    - python\n  run:\n    - nose-exclude >=0.5.0\n    - numpy >=1.8.2\n    - pandas >=0.18.1\n    - python\n    - scikit-learn >=0.18.dev0\n    - scipy >=0.13.0b1\n    - six >=1.10.0\n\ntest:\n  imports:\n    - mleap\n    - mleap.bundle\n    - mleap.sklearn\n    - mleap.sklearn.decomposition\n    - mleap.sklearn.ensemble\n    - mleap.sklearn.extensions\n    - mleap.sklearn.feature_extraction\n    - mleap.sklearn.preprocessing\n    - mleap.sklearn.tree\n\nabout:\n  home: https://github.com/combust/mleap/\n  license: Apache-2.0\n  license_family: APACHE\n  license_file: LICENSE\n  summary: MLeap Python API\n\nextra:\n  recipe-maintainers:\n    - xhochy\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "nose-exclude",
+   "numpy",
+   "pandas",
+   "pip",
+   "python",
+   "scikit-learn",
+   "scipy",
+   "six"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "nose-exclude",
+    "numpy",
+    "pandas",
+    "python",
+    "scikit-learn",
+    "scipy",
+    "six"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.6.2",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "nose-exclude >=0.5.0",
+    "numpy >=1.8.2",
+    "pandas >=0.18.1",
+    "python",
+    "scikit-learn >=0.18.dev0",
+    "scipy >=0.13.0b1",
+    "six >=1.10.0"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/m/mleap/mleap-0.8.1.tar.gz",
+ "version":"0.15.0"
+}

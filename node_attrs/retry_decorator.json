@@ -1,0 +1,7 @@
+{
+ "archived":true,
+ "bad":false,
+ "feedstock_name":"retry_decorator",
+ "new_version":false,
+ "raw_meta_yaml":"{% set name = \"retry_decorator\" %}\n{% set version = \"1.1.1\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: e1e8ad02e518fe11073f2ea7d80b6b8be19daa27a60a1838aff7c731ddcf2ebe\n\nbuild:\n  number: 0\n  noarch: python\n  script: \"{{ PYTHON }} -m pip install . -vv\"\n\nrequirements:\n  host:\n    - pip\n    - python\n  run:\n    - python\n\ntest:\n  imports:\n    - retry_decorator\n\nabout:\n  home: https://github.com/pnpnpn/retry-decorator\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE.txt\n  summary: \"Decorator for retrying when exceptions occur.\"\n  dev_url: https://github.com/pnpnpn/retry-decorator\n\nextra:\n  recipe-maintainers:\n    - npavlovikj\n"
+}

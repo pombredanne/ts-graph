@@ -1,0 +1,261 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/299620015.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"RBaseRebuild",
+    "migrator_version":0,
+    "name":"r-base-3.6.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/376916593.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.3_0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/381816679.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.3_1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/414339949.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":2,
+    "migrator_version":0,
+    "name":"r400"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "bot":{
+   "automerge":true
+  },
+  "provider":{
+   "win":"azure"
+  }
+ },
+ "feedstock_name":"r-gdistance",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"https://CRAN.R-project.org/package=gdistance",
+   "license":"GPL (>= 2)",
+   "license_family":"GPL3",
+   "license_file":"/lib/R/share/licenses/GPL-2",
+   "summary":"Calculate distances and routes on geographic grids."
+  },
+  "build":{
+   "merge_build_host":true,
+   "noarch":"generic",
+   "number":"1",
+   "rpaths":[
+    "lib/R/lib/",
+    "lib/",
+    "lib/R/lib/",
+    "lib/",
+    "lib/R/lib/",
+    "lib/"
+   ]
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "conda-forge/r",
+    "jenzopr",
+    "conda-forge/r",
+    "jenzopr",
+    "conda-forge/r",
+    "jenzopr"
+   ]
+  },
+  "package":{
+   "name":"r-gdistance",
+   "version":"1.3_1"
+  },
+  "requirements":{
+   "build":null,
+   "host":[
+    "r-base",
+    "r-matrix",
+    "r-igraph >=0.7.0",
+    "r-raster >=1.9_19",
+    "r-sp",
+    "r-base",
+    "r-matrix",
+    "r-igraph >=0.7.0",
+    "r-raster >=1.9_19",
+    "r-sp",
+    "r-base",
+    "r-matrix",
+    "r-igraph >=0.7.0",
+    "r-raster >=1.9_19",
+    "r-sp"
+   ],
+   "run":[
+    "r-base",
+    "r-matrix",
+    "r-igraph >=0.7.0",
+    "r-raster >=1.9_19",
+    "r-sp",
+    "r-base",
+    "r-matrix",
+    "r-igraph >=0.7.0",
+    "r-raster >=1.9_19",
+    "r-sp",
+    "r-base",
+    "r-matrix",
+    "r-igraph >=0.7.0",
+    "r-raster >=1.9_19",
+    "r-sp"
+   ]
+  },
+  "source":{
+   "sha256":"0e9a7ab4fb75c2990ff7b85aa0661aaadbf4804f2a92fac9dd6d3c75db346813",
+   "url":[
+    "https://cran.r-project.org/src/contrib/gdistance_1.3-1.tar.gz",
+    "https://cran.r-project.org/src/contrib/Archive/gdistance/gdistance_1.3-1.tar.gz",
+    "https://cran.r-project.org/src/contrib/gdistance_1.3-1.tar.gz",
+    "https://cran.r-project.org/src/contrib/Archive/gdistance/gdistance_1.3-1.tar.gz",
+    "https://cran.r-project.org/src/contrib/gdistance_1.3-1.tar.gz",
+    "https://cran.r-project.org/src/contrib/Archive/gdistance/gdistance_1.3-1.tar.gz"
+   ]
+  },
+  "test":{
+   "commands":[
+    "\"%R%\" -e \"library('gdistance')\"",
+    "$R -e \"library('gdistance')\"",
+    "$R -e \"library('gdistance')\""
+   ]
+  }
+ },
+ "name":"r-gdistance",
+ "new_version":"1.3_1",
+ "pinning_version":"2020.05.04.19.59.17",
+ "raw_meta_yaml":"{% set version = \"1.3-1\" %}\n{% set posix = 'm2-' if win else '' %}\n{% set native = 'm2w64-' if win else '' %}\n\npackage:\n  name: r-gdistance\n  version: {{ version|replace(\"-\", \"_\") }}\n\nsource:\n  url:\n    - {{ cran_mirror }}/src/contrib/gdistance_{{ version }}.tar.gz\n    - {{ cran_mirror }}/src/contrib/Archive/gdistance/gdistance_{{ version }}.tar.gz\n  sha256: 0e9a7ab4fb75c2990ff7b85aa0661aaadbf4804f2a92fac9dd6d3c75db346813\n\nbuild:\n  merge_build_host: true  # [win]\n  number: 1\n  noarch: generic\n  rpaths:\n    - lib/R/lib/\n    - lib/\n\nrequirements:\n  build:\n    - {{ posix }}zip               # [win]\n  host:\n    - r-base\n    - r-matrix\n    - r-igraph >=0.7.0\n    - r-raster >=1.9_19\n    - r-sp\n  run:\n    - r-base\n    - r-matrix\n    - r-igraph >=0.7.0\n    - r-raster >=1.9_19\n    - r-sp\n\ntest:\n  commands:\n    - $R -e \"library('gdistance')\"           # [not win]\n    - \"\\\"%R%\\\" -e \\\"library('gdistance')\\\"\"  # [win]\n\nabout:\n  home: https://CRAN.R-project.org/package=gdistance\n  license: GPL (>= 2)\n  summary: Calculate distances and routes on geographic grids.\n  license_family: GPL3\n  license_file: {{ environ[\"PREFIX\"] }}/lib/R/share/licenses/GPL-2\n\nextra:\n  recipe-maintainers:\n    - conda-forge/r\n    - jenzopr\n\n# Package: gdistance\n# Type: Package\n# Title: Distances and Routes on Geographical Grids\n# Version: 1.2-2\n# Date: 2018-05-06\n# Author: Jacob van Etten\n# Depends: R (>= 3.2.0), raster (>= 1.9-19), methods, igraph (>= 0.7.0), Matrix\n# Imports: sp, stats\n# Maintainer: Jacob van Etten <jacobvanetten@yahoo.com>\n# Description: Calculate distances and routes on geographic grids.\n# License: GPL (>= 2)\n# LazyLoad: yes\n# NeedsCompilation: no\n# Packaged: 2018-05-06 23:09:15 UTC; Jacob Van Etten\n# Repository: CRAN\n# Date/Publication: 2018-05-07 03:49:27 UTC\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "r-base",
+   "r-igraph",
+   "r-matrix",
+   "r-raster",
+   "r-sp"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "r-base",
+    "r-igraph",
+    "r-matrix",
+    "r-raster",
+    "r-sp"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "r-base",
+    "r-igraph",
+    "r-matrix",
+    "r-raster",
+    "r-sp"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.7.0\n",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "r-base",
+    "r-igraph >=0.7.0",
+    "r-matrix",
+    "r-raster >=1.9_19",
+    "r-sp"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "r-base",
+    "r-igraph >=0.7.0",
+    "r-matrix",
+    "r-raster >=1.9_19",
+    "r-sp"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":[
+  "https://cran.r-project.org/src/contrib/gdistance_1.2-2.tar.gz",
+  "https://cran.r-project.org/src/contrib/Archive/gdistance/gdistance_1.2-2.tar.gz",
+  "https://cran.r-project.org/src/contrib/gdistance_1.2-2.tar.gz",
+  "https://cran.r-project.org/src/contrib/Archive/gdistance/gdistance_1.2-2.tar.gz",
+  "https://cran.r-project.org/src/contrib/gdistance_1.2-2.tar.gz",
+  "https://cran.r-project.org/src/contrib/Archive/gdistance/gdistance_1.2-2.tar.gz"
+ ],
+ "version":"1.3_1"
+}

@@ -1,0 +1,315 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/205850936.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Compiler",
+    "migrator_version":0
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/233321979.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/299648610.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"RBaseRebuild",
+    "migrator_version":0,
+    "name":"r-base-3.6.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/414596945.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":2,
+    "migrator_version":0,
+    "name":"r400"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "bot":{
+   "automerge":true
+  },
+  "provider":{
+   "win":"azure"
+  }
+ },
+ "feedstock_name":"r-ccapp",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"https://CRAN.R-project.org/package=ccaPP",
+   "license":"GPL-2",
+   "license_family":"GPL2",
+   "license_file":[
+    "/lib/R/share/licenses/GPL-2",
+    "/lib/R/share/licenses/GPL-2",
+    "/lib/R/share/licenses/GPL-2"
+   ],
+   "summary":"Canonical correlation analysis and maximum correlation via projection pursuit, as well as fast implementations of correlation estimators, with a focus on robust and nonparametric methods."
+  },
+  "build":{
+   "merge_build_host":true,
+   "number":"1",
+   "rpaths":[
+    "lib/R/lib/",
+    "lib/",
+    "lib/R/lib/",
+    "lib/",
+    "lib/R/lib/",
+    "lib/"
+   ]
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "conda-forge/r",
+    "MathiasHaudgaard",
+    "FrodePedersen",
+    "ArneKr",
+    "conda-forge/r",
+    "MathiasHaudgaard",
+    "FrodePedersen",
+    "ArneKr",
+    "conda-forge/r",
+    "MathiasHaudgaard",
+    "FrodePedersen",
+    "ArneKr"
+   ]
+  },
+  "package":{
+   "name":"r-ccapp",
+   "version":"0.3.3"
+  },
+  "requirements":{
+   "build":[
+    "m2w64_c_compiler_stub",
+    "m2w64_cxx_compiler_stub",
+    "filesystem",
+    "make",
+    "sed",
+    "coreutils",
+    "zip",
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "make",
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "make"
+   ],
+   "host":[
+    "r-base",
+    "r-rcpp >=0.11.0",
+    "r-rcpparmadillo >=0.4.100.0",
+    "r-pcapp >=1.8_1",
+    "r-robustbase",
+    "r-base",
+    "r-rcpp >=0.11.0",
+    "r-rcpparmadillo >=0.4.100.0",
+    "r-pcapp >=1.8_1",
+    "r-robustbase",
+    "r-base",
+    "r-rcpp >=0.11.0",
+    "r-rcpparmadillo >=0.4.100.0",
+    "r-pcapp >=1.8_1",
+    "r-robustbase"
+   ],
+   "run":[
+    "r-base",
+    "gcc-libs",
+    "r-rcpp >=0.11.0",
+    "r-rcpparmadillo >=0.4.100.0",
+    "r-pcapp >=1.8_1",
+    "r-robustbase",
+    "r-base",
+    "r-rcpp >=0.11.0",
+    "r-rcpparmadillo >=0.4.100.0",
+    "r-pcapp >=1.8_1",
+    "r-robustbase",
+    "r-base",
+    "r-rcpp >=0.11.0",
+    "r-rcpparmadillo >=0.4.100.0",
+    "r-pcapp >=1.8_1",
+    "r-robustbase"
+   ]
+  },
+  "source":{
+   "sha256":"134246c12bec9b7da5be2a46ec6baec9098e91d233c23f1d9ca0a463607c08dc",
+   "url":[
+    "https://cran.r-project.org/src/contrib/ccaPP_0.3.3.tar.gz",
+    "https://cran.r-project.org/src/contrib/Archive/ccaPP/ccaPP_0.3.3.tar.gz",
+    "https://cran.r-project.org/src/contrib/ccaPP_0.3.3.tar.gz",
+    "https://cran.r-project.org/src/contrib/Archive/ccaPP/ccaPP_0.3.3.tar.gz",
+    "https://cran.r-project.org/src/contrib/ccaPP_0.3.3.tar.gz",
+    "https://cran.r-project.org/src/contrib/Archive/ccaPP/ccaPP_0.3.3.tar.gz"
+   ]
+  },
+  "test":{
+   "commands":[
+    "\"%R%\" -e \"library('ccaPP')\"",
+    "$R -e \"library('ccaPP')\"",
+    "$R -e \"library('ccaPP')\""
+   ]
+  }
+ },
+ "name":"r-ccapp",
+ "new_version":"0.3.3",
+ "pinning_version":"2020.05.06.22.15.02",
+ "raw_meta_yaml":"{% set version = \"0.3.3\" %}\n{% set posix = 'm2-' if win else '' %}\n{% set native = 'm2w64-' if win else '' %}\n\npackage:\n  name: r-ccapp\n  version: {{ version|replace(\"-\", \"_\") }}\n\nsource:\n  url:\n    - {{ cran_mirror }}/src/contrib/ccaPP_{{ version }}.tar.gz\n    - {{ cran_mirror }}/src/contrib/Archive/ccaPP/ccaPP_{{ version }}.tar.gz\n  sha256: 134246c12bec9b7da5be2a46ec6baec9098e91d233c23f1d9ca0a463607c08dc\n\nbuild:\n  merge_build_host: True  # [win]\n  number: 1\n  rpaths:\n    - lib/R/lib/\n    - lib/\n\nrequirements:\n  build:\n    - {{ compiler('c') }}              # [not win]\n    - {{ compiler('m2w64_c') }}        # [win]\n    - {{ compiler('cxx') }}            # [not win]\n    - {{ compiler('m2w64_cxx') }}      # [win]\n    - {{ posix }}filesystem        # [win]\n    - {{ posix }}make\n    - {{ posix }}sed               # [win]\n    - {{ posix }}coreutils         # [win]\n    - {{ posix }}zip               # [win]\n  host:\n    - r-base\n    - r-rcpp >=0.11.0\n    - r-rcpparmadillo >=0.4.100.0\n    - r-pcapp >=1.8_1\n    - r-robustbase\n  run:\n    - r-base\n    - {{ native }}gcc-libs         # [win]\n    - r-rcpp >=0.11.0\n    - r-rcpparmadillo >=0.4.100.0\n    - r-pcapp >=1.8_1\n    - r-robustbase\n\ntest:\n  commands:\n    - $R -e \"library('ccaPP')\"           # [not win]\n    - \"\\\"%R%\\\" -e \\\"library('ccaPP')\\\"\"  # [win]\n\nabout:\n  home: https://CRAN.R-project.org/package=ccaPP\n  license: GPL-2\n  summary: Canonical correlation analysis and maximum correlation via projection pursuit, as\n    well as fast implementations of correlation estimators, with a focus on robust and\n    nonparametric methods.\n  license_family: GPL2\n  license_file:\n    - '{{ environ[\"PREFIX\"] }}/lib/R/share/licenses/GPL-2'\n\nextra:\n  recipe-maintainers:\n    - conda-forge/r\n    - MathiasHaudgaard\n    - FrodePedersen\n    - ArneKr\n\n# Package: ccaPP\n# Type: Package\n# Title: (Robust) Canonical Correlation Analysis via Projection Pursuit\n# Version: 0.3.3\n# Date: 2019-12-09\n# Depends: R (>= 3.2.0), parallel, pcaPP (>= 1.8-1), robustbase\n# Imports: Rcpp (>= 0.11.0)\n# LinkingTo: Rcpp (>= 0.11.0), RcppArmadillo (>= 0.4.100.0)\n# Suggests: knitr, mvtnorm\n# VignetteBuilder: knitr\n# Description: Canonical correlation analysis and maximum correlation via projection pursuit, as well as fast implementations of correlation estimators, with a focus on robust and nonparametric methods.\n# License: GPL (>= 2)\n# LazyLoad: yes\n# Authors@R: c(person(\"Andreas\", \"Alfons\", email = \"alfons@ese.eur.nl\", role = c(\"aut\", \"cre\")), person(\"David\", \"Simcha\", role = \"ctb\"))\n# Author: Andreas Alfons [aut, cre], David Simcha [ctb]\n# Maintainer: Andreas Alfons <alfons@ese.eur.nl>\n# Encoding: UTF-8\n# RoxygenNote: 6.1.1\n# NeedsCompilation: yes\n# Packaged: 2019-12-09 10:52:53 UTC; andreas\n# Repository: CRAN\n# Date/Publication: 2019-12-09 12:40:02 UTC\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "c_compiler_stub",
+   "coreutils",
+   "cxx_compiler_stub",
+   "filesystem",
+   "gcc-libs",
+   "m2w64_c_compiler_stub",
+   "m2w64_cxx_compiler_stub",
+   "make",
+   "r-base",
+   "r-pcapp",
+   "r-rcpp",
+   "r-rcpparmadillo",
+   "r-robustbase",
+   "sed",
+   "zip"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "coreutils",
+    "cxx_compiler_stub",
+    "filesystem",
+    "m2w64_c_compiler_stub",
+    "m2w64_cxx_compiler_stub",
+    "make",
+    "sed",
+    "zip"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "r-base",
+    "r-pcapp",
+    "r-rcpp",
+    "r-rcpparmadillo",
+    "r-robustbase"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "gcc-libs",
+    "r-base",
+    "r-pcapp",
+    "r-rcpp",
+    "r-rcpparmadillo",
+    "r-robustbase"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.7.0\n",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "coreutils",
+    "cxx_compiler_stub",
+    "filesystem",
+    "m2w64_c_compiler_stub",
+    "m2w64_cxx_compiler_stub",
+    "make",
+    "sed",
+    "zip"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "r-base",
+    "r-pcapp >=1.8_1",
+    "r-rcpp >=0.11.0",
+    "r-rcpparmadillo >=0.4.100.0",
+    "r-robustbase"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "gcc-libs",
+    "r-base",
+    "r-pcapp >=1.8_1",
+    "r-rcpp >=0.11.0",
+    "r-rcpparmadillo >=0.4.100.0",
+    "r-robustbase"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":[
+  "https://cran.r-project.org/src/contrib/ccaPP_0.3.2.tar.gz",
+  "https://cran.r-project.org/src/contrib/Archive/ccaPP/ccaPP_0.3.2.tar.gz",
+  "https://cran.r-project.org/src/contrib/ccaPP_0.3.2.tar.gz",
+  "https://cran.r-project.org/src/contrib/Archive/ccaPP/ccaPP_0.3.2.tar.gz",
+  "https://cran.r-project.org/src/contrib/ccaPP_0.3.2.tar.gz",
+  "https://cran.r-project.org/src/contrib/Archive/ccaPP/ccaPP_0.3.2.tar.gz"
+ ],
+ "version":"0.3.3"
+}

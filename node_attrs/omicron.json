@@ -1,0 +1,275 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/384316631.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"root620000"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/393731426.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"root_base6202"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/413067349.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.4.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/413127612.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"root_base6204"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"omicron",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"Omicron has been derived from a well-known 'burst-type' search pipeline\ncalled Q-pipeline (a.k.a Omega).  Q-pipeline is able to detect and\ncharacterize detector glitches with a very good efficiency and precision.\nSo, the idea was to adapt it for detector characterization purposes,\ni.e. to run it over many auxiliary channels.  To achieve this, the\noriginal matlab code has been replaced by a C++ architecture and many\nsteps have been removed to run faster.  The name Omicron was chosen to\nrecall the Omega inheritance.\n",
+   "home":"http://virgo.in2p3.fr/GWOLLUM/v2r3/Friends/omicron.html",
+   "license":"GPL-3.0-or-later",
+   "license_family":"GPL",
+   "license_file":"LICENSE",
+   "summary":"An algorithm to detect and characterize transient events in gravitational-wave detectors"
+  },
+  "build":{
+   "error_overdepending":true,
+   "error_overlinking":true,
+   "number":"3",
+   "skip":true
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "duncanmmacleod",
+    "duncanmmacleod",
+    "duncanmmacleod"
+   ]
+  },
+  "package":{
+   "name":"omicron",
+   "version":"2.3.12"
+  },
+  "requirements":{
+   "build":[
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "cmake >=3.9.0",
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "cmake >=3.9.0",
+    "make",
+    "pkg-config",
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "cmake >=3.9.0",
+    "make",
+    "pkg-config"
+   ],
+   "host":[
+    "gwollum 2.3.12",
+    "root_base",
+    "root-binaries",
+    "fftw",
+    "gwollum 2.3.12",
+    "root_base",
+    "root-binaries",
+    "gwollum 2.3.12",
+    "root_base",
+    "root-binaries"
+   ],
+   "run":[
+    "gwollum",
+    "root_base",
+    "fftw",
+    "gwollum",
+    "root_base",
+    "gwollum",
+    "root_base"
+   ]
+  },
+  "source":{
+   "patches":[
+    "c++17.patch",
+    "c++17.patch",
+    "fft-include.patch",
+    "c++17.patch"
+   ],
+   "sha256":"d66642ce2641f019c47059ccbaa468e024cc846ab38e0855f4dac19147a84b3c",
+   "url":"http://software.ligo.org/lscsoft/source/omicron-2.3.12.tar.xz"
+  },
+  "test":{
+   "commands":[
+    "omicron version",
+    "omicron version",
+    "test -x ${PREFIX}/bin/omicron-listfile",
+    "test -x ${PREFIX}/bin/omicron-plot",
+    "test -x ${PREFIX}/bin/omicron-print",
+    "test -x ${PREFIX}/bin/omicron-scanfile",
+    "test \"$(pkg-config --print-errors --modversion omicron)\" == \"${PKG_VERSION}\"",
+    "omicron version",
+    "test -x ${PREFIX}/bin/omicron-listfile",
+    "test -x ${PREFIX}/bin/omicron-plot",
+    "test -x ${PREFIX}/bin/omicron-print",
+    "test -x ${PREFIX}/bin/omicron-scanfile",
+    "test \"$(pkg-config --print-errors --modversion omicron)\" == \"${PKG_VERSION}\""
+   ],
+   "requires":[
+    "pkg-config",
+    "pkg-config",
+    "pkg-config"
+   ]
+  }
+ },
+ "name":"omicron",
+ "new_version":"2.4.0",
+ "new_version_attempts":{
+  "2.4.0":1
+ },
+ "new_version_errors":{},
+ "pinning_version":"2020.05.04.05.46.47",
+ "raw_meta_yaml":"{% set name = \"omicron\" %}\n{% set version = \"2.3.12\" %}\n{% set versions = version.split('.') %}\n\npackage:\n   name: \"{{ name|lower }}\"\n   version: \"{{ version }}\"\n\nsource:\n   url: \"http://software.ligo.org/lscsoft/source/{{ name }}-{{ version }}.tar.xz\"\n   sha256: d66642ce2641f019c47059ccbaa468e024cc846ab38e0855f4dac19147a84b3c\n   patches:\n     # use C++17 standard (required to link against ROOT>=6.14)\n     - c++17.patch\n     # add missing fftw link (only required on macos for some reason)\n     - fft-include.patch  # [osx]\n\nbuild:\n  error_overdepending: true\n  error_overlinking: true\n  number: 3\n  skip: true  # [win]\n\nrequirements:\n  build:\n    - {{ compiler('c') }}\n    - {{ compiler('cxx') }}\n    - cmake >=3.9.0\n    - make  # [unix]\n    - pkg-config  # [unix]\n  host:\n    - fftw  # [osx]\n    - gwollum {{ version }}\n    - root_base\n    - root-binaries\n  run:\n    - fftw  # [osx]\n    - gwollum\n    - root_base\n\ntest:\n  requires:\n    - pkg-config\n  commands:\n    # sanity check\n    - omicron version\n    - test -x ${PREFIX}/bin/omicron-listfile  # [unix]\n    - test -x ${PREFIX}/bin/omicron-plot  # [unix]\n    - test -x ${PREFIX}/bin/omicron-print  # [unix]\n    - test -x ${PREFIX}/bin/omicron-scanfile  # [unix]\n    # check pkg-config\n    - test \"$(pkg-config --print-errors --modversion omicron)\" == \"${PKG_VERSION}\"  # [unix]\n\nabout:\n  home: \"http://virgo.in2p3.fr/GWOLLUM/v{{ versions[0] }}r{{ versions[1] }}/Friends/omicron.html\"\n  license: \"GPL-3.0-or-later\"\n  license_family: \"GPL\"\n  license_file: \"LICENSE\"\n  summary: \"An algorithm to detect and characterize transient events in gravitational-wave detectors\"\n  description: |\n    Omicron has been derived from a well-known 'burst-type' search pipeline\n    called Q-pipeline (a.k.a Omega).  Q-pipeline is able to detect and\n    characterize detector glitches with a very good efficiency and precision.\n    So, the idea was to adapt it for detector characterization purposes,\n    i.e. to run it over many auxiliary channels.  To achieve this, the\n    original matlab code has been replaced by a C++ architecture and many\n    steps have been removed to run faster.  The name Omicron was chosen to\n    recall the Omega inheritance.\n\nextra:\n  recipe-maintainers:\n    - duncanmmacleod\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "c_compiler_stub",
+   "cmake",
+   "cxx_compiler_stub",
+   "fftw",
+   "gwollum",
+   "make",
+   "pkg-config",
+   "root-binaries",
+   "root_base"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "cmake",
+    "cxx_compiler_stub",
+    "make",
+    "pkg-config"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "fftw",
+    "gwollum",
+    "root-binaries",
+    "root_base"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "fftw",
+    "gwollum",
+    "root_base"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "pkg-config"
+   ]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.7.0\n",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "cmake >=3.9.0",
+    "cxx_compiler_stub",
+    "make",
+    "pkg-config"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "fftw",
+    "gwollum 2.3.12",
+    "root-binaries",
+    "root_base"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "fftw",
+    "gwollum",
+    "root_base"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "pkg-config"
+   ]
+  }
+ },
+ "url":"http://software.ligo.org/lscsoft/source/omicron-2.3.12.tar.xz",
+ "version":"2.3.12"
+}

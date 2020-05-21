@@ -1,0 +1,310 @@
+{
+ "PRed":[
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.0.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/204582923.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.1.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/221659432.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/239073058.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.2.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/259411986.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.3.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/259741180.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.3.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/285258054.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.4.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "compiler_stack":"comp7",
+  "max_py_ver":"37",
+  "max_r_ver":"35",
+  "provider":{
+   "win":"azure"
+  }
+ },
+ "feedstock_name":"zeep",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"Zeep inspects the WSDL document and generates the corresponding code to use\nthe services and types in the document. This provides an easy to use\nprogrammatic interface to a SOAP server.\n\nThe emphasis is on SOAP 1.1 and SOAP 1.2, however Zeep also offers support\nfor HTTP Get and Post bindings.\n\nParsing the XML documents is done by using the lxml library. This is the\nmost performant and compliant Python XML library currently available. This\nresults in major speed benefits when processing large SOAP responses.\n",
+   "dev_url":"https://github.com/mvantellingen/python-zeep",
+   "doc_url":"http://docs.python-zeep.org/",
+   "home":"http://www.python-zeep.org",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"LICENSE",
+   "summary":"A fast and modern Python SOAP client"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . --no-deps -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "adament",
+    "Cadair",
+    "adament",
+    "Cadair",
+    "adament",
+    "Cadair"
+   ]
+  },
+  "package":{
+   "name":"zeep",
+   "version":"3.4.0"
+  },
+  "requirements":{
+   "host":[
+    "python",
+    "pip",
+    "python",
+    "pip",
+    "python",
+    "pip"
+   ],
+   "run":[
+    "python",
+    "appdirs >=1.4.0",
+    "attrs >=17.2.0",
+    "cached-property >=1.3.0",
+    "defusedxml >=0.4.1",
+    "isodate >=0.5.4",
+    "lxml >=3.1.0",
+    "requests >=2.7.0",
+    "requests-toolbelt >=0.7.1",
+    "six >=1.9.0",
+    "pytz",
+    "python",
+    "appdirs >=1.4.0",
+    "attrs >=17.2.0",
+    "cached-property >=1.3.0",
+    "defusedxml >=0.4.1",
+    "isodate >=0.5.4",
+    "lxml >=3.1.0",
+    "requests >=2.7.0",
+    "requests-toolbelt >=0.7.1",
+    "six >=1.9.0",
+    "pytz",
+    "python",
+    "appdirs >=1.4.0",
+    "attrs >=17.2.0",
+    "cached-property >=1.3.0",
+    "defusedxml >=0.4.1",
+    "isodate >=0.5.4",
+    "lxml >=3.1.0",
+    "requests >=2.7.0",
+    "requests-toolbelt >=0.7.1",
+    "six >=1.9.0",
+    "pytz"
+   ]
+  },
+  "source":{
+   "fn":"zeep-3.4.0.tar.gz",
+   "sha256":"0e98669cfeb60756231ae185498f9ae21b30b2681786b8de58ed34c3b93e41dd",
+   "url":"https://pypi.io/packages/source/z/zeep/zeep-3.4.0.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "zeep",
+    "zeep",
+    "zeep"
+   ]
+  }
+ },
+ "name":"zeep",
+ "new_version":"3.4.0",
+ "pinning_version":"2019.05.31",
+ "raw_meta_yaml":"{% set name = \"zeep\" %}\n{% set version = \"3.4.0\" %}\n{% set sha256 = \"0e98669cfeb60756231ae185498f9ae21b30b2681786b8de58ed34c3b93e41dd\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  fn: {{ name }}-{{ version }}.tar.gz\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  script: \"{{ PYTHON }} -m pip install . --no-deps -vv\" \n  noarch: python\n\nrequirements:\n  host:\n    - python\n    - pip\n  run:\n    - python\n    - appdirs >=1.4.0\n    - attrs >=17.2.0\n    - cached-property >=1.3.0\n    - defusedxml >=0.4.1\n    - isodate >=0.5.4\n    - lxml >=3.1.0\n    - requests >=2.7.0\n    - requests-toolbelt >=0.7.1\n    - six >=1.9.0\n    - pytz\n\ntest:\n  imports:\n    - zeep\n\nabout:\n  home: http://www.python-zeep.org\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE\n  summary: 'A fast and modern Python SOAP client'\n\n  description: |\n    Zeep inspects the WSDL document and generates the corresponding code to use\n    the services and types in the document. This provides an easy to use\n    programmatic interface to a SOAP server.\n\n    The emphasis is on SOAP 1.1 and SOAP 1.2, however Zeep also offers support\n    for HTTP Get and Post bindings.\n\n    Parsing the XML documents is done by using the lxml library. This is the\n    most performant and compliant Python XML library currently available. This\n    results in major speed benefits when processing large SOAP responses.\n  doc_url: http://docs.python-zeep.org/\n  dev_url: https://github.com/mvantellingen/python-zeep\n\nextra:\n  recipe-maintainers:\n    - adament\n    - Cadair\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "appdirs",
+   "attrs",
+   "cached-property",
+   "defusedxml",
+   "isodate",
+   "lxml",
+   "pip",
+   "python",
+   "pytz",
+   "requests",
+   "requests-toolbelt",
+   "six"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "appdirs",
+    "attrs",
+    "cached-property",
+    "defusedxml",
+    "isodate",
+    "lxml",
+    "python",
+    "pytz",
+    "requests",
+    "requests-toolbelt",
+    "six"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.3.4",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "appdirs >=1.4.0",
+    "attrs >=17.2.0",
+    "cached-property >=1.3.0",
+    "defusedxml >=0.4.1",
+    "isodate >=0.5.4",
+    "lxml >=3.1.0",
+    "python",
+    "pytz",
+    "requests >=2.7.0",
+    "requests-toolbelt >=0.7.1",
+    "six >=1.9.0"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/z/zeep/zeep-3.4.0.tar.gz",
+ "version":"3.4.0"
+}

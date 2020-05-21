@@ -1,0 +1,6 @@
+{
+ "bad":"Upstream: Error getting upstream version",
+ "feedstock_name":"pystac",
+ "new_version":false,
+ "raw_meta_yaml":"{% set version = \"0.3.3\" %}\n\n\npackage:\n  name: pystac\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/p/pystac/pystac-{{ version }}.tar.gz\n  sha256: 70be509476b49106f4b1157334ccdb5de10c57cd1a4e2dbde191951ccf0e065d\n\nbuild:\n  number: 0\n  noarch: python\n  script: {{ PYTHON }} -m pip install . -vv\n\nrequirements:\n  host:\n    - python\n    - pip\n  run:\n    - python\n    - python-dateutil >=2.7.0\n\ntest:\n  imports:\n    - pystac\n    - pystac.serialization\n  commands:\n    - pip check\n  requires:\n    - pip\n\nabout:\n  home: https://pypi.org/project/pystac/\n  summary: Python library for working with Spatiotemporal Asset Catalog (STAC).\n  license: Apache-2.0\n  license_file: LICENSE\n\nextra:\n  recipe-maintainers:\n    - ocefpaf\n"
+}

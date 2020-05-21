@@ -1,0 +1,141 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/313063703.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"4.0.3"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"rb-liquid",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "dev_url":"https://github.com/shopify/liquid",
+   "doc_url":"http://www.rubydoc.info/gems/liquid",
+   "home":"https://rubygems.org/gems/liquid",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"liquid-4.0.3/LICENSE",
+   "summary":"A secure, non-evaling end user template engine with aesthetic markup."
+  },
+  "build":{
+   "noarch":"generic",
+   "number":"0",
+   "script":[
+    "gem install -N -l -V --norc --ignore-dependencies liquid-4.0.3.gem",
+    "gem unpack liquid-4.0.3.gem",
+    "gem install -N -l -V --norc --ignore-dependencies liquid-4.0.3.gem",
+    "gem unpack liquid-4.0.3.gem",
+    "gem install -N -l -V --norc --ignore-dependencies liquid-4.0.3.gem",
+    "gem unpack liquid-4.0.3.gem"
+   ],
+   "skip":null
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "sodre",
+    "sodre",
+    "sodre"
+   ]
+  },
+  "package":{
+   "name":"rb-liquid",
+   "version":"4.0.3"
+  },
+  "requirements":{
+   "host":[
+    "ruby",
+    "ruby",
+    "ruby"
+   ],
+   "run":[
+    "ruby",
+    "ruby",
+    "ruby"
+   ]
+  },
+  "source":{
+   "sha256":"7e15a957fbeb424dec15b52311880524954ce6e384ba9171e21ff98f142c0f7e",
+   "url":"https://rubygems.org/downloads/liquid-4.0.3.gem"
+  },
+  "test":{
+   "commands":[
+    "ruby -r liquid -e 'exit 0'",
+    "ruby -r liquid -e 'exit 0'",
+    "ruby -r liquid -e 'exit 0'"
+   ]
+  }
+ },
+ "name":"rb-liquid",
+ "new_version":false,
+ "pinning_version":"2019.08.27",
+ "raw_meta_yaml":"{% set name = \"liquid\" %}\n{% set version = \"4.0.3\" %}\n\npackage:\n  name: rb-{{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://rubygems.org/downloads/{{ name }}-{{ version }}.gem\n  sha256: 7e15a957fbeb424dec15b52311880524954ce6e384ba9171e21ff98f142c0f7e\n\nbuild:\n  noarch: generic\n  number: 0\n  script:\n    - gem install -N -l -V --norc --ignore-dependencies {{ name }}-{{ version }}.gem\n    - gem unpack {{ name }}-{{ version }}.gem\n  skip: {{ win }}\n\nrequirements:\n  host:\n    - ruby\n  run:\n    - ruby\n\ntest:\n  commands:\n    - ruby -r {{ name }} -e 'exit 0'\n\nabout:\n  home: https://rubygems.org/gems/{{ name }}\n  license: MIT\n  license_family: MIT\n  license_file: {{ name }}-{{ version }}/LICENSE\n  summary: A secure, non-evaling end user template engine with aesthetic markup.\n\n  doc_url: http://www.rubydoc.info/gems/{{ name }}\n  dev_url: https://github.com/shopify/{{ name }}\n\nextra:\n  recipe-maintainers:\n    - sodre\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "ruby"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "ruby"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "ruby"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.4.1",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "ruby"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "ruby"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://rubygems.org/downloads/liquid-4.0.3.gem",
+ "version":"4.0.3"
+}

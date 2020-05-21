@@ -1,0 +1,150 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/240014744.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":"Upstream: Error getting upstream version",
+ "conda-forge.yml":{},
+ "feedstock_name":"lbzip2",
+ "meta_yaml":{
+  "about":{
+   "home":"http://lbzip2.org",
+   "license":"GPLv3",
+   "license_file":"lbzip2-2.5/COPYING",
+   "summary":"lbzip2 is a free, multi-threaded compression utility with support for bzip2 compressed file format"
+  },
+  "build":{
+   "number":"0",
+   "script":[
+    "curl http://archive.lbzip2.org/lbzip2-2.5.tar.bz2 -o lbzip2-2.5.tar.bz2",
+    "openssl sha256 lbzip2-2.5.tar.bz2 | grep eec4ff08376090494fa3710649b73e5412c3687b4b9b758c93f73aa7be27555b",
+    "tar xjvf lbzip2-2.5.tar.bz2 --no-same-owner",
+    "cd lbzip2-2.5",
+    "./configure --prefix=$PREFIX",
+    "make -j${CPU_COUNT}",
+    "make check",
+    "make install",
+    "curl http://archive.lbzip2.org/lbzip2-2.5.tar.bz2 -o lbzip2-2.5.tar.bz2",
+    "openssl sha256 lbzip2-2.5.tar.bz2 | grep eec4ff08376090494fa3710649b73e5412c3687b4b9b758c93f73aa7be27555b",
+    "tar xjvf lbzip2-2.5.tar.bz2 --no-same-owner",
+    "cd lbzip2-2.5",
+    "./configure --prefix=$PREFIX",
+    "make -j${CPU_COUNT}",
+    "make check",
+    "make install",
+    "curl http://archive.lbzip2.org/lbzip2-2.5.tar.bz2 -o lbzip2-2.5.tar.bz2",
+    "openssl sha256 lbzip2-2.5.tar.bz2 | grep eec4ff08376090494fa3710649b73e5412c3687b4b9b758c93f73aa7be27555b",
+    "tar xjvf lbzip2-2.5.tar.bz2 --no-same-owner",
+    "cd lbzip2-2.5",
+    "./configure --prefix=$PREFIX",
+    "make -j${CPU_COUNT}",
+    "make check",
+    "make install"
+   ],
+   "skip":true
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "gqmelo",
+    "gqmelo",
+    "gqmelo"
+   ]
+  },
+  "package":{
+   "name":"lbzip2",
+   "version":"2.5"
+  },
+  "requirements":{
+   "build":[
+    "toolchain",
+    "toolchain",
+    "toolchain"
+   ]
+  },
+  "test":{
+   "commands":[
+    "lbzip2 --version",
+    "lbzip2 --version",
+    "lbzip2 --version"
+   ],
+   "requires":[
+    "bzip2",
+    "bzip2",
+    "bzip2"
+   ]
+  }
+ },
+ "name":"lbzip2",
+ "new_version":false,
+ "pinning_version":"2018.12.18",
+ "raw_meta_yaml":"{% set name = \"lbzip2\" %}\n{% set version = \"2.5\" %}\n{% set sha256 = \"eec4ff08376090494fa3710649b73e5412c3687b4b9b758c93f73aa7be27555b\" %}\n\npackage:\n  name: {{ name }}\n  version: {{ version }}\n\n# UNCOMMENT AFTER THIS ISSUE IS SOLVED:\n# https://github.com/conda-forge/docker-images/pull/36\n# source:\n#   fn: lbzip2-{{ version }}.tar.bz2\n#   url: http://archive.lbzip2.org/lbzip2-{{ version }}.tar.bz2\n#   sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  skip: True  # [win]\n  script:\n    - curl http://archive.lbzip2.org/lbzip2-{{ version }}.tar.bz2 -o lbzip2-{{ version }}.tar.bz2\n    - openssl sha256 lbzip2-{{ version }}.tar.bz2 | grep {{ sha256 }}\n    - tar xjvf lbzip2-{{ version }}.tar.bz2 --no-same-owner\n    - cd lbzip2-{{ version }}\n    - ./configure --prefix=$PREFIX\n    - make -j${CPU_COUNT}\n    - make check\n    - make install\n\nrequirements:\n  build:\n    - toolchain\n\ntest:\n  requires:\n    - bzip2\n  commands:\n    - lbzip2 --version\n\nabout:\n  home: http://lbzip2.org\n  license: GPLv3\n  license_file: lbzip2-{{ version }}/COPYING\n  summary: lbzip2 is a free, multi-threaded compression utility with support for bzip2 compressed file format\n\nextra:\n  recipe-maintainers:\n    - gqmelo\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "toolchain"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "toolchain"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "bzip2"
+   ]
+  }
+ },
+ "smithy_version":"3.2.2",
+ "strong_exports":false,
+ "time":1568135280.6336312,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "toolchain"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "bzip2"
+   ]
+  }
+ },
+ "version":"2.5"
+}

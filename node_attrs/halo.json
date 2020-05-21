@@ -1,0 +1,5 @@
+{
+ "bad":false,
+ "feedstock_name":"halo",
+ "raw_meta_yaml":"{% set name = \"halo\" %}\n{% set version = \"0.0.28\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: 9ebf98b94a43f3b68e18c6d74dcb1ea58446b8457ce6fb1b2b4cac8d83733f80\n\nbuild:\n  noarch: python\n  number: 0\n  script: '{{ PYTHON }} -m pip install . -vv'\n\nrequirements:\n  host:\n    - pip\n    - python >=3.5\n  run:\n    - colorama >=0.3.9\n    - cursor >=1.2.0\n    - log_symbols >=0.0.13\n    - python >=3.5\n    - six >=1.12.0\n    - spinners >=0.0.23\n    - termcolor >=1.1.0\n\ntest:\n  imports:\n    - halo\n\nabout:\n  home: https://github.com/manrajgrover/halo\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE\n  summary: Beautiful terminal spinners in Python\n\nextra:\n  recipe-maintainers:\n    - duncanmmacleod\n"
+}

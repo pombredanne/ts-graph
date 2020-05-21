@@ -1,0 +1,287 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/199872879.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Compiler",
+    "migrator_version":0
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/219118651.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/262261853.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"ArchRebuild",
+    "migrator_version":1,
+    "name":"aarch64 and ppc64le addition"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/290754534.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.2.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "compiler_stack":"comp7",
+  "max_py_ver":"37",
+  "max_r_ver":"35",
+  "provider":{
+   "linux_aarch64":"default",
+   "linux_ppc64le":"default",
+   "win":"azure"
+  }
+ },
+ "feedstock_name":"xorg-libxt",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"https://www.x.org/",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"COPYING",
+   "summary":"The X.org X11 toolkit intrinsics library."
+  },
+  "build":{
+   "detect_binary_files_with_prefix":true,
+   "number":"0"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "pkgw",
+    "pkgw",
+    "pkgw"
+   ]
+  },
+  "package":{
+   "name":"xorg-libxt",
+   "version":"1.2.0"
+  },
+  "requirements":{
+   "build":[
+    "m2-autoconf",
+    "m2-automake1.15",
+    "m2-libtool",
+    "m2w64-pkg-config",
+    "posix",
+    "m2w64_c_compiler_stub",
+    "pkg-config",
+    "make",
+    "c_compiler_stub",
+    "pkg-config",
+    "make",
+    "c_compiler_stub"
+   ],
+   "host":[
+    "xorg-kbproto",
+    "xorg-libice 1.0.*",
+    "xorg-libsm 1.2.*",
+    "xorg-libx11 1.6.*",
+    "xorg-util-macros",
+    "xorg-xproto",
+    "xorg-kbproto",
+    "xorg-libice 1.0.*",
+    "xorg-libsm 1.2.*",
+    "xorg-libx11 1.6.*",
+    "xorg-util-macros",
+    "xorg-xproto",
+    "xorg-kbproto",
+    "xorg-libice 1.0.*",
+    "xorg-libsm 1.2.*",
+    "xorg-libx11 1.6.*",
+    "xorg-util-macros",
+    "xorg-xproto"
+   ],
+   "run":[
+    "xorg-kbproto",
+    "xorg-libice 1.0.*",
+    "xorg-libsm 1.2.*",
+    "xorg-libx11 1.6.*",
+    "xorg-xproto",
+    "xorg-kbproto",
+    "xorg-libice 1.0.*",
+    "xorg-libsm 1.2.*",
+    "xorg-libx11 1.6.*",
+    "xorg-xproto",
+    "xorg-kbproto",
+    "xorg-libice 1.0.*",
+    "xorg-libsm 1.2.*",
+    "xorg-libx11 1.6.*",
+    "xorg-xproto"
+   ]
+  },
+  "source":{
+   "fn":"xorg-libXt-1.2.0.tar.bz2",
+   "patches":null,
+   "sha256":"b31df531dabed9f4611fc8980bc51d7782967e2aff44c4105251a1acb5a77831",
+   "url":"https://www.x.org/releases/individual/lib/libXt-1.2.0.tar.bz2"
+  },
+  "test":{
+   "commands":[
+    "if not exist %PREFIX%/Library/lib/libXt.dll.a exit /b 1",
+    "if not exist %PREFIX%/Library/bin/msys-Xt-*.dll exit /b 1",
+    "test -f $PREFIX/lib/libXt.dylib",
+    "conda inspect linkages -p $PREFIX $PKG_NAME",
+    "conda inspect objects -p $PREFIX $PKG_NAME",
+    "test -f $PREFIX/lib/libXt.so",
+    "conda inspect linkages -p $PREFIX $PKG_NAME"
+   ]
+  }
+ },
+ "name":"xorg-libxt",
+ "new_version":false,
+ "pinning_version":"2019.06.19",
+ "raw_meta_yaml":"{% set xorg_name = \"libXt\" %}\n{% set xorg_category = \"lib\" %}\n{% set name = \"xorg-\" ~ xorg_name %}\n{% set version = \"1.2.0\" %}\n{% set sha256 = \"b31df531dabed9f4611fc8980bc51d7782967e2aff44c4105251a1acb5a77831\" %}\n{% set am_version = \"1.15\" %} # keep synchronized with build.sh\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  fn: {{ name }}-{{ version }}.tar.bz2\n  url: https://www.x.org/releases/individual/{{ xorg_category }}/{{ xorg_name }}-{{ version }}.tar.bz2\n  sha256: {{ sha256 }}\n  patches:\n    - windows.patch  # [win]\n\nbuild:\n  number: 0\n  detect_binary_files_with_prefix: true\n\nrequirements:\n  build:\n    - m2-autoconf  # [win]\n    - m2-automake{{ am_version }}  # [win]\n    - m2-libtool  # [win]\n    - m2w64-pkg-config  # [win]\n    - pkg-config  # [not win]\n    - posix  # [win]\n    - make  # [not win]\n    - {{ compiler('c') }}        # [unix]\n    - {{ compiler('m2w64_c') }}  # [win]\n  host:\n    - xorg-kbproto\n    - xorg-libice 1.0.*\n    - xorg-libsm 1.2.*\n    - xorg-libx11 1.6.*\n    - xorg-util-macros\n    - xorg-xproto\n  run:\n    - xorg-kbproto\n    - xorg-libice 1.0.*\n    - xorg-libsm 1.2.*\n    - xorg-libx11 1.6.*\n    - xorg-xproto\n\ntest:\n  commands:\n    {% set lib_idents = [ \"Xt\" ] %}\n    {% for lib_ident in lib_idents %}\n    - test -f $PREFIX/lib/lib{{ lib_ident }}.dylib  # [osx]\n    - test -f $PREFIX/lib/lib{{ lib_ident }}.so  # [linux]\n    - if not exist %PREFIX%/Library/lib/lib{{ lib_ident }}.dll.a exit /b 1  # [win]\n    - if not exist %PREFIX%/Library/bin/msys-{{ lib_ident }}-*.dll exit /b 1  # [win]\n    {% endfor %}\n    - conda inspect linkages -p $PREFIX $PKG_NAME  # [not win]\n    - conda inspect objects -p $PREFIX $PKG_NAME  # [osx]\n\nabout:\n  home: https://www.x.org/\n  license: MIT\n  license_family: MIT\n  license_file: COPYING\n  summary: 'The X.org X11 toolkit intrinsics library.'\n\nextra:\n  recipe-maintainers:\n    - pkgw\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "c_compiler_stub",
+   "m2-autoconf",
+   "m2-automake1.15",
+   "m2-libtool",
+   "m2w64-pkg-config",
+   "m2w64_c_compiler_stub",
+   "make",
+   "pkg-config",
+   "posix",
+   "xorg-kbproto",
+   "xorg-libice",
+   "xorg-libsm",
+   "xorg-libx11",
+   "xorg-util-macros",
+   "xorg-xproto"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "m2-autoconf",
+    "m2-automake1.15",
+    "m2-libtool",
+    "m2w64-pkg-config",
+    "m2w64_c_compiler_stub",
+    "make",
+    "pkg-config",
+    "posix"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "xorg-kbproto",
+    "xorg-libice",
+    "xorg-libsm",
+    "xorg-libx11",
+    "xorg-util-macros",
+    "xorg-xproto"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "xorg-kbproto",
+    "xorg-libice",
+    "xorg-libsm",
+    "xorg-libx11",
+    "xorg-xproto"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.3.7",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "m2-autoconf",
+    "m2-automake1.15",
+    "m2-libtool",
+    "m2w64-pkg-config",
+    "m2w64_c_compiler_stub",
+    "make",
+    "pkg-config",
+    "posix"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "xorg-kbproto",
+    "xorg-libice 1.0.*",
+    "xorg-libsm 1.2.*",
+    "xorg-libx11 1.6.*",
+    "xorg-util-macros",
+    "xorg-xproto"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "xorg-kbproto",
+    "xorg-libice 1.0.*",
+    "xorg-libsm 1.2.*",
+    "xorg-libx11 1.6.*",
+    "xorg-xproto"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://www.x.org/releases/individual/lib/libXt-1.2.0.tar.bz2",
+ "version":"1.2.0"
+}

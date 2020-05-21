@@ -1,0 +1,165 @@
+{
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"pytest-executable",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "dev_url":"https://pytest-executable.readthedocs.io",
+   "doc_url":"https://github.com/CS-SI/pytest-executable",
+   "home":"https://pytest-executable.readthedocs.io",
+   "license":"Apache-2.0",
+   "license_family":"APACHE",
+   "license_file":"LICENSE.txt",
+   "summary":"pytest plugin for testing executables"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":"-m pip install . --no-deps -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "AntoineD",
+    "AntoineD",
+    "AntoineD"
+   ]
+  },
+  "package":{
+   "name":"pytest-executable",
+   "version":"0.4.0"
+  },
+  "requirements":{
+   "host":[
+    "pip",
+    "python >=3.6",
+    "pip",
+    "python >=3.6",
+    "pip",
+    "python >=3.6"
+   ],
+   "run":[
+    "python >=3.6",
+    "pytest >=4.3,<6",
+    "pyyaml >=3,<6",
+    "jsonschema >=2,<4",
+    "jinja2 >=2.7,<3",
+    "dataclasses",
+    "python >=3.6",
+    "pytest >=4.3,<6",
+    "pyyaml >=3,<6",
+    "jsonschema >=2,<4",
+    "jinja2 >=2.7,<3",
+    "dataclasses",
+    "python >=3.6",
+    "pytest >=4.3,<6",
+    "pyyaml >=3,<6",
+    "jsonschema >=2,<4",
+    "jinja2 >=2.7,<3",
+    "dataclasses"
+   ]
+  },
+  "source":{
+   "sha256":"316b7982bcdb923ad6b8453f54b348bf81328dcdcecad212034acdf592bd3a4d",
+   "url":"https://pypi.io/packages/source/p/pytest_executable/pytest_executable-0.4.0.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "python -m pip check",
+    "pytest --traceconfig | grep pytest-executable-0.4.0",
+    "python -m pip check",
+    "pytest --traceconfig | grep pytest-executable-0.4.0",
+    "python -m pip check",
+    "pytest --traceconfig | grep pytest-executable-0.4.0"
+   ],
+   "imports":[
+    "pytest_executable",
+    "pytest_executable",
+    "pytest_executable"
+   ],
+   "requires":[
+    "pip",
+    "pip",
+    "pip"
+   ]
+  }
+ },
+ "name":"pytest-executable",
+ "new_version":"0.4.0",
+ "raw_meta_yaml":"{% set name = \"pytest_executable\" %}\n{% set version = \"0.4.0\" %}\n\npackage:\n  name: pytest-executable\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: 316b7982bcdb923ad6b8453f54b348bf81328dcdcecad212034acdf592bd3a4d\n\nbuild:\n  number: 0\n  noarch: python\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  host:\n    - pip\n    - python >=3.6\n  run:\n    - python >=3.6\n    - pytest >=4.3,<6\n    - pyyaml >=3,<6\n    - jsonschema >=2,<4\n    - jinja2 >=2.7,<3\n    - dataclasses\n\ntest:\n  requires:\n    - pip\n  commands:\n    - python -m pip check\n    - \"pytest --traceconfig | grep pytest-executable-{{ version }}\"\n  imports:\n    - pytest_executable\n\nabout:\n  home: https://pytest-executable.readthedocs.io\n  license: Apache-2.0\n  license_family: APACHE\n  license_file: LICENSE.txt\n  summary: pytest plugin for testing executables\n  doc_url: https://github.com/CS-SI/pytest-executable\n  dev_url: https://pytest-executable.readthedocs.io\n\nextra:\n  recipe-maintainers:\n    - AntoineD\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "dataclasses",
+   "jinja2",
+   "jsonschema",
+   "pip",
+   "pytest",
+   "python",
+   "pyyaml"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "dataclasses",
+    "jinja2",
+    "jsonschema",
+    "pytest",
+    "python",
+    "pyyaml"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "pip"
+   ]
+  }
+ },
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3.6"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "dataclasses",
+    "jinja2 >=2.7,<3",
+    "jsonschema >=2,<4",
+    "pytest >=4.3,<6",
+    "python >=3.6",
+    "pyyaml >=3,<6"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "pip"
+   ]
+  }
+ },
+ "url":"https://pypi.io/packages/source/p/pytest_executable/pytest_executable-0.4.0.tar.gz",
+ "version":"0.4.0"
+}

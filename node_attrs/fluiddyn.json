@@ -1,0 +1,354 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "id":"b1200af2-6e36-41f7-ad4d-6006a2aa7d1d",
+    "merged_at":"never issued",
+    "state":"closed"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"python38"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/375744536.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MatplotlibBase",
+    "migrator_version":0,
+    "name":"matplotlib-to-matplotlib-base"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/396274186.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "provider":{
+   "win":"azure"
+  }
+ },
+ "feedstock_name":"fluiddyn",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"FluidDyn project is an ecosystem of packages for research and teaching in\nfluid dynamics. The Python package fluiddyn contains basic utilities to\nmanage File I/O for some esoteric formats, publication quality figures, job\nsubmission on clusters, MPI powerful classes to handle parameters, arrays,\nseries of files simplified interfaces to calculate FFT, spherical harmonics\nand much more.\n",
+   "doc_url":"https://fluiddyn.readthedocs.io",
+   "home":"https://bitbucket.org/fluiddyn/fluiddyn",
+   "license":"CECILL-B",
+   "license_file":"LICENSE.txt",
+   "summary":"Framework for studying fluid dynamics."
+  },
+  "build":{
+   "entry_points":[
+    "fluidinfo = fluiddyn.util.info:main",
+    "fluidnbstripout = fluiddoc.fluidnbstripout:main",
+    "fluiddocset = fluiddoc.fluiddocset:main",
+    "fluiddump = fluiddyn.io.dump:main",
+    "fluidmat2py = fluiddyn.util.matlab2py:main",
+    "fluidcluster-help = fluiddyn.clusters:print_help_scheduler",
+    "fluidinfo = fluiddyn.util.info:main",
+    "fluidnbstripout = fluiddoc.fluidnbstripout:main",
+    "fluiddocset = fluiddoc.fluiddocset:main",
+    "fluiddump = fluiddyn.io.dump:main",
+    "fluidmat2py = fluiddyn.util.matlab2py:main",
+    "fluidcluster-help = fluiddyn.clusters:print_help_scheduler",
+    "fluidinfo = fluiddyn.util.info:main",
+    "fluidnbstripout = fluiddoc.fluidnbstripout:main",
+    "fluiddocset = fluiddoc.fluiddocset:main",
+    "fluiddump = fluiddyn.io.dump:main",
+    "fluidmat2py = fluiddyn.util.matlab2py:main",
+    "fluidcluster-help = fluiddyn.clusters:print_help_scheduler"
+   ],
+   "number":"100",
+   "script":" -m pip install .[full] --no-deps --ignore-installed -vv ",
+   "skip":true,
+   "string":"nompi_h_100"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "CyrilleBonamy",
+    "paugier",
+    "ashwinvis",
+    "CyrilleBonamy",
+    "paugier",
+    "ashwinvis",
+    "CyrilleBonamy",
+    "paugier",
+    "ashwinvis"
+   ]
+  },
+  "package":{
+   "name":"fluiddyn",
+   "version":"0.3.2"
+  },
+  "requirements":{
+   "host":[
+    "pip",
+    "python",
+    "nompi",
+    "mpi4py",
+    "pip",
+    "python",
+    "nompi",
+    "mpi4py",
+    "pip",
+    "python",
+    "nompi",
+    "mpi4py"
+   ],
+   "run":[
+    "python",
+    "numpy",
+    "psutil >=5.2.1",
+    "six",
+    "nompi",
+    "mpi4py",
+    "h5py",
+    "h5netcdf",
+    "nbstripout",
+    "scipy",
+    "matplotlib-base",
+    "imageio",
+    "sip",
+    "scikit-image",
+    "python",
+    "numpy",
+    "psutil >=5.2.1",
+    "six",
+    "nompi",
+    "mpi4py",
+    "h5py",
+    "h5netcdf",
+    "nbstripout",
+    "scipy",
+    "matplotlib-base",
+    "imageio",
+    "sip",
+    "scikit-image",
+    "python",
+    "numpy",
+    "psutil >=5.2.1",
+    "six",
+    "nompi",
+    "mpi4py",
+    "h5py",
+    "h5netcdf",
+    "nbstripout",
+    "scipy",
+    "matplotlib-base",
+    "imageio",
+    "sip",
+    "scikit-image"
+   ]
+  },
+  "source":{
+   "sha256":"a00c0b2a1cc58bb64341c34d399ba869f8bc46a8b423735979fa1f63d664608a",
+   "url":"https://pypi.io/packages/source/f/fluiddyn/fluiddyn-0.3.2.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "fluidinfo --help",
+    "fluidnbstripout --help",
+    "fluiddocset --help",
+    "fluiddump --help",
+    "fluidmat2py --help",
+    "fluidcluster-help --help",
+    "fluidinfo --help",
+    "fluidnbstripout --help",
+    "fluiddocset --help",
+    "fluiddump --help",
+    "fluidmat2py --help",
+    "fluidcluster-help --help",
+    "fluidinfo --help",
+    "fluidnbstripout --help",
+    "fluiddocset --help",
+    "fluiddump --help",
+    "fluidmat2py --help",
+    "fluidcluster-help --help"
+   ],
+   "imports":[
+    "fluiddoc",
+    "fluiddyn",
+    "fluiddyn.calcul",
+    "fluiddyn.calcul.test",
+    "fluiddyn.clusters",
+    "fluiddyn.clusters.test",
+    "fluiddyn.io",
+    "fluiddyn.io.test",
+    "fluiddyn.output",
+    "fluiddyn.output.test",
+    "fluiddyn.util",
+    "fluiddyn.util.matlab2py",
+    "fluiddyn.util.matlab2py.test",
+    "fluiddyn.util.test",
+    "fluiddoc",
+    "fluiddyn",
+    "fluiddyn.calcul",
+    "fluiddyn.calcul.test",
+    "fluiddyn.clusters",
+    "fluiddyn.clusters.test",
+    "fluiddyn.io",
+    "fluiddyn.io.test",
+    "fluiddyn.output",
+    "fluiddyn.output.test",
+    "fluiddyn.util",
+    "fluiddyn.util.matlab2py",
+    "fluiddyn.util.matlab2py.test",
+    "fluiddyn.util.test",
+    "fluiddoc",
+    "fluiddyn",
+    "fluiddyn.calcul",
+    "fluiddyn.calcul.test",
+    "fluiddyn.clusters",
+    "fluiddyn.clusters.test",
+    "fluiddyn.io",
+    "fluiddyn.io.test",
+    "fluiddyn.output",
+    "fluiddyn.output.test",
+    "fluiddyn.util",
+    "fluiddyn.util.matlab2py",
+    "fluiddyn.util.matlab2py.test",
+    "fluiddyn.util.test"
+   ]
+  }
+ },
+ "name":"fluiddyn",
+ "new_version":"0.3.2",
+ "pinning_version":"2020.03.30",
+ "raw_meta_yaml":"{% set name = \"fluiddyn\" %}\n{% set version = \"0.3.2\" %}\n{% set build = 0 %}\n# ensure mpi is defined (needed for conda-smithy recipe-lint)\n{% set mpi = mpi or 'nompi' %}\n\n{% if mpi == 'nompi' %}\n# prioritize nompi variant via build number\n{% set build = build + 100 %}\n{% endif %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: a00c0b2a1cc58bb64341c34d399ba869f8bc46a8b423735979fa1f63d664608a\n\nbuild:\n  number: {{ build }}\n  # add build string so packages can depend on\n  # mpi or nompi variants explicitly:\n  # `pkg * mpi_mpich_*` for mpich\n  # `pkg * mpi_*` for any mpi\n  # `pkg * nompi_*` for no mpi\n\n  {% if mpi != 'nompi' %}\n  {% set mpi_prefix = \"mpi_\" + mpi %}\n  {% else %}\n  {% set mpi_prefix = \"nompi\" %}\n  {% endif %}\n  string: {{ mpi_prefix }}_h{{ PKG_HASH }}_{{ build }}\n\n  {% if mpi != 'nompi' %}\n  run_exports:\n    - {{ name }}*{{ mpi_prefix }}_*\n  {% endif %}\n\n  skip: true  # [win and (mpi != 'nompi')]\n  skip: true  # [py<36]\n  entry_points:\n    - fluidinfo = fluiddyn.util.info:main\n    - fluidnbstripout = fluiddoc.fluidnbstripout:main\n    - fluiddocset = fluiddoc.fluiddocset:main\n    - fluiddump = fluiddyn.io.dump:main\n    - fluidmat2py = fluiddyn.util.matlab2py:main\n    - fluidcluster-help = fluiddyn.clusters:print_help_scheduler\n  script: '{{ PYTHON }} -m pip install .[full] --no-deps --ignore-installed -vv '\n\nrequirements:\n  host:\n    - pip\n    - python\n    - {{ mpi }}  # [mpi != 'nompi']\n    - mpi4py  # [mpi != 'nompi']\n  run:\n    - python\n    - numpy\n    - psutil >=5.2.1\n    - six\n    - {{ mpi }}  # [mpi != 'nompi']\n    - mpi4py  # [mpi != 'nompi']\n    - h5py\n    - h5netcdf\n    - nbstripout\n    - scipy\n    - matplotlib-base\n#    - opencv\n    - imageio\n    - sip\n    - scikit-image\n\ntest:\n  imports:\n    - fluiddoc\n    - fluiddyn\n    - fluiddyn.calcul\n    - fluiddyn.calcul.test\n    - fluiddyn.clusters\n    - fluiddyn.clusters.test\n    - fluiddyn.io\n    - fluiddyn.io.test\n    - fluiddyn.output\n    - fluiddyn.output.test\n    - fluiddyn.util\n    - fluiddyn.util.matlab2py\n    - fluiddyn.util.matlab2py.test\n    - fluiddyn.util.test\n  commands:\n    - fluidinfo --help\n    - fluidnbstripout --help\n    - fluiddocset --help\n    - fluiddump --help\n    - fluidmat2py --help\n    - fluidcluster-help --help\n\nabout:\n  home: https://bitbucket.org/fluiddyn/fluiddyn\n  license:  CECILL-B\n  license_file: LICENSE.txt\n  summary: Framework for studying fluid dynamics.\n  description: |\n    FluidDyn project is an ecosystem of packages for research and teaching in\n    fluid dynamics. The Python package fluiddyn contains basic utilities to\n    manage File I/O for some esoteric formats, publication quality figures, job\n    submission on clusters, MPI powerful classes to handle parameters, arrays,\n    series of files simplified interfaces to calculate FFT, spherical harmonics\n    and much more.\n  doc_url: https://fluiddyn.readthedocs.io\n\nextra:\n  recipe-maintainers:\n    - CyrilleBonamy\n    - paugier\n    - ashwinvis\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "h5netcdf",
+   "h5py",
+   "imageio",
+   "matplotlib-base",
+   "mpi4py",
+   "nbstripout",
+   "nompi",
+   "numpy",
+   "pip",
+   "psutil",
+   "python",
+   "scikit-image",
+   "scipy",
+   "sip",
+   "six"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "mpi4py",
+    "nompi",
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "h5netcdf",
+    "h5py",
+    "imageio",
+    "matplotlib-base",
+    "mpi4py",
+    "nbstripout",
+    "nompi",
+    "numpy",
+    "psutil",
+    "python",
+    "scikit-image",
+    "scipy",
+    "sip",
+    "six"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.6.15",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "mpi4py",
+    "nompi",
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "h5netcdf",
+    "h5py",
+    "imageio",
+    "matplotlib-base",
+    "mpi4py",
+    "nbstripout",
+    "nompi",
+    "numpy",
+    "psutil >=5.2.1",
+    "python",
+    "scikit-image",
+    "scipy",
+    "sip",
+    "six"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/f/fluiddyn/fluiddyn-0.3.1.tar.gz",
+ "version":"0.3.2"
+}

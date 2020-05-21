@@ -1,0 +1,309 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/207778869.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.6.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/220304259.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/241511308.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.6.4"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/261346216.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.7.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/264310416.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.7.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/313043445.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.8.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/335846163.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"python38"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "head":{
+     "ref":"<this_is_not_a_branch>"
+    },
+    "state":"closed"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.9.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "compiler_stack":"comp7",
+  "max_py_ver":"37",
+  "max_r_ver":"35",
+  "provider":{
+   "win":"azure"
+  }
+ },
+ "feedstock_name":"signac-flow",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"The signac-flow tool provides the basic components to setup simple to\ncomplex workflows for signac projects. That includes the definition of\ndata pipelines, execution of data space operations and the submission\nof operations to high-performance super computers.\n",
+   "dev_url":"https://github.com/glotzerlab/signac-flow",
+   "doc_url":"https://docs.signac.io",
+   "home":"https://signac.io",
+   "license":"BSD 3-Clause",
+   "license_family":"BSD",
+   "license_file":"LICENSE.txt",
+   "summary":"Workflow management for signac projects."
+  },
+  "build":{
+   "entry_points":[
+    "flow = flow.__main__:main",
+    "flow = flow.__main__:main",
+    "flow = flow.__main__:main"
+   ],
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install --no-deps --ignore-installed ."
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "bdice",
+    "csadorf",
+    "mikemhenry",
+    "vyasr",
+    "bdice",
+    "csadorf",
+    "mikemhenry",
+    "vyasr",
+    "bdice",
+    "csadorf",
+    "mikemhenry",
+    "vyasr"
+   ]
+  },
+  "package":{
+   "name":"signac-flow",
+   "version":"0.9.0"
+  },
+  "requirements":{
+   "host":[
+    "python >=3.5",
+    "pip",
+    "python >=3.5",
+    "pip",
+    "python >=3.5",
+    "pip"
+   ],
+   "run":[
+    "cloudpickle",
+    "deprecation >=2",
+    "jinja2 >=2.8",
+    "python >=3.5",
+    "signac >=1.0.0",
+    "cloudpickle",
+    "deprecation >=2",
+    "jinja2 >=2.8",
+    "python >=3.5",
+    "signac >=1.0.0",
+    "cloudpickle",
+    "deprecation >=2",
+    "jinja2 >=2.8",
+    "python >=3.5",
+    "signac >=1.0.0"
+   ]
+  },
+  "source":{
+   "sha256":"32aa14689cd4907edf9be0b79b50cc66c639082ea2916a6a81357635baca15e4",
+   "url":"https://github.com/glotzerlab/signac-flow/archive/v0.9.0.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "flow",
+    "flow",
+    "flow"
+   ]
+  }
+ },
+ "name":"signac-flow",
+ "new_version":"0.9.0",
+ "pinning_version":"2020.01.08",
+ "raw_meta_yaml":"{% set version = \"0.9.0\" %}\n\npackage:\n  name: signac-flow\n  version: {{ version }}\n\nsource:\n  url: https://github.com/glotzerlab/signac-flow/archive/v{{ version }}.tar.gz\n  sha256: 32aa14689cd4907edf9be0b79b50cc66c639082ea2916a6a81357635baca15e4\n\nbuild:\n  noarch: python\n  number: 0\n  script: \"{{ PYTHON }} -m pip install --no-deps --ignore-installed .\"\n  entry_points:\n    - flow = flow.__main__:main\n\nrequirements:\n  host:\n    - python >=3.5\n    - pip\n  run:\n    - cloudpickle\n    - deprecation >=2\n    - jinja2 >=2.8\n    - python >=3.5\n    - signac >=1.0.0\n\ntest:\n  imports:\n    - flow\n\nabout:\n  home: https://signac.io\n  license: BSD 3-Clause\n  license_family: BSD\n  license_file: LICENSE.txt\n  summary: 'Workflow management for signac projects.'\n  description: |\n    The signac-flow tool provides the basic components to setup simple to\n    complex workflows for signac projects. That includes the definition of\n    data pipelines, execution of data space operations and the submission\n    of operations to high-performance super computers.\n  doc_url: https://docs.signac.io\n  dev_url: https://github.com/glotzerlab/signac-flow\n\nextra:\n  recipe-maintainers:\n    - bdice\n    - csadorf\n    - mikemhenry\n    - vyasr\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "cloudpickle",
+   "deprecation",
+   "jinja2",
+   "pip",
+   "python",
+   "signac"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "cloudpickle",
+    "deprecation",
+    "jinja2",
+    "python",
+    "signac"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.6.5",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3.5"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "cloudpickle",
+    "deprecation >=2",
+    "jinja2 >=2.8",
+    "python >=3.5",
+    "signac >=1.0.0"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://github.com/glotzerlab/signac-flow/archive/v0.8.0.tar.gz",
+ "version":"0.9.0"
+}

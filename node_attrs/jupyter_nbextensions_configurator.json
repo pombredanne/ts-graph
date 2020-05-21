@@ -1,0 +1,273 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/201502627.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Noarch",
+    "migrator_version":0
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/221149993.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/241488368.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.4.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/337025794.json"
+   },
+   "data":{
+    "bot_rerun":1579272527.9616141,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"python38"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/337420996.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"python38"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "compiler_stack":"comp7",
+  "max_py_ver":"37",
+  "max_r_ver":"35",
+  "provider":{
+   "win":"azure"
+  }
+ },
+ "feedstock_name":"jupyter_nbextensions_configurator",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"https://github.com/jupyter-contrib/jupyter_nbextensions_configurator",
+   "license":"BSD-3-Clause",
+   "license_file":"LICENSE.txt",
+   "summary":"A server extension for jupyter notebook providing configuration interfaces for notebook extensions (nbextensions)."
+  },
+  "build":{
+   "entry_points":[
+    "jupyter-nbextensions_configurator = jupyter_nbextensions_configurator.application:main",
+    "jupyter-nbextensions_configurator = jupyter_nbextensions_configurator.application:main",
+    "jupyter-nbextensions_configurator = jupyter_nbextensions_configurator.application:main"
+   ],
+   "number":"0",
+   "script":" -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "jcb91",
+    "jcb91",
+    "jcb91"
+   ]
+  },
+  "package":{
+   "name":"jupyter_nbextensions_configurator",
+   "version":"0.4.1"
+  },
+  "requirements":{
+   "host":[
+    "python",
+    "pip",
+    "python",
+    "pip",
+    "python",
+    "pip"
+   ],
+   "run":[
+    "python",
+    "jupyter_contrib_core >=0.3.2",
+    "jupyter_core",
+    "nbconvert",
+    "notebook >=4.0",
+    "pyyaml",
+    "tornado",
+    "traitlets",
+    "python",
+    "jupyter_contrib_core >=0.3.2",
+    "jupyter_core",
+    "nbconvert",
+    "notebook >=4.0",
+    "pyyaml",
+    "tornado",
+    "traitlets",
+    "python",
+    "jupyter_contrib_core >=0.3.2",
+    "jupyter_core",
+    "nbconvert",
+    "notebook >=4.0",
+    "pyyaml",
+    "tornado",
+    "traitlets"
+   ]
+  },
+  "source":{
+   "sha256":"e5e86b5d9d898e1ffb30ebb08e4ad8696999f798fef3ff3262d7b999076e4e83",
+   "url":"https://pypi.io/packages/source/j/jupyter_nbextensions_configurator/jupyter_nbextensions_configurator-0.4.1.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "jupyter nbextensions_configurator --help",
+    "jupyter nbextensions_configurator enable --help",
+    "jupyter nbextensions_configurator disable --help",
+    "jupyter nbextensions_configurator --help",
+    "jupyter nbextensions_configurator enable --help",
+    "jupyter nbextensions_configurator disable --help",
+    "jupyter nbextensions_configurator --help",
+    "jupyter nbextensions_configurator enable --help",
+    "jupyter nbextensions_configurator disable --help"
+   ],
+   "imports":[
+    "jupyter_nbextensions_configurator",
+    "jupyter_nbextensions_configurator.application",
+    "jupyter_nbextensions_configurator",
+    "jupyter_nbextensions_configurator.application",
+    "jupyter_nbextensions_configurator",
+    "jupyter_nbextensions_configurator.application"
+   ]
+  }
+ },
+ "name":"jupyter_nbextensions_configurator",
+ "new_version":"0.4.1",
+ "pinning_version":"2019.11.01",
+ "raw_meta_yaml":"{% set version = '0.4.1' %}\n\npackage:\n  name: jupyter_nbextensions_configurator\n  version: {{ version }}\n\nsource:\n    url: https://pypi.io/packages/source/j/jupyter_nbextensions_configurator/jupyter_nbextensions_configurator-{{ version }}.tar.gz\n    sha256: e5e86b5d9d898e1ffb30ebb08e4ad8696999f798fef3ff3262d7b999076e4e83\n\nbuild:\n  number: 0\n  script: \"{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv\"\n  entry_points:\n    - jupyter-nbextensions_configurator = jupyter_nbextensions_configurator.application:main\n\n\nrequirements:\n  host:\n    - python\n    - pip\n  run:\n    - python\n    - jupyter_contrib_core >=0.3.2\n    - jupyter_core\n    - nbconvert\n    - notebook >=4.0\n    - pyyaml\n    - tornado\n    - traitlets\n\ntest:\n  imports:\n    - jupyter_nbextensions_configurator\n    - jupyter_nbextensions_configurator.application\n\n  commands:\n    - jupyter nbextensions_configurator --help\n    - jupyter nbextensions_configurator enable --help\n    - jupyter nbextensions_configurator disable --help\n\nabout:\n  summary: A server extension for jupyter notebook providing configuration interfaces for notebook extensions (nbextensions).\n  home: https://github.com/jupyter-contrib/jupyter_nbextensions_configurator\n  license_file: LICENSE.txt\n  license: BSD-3-Clause\n\nextra:\n  recipe-maintainers:\n    - jcb91\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "jupyter_contrib_core",
+   "jupyter_core",
+   "nbconvert",
+   "notebook",
+   "pip",
+   "python",
+   "pyyaml",
+   "tornado",
+   "traitlets"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "jupyter_contrib_core",
+    "jupyter_core",
+    "nbconvert",
+    "notebook",
+    "python",
+    "pyyaml",
+    "tornado",
+    "traitlets"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.6.1",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "jupyter_contrib_core >=0.3.2",
+    "jupyter_core",
+    "nbconvert",
+    "notebook >=4.0",
+    "python",
+    "pyyaml",
+    "tornado",
+    "traitlets"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/j/jupyter_nbextensions_configurator/jupyter_nbextensions_configurator-0.4.1.tar.gz",
+ "version":"0.4.1"
+}

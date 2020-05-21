@@ -1,0 +1,319 @@
+{
+ "PRed":[
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.4.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/203027184.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.5"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/228149108.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/240289563.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.6"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/283343240.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.7"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/347187674.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.8"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "compiler_stack":"comp7",
+  "max_py_ver":"37",
+  "max_r_ver":"35",
+  "provider":{
+   "win":"azure"
+  }
+ },
+ "feedstock_name":"pymc3",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"http://github.com/pymc-devs/pymc3",
+   "license":"Apache-2.0",
+   "license_family":"Apache",
+   "license_file":"LICENSE",
+   "summary":"Probabilistic Programming in Python"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . --no-deps -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "ericmjl",
+    "springcoil",
+    "twiecki",
+    "ericmjl",
+    "springcoil",
+    "twiecki",
+    "ericmjl",
+    "springcoil",
+    "twiecki"
+   ]
+  },
+  "package":{
+   "name":"pymc3",
+   "version":"3.8"
+  },
+  "requirements":{
+   "host":[
+    "python >=3.5",
+    "pip",
+    "python >=3.5",
+    "pip",
+    "python >=3.5",
+    "pip"
+   ],
+   "run":[
+    "python >=3.5",
+    "theano >=1.0.4",
+    "numpy >=1.13.0",
+    "scipy >=0.18.1",
+    "arviz >=0.4.1",
+    "pandas >=0.18.0",
+    "patsy >=0.4.0",
+    "tqdm >=4.8.4",
+    "h5py >=2.7.0",
+    "python >=3.5",
+    "theano >=1.0.4",
+    "numpy >=1.13.0",
+    "scipy >=0.18.1",
+    "arviz >=0.4.1",
+    "pandas >=0.18.0",
+    "patsy >=0.4.0",
+    "tqdm >=4.8.4",
+    "h5py >=2.7.0",
+    "python >=3.5",
+    "theano >=1.0.4",
+    "numpy >=1.13.0",
+    "scipy >=0.18.1",
+    "arviz >=0.4.1",
+    "pandas >=0.18.0",
+    "patsy >=0.4.0",
+    "tqdm >=4.8.4",
+    "h5py >=2.7.0"
+   ]
+  },
+  "source":{
+   "sha256":"1bb2915e4a29877c681ead13932b0b7d276f7f496e9c3f09ba96b977c99caf00",
+   "url":"https://pypi.io/packages/source/p/pymc3/pymc3-3.8.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "pymc3",
+    "pymc3.backends",
+    "pymc3.distributions",
+    "pymc3.examples",
+    "pymc3.glm",
+    "pymc3.gp",
+    "pymc3.step_methods",
+    "pymc3.tests",
+    "pymc3.tuning",
+    "pymc3.variational",
+    "pymc3.ode",
+    "pymc3",
+    "pymc3.backends",
+    "pymc3.distributions",
+    "pymc3.examples",
+    "pymc3.glm",
+    "pymc3.gp",
+    "pymc3.step_methods",
+    "pymc3.tests",
+    "pymc3.tuning",
+    "pymc3.variational",
+    "pymc3.ode",
+    "pymc3",
+    "pymc3.backends",
+    "pymc3.distributions",
+    "pymc3.examples",
+    "pymc3.glm",
+    "pymc3.gp",
+    "pymc3.step_methods",
+    "pymc3.tests",
+    "pymc3.tuning",
+    "pymc3.variational",
+    "pymc3.ode"
+   ],
+   "requires":[
+    "pytest",
+    "pytest",
+    "pytest"
+   ]
+  }
+ },
+ "name":"pymc3",
+ "new_version":"3.8",
+ "pinning_version":"2019.11.26",
+ "raw_meta_yaml":"{% set version = \"3.8\" %}\n\npackage:\n  name: pymc3\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/p/pymc3/pymc3-{{ version }}.tar.gz\n  sha256: 1bb2915e4a29877c681ead13932b0b7d276f7f496e9c3f09ba96b977c99caf00\n\nbuild:\n  number: 0\n  noarch: python\n  script: \"{{ PYTHON }} -m pip install . --no-deps -vv\"\n\nrequirements:\n  host:\n    - python >=3.5\n    - pip\n  run:\n    - python >=3.5\n    - theano >=1.0.4\n    - numpy >=1.13.0\n    - scipy >=0.18.1\n    - arviz >=0.4.1\n    - pandas >=0.18.0\n    - patsy >=0.4.0\n    - tqdm >=4.8.4\n    - h5py >=2.7.0\n\ntest:\n  imports:\n    - pymc3\n    - pymc3.backends\n    - pymc3.distributions\n    - pymc3.examples\n    - pymc3.glm\n    - pymc3.gp\n    - pymc3.step_methods\n    - pymc3.tests\n    - pymc3.tuning\n    - pymc3.variational\n    - pymc3.ode\n\n  requires:\n    - pytest\n\nabout:\n  home: http://github.com/pymc-devs/pymc3\n  license: Apache-2.0\n  license_file: LICENSE\n  license_family: Apache\n  summary: 'Probabilistic Programming in Python'\n\nextra:\n  recipe-maintainers:\n    - ericmjl\n    - springcoil\n    - twiecki\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "arviz",
+   "h5py",
+   "numpy",
+   "pandas",
+   "patsy",
+   "pip",
+   "python",
+   "scipy",
+   "theano",
+   "tqdm"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "arviz",
+    "h5py",
+    "numpy",
+    "pandas",
+    "patsy",
+    "python",
+    "scipy",
+    "theano",
+    "tqdm"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "pytest"
+   ]
+  }
+ },
+ "smithy_version":"3.6.3",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3.5"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "arviz >=0.4.1",
+    "h5py >=2.7.0",
+    "numpy >=1.13.0",
+    "pandas >=0.18.0",
+    "patsy >=0.4.0",
+    "python >=3.5",
+    "scipy >=0.18.1",
+    "theano >=1.0.4",
+    "tqdm >=4.8.4"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "pytest"
+   ]
+  }
+ },
+ "url":"https://pypi.io/packages/source/p/pymc3/pymc3-3.7.tar.gz",
+ "version":"3.8"
+}

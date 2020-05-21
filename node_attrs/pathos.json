@@ -1,0 +1,204 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/200284292.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Noarch",
+    "migrator_version":0
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/292572997.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.2.4"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/322434350.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.2.5"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"pathos",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"http://trac.mystic.cacr.caltech.edu/project/pathos/wiki.html",
+   "license":"BSD 3-Clause",
+   "license_file":"LICENSE",
+   "summary":"parallel graph management and execution in heterogeneous computing"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . --no-deps --ignore-installed -vv "
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "jschueller",
+    "mariusvniekerk",
+    "jschueller",
+    "mariusvniekerk",
+    "jschueller",
+    "mariusvniekerk"
+   ]
+  },
+  "package":{
+   "name":"pathos",
+   "version":"0.2.5"
+  },
+  "requirements":{
+   "host":[
+    "pip",
+    "python",
+    "pip",
+    "python",
+    "pip",
+    "python"
+   ],
+   "run":[
+    "dill >=0.2.9",
+    "multiprocess >=0.70.7",
+    "pox >=0.2.5",
+    "ppft >=1.6.4.9",
+    "python",
+    "dill >=0.2.9",
+    "multiprocess >=0.70.7",
+    "pox >=0.2.5",
+    "ppft >=1.6.4.9",
+    "python",
+    "dill >=0.2.9",
+    "multiprocess >=0.70.7",
+    "pox >=0.2.5",
+    "ppft >=1.6.4.9",
+    "python"
+   ]
+  },
+  "source":{
+   "sha256":"21ae2cb1d5a76dcf57d5fe93ae8719c7339f467e246163650c08ccf35b87c846",
+   "url":"https://pypi.io/packages/source/p/pathos/pathos-0.2.5.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "pathos",
+    "pathos.helpers",
+    "pathos.secure",
+    "pathos.xmlrpc",
+    "pathos",
+    "pathos.helpers",
+    "pathos.secure",
+    "pathos.xmlrpc",
+    "pathos",
+    "pathos.helpers",
+    "pathos.secure",
+    "pathos.xmlrpc"
+   ]
+  }
+ },
+ "name":"pathos",
+ "new_version":"0.2.5",
+ "pinning_version":"2019.09.27",
+ "raw_meta_yaml":"{% set name = \"pathos\" %}\n{% set version = \"0.2.5\" %}\n\npackage:\n  name: \"{{ name|lower }}\"\n  version: \"{{ version }}\"\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: 21ae2cb1d5a76dcf57d5fe93ae8719c7339f467e246163650c08ccf35b87c846\n\nbuild:\n  noarch: python\n  number: 0\n  script: \"{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv \"\n\nrequirements:\n  host:\n    - pip\n    - python\n  run:\n    - dill >=0.2.9\n    - multiprocess >=0.70.7\n    - pox >=0.2.5\n    - ppft >=1.6.4.9\n    - python\n\ntest:\n  imports:\n    - pathos\n    - pathos.helpers\n    - pathos.secure\n    - pathos.xmlrpc\n\nabout:\n  home: http://trac.mystic.cacr.caltech.edu/project/pathos/wiki.html\n  license: BSD 3-Clause\n  license_file: LICENSE\n  summary: parallel graph management and execution in heterogeneous computing\n\nextra:\n  recipe-maintainers:\n    - jschueller\n    - mariusvniekerk\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "dill",
+   "multiprocess",
+   "pip",
+   "pox",
+   "ppft",
+   "python"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "dill",
+    "multiprocess",
+    "pox",
+    "ppft",
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.4.8",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "dill >=0.2.9",
+    "multiprocess >=0.70.7",
+    "pox >=0.2.5",
+    "ppft >=1.6.4.9",
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/p/pathos/pathos-0.2.4.tar.gz",
+ "version":"0.2.5"
+}

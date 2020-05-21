@@ -1,0 +1,222 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/260866214.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.3.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/283745834.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/315124010.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.3.3"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/339983700.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.4.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"tranquilizer",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"http://github.com/AlbertDeFusco/tranquilizer",
+   "license":"BSD-3-Clause",
+   "license_family":"BSD",
+   "license_file":"LICENSE",
+   "summary":"Put your Python functions to REST; deploy a REST API with one line by decorating your functions."
+  },
+  "build":{
+   "entry_points":[
+    "tranquilizer = tranquilizer.main:run",
+    "tranquilizer = tranquilizer.main:run",
+    "tranquilizer = tranquilizer.main:run"
+   ],
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . --no-deps -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "AlbertDeFusco",
+    "AlbertDeFusco",
+    "AlbertDeFusco"
+   ]
+  },
+  "package":{
+   "name":"tranquilizer",
+   "version":"0.4.1"
+  },
+  "requirements":{
+   "host":[
+    "python >=3.5, <3.8",
+    "pip",
+    "python >=3.5, <3.8",
+    "pip",
+    "python >=3.5, <3.8",
+    "pip"
+   ],
+   "run":[
+    "python >=3.5, <3.8",
+    "flask",
+    "werkzeug >=0.15",
+    "flask-restplus",
+    "python-dateutil",
+    "python >=3.5, <3.8",
+    "flask",
+    "werkzeug >=0.15",
+    "flask-restplus",
+    "python-dateutil",
+    "python >=3.5, <3.8",
+    "flask",
+    "werkzeug >=0.15",
+    "flask-restplus",
+    "python-dateutil"
+   ]
+  },
+  "source":{
+   "sha256":"0d91858f2b6d1c70724347fa417c72547c07493ff674f9daef79cdebf202031b",
+   "url":"https://pypi.io/packages/source/t/tranquilizer/tranquilizer-0.4.1.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "tranquilizer --help",
+    "tranquilizer --help",
+    "tranquilizer --help"
+   ],
+   "imports":[
+    "tranquilizer",
+    "tranquilizer",
+    "tranquilizer"
+   ]
+  }
+ },
+ "name":"tranquilizer",
+ "new_version":"0.4.1",
+ "pinning_version":"2019.11.01",
+ "raw_meta_yaml":"{% set name = \"tranquilizer\" %}\n{% set version = \"0.4.1\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/t/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: 0d91858f2b6d1c70724347fa417c72547c07493ff674f9daef79cdebf202031b\n\nbuild:\n  number: 0\n  noarch: python\n  script: \"{{ PYTHON }} -m pip install . --no-deps -vv\"\n  entry_points:\n    - tranquilizer = tranquilizer.main:run\n\nrequirements:\n  host:\n    - python >=3.5, <3.8\n    - pip\n  run:\n    - python >=3.5, <3.8\n    - flask\n    - werkzeug >=0.15\n    - flask-restplus\n    - python-dateutil\n\ntest:\n  imports:\n    - tranquilizer\n  commands:\n    - tranquilizer --help\n\nabout:\n  home: http://github.com/AlbertDeFusco/tranquilizer\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: LICENSE\n  summary: 'Put your Python functions to REST; deploy a REST API with one line by decorating your functions.'\n\nextra:\n  recipe-maintainers:\n    - AlbertDeFusco\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "flask",
+   "flask-restplus",
+   "pip",
+   "python",
+   "python-dateutil",
+   "werkzeug"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "flask",
+    "flask-restplus",
+    "python",
+    "python-dateutil",
+    "werkzeug"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.6.2",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3.5, <3.8"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "flask",
+    "flask-restplus",
+    "python >=3.5, <3.8",
+    "python-dateutil",
+    "werkzeug >=0.15"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://github.com/albertdefusco/tranquilizer/archive/0.3.2.tar.gz",
+ "version":"0.4.1"
+}

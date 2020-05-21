@@ -1,0 +1,250 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/327473366.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.8.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/374971069.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MatplotlibBase",
+    "migrator_version":0,
+    "name":"matplotlib-to-matplotlib-base"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"pyaerocom",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "dev_url":"https://github.com/metno/pyaerocom",
+   "doc_url":"https://pyaerocom.met.no/",
+   "home":"https://github.com/metno/pyaerocom.git",
+   "license":"GPL-3.0",
+   "license_family":"GPL",
+   "license_file":"LICENSE",
+   "summary":"Python tools for the AeroCom project"
+  },
+  "build":{
+   "entry_points":[
+    "pyaeroeval=pyaerocom.web.cli.main_aerocom_evaluation:main",
+    "pyaerotrends=pyaerocom.web.cli.main_trends_evaluation:main",
+    "pyaeroeval=pyaerocom.web.cli.main_aerocom_evaluation:main",
+    "pyaerotrends=pyaerocom.web.cli.main_trends_evaluation:main",
+    "pyaeroeval=pyaerocom.web.cli.main_aerocom_evaluation:main",
+    "pyaerotrends=pyaerocom.web.cli.main_trends_evaluation:main"
+   ],
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . --no-deps -vv "
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "jgliss",
+    "jgliss",
+    "jgliss"
+   ]
+  },
+  "package":{
+   "name":"pyaerocom",
+   "version":"0.8.0"
+  },
+  "requirements":{
+   "host":[
+    "pip",
+    "python >=3.5",
+    "pip",
+    "python >=3.5",
+    "pip",
+    "python >=3.5"
+   ],
+   "run":[
+    "python >=3.5",
+    "iris >=2.1.0",
+    "xarray >=0.10.8",
+    "cartopy >=0.16.0",
+    "matplotlib !=3.1.1",
+    "scipy >=1.3.1",
+    "pandas >=0.23.0",
+    "seaborn >=0.8.0",
+    "netcdf4",
+    "geonum",
+    "cf_units",
+    "numpy",
+    "simplejson",
+    "python >=3.5",
+    "iris >=2.1.0",
+    "xarray >=0.10.8",
+    "cartopy >=0.16.0",
+    "matplotlib !=3.1.1",
+    "scipy >=1.3.1",
+    "pandas >=0.23.0",
+    "seaborn >=0.8.0",
+    "netcdf4",
+    "geonum",
+    "cf_units",
+    "numpy",
+    "simplejson",
+    "python >=3.5",
+    "iris >=2.1.0",
+    "xarray >=0.10.8",
+    "cartopy >=0.16.0",
+    "matplotlib !=3.1.1",
+    "scipy >=1.3.1",
+    "pandas >=0.23.0",
+    "seaborn >=0.8.0",
+    "netcdf4",
+    "geonum",
+    "cf_units",
+    "numpy",
+    "simplejson"
+   ]
+  },
+  "source":{
+   "sha256":"694ef61878d600e4a05e66d13e4d1493e5156012376b6dac780c72781e47a873",
+   "url":"https://pypi.io/packages/source/p/pyaerocom/pyaerocom-0.8.0.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "py.test --pyargs pyaerocom",
+    "py.test --pyargs pyaerocom",
+    "py.test --pyargs pyaerocom"
+   ],
+   "imports":[
+    "pyaerocom",
+    "pyaerocom",
+    "pyaerocom"
+   ],
+   "requires":[
+    "pytest",
+    "pytest",
+    "pytest"
+   ]
+  }
+ },
+ "name":"pyaerocom",
+ "new_version":"0.8.0",
+ "pinning_version":"2020.02.12",
+ "raw_meta_yaml":"{% set name = \"pyaerocom\" %}\n{% set version = \"0.8.0\" %}\n\npackage:\n  name: \"{{ name|lower }}\"\n  version: \"{{ version }}\"\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: 694ef61878d600e4a05e66d13e4d1493e5156012376b6dac780c72781e47a873\n\nbuild:\n  number: 0\n  entry_points:\n    - pyaeroeval=pyaerocom.web.cli.main_aerocom_evaluation:main\n    - pyaerotrends=pyaerocom.web.cli.main_trends_evaluation:main\n  noarch: python\n  script: \"{{ PYTHON }} -m pip install . --no-deps -vv \"\n\nrequirements:\n  host:\n    - pip\n    - python >=3.5\n  run:\n    - python >=3.5\n    - iris >=2.1.0\n    - xarray >=0.10.8\n    - cartopy >=0.16.0\n    - matplotlib !=3.1.1\n    - scipy >=1.3.1\n    - pandas >=0.23.0\n    - seaborn >=0.8.0\n    - netcdf4\n    - geonum\n    - cf_units\n    - numpy\n    - simplejson\n\ntest:\n  imports:\n    - pyaerocom\n  requires:\n    - pytest\n  commands:\n    - py.test --pyargs pyaerocom\n\nabout:\n  home: https://github.com/metno/pyaerocom.git\n  license: GPL-3.0\n  license_family: GPL\n  license_file: LICENSE\n  summary: Python tools for the AeroCom project\n  doc_url: https://pyaerocom.met.no/\n  dev_url: https://github.com/metno/pyaerocom\n\nextra:\n  recipe-maintainers:\n    - jgliss\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "cartopy",
+   "cf_units",
+   "geonum",
+   "iris",
+   "matplotlib",
+   "netcdf4",
+   "numpy",
+   "pandas",
+   "pip",
+   "python",
+   "scipy",
+   "seaborn",
+   "simplejson",
+   "xarray"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "cartopy",
+    "cf_units",
+    "geonum",
+    "iris",
+    "matplotlib",
+    "netcdf4",
+    "numpy",
+    "pandas",
+    "python",
+    "scipy",
+    "seaborn",
+    "simplejson",
+    "xarray"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "pytest"
+   ]
+  }
+ },
+ "smithy_version":"3.6.8",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3.5"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "cartopy >=0.16.0",
+    "cf_units",
+    "geonum",
+    "iris >=2.1.0",
+    "matplotlib !=3.1.1",
+    "netcdf4",
+    "numpy",
+    "pandas >=0.23.0",
+    "python >=3.5",
+    "scipy >=1.3.1",
+    "seaborn >=0.8.0",
+    "simplejson",
+    "xarray >=0.10.8"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "pytest"
+   ]
+  }
+ },
+ "url":"https://pypi.io/packages/source/p/pyaerocom/pyaerocom-0.8.0rc2.tar.gz",
+ "version":"0.8.0"
+}

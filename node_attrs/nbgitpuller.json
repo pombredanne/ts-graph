@@ -1,0 +1,210 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/303075589.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.7.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/312499857.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.7.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/316638788.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.7.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/344861736.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.8.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"nbgitpuller",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"https://github.com/data-8/nbgitpuller",
+   "license":"BSD-3-Clause",
+   "license_family":"BSD",
+   "license_file":"LICENSE",
+   "summary":"Notebook Extension to do one-way synchronization of git repositories"
+  },
+  "build":{
+   "entry_points":[
+    "gitpuller = nbgitpuller.pull:main",
+    "gitpuller = nbgitpuller.pull:main",
+    "gitpuller = nbgitpuller.pull:main"
+   ],
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . --no-deps -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "ocefpaf",
+    "ocefpaf",
+    "ocefpaf"
+   ]
+  },
+  "package":{
+   "name":"nbgitpuller",
+   "version":"0.8.0"
+  },
+  "requirements":{
+   "host":[
+    "python >=3",
+    "pip",
+    "python >=3",
+    "pip",
+    "python >=3",
+    "pip"
+   ],
+   "run":[
+    "python >=3",
+    "notebook >=5.5.0",
+    "tornado",
+    "python >=3",
+    "notebook >=5.5.0",
+    "tornado",
+    "python >=3",
+    "notebook >=5.5.0",
+    "tornado"
+   ]
+  },
+  "source":{
+   "sha256":"4eb1b64da816804bb6253afceb2bf0dc4630ba7706a081e0832ae30eb62ff406",
+   "url":"https://pypi.io/packages/source/n/nbgitpuller/nbgitpuller-0.8.0.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "gitpuller --help",
+    "gitpuller --help",
+    "gitpuller --help"
+   ],
+   "imports":[
+    "nbgitpuller",
+    "nbgitpuller",
+    "nbgitpuller"
+   ]
+  }
+ },
+ "name":"nbgitpuller",
+ "new_version":"0.8.0",
+ "pinning_version":"2019.11.20",
+ "raw_meta_yaml":"{% set version = \"0.8.0\" %}\n\npackage:\n  name: nbgitpuller\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/n/nbgitpuller/nbgitpuller-{{ version }}.tar.gz\n  sha256: 4eb1b64da816804bb6253afceb2bf0dc4630ba7706a081e0832ae30eb62ff406\n\nbuild:\n  number: 0\n  noarch: python\n  script: \"{{ PYTHON }} -m pip install . --no-deps -vv\"\n  entry_points:\n    - gitpuller = nbgitpuller.pull:main\n\nrequirements:\n  host:\n    - python >=3\n    - pip\n  run:\n    - python >=3\n    - notebook >=5.5.0\n    - tornado\n\ntest:\n  imports:\n    - nbgitpuller\n  commands:\n    - gitpuller --help\n\nabout:\n  home: https://github.com/data-8/nbgitpuller\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: LICENSE\n  summary: \"Notebook Extension to do one-way synchronization of git repositories\"\n\nextra:\n  recipe-maintainers:\n    - ocefpaf\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "notebook",
+   "pip",
+   "python",
+   "tornado"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "notebook",
+    "python",
+    "tornado"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.6.2",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "notebook >=5.5.0",
+    "python >=3",
+    "tornado"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/n/nbgitpuller/nbgitpuller-0.7.1.tar.gz",
+ "version":"0.8.0"
+}

@@ -1,0 +1,6 @@
+{
+ "bad":"Upstream: Error getting upstream version",
+ "feedstock_name":"qnotifications",
+ "new_version":false,
+ "raw_meta_yaml":"{% set name = \"qnotifications\" %}\n{% set pypiname = \"python-\" + name %}\n{% set version = \"2.0.3\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version}}\n\nsource:\n  url: \"https://pypi.io/packages/source/{{ pypiname[0] }}/{{ pypiname }}/{{ pypiname }}-{{ version }}.tar.gz\"\n  sha256: \"506341143f0bd576db84e3f2680639a33953bfb06e2068b96d7f7612b9768aca\"\n\nbuild:\n  noarch: python\n  script: \"{{ PYTHON }} -m pip install . --no-deps -vv\"\n  number: 1\n\nrequirements:\n  host:\n    - pyqt\n    - qtpy\n    - pip\n    - python\n\n  run:\n    - python\n    - qtpy\n    - pyqt\n\ntest:\n  imports:\n    - QNotifications\n\nabout:\n  home: https://github.com/dschreij/QNotifications\n  license: GPLv3\n  license_family: GPL\n  license_file: LICENSE\n  summary: 'Web-style in-app notifications for PyQt4/5'\n\nextra:\n  recipe-maintainers:\n    - dschreij\n    - smathot\n"
+}

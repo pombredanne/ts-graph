@@ -1,0 +1,241 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/238168215.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.0.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/238168482.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/352570538.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.1.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/353852204.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"python38"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "compiler_stack":"comp7",
+  "max_py_ver":"37",
+  "max_r_ver":"35"
+ },
+ "feedstock_name":"motor",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "dev_url":"https://github.com/mongodb/motor",
+   "doc_url":"https://motor.readthedocs.io",
+   "home":"https://github.com/mongodb/motor/",
+   "license":"Apache-2.0",
+   "license_family":"Apache",
+   "license_file":"LICENSE",
+   "summary":"Non-blocking MongoDB driver for Tornado or asyncio"
+  },
+  "build":{
+   "number":"1001",
+   "script":" -m pip install . --no-deps --ignore-installed -vvv ",
+   "skip":true
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "hodgsonw",
+    "hodgsonw",
+    "hodgsonw"
+   ]
+  },
+  "package":{
+   "name":"motor",
+   "version":"2.0.0"
+  },
+  "requirements":{
+   "host":[
+    "pip",
+    "aiohttp",
+    "tornado >=4.0",
+    "pymongo >=3.7",
+    "python =2.7|>=3.5.2",
+    "pip",
+    "aiohttp",
+    "tornado >=4.0",
+    "pymongo >=3.7",
+    "python =2.7|>=3.5.2",
+    "pip",
+    "aiohttp",
+    "tornado >=4.0",
+    "pymongo >=3.7",
+    "python =2.7|>=3.5.2"
+   ],
+   "run":[
+    "pymongo >=3.7",
+    "aiohttp",
+    "tornado >=4.0",
+    "python =2.7|>=3.5.2",
+    "pymongo >=3.7",
+    "aiohttp",
+    "tornado >=4.0",
+    "python =2.7|>=3.5.2",
+    "pymongo >=3.7",
+    "aiohttp",
+    "tornado >=4.0",
+    "python =2.7|>=3.5.2"
+   ]
+  },
+  "source":{
+   "sha256":"d035c09ab422bc50bf3efb134f7405694cae76268545bd21e14fb22e2638f84e",
+   "url":"https://pypi.io/packages/source/m/motor/motor-2.0.0.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "motor",
+    "motor.aiohttp",
+    "motor.frameworks",
+    "motor.frameworks.asyncio",
+    "motor.frameworks.tornado",
+    "motor",
+    "motor.aiohttp",
+    "motor.frameworks",
+    "motor.frameworks.asyncio",
+    "motor.frameworks.tornado",
+    "motor",
+    "motor.aiohttp",
+    "motor.frameworks",
+    "motor.frameworks.asyncio",
+    "motor.frameworks.tornado"
+   ]
+  }
+ },
+ "name":"motor",
+ "new_version":"2.1.0",
+ "pinning_version":"2019.12.02",
+ "raw_meta_yaml":"{% set name = \"motor\" %}\n{% set version = \"2.0.0\" %}\n{% set sha256 = \"d035c09ab422bc50bf3efb134f7405694cae76268545bd21e14fb22e2638f84e\" %}\n\npackage:\n  name: \"{{ name|lower }}\"\n  version: \"{{ version }}\"\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: \"{{ sha256 }}\"\n\nbuild:\n  number: 1001\n  skip: True  # [win]\n  script: \"{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vvv \"\n\nrequirements:\n  host:\n    - pip\n    - aiohttp\n    - tornado >=4.0\n    - pymongo >=3.7\n    - python =2.7|>=3.5.2\n  run:\n    - pymongo >=3.7\n    - aiohttp\n    - tornado >=4.0\n    - python =2.7|>=3.5.2\n\ntest:\n  imports:\n    - motor\n    - motor.aiohttp\n    - motor.frameworks\n    - motor.frameworks.asyncio\n    - motor.frameworks.tornado\n\nabout:\n  home: https://github.com/mongodb/motor/\n  license: Apache-2.0\n  license_family: Apache\n  license_file: LICENSE\n  summary: Non-blocking MongoDB driver for Tornado or asyncio\n  doc_url: https://motor.readthedocs.io\n  dev_url: https://github.com/mongodb/motor\n\nextra:\n  recipe-maintainers:\n    - hodgsonw\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "aiohttp",
+   "pip",
+   "pymongo",
+   "python",
+   "tornado"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "aiohttp",
+    "pip",
+    "pymongo",
+    "python",
+    "tornado"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "aiohttp",
+    "pymongo",
+    "python",
+    "tornado"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.6.5",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "aiohttp",
+    "pip",
+    "pymongo >=3.7",
+    "python =2.7|>=3.5.2",
+    "tornado >=4.0"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "aiohttp",
+    "pymongo >=3.7",
+    "python =2.7|>=3.5.2",
+    "tornado >=4.0"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/m/motor/motor-2.0.0.tar.gz",
+ "version":"2.0.0"
+}

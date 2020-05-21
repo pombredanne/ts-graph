@@ -1,0 +1,404 @@
+{
+ "PRed":[
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.5.post1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/211584034.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.6.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/234045861.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.6.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/241242598.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/284417934.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.7"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/284446392.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.7.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/287513772.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.7.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/347958253.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.7.3"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/394791323.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.7.6"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "provider":{
+   "win":"azure"
+  }
+ },
+ "feedstock_name":"espei",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"ESPEI, or Extensible Self-optimizing Phase Equilibria Infrastructure,\nis a tool for automated thermodynamic database development within the\nCALPHAD method.\n",
+   "dev_url":"https://github.com/PhasesResearchLab/espei",
+   "doc_url":"http://espei.org",
+   "home":"http://espei.org",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"LICENSE",
+   "summary":"Fitting thermodynamic models with pycalphad."
+  },
+  "build":{
+   "entry_points":[
+    "espei = espei.espei_script:main",
+    "espei = espei.espei_script:main",
+    "espei = espei.espei_script:main"
+   ],
+   "noarch":"python",
+   "number":"0"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "bocklund",
+    "richardotis",
+    "bocklund",
+    "richardotis",
+    "bocklund",
+    "richardotis"
+   ]
+  },
+  "package":{
+   "name":"espei",
+   "version":"0.7.7"
+  },
+  "requirements":{
+   "build":[
+    "python",
+    "setuptools",
+    "python",
+    "setuptools",
+    "python",
+    "setuptools"
+   ],
+   "run":[
+    "python >=3.6",
+    "numpy",
+    "scipy",
+    "sympy >=1.3",
+    "ipopt <3.13",
+    "dask >=2",
+    "distributed >=2",
+    "tinydb >=3.8",
+    "scikit-learn",
+    "emcee <3",
+    "pycalphad >=0.8.2",
+    "pyyaml",
+    "cerberus",
+    "bibtexparser",
+    "python >=3.6",
+    "numpy",
+    "scipy",
+    "sympy >=1.3",
+    "ipopt <3.13",
+    "dask >=2",
+    "distributed >=2",
+    "tinydb >=3.8",
+    "scikit-learn",
+    "emcee <3",
+    "pycalphad >=0.8.2",
+    "pyyaml",
+    "cerberus",
+    "bibtexparser",
+    "python >=3.6",
+    "numpy",
+    "scipy",
+    "sympy >=1.3",
+    "ipopt <3.13",
+    "dask >=2",
+    "distributed >=2",
+    "tinydb >=3.8",
+    "scikit-learn",
+    "emcee <3",
+    "pycalphad >=0.8.2",
+    "pyyaml",
+    "cerberus",
+    "bibtexparser"
+   ]
+  },
+  "source":{
+   "fn":"espei-0.7.7.tar.gz",
+   "sha256":"70526156aee964dd2ceaaac21a06ba6a0ba8ad8efe3ed3c36137a31ff3008eb8",
+   "url":"https://pypi.io/packages/source/e/espei/espei-0.7.7.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "espei -h",
+    "espei --version",
+    "espei -h",
+    "espei --version",
+    "espei -h",
+    "espei --version"
+   ],
+   "imports":[
+    "espei",
+    "espei.core_utils",
+    "espei.datasets",
+    "espei.espei_script",
+    "espei.mcmc",
+    "espei.optimizers",
+    "espei.paramselect",
+    "espei.plot",
+    "espei.refdata",
+    "espei.rstate",
+    "espei.utils",
+    "pycalphad",
+    "espei",
+    "espei.core_utils",
+    "espei.datasets",
+    "espei.espei_script",
+    "espei.mcmc",
+    "espei.optimizers",
+    "espei.paramselect",
+    "espei.plot",
+    "espei.refdata",
+    "espei.rstate",
+    "espei.utils",
+    "pycalphad",
+    "espei",
+    "espei.core_utils",
+    "espei.datasets",
+    "espei.espei_script",
+    "espei.mcmc",
+    "espei.optimizers",
+    "espei.paramselect",
+    "espei.plot",
+    "espei.refdata",
+    "espei.rstate",
+    "espei.utils",
+    "pycalphad"
+   ]
+  }
+ },
+ "name":"espei",
+ "new_version":"0.7.7",
+ "pinning_version":"2020.03.24",
+ "raw_meta_yaml":"{% set name = \"espei\" %}\n{% set version = \"0.7.7\" %}\n{% set sha256 = \"70526156aee964dd2ceaaac21a06ba6a0ba8ad8efe3ed3c36137a31ff3008eb8\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  fn: {{ name }}-{{ version }}.tar.gz\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 0\n  entry_points:\n    - espei = espei.espei_script:main\n\nrequirements:\n  build:\n    - python\n    - setuptools\n  run:\n    - python >=3.6\n    - numpy\n    - scipy\n    - sympy >=1.3\n    - ipopt <3.13\n    - dask >=2\n    - distributed >=2\n    - tinydb >=3.8\n    - scikit-learn\n    - emcee <3\n    - pycalphad >=0.8.2\n    - pyyaml\n    - cerberus\n    - bibtexparser\n\ntest:\n  imports:\n    - espei\n    - espei.core_utils\n    - espei.datasets\n    - espei.espei_script\n    - espei.mcmc\n    - espei.optimizers\n    - espei.paramselect\n    - espei.plot\n    - espei.refdata\n    - espei.rstate\n    - espei.utils\n    - pycalphad\n  commands:\n    - espei -h\n    - espei --version\n\nabout:\n  home: http://espei.org\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE\n  summary: Fitting thermodynamic models with pycalphad.\n  description: |\n    ESPEI, or Extensible Self-optimizing Phase Equilibria Infrastructure,\n    is a tool for automated thermodynamic database development within the\n    CALPHAD method.\n  doc_url: http://espei.org\n  dev_url: https://github.com/PhasesResearchLab/espei\n\nextra:\n  recipe-maintainers:\n    - bocklund\n    - richardotis\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "bibtexparser",
+   "cerberus",
+   "dask",
+   "distributed",
+   "emcee",
+   "ipopt",
+   "numpy",
+   "pycalphad",
+   "python",
+   "pyyaml",
+   "scikit-learn",
+   "scipy",
+   "setuptools",
+   "sympy",
+   "tinydb"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "python",
+    "setuptools"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "bibtexparser",
+    "cerberus",
+    "dask",
+    "distributed",
+    "emcee",
+    "ipopt",
+    "numpy",
+    "pycalphad",
+    "python",
+    "pyyaml",
+    "scikit-learn",
+    "scipy",
+    "sympy",
+    "tinydb"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.6.15",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "python",
+    "setuptools"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "bibtexparser",
+    "cerberus",
+    "dask >=2",
+    "distributed >=2",
+    "emcee <3",
+    "ipopt <3.13",
+    "numpy",
+    "pycalphad >=0.8.2",
+    "python >=3.6",
+    "pyyaml",
+    "scikit-learn",
+    "scipy",
+    "sympy >=1.3",
+    "tinydb >=3.8"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/e/espei/espei-0.7.2.tar.gz",
+ "version":"0.7.7"
+}

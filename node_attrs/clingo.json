@@ -1,0 +1,197 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/372414383.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"python38"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/391784272.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"pypy"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"clingo",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"Clingo is an answer set programming (ASP) system that takes a logic program as input and calculates its answer sets.",
+   "dev_url":"https://github.com/potassco/clingo",
+   "doc_url":"https://potassco.org/",
+   "home":"https://potassco.org/",
+   "license":"MIT",
+   "license_file":"LICENSE.md",
+   "summary":"A grounder and solver for logic programs."
+  },
+  "build":{
+   "number":"2",
+   "skip":true
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "rkaminsk",
+    "rkaminsk",
+    "rkaminsk"
+   ]
+  },
+  "package":{
+   "name":"clingo",
+   "version":"5.4.0"
+  },
+  "requirements":{
+   "build":[
+    "cmake",
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "make",
+    "cmake",
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "make",
+    "cmake",
+    "c_compiler_stub",
+    "cxx_compiler_stub"
+   ],
+   "host":[
+    "python",
+    "python",
+    "python"
+   ],
+   "run":[
+    "python",
+    "python",
+    "python"
+   ]
+  },
+  "source":{
+   "patches":[
+    "python38.patch",
+    "python38.patch",
+    "python38.patch"
+   ],
+   "sha256":"e2de331ee0a6d254193aab5995338a621372517adcf91568092be8ac511c18f3",
+   "url":"https://github.com/potassco/clingo/archive/v5.4.0.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "clingo --version",
+    "clasp --version",
+    "reify --version",
+    "lpconvert --version",
+    "gringo --version",
+    "clingo --version",
+    "clasp --version",
+    "reify --version",
+    "lpconvert --version",
+    "gringo --version",
+    "clingo --version",
+    "clasp --version",
+    "reify --version",
+    "lpconvert --version",
+    "gringo --version"
+   ]
+  }
+ },
+ "name":"clingo",
+ "new_version":"5.4.0",
+ "pinning_version":"2020.03.20",
+ "raw_meta_yaml":"{% set name = 'clingo' %}\n{% set version = \"5.4.0\" %}\n\npackage:\n  name: {{ name }}\n  version: {{ version }}\n\nsource:\n  url: https://github.com/potassco/clingo/archive/v{{ version }}.tar.gz\n  sha256: e2de331ee0a6d254193aab5995338a621372517adcf91568092be8ac511c18f3\n  patches:\n    - python38.patch\n\nbuild:\n  number: 2\n  skip: True  # [win and vc<14]\n\nrequirements:\n  build:\n    - make  # [unix]\n    - cmake\n    - {{ compiler('c') }}\n    - {{ compiler('cxx') }}\n  host:\n    - python\n  run:\n    - python\n\ntest:\n  commands:\n    - clingo --version\n    - clasp --version\n    - reify --version\n    - lpconvert --version\n    - gringo --version\n\nabout:\n  home:  https://potassco.org/\n  license: MIT\n  summary: A grounder and solver for logic programs.\n  description: Clingo is an answer set programming (ASP) system that takes a logic program as input and calculates its answer sets.\n  license_file: LICENSE.md\n  doc_url: https://potassco.org/\n  dev_url: https://github.com/potassco/{{ name }}\n\nextra:\n  recipe-maintainers:\n    - rkaminsk\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "c_compiler_stub",
+   "cmake",
+   "cxx_compiler_stub",
+   "make",
+   "python"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "cmake",
+    "cxx_compiler_stub",
+    "make"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.6.14",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "cmake",
+    "cxx_compiler_stub",
+    "make"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://github.com/potassco/clingo/archive/v5.4.0.tar.gz",
+ "version":"5.4.0"
+}

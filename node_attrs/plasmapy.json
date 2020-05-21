@@ -1,0 +1,297 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/339436077.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"python38"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/367234451.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.3.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/369918764.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.3.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/375120951.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MatplotlibBase",
+    "migrator_version":0,
+    "name":"matplotlib-to-matplotlib-base"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "provider":{
+   "win":"azure"
+  }
+ },
+ "feedstock_name":"plasmapy",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"PlasmaPy is a community-developed and community-driven Python package for plasma physics.",
+   "dev_url":"https://github.com/plasmapy/plasmapy",
+   "doc_url":"http://plasmapy.readthedocs.io/en/docs/",
+   "home":"https://github.com/PlasmaPy/PlasmaPy",
+   "license":"BSD-3-Clause",
+   "license_family":"BSD",
+   "license_file":"LICENSE.md",
+   "summary":"Python package for plasma physics"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"1",
+   "script":" -m pip install . --no-deps -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "SolarDrew",
+    "StanczakDominik",
+    "SolarDrew",
+    "StanczakDominik",
+    "SolarDrew",
+    "StanczakDominik"
+   ]
+  },
+  "package":{
+   "name":"plasmapy",
+   "version":"0.3.1"
+  },
+  "requirements":{
+   "host":[
+    "python >=3.6",
+    "pip",
+    "setuptools",
+    "setuptools_scm",
+    "numpy >=1.14",
+    "python >=3.6",
+    "pip",
+    "setuptools",
+    "setuptools_scm",
+    "numpy >=1.14",
+    "python >=3.6",
+    "pip",
+    "setuptools",
+    "setuptools_scm",
+    "numpy >=1.14"
+   ],
+   "run":[
+    "python >=3.6",
+    "numpy",
+    "scipy >=0.19",
+    "astropy >=3.1",
+    "colorama >=0.3",
+    "mpmath >=1.0",
+    "h5py >=2.8",
+    "lmfit >=0.9.7",
+    "matplotlib-base >=2.0",
+    "python >=3.6",
+    "numpy",
+    "scipy >=0.19",
+    "astropy >=3.1",
+    "colorama >=0.3",
+    "mpmath >=1.0",
+    "h5py >=2.8",
+    "lmfit >=0.9.7",
+    "matplotlib-base >=2.0",
+    "python >=3.6",
+    "numpy",
+    "scipy >=0.19",
+    "astropy >=3.1",
+    "colorama >=0.3",
+    "mpmath >=1.0",
+    "h5py >=2.8",
+    "lmfit >=0.9.7",
+    "matplotlib-base >=2.0"
+   ]
+  },
+  "source":{
+   "sha256":"d2af2dd4de77797c5d26e2ae2ca894619f18c117f61aba5ffcb8e3eaff319fed",
+   "url":"https://pypi.io/packages/source/p/plasmapy/plasmapy-0.3.1.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "pytest --pyargs plasmapy",
+    "pytest --pyargs plasmapy",
+    "pytest --pyargs plasmapy"
+   ],
+   "imports":[
+    "plasmapy",
+    "plasmapy.atomic",
+    "plasmapy.classes",
+    "plasmapy.formulary",
+    "plasmapy.utils",
+    "plasmapy.diagnostics",
+    "plasmapy.simulation",
+    "plasmapy",
+    "plasmapy.atomic",
+    "plasmapy.classes",
+    "plasmapy.formulary",
+    "plasmapy.utils",
+    "plasmapy.diagnostics",
+    "plasmapy.simulation",
+    "plasmapy",
+    "plasmapy.atomic",
+    "plasmapy.classes",
+    "plasmapy.formulary",
+    "plasmapy.utils",
+    "plasmapy.diagnostics",
+    "plasmapy.simulation"
+   ],
+   "requires":[
+    "pytest",
+    "pytest",
+    "pytest"
+   ]
+  }
+ },
+ "name":"plasmapy",
+ "new_version":"0.3.1",
+ "pinning_version":"2020.02.12",
+ "raw_meta_yaml":"{% set version = \"0.3.1\" %}\n\npackage:\n  name: plasmapy\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/p/plasmapy/plasmapy-{{ version }}.tar.gz\n  sha256: d2af2dd4de77797c5d26e2ae2ca894619f18c117f61aba5ffcb8e3eaff319fed\n\nbuild:\n  number: 1\n  script: \"{{ PYTHON }} -m pip install . --no-deps -vv\"\n  noarch: python\n\nrequirements:\n  host:\n    - python >=3.6\n    - pip\n    - setuptools\n    - setuptools_scm\n    - numpy >=1.14\n  run:\n    - python >=3.6\n    - {{ pin_compatible('numpy') }}\n    - scipy >=0.19\n    - astropy >=3.1\n    - colorama >=0.3\n    - mpmath >=1.0\n    - h5py >=2.8\n    - lmfit >=0.9.7\n    - matplotlib-base >=2.0\n\ntest:\n  imports:\n    - plasmapy\n    - plasmapy.atomic\n    - plasmapy.classes\n    - plasmapy.formulary\n    - plasmapy.utils\n    - plasmapy.diagnostics\n    - plasmapy.simulation\n  commands:\n    - pytest --pyargs plasmapy\n  requires:\n    - pytest\n\nabout:\n  home: https://github.com/PlasmaPy/PlasmaPy\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: LICENSE.md\n  summary: Python package for plasma physics\n  description: 'PlasmaPy is a community-developed and community-driven Python package for plasma physics.'\n  doc_url: 'http://plasmapy.readthedocs.io/en/docs/'\n  dev_url: 'https://github.com/plasmapy/plasmapy'\n\nextra:\n  recipe-maintainers:\n    - SolarDrew\n    - StanczakDominik\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "astropy",
+   "colorama",
+   "h5py",
+   "lmfit",
+   "matplotlib-base",
+   "mpmath",
+   "numpy",
+   "pip",
+   "python",
+   "scipy",
+   "setuptools",
+   "setuptools_scm"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "numpy",
+    "pip",
+    "python",
+    "setuptools",
+    "setuptools_scm"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "astropy",
+    "colorama",
+    "h5py",
+    "lmfit",
+    "matplotlib-base",
+    "mpmath",
+    "numpy",
+    "python",
+    "scipy"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "pytest"
+   ]
+  }
+ },
+ "smithy_version":"3.6.8",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "numpy >=1.14",
+    "pip",
+    "python >=3.6",
+    "setuptools",
+    "setuptools_scm"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "astropy >=3.1",
+    "colorama >=0.3",
+    "h5py >=2.8",
+    "lmfit >=0.9.7",
+    "matplotlib-base >=2.0",
+    "mpmath >=1.0",
+    "numpy",
+    "python >=3.6",
+    "scipy >=0.19"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "pytest"
+   ]
+  }
+ },
+ "url":"https://pypi.io/packages/source/p/plasmapy/plasmapy-0.2.0.tar.gz",
+ "version":"0.3.1"
+}

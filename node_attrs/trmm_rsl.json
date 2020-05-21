@@ -1,0 +1,117 @@
+{
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"trmm_rsl",
+ "hash_type":"md5",
+ "meta_yaml":{
+  "about":{
+   "home":"http://trmm-fc.gsfc.nasa.gov/trmm_gv/software/rsl/",
+   "license":"LGPL",
+   "summary":"TRMM Radar Software Library"
+  },
+  "build":{
+   "number":"3",
+   "skip":true
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "jjhelmus",
+    "zssherman",
+    "jjhelmus",
+    "zssherman",
+    "jjhelmus",
+    "zssherman"
+   ]
+  },
+  "package":{
+   "name":"trmm_rsl",
+   "version":"1.49"
+  },
+  "requirements":{
+   "build":[
+    "zlib 1.2.*",
+    "zlib 1.2.*",
+    "zlib 1.2.*"
+   ],
+   "run":[
+    "zlib 1.2.*",
+    "zlib 1.2.*",
+    "zlib 1.2.*"
+   ]
+  },
+  "source":{
+   "fn":"rsl.v1.49.tar.gz",
+   "md5":"a2fcc2a30fb5d1fac7ca9ea9e1c6b04e",
+   "url":"https://github.com/conda-forge/trmm_rsl-feedstock/releases/download/source_v1.49/rsl-v1.49.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "any_to_gif || [[ $? -eq 255 ]]",
+    "any_to_uf || [[ $? -eq 255 ]]",
+    "qlook || [[ $? -eq 255 ]]",
+    "any_to_gif || [[ $? -eq 255 ]]",
+    "any_to_uf || [[ $? -eq 255 ]]",
+    "qlook || [[ $? -eq 255 ]]",
+    "any_to_gif || [[ $? -eq 255 ]]",
+    "any_to_uf || [[ $? -eq 255 ]]",
+    "qlook || [[ $? -eq 255 ]]"
+   ]
+  }
+ },
+ "name":"trmm_rsl",
+ "new_version":false,
+ "raw_meta_yaml":"{% set version = \"1.49\" %}\n\npackage:\n    name: trmm_rsl\n    version: {{ version }}\n\nsource:\n    fn: rsl.v{{ version }}.tar.gz\n    url: https://github.com/conda-forge/trmm_rsl-feedstock/releases/download/source_v{{ version }}/rsl-v{{ version }}.tar.gz\n    md5: a2fcc2a30fb5d1fac7ca9ea9e1c6b04e\n\nbuild:\n    skip: True  # [win]\n    number: 3\n\nrequirements:\n    build:\n        - zlib 1.2.*\n    run:\n        - zlib 1.2.*\n\ntest:\n    commands:\n        # verify that the RSL programs were installed and are available\n        # When called without arguments these commands return 255\n        - \"any_to_gif || [[ $? -eq 255 ]]\"\n        - \"any_to_uf || [[ $? -eq 255 ]]\"\n        - \"qlook || [[ $? -eq 255 ]]\"\n\nabout:\n    home: http://trmm-fc.gsfc.nasa.gov/trmm_gv/software/rsl/\n    license: LGPL\n    summary: 'TRMM Radar Software Library'\n\nextra:\n    recipe-maintainers:\n        - jjhelmus\n        - zssherman\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "zlib"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "zlib"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "zlib"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "zlib 1.2.*"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "zlib 1.2.*"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://github.com/conda-forge/trmm_rsl-feedstock/releases/download/source_v1.49/rsl-v1.49.tar.gz",
+ "version":"1.49"
+}

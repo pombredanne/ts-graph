@@ -1,0 +1,174 @@
+{
+ "bad":"Upstream: Error getting upstream version",
+ "conda-forge.yml":{},
+ "feedstock_name":"vaex",
+ "meta_yaml":{
+  "about":{
+   "doc_url":"https://docs.vaex.io",
+   "home":"https://vaex.io",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"LICENSE.txt",
+   "summary":"Lazy Out-of-core dataframes and visualization for large (~billion rows/objects) tabular datasets"
+  },
+  "app":{
+   "entry":"vaex",
+   "icon":"logo.png",
+   "summary":"Lazy Out-of-core dataframes and visualization for large (~billion rows/objects) tabular datasets",
+   "type":"desk"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "maartenbreddels",
+    "maartenbreddels",
+    "maartenbreddels"
+   ]
+  },
+  "package":{
+   "name":"vaex",
+   "version":"2.6.0"
+  },
+  "requirements":{
+   "build":[
+    "python >=3.6",
+    "setuptools",
+    "pip",
+    "python >=3.6",
+    "setuptools",
+    "pip",
+    "python >=3.6",
+    "setuptools",
+    "pip"
+   ],
+   "run":[
+    "python",
+    "vaex-core >=1.5.0,<2",
+    "vaex-viz >=0.3.8,<0.4",
+    "vaex-server >=0.2.1,<0.3",
+    "vaex-hdf5 >=0.5.6,<0.6",
+    "vaex-astro >=0.6.1,<0.7",
+    "vaex-arrow >=0.4.2,<0.5",
+    "vaex-jupyter >=0.4.1,<0.5",
+    "vaex-ml >=0.8,<0.9",
+    "python",
+    "vaex-core >=1.5.0,<2",
+    "vaex-viz >=0.3.8,<0.4",
+    "vaex-server >=0.2.1,<0.3",
+    "vaex-hdf5 >=0.5.6,<0.6",
+    "vaex-astro >=0.6.1,<0.7",
+    "vaex-arrow >=0.4.2,<0.5",
+    "vaex-jupyter >=0.4.1,<0.5",
+    "vaex-ml >=0.8,<0.9",
+    "python",
+    "vaex-core >=1.5.0,<2",
+    "vaex-viz >=0.3.8,<0.4",
+    "vaex-server >=0.2.1,<0.3",
+    "vaex-hdf5 >=0.5.6,<0.6",
+    "vaex-astro >=0.6.1,<0.7",
+    "vaex-arrow >=0.4.2,<0.5",
+    "vaex-jupyter >=0.4.1,<0.5",
+    "vaex-ml >=0.8,<0.9"
+   ]
+  },
+  "test":{
+   "imports":[
+    "vaex",
+    "vaex.file",
+    "vaex",
+    "vaex.file",
+    "vaex",
+    "vaex.file"
+   ]
+  }
+ },
+ "name":"vaex",
+ "new_version":false,
+ "raw_meta_yaml":"{% set name = \"vaex\" %}\n{% set version = \"2.6.0\" %}\n{% set sha256 = \"7ce491f7fcfe37d407ee04f1de74d14edbd02175ea0b6270d1c370c1e0cebbb3\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nbuild:\n  number: 0\n  noarch: python\n\nrequirements:\n  build:\n    - python >=3.6\n    - setuptools\n    - pip\n  run:\n    - python\n    - vaex-core >=1.5.0,<2\n    - vaex-viz >=0.3.8,<0.4\n    - vaex-server >=0.2.1,<0.3\n    - vaex-hdf5 >=0.5.6,<0.6\n    - vaex-astro >=0.6.1,<0.7\n    - vaex-arrow >=0.4.2,<0.5\n    - vaex-jupyter >=0.4.1,<0.5\n    - vaex-ml >=0.8,<0.9\n    # - vaex-distributed\n    # - vaex-ui\n    # - vaex-graphql\n\ntest:\n  imports:\n    - vaex\n    - vaex.file\n\napp:\n  entry: vaex\n  icon: logo.png\n  summary: Lazy Out-of-core dataframes and visualization for large (~billion rows/objects) tabular datasets\n  type: desk\n\nabout:\n  home: https://vaex.io\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE.txt\n  summary: 'Lazy Out-of-core dataframes and visualization for large (~billion rows/objects) tabular datasets'\n  doc_url: https://docs.vaex.io\n\nextra:\n  recipe-maintainers:\n    - maartenbreddels\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "pip",
+   "python",
+   "setuptools",
+   "vaex-arrow",
+   "vaex-astro",
+   "vaex-core",
+   "vaex-hdf5",
+   "vaex-jupyter",
+   "vaex-ml",
+   "vaex-server",
+   "vaex-viz"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python",
+    "setuptools"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "python",
+    "vaex-arrow",
+    "vaex-astro",
+    "vaex-core",
+    "vaex-hdf5",
+    "vaex-jupyter",
+    "vaex-ml",
+    "vaex-server",
+    "vaex-viz"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "strong_exports":false,
+ "time":1568135272.5922685,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3.6",
+    "setuptools"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "python",
+    "vaex-arrow >=0.4.2,<0.5",
+    "vaex-astro >=0.6.1,<0.7",
+    "vaex-core >=1.5.0,<2",
+    "vaex-hdf5 >=0.5.6,<0.6",
+    "vaex-jupyter >=0.4.1,<0.5",
+    "vaex-ml >=0.8,<0.9",
+    "vaex-server >=0.2.1,<0.3",
+    "vaex-viz >=0.3.8,<0.4"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "version":"2.6.0"
+}

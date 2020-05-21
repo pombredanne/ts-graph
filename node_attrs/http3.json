@@ -1,0 +1,295 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/290628949.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.6.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/290673784.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.6.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/290879264.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.6.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/291211802.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.6.3"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/291680159.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.6.4"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/292553926.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.6.5"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/294103402.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.6.6"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/295388038.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.6.7"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"http3",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"https://github.com/encode/http3",
+   "license":"BSD 3-Clause",
+   "license_family":"BSD",
+   "license_file":"LICENSE.md",
+   "summary":"The next generation HTTP client."
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . --no-deps --ignore-installed -vv "
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "nicoddemus",
+    "nicoddemus",
+    "nicoddemus"
+   ]
+  },
+  "package":{
+   "name":"http3",
+   "version":"0.6.7"
+  },
+  "requirements":{
+   "host":[
+    "pip",
+    "python >=3.6",
+    "pip",
+    "python >=3.6",
+    "pip",
+    "python >=3.6"
+   ],
+   "run":[
+    "certifi",
+    "chardet ==3.*",
+    "h11 ==0.8.*",
+    "h2 ==3.*",
+    "idna ==2.*",
+    "python >=3.6",
+    "rfc3986 ==1.*",
+    "certifi",
+    "chardet ==3.*",
+    "h11 ==0.8.*",
+    "h2 ==3.*",
+    "idna ==2.*",
+    "python >=3.6",
+    "rfc3986 ==1.*",
+    "certifi",
+    "chardet ==3.*",
+    "h11 ==0.8.*",
+    "h2 ==3.*",
+    "idna ==2.*",
+    "python >=3.6",
+    "rfc3986 ==1.*"
+   ]
+  },
+  "source":{
+   "sha256":"dbf9beedc58d8bbcf6e681a9d63d9e7cd8da346e1ffb512e02e9bf097d91f0bf",
+   "url":"https://pypi.io/packages/source/h/http3/http3-0.6.7.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "http3",
+    "http3.dispatch",
+    "http3",
+    "http3.dispatch",
+    "http3",
+    "http3.dispatch"
+   ]
+  }
+ },
+ "name":"http3",
+ "new_version":"0.6.7",
+ "pinning_version":"2019.07.04",
+ "raw_meta_yaml":"{% set name = \"http3\" %}\n{% set version = \"0.6.7\" %}\n\npackage:\n  name: \"{{ name|lower }}\"\n  version: \"{{ version }}\"\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: dbf9beedc58d8bbcf6e681a9d63d9e7cd8da346e1ffb512e02e9bf097d91f0bf\n\nbuild:\n  noarch: python\n  number: 0\n  script: \"{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv \"\n\nrequirements:\n  host:\n    - pip\n    - python >=3.6\n  run:\n    - certifi\n    - chardet ==3.*\n    - h11 ==0.8.*\n    - h2 ==3.*\n    - idna ==2.*\n    - python >=3.6\n    - rfc3986 ==1.*\n\ntest:\n  imports:\n    - http3\n    - http3.dispatch\n\nabout:\n  home: https://github.com/encode/http3\n  license: BSD 3-Clause\n  license_family: BSD\n  license_file: LICENSE.md\n  summary: The next generation HTTP client.\n\nextra:\n  recipe-maintainers:\n    - nicoddemus\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "certifi",
+   "chardet",
+   "h11",
+   "h2",
+   "idna",
+   "pip",
+   "python",
+   "rfc3986"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "certifi",
+    "chardet",
+    "h11",
+    "h2",
+    "idna",
+    "python",
+    "rfc3986"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.4.0",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3.6"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "certifi",
+    "chardet ==3.*",
+    "h11 ==0.8.*",
+    "h2 ==3.*",
+    "idna ==2.*",
+    "python >=3.6",
+    "rfc3986 ==1.*"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/h/http3/http3-0.6.7.tar.gz",
+ "version":"0.6.7"
+}

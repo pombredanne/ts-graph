@@ -1,0 +1,219 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/240639789.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/241314725.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.0.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/242248497.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.1.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/279583880.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.2.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "compiler_stack":"comp7",
+  "max_py_ver":"37",
+  "max_r_ver":"35",
+  "provider":{
+   "win":"azure"
+  }
+ },
+ "feedstock_name":"xframe",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"C++ data frame based on xtensor",
+   "dev_url":"https://github.com/QuantStack/xframe",
+   "doc_url":"http://xframe.readthedocs.io",
+   "home":"http://quantstack.net/xframe",
+   "license":"BSD 3-Clause",
+   "license_family":"BSD",
+   "license_file":"LICENSE",
+   "summary":"C++ dataframe"
+  },
+  "build":{
+   "number":"0",
+   "skip":true
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "SylvainCorlay",
+    "JohanMabille",
+    "SylvainCorlay",
+    "JohanMabille",
+    "SylvainCorlay",
+    "JohanMabille"
+   ]
+  },
+  "package":{
+   "name":"xframe",
+   "version":"0.3.0"
+  },
+  "requirements":{
+   "build":[
+    "cxx_compiler_stub",
+    "cmake",
+    "cxx_compiler_stub",
+    "cmake",
+    "cxx_compiler_stub",
+    "cmake"
+   ],
+   "host":[
+    "xtensor >=0.21,<0.22",
+    "xtensor >=0.21,<0.22",
+    "xtensor >=0.21,<0.22"
+   ],
+   "run":[
+    "xtensor >=0.21,<0.22",
+    "xtensor >=0.21,<0.22",
+    "xtensor >=0.21,<0.22"
+   ]
+  },
+  "source":{
+   "fn":"xframe-0.3.0.tar.gz",
+   "sha256":"1e8755b7a8b54dd8b7c7b65d99cc896e587ebf563c937f4aae1f73ad4f4c6be1",
+   "url":"https://github.com/QuantStack/xframe/archive/0.3.0.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "if exist %LIBRARY_PREFIX%\\include\\xframe\\xvariable.hpp (exit 0) else (exit 1)",
+    "if exist %LIBRARY_PREFIX%\\lib\\cmake\\xframeConfig.cmake (exit 0) else (exit 1)",
+    "if exist %LIBRARY_PREFIX%\\lib\\cmake\\xframeConfigVersion.cmake (exit 0) else (exit 1)",
+    "test -d ${PREFIX}/include/xframe",
+    "test -f ${PREFIX}/include/xframe/xvariable.hpp",
+    "test -f ${PREFIX}/lib/cmake/xframe/xframeConfig.cmake",
+    "test -f ${PREFIX}/lib/cmake/xframe/xframeConfigVersion.cmake",
+    "test -d ${PREFIX}/include/xframe",
+    "test -f ${PREFIX}/include/xframe/xvariable.hpp",
+    "test -f ${PREFIX}/lib/cmake/xframe/xframeConfig.cmake",
+    "test -f ${PREFIX}/lib/cmake/xframe/xframeConfigVersion.cmake"
+   ]
+  }
+ },
+ "name":"xframe",
+ "new_version":"0.3.0",
+ "pinning_version":"2019.05.11",
+ "raw_meta_yaml":"{% set name = \"xframe\" %}\n{% set version = \"0.3.0\" %}\n{% set sha256 = \"1e8755b7a8b54dd8b7c7b65d99cc896e587ebf563c937f4aae1f73ad4f4c6be1\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  fn: {{ name }}-{{ version }}.tar.gz\n  url: https://github.com/QuantStack/xframe/archive/{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  skip: True  # [win and vc<14]\n\nrequirements:\n  build:\n    - {{ compiler('cxx') }}\n    - cmake\n  host:\n    - xtensor >=0.21,<0.22\n  run:\n    - xtensor >=0.21,<0.22\n\ntest:\n  commands:\n    - test -d ${PREFIX}/include/xframe  # [unix]\n    - test -f ${PREFIX}/include/xframe/xvariable.hpp  # [unix]\n    - test -f ${PREFIX}/lib/cmake/xframe/xframeConfig.cmake  # [unix]\n    - test -f ${PREFIX}/lib/cmake/xframe/xframeConfigVersion.cmake  # [unix]\n    - if exist %LIBRARY_PREFIX%\\include\\xframe\\xvariable.hpp (exit 0) else (exit 1)  # [win]\n    - if exist %LIBRARY_PREFIX%\\lib\\cmake\\xframeConfig.cmake (exit 0) else (exit 1)  # [win]\n    - if exist %LIBRARY_PREFIX%\\lib\\cmake\\xframeConfigVersion.cmake (exit 0) else (exit 1)  # [win]\n\nabout:\n  home: http://quantstack.net/xframe\n  license: BSD 3-Clause\n  license_family: BSD\n  license_file: LICENSE\n  summary: 'C++ dataframe'\n  description: 'C++ data frame based on xtensor'\n  doc_url: http://xframe.readthedocs.io\n  dev_url: https://github.com/QuantStack/xframe\n\nextra:\n  recipe-maintainers:\n    - SylvainCorlay\n    - JohanMabille\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "cmake",
+   "cxx_compiler_stub",
+   "xtensor"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "cmake",
+    "cxx_compiler_stub"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "xtensor"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "xtensor"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.3.4",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "cmake",
+    "cxx_compiler_stub"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "xtensor >=0.21,<0.22"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "xtensor >=0.21,<0.22"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://github.com/QuantStack/xframe/archive/0.2.0.tar.gz",
+ "version":"0.3.0"
+}

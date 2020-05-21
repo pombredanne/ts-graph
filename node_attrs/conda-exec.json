@@ -1,0 +1,142 @@
+{
+ "bad":"Upstream: Error getting upstream version",
+ "conda-forge.yml":{},
+ "feedstock_name":"conda-exec",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"conda-exec activates the program's conda environment before executing it.\n",
+   "dev_url":"https://github.com/conda-forge/conda-exec-feedstock",
+   "home":"https://github.com/conda-forge/conda-exec-feedstock",
+   "license":"BSD 3-Clause",
+   "license_family":"BSD",
+   "license_file":"LICENSE",
+   "summary":"Executes a command inside a conda environment"
+  },
+  "build":{
+   "number":"0",
+   "script":[
+    "install conda-exec.sh ${PREFIX}/bin/conda-exec",
+    "install conda-exec.sh ${PREFIX}/bin/conda-exec",
+    "install conda-exec.sh ${PREFIX}/bin/conda-exec"
+   ],
+   "skip":true
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "sodre",
+    "sodre",
+    "sodre"
+   ]
+  },
+  "package":{
+   "name":"conda-exec",
+   "version":"0.1.1"
+  },
+  "requirements":{
+   "run":[
+    "conda",
+    "conda",
+    "conda"
+   ]
+  },
+  "source":{
+   "path":"."
+  },
+  "test":{
+   "commands":[
+    "conda-exec -h",
+    "install tests/num-args.sh $PREFIX/bin/num-args",
+    "num-args 0",
+    "set -x",
+    "conda-exec -- $PREFIX num-args 0",
+    "num-args 1 one",
+    "conda-exec -- $PREFIX num-args 1 one",
+    "num-args 2 one two",
+    "conda-exec -- $PREFIX num-args 2 one two",
+    "num-args 1 \"one two\"",
+    "conda-exec -- $PREFIX num-args 1 \\\"one two\\\"",
+    "conda-exec -h",
+    "install tests/num-args.sh $PREFIX/bin/num-args",
+    "num-args 0",
+    "set -x",
+    "conda-exec -- $PREFIX num-args 0",
+    "num-args 1 one",
+    "conda-exec -- $PREFIX num-args 1 one",
+    "num-args 2 one two",
+    "conda-exec -- $PREFIX num-args 2 one two",
+    "num-args 1 \"one two\"",
+    "conda-exec -- $PREFIX num-args 1 \\\"one two\\\"",
+    "conda-exec -h",
+    "install tests/num-args.sh $PREFIX/bin/num-args",
+    "num-args 0",
+    "set -x",
+    "conda-exec -- $PREFIX num-args 0",
+    "num-args 1 one",
+    "conda-exec -- $PREFIX num-args 1 one",
+    "num-args 2 one two",
+    "conda-exec -- $PREFIX num-args 2 one two",
+    "num-args 1 \"one two\"",
+    "conda-exec -- $PREFIX num-args 1 \\\"one two\\\""
+   ],
+   "files":[
+    "tests",
+    "tests",
+    "tests"
+   ]
+  }
+ },
+ "name":"conda-exec",
+ "new_version":false,
+ "raw_meta_yaml":"{% set version = \"0.1.1\" %}\n\npackage:\n    name: conda-exec\n    version: {{ version }}\n\nsource:\n    path: .\n\nbuild:\n    number: 0\n    skip: True  # [win]\n    script:\n        - install conda-exec.sh ${PREFIX}/bin/conda-exec\n\nrequirements:\n    run:\n        - conda\n\ntest:\n    files:\n        - tests\n    commands:\n        - conda-exec -h\n        - install tests/num-args.sh $PREFIX/bin/num-args\n        - num-args 0\n        - set -x\n        - conda-exec -- $PREFIX num-args 0\n        - num-args 1 one\n        - conda-exec -- $PREFIX num-args 1 one\n        - num-args 2 one two\n        - conda-exec -- $PREFIX num-args 2 one two\n        - num-args 1 \"one two\"\n        - conda-exec -- $PREFIX num-args 1 \\\"one two\\\"\n\n\nabout:\n    home: https://github.com/conda-forge/conda-exec-feedstock\n    license: BSD 3-Clause\n    license_family: BSD\n    license_file: LICENSE\n    summary: Executes a command inside a conda environment\n\n    description: |\n      conda-exec activates the program's conda environment before executing it.\n\n    dev_url: https://github.com/conda-forge/conda-exec-feedstock\n\nextra:\n    recipe-maintainers:\n        - sodre\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "conda"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "conda"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "strong_exports":false,
+ "time":1568135280.1058283,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "conda"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":null,
+ "version":"0.1.1"
+}

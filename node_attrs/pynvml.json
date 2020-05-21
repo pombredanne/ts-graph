@@ -1,0 +1,157 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/313627368.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"8.0.3"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/361522757.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"8.0.4"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"pynvml",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"This is a wrapper around the NVML library. For information about\nthe NVML library, see <http://developer.nvidia.com>.\n",
+   "dev_url":"https://github.com/gpuopenanalytics/pynvml",
+   "doc_url":"https://pypi.org/project/pynvml/",
+   "home":"https://github.com/gpuopenanalytics/pynvml",
+   "license":"BSD",
+   "license_family":"BSD",
+   "license_file":"LICENSE.txt",
+   "summary":"Python Bindings for the NVIDIA Management Library"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . --no-deps -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "rjzamora",
+    "rjzamora",
+    "rjzamora"
+   ]
+  },
+  "package":{
+   "name":"pynvml",
+   "version":"8.0.4"
+  },
+  "requirements":{
+   "host":[
+    "python >=3.5",
+    "pip",
+    "python >=3.5",
+    "pip",
+    "python >=3.5",
+    "pip"
+   ],
+   "run":[
+    "python >=3.5",
+    "python >=3.5",
+    "python >=3.5"
+   ]
+  },
+  "source":{
+   "sha256":"759603235ca8b1e39125db9cf98b132734438bb2f5bc69eb27e73c75646a29c8",
+   "url":"https://github.com/gpuopenanalytics/pynvml/archive/8.0.4.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "pynvml",
+    "pynvml",
+    "pynvml"
+   ]
+  }
+ },
+ "name":"pynvml",
+ "new_version":"8.0.4",
+ "pinning_version":"2020.01.08",
+ "raw_meta_yaml":"{% set name = \"pynvml\" %}\n{% set version = \"8.0.4\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{version}}\n\nsource:\n  url: https://github.com/gpuopenanalytics/{{ name }}/archive/{{ version }}.tar.gz\n  sha256: 759603235ca8b1e39125db9cf98b132734438bb2f5bc69eb27e73c75646a29c8 \n\nbuild:\n  noarch: python\n  number: 0\n  script: \"{{ PYTHON }} -m pip install . --no-deps -vv\"\n\nrequirements:\n  host:\n    - python >=3.5\n    - pip\n  run:\n    - python >=3.5\n\ntest:\n  imports:\n    - pynvml\n\nabout:\n  home: https://github.com/gpuopenanalytics/{{ name }}\n  license: BSD\n  license_family: BSD\n  license_file: LICENSE.txt\n  summary: 'Python Bindings for the NVIDIA Management Library'\n  description: |\n    This is a wrapper around the NVML library. For information about\n    the NVML library, see <http://developer.nvidia.com>.\n  doc_url: https://pypi.org/project/pynvml/\n  dev_url: https://github.com/gpuopenanalytics/pynvml\n\nextra:\n  recipe-maintainers:\n    - rjzamora\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "pip",
+   "python"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.6.5",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3.5"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "python >=3.5"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://github.com/gpuopenanalytics/pynvml/archive/8.0.3.tar.gz",
+ "version":"8.0.4"
+}

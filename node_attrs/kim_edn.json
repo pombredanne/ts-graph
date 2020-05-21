@@ -1,0 +1,118 @@
+{
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"kim_edn",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"KIM-EDN encoder and decoder embraces a subset of\nedn <https://openkim.org/doc/schema/edn-format> as a standard data\nformat. The primary purpose of this data format choice is to serve as a\nnotational superset to JSON with the enhancements being that it (1)\nallows for comments and (2) treats commas as whitespace enabling easier\ntemplating. KIM-EDN encoder and decoder works for Python 3.6+. It is pure\nPython code with no dependencies.\n",
+   "dev_url":"https://github.com/openkim/kim-edn",
+   "home":"https://github.com/openkim/kim-edn",
+   "license":"CDDL-1.0",
+   "license_family":"OTHER",
+   "license_file":"LICENSE.CDDL",
+   "summary":"KIM-EDN encoder and decoder for Python"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"1",
+   "script":" -m pip install . -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "yafshar",
+    "yafshar",
+    "yafshar"
+   ]
+  },
+  "package":{
+   "name":"kim-edn",
+   "version":"1.2.0"
+  },
+  "requirements":{
+   "host":[
+    "python >=3.6",
+    "pip",
+    "python >=3.6",
+    "pip",
+    "python >=3.6",
+    "pip"
+   ],
+   "run":[
+    "python >=3.6",
+    "python >=3.6",
+    "python >=3.6"
+   ]
+  },
+  "source":{
+   "sha256":"7c47d67f5dc110c35238abadb0d9c421ced11f959e5a440858beafb57166de83",
+   "url":"https://pypi.io/packages/source/k/kim-edn/kim-edn-1.2.0.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "kim_edn",
+    "kim_edn",
+    "kim_edn"
+   ]
+  }
+ },
+ "name":"kim-edn",
+ "new_version":"1.2.0",
+ "raw_meta_yaml":"{% set name = \"kim-edn\" %}\n{% set version = \"1.2.0\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: 7c47d67f5dc110c35238abadb0d9c421ced11f959e5a440858beafb57166de83\n\nbuild:\n  noarch: python\n  number: 1\n  script: \"{{ PYTHON }} -m pip install . -vv\"\n\nrequirements:\n  host:\n    - python >=3.6\n    - pip\n  run:\n    - python >=3.6\n\ntest:\n  imports:\n    - kim_edn\n\nabout:\n  home: https://github.com/openkim/kim-edn\n  license: CDDL-1.0\n  license_family: OTHER\n  license_file: LICENSE.CDDL\n  summary: 'KIM-EDN encoder and decoder for Python'\n  description: |\n    KIM-EDN encoder and decoder embraces a subset of\n    edn <https://openkim.org/doc/schema/edn-format> as a standard data\n    format. The primary purpose of this data format choice is to serve as a\n    notational superset to JSON with the enhancements being that it (1)\n    allows for comments and (2) treats commas as whitespace enabling easier\n    templating. KIM-EDN encoder and decoder works for Python 3.6+. It is pure\n    Python code with no dependencies.\n  dev_url: https://github.com/openkim/kim-edn\n\nextra:\n  recipe-maintainers:\n    - yafshar\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "pip",
+   "python"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3.6"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "python >=3.6"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/k/kim_edn/kim_edn-1.0.0.tar.gz",
+ "version":"1.2.0"
+}

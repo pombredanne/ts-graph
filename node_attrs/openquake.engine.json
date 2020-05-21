@@ -1,0 +1,370 @@
+{
+ "PRed":[
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.1.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/200509763.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.1.0.post1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/213634301.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.2.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/242689425.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.3.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/243246063.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.3.0.post0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/244377576.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.3.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/374334271.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.8.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/375772295.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MatplotlibBase",
+    "migrator_version":0,
+    "name":"matplotlib-to-matplotlib-base"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/409618131.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.9.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"openquake.engine",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"https://github.com/gem/oq-engine",
+   "license":"GNU Affero GPL v3",
+   "license_family":"AGPL",
+   "license_file":"LICENSE.txt",
+   "summary":"Computes earthquake hazard and risk."
+  },
+  "build":{
+   "noarch":"python",
+   "number":"1",
+   "script":"-m pip install . --no-deps -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "mhearne-usgs",
+    "cbworden",
+    "emthompson-usgs",
+    "mhearne-usgs",
+    "cbworden",
+    "emthompson-usgs",
+    "mhearne-usgs",
+    "cbworden",
+    "emthompson-usgs"
+   ]
+  },
+  "package":{
+   "name":"openquake.engine",
+   "version":"3.8.1"
+  },
+  "requirements":{
+   "build":[
+    "python >=3.6",
+    "pip",
+    "python >=3.6",
+    "pip",
+    "python >=3.6",
+    "pip"
+   ],
+   "run":[
+    "python >=3.6",
+    "h5py >=2.9",
+    "numpy >=1.16",
+    "scipy >=1.3",
+    "pandas >=0.25",
+    "pyzmq <18.2",
+    "psutil >=2.0",
+    "shapely >=1.3",
+    "docutils >=0.11",
+    "decorator >=4.3",
+    "django >=1.11",
+    "matplotlib-base >=1.5",
+    "requests >=2.20",
+    "pyshp >=1.2.3",
+    "pyyaml",
+    "toml",
+    "python >=3.6",
+    "h5py >=2.9",
+    "numpy >=1.16",
+    "scipy >=1.3",
+    "pandas >=0.25",
+    "pyzmq <18.2",
+    "psutil >=2.0",
+    "shapely >=1.3",
+    "docutils >=0.11",
+    "decorator >=4.3",
+    "django >=1.11",
+    "matplotlib-base >=1.5",
+    "requests >=2.20",
+    "pyshp >=1.2.3",
+    "pyyaml",
+    "toml",
+    "python >=3.6",
+    "h5py >=2.9",
+    "numpy >=1.16",
+    "scipy >=1.3",
+    "pandas >=0.25",
+    "pyzmq <18.2",
+    "psutil >=2.0",
+    "shapely >=1.3",
+    "docutils >=0.11",
+    "decorator >=4.3",
+    "django >=1.11",
+    "matplotlib-base >=1.5",
+    "requests >=2.20",
+    "pyshp >=1.2.3",
+    "pyyaml",
+    "toml"
+   ]
+  },
+  "source":{
+   "sha256":"7a89a55afe99e05761688b00fc606ec06cce4488a94e88e817e7bf4af09887a0",
+   "url":"https://pypi.io/packages/source/o/openquake.engine/openquake.engine-3.8.1.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "openquake",
+    "openquake",
+    "openquake"
+   ]
+  }
+ },
+ "name":"openquake.engine",
+ "new_version":"3.9.0",
+ "new_version_attempts":{
+  "3.9.0":1
+ },
+ "new_version_errors":{},
+ "pinning_version":"2020.04.26.19.17.14",
+ "raw_meta_yaml":"{% set version = \"3.8.1\" %}\n\npackage:\n  name: openquake.engine\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/o/openquake.engine/openquake.engine-{{ version }}.tar.gz\n  sha256: 7a89a55afe99e05761688b00fc606ec06cce4488a94e88e817e7bf4af09887a0\n  \n\nbuild:\n  noarch: python\n  number: 1\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  build:\n    - python >=3.6\n    - pip\n  run:\n    - python >=3.6\n    - h5py >=2.9\n    - numpy >=1.16\n    - scipy >=1.3\n    - pandas >=0.25\n    - pyzmq <18.2\n    - psutil >=2.0\n    - shapely >=1.3\n    - docutils >=0.11\n    - decorator >=4.3\n    - django >=1.11\n    - matplotlib-base >=1.5\n    - requests >=2.20\n    - pyshp >=1.2.3\n    - pyyaml\n    - toml\n\ntest:\n  imports:\n    - openquake\n\nabout:\n  home: https://github.com/gem/oq-engine\n  license: GNU Affero GPL v3\n  summary: 'Computes earthquake hazard and risk.'\n  license_family: AGPL\n  license_file: LICENSE.txt\n\nextra:\n  recipe-maintainers:\n    - mhearne-usgs\n    - cbworden\n    - emthompson-usgs\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "decorator",
+   "django",
+   "docutils",
+   "h5py",
+   "matplotlib-base",
+   "numpy",
+   "pandas",
+   "pip",
+   "psutil",
+   "pyshp",
+   "python",
+   "pyyaml",
+   "pyzmq",
+   "requests",
+   "scipy",
+   "shapely",
+   "toml"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "decorator",
+    "django",
+    "docutils",
+    "h5py",
+    "matplotlib-base",
+    "numpy",
+    "pandas",
+    "psutil",
+    "pyshp",
+    "python",
+    "pyyaml",
+    "pyzmq",
+    "requests",
+    "scipy",
+    "shapely",
+    "toml"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.7.0",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3.6"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "decorator >=4.3",
+    "django >=1.11",
+    "docutils >=0.11",
+    "h5py >=2.9",
+    "matplotlib-base >=1.5",
+    "numpy >=1.16",
+    "pandas >=0.25",
+    "psutil >=2.0",
+    "pyshp >=1.2.3",
+    "python >=3.6",
+    "pyyaml",
+    "pyzmq <18.2",
+    "requests >=2.20",
+    "scipy >=1.3",
+    "shapely >=1.3",
+    "toml"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/o/openquake.engine/openquake.engine-3.2.0.tar.gz",
+ "version":"3.8.1"
+}

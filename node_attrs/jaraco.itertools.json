@@ -1,0 +1,136 @@
+{
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"jaraco.itertools",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "dev_url":"https://github.com/jaraco/jaraco.itertools",
+   "doc_url":"https://github.com/jaraco/jaraco.itertools",
+   "home":"https://github.com/jaraco/jaraco.itertools",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"LICENSE",
+   "summary":"Additional itertools in the spirit of stdlib's itertools."
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "nehaljwani",
+    "nehaljwani",
+    "nehaljwani"
+   ]
+  },
+  "package":{
+   "name":"jaraco.itertools",
+   "version":"5.0.0"
+  },
+  "requirements":{
+   "host":[
+    "pip",
+    "python >=3.6",
+    "setuptools_scm >=1.15.0",
+    "pip",
+    "python >=3.6",
+    "setuptools_scm >=1.15.0",
+    "pip",
+    "python >=3.6",
+    "setuptools_scm >=1.15.0"
+   ],
+   "run":[
+    "python >=3.6",
+    "more-itertools >=4.0.0",
+    "inflect",
+    "python >=3.6",
+    "more-itertools >=4.0.0",
+    "inflect",
+    "python >=3.6",
+    "more-itertools >=4.0.0",
+    "inflect"
+   ]
+  },
+  "source":{
+   "sha256":"6447d567f57efe5efea386265c7864652e9530830a1b80f43e60b4f222b9ab84",
+   "url":"https://pypi.io/packages/source/j/jaraco.itertools/jaraco.itertools-5.0.0.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "jaraco.itertools",
+    "jaraco.itertools",
+    "jaraco.itertools"
+   ]
+  }
+ },
+ "name":"jaraco.itertools",
+ "new_version":"5.0.0",
+ "raw_meta_yaml":"{% set name = \"jaraco.itertools\" %}\n{% set version = \"5.0.0\" %}\n\npackage:\n  name: \"{{ name|lower }}\"\n  version: \"{{ version }}\"\n\nsource:\n  url: \"https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\"\n  sha256: 6447d567f57efe5efea386265c7864652e9530830a1b80f43e60b4f222b9ab84\n\nbuild:\n  number: 0\n  noarch: python\n  script: \"{{ PYTHON }} -m pip install . -vv\"\n\nrequirements:\n  host:\n    - pip\n    - python >=3.6\n    - setuptools_scm >=1.15.0\n  run:\n    - python >=3.6\n    - more-itertools >=4.0.0\n    - inflect\n\ntest:\n  imports:\n    - jaraco.itertools\n\nabout:\n  home: https://github.com/jaraco/jaraco.itertools\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE\n  summary: \"Additional itertools in the spirit of stdlib's itertools.\"\n  doc_url: https://github.com/jaraco/jaraco.itertools\n  dev_url: https://github.com/jaraco/jaraco.itertools\n\nextra:\n  recipe-maintainers:\n    - nehaljwani\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "inflect",
+   "more-itertools",
+   "pip",
+   "python",
+   "setuptools_scm"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python",
+    "setuptools_scm"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "inflect",
+    "more-itertools",
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3.6",
+    "setuptools_scm >=1.15.0"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "inflect",
+    "more-itertools >=4.0.0",
+    "python >=3.6"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/j/jaraco.itertools/jaraco.itertools-5.0.0.tar.gz",
+ "version":"5.0.0"
+}

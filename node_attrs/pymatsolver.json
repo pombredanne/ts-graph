@@ -1,0 +1,139 @@
+{
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"pymatsolver",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"http://simpeg.xyz/",
+   "license":"MIT",
+   "license_file":"LICENSE",
+   "summary":"pymatsolver: Matrix Solvers for Python"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . --no-deps -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "lheagy",
+    "lheagy",
+    "lheagy"
+   ]
+  },
+  "package":{
+   "name":"pymatsolver",
+   "version":"0.1.2"
+  },
+  "requirements":{
+   "host":[
+    "python",
+    "pip",
+    "python",
+    "pip",
+    "python",
+    "pip"
+   ],
+   "run":[
+    "python",
+    "numpy",
+    "pymkl >=0.0.3",
+    "scipy >=0.13",
+    "mumps",
+    "python",
+    "numpy",
+    "pymkl >=0.0.3",
+    "scipy >=0.13",
+    "mumps",
+    "python",
+    "numpy",
+    "pymkl >=0.0.3",
+    "scipy >=0.13",
+    "mumps"
+   ]
+  },
+  "source":{
+   "sha256":"3ea58d5de6b0a05f646359766932f186d74d46b23730613f9fbff1482b2dde51",
+   "url":"https://pypi.io/packages/source/p/pymatsolver/pymatsolver-0.1.2.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "pymatsolver",
+    "pymatsolver",
+    "pymatsolver"
+   ]
+  }
+ },
+ "name":"pymatsolver",
+ "new_version":"0.1.2",
+ "raw_meta_yaml":"{% set version = \"0.1.2\" %}\n\npackage:\n  name: pymatsolver\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/p/pymatsolver/pymatsolver-{{ version }}.tar.gz\n  sha256: 3ea58d5de6b0a05f646359766932f186d74d46b23730613f9fbff1482b2dde51\n\nbuild:\n  number: 0\n  noarch: python\n  script: \"{{ PYTHON }} -m pip install . --no-deps -vv\"\n\nrequirements:\n  host:\n    - python\n    - pip\n  run:\n    - python\n    - numpy\n    - pymkl >=0.0.3\n    - scipy >=0.13\n    - mumps\n\ntest:\n  imports:\n    - pymatsolver\n    # This will be fixed in a new release.\n    # - pymatsolver.mumps\n\nabout:\n  home: http://simpeg.xyz/\n  license: MIT\n  license_file: LICENSE\n  summary: \"pymatsolver: Matrix Solvers for Python\"\n\nextra:\n  recipe-maintainers:\n    - lheagy\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "mumps",
+   "numpy",
+   "pip",
+   "pymkl",
+   "python",
+   "scipy"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "mumps",
+    "numpy",
+    "pymkl",
+    "python",
+    "scipy"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "mumps",
+    "numpy",
+    "pymkl >=0.0.3",
+    "python",
+    "scipy >=0.13"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/p/pymatsolver/pymatsolver-0.1.2.tar.gz",
+ "version":"0.1.2"
+}

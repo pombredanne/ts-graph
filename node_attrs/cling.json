@@ -1,0 +1,262 @@
+{
+ "PRed":[
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.5"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Compiler",
+    "migrator_version":0
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/228104423.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/308024389.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.6"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "compiler_stack":"comp7",
+  "max_py_ver":"37",
+  "max_r_ver":"35"
+ },
+ "feedstock_name":"cling",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"Cling is an interactive C++ interpreter, built on top of Clang and LLVM compiler infrastructure. Cling realizes the read-eval-print loop (REPL) concept, in order to leverage rapid application development. Implemented as a small extension to LLVM and Clang, the interpreter reuses their strengths such as the praised concise and expressive compiler diagnostics.",
+   "dev_url":"https://github.com/root-project/cling",
+   "doc_url":"https://root.cern.ch/cling",
+   "home":"https://root.cern.ch/cling",
+   "license":"UI/NCSAOSL",
+   "license_family":"BSD",
+   "license_file":"LICENSE.TXT",
+   "summary":"Cling - The Interactive C++ Interpreter"
+  },
+  "build":{
+   "number":"2",
+   "run_exports":[
+    "cling",
+    "cling",
+    "cling"
+   ],
+   "skip":true
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "SylvainCorlay",
+    "JohanMabille",
+    "gouarin",
+    "chrisburr",
+    "SylvainCorlay",
+    "JohanMabille",
+    "gouarin",
+    "chrisburr",
+    "SylvainCorlay",
+    "JohanMabille",
+    "gouarin",
+    "chrisburr"
+   ]
+  },
+  "package":{
+   "name":"cling",
+   "version":"0.6"
+  },
+  "requirements":{
+   "build":[
+    "cmake",
+    "ninja",
+    "cxx_compiler_stub",
+    "cmake",
+    "cxx_compiler_stub",
+    "cmake",
+    "cxx_compiler_stub"
+   ],
+   "host":[
+    "llvmdev 5",
+    "clangdev 5.0.0",
+    "clang_variant * cling_v0.6",
+    "zlib",
+    "llvmdev 5",
+    "clangdev 5.0.0",
+    "clang_variant * cling_v0.6",
+    "zlib",
+    "llvmdev 5",
+    "clangdev 5.0.0",
+    "clang_variant * cling_v0.6",
+    "zlib"
+   ],
+   "run":[
+    "clangdev 5.0.0",
+    "clang_variant * cling_v0.6",
+    "clangdev 5.0.0",
+    "clang_variant * cling_v0.6",
+    "cxx_compiler_stub",
+    "clangdev 5.0.0",
+    "clang_variant * cling_v0.6"
+   ]
+  },
+  "source":{
+   "fn":"cling-0.6.tar.gz",
+   "patches":[
+    "patches/0001-Export-all-symbols-on-windows.patch",
+    "patches/0001-remove-jupyter.patch",
+    "patches/0027-conda-packaging.patch",
+    "patches/0001-Drop-compile-time-sysroot.patch",
+    "patches/0001-Export-all-symbols-on-windows.patch",
+    "patches/0001-remove-jupyter.patch",
+    "patches/0027-conda-packaging.patch",
+    "patches/0001-Drop-compile-time-sysroot.patch",
+    "patches/0001-Export-all-symbols-on-windows.patch",
+    "patches/0001-remove-jupyter.patch",
+    "patches/0027-conda-packaging.patch",
+    "patches/0001-Drop-compile-time-sysroot.patch"
+   ],
+   "sha256":"c72efd121f65afb0bf2744d4871fd9758f265a750ce921fdef767c8ab9a0fa36",
+   "url":"https://github.com/root-project/cling/archive/v0.6.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "if exist %LIBRARY_PREFIX%\\\\bin\\\\libcling.dll (exit 0) else (exit 1)",
+    "if exist %LIBRARY_PREFIX%\\\\lib\\\\libcling.lib (exit 0) else (exit 1)",
+    "cling '2+3; 0'",
+    "cling '#include <vector>'",
+    "test -f $PREFIX/bin/cling",
+    "cling '2+3; 0'",
+    "cling '#include <vector>'",
+    "test -f $PREFIX/bin/cling",
+    "cling '2+3; 0'",
+    "cling '#include <vector>'"
+   ]
+  }
+ },
+ "name":"cling",
+ "new_version":"0.6",
+ "pinning_version":"2019.08.11",
+ "raw_meta_yaml":"{% set name = \"cling\" %}\n{% set version = \"0.6\" %}\n{% set sha256 = \"c72efd121f65afb0bf2744d4871fd9758f265a750ce921fdef767c8ab9a0fa36\" %}\n{% set build_number = 2 %}\n{% set clang_version = [5, 0, 0] %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  fn: {{ name }}-{{ version }}.tar.gz\n  url: https://github.com/root-project/cling/archive/v{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n  patches:\n    # Export all symbols on windows to generate import library\n    - patches/0001-Export-all-symbols-on-windows.patch\n    # Do not build Jupyter kernel - use xeus-cling instead\n    - patches/0001-remove-jupyter.patch\n    - patches/0027-conda-packaging.patch\n    # Prevent setting sysroot include directory on OS Xd\n    - patches/0001-Drop-compile-time-sysroot.patch\n\nbuild:\n  number: {{ build_number }}\n  skip: True  # [win and vc<14]\n  run_exports:\n    - {{ pin_subpackage(name, max_pin='x.x') }}\n\nrequirements:\n  build:\n    - cmake\n    - ninja  # [win]\n    - {{ compiler('cxx') }}\n  host:\n    - llvmdev {{ clang_version[0] }}\n    - clangdev {{ clang_version|join('.') }}\n    - clang_variant * cling_v{{ version }}\n    - zlib\n  run:\n    # We really depend on the host compiler at runtime:\n    #  - the host compiler STL is one to be used.\n    #  - it is used by cling's runtime compatibility check.\n    - {{ compiler('cxx') }}  # [linux]\n    - clangdev {{ clang_version|join('.') }}\n    - clang_variant * cling_v{{ version }}\n\ntest:\n  commands:\n    - test -f $PREFIX/bin/cling  # [unix]\n    - if exist %LIBRARY_PREFIX%\\\\bin\\\\libcling.dll (exit 0) else (exit 1)  # [win]\n    - if exist %LIBRARY_PREFIX%\\\\lib\\\\libcling.lib (exit 0) else (exit 1)  # [win]\n    - cling '2+3; 0'\n    - cling '#include <vector>'\n\nabout:\n  dev_url: https://github.com/root-project/cling\n  doc_url: https://root.cern.ch/cling\n  home: https://root.cern.ch/cling\n  license: UI/NCSAOSL\n  license_family: BSD\n  license_file: LICENSE.TXT\n  summary: Cling - The Interactive C++ Interpreter\n  description: Cling is an interactive C++ interpreter, built on top of Clang and\n    LLVM compiler infrastructure. Cling realizes the read-eval-print loop (REPL)\n    concept, in order to leverage rapid application development. Implemented as\n    a small extension to LLVM and Clang, the interpreter reuses their strengths\n    such as the praised concise and expressive compiler diagnostics.\n\nextra:\n  recipe-maintainers:\n    - SylvainCorlay\n    - JohanMabille\n    - gouarin\n    - chrisburr\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "clang_variant",
+   "clangdev",
+   "cmake",
+   "cxx_compiler_stub",
+   "llvmdev",
+   "ninja",
+   "zlib"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "cmake",
+    "cxx_compiler_stub",
+    "ninja"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "clang_variant",
+    "clangdev",
+    "llvmdev",
+    "zlib"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "clang_variant",
+    "clangdev",
+    "cxx_compiler_stub"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.4.1",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "cmake",
+    "cxx_compiler_stub",
+    "ninja"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "clang_variant * cling_v0.6",
+    "clangdev 5.0.0",
+    "llvmdev 5",
+    "zlib"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "clang_variant * cling_v0.6",
+    "clangdev 5.0.0",
+    "cxx_compiler_stub"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://github.com/root-mirror/cling/archive/v0.5.tar.gz",
+ "version":"0.6"
+}

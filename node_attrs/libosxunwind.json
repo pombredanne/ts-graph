@@ -1,0 +1,198 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/196933084.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Compiler",
+    "migrator_version":0
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/209683768.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/233397451.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.0.4"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/235157339.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.0.5"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "compiler_stack":"comp7",
+  "max_py_ver":"37",
+  "max_r_ver":"35"
+ },
+ "feedstock_name":"libosxunwind",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "dev_url":"https://github.com/JuliaLang/libosxunwind",
+   "home":"https://github.com/JuliaLang/libosxunwind",
+   "license":"APSL-2.0",
+   "license_file":"/LICENSE.txt",
+   "license_url":"https://opensource.apple.com/apsl",
+   "summary":"Clone of Apple's libunwind, enhanced for the Julia Profiler"
+  },
+  "build":{
+   "number":"1000",
+   "skip":true
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "dfornika",
+    "jakirkham",
+    "dfornika",
+    "jakirkham",
+    "dfornika",
+    "jakirkham"
+   ]
+  },
+  "package":{
+   "name":"libosxunwind",
+   "version":"0.0.5"
+  },
+  "requirements":{
+   "build":[
+    "cxx_compiler_stub",
+    "cxx_compiler_stub",
+    "cxx_compiler_stub"
+   ],
+   "host":null
+  },
+  "source":{
+   "fn":"libosxunwind-0.0.5.tar.gz",
+   "sha256":"6a848fec0f25307420ae3f25889d1bd36ee2621fb7aef881a85c3641063c829f",
+   "url":"https://github.com/JuliaLang/libosxunwind/archive/v0.0.5.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "test -f \"${PREFIX}/include/libunwind.h\"",
+    "test -f \"${PREFIX}/include/unwind.h\"",
+    "test -d \"${PREFIX}/include/mach-o\"",
+    "test -f \"${PREFIX}/lib/libosxunwind.a\"",
+    "test -f \"${PREFIX}/lib/libosxunwind.dylib\"",
+    "conda inspect linkages -p \"${PREFIX}\" \"libosxunwind\"",
+    "conda inspect objects -p \"${PREFIX}\" \"libosxunwind\"",
+    "test -f \"${PREFIX}/include/libunwind.h\"",
+    "test -f \"${PREFIX}/include/unwind.h\"",
+    "test -d \"${PREFIX}/include/mach-o\"",
+    "test -f \"${PREFIX}/lib/libosxunwind.a\"",
+    "test -f \"${PREFIX}/lib/libosxunwind.dylib\"",
+    "conda inspect linkages -p \"${PREFIX}\" \"libosxunwind\"",
+    "conda inspect objects -p \"${PREFIX}\" \"libosxunwind\"",
+    "test -f \"${PREFIX}/include/libunwind.h\"",
+    "test -f \"${PREFIX}/include/unwind.h\"",
+    "test -d \"${PREFIX}/include/mach-o\"",
+    "test -f \"${PREFIX}/lib/libosxunwind.a\"",
+    "test -f \"${PREFIX}/lib/libosxunwind.dylib\"",
+    "conda inspect linkages -p \"${PREFIX}\" \"libosxunwind\"",
+    "conda inspect objects -p \"${PREFIX}\" \"libosxunwind\""
+   ]
+  }
+ },
+ "name":"libosxunwind",
+ "new_version":"0.0.5",
+ "pinning_version":"2018.11.27",
+ "raw_meta_yaml":"{% set name = \"libosxunwind\" %}\n{% set version = \"0.0.5\" %}\n{% set sha256 = \"6a848fec0f25307420ae3f25889d1bd36ee2621fb7aef881a85c3641063c829f\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  fn: {{ name }}-{{ version }}.tar.gz\n  url: https://github.com/JuliaLang/{{ name }}/archive/v{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 1000\n  skip: true  # [not osx]\n\nrequirements:\n  build:\n    - {{ compiler(\"cxx\") }}\n  host:\n\ntest:\n  commands:\n    - test -f \"${PREFIX}/include/libunwind.h\"\n    - test -f \"${PREFIX}/include/unwind.h\"\n    - test -d \"${PREFIX}/include/mach-o\"\n    - test -f \"${PREFIX}/lib/libosxunwind.a\"\n    - test -f \"${PREFIX}/lib/libosxunwind.dylib\"\n\n    - conda inspect linkages -p \"${PREFIX}\" \"{{ name }}\"\n    - conda inspect objects -p \"${PREFIX}\" \"{{ name }}\"\n\nabout:\n  home: https://github.com/JuliaLang/libosxunwind\n  license: APSL-2.0\n  # No license file included. Raise an issue upstream.\n  #\n  # xref: https://github.com/JuliaLang/libosxunwind/issues/10\n  license_file: \"{{ RECIPE_DIR }}/LICENSE.txt\"\n  license_url: https://opensource.apple.com/apsl\n  summary: Clone of Apple's libunwind, enhanced for the Julia Profiler\n  dev_url: https://github.com/JuliaLang/libosxunwind\n\nextra:\n  recipe-maintainers:\n    - dfornika\n    - jakirkham\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "cxx_compiler_stub"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "cxx_compiler_stub"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.1.12",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "cxx_compiler_stub"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://github.com/JuliaLang/libosxunwind/archive/v0.0.5.tar.gz",
+ "version":"0.0.5"
+}

@@ -1,0 +1,157 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/370050666.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.4.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"pytest-freezegun",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"Wrap tests with fixtures in freeze_time",
+   "dev_url":"https://github.com/ktosiek/pytest-freezegun",
+   "home":"https://github.com/ktosiek/pytest-freezegun",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"LICENSE",
+   "summary":"Wrap tests with fixtures in freeze_time"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . --no-deps --ignore-installed -vv "
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "duncanmmacleod",
+    "duncanmmacleod",
+    "duncanmmacleod"
+   ]
+  },
+  "package":{
+   "name":"pytest-freezegun",
+   "version":"0.4.1"
+  },
+  "requirements":{
+   "host":[
+    "pip",
+    "python",
+    "setuptools",
+    "pip",
+    "python",
+    "setuptools",
+    "pip",
+    "python",
+    "setuptools"
+   ],
+   "run":[
+    "freezegun >0.3",
+    "pytest >=3.0.0",
+    "python",
+    "freezegun >0.3",
+    "pytest >=3.0.0",
+    "python",
+    "freezegun >0.3",
+    "pytest >=3.0.0",
+    "python"
+   ]
+  },
+  "source":{
+   "sha256":"060cdf192848e50a4a681a5e73f8b544c4ee5ebc1fab3cb7223a0097bac2f83f",
+   "url":"https://pypi.io/packages/source/p/pytest-freezegun/pytest-freezegun-0.4.1.zip"
+  },
+  "test":{
+   "imports":[
+    "pytest_freezegun",
+    "pytest_freezegun",
+    "pytest_freezegun"
+   ]
+  }
+ },
+ "name":"pytest-freezegun",
+ "new_version":"0.4.1",
+ "pinning_version":"2020.01.27",
+ "raw_meta_yaml":"{% set name = \"pytest-freezegun\" %}\n{% set version = \"0.4.1\" %}\n\npackage:\n  name: \"{{ name|lower }}\"\n  version: \"{{ version }}\"\n\nsource:\n  url: \"https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.zip\"\n  sha256: 060cdf192848e50a4a681a5e73f8b544c4ee5ebc1fab3cb7223a0097bac2f83f\n\nbuild:\n  noarch: \"python\"\n  number: 0\n  script: \"{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv \"\n\nrequirements:\n  host:\n    - pip\n    - python\n    - setuptools\n  run:\n    - freezegun >0.3\n    - pytest >=3.0.0\n    - python\n\ntest:\n  imports:\n    - pytest_freezegun\n\nabout:\n  home: \"https://github.com/ktosiek/pytest-freezegun\"\n  license: \"MIT\"\n  license_family: \"MIT\"\n  license_file: \"LICENSE\"\n  summary: \"Wrap tests with fixtures in freeze_time\"\n  dev_url: \"https://github.com/ktosiek/pytest-freezegun\"\n  description: \"Wrap tests with fixtures in freeze_time\"\n\nextra:\n  recipe-maintainers:\n    - duncanmmacleod\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "freezegun",
+   "pip",
+   "pytest",
+   "python",
+   "setuptools"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python",
+    "setuptools"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "freezegun",
+    "pytest",
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.6.7",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python",
+    "setuptools"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "freezegun >0.3",
+    "pytest >=3.0.0",
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/p/pytest-freezegun/pytest-freezegun-0.3.0.post1.zip",
+ "version":"0.4.1"
+}

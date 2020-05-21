@@ -1,0 +1,129 @@
+{
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"rb-dig_rb",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "dev_url":"https://github.com/jrochkind/dig_rb",
+   "doc_url":"https://www.rubydoc.info/gems/dig_rb",
+   "home":"https://rubygems.org/gems/dig_rb",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"dig_rb-1.0.1/LICENSE.txt",
+   "summary":"Array/Hash/Struct#dig backfill for ruby"
+  },
+  "build":{
+   "noarch":"generic",
+   "number":"0",
+   "script":[
+    "gem install -N -l -V --norc --ignore-dependencies dig_rb-1.0.1.gem",
+    "gem unpack dig_rb-1.0.1.gem",
+    "gem install -N -l -V --norc --ignore-dependencies dig_rb-1.0.1.gem",
+    "gem unpack dig_rb-1.0.1.gem",
+    "gem install -N -l -V --norc --ignore-dependencies dig_rb-1.0.1.gem",
+    "gem unpack dig_rb-1.0.1.gem"
+   ],
+   "skip":null
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "oblute",
+    "benhuff",
+    "rluria14",
+    "sodre",
+    "oblute",
+    "benhuff",
+    "rluria14",
+    "sodre",
+    "oblute",
+    "benhuff",
+    "rluria14",
+    "sodre"
+   ]
+  },
+  "package":{
+   "name":"rb-dig_rb",
+   "version":"1.0.1"
+  },
+  "requirements":{
+   "host":[
+    "ruby",
+    "ruby",
+    "ruby"
+   ],
+   "run":[
+    "ruby",
+    "ruby",
+    "ruby"
+   ]
+  },
+  "source":{
+   "sha256":"a4afc359a5be0a41509b86526e8a4f88432295d44b7fe1fdf9296f416f58ab89",
+   "url":"https://rubygems.org/downloads/dig_rb-1.0.1.gem"
+  },
+  "test":{
+   "commands":[
+    "ruby -r dig_rb -e 'exit 0'",
+    "ruby -r dig_rb -e 'exit 0'",
+    "ruby -r dig_rb -e 'exit 0'"
+   ]
+  }
+ },
+ "name":"rb-dig_rb",
+ "new_version":false,
+ "raw_meta_yaml":"{% set name = \"dig_rb\" %}\n{% set version = \"1.0.1\" %}\n\npackage:\n  name: rb-{{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://rubygems.org/downloads/{{ name }}-{{ version }}.gem\n  sha256: a4afc359a5be0a41509b86526e8a4f88432295d44b7fe1fdf9296f416f58ab89\n\nbuild:\n  noarch: generic\n  number: 0\n  script:\n    - gem install -N -l -V --norc --ignore-dependencies {{ name }}-{{ version }}.gem\n    - gem unpack {{ name }}-{{ version }}.gem\n  skip: {{ win }}\n\nrequirements:\n  host:\n    - ruby\n  run:\n    - ruby\n\ntest:\n  commands:\n    - ruby -r {{ name }} -e 'exit 0'\n\nabout:\n  home: https://rubygems.org/gems/{{ name }}\n  license: MIT\n  license_family: MIT\n  license_file: {{ name }}-{{ version }}/LICENSE.txt\n  summary: Array/Hash/Struct#dig backfill for ruby\n  doc_url: https://www.rubydoc.info/gems/{{ name }}\n  dev_url: https://github.com/jrochkind/dig_rb\n\nextra:\n  recipe-maintainers:\n    - oblute\n    - benhuff\n    - rluria14\n    - sodre\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "ruby"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "ruby"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "ruby"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "ruby"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "ruby"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://rubygems.org/downloads/dig_rb-1.0.1.gem",
+ "version":"1.0.1"
+}

@@ -1,0 +1,176 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/370638845.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/371150349.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.3.3"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"rb-msgpack",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "dev_url":"https://github.com/msgpack/msgpack-ruby",
+   "doc_url":"https://www.rubydoc.info/gems/msgpack",
+   "home":"https://rubygems.org/gems/msgpack",
+   "license":"Apache-2.0",
+   "license_family":"APACHE",
+   "license_file":"msgpack-1.3.3/LICENSE",
+   "summary":"MessagePack is a binary-based efficient object serialization library.\nIt enables to exchange structured objects between many languages like JSON.\nBut unlike JSON, it is very fast and small.\n"
+  },
+  "build":{
+   "number":"0",
+   "script":[
+    "gem install -N -l -V --norc --ignore-dependencies msgpack-1.3.3.gem",
+    "gem unpack msgpack-1.3.3.gem",
+    "make -C /lib/ruby/gems/.0/gems/msgpack-1.3.3/ext/msgpack clean",
+    "gem install -N -l -V --norc --ignore-dependencies msgpack-1.3.3.gem",
+    "gem unpack msgpack-1.3.3.gem",
+    "make -C /lib/ruby/gems/.0/gems/msgpack-1.3.3/ext/msgpack clean",
+    "gem install -N -l -V --norc --ignore-dependencies msgpack-1.3.3.gem",
+    "gem unpack msgpack-1.3.3.gem",
+    "make -C /lib/ruby/gems/.0/gems/msgpack-1.3.3/ext/msgpack clean"
+   ],
+   "skip":null
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "oblute",
+    "rluria14",
+    "sodre",
+    "oblute",
+    "rluria14",
+    "sodre",
+    "oblute",
+    "rluria14",
+    "sodre"
+   ]
+  },
+  "package":{
+   "name":"rb-msgpack",
+   "version":"1.3.3"
+  },
+  "requirements":{
+   "build":[
+    "c_compiler_stub",
+    "c_compiler_stub",
+    "c_compiler_stub"
+   ],
+   "host":[
+    "ruby",
+    "ruby",
+    "ruby"
+   ],
+   "run":[
+    "ruby",
+    "ruby",
+    "ruby"
+   ]
+  },
+  "source":{
+   "sha256":"30aa967022cf6e937bd6ac6d09080b283ea249a5c4e2352a50ae92b5e7326ad3",
+   "url":"https://rubygems.org/downloads/msgpack-1.3.3.gem"
+  },
+  "test":{
+   "commands":[
+    "ruby -r msgpack -e 'exit 0'",
+    "ruby -r msgpack -e 'exit 0'",
+    "ruby -r msgpack -e 'exit 0'"
+   ]
+  }
+ },
+ "name":"rb-msgpack",
+ "new_version":"1.3.3",
+ "pinning_version":"2020.01.27",
+ "raw_meta_yaml":"{% set name = \"msgpack\" %}\n{% set version = \"1.3.3\" %}\n\npackage:\n  name: rb-{{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://rubygems.org/downloads/{{ name }}-{{ version }}.gem\n  sha256: 30aa967022cf6e937bd6ac6d09080b283ea249a5c4e2352a50ae92b5e7326ad3\n\nbuild:\n  number: 0\n  script:\n    - gem install -N -l -V --norc --ignore-dependencies {{ name }}-{{ version }}.gem\n    - gem unpack {{ name }}-{{ version }}.gem\n    - make -C {{ PREFIX }}/lib/ruby/gems/{{ ruby }}.0/gems/{{ name }}-{{ version }}/ext/{{ name }} clean\n  skip: {{ win }}\n\nrequirements:\n  build:\n    - {{ compiler('c') }}\n  host:\n    - ruby\n  run:\n    - ruby\n\ntest:\n  commands:\n    - ruby -r {{ name }} -e 'exit 0'\n\nabout:\n  home: https://rubygems.org/gems/{{ name }}\n  license: Apache-2.0\n  license_family: APACHE\n  license_file: {{ name }}-{{ version }}/LICENSE\n  summary: |\n    MessagePack is a binary-based efficient object serialization library.\n    It enables to exchange structured objects between many languages like JSON.\n    But unlike JSON, it is very fast and small.\n  doc_url: https://www.rubydoc.info/gems/{{ name }}\n  dev_url: https://github.com/msgpack/msgpack-ruby\n\nextra:\n  recipe-maintainers:\n    - oblute\n    - rluria14\n    - sodre\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "c_compiler_stub",
+   "ruby"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "ruby"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "ruby"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.6.7",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "ruby"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "ruby"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://rubygems.org/downloads/msgpack-1.3.1.gem",
+ "version":"1.3.3"
+}

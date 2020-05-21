@@ -1,0 +1,390 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/312970017.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.4.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/387008235.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.0.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"formulas",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "doc_url":"https://formulas.readthedocs.io",
+   "home":"https://github.com/vinci1it2000/formulas",
+   "license":"EUPL-1.1",
+   "license_family":"OTHER",
+   "license_file":"LICENSE.txt",
+   "summary":"Parse and compile Excel formulas and workbooks in python code."
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":"-m pip install . --no-deps -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "bollwyvl",
+    "bollwyvl",
+    "bollwyvl"
+   ]
+  },
+  "package":{
+   "name":"formulas",
+   "version":"1.0.0"
+  },
+  "requirements":{
+   "host":[
+    "ddt",
+    "docutils",
+    "flask",
+    "jinja2",
+    "multiprocess",
+    "nose",
+    "numpy >=1.15",
+    "openpyxl",
+    "pip",
+    "pygments",
+    "python >=3",
+    "python-graphviz",
+    "regex",
+    "requests",
+    "schedula >=1.1.1",
+    "sphinx",
+    "sphinx_rtd_theme",
+    "sphinxcontrib-restbuilder",
+    "ddt",
+    "docutils",
+    "flask",
+    "jinja2",
+    "multiprocess",
+    "nose",
+    "numpy >=1.15",
+    "openpyxl",
+    "pip",
+    "pygments",
+    "python >=3",
+    "python-graphviz",
+    "regex",
+    "requests",
+    "schedula >=1.1.1",
+    "sphinx",
+    "sphinx_rtd_theme",
+    "sphinxcontrib-restbuilder",
+    "ddt",
+    "docutils",
+    "flask",
+    "jinja2",
+    "multiprocess",
+    "nose",
+    "numpy >=1.15",
+    "openpyxl",
+    "pip",
+    "pygments",
+    "python >=3",
+    "python-graphviz",
+    "regex",
+    "requests",
+    "schedula >=1.1.1",
+    "sphinx",
+    "sphinx_rtd_theme",
+    "sphinxcontrib-restbuilder"
+   ],
+   "run":[
+    "numpy >=1.15",
+    "python >=3",
+    "python-dateutil",
+    "regex",
+    "schedula >=1.1.1",
+    "numpy >=1.15",
+    "python >=3",
+    "python-dateutil",
+    "regex",
+    "schedula >=1.1.1",
+    "numpy >=1.15",
+    "python >=3",
+    "python-dateutil",
+    "regex",
+    "schedula >=1.1.1"
+   ]
+  },
+  "source":{
+   "sha256":"49c5019d0609968ba76931c5fdb4e668bb105ffcd10ce3ca365a840e4041a424",
+   "url":"https://github.com/vinci1it2000/formulas/archive/v1.0.0.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "del test\\test_readme.py test\\test_setup.py",
+    "nosetests",
+    "python -m pip check",
+    "rm test/test_readme.py test/test_setup.py",
+    "nosetests",
+    "python -m pip check",
+    "rm test/test_readme.py test/test_setup.py",
+    "nosetests",
+    "python -m pip check"
+   ],
+   "imports":[
+    "formulas",
+    "formulas",
+    "formulas"
+   ],
+   "requires":[
+    "ddt",
+    "dill",
+    "docutils",
+    "flask",
+    "jinja2",
+    "multiprocess",
+    "nose",
+    "numpy >=1.15",
+    "openpyxl",
+    "pip",
+    "pygments",
+    "python >=3",
+    "python-graphviz <0.10.1",
+    "regex",
+    "requests",
+    "schedula >=0.3.1",
+    "sphinx",
+    "sphinx_rtd_theme",
+    "sphinxcontrib-restbuilder",
+    "ddt",
+    "dill",
+    "docutils",
+    "flask",
+    "jinja2",
+    "multiprocess",
+    "nose",
+    "numpy >=1.15",
+    "openpyxl",
+    "pip",
+    "pygments",
+    "python >=3",
+    "python-graphviz <0.10.1",
+    "regex",
+    "requests",
+    "schedula >=0.3.1",
+    "sphinx",
+    "sphinx_rtd_theme",
+    "sphinxcontrib-restbuilder",
+    "ddt",
+    "dill",
+    "docutils",
+    "flask",
+    "jinja2",
+    "multiprocess",
+    "nose",
+    "numpy >=1.15",
+    "openpyxl",
+    "pip",
+    "pygments",
+    "python >=3",
+    "python-graphviz <0.10.1",
+    "regex",
+    "requests",
+    "schedula >=0.3.1",
+    "sphinx",
+    "sphinx_rtd_theme",
+    "sphinxcontrib-restbuilder"
+   ],
+   "source_files":[
+    "setup.cfg",
+    "test",
+    "setup.cfg",
+    "test",
+    "setup.cfg",
+    "test"
+   ]
+  }
+ },
+ "name":"formulas",
+ "new_version":"1.0.0",
+ "pinning_version":"2020.03.10",
+ "raw_meta_yaml":"{% set name = \"formulas\" %}\n{% set version = \"1.0.0\" %}\n\npackage:\n  name: {{ name }}\n  version: {{ version }}\n\nsource:\n  url: https://github.com/vinci1it2000/{{ name }}/archive/v{{ version }}.tar.gz\n  sha256: 49c5019d0609968ba76931c5fdb4e668bb105ffcd10ce3ca365a840e4041a424\n\nbuild:\n  noarch: python\n  number: 0\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  host:\n    - ddt\n    - docutils\n    - flask\n    - jinja2\n    - multiprocess\n    - nose\n    - numpy >=1.15\n    - openpyxl\n    - pip\n    - pygments\n    - python >=3\n    - python-graphviz\n    - regex\n    - requests\n    - schedula >=1.1.1\n    - sphinx\n    - sphinx_rtd_theme\n    - sphinxcontrib-restbuilder\n  run:\n    - numpy >=1.15\n    - python >=3\n    - python-dateutil\n    - regex\n    - schedula >=1.1.1\n\ntest:\n  source_files:\n    - setup.cfg\n    - test\n  requires:\n    - ddt\n    - dill\n    - docutils\n    - flask\n    - jinja2\n    - multiprocess\n    - nose\n    - numpy >=1.15\n    - openpyxl\n    - pip\n    - pygments\n    - python >=3\n    - python-graphviz <0.10.1\n    - regex\n    - requests\n    - schedula >=0.3.1\n    - sphinx\n    - sphinx_rtd_theme\n    - sphinxcontrib-restbuilder\n  imports:\n    - formulas\n  commands:\n    - rm test/test_readme.py test/test_setup.py  # [unix]\n    - del test\\test_readme.py test\\test_setup.py  # [win]\n    - nosetests\n    - python -m pip check\n\nabout:\n  home: https://github.com/vinci1it2000/formulas\n  license: EUPL-1.1\n  license_family: OTHER\n  license_file: LICENSE.txt\n  summary: Parse and compile Excel formulas and workbooks in python code.\n  doc_url: https://formulas.readthedocs.io\n\nextra:\n  recipe-maintainers:\n    - bollwyvl\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "ddt",
+   "docutils",
+   "flask",
+   "jinja2",
+   "multiprocess",
+   "nose",
+   "numpy",
+   "openpyxl",
+   "pip",
+   "pygments",
+   "python",
+   "python-dateutil",
+   "python-graphviz",
+   "regex",
+   "requests",
+   "schedula",
+   "sphinx",
+   "sphinx_rtd_theme",
+   "sphinxcontrib-restbuilder"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "ddt",
+    "docutils",
+    "flask",
+    "jinja2",
+    "multiprocess",
+    "nose",
+    "numpy",
+    "openpyxl",
+    "pip",
+    "pygments",
+    "python",
+    "python-graphviz",
+    "regex",
+    "requests",
+    "schedula",
+    "sphinx",
+    "sphinx_rtd_theme",
+    "sphinxcontrib-restbuilder"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "numpy",
+    "python",
+    "python-dateutil",
+    "regex",
+    "schedula"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "ddt",
+    "dill",
+    "docutils",
+    "flask",
+    "jinja2",
+    "multiprocess",
+    "nose",
+    "numpy",
+    "openpyxl",
+    "pip",
+    "pygments",
+    "python",
+    "python-graphviz",
+    "regex",
+    "requests",
+    "schedula",
+    "sphinx",
+    "sphinx_rtd_theme",
+    "sphinxcontrib-restbuilder"
+   ]
+  }
+ },
+ "smithy_version":"3.6.12",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "ddt",
+    "docutils",
+    "flask",
+    "jinja2",
+    "multiprocess",
+    "nose",
+    "numpy >=1.15",
+    "openpyxl",
+    "pip",
+    "pygments",
+    "python >=3",
+    "python-graphviz",
+    "regex",
+    "requests",
+    "schedula >=1.1.1",
+    "sphinx",
+    "sphinx_rtd_theme",
+    "sphinxcontrib-restbuilder"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "numpy >=1.15",
+    "python >=3",
+    "python-dateutil",
+    "regex",
+    "schedula >=1.1.1"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "ddt",
+    "dill",
+    "docutils",
+    "flask",
+    "jinja2",
+    "multiprocess",
+    "nose",
+    "numpy >=1.15",
+    "openpyxl",
+    "pip",
+    "pygments",
+    "python >=3",
+    "python-graphviz <0.10.1",
+    "regex",
+    "requests",
+    "schedula >=0.3.1",
+    "sphinx",
+    "sphinx_rtd_theme",
+    "sphinxcontrib-restbuilder"
+   ]
+  }
+ },
+ "url":"https://github.com/vinci1it2000/formulas/archive/v0.4.0.tar.gz",
+ "version":"1.0.0"
+}

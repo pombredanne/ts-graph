@@ -1,0 +1,144 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/374677386.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MatplotlibBase",
+    "migrator_version":0
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"mpltern",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"Mpltern is a Python plotting library based on Matplotlib specifically designed for ternary plots. Mpltern is implemented as a new projection for Matplotlib, with introducing e.g. new Transform classes for ternary plots.\n",
+   "dev_url":"https://github.com/yuzie007/mpltern",
+   "doc_url":"https://yuzie007.github.io/mpltern",
+   "home":"https://yuzie007.github.io/mpltern",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"LICENSE",
+   "summary":"Ternary plots as projections of Matplotlib"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"1",
+   "script":" -m pip install . -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "yuzie007",
+    "yuzie007",
+    "yuzie007"
+   ]
+  },
+  "package":{
+   "name":"mpltern",
+   "version":"0.3.0"
+  },
+  "requirements":{
+   "host":[
+    "python >=3.0",
+    "pip",
+    "python >=3.0",
+    "pip",
+    "python >=3.0",
+    "pip"
+   ],
+   "run":[
+    "python >=3.0",
+    "matplotlib-base >=3.1.1",
+    "python >=3.0",
+    "matplotlib-base >=3.1.1",
+    "python >=3.0",
+    "matplotlib-base >=3.1.1"
+   ]
+  },
+  "source":{
+   "sha256":"157e20bf386dcc72b938703442a851fd265cc89192e044f2815ce28892d40e93",
+   "url":"https://pypi.io/packages/source/m/mpltern/mpltern-0.3.0.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "mpltern",
+    "mpltern",
+    "mpltern"
+   ]
+  }
+ },
+ "name":"mpltern",
+ "new_version":"0.3.0",
+ "pinning_version":"2020.02.12",
+ "raw_meta_yaml":"{% set name = \"mpltern\" %}\n{% set version = \"0.3.0\" %}\n{% set sha256 = \"157e20bf386dcc72b938703442a851fd265cc89192e044f2815ce28892d40e93\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 1\n  script: \"{{ PYTHON }} -m pip install . -vv\"\n\nrequirements:\n  host:\n    - python >=3.0\n    - pip\n  run:\n    - python >=3.0\n    - matplotlib-base >=3.1.1\n\ntest:\n  imports:\n    - mpltern\n\nabout:\n  home: https://yuzie007.github.io/mpltern\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE\n  summary: 'Ternary plots as projections of Matplotlib'\n\n  description: |\n    Mpltern is a Python plotting library based on Matplotlib specifically designed for ternary plots. Mpltern is implemented as a new projection for Matplotlib, with introducing e.g. new Transform classes for ternary plots.\n\n  doc_url: https://yuzie007.github.io/mpltern\n  dev_url: https://github.com/yuzie007/mpltern\n\nextra:\n  recipe-maintainers:\n    - yuzie007\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "matplotlib-base",
+   "pip",
+   "python"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "matplotlib-base",
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.6.8",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3.0"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "matplotlib-base >=3.1.1",
+    "python >=3.0"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/m/mpltern/mpltern-0.3.0.tar.gz",
+ "version":"0.3.0"
+}

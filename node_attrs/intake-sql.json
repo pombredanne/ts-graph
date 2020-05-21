@@ -1,0 +1,140 @@
+{
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"intake-sql",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"https://github.com/ContinuumIO/intake-sql",
+   "license":"BSD-2-Clause",
+   "license_file":"LICENSE",
+   "summary":"SQL table and catalog plugins for Intake"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":"  -m pip install . --no-deps --ignore-installed -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "martindurant",
+    "martindurant",
+    "martindurant"
+   ]
+  },
+  "package":{
+   "name":"intake-sql",
+   "version":"0.2.0"
+  },
+  "requirements":{
+   "host":[
+    "python >=3.5",
+    "pip",
+    "jinja2",
+    "python >=3.5",
+    "pip",
+    "jinja2",
+    "python >=3.5",
+    "pip",
+    "jinja2"
+   ],
+   "run":[
+    "python >=3.5",
+    "intake >=0.3",
+    "pandas",
+    "sqlalchemy",
+    "python >=3.5",
+    "intake >=0.3",
+    "pandas",
+    "sqlalchemy",
+    "python >=3.5",
+    "intake >=0.3",
+    "pandas",
+    "sqlalchemy"
+   ]
+  },
+  "source":{
+   "fn":"intake-sql-0.2.0.tar.gz",
+   "sha256":"04e152dc5b5fdc428f08c348a559b303d452607bbfa2fdca645a7192f0328429",
+   "url":"https://pypi.io/packages/source/i/intake-sql/intake-sql-0.2.0.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "intake_sql",
+    "intake_sql",
+    "intake_sql"
+   ]
+  }
+ },
+ "name":"intake-sql",
+ "new_version":"0.2.0",
+ "raw_meta_yaml":"{% set version = \"0.2.0\" %}\n{% set name = \"intake-sql\" %}\n{% set sha256 = \"04e152dc5b5fdc428f08c348a559b303d452607bbfa2fdca645a7192f0328429\" %}\n\npackage:\n   name: {{ name }}\n   version: {{ version }}\n\nsource:\n  fn: {{ name }}-{{ version }}.tar.gz\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  noarch: python\n  script: \"{{ PYTHON }}  -m pip install . --no-deps --ignore-installed -vv\"\n\nrequirements:\n  host:\n    - python >=3.5\n    - pip\n    - jinja2\n  run:\n    - python >=3.5\n    - intake >=0.3\n    - pandas\n    - sqlalchemy\n\ntest:\n  imports:\n    - intake_sql\n\nabout:\n  home: https://github.com/ContinuumIO/intake-sql\n  license: BSD-2-Clause\n  license_file: LICENSE\n  summary: SQL table and catalog plugins for Intake\n\nextra:\n  recipe-maintainers:\n    - martindurant\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "intake",
+   "jinja2",
+   "pandas",
+   "pip",
+   "python",
+   "sqlalchemy"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "jinja2",
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "intake",
+    "pandas",
+    "python",
+    "sqlalchemy"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "jinja2",
+    "pip",
+    "python >=3.5"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "intake >=0.3",
+    "pandas",
+    "python >=3.5",
+    "sqlalchemy"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/i/intake-sql/intake-sql-0.2.0.tar.gz",
+ "version":"0.2.0"
+}

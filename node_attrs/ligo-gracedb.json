@@ -1,0 +1,376 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/218088727.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.0.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/219903509.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.0.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/235944723.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.1.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/237813357.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.1.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.1.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/256927526.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.2.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/257633140.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.2.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/264219550.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.2.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/306589742.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.3.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/310216288.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.4.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/345422083.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.5.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"ligo-gracedb",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"The gravitational-wave candidate event database (GraceDB) is a prototype\nsystem to organize candidate events from gravitational-wave searches and\nto provide an environment to record information about follow-ups. A simple\nclient tool is provided to submit a candidate event to the database.\n",
+   "dev_url":"https://git.ligo.org/lscsoft/gracedb-client",
+   "doc_url":"https://ligo-gracedb.readthedocs.io/",
+   "home":"https://ligo-gracedb.readthedocs.io/",
+   "license":"GPL-3.0-or-later",
+   "license_family":"GPL",
+   "license_file":"LICENSE",
+   "summary":"Gravitational Wave Candidate Event Database"
+  },
+  "build":{
+   "entry_points":[
+    "gracedb = ligo.gracedb.cli.client:main",
+    "gracedb_legacy = ligo.gracedb.legacy_cli:main",
+    "gracedb = ligo.gracedb.cli.client:main",
+    "gracedb_legacy = ligo.gracedb.legacy_cli:main",
+    "gracedb = ligo.gracedb.cli.client:main",
+    "gracedb_legacy = ligo.gracedb.legacy_cli:main"
+   ],
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "aepace",
+    "duncanmmacleod",
+    "aepace",
+    "duncanmmacleod",
+    "aepace",
+    "duncanmmacleod"
+   ]
+  },
+  "package":{
+   "name":"ligo-gracedb",
+   "version":"2.5.0"
+  },
+  "requirements":{
+   "host":[
+    "pip",
+    "python",
+    "setuptools",
+    "pip",
+    "python",
+    "setuptools",
+    "pip",
+    "python",
+    "setuptools"
+   ],
+   "run":[
+    "cryptography >=1.7.2",
+    "future >=0.15.0",
+    "ligo-common",
+    "python",
+    "six >=1.9.0",
+    "cryptography >=1.7.2",
+    "future >=0.15.0",
+    "ligo-common",
+    "python",
+    "six >=1.9.0",
+    "cryptography >=1.7.2",
+    "future >=0.15.0",
+    "ligo-common",
+    "python",
+    "six >=1.9.0"
+   ]
+  },
+  "source":{
+   "sha256":"d632f9ec5a04e2b954e9a16d97a5041567ab0e75026ef48ea5bda56f5ff00bc7",
+   "url":"https://pypi.io/packages/source/l/ligo-gracedb/ligo-gracedb-2.5.0.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "gracedb --help",
+    "gracedb_legacy --help",
+    "gracedb search superevents \"far<1e-9\" --columns superevent_id,far,labels --force-noauth || true",
+    "python -m pytest --pyargs ligo.gracedb -m \"not integration\"",
+    "gracedb --help",
+    "gracedb_legacy --help",
+    "gracedb search superevents \"far<1e-9\" --columns superevent_id,far,labels --force-noauth || true",
+    "python -m pytest --pyargs ligo.gracedb -m \"not integration\"",
+    "gracedb --help",
+    "gracedb_legacy --help",
+    "gracedb search superevents \"far<1e-9\" --columns superevent_id,far,labels --force-noauth || true",
+    "python -m pytest --pyargs ligo.gracedb -m \"not integration\""
+   ],
+   "imports":[
+    "ligo.gracedb.rest",
+    "ligo.gracedb.rest",
+    "ligo.gracedb.rest"
+   ],
+   "requires":[
+    "pytest",
+    "python >=3.6",
+    "pytest",
+    "python >=3.6",
+    "pytest",
+    "python >=3.6"
+   ]
+  }
+ },
+ "name":"ligo-gracedb",
+ "new_version":"2.5.0",
+ "pinning_version":"2019.11.20",
+ "raw_meta_yaml":"{% set name = \"ligo-gracedb\" %}\n{% set version = \"2.5.0\" %}\n{% set sha256 = \"d632f9ec5a04e2b954e9a16d97a5041567ab0e75026ef48ea5bda56f5ff00bc7\" %}\n\npackage:\n  name: \"{{ name|lower }}\"\n  version: \"{{ version }}\"\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  noarch: python\n  script: \"{{ PYTHON }} -m pip install . -vv\"\n  entry_points:\n    - gracedb = ligo.gracedb.cli.client:main\n    - gracedb_legacy = ligo.gracedb.legacy_cli:main\n\nrequirements:\n  host:\n    - pip\n    - python\n    - setuptools\n  run:\n    - cryptography >=1.7.2\n    - future >=0.15.0\n    - ligo-common\n    - python\n    - six >=1.9.0\n\ntest:\n  imports:\n    - ligo.gracedb.rest\n  requires:\n    - pytest\n    - python >=3.6\n  commands:\n    # basic test\n    - gracedb --help\n    - gracedb_legacy --help\n    # run actual query against database (but don't fail just incase service isn't available)\n    - gracedb search superevents \"far<1e-9\" --columns superevent_id,far,labels --force-noauth || true\n    # run test suite (without integration tests, which require network)\n    - python -m pytest --pyargs ligo.gracedb -m \"not integration\"\n\nabout:\n  home: \"https://ligo-gracedb.readthedocs.io/\"\n  doc_url: \"https://ligo-gracedb.readthedocs.io/\"\n  dev_url: \"https://git.ligo.org/lscsoft/gracedb-client\"\n  license: \"GPL-3.0-or-later\"\n  license_family: \"GPL\"\n  license_file: \"LICENSE\"\n  summary: \"Gravitational Wave Candidate Event Database\"\n  description: |\n    The gravitational-wave candidate event database (GraceDB) is a prototype\n    system to organize candidate events from gravitational-wave searches and\n    to provide an environment to record information about follow-ups. A simple\n    client tool is provided to submit a candidate event to the database.\n\nextra:\n  recipe-maintainers:\n    - aepace\n    - duncanmmacleod\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "cryptography",
+   "future",
+   "ligo-common",
+   "pip",
+   "python",
+   "setuptools",
+   "six"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python",
+    "setuptools"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "cryptography",
+    "future",
+    "ligo-common",
+    "python",
+    "six"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "pytest",
+    "python"
+   ]
+  }
+ },
+ "smithy_version":"3.6.2",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python",
+    "setuptools"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "cryptography >=1.7.2",
+    "future >=0.15.0",
+    "ligo-common",
+    "python",
+    "six >=1.9.0"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "pytest",
+    "python >=3.6"
+   ]
+  }
+ },
+ "url":"https://pypi.io/packages/source/l/ligo-gracedb/ligo-gracedb-2.3.0.tar.gz",
+ "version":"2.5.0"
+}

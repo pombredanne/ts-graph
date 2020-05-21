@@ -1,0 +1,639 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/287567279.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.2.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/289259461.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.2.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/289959443.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.2.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/307543053.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.2.3"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/309723949.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.2.5"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/320132837.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.2.6"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/323538862.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.2.7"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/332301470.json"
+   },
+   "data":{
+    "bot_rerun":1579272528.7686756,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.3.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/332376016.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.3.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/333365524.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.3.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/340158907.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/345506579.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.3.3"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/347442902.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.3.4"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/349770350.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.3.5"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/352568085.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.3.6"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/356510088.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.3.7"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/358920849.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.3.8"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/368891323.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.3.9"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/381154122.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.3.10"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/417089506.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.3.12"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"bilby_pipe",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"A package for automating transient gravitational wave parameter estimation\n",
+   "dev_url":"https://git.ligo.org/lscsoft/bilby_pipe/",
+   "doc_url":"https://lscsoft.docs.ligo.org/bilby_pipe/",
+   "home":"https://lscsoft.docs.ligo.org/bilby_pipe/",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"LICENSE",
+   "summary":"Automating the running of bilby for gravitational wave signals"
+  },
+  "build":{
+   "entry_points":[
+    "bilby_pipe = bilby_pipe.main:main",
+    "bilby_pipe_analysis = bilby_pipe.data_analysis:main",
+    "bilby_pipe_create_injection_file = bilby_pipe.create_injections:main",
+    "bilby_pipe_generation = bilby_pipe.data_generation:main",
+    "bilby_pipe_gracedb = bilby_pipe.gracedb:main",
+    "bilby_pipe_plot = bilby_pipe.plot:main",
+    "bilby_pipe_pp_test = bilby_pipe.pp_test:main",
+    "bilby_pipe_review = bilby_pipe.review:main",
+    "bilby_pipe_write_default_ini = bilby_pipe.parser:main",
+    "bilby_pipe_xml_converter = bilby_pipe.xml_converter:main",
+    "bilby_pipe = bilby_pipe.main:main",
+    "bilby_pipe_analysis = bilby_pipe.data_analysis:main",
+    "bilby_pipe_create_injection_file = bilby_pipe.create_injections:main",
+    "bilby_pipe_generation = bilby_pipe.data_generation:main",
+    "bilby_pipe_gracedb = bilby_pipe.gracedb:main",
+    "bilby_pipe_plot = bilby_pipe.plot:main",
+    "bilby_pipe_pp_test = bilby_pipe.pp_test:main",
+    "bilby_pipe_review = bilby_pipe.review:main",
+    "bilby_pipe_write_default_ini = bilby_pipe.parser:main",
+    "bilby_pipe_xml_converter = bilby_pipe.xml_converter:main",
+    "bilby_pipe = bilby_pipe.main:main",
+    "bilby_pipe_analysis = bilby_pipe.data_analysis:main",
+    "bilby_pipe_create_injection_file = bilby_pipe.create_injections:main",
+    "bilby_pipe_generation = bilby_pipe.data_generation:main",
+    "bilby_pipe_gracedb = bilby_pipe.gracedb:main",
+    "bilby_pipe_plot = bilby_pipe.plot:main",
+    "bilby_pipe_pp_test = bilby_pipe.pp_test:main",
+    "bilby_pipe_review = bilby_pipe.review:main",
+    "bilby_pipe_write_default_ini = bilby_pipe.parser:main",
+    "bilby_pipe_xml_converter = bilby_pipe.xml_converter:main"
+   ],
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . -vv "
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "duncanmmacleod",
+    "GregoryAshton",
+    "duncanmmacleod",
+    "GregoryAshton",
+    "duncanmmacleod",
+    "GregoryAshton"
+   ]
+  },
+  "package":{
+   "name":"bilby_pipe",
+   "version":"0.3.10"
+  },
+  "requirements":{
+   "host":[
+    "pip",
+    "python >=3.5",
+    "setuptools",
+    "pip",
+    "python >=3.5",
+    "setuptools",
+    "pip",
+    "python >=3.5",
+    "setuptools"
+   ],
+   "run":[
+    "bilby >=0.6.4",
+    "configargparse",
+    "dynesty >=1.0.0",
+    "future",
+    "gwpy",
+    "jinja2",
+    "ligo-gracedb",
+    "matplotlib-base",
+    "numpy",
+    "pesummary >=0.2.4",
+    "pycondor >=0.5",
+    "python >=3.5",
+    "python-ldas-tools-framecpp",
+    "python-nds2-client",
+    "scipy >=1.2.0",
+    "tqdm",
+    "bilby >=0.6.4",
+    "configargparse",
+    "dynesty >=1.0.0",
+    "future",
+    "gwpy",
+    "jinja2",
+    "ligo-gracedb",
+    "matplotlib-base",
+    "numpy",
+    "pesummary >=0.2.4",
+    "pycondor >=0.5",
+    "python >=3.5",
+    "python-ldas-tools-framecpp",
+    "python-nds2-client",
+    "scipy >=1.2.0",
+    "tqdm",
+    "bilby >=0.6.4",
+    "configargparse",
+    "dynesty >=1.0.0",
+    "future",
+    "gwpy",
+    "jinja2",
+    "ligo-gracedb",
+    "matplotlib-base",
+    "numpy",
+    "pesummary >=0.2.4",
+    "pycondor >=0.5",
+    "python >=3.5",
+    "python-ldas-tools-framecpp",
+    "python-nds2-client",
+    "scipy >=1.2.0",
+    "tqdm"
+   ]
+  },
+  "source":{
+   "sha256":"219f9124fc7968fd9fa0b1671e29db1f6d87aaa4c6c300e9c019e2f8610d7f0a",
+   "url":"https://pypi.io/packages/source/b/bilby_pipe/bilby_pipe-0.3.10.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "bilby_pipe --help",
+    "bilby_pipe_analysis --help",
+    "bilby_pipe_create_injection_file --help",
+    "bilby_pipe_generation --help",
+    "bilby_pipe_gracedb --help",
+    "bilby_pipe_plot --help",
+    "bilby_pipe_pp_test --help",
+    "bilby_pipe_review --help",
+    "bilby_pipe_write_default_ini --help",
+    "bilby_pipe_xml_converter --help",
+    "bilby_pipe --help",
+    "bilby_pipe_analysis --help",
+    "bilby_pipe_create_injection_file --help",
+    "bilby_pipe_generation --help",
+    "bilby_pipe_gracedb --help",
+    "bilby_pipe_plot --help",
+    "bilby_pipe_pp_test --help",
+    "bilby_pipe_review --help",
+    "bilby_pipe_write_default_ini --help",
+    "bilby_pipe_xml_converter --help",
+    "bilby_pipe --help",
+    "bilby_pipe_analysis --help",
+    "bilby_pipe_create_injection_file --help",
+    "bilby_pipe_generation --help",
+    "bilby_pipe_gracedb --help",
+    "bilby_pipe_plot --help",
+    "bilby_pipe_pp_test --help",
+    "bilby_pipe_review --help",
+    "bilby_pipe_write_default_ini --help",
+    "bilby_pipe_xml_converter --help"
+   ],
+   "imports":[
+    "bilby_pipe",
+    "bilby_pipe",
+    "bilby_pipe"
+   ],
+   "requires":[
+    "python-ligo-lw",
+    "python-ligo-lw",
+    "python-ligo-lw"
+   ]
+  }
+ },
+ "name":"bilby_pipe",
+ "new_version":"0.3.12",
+ "new_version_attempts":{
+  "0.3.12":1
+ },
+ "new_version_errors":{},
+ "pinning_version":"2020.05.12.18.03.58",
+ "raw_meta_yaml":"{% set name = \"bilby_pipe\" %}\n{% set version = \"0.3.10\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: 219f9124fc7968fd9fa0b1671e29db1f6d87aaa4c6c300e9c019e2f8610d7f0a\n\nbuild:\n  entry_points:\n    - bilby_pipe = bilby_pipe.main:main\n    - bilby_pipe_analysis = bilby_pipe.data_analysis:main\n    - bilby_pipe_create_injection_file = bilby_pipe.create_injections:main\n    - bilby_pipe_generation = bilby_pipe.data_generation:main\n    - bilby_pipe_gracedb = bilby_pipe.gracedb:main\n    - bilby_pipe_plot = bilby_pipe.plot:main\n    - bilby_pipe_pp_test = bilby_pipe.pp_test:main\n    - bilby_pipe_review = bilby_pipe.review:main\n    - bilby_pipe_write_default_ini = bilby_pipe.parser:main\n    - bilby_pipe_xml_converter = bilby_pipe.xml_converter:main\n  noarch: python\n  number: 0\n  script: '{{ PYTHON }} -m pip install . -vv '\n\nrequirements:\n  host:\n    - pip\n    - python >=3.5\n    - setuptools\n  run:\n    - bilby >=0.6.4\n    - configargparse\n    - dynesty >=1.0.0\n    - future\n    - gwpy\n    - jinja2\n    - ligo-gracedb\n    - matplotlib-base\n    - numpy\n    - pesummary >=0.2.4\n    - pycondor >=0.5\n    - python >=3.5\n    - python-ldas-tools-framecpp\n    - python-nds2-client\n    - scipy >=1.2.0\n    - tqdm\n\ntest:\n  imports:\n    - bilby_pipe\n  requires:\n    # for bilby_pipe_xml_converter\n    - python-ligo-lw\n  commands:\n    - bilby_pipe --help\n    - bilby_pipe_analysis --help\n    - bilby_pipe_create_injection_file --help\n    - bilby_pipe_generation --help\n    - bilby_pipe_gracedb --help\n    - bilby_pipe_plot --help\n    - bilby_pipe_pp_test --help\n    - bilby_pipe_review --help\n    - bilby_pipe_write_default_ini --help\n    - bilby_pipe_xml_converter --help\n\nabout:\n  home: https://lscsoft.docs.ligo.org/bilby_pipe/\n  doc_url: https://lscsoft.docs.ligo.org/bilby_pipe/\n  dev_url: https://git.ligo.org/lscsoft/bilby_pipe/\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE\n  summary: Automating the running of bilby for gravitational wave signals\n  description: |\n    A package for automating transient gravitational wave parameter estimation\n\nextra:\n  recipe-maintainers:\n    - duncanmmacleod\n    - GregoryAshton\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "bilby",
+   "configargparse",
+   "dynesty",
+   "future",
+   "gwpy",
+   "jinja2",
+   "ligo-gracedb",
+   "matplotlib-base",
+   "numpy",
+   "pesummary",
+   "pip",
+   "pycondor",
+   "python",
+   "python-ldas-tools-framecpp",
+   "python-nds2-client",
+   "scipy",
+   "setuptools",
+   "tqdm"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python",
+    "setuptools"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "bilby",
+    "configargparse",
+    "dynesty",
+    "future",
+    "gwpy",
+    "jinja2",
+    "ligo-gracedb",
+    "matplotlib-base",
+    "numpy",
+    "pesummary",
+    "pycondor",
+    "python",
+    "python-ldas-tools-framecpp",
+    "python-nds2-client",
+    "scipy",
+    "tqdm"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "python-ligo-lw"
+   ]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.7.1\n",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3.5",
+    "setuptools"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "bilby >=0.6.4",
+    "configargparse",
+    "dynesty >=1.0.0",
+    "future",
+    "gwpy",
+    "jinja2",
+    "ligo-gracedb",
+    "matplotlib-base",
+    "numpy",
+    "pesummary >=0.2.4",
+    "pycondor >=0.5",
+    "python >=3.5",
+    "python-ldas-tools-framecpp",
+    "python-nds2-client",
+    "scipy >=1.2.0",
+    "tqdm"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "python-ligo-lw"
+   ]
+  }
+ },
+ "url":"https://pypi.io/packages/source/b/bilby_pipe/bilby_pipe-0.2.5.tar.gz",
+ "version":"0.3.10"
+}

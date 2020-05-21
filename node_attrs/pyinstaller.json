@@ -1,0 +1,402 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/214159836.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.4"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/220487653.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/295888764.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.5"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/336030924.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"python38"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/361115132.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.6"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/371963415.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"ArchRebuild",
+    "migrator_version":1,
+    "name":"aarch64 and ppc64le addition"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/061e1a78-ac1d-44af-90e0-3d0ce116f086.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"pypy"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "provider":{
+   "linux_aarch64":"azure",
+   "linux_ppc64le":"azure",
+   "win":"azure"
+  }
+ },
+ "feedstock_name":"pyinstaller",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"http://www.pyinstaller.org",
+   "license":"GPL-2.0-or-later",
+   "license_family":"GPL",
+   "license_file":"COPYING.txt",
+   "summary":"PyInstaller bundles a Python application and all its dependencies into a single package."
+  },
+  "build":{
+   "entry_points":[
+    "pyinstaller = PyInstaller.__main__:run",
+    "pyi-archive_viewer = PyInstaller.utils.cliutils.archive_viewer:run",
+    "pyi-bindepend = PyInstaller.utils.cliutils.bindepend:run",
+    "pyi-grab_version = PyInstaller.utils.cliutils.grab_version:run",
+    "pyi-makespec = PyInstaller.utils.cliutils.makespec:run",
+    "pyi-set_version = PyInstaller.utils.cliutils.set_version:run",
+    "pyinstaller = PyInstaller.__main__:run",
+    "pyi-archive_viewer = PyInstaller.utils.cliutils.archive_viewer:run",
+    "pyi-bindepend = PyInstaller.utils.cliutils.bindepend:run",
+    "pyi-grab_version = PyInstaller.utils.cliutils.grab_version:run",
+    "pyi-makespec = PyInstaller.utils.cliutils.makespec:run",
+    "pyi-set_version = PyInstaller.utils.cliutils.set_version:run",
+    "pyinstaller = PyInstaller.__main__:run",
+    "pyi-archive_viewer = PyInstaller.utils.cliutils.archive_viewer:run",
+    "pyi-bindepend = PyInstaller.utils.cliutils.bindepend:run",
+    "pyi-grab_version = PyInstaller.utils.cliutils.grab_version:run",
+    "pyi-makespec = PyInstaller.utils.cliutils.makespec:run",
+    "pyi-set_version = PyInstaller.utils.cliutils.set_version:run"
+   ],
+   "number":"1",
+   "preserve_egg_dir":true,
+   "script":[
+    "pushd bootloader",
+    "waf --prefix=\"%LIBRARY_PREFIX%\" distclean all",
+    "popd",
+    " -m pip install . --no-deps -vv",
+    "export LDFLAGS=\"${LDFLAGS} -L${PREFIX}/lib\"",
+    "export LDFLAGS=\"${LDFLAGS} -mmacosx-version-min=${macos_min_version}\"",
+    "rm -fr ${SRC_DIR}/PyInstaller/bootloader/{Darwin,Linux,Windows}-{64,32}bit",
+    "pushd bootloader",
+    "waf --prefix=\"${PREFIX}\" --clang distclean all",
+    "popd",
+    " -m pip install . --no-deps -vv",
+    "export LDFLAGS=\"${LDFLAGS} -L${PREFIX}/lib\"",
+    "rm -fr ${SRC_DIR}/PyInstaller/bootloader/{Darwin,Linux,Windows}-{64,32}bit",
+    "pushd bootloader",
+    "waf --prefix=\"${PREFIX}\" --gcc --no-lsb distclean all",
+    "popd",
+    " -m pip install . --no-deps -vv"
+   ]
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "jakirkham",
+    "nicoddemus",
+    "hadim",
+    "nehaljwani",
+    "jakirkham",
+    "nicoddemus",
+    "hadim",
+    "nehaljwani",
+    "jakirkham",
+    "nicoddemus",
+    "hadim",
+    "nehaljwani"
+   ]
+  },
+  "package":{
+   "name":"pyinstaller",
+   "version":"3.6"
+  },
+  "requirements":{
+   "build":[
+    "c_compiler_stub",
+    "pip",
+    "python",
+    "setuptools",
+    "c_compiler_stub",
+    "pip",
+    "python",
+    "setuptools",
+    "c_compiler_stub",
+    "pip",
+    "python",
+    "setuptools"
+   ],
+   "host":[
+    "pip",
+    "python",
+    "setuptools",
+    "waf",
+    "zlib",
+    "pip",
+    "python",
+    "setuptools",
+    "waf",
+    "zlib",
+    "pip",
+    "python",
+    "setuptools",
+    "waf",
+    "zlib"
+   ],
+   "run":[
+    "altgraph",
+    "python",
+    "pefile >=2017.9.3",
+    "pycrypto",
+    "pywin32",
+    "pywin32-ctypes",
+    "macholib >=1.8",
+    "altgraph",
+    "python",
+    "pycrypto",
+    "macholib >=1.8",
+    "altgraph",
+    "python",
+    "pycrypto",
+    "macholib >=1.8"
+   ]
+  },
+  "source":{
+   "fn":"PyInstaller-3.6.tar.bz2",
+   "patches":[
+    "0001-depend-bindepend-find-statically-linked-libraries.patch",
+    "0002-Bootloader-build-Fallback-to-a-default-min-macOS-ver.patch",
+    "0003-hooks-Update-pkg_resources-hook-for-setuptools-v45.0.patch",
+    "0001-depend-bindepend-find-statically-linked-libraries.patch",
+    "0002-Bootloader-build-Fallback-to-a-default-min-macOS-ver.patch",
+    "0003-hooks-Update-pkg_resources-hook-for-setuptools-v45.0.patch",
+    "0001-depend-bindepend-find-statically-linked-libraries.patch",
+    "0002-Bootloader-build-Fallback-to-a-default-min-macOS-ver.patch",
+    "0003-hooks-Update-pkg_resources-hook-for-setuptools-v45.0.patch"
+   ],
+   "sha256":"3730fa80d088f8bb7084d32480eb87cbb4ddb64123363763cf8f2a1378c1c4b7",
+   "url":"https://pypi.io/packages/source/P/PyInstaller/PyInstaller-3.6.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "pyinstaller --help",
+    "pyi-archive_viewer --help",
+    "pyi-bindepend --help",
+    "pyi-makespec --help",
+    "pyi-grab_version --help",
+    "pyi-set_version --help",
+    "pyinstaller --help",
+    "pyi-archive_viewer --help",
+    "pyi-bindepend --help",
+    "pyi-makespec --help",
+    "pyinstaller --help",
+    "pyi-archive_viewer --help",
+    "pyi-bindepend --help",
+    "pyi-makespec --help"
+   ],
+   "files":[
+    "hello.py",
+    "hello.py",
+    "hello.py"
+   ],
+   "imports":[
+    "PyInstaller",
+    "PyInstaller",
+    "PyInstaller"
+   ]
+  }
+ },
+ "name":"pyinstaller",
+ "new_version":"3.6",
+ "pinning_version":"2020.03.16",
+ "raw_meta_yaml":"{% set name = \"PyInstaller\" %}\n{% set version = \"3.6\" %}\n{% set sha256 = \"3730fa80d088f8bb7084d32480eb87cbb4ddb64123363763cf8f2a1378c1c4b7\" %}\n\npackage:\n  name: {{ name.lower() }}\n  version: {{ version }}\n\nsource:\n  fn: PyInstaller-{{ version }}.tar.bz2\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n  patches:\n    - 0001-depend-bindepend-find-statically-linked-libraries.patch\n    - 0002-Bootloader-build-Fallback-to-a-default-min-macOS-ver.patch\n    - 0003-hooks-Update-pkg_resources-hook-for-setuptools-v45.0.patch\n\nbuild:\n  number: 1\n  entry_points:\n    - pyinstaller = PyInstaller.__main__:run\n    - pyi-archive_viewer = PyInstaller.utils.cliutils.archive_viewer:run\n    - pyi-bindepend = PyInstaller.utils.cliutils.bindepend:run\n    - pyi-grab_version = PyInstaller.utils.cliutils.grab_version:run\n    - pyi-makespec = PyInstaller.utils.cliutils.makespec:run\n    - pyi-set_version = PyInstaller.utils.cliutils.set_version:run\n  script:\n    - export LDFLAGS=\"${LDFLAGS} -L${PREFIX}/lib\"               # [unix]\n    - export LDFLAGS=\"${LDFLAGS} -mmacosx-version-min=${macos_min_version}\"  # [osx]\n    # Remove the pre-compiled bootloaders (available in sdist)\n    - rm -fr ${SRC_DIR}/PyInstaller/bootloader/{Darwin,Linux,Windows}-{64,32}bit  # [unix]\n    - pushd bootloader\n    - waf --prefix=\"${PREFIX}\" --clang distclean all            # [osx]\n    - waf --prefix=\"${PREFIX}\" --gcc --no-lsb distclean all     # [linux]\n    - waf --prefix=\"%LIBRARY_PREFIX%\" distclean all             # [win]\n    - popd\n    - \"{{ PYTHON }} -m pip install . --no-deps -vv\"\n  preserve_egg_dir: True\n\nrequirements:\n  build:\n    - {{ compiler(\"c\") }}\n    - pip\n    - python\n    - setuptools\n  host:\n    - pip\n    - python\n    - setuptools\n    - waf\n    - zlib\n\n  run:\n    - altgraph\n    - python\n    - pefile >=2017.9.3  # [win]\n    - pycrypto\n    - pywin32  # [win]\n    - pywin32-ctypes  # [win]\n    - dis3  # [py27]\n    - macholib >=1.8\n\ntest:\n  imports:\n    - PyInstaller\n\n  commands:\n    - pyinstaller --help\n    - pyi-archive_viewer --help\n    - pyi-bindepend --help\n    - pyi-makespec --help\n    # These are designed for Windows only.\n    - pyi-grab_version --help     # [win]\n    - pyi-set_version --help      # [win]\n\n  files:\n    - hello.py\n\nabout:\n  home: http://www.pyinstaller.org\n  # https://github.com/pyinstaller/pyinstaller/blob/v3.6/COPYING.txt#L11\n  license: GPL-2.0-or-later\n  license_family: GPL\n  license_file: COPYING.txt\n  summary: PyInstaller bundles a Python application and all its dependencies into a single package.\n\nextra:\n  recipe-maintainers:\n    - jakirkham\n    - nicoddemus\n    - hadim\n    - nehaljwani\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "altgraph",
+   "c_compiler_stub",
+   "macholib",
+   "pefile",
+   "pip",
+   "pycrypto",
+   "python",
+   "pywin32",
+   "pywin32-ctypes",
+   "setuptools",
+   "waf",
+   "zlib"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "pip",
+    "python",
+    "setuptools"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python",
+    "setuptools",
+    "waf",
+    "zlib"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "altgraph",
+    "macholib",
+    "pefile",
+    "pycrypto",
+    "python",
+    "pywin32",
+    "pywin32-ctypes"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.6.12",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "pip",
+    "python",
+    "setuptools"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python",
+    "setuptools",
+    "waf",
+    "zlib"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "altgraph",
+    "macholib >=1.8",
+    "pefile >=2017.9.3",
+    "pycrypto",
+    "python",
+    "pywin32",
+    "pywin32-ctypes"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/P/PyInstaller/PyInstaller-3.5.tar.gz",
+ "version":"3.6"
+}

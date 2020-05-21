@@ -1,0 +1,146 @@
+{
+ "PRed":[
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.0.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"django-admin-shortcuts",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"https://github.com/alesdotio/django-admin-shortcuts",
+   "license":"BSD 3-Clause",
+   "license_file":"LICENSE",
+   "summary":"Add simple and pretty shortcuts to the django admin homepage."
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":"python -m pip install --no-deps --ignore-installed ."
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "ocefpaf",
+    "ocefpaf",
+    "ocefpaf"
+   ]
+  },
+  "package":{
+   "name":"django-admin-shortcuts",
+   "version":"2.0.0"
+  },
+  "requirements":{
+   "build":[
+    "python",
+    "pip",
+    "django >=1.2",
+    "python",
+    "pip",
+    "django >=1.2",
+    "python",
+    "pip",
+    "django >=1.2"
+   ],
+   "run":[
+    "python",
+    "django >=1.2",
+    "python",
+    "django >=1.2",
+    "python",
+    "django >=1.2"
+   ]
+  },
+  "source":{
+   "sha256":"4f7307bd3c804ba417bf0eb19cd4223b769dc1f78ab8651270d7741e3d2fd341",
+   "url":"https://github.com/alesdotio/django-admin-shortcuts/archive/2.0.0.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "admin_shortcuts",
+    "admin_shortcuts.templatetags",
+    "admin_shortcuts",
+    "admin_shortcuts.templatetags",
+    "admin_shortcuts",
+    "admin_shortcuts.templatetags"
+   ]
+  }
+ },
+ "name":"django-admin-shortcuts",
+ "new_version":"2.0.0",
+ "raw_meta_yaml":"{% set version = \"2.0.0\" %}\n\npackage:\n  name: django-admin-shortcuts\n  version: {{ version }}\n\nsource:\n  url: https://github.com/alesdotio/django-admin-shortcuts/archive/{{ version }}.tar.gz\n  sha256: 4f7307bd3c804ba417bf0eb19cd4223b769dc1f78ab8651270d7741e3d2fd341\n\nbuild:\n  noarch: python\n  number: 0\n  script: python -m pip install --no-deps --ignore-installed .\n\nrequirements:\n  build:\n    - python\n    - pip\n    - django >=1.2\n  run:\n    - python\n    - django >=1.2\n\ntest:\n  imports:\n    - admin_shortcuts\n    - admin_shortcuts.templatetags\n\nabout:\n  home: https://github.com/alesdotio/django-admin-shortcuts\n  license: BSD 3-Clause\n  license_file: LICENSE\n  summary: 'Add simple and pretty shortcuts to the django admin homepage.'\n\nextra:\n  recipe-maintainers:\n    - ocefpaf\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "django",
+   "pip",
+   "python"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "django",
+    "pip",
+    "python"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "django",
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.1.2",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "django >=1.2",
+    "pip",
+    "python"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "django >=1.2",
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://github.com/alesdotio/django-admin-shortcuts/archive/2.0.0.tar.gz",
+ "version":"2.0.0"
+}

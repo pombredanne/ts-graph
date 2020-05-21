@@ -1,0 +1,889 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/276779359.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.5.3"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/283006413.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.5.4"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/284132137.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.5.5"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/298139722.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.6.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/305697949.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.6.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/312909543.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.6.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/312919559.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.6.3"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/316264099.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.6.4"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/319517263.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.6.5"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/324431677.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.6.6"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/328846133.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.6.7"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/333852626.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.7.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/337094810.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.7.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/341643075.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.7.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/345847331.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.7.3"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/352570501.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.8.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/354335471.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.8.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/363224893.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.9.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/367020129.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.9.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/369316818.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.9.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/371495351.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.9.3"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/375440906.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.9.4"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/378480220.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.9.5"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/383684995.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.9.6"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/383897199.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.9.7"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/390506372.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.9.8"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/395371919.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.10.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/400305442.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.10.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/403185338.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.10.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/406862126.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.10.3"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/406942239.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.10.4"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/410170491.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.10.5"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/413546311.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.10.6"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/414232501.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.10.7"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/418258766.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.11.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/418743535.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.11.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"prefect",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"Prefect is a new workflow management system, designed for modern\ninfrastructure and powered by the open-source Prefect Core workflow engine.\nUsers organize `Tasks` into `Flows`, and Prefect takes care of the rest.\n",
+   "doc_url":"https://docs.prefect.io/",
+   "home":"https://github.com/PrefectHQ/prefect",
+   "license":"APACHE-2.0",
+   "license_family":"APACHE",
+   "license_file":"LICENSE",
+   "summary":"The Prefect Core automation engine "
+  },
+  "build":{
+   "entry_points":[
+    "prefect = prefect.cli:cli",
+    "prefect = prefect.cli:cli",
+    "prefect = prefect.cli:cli"
+   ],
+   "noarch":"python",
+   "number":"0",
+   "script":"-m pip install --no-deps -vv ."
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "cicdw",
+    "jcrist",
+    "dhirschfeld",
+    "rzillman",
+    "cicdw",
+    "jcrist",
+    "dhirschfeld",
+    "rzillman",
+    "cicdw",
+    "jcrist",
+    "dhirschfeld",
+    "rzillman"
+   ]
+  },
+  "package":{
+   "name":"prefect",
+   "version":"0.11.1"
+  },
+  "requirements":{
+   "host":[
+    "python >=3.6",
+    "pip",
+    "python >=3.6",
+    "pip",
+    "python >=3.6",
+    "pip"
+   ],
+   "run":[
+    "python >=3.6",
+    "click >=7.0,<8.0",
+    "cloudpickle >=0.6.0,<1.5",
+    "croniter >=0.3.24,<1.0",
+    "dask-core >=0.19.3,<3.0",
+    "distributed >=1.26.1,<3.0",
+    "docker-py >=3.4.1,<5.0",
+    "marshmallow >=3.0.0b19,<4.0",
+    "marshmallow-oneofschema >=2.0.0b2,<3.0",
+    "mypy_extensions >=0.4.0,<1.0",
+    "pendulum >=2.0.4,<3.0",
+    "python-dateutil >2.7.3,<3.0",
+    "pyyaml >=3.13,<5.4",
+    "python-box >=3.4.4,<5.0",
+    "python-slugify >=1.2.6,<5.0",
+    "pytz >=2018.7",
+    "requests >=2.20,<3.0",
+    "tabulate >=0.8.0,<1.0",
+    "toml >=0.9.4,<1.0",
+    "urllib3 >=1.24.3",
+    "python >=3.6",
+    "click >=7.0,<8.0",
+    "cloudpickle >=0.6.0,<1.5",
+    "croniter >=0.3.24,<1.0",
+    "dask-core >=0.19.3,<3.0",
+    "distributed >=1.26.1,<3.0",
+    "docker-py >=3.4.1,<5.0",
+    "marshmallow >=3.0.0b19,<4.0",
+    "marshmallow-oneofschema >=2.0.0b2,<3.0",
+    "mypy_extensions >=0.4.0,<1.0",
+    "pendulum >=2.0.4,<3.0",
+    "python-dateutil >2.7.3,<3.0",
+    "pyyaml >=3.13,<5.4",
+    "python-box >=3.4.4,<5.0",
+    "python-slugify >=1.2.6,<5.0",
+    "pytz >=2018.7",
+    "requests >=2.20,<3.0",
+    "tabulate >=0.8.0,<1.0",
+    "toml >=0.9.4,<1.0",
+    "urllib3 >=1.24.3",
+    "python >=3.6",
+    "click >=7.0,<8.0",
+    "cloudpickle >=0.6.0,<1.5",
+    "croniter >=0.3.24,<1.0",
+    "dask-core >=0.19.3,<3.0",
+    "distributed >=1.26.1,<3.0",
+    "docker-py >=3.4.1,<5.0",
+    "marshmallow >=3.0.0b19,<4.0",
+    "marshmallow-oneofschema >=2.0.0b2,<3.0",
+    "mypy_extensions >=0.4.0,<1.0",
+    "pendulum >=2.0.4,<3.0",
+    "python-dateutil >2.7.3,<3.0",
+    "pyyaml >=3.13,<5.4",
+    "python-box >=3.4.4,<5.0",
+    "python-slugify >=1.2.6,<5.0",
+    "pytz >=2018.7",
+    "requests >=2.20,<3.0",
+    "tabulate >=0.8.0,<1.0",
+    "toml >=0.9.4,<1.0",
+    "urllib3 >=1.24.3"
+   ]
+  },
+  "source":{
+   "sha256":"131a82855378887a753c3bfca5e7a87903d105e114b28c6b074b9f973f30c008",
+   "url":"https://pypi.io/packages/source/p/prefect/prefect-0.11.1.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "prefect",
+    "prefect.triggers",
+    "prefect.schedules",
+    "prefect.tasks.shell",
+    "prefect.tasks.control_flow",
+    "prefect.tasks.github",
+    "prefect",
+    "prefect.triggers",
+    "prefect.schedules",
+    "prefect.tasks.shell",
+    "prefect.tasks.control_flow",
+    "prefect.tasks.github",
+    "prefect",
+    "prefect.triggers",
+    "prefect.schedules",
+    "prefect.tasks.shell",
+    "prefect.tasks.control_flow",
+    "prefect.tasks.github"
+   ]
+  }
+ },
+ "name":"prefect",
+ "new_version":"0.11.1",
+ "new_version_attempts":{
+  "0.10.1":1,
+  "0.10.2":1,
+  "0.10.3":1,
+  "0.10.4":1,
+  "0.10.5":1,
+  "0.10.6":1,
+  "0.10.7":1,
+  "0.11.0":1,
+  "0.11.1":1
+ },
+ "new_version_errors":{},
+ "pinning_version":"2020.05.14.17.14.20",
+ "raw_meta_yaml":"{% set name = \"prefect\" %}\n{% set version = \"0.11.1\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: 131a82855378887a753c3bfca5e7a87903d105e114b28c6b074b9f973f30c008\n\nbuild:\n  noarch: python\n  number: 0\n  script: {{ PYTHON }} -m pip install --no-deps -vv .\n  entry_points:\n    - prefect = prefect.cli:cli\n\nrequirements:\n  host:\n    - python >=3.6\n    - pip\n  run:\n    - python >=3.6\n    - click >=7.0,<8.0\n    - cloudpickle >=0.6.0,<1.5\n    - croniter >=0.3.24,<1.0\n    - dask-core >=0.19.3,<3.0\n    - distributed >=1.26.1,<3.0\n    - docker-py >=3.4.1,<5.0\n    - marshmallow >=3.0.0b19,<4.0\n    - marshmallow-oneofschema >=2.0.0b2,<3.0\n    - mypy_extensions >=0.4.0,<1.0\n    - pendulum >=2.0.4,<3.0\n    - python-dateutil >2.7.3,<3.0\n    - pyyaml >=3.13,<5.4\n    - python-box >=3.4.4,<5.0\n    - python-slugify >=1.2.6,<5.0\n    - pytz >=2018.7\n    - requests >=2.20,<3.0\n    - tabulate >=0.8.0,<1.0\n    - toml >=0.9.4,<1.0\n    - urllib3 >=1.24.3\n\ntest:\n  imports:\n    - prefect\n    - prefect.triggers\n    - prefect.schedules\n    - prefect.tasks.shell\n    - prefect.tasks.control_flow\n    - prefect.tasks.github\n\nabout:\n  home: https://github.com/PrefectHQ/prefect\n  license: APACHE-2.0\n  license_family: APACHE\n  license_file: LICENSE\n  summary: 'The Prefect Core automation engine '\n  description: |\n    Prefect is a new workflow management system, designed for modern\n    infrastructure and powered by the open-source Prefect Core workflow engine.\n    Users organize `Tasks` into `Flows`, and Prefect takes care of the rest.\n  doc_url: https://docs.prefect.io/\n\nextra:\n  recipe-maintainers:\n    - cicdw\n    - jcrist\n    - dhirschfeld\n    - rzillman\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "click",
+   "cloudpickle",
+   "croniter",
+   "dask-core",
+   "distributed",
+   "docker-py",
+   "marshmallow",
+   "marshmallow-oneofschema",
+   "mypy_extensions",
+   "pendulum",
+   "pip",
+   "python",
+   "python-box",
+   "python-dateutil",
+   "python-slugify",
+   "pytz",
+   "pyyaml",
+   "requests",
+   "tabulate",
+   "toml",
+   "urllib3"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "click",
+    "cloudpickle",
+    "croniter",
+    "dask-core",
+    "distributed",
+    "docker-py",
+    "marshmallow",
+    "marshmallow-oneofschema",
+    "mypy_extensions",
+    "pendulum",
+    "python",
+    "python-box",
+    "python-dateutil",
+    "python-slugify",
+    "pytz",
+    "pyyaml",
+    "requests",
+    "tabulate",
+    "toml",
+    "urllib3"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.7.1\n",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3.6"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "click >=7.0,<8.0",
+    "cloudpickle >=0.6.0,<1.5",
+    "croniter >=0.3.24,<1.0",
+    "dask-core >=0.19.3,<3.0",
+    "distributed >=1.26.1,<3.0",
+    "docker-py >=3.4.1,<5.0",
+    "marshmallow >=3.0.0b19,<4.0",
+    "marshmallow-oneofschema >=2.0.0b2,<3.0",
+    "mypy_extensions >=0.4.0,<1.0",
+    "pendulum >=2.0.4,<3.0",
+    "python >=3.6",
+    "python-box >=3.4.4,<5.0",
+    "python-dateutil >2.7.3,<3.0",
+    "python-slugify >=1.2.6,<5.0",
+    "pytz >=2018.7",
+    "pyyaml >=3.13,<5.4",
+    "requests >=2.20,<3.0",
+    "tabulate >=0.8.0,<1.0",
+    "toml >=0.9.4,<1.0",
+    "urllib3 >=1.24.3"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/p/prefect/prefect-0.6.3.tar.gz",
+ "version":"0.11.1"
+}

@@ -1,0 +1,144 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/223957707.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "compiler_stack":"comp7",
+  "max_py_ver":"37",
+  "max_r_ver":"35"
+ },
+ "feedstock_name":"child",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"CHILD computes the time evolution of a topographic surface z(x,y,t)\nby fluvial and hillslope erosion and sediment transport.\n",
+   "dev_url":"https://github.com/childmodel/child",
+   "doc_url":"http://csdms.colorado.edu/wiki/Model:CHILD",
+   "home":"http://csdms.colorado.edu/wiki/Model:CHILD",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"LICENSE",
+   "summary":"The CHILD Landscape Evolution Model"
+  },
+  "build":{
+   "number":"1001",
+   "skip":true
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "mcflugen",
+    "mcflugen",
+    "mcflugen"
+   ]
+  },
+  "package":{
+   "name":"child",
+   "version":"18.11.12"
+  },
+  "requirements":{
+   "build":[
+    "cxx_compiler_stub",
+    "cmake",
+    "cxx_compiler_stub",
+    "cmake",
+    "cxx_compiler_stub",
+    "cmake"
+   ]
+  },
+  "source":{
+   "sha256":"8542a3e7ce4df5e5f41cf46c911294b202d9db06ce45546b04bee3b4eb34accc",
+   "url":"https://github.com/childmodel/child/archive/v18.11.12.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "child --help",
+    "child --version",
+    "child --help",
+    "child --version",
+    "child --help",
+    "child --version"
+   ]
+  }
+ },
+ "name":"child",
+ "new_version":"20020726",
+ "new_version_attempts":{
+  "20020726":711
+ },
+ "new_version_errors":{
+  "20020726":"The recipe did not change in the version migration, a URL did not hash, or there is jinja2 syntax the bot cannot handle!\n\nPlease check the URLs in your recipe with version '20020726' to make sure they exist!\n\nWe also found the following errors:\n\n - could not hash URL template 'https://github.com/childmodel/child/archive/v{{ version }}.tar.gz'\n"
+ },
+ "pinning_version":"2018.10.16",
+ "raw_meta_yaml":"{% set version = \"18.11.12\" %}\n\npackage:\n  name: child\n  version: {{ version }}\n\nsource:\n  url: https://github.com/childmodel/child/archive/v{{ version }}.tar.gz\n  sha256: 8542a3e7ce4df5e5f41cf46c911294b202d9db06ce45546b04bee3b4eb34accc\n\nbuild:\n  skip: True  # [win]\n  number: 1001\n\nrequirements:\n  build:\n    - {{ compiler('cxx') }}\n    - cmake\n\ntest:\n  commands:\n    - child --help\n    - child --version\n\nabout:\n  home: http://csdms.colorado.edu/wiki/Model:CHILD\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE\n  summary: The CHILD Landscape Evolution Model\n  description: |\n    CHILD computes the time evolution of a topographic surface z(x,y,t)\n    by fluvial and hillslope erosion and sediment transport.\n  doc_url: http://csdms.colorado.edu/wiki/Model:CHILD\n  dev_url: https://github.com/childmodel/child\n\nextra:\n  recipe-maintainers:\n    - mcflugen\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "cmake",
+   "cxx_compiler_stub"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "cmake",
+    "cxx_compiler_stub"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.1.12",
+ "strong_exports":false,
+ "time":1568135297.9240658,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "cmake",
+    "cxx_compiler_stub"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://github.com/childmodel/child/archive/v18.11.12.tar.gz",
+ "version":"18.11.12"
+}

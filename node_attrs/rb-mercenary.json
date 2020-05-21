@@ -1,0 +1,141 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/364479293.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.4.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"rb-mercenary",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "dev_url":"https://github.com/jekyll/mercenary",
+   "doc_url":"http://www.rubydoc.info/gems/mercenary",
+   "home":"https://rubygems.org/gems/mercenary",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"mercenary-0.3.6/LICENSE.txt",
+   "summary":"Lightweight and flexible library for writing command-line apps in Ruby."
+  },
+  "build":{
+   "noarch":"generic",
+   "number":"0",
+   "script":[
+    "gem install --norc -l -V --ignore-dependencies mercenary-0.3.6.gem",
+    "gem unpack mercenary-0.3.6.gem",
+    "gem install --norc -l -V --ignore-dependencies mercenary-0.3.6.gem",
+    "gem unpack mercenary-0.3.6.gem",
+    "gem install --norc -l -V --ignore-dependencies mercenary-0.3.6.gem",
+    "gem unpack mercenary-0.3.6.gem"
+   ],
+   "skip":null
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "sodre",
+    "sodre",
+    "sodre"
+   ]
+  },
+  "package":{
+   "name":"rb-mercenary",
+   "version":"0.3.6"
+  },
+  "requirements":{
+   "host":[
+    "ruby",
+    "ruby",
+    "ruby"
+   ],
+   "run":[
+    "ruby",
+    "ruby",
+    "ruby"
+   ]
+  },
+  "source":{
+   "sha256":"2a084b18f5692c86a633e185d5311ba6d11fc46c802eb414ae05368178078a82",
+   "url":"https://rubygems.org/downloads/mercenary-0.3.6.gem"
+  },
+  "test":{
+   "commands":[
+    "ruby -r mercenary -e 'exit 0'",
+    "ruby -r mercenary -e 'exit 0'",
+    "ruby -r mercenary -e 'exit 0'"
+   ]
+  }
+ },
+ "name":"rb-mercenary",
+ "new_version":"0.4.0",
+ "pinning_version":"2020.01.10",
+ "raw_meta_yaml":"{% set name = \"mercenary\" %}\n{% set version = \"0.3.6\" %}\n\npackage:\n  name: rb-{{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://rubygems.org/downloads/{{ name }}-{{ version }}.gem\n  sha256: 2a084b18f5692c86a633e185d5311ba6d11fc46c802eb414ae05368178078a82\n\nbuild:\n  noarch: generic\n  number: 0\n  script:\n    - gem install --norc -l -V --ignore-dependencies {{ name }}-{{ version }}.gem\n    - gem unpack {{ name }}-{{ version }}.gem\n  skip: {{ win }}\n\nrequirements:\n  host:\n    - ruby\n  run:\n    - ruby\n\ntest:\n  commands:\n    - ruby -r {{ name }} -e 'exit 0'\n\nabout:\n  home: https://rubygems.org/gems/{{ name }}\n  license: MIT\n  license_family: MIT\n  license_file: {{ name }}-{{ version }}/LICENSE.txt\n  summary: Lightweight and flexible library for writing command-line apps in Ruby.\n\n  doc_url: http://www.rubydoc.info/gems/{{ name }}\n  dev_url: https://github.com/jekyll/{{ name }}\n\nextra:\n  recipe-maintainers:\n    - sodre\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "ruby"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "ruby"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "ruby"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.6.5",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "ruby"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "ruby"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://rubygems.org/downloads/mercenary-0.3.6.gem",
+ "version":"0.3.6"
+}

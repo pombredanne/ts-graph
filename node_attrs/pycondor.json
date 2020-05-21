@@ -1,0 +1,177 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/228770121.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.5.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"pycondor",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"PyCondor (Python HTCondor) is a tool to help build and submit workflows to\nHTCondor in a straight-forward manner with minimal hassle.\n",
+   "dev_url":"https://github.com/jrbourbeau/pycondor",
+   "doc_url":"https://jrbourbeau.github.io/pycondor/",
+   "home":"https://github.com/jrbourbeau/pycondor",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"LICENSE",
+   "summary":"Python utility for HTCondor"
+  },
+  "build":{
+   "entry_points":[
+    "pycondor = pycondor.cli:cli",
+    "pycondor = pycondor.cli:cli",
+    "pycondor = pycondor.cli:cli"
+   ],
+   "noarch":"python",
+   "number":"1",
+   "script":" -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "jrbourbeau",
+    "jrbourbeau",
+    "jrbourbeau"
+   ]
+  },
+  "package":{
+   "name":"pycondor",
+   "version":"0.5.0"
+  },
+  "requirements":{
+   "build":[
+    "python >=2.7",
+    "pip",
+    "python >=2.7",
+    "pip",
+    "python >=2.7",
+    "pip"
+   ],
+   "run":[
+    "python >=2.7",
+    "click",
+    "python >=2.7",
+    "click",
+    "python >=2.7",
+    "click"
+   ]
+  },
+  "source":{
+   "sha256":"9cf8b54159fe3a654d71ffc815840c642f3bd0c89edb401952d6b9092abf0cc2",
+   "url":"https://pypi.io/packages/source/P/PyCondor/PyCondor-0.5.0.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "pycondor -h",
+    "pycondor -h",
+    "pycondor -h"
+   ],
+   "imports":[
+    "pycondor",
+    "pycondor.job",
+    "pycondor.dagman",
+    "pycondor.utils",
+    "pycondor.basenode",
+    "pycondor.cli",
+    "pycondor.visualize",
+    "pycondor.compatibility",
+    "pycondor",
+    "pycondor.job",
+    "pycondor.dagman",
+    "pycondor.utils",
+    "pycondor.basenode",
+    "pycondor.cli",
+    "pycondor.visualize",
+    "pycondor.compatibility",
+    "pycondor",
+    "pycondor.job",
+    "pycondor.dagman",
+    "pycondor.utils",
+    "pycondor.basenode",
+    "pycondor.cli",
+    "pycondor.visualize",
+    "pycondor.compatibility"
+   ]
+  }
+ },
+ "name":"pycondor",
+ "new_version":"0.5.0",
+ "pinning_version":"2018.11.3",
+ "raw_meta_yaml":"{% set name = \"PyCondor\" %}\n{% set version = \"0.5.0\" %}\n{% set sha256 = \"9cf8b54159fe3a654d71ffc815840c642f3bd0c89edb401952d6b9092abf0cc2\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 1\n  script: \"{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv\"\n  entry_points:\n    - pycondor = pycondor.cli:cli\n\n\nrequirements:\n  build:\n    - python >=2.7\n    - pip\n  run:\n    - python >=2.7\n    - click\n\ntest:\n  imports:\n    - pycondor\n    - pycondor.job\n    - pycondor.dagman\n    - pycondor.utils\n    - pycondor.basenode\n    - pycondor.cli\n    - pycondor.visualize\n    - pycondor.compatibility\n  commands:\n    - pycondor -h\n\nabout:\n  home: https://github.com/jrbourbeau/pycondor\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE\n  summary: 'Python utility for HTCondor'\n  description: |\n    PyCondor (Python HTCondor) is a tool to help build and submit workflows to\n    HTCondor in a straight-forward manner with minimal hassle.\n  doc_url: https://jrbourbeau.github.io/pycondor/\n  dev_url: https://github.com/jrbourbeau/pycondor\n\nextra:\n  recipe-maintainers:\n    - jrbourbeau\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "click",
+   "pip",
+   "python"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "click",
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.1.12",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=2.7"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "click",
+    "python >=2.7"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/P/PyCondor/PyCondor-0.5.0.tar.gz",
+ "version":"0.5.0"
+}

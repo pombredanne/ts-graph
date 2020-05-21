@@ -1,0 +1,598 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/256485562.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.5.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/292573227.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Rebuild",
+    "migrator_version":0,
+    "name":"gsl-2.5"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/352883967.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.5.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/366672103.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.6.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/372543605.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"gsl26"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/66387539-4dc3-44da-8c5f-6dc425177a1c.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"python38"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"gstlal",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"This package provides a variety of gstreamer elements for\ngravitational-wave data analysis and some libraries to help write\nsuch elements.  The code here sits on top of several other libraries,\nnotably the LIGO Algorithm Library (LAL), FFTW, the GNU Scientific\nLibrary (GSL), and, of course, GStreamer.\nThis package contains the plugins and shared libraries required to run\ngstlal-based applications.\n",
+   "dev_url":"https://git.ligo.org/lscsoft/gstlal/",
+   "doc_url":"https://lscsoft.docs.ligo.org/gstlal/",
+   "home":"https://lscsoft.docs.ligo.org/gstlal/",
+   "license":"GPL-2.0-or-later",
+   "license_family":"GPL",
+   "license_file":"COPYING",
+   "summary":"GStreamer for GW data analysis"
+  },
+  "build":{
+   "error_overdepending":true,
+   "error_overlinking":true,
+   "number":"2",
+   "skip":true
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "duncanmmacleod",
+    "myNameIsPatrick",
+    "duncanmmacleod",
+    "myNameIsPatrick",
+    "duncanmmacleod",
+    "myNameIsPatrick"
+   ]
+  },
+  "package":{
+   "name":"gstlal",
+   "version":"1.6.0"
+  },
+  "requirements":{
+   "build":[
+    "c_compiler_stub",
+    "pkg-config",
+    "make",
+    "c_compiler_stub",
+    "pkg-config",
+    "make",
+    "c_compiler_stub",
+    "pkg-config",
+    "make"
+   ],
+   "host":[
+    "fftw",
+    "gobject-introspection >=1.30.0",
+    "gsl",
+    "gstreamer",
+    "gst-plugins-base",
+    "gst-python",
+    "lal >=6.19.0",
+    "lalmetaio >=1.4.0",
+    "lalburst >=1.5.0",
+    "lalinspiral >=1.8.0",
+    "lalsimulation >=1.8.0",
+    "numpy",
+    "pygobject >=3.22",
+    "python",
+    "python-lal",
+    "python-ligo-lw >=1.5.3",
+    "zlib",
+    "fftw",
+    "gobject-introspection >=1.30.0",
+    "gsl",
+    "gstreamer",
+    "gst-plugins-base",
+    "gst-python",
+    "lal >=6.19.0",
+    "lalmetaio >=1.4.0",
+    "lalburst >=1.5.0",
+    "lalinspiral >=1.8.0",
+    "lalsimulation >=1.8.0",
+    "numpy",
+    "pygobject >=3.22",
+    "python",
+    "python-lal",
+    "python-ligo-lw >=1.5.3",
+    "zlib",
+    "fftw",
+    "gobject-introspection >=1.30.0",
+    "gsl",
+    "gstreamer",
+    "gst-plugins-base",
+    "gst-python",
+    "lal >=6.19.0",
+    "lalmetaio >=1.4.0",
+    "lalburst >=1.5.0",
+    "lalinspiral >=1.8.0",
+    "lalsimulation >=1.8.0",
+    "numpy",
+    "pygobject >=3.22",
+    "python",
+    "python-lal",
+    "python-ligo-lw >=1.5.3",
+    "zlib"
+   ],
+   "run":[
+    "fftw",
+    "glib",
+    "gobject-introspection >=1.30.0",
+    "gsl",
+    "gstreamer",
+    "gst-plugins-base",
+    "gst-plugins-good",
+    "gst-python",
+    "lal >=6.19.0",
+    "lalmetaio >=1.4.0",
+    "lalburst >=1.5.0",
+    "lalinspiral >=1.8.0",
+    "lalsimulation >=1.8.0",
+    "ligo-segments >=1.2.0",
+    "lscsoft-glue >=2.0.0",
+    "matplotlib-base",
+    "numpy",
+    "pyfftw",
+    "pygobject >=3.14",
+    "python 2.7",
+    "python",
+    "python-avahi",
+    "python-lal >=6.19.0",
+    "python-lalsimulation",
+    "python-ligo-lw >=1.5.3",
+    "scipy",
+    "fftw",
+    "glib",
+    "gobject-introspection >=1.30.0",
+    "gsl",
+    "gstreamer",
+    "gst-plugins-base",
+    "gst-plugins-good",
+    "gst-python",
+    "lal >=6.19.0",
+    "lalmetaio >=1.4.0",
+    "lalburst >=1.5.0",
+    "lalinspiral >=1.8.0",
+    "lalsimulation >=1.8.0",
+    "ligo-segments >=1.2.0",
+    "lscsoft-glue >=2.0.0",
+    "matplotlib-base",
+    "numpy",
+    "pyfftw",
+    "pygobject >=3.14",
+    "python 2.7",
+    "python",
+    "python-avahi",
+    "python-lal >=6.19.0",
+    "python-lalsimulation",
+    "python-ligo-lw >=1.5.3",
+    "scipy",
+    "fftw",
+    "glib",
+    "gobject-introspection >=1.30.0",
+    "gsl",
+    "gstreamer",
+    "gst-plugins-base",
+    "gst-plugins-good",
+    "gst-python",
+    "lal >=6.19.0",
+    "lalmetaio >=1.4.0",
+    "lalburst >=1.5.0",
+    "lalinspiral >=1.8.0",
+    "lalsimulation >=1.8.0",
+    "ligo-segments >=1.2.0",
+    "lscsoft-glue >=2.0.0",
+    "matplotlib-base",
+    "numpy",
+    "pyfftw",
+    "pygobject >=3.14",
+    "python 2.7",
+    "python",
+    "python-avahi",
+    "python-lal >=6.19.0",
+    "python-lalsimulation",
+    "python-ligo-lw >=1.5.3",
+    "scipy"
+   ]
+  },
+  "source":{
+   "patches":[
+    "out-of-tree.patch",
+    "no-pygtk.patch",
+    "python-lib-loc.patch",
+    "out-of-tree.patch",
+    "no-pygtk.patch",
+    "python-lib-loc.patch",
+    "out-of-tree.patch",
+    "no-pygtk.patch",
+    "python-lib-loc.patch"
+   ],
+   "sha256":"53d0679a5167f1fd189d612e67042bcabae40f580d849e12f237497b794f0973",
+   "url":"http://software.ligo.org/lscsoft/source/gstlal-1.6.0.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "export TMPDIR=$(python -c \"import tempfile; print(tempfile.gettempdir())\")",
+    "export GSTLAL_FIR_WHITEN=0",
+    "${PYTHON} -c \"import gstlal.multirate_datasource\"",
+    "gstlal_asd_txt_from_psd_xml --help",
+    "gstlal_fake_frames --help",
+    "gstlal_launch --help",
+    "gstlal_ligo_data_find_check --help",
+    "gstlal_play --help",
+    "gstlal_plot_psd --help",
+    "gstlal_plot_psd_horizon --help",
+    "gstlal_psd_polyfit --help",
+    "gstlal_psd_xml_from_asd_txt --help",
+    "gstlal_reference_psd --help",
+    "gstlal_spectrum_movie --help",
+    "export TMPDIR=$(python -c \"import tempfile; print(tempfile.gettempdir())\")",
+    "export GSTLAL_FIR_WHITEN=0",
+    "${PYTHON} -c \"import gstlal.multirate_datasource\"",
+    "gstlal_asd_txt_from_psd_xml --help",
+    "gstlal_fake_frames --help",
+    "gstlal_launch --help",
+    "gstlal_ligo_data_find_check --help",
+    "gstlal_play --help",
+    "gstlal_plot_psd --help",
+    "gstlal_plot_psd_horizon --help",
+    "gstlal_psd_polyfit --help",
+    "gstlal_psd_xml_from_asd_txt --help",
+    "gstlal_reference_psd --help",
+    "gstlal_spectrum_movie --help",
+    "pkg-config --print-errors --modversion gstlal",
+    "export TMPDIR=$(python -c \"import tempfile; print(tempfile.gettempdir())\")",
+    "export GSTLAL_FIR_WHITEN=0",
+    "${PYTHON} -c \"import gstlal.multirate_datasource\"",
+    "gstlal_asd_txt_from_psd_xml --help",
+    "gstlal_fake_frames --help",
+    "gstlal_launch --help",
+    "gstlal_ligo_data_find_check --help",
+    "gstlal_play --help",
+    "gstlal_plot_psd --help",
+    "gstlal_plot_psd_horizon --help",
+    "gstlal_psd_polyfit --help",
+    "gstlal_psd_xml_from_asd_txt --help",
+    "gstlal_reference_psd --help",
+    "gstlal_spectrum_movie --help",
+    "pkg-config --print-errors --modversion gstlal"
+   ],
+   "imports":[
+    "gstlal",
+    "gstlal.bottle",
+    "gstlal.coherent_null",
+    "gstlal.dagfile",
+    "gstlal.datasource",
+    "gstlal.elements",
+    "gstlal.httpinterface",
+    "gstlal.matplotlibhelper",
+    "gstlal.misc",
+    "gstlal.pipeio",
+    "gstlal.pipeline",
+    "gstlal.pipeparts",
+    "gstlal.plotpsd",
+    "gstlal.plotutil",
+    "gstlal.reference_psd",
+    "gstlal.servicediscovery",
+    "gstlal.simplehandler",
+    "gstlal.simulation",
+    "gstlal.stats",
+    "gstlal",
+    "gstlal.bottle",
+    "gstlal.coherent_null",
+    "gstlal.dagfile",
+    "gstlal.datasource",
+    "gstlal.elements",
+    "gstlal.httpinterface",
+    "gstlal.matplotlibhelper",
+    "gstlal.misc",
+    "gstlal.pipeio",
+    "gstlal.pipeline",
+    "gstlal.pipeparts",
+    "gstlal.plotpsd",
+    "gstlal.plotutil",
+    "gstlal.reference_psd",
+    "gstlal.servicediscovery",
+    "gstlal.simplehandler",
+    "gstlal.simulation",
+    "gstlal.stats",
+    "gstlal",
+    "gstlal.bottle",
+    "gstlal.coherent_null",
+    "gstlal.dagfile",
+    "gstlal.datasource",
+    "gstlal.elements",
+    "gstlal.httpinterface",
+    "gstlal.matplotlibhelper",
+    "gstlal.misc",
+    "gstlal.pipeio",
+    "gstlal.pipeline",
+    "gstlal.pipeparts",
+    "gstlal.plotpsd",
+    "gstlal.plotutil",
+    "gstlal.reference_psd",
+    "gstlal.servicediscovery",
+    "gstlal.simplehandler",
+    "gstlal.simulation",
+    "gstlal.stats"
+   ],
+   "requires":[
+    "pkg-config",
+    "pkg-config",
+    "pkg-config"
+   ]
+  }
+ },
+ "name":"gstlal",
+ "new_version":"1.6.0",
+ "pinning_version":"2020.01.28",
+ "raw_meta_yaml":"{% set name = \"gstlal\" %}\n{% set version = \"1.6.0\" %}\n\npackage:\n  name: \"{{ name|lower }}\"\n  version: \"{{ version }}\"\n\nsource:\n  url: \"http://software.ligo.org/lscsoft/source/{{ name }}-{{ version }}.tar.gz\"\n  sha256: 53d0679a5167f1fd189d612e67042bcabae40f580d849e12f237497b794f0973\n  patches:\n    - out-of-tree.patch\n    - no-pygtk.patch\n    - python-lib-loc.patch\n\nbuild:\n  error_overdepending: true\n  error_overlinking: true\n  number: 2\n  skip: true  # [win or py>=30]\n\nrequirements:\n  build:\n    - {{ compiler('c') }}\n    - pkg-config\n    - make\n  host:\n    - fftw\n    - gobject-introspection >=1.30.0\n    - gsl\n    - gstreamer\n    - gst-plugins-base\n    - gst-python\n    - lal >=6.19.0\n    - lalmetaio >=1.4.0\n    - lalburst >=1.5.0\n    - lalinspiral >=1.8.0\n    - lalsimulation >=1.8.0\n    - numpy\n    - pygobject >=3.22\n    - python\n    - python-lal\n    - python-ligo-lw >=1.5.3\n    - zlib\n  run:\n    - fftw\n    - glib\n    - gobject-introspection >=1.30.0\n    - gsl\n    - gstreamer\n    - gst-plugins-base\n    - gst-plugins-good\n    - gst-python\n    - lal >=6.19.0\n    - lalmetaio >=1.4.0\n    - lalburst >=1.5.0\n    - lalinspiral >=1.8.0\n    - lalsimulation >=1.8.0\n    - ligo-segments >=1.2.0\n    - lscsoft-glue >=2.0.0\n    - matplotlib-base\n    - {{ pin_compatible('numpy') }}\n    - pyfftw\n    - pygobject >=3.14\n    - python 2.7\n    - python\n    - python-avahi\n    - python-lal >=6.19.0\n    - python-lalsimulation\n    - python-ligo-lw >=1.5.3\n    - scipy\n\ntest:\n  imports:\n    - gstlal\n    - gstlal.bottle\n    - gstlal.coherent_null\n    - gstlal.dagfile\n    - gstlal.datasource\n    - gstlal.elements\n    - gstlal.httpinterface\n    - gstlal.matplotlibhelper\n    - gstlal.misc\n    #- gstlal.multirate_datasource - requires GSTLAL_FIR_WHITEN variable, see below\n    - gstlal.pipeio\n    - gstlal.pipeline\n    - gstlal.pipeparts\n    - gstlal.plotpsd\n    - gstlal.plotutil\n    - gstlal.reference_psd\n    - gstlal.servicediscovery\n    - gstlal.simplehandler\n    - gstlal.simulation\n    - gstlal.stats\n  requires:\n    - pkg-config\n  commands:\n    # set variables\n    - export TMPDIR=$(python -c \"import tempfile; print(tempfile.gettempdir())\")\n    - export GSTLAL_FIR_WHITEN=0\n    # check last import (which requires GSTLAL_FIR_WHITEN)\n    - ${PYTHON} -c \"import gstlal.multirate_datasource\"\n    # check executables\n    - gstlal_asd_txt_from_psd_xml --help\n    - gstlal_fake_frames --help\n    - gstlal_launch --help\n    - gstlal_ligo_data_find_check --help\n    - gstlal_play --help\n    - gstlal_plot_psd --help\n    - gstlal_plot_psd_horizon --help\n    - gstlal_psd_polyfit --help\n    - gstlal_psd_xml_from_asd_txt --help\n    - gstlal_reference_psd --help\n    - gstlal_spectrum_movie --help\n    # check pkg-config\n    - pkg-config --print-errors --modversion gstlal  # [unix]\n\nabout:\n  home: \"https://lscsoft.docs.ligo.org/gstlal/\"\n  dev_url: \"https://git.ligo.org/lscsoft/gstlal/\"\n  doc_url: \"https://lscsoft.docs.ligo.org/gstlal/\"\n  license: \"GPL-2.0-or-later\"\n  license_family: \"GPL\"\n  license_file: \"COPYING\"\n  summary: \"GStreamer for GW data analysis\"\n  description: |\n    This package provides a variety of gstreamer elements for\n    gravitational-wave data analysis and some libraries to help write\n    such elements.  The code here sits on top of several other libraries,\n    notably the LIGO Algorithm Library (LAL), FFTW, the GNU Scientific\n    Library (GSL), and, of course, GStreamer.\n    This package contains the plugins and shared libraries required to run\n    gstlal-based applications.\n\nextra:\n  recipe-maintainers:\n    - duncanmmacleod\n    - myNameIsPatrick\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "c_compiler_stub",
+   "fftw",
+   "glib",
+   "gobject-introspection",
+   "gsl",
+   "gst-plugins-base",
+   "gst-plugins-good",
+   "gst-python",
+   "gstreamer",
+   "lal",
+   "lalburst",
+   "lalinspiral",
+   "lalmetaio",
+   "lalsimulation",
+   "ligo-segments",
+   "lscsoft-glue",
+   "make",
+   "matplotlib-base",
+   "numpy",
+   "pkg-config",
+   "pyfftw",
+   "pygobject",
+   "python",
+   "python-avahi",
+   "python-lal",
+   "python-lalsimulation",
+   "python-ligo-lw",
+   "scipy",
+   "zlib"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "make",
+    "pkg-config"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "fftw",
+    "gobject-introspection",
+    "gsl",
+    "gst-plugins-base",
+    "gst-python",
+    "gstreamer",
+    "lal",
+    "lalburst",
+    "lalinspiral",
+    "lalmetaio",
+    "lalsimulation",
+    "numpy",
+    "pygobject",
+    "python",
+    "python-lal",
+    "python-ligo-lw",
+    "zlib"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "fftw",
+    "glib",
+    "gobject-introspection",
+    "gsl",
+    "gst-plugins-base",
+    "gst-plugins-good",
+    "gst-python",
+    "gstreamer",
+    "lal",
+    "lalburst",
+    "lalinspiral",
+    "lalmetaio",
+    "lalsimulation",
+    "ligo-segments",
+    "lscsoft-glue",
+    "matplotlib-base",
+    "numpy",
+    "pyfftw",
+    "pygobject",
+    "python",
+    "python-avahi",
+    "python-lal",
+    "python-lalsimulation",
+    "python-ligo-lw",
+    "scipy"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "pkg-config"
+   ]
+  }
+ },
+ "smithy_version":"3.6.8",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "make",
+    "pkg-config"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "fftw",
+    "gobject-introspection >=1.30.0",
+    "gsl",
+    "gst-plugins-base",
+    "gst-python",
+    "gstreamer",
+    "lal >=6.19.0",
+    "lalburst >=1.5.0",
+    "lalinspiral >=1.8.0",
+    "lalmetaio >=1.4.0",
+    "lalsimulation >=1.8.0",
+    "numpy",
+    "pygobject >=3.22",
+    "python",
+    "python-lal",
+    "python-ligo-lw >=1.5.3",
+    "zlib"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "fftw",
+    "glib",
+    "gobject-introspection >=1.30.0",
+    "gsl",
+    "gst-plugins-base",
+    "gst-plugins-good",
+    "gst-python",
+    "gstreamer",
+    "lal >=6.19.0",
+    "lalburst >=1.5.0",
+    "lalinspiral >=1.8.0",
+    "lalmetaio >=1.4.0",
+    "lalsimulation >=1.8.0",
+    "ligo-segments >=1.2.0",
+    "lscsoft-glue >=2.0.0",
+    "matplotlib-base",
+    "numpy",
+    "pyfftw",
+    "pygobject >=3.14",
+    "python",
+    "python 2.7",
+    "python-avahi",
+    "python-lal >=6.19.0",
+    "python-lalsimulation",
+    "python-ligo-lw >=1.5.3",
+    "scipy"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "pkg-config"
+   ]
+  }
+ },
+ "url":"http://software.ligo.org/lscsoft/source/gstlal-1.5.0.tar.gz",
+ "version":"1.6.0"
+}

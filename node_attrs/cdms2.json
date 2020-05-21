@@ -1,0 +1,527 @@
+{
+ "PRed":[
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.0.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/198545202.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Compiler",
+    "migrator_version":0
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/225217398.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.1.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.1.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.1.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/309627142.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.1.3"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/312981107.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"GFortranOSXRebuild",
+    "migrator_version":0,
+    "name":"fortran_compiler_stub-7"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/319483232.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.1.4"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/332709809.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"libnetcdf-4"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/338909637.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"python38"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/354026333.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"libnetcdf473"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/397528767.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"libnetcdf474"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"cdms2",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"The Community Data Management System is an object-oriented\ndata management system, specialized for organizing\nmultidimensional, gridded data used in climate\nanalysis and simulation.\n",
+   "dev_url":"http://github.com/CDAT/cdms",
+   "doc_url":"https://cdms.readthedocs.io/en/latest",
+   "home":"http://github.com/CDAT/cdms",
+   "license":"BSD-3-Clause",
+   "license_file":"bsd-3-clause.txt",
+   "summary":"Community Data Management System"
+  },
+  "build":{
+   "number":"10",
+   "skip":true
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "dnadeau4",
+    "doutriaux1",
+    "muryanto1",
+    "downiec",
+    "jasonb5",
+    "xylar",
+    "dnadeau4",
+    "doutriaux1",
+    "muryanto1",
+    "downiec",
+    "jasonb5",
+    "xylar",
+    "dnadeau4",
+    "doutriaux1",
+    "muryanto1",
+    "downiec",
+    "jasonb5",
+    "xylar"
+   ]
+  },
+  "package":{
+   "name":"cdms2",
+   "version":"3.1.4"
+  },
+  "requirements":{
+   "build":[
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "fortran_compiler_stub",
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "fortran_compiler_stub",
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "fortran_compiler_stub"
+   ],
+   "host":[
+    "python",
+    "setuptools",
+    "cdat_info >=8.2",
+    "numpy",
+    "libcdms >=3.1.2",
+    "libdrs_f >=3.1.2",
+    "libdrs >=3.1.2",
+    "cdtime >=3.1.2",
+    "openblas",
+    "lazy-object-proxy",
+    "libnetcdf",
+    "libnetcdf * nompi_*",
+    "python",
+    "setuptools",
+    "cdat_info >=8.2",
+    "numpy",
+    "libcdms >=3.1.2",
+    "libdrs_f >=3.1.2",
+    "libdrs >=3.1.2",
+    "cdtime >=3.1.2",
+    "openblas",
+    "lazy-object-proxy",
+    "libnetcdf",
+    "libnetcdf * nompi_*",
+    "python",
+    "setuptools",
+    "cdat_info >=8.2",
+    "numpy",
+    "libcdms >=3.1.2",
+    "libdrs_f >=3.1.2",
+    "libdrs >=3.1.2",
+    "cdtime >=3.1.2",
+    "openblas",
+    "lazy-object-proxy",
+    "libnetcdf",
+    "libnetcdf * nompi_*"
+   ],
+   "run":[
+    "python",
+    "libcf",
+    "distarray",
+    "lazy-object-proxy",
+    "cdtime",
+    "cdat_info >=8.2",
+    "numpy",
+    "esmf",
+    "esmpy",
+    "six",
+    "libcdms >=3.1.2",
+    "libdrs_f >=3.1.2",
+    "libdrs >=3.1.2",
+    "cdtime >=3.1.2",
+    "openblas",
+    "libnetcdf",
+    "python",
+    "libcf",
+    "distarray",
+    "lazy-object-proxy",
+    "cdtime",
+    "cdat_info >=8.2",
+    "numpy",
+    "esmf",
+    "esmpy",
+    "six",
+    "libcdms >=3.1.2",
+    "libdrs_f >=3.1.2",
+    "libdrs >=3.1.2",
+    "cdtime >=3.1.2",
+    "openblas",
+    "libnetcdf",
+    "python",
+    "libcf",
+    "distarray",
+    "lazy-object-proxy",
+    "cdtime",
+    "cdat_info >=8.2",
+    "numpy",
+    "esmf",
+    "esmpy",
+    "six",
+    "libcdms >=3.1.2",
+    "libdrs_f >=3.1.2",
+    "libdrs >=3.1.2",
+    "cdtime >=3.1.2",
+    "openblas",
+    "libnetcdf"
+   ]
+  },
+  "source":{
+   "patches":[
+    "0001-Fixes-issue-creating-file-on-OSX-when-compiled-with-clang-and--fstack-protector-string.patch",
+    "0002-replaced-numpy.rank-with-numpy.ndim-adding-test_setd.patch",
+    "0001-Fixes-issue-creating-file-on-OSX-when-compiled-with-clang-and--fstack-protector-string.patch",
+    "0002-replaced-numpy.rank-with-numpy.ndim-adding-test_setd.patch",
+    "0001-Fixes-issue-creating-file-on-OSX-when-compiled-with-clang-and--fstack-protector-string.patch",
+    "0002-replaced-numpy.rank-with-numpy.ndim-adding-test_setd.patch"
+   ],
+   "sha256":"106456b6e3c0fb05f65d23c2d259a9d995d54091f75393d2c845f0462ed8dc02",
+   "url":"https://github.com/CDAT/cdms/archive/v3.1.4.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "export CDAT_ANONYMOUS_LOG=false && python -c \"import cdms2\"",
+    "export CDAT_ANONYMOUS_LOG=false && python -c \"import cdms2; cdms2.open('test.nc', 'w')\"",
+    "export CDAT_ANONYMOUS_LOG=false && python -c \"import cdms2; cdms2.open('test.nc')\"",
+    "export CDAT_ANONYMOUS_LOG=false && python -c \"from cdms2 import MV2\"",
+    "export CDAT_ANONYMOUS_LOG=false && python -c \"import cdms2\"",
+    "export CDAT_ANONYMOUS_LOG=false && python -c \"import cdms2; cdms2.open('test.nc', 'w')\"",
+    "export CDAT_ANONYMOUS_LOG=false && python -c \"import cdms2; cdms2.open('test.nc')\"",
+    "export CDAT_ANONYMOUS_LOG=false && python -c \"from cdms2 import MV2\"",
+    "export CDAT_ANONYMOUS_LOG=false && python -c \"import cdms2\"",
+    "export CDAT_ANONYMOUS_LOG=false && python -c \"import cdms2; cdms2.open('test.nc', 'w')\"",
+    "export CDAT_ANONYMOUS_LOG=false && python -c \"import cdms2; cdms2.open('test.nc')\"",
+    "export CDAT_ANONYMOUS_LOG=false && python -c \"from cdms2 import MV2\""
+   ]
+  }
+ },
+ "name":"cdms2",
+ "new_version":"3.1.4",
+ "pinning_version":"2020.03.30",
+ "raw_meta_yaml":"{% set name = \"cdms2\" %}\n{% set version = \"3.1.4\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://github.com/CDAT/cdms/archive/v{{ version }}.tar.gz\n  sha256: 106456b6e3c0fb05f65d23c2d259a9d995d54091f75393d2c845f0462ed8dc02\n  patches:\n    - 0001-Fixes-issue-creating-file-on-OSX-when-compiled-with-clang-and--fstack-protector-string.patch\n    - 0002-replaced-numpy.rank-with-numpy.ndim-adding-test_setd.patch\n\nbuild:\n  number: 10\n  skip: True  # [win] \n\nrequirements:\n  build:\n    - {{ compiler('c') }}\n    - {{ compiler('cxx') }}\n    - {{ compiler('fortran') }}\n  host:\n    - python {{ python }}\n    - setuptools\n    - cdat_info >=8.2\n    - numpy\n    - libcdms >=3.1.2\n    - libdrs_f >=3.1.2\n    - libdrs >=3.1.2\n    - cdtime >=3.1.2\n    - openblas\n    - lazy-object-proxy\n    - libnetcdf\n    - libnetcdf * nompi_*\n  run:\n    - python {{ python }}\n    - libcf\n    - distarray\n    - lazy-object-proxy\n    - cdtime\n    - cdat_info >=8.2\n    - {{ pin_compatible('numpy') }}\n    - esmf\n    - esmpy\n    - six\n    - libcdms >=3.1.2\n    - libdrs_f >=3.1.2\n    - libdrs >=3.1.2\n    - cdtime >=3.1.2\n    - openblas\n    - libnetcdf\n\ntest:\n  commands:\n    - export CDAT_ANONYMOUS_LOG=false && python -c \"import cdms2\"\n    - export CDAT_ANONYMOUS_LOG=false && python -c \"import cdms2; cdms2.open('test.nc', 'w')\"\n    - export CDAT_ANONYMOUS_LOG=false && python -c \"import cdms2; cdms2.open('test.nc')\"\n    - export CDAT_ANONYMOUS_LOG=false && python -c \"from cdms2 import MV2\"\n\nabout:\n  home: http://github.com/CDAT/cdms\n  license: BSD-3-Clause\n  license_file: bsd-3-clause.txt\n  summary: Community Data Management System\n  description: |\n    The Community Data Management System is an object-oriented\n    data management system, specialized for organizing\n    multidimensional, gridded data used in climate\n    analysis and simulation.\n  doc_url: https://cdms.readthedocs.io/en/latest\n  dev_url: http://github.com/CDAT/cdms\n\nextra:\n  recipe-maintainers:\n    - dnadeau4\n    - doutriaux1\n    - muryanto1\n    - downiec\n    - jasonb5\n    - xylar\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "c_compiler_stub",
+   "cdat_info",
+   "cdtime",
+   "cxx_compiler_stub",
+   "distarray",
+   "esmf",
+   "esmpy",
+   "fortran_compiler_stub",
+   "lazy-object-proxy",
+   "libcdms",
+   "libcf",
+   "libdrs",
+   "libdrs_f",
+   "libnetcdf",
+   "numpy",
+   "openblas",
+   "python",
+   "setuptools",
+   "six"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "fortran_compiler_stub"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "cdat_info",
+    "cdtime",
+    "lazy-object-proxy",
+    "libcdms",
+    "libdrs",
+    "libdrs_f",
+    "libnetcdf",
+    "numpy",
+    "openblas",
+    "python",
+    "setuptools"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "cdat_info",
+    "cdtime",
+    "distarray",
+    "esmf",
+    "esmpy",
+    "lazy-object-proxy",
+    "libcdms",
+    "libcf",
+    "libdrs",
+    "libdrs_f",
+    "libnetcdf",
+    "numpy",
+    "openblas",
+    "python",
+    "six"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.6.15",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "fortran_compiler_stub"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "cdat_info >=8.2",
+    "cdtime >=3.1.2",
+    "lazy-object-proxy",
+    "libcdms >=3.1.2",
+    "libdrs >=3.1.2",
+    "libdrs_f >=3.1.2",
+    "libnetcdf",
+    "libnetcdf * nompi_*",
+    "numpy",
+    "openblas",
+    "python",
+    "setuptools"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "cdat_info >=8.2",
+    "cdtime",
+    "cdtime >=3.1.2",
+    "distarray",
+    "esmf",
+    "esmpy",
+    "lazy-object-proxy",
+    "libcdms >=3.1.2",
+    "libcf",
+    "libdrs >=3.1.2",
+    "libdrs_f >=3.1.2",
+    "libnetcdf",
+    "numpy",
+    "openblas",
+    "python",
+    "six"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://github.com/CDAT/cdms/archive/v3.1.3.tar.gz",
+ "version":"3.1.4"
+}

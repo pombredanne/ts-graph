@@ -1,0 +1,5 @@
+{
+ "bad":false,
+ "feedstock_name":"djangorestframework-filters",
+ "raw_meta_yaml":"{% set name = \"djangorestframework-filters\" %}\n{% set version = \"1.0.0.dev0\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: d53692f9f0dfcdc1df4e890787f7212c3602476b85faffdefec02e2bc386c5b6\n\nbuild:\n  noarch: python\n  number: 0\n  script: {{ PYTHON }} -m pip install . -vv\n\nrequirements:\n  host:\n    - pip\n    - python >=3.4\n  run:\n    - django-filter >=2.0\n    - djangorestframework\n    - python >=3.4\n\ntest:\n  imports:\n    - rest_framework_filters\n    - rest_framework_filters.templatetags\n\nabout:\n  home: http://github.com/philipn/django-rest-framework-filters\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE\n  summary: \"Better filtering for Django REST Framework\"\n  dev_url: http://github.com/philipn/django-rest-framework-filters\n\nextra:\n  recipe-maintainers:\n    - rluria14\n    - oblute\n"
+}

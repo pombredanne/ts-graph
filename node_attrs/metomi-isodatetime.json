@@ -1,0 +1,141 @@
+{
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"metomi-isodatetime",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"Python ISO8601 (2004) full-specification parser and data\nmodel/manipulation utilities. Intended to be used in a similar\nway to Python's datetime module.\n",
+   "dev_url":"https://github.com/metomi/isodatetime",
+   "doc_url":"https://github.com/metomi/isodatetime",
+   "home":"https://github.com/metomi/isodatetime",
+   "license":"LGPL-3.0",
+   "license_family":"GPL",
+   "license_file":"LICENSE",
+   "summary":"Python ISO 8601 date time parser and data model/manipulation utilities"
+  },
+  "build":{
+   "entry_points":[
+    "isodatetime=metomi.isodatetime.main:main",
+    "isodatetime=metomi.isodatetime.main:main",
+    "isodatetime=metomi.isodatetime.main:main"
+   ],
+   "noarch":"python",
+   "number":"1",
+   "script":" -m pip install . --no-deps --ignore-installed -vv "
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "kinow",
+    "wxtim",
+    "oliver-sanders",
+    "kinow",
+    "wxtim",
+    "oliver-sanders",
+    "kinow",
+    "wxtim",
+    "oliver-sanders"
+   ]
+  },
+  "package":{
+   "name":"metomi-isodatetime",
+   "version":"1!2.0.1"
+  },
+  "requirements":{
+   "host":[
+    "pip",
+    "pytest-runner",
+    "python  >=3.7",
+    "pip",
+    "pytest-runner",
+    "python  >=3.7",
+    "pip",
+    "pytest-runner",
+    "python  >=3.7"
+   ],
+   "run":[
+    "python  >=3.7",
+    "python  >=3.7",
+    "python  >=3.7"
+   ]
+  },
+  "source":{
+   "sha256":"a8dd8a12f4df79098c297de192d6dd75b93c78a2565f10ec13281f2f2c5faf29",
+   "url":"https://pypi.io/packages/source/m/metomi-isodatetime/metomi-isodatetime-1!2.0.1.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "isodatetime --help",
+    "isodatetime --help",
+    "isodatetime --help"
+   ],
+   "imports":[
+    "metomi.isodatetime",
+    "metomi.isodatetime",
+    "metomi.isodatetime"
+   ]
+  }
+ },
+ "name":"metomi-isodatetime",
+ "new_version":"1!2.0.1",
+ "raw_meta_yaml":"{% set name = \"metomi-isodatetime\" %}\n{% set version = \"1!2.0.1\" %}\n\npackage:\n  name: \"{{ name|lower }}\"\n  version: \"{{ version }}\"\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: a8dd8a12f4df79098c297de192d6dd75b93c78a2565f10ec13281f2f2c5faf29\n\nbuild:\n  noarch: python\n  number: 1\n  entry_points:\n    - isodatetime=metomi.isodatetime.main:main\n  script: \"{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv \"\n\nrequirements:\n  host:\n    - pip\n    - pytest-runner\n    - python  >=3.7\n  run:\n    - python  >=3.7\n\ntest:\n  imports:\n    - metomi.isodatetime\n  commands:\n    - isodatetime --help\n\nabout:\n  home: https://github.com/metomi/isodatetime\n  license: LGPL-3.0\n  license_family: GPL\n  license_file: LICENSE\n  summary: 'Python ISO 8601 date time parser and data model/manipulation utilities'\n  description: |\n    Python ISO8601 (2004) full-specification parser and data\n    model/manipulation utilities. Intended to be used in a similar\n    way to Python's datetime module.\n  doc_url: https://github.com/metomi/isodatetime\n  dev_url: https://github.com/metomi/isodatetime\n\nextra:\n  recipe-maintainers:\n    - kinow\n    - wxtim\n    - oliver-sanders\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "pip",
+   "pytest-runner",
+   "python"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "pytest-runner",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "pytest-runner",
+    "python  >=3.7"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "python  >=3.7"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/m/metomi-isodatetime/metomi-isodatetime-1!2.0.1.tar.gz",
+ "version":"1!2.0.1"
+}

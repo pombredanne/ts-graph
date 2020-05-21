@@ -1,0 +1,256 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/381877218.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"python38"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/392790697.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"pypy"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/395297989.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.4.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"sharppy",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"SHARPpy is a collection of open source sounding and hodograph analysis routines, a sounding plotting package,\nand an interactive, cross-platform application for analyzing real-time soundings all written in Python.\nIt was developed to provide the atmospheric science community a free and consistent source of sounding analysis\nroutines. SHARPpy is updated and vetted by professional meteorologists and climatologists within the scientific\ncommunity to help maintain a standard source of sounding routines.\n",
+   "dev_url":"https://github.com/sharppy/SHARPpy",
+   "doc_url":"https://sharppy.github.io/SHARPpy/index.html",
+   "home":"https://github.com/sharppy/SHARPpy",
+   "license":"BSD-3-Clause",
+   "license_family":"BSD",
+   "license_file":"LICENSE.rst",
+   "summary":"Sounding/Hodograph Analysis and Research Program for Python"
+  },
+  "build":{
+   "entry_points":[
+    "sharppy = runsharp.full_gui:main",
+    "sharppy = runsharp.full_gui:main",
+    "sharppy = runsharp.full_gui:main"
+   ],
+   "number":"0",
+   "osx_is_app":true,
+   "script":" -m pip install . --no-deps -vv --ignore-installed --no-cache-dir"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "wblumberg",
+    "tsupinie",
+    "wblumberg",
+    "tsupinie",
+    "wblumberg",
+    "tsupinie"
+   ]
+  },
+  "package":{
+   "name":"sharppy",
+   "version":"v1.4.0"
+  },
+  "requirements":{
+   "build":[
+    "python >=3.6",
+    "python >=3.6",
+    "python >=3.6",
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "cdt_stub",
+    "cdt_stub",
+    "cdt_stub",
+    "cdt_stub",
+    "cdt_stub"
+   ],
+   "host":[
+    "python",
+    "pip",
+    "python",
+    "pip",
+    "python",
+    "pip",
+    "xorg-libxfixes"
+   ],
+   "run":[
+    "python",
+    "numpy >=1.15",
+    "pyside2 >=5.12",
+    "qtpy",
+    "requests",
+    "python-dateutil >=2",
+    "certifi",
+    "python",
+    "numpy >=1.15",
+    "pyside2 >=5.12",
+    "qtpy",
+    "requests",
+    "python-dateutil >=2",
+    "certifi",
+    "python",
+    "numpy >=1.15",
+    "pyside2 >=5.12",
+    "qtpy",
+    "requests",
+    "python-dateutil >=2",
+    "certifi"
+   ]
+  },
+  "source":{
+   "sha256":"55bce9e3e34958de7e30ab0cc1ade4abcd94328db08e8e7344ee4b8db905695a",
+   "url":"https://github.com/sharppy/SHARPpy/archive/v1.4.0.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "sharppy --version",
+    "sharppy --version",
+    "sharppy --version"
+   ],
+   "imports":[
+    "sharppy",
+    "sharppy",
+    "sharppy"
+   ]
+  }
+ },
+ "name":"sharppy",
+ "new_version":"1.4.0",
+ "pinning_version":"2020.03.28",
+ "raw_meta_yaml":"{% set name = \"SHARPpy\" %}\n{% set version = \"v1.4.0\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://github.com/sharppy/SHARPpy/archive/{{version}}.tar.gz\n  sha256: 55bce9e3e34958de7e30ab0cc1ade4abcd94328db08e8e7344ee4b8db905695a\n\nbuild:\n  script: \"{{ PYTHON }} -m pip install . --no-deps -vv --ignore-installed --no-cache-dir\"\n  osx_is_app: True\n  number: 0\n  skip: true  # [py<35]\n  entry_points:\n    - sharppy = runsharp.full_gui:main\n\nrequirements:\n  build:\n    - python >=3.6\n    - {{ compiler('c') }}  # [linux]\n    - {{ compiler('cxx') }}  # [linux]\n    - {{ cdt('mesa-libgl-devel') }}  # [linux]\n    - {{ cdt('mesa-dri-drivers') }}  # [linux]\n    - {{ cdt('libselinux') }}  # [linux]\n    - {{ cdt('libxdamage') }}  # [linux]\n    - {{ cdt('libxxf86vm') }}  # [linux]\n  host:\n    - python\n    - pip\n    - xorg-libxfixes  # [linux]\n  run:\n    - python\n    - numpy >=1.15\n    - pyside2 >=5.12\n    - qtpy\n    - requests\n    - python-dateutil >=2\n    - certifi\n    \ntest:\n  imports:\n    - sharppy\n  commands:\n    - sharppy --version\n\nabout:\n  home: https://github.com/sharppy/SHARPpy\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: LICENSE.rst\n  summary: 'Sounding/Hodograph Analysis and Research Program for Python'\n  description: |\n        SHARPpy is a collection of open source sounding and hodograph analysis routines, a sounding plotting package, \n        and an interactive, cross-platform application for analyzing real-time soundings all written in Python. \n        It was developed to provide the atmospheric science community a free and consistent source of sounding analysis \n        routines. SHARPpy is updated and vetted by professional meteorologists and climatologists within the scientific\n        community to help maintain a standard source of sounding routines.\n  doc_url: https://sharppy.github.io/SHARPpy/index.html \n  dev_url: https://github.com/sharppy/SHARPpy\n\nextra:\n  recipe-maintainers:\n    - wblumberg\n    - tsupinie\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "c_compiler_stub",
+   "cdt_stub",
+   "certifi",
+   "cxx_compiler_stub",
+   "numpy",
+   "pip",
+   "pyside2",
+   "python",
+   "python-dateutil",
+   "qtpy",
+   "requests",
+   "xorg-libxfixes"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "cdt_stub",
+    "cxx_compiler_stub",
+    "python"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python",
+    "xorg-libxfixes"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "certifi",
+    "numpy",
+    "pyside2",
+    "python",
+    "python-dateutil",
+    "qtpy",
+    "requests"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.6.15",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "cdt_stub",
+    "cxx_compiler_stub",
+    "python >=3.6"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python",
+    "xorg-libxfixes"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "certifi",
+    "numpy >=1.15",
+    "pyside2 >=5.12",
+    "python",
+    "python-dateutil >=2",
+    "qtpy",
+    "requests"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://github.com/sharppy/SHARPpy/archive/v1.4.0b1.tar.gz",
+ "version":"v1.4.0"
+}

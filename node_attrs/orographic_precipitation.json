@@ -1,0 +1,125 @@
+{
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"orographic_precipitation",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"A Python framework that implements the Linear Theory of\nOrographic Precipitation following Smith & Barstad (2004).\n",
+   "dev_url":"https://github.com/rlange2/orographic-precipitation",
+   "doc_url":"https://github.com/rlange2/orographic-precipitation/blob/master/README.rst",
+   "home":"https://github.com/rlange2/orographic-precipitation",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"LICENSE",
+   "summary":"Linear Theory of Orographic Precipitation"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "rlange2",
+    "rlange2",
+    "rlange2"
+   ]
+  },
+  "package":{
+   "name":"orographic_precipitation",
+   "version":"0.1rc0"
+  },
+  "requirements":{
+   "host":[
+    "python >=3",
+    "pip",
+    "python >=3",
+    "pip",
+    "python >=3",
+    "pip"
+   ],
+   "run":[
+    "python >=3",
+    "numpy",
+    "python >=3",
+    "numpy",
+    "python >=3",
+    "numpy"
+   ]
+  },
+  "source":{
+   "sha256":"13559a0f324f9761ee2534430feb628f71416ff1c3b10c79d3452b2c276246b2",
+   "url":"https://pypi.io/packages/source/o/orographic_precipitation/orographic_precipitation-0.1rc0.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "orographic_precipitation",
+    "orographic_precipitation",
+    "orographic_precipitation"
+   ]
+  }
+ },
+ "name":"orographic_precipitation",
+ "new_version":false,
+ "raw_meta_yaml":"{% set name = \"orographic_precipitation\" %}\n{% set version = \"0.1rc0\" %}\n\npackage:\n  name: \"{{ name|lower }}\"\n  version: \"{{ version }}\"\n\nsource:\n  url: \"https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\"\n  sha256: 13559a0f324f9761ee2534430feb628f71416ff1c3b10c79d3452b2c276246b2\n\nbuild:\n  noarch: python\n  number: 0\n  script: \"{{ PYTHON }} -m pip install . -vv\"\n\nrequirements:\n  host:\n    - python >=3\n    - pip\n  run:\n    - python >=3\n    - numpy\n\ntest:\n  imports:\n    - orographic_precipitation\n\nabout:\n  home: https://github.com/rlange2/orographic-precipitation\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE\n  summary: 'Linear Theory of Orographic Precipitation'\n  description: |\n    A Python framework that implements the Linear Theory of\n    Orographic Precipitation following Smith & Barstad (2004).\n  doc_url: https://github.com/rlange2/orographic-precipitation/blob/master/README.rst\n  dev_url: https://github.com/rlange2/orographic-precipitation\n\nextra:\n  recipe-maintainers:\n    - rlange2\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "numpy",
+   "pip",
+   "python"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "numpy",
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "numpy",
+    "python >=3"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/o/orographic_precipitation/orographic_precipitation-0.1rc0.tar.gz",
+ "version":"0.1rc0"
+}

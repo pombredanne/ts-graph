@@ -1,0 +1,243 @@
+{
+ "PRed":[
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.11.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/312656036.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.12.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/347106650.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.13.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/374650798.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MatplotlibBase",
+    "migrator_version":0
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/396787017.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.14.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"pastas",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "dev_url":"https://github.com/pastas/pastas",
+   "doc_url":"http://pastas.readthedocs.io",
+   "home":"https://github.com/pastas/pastas",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"LICENSE",
+   "summary":"Python Applied System TimeSeries Analysis Software"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . --no-deps --ignore-installed -vvv "
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "jentjr",
+    "jentjr",
+    "jentjr"
+   ]
+  },
+  "package":{
+   "name":"pastas",
+   "version":"0.14.0"
+  },
+  "requirements":{
+   "host":[
+    "numpy >=1.10",
+    "pip",
+    "python >=3.5",
+    "numpy >=1.10",
+    "pip",
+    "python >=3.5",
+    "numpy >=1.10",
+    "pip",
+    "python >=3.5"
+   ],
+   "run":[
+    "matplotlib-base >=2.0",
+    "numpy",
+    "pandas >=0.22",
+    "python >=3.5",
+    "scipy >=1.0",
+    "matplotlib-base >=2.0",
+    "numpy",
+    "pandas >=0.22",
+    "python >=3.5",
+    "scipy >=1.0",
+    "matplotlib-base >=2.0",
+    "numpy",
+    "pandas >=0.22",
+    "python >=3.5",
+    "scipy >=1.0"
+   ]
+  },
+  "source":{
+   "sha256":"7672b2bf8f5cc29e990599b818305fdf12dddeefa37f20fad9140168fbfa0543",
+   "url":"https://github.com/pastas/pastas/archive/v0.14.0.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "pastas",
+    "pastas.io",
+    "pastas.project",
+    "pastas.read",
+    "pastas.stats",
+    "pastas",
+    "pastas.io",
+    "pastas.project",
+    "pastas.read",
+    "pastas.stats",
+    "pastas",
+    "pastas.io",
+    "pastas.project",
+    "pastas.read",
+    "pastas.stats"
+   ]
+  }
+ },
+ "name":"pastas",
+ "new_version":"0.14.0",
+ "pinning_version":"2020.03.30",
+ "raw_meta_yaml":"{% set name = \"pastas\" %}\n{% set version = \"0.14.0\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://github.com/pastas/{{ name }}/archive/v{{ version }}.tar.gz\n  sha256: 7672b2bf8f5cc29e990599b818305fdf12dddeefa37f20fad9140168fbfa0543\n\nbuild:\n  number: 0\n  noarch: python\n  script: '{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vvv '\n\nrequirements:\n  host:\n    - numpy >=1.10\n    - pip\n    - python >=3.5\n  run:\n    - matplotlib-base >=2.0\n    - {{ pin_compatible('numpy') }}\n    - pandas >=0.22\n    - python >=3.5\n    - scipy >=1.0\n\ntest:\n  imports:\n    - pastas\n    - pastas.io\n    - pastas.project\n    - pastas.read\n    - pastas.stats\n\nabout:\n  home: https://github.com/pastas/pastas\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE\n  summary: Python Applied System TimeSeries Analysis Software\n  doc_url: http://pastas.readthedocs.io\n  dev_url: https://github.com/pastas/pastas\n\nextra:\n  recipe-maintainers:\n    - jentjr\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "matplotlib-base",
+   "numpy",
+   "pandas",
+   "pip",
+   "python",
+   "scipy"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "numpy",
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "matplotlib-base",
+    "numpy",
+    "pandas",
+    "python",
+    "scipy"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.6.15",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "numpy >=1.10",
+    "pip",
+    "python >=3.5"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "matplotlib-base >=2.0",
+    "numpy",
+    "pandas >=0.22",
+    "python >=3.5",
+    "scipy >=1.0"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://github.com/pastas/pastas/archive/v0.12.0.tar.gz",
+ "version":"0.14.0"
+}

@@ -1,0 +1,276 @@
+{
+ "PRed":[
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.1.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/200146531.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Noarch",
+    "migrator_version":0
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/214050897.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.1.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/248421502.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.1.3"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"lektor",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"A flexible and powerful static content management system for building\ncomplex and beautiful websites out of flat files for people who do not\nwant to make a compromise between a CMS and a static blog engine.\n",
+   "dev_url":"https://github.com/lektor/lektor",
+   "doc_url":"https://www.getlektor.com/docs",
+   "home":"https://getlektor.com",
+   "license":"BSD 3-Clause",
+   "license_family":"BSD",
+   "summary":"The lektor static file content management system."
+  },
+  "build":{
+   "entry_points":[
+    "lektor = lektor.cli:main",
+    "lektor = lektor.cli:main",
+    "lektor = lektor.cli:main"
+   ],
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . --no-deps -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "goanpeca",
+    "rlaverde",
+    "goanpeca",
+    "rlaverde",
+    "goanpeca",
+    "rlaverde"
+   ]
+  },
+  "package":{
+   "name":"lektor",
+   "version":"3.1.3"
+  },
+  "requirements":{
+   "build":[
+    "python",
+    "pip",
+    "python",
+    "pip",
+    "python",
+    "pip"
+   ],
+   "run":[
+    "babel",
+    "click >=6.0",
+    "exifread",
+    "flask",
+    "inifile",
+    "jinja2 >=2.4",
+    "mistune >=0.7.0",
+    "ndg-httpsclient",
+    "nodejs",
+    "pyasn1",
+    "pyopenssl >=0.13",
+    "python",
+    "requests",
+    "watchdog",
+    "babel",
+    "click >=6.0",
+    "exifread",
+    "flask",
+    "inifile",
+    "jinja2 >=2.4",
+    "mistune >=0.7.0",
+    "ndg-httpsclient",
+    "nodejs",
+    "pyasn1",
+    "pyopenssl >=0.13",
+    "python",
+    "requests",
+    "watchdog",
+    "babel",
+    "click >=6.0",
+    "exifread",
+    "flask",
+    "inifile",
+    "jinja2 >=2.4",
+    "mistune >=0.7.0",
+    "ndg-httpsclient",
+    "nodejs",
+    "pyasn1",
+    "pyopenssl >=0.13",
+    "python",
+    "requests",
+    "watchdog"
+   ]
+  },
+  "source":{
+   "sha256":"60a83e7a100780a58553324b396b0df32a2f584452184efbf87acefed85e564d",
+   "url":"https://pypi.io/packages/source/L/Lektor/Lektor-3.1.3.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "lektor --help",
+    "lektor --help",
+    "lektor --help"
+   ],
+   "imports":[
+    "lektor",
+    "lektor",
+    "lektor"
+   ]
+  }
+ },
+ "name":"lektor",
+ "new_version":"3.1.3",
+ "pinning_version":"2019.01.21",
+ "raw_meta_yaml":"{% set version = \"3.1.3\" %}\n\npackage:\n  name: lektor\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/L/Lektor/Lektor-{{ version }}.tar.gz\n  sha256: 60a83e7a100780a58553324b396b0df32a2f584452184efbf87acefed85e564d\n\nbuild:\n  noarch: python\n  number: 0\n  script: \"{{ PYTHON }} -m pip install . --no-deps -vv\"\n  entry_points:\n    - lektor = lektor.cli:main\n\nrequirements:\n  build:\n    - python\n    - pip\n  run:\n    - babel\n    - click >=6.0\n    - exifread\n    - flask\n    - inifile\n    - jinja2 >=2.4\n    - mistune >=0.7.0\n    - ndg-httpsclient\n    - nodejs\n    - pyasn1\n    - pyopenssl >=0.13\n    - python\n    - requests\n    - watchdog\n\ntest:\n  imports:\n    - lektor\n\n  commands:\n    - lektor --help\n\nabout:\n  home: https://getlektor.com\n  license: BSD 3-Clause\n  license_family: BSD\n  summary: The lektor static file content management system.\n  description: |\n    A flexible and powerful static content management system for building\n    complex and beautiful websites out of flat files for people who do not\n    want to make a compromise between a CMS and a static blog engine.\n  dev_url: https://github.com/lektor/lektor\n  doc_url: https://www.getlektor.com/docs\n\nextra:\n  recipe-maintainers:\n    - goanpeca\n    - rlaverde\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "babel",
+   "click",
+   "exifread",
+   "flask",
+   "inifile",
+   "jinja2",
+   "mistune",
+   "ndg-httpsclient",
+   "nodejs",
+   "pip",
+   "pyasn1",
+   "pyopenssl",
+   "python",
+   "requests",
+   "watchdog"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "babel",
+    "click",
+    "exifread",
+    "flask",
+    "inifile",
+    "jinja2",
+    "mistune",
+    "ndg-httpsclient",
+    "nodejs",
+    "pyasn1",
+    "pyopenssl",
+    "python",
+    "requests",
+    "watchdog"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.2.10",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "babel",
+    "click >=6.0",
+    "exifread",
+    "flask",
+    "inifile",
+    "jinja2 >=2.4",
+    "mistune >=0.7.0",
+    "ndg-httpsclient",
+    "nodejs",
+    "pyasn1",
+    "pyopenssl >=0.13",
+    "python",
+    "requests",
+    "watchdog"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/L/Lektor/Lektor-3.1.3.tar.gz",
+ "version":"3.1.3"
+}

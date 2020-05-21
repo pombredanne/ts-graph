@@ -1,0 +1,210 @@
+{
+ "PRed":[
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.7.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"pyulog",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"https://github.com/PX4/pyulog",
+   "license":"BSD 3-Clause",
+   "license_file":"LICENSE.md",
+   "summary":"Python library to parse ULog files for PX4 autopilots."
+  },
+  "build":{
+   "entry_points":[
+    "ulog_extract_gps_dump=pyulog.extract_gps_dump:main",
+    "ulog_info = pyulog.info:main",
+    "ulog_messages=pyulog.messages:main",
+    "ulog_params=pyulog.params:main",
+    "ulog2csv=pyulog.ulog2csv:main",
+    "ulog_extract_gps_dump=pyulog.extract_gps_dump:main",
+    "ulog_info = pyulog.info:main",
+    "ulog_messages=pyulog.messages:main",
+    "ulog_params=pyulog.params:main",
+    "ulog2csv=pyulog.ulog2csv:main",
+    "ulog_extract_gps_dump=pyulog.extract_gps_dump:main",
+    "ulog_info = pyulog.info:main",
+    "ulog_messages=pyulog.messages:main",
+    "ulog_params=pyulog.params:main",
+    "ulog2csv=pyulog.ulog2csv:main"
+   ],
+   "noarch":"python",
+   "number":"0",
+   "script":"python -m pip install --no-deps --ignore-installed ."
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "fredowski",
+    "fredowski",
+    "fredowski"
+   ]
+  },
+  "package":{
+   "name":"pyulog",
+   "version":"0.7.0"
+  },
+  "requirements":{
+   "build":[
+    "python",
+    "pip",
+    "setuptools",
+    "python",
+    "pip",
+    "setuptools",
+    "python",
+    "pip",
+    "setuptools"
+   ],
+   "run":[
+    "python",
+    "numpy",
+    "python",
+    "numpy",
+    "python",
+    "numpy"
+   ]
+  },
+  "source":{
+   "sha256":"6f45f088615893caec0bc692f1590006dec44fbff544f730b78a84757f4a15a5",
+   "url":"https://github.com/PX4/pyulog/archive/v0.7.0.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "python setup.py test",
+    "ulog_info -h",
+    "ulog_extract_gps_dump -h",
+    "ulog_messages -h",
+    "ulog_params -h",
+    "ulog2csv -h",
+    "python setup.py test",
+    "ulog_info -h",
+    "ulog_extract_gps_dump -h",
+    "ulog_messages -h",
+    "ulog_params -h",
+    "ulog2csv -h",
+    "python setup.py test",
+    "ulog_info -h",
+    "ulog_extract_gps_dump -h",
+    "ulog_messages -h",
+    "ulog_params -h",
+    "ulog2csv -h"
+   ],
+   "requires":[
+    "ddt",
+    "nose",
+    "setuptools",
+    "ddt",
+    "nose",
+    "setuptools",
+    "ddt",
+    "nose",
+    "setuptools"
+   ],
+   "source_files":[
+    "test/*",
+    "setup.py",
+    "versioneer.py",
+    "setup.cfg",
+    "test/*",
+    "setup.py",
+    "versioneer.py",
+    "setup.cfg",
+    "test/*",
+    "setup.py",
+    "versioneer.py",
+    "setup.cfg"
+   ]
+  }
+ },
+ "name":"pyulog",
+ "new_version":"0.7.0",
+ "pinning_version":"2019.06.09",
+ "raw_meta_yaml":"{% set name = \"pyulog\" %}\n{% set version = \"0.7.0\" %}\n{% set sha256 = \"6f45f088615893caec0bc692f1590006dec44fbff544f730b78a84757f4a15a5\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://github.com/PX4/pyulog/archive/v{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  noarch: python\n  entry_points:\n    - ulog_extract_gps_dump=pyulog.extract_gps_dump:main\n    - ulog_info = pyulog.info:main\n    - ulog_messages=pyulog.messages:main\n    - ulog_params=pyulog.params:main\n    - ulog2csv=pyulog.ulog2csv:main\n  script: python -m pip install --no-deps --ignore-installed .\n\nrequirements:\n  build:\n    - python\n    - pip\n    - setuptools\n  run:\n    - python\n    - numpy\n\ntest:\n  requires:\n    - ddt\n    - nose\n    - setuptools\n  source_files:\n    - test/*\n    - setup.py\n    - versioneer.py\n    - setup.cfg\n  commands:\n    - python setup.py test\n    - ulog_info -h\n    - ulog_extract_gps_dump -h\n    - ulog_messages -h\n    - ulog_params -h\n    - ulog2csv -h\n\nabout:\n  home: https://github.com/PX4/pyulog\n  license: BSD 3-Clause\n  license_file: LICENSE.md\n  summary: 'Python library to parse ULog files for PX4 autopilots.'\n\nextra:\n  recipe-maintainers:\n    - fredowski\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "numpy",
+   "pip",
+   "python",
+   "setuptools"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python",
+    "setuptools"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "numpy",
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "ddt",
+    "nose",
+    "setuptools"
+   ]
+  }
+ },
+ "smithy_version":"3.3.7",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python",
+    "setuptools"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "numpy",
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "ddt",
+    "nose",
+    "setuptools"
+   ]
+  }
+ },
+ "url":"https://github.com/PX4/pyulog/archive/v0.7.0.tar.gz",
+ "version":"0.7.0"
+}

@@ -1,0 +1,134 @@
+{
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"pandas-datapackage-reader",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "dev_url":"https://github.com/rgieseke/pandas-datapackage-reader",
+   "doc_url":"https://github.com/rgieseke/pandas-datapackage-reader/blob/master/README.md",
+   "home":"https://github.com/rgieseke/pandas-datapackage-reader",
+   "license":"BSD-2-Clause",
+   "license_family":"BSD",
+   "license_file":"LICENSE",
+   "summary":"Data Package reader for Pandas"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . --no-deps --ignore-installed -vvv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "znicholls",
+    "rgieseke",
+    "znicholls",
+    "rgieseke",
+    "znicholls",
+    "rgieseke"
+   ]
+  },
+  "package":{
+   "name":"pandas-datapackage-reader",
+   "version":"0.13.1"
+  },
+  "requirements":{
+   "host":[
+    "pip",
+    "python >=3.6",
+    "pip",
+    "python >=3.6",
+    "pip",
+    "python >=3.6"
+   ],
+   "run":[
+    "python >=3.6",
+    "pandas",
+    "requests",
+    "python >=3.6",
+    "pandas",
+    "requests",
+    "python >=3.6",
+    "pandas",
+    "requests"
+   ]
+  },
+  "source":{
+   "sha256":"bdb9e853a080e1c2df718b9ae603e84908bcff6abf92ce8e3643db0f482c744c",
+   "url":"https://pypi.io/packages/source/p/pandas-datapackage-reader/pandas-datapackage-reader-0.13.1.tar.gz"
+  },
+  "test":{
+   "commands":"python -c \"import pandas_datapackage_reader; assert pandas_datapackage_reader.__version__ == '0.13.1'\"",
+   "imports":[
+    "pandas_datapackage_reader",
+    "pandas_datapackage_reader",
+    "pandas_datapackage_reader"
+   ]
+  }
+ },
+ "name":"pandas-datapackage-reader",
+ "new_version":"0.13.1",
+ "raw_meta_yaml":"{% set name = \"pandas-datapackage-reader\" %}\n{% set version = \"0.13.1\" %}\n\npackage:\n  name: \"{{ name|lower }}\"\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: bdb9e853a080e1c2df718b9ae603e84908bcff6abf92ce8e3643db0f482c744c\n\nbuild:\n  number: 0\n  noarch: python\n  script: \"{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vvv\"\n\nrequirements:\n  host:\n    - pip\n    - python >=3.6\n  run:\n    - python >=3.6\n    - pandas\n    - requests\n\ntest:\n  imports:\n    - pandas_datapackage_reader\n\n  commands:\n    python -c \"import pandas_datapackage_reader; assert pandas_datapackage_reader.__version__ == '{{ version }}'\"\n\nabout:\n  home: https://github.com/rgieseke/pandas-datapackage-reader\n  license: BSD-2-Clause\n  license_family: BSD\n  license_file: LICENSE\n  summary: Data Package reader for Pandas\n  doc_url: https://github.com/rgieseke/pandas-datapackage-reader/blob/master/README.md\n  dev_url: https://github.com/rgieseke/pandas-datapackage-reader\n\nextra:\n  recipe-maintainers:\n    - znicholls\n    - rgieseke\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "pandas",
+   "pip",
+   "python",
+   "requests"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "pandas",
+    "python",
+    "requests"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3.6"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "pandas",
+    "python >=3.6",
+    "requests"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/p/pandas-datapackage-reader/pandas-datapackage-reader-0.13.1.tar.gz",
+ "version":"0.13.1"
+}

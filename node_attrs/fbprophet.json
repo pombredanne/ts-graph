@@ -1,0 +1,429 @@
+{
+ "PRed":[
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.3.post1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/226778619.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/239733345.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.4"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/243085923.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.4.post1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/245001773.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.4.post2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/278941414.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.5"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/340133712.json"
+   },
+   "data":{
+    "bot_rerun":1580270828.2518725,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"python38"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/376384220.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.6"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/384859093.json"
+   },
+   "data":{
+    "bot_rerun":1589819708.0799165,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"python38"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "provider":{
+   "win":"azure"
+  }
+ },
+ "feedstock_name":"fbprophet",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"Implements a procedure for forecasting time series data based on an\nadditive model where non-linear trends are fit with yearly, weekly, and\ndaily seasonality, plus holiday effects. It works best with time series\nthat have strong seasonal effects and several seasons of historical data.\nProphet is robust to missing data and shifts in the trend, and typically\nhandles outliers well.\n",
+   "dev_url":"https://github.com/facebook/prophet",
+   "doc_url":"https://facebook.github.io/prophet/docs/quick_start.html",
+   "home":"https://facebook.github.io/prophet/",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"LICENSE",
+   "summary":"Automatic Forecasting Procedure"
+  },
+  "build":{
+   "binary_has_prefix_files":[
+    "Lib/site-packages/fbprophet/stan_model/prophet_model.pkl",
+    "lib/python*/site-packages/fbprophet/stan_model/prophet_model.pkl",
+    "lib/python*/site-packages/fbprophet/stan_model/prophet_model.pkl"
+   ],
+   "number":"0",
+   "script":"-m pip install . -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "pmlandwehr",
+    "rmax",
+    "bletham",
+    "pmlandwehr",
+    "rmax",
+    "bletham",
+    "pmlandwehr",
+    "rmax",
+    "bletham"
+   ]
+  },
+  "package":{
+   "name":"fbprophet",
+   "version":"0.6"
+  },
+  "requirements":{
+   "build":[
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "c_compiler_stub",
+    "cxx_compiler_stub"
+   ],
+   "host":[
+    "python",
+    "pip",
+    "setuptools",
+    "cython >=0.22",
+    "pandas >=0.20.1",
+    "pystan >=2.14",
+    "LunarCalendar >=0.0.9",
+    "convertdate >=2.1.2",
+    "holidays >=0.9.5",
+    "python-dateutil >=2.8.0",
+    "numpy 1.11.*",
+    "python",
+    "pip",
+    "setuptools",
+    "cython >=0.22",
+    "pandas >=0.20.1",
+    "pystan >=2.14",
+    "LunarCalendar >=0.0.9",
+    "convertdate >=2.1.2",
+    "holidays >=0.9.5",
+    "python-dateutil >=2.8.0",
+    "numpy 1.11.*",
+    "python",
+    "pip",
+    "setuptools",
+    "cython >=0.22",
+    "pandas >=0.20.1",
+    "pystan >=2.14",
+    "LunarCalendar >=0.0.9",
+    "convertdate >=2.1.2",
+    "holidays >=0.9.5",
+    "python-dateutil >=2.8.0",
+    "numpy 1.11.*"
+   ],
+   "run":[
+    "m2w64-toolchain",
+    "python",
+    "matplotlib-base >=2.0.0",
+    "pandas >=0.20.1",
+    "pystan >=2.14",
+    "LunarCalendar >=0.0.9",
+    "convertdate >=2.1.2",
+    "holidays >=0.9.5",
+    "python-dateutil >=2.8.0",
+    "numpy >=1.11",
+    "setuptools",
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "python",
+    "matplotlib-base >=2.0.0",
+    "pandas >=0.20.1",
+    "pystan >=2.14",
+    "LunarCalendar >=0.0.9",
+    "convertdate >=2.1.2",
+    "holidays >=0.9.5",
+    "python-dateutil >=2.8.0",
+    "numpy >=1.11",
+    "setuptools",
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "python",
+    "matplotlib-base >=2.0.0",
+    "pandas >=0.20.1",
+    "pystan >=2.14",
+    "LunarCalendar >=0.0.9",
+    "convertdate >=2.1.2",
+    "holidays >=0.9.5",
+    "python-dateutil >=2.8.0",
+    "numpy >=1.11",
+    "setuptools"
+   ]
+  },
+  "source":{
+   "fn":"fbprophet-0.6.tar.gz",
+   "sha256":"de7eaa16500e4dba69a0706906775cbe96668a6fe48354ee2fff820d9e6a899b",
+   "url":"https://pypi.io/packages/source/f/fbprophet/fbprophet-0.6.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "py.test -v --pyargs fbprophet",
+    "py.test -v --pyargs fbprophet",
+    "py.test -v --pyargs fbprophet"
+   ],
+   "requires":[
+    "pytest",
+    "pytest",
+    "pytest"
+   ]
+  }
+ },
+ "name":"fbprophet",
+ "new_version":"0.6",
+ "pinning_version":"2020.03.06",
+ "raw_meta_yaml":"{% set name = \"fbprophet\" %}\n{% set version = \"0.6\" %}\n{% set bundle = \"tar.gz\" %}\n{% set hash_type = \"sha256\" %}\n{% set hash = \"de7eaa16500e4dba69a0706906775cbe96668a6fe48354ee2fff820d9e6a899b\" %}\n{% set build = 0 %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  fn: {{ name }}-{{ version }}.{{ bundle }}\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.{{ bundle }}\n  {{ hash_type }}: {{ hash }}\n\nbuild:\n  number: {{ build }}\n  script: {{ PYTHON }} -m pip install . -vv\n  skip: True  # [py2k]\n  binary_has_prefix_files:\n    - Lib/site-packages/fbprophet/stan_model/prophet_model.pkl          # [win]\n    - lib/python*/site-packages/fbprophet/stan_model/prophet_model.pkl  # [unix]\n\nrequirements:\n  build:\n    - {{ compiler('c') }}\n    - {{ compiler('cxx') }}\n  host:\n    - python\n    - pip\n    - setuptools\n    - cython >=0.22\n    - pandas >=0.20.1\n    - pystan >=2.14\n    - LunarCalendar >=0.0.9\n    - convertdate >=2.1.2\n    - holidays >=0.9.5\n    - python-dateutil >=2.8.0\n    # Pystan models depend on numpy and as they are compiled and pickled we\n    # need to pin numpy version. Note that 1.10 is not available for win+py36.\n    - numpy 1.11.*\n  run:\n    - m2w64-toolchain        # [win]\n    - {{ compiler('c') }}    # [not win]\n    - {{ compiler('cxx') }}  # [not win]\n    - python\n    - matplotlib-base >=2.0.0\n    - pandas >=0.20.1\n    - pystan >=2.14\n    - LunarCalendar >=0.0.9\n    - convertdate >=2.1.2\n    - holidays >=0.9.5\n    - python-dateutil >=2.8.0\n    - numpy >=1.11\n    # setuptools is required for pkg_resources\n    - setuptools\n\ntest:\n  requires:\n    - pytest\n\n  commands:\n    - py.test -v --pyargs fbprophet\n\nabout:\n  home: https://facebook.github.io/prophet/\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE\n  summary: 'Automatic Forecasting Procedure'\n  description: |\n    Implements a procedure for forecasting time series data based on an\n    additive model where non-linear trends are fit with yearly, weekly, and\n    daily seasonality, plus holiday effects. It works best with time series\n    that have strong seasonal effects and several seasons of historical data.\n    Prophet is robust to missing data and shifts in the trend, and typically\n    handles outliers well.\n  doc_url: https://facebook.github.io/prophet/docs/quick_start.html\n  dev_url: https://github.com/facebook/prophet\n\nextra:\n  recipe-maintainers:\n    - pmlandwehr\n    - rmax\n    - bletham\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "c_compiler_stub",
+   "convertdate",
+   "cxx_compiler_stub",
+   "cython",
+   "holidays",
+   "lunarcalendar",
+   "m2w64-toolchain",
+   "matplotlib-base",
+   "numpy",
+   "pandas",
+   "pip",
+   "pystan",
+   "python",
+   "python-dateutil",
+   "setuptools"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "cxx_compiler_stub"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "convertdate",
+    "cython",
+    "holidays",
+    "lunarcalendar",
+    "numpy",
+    "pandas",
+    "pip",
+    "pystan",
+    "python",
+    "python-dateutil",
+    "setuptools"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "convertdate",
+    "cxx_compiler_stub",
+    "holidays",
+    "lunarcalendar",
+    "m2w64-toolchain",
+    "matplotlib-base",
+    "numpy",
+    "pandas",
+    "pystan",
+    "python",
+    "python-dateutil",
+    "setuptools"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "pytest"
+   ]
+  }
+ },
+ "smithy_version":"3.6.9",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "cxx_compiler_stub"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "LunarCalendar >=0.0.9",
+    "convertdate >=2.1.2",
+    "cython >=0.22",
+    "holidays >=0.9.5",
+    "numpy 1.11.*",
+    "pandas >=0.20.1",
+    "pip",
+    "pystan >=2.14",
+    "python",
+    "python-dateutil >=2.8.0",
+    "setuptools"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "LunarCalendar >=0.0.9",
+    "c_compiler_stub",
+    "convertdate >=2.1.2",
+    "cxx_compiler_stub",
+    "holidays >=0.9.5",
+    "m2w64-toolchain",
+    "matplotlib-base >=2.0.0",
+    "numpy >=1.11",
+    "pandas >=0.20.1",
+    "pystan >=2.14",
+    "python",
+    "python-dateutil >=2.8.0",
+    "setuptools"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "pytest"
+   ]
+  }
+ },
+ "url":"https://pypi.io/packages/source/f/fbprophet/fbprophet-0.5.tar.gz",
+ "version":"0.6"
+}

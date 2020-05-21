@@ -1,0 +1,132 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/215794056.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "compiler_stack":"comp7",
+  "max_py_ver":"37",
+  "max_r_ver":"35"
+ },
+ "feedstock_name":"chrpath",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"'chrpath is a command line tool to adjust the RPATH or RUNPATH of ELF\nbinaries.'\n",
+   "dev_url":"https://www.openhub.net/p/chrpath",
+   "doc_url":"https://alioth.debian.org/projects/chrpath/",
+   "home":"http://packages.qa.debian.org/c/chrpath.html",
+   "license":"GPL-2.0",
+   "license_file":"COPYING",
+   "summary":"Tool to edit the rpath in ELF binaries."
+  },
+  "build":{
+   "number":"1001",
+   "skip":true
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "ocefpaf",
+    "ocefpaf",
+    "ocefpaf"
+   ]
+  },
+  "package":{
+   "name":"chrpath",
+   "version":"0.16"
+  },
+  "requirements":{
+   "build":[
+    "c_compiler_stub",
+    "c_compiler_stub",
+    "c_compiler_stub"
+   ],
+   "host":null
+  },
+  "source":{
+   "fn":"chrpath-0.16.tar.gz",
+   "sha256":"bb0d4c54bac2990e1bdf8132f2c9477ae752859d523e141e72b3b11a12c26e7b",
+   "url":"http://pkgs.fedoraproject.org/repo/pkgs/chrpath/chrpath-0.16.tar.gz/2bf8d1d1ee345fc8a7915576f5649982/chrpath-0.16.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "chrpath --help",
+    "chrpath --version",
+    "chrpath --help",
+    "chrpath --version",
+    "chrpath --help",
+    "chrpath --version"
+   ]
+  }
+ },
+ "name":"chrpath",
+ "new_version":false,
+ "pinning_version":"2018.09.11",
+ "raw_meta_yaml":"{% set version = \"0.16\" %}\n\npackage:\n  name: chrpath\n  version: {{ version }}\n\nsource:\n  fn: chrpath-{{ version }}.tar.gz\n  url: http://pkgs.fedoraproject.org/repo/pkgs/chrpath/chrpath-{{ version }}.tar.gz/2bf8d1d1ee345fc8a7915576f5649982/chrpath-{{ version }}.tar.gz\n  sha256: bb0d4c54bac2990e1bdf8132f2c9477ae752859d523e141e72b3b11a12c26e7b\n\nbuild:\n  skip: True  # [win or osx]\n  number: 1001\n\nrequirements:\n  build:\n    - {{ compiler(\"c\") }}\n  host:\n\ntest:\n  commands:\n    - chrpath --help\n    - chrpath --version\n\nabout:\n  home: http://packages.qa.debian.org/c/chrpath.html\n  license: GPL-2.0\n  license_file: COPYING\n  summary: 'Tool to edit the rpath in ELF binaries.'\n  description: |\n    'chrpath is a command line tool to adjust the RPATH or RUNPATH of ELF\n    binaries.'\n  doc_url: https://alioth.debian.org/projects/chrpath/\n  dev_url: https://www.openhub.net/p/chrpath\n\nextra:\n  recipe-maintainers:\n    - ocefpaf\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "c_compiler_stub"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.1.12",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"http://pkgs.fedoraproject.org/repo/pkgs/chrpath/chrpath-0.16.tar.gz/2bf8d1d1ee345fc8a7915576f5649982/chrpath-0.16.tar.gz",
+ "version":"0.16"
+}

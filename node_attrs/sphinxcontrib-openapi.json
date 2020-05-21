@@ -1,0 +1,231 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/245632457.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.4.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/314292423.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.5.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/356501120.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.6.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/414937455.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.7.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"sphinxcontrib-openapi",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"sphinxcontrib-openapi is a Sphinx extension to generate APIs docs from\nOpenAPI (fka Swagger) spec. It depends on sphinxcontrib-httpdomain that\nprovides an HTTP domain for describing RESTful HTTP APIs, so we don\u2019t need\nto reinvent the wheel.\n",
+   "dev_url":"https://github.com/ikalnytskyi/sphinxcontrib-openapi",
+   "doc_url":"https://sphinxcontrib-openapi.readthedocs.io/",
+   "home":"https://github.com/ikalnytskyi/sphinxcontrib-openapi",
+   "license":"BSD-2-Clause",
+   "license_family":"BSD",
+   "license_file":"LICENSE",
+   "summary":"A Sphinx extension to generate APIs docs from OpenAPI (fka Swagger) spec."
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":"-m pip install . -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "carlodri",
+    "carlodri",
+    "carlodri"
+   ]
+  },
+  "package":{
+   "name":"sphinxcontrib-openapi",
+   "version":"0.7.0"
+  },
+  "requirements":{
+   "host":[
+    "python",
+    "pip",
+    "setuptools_scm >=1.15",
+    "python",
+    "pip",
+    "setuptools_scm >=1.15",
+    "python",
+    "pip",
+    "setuptools_scm >=1.15"
+   ],
+   "run":[
+    "python",
+    "sphinx >=2.0",
+    "sphinxcontrib-httpdomain >=1.5.0",
+    "PyYAML >=3.12",
+    "jsonschema >=2.5.1",
+    "m2r >=0.2",
+    "python",
+    "sphinx >=2.0",
+    "sphinxcontrib-httpdomain >=1.5.0",
+    "PyYAML >=3.12",
+    "jsonschema >=2.5.1",
+    "m2r >=0.2",
+    "python",
+    "sphinx >=2.0",
+    "sphinxcontrib-httpdomain >=1.5.0",
+    "PyYAML >=3.12",
+    "jsonschema >=2.5.1",
+    "m2r >=0.2"
+   ]
+  },
+  "source":{
+   "sha256":"1c1bd10d7653912c59a42f727c62cbb7b75f7905ddd9ccc477ebfd1bc69f0cf3",
+   "url":"https://pypi.io/packages/source/s/sphinxcontrib-openapi/sphinxcontrib-openapi-0.7.0.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "sphinxcontrib.openapi",
+    "sphinxcontrib.openapi",
+    "sphinxcontrib.openapi"
+   ]
+  }
+ },
+ "name":"sphinxcontrib-openapi",
+ "new_version":"0.7.0",
+ "new_version_attempts":{
+  "0.7.0":1
+ },
+ "new_version_errors":{},
+ "pinning_version":"2020.05.06.22.15.02",
+ "raw_meta_yaml":"{% set name = \"sphinxcontrib-openapi\" %}\n{% set version = \"0.7.0\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: 1c1bd10d7653912c59a42f727c62cbb7b75f7905ddd9ccc477ebfd1bc69f0cf3\n\nbuild:\n  noarch: python\n  number: 0\n  script: {{ PYTHON }} -m pip install . -vv\n\nrequirements:\n  host:\n    - python\n    - pip\n    - setuptools_scm >=1.15\n  run:\n    - python\n    - sphinx >=2.0\n    - sphinxcontrib-httpdomain >=1.5.0\n    - PyYAML >=3.12\n    - jsonschema >=2.5.1\n    - m2r >=0.2\n\ntest:\n  imports:\n    - sphinxcontrib.openapi\n\nabout:\n  home: https://github.com/ikalnytskyi/sphinxcontrib-openapi\n  license: BSD-2-Clause\n  license_family: BSD\n  license_file: LICENSE\n  summary: A Sphinx extension to generate APIs docs from OpenAPI (fka Swagger) spec.\n  description: |\n    sphinxcontrib-openapi is a Sphinx extension to generate APIs docs from\n    OpenAPI (fka Swagger) spec. It depends on sphinxcontrib-httpdomain that\n    provides an HTTP domain for describing RESTful HTTP APIs, so we don\u2019t need\n    to reinvent the wheel.\n  doc_url: https://sphinxcontrib-openapi.readthedocs.io/\n  dev_url: https://github.com/ikalnytskyi/sphinxcontrib-openapi\n\nextra:\n  recipe-maintainers:\n    - carlodri\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "jsonschema",
+   "m2r",
+   "pip",
+   "python",
+   "pyyaml",
+   "setuptools_scm",
+   "sphinx",
+   "sphinxcontrib-httpdomain"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python",
+    "setuptools_scm"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "jsonschema",
+    "m2r",
+    "python",
+    "pyyaml",
+    "sphinx",
+    "sphinxcontrib-httpdomain"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.7.0\n",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python",
+    "setuptools_scm >=1.15"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "PyYAML >=3.12",
+    "jsonschema >=2.5.1",
+    "m2r >=0.2",
+    "python",
+    "sphinx >=2.0",
+    "sphinxcontrib-httpdomain >=1.5.0"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/s/sphinxcontrib-openapi/sphinxcontrib-openapi-0.4.0.tar.gz",
+ "version":"0.7.0"
+}

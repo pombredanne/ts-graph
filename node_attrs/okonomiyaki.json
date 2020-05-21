@@ -1,0 +1,212 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/319381181.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.1.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/319742237.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.1.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/325877783.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.1.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/338800021.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.2.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"okonomiyaki",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"https://github.com/enthought/okonomiyaki",
+   "license":"BSD-3-Clause",
+   "license_family":"BSD",
+   "license_file":"LICENSE.txt",
+   "summary":"Okonomiyaki is an experimental library aimed at consolidating a lot of our low-level code used for Enthought's eggs."
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . --no-deps -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "hmaarrfk",
+    "hmaarrfk",
+    "hmaarrfk"
+   ]
+  },
+  "package":{
+   "name":"okonomiyaki",
+   "version":"1.2.0"
+  },
+  "requirements":{
+   "host":[
+    "python",
+    "pip",
+    "python",
+    "pip",
+    "python",
+    "pip"
+   ],
+   "run":[
+    "python",
+    "attrs >=16.1.0",
+    "jsonschema >=2.5.1",
+    "six >=1.9.0",
+    "zipfile2 >=0.0.12",
+    "python",
+    "attrs >=16.1.0",
+    "jsonschema >=2.5.1",
+    "six >=1.9.0",
+    "zipfile2 >=0.0.12",
+    "python",
+    "attrs >=16.1.0",
+    "jsonschema >=2.5.1",
+    "six >=1.9.0",
+    "zipfile2 >=0.0.12"
+   ]
+  },
+  "source":{
+   "sha256":"6ec08623adc80c901e42060ac7db9962fc8b91adb48be00425d7376a09225331",
+   "url":"https://pypi.io/packages/source/o/okonomiyaki/okonomiyaki-1.2.0.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "okonomiyaki",
+    "okonomiyaki",
+    "okonomiyaki"
+   ]
+  }
+ },
+ "name":"okonomiyaki",
+ "new_version":"1.2.0",
+ "pinning_version":"2019.11.01",
+ "raw_meta_yaml":"{% set name = \"okonomiyaki\" %}\n{% set version = \"1.2.0\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: 6ec08623adc80c901e42060ac7db9962fc8b91adb48be00425d7376a09225331\n\nbuild:\n  noarch: python\n  number: 0\n  script: \"{{ PYTHON }} -m pip install . --no-deps -vv\"\n\nrequirements:\n  host:\n    - python\n    - pip\n  run:\n    - python\n    - attrs >=16.1.0\n    - jsonschema >=2.5.1\n    - six >=1.9.0\n    - zipfile2 >=0.0.12\n\ntest:\n  imports:\n    - okonomiyaki\n\nabout:\n  home: https://github.com/enthought/okonomiyaki\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: LICENSE.txt\n  summary: \"Okonomiyaki is an experimental library aimed at consolidating a lot of our low-level code used for Enthought's eggs.\"\n\nextra:\n  recipe-maintainers:\n    - hmaarrfk\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "attrs",
+   "jsonschema",
+   "pip",
+   "python",
+   "six",
+   "zipfile2"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "attrs",
+    "jsonschema",
+    "python",
+    "six",
+    "zipfile2"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.6.2",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "attrs >=16.1.0",
+    "jsonschema >=2.5.1",
+    "python",
+    "six >=1.9.0",
+    "zipfile2 >=0.0.12"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/o/okonomiyaki/okonomiyaki-1.0.0.tar.gz",
+ "version":"1.2.0"
+}

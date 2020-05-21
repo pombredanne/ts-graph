@@ -1,0 +1,242 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/245001951.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.12"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/301659675.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"5.0.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/301865171.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"5.0.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/303731094.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"5.0.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/386080474.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"6.0.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"beautysh",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"https://github.com/bemeurer/beautysh",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"LICENSE",
+   "summary":"A Bash beautifier for the masses."
+  },
+  "build":{
+   "entry_points":[
+    "beautysh = beautysh.beautysh:main",
+    "beautysh = beautysh.beautysh:main",
+    "beautysh = beautysh.beautysh:main"
+   ],
+   "noarch":"python",
+   "number":"0",
+   "script":"-m pip install . --no-deps --ignore-installed --no-cache-dir -vvv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "lovesegfault",
+    "bollwyvl",
+    "dbast",
+    "lovesegfault",
+    "bollwyvl",
+    "dbast",
+    "lovesegfault",
+    "bollwyvl",
+    "dbast"
+   ]
+  },
+  "package":{
+   "name":"beautysh",
+   "version":"6.0.1"
+  },
+  "requirements":{
+   "host":[
+    "pip",
+    "python >=3",
+    "pip",
+    "python >=3",
+    "pip",
+    "python >=3"
+   ],
+   "run":[
+    "python >=3",
+    "setuptools",
+    "python >=3",
+    "setuptools",
+    "python >=3",
+    "setuptools"
+   ]
+  },
+  "source":{
+   "sha256":"9df2fd6584f2470fcb76556ac0bf4c69575133d63318a1d8e4253a064cc145e1",
+   "url":"https://pypi.io/packages/source/b/beautysh/beautysh-6.0.1.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "beautysh --version",
+    "beautysh --help",
+    "python -m pip check",
+    "beautysh --version",
+    "beautysh --help",
+    "python -m pip check",
+    "beautysh --version",
+    "beautysh --help",
+    "python -m pip check"
+   ],
+   "imports":[
+    "beautysh",
+    "beautysh",
+    "beautysh"
+   ],
+   "requires":[
+    "pip",
+    "pip",
+    "pip"
+   ]
+  }
+ },
+ "name":"beautysh",
+ "new_version":"6.0.1",
+ "pinning_version":"2020.03.09",
+ "raw_meta_yaml":"{% set name = \"beautysh\" %}\n{% set version = \"6.0.1\" %}\n\npackage:\n  name: {{ name }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: 9df2fd6584f2470fcb76556ac0bf4c69575133d63318a1d8e4253a064cc145e1\n\nbuild:\n  noarch: python\n  number: 0\n  script: {{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv\n  entry_points:\n    - beautysh = beautysh.beautysh:main\n\nrequirements:\n  host:\n    - pip\n    - python >=3\n  run:\n    - python >=3\n    - setuptools\n\ntest:\n  requires:\n    - pip\n  imports:\n    - beautysh\n  commands:\n    - beautysh --version\n    - beautysh --help\n    - python -m pip check\n\nabout:\n  home: https://github.com/bemeurer/beautysh\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE\n  summary: A Bash beautifier for the masses.\n\nextra:\n  recipe-maintainers:\n    - lovesegfault\n    - bollwyvl\n    - dbast\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "pip",
+   "python",
+   "setuptools"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "python",
+    "setuptools"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "pip"
+   ]
+  }
+ },
+ "smithy_version":"3.6.11",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "python >=3",
+    "setuptools"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "pip"
+   ]
+  }
+ },
+ "url":"https://pypi.io/packages/source/b/beautysh/beautysh-5.0.2.tar.gz",
+ "version":"6.0.1"
+}

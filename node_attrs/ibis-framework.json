@@ -1,0 +1,482 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/210268976.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.14.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/234653391.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/286529080.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.1.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/291229482.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.2.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/301723822.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Rebuild",
+    "migrator_version":0,
+    "name":"graphviz-2.40"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/381602054.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.3.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/414694506.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"python38"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "provider":{
+   "win":"azure"
+  }
+ },
+ "feedstock_name":"ibis-framework",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"http://www.ibis-project.org",
+   "license":"Apache-2.0",
+   "license_family":"Apache",
+   "license_file":"LICENSE.txt",
+   "summary":"Productivity-centric Python Big Data Framework"
+  },
+  "build":{
+   "number":"4",
+   "script":"-m pip install . --no-deps --ignore-installed --no-cache-dir -vvv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "cpcloud",
+    "mariusvniekerk",
+    "wesm",
+    "kszucs",
+    "xmnlab",
+    "jreback",
+    "cpcloud",
+    "mariusvniekerk",
+    "wesm",
+    "kszucs",
+    "xmnlab",
+    "jreback",
+    "cpcloud",
+    "mariusvniekerk",
+    "wesm",
+    "kszucs",
+    "xmnlab",
+    "jreback"
+   ]
+  },
+  "package":{
+   "name":"ibis-framework",
+   "version":"1.3.0"
+  },
+  "requirements":{
+   "host":[
+    "pip",
+    "python",
+    "setuptools",
+    "pip",
+    "python",
+    "setuptools",
+    "pip",
+    "python",
+    "setuptools"
+   ],
+   "run":[
+    "clickhouse-driver >=0.1.3",
+    "clickhouse-sqlalchemy",
+    "geoalchemy2",
+    "geopandas",
+    "google-cloud-bigquery >=1.0.0",
+    "graphviz",
+    "impyla >=0.15.0",
+    "lz4",
+    "multipledispatch >=0.6",
+    "numpy >=1.15",
+    "pandas >=0.25.3",
+    "psycopg2",
+    "pyarrow >=0.15",
+    "pydata-google-auth",
+    "pymapd >=0.22.0",
+    "pymysql",
+    "pyspark >=2.4.3",
+    "pytables >=3.0.0",
+    "python",
+    "python-graphviz",
+    "python-hdfs >=2.0.16",
+    "pytz",
+    "regex",
+    "requests",
+    "shapely",
+    "setuptools",
+    "sqlalchemy >=1.1",
+    "thrift >=0.11",
+    "thriftpy2",
+    "toolz",
+    "clickhouse-driver >=0.1.3",
+    "clickhouse-cityhash",
+    "clickhouse-sqlalchemy",
+    "geoalchemy2",
+    "geopandas",
+    "google-cloud-bigquery >=1.0.0",
+    "graphviz",
+    "impyla >=0.15.0",
+    "lz4",
+    "multipledispatch >=0.6",
+    "numpy >=1.15",
+    "pandas >=0.25.3",
+    "psycopg2",
+    "pyarrow >=0.15",
+    "pydata-google-auth",
+    "pymapd >=0.22.0",
+    "pymysql",
+    "pyspark >=2.4.3",
+    "pytables >=3.0.0",
+    "python",
+    "python-graphviz",
+    "python-hdfs >=2.0.16",
+    "pytz",
+    "regex",
+    "requests",
+    "shapely",
+    "setuptools",
+    "sqlalchemy >=1.1",
+    "thrift >=0.11",
+    "thriftpy2",
+    "toolz",
+    "clickhouse-driver >=0.1.3",
+    "clickhouse-cityhash",
+    "clickhouse-sqlalchemy",
+    "geoalchemy2",
+    "geopandas",
+    "google-cloud-bigquery >=1.0.0",
+    "graphviz",
+    "impyla >=0.15.0",
+    "lz4",
+    "multipledispatch >=0.6",
+    "numpy >=1.15",
+    "pandas >=0.25.3",
+    "psycopg2",
+    "pyarrow >=0.15",
+    "pydata-google-auth",
+    "pymapd >=0.22.0",
+    "pymysql",
+    "pyspark >=2.4.3",
+    "pytables >=3.0.0",
+    "python",
+    "python-graphviz",
+    "python-hdfs >=2.0.16",
+    "pytz",
+    "regex",
+    "requests",
+    "shapely",
+    "setuptools",
+    "sqlalchemy >=1.1",
+    "thrift >=0.11",
+    "thriftpy2",
+    "toolz"
+   ]
+  },
+  "source":{
+   "sha256":"36e0b2694a4e88a1406756eb32b21df7a625009f83bdfed012ab0159c7b49117",
+   "url":"https://github.com/ibis-project/ibis/archive/1.3.0.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "ibis",
+    "ibis.bigquery",
+    "ibis.clickhouse",
+    "ibis.file.csv",
+    "ibis.file.parquet",
+    "ibis.file.hdf5",
+    "ibis.impala",
+    "ibis.sql.mysql",
+    "ibis.omniscidb",
+    "ibis.pandas",
+    "ibis.sql.postgres",
+    "ibis.pyspark",
+    "ibis.spark",
+    "ibis.sql.sqlite",
+    "ibis",
+    "ibis.bigquery",
+    "ibis.clickhouse",
+    "ibis.file.csv",
+    "ibis.file.parquet",
+    "ibis.file.hdf5",
+    "ibis.impala",
+    "ibis.sql.mysql",
+    "ibis.omniscidb",
+    "ibis.pandas",
+    "ibis.sql.postgres",
+    "ibis.pyspark",
+    "ibis.spark",
+    "ibis.sql.sqlite",
+    "ibis",
+    "ibis.bigquery",
+    "ibis.clickhouse",
+    "ibis.file.csv",
+    "ibis.file.parquet",
+    "ibis.file.hdf5",
+    "ibis.impala",
+    "ibis.sql.mysql",
+    "ibis.omniscidb",
+    "ibis.pandas",
+    "ibis.sql.postgres",
+    "ibis.pyspark",
+    "ibis.spark",
+    "ibis.sql.sqlite"
+   ]
+  }
+ },
+ "name":"ibis-framework",
+ "new_version":"1.3.0",
+ "pinning_version":"2020.05.06.22.15.02",
+ "raw_meta_yaml":"{% set version = \"1.3.0\" %}\n\npackage:\n  name: ibis-framework\n  version: {{ version }}\n\nsource:\n  url: https://github.com/ibis-project/ibis/archive/{{ version }}.tar.gz\n  sha256: 36e0b2694a4e88a1406756eb32b21df7a625009f83bdfed012ab0159c7b49117\n\nbuild:\n  number: 4\n  script: {{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv\n  # uncomment noarch when pymapd and pyspark issues are fixed for py38\n  # noarch: python\n\nrequirements:\n  host:\n    - pip\n    - python\n    - setuptools\n\n  run:\n    - clickhouse-driver >=0.1.3\n    - clickhouse-cityhash  # [not win]\n    - clickhouse-sqlalchemy\n    - geoalchemy2\n    - geopandas\n    - google-cloud-bigquery >=1.0.0\n    - graphviz\n    - impyla >=0.15.0\n    - lz4\n    - multipledispatch >=0.6\n    - numpy >=1.15\n    - pandas >=0.25.3\n    - psycopg2\n    - pyarrow >=0.15\n    - pydata-google-auth\n    - pymapd >=0.22.0  # [py<38]\n    - pymysql\n    - pyspark >=2.4.3  # [py<38]\n    - pytables >=3.0.0\n    - python\n    - python-graphviz\n    - python-hdfs >=2.0.16\n    - pytz\n    - regex\n    - requests\n    - shapely\n    - setuptools\n    - sqlalchemy >=1.1\n    - thrift >=0.11\n    - thriftpy2\n    - toolz\n\ntest:\n  imports:\n    - ibis\n    - ibis.bigquery\n    - ibis.clickhouse\n    - ibis.file.csv\n    - ibis.file.parquet\n    - ibis.file.hdf5\n    - ibis.impala\n    - ibis.sql.mysql\n    - ibis.omniscidb  # [py<38]\n    - ibis.pandas\n    - ibis.sql.postgres\n    - ibis.pyspark  # [py<38]\n    - ibis.spark\n    - ibis.sql.sqlite\n\nabout:\n  license: Apache-2.0\n  license_family: Apache\n  license_file: LICENSE.txt\n  home: http://www.ibis-project.org\n  summary: Productivity-centric Python Big Data Framework\n\nextra:\n  recipe-maintainers:\n    - cpcloud\n    - mariusvniekerk\n    - wesm\n    - kszucs\n    - xmnlab\n    - jreback\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "clickhouse-cityhash",
+   "clickhouse-driver",
+   "clickhouse-sqlalchemy",
+   "geoalchemy2",
+   "geopandas",
+   "google-cloud-bigquery",
+   "graphviz",
+   "impyla",
+   "lz4",
+   "multipledispatch",
+   "numpy",
+   "pandas",
+   "pip",
+   "psycopg2",
+   "pyarrow",
+   "pydata-google-auth",
+   "pymapd",
+   "pymysql",
+   "pyspark",
+   "pytables",
+   "python",
+   "python-graphviz",
+   "python-hdfs",
+   "pytz",
+   "regex",
+   "requests",
+   "setuptools",
+   "shapely",
+   "sqlalchemy",
+   "thrift",
+   "thriftpy2",
+   "toolz"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python",
+    "setuptools"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "clickhouse-cityhash",
+    "clickhouse-driver",
+    "clickhouse-sqlalchemy",
+    "geoalchemy2",
+    "geopandas",
+    "google-cloud-bigquery",
+    "graphviz",
+    "impyla",
+    "lz4",
+    "multipledispatch",
+    "numpy",
+    "pandas",
+    "psycopg2",
+    "pyarrow",
+    "pydata-google-auth",
+    "pymapd",
+    "pymysql",
+    "pyspark",
+    "pytables",
+    "python",
+    "python-graphviz",
+    "python-hdfs",
+    "pytz",
+    "regex",
+    "requests",
+    "setuptools",
+    "shapely",
+    "sqlalchemy",
+    "thrift",
+    "thriftpy2",
+    "toolz"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.7.0\n",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python",
+    "setuptools"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "clickhouse-cityhash",
+    "clickhouse-driver >=0.1.3",
+    "clickhouse-sqlalchemy",
+    "geoalchemy2",
+    "geopandas",
+    "google-cloud-bigquery >=1.0.0",
+    "graphviz",
+    "impyla >=0.15.0",
+    "lz4",
+    "multipledispatch >=0.6",
+    "numpy >=1.15",
+    "pandas >=0.25.3",
+    "psycopg2",
+    "pyarrow >=0.15",
+    "pydata-google-auth",
+    "pymapd >=0.22.0",
+    "pymysql",
+    "pyspark >=2.4.3",
+    "pytables >=3.0.0",
+    "python",
+    "python-graphviz",
+    "python-hdfs >=2.0.16",
+    "pytz",
+    "regex",
+    "requests",
+    "setuptools",
+    "shapely",
+    "sqlalchemy >=1.1",
+    "thrift >=0.11",
+    "thriftpy2",
+    "toolz"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://github.com/ibis-project/ibis/archive/1.2.0.tar.gz",
+ "version":"1.3.0"
+}

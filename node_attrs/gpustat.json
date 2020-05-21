@@ -1,0 +1,185 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/299733084.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.6.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"gpustat",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "dev_url":"https://github.com/wookayin/gpustat",
+   "doc_url":"https://github.com/wookayin/gpustat",
+   "home":"https://github.com/wookayin/gpustat",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"LICENSE",
+   "summary":"A simple command-line utility for querying and monitoring GPU status"
+  },
+  "build":{
+   "entry_points":[
+    "gpustat = gpustat:main",
+    "gpustat = gpustat:main",
+    "gpustat = gpustat:main"
+   ],
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . --no-deps -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "hadim",
+    "hadim",
+    "hadim"
+   ]
+  },
+  "package":{
+   "name":"gpustat",
+   "version":"0.6.0"
+  },
+  "requirements":{
+   "host":[
+    "python",
+    "pip",
+    "pytest-runner",
+    "setuptools",
+    "python",
+    "pip",
+    "pytest-runner",
+    "setuptools",
+    "python",
+    "pip",
+    "pytest-runner",
+    "setuptools"
+   ],
+   "run":[
+    "python",
+    "nvidia-ml",
+    "psutil",
+    "blessings >=1.6",
+    "six >=1.7",
+    "python",
+    "nvidia-ml",
+    "psutil",
+    "blessings >=1.6",
+    "six >=1.7",
+    "python",
+    "nvidia-ml",
+    "psutil",
+    "blessings >=1.6",
+    "six >=1.7"
+   ]
+  },
+  "source":{
+   "sha256":"f69135080b2668b662822633312c2180002c10111597af9631bb02e042755b6c",
+   "url":"https://pypi.io/packages/source/g/gpustat/gpustat-0.6.0.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "gpustat --help",
+    "gpustat --help",
+    "gpustat --help"
+   ],
+   "imports":[
+    "gpustat",
+    "gpustat",
+    "gpustat"
+   ]
+  }
+ },
+ "name":"gpustat",
+ "new_version":"0.6.0",
+ "pinning_version":"2019.07.20",
+ "raw_meta_yaml":"{% set name = \"gpustat\" %}\n{% set version = \"0.6.0\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: f69135080b2668b662822633312c2180002c10111597af9631bb02e042755b6c\n\nbuild:\n  noarch: python\n  number: 0\n  script: \"{{ PYTHON }} -m pip install . --no-deps -vv\"\n  entry_points:\n    - gpustat = gpustat:main\n\nrequirements:\n  host:\n    - python\n    - pip\n    - pytest-runner\n    - setuptools\n  run:\n    - python\n    - nvidia-ml\n    - psutil\n    - blessings >=1.6\n    - six >=1.7\n\ntest:\n  imports:\n    - gpustat\n  commands:\n    - gpustat --help\n\nabout:\n  home: https://github.com/wookayin/gpustat\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE\n  summary: 'A simple command-line utility for querying and monitoring GPU status'\n  doc_url: https://github.com/wookayin/gpustat\n  dev_url: https://github.com/wookayin/gpustat\n\nextra:\n  recipe-maintainers:\n    - hadim\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "blessings",
+   "nvidia-ml",
+   "pip",
+   "psutil",
+   "pytest-runner",
+   "python",
+   "setuptools",
+   "six"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "pytest-runner",
+    "python",
+    "setuptools"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "blessings",
+    "nvidia-ml",
+    "psutil",
+    "python",
+    "six"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.4.1",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "pytest-runner",
+    "python",
+    "setuptools"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "blessings >=1.6",
+    "nvidia-ml",
+    "psutil",
+    "python",
+    "six >=1.7"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/g/gpustat/gpustat-0.6.0.tar.gz",
+ "version":"0.6.0"
+}

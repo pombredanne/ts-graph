@@ -1,0 +1,146 @@
+{
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"pytest-chalice",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "dev_url":"https://github.com/studio3104/pytest-chalice",
+   "doc_url":"https://pypi.org/project/pytest-chalice/#description",
+   "home":"https://github.com/studio3104/pytest-chalice",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"LICENSE",
+   "summary":"A set of py.test fixtures for AWS Chalice"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"1",
+   "script":"-m pip install . -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "oblute",
+    "mwilson8",
+    "benhuff",
+    "oblute",
+    "mwilson8",
+    "benhuff",
+    "oblute",
+    "mwilson8",
+    "benhuff"
+   ]
+  },
+  "package":{
+   "name":"pytest-chalice",
+   "version":"0.0.4"
+  },
+  "requirements":{
+   "host":[
+    "python >=3.5",
+    "pip",
+    "python >=3.5",
+    "pip",
+    "python >=3.5",
+    "pip"
+   ],
+   "run":[
+    "python >=3.5",
+    "chalice",
+    "pytest",
+    "python >=3.5",
+    "chalice",
+    "pytest",
+    "python >=3.5",
+    "chalice",
+    "pytest"
+   ]
+  },
+  "source":{
+   "patches":[
+    "setuptools_scm.patch",
+    "setuptools_scm.patch",
+    "setuptools_scm.patch"
+   ],
+   "sha256":"1cf7ba41970d574315e5a2ae241476046b2fc674ce7d38d307560ddb4e433d3a",
+   "url":"https://pypi.io/packages/source/p/pytest-chalice/pytest-chalice-0.0.4.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "chalice --help",
+    "chalice --help",
+    "chalice --help"
+   ],
+   "imports":[
+    "pytest_chalice",
+    "pytest_chalice",
+    "pytest_chalice"
+   ]
+  }
+ },
+ "name":"pytest-chalice",
+ "new_version":"0.0.4",
+ "raw_meta_yaml":"{% set name = \"pytest-chalice\" %}\n{% set version = \"0.0.4\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: 1cf7ba41970d574315e5a2ae241476046b2fc674ce7d38d307560ddb4e433d3a\n  patches:\n    - setuptools_scm.patch\n\nbuild:\n  noarch: python\n  number: 1\n  script: {{ PYTHON }} -m pip install . -vv\n\nrequirements:\n  host:\n    - python >=3.5\n    - pip\n  run:\n    - python >=3.5\n    - chalice\n    - pytest\n\ntest:\n  imports:\n    - pytest_chalice\n  commands:\n    - chalice --help\n\nabout:\n  home: \"https://github.com/studio3104/pytest-chalice\"\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE\n  summary: \"A set of py.test fixtures for AWS Chalice\"\n  doc_url: https://pypi.org/project/pytest-chalice/#description\n  dev_url: https://github.com/studio3104/pytest-chalice\n\nextra:\n  recipe-maintainers:\n    - oblute\n    - mwilson8\n    - benhuff\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "chalice",
+   "pip",
+   "pytest",
+   "python"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "chalice",
+    "pytest",
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3.5"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "chalice",
+    "pytest",
+    "python >=3.5"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/p/pytest-chalice/pytest-chalice-0.0.4.tar.gz",
+ "version":"0.0.4"
+}

@@ -1,0 +1,415 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/332737438.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/360566628.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.3.3"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/379810711.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.3.4"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/391974248.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.3.5"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/414153418.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":2,
+    "migrator_version":0,
+    "name":"r400"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "bot":{
+   "automerge":true
+  }
+ },
+ "feedstock_name":"r-languageserver",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"https://github.com/REditorSupport/languageserver",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":[
+    "/lib/R/share/licenses/MIT",
+    "LICENSE",
+    "/lib/R/share/licenses/MIT",
+    "LICENSE",
+    "/lib/R/share/licenses/MIT",
+    "LICENSE"
+   ],
+   "summary":"An implementation of the Language Server Protocol for R. The Language Server protocol is used by an editor client to integrate features like auto completion. See <https://microsoft.github.io/language-server-protocol> for details."
+  },
+  "build":{
+   "merge_build_host":true,
+   "number":"1",
+   "rpaths":[
+    "lib/R/lib/",
+    "lib/",
+    "lib/R/lib/",
+    "lib/",
+    "lib/R/lib/",
+    "lib/"
+   ]
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "conda-forge/r",
+    "conda-forge/r",
+    "conda-forge/r"
+   ]
+  },
+  "package":{
+   "name":"r-languageserver",
+   "version":"0.3.5"
+  },
+  "requirements":{
+   "build":[
+    "m2w64_c_compiler_stub",
+    "filesystem",
+    "make",
+    "sed",
+    "coreutils",
+    "zip",
+    "c_compiler_stub",
+    "make",
+    "c_compiler_stub",
+    "make"
+   ],
+   "host":[
+    "r-base",
+    "r-r6 >=2.4.1",
+    "r-callr >=3.0.0",
+    "r-collections >=0.2.3",
+    "r-desc >=1.2.0",
+    "r-fs >=1.3.1",
+    "r-jsonlite >=1.6",
+    "r-lintr >=2.0.0",
+    "r-readr >=1.3.1",
+    "r-repr >=1.1.0",
+    "r-stringr >=1.4.0",
+    "r-styler >=1.2.0",
+    "r-xml2 >=1.2.2",
+    "r-xmlparsedata >=1.0.3",
+    "r-base",
+    "r-r6 >=2.4.1",
+    "r-callr >=3.0.0",
+    "r-collections >=0.2.3",
+    "r-desc >=1.2.0",
+    "r-fs >=1.3.1",
+    "r-jsonlite >=1.6",
+    "r-lintr >=2.0.0",
+    "r-readr >=1.3.1",
+    "r-repr >=1.1.0",
+    "r-stringr >=1.4.0",
+    "r-styler >=1.2.0",
+    "r-xml2 >=1.2.2",
+    "r-xmlparsedata >=1.0.3",
+    "r-base",
+    "r-r6 >=2.4.1",
+    "r-callr >=3.0.0",
+    "r-collections >=0.2.3",
+    "r-desc >=1.2.0",
+    "r-fs >=1.3.1",
+    "r-jsonlite >=1.6",
+    "r-lintr >=2.0.0",
+    "r-readr >=1.3.1",
+    "r-repr >=1.1.0",
+    "r-stringr >=1.4.0",
+    "r-styler >=1.2.0",
+    "r-xml2 >=1.2.2",
+    "r-xmlparsedata >=1.0.3"
+   ],
+   "run":[
+    "r-base",
+    "gcc-libs",
+    "r-r6 >=2.4.1",
+    "r-callr >=3.0.0",
+    "r-collections >=0.2.3",
+    "r-desc >=1.2.0",
+    "r-fs >=1.3.1",
+    "r-jsonlite >=1.6",
+    "r-lintr >=2.0.0",
+    "r-readr >=1.3.1",
+    "r-repr >=1.1.0",
+    "r-stringr >=1.4.0",
+    "r-styler >=1.2.0",
+    "r-xml2 >=1.2.2",
+    "r-xmlparsedata >=1.0.3",
+    "r-base",
+    "r-r6 >=2.4.1",
+    "r-callr >=3.0.0",
+    "r-collections >=0.2.3",
+    "r-desc >=1.2.0",
+    "r-fs >=1.3.1",
+    "r-jsonlite >=1.6",
+    "r-lintr >=2.0.0",
+    "r-readr >=1.3.1",
+    "r-repr >=1.1.0",
+    "r-stringr >=1.4.0",
+    "r-styler >=1.2.0",
+    "r-xml2 >=1.2.2",
+    "r-xmlparsedata >=1.0.3",
+    "r-base",
+    "r-r6 >=2.4.1",
+    "r-callr >=3.0.0",
+    "r-collections >=0.2.3",
+    "r-desc >=1.2.0",
+    "r-fs >=1.3.1",
+    "r-jsonlite >=1.6",
+    "r-lintr >=2.0.0",
+    "r-readr >=1.3.1",
+    "r-repr >=1.1.0",
+    "r-stringr >=1.4.0",
+    "r-styler >=1.2.0",
+    "r-xml2 >=1.2.2",
+    "r-xmlparsedata >=1.0.3"
+   ]
+  },
+  "source":{
+   "sha256":"9edce6edf4f31d8dd3c79b3f444c76dcf248c307dc4c3807ce6a0bb9b5ba2712",
+   "url":[
+    "https://cran.r-project.org/src/contrib/languageserver_0.3.5.tar.gz",
+    "https://cran.r-project.org/src/contrib/Archive/languageserver/languageserver_0.3.5.tar.gz",
+    "https://cran.r-project.org/src/contrib/languageserver_0.3.5.tar.gz",
+    "https://cran.r-project.org/src/contrib/Archive/languageserver/languageserver_0.3.5.tar.gz",
+    "https://cran.r-project.org/src/contrib/languageserver_0.3.5.tar.gz",
+    "https://cran.r-project.org/src/contrib/Archive/languageserver/languageserver_0.3.5.tar.gz"
+   ]
+  },
+  "test":{
+   "commands":[
+    "\"%R%\" -e \"library('languageserver')\"",
+    "$R -e \"library('languageserver')\"",
+    "$R -e \"library('languageserver')\""
+   ]
+  }
+ },
+ "name":"r-languageserver",
+ "new_version":"0.3.5",
+ "pinning_version":"2020.05.04.19.59.17",
+ "raw_meta_yaml":"{% set version = \"0.3.5\" %}\n{% set posix = 'm2-' if win else '' %}\n{% set native = 'm2w64-' if win else '' %}\n\npackage:\n  name: r-languageserver\n  version: {{ version|replace(\"-\", \"_\") }}\n\nsource:\n  url:\n    - {{ cran_mirror }}/src/contrib/languageserver_{{ version }}.tar.gz\n    - {{ cran_mirror }}/src/contrib/Archive/languageserver/languageserver_{{ version }}.tar.gz\n  sha256: 9edce6edf4f31d8dd3c79b3f444c76dcf248c307dc4c3807ce6a0bb9b5ba2712\n\nbuild:\n  merge_build_host: true  # [win]\n  number: 1\n  rpaths:\n    - lib/R/lib/\n    - lib/\n\nrequirements:\n  build:\n    - {{ compiler('c') }}              # [not win]\n    - {{ compiler('m2w64_c') }}        # [win]\n    - {{ posix }}filesystem        # [win]\n    - {{ posix }}make\n    - {{ posix }}sed               # [win]\n    - {{ posix }}coreutils         # [win]\n    - {{ posix }}zip               # [win]\n  host:\n    - r-base\n    - r-r6 >=2.4.1\n    - r-callr >=3.0.0\n    - r-collections >=0.2.3\n    - r-desc >=1.2.0\n    - r-fs >=1.3.1\n    - r-jsonlite >=1.6\n    - r-lintr >=2.0.0\n    - r-readr >=1.3.1\n    - r-repr >=1.1.0\n    - r-stringr >=1.4.0\n    - r-styler >=1.2.0\n    - r-xml2 >=1.2.2\n    - r-xmlparsedata >=1.0.3\n  run:\n    - r-base\n    - {{ native }}gcc-libs         # [win]\n    - r-r6 >=2.4.1\n    - r-callr >=3.0.0\n    - r-collections >=0.2.3\n    - r-desc >=1.2.0\n    - r-fs >=1.3.1\n    - r-jsonlite >=1.6\n    - r-lintr >=2.0.0\n    - r-readr >=1.3.1\n    - r-repr >=1.1.0\n    - r-stringr >=1.4.0\n    - r-styler >=1.2.0\n    - r-xml2 >=1.2.2\n    - r-xmlparsedata >=1.0.3\n\ntest:\n  commands:\n    - $R -e \"library('languageserver')\"           # [not win]\n    - \"\\\"%R%\\\" -e \\\"library('languageserver')\\\"\"  # [win]\n\nabout:\n  home: https://github.com/REditorSupport/languageserver\n  license: MIT\n  summary: An implementation of the Language Server Protocol for R. The Language Server protocol is used by an editor client to integrate features like auto completion.\n    See <https://microsoft.github.io/language-server-protocol> for details.\n  license_family: MIT\n  license_file:\n    - {{ environ[\"PREFIX\"] }}/lib/R/share/licenses/MIT\n    - LICENSE\n\nextra:\n  recipe-maintainers:\n    - conda-forge/r\n\n# Type: Package\n# Package: languageserver\n# Title: Language Server Protocol\n# Version: 0.3.2\n# Date: 2019-10-25\n# Author: Randy Lai\n# Maintainer: Randy Lai <randy.cs.lai@gmail.com>\n# Description: An implementation of the Language Server Protocol for R. The Language Server protocol is used by an editor client to integrate features like auto completion. See <https://microsoft.github.io/language-server-protocol> for details.\n# License: MIT + file LICENSE\n# URL: https://github.com/REditorSupport/languageserver\n# Depends: R (>= 3.4.0)\n# Imports: callr (>= 3.0.0), collections (>= 0.2.0), desc, jsonlite, lintr (>= 2.0.0), R6, readr, repr, stringr, styler (>= 1.0.2), tools, utils, xml2, xmlparsedata\n# Suggests: fs, knitr, magrittr, processx, purrr, testthat, withr\n# ByteCompile: yes\n# Encoding: UTF-8\n# LazyData: true\n# NeedsCompilation: yes\n# RoxygenNote: 6.1.1\n# Packaged: 2019-10-25 22:32:06 UTC; randy\n# Repository: CRAN\n# Date/Publication: 2019-10-26 04:40:02 UTC\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "c_compiler_stub",
+   "coreutils",
+   "filesystem",
+   "gcc-libs",
+   "m2w64_c_compiler_stub",
+   "make",
+   "r-base",
+   "r-callr",
+   "r-collections",
+   "r-desc",
+   "r-fs",
+   "r-jsonlite",
+   "r-lintr",
+   "r-r6",
+   "r-readr",
+   "r-repr",
+   "r-stringr",
+   "r-styler",
+   "r-xml2",
+   "r-xmlparsedata",
+   "sed",
+   "zip"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "coreutils",
+    "filesystem",
+    "m2w64_c_compiler_stub",
+    "make",
+    "sed",
+    "zip"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "r-base",
+    "r-callr",
+    "r-collections",
+    "r-desc",
+    "r-fs",
+    "r-jsonlite",
+    "r-lintr",
+    "r-r6",
+    "r-readr",
+    "r-repr",
+    "r-stringr",
+    "r-styler",
+    "r-xml2",
+    "r-xmlparsedata"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "gcc-libs",
+    "r-base",
+    "r-callr",
+    "r-collections",
+    "r-desc",
+    "r-fs",
+    "r-jsonlite",
+    "r-lintr",
+    "r-r6",
+    "r-readr",
+    "r-repr",
+    "r-stringr",
+    "r-styler",
+    "r-xml2",
+    "r-xmlparsedata"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.7.0\n",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "coreutils",
+    "filesystem",
+    "m2w64_c_compiler_stub",
+    "make",
+    "sed",
+    "zip"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "r-base",
+    "r-callr >=3.0.0",
+    "r-collections >=0.2.3",
+    "r-desc >=1.2.0",
+    "r-fs >=1.3.1",
+    "r-jsonlite >=1.6",
+    "r-lintr >=2.0.0",
+    "r-r6 >=2.4.1",
+    "r-readr >=1.3.1",
+    "r-repr >=1.1.0",
+    "r-stringr >=1.4.0",
+    "r-styler >=1.2.0",
+    "r-xml2 >=1.2.2",
+    "r-xmlparsedata >=1.0.3"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "gcc-libs",
+    "r-base",
+    "r-callr >=3.0.0",
+    "r-collections >=0.2.3",
+    "r-desc >=1.2.0",
+    "r-fs >=1.3.1",
+    "r-jsonlite >=1.6",
+    "r-lintr >=2.0.0",
+    "r-r6 >=2.4.1",
+    "r-readr >=1.3.1",
+    "r-repr >=1.1.0",
+    "r-stringr >=1.4.0",
+    "r-styler >=1.2.0",
+    "r-xml2 >=1.2.2",
+    "r-xmlparsedata >=1.0.3"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":[
+  "https://cran.r-project.org/src/contrib/languageserver_0.3.1.tar.gz",
+  "https://cran.r-project.org/src/contrib/Archive/languageserver/languageserver_0.3.1.tar.gz",
+  "https://cran.r-project.org/src/contrib/languageserver_0.3.1.tar.gz",
+  "https://cran.r-project.org/src/contrib/Archive/languageserver/languageserver_0.3.1.tar.gz",
+  "https://cran.r-project.org/src/contrib/languageserver_0.3.1.tar.gz",
+  "https://cran.r-project.org/src/contrib/Archive/languageserver/languageserver_0.3.1.tar.gz"
+ ],
+ "version":"0.3.5"
+}

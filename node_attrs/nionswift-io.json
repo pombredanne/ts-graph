@@ -1,0 +1,144 @@
+{
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"nionswift-io",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "dev_url":"https://github.com/nion-software/nionswift-io",
+   "home":"https://github.com/nion-software/nionswift-io",
+   "license":"Apache 2.0",
+   "license_family":"APACHE",
+   "license_file":"LICENSE",
+   "summary":"IO handlers for NionSwift."
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "cmeyer",
+    "ericpre",
+    "cmeyer",
+    "ericpre",
+    "cmeyer",
+    "ericpre"
+   ]
+  },
+  "package":{
+   "name":"nionswift-io",
+   "version":"0.14.0"
+  },
+  "requirements":{
+   "host":[
+    "pip",
+    "python >=3.6",
+    "pip",
+    "python >=3.6",
+    "pip",
+    "python >=3.6"
+   ],
+   "run":[
+    "niondata >=0.13.1",
+    "python >=3.6",
+    "niondata >=0.13.1",
+    "python >=3.6",
+    "niondata >=0.13.1",
+    "python >=3.6"
+   ]
+  },
+  "source":{
+   "sha256":"e3576105d38b01ee70312dfa606b4ed77698b501a782e546d83a0a4e2ea6e824",
+   "url":"https://pypi.io/packages/source/n/nionswift-io/nionswift-io-0.14.0.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "nionswift_plugin.DM_IO",
+    "nionswift_plugin.DM_IO.test",
+    "nionswift_plugin.TIFF_IO",
+    "nionswift_plugin.TIFF_IO.test",
+    "nionswift_plugin.DM_IO",
+    "nionswift_plugin.DM_IO.test",
+    "nionswift_plugin.TIFF_IO",
+    "nionswift_plugin.TIFF_IO.test",
+    "nionswift_plugin.DM_IO",
+    "nionswift_plugin.DM_IO.test",
+    "nionswift_plugin.TIFF_IO",
+    "nionswift_plugin.TIFF_IO.test"
+   ],
+   "requires":[
+    "h5py",
+    "h5py",
+    "h5py"
+   ]
+  }
+ },
+ "name":"nionswift-io",
+ "new_version":"0.14.0",
+ "raw_meta_yaml":"{% set name = \"nionswift-io\" %}\n{% set version = \"0.14.0\" %}\n\npackage:\n  name: \"{{ name|lower }}\"\n  version: \"{{ version }}\"\n\nsource:\n  url: \"https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\"\n  sha256: e3576105d38b01ee70312dfa606b4ed77698b501a782e546d83a0a4e2ea6e824\n\nbuild:\n  number: 0\n  noarch: python\n  script: \"{{ PYTHON }} -m pip install . -vv\"\n\nrequirements:\n  host:\n    - pip\n    - python >=3.6\n  run:\n    - niondata >=0.13.1\n    - python >=3.6\n\ntest:\n  imports:\n    - nionswift_plugin.DM_IO\n    - nionswift_plugin.DM_IO.test\n    - nionswift_plugin.TIFF_IO\n    - nionswift_plugin.TIFF_IO.test\n  requires:\n    - h5py\n\nabout:\n  home: \"https://github.com/nion-software/nionswift-io\"\n  license: Apache 2.0\n  license_family: APACHE\n  license_file: LICENSE\n  summary: \"IO handlers for NionSwift.\"\n  dev_url: https://github.com/nion-software/nionswift-io\n\nextra:\n  recipe-maintainers:\n    - cmeyer\n    - ericpre\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "niondata",
+   "pip",
+   "python"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "niondata",
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "h5py"
+   ]
+  }
+ },
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3.6"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "niondata >=0.13.1",
+    "python >=3.6"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "h5py"
+   ]
+  }
+ },
+ "url":"https://pypi.io/packages/source/n/nionswift-io/nionswift-io-0.14.0.tar.gz",
+ "version":"0.14.0"
+}

@@ -1,0 +1,424 @@
+{
+ "PRed":[
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.2.3"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/268053351.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.2.4"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/274441856.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.2.5"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/284642225.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.2.6"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/291738878.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.2.7"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/299678639.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.2.8"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/314195055.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.2.9"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/340793393.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.3.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/348530452.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.3.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/364475729.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/371544754.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.3.3"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/374693597.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MatplotlibBase",
+    "migrator_version":0,
+    "name":"matplotlib-to-matplotlib-base"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/414975510.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.3.4"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "bot":{
+   "automerge":true
+  }
+ },
+ "feedstock_name":"pingouin",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"Pingouin is designed for users who want simple yet exhaustive statistical functions.\nFor example, the scipy.stats.ttest_ind() function returns only the T-value and the p-value.\nBy contrast, the pingouin.ttest() function returns the T-value, p-value, degrees of freedom,\neffect size (Cohen\u2019s d), statistical power and Bayes Factor (BF10) of the test.\n",
+   "dev_url":"https://github.com/raphaelvallat/pingouin",
+   "doc_url":"https://pingouin-stats.org/",
+   "home":"https://pingouin-stats.org/",
+   "license":"GPL-3.0-only",
+   "license_family":"GPL",
+   "license_file":"LICENSE",
+   "summary":"Pingouin is an open-source statistical package written in Python 3 and based mostly on Pandas and NumPy"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":"-m pip install . --no-deps -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "hoechenberger",
+    "raphaelvallat",
+    "hoechenberger",
+    "raphaelvallat",
+    "hoechenberger",
+    "raphaelvallat"
+   ]
+  },
+  "package":{
+   "name":"pingouin",
+   "version":"0.3.4"
+  },
+  "requirements":{
+   "host":[
+    "python >=3.6",
+    "pip",
+    "python >=3.6",
+    "pip",
+    "python >=3.6",
+    "pip"
+   ],
+   "run":[
+    "python >=3.6",
+    "numpy >=1.15",
+    "scipy >=1.3.0",
+    "pandas >=0.24",
+    "matplotlib-base >=3.0.2",
+    "seaborn >=0.9.0",
+    "statsmodels >=0.10.0",
+    "scikit-learn",
+    "pandas-flavor >=0.1.2",
+    "mpmath",
+    "outdated",
+    "tabulate",
+    "python >=3.6",
+    "numpy >=1.15",
+    "scipy >=1.3.0",
+    "pandas >=0.24",
+    "matplotlib-base >=3.0.2",
+    "seaborn >=0.9.0",
+    "statsmodels >=0.10.0",
+    "scikit-learn",
+    "pandas-flavor >=0.1.2",
+    "mpmath",
+    "outdated",
+    "tabulate",
+    "python >=3.6",
+    "numpy >=1.15",
+    "scipy >=1.3.0",
+    "pandas >=0.24",
+    "matplotlib-base >=3.0.2",
+    "seaborn >=0.9.0",
+    "statsmodels >=0.10.0",
+    "scikit-learn",
+    "pandas-flavor >=0.1.2",
+    "mpmath",
+    "outdated",
+    "tabulate"
+   ]
+  },
+  "source":{
+   "sha256":"5af652c2e1c0ccef437bbabe18bafb6942a4968772d474bfc37c1cd438bde8e4",
+   "url":"https://pypi.io/packages/source/p/pingouin/pingouin-0.3.4.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "pingouin",
+    "pingouin.datasets",
+    "pingouin.external",
+    "pingouin",
+    "pingouin.datasets",
+    "pingouin.external",
+    "pingouin",
+    "pingouin.datasets",
+    "pingouin.external"
+   ]
+  }
+ },
+ "name":"pingouin",
+ "new_version":"0.3.4",
+ "new_version_attempts":{
+  "0.3.4":1
+ },
+ "new_version_errors":{},
+ "pinning_version":"2020.05.06.22.15.02",
+ "raw_meta_yaml":"{% set name = \"pingouin\" %}\n{% set version = \"0.3.4\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: 5af652c2e1c0ccef437bbabe18bafb6942a4968772d474bfc37c1cd438bde8e4\n\nbuild:\n  noarch: python\n  number: 0\n  # Note: --no-deps is currently required due to https://github.com/conda/conda-build/issues/3254\n  # Once resolved, it should be removed.\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  host:\n    - python >=3.6\n    - pip\n  run:\n    - python >=3.6\n    - numpy >=1.15\n    - scipy >=1.3.0\n    - pandas >=0.24\n    - matplotlib-base >=3.0.2\n    - seaborn >=0.9.0\n    - statsmodels >=0.10.0\n    - scikit-learn\n    - pandas-flavor >=0.1.2\n    - mpmath\n    - outdated\n    - tabulate\n\ntest:\n  imports:\n    - pingouin\n    - pingouin.datasets\n    - pingouin.external\n\nabout:\n  home: https://pingouin-stats.org/\n  license: GPL-3.0-only\n  license_family: GPL\n  license_file: LICENSE\n  summary: Pingouin is an open-source statistical package written in Python 3 and based mostly on Pandas and NumPy\n\n  description: |\n    Pingouin is designed for users who want simple yet exhaustive statistical functions.\n    For example, the scipy.stats.ttest_ind() function returns only the T-value and the p-value.\n    By contrast, the pingouin.ttest() function returns the T-value, p-value, degrees of freedom,\n    effect size (Cohen\u2019s d), statistical power and Bayes Factor (BF10) of the test.\n\n  doc_url: https://pingouin-stats.org/\n  dev_url: https://github.com/raphaelvallat/pingouin\n\nextra:\n  recipe-maintainers:\n    - hoechenberger\n    - raphaelvallat\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "matplotlib-base",
+   "mpmath",
+   "numpy",
+   "outdated",
+   "pandas",
+   "pandas-flavor",
+   "pip",
+   "python",
+   "scikit-learn",
+   "scipy",
+   "seaborn",
+   "statsmodels",
+   "tabulate"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "matplotlib-base",
+    "mpmath",
+    "numpy",
+    "outdated",
+    "pandas",
+    "pandas-flavor",
+    "python",
+    "scikit-learn",
+    "scipy",
+    "seaborn",
+    "statsmodels",
+    "tabulate"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.7.0\n",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3.6"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "matplotlib-base >=3.0.2",
+    "mpmath",
+    "numpy >=1.15",
+    "outdated",
+    "pandas >=0.24",
+    "pandas-flavor >=0.1.2",
+    "python >=3.6",
+    "scikit-learn",
+    "scipy >=1.3.0",
+    "seaborn >=0.9.0",
+    "statsmodels >=0.10.0",
+    "tabulate"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/p/pingouin/pingouin-0.2.9.tar.gz",
+ "version":"0.3.4"
+}

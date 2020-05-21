@@ -1,0 +1,511 @@
+{
+ "PRed":[
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.0.3"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/205834509.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.0.4"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/222571015.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/224119087.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.0.5"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/236624203.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/241610005.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.1.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/255654622.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.1.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/286860696.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/288533032.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.2.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/325568986.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.2.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/332909418.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.2.3"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/336076407.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"python38"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/353935329.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"4.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/377431468.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"ArchRebuild",
+    "migrator_version":1,
+    "name":"aarch64 and ppc64le addition"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/392211260.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"pypy"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/395181442.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"4.0.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/397322426.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"4.0.1.post1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "provider":{
+   "linux_aarch64":"default",
+   "linux_ppc64le":"default",
+   "win":"azure"
+  }
+ },
+ "feedstock_name":"astropy",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"The Astropy Project is a community effort to develop a single package for\nAstronomy in Python. It contains core functionality and common tools\nneeded for performing astronomy and astrophysics research with Python.\n",
+   "dev_url":"https://github.com/astropy/astropy",
+   "doc_url":"http://docs.astropy.org/en/stable/",
+   "home":"http://www.astropy.org/",
+   "license":"BSD-3-Clause",
+   "license_file":"LICENSE.rst",
+   "summary":"Community-developed Python Library for Astronomy"
+  },
+  "build":{
+   "detect_binary_files_with_prefix":false,
+   "entry_points":[
+    "fits2bitmap = astropy.visualization.scripts.fits2bitmap:main",
+    "fitscheck = astropy.io.fits.scripts.fitscheck:main",
+    "fitsdiff = astropy.io.fits.scripts.fitsdiff:main",
+    "fitsheader = astropy.io.fits.scripts.fitsheader:main",
+    "fitsinfo = astropy.io.fits.scripts.fitsinfo:main",
+    "samp_hub = astropy.samp.hub_script:hub_script",
+    "volint = astropy.io.votable.volint:main",
+    "wcslint = astropy.wcs.wcslint:main",
+    "fits2bitmap = astropy.visualization.scripts.fits2bitmap:main",
+    "fitscheck = astropy.io.fits.scripts.fitscheck:main",
+    "fitsdiff = astropy.io.fits.scripts.fitsdiff:main",
+    "fitsheader = astropy.io.fits.scripts.fitsheader:main",
+    "fitsinfo = astropy.io.fits.scripts.fitsinfo:main",
+    "samp_hub = astropy.samp.hub_script:hub_script",
+    "volint = astropy.io.votable.volint:main",
+    "wcslint = astropy.wcs.wcslint:main",
+    "fits2bitmap = astropy.visualization.scripts.fits2bitmap:main",
+    "fitscheck = astropy.io.fits.scripts.fitscheck:main",
+    "fitsdiff = astropy.io.fits.scripts.fitsdiff:main",
+    "fitsheader = astropy.io.fits.scripts.fitsheader:main",
+    "fitsinfo = astropy.io.fits.scripts.fitsinfo:main",
+    "samp_hub = astropy.samp.hub_script:hub_script",
+    "volint = astropy.io.votable.volint:main",
+    "wcslint = astropy.wcs.wcslint:main"
+   ],
+   "number":"0"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "astrofrog-conda-forge",
+    "mwcraig",
+    "bsipocz",
+    "astrofrog-conda-forge",
+    "mwcraig",
+    "bsipocz",
+    "astrofrog-conda-forge",
+    "mwcraig",
+    "bsipocz"
+   ]
+  },
+  "package":{
+   "name":"astropy",
+   "version":"4.0.1.post1"
+  },
+  "requirements":{
+   "build":[
+    "c_compiler_stub",
+    "c_compiler_stub",
+    "c_compiler_stub"
+   ],
+   "host":[
+    "python",
+    "pip",
+    "setuptools",
+    "numpy 1.16.*",
+    "python",
+    "pip",
+    "setuptools",
+    "numpy 1.16.*",
+    "python",
+    "pip",
+    "setuptools",
+    "numpy 1.16.*"
+   ],
+   "run":[
+    "python",
+    "numpy >=1.16",
+    "python",
+    "numpy >=1.16",
+    "python",
+    "numpy >=1.16"
+   ]
+  },
+  "source":{
+   "sha256":"5c304a6c1845ca426e7bc319412b0363fccb4928cb4ba59298acd1918eec44b5",
+   "url":"https://pypi.io/packages/source/a/astropy/astropy-4.0.1.post1.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "fits2bitmap --help",
+    "fitscheck --help",
+    "fitsdiff --help",
+    "fitsheader --help",
+    "fitsinfo --help",
+    "samp_hub --help",
+    "volint --help",
+    "wcslint --help",
+    "fits2bitmap --help",
+    "fitscheck --help",
+    "fitsdiff --help",
+    "fitsheader --help",
+    "fitsinfo --help",
+    "samp_hub --help",
+    "volint --help",
+    "wcslint --help",
+    "fits2bitmap --help",
+    "fitscheck --help",
+    "fitsdiff --help",
+    "fitsheader --help",
+    "fitsinfo --help",
+    "samp_hub --help",
+    "volint --help",
+    "wcslint --help"
+   ],
+   "imports":[
+    "astropy",
+    "astropy",
+    "astropy"
+   ],
+   "requires":[
+    "pytest-astropy",
+    "pytest-astropy",
+    "pytest-astropy"
+   ]
+  }
+ },
+ "name":"astropy",
+ "new_version":"4.0.1.post1",
+ "pinning_version":"2020.03.30",
+ "raw_meta_yaml":"{% set version = \"4.0.1.post1\" %}\n\npackage:\n  name: astropy\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/a/astropy/astropy-{{ version }}.tar.gz\n  sha256: 5c304a6c1845ca426e7bc319412b0363fccb4928cb4ba59298acd1918eec44b5\n\n\nbuild:\n  detect_binary_files_with_prefix: false\n  entry_points:\n    - fits2bitmap = astropy.visualization.scripts.fits2bitmap:main\n    - fitscheck = astropy.io.fits.scripts.fitscheck:main\n    - fitsdiff = astropy.io.fits.scripts.fitsdiff:main\n    - fitsheader = astropy.io.fits.scripts.fitsheader:main\n    - fitsinfo = astropy.io.fits.scripts.fitsinfo:main\n    - samp_hub = astropy.samp.hub_script:hub_script\n    - volint = astropy.io.votable.volint:main\n    - wcslint = astropy.wcs.wcslint:main\n  number: 0\n  skip: true  # [py27]\n\nrequirements:\n  build:\n    - {{ compiler('c') }}\n  host:\n    - python\n    - pip\n    - setuptools\n    - numpy 1.16.*  # [py36]\n    - numpy 1.16.*  # [py>=37]\n  run:\n    - python\n    - numpy >=1.16  # [py36]\n    - numpy >=1.16  # [py>=37]\n\n\ntest:\n  requires:\n    - pytest-astropy\n  commands:\n    - fits2bitmap --help\n    - fitscheck --help\n    - fitsdiff --help\n    - fitsheader --help\n    - fitsinfo --help\n    - samp_hub --help\n    - volint --help\n    - wcslint --help\n  imports:\n    - astropy\n\nabout:\n  home: http://www.astropy.org/\n  license: BSD-3-Clause\n  license_file: LICENSE.rst\n  summary: Community-developed Python Library for Astronomy\n  description: |\n    The Astropy Project is a community effort to develop a single package for\n    Astronomy in Python. It contains core functionality and common tools\n    needed for performing astronomy and astrophysics research with Python.\n  doc_url: http://docs.astropy.org/en/stable/\n  dev_url: https://github.com/astropy/astropy\n\nextra:\n  recipe-maintainers:\n    - astrofrog-conda-forge\n    - mwcraig\n    - bsipocz\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "c_compiler_stub",
+   "numpy",
+   "pip",
+   "python",
+   "setuptools"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "numpy",
+    "pip",
+    "python",
+    "setuptools"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "numpy",
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "pytest-astropy"
+   ]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.6.15",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "numpy 1.16.*",
+    "pip",
+    "python",
+    "setuptools"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "numpy >=1.16",
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "pytest-astropy"
+   ]
+  }
+ },
+ "url":"https://pypi.io/packages/source/a/astropy/astropy-3.2.1.tar.gz",
+ "version":"4.0.1.post1"
+}

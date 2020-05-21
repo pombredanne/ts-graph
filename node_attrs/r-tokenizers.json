@@ -1,0 +1,333 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/205594540.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Compiler",
+    "migrator_version":0
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/231821910.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/298693808.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"RBaseRebuild",
+    "migrator_version":0,
+    "name":"r-base-3.6.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/412681823.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":2,
+    "migrator_version":0,
+    "name":"r400"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/413510012.json"
+   },
+   "data":{
+    "bot_rerun":1589819715.469833,
+    "migrator_name":"ArchRebuild",
+    "migrator_version":1,
+    "name":"aarch64 and ppc64le addition"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/419619337.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"ArchRebuild",
+    "migrator_version":1,
+    "name":"aarch64 and ppc64le addition"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "bot":{
+   "automerge":true
+  },
+  "provider":{
+   "win":"azure"
+  }
+ },
+ "feedstock_name":"r-tokenizers",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"https://lincolnmullen.com/software/tokenizers/",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":[
+    "/lib/R/share/licenses/MIT",
+    "LICENSE",
+    "/lib/R/share/licenses/MIT",
+    "LICENSE",
+    "/lib/R/share/licenses/MIT",
+    "LICENSE"
+   ],
+   "summary":"Convert natural language text into tokens. Includes tokenizers for shingled n-grams, skip n-grams, words, word stems, sentences, paragraphs, characters, shingled characters, lines, tweets, Penn Treebank, regular expressions, as well as functions for counting characters, words, and sentences, and a function for splitting longer texts into separate documents, each with the same number of words.  The tokenizers have a consistent interface, and the package is built on the 'stringi' and 'Rcpp' packages for  fast yet correct tokenization in 'UTF-8'. "
+  },
+  "build":{
+   "merge_build_host":true,
+   "number":"1002",
+   "rpaths":[
+    "lib/R/lib/",
+    "lib/",
+    "lib/R/lib/",
+    "lib/",
+    "lib/R/lib/",
+    "lib/"
+   ]
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "conda-forge/r",
+    "conda-forge/r",
+    "conda-forge/r"
+   ]
+  },
+  "package":{
+   "name":"r-tokenizers",
+   "version":"0.2.1"
+  },
+  "requirements":{
+   "build":[
+    "m2w64_c_compiler_stub",
+    "m2w64_cxx_compiler_stub",
+    "filesystem",
+    "make",
+    "sed",
+    "coreutils",
+    "zip",
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "make",
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "make"
+   ],
+   "host":[
+    "r-base",
+    "r-rcpp >=0.12.3",
+    "r-snowballc >=0.5.1",
+    "r-stringi >=1.0.1",
+    "r-base",
+    "r-rcpp >=0.12.3",
+    "r-snowballc >=0.5.1",
+    "r-stringi >=1.0.1",
+    "r-base",
+    "r-rcpp >=0.12.3",
+    "r-snowballc >=0.5.1",
+    "r-stringi >=1.0.1"
+   ],
+   "run":[
+    "r-base",
+    "gcc-libs",
+    "r-rcpp >=0.12.3",
+    "r-snowballc >=0.5.1",
+    "r-stringi >=1.0.1",
+    "r-base",
+    "r-rcpp >=0.12.3",
+    "r-snowballc >=0.5.1",
+    "r-stringi >=1.0.1",
+    "r-base",
+    "r-rcpp >=0.12.3",
+    "r-snowballc >=0.5.1",
+    "r-stringi >=1.0.1"
+   ]
+  },
+  "source":{
+   "fn":"tokenizers_0.2.1.tar.gz",
+   "sha256":"28617cdc5ddef5276abfe14a2642999833322b6c34697de1d4e9d6dc7670dd00",
+   "url":[
+    "https://cran.r-project.org/src/contrib/tokenizers_0.2.1.tar.gz",
+    "https://cran.r-project.org/src/contrib/Archive/tokenizers/tokenizers_0.2.1.tar.gz",
+    "https://cran.r-project.org/src/contrib/tokenizers_0.2.1.tar.gz",
+    "https://cran.r-project.org/src/contrib/Archive/tokenizers/tokenizers_0.2.1.tar.gz",
+    "https://cran.r-project.org/src/contrib/tokenizers_0.2.1.tar.gz",
+    "https://cran.r-project.org/src/contrib/Archive/tokenizers/tokenizers_0.2.1.tar.gz"
+   ]
+  },
+  "test":{
+   "commands":[
+    "\"%R%\" -e \"library('tokenizers')\"",
+    "$R -e \"library('tokenizers')\"",
+    "$R -e \"library('tokenizers')\""
+   ]
+  }
+ },
+ "name":"r-tokenizers",
+ "new_version":"0.2.1",
+ "pinning_version":"2020.05.18.14.31.44",
+ "raw_meta_yaml":"{% set version = \"0.2.1\" %}\n{% set posix = 'm2-' if win else '' %}\n{% set native = 'm2w64-' if win else '' %}\n\npackage:\n  name: r-tokenizers\n  version: {{ version|replace(\"-\", \"_\") }}\n\nsource:\n  fn: tokenizers_{{ version }}.tar.gz\n  url:\n    - {{ cran_mirror }}/src/contrib/tokenizers_{{ version }}.tar.gz\n    - {{ cran_mirror }}/src/contrib/Archive/tokenizers/tokenizers_{{ version }}.tar.gz\n  sha256: 28617cdc5ddef5276abfe14a2642999833322b6c34697de1d4e9d6dc7670dd00\n\nbuild:\n  merge_build_host: true  # [win]\n  number: 1002\n  skip: true  # [win32]\n  rpaths:\n    - lib/R/lib/\n    - lib/\n\nrequirements:\n  build:\n    - {{ compiler('c') }}        # [not win]\n    - {{ compiler('cxx') }}      # [not win]\n    - {{ compiler('m2w64_c') }}        # [win]\n    - {{ compiler('m2w64_cxx') }}        # [win]\n    - {{ posix }}filesystem        # [win]\n    - {{ posix }}make\n    - {{ posix }}sed               # [win]\n    - {{ posix }}coreutils         # [win]\n    - {{ posix }}zip               # [win]\n  host:\n    - r-base\n    - r-rcpp >=0.12.3\n    - r-snowballc >=0.5.1\n    - r-stringi >=1.0.1\n  run:\n    - r-base\n    - {{ native }}gcc-libs         # [win]\n    - r-rcpp >=0.12.3\n    - r-snowballc >=0.5.1\n    - r-stringi >=1.0.1\n\ntest:\n  commands:\n    - $R -e \"library('tokenizers')\"           # [not win]\n    - \"\\\"%R%\\\" -e \\\"library('tokenizers')\\\"\"  # [win]\n\nabout:\n  home: https://lincolnmullen.com/software/tokenizers/\n  license: MIT\n  summary: \"Convert natural language text into tokens. Includes tokenizers for shingled n-grams, skip n-grams, words, word stems, sentences, paragraphs, characters, shingled characters, lines, tweets, Penn Treebank, regular expressions, as well as functions for counting characters, words, and sentences, and a function for\\\n    \\ splitting longer texts into separate documents, each with the same number of words.  The tokenizers have a consistent interface, and the package is built on the 'stringi' and 'Rcpp' packages for  fast yet correct tokenization in 'UTF-8'. \"\n  license_family: MIT\n\n  license_file:\n    - {{ environ[\"PREFIX\"] }}/lib/R/share/licenses/MIT\n    - LICENSE\nextra:\n  recipe-maintainers:\n    - conda-forge/r\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "c_compiler_stub",
+   "coreutils",
+   "cxx_compiler_stub",
+   "filesystem",
+   "gcc-libs",
+   "m2w64_c_compiler_stub",
+   "m2w64_cxx_compiler_stub",
+   "make",
+   "r-base",
+   "r-rcpp",
+   "r-snowballc",
+   "r-stringi",
+   "sed",
+   "zip"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "coreutils",
+    "cxx_compiler_stub",
+    "filesystem",
+    "m2w64_c_compiler_stub",
+    "m2w64_cxx_compiler_stub",
+    "make",
+    "sed",
+    "zip"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "r-base",
+    "r-rcpp",
+    "r-snowballc",
+    "r-stringi"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "gcc-libs",
+    "r-base",
+    "r-rcpp",
+    "r-snowballc",
+    "r-stringi"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.7.2\n",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "coreutils",
+    "cxx_compiler_stub",
+    "filesystem",
+    "m2w64_c_compiler_stub",
+    "m2w64_cxx_compiler_stub",
+    "make",
+    "sed",
+    "zip"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "r-base",
+    "r-rcpp >=0.12.3",
+    "r-snowballc >=0.5.1",
+    "r-stringi >=1.0.1"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "gcc-libs",
+    "r-base",
+    "r-rcpp >=0.12.3",
+    "r-snowballc >=0.5.1",
+    "r-stringi >=1.0.1"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":[
+  "https://cran.r-project.org/src/contrib/tokenizers_0.2.1.tar.gz",
+  "https://cran.r-project.org/src/contrib/Archive/tokenizers/tokenizers_0.2.1.tar.gz",
+  "https://cran.r-project.org/src/contrib/tokenizers_0.2.1.tar.gz",
+  "https://cran.r-project.org/src/contrib/Archive/tokenizers/tokenizers_0.2.1.tar.gz",
+  "https://cran.r-project.org/src/contrib/tokenizers_0.2.1.tar.gz",
+  "https://cran.r-project.org/src/contrib/Archive/tokenizers/tokenizers_0.2.1.tar.gz"
+ ],
+ "version":"0.2.1"
+}

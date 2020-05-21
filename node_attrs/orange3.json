@@ -1,0 +1,687 @@
+{
+ "PRed":[
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.13.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/197277477.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Compiler",
+    "migrator_version":0
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/206394353.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.15.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/215545677.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.16.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/226113976.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.17.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/230490109.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.18.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/233284990.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/237694533.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.18.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/239961458.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.19.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/249583684.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.20.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/280392222.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.21.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/292045809.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.22.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/314511249.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.23.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/324188122.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.23.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/348687453.json"
+   },
+   "data":{
+    "bot_rerun":1579272528.110288,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"python38"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/355866727.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"python38"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/364067195.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.24.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/375642143.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MatplotlibBase",
+    "migrator_version":0,
+    "name":"matplotlib-to-matplotlib-base"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/401855040.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.25.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "provider":{
+   "win":"azure"
+  }
+ },
+ "feedstock_name":"orange3",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"Open source data visualization and data analysis for novice and expert.\nInteractive workflows with a large toolbox.\n",
+   "dev_url":"https://github.com/biolab/orange3",
+   "doc_url":"http://orange.biolab.si/docs/",
+   "home":"http://orange.biolab.si",
+   "license":"GPL-3.0-only",
+   "license_file":"LICENSE",
+   "summary":"component-based data mining framework"
+  },
+  "app":{
+   "entry":"orange-canvas",
+   "icon":"icon_48x48.png",
+   "summary":"data visualization and data analysis tool"
+  },
+  "build":{
+   "entry_points":[
+    "orange-canvas = Orange.canvas.__main__:main",
+    "orange-canvas = Orange.canvas.__main__:main",
+    "orange-canvas = Orange.canvas.__main__:main"
+   ],
+   "number":"1",
+   "osx_is_app":true,
+   "script":"-m pip install . --no-deps -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "astaric",
+    "lanzagar",
+    "ales-erjavec",
+    "nikicc",
+    "markotoplak",
+    "primozgodec",
+    "carlodri",
+    "astaric",
+    "lanzagar",
+    "ales-erjavec",
+    "nikicc",
+    "markotoplak",
+    "primozgodec",
+    "carlodri",
+    "astaric",
+    "lanzagar",
+    "ales-erjavec",
+    "nikicc",
+    "markotoplak",
+    "primozgodec",
+    "carlodri"
+   ]
+  },
+  "package":{
+   "name":"orange3",
+   "version":"3.25.0"
+  },
+  "requirements":{
+   "build":[
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "c_compiler_stub",
+    "cxx_compiler_stub"
+   ],
+   "host":[
+    "python",
+    "pip",
+    "wheel",
+    "numpy 1.14",
+    "python",
+    "pip",
+    "wheel",
+    "numpy 1.14",
+    "python",
+    "pip",
+    "wheel",
+    "numpy 1.14"
+   ],
+   "run":[
+    "python",
+    "setuptools >=36.3",
+    "numpy >=1.16.0",
+    "scipy >=0.16.1",
+    "scikit-learn >=0.22.0",
+    "bottleneck >=1.0.0",
+    "chardet >=3.0.2",
+    "docutils",
+    "xlrd >=0.9.2",
+    "xlsxwriter",
+    "anyqt >=0.0.8",
+    "pyqtgraph =0.10.0",
+    "joblib >=0.9.4",
+    "keyring",
+    "keyrings.alt",
+    "pip >=9.0",
+    "serverfiles",
+    "python-louvain >=0.13",
+    "requests",
+    "matplotlib-base >=2.0.0",
+    "openTSNE >=0.3.11",
+    "pandas",
+    "pyyaml",
+    "orange-canvas-core >=0.1.9,<0.2a",
+    "orange-widget-base >=4.5.0",
+    "openpyxl",
+    "httpx >=0.12",
+    "baycomp >=1.0.2",
+    "cachecontrol >=0.12.6",
+    "python",
+    "setuptools >=36.3",
+    "numpy >=1.16.0",
+    "scipy >=0.16.1",
+    "scikit-learn >=0.22.0",
+    "bottleneck >=1.0.0",
+    "chardet >=3.0.2",
+    "docutils",
+    "xlrd >=0.9.2",
+    "xlsxwriter",
+    "anyqt >=0.0.8",
+    "pyqtgraph =0.10.0",
+    "joblib >=0.9.4",
+    "keyring",
+    "keyrings.alt",
+    "pip >=9.0",
+    "python.app",
+    "serverfiles",
+    "python-louvain >=0.13",
+    "requests",
+    "matplotlib-base >=2.0.0",
+    "openTSNE >=0.3.11",
+    "pandas",
+    "pyyaml",
+    "orange-canvas-core >=0.1.9,<0.2a",
+    "orange-widget-base >=4.5.0",
+    "openpyxl",
+    "httpx >=0.12",
+    "baycomp >=1.0.2",
+    "cachecontrol >=0.12.6",
+    "python",
+    "setuptools >=36.3",
+    "numpy >=1.16.0",
+    "scipy >=0.16.1",
+    "scikit-learn >=0.22.0",
+    "bottleneck >=1.0.0",
+    "chardet >=3.0.2",
+    "docutils",
+    "xlrd >=0.9.2",
+    "xlsxwriter",
+    "anyqt >=0.0.8",
+    "pyqtgraph =0.10.0",
+    "joblib >=0.9.4",
+    "keyring",
+    "keyrings.alt",
+    "pip >=9.0",
+    "serverfiles",
+    "python-louvain >=0.13",
+    "requests",
+    "matplotlib-base >=2.0.0",
+    "openTSNE >=0.3.11",
+    "pandas",
+    "pyyaml",
+    "orange-canvas-core >=0.1.9,<0.2a",
+    "orange-widget-base >=4.5.0",
+    "openpyxl",
+    "httpx >=0.12",
+    "baycomp >=1.0.2",
+    "cachecontrol >=0.12.6"
+   ]
+  },
+  "source":{
+   "fn":"Orange3-3.25.0.tar.gz",
+   "sha256":"ee24bdce6588deb253e9a831588a10748347d2bdb08fe7c285fe3ffce9f25323",
+   "url":"https://github.com/biolab/orange3/archive/3.25.0.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "python -c \"import pkg_resources; pkg_resources.require('Orange3')\"",
+    "orange-canvas --help",
+    "python -c \"import pkg_resources; pkg_resources.require('Orange3')\"",
+    "orange-canvas --help",
+    "python -c \"import pkg_resources; pkg_resources.require('Orange3')\"",
+    "orange-canvas --help"
+   ],
+   "imports":[
+    "Orange",
+    "Orange",
+    "Orange"
+   ]
+  }
+ },
+ "name":"orange3",
+ "new_version":"3.25.0",
+ "new_version_attempts":{
+  "3.25.0":1
+ },
+ "new_version_errors":{},
+ "pinning_version":"2020.04.10",
+ "raw_meta_yaml":"{% set version = \"3.25.0\" %}\n{% set sha256 = \"ee24bdce6588deb253e9a831588a10748347d2bdb08fe7c285fe3ffce9f25323\" %}\n\npackage:\n  name: orange3\n  version: {{ version }}\n\nsource:\n  fn: Orange3-{{ version }}.tar.gz\n  url: https://github.com/biolab/orange3/archive/{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 1\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n  entry_points:\n    - orange-canvas = Orange.canvas.__main__:main\n  osx_is_app: true\n  skip: true  # [py2k]\n\nrequirements:\n  build:\n    - {{ compiler('c') }}\n    - {{ compiler('cxx') }}\n  host:\n    - python\n    - pip\n    - wheel\n    - numpy 1.14\n  run:\n    - python\n    - setuptools >=36.3\n    - numpy >=1.16.0\n    - scipy >=0.16.1\n    - scikit-learn >=0.22.0\n    - bottleneck >=1.0.0\n    - chardet >=3.0.2\n    - docutils\n    - xlrd >=0.9.2\n    - xlsxwriter\n    - anyqt >=0.0.8\n    - pyqtgraph =0.10.0\n    - joblib >=0.9.4\n    - keyring\n    - keyrings.alt\n    - pip >=9.0\n    - python.app  # [osx]\n    - serverfiles\n    - python-louvain >=0.13\n    - requests\n    - matplotlib-base >=2.0.0\n    - openTSNE >=0.3.11\n    - pandas\n    - pyyaml\n    - orange-canvas-core >=0.1.9,<0.2a\n    - orange-widget-base >=4.5.0\n    - openpyxl\n    - httpx >=0.12\n    - baycomp >=1.0.2\n    # cachecontrol (required by canvas core) <0.12.5 is incompatible with msgpack 1.0\n    - cachecontrol >=0.12.6\n\ntest:\n  commands:\n    - python -c \"import pkg_resources; pkg_resources.require('Orange3')\"\n    - orange-canvas --help\n  imports:\n    - Orange\n\napp:\n  entry: orange-canvas\n  summary: data visualization and data analysis tool\n  icon: icon_48x48.png\n\nabout:\n  home: http://orange.biolab.si\n  license: GPL-3.0-only\n  license_file: LICENSE\n  summary: component-based data mining framework\n  description: |\n    Open source data visualization and data analysis for novice and expert.\n    Interactive workflows with a large toolbox.\n  doc_url: http://orange.biolab.si/docs/\n  dev_url: https://github.com/biolab/orange3\n\nextra:\n  recipe-maintainers:\n    - astaric\n    - lanzagar\n    - ales-erjavec\n    - nikicc\n    - markotoplak\n    - primozgodec\n    - carlodri\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "anyqt",
+   "baycomp",
+   "bottleneck",
+   "c_compiler_stub",
+   "cachecontrol",
+   "chardet",
+   "cxx_compiler_stub",
+   "docutils",
+   "httpx",
+   "joblib",
+   "keyring",
+   "keyrings.alt",
+   "matplotlib-base",
+   "numpy",
+   "openpyxl",
+   "opentsne",
+   "orange-canvas-core",
+   "orange-widget-base",
+   "pandas",
+   "pip",
+   "pyqtgraph",
+   "python",
+   "python-louvain",
+   "python.app",
+   "pyyaml",
+   "requests",
+   "scikit-learn",
+   "scipy",
+   "serverfiles",
+   "setuptools",
+   "wheel",
+   "xlrd",
+   "xlsxwriter"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "cxx_compiler_stub"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "numpy",
+    "pip",
+    "python",
+    "wheel"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "anyqt",
+    "baycomp",
+    "bottleneck",
+    "cachecontrol",
+    "chardet",
+    "docutils",
+    "httpx",
+    "joblib",
+    "keyring",
+    "keyrings.alt",
+    "matplotlib-base",
+    "numpy",
+    "openpyxl",
+    "opentsne",
+    "orange-canvas-core",
+    "orange-widget-base",
+    "pandas",
+    "pip",
+    "pyqtgraph",
+    "python",
+    "python-louvain",
+    "python.app",
+    "pyyaml",
+    "requests",
+    "scikit-learn",
+    "scipy",
+    "serverfiles",
+    "setuptools",
+    "xlrd",
+    "xlsxwriter"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.6.16",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "cxx_compiler_stub"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "numpy 1.14",
+    "pip",
+    "python",
+    "wheel"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "anyqt >=0.0.8",
+    "baycomp >=1.0.2",
+    "bottleneck >=1.0.0",
+    "cachecontrol >=0.12.6",
+    "chardet >=3.0.2",
+    "docutils",
+    "httpx >=0.12",
+    "joblib >=0.9.4",
+    "keyring",
+    "keyrings.alt",
+    "matplotlib-base >=2.0.0",
+    "numpy >=1.16.0",
+    "openTSNE >=0.3.11",
+    "openpyxl",
+    "orange-canvas-core >=0.1.9,<0.2a",
+    "orange-widget-base >=4.5.0",
+    "pandas",
+    "pip >=9.0",
+    "pyqtgraph =0.10.0",
+    "python",
+    "python-louvain >=0.13",
+    "python.app",
+    "pyyaml",
+    "requests",
+    "scikit-learn >=0.22.0",
+    "scipy >=0.16.1",
+    "serverfiles",
+    "setuptools >=36.3",
+    "xlrd >=0.9.2",
+    "xlsxwriter"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://github.com/biolab/orange3/archive/3.23.0.tar.gz",
+ "version":"3.25.0"
+}

@@ -1,0 +1,97 @@
+{
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"cylc-ui",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"Cylc Web UI.\n",
+   "dev_url":"https://github.com/cylc/cylc-ui",
+   "doc_url":"https://github.com/cylc/cylc-ui",
+   "home":"https://github.com/cylc/cylc-ui",
+   "license":"GPL-3.0",
+   "license_family":"GPL",
+   "license_file":"LICENSE",
+   "summary":"Cylc Web UI"
+  },
+  "build":{
+   "number":"2",
+   "skip":true
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "hjoliver",
+    "kinow",
+    "oliver-sanders",
+    "hjoliver",
+    "kinow",
+    "oliver-sanders",
+    "hjoliver",
+    "kinow",
+    "oliver-sanders"
+   ]
+  },
+  "package":{
+   "name":"cylc-ui",
+   "version":"0.1"
+  },
+  "source":{
+   "folder":"cylc-ui",
+   "sha256":"639b18bb7526914203ffdc6bd80f2b580683c63e3d94c4b92d1bb00355824b44",
+   "url":"https://github.com/cylc/cylc-ui/releases/download/0.1/cylc-ui-0.1-dist.zip"
+  },
+  "test":{
+   "commands":[
+    "echo \"OK\"",
+    "echo \"OK\"",
+    "echo \"OK\""
+   ]
+  }
+ },
+ "name":"cylc-ui",
+ "new_version":"0.1",
+ "raw_meta_yaml":"{% set name = \"cylc-ui\" %}\n{% set version = \"0.1\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://github.com/cylc/{{ name }}/releases/download/{{ version }}/{{ name }}-{{ version }}-dist.zip\n  sha256: 639b18bb7526914203ffdc6bd80f2b580683c63e3d94c4b92d1bb00355824b44\n  folder: cylc-ui\n\nbuild:\n  number: 2\n  # Cylc Flow is Linux only. Cylc UI could be built on Windows/Mac/etc, but we are assuming the whole build env to be Linux\n  skip: True  # [not linux]\n\ntest:\n  commands:\n    - echo \"OK\"\n\nabout:\n  home: https://github.com/cylc/cylc-ui\n  license: GPL-3.0\n  license_family: GPL\n  license_file: LICENSE\n  summary: 'Cylc Web UI'\n\n  description: |\n    Cylc Web UI.\n  doc_url: https://github.com/cylc/cylc-ui\n  dev_url: https://github.com/cylc/cylc-ui\n\nextra:\n  recipe-maintainers:\n    - hjoliver\n    - kinow\n    - oliver-sanders\n",
+ "req":{
+  "__set__":true,
+  "elements":[]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://github.com/cylc/cylc-ui/releases/download/0.1/cylc-ui-0.1-dist.zip",
+ "version":"0.1"
+}

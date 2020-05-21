@@ -1,0 +1,108 @@
+{
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"arpackpp",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"http://reuter.mit.edu/software/arpackpatch/",
+   "license":"BSD 3-Clause",
+   "license_file":"LICENSE",
+   "summary":"an object-oriented version of the ARPACK package"
+  },
+  "build":{
+   "number":"0",
+   "script":[
+    "install -d ${PREFIX}/include/arpack++",
+    "install include/*.h ${PREFIX}/include/arpack++",
+    "install -d ${PREFIX}/include/arpack++",
+    "install include/*.h ${PREFIX}/include/arpack++",
+    "install -d ${PREFIX}/include/arpack++",
+    "install include/*.h ${PREFIX}/include/arpack++"
+   ],
+   "skip":true
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "jschueller",
+    "jschueller",
+    "jschueller"
+   ]
+  },
+  "package":{
+   "name":"arpackpp",
+   "version":"2.3.0"
+  },
+  "requirements":{
+   "run":[
+    "arpack",
+    "arpack",
+    "arpack"
+   ]
+  },
+  "source":{
+   "fn":"arpackpp-2.3.0.tar.gz",
+   "sha256":"288fb4cd2dd08e02ed29db579bc1278023a06415dd2f63b1fdc323c7993fcb1a",
+   "url":"https://github.com/m-reuter/arpackpp/archive/2.3.0.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "test -f ${PREFIX}/include/arpack++/arpackf.h",
+    "test -f ${PREFIX}/include/arpack++/arpackf.h",
+    "test -f ${PREFIX}/include/arpack++/arpackf.h"
+   ]
+  }
+ },
+ "name":"arpackpp",
+ "new_version":"2.3.0",
+ "raw_meta_yaml":"{% set version = \"2.3.0\" %}\n\npackage:\n  name: arpackpp\n  version: {{ version }}\n\nsource:\n  fn: arpackpp-{{ version }}.tar.gz\n  url: https://github.com/m-reuter/arpackpp/archive/{{ version }}.tar.gz\n  sha256: 288fb4cd2dd08e02ed29db579bc1278023a06415dd2f63b1fdc323c7993fcb1a\n\nbuild:\n  number: 0\n  skip: true  # [win]\n  script:\n    - install -d ${PREFIX}/include/arpack++\n    - install include/*.h ${PREFIX}/include/arpack++\n\nrequirements:\n  run:\n    - arpack\n\ntest:\n  commands:\n    - test -f ${PREFIX}/include/arpack++/arpackf.h\n\nabout:\n  home: http://reuter.mit.edu/software/arpackpatch/\n  license: BSD 3-Clause\n  license_file: LICENSE\n  summary: an object-oriented version of the ARPACK package\n\nextra:\n  recipe-maintainers:\n    - jschueller\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "arpack"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "arpack"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "arpack"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://github.com/m-reuter/arpackpp/archive/2.3.0.tar.gz",
+ "version":"2.3.0"
+}

@@ -1,0 +1,254 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/411824174.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"4.50"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"gsutil",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"https://pypi.org/project/gsutil/",
+   "license":"Apache-2.0",
+   "license_file":"LICENSE",
+   "summary":"A command line tool for interacting with cloud storage services."
+  },
+  "build":{
+   "entry_points":[
+    "gsutil = gslib.__main__:main",
+    "gsutil = gslib.__main__:main",
+    "gsutil = gslib.__main__:main"
+   ],
+   "noarch":"python",
+   "number":"0",
+   "script":"-m pip install . -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "xhochy",
+    "xhochy",
+    "xhochy"
+   ]
+  },
+  "package":{
+   "name":"gsutil",
+   "version":"4.50"
+  },
+  "requirements":{
+   "host":[
+    "pip",
+    "python",
+    "pip",
+    "python",
+    "pip",
+    "python"
+   ],
+   "run":[
+    "argcomplete >=1.9.4",
+    "crcmod >=1.7",
+    "fasteners >=0.14.1",
+    "gcs-oauth2-boto-plugin >=2.5",
+    "google-apitools >=0.5.30",
+    "google-reauth >=0.1.0",
+    "httplib2 >=0.11.3",
+    "mock =2.0.0",
+    "monotonic >=1.4",
+    "oauth2client =4.1.3",
+    "pyopenssl >=0.13",
+    "python <4.0",
+    "retry_decorator >=1.0.0",
+    "six >=1.12.0",
+    "socksipy-branch =1.01",
+    "argcomplete >=1.9.4",
+    "crcmod >=1.7",
+    "fasteners >=0.14.1",
+    "gcs-oauth2-boto-plugin >=2.5",
+    "google-apitools >=0.5.30",
+    "google-reauth >=0.1.0",
+    "httplib2 >=0.11.3",
+    "mock =2.0.0",
+    "monotonic >=1.4",
+    "oauth2client =4.1.3",
+    "pyopenssl >=0.13",
+    "python <4.0",
+    "retry_decorator >=1.0.0",
+    "six >=1.12.0",
+    "socksipy-branch =1.01",
+    "argcomplete >=1.9.4",
+    "crcmod >=1.7",
+    "fasteners >=0.14.1",
+    "gcs-oauth2-boto-plugin >=2.5",
+    "google-apitools >=0.5.30",
+    "google-reauth >=0.1.0",
+    "httplib2 >=0.11.3",
+    "mock =2.0.0",
+    "monotonic >=1.4",
+    "oauth2client =4.1.3",
+    "pyopenssl >=0.13",
+    "python <4.0",
+    "retry_decorator >=1.0.0",
+    "six >=1.12.0",
+    "socksipy-branch =1.01"
+   ],
+   "run_constrained":[
+    "google-cloud-sdk <0a",
+    "google-cloud-sdk <0a",
+    "google-cloud-sdk <0a"
+   ]
+  },
+  "source":{
+   "sha256":"7f1bab62ee9ffaaf0b8030b31baa3e103227ddd374d02ca896258bef75594836",
+   "url":"https://pypi.io/packages/source/g/gsutil/gsutil-4.50.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "pip check",
+    "gsutil version",
+    "pip check",
+    "gsutil version",
+    "pip check",
+    "gsutil version"
+   ],
+   "imports":[
+    "gslib",
+    "gslib.addlhelp",
+    "gslib",
+    "gslib.addlhelp",
+    "gslib",
+    "gslib.addlhelp"
+   ],
+   "requires":[
+    "pip",
+    "pip",
+    "pip"
+   ]
+  }
+ },
+ "name":"gsutil",
+ "new_version":"4.50",
+ "new_version_attempts":{
+  "4.50":1
+ },
+ "new_version_errors":{},
+ "pinning_version":"2020.04.30.15.41.11",
+ "raw_meta_yaml":"{% set name = \"gsutil\" %}\n{% set version = \"4.50\" %}\n\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: 7f1bab62ee9ffaaf0b8030b31baa3e103227ddd374d02ca896258bef75594836\n\nbuild:\n  number: 0\n  noarch: python\n  entry_points:\n    - gsutil = gslib.__main__:main\n  script: {{ PYTHON }} -m pip install . -vv\n\nrequirements:\n  host:\n    - pip\n    - python\n  run:\n    - argcomplete >=1.9.4\n    - crcmod >=1.7\n    - fasteners >=0.14.1\n    - gcs-oauth2-boto-plugin >=2.5\n    - google-apitools >=0.5.30\n    - google-reauth >=0.1.0\n    - httplib2 >=0.11.3\n    - mock =2.0.0\n    - monotonic >=1.4\n    - oauth2client =4.1.3\n    - pyopenssl >=0.13\n    - python <4.0\n    - retry_decorator >=1.0.0\n    - six >=1.12.0\n    - socksipy-branch =1.01\n  run_constrained:\n    - google-cloud-sdk <0a\n\ntest:\n  imports:\n    - gslib\n    - gslib.addlhelp\n  commands:\n    - pip check\n    - gsutil version\n  requires:\n    - pip\n\nabout:\n  home: https://pypi.org/project/gsutil/\n  summary: A command line tool for interacting with cloud storage services.\n  license: Apache-2.0\n  license_file: LICENSE\n\nextra:\n  recipe-maintainers:\n    - xhochy\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "argcomplete",
+   "crcmod",
+   "fasteners",
+   "gcs-oauth2-boto-plugin",
+   "google-apitools",
+   "google-reauth",
+   "httplib2",
+   "mock",
+   "monotonic",
+   "oauth2client",
+   "pip",
+   "pyopenssl",
+   "python",
+   "retry_decorator",
+   "six",
+   "socksipy-branch"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "argcomplete",
+    "crcmod",
+    "fasteners",
+    "gcs-oauth2-boto-plugin",
+    "google-apitools",
+    "google-reauth",
+    "httplib2",
+    "mock",
+    "monotonic",
+    "oauth2client",
+    "pyopenssl",
+    "python",
+    "retry_decorator",
+    "six",
+    "socksipy-branch"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "pip"
+   ]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.7.0",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "argcomplete >=1.9.4",
+    "crcmod >=1.7",
+    "fasteners >=0.14.1",
+    "gcs-oauth2-boto-plugin >=2.5",
+    "google-apitools >=0.5.30",
+    "google-reauth >=0.1.0",
+    "httplib2 >=0.11.3",
+    "mock =2.0.0",
+    "monotonic >=1.4",
+    "oauth2client =4.1.3",
+    "pyopenssl >=0.13",
+    "python <4.0",
+    "retry_decorator >=1.0.0",
+    "six >=1.12.0",
+    "socksipy-branch =1.01"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "pip"
+   ]
+  }
+ },
+ "url":"https://pypi.io/packages/source/g/gsutil/gsutil-4.49.tar.gz",
+ "version":"4.50"
+}

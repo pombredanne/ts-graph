@@ -1,0 +1,688 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/320999857.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.1.31"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/323432962.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.1.31.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/326035958.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.1.31.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/329942770.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.1.32"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/332264590.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.1.32.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/332889505.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.1.32.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/335685163.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.1.33"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/338965123.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.1.34"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/340920966.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.1.35"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/346006224.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.1.36"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/349690510.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.1.37"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/356506911.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.1.38"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/359737326.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.1.39"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/360908076.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.1.40"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/364829654.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.2.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/370143842.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.2.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/371321719.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.2.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/373837022.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.2.2.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/377259438.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.2.4"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/377502453.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.2.4.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/380848803.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.2.5"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/392495225.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.3.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/400550693.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.4.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/408274643.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.5.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/414509912.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.5.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"kfp",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"Kubeflow is a machine learning (ML) toolkit that is dedicated to making\ndeployments of ML workflows on Kubernetes simple, portable, and scalable.\nKubeflow pipelines are reusable end-to-end ML workflows built using the\nKubeflow Pipelines SDK.\n",
+   "dev_url":"https://github.com/kubeflow/pipelines/tree/master/sdk/python",
+   "doc_url":"https://www.kubeflow.org/docs/pipelines/",
+   "home":"https://github.com/kubeflow/pipelines",
+   "license":"Apache-2.0",
+   "license_family":"Apache",
+   "license_file":"LICENSE",
+   "summary":"Reusable end-to-end ML workflows built using the Kubeflow Pipelines SDK.\n"
+  },
+  "build":{
+   "entry_points":[
+    "dsl-compile = kfp.compiler.main:main",
+    "kfp=kfp.__main__:main",
+    "dsl-compile = kfp.compiler.main:main",
+    "kfp=kfp.__main__:main",
+    "dsl-compile = kfp.compiler.main:main",
+    "kfp=kfp.__main__:main"
+   ],
+   "noarch":"python",
+   "number":"0",
+   "script":"-m pip install . -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "nicolas-geniteau",
+    "maximerihouey",
+    "ncolomer",
+    "tanguycdls",
+    "radcheb",
+    "nicolas-geniteau",
+    "maximerihouey",
+    "ncolomer",
+    "tanguycdls",
+    "radcheb",
+    "nicolas-geniteau",
+    "maximerihouey",
+    "ncolomer",
+    "tanguycdls",
+    "radcheb"
+   ]
+  },
+  "package":{
+   "name":"kfp",
+   "version":"0.5.0"
+  },
+  "requirements":{
+   "host":[
+    "python >=3.5.3",
+    "pip",
+    "python >=3.5.3",
+    "pip",
+    "python >=3.5.3",
+    "pip"
+   ],
+   "run":[
+    "python >=3.5.3",
+    "urllib3 >=1.15,<1.25",
+    "six >=1.10",
+    "certifi",
+    "python-dateutil",
+    "PyYAML",
+    "google-cloud-storage >=1.13",
+    "python-kubernetes >=8,<=10",
+    "PyJWT >=1.6.4",
+    "cryptography >=2.4.2",
+    "google-auth >=1.6.1",
+    "requests-toolbelt >=0.8",
+    "cloudpickle =1.1.1",
+    "kfp-server-api >=0.1.18,<=0.1.100",
+    "argo-models =2.3.0.post1",
+    "jsonschema >=3.0.1",
+    "tabulate =0.8.3",
+    "click =7.0",
+    "Deprecated",
+    "strip-hints",
+    "python >=3.5.3",
+    "urllib3 >=1.15,<1.25",
+    "six >=1.10",
+    "certifi",
+    "python-dateutil",
+    "PyYAML",
+    "google-cloud-storage >=1.13",
+    "python-kubernetes >=8,<=10",
+    "PyJWT >=1.6.4",
+    "cryptography >=2.4.2",
+    "google-auth >=1.6.1",
+    "requests-toolbelt >=0.8",
+    "cloudpickle =1.1.1",
+    "kfp-server-api >=0.1.18,<=0.1.100",
+    "argo-models =2.3.0.post1",
+    "jsonschema >=3.0.1",
+    "tabulate =0.8.3",
+    "click =7.0",
+    "Deprecated",
+    "strip-hints",
+    "python >=3.5.3",
+    "urllib3 >=1.15,<1.25",
+    "six >=1.10",
+    "certifi",
+    "python-dateutil",
+    "PyYAML",
+    "google-cloud-storage >=1.13",
+    "python-kubernetes >=8,<=10",
+    "PyJWT >=1.6.4",
+    "cryptography >=2.4.2",
+    "google-auth >=1.6.1",
+    "requests-toolbelt >=0.8",
+    "cloudpickle =1.1.1",
+    "kfp-server-api >=0.1.18,<=0.1.100",
+    "argo-models =2.3.0.post1",
+    "jsonschema >=3.0.1",
+    "tabulate =0.8.3",
+    "click =7.0",
+    "Deprecated",
+    "strip-hints"
+   ]
+  },
+  "source":{
+   "sha256":"31cb22459fa65e5a02b4dc7c822f76d2f18d76ef2aef9155fb2fe04c9490dfa4",
+   "url":"https://pypi.io/packages/source/k/kfp/kfp-0.5.0.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "kfp",
+    "kfp",
+    "kfp"
+   ]
+  }
+ },
+ "name":"kfp",
+ "new_version":"0.5.1",
+ "new_version_attempts":{
+  "0.4.0":1,
+  "0.5.0":1,
+  "0.5.1":1
+ },
+ "new_version_errors":{},
+ "pinning_version":"2020.05.06.22.15.02",
+ "raw_meta_yaml":"{% set name = \"kfp\" %}\n{% set version = \"0.5.0\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: 31cb22459fa65e5a02b4dc7c822f76d2f18d76ef2aef9155fb2fe04c9490dfa4\n\nbuild:\n  noarch: python\n  number: 0\n  script: {{ PYTHON }} -m pip install . -vv\n  entry_points:\n    - dsl-compile = kfp.compiler.main:main\n    - kfp=kfp.__main__:main\n\n\nrequirements:\n  host:\n    - python >=3.5.3\n    - pip\n  run:\n    - python >=3.5.3\n    - urllib3 >=1.15,<1.25\n    - six >=1.10\n    - certifi\n    - python-dateutil\n    - PyYAML\n    - google-cloud-storage >=1.13\n    - python-kubernetes >=8,<=10\n    - PyJWT >=1.6.4\n    - cryptography >=2.4.2\n    - google-auth >=1.6.1\n    - requests-toolbelt >=0.8\n    - cloudpickle =1.1.1\n    - kfp-server-api >=0.1.18,<=0.1.100\n    - argo-models =2.3.0.post1\n    - jsonschema >=3.0.1\n    - tabulate =0.8.3\n    - click =7.0\n    - Deprecated\n    - strip-hints\n\ntest:\n  imports:\n    - kfp\n\nabout:\n  home: https://github.com/kubeflow/pipelines\n  license: Apache-2.0\n  license_family: Apache\n  license_file: LICENSE\n  summary: |\n    Reusable end-to-end ML workflows built using the Kubeflow Pipelines SDK.\n  description: |\n    Kubeflow is a machine learning (ML) toolkit that is dedicated to making\n    deployments of ML workflows on Kubernetes simple, portable, and scalable.\n    Kubeflow pipelines are reusable end-to-end ML workflows built using the\n    Kubeflow Pipelines SDK.\n\n  doc_url: https://www.kubeflow.org/docs/pipelines/\n  dev_url: https://github.com/kubeflow/pipelines/tree/master/sdk/python\n\nextra:\n  recipe-maintainers:\n    - nicolas-geniteau\n    - maximerihouey\n    - ncolomer\n    - tanguycdls\n    - radcheb\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "argo-models",
+   "certifi",
+   "click",
+   "cloudpickle",
+   "cryptography",
+   "deprecated",
+   "google-auth",
+   "google-cloud-storage",
+   "jsonschema",
+   "kfp-server-api",
+   "pip",
+   "pyjwt",
+   "python",
+   "python-dateutil",
+   "python-kubernetes",
+   "pyyaml",
+   "requests-toolbelt",
+   "six",
+   "strip-hints",
+   "tabulate",
+   "urllib3"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "argo-models",
+    "certifi",
+    "click",
+    "cloudpickle",
+    "cryptography",
+    "deprecated",
+    "google-auth",
+    "google-cloud-storage",
+    "jsonschema",
+    "kfp-server-api",
+    "pyjwt",
+    "python",
+    "python-dateutil",
+    "python-kubernetes",
+    "pyyaml",
+    "requests-toolbelt",
+    "six",
+    "strip-hints",
+    "tabulate",
+    "urllib3"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.7.0\n",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3.5.3"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "Deprecated",
+    "PyJWT >=1.6.4",
+    "PyYAML",
+    "argo-models =2.3.0.post1",
+    "certifi",
+    "click =7.0",
+    "cloudpickle =1.1.1",
+    "cryptography >=2.4.2",
+    "google-auth >=1.6.1",
+    "google-cloud-storage >=1.13",
+    "jsonschema >=3.0.1",
+    "kfp-server-api >=0.1.18,<=0.1.100",
+    "python >=3.5.3",
+    "python-dateutil",
+    "python-kubernetes >=8,<=10",
+    "requests-toolbelt >=0.8",
+    "six >=1.10",
+    "strip-hints",
+    "tabulate =0.8.3",
+    "urllib3 >=1.15,<1.25"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/k/kfp/kfp-0.1.30.tar.gz",
+ "version":"0.5.0"
+}

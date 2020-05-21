@@ -1,0 +1,160 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/405255630.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.18.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "bot":{
+   "automerge":true
+  }
+ },
+ "feedstock_name":"terraform-provider-keycloak",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "dev_url":"https://github.com/mrparkers/terraform-provider-keycloak",
+   "doc_url":"https://github.com/mrparkers/terraform-provider-keycloak",
+   "home":"https://github.com/mrparkers/terraform-provider-keycloak",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"LICENSE",
+   "summary":"Terraform provider for Keycloak."
+  },
+  "build":{
+   "number":"0",
+   "script":[
+    "go build -v -o terraform-provider-keycloak_v1.18.0_x4",
+    "go build -v -o terraform-provider-keycloak_v1.18.0_x4",
+    "go build -v -o terraform-provider-keycloak_v1.18.0_x4"
+   ]
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "rluria14",
+    "oblute",
+    "conda-forge/terraform",
+    "rluria14",
+    "oblute",
+    "conda-forge/terraform",
+    "rluria14",
+    "oblute",
+    "conda-forge/terraform"
+   ]
+  },
+  "package":{
+   "name":"terraform-provider-keycloak",
+   "version":"1.18.0"
+  },
+  "requirements":{
+   "build":[
+    "go_compiler_stub 1.13",
+    "go_compiler_stub 1.13",
+    "go_compiler_stub 1.13"
+   ],
+   "run":[
+    "terraform 0.12",
+    "terraform 0.12",
+    "terraform 0.12"
+   ]
+  },
+  "source":{
+   "sha256":"0066f5ede91650ebe71b2981933de6cfd6f2c9da90d5fbfaf42cb6d53ce28fb4",
+   "url":"https://github.com/mrparkers/terraform-provider-keycloak/archive/1.18.0.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "echo provider \"keycloak\" { version=\"1.18.0\" } > init.tf",
+    "terraform init",
+    "if not exist .terraform\\plugins\\_\\lock.json exit 1",
+    "if exist .terraform\\plugins\\_\\terraform-provider-keycloak_v1.18.0_x4 exit 1",
+    "echo 'provider \"keycloak\" { version=\"1.18.0\" }' > init.tf",
+    "terraform init",
+    "test -f .terraform/plugins/_/lock.json",
+    "test ! -f .terraform/plugins/_/terraform-provider-keycloak_v1.18.0_x4",
+    "echo 'provider \"keycloak\" { version=\"1.18.0\" }' > init.tf",
+    "terraform init",
+    "test -f .terraform/plugins/_/lock.json",
+    "test ! -f .terraform/plugins/_/terraform-provider-keycloak_v1.18.0_x4"
+   ]
+  }
+ },
+ "name":"terraform-provider-keycloak",
+ "new_version":"1.18.0",
+ "new_version_attempts":{
+  "1.18.0":1
+ },
+ "new_version_errors":{},
+ "pinning_version":"2020.04.17.11.45.02",
+ "raw_meta_yaml":"{% set provider = \"keycloak\" %}\n{% set goname = \"github.com/mrparkers/terraform-provider-\"+provider.lower() %}\n{% set version = \"1.18.0\" %}\n\n{% set name = goname.split('/')[-1] %}\n\n{% set x4_plugin = name + '_v' + version + \"_x4\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: \"https://{{ goname }}/archive/{{ version }}.tar.gz\"\n  sha256: 0066f5ede91650ebe71b2981933de6cfd6f2c9da90d5fbfaf42cb6d53ce28fb4\n\nbuild:\n  number: 0\n  script:\n    - go build -v -o {{ target_gobin }}{{ x4_plugin }}{{ target_goexe }}\n\nrequirements:\n  build:\n    - {{ compiler('go') }} 1.13\n  run:\n    - terraform 0.12\n\ntest:\n  commands:\n    # Create a sample init.tf loading the provider\n    - echo 'provider \"{{ provider|lower }}\" { version=\"{{ version }}\" }' > init.tf  # [unix]\n    - echo provider \"{{ provider|lower }}\" { version=\"{{ version }}\" } > init.tf    # [win]\n\n    # Initialize\n    - terraform init\n\n    # Tests that init was successful\n    - test -f .terraform/plugins/{{ target_goos }}_{{ target_goarch }}/lock.json              # [unix]\n    - if not exist .terraform\\plugins\\{{ target_goos }}_{{ target_goarch }}\\lock.json exit 1  # [win]\n\n    # Test that the provider was not downloaded\n    - test ! -f .terraform/plugins/{{ target_goos }}_{{ target_goarch }}/{{ x4_plugin }}{{ target_goexe }}        # [unix]\n    - if exist .terraform\\plugins\\{{ target_goos }}_{{ target_goarch }}\\{{ x4_plugin }}{{ target_goexe }} exit 1  # [win]\n\nabout:\n  home: https://github.com/mrparkers/terraform-provider-keycloak\n  license: MIT\n  license_file: LICENSE\n  license_family: MIT\n  summary: Terraform provider for Keycloak.\n  doc_url: https://github.com/mrparkers/terraform-provider-keycloak\n  dev_url: https://github.com/mrparkers/terraform-provider-keycloak\n\nextra:\n  recipe-maintainers:\n    - rluria14\n    - oblute\n    - conda-forge/terraform\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "go_compiler_stub",
+   "terraform"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "go_compiler_stub"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "terraform"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.6.16",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "go_compiler_stub 1.13"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "terraform 0.12"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://github.com/mrparkers/terraform-provider-keycloak/archive/1.17.1.tar.gz",
+ "version":"1.18.0"
+}

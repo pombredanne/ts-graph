@@ -1,0 +1,315 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/338776453.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.7.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "id":"aba33d45-f746-469a-b770-c16cb95b0ada",
+    "merged_at":"never issued",
+    "state":"closed"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"python38"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "id":"c60d00bf-49af-4524-90f4-58ed0da35fba",
+    "merged_at":"never issued",
+    "state":"closed"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"petsc-3.12"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/378730818.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.7.3"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":"Upstream: Error getting upstream version",
+ "conda-forge.yml":{},
+ "feedstock_name":"proteus",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "dev_url":"https://github.com/erdc/proteus",
+   "home":"http://proteustoolkit.org",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"LICENSE.md",
+   "summary":"Proteus is a Python package for rapidly developing computer models and numerical methods."
+  },
+  "build":{
+   "number":"3",
+   "run_exports":[
+    "proteus * mpi_mpich_*",
+    "proteus * mpi_mpich_*",
+    "proteus * mpi_mpich_*"
+   ],
+   "skip":true,
+   "string":"mpi_mpich_h_3"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "davidbrochart",
+    "SylvainCorlay",
+    "martinRenou",
+    "davidbrochart",
+    "SylvainCorlay",
+    "martinRenou",
+    "davidbrochart",
+    "SylvainCorlay",
+    "martinRenou"
+   ]
+  },
+  "package":{
+   "name":"proteus",
+   "version":"1.7.1"
+  },
+  "requirements":{
+   "build":[
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "fortran_compiler_stub",
+    "make",
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "fortran_compiler_stub",
+    "make",
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "fortran_compiler_stub",
+    "make"
+   ],
+   "host":[
+    "setuptools",
+    "cython",
+    "daetk 1.0.1",
+    "hdf5 =*=*mpich*",
+    "metis 5",
+    "mpich",
+    "numpy 1.14",
+    "openblas 0.2",
+    "parmetis 4.0",
+    "petsc4py 3.11",
+    "petsc 3.11",
+    "python 3",
+    "scorec",
+    "superlu 5",
+    "superlu_dist 6",
+    "triangle 1.6",
+    "pychrono",
+    "mpi4py",
+    "setuptools",
+    "cython",
+    "daetk 1.0.1",
+    "hdf5 =*=*mpich*",
+    "metis 5",
+    "mpich",
+    "numpy 1.14",
+    "openblas 0.2",
+    "parmetis 4.0",
+    "petsc4py 3.11",
+    "petsc 3.11",
+    "python 3",
+    "scorec",
+    "superlu 5",
+    "superlu_dist 6",
+    "triangle 1.6",
+    "pychrono",
+    "mpi4py",
+    "setuptools",
+    "cython",
+    "daetk 1.0.1",
+    "hdf5 =*=*mpich*",
+    "metis 5",
+    "mpich",
+    "numpy 1.14",
+    "openblas 0.2",
+    "parmetis 4.0",
+    "petsc4py 3.11",
+    "petsc 3.11",
+    "python 3",
+    "scorec",
+    "superlu 5",
+    "superlu_dist 6",
+    "triangle 1.6",
+    "pychrono",
+    "mpi4py"
+   ],
+   "run":[
+    "matplotlib",
+    "mpi4py",
+    "h5py =*=*mpich*",
+    "nose",
+    "pytables",
+    "pytest",
+    "pytest-xdist",
+    "scipy",
+    "tetgen",
+    "ncurses",
+    "pychrono",
+    "python 3",
+    "future",
+    "ipyparallel",
+    "pillow",
+    "recordtype",
+    "triangle",
+    "compatible_pin_stub",
+    "compatible_pin_stub",
+    "compatible_pin_stub",
+    "matplotlib",
+    "mpi4py",
+    "h5py =*=*mpich*",
+    "nose",
+    "pytables",
+    "pytest",
+    "pytest-xdist",
+    "scipy",
+    "tetgen",
+    "ncurses",
+    "pychrono",
+    "python 3",
+    "future",
+    "ipyparallel",
+    "pillow",
+    "recordtype",
+    "triangle",
+    "compatible_pin_stub",
+    "compatible_pin_stub",
+    "compatible_pin_stub",
+    "matplotlib",
+    "mpi4py",
+    "h5py =*=*mpich*",
+    "nose",
+    "pytables",
+    "pytest",
+    "pytest-xdist",
+    "scipy",
+    "tetgen",
+    "ncurses",
+    "pychrono",
+    "python 3",
+    "future",
+    "ipyparallel",
+    "pillow",
+    "recordtype",
+    "triangle",
+    "compatible_pin_stub",
+    "compatible_pin_stub",
+    "compatible_pin_stub"
+   ]
+  },
+  "source":{
+   "fn":"proteus-1.7.1.tar.gz",
+   "sha256":"fa92cc384a83d6ad9ba3ce52aa4d8f7ed7624c97a597fd9faadfce553af5c9fe",
+   "url":"https://github.com/erdc/proteus/archive/1.7.1.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "proteus",
+    "proteus",
+    "proteus"
+   ]
+  }
+ },
+ "name":"proteus",
+ "new_version":false,
+ "pinning_version":"2020.02.20",
+ "raw_meta_yaml":"{% set name = \"proteus\" %}\n{% set version = \"1.7.3\" %}\n{% set build = 0 %}\n{% set sha256 = \"294b73d68b2a75d804105bc4f667e8db19d15677c9d86cb64d5a73948ecbeaa3\" %}\n\npackage:\n  name: {{ name }}\n  version: {{ version }}\n\nsource:\n  fn: proteus-{{ version }}.tar.gz\n  url: https://github.com/erdc/proteus/archive/{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: {{ build }}\n  skip: True  # [not linux]\n  {% set mpi_prefix = \"mpi_\" + mpi %}\n  string: \"{{ mpi_prefix }}_h{{ PKG_HASH }}_{{ build }}\"\n  run_exports:\n    - {{ name }} * {{ mpi_prefix }}_*\n\nrequirements:\n  build:\n    - {{ compiler('c') }}\n    - {{ compiler('cxx') }}\n    - {{ compiler('fortran') }}\n    - make\n  host:\n    - setuptools\n    - cython\n    - pip\n    - daetk\n    - hdf5 =1.10.5=*mpich*\n    - metis\n    - {{ mpi }}\n    - numpy 1.14\n    - openblas =0.3.7=*_7\n    - parmetis\n    - petsc4py\n    - petsc 3.12\n    - python 3\n    - scorec\n    - superlu\n    - superlu_dist\n    - triangle\n    - pychrono\n    - mpi4py\n    - xtensor-python\n  run:\n    # This is an optional dependency\n    # - gmsh        [not osx]\n    - matplotlib\n    - mpi4py\n    - h5py =*=*mpich*\n    - nose\n    - pytables\n    - pytest\n    - pytest-xdist\n    - scipy\n    - tetgen\n    - ncurses\n    - pychrono\n    - python 3\n    - future\n    - ipyparallel\n    - pillow\n    - recordtype\n    - triangle\n    - {{ pin_compatible('openblas', max_pin='x.x') }}\n    - {{ pin_compatible('petsc4py', max_pin='x.x') }}\n    - {{ pin_compatible('cython', max_pin='x.x') }}\n    - {{ pin_compatible('numpy') }}\n\ntest:\n  imports:\n    - proteus.clapack\n\nabout:\n  home: http://proteustoolkit.org\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE.md\n  summary: Proteus is a Python package for rapidly developing computer models and numerical methods.\n  dev_url: https://github.com/erdc/proteus\n\nextra:\n  recipe-maintainers:\n    - davidbrochart\n    - SylvainCorlay\n    - martinRenou\n    - zhang-alvin\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "c_compiler_stub",
+   "compatible_pin_stub",
+   "cxx_compiler_stub",
+   "cython",
+   "daetk",
+   "fortran_compiler_stub",
+   "future",
+   "h5py",
+   "hdf5",
+   "ipyparallel",
+   "make",
+   "matplotlib",
+   "metis",
+   "mpi4py",
+   "mpich",
+   "ncurses",
+   "nose",
+   "numpy",
+   "openblas",
+   "parmetis",
+   "petsc",
+   "petsc4py",
+   "pillow",
+   "pychrono",
+   "pytables",
+   "pytest",
+   "pytest-xdist",
+   "python",
+   "recordtype",
+   "scipy",
+   "scorec",
+   "setuptools",
+   "superlu",
+   "superlu_dist",
+   "tetgen",
+   "triangle"
+  ]
+ },
+ "smithy_version":"3.6.8",
+ "url":"https://github.com/erdc-cm/proteus/archive/1.7.0.tar.gz",
+ "version":"1.7.1"
+}

@@ -1,0 +1,505 @@
+{
+ "PRed":[
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"6.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/197276664.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Compiler",
+    "migrator_version":0
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/215184979.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/253991909.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"ArchRebuild",
+    "migrator_version":1,
+    "name":"aarch64 and ppc64le addition"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/374219435.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"6.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "compiler_stack":"comp7",
+  "max_py_ver":"37",
+  "max_r_ver":"35",
+  "provider":{
+   "linux_aarch64":"azure",
+   "linux_ppc64le":"azure"
+  }
+ },
+ "feedstock_name":"ncurses",
+ "hash_type":"md5",
+ "meta_yaml":{
+  "about":{
+   "home":"http://www.gnu.org/software/ncurses/",
+   "license":"Free software (MIT-like)",
+   "summary":"Library for text-based user interfaces"
+  },
+  "build":{
+   "detect_binary_files_with_prefix":true,
+   "number":"1002",
+   "skip":true
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "jakirkham",
+    "jakirkham",
+    "jakirkham"
+   ]
+  },
+  "package":{
+   "name":"ncurses",
+   "version":"6.1"
+  },
+  "requirements":{
+   "build":[
+    "pkg-config",
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "pkg-config",
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "make",
+    "pkg-config",
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "make"
+   ],
+   "host":null
+  },
+  "source":{
+   "fn":"ncurses-6.1.tar.gz",
+   "md5":"98c889aaf8d23910d2b92d65be2e737a",
+   "patches":[
+    "ncurses-5.9-gcc-5.patch",
+    "ncurses-5.9-gcc-5.patch",
+    "ncurses-5.9-gcc-5.patch"
+   ],
+   "url":"http://ftp.gnu.org/pub/gnu/ncurses/ncurses-6.1.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "test -f ${PREFIX}/lib/libncurses.a",
+    "test -f ${PREFIX}/lib/libncursesw.a",
+    "test -f ${PREFIX}/lib/libtinfo.a",
+    "test -f ${PREFIX}/lib/libtinfow.a",
+    "test -f ${PREFIX}/lib/libform.a",
+    "test -f ${PREFIX}/lib/libformw.a",
+    "test -f ${PREFIX}/lib/libmenu.a",
+    "test -f ${PREFIX}/lib/libmenuw.a",
+    "test -f ${PREFIX}/lib/libpanel.a",
+    "test -f ${PREFIX}/lib/libpanelw.a",
+    "test -d ${PREFIX}/include/ncurses",
+    "test -d ${PREFIX}/include/ncursesw",
+    "test -L ${PREFIX}/include/ncurses/curses.h",
+    "test -L ${PREFIX}/include/ncursesw/curses.h",
+    "test -f ${PREFIX}/include/curses.h",
+    "test -L ${PREFIX}/include/ncurses/cursesapp.h",
+    "test -L ${PREFIX}/include/ncursesw/cursesapp.h",
+    "test -f ${PREFIX}/include/cursesapp.h",
+    "test -L ${PREFIX}/include/ncurses/cursesf.h",
+    "test -L ${PREFIX}/include/ncursesw/cursesf.h",
+    "test -f ${PREFIX}/include/cursesf.h",
+    "test -L ${PREFIX}/include/ncurses/cursesm.h",
+    "test -L ${PREFIX}/include/ncursesw/cursesm.h",
+    "test -f ${PREFIX}/include/cursesm.h",
+    "test -L ${PREFIX}/include/ncurses/cursesp.h",
+    "test -L ${PREFIX}/include/ncursesw/cursesp.h",
+    "test -f ${PREFIX}/include/cursesp.h",
+    "test -L ${PREFIX}/include/ncurses/cursesw.h",
+    "test -L ${PREFIX}/include/ncursesw/cursesw.h",
+    "test -f ${PREFIX}/include/cursesw.h",
+    "test -L ${PREFIX}/include/ncurses/cursslk.h",
+    "test -L ${PREFIX}/include/ncursesw/cursslk.h",
+    "test -f ${PREFIX}/include/cursslk.h",
+    "test -L ${PREFIX}/include/ncurses/eti.h",
+    "test -L ${PREFIX}/include/ncursesw/eti.h",
+    "test -f ${PREFIX}/include/eti.h",
+    "test -L ${PREFIX}/include/ncurses/etip.h",
+    "test -L ${PREFIX}/include/ncursesw/etip.h",
+    "test -f ${PREFIX}/include/etip.h",
+    "test -L ${PREFIX}/include/ncurses/form.h",
+    "test -L ${PREFIX}/include/ncursesw/form.h",
+    "test -f ${PREFIX}/include/form.h",
+    "test -L ${PREFIX}/include/ncurses/menu.h",
+    "test -L ${PREFIX}/include/ncursesw/menu.h",
+    "test -f ${PREFIX}/include/menu.h",
+    "test -L ${PREFIX}/include/ncurses/nc_tparm.h",
+    "test -L ${PREFIX}/include/ncursesw/nc_tparm.h",
+    "test -f ${PREFIX}/include/nc_tparm.h",
+    "test -L ${PREFIX}/include/ncurses/ncurses.h",
+    "test -L ${PREFIX}/include/ncursesw/ncurses.h",
+    "test -f ${PREFIX}/include/ncurses.h",
+    "test -L ${PREFIX}/include/ncurses/ncurses_dll.h",
+    "test -L ${PREFIX}/include/ncursesw/ncurses_dll.h",
+    "test -f ${PREFIX}/include/ncurses_dll.h",
+    "test -L ${PREFIX}/include/ncurses/panel.h",
+    "test -L ${PREFIX}/include/ncursesw/panel.h",
+    "test -f ${PREFIX}/include/panel.h",
+    "test -L ${PREFIX}/include/ncurses/term.h",
+    "test -L ${PREFIX}/include/ncursesw/term.h",
+    "test -f ${PREFIX}/include/term.h",
+    "test -L ${PREFIX}/include/ncurses/term_entry.h",
+    "test -L ${PREFIX}/include/ncursesw/term_entry.h",
+    "test -f ${PREFIX}/include/term_entry.h",
+    "test -L ${PREFIX}/include/ncurses/termcap.h",
+    "test -L ${PREFIX}/include/ncursesw/termcap.h",
+    "test -f ${PREFIX}/include/termcap.h",
+    "test -L ${PREFIX}/include/ncurses/tic.h",
+    "test -L ${PREFIX}/include/ncursesw/tic.h",
+    "test -f ${PREFIX}/include/tic.h",
+    "test -L ${PREFIX}/include/ncurses/unctrl.h",
+    "test -L ${PREFIX}/include/ncursesw/unctrl.h",
+    "test -f ${PREFIX}/include/unctrl.h",
+    "test -f ${PREFIX}/lib/pkgconfig/form.pc",
+    "test -f ${PREFIX}/lib/pkgconfig/formw.pc",
+    "test -f ${PREFIX}/lib/pkgconfig/menu.pc",
+    "test -f ${PREFIX}/lib/pkgconfig/menuw.pc",
+    "test -f ${PREFIX}/lib/pkgconfig/ncurses++.pc",
+    "test -f ${PREFIX}/lib/pkgconfig/ncurses++w.pc",
+    "test -f ${PREFIX}/lib/pkgconfig/ncurses.pc",
+    "test -f ${PREFIX}/lib/pkgconfig/ncursesw.pc",
+    "test -f ${PREFIX}/lib/pkgconfig/panel.pc",
+    "test -f ${PREFIX}/lib/pkgconfig/panelw.pc",
+    "test -f ${PREFIX}/lib/pkgconfig/tinfo.pc",
+    "test -f ${PREFIX}/lib/pkgconfig/tinfow.pc",
+    "pkg-config ncurses --libs | grep \"^-L${PREFIX}/lib .*-lncurses -ltinfo$\"",
+    "pkg-config tinfo --libs | grep \"^-L${PREFIX}/lib .*-ltinfo$\"",
+    "pkg-config ncursesw --libs | grep \"^-L${PREFIX}/lib .*-lncursesw -ltinfow$\"",
+    "pkg-config tinfow --libs | grep \"^-L${PREFIX}/lib .*-ltinfow$\"",
+    "test -f ${PREFIX}/lib/libncurses.a",
+    "test -f ${PREFIX}/lib/libncursesw.a",
+    "test -f ${PREFIX}/lib/libncurses.dylib",
+    "test -f ${PREFIX}/lib/libncursesw.dylib",
+    "test -f ${PREFIX}/lib/libtinfo.a",
+    "test -f ${PREFIX}/lib/libtinfow.a",
+    "test -f ${PREFIX}/lib/libtinfo.dylib",
+    "test -f ${PREFIX}/lib/libtinfow.dylib",
+    "test -f ${PREFIX}/lib/libform.a",
+    "test -f ${PREFIX}/lib/libformw.a",
+    "test -f ${PREFIX}/lib/libform.dylib",
+    "test -f ${PREFIX}/lib/libformw.dylib",
+    "test -f ${PREFIX}/lib/libmenu.a",
+    "test -f ${PREFIX}/lib/libmenuw.a",
+    "test -f ${PREFIX}/lib/libmenu.dylib",
+    "test -f ${PREFIX}/lib/libmenuw.dylib",
+    "test -f ${PREFIX}/lib/libpanel.a",
+    "test -f ${PREFIX}/lib/libpanelw.a",
+    "test -f ${PREFIX}/lib/libpanel.dylib",
+    "test -f ${PREFIX}/lib/libpanelw.dylib",
+    "test -d ${PREFIX}/include/ncurses",
+    "test -d ${PREFIX}/include/ncursesw",
+    "test -L ${PREFIX}/include/ncurses/curses.h",
+    "test -L ${PREFIX}/include/ncursesw/curses.h",
+    "test -f ${PREFIX}/include/curses.h",
+    "test -L ${PREFIX}/include/ncurses/cursesapp.h",
+    "test -L ${PREFIX}/include/ncursesw/cursesapp.h",
+    "test -f ${PREFIX}/include/cursesapp.h",
+    "test -L ${PREFIX}/include/ncurses/cursesf.h",
+    "test -L ${PREFIX}/include/ncursesw/cursesf.h",
+    "test -f ${PREFIX}/include/cursesf.h",
+    "test -L ${PREFIX}/include/ncurses/cursesm.h",
+    "test -L ${PREFIX}/include/ncursesw/cursesm.h",
+    "test -f ${PREFIX}/include/cursesm.h",
+    "test -L ${PREFIX}/include/ncurses/cursesp.h",
+    "test -L ${PREFIX}/include/ncursesw/cursesp.h",
+    "test -f ${PREFIX}/include/cursesp.h",
+    "test -L ${PREFIX}/include/ncurses/cursesw.h",
+    "test -L ${PREFIX}/include/ncursesw/cursesw.h",
+    "test -f ${PREFIX}/include/cursesw.h",
+    "test -L ${PREFIX}/include/ncurses/cursslk.h",
+    "test -L ${PREFIX}/include/ncursesw/cursslk.h",
+    "test -f ${PREFIX}/include/cursslk.h",
+    "test -L ${PREFIX}/include/ncurses/eti.h",
+    "test -L ${PREFIX}/include/ncursesw/eti.h",
+    "test -f ${PREFIX}/include/eti.h",
+    "test -L ${PREFIX}/include/ncurses/etip.h",
+    "test -L ${PREFIX}/include/ncursesw/etip.h",
+    "test -f ${PREFIX}/include/etip.h",
+    "test -L ${PREFIX}/include/ncurses/form.h",
+    "test -L ${PREFIX}/include/ncursesw/form.h",
+    "test -f ${PREFIX}/include/form.h",
+    "test -L ${PREFIX}/include/ncurses/menu.h",
+    "test -L ${PREFIX}/include/ncursesw/menu.h",
+    "test -f ${PREFIX}/include/menu.h",
+    "test -L ${PREFIX}/include/ncurses/nc_tparm.h",
+    "test -L ${PREFIX}/include/ncursesw/nc_tparm.h",
+    "test -f ${PREFIX}/include/nc_tparm.h",
+    "test -L ${PREFIX}/include/ncurses/ncurses.h",
+    "test -L ${PREFIX}/include/ncursesw/ncurses.h",
+    "test -f ${PREFIX}/include/ncurses.h",
+    "test -L ${PREFIX}/include/ncurses/ncurses_dll.h",
+    "test -L ${PREFIX}/include/ncursesw/ncurses_dll.h",
+    "test -f ${PREFIX}/include/ncurses_dll.h",
+    "test -L ${PREFIX}/include/ncurses/panel.h",
+    "test -L ${PREFIX}/include/ncursesw/panel.h",
+    "test -f ${PREFIX}/include/panel.h",
+    "test -L ${PREFIX}/include/ncurses/term.h",
+    "test -L ${PREFIX}/include/ncursesw/term.h",
+    "test -f ${PREFIX}/include/term.h",
+    "test -L ${PREFIX}/include/ncurses/term_entry.h",
+    "test -L ${PREFIX}/include/ncursesw/term_entry.h",
+    "test -f ${PREFIX}/include/term_entry.h",
+    "test -L ${PREFIX}/include/ncurses/termcap.h",
+    "test -L ${PREFIX}/include/ncursesw/termcap.h",
+    "test -f ${PREFIX}/include/termcap.h",
+    "test -L ${PREFIX}/include/ncurses/tic.h",
+    "test -L ${PREFIX}/include/ncursesw/tic.h",
+    "test -f ${PREFIX}/include/tic.h",
+    "test -L ${PREFIX}/include/ncurses/unctrl.h",
+    "test -L ${PREFIX}/include/ncursesw/unctrl.h",
+    "test -f ${PREFIX}/include/unctrl.h",
+    "test -f ${PREFIX}/lib/pkgconfig/form.pc",
+    "test -f ${PREFIX}/lib/pkgconfig/formw.pc",
+    "test -f ${PREFIX}/lib/pkgconfig/menu.pc",
+    "test -f ${PREFIX}/lib/pkgconfig/menuw.pc",
+    "test -f ${PREFIX}/lib/pkgconfig/ncurses++.pc",
+    "test -f ${PREFIX}/lib/pkgconfig/ncurses++w.pc",
+    "test -f ${PREFIX}/lib/pkgconfig/ncurses.pc",
+    "test -f ${PREFIX}/lib/pkgconfig/ncursesw.pc",
+    "test -f ${PREFIX}/lib/pkgconfig/panel.pc",
+    "test -f ${PREFIX}/lib/pkgconfig/panelw.pc",
+    "test -f ${PREFIX}/lib/pkgconfig/tinfo.pc",
+    "test -f ${PREFIX}/lib/pkgconfig/tinfow.pc",
+    "pkg-config ncurses --libs | grep \"^-L${PREFIX}/lib .*-lncurses -ltinfo$\"",
+    "pkg-config tinfo --libs | grep \"^-L${PREFIX}/lib .*-ltinfo$\"",
+    "pkg-config ncursesw --libs | grep \"^-L${PREFIX}/lib .*-lncursesw -ltinfow$\"",
+    "pkg-config tinfow --libs | grep \"^-L${PREFIX}/lib .*-ltinfow$\"",
+    "test -f ${PREFIX}/lib/libncurses.a",
+    "test -f ${PREFIX}/lib/libncursesw.a",
+    "test -f ${PREFIX}/lib/libncurses.so",
+    "test -f ${PREFIX}/lib/libncursesw.so",
+    "test -f ${PREFIX}/lib/libtinfo.a",
+    "test -f ${PREFIX}/lib/libtinfow.a",
+    "test -f ${PREFIX}/lib/libtinfo.so",
+    "test -f ${PREFIX}/lib/libtinfow.so",
+    "test -f ${PREFIX}/lib/libform.a",
+    "test -f ${PREFIX}/lib/libformw.a",
+    "test -f ${PREFIX}/lib/libform.so",
+    "test -f ${PREFIX}/lib/libformw.so",
+    "test -f ${PREFIX}/lib/libmenu.a",
+    "test -f ${PREFIX}/lib/libmenuw.a",
+    "test -f ${PREFIX}/lib/libmenu.so",
+    "test -f ${PREFIX}/lib/libmenuw.so",
+    "test -f ${PREFIX}/lib/libpanel.a",
+    "test -f ${PREFIX}/lib/libpanelw.a",
+    "test -f ${PREFIX}/lib/libpanel.so",
+    "test -f ${PREFIX}/lib/libpanelw.so",
+    "test -d ${PREFIX}/include/ncurses",
+    "test -d ${PREFIX}/include/ncursesw",
+    "test -L ${PREFIX}/include/ncurses/curses.h",
+    "test -L ${PREFIX}/include/ncursesw/curses.h",
+    "test -f ${PREFIX}/include/curses.h",
+    "test -L ${PREFIX}/include/ncurses/cursesapp.h",
+    "test -L ${PREFIX}/include/ncursesw/cursesapp.h",
+    "test -f ${PREFIX}/include/cursesapp.h",
+    "test -L ${PREFIX}/include/ncurses/cursesf.h",
+    "test -L ${PREFIX}/include/ncursesw/cursesf.h",
+    "test -f ${PREFIX}/include/cursesf.h",
+    "test -L ${PREFIX}/include/ncurses/cursesm.h",
+    "test -L ${PREFIX}/include/ncursesw/cursesm.h",
+    "test -f ${PREFIX}/include/cursesm.h",
+    "test -L ${PREFIX}/include/ncurses/cursesp.h",
+    "test -L ${PREFIX}/include/ncursesw/cursesp.h",
+    "test -f ${PREFIX}/include/cursesp.h",
+    "test -L ${PREFIX}/include/ncurses/cursesw.h",
+    "test -L ${PREFIX}/include/ncursesw/cursesw.h",
+    "test -f ${PREFIX}/include/cursesw.h",
+    "test -L ${PREFIX}/include/ncurses/cursslk.h",
+    "test -L ${PREFIX}/include/ncursesw/cursslk.h",
+    "test -f ${PREFIX}/include/cursslk.h",
+    "test -L ${PREFIX}/include/ncurses/eti.h",
+    "test -L ${PREFIX}/include/ncursesw/eti.h",
+    "test -f ${PREFIX}/include/eti.h",
+    "test -L ${PREFIX}/include/ncurses/etip.h",
+    "test -L ${PREFIX}/include/ncursesw/etip.h",
+    "test -f ${PREFIX}/include/etip.h",
+    "test -L ${PREFIX}/include/ncurses/form.h",
+    "test -L ${PREFIX}/include/ncursesw/form.h",
+    "test -f ${PREFIX}/include/form.h",
+    "test -L ${PREFIX}/include/ncurses/menu.h",
+    "test -L ${PREFIX}/include/ncursesw/menu.h",
+    "test -f ${PREFIX}/include/menu.h",
+    "test -L ${PREFIX}/include/ncurses/nc_tparm.h",
+    "test -L ${PREFIX}/include/ncursesw/nc_tparm.h",
+    "test -f ${PREFIX}/include/nc_tparm.h",
+    "test -L ${PREFIX}/include/ncurses/ncurses.h",
+    "test -L ${PREFIX}/include/ncursesw/ncurses.h",
+    "test -f ${PREFIX}/include/ncurses.h",
+    "test -L ${PREFIX}/include/ncurses/ncurses_dll.h",
+    "test -L ${PREFIX}/include/ncursesw/ncurses_dll.h",
+    "test -f ${PREFIX}/include/ncurses_dll.h",
+    "test -L ${PREFIX}/include/ncurses/panel.h",
+    "test -L ${PREFIX}/include/ncursesw/panel.h",
+    "test -f ${PREFIX}/include/panel.h",
+    "test -L ${PREFIX}/include/ncurses/term.h",
+    "test -L ${PREFIX}/include/ncursesw/term.h",
+    "test -f ${PREFIX}/include/term.h",
+    "test -L ${PREFIX}/include/ncurses/term_entry.h",
+    "test -L ${PREFIX}/include/ncursesw/term_entry.h",
+    "test -f ${PREFIX}/include/term_entry.h",
+    "test -L ${PREFIX}/include/ncurses/termcap.h",
+    "test -L ${PREFIX}/include/ncursesw/termcap.h",
+    "test -f ${PREFIX}/include/termcap.h",
+    "test -L ${PREFIX}/include/ncurses/tic.h",
+    "test -L ${PREFIX}/include/ncursesw/tic.h",
+    "test -f ${PREFIX}/include/tic.h",
+    "test -L ${PREFIX}/include/ncurses/unctrl.h",
+    "test -L ${PREFIX}/include/ncursesw/unctrl.h",
+    "test -f ${PREFIX}/include/unctrl.h",
+    "test -f ${PREFIX}/lib/pkgconfig/form.pc",
+    "test -f ${PREFIX}/lib/pkgconfig/formw.pc",
+    "test -f ${PREFIX}/lib/pkgconfig/menu.pc",
+    "test -f ${PREFIX}/lib/pkgconfig/menuw.pc",
+    "test -f ${PREFIX}/lib/pkgconfig/ncurses++.pc",
+    "test -f ${PREFIX}/lib/pkgconfig/ncurses++w.pc",
+    "test -f ${PREFIX}/lib/pkgconfig/ncurses.pc",
+    "test -f ${PREFIX}/lib/pkgconfig/ncursesw.pc",
+    "test -f ${PREFIX}/lib/pkgconfig/panel.pc",
+    "test -f ${PREFIX}/lib/pkgconfig/panelw.pc",
+    "test -f ${PREFIX}/lib/pkgconfig/tinfo.pc",
+    "test -f ${PREFIX}/lib/pkgconfig/tinfow.pc",
+    "pkg-config ncurses --libs | grep \"^-L${PREFIX}/lib .*-lncurses -ltinfo$\"",
+    "pkg-config tinfo --libs | grep \"^-L${PREFIX}/lib .*-ltinfo$\"",
+    "pkg-config ncursesw --libs | grep \"^-L${PREFIX}/lib .*-lncursesw -ltinfow$\"",
+    "pkg-config tinfow --libs | grep \"^-L${PREFIX}/lib .*-ltinfow$\""
+   ],
+   "requires":[
+    "pkg-config",
+    "pkg-config",
+    "pkg-config"
+   ]
+  }
+ },
+ "name":"ncurses",
+ "new_version":"6.2",
+ "pinning_version":"2020.01.28",
+ "raw_meta_yaml":"{% set version = \"6.1\" %}\n\npackage:\n  name: ncurses\n  version: {{ version }}\n\nsource:\n  fn: ncurses-{{ version }}.tar.gz\n  url: http://ftp.gnu.org/pub/gnu/ncurses/ncurses-{{ version }}.tar.gz\n  md5: 98c889aaf8d23910d2b92d65be2e737a\n  patches:\n    # http://lists.gnu.org/archive/html/bug-ncurses/2015-01/msg00016.html\n    - ncurses-5.9-gcc-5.patch\n\nbuild:\n  skip: true  # [win]\n  number: 1002\n  detect_binary_files_with_prefix: true\n\nrequirements:\n  build:\n    - pkg-config\n    - {{ compiler('c') }}\n    - {{ compiler('cxx') }}\n    - make  # [unix]\n  host:\n\ntest:\n  requires:\n    - pkg-config\n  # files:\n    # - run_test.sh         # [osx]\n    # Python test will not pass until it is recompiled against ncurses 6.1\n    # - run_test.py         # [osx]\n  commands:\n    # Test libraries\n    {% set ncurses_libraries = [\n        \"libncurses\",\n        \"libtinfo\",\n        \"libform\",\n        \"libmenu\",\n        \"libpanel\",\n    ] %}\n    {% for each_ncurses_library in ncurses_libraries %}\n    - test -f ${PREFIX}/lib/{{ each_ncurses_library }}.a\n    - test -f ${PREFIX}/lib/{{ each_ncurses_library }}w.a\n    - test -f ${PREFIX}/lib/{{ each_ncurses_library }}.dylib    # [osx]\n    - test -f ${PREFIX}/lib/{{ each_ncurses_library }}w.dylib   # [osx]\n    - test -f ${PREFIX}/lib/{{ each_ncurses_library }}.so       # [linux]\n    - test -f ${PREFIX}/lib/{{ each_ncurses_library }}w.so      # [linux]\n    {% endfor %}\n\n    # Test include directories\n    - test -d ${PREFIX}/include/ncurses\n    - test -d ${PREFIX}/include/ncursesw\n\n    # Test headers\n    {% set ncurses_headers = [\n        \"curses.h\",\n        \"cursesapp.h\",\n        \"cursesf.h\",\n        \"cursesm.h\",\n        \"cursesp.h\",\n        \"cursesw.h\",\n        \"cursslk.h\",\n        \"eti.h\",\n        \"etip.h\",\n        \"form.h\",\n        \"menu.h\",\n        \"nc_tparm.h\",\n        \"ncurses.h\",\n        \"ncurses_dll.h\",\n        \"panel.h\",\n        \"term.h\",\n        \"term_entry.h\",\n        \"termcap.h\",\n        \"tic.h\",\n        \"unctrl.h\"\n    ] %}\n    {% for each_ncurses_header in ncurses_headers %}\n    - test -L ${PREFIX}/include/ncurses/{{ each_ncurses_header }}\n    - test -L ${PREFIX}/include/ncursesw/{{ each_ncurses_header }}\n    - test -f ${PREFIX}/include/{{ each_ncurses_header }}\n    {% endfor %}\n\n    # Test pkg-config files\n    {% set ncurses_pc_files = [\n        \"form\",\n        \"menu\",\n        \"ncurses++\",\n        \"ncurses\",\n        \"panel\",\n        \"tinfo\"\n    ] %}\n    {% for each_ncurses_pc_file in ncurses_pc_files %}\n    - test -f ${PREFIX}/lib/pkgconfig/{{ each_ncurses_pc_file }}.pc\n    - test -f ${PREFIX}/lib/pkgconfig/{{ each_ncurses_pc_file }}w.pc\n    {% endfor %}\n\n    # Test ncurses library arguments.\n    - pkg-config ncurses --libs | grep \"^-L${PREFIX}/lib .*-lncurses -ltinfo$\"\n    - pkg-config tinfo --libs | grep \"^-L${PREFIX}/lib .*-ltinfo$\"\n    - pkg-config ncursesw --libs | grep \"^-L${PREFIX}/lib .*-lncursesw -ltinfow$\"\n    - pkg-config tinfow --libs | grep \"^-L${PREFIX}/lib .*-ltinfow$\"\n\n    # Usage tests\n    # - bash run_test.sh    # [osx]\n    # Python test will not pass until it is recompiled against ncurses 6.1\n    # - python run_test.py  # [osx]\n\nabout:\n  home: http://www.gnu.org/software/ncurses/\n  license: Free software (MIT-like)\n  summary: Library for text-based user interfaces\n\nextra:\n  recipe-maintainers:\n    - jakirkham\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "c_compiler_stub",
+   "cxx_compiler_stub",
+   "make",
+   "pkg-config"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "make",
+    "pkg-config"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "pkg-config"
+   ]
+  }
+ },
+ "smithy_version":"3.6.8",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "make",
+    "pkg-config"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "pkg-config"
+   ]
+  }
+ },
+ "url":"http://ftp.gnu.org/pub/gnu/ncurses/ncurses-6.1.tar.gz",
+ "version":"6.1"
+}

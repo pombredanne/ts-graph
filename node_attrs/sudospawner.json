@@ -1,0 +1,186 @@
+{
+ "PRed":[
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.5.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/196598461.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.5.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/229725981.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "compiler_stack":"comp7",
+  "max_py_ver":"37",
+  "max_r_ver":"35"
+ },
+ "feedstock_name":"sudospawner",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"https://github.com/jupyterhub/sudospawner",
+   "license":"BSD-3-Clause",
+   "license_file":"LICENSE",
+   "summary":"Enables JupyterHub to spawn single-user notebook servers without being root"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"1",
+   "script":"pip install --no-deps ."
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "minrk",
+    "parente",
+    "minrk",
+    "parente",
+    "minrk",
+    "parente"
+   ]
+  },
+  "package":{
+   "name":"sudospawner",
+   "version":"0.5.2"
+  },
+  "requirements":{
+   "build":[
+    "python >=3.5",
+    "pip",
+    "python >=3.5",
+    "pip",
+    "python >=3.5",
+    "pip"
+   ],
+   "run":[
+    "python >=3.5",
+    "jupyterhub >=0.4",
+    "python >=3.5",
+    "jupyterhub >=0.4",
+    "python >=3.5",
+    "jupyterhub >=0.4"
+   ]
+  },
+  "source":{
+   "fn":"sudospawner-0.5.2.tar.gz",
+   "sha256":"5dbddd8164e05e4bb3a31eeb1a5baf5a5c6268f1cd14b3f063cde609b8bfbbe1",
+   "url":"https://pypi.io/packages/source/s/sudospawner/sudospawner-0.5.2.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "test -f $PREFIX/bin/sudospawner",
+    "test -f $PREFIX/bin/sudospawner",
+    "test -f $PREFIX/bin/sudospawner"
+   ],
+   "imports":[
+    "sudospawner",
+    "sudospawner",
+    "sudospawner"
+   ]
+  }
+ },
+ "name":"sudospawner",
+ "new_version":"0.5.2",
+ "pinning_version":"2018.11.3",
+ "raw_meta_yaml":"{% set version = \"0.5.2\" %}\n\npackage:\n  name: sudospawner\n  version: {{ version }}\n\nsource:\n  fn: sudospawner-{{ version }}.tar.gz\n  url: https://pypi.io/packages/source/s/sudospawner/sudospawner-{{ version }}.tar.gz\n  sha256: 5dbddd8164e05e4bb3a31eeb1a5baf5a5c6268f1cd14b3f063cde609b8bfbbe1\n\nbuild:\n  number: 1\n  script: pip install --no-deps .\n  noarch: python\n\nrequirements:\n  build:\n    - python >=3.5\n    - pip\n  run:\n    - python >=3.5\n    - jupyterhub >=0.4\n\ntest:\n  imports:\n    - sudospawner\n  commands:\n    - test -f $PREFIX/bin/sudospawner\n\nabout:\n  home: https://github.com/jupyterhub/sudospawner\n  license: BSD-3-Clause\n  license_file: LICENSE\n  summary: Enables JupyterHub to spawn single-user notebook servers without being root\n\nextra:\n  recipe-maintainers:\n    - minrk\n    - parente\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "jupyterhub",
+   "pip",
+   "python"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "jupyterhub",
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.1.12",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3.5"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "jupyterhub >=0.4",
+    "python >=3.5"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/s/sudospawner/sudospawner-0.5.2.tar.gz",
+ "version":"0.5.2"
+}

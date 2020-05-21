@@ -1,0 +1,644 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/207803897.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.6.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/219126197.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.7.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/226183845.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.8.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/238534362.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.9.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.10.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/257483163.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.11.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/273670957.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.12.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/285152286.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.13.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/303523842.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.14.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/310166490.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.15.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/325499437.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.16.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/353852396.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"python38"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/359754735.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.17.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/366549805.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.18.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/370509673.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.19.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/403973384.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.20.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"apache-beam",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"Apache Beam is an open source, unified model for defining both batch\nand streaming data-parallel processing pipelines. Using one of the open\nsource Beam SDKs, you build a program that defines the pipeline. The\npipeline is then executed by one of Beam\u2019s supported distributed\nprocessing back-ends, which include Apache Apex, Apache Flink, Apache\nSpark, and Google Cloud Dataflow.\n",
+   "dev_url":"https://github.com/apache/beam",
+   "doc_url":"https://beam.apache.org/documentation/",
+   "home":"https://beam.apache.org",
+   "license":"Apache 2.0",
+   "license_family":"Apache",
+   "license_file":"LICENSE",
+   "summary":"Apache Beam: An advanced unified programming model"
+  },
+  "build":{
+   "number":"0",
+   "script":"-m pip install . --no-deps -vv",
+   "skip":true
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "sodre",
+    "aaltay",
+    "sodre",
+    "aaltay",
+    "sodre",
+    "aaltay"
+   ]
+  },
+  "package":{
+   "name":"apache-beam",
+   "version":"2.18.0"
+  },
+  "requirements":{
+   "build":[
+    "c_compiler_stub",
+    "c_compiler_stub",
+    "c_compiler_stub"
+   ],
+   "host":[
+    "python",
+    "cython",
+    "pip",
+    "python",
+    "cython",
+    "pip",
+    "python",
+    "cython",
+    "pip"
+   ],
+   "run":[
+    "python",
+    "cython >=0.23",
+    "python-avro >=1.8.1,<2.0.0",
+    "crcmod >=1.7,<2.0",
+    "dill >=0.3.1.1,<0.3.2",
+    "fastavro >=0.21.4,<0.22",
+    "pyarrow >=0.15.1,<0.16.0",
+    "grpcio >=1.12.1,<2",
+    "python-hdfs >=2.1.0,<3.0.0",
+    "httplib2 >=0.8,<=0.12.0",
+    "mock >=1.0.1,<3.0.0",
+    "oauth2client >=2.0.1,<5",
+    "protobuf >=3.5.0.post1,<4",
+    "pydot >=1.2.0,<2",
+    "python-dateutil >=2.8.0,<3",
+    "pymongo >=3.8.0,<4.0.0",
+    "pytz >=2018.3",
+    "pyyaml >=3.12,<6.0.0",
+    "python-dateutil >=2.8.0,<3",
+    "six >=1.9,<1.12",
+    "future >=0.16.0,<1.0.0",
+    "python",
+    "cython >=0.23",
+    "python-avro >=1.8.1,<2.0.0",
+    "crcmod >=1.7,<2.0",
+    "dill >=0.3.1.1,<0.3.2",
+    "fastavro >=0.21.4,<0.22",
+    "pyarrow >=0.15.1,<0.16.0",
+    "grpcio >=1.12.1,<2",
+    "python-hdfs >=2.1.0,<3.0.0",
+    "httplib2 >=0.8,<=0.12.0",
+    "mock >=1.0.1,<3.0.0",
+    "oauth2client >=2.0.1,<5",
+    "protobuf >=3.5.0.post1,<4",
+    "pydot >=1.2.0,<2",
+    "python-dateutil >=2.8.0,<3",
+    "pymongo >=3.8.0,<4.0.0",
+    "pytz >=2018.3",
+    "pyyaml >=3.12,<6.0.0",
+    "python-dateutil >=2.8.0,<3",
+    "six >=1.9,<1.12",
+    "future >=0.16.0,<1.0.0",
+    "python",
+    "cython >=0.23",
+    "python-avro >=1.8.1,<2.0.0",
+    "crcmod >=1.7,<2.0",
+    "dill >=0.3.1.1,<0.3.2",
+    "fastavro >=0.21.4,<0.22",
+    "pyarrow >=0.15.1,<0.16.0",
+    "grpcio >=1.12.1,<2",
+    "python-hdfs >=2.1.0,<3.0.0",
+    "httplib2 >=0.8,<=0.12.0",
+    "mock >=1.0.1,<3.0.0",
+    "oauth2client >=2.0.1,<5",
+    "protobuf >=3.5.0.post1,<4",
+    "pydot >=1.2.0,<2",
+    "python-dateutil >=2.8.0,<3",
+    "pymongo >=3.8.0,<4.0.0",
+    "pytz >=2018.3",
+    "pyyaml >=3.12,<6.0.0",
+    "python-dateutil >=2.8.0,<3",
+    "six >=1.9,<1.12",
+    "future >=0.16.0,<1.0.0"
+   ]
+  },
+  "source":{
+   "sha256":"f506a2a43cac26d7a737568723a091d46b4837d093a25831f9245f6c0534171b",
+   "url":"https://pypi.io/packages/source/a/apache-beam/apache-beam-2.18.0.zip"
+  },
+  "test":{
+   "imports":[
+    "apache_beam",
+    "apache_beam.coders",
+    "apache_beam.examples.complete.game",
+    "apache_beam.examples.complete.juliaset",
+    "apache_beam.examples.complete.juliaset.juliaset",
+    "apache_beam.examples.cookbook",
+    "apache_beam.examples.flink",
+    "apache_beam.examples.snippets",
+    "apache_beam.internal",
+    "apache_beam.internal.gcp",
+    "apache_beam.io",
+    "apache_beam.io.flink",
+    "apache_beam.io.gcp",
+    "apache_beam.io.gcp.datastore",
+    "apache_beam.io.gcp.internal",
+    "apache_beam.io.gcp.tests",
+    "apache_beam.metrics",
+    "apache_beam.options",
+    "apache_beam.portability",
+    "apache_beam.portability.api",
+    "apache_beam.runners",
+    "apache_beam.runners.dataflow",
+    "apache_beam.runners.direct",
+    "apache_beam.runners.interactive",
+    "apache_beam.runners.interactive.display",
+    "apache_beam.runners.job",
+    "apache_beam.runners.portability",
+    "apache_beam.runners.test",
+    "apache_beam.runners.worker",
+    "apache_beam.testing",
+    "apache_beam.testing.benchmarks",
+    "apache_beam.testing.benchmarks.nexmark",
+    "apache_beam.testing.benchmarks.nexmark.models",
+    "apache_beam.testing.benchmarks.nexmark.queries",
+    "apache_beam.tools",
+    "apache_beam.transforms",
+    "apache_beam.typehints",
+    "apache_beam.utils",
+    "apache_beam",
+    "apache_beam.coders",
+    "apache_beam.examples.complete.game",
+    "apache_beam.examples.complete.juliaset",
+    "apache_beam.examples.complete.juliaset.juliaset",
+    "apache_beam.examples.cookbook",
+    "apache_beam.examples.flink",
+    "apache_beam.examples.snippets",
+    "apache_beam.internal",
+    "apache_beam.internal.gcp",
+    "apache_beam.io",
+    "apache_beam.io.flink",
+    "apache_beam.io.gcp",
+    "apache_beam.io.gcp.datastore",
+    "apache_beam.io.gcp.internal",
+    "apache_beam.io.gcp.tests",
+    "apache_beam.metrics",
+    "apache_beam.options",
+    "apache_beam.portability",
+    "apache_beam.portability.api",
+    "apache_beam.runners",
+    "apache_beam.runners.dataflow",
+    "apache_beam.runners.direct",
+    "apache_beam.runners.interactive",
+    "apache_beam.runners.interactive.display",
+    "apache_beam.runners.job",
+    "apache_beam.runners.portability",
+    "apache_beam.runners.test",
+    "apache_beam.runners.worker",
+    "apache_beam.testing",
+    "apache_beam.testing.benchmarks",
+    "apache_beam.testing.benchmarks.nexmark",
+    "apache_beam.testing.benchmarks.nexmark.models",
+    "apache_beam.testing.benchmarks.nexmark.queries",
+    "apache_beam.tools",
+    "apache_beam.transforms",
+    "apache_beam.typehints",
+    "apache_beam.utils",
+    "apache_beam",
+    "apache_beam.coders",
+    "apache_beam.examples.complete.game",
+    "apache_beam.examples.complete.juliaset",
+    "apache_beam.examples.complete.juliaset.juliaset",
+    "apache_beam.examples.cookbook",
+    "apache_beam.examples.flink",
+    "apache_beam.examples.snippets",
+    "apache_beam.internal",
+    "apache_beam.internal.gcp",
+    "apache_beam.io",
+    "apache_beam.io.flink",
+    "apache_beam.io.gcp",
+    "apache_beam.io.gcp.datastore",
+    "apache_beam.io.gcp.internal",
+    "apache_beam.io.gcp.tests",
+    "apache_beam.metrics",
+    "apache_beam.options",
+    "apache_beam.portability",
+    "apache_beam.portability.api",
+    "apache_beam.runners",
+    "apache_beam.runners.dataflow",
+    "apache_beam.runners.direct",
+    "apache_beam.runners.interactive",
+    "apache_beam.runners.interactive.display",
+    "apache_beam.runners.job",
+    "apache_beam.runners.portability",
+    "apache_beam.runners.test",
+    "apache_beam.runners.worker",
+    "apache_beam.testing",
+    "apache_beam.testing.benchmarks",
+    "apache_beam.testing.benchmarks.nexmark",
+    "apache_beam.testing.benchmarks.nexmark.models",
+    "apache_beam.testing.benchmarks.nexmark.queries",
+    "apache_beam.tools",
+    "apache_beam.transforms",
+    "apache_beam.typehints",
+    "apache_beam.utils"
+   ]
+  }
+ },
+ "name":"apache-beam",
+ "new_version":"2.20.0",
+ "new_version_attempts":{
+  "2.20.0":1
+ },
+ "new_version_errors":{},
+ "pinning_version":"2020.04.15.00.37.28",
+ "raw_meta_yaml":"{% set name = \"apache-beam\" %}\n{% set version = \"2.18.0\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.zip\n  sha256: f506a2a43cac26d7a737568723a091d46b4837d093a25831f9245f6c0534171b\n\nbuild:\n  number: 0\n  skip: True  # [win]\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  build:\n    - {{ compiler('c') }}\n  host:\n    - python\n    - cython\n    - pip\n  run:\n    - python\n    - cython >=0.23\n    - python-avro >=1.8.1,<2.0.0\n    - crcmod >=1.7,<2.0\n    - dill >=0.3.1.1,<0.3.2\n    - fastavro >=0.21.4,<0.22\n    - funcsigs >=1.0.2,<2  # [py<3]\n    - pyarrow >=0.15.1,<0.16.0\n    - grpcio >=1.12.1,<2\n    - python-hdfs >=2.1.0,<3.0.0\n    - httplib2 >=0.8,<=0.12.0\n    - mock >=1.0.1,<3.0.0\n    - oauth2client >=2.0.1,<5\n    - protobuf >=3.5.0.post1,<4\n    - pydot >=1.2.0,<2\n    - python-dateutil >=2.8.0,<3\n    - pymongo >=3.8.0,<4.0.0\n    - pytz >=2018.3\n    - pyyaml >=3.12,<6.0.0\n    - python-dateutil >=2.8.0,<3\n    - pyvcf >=0.6.8,<0.7.0  # [py<3]\n    - six >=1.9,<1.12\n    - typing >=3.6.0,<3.7.0  # [py<35]\n    - futures >=3.2.0,<4.0.0  # [py<3]\n    - future >=0.16.0,<1.0.0\n \n\ntest:\n  imports:\n    - apache_beam\n    - apache_beam.coders\n    - apache_beam.examples.complete.game\n    - apache_beam.examples.complete.juliaset\n    - apache_beam.examples.complete.juliaset.juliaset\n    - apache_beam.examples.cookbook\n    - apache_beam.examples.flink    \n    - apache_beam.examples.snippets\n    - apache_beam.internal\n    - apache_beam.internal.gcp\n    - apache_beam.io\n    - apache_beam.io.flink\n    - apache_beam.io.gcp\n    - apache_beam.io.gcp.datastore\n    - apache_beam.io.gcp.internal\n    - apache_beam.io.gcp.tests\n    - apache_beam.metrics\n    - apache_beam.options\n    - apache_beam.portability\n    - apache_beam.portability.api\n    - apache_beam.runners\n    - apache_beam.runners.dataflow\n    - apache_beam.runners.direct\n    - apache_beam.runners.interactive\n    - apache_beam.runners.interactive.display\n    - apache_beam.runners.job\n    - apache_beam.runners.portability\n    - apache_beam.runners.test\n    - apache_beam.runners.worker\n    - apache_beam.testing\n    - apache_beam.testing.benchmarks\n    - apache_beam.testing.benchmarks.nexmark\n    - apache_beam.testing.benchmarks.nexmark.models\n    - apache_beam.testing.benchmarks.nexmark.queries\n    - apache_beam.tools\n    - apache_beam.transforms\n    - apache_beam.typehints\n    - apache_beam.utils\n\n\nabout:\n  home: https://beam.apache.org\n  license: Apache 2.0\n  license_family: Apache\n  license_file: LICENSE\n  summary: 'Apache Beam: An advanced unified programming model'\n\n  description: |\n    Apache Beam is an open source, unified model for defining both batch\n    and streaming data-parallel processing pipelines. Using one of the open\n    source Beam SDKs, you build a program that defines the pipeline. The\n    pipeline is then executed by one of Beam\u2019s supported distributed\n    processing back-ends, which include Apache Apex, Apache Flink, Apache\n    Spark, and Google Cloud Dataflow.\n  doc_url: https://beam.apache.org/documentation/\n  dev_url: https://github.com/apache/beam\n\nextra:\n  recipe-maintainers:\n    - sodre\n    - aaltay\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "c_compiler_stub",
+   "crcmod",
+   "cython",
+   "dill",
+   "fastavro",
+   "future",
+   "grpcio",
+   "httplib2",
+   "mock",
+   "oauth2client",
+   "pip",
+   "protobuf",
+   "pyarrow",
+   "pydot",
+   "pymongo",
+   "python",
+   "python-avro",
+   "python-dateutil",
+   "python-hdfs",
+   "pytz",
+   "pyyaml",
+   "six"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "cython",
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "crcmod",
+    "cython",
+    "dill",
+    "fastavro",
+    "future",
+    "grpcio",
+    "httplib2",
+    "mock",
+    "oauth2client",
+    "protobuf",
+    "pyarrow",
+    "pydot",
+    "pymongo",
+    "python",
+    "python-avro",
+    "python-dateutil",
+    "python-hdfs",
+    "pytz",
+    "pyyaml",
+    "six"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.6.16",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "cython",
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "crcmod >=1.7,<2.0",
+    "cython >=0.23",
+    "dill >=0.3.1.1,<0.3.2",
+    "fastavro >=0.21.4,<0.22",
+    "future >=0.16.0,<1.0.0",
+    "grpcio >=1.12.1,<2",
+    "httplib2 >=0.8,<=0.12.0",
+    "mock >=1.0.1,<3.0.0",
+    "oauth2client >=2.0.1,<5",
+    "protobuf >=3.5.0.post1,<4",
+    "pyarrow >=0.15.1,<0.16.0",
+    "pydot >=1.2.0,<2",
+    "pymongo >=3.8.0,<4.0.0",
+    "python",
+    "python-avro >=1.8.1,<2.0.0",
+    "python-dateutil >=2.8.0,<3",
+    "python-hdfs >=2.1.0,<3.0.0",
+    "pytz >=2018.3",
+    "pyyaml >=3.12,<6.0.0",
+    "six >=1.9,<1.12"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/a/apache-beam/apache-beam-2.15.0.zip",
+ "version":"2.18.0"
+}

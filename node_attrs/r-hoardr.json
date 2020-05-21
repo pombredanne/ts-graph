@@ -1,0 +1,272 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/231864142.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/254043922.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.5.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/299129786.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"RBaseRebuild",
+    "migrator_version":0,
+    "name":"r-base-3.6.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/412745052.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":2,
+    "migrator_version":0,
+    "name":"r400"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "bot":{
+   "automerge":true
+  },
+  "provider":{
+   "win":"azure"
+  }
+ },
+ "feedstock_name":"r-hoardr",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"https://github.com/ropensci/hoardr",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"LICENSE",
+   "summary":"Suite of tools for managing cached files, targeting use in other R packages. Uses 'rappdirs' for cross-platform paths. Provides utilities to manage cache directories, including targeting files by path or by key; cached directories can be compressed and uncompressed easily to save disk space."
+  },
+  "build":{
+   "merge_build_host":true,
+   "noarch":"generic",
+   "number":"2",
+   "rpaths":[
+    "lib/R/lib/",
+    "lib/",
+    "lib/R/lib/",
+    "lib/",
+    "lib/R/lib/",
+    "lib/"
+   ]
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "conda-forge/r",
+    "ocefpaf",
+    "johanneskoester",
+    "bgruening",
+    "daler",
+    "jdblischak",
+    "cbrueffer",
+    "dbast",
+    "conda-forge/r",
+    "ocefpaf",
+    "johanneskoester",
+    "bgruening",
+    "daler",
+    "jdblischak",
+    "cbrueffer",
+    "dbast",
+    "conda-forge/r",
+    "ocefpaf",
+    "johanneskoester",
+    "bgruening",
+    "daler",
+    "jdblischak",
+    "cbrueffer",
+    "dbast"
+   ]
+  },
+  "package":{
+   "name":"r-hoardr",
+   "version":"0.5.2"
+  },
+  "requirements":{
+   "build":null,
+   "host":[
+    "r-base",
+    "r-r6 >=2.2.0",
+    "r-digest",
+    "r-rappdirs >=0.3.1",
+    "r-base",
+    "r-r6 >=2.2.0",
+    "r-digest",
+    "r-rappdirs >=0.3.1",
+    "r-base",
+    "r-r6 >=2.2.0",
+    "r-digest",
+    "r-rappdirs >=0.3.1"
+   ],
+   "run":[
+    "r-base",
+    "r-r6 >=2.2.0",
+    "r-digest",
+    "r-rappdirs >=0.3.1",
+    "r-base",
+    "r-r6 >=2.2.0",
+    "r-digest",
+    "r-rappdirs >=0.3.1",
+    "r-base",
+    "r-r6 >=2.2.0",
+    "r-digest",
+    "r-rappdirs >=0.3.1"
+   ]
+  },
+  "source":{
+   "fn":"hoardr_0.5.2.tar.gz",
+   "sha256":"819113f0e25da105f120a676b5173872a4144f2f6f354cad14b35f898e76dc54",
+   "url":[
+    "https://cran.r-project.org/src/contrib/hoardr_0.5.2.tar.gz",
+    "https://cran.r-project.org/src/contrib/Archive/hoardr/hoardr_0.5.2.tar.gz",
+    "https://cran.r-project.org/src/contrib/hoardr_0.5.2.tar.gz",
+    "https://cran.r-project.org/src/contrib/Archive/hoardr/hoardr_0.5.2.tar.gz",
+    "https://cran.r-project.org/src/contrib/hoardr_0.5.2.tar.gz",
+    "https://cran.r-project.org/src/contrib/Archive/hoardr/hoardr_0.5.2.tar.gz"
+   ]
+  },
+  "test":{
+   "commands":[
+    "\"%R%\" -e \"library('hoardr')\"",
+    "$R -e \"library('hoardr')\"",
+    "conda inspect linkages -p $PREFIX r-hoardr",
+    "conda inspect objects -p $PREFIX r-hoardr",
+    "$R -e \"library('hoardr')\"",
+    "conda inspect linkages -p $PREFIX r-hoardr"
+   ]
+  }
+ },
+ "name":"r-hoardr",
+ "new_version":"0.5.2",
+ "pinning_version":"2020.05.04.00.11.09",
+ "raw_meta_yaml":"{% set version = \"0.5.2\" %}\n{% set posix = 'm2-' if win else '' %}\n{% set native = 'm2w64-' if win else '' %}\n\npackage:\n  name: r-hoardr\n  version: {{ version|replace(\"-\", \"_\") }}\n\nsource:\n  fn: hoardr_{{ version }}.tar.gz\n  url:\n    - {{ cran_mirror }}/src/contrib/hoardr_{{ version }}.tar.gz\n    - {{ cran_mirror }}/src/contrib/Archive/hoardr/hoardr_{{ version }}.tar.gz\n  sha256: 819113f0e25da105f120a676b5173872a4144f2f6f354cad14b35f898e76dc54\n\nbuild:\n  noarch: generic\n  merge_build_host: True  # [win]\n  number: 2\n  rpaths:\n    - lib/R/lib/\n    - lib/\n\nrequirements:\n  build:\n    - {{ posix }}zip               # [win]\n  host:\n    - r-base\n    - r-r6 >=2.2.0\n    - r-digest\n    - r-rappdirs >=0.3.1\n  run:\n    - r-base\n    - r-r6 >=2.2.0\n    - r-digest\n    - r-rappdirs >=0.3.1\n\ntest:\n  commands:\n    - $R -e \"library('hoardr')\"           # [not win]\n    - \"\\\"%R%\\\" -e \\\"library('hoardr')\\\"\"  # [win]\n    - conda inspect linkages -p $PREFIX r-hoardr  # [not win]\n    - conda inspect objects -p $PREFIX r-hoardr  # [osx]\n\nabout:\n  home: https://github.com/ropensci/hoardr\n  license: MIT\n  license_file: LICENSE\n  summary: Suite of tools for managing cached files, targeting use in other R packages. Uses\n    'rappdirs' for cross-platform paths. Provides utilities to manage cache directories,\n    including targeting files by path or by key; cached directories can be compressed\n    and uncompressed easily to save disk space.\n  license_family: MIT\n\nextra:\n  recipe-maintainers:\n    - conda-forge/r\n    - ocefpaf\n    - johanneskoester\n    - bgruening\n    - daler\n    - jdblischak\n    - cbrueffer\n    - dbast\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "r-base",
+   "r-digest",
+   "r-r6",
+   "r-rappdirs"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "r-base",
+    "r-digest",
+    "r-r6",
+    "r-rappdirs"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "r-base",
+    "r-digest",
+    "r-r6",
+    "r-rappdirs"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.7.0\n",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "r-base",
+    "r-digest",
+    "r-r6 >=2.2.0",
+    "r-rappdirs >=0.3.1"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "r-base",
+    "r-digest",
+    "r-r6 >=2.2.0",
+    "r-rappdirs >=0.3.1"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":[
+  "https://cran.r-project.org/src/contrib/hoardr_0.5.2.tar.gz",
+  "https://cran.r-project.org/src/contrib/Archive/hoardr/hoardr_0.5.2.tar.gz",
+  "https://cran.r-project.org/src/contrib/hoardr_0.5.2.tar.gz",
+  "https://cran.r-project.org/src/contrib/Archive/hoardr/hoardr_0.5.2.tar.gz",
+  "https://cran.r-project.org/src/contrib/hoardr_0.5.2.tar.gz",
+  "https://cran.r-project.org/src/contrib/Archive/hoardr/hoardr_0.5.2.tar.gz"
+ ],
+ "version":"0.5.2"
+}

@@ -1,0 +1,172 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/320966970.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"7.4.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/386887434.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"ArchRebuild",
+    "migrator_version":1,
+    "name":"aarch64 and ppc64le addition"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "provider":{
+   "linux_aarch64":"default",
+   "linux_ppc64le":"default"
+  }
+ },
+ "feedstock_name":"dos2unix",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"https://waterlan.home.xs4all.nl/dos2unix.html",
+   "license":"BSD-2-Clause",
+   "license_family":"BSD",
+   "license_file":"COPYING.txt",
+   "summary":"Convert text files with DOS or Mac line breaks to Unix line breaks and vice versa."
+  },
+  "build":{
+   "number":"0",
+   "script":[
+    "make prefix=$PREFIX all",
+    "make prefix=$PREFIX install",
+    "make prefix=$PREFIX all",
+    "make prefix=$PREFIX install",
+    "make prefix=$PREFIX all",
+    "make prefix=$PREFIX install"
+   ],
+   "skip":true
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "adbeda",
+    "oblute",
+    "rluria14",
+    "adbeda",
+    "oblute",
+    "rluria14",
+    "adbeda",
+    "oblute",
+    "rluria14"
+   ]
+  },
+  "package":{
+   "name":"dos2unix",
+   "version":"7.4.1"
+  },
+  "requirements":{
+   "build":[
+    "c_compiler_stub",
+    "make",
+    "gettext",
+    "c_compiler_stub",
+    "make",
+    "gettext",
+    "c_compiler_stub",
+    "make",
+    "gettext"
+   ]
+  },
+  "source":{
+   "sha256":"1cd58a60b03ed28fa39046102a185c5e88c4f7665e1e0417c25de7f8b9f78623",
+   "url":"https://waterlan.home.xs4all.nl/dos2unix/dos2unix-7.4.1.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "dos2unix -h",
+    "unix2dos -h",
+    "dos2unix -h",
+    "unix2dos -h",
+    "dos2unix -h",
+    "unix2dos -h"
+   ]
+  }
+ },
+ "name":"dos2unix",
+ "new_version":"7.4.1",
+ "pinning_version":"2020.03.10",
+ "raw_meta_yaml":"{% set name = \"dos2unix\" %}\n{% set version = \"7.4.1\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n    url: https://waterlan.home.xs4all.nl/{{name}}/{{name}}-{{ version }}.tar.gz\n    sha256: 1cd58a60b03ed28fa39046102a185c5e88c4f7665e1e0417c25de7f8b9f78623\n\nbuild:\n  skip: true   # [win]\n  number: 0\n  script:\n    - make prefix=$PREFIX all\n    - make prefix=$PREFIX install\n\nrequirements:\n  build:\n    - {{ compiler ('c') }}\n    - make\n    - gettext\ntest:\n  commands:\n    - dos2unix -h\n    - unix2dos -h\n\nabout:\n  home: https://waterlan.home.xs4all.nl/dos2unix.html\n  license: BSD-2-Clause\n  license_family: BSD\n  license_file: COPYING.txt\n  summary: \"Convert text files with DOS or Mac line breaks to Unix line breaks and vice versa.\"\n\nextra:\n  recipe-maintainers:\n    - adbeda\n    - oblute\n    - rluria14\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "c_compiler_stub",
+   "gettext",
+   "make"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "gettext",
+    "make"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.6.12",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "gettext",
+    "make"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://waterlan.home.xs4all.nl/dos2unix/dos2unix-7.4.0.tar.gz",
+ "version":"7.4.1"
+}

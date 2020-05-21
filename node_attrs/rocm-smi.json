@@ -1,0 +1,173 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/338977618.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.9.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/344749661.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.10.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/353777440.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.0.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/379758202.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.1.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"rocm-smi",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"https://github.com/RadeonOpenCompute/ROC-smi",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"LICENSE",
+   "summary":"ROC System Management Interface"
+  },
+  "build":{
+   "number":"0",
+   "script":[
+    "mkdir -p $PREFIX/bin",
+    "cp rocm_smi.py $PREFIX/bin/rocm_smi.py",
+    "chmod +x $PREFIX/bin/rocm_smi.py",
+    "ln -s $PREFIX/bin/rocm_smi.py $PREFIX/bin/rocm-smi",
+    "mkdir -p $PREFIX/bin",
+    "cp rocm_smi.py $PREFIX/bin/rocm_smi.py",
+    "chmod +x $PREFIX/bin/rocm_smi.py",
+    "ln -s $PREFIX/bin/rocm_smi.py $PREFIX/bin/rocm-smi",
+    "mkdir -p $PREFIX/bin",
+    "cp rocm_smi.py $PREFIX/bin/rocm_smi.py",
+    "chmod +x $PREFIX/bin/rocm_smi.py",
+    "ln -s $PREFIX/bin/rocm_smi.py $PREFIX/bin/rocm-smi"
+   ],
+   "skip":true
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "isuruf",
+    "isuruf",
+    "isuruf"
+   ]
+  },
+  "package":{
+   "name":"rocm-smi",
+   "version":"2.7.0"
+  },
+  "source":{
+   "sha256":"7346d49c369fbc419cf3ae8dc408185f7606d64342438de804ede8baf5561155",
+   "url":"https://github.com/RadeonOpenCompute/ROC-smi/archive/roc-2.7.0.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "test -f $PREFIX/bin/rocm-smi",
+    "test -f $PREFIX/bin/rocm-smi",
+    "test -f $PREFIX/bin/rocm-smi"
+   ]
+  }
+ },
+ "name":"rocm-smi",
+ "new_version":"3.1.0",
+ "pinning_version":"2020.02.20",
+ "raw_meta_yaml":"{% set name = \"rocm-smi\" %}\n{% set version = \"2.7.0\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://github.com/RadeonOpenCompute/ROC-smi/archive/roc-{{ version }}.tar.gz\n  sha256: 7346d49c369fbc419cf3ae8dc408185f7606d64342438de804ede8baf5561155\n\nbuild:\n  number: 0\n  skip: True  # [not linux]\n  script:\n    - mkdir -p $PREFIX/bin\n    - cp rocm_smi.py $PREFIX/bin/rocm_smi.py\n    - chmod +x $PREFIX/bin/rocm_smi.py\n    - ln -s $PREFIX/bin/rocm_smi.py $PREFIX/bin/rocm-smi\n\ntest:\n  commands:\n    - test -f $PREFIX/bin/rocm-smi\n\nabout:\n  home: https://github.com/RadeonOpenCompute/ROC-smi\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE\n  summary: 'ROC System Management Interface'\n\nextra:\n  recipe-maintainers:\n    - isuruf\n",
+ "req":{
+  "__set__":true,
+  "elements":[]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.6.8",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://github.com/RadeonOpenCompute/ROC-smi/archive/roc-2.7.0.tar.gz",
+ "version":"2.7.0"
+}

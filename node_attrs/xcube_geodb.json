@@ -1,0 +1,257 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/371371054.json"
+   },
+   "data":{
+    "bot_rerun":1580915275.130146,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.1.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/376530322.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.1.3"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/416060287.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.1.6"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/419462036.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.1.7"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"xcube_geodb",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"geodb is a Python package",
+   "dev_url":"https://github.com/dcs4cop/xcube-geodb",
+   "doc_url":"https://xcube_geodb.readthedocs.io",
+   "home":"https://github.com/dcs4cop/xcube-geodb",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"LICENSE",
+   "summary":"geodb is a Python package"
+  },
+  "build":{
+   "entry_points":[
+    "geodb = xcube_geodb.cli.main:main",
+    "geodb = xcube_geodb.cli.main:main",
+    "geodb = xcube_geodb.cli.main:main"
+   ],
+   "noarch":"python",
+   "number":"0",
+   "script":"-m pip install . -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "dzelge",
+    "forman",
+    "dzelge",
+    "forman",
+    "dzelge",
+    "forman"
+   ]
+  },
+  "package":{
+   "name":"xcube_geodb",
+   "version":"0.1.6"
+  },
+  "requirements":{
+   "host":[
+    "python >=3.6",
+    "pip",
+    "python >=3.6",
+    "pip",
+    "python >=3.6",
+    "pip"
+   ],
+   "run":[
+    "python >=3.6",
+    "pip",
+    "xcube >=0.3.0",
+    "geopandas >=0.5",
+    "matplotlib-base",
+    "descartes",
+    "requests",
+    "sphinx",
+    "python-dotenv",
+    "jupyterlab",
+    "python >=3.6",
+    "pip",
+    "xcube >=0.3.0",
+    "geopandas >=0.5",
+    "matplotlib-base",
+    "descartes",
+    "requests",
+    "sphinx",
+    "python-dotenv",
+    "jupyterlab",
+    "python >=3.6",
+    "pip",
+    "xcube >=0.3.0",
+    "geopandas >=0.5",
+    "matplotlib-base",
+    "descartes",
+    "requests",
+    "sphinx",
+    "python-dotenv",
+    "jupyterlab"
+   ]
+  },
+  "source":{
+   "sha256":"9bcd289f076bdacd72cc3694c2669d892f28f66320a7d9de2f298827f97aadc7",
+   "url":"https://github.com/dcs4cop/xcube-geodb/archive/v0.1.6.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "xcube_geodb.core.geodb",
+    "xcube_geodb.core.geodb",
+    "xcube_geodb.core.geodb"
+   ]
+  }
+ },
+ "name":"xcube_geodb",
+ "new_version":"0.1.7",
+ "new_version_attempts":{
+  "0.1.6":1,
+  "0.1.7":1
+ },
+ "new_version_errors":{},
+ "pinning_version":"2020.05.18.07.24.43",
+ "raw_meta_yaml":"{% set version = \"0.1.6\" %}\n\n\npackage:\n  name: xcube_geodb\n  version: {{ version }}\n\nsource:\n  url: https://github.com/dcs4cop/xcube-geodb/archive/v{{ version }}.tar.gz\n  sha256: 9bcd289f076bdacd72cc3694c2669d892f28f66320a7d9de2f298827f97aadc7\n\nbuild:\n  number: 0\n  noarch: python\n  script: {{ PYTHON }} -m pip install . -vv\n  entry_points:\n    - geodb = xcube_geodb.cli.main:main\n\nrequirements:\n  host:\n    - python >=3.6\n    - pip\n  run:\n    - python >=3.6\n    - pip\n    - xcube >=0.3.0\n    - geopandas >=0.5\n    - matplotlib-base\n    - descartes\n    - requests\n    - sphinx\n    - python-dotenv\n    - jupyterlab\n\ntest:\n  imports:\n    - xcube_geodb.core.geodb\n\nabout:\n  summary: geodb is a Python package\n  home: https://github.com/dcs4cop/xcube-geodb\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE\n  description: geodb is a Python package\n  doc_url: https://xcube_geodb.readthedocs.io\n  dev_url: https://github.com/dcs4cop/xcube-geodb\n\nextra:\n  recipe-maintainers:\n    - dzelge\n    - forman\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "descartes",
+   "geopandas",
+   "jupyterlab",
+   "matplotlib-base",
+   "pip",
+   "python",
+   "python-dotenv",
+   "requests",
+   "sphinx",
+   "xcube"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "descartes",
+    "geopandas",
+    "jupyterlab",
+    "matplotlib-base",
+    "pip",
+    "python",
+    "python-dotenv",
+    "requests",
+    "sphinx",
+    "xcube"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.7.2\n",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3.6"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "descartes",
+    "geopandas >=0.5",
+    "jupyterlab",
+    "matplotlib-base",
+    "pip",
+    "python >=3.6",
+    "python-dotenv",
+    "requests",
+    "sphinx",
+    "xcube >=0.3.0"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://github.com/dcs4cop/xcube-geodb/archive/v0.1.0.tar.gz",
+ "version":"0.1.6"
+}

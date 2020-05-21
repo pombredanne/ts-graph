@@ -1,0 +1,179 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/199916560.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Noarch",
+    "migrator_version":0
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/245580352.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.1.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"bibtexparser",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"https://bibtexparser.readthedocs.org/",
+   "license":"LGPLv3 or BSD",
+   "summary":"A module for parsing BibTeX files."
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":[
+    "python -m pip install --no-deps --ignore-installed .",
+    "python -m pip install --no-deps --ignore-installed .",
+    "python -m pip install --no-deps --ignore-installed ."
+   ]
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "pkgw",
+    "pkgw",
+    "pkgw"
+   ]
+  },
+  "package":{
+   "name":"bibtexparser",
+   "version":"1.1.0"
+  },
+  "requirements":{
+   "host":[
+    "pip",
+    "future >=0.16",
+    "pyparsing >=2.0.3",
+    "python",
+    "setuptools",
+    "pip",
+    "future >=0.16",
+    "pyparsing >=2.0.3",
+    "python",
+    "setuptools",
+    "pip",
+    "future >=0.16",
+    "pyparsing >=2.0.3",
+    "python",
+    "setuptools"
+   ],
+   "run":[
+    "future >=0.16",
+    "pyparsing >=2.0.3",
+    "python",
+    "future >=0.16",
+    "pyparsing >=2.0.3",
+    "python",
+    "future >=0.16",
+    "pyparsing >=2.0.3",
+    "python"
+   ]
+  },
+  "source":{
+   "fn":"bibtexparser-1.1.0.tar.gz",
+   "sha256":"df8966ea752db6d74657a69b9d684a61aa33457ad6d9d50e41c50ef7f374907f",
+   "url":"https://pypi.org/packages/source/b/bibtexparser/bibtexparser-1.1.0.tar.gz"
+  },
+  "test":{
+   "imports":"bibtexparser"
+  }
+ },
+ "name":"bibtexparser",
+ "new_version":"1.1.0",
+ "pinning_version":"2019.01.16",
+ "raw_meta_yaml":"{% set name = \"bibtexparser\" %}\n{% set version = \"1.1.0\" %}\n{% set sha256 = \"df8966ea752db6d74657a69b9d684a61aa33457ad6d9d50e41c50ef7f374907f\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  fn: {{ name }}-{{ version }}.tar.gz\n  url: https://pypi.org/packages/source/b/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 0\n  script:\n    - python -m pip install --no-deps --ignore-installed .\n\nrequirements:\n  host:\n    - pip\n    - future >=0.16\n    - pyparsing >=2.0.3\n    - python\n    - setuptools\n  run:\n    - future >=0.16\n    - pyparsing >=2.0.3\n    - python\n\ntest:\n  imports:\n    bibtexparser\n\nabout:\n  home: https://bibtexparser.readthedocs.org/\n  license: LGPLv3 or BSD\n  # license_file: COPYING -- file not included in the current distribution\n  summary: 'A module for parsing BibTeX files.'\n\nextra:\n  recipe-maintainers:\n    - pkgw\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "future",
+   "pip",
+   "pyparsing",
+   "python",
+   "setuptools"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "future",
+    "pip",
+    "pyparsing",
+    "python",
+    "setuptools"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "future",
+    "pyparsing",
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.2.9",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "future >=0.16",
+    "pip",
+    "pyparsing >=2.0.3",
+    "python",
+    "setuptools"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "future >=0.16",
+    "pyparsing >=2.0.3",
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.org/packages/source/b/bibtexparser/bibtexparser-1.1.0.tar.gz",
+ "version":"1.1.0"
+}

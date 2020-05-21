@@ -1,0 +1,183 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/196996085.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.9.5"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/217549573.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.10.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/341944611.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.11.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"marbles-mixins",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"marbles is a Python unittest extension that allows test authors to write\nricher tests that expose more information on test failure to help you\ndebug failing tests faster.\n",
+   "dev_url":"https://github.com/twosigma/marbles",
+   "doc_url":"https://marbles.readthedocs.io/",
+   "home":"http://github.com/twosigma/marbles",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"LICENSE",
+   "summary":"Read better test failures."
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":"python -m pip install --no-deps --ignore-installed ."
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "thejunglejane",
+    "leifwalsh",
+    "thejunglejane",
+    "leifwalsh",
+    "thejunglejane",
+    "leifwalsh"
+   ]
+  },
+  "package":{
+   "name":"marbles-mixins",
+   "version":"0.10.0"
+  },
+  "requirements":{
+   "host":[
+    "python >=3.5,<3.7",
+    "pip",
+    "python >=3.5,<3.7",
+    "pip",
+    "python >=3.5,<3.7",
+    "pip"
+   ],
+   "run":[
+    "python >=3.5,<3.7",
+    "pandas >=0.19.1,<0.24",
+    "python >=3.5,<3.7",
+    "pandas >=0.19.1,<0.24",
+    "python >=3.5,<3.7",
+    "pandas >=0.19.1,<0.24"
+   ]
+  },
+  "source":{
+   "sha256":"d8fd3034429ebec5fef1b91e790937c656db3c7143135a92f7ae0a054e5979af",
+   "url":"https://pypi.io/packages/source/m/marbles.mixins/marbles.mixins-0.10.0.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "marbles.mixins",
+    "marbles.mixins",
+    "marbles.mixins"
+   ]
+  }
+ },
+ "name":"marbles-mixins",
+ "new_version":"0.11.0",
+ "pinning_version":"2019.11.14",
+ "raw_meta_yaml":"{% set name = \"marbles-mixins\" %}\n{% set pipname = \"marbles.mixins\" %}\n{% set version = \"0.10.0\" %}\n{% set sha256 = \"d8fd3034429ebec5fef1b91e790937c656db3c7143135a92f7ae0a054e5979af\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ pipname }}/{{ pipname }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 0\n  script: python -m pip install --no-deps --ignore-installed .\n\nrequirements:\n  host:\n    - python >=3.5,<3.7\n    - pip\n  run:\n    - python >=3.5,<3.7\n    - pandas >=0.19.1,<0.24\n\ntest:\n  imports:\n    - marbles.mixins\n\nabout:\n  home: http://github.com/twosigma/marbles\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE\n  summary: 'Read better test failures.'\n  description: |\n    marbles is a Python unittest extension that allows test authors to write\n    richer tests that expose more information on test failure to help you\n    debug failing tests faster.\n  doc_url: https://marbles.readthedocs.io/\n  dev_url: https://github.com/twosigma/marbles\n\nextra:\n  recipe-maintainers:\n    - thejunglejane\n    - leifwalsh\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "pandas",
+   "pip",
+   "python"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "pandas",
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.6.2",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3.5,<3.7"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "pandas >=0.19.1,<0.24",
+    "python >=3.5,<3.7"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/m/marbles.mixins/marbles.mixins-0.10.0.tar.gz",
+ "version":"0.10.0"
+}

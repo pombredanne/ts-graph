@@ -1,0 +1,759 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/278874787.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"6.21.6"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/283238200.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"6.21.7"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/287607717.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"6.21.8"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/290289556.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"6.21.9"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/303967552.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"6.21.14"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/307465704.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"6.21.15"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/310538647.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"6.22.7"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/314936611.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"6.22.8"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/316472457.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"6.22.9"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/318334565.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"6.22.10"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/320198982.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"6.22.11"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/322727047.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"6.22.12"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/328190675.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"6.22.13"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/336064530.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"6.22.14"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/341898236.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"6.22.15"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/347108360.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"6.22.16"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/347648513.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"6.22.17"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/353584892.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"6.22.18"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/365877647.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"6.22.19"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/372857628.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"6.22.20"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/374430802.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"6.22.21"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/378731597.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MatplotlibBase",
+    "migrator_version":0,
+    "name":"matplotlib-to-matplotlib-base"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/395826873.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"7r0p18"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/397948873.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"7r0p19"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/401064367.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"7r0p20"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"dirac-grid",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"DIRAC (Distributed Infrastructure with Remote Agent Control) INTERWARE is a\nsoftware framework for distributed computing providing a complete solution\nto one or more user community requiring access to distributed resources.\nDIRAC builds a layer between the users and the resources offering a common\ninterface to a number of heterogeneous providers, integrating them in a\nseamless manner, providing interoperability, at the same time as an\noptimized, transparent and reliable usage of the resources.\n\nDIRAC has been started by the LHCb collaboration who still maintains it. It\nis now used by several communities (AKA VO=Virtual Organizations) for their\ndistributed computing workflows.\n",
+   "dev_url":"https://github.com/DIRACGrid/DIRAC",
+   "doc_url":"https://dirac.readthedocs.io/",
+   "home":"http://diracgrid.org",
+   "license":"GPL-3.0-or-later",
+   "license_family":"GPL",
+   "license_file":"LICENSE",
+   "summary":"Distributed Infrastructure with Remote Agent Control"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"2",
+   "script":[
+    " -m pip install . --no-deps -vv",
+    "mkdir -p ${PREFIX}/scripts",
+    "find ${PREFIX} -wholename '*/bin/*.py' -exec bash -c 'FN={} && NEW_FN=${PREFIX}/scripts/$(basename ${FN} .py) && cp ${FN} ${NEW_FN} && chmod +x ${NEW_FN}' \\;",
+    " -m pip install . --no-deps -vv",
+    "mkdir -p ${PREFIX}/scripts",
+    "find ${PREFIX} -wholename '*/bin/*.py' -exec bash -c 'FN={} && NEW_FN=${PREFIX}/scripts/$(basename ${FN} .py) && cp ${FN} ${NEW_FN} && chmod +x ${NEW_FN}' \\;",
+    " -m pip install . --no-deps -vv",
+    "mkdir -p ${PREFIX}/scripts",
+    "find ${PREFIX} -wholename '*/bin/*.py' -exec bash -c 'FN={} && NEW_FN=${PREFIX}/scripts/$(basename ${FN} .py) && cp ${FN} ${NEW_FN} && chmod +x ${NEW_FN}' \\;"
+   ]
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "chrisburr",
+    "chrisburr",
+    "chrisburr"
+   ]
+  },
+  "package":{
+   "name":"dirac-grid",
+   "version":"6.22.21"
+  },
+  "requirements":{
+   "host":[
+    "python =2.7",
+    "pip",
+    "python =2.7",
+    "pip",
+    "python =2.7",
+    "pip"
+   ],
+   "run":[
+    "python =2.7",
+    "m2crypto",
+    "certifi",
+    "elasticsearch-dsl ~=6.3.1",
+    "funcsigs",
+    "future",
+    "futures",
+    "GitPython >=2.1.0",
+    "matplotlib-base >=2.1.0,<3.0",
+    "mysqlclient >=1.2.5",
+    "jinja2",
+    "numpy >=1.10.1",
+    "pexpect >=4.0.1",
+    "psutil >=4.2.0",
+    "pyasn1 >0.4.1",
+    "pyasn1-modules",
+    "pytz >=2015.7",
+    "requests >=2.9.1",
+    "simplejson >=3.8.1",
+    "six >=1.10",
+    "sqlalchemy >=1.0.9",
+    "stomp.py >=3.1.5",
+    "suds-jurko >=0.6",
+    "python-json-logger >=0.1.8",
+    "tornado >=5.0.0,<6.0.0",
+    "cmreshandler >1.0.0b4",
+    "rst2pdf >=0.93",
+    "multi-mechanize >=1.2.0",
+    "asn1",
+    "fts-rest",
+    "pyGSI",
+    "python =2.7",
+    "m2crypto",
+    "certifi",
+    "elasticsearch-dsl ~=6.3.1",
+    "funcsigs",
+    "future",
+    "futures",
+    "GitPython >=2.1.0",
+    "matplotlib-base >=2.1.0,<3.0",
+    "mysqlclient >=1.2.5",
+    "jinja2",
+    "numpy >=1.10.1",
+    "pexpect >=4.0.1",
+    "psutil >=4.2.0",
+    "pyasn1 >0.4.1",
+    "pyasn1-modules",
+    "pytz >=2015.7",
+    "requests >=2.9.1",
+    "simplejson >=3.8.1",
+    "six >=1.10",
+    "sqlalchemy >=1.0.9",
+    "stomp.py >=3.1.5",
+    "suds-jurko >=0.6",
+    "python-json-logger >=0.1.8",
+    "tornado >=5.0.0,<6.0.0",
+    "cmreshandler >1.0.0b4",
+    "rst2pdf >=0.93",
+    "multi-mechanize >=1.2.0",
+    "asn1",
+    "fts-rest",
+    "pyGSI",
+    "python =2.7",
+    "m2crypto",
+    "certifi",
+    "elasticsearch-dsl ~=6.3.1",
+    "funcsigs",
+    "future",
+    "futures",
+    "GitPython >=2.1.0",
+    "matplotlib-base >=2.1.0,<3.0",
+    "mysqlclient >=1.2.5",
+    "jinja2",
+    "numpy >=1.10.1",
+    "pexpect >=4.0.1",
+    "psutil >=4.2.0",
+    "pyasn1 >0.4.1",
+    "pyasn1-modules",
+    "pytz >=2015.7",
+    "requests >=2.9.1",
+    "simplejson >=3.8.1",
+    "six >=1.10",
+    "sqlalchemy >=1.0.9",
+    "stomp.py >=3.1.5",
+    "suds-jurko >=0.6",
+    "python-json-logger >=0.1.8",
+    "tornado >=5.0.0,<6.0.0",
+    "cmreshandler >1.0.0b4",
+    "rst2pdf >=0.93",
+    "multi-mechanize >=1.2.0",
+    "asn1",
+    "fts-rest",
+    "pyGSI"
+   ]
+  },
+  "source":{
+   "patches":[
+    "0001-Patch-rootPath-to-be-CONDA_PREFIX.patch",
+    "0001-Patch-rootPath-to-be-CONDA_PREFIX.patch",
+    "0001-Patch-rootPath-to-be-CONDA_PREFIX.patch"
+   ],
+   "sha256":"f180b564dd710ee7380f483149de5b393911ab12285423e456ee3f258dfbcaf0",
+   "url":"https://github.com/DIRACGrid/DIRAC/archive/v6r22p21.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "dirac-jobexec.py --help",
+    "$CONDA_PREFIX/scripts/dirac-jobexec --help",
+    "dirac-jobexec.py --help",
+    "$CONDA_PREFIX/scripts/dirac-jobexec --help",
+    "dirac-jobexec.py --help",
+    "$CONDA_PREFIX/scripts/dirac-jobexec --help"
+   ],
+   "imports":[
+    "DIRAC",
+    "DIRAC",
+    "DIRAC"
+   ]
+  }
+ },
+ "name":"dirac-grid",
+ "new_version":"7r1",
+ "new_version_attempts":{
+  "7r0p20":1,
+  "7r1":630
+ },
+ "new_version_errors":{
+  "7r1":"The recipe did not change in the version migration, a URL did not hash, or there is jinja2 syntax the bot cannot handle!\n\nPlease check the URLs in your recipe with version '7r1' to make sure they exist!\n\nWe also found the following errors:\n\n - could not hash URL template 'https://github.com/DIRACGrid/DIRAC/archive/v{{ major }}r{{ minor }}p{{ patch }}.tar.gz'\n"
+ },
+ "pinning_version":"2020.04.09",
+ "raw_meta_yaml":"{% set name = \"dirac-grid\" %}\n{% set version = \"6r22p21\" %}\n{% set major = version.split('r')[0] %}\n{% set minor = version.split('r')[1].split('p')[0] %}\n{% set patch = version.split('p')[1] %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ major }}.{{ minor }}.{{ patch }}\n\nsource:\n  url: https://github.com/DIRACGrid/DIRAC/archive/v{{ major }}r{{ minor }}p{{ patch }}.tar.gz\n  sha256: f180b564dd710ee7380f483149de5b393911ab12285423e456ee3f258dfbcaf0\n  patches:\n    - 0001-Patch-rootPath-to-be-CONDA_PREFIX.patch\n\nbuild:\n  noarch: python\n  number: 2\n  script:\n    - \"{{ PYTHON }} -m pip install . --no-deps -vv\"\n    - mkdir -p ${PREFIX}/scripts\n    - find ${PREFIX} -wholename '*/bin/*.py' -exec bash -c 'FN={} && NEW_FN=${PREFIX}/scripts/$(basename ${FN} .py) && cp ${FN} ${NEW_FN} && chmod +x ${NEW_FN}' \\;\n\nrequirements:\n  host:\n    - python =2.7\n    - pip\n  run:\n    - python =2.7\n    - m2crypto # ==0.32\n    - certifi\n    - elasticsearch-dsl ~=6.3.1\n    - funcsigs\n    - future\n    - futures\n    - GitPython >=2.1.0\n    - matplotlib-base >=2.1.0,<3.0\n    - mysqlclient >=1.2.5\n    - jinja2\n    - numpy >=1.10.1\n    - pexpect >=4.0.1\n    - psutil >=4.2.0\n    - pyasn1 >0.4.1\n    - pyasn1-modules\n    - pytz >=2015.7\n    - requests >=2.9.1\n    - simplejson >=3.8.1\n    - six >=1.10\n    - sqlalchemy >=1.0.9\n    - stomp.py >=3.1.5\n    - suds-jurko >=0.6\n    - python-json-logger >=0.1.8\n    - tornado >=5.0.0,<6.0.0\n    - cmreshandler >1.0.0b4\n    - rst2pdf >=0.93\n    - multi-mechanize >=1.2.0\n    - asn1\n    - fts-rest\n    - pyGSI\n\ntest:\n  imports:\n    - DIRAC\n  commands:\n    - dirac-jobexec.py --help\n    - $CONDA_PREFIX/scripts/dirac-jobexec --help\n\nabout:\n  home: http://diracgrid.org\n  license: GPL-3.0-or-later\n  license_family: GPL\n  license_file: LICENSE\n  summary: 'Distributed Infrastructure with Remote Agent Control'\n  description: |\n    DIRAC (Distributed Infrastructure with Remote Agent Control) INTERWARE is a\n    software framework for distributed computing providing a complete solution\n    to one or more user community requiring access to distributed resources.\n    DIRAC builds a layer between the users and the resources offering a common\n    interface to a number of heterogeneous providers, integrating them in a\n    seamless manner, providing interoperability, at the same time as an\n    optimized, transparent and reliable usage of the resources.\n\n    DIRAC has been started by the LHCb collaboration who still maintains it. It\n    is now used by several communities (AKA VO=Virtual Organizations) for their\n    distributed computing workflows.\n  doc_url: https://dirac.readthedocs.io/\n  dev_url: https://github.com/DIRACGrid/DIRAC\n\nextra:\n  recipe-maintainers:\n    - chrisburr\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "asn1",
+   "certifi",
+   "cmreshandler",
+   "elasticsearch-dsl",
+   "fts-rest",
+   "funcsigs",
+   "future",
+   "futures",
+   "gitpython",
+   "jinja2",
+   "m2crypto",
+   "matplotlib-base",
+   "multi-mechanize",
+   "mysqlclient",
+   "numpy",
+   "pexpect",
+   "pip",
+   "psutil",
+   "pyasn1",
+   "pyasn1-modules",
+   "pygsi",
+   "python",
+   "python-json-logger",
+   "pytz",
+   "requests",
+   "rst2pdf",
+   "simplejson",
+   "six",
+   "sqlalchemy",
+   "stomp.py",
+   "suds-jurko",
+   "tornado"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "asn1",
+    "certifi",
+    "cmreshandler",
+    "elasticsearch-dsl",
+    "fts-rest",
+    "funcsigs",
+    "future",
+    "futures",
+    "gitpython",
+    "jinja2",
+    "m2crypto",
+    "matplotlib-base",
+    "multi-mechanize",
+    "mysqlclient",
+    "numpy",
+    "pexpect",
+    "psutil",
+    "pyasn1",
+    "pyasn1-modules",
+    "pygsi",
+    "python",
+    "python-json-logger",
+    "pytz",
+    "requests",
+    "rst2pdf",
+    "simplejson",
+    "six",
+    "sqlalchemy",
+    "stomp.py",
+    "suds-jurko",
+    "tornado"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.6.16",
+ "strong_exports":false,
+ "time":1568135309.2978745,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python =2.7"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "GitPython >=2.1.0",
+    "asn1",
+    "certifi",
+    "cmreshandler >1.0.0b4",
+    "elasticsearch-dsl ~=6.3.1",
+    "fts-rest",
+    "funcsigs",
+    "future",
+    "futures",
+    "jinja2",
+    "m2crypto",
+    "matplotlib-base >=2.1.0,<3.0",
+    "multi-mechanize >=1.2.0",
+    "mysqlclient >=1.2.5",
+    "numpy >=1.10.1",
+    "pexpect >=4.0.1",
+    "psutil >=4.2.0",
+    "pyGSI",
+    "pyasn1 >0.4.1",
+    "pyasn1-modules",
+    "python =2.7",
+    "python-json-logger >=0.1.8",
+    "pytz >=2015.7",
+    "requests >=2.9.1",
+    "rst2pdf >=0.93",
+    "simplejson >=3.8.1",
+    "six >=1.10",
+    "sqlalchemy >=1.0.9",
+    "stomp.py >=3.1.5",
+    "suds-jurko >=0.6",
+    "tornado >=5.0.0,<6.0.0"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://github.com/DIRACGrid/DIRAC/archive/v6r22p8.tar.gz",
+ "version":"6.22.21"
+}

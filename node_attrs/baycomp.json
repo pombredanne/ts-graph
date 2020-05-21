@@ -1,0 +1,163 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/375759704.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MatplotlibBase",
+    "migrator_version":0,
+    "name":"matplotlib-to-matplotlib-base"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"baycomp",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"A library for comparing results of predictive models on single\nor multiple data sets using Bayesian approaches. The libary is\nin pure Python, and depends on numpy, scipy and matplotlib.\nThe more advanced hierarchical tests require pystan, which needs\nto be installed separately.\n",
+   "dev_url":"https://github.com/janezd/baycomp",
+   "doc_url":"https://baycomp.readthedocs.io/",
+   "home":"https://github.com/janezd/baycomp",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"LICENSE",
+   "summary":"Library for Bayesian comparison of predictive models"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"1",
+   "script":" -m pip install . -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "janezd",
+    "janezd",
+    "janezd"
+   ]
+  },
+  "package":{
+   "name":"baycomp",
+   "version":"1.0.2"
+  },
+  "requirements":{
+   "host":[
+    "python >=3.6",
+    "pip",
+    "python >=3.6",
+    "pip",
+    "python >=3.6",
+    "pip"
+   ],
+   "run":[
+    "python >=3.6",
+    "scipy",
+    "numpy",
+    "matplotlib-base",
+    "python >=3.6",
+    "scipy",
+    "numpy",
+    "matplotlib-base",
+    "python >=3.6",
+    "scipy",
+    "numpy",
+    "matplotlib-base"
+   ]
+  },
+  "source":{
+   "sha256":"c43472c16bd7cdf4884dd4c73dd307e4a3da7097fe49c83cd5e88d75142923b0",
+   "url":"https://pypi.io/packages/source/b/baycomp/baycomp-1.0.2.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "python -m unittest",
+    "python -m unittest",
+    "python -m unittest"
+   ],
+   "imports":[
+    "baycomp",
+    "baycomp",
+    "baycomp"
+   ]
+  }
+ },
+ "name":"baycomp",
+ "new_version":"1.0.2",
+ "pinning_version":"2020.02.12",
+ "raw_meta_yaml":"{% set name = \"baycomp\" %}\n{% set version = \"1.0.2\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: c43472c16bd7cdf4884dd4c73dd307e4a3da7097fe49c83cd5e88d75142923b0\n\nbuild:\n  noarch: python\n  number: 1\n  script: \"{{ PYTHON }} -m pip install . -vv\"\n\nrequirements:\n  host:\n    - python >=3.6\n    - pip\n  run:\n    - python >=3.6\n    - scipy\n    - numpy\n    - matplotlib-base\n\ntest:\n  imports:\n    - baycomp\n  commands:\n    - python -m unittest\n\nabout:\n  home: https://github.com/janezd/baycomp\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE\n  summary: 'Library for Bayesian comparison of predictive models'\n\n  description: |\n    A library for comparing results of predictive models on single\n    or multiple data sets using Bayesian approaches. The libary is\n    in pure Python, and depends on numpy, scipy and matplotlib.\n    The more advanced hierarchical tests require pystan, which needs\n    to be installed separately.\n  doc_url: https://baycomp.readthedocs.io/\n  dev_url: https://github.com/janezd/baycomp\n\nextra:\n  recipe-maintainers:\n    - janezd\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "matplotlib-base",
+   "numpy",
+   "pip",
+   "python",
+   "scipy"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "matplotlib-base",
+    "numpy",
+    "python",
+    "scipy"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.6.8",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3.6"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "matplotlib-base",
+    "numpy",
+    "python >=3.6",
+    "scipy"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/b/baycomp/baycomp-1.0.2.tar.gz",
+ "version":"1.0.2"
+}

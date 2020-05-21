@@ -1,0 +1,262 @@
+{
+ "PRed":[
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.4.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.4.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/364163239.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.4.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"pycsw",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"https://github.com/geopython/pycsw",
+   "license":"MIT",
+   "license_file":"LICENSE.txt",
+   "summary":"OGC Catalogue Service for the Web (CSW) server implementation written in Python."
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . --no-deps -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "kalxas",
+    "tomkralidis",
+    "ocefpaf",
+    "kalxas",
+    "tomkralidis",
+    "ocefpaf",
+    "kalxas",
+    "tomkralidis",
+    "ocefpaf"
+   ]
+  },
+  "package":{
+   "name":"pycsw",
+   "version":"2.4.2"
+  },
+  "requirements":{
+   "build":[
+    "python",
+    "pip",
+    "python",
+    "pip",
+    "python",
+    "pip"
+   ],
+   "run":[
+    "python",
+    "setuptools",
+    "geolinks >=0.2,<0.3",
+    "lxml >=4.4.0,<5",
+    "owslib >=0.18.0",
+    "pyproj >=2.2.1,<2.3",
+    "shapely >=1.6.4,<1.7",
+    "xmltodict >=0.12.0",
+    "six",
+    "python",
+    "setuptools",
+    "geolinks >=0.2,<0.3",
+    "lxml >=4.4.0,<5",
+    "owslib >=0.18.0",
+    "pyproj >=2.2.1,<2.3",
+    "shapely >=1.6.4,<1.7",
+    "xmltodict >=0.12.0",
+    "six",
+    "python",
+    "setuptools",
+    "geolinks >=0.2,<0.3",
+    "lxml >=4.4.0,<5",
+    "owslib >=0.18.0",
+    "pyproj >=2.2.1,<2.3",
+    "shapely >=1.6.4,<1.7",
+    "xmltodict >=0.12.0",
+    "six"
+   ]
+  },
+  "source":{
+   "patches":[
+    "dont_use_tight_pins.patch",
+    "dont_use_tight_pins.patch",
+    "dont_use_tight_pins.patch"
+   ],
+   "sha256":"16ee9921d07eb79b06a55c3a0abfbecd8f32f06b1738ba0b53e50ac1ec628eb8",
+   "url":"https://pypi.io/packages/source/p/pycsw/pycsw-2.4.2.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "pycsw",
+    "pycsw.core",
+    "pycsw.core.formats",
+    "pycsw.ogc",
+    "pycsw.ogc.csw",
+    "pycsw.ogc.fes",
+    "pycsw.ogc.gml",
+    "pycsw.plugins",
+    "pycsw.plugins.outputschemas",
+    "pycsw.plugins.profiles",
+    "pycsw.plugins.profiles.apiso",
+    "pycsw.plugins.profiles.ebrim",
+    "pycsw.plugins.repository",
+    "pycsw.plugins.repository.odc",
+    "pycsw",
+    "pycsw.core",
+    "pycsw.core.formats",
+    "pycsw.ogc",
+    "pycsw.ogc.csw",
+    "pycsw.ogc.fes",
+    "pycsw.ogc.gml",
+    "pycsw.plugins",
+    "pycsw.plugins.outputschemas",
+    "pycsw.plugins.profiles",
+    "pycsw.plugins.profiles.apiso",
+    "pycsw.plugins.profiles.ebrim",
+    "pycsw.plugins.repository",
+    "pycsw.plugins.repository.odc",
+    "pycsw",
+    "pycsw.core",
+    "pycsw.core.formats",
+    "pycsw.ogc",
+    "pycsw.ogc.csw",
+    "pycsw.ogc.fes",
+    "pycsw.ogc.gml",
+    "pycsw.plugins",
+    "pycsw.plugins.outputschemas",
+    "pycsw.plugins.profiles",
+    "pycsw.plugins.profiles.apiso",
+    "pycsw.plugins.profiles.ebrim",
+    "pycsw.plugins.repository",
+    "pycsw.plugins.repository.odc"
+   ]
+  }
+ },
+ "name":"pycsw",
+ "new_version":"2.4.2",
+ "pinning_version":"2020.01.10",
+ "raw_meta_yaml":"{% set version = \"2.4.2\" %}\n\npackage:\n  name: pycsw\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/p/pycsw/pycsw-{{ version }}.tar.gz\n  sha256: 16ee9921d07eb79b06a55c3a0abfbecd8f32f06b1738ba0b53e50ac1ec628eb8\n  patches:\n    - dont_use_tight_pins.patch\n\nbuild:\n  number: 0\n  noarch: python\n  script: \"{{ PYTHON }} -m pip install . --no-deps -vv\"\n\nrequirements:\n  build:\n    - python\n    - pip\n  run:\n    - python\n    - setuptools\n    - geolinks >=0.2,<0.3\n    - lxml >=4.4.0,<5\n    - owslib >=0.18.0\n    - pyproj >=2.2.1,<2.3\n    - shapely >=1.6.4,<1.7\n    - xmltodict >=0.12.0\n    - six\n    \n\ntest:\n  imports:\n    - pycsw\n    - pycsw.core\n    - pycsw.core.formats\n    - pycsw.ogc\n    - pycsw.ogc.csw\n    - pycsw.ogc.fes\n    - pycsw.ogc.gml\n    - pycsw.plugins\n    - pycsw.plugins.outputschemas\n    - pycsw.plugins.profiles\n    - pycsw.plugins.profiles.apiso\n    - pycsw.plugins.profiles.ebrim\n    - pycsw.plugins.repository\n    - pycsw.plugins.repository.odc\n\nabout:\n  home: https://github.com/geopython/pycsw\n  license: MIT\n  license_file: LICENSE.txt\n  summary: 'OGC Catalogue Service for the Web (CSW) server implementation written in Python.'\n\nextra:\n  recipe-maintainers:\n    - kalxas\n    - tomkralidis\n    - ocefpaf\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "geolinks",
+   "lxml",
+   "owslib",
+   "pip",
+   "pyproj",
+   "python",
+   "setuptools",
+   "shapely",
+   "six",
+   "xmltodict"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "geolinks",
+    "lxml",
+    "owslib",
+    "pyproj",
+    "python",
+    "setuptools",
+    "shapely",
+    "six",
+    "xmltodict"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.6.5",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "geolinks >=0.2,<0.3",
+    "lxml >=4.4.0,<5",
+    "owslib >=0.18.0",
+    "pyproj >=2.2.1,<2.3",
+    "python",
+    "setuptools",
+    "shapely >=1.6.4,<1.7",
+    "six",
+    "xmltodict >=0.12.0"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/p/pycsw/pycsw-2.4.1.tar.gz",
+ "version":"2.4.2"
+}

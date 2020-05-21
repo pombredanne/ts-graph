@@ -1,0 +1,257 @@
+{
+ "PRed":[
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.0.0a2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/219533229.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/277024962.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.1.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/335864742.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"python38"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":{
+  "exception":"unhashable type: 'dict'",
+  "traceback":[
+   "Traceback (most recent call last):",
+   "  File \"/root/repo/cf-scripts/conda_forge_tick/auto_tick.py\", line 834, in main",
+   "    hash_type=attrs.get(\"hash_type\", \"sha256\"),",
+   "  File \"/root/repo/cf-scripts/conda_forge_tick/auto_tick.py\", line 172, in run",
+   "    migrator.run_pre_piggyback_migrations(recipe_dir, feedstock_ctx.attrs, **kwargs)",
+   "  File \"/root/repo/cf-scripts/conda_forge_tick/migrators/core.py\", line 238, in run_pre_piggyback_migrations",
+   "    if not mini_migrator.filter(attrs):",
+   "  File \"/root/repo/cf-scripts/conda_forge_tick/migrators/use_pip.py\", line 24, in filter",
+   "    return not bool(set(self.bad_install) & set(scripts))",
+   "TypeError: unhashable type: 'dict'",
+   ""
+  ]
+ },
+ "conda-forge.yml":{
+  "compiler_stack":"comp7",
+  "max_py_ver":"37",
+  "max_r_ver":"35",
+  "provider":{
+   "win":"azure"
+  }
+ },
+ "feedstock_name":"jobtastic",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"Jobtastic makes your user-responsive long-running Celery jobs totally awesomer.\nCelery is the ubiquitous python job queueing tool and jobtastic is a python\nlibrary that adds useful features to your Celery tasks. Specifically, these are\nfeatures you probably want if the results of your jobs are expensive or if your\nusers need to wait while they compute their results.\n",
+   "dev_url":"http://policystat.github.com/jobtastic",
+   "home":"http://policystat.github.com/jobtastic",
+   "license":"MIT",
+   "license_file":"LICENSE",
+   "summary":"Make your user-facing Celery jobs totally awesomer"
+  },
+  "build":{
+   "number":"0",
+   "script":[
+    {
+     "script":" -m pip install . --no-deps -vv"
+    },
+    {
+     "script":" -m pip install . --no-deps -vv"
+    },
+    {
+     "script":" -m pip install . --no-deps -vv"
+    }
+   ],
+   "skip":true
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "sodre",
+    "sodre",
+    "sodre"
+   ]
+  },
+  "package":{
+   "name":"jobtastic",
+   "version":"2.1.1"
+  },
+  "requirements":{
+   "build":[
+    "python",
+    "pip",
+    "python",
+    "pip",
+    "python",
+    "pip"
+   ],
+   "run":[
+    "python",
+    "psutil >=3.0,<4",
+    "celery >=3.1,<5",
+    "python",
+    "psutil >=3.0,<4",
+    "celery >=3.1,<5",
+    "python",
+    "psutil >=3.0,<4",
+    "celery >=3.1,<5"
+   ]
+  },
+  "source":{
+   "fn":"jobtastic-2.1.1.tar.gz",
+   "sha256":"74ec5789d889b10909066da99a225d97b667143f0e7060fbadbc69117a2a4a8e",
+   "url":"https://github.com/PolicyStat/jobtastic/archive/v2.1.1.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "jobtastic",
+    "jobtastic",
+    "jobtastic"
+   ],
+   "requires":[
+    "django >=1.4,<2",
+    "django-celery >=3.0,<4",
+    "django-nose",
+    "mock",
+    "django >=1.4,<2",
+    "django-celery >=3.0,<4",
+    "django-nose",
+    "mock",
+    "django >=1.4,<2",
+    "django-celery >=3.0,<4",
+    "django-nose",
+    "mock"
+   ]
+  }
+ },
+ "name":"jobtastic",
+ "new_version":"2.1.1",
+ "pinning_version":"2019.11.01",
+ "raw_meta_yaml":"{% set name = \"jobtastic\" %}\n{% set version = \"2.1.1\" %}\n{% set hash_type = \"sha256\" %}\n{% set hash_val = \"74ec5789d889b10909066da99a225d97b667143f0e7060fbadbc69117a2a4a8e\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  fn: {{ name }}-{{ version }}.tar.gz\n  url: https://github.com/PolicyStat/{{ name }}/archive/v{{ version }}.tar.gz\n  {{hash_type}}: {{ hash_val }}\n\nbuild:\n  skip: true\n  number: 0\n  script: \n    - script: \"{{ PYTHON }} -m pip install . --no-deps -vv\"\n    \nrequirements:\n  build:\n    - python\n    - pip\n \n  run:\n    - python\n    - psutil >=3.0,<4\n    - celery >=3.1,<5\n\ntest:\n  imports:\n    - jobtastic\n\n  requires:\n    - django >=1.4,<2\n    - django-celery >=3.0,<4\n    - django-nose\n    - mock\n    - unittest2  # [py26]\n\nabout:\n  home: http://policystat.github.com/jobtastic\n  license: MIT \n  license_file: LICENSE\n  summary: 'Make your user-facing Celery jobs totally awesomer'\n\n  description: |\n    Jobtastic makes your user-responsive long-running Celery jobs totally awesomer. \n    Celery is the ubiquitous python job queueing tool and jobtastic is a python \n    library that adds useful features to your Celery tasks. Specifically, these are\n    features you probably want if the results of your jobs are expensive or if your \n    users need to wait while they compute their results.\n  dev_url: http://policystat.github.com/jobtastic\n\nextra:\n  recipe-maintainers:\n    - sodre\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "celery",
+   "pip",
+   "psutil",
+   "python"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "celery",
+    "psutil",
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "django",
+    "django-celery",
+    "django-nose",
+    "mock"
+   ]
+  }
+ },
+ "smithy_version":"3.6.1",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "celery >=3.1,<5",
+    "psutil >=3.0,<4",
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "django >=1.4,<2",
+    "django-celery >=3.0,<4",
+    "django-nose",
+    "mock"
+   ]
+  }
+ },
+ "url":"https://github.com/PolicyStat/jobtastic/archive/v2.1.1.tar.gz",
+ "version":"2.1.1"
+}

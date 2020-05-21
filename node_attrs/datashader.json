@@ -1,0 +1,388 @@
+{
+ "PRed":[
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.6.6"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/214580658.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.6.8"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/248585628.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.6.9"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/268072047.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.7.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/325987099.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.8.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/350365123.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.9.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/365598866.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.10.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"datashader",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"Datashader is a data rasterization pipeline for automating the process of\ncreating meaningful representations of large amounts of data.\n",
+   "dev_url":"https://github.com/pyviz/datashader",
+   "doc_url":"http://datashader.org",
+   "home":"http://datashader.org",
+   "license":"BSD-3-Clause",
+   "license_family":"BSD",
+   "license_file":"LICENSE.txt",
+   "summary":"Data visualization toolchain based on aggregating into a grid"
+  },
+  "build":{
+   "entry_points":[
+    "datashader = datashader.__main__:main",
+    "datashader = datashader.__main__:main",
+    "datashader = datashader.__main__:main"
+   ],
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "jbednar",
+    "ocefpaf",
+    "philippjfr",
+    "jsignell",
+    "jbednar",
+    "ocefpaf",
+    "philippjfr",
+    "jsignell",
+    "jbednar",
+    "ocefpaf",
+    "philippjfr",
+    "jsignell"
+   ]
+  },
+  "package":{
+   "name":"datashader",
+   "version":"0.10.0"
+  },
+  "requirements":{
+   "host":[
+    "python",
+    "pip",
+    "param >=1.6.1",
+    "pyct-core >=0.4.5",
+    "python",
+    "pip",
+    "param >=1.6.1",
+    "pyct-core >=0.4.5",
+    "python",
+    "pip",
+    "param >=1.6.1",
+    "pyct-core >=0.4.5"
+   ],
+   "run":[
+    "python >=2.7",
+    "bokeh",
+    "colorcet >=0.9.0",
+    "dask >=0.18.0",
+    "datashape >=0.5.1",
+    "numba >=0.37.0",
+    "numpy >=1.7",
+    "pandas >=0.20.3",
+    "param >=1.6.1",
+    "pillow >=3.1.1",
+    "pyct >=0.4.5",
+    "scikit-image",
+    "scipy",
+    "toolz >=0.7.4",
+    "xarray >=0.9.6",
+    "python >=2.7",
+    "bokeh",
+    "colorcet >=0.9.0",
+    "dask >=0.18.0",
+    "datashape >=0.5.1",
+    "numba >=0.37.0",
+    "numpy >=1.7",
+    "pandas >=0.20.3",
+    "param >=1.6.1",
+    "pillow >=3.1.1",
+    "pyct >=0.4.5",
+    "scikit-image",
+    "scipy",
+    "toolz >=0.7.4",
+    "xarray >=0.9.6",
+    "python >=2.7",
+    "bokeh",
+    "colorcet >=0.9.0",
+    "dask >=0.18.0",
+    "datashape >=0.5.1",
+    "numba >=0.37.0",
+    "numpy >=1.7",
+    "pandas >=0.20.3",
+    "param >=1.6.1",
+    "pillow >=3.1.1",
+    "pyct >=0.4.5",
+    "scikit-image",
+    "scipy",
+    "toolz >=0.7.4",
+    "xarray >=0.9.6"
+   ]
+  },
+  "source":{
+   "sha256":"207a72afc7262e261c10e079e681d29b707cc7447f0dc6dc63d78adb665e8d0c",
+   "url":"https://pypi.io/packages/source/d/datashader/datashader-0.10.0.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "pytest --pyargs --doctest-modules --doctest-ignore-import-errors datashader",
+    "datashader copy-examples --path=. --force",
+    "pytest --nbsmoke-run -k \".ipynb\" getting_started/2_Pipeline.ipynb",
+    "pytest --pyargs --doctest-modules --doctest-ignore-import-errors datashader",
+    "datashader copy-examples --path=. --force",
+    "pytest --nbsmoke-run -k \".ipynb\" getting_started/2_Pipeline.ipynb",
+    "pytest --pyargs --doctest-modules --doctest-ignore-import-errors datashader",
+    "datashader copy-examples --path=. --force",
+    "pytest --nbsmoke-run -k \".ipynb\" getting_started/2_Pipeline.ipynb"
+   ],
+   "imports":[
+    "datashader",
+    "datashader",
+    "datashader"
+   ],
+   "requires":[
+    "fastparquet >=0.1.6",
+    "flake8",
+    "nbsmoke >=0.2.6",
+    "pytest >=3.9.3",
+    "pytest-benchmark >=3.0.0",
+    "fastparquet >=0.1.6",
+    "flake8",
+    "nbsmoke >=0.2.6",
+    "pytest >=3.9.3",
+    "pytest-benchmark >=3.0.0",
+    "fastparquet >=0.1.6",
+    "flake8",
+    "nbsmoke >=0.2.6",
+    "pytest >=3.9.3",
+    "pytest-benchmark >=3.0.0"
+   ]
+  }
+ },
+ "name":"datashader",
+ "new_version":"0.10.0",
+ "pinning_version":"2020.01.16",
+ "raw_meta_yaml":"{% set version = \"0.10.0\" %}\n\npackage:\n  name: datashader\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/d/datashader/datashader-{{ version }}.tar.gz\n  sha256: 207a72afc7262e261c10e079e681d29b707cc7447f0dc6dc63d78adb665e8d0c\n\nbuild:\n  number: 0\n  noarch: python\n  script: \"{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv\"\n  entry_points:\n    - datashader = datashader.__main__:main\n\nrequirements:\n  host:\n    - python\n    - pip\n    - param >=1.6.1\n    - pyct-core >=0.4.5\n  run:\n    - python >=2.7\n    - bokeh\n    - colorcet >=0.9.0\n    - dask >=0.18.0\n    - datashape >=0.5.1\n    - numba >=0.37.0\n    - numpy >=1.7\n    - pandas >=0.20.3\n    - param >=1.6.1\n    - pillow >=3.1.1\n    - pyct >=0.4.5\n    - scikit-image\n    - scipy\n    - toolz >=0.7.4\n    - xarray >=0.9.6\n\ntest:\n  requires:\n    - fastparquet >=0.1.6\n    - flake8\n    - nbsmoke >=0.2.6\n    - pytest >=3.9.3\n    - pytest-benchmark >=3.0.0\n  imports:\n    - datashader\n  commands:\n    - pytest --pyargs --doctest-modules --doctest-ignore-import-errors datashader\n    - datashader copy-examples --path=. --force\n    # just run one notebook for now; increase in the future if notebooks can be run quickly with test/tiny data\n    - pytest --nbsmoke-run -k \".ipynb\" getting_started/2_Pipeline.ipynb\n\nabout:\n  home: http://datashader.org\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: LICENSE.txt\n  summary: 'Data visualization toolchain based on aggregating into a grid'\n  description: |\n    Datashader is a data rasterization pipeline for automating the process of\n    creating meaningful representations of large amounts of data.\n  doc_url: http://datashader.org\n  dev_url: https://github.com/pyviz/datashader\n\nextra:\n  recipe-maintainers:\n    - jbednar\n    - ocefpaf\n    - philippjfr\n    - jsignell\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "bokeh",
+   "colorcet",
+   "dask",
+   "datashape",
+   "numba",
+   "numpy",
+   "pandas",
+   "param",
+   "pillow",
+   "pip",
+   "pyct",
+   "pyct-core",
+   "python",
+   "scikit-image",
+   "scipy",
+   "toolz",
+   "xarray"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "param",
+    "pip",
+    "pyct-core",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "bokeh",
+    "colorcet",
+    "dask",
+    "datashape",
+    "numba",
+    "numpy",
+    "pandas",
+    "param",
+    "pillow",
+    "pyct",
+    "python",
+    "scikit-image",
+    "scipy",
+    "toolz",
+    "xarray"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "fastparquet",
+    "flake8",
+    "nbsmoke",
+    "pytest",
+    "pytest-benchmark"
+   ]
+  }
+ },
+ "smithy_version":"3.6.5",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "param >=1.6.1",
+    "pip",
+    "pyct-core >=0.4.5",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "bokeh",
+    "colorcet >=0.9.0",
+    "dask >=0.18.0",
+    "datashape >=0.5.1",
+    "numba >=0.37.0",
+    "numpy >=1.7",
+    "pandas >=0.20.3",
+    "param >=1.6.1",
+    "pillow >=3.1.1",
+    "pyct >=0.4.5",
+    "python >=2.7",
+    "scikit-image",
+    "scipy",
+    "toolz >=0.7.4",
+    "xarray >=0.9.6"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "fastparquet >=0.1.6",
+    "flake8",
+    "nbsmoke >=0.2.6",
+    "pytest >=3.9.3",
+    "pytest-benchmark >=3.0.0"
+   ]
+  }
+ },
+ "url":"https://pypi.io/packages/source/d/datashader/datashader-0.7.0.tar.gz",
+ "version":"0.10.0"
+}

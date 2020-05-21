@@ -1,0 +1,6 @@
+{
+ "bad":"Upstream: Error getting upstream version",
+ "feedstock_name":"fast-cdr",
+ "new_version":false,
+ "raw_meta_yaml":"{% set name = \"fast-cdr\" %}\n{% set version = \"1.0.12\" %}\n{% set major_minor_version = version.split('.')[0] + '.' + version.split('.')[1] %}\n\npackage:\n  name: {{ name }}\n  version: {{ version }}\n\nsource:\n  - url: https://github.com/eProsima/Fast-CDR/archive/v{{ version }}.tar.gz\n    sha256: c8a856b93b57129b024649ba4d12ad732b720829e6285b4db2b0df51a7d78747\n\nbuild:\n  number: 0\n  skip: true  # [win and vc<14 or unix]\n  run_exports:\n    - {{ pin_subpackage(name, max_pin='x.x') }}\n\nrequirements:\n  build:\n    - {{ compiler('cxx') }}\n    - {{ compiler('c') }}\n    - cmake\n    - ninja\n    - pkg-config\n\ntest:\n  commands:\n    - if not exist %LIBRARY_PREFIX%\\\\bin\\\\fastcdr-{{ major_minor_version }}.dll exit 1  # [win]\n\nabout:\n  home: https://github.com/eProsima/Fast-CDR\n  license: Apache-2.0\n  license_file: LICENSE\n  summary: |\n    eProsima FastCDR\n\nextra:\n  recipe-maintainers:\n    - seanyen\n"
+}

@@ -1,0 +1,369 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/344119930.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"python38"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/358452282.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.15.0.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/377681956.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"boost172"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/44e425ee-415c-4f0d-8027-b4bb20df04da.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":2,
+    "migrator_version":0,
+    "name":"boost172"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/392500882.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"pypy"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"uhd",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"UHD is the free & open-source software driver and API for the Universal\nSoftware Radio Peripheral (USRP(TM)) SDR platform, created and sold by\nEttus Research. UHD supports all Ettus Research USRP(TM) hardware,\nincluding all motherboards and daughterboards, and the combinations thereof.\n",
+   "dev_url":"https://github.com/EttusResearch/uhd",
+   "doc_url":"https://files.ettus.com/manual/",
+   "home":"httsp://github.com/EttusResearch/uhd",
+   "license":"GPL-3.0-only",
+   "license_family":"GPL",
+   "license_file":"host/LICENSE",
+   "summary":"Software driver and API for the Ettus Research USRP SDR platform"
+  },
+  "build":{
+   "number":"2",
+   "run_exports":[
+    "uhd",
+    "uhd",
+    "uhd"
+   ]
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "ryanvolz",
+    "ryanvolz",
+    "ryanvolz"
+   ]
+  },
+  "package":{
+   "name":"uhd",
+   "version":"3.15.0.0"
+  },
+  "requirements":{
+   "build":[
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "cmake >=3.5.1",
+    "jom",
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "cmake >=3.5.1",
+    "make",
+    "pkg-config",
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "cmake >=3.5.1",
+    "cdt_stub",
+    "make",
+    "pkg-config"
+   ],
+   "host":[
+    "boost-cpp",
+    "libusb >=1",
+    "mako >=0.5.0",
+    "numpy",
+    "python",
+    "requests",
+    "setuptools",
+    "boost-cpp",
+    "libusb >=1",
+    "mako >=0.5.0",
+    "ncurses",
+    "numpy",
+    "python",
+    "requests",
+    "setuptools",
+    "boost-cpp",
+    "libusb >=1",
+    "mako >=0.5.0",
+    "ncurses",
+    "numpy",
+    "python",
+    "requests",
+    "setuptools"
+   ],
+   "run":[
+    "boost-cpp",
+    "numpy",
+    "python",
+    "requests",
+    "boost-cpp",
+    "ncurses",
+    "numpy",
+    "python",
+    "requests",
+    "boost-cpp",
+    "ncurses",
+    "numpy",
+    "python",
+    "requests"
+   ]
+  },
+  "source":{
+   "patches":[
+    "0001-lib-utils-Don-t-use-hard-coded-path-constants.patch",
+    "0001-python-Fix-internal-library-name-incl.-suffix-to-mat.patch",
+    "0002-python-Do-not-link-against-python-lib-for-building-a.patch",
+    "0003-python-Set-python-module-suffix-to-conform-with-PEP-.patch",
+    "0004-Fix-build-RPATH-remaining-on-installed-libpyuhd-by-n.patch",
+    "0001-lib-Make-sure-generated-file-is-closed-when-writing-.patch",
+    "0001-lib-utils-Don-t-use-hard-coded-path-constants.patch",
+    "0001-python-Fix-internal-library-name-incl.-suffix-to-mat.patch",
+    "0002-python-Do-not-link-against-python-lib-for-building-a.patch",
+    "0003-python-Set-python-module-suffix-to-conform-with-PEP-.patch",
+    "0004-Fix-build-RPATH-remaining-on-installed-libpyuhd-by-n.patch",
+    "0001-lib-Make-sure-generated-file-is-closed-when-writing-.patch",
+    "0001-lib-utils-Don-t-use-hard-coded-path-constants.patch",
+    "0001-python-Fix-internal-library-name-incl.-suffix-to-mat.patch",
+    "0002-python-Do-not-link-against-python-lib-for-building-a.patch",
+    "0003-python-Set-python-module-suffix-to-conform-with-PEP-.patch",
+    "0004-Fix-build-RPATH-remaining-on-installed-libpyuhd-by-n.patch",
+    "0001-lib-Make-sure-generated-file-is-closed-when-writing-.patch"
+   ],
+   "sha256":"eed4a77d75faafff56be78985950039f8d9d1eb9fcbd58b8862e481dd49825cd",
+   "url":"https://github.com/EttusResearch/uhd/archive/v3.15.0.0.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "where uhd_cal_rx_iq_balance",
+    "where uhd_cal_tx_dc_offset",
+    "where uhd_cal_tx_iq_balance",
+    "where uhd_config_info",
+    "where uhd_find_devices",
+    "where uhd_image_loader",
+    "where uhd_usrp_probe",
+    "where uhd_images_downloader",
+    "where usrp2_card_burner",
+    "uhd_config_info --print-all",
+    "command -v uhd_cal_rx_iq_balance",
+    "command -v uhd_cal_tx_dc_offset",
+    "command -v uhd_cal_tx_iq_balance",
+    "command -v uhd_config_info",
+    "command -v uhd_find_devices",
+    "command -v uhd_image_loader",
+    "command -v uhd_usrp_probe",
+    "command -v uhd_images_downloader",
+    "command -v usrp2_card_burner",
+    "test -f $PREFIX/lib/libuhd${SHLIB_EXT}",
+    "uhd_config_info --print-all",
+    "uhd_find_devices || (($? < 128))",
+    "command -v uhd_cal_rx_iq_balance",
+    "command -v uhd_cal_tx_dc_offset",
+    "command -v uhd_cal_tx_iq_balance",
+    "command -v uhd_config_info",
+    "command -v uhd_find_devices",
+    "command -v uhd_image_loader",
+    "command -v uhd_usrp_probe",
+    "command -v uhd_images_downloader",
+    "command -v usrp2_card_burner",
+    "test -f $PREFIX/lib/libuhd${SHLIB_EXT}",
+    "uhd_config_info --print-all",
+    "uhd_find_devices || (($? < 128))"
+   ],
+   "imports":[
+    "uhd",
+    "uhd",
+    "uhd"
+   ]
+  }
+ },
+ "name":"uhd",
+ "new_version":"3.15.0.0",
+ "pinning_version":"2020.03.23",
+ "raw_meta_yaml":"{% set version = \"3.15.0.0\" %}\n\npackage:\n  name: uhd\n  version: {{ version }}\n\nsource:\n  url: https://github.com/EttusResearch/uhd/archive/v{{ version }}.tar.gz\n  sha256: eed4a77d75faafff56be78985950039f8d9d1eb9fcbd58b8862e481dd49825cd\n  patches:\n    - 0001-lib-utils-Don-t-use-hard-coded-path-constants.patch\n    - 0001-python-Fix-internal-library-name-incl.-suffix-to-mat.patch\n    - 0002-python-Do-not-link-against-python-lib-for-building-a.patch\n    - 0003-python-Set-python-module-suffix-to-conform-with-PEP-.patch\n    - 0004-Fix-build-RPATH-remaining-on-installed-libpyuhd-by-n.patch\n    - 0001-lib-Make-sure-generated-file-is-closed-when-writing-.patch\n\nbuild:\n  number: 2\n  run_exports:\n    - {{ pin_subpackage('uhd', min_pin='x.x.x', max_pin='x.x.x') }}\n  # windows requires vs2015+ to build and therefore can't build against py2k\n  skip: True  # [win and py2k]\n\nrequirements:\n  build:\n    - {{ compiler('c') }}\n    - {{ compiler('cxx') }}\n    - cmake >=3.5.1\n    - jom  # [win]\n    - {{ cdt('libudev-devel') }}  # [linux]\n    - make  # [not win]\n    - pkg-config  # [not win]\n\n  host:\n    - boost-cpp\n    - libusb >=1\n    - mako >=0.5.0\n    - ncurses  # [not win]\n    - numpy\n    - python\n    - requests\n    - setuptools\n\n  run:\n    - boost-cpp\n    - ncurses  # [not win]\n    - {{ pin_compatible('numpy') }}\n    - python\n    - requests\n\ntest:\n  commands:\n    # verify CLI tools\n    {% set uhd_cmds = [\n        \"uhd_cal_rx_iq_balance\",\n        \"uhd_cal_tx_dc_offset\",\n        \"uhd_cal_tx_iq_balance\",\n        \"uhd_config_info\",\n        \"uhd_find_devices\",\n        \"uhd_image_loader\",\n        \"uhd_usrp_probe\",\n    ] %}\n    {% set uhd_cmds = uhd_cmds + [\"uhd_images_downloader\", \"usrp2_card_burner\"] %}  # [linux]\n    {% for each_cmd in uhd_cmds %}\n    - command -v {{ each_cmd }}  # [unix]\n    - where {{ each_cmd }}  # [win]\n    {% endfor %}\n\n    # verify libraries\n    {% set uhd_lib = \"uhd\" %}\n    - test -f $PREFIX/lib/lib{{ uhd_lib }}${SHLIB_EXT}  # [unix]\n\n    # run select commands\n    - uhd_config_info --print-all\n    - uhd_find_devices || (($? < 128))  # [unix]\n\n  imports:\n    - uhd\n\nabout:\n  home: httsp://github.com/EttusResearch/uhd\n  license: GPL-3.0-only\n  license_family: GPL\n  license_file: host/LICENSE\n  summary: 'Software driver and API for the Ettus Research USRP SDR platform'\n  description: |\n    UHD is the free & open-source software driver and API for the Universal\n    Software Radio Peripheral (USRP(TM)) SDR platform, created and sold by\n    Ettus Research. UHD supports all Ettus Research USRP(TM) hardware,\n    including all motherboards and daughterboards, and the combinations thereof.\n  doc_url: https://files.ettus.com/manual/\n  dev_url: https://github.com/EttusResearch/uhd\n\nextra:\n  recipe-maintainers:\n    - ryanvolz\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "boost-cpp",
+   "c_compiler_stub",
+   "cdt_stub",
+   "cmake",
+   "cxx_compiler_stub",
+   "jom",
+   "libusb",
+   "make",
+   "mako",
+   "ncurses",
+   "numpy",
+   "pkg-config",
+   "python",
+   "requests",
+   "setuptools"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "cdt_stub",
+    "cmake",
+    "cxx_compiler_stub",
+    "jom",
+    "make",
+    "pkg-config"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "boost-cpp",
+    "libusb",
+    "mako",
+    "ncurses",
+    "numpy",
+    "python",
+    "requests",
+    "setuptools"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "boost-cpp",
+    "ncurses",
+    "numpy",
+    "python",
+    "requests"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.6.15",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "cdt_stub",
+    "cmake >=3.5.1",
+    "cxx_compiler_stub",
+    "jom",
+    "make",
+    "pkg-config"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "boost-cpp",
+    "libusb >=1",
+    "mako >=0.5.0",
+    "ncurses",
+    "numpy",
+    "python",
+    "requests",
+    "setuptools"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "boost-cpp",
+    "ncurses",
+    "numpy",
+    "python",
+    "requests"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://github.com/EttusResearch/uhd/archive/v3.14.1.1.tar.gz",
+ "version":"3.15.0.0"
+}

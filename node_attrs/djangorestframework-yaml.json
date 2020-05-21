@@ -1,0 +1,169 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/409207997.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.0.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "bot":{
+   "automerge":true
+  }
+ },
+ "feedstock_name":"djangorestframework-yaml",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"https://github.com/jpadilla/django-rest-framework-yaml",
+   "license":"BSD-3-Clause",
+   "license_file":"LICENSE",
+   "summary":"YAML support for Django REST Framework"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":"-m pip install . -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "ocefpaf",
+    "ocefpaf",
+    "ocefpaf"
+   ]
+  },
+  "package":{
+   "name":"djangorestframework-yaml",
+   "version":"2.0.0"
+  },
+  "requirements":{
+   "build":[
+    "python >=3.5",
+    "pip",
+    "pyyaml >=3.10",
+    "python >=3.5",
+    "pip",
+    "pyyaml >=3.10",
+    "python >=3.5",
+    "pip",
+    "pyyaml >=3.10"
+   ],
+   "run":[
+    "python >=3.5",
+    "pyyaml >=3.10",
+    "python >=3.5",
+    "pyyaml >=3.10",
+    "python >=3.5",
+    "pyyaml >=3.10"
+   ]
+  },
+  "source":{
+   "sha256":"1b2cfd7482425f3c6924a8eb803d6f73276e76b03293cd7144c755753e029f15",
+   "url":"https://pypi.io/packages/source/d/djangorestframework-yaml/djangorestframework-yaml-2.0.0.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "pip check",
+    "pip check",
+    "pip check"
+   ],
+   "imports":[
+    "rest_framework_yaml",
+    "rest_framework_yaml",
+    "rest_framework_yaml"
+   ],
+   "requires":[
+    "pip",
+    "pip",
+    "pip"
+   ]
+  }
+ },
+ "name":"djangorestframework-yaml",
+ "new_version":"2.0.0",
+ "new_version_attempts":{
+  "2.0.0":1
+ },
+ "new_version_errors":{},
+ "pinning_version":"2020.04.26.19.17.14",
+ "raw_meta_yaml":"{% set version = \"2.0.0\" %}\n\npackage:\n  name: djangorestframework-yaml\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/d/djangorestframework-yaml/djangorestframework-yaml-{{ version }}.tar.gz\n  sha256: 1b2cfd7482425f3c6924a8eb803d6f73276e76b03293cd7144c755753e029f15\n\nbuild:\n  number: 0\n  noarch: python\n  script: {{ PYTHON }} -m pip install . -vv\n\nrequirements:\n  build:\n    - python >=3.5\n    - pip\n    - pyyaml >=3.10\n\n  run:\n    - python >=3.5\n    - pyyaml >=3.10\n\ntest:\n  imports:\n    - rest_framework_yaml\n  commands:\n    - pip check\n  requires:\n    - pip\n\n\nabout:\n  home: https://github.com/jpadilla/django-rest-framework-yaml\n  license: BSD-3-Clause\n  license_file: LICENSE\n  summary: YAML support for Django REST Framework\n\nextra:\n  recipe-maintainers:\n    - ocefpaf\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "pip",
+   "python",
+   "pyyaml"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python",
+    "pyyaml"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "python",
+    "pyyaml"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "pip"
+   ]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.6.17",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3.5",
+    "pyyaml >=3.10"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "python >=3.5",
+    "pyyaml >=3.10"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "pip"
+   ]
+  }
+ },
+ "url":"https://pypi.io/packages/source/d/djangorestframework-yaml/djangorestframework-yaml-1.0.3.tar.gz",
+ "version":"2.0.0"
+}

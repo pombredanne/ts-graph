@@ -1,0 +1,644 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/247817396.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.27.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.27.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.27.3"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/267887258.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.28.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/268272844.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.28.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/270280953.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.28.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/270310127.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.28.3"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/278071866.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.29.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/292512156.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.30.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/305230667.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.30.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/315964365.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.31.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/325988179.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.31.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/337795334.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.32.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/339443645.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"python38"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/377853739.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.32.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/378311498.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.32.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/382594035.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.32.3"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "provider":{
+   "win":"azure"
+  }
+ },
+ "feedstock_name":"fsleyes",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "dev_url":"https://git.fmrib.ox.ac.uk/fsl/fsleyes/fsleyes/",
+   "home":"https://git.fmrib.ox.ac.uk/fsl/fsleyes/fsleyes/",
+   "license":"Apache-2.0",
+   "license_family":"Apache",
+   "license_file":"LICENSE",
+   "summary":"The FSL image viewer"
+  },
+  "app":{
+   "entry":"fsleyes",
+   "icon":"logo.png",
+   "summary":"The FSL image viewer",
+   "type":"desk"
+  },
+  "build":{
+   "entry_points":[
+    "render             = fsleyes.render:main",
+    "fsleyes_unfiltered = fsleyes.main:main",
+    "fsleyes            = fsleyes.filtermain:main",
+    "render             = fsleyes.render:main",
+    "fsleyes_unfiltered = fsleyes.main:main",
+    "fsleyes            = fsleyes.filtermain:main",
+    "render             = fsleyes.render:main",
+    "fsleyes_unfiltered = fsleyes.main:main",
+    "fsleyes            = fsleyes.filtermain:main"
+   ],
+   "number":"0",
+   "osx_is_app":true
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "pauldmccarthy",
+    "pauldmccarthy",
+    "pauldmccarthy"
+   ]
+  },
+  "package":{
+   "name":"fsleyes",
+   "version":"0.32.3"
+  },
+  "requirements":{
+   "host":[
+    "python",
+    "pip",
+    "sphinx >=1.7",
+    "sphinx_rtd_theme",
+    "mock",
+    "python",
+    "pip",
+    "sphinx >=1.7",
+    "sphinx_rtd_theme",
+    "mock",
+    "python",
+    "pip",
+    "sphinx >=1.7",
+    "sphinx_rtd_theme",
+    "mock"
+   ],
+   "run":[
+    "python",
+    "freeglut",
+    "fslpy >=2.8",
+    "fsleyes-props >=1.6.7",
+    "fsleyes-widgets >=0.8.4",
+    "jinja2 2.*",
+    "matplotlib-base >=1.5",
+    "nibabel >=2.3",
+    "numpy >=1.14",
+    "pillow >=3.2.0",
+    "pyopengl >=3.1.0",
+    "pyparsing 2.*",
+    "scipy >=0.18",
+    "six 1.*",
+    "trimesh >=2.37.29",
+    "rtree >=0.8.3.*",
+    "wxpython >=4",
+    "xnat >=0.3.3",
+    "wxnatpy >=0.3.0",
+    "indexed_gzip >=0.7",
+    "ipykernel >=4.8",
+    "ipython >=5",
+    "jupyter_client >=5.2",
+    "notebook >=5.5",
+    "pyzmq >=17.0",
+    "tornado >=5.0",
+    "dcm2niix 1.0.20181114",
+    "python",
+    "python.app",
+    "tk !=8.6.9",
+    "fslpy >=2.8",
+    "fsleyes-props >=1.6.7",
+    "fsleyes-widgets >=0.8.4",
+    "jinja2 2.*",
+    "matplotlib-base >=1.5",
+    "nibabel >=2.3",
+    "numpy >=1.14",
+    "pillow >=3.2.0",
+    "pyopengl >=3.1.0",
+    "pyparsing 2.*",
+    "scipy >=0.18",
+    "six 1.*",
+    "trimesh >=2.37.29",
+    "rtree >=0.8.3.*",
+    "wxpython >=4",
+    "xnat >=0.3.3",
+    "wxnatpy >=0.3.0",
+    "indexed_gzip >=0.7",
+    "ipykernel >=4.8",
+    "ipython >=5",
+    "jupyter_client >=5.2",
+    "notebook >=5.5",
+    "pyzmq >=17.0",
+    "tornado >=5.0",
+    "dcm2niix 1.0.20181114",
+    "python",
+    "freeglut",
+    "fslpy >=2.8",
+    "fsleyes-props >=1.6.7",
+    "fsleyes-widgets >=0.8.4",
+    "jinja2 2.*",
+    "matplotlib-base >=1.5",
+    "nibabel >=2.3",
+    "numpy >=1.14",
+    "pillow >=3.2.0",
+    "pyopengl >=3.1.0",
+    "pyparsing 2.*",
+    "scipy >=0.18",
+    "six 1.*",
+    "trimesh >=2.37.29",
+    "rtree >=0.8.3.*",
+    "wxpython >=4",
+    "xnat >=0.3.3",
+    "wxnatpy >=0.3.0",
+    "indexed_gzip >=0.7",
+    "ipykernel >=4.8",
+    "ipython >=5",
+    "jupyter_client >=5.2",
+    "notebook >=5.5",
+    "pyzmq >=17.0",
+    "tornado >=5.0",
+    "dcm2niix 1.0.20181114"
+   ]
+  },
+  "source":{
+   "patches":[
+    "logging.patch",
+    "logging.patch",
+    "logging.patch"
+   ],
+   "sha256":"9fd5cb142be394547192d8fc16f5558f4b3f24998ea4a1bfd3b9bf486742f49a",
+   "url":"https://pypi.io/packages/source/f/fsleyes/fsleyes-0.32.3.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "fsleyes -V",
+    "fsleyes -h",
+    "fsleyes -V",
+    "fsleyes -h",
+    "fsleyes -V",
+    "fsleyes -h"
+   ],
+   "imports":[
+    "fsleyes",
+    "fsleyes.actions",
+    "fsleyes.displaycontext",
+    "fsleyes.editor",
+    "fsleyes.gl",
+    "fsleyes.controls",
+    "fsleyes.plotting",
+    "fsleyes.profiles",
+    "fsleyes.views",
+    "fsleyes",
+    "fsleyes.actions",
+    "fsleyes.displaycontext",
+    "fsleyes.editor",
+    "fsleyes.gl",
+    "fsleyes.controls",
+    "fsleyes.plotting",
+    "fsleyes.profiles",
+    "fsleyes.views",
+    "fsleyes",
+    "fsleyes.actions",
+    "fsleyes.displaycontext",
+    "fsleyes.editor",
+    "fsleyes.gl",
+    "fsleyes.controls",
+    "fsleyes.plotting",
+    "fsleyes.profiles",
+    "fsleyes.views"
+   ]
+  }
+ },
+ "name":"fsleyes",
+ "new_version":"0.32.3",
+ "pinning_version":"2020.02.20",
+ "raw_meta_yaml":"{% set version = \"0.32.3\" %}\n\npackage:\n  name: fsleyes\n  version: {{ version }}\n\n\nsource:\n  url: https://pypi.io/packages/source/f/fsleyes/fsleyes-{{ version }}.tar.gz\n  sha256: 9fd5cb142be394547192d8fc16f5558f4b3f24998ea4a1bfd3b9bf486742f49a\n  patches:\n    - logging.patch\n\nbuild:\n  number: 0\n  skip: true  # [py27]\n  osx_is_app: true\n  entry_points:\n    - render             = fsleyes.render:main\n    - fsleyes_unfiltered = fsleyes.main:main\n    - fsleyes            = fsleyes.filtermain:main\n\n\nrequirements:\n  host:\n    - python\n    - pip\n    - sphinx >=1.7\n    - sphinx_rtd_theme\n    - mock\n  run:\n    - python\n    - python.app  # [osx]\n    - tk !=8.6.9  # [osx]\n    - freeglut    # [linux or win]\n    - fslpy >=2.8\n    - fsleyes-props >=1.6.7\n    - fsleyes-widgets >=0.8.4\n    - jinja2 2.*\n    - matplotlib-base >=1.5\n    - nibabel >=2.3\n    - numpy >=1.14\n    - pillow >=3.2.0\n    - pyopengl >=3.1.0\n    - pyparsing 2.*\n    - scipy >=0.18\n    - six 1.*\n    - trimesh >=2.37.29\n    - rtree >=0.8.3.*\n    - wxpython >=4\n    - xnat >=0.3.3\n    - wxnatpy >=0.3.0\n    - indexed_gzip >=0.7\n    - ipykernel >=4.8\n    - ipython >=5\n    - jupyter_client >=5.2\n    - notebook >=5.5\n    - pyzmq >=17.0\n    - tornado >=5.0\n    - dcm2niix 1.0.20181114\n\ntest:\n  imports:\n    - fsleyes\n    - fsleyes.actions\n    - fsleyes.displaycontext\n    - fsleyes.editor\n    - fsleyes.gl\n    - fsleyes.controls\n    - fsleyes.plotting\n    - fsleyes.profiles\n    - fsleyes.views\n  commands:\n    - fsleyes -V\n    - fsleyes -h\n\napp:\n  entry: fsleyes\n  summary: The FSL image viewer\n  type: desk\n  icon: logo.png\n\nabout:\n  home: https://git.fmrib.ox.ac.uk/fsl/fsleyes/fsleyes/\n  license: Apache-2.0\n  license_family: Apache\n  license_file: LICENSE\n  summary: The FSL image viewer\n  dev_url: https://git.fmrib.ox.ac.uk/fsl/fsleyes/fsleyes/\n\nextra:\n  recipe-maintainers:\n    - pauldmccarthy\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "dcm2niix",
+   "freeglut",
+   "fsleyes-props",
+   "fsleyes-widgets",
+   "fslpy",
+   "indexed_gzip",
+   "ipykernel",
+   "ipython",
+   "jinja2",
+   "jupyter_client",
+   "matplotlib-base",
+   "mock",
+   "nibabel",
+   "notebook",
+   "numpy",
+   "pillow",
+   "pip",
+   "pyopengl",
+   "pyparsing",
+   "python",
+   "python.app",
+   "pyzmq",
+   "rtree",
+   "scipy",
+   "six",
+   "sphinx",
+   "sphinx_rtd_theme",
+   "tk",
+   "tornado",
+   "trimesh",
+   "wxnatpy",
+   "wxpython",
+   "xnat"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "mock",
+    "pip",
+    "python",
+    "sphinx",
+    "sphinx_rtd_theme"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "dcm2niix",
+    "freeglut",
+    "fsleyes-props",
+    "fsleyes-widgets",
+    "fslpy",
+    "indexed_gzip",
+    "ipykernel",
+    "ipython",
+    "jinja2",
+    "jupyter_client",
+    "matplotlib-base",
+    "nibabel",
+    "notebook",
+    "numpy",
+    "pillow",
+    "pyopengl",
+    "pyparsing",
+    "python",
+    "python.app",
+    "pyzmq",
+    "rtree",
+    "scipy",
+    "six",
+    "tk",
+    "tornado",
+    "trimesh",
+    "wxnatpy",
+    "wxpython",
+    "xnat"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.6.8",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "mock",
+    "pip",
+    "python",
+    "sphinx >=1.7",
+    "sphinx_rtd_theme"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "dcm2niix 1.0.20181114",
+    "freeglut",
+    "fsleyes-props >=1.6.7",
+    "fsleyes-widgets >=0.8.4",
+    "fslpy >=2.8",
+    "indexed_gzip >=0.7",
+    "ipykernel >=4.8",
+    "ipython >=5",
+    "jinja2 2.*",
+    "jupyter_client >=5.2",
+    "matplotlib-base >=1.5",
+    "nibabel >=2.3",
+    "notebook >=5.5",
+    "numpy >=1.14",
+    "pillow >=3.2.0",
+    "pyopengl >=3.1.0",
+    "pyparsing 2.*",
+    "python",
+    "python.app",
+    "pyzmq >=17.0",
+    "rtree >=0.8.3.*",
+    "scipy >=0.18",
+    "six 1.*",
+    "tk !=8.6.9",
+    "tornado >=5.0",
+    "trimesh >=2.37.29",
+    "wxnatpy >=0.3.0",
+    "wxpython >=4",
+    "xnat >=0.3.3"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/f/fsleyes/fsleyes-0.30.1.tar.gz",
+ "version":"0.32.3"
+}

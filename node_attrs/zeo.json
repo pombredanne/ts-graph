@@ -1,0 +1,254 @@
+{
+ "PRed":[
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"5.2.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"5.2.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"zeo",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "dev_url":"https://github.com/zopefoundation/ZEO",
+   "doc_url":"https://github.com/zopefoundation/ZEO",
+   "home":"https://github.com/zopefoundation/ZEO",
+   "license":"ZPL 2.1",
+   "license_family":"OTHER",
+   "license_file":"LICENSE.txt",
+   "summary":"ZEO - Single-server client-server database server for ZODB"
+  },
+  "build":{
+   "entry_points":[
+    "zeopack=ZEO.scripts.zeopack:main",
+    "runzeo=ZEO.runzeo:main",
+    "zeoctl=ZEO.zeoctl:main",
+    "zeo-nagios=ZEO.nagios:main",
+    "zeopack=ZEO.scripts.zeopack:main",
+    "runzeo=ZEO.runzeo:main",
+    "zeoctl=ZEO.zeoctl:main",
+    "zeo-nagios=ZEO.nagios:main",
+    "zeopack=ZEO.scripts.zeopack:main",
+    "runzeo=ZEO.runzeo:main",
+    "zeoctl=ZEO.zeoctl:main",
+    "zeo-nagios=ZEO.nagios:main"
+   ],
+   "noarch":"python",
+   "number":"0",
+   "preserve_egg_dir":true,
+   "script":"python setup.py install --single-version-externally-managed --record=record.txt"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "pmlandwehr",
+    "pmlandwehr",
+    "pmlandwehr"
+   ]
+  },
+  "package":{
+   "name":"zeo",
+   "version":"5.2.0"
+  },
+  "requirements":{
+   "build":[
+    "python",
+    "setuptools",
+    "python",
+    "setuptools",
+    "python",
+    "setuptools"
+   ],
+   "run":[
+    "python",
+    "setuptools",
+    "zodb >=5.1.1",
+    "six",
+    "transaction >=2.0.3",
+    "persistent >=4.1.0",
+    "zc.lockfile",
+    "zconfig",
+    "zdaemon",
+    "zope.interface",
+    "msgpack-python",
+    "python",
+    "setuptools",
+    "zodb >=5.1.1",
+    "six",
+    "transaction >=2.0.3",
+    "persistent >=4.1.0",
+    "zc.lockfile",
+    "zconfig",
+    "zdaemon",
+    "zope.interface",
+    "msgpack-python",
+    "python",
+    "setuptools",
+    "zodb >=5.1.1",
+    "six",
+    "transaction >=2.0.3",
+    "persistent >=4.1.0",
+    "zc.lockfile",
+    "zconfig",
+    "zdaemon",
+    "zope.interface",
+    "msgpack-python"
+   ]
+  },
+  "source":{
+   "fn":"ZEO-5.2.0.tar.gz",
+   "sha256":"4c1a9fc01114382e58b7ae21135fe0c222f214bf680ad073d5fdccaaaccd6e57",
+   "url":"https://pypi.io/packages/source/Z/ZEO/ZEO-5.2.0.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "runzeo --help",
+    "zeoctl --help",
+    "zeo-nagios --help",
+    "runzeo --help",
+    "zeoctl --help",
+    "zeo-nagios --help",
+    "runzeo --help",
+    "zeoctl --help",
+    "zeo-nagios --help"
+   ],
+   "imports":[
+    "ZEO",
+    "ZEO.asyncio",
+    "ZEO.scripts",
+    "ZEO.tests",
+    "ZEO.tests.ZEO4",
+    "ZEO.tests.ZEO4.auth",
+    "ZEO.tests.ZEO4.zrpc",
+    "ZEO",
+    "ZEO.asyncio",
+    "ZEO.scripts",
+    "ZEO.tests",
+    "ZEO.tests.ZEO4",
+    "ZEO.tests.ZEO4.auth",
+    "ZEO.tests.ZEO4.zrpc",
+    "ZEO",
+    "ZEO.asyncio",
+    "ZEO.scripts",
+    "ZEO.tests",
+    "ZEO.tests.ZEO4",
+    "ZEO.tests.ZEO4.auth",
+    "ZEO.tests.ZEO4.zrpc"
+   ]
+  }
+ },
+ "name":"zeo",
+ "new_version":"5.2.1",
+ "pinning_version":"2019.01.29",
+ "raw_meta_yaml":"{% set name = \"ZEO\" %}\n{% set version = \"5.2.0\" %}\n{% set bundle = \"tar.gz\" %}\n{% set hash_type = \"sha256\" %}\n{% set hash = \"4c1a9fc01114382e58b7ae21135fe0c222f214bf680ad073d5fdccaaaccd6e57\" %}\n\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  fn: {{ name }}-{{ version }}.{{ bundle }}\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.{{ bundle }}\n  {{ hash_type }}: {{ hash }}\n\nbuild:\n  preserve_egg_dir: True\n  entry_points:\n    - zeopack=ZEO.scripts.zeopack:main\n    - runzeo=ZEO.runzeo:main\n    - zeoctl=ZEO.zeoctl:main\n    - zeo-nagios=ZEO.nagios:main\n  number: 0\n  script: python setup.py install --single-version-externally-managed --record=record.txt\n  noarch: python\n\nrequirements:\n  build:\n    - python\n    - setuptools\n\n  run:\n    - python\n    - setuptools\n    - trollius  # [py2k]\n    - futures  # [py2k]\n    - zodb >=5.1.1\n    - six\n    - transaction >=2.0.3\n    - persistent >=4.1.0\n    - zc.lockfile\n    - zconfig\n    - zdaemon\n    - zope.interface\n    - msgpack-python\n\ntest:\n  imports:\n    - ZEO\n    - ZEO.asyncio\n    - ZEO.scripts\n    - ZEO.tests\n    - ZEO.tests.ZEO4\n    - ZEO.tests.ZEO4.auth\n    - ZEO.tests.ZEO4.zrpc\n\n  commands:\n    # no --help option for zeopack: - zeopack --help\n    - runzeo --help\n    - zeoctl --help\n    - zeo-nagios --help\n\nabout:\n  home: https://github.com/zopefoundation/ZEO\n  license_file: LICENSE.txt\n  license: ZPL 2.1\n  license_family: OTHER\n  summary: 'ZEO - Single-server client-server database server for ZODB'\n  dev_url: https://github.com/zopefoundation/ZEO\n  doc_url: https://github.com/zopefoundation/ZEO\n\nextra:\n  recipe-maintainers:\n    - pmlandwehr\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "msgpack-python",
+   "persistent",
+   "python",
+   "setuptools",
+   "six",
+   "transaction",
+   "zc.lockfile",
+   "zconfig",
+   "zdaemon",
+   "zodb",
+   "zope.interface"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "python",
+    "setuptools"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "msgpack-python",
+    "persistent",
+    "python",
+    "setuptools",
+    "six",
+    "transaction",
+    "zc.lockfile",
+    "zconfig",
+    "zdaemon",
+    "zodb",
+    "zope.interface"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.2.13",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "python",
+    "setuptools"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "msgpack-python",
+    "persistent >=4.1.0",
+    "python",
+    "setuptools",
+    "six",
+    "transaction >=2.0.3",
+    "zc.lockfile",
+    "zconfig",
+    "zdaemon",
+    "zodb >=5.1.1",
+    "zope.interface"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/Z/ZEO/ZEO-5.2.0.tar.gz",
+ "version":"5.2.0"
+}

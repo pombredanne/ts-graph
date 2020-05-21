@@ -1,0 +1,160 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/379330475.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.11.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"python-barcode",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "dev_url":"http://github.com/WhyNotHugo/python-barcode",
+   "home":"http://github.com/WhyNotHugo/python-barcode",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"LICENCE",
+   "summary":"This library provides a simple way to create barcodes using only the Python standard lib"
+  },
+  "build":{
+   "entry_points":[
+    "python-barcode = barcode.pybarcode:main",
+    "python-barcode = barcode.pybarcode:main",
+    "python-barcode = barcode.pybarcode:main"
+   ],
+   "noarch":"python",
+   "number":"0",
+   "script":"-m pip install . -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "sodre",
+    "sodre",
+    "sodre"
+   ]
+  },
+  "package":{
+   "name":"python-barcode",
+   "version":"0.11.0"
+  },
+  "requirements":{
+   "host":[
+    "python >=3.5",
+    "pip",
+    "setuptools_scm",
+    "python >=3.5",
+    "pip",
+    "setuptools_scm",
+    "python >=3.5",
+    "pip",
+    "setuptools_scm"
+   ],
+   "run":[
+    "python",
+    "pillow",
+    "python",
+    "pillow",
+    "python",
+    "pillow"
+   ]
+  },
+  "source":{
+   "sha256":"5f3f9b3c03a373e8f7cd78e21cc847bedbce161f411da1fc56b9c6c13938920c",
+   "url":"https://pypi.io/packages/source/p/python-barcode/python-barcode-0.11.0.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "python-barcode --help",
+    "python-barcode --help",
+    "python-barcode --help"
+   ],
+   "imports":[
+    "barcode",
+    "barcode",
+    "barcode"
+   ]
+  }
+ },
+ "name":"python-barcode",
+ "new_version":"0.11.0",
+ "pinning_version":"2020.02.20",
+ "raw_meta_yaml":"{% set name = \"python-barcode\" %}\n{% set version = \"0.11.0\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: 5f3f9b3c03a373e8f7cd78e21cc847bedbce161f411da1fc56b9c6c13938920c\n\nbuild:\n  noarch: python\n  number: 0\n  script: {{ PYTHON }} -m pip install . -vv\n  entry_points:\n    - python-barcode = barcode.pybarcode:main\n\n\nrequirements:\n  host:\n    - python >=3.5\n    - pip\n    - setuptools_scm\n  run:\n    - python\n    - pillow\n\ntest:\n  commands:\n    - python-barcode --help\n  imports:\n    - barcode\n\nabout:\n  home: http://github.com/WhyNotHugo/python-barcode\n  license: MIT\n  license_family: MIT\n  license_file: LICENCE\n  summary: This library provides a simple way to create barcodes using only the Python standard lib\n  dev_url: http://github.com/WhyNotHugo/python-barcode\n\nextra:\n  recipe-maintainers:\n    - sodre\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "pillow",
+   "pip",
+   "python",
+   "setuptools_scm"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python",
+    "setuptools_scm"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "pillow",
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.6.8",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3.5",
+    "setuptools_scm"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "pillow",
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/p/python-barcode/python-barcode-0.10.0.tar.gz",
+ "version":"0.11.0"
+}

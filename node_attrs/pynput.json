@@ -1,0 +1,194 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/402341322.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"python38"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"pynput",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "dev_url":"https://github.com/moses-palmer/pynput",
+   "doc_url":"https://pynput.readthedocs.io/en/latest/",
+   "home":"https://github.com/moses-palmer/pynput",
+   "license":"LGPL-3.0-only",
+   "license_family":"LGPL",
+   "license_file":"LICENSE",
+   "summary":"This library allows you to control and monitor input devices."
+  },
+  "build":{
+   "number":"0"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "ndmaxar",
+    "rluria14",
+    "oblute",
+    "ndmaxar",
+    "rluria14",
+    "oblute",
+    "ndmaxar",
+    "rluria14",
+    "oblute"
+   ]
+  },
+  "package":{
+   "name":"pynput",
+   "version":"1.6.8"
+  },
+  "requirements":{
+   "host":[
+    "python",
+    "pip",
+    "setuptools-lint >=0.5",
+    "sphinx",
+    "wrapt 1.11.*",
+    "python",
+    "pip",
+    "setuptools-lint >=0.5",
+    "sphinx",
+    "wrapt 1.11.*",
+    "python",
+    "pip",
+    "setuptools-lint >=0.5",
+    "sphinx",
+    "wrapt 1.11.*"
+   ],
+   "run":[
+    "python",
+    "six",
+    "setuptools-lint >=0.5",
+    "sphinx",
+    "wrapt 1.11.*",
+    "python-xlib",
+    "python",
+    "six",
+    "setuptools-lint >=0.5",
+    "sphinx",
+    "wrapt 1.11.*",
+    "python-xlib",
+    "pyobjc-framework-quartz",
+    "python",
+    "six",
+    "setuptools-lint >=0.5",
+    "sphinx",
+    "wrapt 1.11.*",
+    "python-xlib"
+   ]
+  },
+  "source":{
+   "sha256":"68c1863d6a1520b44b6a915e866cbfa1b8d127aef9289f25183c93e28ee5049a",
+   "url":"https://pypi.io/packages/source/p/pynput/pynput-1.6.8.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "bash -c \"DISPLAY=:1 python -c 'import pynput'\"",
+    "bash -c \"DISPLAY=:1 python -c 'import pynput'\"",
+    "bash -c \"DISPLAY=:1 python -c 'import pynput'\""
+   ]
+  }
+ },
+ "name":"pynput",
+ "new_version":"1.6.8",
+ "pinning_version":"2020.04.10.23.07.47",
+ "raw_meta_yaml":"{% set name = \"pynput\" %}\n{% set version = \"1.6.8\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: 68c1863d6a1520b44b6a915e866cbfa1b8d127aef9289f25183c93e28ee5049a\n\nbuild:\n  number: 0\n\nrequirements:\n  host:\n    - python\n    - pip\n    - setuptools-lint >=0.5\n    - sphinx \n    - wrapt 1.11.*\n  run:\n    - python \n    - six\n    - setuptools-lint >=0.5\n    - sphinx\n    - wrapt 1.11.*\n    - python-xlib\n    - pyobjc-framework-quartz  # [osx]\n\ntest:\n  commands:\n    - bash -c \"DISPLAY=:1 python -c 'import pynput'\"\n\nabout:\n  home: https://github.com/moses-palmer/pynput\n  license: LGPL-3.0-only\n  license_family: LGPL\n  license_file: LICENSE # no license file packaged with source, issue here: https://github.com/moses-palmer/pynput/issues/241\n  summary: 'This library allows you to control and monitor input devices.'\n  doc_url: https://pynput.readthedocs.io/en/latest/\n  dev_url: https://github.com/moses-palmer/pynput\n\nextra:\n  recipe-maintainers:\n    - ndmaxar\n    - rluria14\n    - oblute\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "pip",
+   "pyobjc-framework-quartz",
+   "python",
+   "python-xlib",
+   "setuptools-lint",
+   "six",
+   "sphinx",
+   "wrapt"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python",
+    "setuptools-lint",
+    "sphinx",
+    "wrapt"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "pyobjc-framework-quartz",
+    "python",
+    "python-xlib",
+    "setuptools-lint",
+    "six",
+    "sphinx",
+    "wrapt"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.6.16",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python",
+    "setuptools-lint >=0.5",
+    "sphinx",
+    "wrapt 1.11.*"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "pyobjc-framework-quartz",
+    "python",
+    "python-xlib",
+    "setuptools-lint >=0.5",
+    "six",
+    "sphinx",
+    "wrapt 1.11.*"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/p/pynput/pynput-1.6.8.tar.gz",
+ "version":"1.6.8"
+}

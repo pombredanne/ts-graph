@@ -1,0 +1,201 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/199967246.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Noarch",
+    "migrator_version":0
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/215819645.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"4.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"rsa",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"https://stuvel.eu/rsa",
+   "license":"Apache 2.0",
+   "license_family":"APACHE",
+   "license_file":"LICENSE",
+   "summary":"Pure-Python RSA implementation"
+  },
+  "build":{
+   "entry_points":[
+    "pyrsa-priv2pub = rsa.util:private_to_public",
+    "pyrsa-keygen = rsa.cli:keygen",
+    "pyrsa-encrypt = rsa.cli:encrypt",
+    "pyrsa-decrypt = rsa.cli:decrypt",
+    "pyrsa-sign = rsa.cli:sign",
+    "pyrsa-verify = rsa.cli:verify",
+    "pyrsa-priv2pub = rsa.util:private_to_public",
+    "pyrsa-keygen = rsa.cli:keygen",
+    "pyrsa-encrypt = rsa.cli:encrypt",
+    "pyrsa-decrypt = rsa.cli:decrypt",
+    "pyrsa-sign = rsa.cli:sign",
+    "pyrsa-verify = rsa.cli:verify",
+    "pyrsa-priv2pub = rsa.util:private_to_public",
+    "pyrsa-keygen = rsa.cli:keygen",
+    "pyrsa-encrypt = rsa.cli:encrypt",
+    "pyrsa-decrypt = rsa.cli:decrypt",
+    "pyrsa-sign = rsa.cli:sign",
+    "pyrsa-verify = rsa.cli:verify"
+   ],
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . --no-deps --ignore-installed -vv "
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "pmlandwehr",
+    "dbast",
+    "pmlandwehr",
+    "dbast",
+    "pmlandwehr",
+    "dbast"
+   ]
+  },
+  "package":{
+   "name":"rsa",
+   "version":"4.0"
+  },
+  "requirements":{
+   "host":[
+    "pip",
+    "python",
+    "pip",
+    "python",
+    "pip",
+    "python"
+   ],
+   "run":[
+    "pyasn1 >=0.1.3",
+    "python",
+    "pyasn1 >=0.1.3",
+    "python",
+    "pyasn1 >=0.1.3",
+    "python"
+   ]
+  },
+  "source":{
+   "sha256":"1a836406405730121ae9823e19c6e806c62bbad73f890574fff50efa4122c487",
+   "url":"https://pypi.io/packages/source/r/rsa/rsa-4.0.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "pyrsa-priv2pub --help",
+    "pyrsa-keygen --help",
+    "pyrsa-encrypt --help",
+    "pyrsa-decrypt --help",
+    "pyrsa-sign --help",
+    "pyrsa-verify --help",
+    "pyrsa-priv2pub --help",
+    "pyrsa-keygen --help",
+    "pyrsa-encrypt --help",
+    "pyrsa-decrypt --help",
+    "pyrsa-sign --help",
+    "pyrsa-verify --help",
+    "pyrsa-priv2pub --help",
+    "pyrsa-keygen --help",
+    "pyrsa-encrypt --help",
+    "pyrsa-decrypt --help",
+    "pyrsa-sign --help",
+    "pyrsa-verify --help"
+   ],
+   "imports":[
+    "rsa",
+    "rsa",
+    "rsa"
+   ]
+  }
+ },
+ "name":"rsa",
+ "new_version":"4.0",
+ "pinning_version":"2018.09.11",
+ "raw_meta_yaml":"{% set name = \"rsa\" %}\n{% set version = \"4.0\" %}\n\npackage:\n  name: \"{{ name|lower }}\"\n  version: \"{{ version }}\"\n\nsource:\n  url: \"https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\"\n  sha256: \"1a836406405730121ae9823e19c6e806c62bbad73f890574fff50efa4122c487\"\n\nbuild:\n  number: 0\n  entry_points:\n    - pyrsa-priv2pub = rsa.util:private_to_public\n    - pyrsa-keygen = rsa.cli:keygen\n    - pyrsa-encrypt = rsa.cli:encrypt\n    - pyrsa-decrypt = rsa.cli:decrypt\n    - pyrsa-sign = rsa.cli:sign\n    - pyrsa-verify = rsa.cli:verify\n  noarch: \"python\"\n  script: \"{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv \"\n\nrequirements:\n  host:\n    - pip\n    - python\n  run:\n    - pyasn1 >=0.1.3\n    - python\n\ntest:\n  imports:\n    - rsa\n  commands:\n    - pyrsa-priv2pub --help\n    - pyrsa-keygen --help\n    - pyrsa-encrypt --help\n    - pyrsa-decrypt --help\n    - pyrsa-sign --help\n    - pyrsa-verify --help\n\nabout:\n  home: https://stuvel.eu/rsa\n  license: Apache 2.0\n  license_family: APACHE\n  license_file: LICENSE\n  summary: 'Pure-Python RSA implementation'\n\nextra:\n  recipe-maintainers:\n    - pmlandwehr\n    - dbast\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "pip",
+   "pyasn1",
+   "python"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "pyasn1",
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.1.12",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "pyasn1 >=0.1.3",
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/r/rsa/rsa-4.0.tar.gz",
+ "version":"4.0"
+}

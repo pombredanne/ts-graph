@@ -1,0 +1,141 @@
+{
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"advbumpversion",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"A small command line tool to simplify releasing software by updating all\nversion strings in your source code by the correct increment. Also creates\ncommits and tags:\n\n* version formats are highly configurable\n* works without any VCS, but happily reads tag information from and writes\n  commits and tags to Git and Mercurial if available\n* just handles text files, so it's not specific to any programming language\n",
+   "dev_url":"https://github.com/andrivet/advbumpversion",
+   "doc_url":"https://github.com/andrivet/advbumpversion",
+   "home":"https://github.com/andrivet/advbumpversion",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"LICENSE.rst",
+   "summary":"Version-bump your software with a single command!"
+  },
+  "build":{
+   "entry_points":[
+    "bumpversion = bumpversion:main",
+    "bump2version = bumpversion:main",
+    "advbumpversion = bumpversion:main",
+    "bumpversion = bumpversion:main",
+    "bump2version = bumpversion:main",
+    "advbumpversion = bumpversion:main",
+    "bumpversion = bumpversion:main",
+    "bump2version = bumpversion:main",
+    "advbumpversion = bumpversion:main"
+   ],
+   "noarch":"python",
+   "number":"0",
+   "script":"python -m pip install --no-deps --ignore-installed ."
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "kynan",
+    "kynan",
+    "kynan"
+   ]
+  },
+  "package":{
+   "name":"advbumpversion",
+   "version":"1.2.0"
+  },
+  "requirements":{
+   "host":[
+    "python",
+    "pip",
+    "python",
+    "pip",
+    "python",
+    "pip"
+   ],
+   "run":[
+    "python",
+    "python",
+    "python"
+   ]
+  },
+  "source":{
+   "sha256":"a605d545ca4153c38b82c994729b1bc11b7d23bff4226e45440bbbc1881df8a5",
+   "url":"https://pypi.io/packages/source/a/advbumpversion/advbumpversion-1.2.0.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "bumpversion -h",
+    "bump2version -h",
+    "advbumpversion -h",
+    "bumpversion -h",
+    "bump2version -h",
+    "advbumpversion -h",
+    "bumpversion -h",
+    "bump2version -h",
+    "advbumpversion -h"
+   ],
+   "imports":[
+    "bumpversion",
+    "bumpversion",
+    "bumpversion"
+   ]
+  }
+ },
+ "name":"advbumpversion",
+ "new_version":"1.2.0",
+ "raw_meta_yaml":"{% set name = \"advbumpversion\" %}\n{% set version = \"1.2.0\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: a605d545ca4153c38b82c994729b1bc11b7d23bff4226e45440bbbc1881df8a5\n\nbuild:\n  noarch: python\n  number: 0\n  script: python -m pip install --no-deps --ignore-installed .\n  entry_points:\n    - bumpversion = bumpversion:main\n    - bump2version = bumpversion:main\n    - advbumpversion = bumpversion:main\n\nrequirements:\n  host:\n    - python\n    - pip\n  run:\n    - python\n\ntest:\n  # Cannot run tests since they're not installed with the package and\n  # conda-build runs tests in an isolated environment\n  # requires:\n  #   - pytest\n  #   - mock\n  # commands:\n  #   - py.test\n  imports:\n    - bumpversion\n  commands:\n    - bumpversion -h\n    - bump2version -h\n    - advbumpversion -h\n\nabout:\n  home: https://github.com/andrivet/advbumpversion\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE.rst\n  summary: 'Version-bump your software with a single command!'\n\n  description: |\n    A small command line tool to simplify releasing software by updating all\n    version strings in your source code by the correct increment. Also creates\n    commits and tags:\n\n    * version formats are highly configurable\n    * works without any VCS, but happily reads tag information from and writes\n      commits and tags to Git and Mercurial if available\n    * just handles text files, so it's not specific to any programming language\n  doc_url: https://github.com/andrivet/advbumpversion\n  dev_url: https://github.com/andrivet/advbumpversion\n\nextra:\n  recipe-maintainers:\n    - kynan\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "pip",
+   "python"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/a/advbumpversion/advbumpversion-1.2.0.tar.gz",
+ "version":"1.2.0"
+}

@@ -1,0 +1,352 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/262688458.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"BlasRebuild",
+    "migrator_version":0,
+    "name":"blas2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/283455685.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Rebuild",
+    "migrator_version":0,
+    "name":"boost-cpp-1.70.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/285764163.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Rebuild",
+    "migrator_version":0,
+    "name":"hdf5-1.10.5"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/336109642.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"python38"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":"Upstream: Error getting upstream version",
+ "conda-forge.yml":{},
+ "feedstock_name":"cyclus-build-deps",
+ "meta_yaml":{
+  "about":{
+   "home":"http://fuelcycle.org",
+   "license":"BSD 3-clause",
+   "summary":"Build dependency metapackage for Cyclus."
+  },
+  "build":{
+   "features":null,
+   "number":"6",
+   "skip":true
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "scopatz",
+    "gonuke",
+    "bam241",
+    "FlanFlanagan",
+    "katyhuff",
+    "scopatz",
+    "gonuke",
+    "bam241",
+    "FlanFlanagan",
+    "katyhuff",
+    "scopatz",
+    "gonuke",
+    "bam241",
+    "FlanFlanagan",
+    "katyhuff"
+   ]
+  },
+  "package":{
+   "name":"cyclus-build-deps",
+   "version":"1.5.3"
+  },
+  "requirements":{
+   "host":[
+    "python",
+    "python",
+    "python"
+   ],
+   "run":[
+    "python",
+    "glibmm 2.48",
+    "glib",
+    "libxml2",
+    "libxmlpp",
+    "python",
+    "make",
+    "cmake",
+    "libblas",
+    "libcblas",
+    "liblapack",
+    "pkg-config",
+    "libxmlpp",
+    "coincbc",
+    "boost-cpp 1.66.0",
+    "hdf5",
+    "sqlite 3.*",
+    "pcre",
+    "gettext",
+    "bzip2 1.0.*",
+    "xz 5.2.*",
+    "setuptools",
+    "nose",
+    "pytables",
+    "pandas",
+    "jinja2",
+    "cython 0.26",
+    "websockets",
+    "pprintpp",
+    "python",
+    "glibmm 2.48",
+    "glib",
+    "libxml2",
+    "libxmlpp",
+    "python",
+    "make",
+    "cmake",
+    "libblas",
+    "libcblas",
+    "liblapack",
+    "pkg-config",
+    "libxmlpp",
+    "coincbc",
+    "boost-cpp 1.66.0",
+    "hdf5",
+    "sqlite 3.*",
+    "pcre",
+    "gettext",
+    "bzip2 1.0.*",
+    "xz 5.2.*",
+    "setuptools",
+    "nose",
+    "pytables",
+    "pandas",
+    "jinja2",
+    "cython 0.26",
+    "websockets",
+    "pprintpp",
+    "python",
+    "glibmm 2.48",
+    "glib",
+    "libxml2",
+    "libxmlpp",
+    "python",
+    "make",
+    "cmake",
+    "libblas",
+    "libcblas",
+    "liblapack",
+    "pkg-config",
+    "libxmlpp",
+    "coincbc",
+    "boost-cpp 1.66.0",
+    "hdf5",
+    "sqlite 3.*",
+    "pcre",
+    "gettext",
+    "bzip2 1.0.*",
+    "xz 5.2.*",
+    "setuptools",
+    "nose",
+    "pytables",
+    "pandas",
+    "jinja2",
+    "cython 0.26",
+    "websockets",
+    "pprintpp"
+   ]
+  },
+  "test":{
+   "commands":[
+    "test \"!\" -f \"${PREFIX}/lib/cyclus.so\"",
+    "test -f \"${PREFIX}/lib/libblas.so\"",
+    "test -f \"${PREFIX}/lib/liblapack.so\"",
+    "test -f \"${PREFIX}/lib/libhdf5.so\""
+   ]
+  }
+ },
+ "name":"cyclus-build-deps",
+ "new_version":false,
+ "pinning_version":"2019.11.01",
+ "raw_meta_yaml":"{% set name = \"cyclus-build-deps\" %}\n{% set version = \"1.5.3\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nbuild:\n  number: 6\n  skip: true  # [win or py37]\n  features:\n\nrequirements:\n  host:\n    - python\n  run:\n    - python\n    - glibmm 2.48\n    - glib \n    - libxml2 \n    - libxmlpp\n    - python\n    - make\n    - cmake\n    - libblas\n    - libcblas\n    - liblapack\n    - pkg-config\n    - libxmlpp\n    - coincbc\n    - boost-cpp 1.66.0\n    - hdf5 \n    - sqlite 3.*\n    - pcre\n    - gettext\n    - bzip2 1.0.*\n    - xz 5.2.*\n    - setuptools\n    - nose\n    - pytables\n    - pandas\n    - jinja2\n    - cython 0.26\n    - websockets  # [py3k]\n    - pprintpp\n\ntest:\n  commands:\n    - test \"!\" -f \"${PREFIX}/lib/cyclus.so\"  # [linux]\n    - test -f \"${PREFIX}/lib/libblas.so\"  # [linux]\n    - test -f \"${PREFIX}/lib/liblapack.so\"  # [linux]\n    - test -f \"${PREFIX}/lib/libhdf5.so\"  # [linux]\n    - test \"!\" -f \"${PREFIX}/lib/cyclus.dylib\"  # [osx]\n    - test -f \"${PREFIX}/lib/libblas.dylib\"  # [osx]\n    - test -f \"${PREFIX}/lib/liblapack.dylib\"  # [osx]\n    - test -f \"${PREFIX}/lib/libhdf5.dylib\"  # [osx]\n\nabout:\n  home: http://fuelcycle.org\n  license: BSD 3-clause\n  summary: 'Build dependency metapackage for Cyclus.'\n\nextra:\n  recipe-maintainers:\n    - scopatz\n    - gonuke\n    - bam241\n    - FlanFlanagan\n    - katyhuff\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "boost-cpp",
+   "bzip2",
+   "cmake",
+   "coincbc",
+   "cython",
+   "gettext",
+   "glib",
+   "glibmm",
+   "hdf5",
+   "jinja2",
+   "libblas",
+   "libcblas",
+   "liblapack",
+   "libxml2",
+   "libxmlpp",
+   "make",
+   "nose",
+   "pandas",
+   "pcre",
+   "pkg-config",
+   "pprintpp",
+   "pytables",
+   "python",
+   "setuptools",
+   "sqlite",
+   "websockets",
+   "xz"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "boost-cpp",
+    "bzip2",
+    "cmake",
+    "coincbc",
+    "cython",
+    "gettext",
+    "glib",
+    "glibmm",
+    "hdf5",
+    "jinja2",
+    "libblas",
+    "libcblas",
+    "liblapack",
+    "libxml2",
+    "libxmlpp",
+    "make",
+    "nose",
+    "pandas",
+    "pcre",
+    "pkg-config",
+    "pprintpp",
+    "pytables",
+    "python",
+    "setuptools",
+    "sqlite",
+    "websockets",
+    "xz"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.6.1",
+ "strong_exports":false,
+ "time":1568135272.098491,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "boost-cpp 1.66.0",
+    "bzip2 1.0.*",
+    "cmake",
+    "coincbc",
+    "cython 0.26",
+    "gettext",
+    "glib",
+    "glibmm 2.48",
+    "hdf5",
+    "jinja2",
+    "libblas",
+    "libcblas",
+    "liblapack",
+    "libxml2",
+    "libxmlpp",
+    "make",
+    "nose",
+    "pandas",
+    "pcre",
+    "pkg-config",
+    "pprintpp",
+    "pytables",
+    "python",
+    "setuptools",
+    "sqlite 3.*",
+    "websockets",
+    "xz 5.2.*"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "version":"1.5.3"
+}

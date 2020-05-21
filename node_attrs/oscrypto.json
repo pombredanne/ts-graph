@@ -1,0 +1,139 @@
+{
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"oscrypto",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"A compilation-free, always up-to-date encryption library for Python\nthat works on Windows, OS X, Linux and BSD.\nSupports the following versions of\nPython: 2.6, 2.7, 3.2, 3.3, 3.4, 3.5, 3.6, 3.7, 3.8 and pypy.\n",
+   "dev_url":"https://github.com/wbond/oscrypto",
+   "doc_url":"https://github.com/wbond/oscrypto/blob/master/docs/readme.md",
+   "home":"https://github.com/wbond/oscrypto",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"LICENSE",
+   "summary":"Compiler-free Python crypto library backed by the OS, supporting CPython and PyPy"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "talues",
+    "talues",
+    "talues"
+   ]
+  },
+  "package":{
+   "name":"oscrypto",
+   "version":"1.2.0"
+  },
+  "requirements":{
+   "host":[
+    "python",
+    "pip",
+    "python",
+    "pip",
+    "python",
+    "pip"
+   ],
+   "run":[
+    "python",
+    "asn1crypto >=1.0.0",
+    "python",
+    "asn1crypto >=1.0.0",
+    "python",
+    "asn1crypto >=1.0.0"
+   ]
+  },
+  "source":{
+   "sha256":"2f53f50813ecc5114fd126b89766fabdb9448e0bb080814451cc4bb92acafca4",
+   "url":"https://pypi.io/packages/source/o/oscrypto/oscrypto-1.2.0.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "pip check",
+    "pip check",
+    "pip check"
+   ],
+   "imports":[
+    "oscrypto",
+    "oscrypto",
+    "oscrypto"
+   ],
+   "requires":[
+    "pip",
+    "pip",
+    "pip"
+   ]
+  }
+ },
+ "name":"oscrypto",
+ "new_version":"1.2.0",
+ "raw_meta_yaml":"{% set name = \"oscrypto\" %}\n{% set version = \"1.2.0\" %}\n\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: 2f53f50813ecc5114fd126b89766fabdb9448e0bb080814451cc4bb92acafca4\n\nbuild:\n  noarch: python\n  number: 0\n  script: \"{{ PYTHON }} -m pip install . -vv\"\n\nrequirements:\n  host:\n    - python\n    - pip\n  run:\n    - python\n    - asn1crypto >=1.0.0\n\ntest:\n  requires:\n    - pip\n  imports:\n    - oscrypto\n  commands:\n    - pip check\n\nabout:\n  home: https://github.com/wbond/oscrypto\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE\n  summary: 'Compiler-free Python crypto library backed by the OS, supporting CPython and PyPy'\n\n  description: |\n    A compilation-free, always up-to-date encryption library for Python\n    that works on Windows, OS X, Linux and BSD.\n    Supports the following versions of\n    Python: 2.6, 2.7, 3.2, 3.3, 3.4, 3.5, 3.6, 3.7, 3.8 and pypy.\n  doc_url: https://github.com/wbond/oscrypto/blob/master/docs/readme.md\n  dev_url: https://github.com/wbond/oscrypto\n\nextra:\n  recipe-maintainers:\n    - talues\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "asn1crypto",
+   "pip",
+   "python"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "asn1crypto",
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "pip"
+   ]
+  }
+ },
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "asn1crypto >=1.0.0",
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "pip"
+   ]
+  }
+ },
+ "url":"https://pypi.io/packages/source/o/oscrypto/oscrypto-1.2.0.tar.gz",
+ "version":"1.2.0"
+}

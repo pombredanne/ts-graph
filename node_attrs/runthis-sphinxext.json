@@ -1,0 +1,122 @@
+{
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"runthis-sphinxext",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"https://github.com/regro/runthis-sphinxext",
+   "license":"BSD-3-Clause",
+   "license_family":"BSD",
+   "license_file":"LICENSE",
+   "summary":"A sphinx extension that adds RunThis code blocks"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "scopatz",
+    "scopatz",
+    "scopatz"
+   ]
+  },
+  "package":{
+   "name":"runthis-sphinxext",
+   "version":"0.0.3"
+  },
+  "requirements":{
+   "host":[
+    "python >=3.6",
+    "pip",
+    "python >=3.6",
+    "pip",
+    "python >=3.6",
+    "pip"
+   ],
+   "run":[
+    "python >=3.6",
+    "sphinx",
+    "python >=3.6",
+    "sphinx",
+    "python >=3.6",
+    "sphinx"
+   ]
+  },
+  "source":{
+   "sha256":"90effb2344f8a3a8552c336becf7007d0831f0e7bbfc2b4554608b7f3f399219",
+   "url":"https://github.com/regro/runthis-sphinxext/releases/download/0.0.3/runthis-sphinxext-0.0.3.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "runthis.sphinxext",
+    "runthis.sphinxext",
+    "runthis.sphinxext"
+   ]
+  }
+ },
+ "name":"runthis-sphinxext",
+ "new_version":"0.0.3",
+ "raw_meta_yaml":"{% set name = \"runthis-sphinxext\" %}\n{% set version = \"0.0.3\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://github.com/regro/runthis-sphinxext/releases/download/{{ version }}/runthis-sphinxext-{{ version }}.tar.gz\n  sha256: 90effb2344f8a3a8552c336becf7007d0831f0e7bbfc2b4554608b7f3f399219\n\nbuild:\n  noarch: python\n  number: 0\n  script: \"{{ PYTHON }} -m pip install . -vv\"\n\nrequirements:\n  host:\n    - python >=3.6\n    - pip\n  run:\n    - python >=3.6\n    - sphinx\n\ntest:\n  imports:\n    - runthis.sphinxext\n\nabout:\n  home: https://github.com/regro/runthis-sphinxext\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: LICENSE\n  summary: 'A sphinx extension that adds RunThis code blocks'\n\nextra:\n  recipe-maintainers:\n    - scopatz\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "pip",
+   "python",
+   "sphinx"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "python",
+    "sphinx"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3.6"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "python >=3.6",
+    "sphinx"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://github.com/regro/runthis-sphinxext/releases/download/0.0.1/runthis-sphinxext-0.0.1.tar.gz",
+ "version":"0.0.3"
+}

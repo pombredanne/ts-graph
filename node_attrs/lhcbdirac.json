@@ -1,0 +1,206 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/375893668.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"9.4.13"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/375922330.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"9.4.14"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"lhcbdirac",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"DIRAC forms a layer between a particular community and various compute\nresources to allow optimized, transparent and reliable usage. LHCbDIRAC\nspecializes DIRAC for LHCb.\n",
+   "dev_url":"https://gitlab.cern.ch/lhcb-dirac/LHCbDIRAC",
+   "doc_url":"https://lhcb-dirac.readthedocs.io/",
+   "home":"https://lhcb-dirac.readthedocs.io/",
+   "license":"GPL-3.0",
+   "license_family":"GPL",
+   "license_file":"LICENSE",
+   "summary":"LHCbDIRAC is the Extension to DIRAC for the LHCb Experiment"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":[
+    "cp ${RECIPE_DIR}/setup.py .",
+    "-m pip install . --no-deps -vv",
+    "mkdir -p ${CONDA_PREFIX}/scripts",
+    "find LHCbDIRAC -wholename '*/scripts/*.py' -exec bash -xc 'FN={} && NEW_FN=${CONDA_PREFIX}/scripts/$(basename ${FN} .py) && echo cp ${FN} ${NEW_FN} && chmod +x ${NEW_FN}' \\;",
+    "cp ${RECIPE_DIR}/setup.py .",
+    "-m pip install . --no-deps -vv",
+    "mkdir -p ${CONDA_PREFIX}/scripts",
+    "find LHCbDIRAC -wholename '*/scripts/*.py' -exec bash -xc 'FN={} && NEW_FN=${CONDA_PREFIX}/scripts/$(basename ${FN} .py) && echo cp ${FN} ${NEW_FN} && chmod +x ${NEW_FN}' \\;",
+    "cp ${RECIPE_DIR}/setup.py .",
+    "-m pip install . --no-deps -vv",
+    "mkdir -p ${CONDA_PREFIX}/scripts",
+    "find LHCbDIRAC -wholename '*/scripts/*.py' -exec bash -xc 'FN={} && NEW_FN=${CONDA_PREFIX}/scripts/$(basename ${FN} .py) && echo cp ${FN} ${NEW_FN} && chmod +x ${NEW_FN}' \\;"
+   ]
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "chrisburr",
+    "chrisburr",
+    "chrisburr"
+   ]
+  },
+  "package":{
+   "name":"lhcbdirac",
+   "version":"9.4.14"
+  },
+  "requirements":{
+   "host":[
+    "python =2.7",
+    "pip",
+    "python =2.7",
+    "pip",
+    "python =2.7",
+    "pip"
+   ],
+   "run":[
+    "python =2.7",
+    "dirac-grid =6.22",
+    "lhcbdirac-config",
+    "voms",
+    "python-gfal2",
+    "lbplatformutils >=4.2.3",
+    "lbenv >=1.1.1",
+    "python =2.7",
+    "dirac-grid =6.22",
+    "lhcbdirac-config",
+    "voms",
+    "python-gfal2",
+    "lbplatformutils >=4.2.3",
+    "lbenv >=1.1.1",
+    "python =2.7",
+    "dirac-grid =6.22",
+    "lhcbdirac-config",
+    "voms",
+    "python-gfal2",
+    "lbplatformutils >=4.2.3",
+    "lbenv >=1.1.1"
+   ]
+  },
+  "source":{
+   "sha256":"e36f207e1a9ffc820c01868420a06177f604c8ec87ed073285d01eec605b7e63",
+   "url":"https://gitlab.cern.ch/lhcb-dirac/LHCbDIRAC/-/archive/v9r4p14/LHCbDIRAC-v9r4p14.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "LHCbDIRAC",
+    "LHCbDIRAC",
+    "LHCbDIRAC"
+   ]
+  }
+ },
+ "name":"lhcbdirac",
+ "new_version":"9.4.14",
+ "pinning_version":"2020.02.12",
+ "raw_meta_yaml":"{% set name = \"LHCbDIRAC\" %}\n{% set version = \"9.4.14\" %}\n{% set major, minor, patch = version.split(\".\") %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://gitlab.cern.ch/lhcb-dirac/{{ name }}/-/archive/v{{ major }}r{{ minor }}p{{ patch }}/LHCbDIRAC-v{{ major }}r{{ minor }}p{{ patch }}.tar.gz\n  sha256: e36f207e1a9ffc820c01868420a06177f604c8ec87ed073285d01eec605b7e63\n\nbuild:\n  noarch: python\n  number: 0\n  script:\n    - cp ${RECIPE_DIR}/setup.py .\n    - {{ PYTHON }} -m pip install . --no-deps -vv\n    - mkdir -p ${CONDA_PREFIX}/scripts\n    - find LHCbDIRAC -wholename '*/scripts/*.py' -exec bash -xc 'FN={} && NEW_FN=${CONDA_PREFIX}/scripts/$(basename ${FN} .py) && echo cp ${FN} ${NEW_FN} && chmod +x ${NEW_FN}' \\;\n\nrequirements:\n  host:\n    - python =2.7\n    - pip\n  run:\n    - python =2.7\n    - dirac-grid =6.22\n    - lhcbdirac-config\n    - voms\n    - python-gfal2\n    - lbplatformutils >=4.2.3\n    - lbenv >=1.1.1\n\ntest:\n  imports:\n    - LHCbDIRAC\n\nabout:\n  home: https://lhcb-dirac.readthedocs.io/\n  license: GPL-3.0\n  license_family: GPL\n  license_file: LICENSE\n  summary: 'LHCbDIRAC is the Extension to DIRAC for the LHCb Experiment'\n  description: |\n    DIRAC forms a layer between a particular community and various compute\n    resources to allow optimized, transparent and reliable usage. LHCbDIRAC\n    specializes DIRAC for LHCb.\n  doc_url: https://lhcb-dirac.readthedocs.io/\n  dev_url: https://gitlab.cern.ch/lhcb-dirac/LHCbDIRAC\n\nextra:\n  recipe-maintainers:\n    - chrisburr\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "dirac-grid",
+   "lbenv",
+   "lbplatformutils",
+   "lhcbdirac-config",
+   "pip",
+   "python",
+   "python-gfal2",
+   "voms"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "dirac-grid",
+    "lbenv",
+    "lbplatformutils",
+    "lhcbdirac-config",
+    "python",
+    "python-gfal2",
+    "voms"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.6.8",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python =2.7"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "dirac-grid =6.22",
+    "lbenv >=1.1.1",
+    "lbplatformutils >=4.2.3",
+    "lhcbdirac-config",
+    "python =2.7",
+    "python-gfal2",
+    "voms"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://gitlab.cern.ch/lhcb-dirac/LHCbDIRAC/-/archive/v9r4p1/LHCbDIRAC-v9r4p1.tar.gz",
+ "version":"9.4.14"
+}

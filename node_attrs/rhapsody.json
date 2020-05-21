@@ -1,0 +1,213 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/290458010.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.3.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/300085867.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.4.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"rhapsody",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"https://github.com/biocore/rhapsody",
+   "license":"BSD-3-Clause",
+   "license_family":"BSD",
+   "license_file":"LICENSE",
+   "summary":"Neural networks for microbe-metabolite interaction analysis"
+  },
+  "build":{
+   "entry_points":[
+    "qiime2.plugins = rhapsody.q2.plugin_setup:plugin",
+    "qiime2.plugins = rhapsody.q2.plugin_setup:plugin",
+    "qiime2.plugins = rhapsody.q2.plugin_setup:plugin"
+   ],
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . --no-deps -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "mortonjt",
+    "mortonjt",
+    "mortonjt"
+   ]
+  },
+  "package":{
+   "name":"rhapsody",
+   "version":"0.4.0"
+  },
+  "requirements":{
+   "host":[
+    "python >=3",
+    "pip",
+    "python >=3",
+    "pip",
+    "python >=3",
+    "pip"
+   ],
+   "run":[
+    "python >=3",
+    "ipython",
+    "pandas",
+    "click",
+    "tensorflow >1.7",
+    "scikit-bio >0.5.4",
+    "scikit-learn",
+    "tqdm",
+    "h5py",
+    "biom-format",
+    "python >=3",
+    "ipython",
+    "pandas",
+    "click",
+    "tensorflow >1.7",
+    "scikit-bio >0.5.4",
+    "scikit-learn",
+    "tqdm",
+    "h5py",
+    "biom-format",
+    "python >=3",
+    "ipython",
+    "pandas",
+    "click",
+    "tensorflow >1.7",
+    "scikit-bio >0.5.4",
+    "scikit-learn",
+    "tqdm",
+    "h5py",
+    "biom-format"
+   ]
+  },
+  "source":{
+   "sha256":"159cad70b5c34e9b36f24f8975933de06e541240151bd977be8c79ee609045b8",
+   "url":"https://pypi.io/packages/source/r/rhapsody/rhapsody-0.4.0.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "rhapsody",
+    "rhapsody",
+    "rhapsody"
+   ]
+  }
+ },
+ "name":"rhapsody",
+ "new_version":"0.4.0",
+ "pinning_version":"2019.07.22",
+ "raw_meta_yaml":"{% set version = \"0.4.0\" %}\n{% set name = \"rhapsody\" %}\n\npackage:\n  name: {{ name }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/r/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: 159cad70b5c34e9b36f24f8975933de06e541240151bd977be8c79ee609045b8\n\n\nbuild:\n  number: 0\n  noarch: python\n  script: \"{{ PYTHON }} -m pip install . --no-deps -vv\"\n\n  entry_points:\n    - qiime2.plugins = rhapsody.q2.plugin_setup:plugin\n\nrequirements:\n  host:\n    - python >=3\n    - pip\n\n  run:\n\n    - python >=3\n    - ipython\n    - pandas\n    - click\n    - tensorflow >1.7\n    - scikit-bio >0.5.4\n    - scikit-learn\n    - tqdm\n    - h5py\n    - biom-format\n\ntest:\n  imports:\n    - rhapsody\n\nabout:\n  home: https://github.com/biocore/rhapsody\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: LICENSE\n  summary: 'Neural networks for microbe-metabolite interaction analysis'\n\nextra:\n  recipe-maintainers:\n    - mortonjt\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "biom-format",
+   "click",
+   "h5py",
+   "ipython",
+   "pandas",
+   "pip",
+   "python",
+   "scikit-bio",
+   "scikit-learn",
+   "tensorflow",
+   "tqdm"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "biom-format",
+    "click",
+    "h5py",
+    "ipython",
+    "pandas",
+    "python",
+    "scikit-bio",
+    "scikit-learn",
+    "tensorflow",
+    "tqdm"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.4.1",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "biom-format",
+    "click",
+    "h5py",
+    "ipython",
+    "pandas",
+    "python >=3",
+    "scikit-bio >0.5.4",
+    "scikit-learn",
+    "tensorflow >1.7",
+    "tqdm"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/r/rhapsody/rhapsody-0.4.0.tar.gz",
+ "version":"0.4.0"
+}

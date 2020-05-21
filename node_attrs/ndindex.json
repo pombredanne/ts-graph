@@ -1,0 +1,180 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/408211604.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/412390075.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"ndindex",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "dev_url":"https://github.com/Quansight/ndindex",
+   "home":"https://quansight.github.io/ndindex/",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"LICENSE",
+   "summary":"A Python library for manipulating indices of ndarrays."
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":"-m pip install . -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "asmeurer",
+    "asmeurer",
+    "asmeurer"
+   ]
+  },
+  "package":{
+   "name":"ndindex",
+   "version":"1.2"
+  },
+  "requirements":{
+   "host":[
+    "pip",
+    "python >=3.6",
+    "pip",
+    "python >=3.6",
+    "pip",
+    "python >=3.6"
+   ],
+   "run":[
+    "python >=3.6",
+    "numpy",
+    "python >=3.6",
+    "numpy",
+    "python >=3.6",
+    "numpy"
+   ]
+  },
+  "source":{
+   "sha256":"89d8d3d8ae13c06ee62efc94b63a0fc24f56b2f21221c0d019b4d852ae862245",
+   "url":"https://pypi.io/packages/source/n/ndindex/ndindex-1.2.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "pip check",
+    "pip check",
+    "pip check"
+   ],
+   "imports":[
+    "ndindex",
+    "ndindex",
+    "ndindex"
+   ],
+   "requires":[
+    "pip",
+    "pip",
+    "pip"
+   ]
+  }
+ },
+ "name":"ndindex",
+ "new_version":"1.2",
+ "new_version_attempts":{
+  "1.1":1,
+  "1.2":3
+ },
+ "new_version_errors":{},
+ "pinning_version":"2020.05.02.02.22.03",
+ "raw_meta_yaml":"{% set name = \"ndindex\" %}\n{% set version = \"1.2\" %}\n\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: 89d8d3d8ae13c06ee62efc94b63a0fc24f56b2f21221c0d019b4d852ae862245\n\nbuild:\n  number: 0\n  noarch: python\n  script: {{ PYTHON }} -m pip install . -vv\n\nrequirements:\n  host:\n    - pip\n    - python >=3.6\n  run:\n    - python >=3.6\n    - numpy\n\ntest:\n  imports:\n    - ndindex\n  commands:\n    - pip check\n  requires:\n    - pip\n\nabout:\n  home: https://quansight.github.io/ndindex/\n  summary: A Python library for manipulating indices of ndarrays.\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE\n  dev_url: https://github.com/Quansight/ndindex\n\nextra:\n  recipe-maintainers:\n    - asmeurer\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "numpy",
+   "pip",
+   "python"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "numpy",
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "pip"
+   ]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.7.0\n",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3.6"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "numpy",
+    "python >=3.6"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "pip"
+   ]
+  }
+ },
+ "url":"https://pypi.io/packages/source/n/ndindex/ndindex-1.0.tar.gz",
+ "version":"1.2"
+}

@@ -1,0 +1,289 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/233241926.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/299623000.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"RBaseRebuild",
+    "migrator_version":0,
+    "name":"r-base-3.6.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/415167446.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":2,
+    "migrator_version":0,
+    "name":"r400"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "bot":{
+   "automerge":true
+  },
+  "provider":{
+   "win":"azure"
+  }
+ },
+ "feedstock_name":"r-flexdashboard",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"http://rmarkdown.rstudio.com/flexdashboard",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":[
+    "/lib/R/share/licenses/MIT",
+    "LICENSE",
+    "/lib/R/share/licenses/MIT",
+    "LICENSE",
+    "/lib/R/share/licenses/MIT",
+    "LICENSE"
+   ],
+   "summary":"Format for converting an R Markdown document to a grid oriented dashboard. The dashboard flexibly adapts the size of it's components to the containing web page."
+  },
+  "build":{
+   "merge_build_host":true,
+   "noarch":"generic",
+   "number":"1002",
+   "rpaths":[
+    "lib/R/lib/",
+    "lib/",
+    "lib/R/lib/",
+    "lib/",
+    "lib/R/lib/",
+    "lib/"
+   ]
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "conda-forge/r",
+    "johanneskoester",
+    "bgruening",
+    "daler",
+    "jdblischak",
+    "cbrueffer",
+    "dbast",
+    "conda-forge/r",
+    "johanneskoester",
+    "bgruening",
+    "daler",
+    "jdblischak",
+    "cbrueffer",
+    "dbast",
+    "conda-forge/r",
+    "johanneskoester",
+    "bgruening",
+    "daler",
+    "jdblischak",
+    "cbrueffer",
+    "dbast"
+   ]
+  },
+  "package":{
+   "name":"r-flexdashboard",
+   "version":"0.5.1.1"
+  },
+  "requirements":{
+   "build":null,
+   "host":[
+    "r-base",
+    "r-htmltools",
+    "r-htmlwidgets >=0.6",
+    "r-jsonlite",
+    "r-knitr >=1.13",
+    "r-rmarkdown >=1.0",
+    "r-shiny >=0.13",
+    "r-base",
+    "r-htmltools",
+    "r-htmlwidgets >=0.6",
+    "r-jsonlite",
+    "r-knitr >=1.13",
+    "r-rmarkdown >=1.0",
+    "r-shiny >=0.13",
+    "r-base",
+    "r-htmltools",
+    "r-htmlwidgets >=0.6",
+    "r-jsonlite",
+    "r-knitr >=1.13",
+    "r-rmarkdown >=1.0",
+    "r-shiny >=0.13"
+   ],
+   "run":[
+    "r-base",
+    "r-htmltools",
+    "r-htmlwidgets >=0.6",
+    "r-jsonlite",
+    "r-knitr >=1.13",
+    "r-rmarkdown >=1.0",
+    "r-shiny >=0.13",
+    "r-base",
+    "r-htmltools",
+    "r-htmlwidgets >=0.6",
+    "r-jsonlite",
+    "r-knitr >=1.13",
+    "r-rmarkdown >=1.0",
+    "r-shiny >=0.13",
+    "r-base",
+    "r-htmltools",
+    "r-htmlwidgets >=0.6",
+    "r-jsonlite",
+    "r-knitr >=1.13",
+    "r-rmarkdown >=1.0",
+    "r-shiny >=0.13"
+   ]
+  },
+  "source":{
+   "fn":"flexdashboard_0.5.1.1.tar.gz",
+   "sha256":"fd18c05590bf4f544bd0f80fcedc87e0eaa24141ac8a4c487bf81f93f3b2c33b",
+   "url":[
+    "https://cran.r-project.org/src/contrib/flexdashboard_0.5.1.1.tar.gz",
+    "https://cran.r-project.org/src/contrib/Archive/flexdashboard/flexdashboard_0.5.1.1.tar.gz",
+    "https://cran.r-project.org/src/contrib/flexdashboard_0.5.1.1.tar.gz",
+    "https://cran.r-project.org/src/contrib/Archive/flexdashboard/flexdashboard_0.5.1.1.tar.gz",
+    "https://cran.r-project.org/src/contrib/flexdashboard_0.5.1.1.tar.gz",
+    "https://cran.r-project.org/src/contrib/Archive/flexdashboard/flexdashboard_0.5.1.1.tar.gz"
+   ]
+  },
+  "test":{
+   "commands":[
+    "\"%R%\" -e \"library('flexdashboard')\"",
+    "$R -e \"library('flexdashboard')\"",
+    "$R -e \"library('flexdashboard')\""
+   ]
+  }
+ },
+ "name":"r-flexdashboard",
+ "new_version":"0.5.1.1",
+ "pinning_version":"2020.05.06.22.15.02",
+ "raw_meta_yaml":"{% set version = \"0.5.1.1\" %}\n{% set posix = 'm2-' if win else '' %}\n{% set native = 'm2w64-' if win else '' %}\n\npackage:\n  name: r-flexdashboard\n  version: {{ version|replace(\"-\", \"_\") }}\n\nsource:\n  fn: flexdashboard_{{ version }}.tar.gz\n  url:\n    - {{ cran_mirror }}/src/contrib/flexdashboard_{{ version }}.tar.gz\n    - {{ cran_mirror }}/src/contrib/Archive/flexdashboard/flexdashboard_{{ version }}.tar.gz\n  sha256: fd18c05590bf4f544bd0f80fcedc87e0eaa24141ac8a4c487bf81f93f3b2c33b\n\nbuild:\n  noarch: generic\n  merge_build_host: true  # [win]\n  number: 1002\n  rpaths:\n    - lib/R/lib/\n    - lib/\n\nrequirements:\n  build:\n    - {{ posix }}zip               # [win]\n  host:\n    - r-base\n    - r-htmltools\n    - r-htmlwidgets >=0.6\n    - r-jsonlite\n    - r-knitr >=1.13\n    - r-rmarkdown >=1.0\n    - r-shiny >=0.13\n  run:\n    - r-base\n    - r-htmltools\n    - r-htmlwidgets >=0.6\n    - r-jsonlite\n    - r-knitr >=1.13\n    - r-rmarkdown >=1.0\n    - r-shiny >=0.13\n\ntest:\n  commands:\n    - $R -e \"library('flexdashboard')\"           # [not win]\n    - \"\\\"%R%\\\" -e \\\"library('flexdashboard')\\\"\"  # [win]\n\nabout:\n  home: http://rmarkdown.rstudio.com/flexdashboard\n  license: MIT\n  summary: Format for converting an R Markdown document to a grid oriented dashboard. The dashboard flexibly adapts the size of it's components to the containing web page.\n  license_family: MIT\n\n  license_file:\n    - {{ environ[\"PREFIX\"] }}/lib/R/share/licenses/MIT\n    - LICENSE\nextra:\n  recipe-maintainers:\n    - conda-forge/r\n    - johanneskoester\n    - bgruening\n    - daler\n    - jdblischak\n    - cbrueffer\n    - dbast\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "r-base",
+   "r-htmltools",
+   "r-htmlwidgets",
+   "r-jsonlite",
+   "r-knitr",
+   "r-rmarkdown",
+   "r-shiny"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "r-base",
+    "r-htmltools",
+    "r-htmlwidgets",
+    "r-jsonlite",
+    "r-knitr",
+    "r-rmarkdown",
+    "r-shiny"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "r-base",
+    "r-htmltools",
+    "r-htmlwidgets",
+    "r-jsonlite",
+    "r-knitr",
+    "r-rmarkdown",
+    "r-shiny"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.7.0\n",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "r-base",
+    "r-htmltools",
+    "r-htmlwidgets >=0.6",
+    "r-jsonlite",
+    "r-knitr >=1.13",
+    "r-rmarkdown >=1.0",
+    "r-shiny >=0.13"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "r-base",
+    "r-htmltools",
+    "r-htmlwidgets >=0.6",
+    "r-jsonlite",
+    "r-knitr >=1.13",
+    "r-rmarkdown >=1.0",
+    "r-shiny >=0.13"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":[
+  "https://cran.r-project.org/src/contrib/flexdashboard_0.5.1.1.tar.gz",
+  "https://cran.r-project.org/src/contrib/Archive/flexdashboard/flexdashboard_0.5.1.1.tar.gz",
+  "https://cran.r-project.org/src/contrib/flexdashboard_0.5.1.1.tar.gz",
+  "https://cran.r-project.org/src/contrib/Archive/flexdashboard/flexdashboard_0.5.1.1.tar.gz",
+  "https://cran.r-project.org/src/contrib/flexdashboard_0.5.1.1.tar.gz",
+  "https://cran.r-project.org/src/contrib/Archive/flexdashboard/flexdashboard_0.5.1.1.tar.gz"
+ ],
+ "version":"0.5.1.1"
+}

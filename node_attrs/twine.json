@@ -1,0 +1,433 @@
+{
+ "PRed":[
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.11.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/200107410.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Noarch",
+    "migrator_version":0
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/217636273.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.12.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/217758231.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.12.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.13.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/315227053.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.14.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/318419548.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.15.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/320852900.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.0.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/342366003.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.0.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/344808013.json"
+   },
+   "data":{
+    "bot_rerun":1579272528.3354547,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.1.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/346353325.json"
+   },
+   "data":{
+    "bot_rerun":1579272528.3359773,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.1.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/356495271.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.1.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/356620398.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"python38"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/390149534.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"pypy"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"twine",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "doc_source_url":"https://github.com/pypa/twine/tree/master/docs",
+   "doc_url":"https://twine.readthedocs.io",
+   "home":"https://github.com/pypa/twine",
+   "license":"Apache-2.0",
+   "license_family":"Apache",
+   "license_file":"LICENSE",
+   "summary":"Collection of utilities for interacting with PyPI"
+  },
+  "build":{
+   "entry_points":[
+    "twine = twine.__main__:main",
+    "twine = twine.__main__:main",
+    "twine = twine.__main__:main"
+   ],
+   "number":"0",
+   "script":"-m pip install . --no-deps -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "SylvainCorlay",
+    "bollwyvl",
+    "SylvainCorlay",
+    "bollwyvl",
+    "SylvainCorlay",
+    "bollwyvl"
+   ]
+  },
+  "package":{
+   "name":"twine",
+   "version":"3.1.1"
+  },
+  "requirements":{
+   "host":[
+    "pip",
+    "python",
+    "setuptools >=0.7.0",
+    "setuptools_scm >=1.15",
+    "pip",
+    "python",
+    "setuptools >=0.7.0",
+    "setuptools_scm >=1.15",
+    "pip",
+    "python",
+    "setuptools >=0.7.0",
+    "setuptools_scm >=1.15"
+   ],
+   "run":[
+    "importlib_metadata",
+    "keyring >=15.1",
+    "pkginfo >=1.4.2",
+    "python",
+    "readme_renderer >=21.0",
+    "requests >=2.20",
+    "requests-toolbelt >=0.8.0,!=0.9.0",
+    "setuptools >=0.7.0",
+    "tqdm >=4.14",
+    "importlib_metadata",
+    "keyring >=15.1",
+    "pkginfo >=1.4.2",
+    "python",
+    "readme_renderer >=21.0",
+    "requests >=2.20",
+    "requests-toolbelt >=0.8.0,!=0.9.0",
+    "setuptools >=0.7.0",
+    "tqdm >=4.14",
+    "importlib_metadata",
+    "keyring >=15.1",
+    "pkginfo >=1.4.2",
+    "python",
+    "readme_renderer >=21.0",
+    "requests >=2.20",
+    "requests-toolbelt >=0.8.0,!=0.9.0",
+    "setuptools >=0.7.0",
+    "tqdm >=4.14"
+   ]
+  },
+  "source":{
+   "sha256":"d561a5e511f70275e5a485a6275ff61851c16ffcb3a95a602189161112d9f160",
+   "url":"https://pypi.io/packages/source/t/twine/twine-3.1.1.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "twine --version",
+    "twine --help",
+    "twine --version",
+    "twine --help",
+    "twine --version",
+    "twine --help"
+   ],
+   "imports":[
+    "twine",
+    "twine.commands",
+    "twine",
+    "twine.commands",
+    "twine",
+    "twine.commands"
+   ]
+  }
+ },
+ "name":"twine",
+ "new_version":"3.1.1",
+ "pinning_version":"2020.03.16",
+ "raw_meta_yaml":"{% set version = \"3.1.1\" %}\n\npackage:\n  name: twine\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/t/twine/twine-{{ version }}.tar.gz\n  sha256: d561a5e511f70275e5a485a6275ff61851c16ffcb3a95a602189161112d9f160\n\nbuild:\n  number: 0\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n  skip: true  # [py<36]\n  entry_points:\n    - twine = twine.__main__:main\n\nrequirements:\n  host:\n    - pip\n    - python\n    - setuptools >=0.7.0\n    - setuptools_scm >=1.15\n  run:\n    - importlib_metadata  # [py<38]\n    - keyring >=15.1\n    - pkginfo >=1.4.2\n    - python\n    - readme_renderer >=21.0\n    - requests >=2.20\n    - requests-toolbelt >=0.8.0,!=0.9.0\n    - setuptools >=0.7.0\n    - tqdm >=4.14\n\ntest:\n  imports:\n    - twine\n    - twine.commands\n  commands:\n    - twine --version\n    - twine --help\n\nabout:\n  home: https://github.com/pypa/twine\n  license: Apache-2.0\n  license_family: Apache\n  license_file: LICENSE\n  summary: 'Collection of utilities for interacting with PyPI'\n  doc_url: https://twine.readthedocs.io\n  doc_source_url: https://github.com/pypa/twine/tree/master/docs\n\nextra:\n  recipe-maintainers:\n    - SylvainCorlay\n    - bollwyvl\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "importlib_metadata",
+   "keyring",
+   "pip",
+   "pkginfo",
+   "python",
+   "readme_renderer",
+   "requests",
+   "requests-toolbelt",
+   "setuptools",
+   "setuptools_scm",
+   "tqdm"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python",
+    "setuptools",
+    "setuptools_scm"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "importlib_metadata",
+    "keyring",
+    "pkginfo",
+    "python",
+    "readme_renderer",
+    "requests",
+    "requests-toolbelt",
+    "setuptools",
+    "tqdm"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.6.12",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python",
+    "setuptools >=0.7.0",
+    "setuptools_scm >=1.15"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "importlib_metadata",
+    "keyring >=15.1",
+    "pkginfo >=1.4.2",
+    "python",
+    "readme_renderer >=21.0",
+    "requests >=2.20",
+    "requests-toolbelt >=0.8.0,!=0.9.0",
+    "setuptools >=0.7.0",
+    "tqdm >=4.14"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/t/twine/twine-1.13.0.tar.gz",
+ "version":"3.1.1"
+}

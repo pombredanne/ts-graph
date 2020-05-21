@@ -1,0 +1,132 @@
+{
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"requests-magpie",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "dev_url":"https://github.com/Ouranosinc/requests-magpie",
+   "home":"https://github.com/Ouranosinc/Magpie",
+   "license":"ISC",
+   "license_family":"OTHER",
+   "license_file":"LICENSE",
+   "summary":"A Magpie authentication handler for python-requests"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "Zeitsperre",
+    "davidcaron",
+    "Zeitsperre",
+    "davidcaron",
+    "Zeitsperre",
+    "davidcaron"
+   ]
+  },
+  "package":{
+   "name":"requests-magpie",
+   "version":"0.1.1"
+  },
+  "requirements":{
+   "host":[
+    "python >=3.5",
+    "setuptools",
+    "pip",
+    "python >=3.5",
+    "setuptools",
+    "pip",
+    "python >=3.5",
+    "setuptools",
+    "pip"
+   ],
+   "run":[
+    "python >=3.5",
+    "requests >=1.1.0",
+    "python >=3.5",
+    "requests >=1.1.0",
+    "python >=3.5",
+    "requests >=1.1.0"
+   ]
+  },
+  "source":{
+   "sha256":"f627e3951a262c2ccdffd237c57d1d695f0512cc6647fb0d9cd6eb170a9414ec",
+   "url":"https://pypi.io/packages/source/r/requests-magpie/requests-magpie-0.1.1.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "requests_magpie",
+    "requests_magpie",
+    "requests_magpie"
+   ]
+  }
+ },
+ "name":"requests-magpie",
+ "new_version":"0.1.1",
+ "raw_meta_yaml":"{% set name = \"requests-magpie\" %}\n{% set version = \"0.1.1\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: f627e3951a262c2ccdffd237c57d1d695f0512cc6647fb0d9cd6eb170a9414ec\n\nbuild:\n  number: 0\n  noarch: python\n  script: \"{{ PYTHON }} -m pip install . -vv\"\n\nrequirements:\n  host:\n    - python >=3.5\n    - setuptools\n    - pip\n  run:\n    - python >=3.5\n    - requests >=1.1.0\n\ntest:\n  imports:\n    - requests_magpie\n\nabout:\n  home: https://github.com/Ouranosinc/Magpie\n  license: ISC\n  license_family: OTHER\n  license_file: LICENSE\n  summary: 'A Magpie authentication handler for python-requests'\n  dev_url: https://github.com/Ouranosinc/requests-magpie\n\nextra:\n  recipe-maintainers:\n    - Zeitsperre\n    - davidcaron\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "pip",
+   "python",
+   "requests",
+   "setuptools"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python",
+    "setuptools"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "python",
+    "requests"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3.5",
+    "setuptools"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "python >=3.5",
+    "requests >=1.1.0"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/r/requests-magpie/requests-magpie-0.1.1.tar.gz",
+ "version":"0.1.1"
+}

@@ -1,0 +1,239 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/336049320.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"python38"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/364400601.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.2.4"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"xhtml2pdf",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"http://github.com/xhtml2pdf/xhtml2pdf",
+   "license":"Apache-2.0",
+   "license_family":"APACHE",
+   "license_file":"LICENSE.txt",
+   "summary":"PDF generator using HTML and CSS"
+  },
+  "build":{
+   "entry_points":[
+    "pisa = xhtml2pdf.pisa:command",
+    "xhtml2pdf = xhtml2pdf.pisa:command",
+    "pisa = xhtml2pdf.pisa:command",
+    "xhtml2pdf = xhtml2pdf.pisa:command",
+    "pisa = xhtml2pdf.pisa:command",
+    "xhtml2pdf = xhtml2pdf.pisa:command"
+   ],
+   "number":"0",
+   "script":" -m pip install . --no-deps -vv",
+   "skip":true
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "mrakitin",
+    "mrakitin",
+    "mrakitin"
+   ]
+  },
+  "package":{
+   "name":"xhtml2pdf",
+   "version":"0.2.4"
+  },
+  "requirements":{
+   "host":[
+    "html5lib >=1.0",
+    "pillow",
+    "pip",
+    "pypdf2",
+    "python",
+    "reportlab >=3.0",
+    "setuptools",
+    "six",
+    "html5lib >=1.0",
+    "pillow",
+    "pip",
+    "pypdf2",
+    "python",
+    "reportlab >=3.0",
+    "setuptools",
+    "six",
+    "html5lib >=1.0",
+    "pillow",
+    "pip",
+    "pypdf2",
+    "python",
+    "reportlab >=3.0",
+    "setuptools",
+    "six"
+   ],
+   "run":[
+    "html5lib >=1.0",
+    "pillow",
+    "pypdf2",
+    "python",
+    "reportlab >=3.0",
+    "six",
+    "html5lib >=1.0",
+    "pillow",
+    "pypdf2",
+    "python",
+    "reportlab >=3.0",
+    "six",
+    "html5lib >=1.0",
+    "pillow",
+    "pypdf2",
+    "python",
+    "reportlab >=3.0",
+    "six"
+   ]
+  },
+  "source":{
+   "sha256":"6793fbbdcb6bb8a4a70132966d8d95e95ea3498cdf0e82252d2b8e9aae34fcb5",
+   "url":"https://pypi.io/packages/source/x/xhtml2pdf/xhtml2pdf-0.2.4.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "pisa --help",
+    "xhtml2pdf --help",
+    "pisa --help",
+    "xhtml2pdf --help",
+    "pisa --help",
+    "xhtml2pdf --help"
+   ],
+   "imports":[
+    "xhtml2pdf",
+    "xhtml2pdf.config",
+    "xhtml2pdf.w3c",
+    "xhtml2pdf",
+    "xhtml2pdf.config",
+    "xhtml2pdf.w3c",
+    "xhtml2pdf",
+    "xhtml2pdf.config",
+    "xhtml2pdf.w3c"
+   ]
+  }
+ },
+ "name":"xhtml2pdf",
+ "new_version":"0.2.4",
+ "pinning_version":"2020.01.10",
+ "raw_meta_yaml":"{% set name = \"xhtml2pdf\" %}\n{% set version = \"0.2.4\" %}\n{% set file_ext = \"tar.gz\" %}\n{% set hash_type = \"sha256\" %}\n{% set hash_value = \"6793fbbdcb6bb8a4a70132966d8d95e95ea3498cdf0e82252d2b8e9aae34fcb5\" %}\n\npackage:\n  name: '{{ name|lower }}'\n  version: '{{ version }}'\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.{{ file_ext }}\n  '{{ hash_type }}': '{{ hash_value }}'\n\nbuild:\n  number: 0\n  skip: True  # [win or py2k]\n  entry_points:\n    - pisa = xhtml2pdf.pisa:command\n    - xhtml2pdf = xhtml2pdf.pisa:command\n  script: \"{{ PYTHON }} -m pip install . --no-deps -vv\"\n\nrequirements:\n  host:\n    - html5lib >=1.0\n    - pillow\n    - pip\n    - pypdf2\n    - python\n    - reportlab >=3.0\n    - setuptools\n    - six\n  run:\n    - html5lib >=1.0\n    - pillow\n    - pypdf2\n    - python\n    - reportlab >=3.0\n    - six\n\ntest:\n  imports:\n    - xhtml2pdf\n    - xhtml2pdf.config\n    - xhtml2pdf.w3c\n  commands:\n    - pisa --help\n    - xhtml2pdf --help\n\nabout:\n  home: http://github.com/xhtml2pdf/xhtml2pdf\n  license: Apache-2.0\n  license_family: APACHE\n  license_file: LICENSE.txt\n  summary: PDF generator using HTML and CSS\n\nextra:\n  recipe-maintainers:\n    - mrakitin\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "html5lib",
+   "pillow",
+   "pip",
+   "pypdf2",
+   "python",
+   "reportlab",
+   "setuptools",
+   "six"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "html5lib",
+    "pillow",
+    "pip",
+    "pypdf2",
+    "python",
+    "reportlab",
+    "setuptools",
+    "six"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "html5lib",
+    "pillow",
+    "pypdf2",
+    "python",
+    "reportlab",
+    "six"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.6.5",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "html5lib >=1.0",
+    "pillow",
+    "pip",
+    "pypdf2",
+    "python",
+    "reportlab >=3.0",
+    "setuptools",
+    "six"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "html5lib >=1.0",
+    "pillow",
+    "pypdf2",
+    "python",
+    "reportlab >=3.0",
+    "six"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/x/xhtml2pdf/xhtml2pdf-0.2.3.tar.gz",
+ "version":"0.2.4"
+}

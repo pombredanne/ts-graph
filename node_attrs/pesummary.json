@@ -1,0 +1,771 @@
+{
+ "PRed":[
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.1.3"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/268064274.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.1.4"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/270255573.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.1.5"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/278457742.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.1.6"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/288512163.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.1.7"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/317688661.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.1.8"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/331969179.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.2.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/332889386.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.2.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/335100740.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.2.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/346006457.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.2.3"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/349208306.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.2.4"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/359341589.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.3.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/362689265.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.3.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/386876394.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.3.3"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/387132561.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.3.4"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/393543941.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.4.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/398245153.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.5.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/398416056.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.5.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/406709895.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.5.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/408083287.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.5.3"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/415233354.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.5.4"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/415803418.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.5.5"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"pesummary",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"This package helps the user to generate summary webpages to\nvisualise the output from any parameter estimation code\n",
+   "doc_url":"https://lscsoft.docs.ligo.org/pesummary/",
+   "home":"https://git.ligo.org/lscsoft/pesummary",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"LICENSE",
+   "summary":"Python package to produce summary pages for Parameter estimation codes"
+  },
+  "build":{
+   "entry_points":[
+    "summaryclassification = pesummary.cli.summaryclassification:main",
+    "summaryclean = pesummary.cli.summaryclean:main",
+    "summarycombine = pesummary.cli.summarycombine:main",
+    "summarydetchar = pesummary.cli.summarydetchar:main",
+    "summarymodify = pesummary.cli.summarymodify:main",
+    "summarypages = pesummary.cli.summarypages:main",
+    "summarypageslw = pesummary.cli.summarypageslw:main",
+    "summarypipe = pesummary.cli.summarypipe:main",
+    "summaryplots = pesummary.cli.summaryplots:main",
+    "summarypublication = pesummary.cli.summarypublication:main",
+    "summaryrecreate = pesummary.cli.summaryrecreate:main",
+    "summaryreview = pesummary.cli.summaryreview:main",
+    "summaryversion = pesummary.cli.summaryversion:main",
+    "summaryclassification = pesummary.cli.summaryclassification:main",
+    "summaryclean = pesummary.cli.summaryclean:main",
+    "summarycombine = pesummary.cli.summarycombine:main",
+    "summarydetchar = pesummary.cli.summarydetchar:main",
+    "summarymodify = pesummary.cli.summarymodify:main",
+    "summarypages = pesummary.cli.summarypages:main",
+    "summarypageslw = pesummary.cli.summarypageslw:main",
+    "summarypipe = pesummary.cli.summarypipe:main",
+    "summaryplots = pesummary.cli.summaryplots:main",
+    "summarypublication = pesummary.cli.summarypublication:main",
+    "summaryrecreate = pesummary.cli.summaryrecreate:main",
+    "summaryreview = pesummary.cli.summaryreview:main",
+    "summaryversion = pesummary.cli.summaryversion:main",
+    "summaryclassification = pesummary.cli.summaryclassification:main",
+    "summaryclean = pesummary.cli.summaryclean:main",
+    "summarycombine = pesummary.cli.summarycombine:main",
+    "summarydetchar = pesummary.cli.summarydetchar:main",
+    "summarymodify = pesummary.cli.summarymodify:main",
+    "summarypages = pesummary.cli.summarypages:main",
+    "summarypageslw = pesummary.cli.summarypageslw:main",
+    "summarypipe = pesummary.cli.summarypipe:main",
+    "summaryplots = pesummary.cli.summaryplots:main",
+    "summarypublication = pesummary.cli.summarypublication:main",
+    "summaryrecreate = pesummary.cli.summaryrecreate:main",
+    "summaryreview = pesummary.cli.summaryreview:main",
+    "summaryversion = pesummary.cli.summaryversion:main"
+   ],
+   "noarch":"python",
+   "number":"0",
+   "script":"-m pip install . -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "duncanmmacleod",
+    "hoyc1",
+    "duncanmmacleod",
+    "hoyc1",
+    "duncanmmacleod",
+    "hoyc1"
+   ]
+  },
+  "package":{
+   "name":"pesummary",
+   "version":"0.5.5"
+  },
+  "requirements":{
+   "host":[
+    "pip",
+    "python >=3.6",
+    "setuptools",
+    "pip",
+    "python >=3.6",
+    "setuptools",
+    "pip",
+    "python >=3.6",
+    "setuptools"
+   ],
+   "run":[
+    "astropy >=3.2.3",
+    "corner",
+    "deepdish",
+    "gwpy",
+    "h5py",
+    "ligo.skymap",
+    "matplotlib-base",
+    "numpy >=1.15.4",
+    "p_astro",
+    "pandas <1.0.0a0",
+    "pepredicates >=0.0.2",
+    "plotly",
+    "pygments",
+    "pytables",
+    "python >=3.6",
+    "python-lal",
+    "python-lalsimulation >=2.0.0",
+    "python-lalinference",
+    "scipy",
+    "seaborn",
+    "statsmodels",
+    "astropy >=3.2.3",
+    "corner",
+    "deepdish",
+    "gwpy",
+    "h5py",
+    "ligo.skymap",
+    "matplotlib-base",
+    "numpy >=1.15.4",
+    "p_astro",
+    "pandas <1.0.0a0",
+    "pepredicates >=0.0.2",
+    "plotly",
+    "pygments",
+    "pytables",
+    "python >=3.6",
+    "python-lal",
+    "python-lalsimulation >=2.0.0",
+    "python-lalinference",
+    "scipy",
+    "seaborn",
+    "statsmodels",
+    "astropy >=3.2.3",
+    "corner",
+    "deepdish",
+    "gwpy",
+    "h5py",
+    "ligo.skymap",
+    "matplotlib-base",
+    "numpy >=1.15.4",
+    "p_astro",
+    "pandas <1.0.0a0",
+    "pepredicates >=0.0.2",
+    "plotly",
+    "pygments",
+    "pytables",
+    "python >=3.6",
+    "python-lal",
+    "python-lalsimulation >=2.0.0",
+    "python-lalinference",
+    "scipy",
+    "seaborn",
+    "statsmodels"
+   ]
+  },
+  "source":{
+   "sha256":"a4aaf711eeb01b6f05c45afad9a7d1476b43c7886a599aae154f9db81dcd4766",
+   "url":"https://pypi.io/packages/source/p/pesummary/pesummary-0.5.5.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "summaryclassification --help",
+    "summaryclean --help",
+    "summarycombine --help",
+    "summarydetchar --help",
+    "summarymodify --help",
+    "summarypages --help",
+    "summarypageslw --help",
+    "summarypipe --help",
+    "summaryplots --help",
+    "summarypublication --help",
+    "summaryrecreate --help",
+    "summaryreview --help",
+    "summaryversion --help",
+    "summaryclassification --help",
+    "summaryclean --help",
+    "summarycombine --help",
+    "summarydetchar --help",
+    "summarymodify --help",
+    "summarypages --help",
+    "summarypageslw --help",
+    "summarypipe --help",
+    "summaryplots --help",
+    "summarypublication --help",
+    "summaryrecreate --help",
+    "summaryreview --help",
+    "summaryversion --help",
+    "summaryclassification --help",
+    "summaryclean --help",
+    "summarycombine --help",
+    "summarydetchar --help",
+    "summarymodify --help",
+    "summarypages --help",
+    "summarypageslw --help",
+    "summarypipe --help",
+    "summaryplots --help",
+    "summarypublication --help",
+    "summaryrecreate --help",
+    "summaryreview --help",
+    "summaryversion --help"
+   ],
+   "imports":[
+    "pesummary",
+    "pesummary.conf",
+    "pesummary.core.css",
+    "pesummary.core.file",
+    "pesummary.core.file.formats",
+    "pesummary.core.js",
+    "pesummary.core.file",
+    "pesummary.core.plots",
+    "pesummary.core.webpage",
+    "pesummary.gw",
+    "pesummary.gw.file",
+    "pesummary.gw.file.formats",
+    "pesummary.gw.pepredicates",
+    "pesummary.gw.p_astro",
+    "pesummary.gw.plots",
+    "pesummary.gw.plots.bounded_2d_kde",
+    "pesummary.gw.plots.detchar",
+    "pesummary.gw.plots.main",
+    "pesummary.gw.plots.violin",
+    "pesummary.io",
+    "pesummary.utils",
+    "pesummary",
+    "pesummary.conf",
+    "pesummary.core.css",
+    "pesummary.core.file",
+    "pesummary.core.file.formats",
+    "pesummary.core.js",
+    "pesummary.core.file",
+    "pesummary.core.plots",
+    "pesummary.core.webpage",
+    "pesummary.gw",
+    "pesummary.gw.file",
+    "pesummary.gw.file.formats",
+    "pesummary.gw.pepredicates",
+    "pesummary.gw.p_astro",
+    "pesummary.gw.plots",
+    "pesummary.gw.plots.bounded_2d_kde",
+    "pesummary.gw.plots.detchar",
+    "pesummary.gw.plots.main",
+    "pesummary.gw.plots.violin",
+    "pesummary.io",
+    "pesummary.utils",
+    "pesummary",
+    "pesummary.conf",
+    "pesummary.core.css",
+    "pesummary.core.file",
+    "pesummary.core.file.formats",
+    "pesummary.core.js",
+    "pesummary.core.file",
+    "pesummary.core.plots",
+    "pesummary.core.webpage",
+    "pesummary.gw",
+    "pesummary.gw.file",
+    "pesummary.gw.file.formats",
+    "pesummary.gw.pepredicates",
+    "pesummary.gw.p_astro",
+    "pesummary.gw.plots",
+    "pesummary.gw.plots.bounded_2d_kde",
+    "pesummary.gw.plots.detchar",
+    "pesummary.gw.plots.main",
+    "pesummary.gw.plots.violin",
+    "pesummary.io",
+    "pesummary.utils"
+   ]
+  }
+ },
+ "name":"pesummary",
+ "new_version":"0.5.5",
+ "new_version_attempts":{
+  "0.5.2":1,
+  "0.5.3":1,
+  "0.5.4":1,
+  "0.5.5":1
+ },
+ "new_version_errors":{},
+ "pinning_version":"2020.05.10.05.52.45",
+ "raw_meta_yaml":"{% set name = \"pesummary\" %}\n{% set version = \"0.5.5\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: a4aaf711eeb01b6f05c45afad9a7d1476b43c7886a599aae154f9db81dcd4766\n\nbuild:\n  entry_points:\n    - summaryclassification = pesummary.cli.summaryclassification:main\n    - summaryclean = pesummary.cli.summaryclean:main\n    - summarycombine = pesummary.cli.summarycombine:main\n    - summarydetchar = pesummary.cli.summarydetchar:main\n    - summarymodify = pesummary.cli.summarymodify:main\n    - summarypages = pesummary.cli.summarypages:main\n    - summarypageslw = pesummary.cli.summarypageslw:main\n    - summarypipe = pesummary.cli.summarypipe:main\n    - summaryplots = pesummary.cli.summaryplots:main\n    - summarypublication = pesummary.cli.summarypublication:main\n    - summaryrecreate = pesummary.cli.summaryrecreate:main\n    - summaryreview = pesummary.cli.summaryreview:main\n    - summaryversion = pesummary.cli.summaryversion:main\n  noarch: python\n  number: 0\n  script: {{ PYTHON }} -m pip install . -vv\n\nrequirements:\n  host:\n    - pip\n    - python >=3.6\n    - setuptools\n  run:\n    - astropy >=3.2.3\n    - corner\n    - deepdish\n    - gwpy\n    - h5py\n    - ligo.skymap\n    - matplotlib-base\n    - numpy >=1.15.4\n    - p_astro\n    - pandas <1.0.0a0\n    - pepredicates >=0.0.2\n    - plotly\n    - pygments\n    - pytables\n    - python >=3.6\n    - python-lal\n    - python-lalsimulation >=2.0.0\n    - python-lalinference\n    - scipy\n    - seaborn\n    - statsmodels\n\ntest:\n  imports:\n    - pesummary\n    - pesummary.conf\n    - pesummary.core.css\n    - pesummary.core.file\n    - pesummary.core.file.formats\n    - pesummary.core.js\n    - pesummary.core.file\n    - pesummary.core.plots\n    - pesummary.core.webpage\n    - pesummary.gw\n    - pesummary.gw.file\n    - pesummary.gw.file.formats\n    - pesummary.gw.pepredicates\n    - pesummary.gw.p_astro\n    - pesummary.gw.plots\n    - pesummary.gw.plots.bounded_2d_kde\n    - pesummary.gw.plots.detchar\n    - pesummary.gw.plots.main\n    - pesummary.gw.plots.violin\n    - pesummary.io\n    - pesummary.utils\n  commands:\n    - summaryclassification --help\n    - summaryclean --help\n    - summarycombine --help\n    - summarydetchar --help\n    - summarymodify --help\n    - summarypages --help\n    - summarypageslw --help\n    - summarypipe --help\n    - summaryplots --help\n    - summarypublication --help\n    - summaryrecreate --help\n    - summaryreview --help\n    - summaryversion --help\n\nabout:\n  home: https://git.ligo.org/lscsoft/pesummary\n  doc_url: https://lscsoft.docs.ligo.org/pesummary/\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE\n  summary: Python package to produce summary pages for Parameter estimation codes\n  description: |\n    This package helps the user to generate summary webpages to\n    visualise the output from any parameter estimation code\n\nextra:\n  recipe-maintainers:\n    - duncanmmacleod\n    - hoyc1\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "astropy",
+   "corner",
+   "deepdish",
+   "gwpy",
+   "h5py",
+   "ligo.skymap",
+   "matplotlib-base",
+   "numpy",
+   "p_astro",
+   "pandas",
+   "pepredicates",
+   "pip",
+   "plotly",
+   "pygments",
+   "pytables",
+   "python",
+   "python-lal",
+   "python-lalinference",
+   "python-lalsimulation",
+   "scipy",
+   "seaborn",
+   "setuptools",
+   "statsmodels"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python",
+    "setuptools"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "astropy",
+    "corner",
+    "deepdish",
+    "gwpy",
+    "h5py",
+    "ligo.skymap",
+    "matplotlib-base",
+    "numpy",
+    "p_astro",
+    "pandas",
+    "pepredicates",
+    "plotly",
+    "pygments",
+    "pytables",
+    "python",
+    "python-lal",
+    "python-lalinference",
+    "python-lalsimulation",
+    "scipy",
+    "seaborn",
+    "statsmodels"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.7.0\n",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3.6",
+    "setuptools"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "astropy >=3.2.3",
+    "corner",
+    "deepdish",
+    "gwpy",
+    "h5py",
+    "ligo.skymap",
+    "matplotlib-base",
+    "numpy >=1.15.4",
+    "p_astro",
+    "pandas <1.0.0a0",
+    "pepredicates >=0.0.2",
+    "plotly",
+    "pygments",
+    "pytables",
+    "python >=3.6",
+    "python-lal",
+    "python-lalinference",
+    "python-lalsimulation >=2.0.0",
+    "scipy",
+    "seaborn",
+    "statsmodels"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/p/pesummary/pesummary-0.1.7.tar.gz",
+ "version":"0.5.5"
+}

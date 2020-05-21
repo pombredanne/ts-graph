@@ -1,0 +1,191 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/196746295.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.1.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"pyldavis",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"pyLDAvis is designed to help users interpret the topics in a topic\nmodel that has been fit to a corpus of text data. The package extracts\ninformation from a fitted LDA topic model to inform an interactive\nweb-based visualization.\n\nThe visualization is intended to be used within an IPython notebook\nbut can also be saved to a stand-alone HTML file for easy sharing.\n",
+   "dev_url":"https://github.com/bmabey/pyLDAvis",
+   "doc_url":"http://pyldavis.readthedocs.io/",
+   "home":"https://github.com/bmabey/pyLDAvis",
+   "license":"BSD-3-Clause",
+   "license_family":"BSD",
+   "license_file":"LICENSE",
+   "summary":"Python library for interactive topic model visualization"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":"python -m pip install --no-deps --ignore-installed ."
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "sodre",
+    "CurtLH",
+    "sodre",
+    "CurtLH",
+    "sodre",
+    "CurtLH"
+   ]
+  },
+  "package":{
+   "name":"pyldavis",
+   "version":"2.1.2"
+  },
+  "requirements":{
+   "host":[
+    "python",
+    "pip",
+    "python",
+    "pip",
+    "python",
+    "pip"
+   ],
+   "run":[
+    "python",
+    "numpy >=1.14.0",
+    "scipy >=0.18.0",
+    "pandas >=0.22.0",
+    "joblib >=0.8.4",
+    "jinja2 >=2.7.2",
+    "numexpr",
+    "future",
+    "funcy",
+    "python",
+    "numpy >=1.14.0",
+    "scipy >=0.18.0",
+    "pandas >=0.22.0",
+    "joblib >=0.8.4",
+    "jinja2 >=2.7.2",
+    "numexpr",
+    "future",
+    "funcy",
+    "python",
+    "numpy >=1.14.0",
+    "scipy >=0.18.0",
+    "pandas >=0.22.0",
+    "joblib >=0.8.4",
+    "jinja2 >=2.7.2",
+    "numexpr",
+    "future",
+    "funcy"
+   ]
+  },
+  "source":{
+   "sha256":"022041229a8fa88eee354bb19896f3e87293a82f90be98ad0df1fdd494a0fa22",
+   "url":"https://pypi.io/packages/source/p/pyLDAvis/pyLDAvis-2.1.2.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "pyLDAvis",
+    "pyLDAvis",
+    "pyLDAvis"
+   ]
+  }
+ },
+ "name":"pyldavis",
+ "new_version":"2.1.2",
+ "pinning_version":"2018.06.19",
+ "raw_meta_yaml":"{% set name = \"pyLDAvis\" %}\n{% set version = \"2.1.2\" %}\n{% set sha256 = \"022041229a8fa88eee354bb19896f3e87293a82f90be98ad0df1fdd494a0fa22\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 0\n  script: python -m pip install --no-deps --ignore-installed .\n\nrequirements:\n  host:\n    - python\n    - pip\n  run:\n    - python\n    - numpy >=1.14.0\n    - scipy >=0.18.0\n    - pandas >=0.22.0\n    - joblib >=0.8.4\n    - jinja2 >=2.7.2\n    - numexpr\n    - future\n    - funcy\n\ntest:\n  imports:\n    - pyLDAvis\n\nabout:\n  home: https://github.com/bmabey/pyLDAvis\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: LICENSE\n  summary: 'Python library for interactive topic model visualization'\n\n  description: |\n    pyLDAvis is designed to help users interpret the topics in a topic \n    model that has been fit to a corpus of text data. The package extracts\n    information from a fitted LDA topic model to inform an interactive \n    web-based visualization.\n\n    The visualization is intended to be used within an IPython notebook\n    but can also be saved to a stand-alone HTML file for easy sharing.\n  doc_url: http://pyldavis.readthedocs.io/\n  dev_url: https://github.com/bmabey/pyLDAvis\n\nextra:\n  recipe-maintainers:\n    - sodre\n    - CurtLH\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "funcy",
+   "future",
+   "jinja2",
+   "joblib",
+   "numexpr",
+   "numpy",
+   "pandas",
+   "pip",
+   "python",
+   "scipy"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "funcy",
+    "future",
+    "jinja2",
+    "joblib",
+    "numexpr",
+    "numpy",
+    "pandas",
+    "python",
+    "scipy"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.1.6",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "funcy",
+    "future",
+    "jinja2 >=2.7.2",
+    "joblib >=0.8.4",
+    "numexpr",
+    "numpy >=1.14.0",
+    "pandas >=0.22.0",
+    "python",
+    "scipy >=0.18.0"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/p/pyLDAvis/pyLDAvis-2.1.2.tar.gz",
+ "version":"2.1.2"
+}

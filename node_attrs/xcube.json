@@ -1,0 +1,370 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/336830122.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.2.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/344085859.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.3.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/375517714.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MatplotlibBase",
+    "migrator_version":0,
+    "name":"matplotlib-to-matplotlib-base"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/400655403.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.4.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/413545467.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.4.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"xcube",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"xcube is a Python package for generating and exploiting data cubes powered by xarray, dask, and zarr. It has been designed in the context of Earth Observation data.",
+   "dev_url":"https://github.com/dcs4cop/xcube",
+   "doc_url":"https://xcube.readthedocs.io",
+   "home":"https://github.com/dcs4cop/xcube",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"LICENSE",
+   "summary":"xcube is a Python package for generating and exploiting data cubes powered by xarray, dask, and zarr"
+  },
+  "build":{
+   "entry_points":[
+    "xcube = xcube.cli.main:main",
+    "xcube_standard = xcube.plugin:init_plugin",
+    "xcube = xcube.cli.main:main",
+    "xcube_standard = xcube.plugin:init_plugin",
+    "xcube = xcube.cli.main:main",
+    "xcube_standard = xcube.plugin:init_plugin"
+   ],
+   "noarch":"python",
+   "number":"1",
+   "script":"-m pip install . -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "dzelge",
+    "forman",
+    "dzelge",
+    "forman",
+    "dzelge",
+    "forman"
+   ]
+  },
+  "package":{
+   "name":"xcube",
+   "version":"0.4.2"
+  },
+  "requirements":{
+   "host":[
+    "python >=3.6",
+    "pip",
+    "python >=3.6",
+    "pip",
+    "python >=3.6",
+    "pip"
+   ],
+   "run":[
+    "python >=3.6",
+    "affine >=2.2",
+    "click >=7.0",
+    "cmocean >=2.0",
+    "dask >=1.2",
+    "fiona >=1.8",
+    "gdal >=2.4,<3.0",
+    "matplotlib-base >=3.0",
+    "netcdf4 >=1.5.0",
+    "numba >=0.43",
+    "numpy >=1.16",
+    "pandas >=0.24",
+    "pillow >=6.0",
+    "proj4 >=5.2",
+    "pyproj >=2.1",
+    "pyyaml >=5.1",
+    "rasterio >=1.0",
+    "s3fs >=0.2",
+    "scipy >=1.2",
+    "setuptools >=41.0",
+    "shapely >=1.6",
+    "tornado >=6.0",
+    "xarray >=0.14.1",
+    "zarr >=2.3.2",
+    "python >=3.6",
+    "affine >=2.2",
+    "click >=7.0",
+    "cmocean >=2.0",
+    "dask >=1.2",
+    "fiona >=1.8",
+    "gdal >=2.4,<3.0",
+    "matplotlib-base >=3.0",
+    "netcdf4 >=1.5.0",
+    "numba >=0.43",
+    "numpy >=1.16",
+    "pandas >=0.24",
+    "pillow >=6.0",
+    "proj4 >=5.2",
+    "pyproj >=2.1",
+    "pyyaml >=5.1",
+    "rasterio >=1.0",
+    "s3fs >=0.2",
+    "scipy >=1.2",
+    "setuptools >=41.0",
+    "shapely >=1.6",
+    "tornado >=6.0",
+    "xarray >=0.14.1",
+    "zarr >=2.3.2",
+    "python >=3.6",
+    "affine >=2.2",
+    "click >=7.0",
+    "cmocean >=2.0",
+    "dask >=1.2",
+    "fiona >=1.8",
+    "gdal >=2.4,<3.0",
+    "matplotlib-base >=3.0",
+    "netcdf4 >=1.5.0",
+    "numba >=0.43",
+    "numpy >=1.16",
+    "pandas >=0.24",
+    "pillow >=6.0",
+    "proj4 >=5.2",
+    "pyproj >=2.1",
+    "pyyaml >=5.1",
+    "rasterio >=1.0",
+    "s3fs >=0.2",
+    "scipy >=1.2",
+    "setuptools >=41.0",
+    "shapely >=1.6",
+    "tornado >=6.0",
+    "xarray >=0.14.1",
+    "zarr >=2.3.2"
+   ]
+  },
+  "source":{
+   "sha256":"494159096d150c5dcee68e56fadd3afdef25dba8d7086dbec15b78b09ae8b730",
+   "url":"https://github.com/dcs4cop/xcube/archive/v0.4.2.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "xcube --help",
+    "xcube --help",
+    "xcube --help"
+   ],
+   "imports":[
+    "xcube",
+    "xcube.cli.main",
+    "xcube",
+    "xcube.cli.main",
+    "xcube",
+    "xcube.cli.main"
+   ]
+  }
+ },
+ "name":"xcube",
+ "new_version":"0.4.2",
+ "new_version_attempts":{
+  "0.4.0":1,
+  "0.4.2":1
+ },
+ "new_version_errors":{},
+ "pinning_version":"2020.05.04.19.59.17",
+ "raw_meta_yaml":"{% set version = \"0.4.2\" %}\n\npackage:\n  name: xcube\n  version: {{ version }}\n\nsource:\n  url: https://github.com/dcs4cop/xcube/archive/v{{ version }}.tar.gz\n  sha256: 494159096d150c5dcee68e56fadd3afdef25dba8d7086dbec15b78b09ae8b730\n\nbuild:\n  number: 1\n  noarch: python\n  script: {{ PYTHON }} -m pip install . -vv\n  entry_points:\n    - xcube = xcube.cli.main:main\n    - xcube_standard = xcube.plugin:init_plugin\n\nrequirements:\n  host:\n    - python >=3.6\n    - pip\n  run:\n    # Python\n    - python >=3.6\n    # Required\n    - affine >=2.2\n    - click >=7.0\n    - cmocean >=2.0\n    - dask >=1.2\n    - fiona >=1.8\n    - gdal >=2.4,<3.0\n    - matplotlib-base >=3.0\n    - netcdf4 >=1.5.0\n    - numba >=0.43\n    - numpy >=1.16\n    - pandas >=0.24\n    - pillow >=6.0\n    - proj4 >=5.2\n    - pyproj >=2.1\n    - pyyaml >=5.1\n    - rasterio >=1.0\n    - s3fs >=0.2\n    - scipy >=1.2\n    - setuptools >=41.0\n    - shapely >=1.6\n    - tornado >=6.0\n    - xarray >=0.14.1\n    - zarr >=2.3.2\ntest:\n  imports:\n    - xcube\n    - xcube.cli.main\n  commands:\n    - xcube --help\n\nabout:\n  summary: xcube is a Python package for generating and exploiting data cubes powered by xarray, dask, and zarr\n  home: https://github.com/dcs4cop/xcube\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE\n  description: xcube is a Python package for generating and exploiting data cubes powered by xarray, dask, and zarr. It has been designed in the context of Earth Observation data.\n  doc_url: https://xcube.readthedocs.io\n  dev_url: https://github.com/dcs4cop/xcube\n\nextra:\n  recipe-maintainers:\n    - dzelge\n    - forman\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "affine",
+   "click",
+   "cmocean",
+   "dask",
+   "fiona",
+   "gdal",
+   "matplotlib-base",
+   "netcdf4",
+   "numba",
+   "numpy",
+   "pandas",
+   "pillow",
+   "pip",
+   "proj4",
+   "pyproj",
+   "python",
+   "pyyaml",
+   "rasterio",
+   "s3fs",
+   "scipy",
+   "setuptools",
+   "shapely",
+   "tornado",
+   "xarray",
+   "zarr"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "affine",
+    "click",
+    "cmocean",
+    "dask",
+    "fiona",
+    "gdal",
+    "matplotlib-base",
+    "netcdf4",
+    "numba",
+    "numpy",
+    "pandas",
+    "pillow",
+    "proj4",
+    "pyproj",
+    "python",
+    "pyyaml",
+    "rasterio",
+    "s3fs",
+    "scipy",
+    "setuptools",
+    "shapely",
+    "tornado",
+    "xarray",
+    "zarr"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.7.0\n",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3.6"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "affine >=2.2",
+    "click >=7.0",
+    "cmocean >=2.0",
+    "dask >=1.2",
+    "fiona >=1.8",
+    "gdal >=2.4,<3.0",
+    "matplotlib-base >=3.0",
+    "netcdf4 >=1.5.0",
+    "numba >=0.43",
+    "numpy >=1.16",
+    "pandas >=0.24",
+    "pillow >=6.0",
+    "proj4 >=5.2",
+    "pyproj >=2.1",
+    "python >=3.6",
+    "pyyaml >=5.1",
+    "rasterio >=1.0",
+    "s3fs >=0.2",
+    "scipy >=1.2",
+    "setuptools >=41.0",
+    "shapely >=1.6",
+    "tornado >=6.0",
+    "xarray >=0.14.1",
+    "zarr >=2.3.2"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://github.com/dcs4cop/xcube/archive/v0.2.0.tar.gz",
+ "version":"0.4.2"
+}

@@ -1,0 +1,162 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/418954138.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.0.4"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"optionsfactory",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"OptionsFactory allows you to define a set of options, which can have (if you like): default\nvalues (which may be expressions depending on other options); documentation for each option;\nan allowed type or list of types; a check that the value option is on an allowed list;\nchecks that the value of an option satisfies some tests.\nOnce the options are defined in an OptionsFactory, you create a particular instance of the\noptions by passing some user settings (a dict or YAML file). The OptionsFactory uses the\nvalues passed, sets the remaining options from the default values or expressions and returns\nan Options object. Options are immutable so that you do not have to worry about the options\nbeing accidentally changed during execution - however, the package also provides\nMutableOptionsFactory if you do want to be able to update the options dynamically.\n",
+   "dev_url":"https://github.com/johnomotani/optionsfactory",
+   "home":"https://github.com/johnomotani/optionsfactory",
+   "license":"BSD-3-Clause",
+   "license_family":"BSD",
+   "license_file":"LICENSE",
+   "summary":"Python package for handling user-provided options with flexible defaults, documentation and checking"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"1",
+   "script":"-m pip install . -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "johnomotani",
+    "johnomotani",
+    "johnomotani"
+   ]
+  },
+  "package":{
+   "name":"optionsfactory",
+   "version":"1.0.4"
+  },
+  "requirements":{
+   "host":[
+    "python >=3.6",
+    "pip",
+    "python >=3.6",
+    "pip",
+    "python >=3.6",
+    "pip"
+   ],
+   "run":[
+    "python >=3.6",
+    "python >=3.6",
+    "python >=3.6"
+   ]
+  },
+  "source":{
+   "sha256":"6a08151177ae9c64efb48720c8441cec732b6b00d1d91ba1484abf3b17a1871d",
+   "url":"https://pypi.io/packages/source/o/optionsfactory/optionsfactory-1.0.4.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "pytest --pyargs optionsfactory",
+    "pytest --pyargs optionsfactory",
+    "pytest --pyargs optionsfactory"
+   ],
+   "imports":[
+    "optionsfactory",
+    "optionsfactory",
+    "optionsfactory"
+   ],
+   "requires":[
+    "pytest",
+    "pyyaml",
+    "pytest",
+    "pyyaml",
+    "pytest",
+    "pyyaml"
+   ]
+  }
+ },
+ "name":"optionsfactory",
+ "new_version":"1.0.4",
+ "new_version_attempts":{
+  "1.0.4":1
+ },
+ "new_version_errors":{},
+ "pinning_version":"2020.05.14.17.14.20",
+ "raw_meta_yaml":"{% set name = \"optionsfactory\" %}\n{% set version = \"1.0.4\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: 6a08151177ae9c64efb48720c8441cec732b6b00d1d91ba1484abf3b17a1871d\n\nbuild:\n  noarch: python\n  number: 1\n  script: {{ PYTHON }} -m pip install . -vv\n\nrequirements:\n  host:\n    - python >=3.6\n    - pip\n  run:\n    - python >=3.6\n\ntest:\n  imports:\n    - optionsfactory\n  requires:\n    - pytest\n    - pyyaml\n  commands:\n    - pytest --pyargs optionsfactory\n\nabout:\n  home: https://github.com/johnomotani/optionsfactory\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: LICENSE\n  summary: Python package for handling user-provided options with flexible defaults, documentation and checking\n\n  description: |\n    OptionsFactory allows you to define a set of options, which can have (if you like): default\n    values (which may be expressions depending on other options); documentation for each option;\n    an allowed type or list of types; a check that the value option is on an allowed list;\n    checks that the value of an option satisfies some tests.\n    Once the options are defined in an OptionsFactory, you create a particular instance of the\n    options by passing some user settings (a dict or YAML file). The OptionsFactory uses the\n    values passed, sets the remaining options from the default values or expressions and returns\n    an Options object. Options are immutable so that you do not have to worry about the options\n    being accidentally changed during execution - however, the package also provides\n    MutableOptionsFactory if you do want to be able to update the options dynamically.\n  dev_url: https://github.com/johnomotani/optionsfactory\n\nextra:\n  recipe-maintainers:\n    - johnomotani\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "pip",
+   "python"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "pytest",
+    "pyyaml"
+   ]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.7.1\n",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3.6"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "python >=3.6"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "pytest",
+    "pyyaml"
+   ]
+  }
+ },
+ "url":"https://pypi.io/packages/source/o/optionsfactory/optionsfactory-1.0.3.tar.gz",
+ "version":"1.0.4"
+}

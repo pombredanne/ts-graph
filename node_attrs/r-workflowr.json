@@ -1,0 +1,464 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/232414491.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/254444063.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.2.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/286408737.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.4.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/299515190.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"RBaseRebuild",
+    "migrator_version":0,
+    "name":"r-base-3.6.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/335319914.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.5.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/355361282.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.6.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/386884876.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.6.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/411864944.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.6.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/415133402.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":2,
+    "migrator_version":0,
+    "name":"r400"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "bot":{
+   "automerge":true
+  },
+  "provider":{
+   "win":"azure"
+  }
+ },
+ "feedstock_name":"r-workflowr",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"https://github.com/jdblischak/workflowr",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":[
+    "/lib/R/share/licenses/MIT",
+    "LICENSE",
+    "/lib/R/share/licenses/MIT",
+    "LICENSE",
+    "/lib/R/share/licenses/MIT",
+    "LICENSE"
+   ],
+   "summary":"Provides a workflow for your analysis projects by combining literate programming ('knitr' and 'rmarkdown') and version control ('Git', via 'git2r') to generate a website containing time-stamped, versioned, and documented results."
+  },
+  "build":{
+   "merge_build_host":true,
+   "noarch":"generic",
+   "number":"1",
+   "rpaths":[
+    "lib/R/lib/",
+    "lib/",
+    "lib/R/lib/",
+    "lib/",
+    "lib/R/lib/",
+    "lib/"
+   ]
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "conda-forge/r",
+    "conda-forge/r",
+    "conda-forge/r"
+   ]
+  },
+  "package":{
+   "name":"r-workflowr",
+   "version":"1.6.2"
+  },
+  "requirements":{
+   "build":null,
+   "host":[
+    "r-base",
+    "r-callr",
+    "r-fs >=1.2.7",
+    "r-getpass",
+    "r-git2r >=0.26.0",
+    "r-glue",
+    "r-httpuv >=1.2.2",
+    "r-httr",
+    "r-knitr >=1.18",
+    "r-rmarkdown >=1.7",
+    "r-rprojroot",
+    "r-rstudioapi >=0.6",
+    "r-stringr >=1.3.0",
+    "r-whisker >=0.3_2",
+    "r-yaml",
+    "r-base",
+    "r-callr",
+    "r-fs >=1.2.7",
+    "r-getpass",
+    "r-git2r >=0.26.0",
+    "r-glue",
+    "r-httpuv >=1.2.2",
+    "r-httr",
+    "r-knitr >=1.18",
+    "r-rmarkdown >=1.7",
+    "r-rprojroot",
+    "r-rstudioapi >=0.6",
+    "r-stringr >=1.3.0",
+    "r-whisker >=0.3_2",
+    "r-yaml",
+    "r-base",
+    "r-callr",
+    "r-fs >=1.2.7",
+    "r-getpass",
+    "r-git2r >=0.26.0",
+    "r-glue",
+    "r-httpuv >=1.2.2",
+    "r-httr",
+    "r-knitr >=1.18",
+    "r-rmarkdown >=1.7",
+    "r-rprojroot",
+    "r-rstudioapi >=0.6",
+    "r-stringr >=1.3.0",
+    "r-whisker >=0.3_2",
+    "r-yaml"
+   ],
+   "run":[
+    "r-base",
+    "r-callr",
+    "r-fs >=1.2.7",
+    "r-getpass",
+    "r-git2r >=0.26.0",
+    "r-glue",
+    "r-httpuv >=1.2.2",
+    "r-httr",
+    "r-knitr >=1.18",
+    "r-rmarkdown >=1.7",
+    "r-rprojroot",
+    "r-rstudioapi >=0.6",
+    "r-stringr >=1.3.0",
+    "r-whisker >=0.3_2",
+    "r-yaml",
+    "r-base",
+    "r-callr",
+    "r-fs >=1.2.7",
+    "r-getpass",
+    "r-git2r >=0.26.0",
+    "r-glue",
+    "r-httpuv >=1.2.2",
+    "r-httr",
+    "r-knitr >=1.18",
+    "r-rmarkdown >=1.7",
+    "r-rprojroot",
+    "r-rstudioapi >=0.6",
+    "r-stringr >=1.3.0",
+    "r-whisker >=0.3_2",
+    "r-yaml",
+    "r-base",
+    "r-callr",
+    "r-fs >=1.2.7",
+    "r-getpass",
+    "r-git2r >=0.26.0",
+    "r-glue",
+    "r-httpuv >=1.2.2",
+    "r-httr",
+    "r-knitr >=1.18",
+    "r-rmarkdown >=1.7",
+    "r-rprojroot",
+    "r-rstudioapi >=0.6",
+    "r-stringr >=1.3.0",
+    "r-whisker >=0.3_2",
+    "r-yaml"
+   ]
+  },
+  "source":{
+   "sha256":"743c009b8395a4822b121fa0fa46e10f82604ca1b1a7b234ae9dccd57bc26a54",
+   "url":[
+    "https://cran.r-project.org/src/contrib/workflowr_1.6.2.tar.gz",
+    "https://cran.r-project.org/src/contrib/Archive/workflowr/workflowr_1.6.2.tar.gz",
+    "https://cran.r-project.org/src/contrib/workflowr_1.6.2.tar.gz",
+    "https://cran.r-project.org/src/contrib/Archive/workflowr/workflowr_1.6.2.tar.gz",
+    "https://cran.r-project.org/src/contrib/workflowr_1.6.2.tar.gz",
+    "https://cran.r-project.org/src/contrib/Archive/workflowr/workflowr_1.6.2.tar.gz"
+   ]
+  },
+  "test":{
+   "commands":[
+    "\"%R%\" -e \"library('workflowr')\"",
+    "$R -e \"library('workflowr')\"",
+    "$R -e \"library('workflowr')\""
+   ]
+  }
+ },
+ "name":"r-workflowr",
+ "new_version":"1.6.2",
+ "new_version_attempts":{
+  "1.6.2":1
+ },
+ "new_version_errors":{},
+ "pinning_version":"2020.05.06.22.15.02",
+ "raw_meta_yaml":"{% set version = \"1.6.2\" %}\n{% set posix = 'm2-' if win else '' %}\n{% set native = 'm2w64-' if win else '' %}\n\npackage:\n  name: r-workflowr\n  version: {{ version|replace(\"-\", \"_\") }}\n\nsource:\n  url:\n    - {{ cran_mirror }}/src/contrib/workflowr_{{ version }}.tar.gz\n    - {{ cran_mirror }}/src/contrib/Archive/workflowr/workflowr_{{ version }}.tar.gz\n  sha256: 743c009b8395a4822b121fa0fa46e10f82604ca1b1a7b234ae9dccd57bc26a54\n\nbuild:\n  merge_build_host: true  # [win]\n  number: 1\n  noarch: generic\n  rpaths:\n    - lib/R/lib/\n    - lib/\n\nrequirements:\n  build:\n    - {{ posix }}zip               # [win]\n  host:\n    - r-base\n    - r-callr\n    - r-fs >=1.2.7\n    - r-getpass\n    - r-git2r >=0.26.0\n    - r-glue\n    - r-httpuv >=1.2.2\n    - r-httr\n    - r-knitr >=1.18\n    - r-rmarkdown >=1.7\n    - r-rprojroot\n    - r-rstudioapi >=0.6\n    - r-stringr >=1.3.0\n    - r-whisker >=0.3_2\n    - r-yaml\n  run:\n    - r-base\n    - r-callr\n    - r-fs >=1.2.7\n    - r-getpass\n    - r-git2r >=0.26.0\n    - r-glue\n    - r-httpuv >=1.2.2\n    - r-httr\n    - r-knitr >=1.18\n    - r-rmarkdown >=1.7\n    - r-rprojroot\n    - r-rstudioapi >=0.6\n    - r-stringr >=1.3.0\n    - r-whisker >=0.3_2\n    - r-yaml\n\ntest:\n  commands:\n    - $R -e \"library('workflowr')\"           # [not win]\n    - \"\\\"%R%\\\" -e \\\"library('workflowr')\\\"\"  # [win]\n\nabout:\n  home: https://github.com/jdblischak/workflowr\n  license: MIT\n  summary: Provides a workflow for your analysis projects by combining literate programming ('knitr' and 'rmarkdown') and version control ('Git', via 'git2r') to generate a website containing time-stamped, versioned, and documented results.\n  license_family: MIT\n  license_file:\n    - {{ environ[\"PREFIX\"] }}/lib/R/share/licenses/MIT\n    - LICENSE\n\nextra:\n  recipe-maintainers:\n    - conda-forge/r\n\n# Package: workflowr\n# Type: Package\n# Title: A Framework for Reproducible and Collaborative Data Science\n# Version: 1.5.0\n# Authors@R: c( person(\"John\", \"Blischak\", role = c(\"aut\", \"cre\"), email = \"jdblischak@uchicago.edu\", comment = c(ORCID = \"0000-0003-2634-9879\")), person(\"Peter\", \"Carbonetto\", role = c(\"aut\"), comment = c(ORCID = \"0000-0003-1144-6780\")), person(\"Matthew\", \"Stephens\", role = c(\"aut\"), comment = c(ORCID = \"0000-0001-5397-9257\")), person(\"Luke\", \"Zappia\", role = c(\"ctb\"), comment = \"Instructions for hosting with GitLab\"), person(\"Pierre\", \"Formont\", role = c(\"ctb\"), comment = \"Support for hosting with Shiny Server\"), person(\"Tim\", \"Trice\", role = c(\"ctb\"), comment = \"Instructions for sharing common code\"), person(\"Jiaxiang\", \"Li\", role = c(\"ctb\"), comment = \"Function wflow_toc() to create table of contents\"), person(\"Michael J.\", \"Kane\", role = c(\"ctb\"), email = \"michael.kane@yale.edu\", comment = c(ORCID = \"http://orcid.org/0000-0003-1899-6662\", \"Option suppress_report\")))\n# Description: Provides a workflow for your analysis projects by combining literate programming ('knitr' and 'rmarkdown') and version control ('Git', via 'git2r') to generate a website containing time-stamped, versioned, and documented results.\n# URL: https://github.com/jdblischak/workflowr\n# BugReports: https://github.com/jdblischak/workflowr/issues\n# Depends: R (>= 3.2.5)\n# License: MIT + file LICENSE\n# Encoding: UTF-8\n# LazyData: true\n# Imports: callr, fs (>= 1.2.7), getPass, git2r (>= 0.26.0), glue, httpuv (>= 1.2.2), httr, knitr (>= 1.18), rmarkdown (>= 1.7), rprojroot, rstudioapi (>= 0.6), stringr (>= 1.3.0), tools, utils, whisker (>= 0.3-2), yaml\n# RoxygenNote: 6.1.1\n# Suggests: clipr (>= 0.7.0), covr, devtools, miniUI (>= 0.1.1), shiny (>= 0.14), spelling, testthat (>= 2.0.0), withr (>= 2.0.0)\n# VignetteBuilder: knitr\n# SystemRequirements: pandoc (>= 1.12.3) - http://pandoc.org\n# Language: en-US\n# NeedsCompilation: no\n# Packaged: 2019-11-01 00:38:38 UTC; jdb-work\n# Author: John Blischak [aut, cre] (<https://orcid.org/0000-0003-2634-9879>), Peter Carbonetto [aut] (<https://orcid.org/0000-0003-1144-6780>), Matthew Stephens [aut] (<https://orcid.org/0000-0001-5397-9257>), Luke Zappia [ctb] (Instructions for hosting with GitLab), Pierre Formont [ctb] (Support for hosting with Shiny Server), Tim Trice [ctb] (Instructions for sharing common code), Jiaxiang Li [ctb] (Function wflow_toc() to create table of contents), Michael J. Kane [ctb] (<https://orcid.org/0000-0003-1899-6662>, Option suppress_report)\n# Maintainer: John Blischak <jdblischak@uchicago.edu>\n# Repository: CRAN\n# Date/Publication: 2019-11-01 07:20:02 UTC\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "r-base",
+   "r-callr",
+   "r-fs",
+   "r-getpass",
+   "r-git2r",
+   "r-glue",
+   "r-httpuv",
+   "r-httr",
+   "r-knitr",
+   "r-rmarkdown",
+   "r-rprojroot",
+   "r-rstudioapi",
+   "r-stringr",
+   "r-whisker",
+   "r-yaml"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "r-base",
+    "r-callr",
+    "r-fs",
+    "r-getpass",
+    "r-git2r",
+    "r-glue",
+    "r-httpuv",
+    "r-httr",
+    "r-knitr",
+    "r-rmarkdown",
+    "r-rprojroot",
+    "r-rstudioapi",
+    "r-stringr",
+    "r-whisker",
+    "r-yaml"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "r-base",
+    "r-callr",
+    "r-fs",
+    "r-getpass",
+    "r-git2r",
+    "r-glue",
+    "r-httpuv",
+    "r-httr",
+    "r-knitr",
+    "r-rmarkdown",
+    "r-rprojroot",
+    "r-rstudioapi",
+    "r-stringr",
+    "r-whisker",
+    "r-yaml"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.7.0\n",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "r-base",
+    "r-callr",
+    "r-fs >=1.2.7",
+    "r-getpass",
+    "r-git2r >=0.26.0",
+    "r-glue",
+    "r-httpuv >=1.2.2",
+    "r-httr",
+    "r-knitr >=1.18",
+    "r-rmarkdown >=1.7",
+    "r-rprojroot",
+    "r-rstudioapi >=0.6",
+    "r-stringr >=1.3.0",
+    "r-whisker >=0.3_2",
+    "r-yaml"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "r-base",
+    "r-callr",
+    "r-fs >=1.2.7",
+    "r-getpass",
+    "r-git2r >=0.26.0",
+    "r-glue",
+    "r-httpuv >=1.2.2",
+    "r-httr",
+    "r-knitr >=1.18",
+    "r-rmarkdown >=1.7",
+    "r-rprojroot",
+    "r-rstudioapi >=0.6",
+    "r-stringr >=1.3.0",
+    "r-whisker >=0.3_2",
+    "r-yaml"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":[
+  "https://cran.r-project.org/src/contrib/workflowr_1.4.0.tar.gz",
+  "https://cran.r-project.org/src/contrib/Archive/workflowr/workflowr_1.4.0.tar.gz",
+  "https://cran.r-project.org/src/contrib/workflowr_1.4.0.tar.gz",
+  "https://cran.r-project.org/src/contrib/Archive/workflowr/workflowr_1.4.0.tar.gz",
+  "https://cran.r-project.org/src/contrib/workflowr_1.4.0.tar.gz",
+  "https://cran.r-project.org/src/contrib/Archive/workflowr/workflowr_1.4.0.tar.gz"
+ ],
+ "version":"1.6.2"
+}

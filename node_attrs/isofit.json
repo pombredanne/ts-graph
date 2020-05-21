@@ -1,0 +1,207 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/375474047.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MatplotlibBase",
+    "migrator_version":0,
+    "name":"matplotlib-to-matplotlib-base"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"isofit",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"ISOFIT provides routines and utilities for fitting surface, atmosphere\nand instrument models to imaging spectrometer data\n",
+   "dev_url":"https://github.com/isofit/isofit",
+   "doc_source_url":"https://github.com/isofit/isofit/tree/master/docs",
+   "doc_url":"https://github.com/isofit/isofit/wiki",
+   "home":"https://github.com/isofit/isofit",
+   "license":"Apache-2.0",
+   "license_family":"Apache",
+   "license_file":"LICENSE",
+   "summary":"Imaging Spectrometer Optimal FITting (ISOFIT)"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"1",
+   "script":" -m pip install . --no-deps -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "adam-erickson",
+    "winstonolson",
+    "davidraythompson",
+    "adam-erickson",
+    "winstonolson",
+    "davidraythompson",
+    "adam-erickson",
+    "winstonolson",
+    "davidraythompson"
+   ]
+  },
+  "package":{
+   "name":"isofit",
+   "version":"1.1.6"
+  },
+  "requirements":{
+   "host":[
+    "python >=3.5",
+    "pip",
+    "python >=3.5",
+    "pip",
+    "python >=3.5",
+    "pip"
+   ],
+   "run":[
+    "python >=3.5",
+    "setuptools",
+    "numpy >=1.11",
+    "scipy >=1.1.0",
+    "numba >=0.38.0",
+    "matplotlib-base >=2.2.2",
+    "scikit-learn >=0.19.1",
+    "spectral >=0.19",
+    "pytest >=3.5.1",
+    "pep8 >=1.7.1",
+    "python-xxhash >=1.2.0",
+    "python >=3.5",
+    "setuptools",
+    "numpy >=1.11",
+    "scipy >=1.1.0",
+    "numba >=0.38.0",
+    "matplotlib-base >=2.2.2",
+    "scikit-learn >=0.19.1",
+    "spectral >=0.19",
+    "pytest >=3.5.1",
+    "pep8 >=1.7.1",
+    "python-xxhash >=1.2.0",
+    "python >=3.5",
+    "setuptools",
+    "numpy >=1.11",
+    "scipy >=1.1.0",
+    "numba >=0.38.0",
+    "matplotlib-base >=2.2.2",
+    "scikit-learn >=0.19.1",
+    "spectral >=0.19",
+    "pytest >=3.5.1",
+    "pep8 >=1.7.1",
+    "python-xxhash >=1.2.0"
+   ]
+  },
+  "source":{
+   "sha256":"4947c0067e9d2d62d510d0bb1e0a343088bc199410cce9a8d8e688d1c558f053",
+   "url":"https://github.com/adam-erickson/isofit/archive/v1.1.6.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "isofit",
+    "isofit",
+    "isofit"
+   ]
+  }
+ },
+ "name":"isofit",
+ "new_version":"1.1.6",
+ "pinning_version":"2020.02.12",
+ "raw_meta_yaml":"{% set name = \"isofit\" %}\n{% set version = \"1.1.6\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://github.com/adam-erickson/{{ name }}/archive/v{{ version }}.tar.gz\n  sha256: 4947c0067e9d2d62d510d0bb1e0a343088bc199410cce9a8d8e688d1c558f053\n\nbuild:\n  noarch: python\n  number: 1\n  script: \"{{ PYTHON }} -m pip install . --no-deps -vv\"\n\nrequirements:\n  host:\n    - python >=3.5\n    - pip\n  run:\n    - python >=3.5\n    - setuptools\n    - numpy >=1.11\n    - scipy >=1.1.0\n    - numba >=0.38.0\n    - matplotlib-base >=2.2.2\n    - scikit-learn >=0.19.1\n    - spectral >=0.19\n    - pytest >=3.5.1\n    - pep8 >=1.7.1\n    - python-xxhash >=1.2.0\n\ntest:\n  imports:\n    - {{ name }}\n\nabout:\n  home: https://github.com/{{ name }}/{{ name }}\n  license: Apache-2.0\n  license_family: Apache\n  license_file: LICENSE\n  summary: 'Imaging Spectrometer Optimal FITting (ISOFIT)'\n  description: |\n    ISOFIT provides routines and utilities for fitting surface, atmosphere\n    and instrument models to imaging spectrometer data\n  dev_url: https://github.com/{{ name }}/{{ name }}\n  doc_url: https://github.com/{{ name }}/{{ name }}/wiki\n  doc_source_url: https://github.com/{{ name }}/{{ name }}/tree/master/docs\n\nextra:\n  recipe-maintainers:\n    - adam-erickson\n    - winstonolson\n    - davidraythompson\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "matplotlib-base",
+   "numba",
+   "numpy",
+   "pep8",
+   "pip",
+   "pytest",
+   "python",
+   "python-xxhash",
+   "scikit-learn",
+   "scipy",
+   "setuptools",
+   "spectral"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "matplotlib-base",
+    "numba",
+    "numpy",
+    "pep8",
+    "pytest",
+    "python",
+    "python-xxhash",
+    "scikit-learn",
+    "scipy",
+    "setuptools",
+    "spectral"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.6.8",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3.5"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "matplotlib-base >=2.2.2",
+    "numba >=0.38.0",
+    "numpy >=1.11",
+    "pep8 >=1.7.1",
+    "pytest >=3.5.1",
+    "python >=3.5",
+    "python-xxhash >=1.2.0",
+    "scikit-learn >=0.19.1",
+    "scipy >=1.1.0",
+    "setuptools",
+    "spectral >=0.19"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://github.com/adam-erickson/isofit/archive/v1.1.6.tar.gz",
+ "version":"1.1.6"
+}

@@ -1,0 +1,221 @@
+{
+ "PRed":[
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.0.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/266897041.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.0.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/267142386.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.0.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/311934900.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.0.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"colorcet",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"http://github.com/pyviz/colorcet",
+   "license":"CC-BY-4.0",
+   "license_file":"LICENSE.txt",
+   "summary":"Collection of perceptually uniform colormaps"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . --no-deps -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "jbednar",
+    "jsignell",
+    "jbednar",
+    "jsignell",
+    "jbednar",
+    "jsignell"
+   ]
+  },
+  "package":{
+   "name":"colorcet",
+   "version":"2.0.1"
+  },
+  "requirements":{
+   "host":[
+    "python >=2.7",
+    "pip",
+    "setuptools >=30.3.0",
+    "param >=1.7.0",
+    "pyct >=0.4.4",
+    "wheel",
+    "python >=2.7",
+    "pip",
+    "setuptools >=30.3.0",
+    "param >=1.7.0",
+    "pyct >=0.4.4",
+    "wheel",
+    "python >=2.7",
+    "pip",
+    "setuptools >=30.3.0",
+    "param >=1.7.0",
+    "pyct >=0.4.4",
+    "wheel"
+   ],
+   "run":[
+    "python >=2.7",
+    "param >=1.7.0",
+    "pyct >=0.4.4",
+    "python >=2.7",
+    "param >=1.7.0",
+    "pyct >=0.4.4",
+    "python >=2.7",
+    "param >=1.7.0",
+    "pyct >=0.4.4"
+   ]
+  },
+  "source":{
+   "sha256":"ab1d16aba97f54af190631c7777c356b04b53de549672ff6b01c66d716eddff3",
+   "url":"https://pypi.io/packages/source/c/colorcet/colorcet-2.0.1.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "colorcet",
+    "colorcet",
+    "colorcet"
+   ]
+  }
+ },
+ "name":"colorcet",
+ "new_version":"2.0.2",
+ "pinning_version":"2019.08.22",
+ "raw_meta_yaml":"{% set name = \"colorcet\" %}\n{% set version = \"2.0.1\" %}\n{% set sha256 = \"ab1d16aba97f54af190631c7777c356b04b53de549672ff6b01c66d716eddff3\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/c/{{ name }}/{{name}}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  noarch: python\n  script: \"{{ PYTHON }} -m pip install . --no-deps -vv\"\n\nrequirements:\n  host:\n    - python >=2.7\n    - pip\n    - setuptools >=30.3.0\n    - param >=1.7.0\n    - pyct >=0.4.4\n    - wheel\n\n  run:\n    - python >=2.7\n    - param >=1.7.0\n    - pyct >=0.4.4\n\ntest:\n  imports:\n    - colorcet\n\nabout:\n  home: http://github.com/pyviz/colorcet\n  license: CC-BY-4.0\n  license_file: LICENSE.txt\n  summary: Collection of perceptually uniform colormaps\n\nextra:\n  recipe-maintainers:\n    - jbednar\n    - jsignell\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "param",
+   "pip",
+   "pyct",
+   "python",
+   "setuptools",
+   "wheel"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "param",
+    "pip",
+    "pyct",
+    "python",
+    "setuptools",
+    "wheel"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "param",
+    "pyct",
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.4.1",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "param >=1.7.0",
+    "pip",
+    "pyct >=0.4.4",
+    "python >=2.7",
+    "setuptools >=30.3.0",
+    "wheel"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "param >=1.7.0",
+    "pyct >=0.4.4",
+    "python >=2.7"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/c/colorcet/colorcet-2.0.1.tar.gz",
+ "version":"2.0.1"
+}

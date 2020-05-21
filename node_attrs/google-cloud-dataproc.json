@@ -1,0 +1,131 @@
+{
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"google-cloud-dataproc",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"Google Cloud Dataproc API client library manages Hadoop-based clusters and jobs on Google Cloud Platform. With Dataproc, enterprises get a fully managed, purpose-built cluster that can autoscale to support any data or analytics processing job.\nSee the [quick start guide](https://googleapis.dev/python/dataproc/latest/index.html#quick-start).",
+   "dev_url":"https://github.com/googleapis/python-dataproc",
+   "doc_url":"https://googleapis.dev/python/dataproc/latest/index.html",
+   "home":"https://github.com/googleapis/python-dataproc",
+   "license":"Apache-2.0",
+   "license_family":"Apache",
+   "license_file":"LICENSE",
+   "summary":"Google Cloud Dataproc API client library"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":"-m pip install . --no-deps -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "parthea",
+    "parthea",
+    "parthea"
+   ]
+  },
+  "package":{
+   "name":"google-cloud-dataproc",
+   "version":"0.7.0"
+  },
+  "requirements":{
+   "host":[
+    "python",
+    "pip >=18.1",
+    "python",
+    "pip >=18.1",
+    "python",
+    "pip >=18.1"
+   ],
+   "run":[
+    "python",
+    "google-api-core-grpc >=1.14.0,<2.0.0dev",
+    "python",
+    "google-api-core-grpc >=1.14.0,<2.0.0dev",
+    "python",
+    "google-api-core-grpc >=1.14.0,<2.0.0dev"
+   ]
+  },
+  "source":{
+   "sha256":"612f175466cb0dee45bc3e9157123ab59126e53f8baaa0bfa2095163ed52a279",
+   "url":"https://pypi.io/packages/source/g/google-cloud-dataproc/google-cloud-dataproc-0.7.0.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "grpc",
+    "google.cloud.dataproc",
+    "google.cloud.dataproc_v1",
+    "grpc",
+    "google.cloud.dataproc",
+    "google.cloud.dataproc_v1",
+    "grpc",
+    "google.cloud.dataproc",
+    "google.cloud.dataproc_v1"
+   ]
+  }
+ },
+ "name":"google-cloud-dataproc",
+ "new_version":"0.7.0",
+ "raw_meta_yaml":"{% set name = \"google-cloud-dataproc\" %}\n{% set version = \"0.7.0\" %}\n{% set sha256 = \"612f175466cb0dee45bc3e9157123ab59126e53f8baaa0bfa2095163ed52a279\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  noarch: python\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  host:\n    - python\n    - pip >=18.1\n  run:\n    - python\n    - google-api-core-grpc >=1.14.0,<2.0.0dev\n\ntest:\n  imports:\n    - grpc\n    - google.cloud.dataproc\n    - google.cloud.dataproc_v1\n\nabout:\n  home: https://github.com/googleapis/python-dataproc\n  license: Apache-2.0\n  license_family: Apache\n  license_file: LICENSE\n  summary: 'Google Cloud Dataproc API client library'\n  description: Google Cloud Dataproc API client library manages Hadoop-based clusters and jobs on Google\n    Cloud Platform. With Dataproc, enterprises get a fully managed, purpose-built cluster that can autoscale\n    to support any data or analytics processing job. \n\n    See the [quick start guide](https://googleapis.dev/python/dataproc/latest/index.html#quick-start).\n\n  doc_url: https://googleapis.dev/python/dataproc/latest/index.html\n  dev_url: https://github.com/googleapis/python-dataproc\n\nextra:\n  recipe-maintainers:\n    - parthea\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "google-api-core-grpc",
+   "pip",
+   "python"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "google-api-core-grpc",
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip >=18.1",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "google-api-core-grpc >=1.14.0,<2.0.0dev",
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/g/google-cloud-dataproc/google-cloud-dataproc-0.7.0.tar.gz",
+ "version":"0.7.0"
+}

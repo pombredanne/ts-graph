@@ -1,0 +1,384 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/205921876.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Compiler",
+    "migrator_version":0
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/232800121.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/299180377.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"RBaseRebuild",
+    "migrator_version":0,
+    "name":"r-base-3.6.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/376740365.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.6"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/412887713.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":2,
+    "migrator_version":0,
+    "name":"r400"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "bot":{
+   "automerge":true
+  },
+  "provider":{
+   "win":"azure"
+  }
+ },
+ "feedstock_name":"r-text2vec",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"http://text2vec.org",
+   "license":"GPL-2",
+   "license_family":"GPL2",
+   "license_file":[
+    "/lib/R/share/licenses/GPL-2",
+    "LICENSE",
+    "/lib/R/share/licenses/GPL-2",
+    "LICENSE",
+    "/lib/R/share/licenses/GPL-2",
+    "LICENSE"
+   ],
+   "summary":"Fast and memory-friendly tools for text vectorization, topic modeling (LDA, LSA), word embeddings (GloVe), similarities. This package provides a source-agnostic streaming API, which allows researchers to perform analysis of collections of documents which are larger than available RAM. All core functions are parallelized to benefit from multicore machines."
+  },
+  "build":{
+   "merge_build_host":true,
+   "number":"1",
+   "rpaths":[
+    "lib/R/lib/",
+    "lib/",
+    "lib/R/lib/",
+    "lib/",
+    "lib/R/lib/",
+    "lib/"
+   ]
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "conda-forge/r",
+    "CurtLH",
+    "conda-forge/r",
+    "CurtLH",
+    "conda-forge/r",
+    "CurtLH"
+   ]
+  },
+  "package":{
+   "name":"r-text2vec",
+   "version":"0.6"
+  },
+  "requirements":{
+   "build":[
+    "m2w64_c_compiler_stub",
+    "m2w64_cxx_compiler_stub",
+    "filesystem",
+    "make",
+    "sed",
+    "coreutils",
+    "zip",
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "make",
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "make"
+   ],
+   "host":[
+    "r-base",
+    "r-matrix >=1.1",
+    "r-r6 >=2.3.0",
+    "r-rcpp >=1.0.3",
+    "r-data.table >=1.9.6",
+    "r-digest >=0.6.8",
+    "r-lgr >=0.2",
+    "r-mlapi >=0.1.0",
+    "r-rsparse >=0.3.3.4",
+    "r-stringi >=1.1.5",
+    "r-base",
+    "r-matrix >=1.1",
+    "r-r6 >=2.3.0",
+    "r-rcpp >=1.0.3",
+    "r-data.table >=1.9.6",
+    "r-digest >=0.6.8",
+    "r-lgr >=0.2",
+    "r-mlapi >=0.1.0",
+    "r-rsparse >=0.3.3.4",
+    "r-stringi >=1.1.5",
+    "r-base",
+    "r-matrix >=1.1",
+    "r-r6 >=2.3.0",
+    "r-rcpp >=1.0.3",
+    "r-data.table >=1.9.6",
+    "r-digest >=0.6.8",
+    "r-lgr >=0.2",
+    "r-mlapi >=0.1.0",
+    "r-rsparse >=0.3.3.4",
+    "r-stringi >=1.1.5"
+   ],
+   "run":[
+    "r-base",
+    "gcc-libs",
+    "r-matrix >=1.1",
+    "r-r6 >=2.3.0",
+    "r-rcpp >=1.0.3",
+    "r-data.table >=1.9.6",
+    "r-digest >=0.6.8",
+    "r-lgr >=0.2",
+    "r-mlapi >=0.1.0",
+    "r-rsparse >=0.3.3.4",
+    "r-stringi >=1.1.5",
+    "r-base",
+    "r-matrix >=1.1",
+    "r-r6 >=2.3.0",
+    "r-rcpp >=1.0.3",
+    "r-data.table >=1.9.6",
+    "r-digest >=0.6.8",
+    "r-lgr >=0.2",
+    "r-mlapi >=0.1.0",
+    "r-rsparse >=0.3.3.4",
+    "r-stringi >=1.1.5",
+    "r-base",
+    "r-matrix >=1.1",
+    "r-r6 >=2.3.0",
+    "r-rcpp >=1.0.3",
+    "r-data.table >=1.9.6",
+    "r-digest >=0.6.8",
+    "r-lgr >=0.2",
+    "r-mlapi >=0.1.0",
+    "r-rsparse >=0.3.3.4",
+    "r-stringi >=1.1.5"
+   ]
+  },
+  "source":{
+   "sha256":"5e8471ea68ee9d5f0d46c4a6f197af78dd160e8bb0246dcc0ff58b7ece66e564",
+   "url":[
+    "https://cran.r-project.org/src/contrib/text2vec_0.6.tar.gz",
+    "https://cran.r-project.org/src/contrib/Archive/text2vec/text2vec_0.6.tar.gz",
+    "https://cran.r-project.org/src/contrib/text2vec_0.6.tar.gz",
+    "https://cran.r-project.org/src/contrib/Archive/text2vec/text2vec_0.6.tar.gz",
+    "https://cran.r-project.org/src/contrib/text2vec_0.6.tar.gz",
+    "https://cran.r-project.org/src/contrib/Archive/text2vec/text2vec_0.6.tar.gz"
+   ]
+  },
+  "test":{
+   "commands":[
+    "\"%R%\" -e \"library('text2vec')\"",
+    "$R -e \"library('text2vec')\"",
+    "$R -e \"library('text2vec')\""
+   ]
+  }
+ },
+ "name":"r-text2vec",
+ "new_version":"0.6",
+ "pinning_version":"2020.05.04.05.46.47",
+ "raw_meta_yaml":"{% set version = '0.6' %}\n{% set posix = 'm2-' if win else '' %}\n{% set native = 'm2w64-' if win else '' %}\n\npackage:\n  name: r-text2vec\n  version: {{ version|replace(\"-\", \"_\") }}\n\nsource:\n  url:\n    - {{ cran_mirror }}/src/contrib/text2vec_{{ version }}.tar.gz\n    - {{ cran_mirror }}/src/contrib/Archive/text2vec/text2vec_{{ version }}.tar.gz\n  sha256: 5e8471ea68ee9d5f0d46c4a6f197af78dd160e8bb0246dcc0ff58b7ece66e564\n\nbuild:\n  merge_build_host: True  # [win]\n  number: 1\n  skip: True  # [r_base == \"3.5.1\"]\n  rpaths:\n    - lib/R/lib/\n    - lib/\n\nrequirements:\n  build:\n    - {{ compiler('c') }}              # [not win]\n    - {{ compiler('m2w64_c') }}        # [win]\n    - {{ compiler('cxx') }}            # [not win]\n    - {{ compiler('m2w64_cxx') }}      # [win]\n    - {{ posix }}filesystem        # [win]\n    - {{ posix }}make\n    - {{ posix }}sed               # [win]\n    - {{ posix }}coreutils         # [win]\n    - {{ posix }}zip               # [win]\n  host:\n    - r-base\n    - r-matrix >=1.1\n    - r-r6 >=2.3.0\n    - r-rcpp >=1.0.3\n    - r-data.table >=1.9.6\n    - r-digest >=0.6.8\n    - r-lgr >=0.2\n    - r-mlapi >=0.1.0\n    - r-rsparse >=0.3.3.4\n    - r-stringi >=1.1.5\n  run:\n    - r-base\n    - {{ native }}gcc-libs         # [win]\n    - r-matrix >=1.1\n    - r-r6 >=2.3.0\n    - r-rcpp >=1.0.3\n    - r-data.table >=1.9.6\n    - r-digest >=0.6.8\n    - r-lgr >=0.2\n    - r-mlapi >=0.1.0\n    - r-rsparse >=0.3.3.4\n    - r-stringi >=1.1.5\n\ntest:\n  commands:\n    - $R -e \"library('text2vec')\"           # [not win]\n    - \"\\\"%R%\\\" -e \\\"library('text2vec')\\\"\"  # [win]\n\nabout:\n  home: http://text2vec.org\n  license: GPL-2\n  summary: Fast and memory-friendly tools for text vectorization, topic modeling (LDA, LSA),\n    word embeddings (GloVe), similarities. This package provides a source-agnostic streaming\n    API, which allows researchers to perform analysis of collections of documents which\n    are larger than available RAM. All core functions are parallelized to benefit from\n    multicore machines.\n  license_family: GPL2\n  license_file:\n    - '{{ environ[\"PREFIX\"] }}/lib/R/share/licenses/GPL-2'\n    - LICENSE\n\nextra:\n  recipe-maintainers:\n    - conda-forge/r\n    - CurtLH\n\n# Package: text2vec\n# Type: Package\n# Version: 0.6\n# Title: Modern Text Mining Framework for R\n# License: GPL (>= 2) | file LICENSE\n# Description: Fast and memory-friendly tools for text vectorization, topic modeling (LDA, LSA), word embeddings (GloVe), similarities. This package provides a source-agnostic streaming API, which allows researchers to perform analysis of collections of documents which are larger than available RAM. All core functions are parallelized to benefit from multicore machines.\n# Authors@R: c( person(\"Dmitriy\", \"Selivanov\", role = c(\"aut\", \"cre\", \"cph\"), email = \"selivanov.dmitriy@gmail.com\"), person(\"Manuel\", \"Bickel\", role = c(\"aut\", \"cph\"), comment = \"Coherence measures for topic models\"), person(\"Qing\", \"Wang\", role = c(\"aut\", \"cph\"), comment = \"Author of the WaprLDA C++ code\"))\n# Maintainer: Dmitriy Selivanov <selivanov.dmitriy@gmail.com>\n# Encoding: UTF-8\n# SystemRequirements: C++11\n# Depends: R (>= 3.6.0), methods\n# Imports: Matrix (>= 1.1), Rcpp (>= 1.0.3), R6 (>= 2.3.0), data.table(>= 1.9.6), rsparse (>= 0.3.3.4), stringi (>= 1.1.5), mlapi (>= 0.1.0), lgr (>= 0.2), digest (>= 0.6.8)\n# LinkingTo: Rcpp, digest (>= 0.6.8)\n# Suggests: magrittr, udpipe (>= 0.6), glmnet, testthat, covr, knitr, rmarkdown, proxy\n# URL: http://text2vec.org\n# BugReports: https://github.com/dselivanov/text2vec/issues\n# VignetteBuilder: knitr\n# LazyData: true\n# RoxygenNote: 6.1.1\n# NeedsCompilation: yes\n# Packaged: 2020-02-18 06:09:05 UTC; dselivanov\n# Author: Dmitriy Selivanov [aut, cre, cph], Manuel Bickel [aut, cph] (Coherence measures for topic models), Qing Wang [aut, cph] (Author of the WaprLDA C++ code)\n# Repository: CRAN\n# Date/Publication: 2020-02-18 14:20:03 UTC\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "c_compiler_stub",
+   "coreutils",
+   "cxx_compiler_stub",
+   "filesystem",
+   "gcc-libs",
+   "m2w64_c_compiler_stub",
+   "m2w64_cxx_compiler_stub",
+   "make",
+   "r-base",
+   "r-data.table",
+   "r-digest",
+   "r-lgr",
+   "r-matrix",
+   "r-mlapi",
+   "r-r6",
+   "r-rcpp",
+   "r-rsparse",
+   "r-stringi",
+   "sed",
+   "zip"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "coreutils",
+    "cxx_compiler_stub",
+    "filesystem",
+    "m2w64_c_compiler_stub",
+    "m2w64_cxx_compiler_stub",
+    "make",
+    "sed",
+    "zip"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "r-base",
+    "r-data.table",
+    "r-digest",
+    "r-lgr",
+    "r-matrix",
+    "r-mlapi",
+    "r-r6",
+    "r-rcpp",
+    "r-rsparse",
+    "r-stringi"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "gcc-libs",
+    "r-base",
+    "r-data.table",
+    "r-digest",
+    "r-lgr",
+    "r-matrix",
+    "r-mlapi",
+    "r-r6",
+    "r-rcpp",
+    "r-rsparse",
+    "r-stringi"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.7.0\n",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "coreutils",
+    "cxx_compiler_stub",
+    "filesystem",
+    "m2w64_c_compiler_stub",
+    "m2w64_cxx_compiler_stub",
+    "make",
+    "sed",
+    "zip"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "r-base",
+    "r-data.table >=1.9.6",
+    "r-digest >=0.6.8",
+    "r-lgr >=0.2",
+    "r-matrix >=1.1",
+    "r-mlapi >=0.1.0",
+    "r-r6 >=2.3.0",
+    "r-rcpp >=1.0.3",
+    "r-rsparse >=0.3.3.4",
+    "r-stringi >=1.1.5"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "gcc-libs",
+    "r-base",
+    "r-data.table >=1.9.6",
+    "r-digest >=0.6.8",
+    "r-lgr >=0.2",
+    "r-matrix >=1.1",
+    "r-mlapi >=0.1.0",
+    "r-r6 >=2.3.0",
+    "r-rcpp >=1.0.3",
+    "r-rsparse >=0.3.3.4",
+    "r-stringi >=1.1.5"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":[
+  "https://cran.r-project.org/src/contrib/text2vec_0.5.1.tar.gz",
+  "https://cran.r-project.org/src/contrib/Archive/text2vec/text2vec_0.5.1.tar.gz",
+  "https://cran.r-project.org/src/contrib/text2vec_0.5.1.tar.gz",
+  "https://cran.r-project.org/src/contrib/Archive/text2vec/text2vec_0.5.1.tar.gz",
+  "https://cran.r-project.org/src/contrib/text2vec_0.5.1.tar.gz",
+  "https://cran.r-project.org/src/contrib/Archive/text2vec/text2vec_0.5.1.tar.gz"
+ ],
+ "version":"0.6"
+}

@@ -1,0 +1,222 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/249779379.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.0.5"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/383107468.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.0.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/386936337.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.0.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"sleek-lvalert",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"sleek-lvalert is a client for the LIGO/Virgo LVAlert pubsub\ninfrastructure that is powered by SleekXMPP and is compatible\nwith Python 3.\n",
+   "home":"https://git.ligo.org/emfollow/sleek-lvalert",
+   "license":"GPLv2+",
+   "license_family":"GPL",
+   "license_file":"LICENSE",
+   "summary":"LIGO/Virgo LVAlert client powered by SleekXMPP"
+  },
+  "build":{
+   "entry_points":[
+    "lvalert = sleek_lvalert.tool:main",
+    "lvalert = sleek_lvalert.tool:main",
+    "lvalert = sleek_lvalert.tool:main"
+   ],
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . --no-deps --ignore-installed -vv "
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "duncanmmacleod",
+    "duncanmmacleod",
+    "duncanmmacleod"
+   ]
+  },
+  "package":{
+   "name":"sleek-lvalert",
+   "version":"0.0.5"
+  },
+  "requirements":{
+   "host":[
+    "python",
+    "pip",
+    "setuptools >=30.3.0",
+    "python",
+    "pip",
+    "setuptools >=30.3.0",
+    "python",
+    "pip",
+    "setuptools >=30.3.0"
+   ],
+   "run":[
+    "python",
+    "pyasn1 >=0.1.8,<=0.3.7",
+    "pyasn1-modules >=0.0.5,<=0.1.5",
+    "safe-netrc",
+    "sleekxmpp",
+    "setuptools",
+    "python",
+    "pyasn1 >=0.1.8,<=0.3.7",
+    "pyasn1-modules >=0.0.5,<=0.1.5",
+    "safe-netrc",
+    "sleekxmpp",
+    "setuptools",
+    "python",
+    "pyasn1 >=0.1.8,<=0.3.7",
+    "pyasn1-modules >=0.0.5,<=0.1.5",
+    "safe-netrc",
+    "sleekxmpp",
+    "setuptools"
+   ],
+   "run_constrained":[
+    "ligo-lvalert >=9999",
+    "ligo-lvalert >=9999",
+    "ligo-lvalert >=9999"
+   ]
+  },
+  "source":{
+   "sha256":"1ea77d512ca8b54daeee0716be553409d34aa74554459633ff67b8d2f0f66dcb",
+   "url":"https://pypi.io/packages/source/s/sleek-lvalert/sleek-lvalert-0.0.5.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "lvalert --help",
+    "lvalert --help",
+    "lvalert --help"
+   ],
+   "imports":[
+    "sleek_lvalert",
+    "sleek_lvalert",
+    "sleek_lvalert"
+   ]
+  }
+ },
+ "name":"sleek-lvalert",
+ "new_version":"2.0.0",
+ "pinning_version":"2020.03.10",
+ "raw_meta_yaml":"{% set name = \"sleek-lvalert\" %}\n{% set version = \"0.0.5\" %}\n\npackage:\n  name: \"{{ name|lower }}\"\n  version: \"{{ version }}\"\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: 1ea77d512ca8b54daeee0716be553409d34aa74554459633ff67b8d2f0f66dcb\n\nbuild:\n  number: 0\n  noarch: python\n  script: \"{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv \"\n  entry_points:\n    - lvalert = sleek_lvalert.tool:main\n\nrequirements:\n  host:\n    - python\n    - pip\n    - setuptools >=30.3.0\n  run:\n    - python\n    - pyasn1 >=0.1.8,<=0.3.7\n    - pyasn1-modules >=0.0.5,<=0.1.5\n    - safe-netrc\n    - sleekxmpp\n    - setuptools\n  run_constrained:\n    # this package conflicts with ligo-lvalert\n    - ligo-lvalert >=9999\n\ntest:\n  imports:\n    - sleek_lvalert\n  commands:\n    - lvalert --help\n\nabout:\n  home: https://git.ligo.org/emfollow/sleek-lvalert\n  license: GPLv2+\n  license_family: GPL\n  license_file: LICENSE\n  summary: LIGO/Virgo LVAlert client powered by SleekXMPP\n  description: |\n    sleek-lvalert is a client for the LIGO/Virgo LVAlert pubsub\n    infrastructure that is powered by SleekXMPP and is compatible\n    with Python 3.\n\nextra:\n  recipe-maintainers:\n    - duncanmmacleod\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "pip",
+   "pyasn1",
+   "pyasn1-modules",
+   "python",
+   "safe-netrc",
+   "setuptools",
+   "sleekxmpp"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python",
+    "setuptools"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "pyasn1",
+    "pyasn1-modules",
+    "python",
+    "safe-netrc",
+    "setuptools",
+    "sleekxmpp"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.6.12",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python",
+    "setuptools >=30.3.0"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "pyasn1 >=0.1.8,<=0.3.7",
+    "pyasn1-modules >=0.0.5,<=0.1.5",
+    "python",
+    "safe-netrc",
+    "setuptools",
+    "sleekxmpp"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/s/sleek-lvalert/sleek-lvalert-0.0.5.tar.gz",
+ "version":"0.0.5"
+}

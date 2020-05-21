@@ -1,0 +1,5 @@
+{
+ "bad":"Upstream: Error getting upstream version",
+ "feedstock_name":"pyramid_debugtoolbar",
+ "new_version":false
+}

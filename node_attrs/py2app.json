@@ -1,0 +1,206 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/384517072.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"python38"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"py2app",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "dev_url":"http://bitbucket.org/ronaldoussoren/py2app",
+   "doc_url":"https://py2app.readthedocs.io/en/latest/",
+   "home":"http://bitbucket.org/ronaldoussoren/py2app",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":null,
+   "summary":"py2app is a Python setuptools command which will allow you to make\nstandalone Mac OS X application bundles and plugins from Python scripts.\npy2app is similar in purpose and design to py2exe for Windows.\npy2app must be used on OSX to build applications, it cannot create Mac\napplications on other platforms.\n"
+  },
+  "build":{
+   "entry_points":[
+    "py2applet = py2app.script_py2applet:main",
+    "py2applet = py2app.script_py2applet:main",
+    "py2applet = py2app.script_py2applet:main"
+   ],
+   "missing_dso_whitelist":[
+    "*/libgcc_s.1.dylib",
+    "*/libgcc_s.1.dylib",
+    "*/libgcc_s.1.dylib"
+   ],
+   "number":"0",
+   "skip":true
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "bkpoon",
+    "bkpoon",
+    "bkpoon"
+   ]
+  },
+  "package":{
+   "name":"py2app",
+   "version":"0.21"
+  },
+  "requirements":{
+   "host":[
+    "pip",
+    "python",
+    "pip",
+    "python",
+    "pip",
+    "python"
+   ],
+   "run":[
+    "altgraph >=0.16",
+    "macholib >=1.11",
+    "modulegraph >=0.17",
+    "python",
+    "setuptools",
+    "altgraph >=0.16",
+    "macholib >=1.11",
+    "modulegraph >=0.17",
+    "python",
+    "setuptools",
+    "altgraph >=0.16",
+    "macholib >=1.11",
+    "modulegraph >=0.17",
+    "python",
+    "setuptools"
+   ]
+  },
+  "source":{
+   "sha256":"4516dfb01a0bf560ca4918e1e0e38eb4fcc76c9c2f527456e022310a80d52dc8",
+   "url":"https://pypi.io/packages/source/p/py2app/py2app-0.21.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "py2applet --help",
+    "py2applet --help",
+    "py2applet --help"
+   ],
+   "imports":[
+    "py2app",
+    "py2app.apptemplate",
+    "py2app.bootstrap",
+    "py2app.bundletemplate",
+    "py2app.converters",
+    "py2app.recipes",
+    "py2app.recipes.PIL",
+    "py2app",
+    "py2app.apptemplate",
+    "py2app.bootstrap",
+    "py2app.bundletemplate",
+    "py2app.converters",
+    "py2app.recipes",
+    "py2app.recipes.PIL",
+    "py2app",
+    "py2app.apptemplate",
+    "py2app.bootstrap",
+    "py2app.bundletemplate",
+    "py2app.converters",
+    "py2app.recipes",
+    "py2app.recipes.PIL"
+   ],
+   "requires":[
+    "pyobjc-core",
+    "pyobjc-core",
+    "pyobjc-core"
+   ]
+  }
+ },
+ "name":"py2app",
+ "new_version":"0.21",
+ "pinning_version":"2020.03.06",
+ "raw_meta_yaml":"{% set name = \"py2app\" %}\n{% set version = \"0.21\" %}\n\npackage:\n  name: \"{{ name|lower }}\"\n  version: \"{{ version }}\"\n\nsource:\n  url: \"https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\"\n  sha256: 4516dfb01a0bf560ca4918e1e0e38eb4fcc76c9c2f527456e022310a80d52dc8\n\nbuild:\n  skip: true  # [not osx]\n  number: 0\n  entry_points:\n    - py2applet = py2app.script_py2applet:main\n  missing_dso_whitelist:\n    - '*/libgcc_s.1.dylib'\n\nrequirements:\n  host:\n    - pip\n    - python\n  run:\n    - altgraph >=0.16\n    - macholib >=1.11\n    - modulegraph >=0.17\n    - python\n    - setuptools\n\ntest:\n  imports:\n    - py2app\n    - py2app.apptemplate\n    - py2app.bootstrap\n    - py2app.bundletemplate\n    - py2app.converters\n    - py2app.recipes\n    - py2app.recipes.PIL\n  commands:\n    - py2applet --help\n  requires:\n    - pyobjc-core\n\nabout:\n  home: http://bitbucket.org/ronaldoussoren/py2app\n  license: MIT\n  license_family: MIT\n  license_file:\n  summary: |\n    py2app is a Python setuptools command which will allow you to make\n    standalone Mac OS X application bundles and plugins from Python scripts.\n    py2app is similar in purpose and design to py2exe for Windows.\n    py2app must be used on OSX to build applications, it cannot create Mac\n    applications on other platforms.\n  doc_url: https://py2app.readthedocs.io/en/latest/\n  dev_url: http://bitbucket.org/ronaldoussoren/py2app\n\nextra:\n  recipe-maintainers:\n    - bkpoon\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "altgraph",
+   "macholib",
+   "modulegraph",
+   "pip",
+   "python",
+   "setuptools"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "altgraph",
+    "macholib",
+    "modulegraph",
+    "python",
+    "setuptools"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "pyobjc-core"
+   ]
+  }
+ },
+ "smithy_version":"3.6.9",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "altgraph >=0.16",
+    "macholib >=1.11",
+    "modulegraph >=0.17",
+    "python",
+    "setuptools"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "pyobjc-core"
+   ]
+  }
+ },
+ "url":"https://pypi.io/packages/source/p/py2app/py2app-0.21.tar.gz",
+ "version":"0.21"
+}

@@ -1,0 +1,7 @@
+{
+ "archived":true,
+ "bad":false,
+ "feedstock_name":"visions",
+ "new_version":false,
+ "raw_meta_yaml":"{% set name = \"visions\" %}\n{% set version = \"0.4.4\" %}\n\npackage:\n  name: \"{{ name|lower }}\"\n  version: \"{{ version }}\"\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: 523da4a172a3e485d801ad643ef233cc12c7247cb77643362fbf5c3453cc4003\n\nbuild:\n  number: 0\n  noarch: python\n  script: \"{{ PYTHON }} -m pip install . -vv\"\n\nrequirements:\n  host:\n    - pip\n    - python\n  run:\n    - attrs >=19.3.0\n    - networkx >=2.4\n    - numpy \n    - pandas >=0.25.3\n    - python\n    - tangled-up-in-unicode >=0.0.4\n\ntest:\n  imports:\n    - visions\n  commands:\n    - pip check\n  requires:\n    - pip\n\nabout:\n  home: https://github.com/dylan-profiler/visions\n  license: BSD-4-Clause\n  license_family: BSD\n  license_file: LICENSE\n  summary: |\n    Visions provides an extensible suite of tools to support common data analysis operations including \n    type inference on unknown data, casting data types and automated data summarization.\n  doc_url: https://dylan-profiler.github.io/visions/\n  dev_url: https://github.com/dylan-profiler/visions\n\nextra:\n  recipe-maintainers:\n    - philip-khor\n"
+}

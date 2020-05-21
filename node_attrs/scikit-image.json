@@ -1,0 +1,464 @@
+{
+ "PRed":[
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.14.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/219635447.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.14.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/222637758.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/245841652.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.14.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/266879597.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.15.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/327688517.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.16.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/330840392.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.16.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/339382638.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"python38"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/415342771.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.17.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/417430003.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.17.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "provider":{
+   "win":"azure"
+  }
+ },
+ "feedstock_name":"scikit-image",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"scikit-image is a collection of algorithms for image processing.\nIt is available free of charge and free of restriction.\nWe pride ourselves on high-quality, peer-reviewed code,\nwritten by an active community of volunteers.\n",
+   "home":"http://scikit-image.org/",
+   "license":"BSD-3-Clause",
+   "license_file":"LICENSE.txt",
+   "summary":"Image processing in Python."
+  },
+  "build":{
+   "entry_points":[
+    "skivi = skimage.scripts.skivi:main",
+    "skivi = skimage.scripts.skivi:main",
+    "skivi = skimage.scripts.skivi:main"
+   ],
+   "number":"0",
+   "script":[
+    "rm -rf skimage/viewer/tests",
+    "rm -f pyproject.toml",
+    "setup.py build_ext -j2",
+    "setup.py install --single-version-externally-managed --record record.txt",
+    "rm -rf skimage/viewer/tests",
+    "rm -f pyproject.toml",
+    "setup.py build_ext -j2",
+    "setup.py install --single-version-externally-managed --record record.txt",
+    "rm -rf skimage/viewer/tests",
+    "rm -f pyproject.toml",
+    "setup.py build_ext -j2",
+    "setup.py install --single-version-externally-managed --record record.txt"
+   ]
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "jakirkham",
+    "jni",
+    "msarahan",
+    "ocefpaf",
+    "soupault",
+    "hmaarrfk",
+    "emmanuelle",
+    "jakirkham",
+    "jni",
+    "msarahan",
+    "ocefpaf",
+    "soupault",
+    "hmaarrfk",
+    "emmanuelle",
+    "jakirkham",
+    "jni",
+    "msarahan",
+    "ocefpaf",
+    "soupault",
+    "hmaarrfk",
+    "emmanuelle"
+   ]
+  },
+  "package":{
+   "name":"scikit-image",
+   "version":"0.17.2"
+  },
+  "requirements":{
+   "build":[
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "c_compiler_stub",
+    "cxx_compiler_stub"
+   ],
+   "host":[
+    "python",
+    "pip",
+    "cython >=0.25,!=0.28.2,!=0.29.0",
+    "numpy",
+    "python",
+    "pip",
+    "cython >=0.25,!=0.28.2,!=0.29.0",
+    "numpy",
+    "python",
+    "pip",
+    "cython >=0.25,!=0.28.2,!=0.29.0",
+    "numpy"
+   ],
+   "run":[
+    "python",
+    "numpy",
+    "scipy >=0.19",
+    "matplotlib-base >=2.0.0",
+    "networkx >=2.0",
+    "pillow >=4.3.0",
+    "pywavelets >=0.4.0",
+    "imageio >=2.3.0",
+    "dask-core >=0.15.0",
+    "toolz >=0.7.3",
+    "cytoolz >=0.7.3",
+    "cloudpickle >=0.2.1",
+    "tifffile >=2019.7.26",
+    "python",
+    "numpy",
+    "scipy >=0.19",
+    "matplotlib-base >=2.0.0",
+    "networkx >=2.0",
+    "pillow >=4.3.0",
+    "pywavelets >=0.4.0",
+    "imageio >=2.3.0",
+    "dask-core >=0.15.0",
+    "toolz >=0.7.3",
+    "cytoolz >=0.7.3",
+    "cloudpickle >=0.2.1",
+    "tifffile >=2019.7.26",
+    "python",
+    "numpy",
+    "scipy >=0.19",
+    "matplotlib-base >=2.0.0",
+    "networkx >=2.0",
+    "pillow >=4.3.0",
+    "pywavelets >=0.4.0",
+    "imageio >=2.3.0",
+    "dask-core >=0.15.0",
+    "toolz >=0.7.3",
+    "cytoolz >=0.7.3",
+    "cloudpickle >=0.2.1",
+    "tifffile >=2019.7.26"
+   ],
+   "run_constrained":[
+    "pooch >=0.5.2",
+    "pooch >=0.5.2",
+    "pooch >=0.5.2"
+   ]
+  },
+  "source":{
+   "sha256":"bd954c0588f0f7e81d9763dc95e06950e68247d540476e06cb77bcbcd8c2d8b3",
+   "url":"https://pypi.io/packages/source/s/scikit-image/scikit-image-0.17.2.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "setx MPLBACKEND \"Agg\"",
+    "pytest --pyargs skimage",
+    "export MPLBACKEND=Agg",
+    "pytest --pyargs skimage",
+    "export MPLBACKEND=Agg",
+    "pytest --pyargs skimage"
+   ],
+   "imports":[
+    "skimage",
+    "skimage",
+    "skimage"
+   ],
+   "requires":[
+    "pytest",
+    "pytest-localserver",
+    "pytest",
+    "pytest-localserver",
+    "pytest",
+    "pytest-localserver"
+   ]
+  }
+ },
+ "name":"scikit-image",
+ "new_version":"0.17.2",
+ "new_version_attempts":{
+  "0.17.0":16,
+  "0.17.1":2,
+  "0.17.2":4
+ },
+ "new_version_errors":{
+  "0.17.0":"The recipe did not change in the version migration, a URL did not hash, or there is jinja2 syntax the bot cannot handle!\n\nPlease check the URLs in your recipe with version '0.17.0' to make sure they exist!\n\nWe also found the following errors:\n\n - could not hash URL template 'https://pypi.io/packages/source/s/scikit-image/scikit-image-{{ version }}.tar.gz'\n",
+  "0.17.1":"The recipe did not change in the version migration, a URL did not hash, or there is jinja2 syntax the bot cannot handle!\n\nPlease check the URLs in your recipe with version '0.17.1' to make sure they exist!\n\nWe also found the following errors:\n\n - could not hash URL template 'https://pypi.io/packages/source/s/scikit-image/scikit-image-{{ version }}.tar.gz'\n",
+  "0.17.2":"The recipe did not change in the version migration, a URL did not hash, or there is jinja2 syntax the bot cannot handle!\n\nPlease check the URLs in your recipe with version '0.17.2' to make sure they exist!\n\nWe also found the following errors:\n\n - could not hash URL template 'https://pypi.io/packages/source/s/scikit-image/scikit-image-{{ version }}.tar.gz'\n"
+ },
+ "pinning_version":"2020.05.13.13.23.43",
+ "raw_meta_yaml":"{% set version = \"0.17.2\" %}\n\npackage:\n  name: scikit-image\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/s/scikit-image/scikit-image-{{ version }}.tar.gz\n  sha256: bd954c0588f0f7e81d9763dc95e06950e68247d540476e06cb77bcbcd8c2d8b3\n  # url: https://github.com/scikit-image/scikit-image/archive/v{{ version }}.tar.gz\n  # fn: scikit-image-{{ version }}.tar.gz\n  # sha256: 3b8414ccb9b524d0d507909e9a4d3843af6ca9919152199d380f2b21639abf17\n\nbuild:\n  number: 0\n  skip: true  # [py==27]\n  script:\n    - rm -rf skimage/viewer/tests  # we don't depend on Qt\n    ########################################################\n    # Remove these two lines at your own risk.\n    #\n    # pyproject.toml was getting detected by pip, and scikit-image was being built with modern numpy, not 1.11\n    - rm -f pyproject.toml\n    # I have no idea what this line actually fixes (other than speeding up the build a little bit)\n    # I think windows was freaking out about path lengths, and maybe this fixed it???\n    # https://github.com/conda-forge/scikit-image-feedstock/pull/39\n    - {{ PYTHON }} setup.py build_ext -j2\n    ########################################################\n    - {{ PYTHON }} setup.py install --single-version-externally-managed --record record.txt\n    # - \"{{ PYTHON }} -m pip install . --disable-pip-version-check --no-deps --ignore-installed --no-cache-dir --no-build-isolation -vvv\"\n  entry_points:\n    - skivi = skimage.scripts.skivi:main\n\nrequirements:\n  build:\n    - {{ compiler(\"c\") }}\n    - {{ compiler(\"cxx\") }}\n  host:\n    - python\n    - pip\n    - cython >=0.25,!=0.28.2,!=0.29.0\n    - numpy\n  run:\n    - python\n    - {{ pin_compatible('numpy') }}\n    - scipy >=0.19\n    - matplotlib-base >=2.0.0\n    - networkx >=2.0\n    - pillow >=4.3.0\n    - pywavelets >=0.4.0\n    - imageio >=2.3.0\n    # scikit-image depends on dask-array\n    # which requires numpy, dask-core and toolz (cytoolz for speed)\n    - dask-core >=0.15.0\n    - toolz >=0.7.3\n    - cytoolz >=0.7.3\n    # cloudpickle is necessary to provide the 'processes' scheduler for dask\n    - cloudpickle >=0.2.1\n    - tifffile >=2019.7.26\n  run_constrained:\n    - pooch >=0.5.2\n\ntest:\n  requires:\n    - pytest\n    - pytest-localserver\n  imports:\n    - skimage\n  commands:\n    - setx MPLBACKEND \"Agg\"  # [win]\n    - export MPLBACKEND=Agg  # [unix]\n    - pytest --pyargs skimage\n\nabout:\n  home: http://scikit-image.org/\n  license: BSD-3-Clause\n  license_file: LICENSE.txt\n  summary: Image processing in Python.\n  description: |\n    scikit-image is a collection of algorithms for image processing. \n    It is available free of charge and free of restriction. \n    We pride ourselves on high-quality, peer-reviewed code, \n    written by an active community of volunteers.\n\nextra:\n  recipe-maintainers:\n    - jakirkham\n    - jni\n    - msarahan\n    - ocefpaf\n    - soupault\n    - hmaarrfk\n    - emmanuelle \n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "c_compiler_stub",
+   "cloudpickle",
+   "cxx_compiler_stub",
+   "cython",
+   "cytoolz",
+   "dask-core",
+   "imageio",
+   "matplotlib-base",
+   "networkx",
+   "numpy",
+   "pillow",
+   "pip",
+   "python",
+   "pywavelets",
+   "scipy",
+   "tifffile",
+   "toolz"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "cxx_compiler_stub"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "cython",
+    "numpy",
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "cloudpickle",
+    "cytoolz",
+    "dask-core",
+    "imageio",
+    "matplotlib-base",
+    "networkx",
+    "numpy",
+    "pillow",
+    "python",
+    "pywavelets",
+    "scipy",
+    "tifffile",
+    "toolz"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "pytest",
+    "pytest-localserver"
+   ]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.7.1\n",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "cxx_compiler_stub"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "cython >=0.25,!=0.28.2,!=0.29.0",
+    "numpy",
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "cloudpickle >=0.2.1",
+    "cytoolz >=0.7.3",
+    "dask-core >=0.15.0",
+    "imageio >=2.3.0",
+    "matplotlib-base >=2.0.0",
+    "networkx >=2.0",
+    "numpy",
+    "pillow >=4.3.0",
+    "python",
+    "pywavelets >=0.4.0",
+    "scipy >=0.19",
+    "tifffile >=2019.7.26",
+    "toolz >=0.7.3"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "pytest",
+    "pytest-localserver"
+   ]
+  }
+ },
+ "url":"https://pypi.io/packages/source/s/scikit-image/scikit-image-0.15.0.tar.gz",
+ "version":"0.17.2"
+}

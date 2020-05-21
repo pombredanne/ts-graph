@@ -1,0 +1,137 @@
+{
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"docopt.cpp",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"This is a port of the docopt.py module (https://github.com/docopt/docopt), and we have tried to\nmaintain full feature parity (and code structure) as the original.\n",
+   "dev_url":"https://github.com/docopt/docopt.cpp",
+   "doc_url":"https://github.com/docopt/docopt.cpp",
+   "home":"https://github.com/docopt/docopt.cpp",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"LICENSE-MIT",
+   "summary":"docopt creates beautiful command-line interfaces"
+  },
+  "build":{
+   "number":"0",
+   "skip":true
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "tdegeus",
+    "tdegeus",
+    "tdegeus"
+   ]
+  },
+  "package":{
+   "name":"docopt.cpp",
+   "version":"0.6.2"
+  },
+  "requirements":{
+   "build":[
+    "cxx_compiler_stub",
+    "cmake",
+    "cxx_compiler_stub",
+    "cmake",
+    "make",
+    "cxx_compiler_stub",
+    "cmake",
+    "make"
+   ]
+  },
+  "source":{
+   "fn":"docopt.cpp-0.6.2.tar.gz",
+   "patches":[
+    "patches/0001-Add-support-for-pkgconfig.patch",
+    "patches/0002-Fixup-project-version.patch",
+    "patches/0003-hide-pragma-mark-s-away-from-the-compiler.patch",
+    "patches/0004-Add-missing-stdexcept-include-to-use-std-runtime_err.patch",
+    "patches/0001-Add-support-for-pkgconfig.patch",
+    "patches/0002-Fixup-project-version.patch",
+    "patches/0003-hide-pragma-mark-s-away-from-the-compiler.patch",
+    "patches/0004-Add-missing-stdexcept-include-to-use-std-runtime_err.patch",
+    "patches/0001-Add-support-for-pkgconfig.patch",
+    "patches/0002-Fixup-project-version.patch",
+    "patches/0003-hide-pragma-mark-s-away-from-the-compiler.patch",
+    "patches/0004-Add-missing-stdexcept-include-to-use-std-runtime_err.patch"
+   ],
+   "sha256":"c05542245232420d735c7699098b1ea130e3a92bade473b64baf876cdf098a17",
+   "url":"https://github.com/docopt/docopt.cpp/archive/v0.6.2.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "if exist %LIBRARY_PREFIX%\\include\\docopt\\docopt.h (exit 0) else (exit 1)",
+    "if exist %LIBRARY_PREFIX%\\lib\\cmake\\docopt-config.cmake (exit 0) else (exit 1)",
+    "if exist %LIBRARY_PREFIX%\\lib\\lib\\docopt.dll",
+    "test -d ${PREFIX}/include/docopt",
+    "test -f ${PREFIX}/include/docopt/docopt.h",
+    "test -f ${PREFIX}/lib/cmake/docopt/docopt-config.cmake",
+    "test -f ${PREFIX}/lib/libdocopt.dylib",
+    "test -d ${PREFIX}/include/docopt",
+    "test -f ${PREFIX}/include/docopt/docopt.h",
+    "test -f ${PREFIX}/lib/cmake/docopt/docopt-config.cmake",
+    "test -f ${PREFIX}/lib/libdocopt.so"
+   ]
+  }
+ },
+ "name":"docopt.cpp",
+ "new_version":"0.6.2",
+ "raw_meta_yaml":"{% set name = \"docopt.cpp\" %}\n{% set version = \"0.6.2\" %}\n{% set sha256 = \"c05542245232420d735c7699098b1ea130e3a92bade473b64baf876cdf098a17\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  fn: {{ name }}-{{ version }}.tar.gz\n  url: https://github.com/docopt/docopt.cpp/archive/v{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n  patches:\n    - patches/0001-Add-support-for-pkgconfig.patch\n    - patches/0002-Fixup-project-version.patch\n    - patches/0003-hide-pragma-mark-s-away-from-the-compiler.patch\n    - patches/0004-Add-missing-stdexcept-include-to-use-std-runtime_err.patch\n\nbuild:\n  number: 0\n  skip: True  # [win and vc<14]\n\nrequirements:\n  build:\n    - {{ compiler('cxx') }}\n    - cmake\n    - make  # [unix]\n\ntest:\n  commands:\n    - test -d ${PREFIX}/include/docopt  # [unix]\n    - test -f ${PREFIX}/include/docopt/docopt.h  # [unix]\n    - test -f ${PREFIX}/lib/cmake/docopt/docopt-config.cmake  # [unix]\n    - test -f ${PREFIX}/lib/libdocopt.so  # [linux]\n    - test -f ${PREFIX}/lib/libdocopt.dylib  # [osx]\n    - if exist %LIBRARY_PREFIX%\\include\\docopt\\docopt.h (exit 0) else (exit 1)  # [win]\n    - if exist %LIBRARY_PREFIX%\\lib\\cmake\\docopt-config.cmake (exit 0) else (exit 1)  # [win]\n    - if exist %LIBRARY_PREFIX%\\lib\\lib\\docopt.dll  # [win]\n\nabout:\n  home: https://github.com/docopt/docopt.cpp\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE-MIT\n  summary: 'docopt creates beautiful command-line interfaces'\n  description: |\n    This is a port of the docopt.py module (https://github.com/docopt/docopt), and we have tried to\n    maintain full feature parity (and code structure) as the original.\n  doc_url: https://github.com/docopt/docopt.cpp\n  dev_url: https://github.com/docopt/docopt.cpp\n\nextra:\n  recipe-maintainers:\n    - tdegeus\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "cmake",
+   "cxx_compiler_stub",
+   "make"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "cmake",
+    "cxx_compiler_stub",
+    "make"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "cmake",
+    "cxx_compiler_stub",
+    "make"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://github.com/docopt/docopt.cpp/archive/v0.6.2.tar.gz",
+ "version":"0.6.2"
+}

@@ -1,0 +1,132 @@
+{
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"rb-dotenv",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "dev_url":"https://github.com/bkeepers/dotenv",
+   "doc_url":"https://www.rubydoc.info/gems/dotenv",
+   "home":"https://rubygems.org/gems/dotenv",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"dotenv-2.7.5/LICENSE",
+   "summary":"Ruby gem to load environment variables from `.env`"
+  },
+  "build":{
+   "noarch":"generic",
+   "number":"0",
+   "script":[
+    "gem install --norc -l -V --ignore-dependencies dotenv-2.7.5.gem",
+    "gem unpack dotenv-2.7.5.gem",
+    "gem install --norc -l -V --ignore-dependencies dotenv-2.7.5.gem",
+    "gem unpack dotenv-2.7.5.gem",
+    "gem install --norc -l -V --ignore-dependencies dotenv-2.7.5.gem",
+    "gem unpack dotenv-2.7.5.gem"
+   ],
+   "skip":null
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "sodre",
+    "rluria14",
+    "adbeda",
+    "agcopenhaver",
+    "sodre",
+    "rluria14",
+    "adbeda",
+    "agcopenhaver",
+    "sodre",
+    "rluria14",
+    "adbeda",
+    "agcopenhaver"
+   ]
+  },
+  "package":{
+   "name":"rb-dotenv",
+   "version":"2.7.5"
+  },
+  "requirements":{
+   "host":[
+    "ruby",
+    "ruby",
+    "ruby"
+   ],
+   "run":[
+    "ruby",
+    "ruby",
+    "ruby"
+   ]
+  },
+  "source":{
+   "sha256":"c5465769f188f96a62a6cc1f801f440af077b06b788a14f66760a5178569139e",
+   "url":"https://rubygems.org/downloads/dotenv-2.7.5.gem"
+  },
+  "test":{
+   "commands":[
+    "ruby -r dotenv -e 'exit 0'",
+    "dotenv --help",
+    "ruby -r dotenv -e 'exit 0'",
+    "dotenv --help",
+    "ruby -r dotenv -e 'exit 0'",
+    "dotenv --help"
+   ]
+  }
+ },
+ "name":"rb-dotenv",
+ "new_version":false,
+ "raw_meta_yaml":"{% set name = \"dotenv\" %}\n{% set version = \"2.7.5\" %}\n\npackage:\n  name: rb-{{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://rubygems.org/downloads/{{ name }}-{{ version }}.gem\n  sha256: c5465769f188f96a62a6cc1f801f440af077b06b788a14f66760a5178569139e\n\nbuild:\n  noarch: generic\n  number: 0\n  script:\n    - gem install --norc -l -V --ignore-dependencies {{ name }}-{{ version }}.gem\n    - gem unpack {{ name }}-{{ version }}.gem\n  skip: {{ win }}\n\nrequirements:\n  host:\n    - ruby\n  run:\n    - ruby\n\ntest:\n  commands:\n    - ruby -r {{ name }} -e 'exit 0'\n    - dotenv --help\n\nabout:\n  home: https://rubygems.org/gems/{{ name }}\n  license: MIT\n  license_family: MIT\n  license_file: {{ name }}-{{ version }}/LICENSE\n  summary: 'Ruby gem to load environment variables from `.env`'\n  doc_url: https://www.rubydoc.info/gems/{{ name }}\n  dev_url: https://github.com/bkeepers/dotenv\n\nextra:\n  recipe-maintainers:\n    - sodre\n    - rluria14\n    - adbeda\n    - agcopenhaver\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "ruby"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "ruby"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "ruby"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "ruby"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "ruby"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://rubygems.org/downloads/dotenv-2.7.5.gem",
+ "version":"2.7.5"
+}

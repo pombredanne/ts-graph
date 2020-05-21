@@ -1,0 +1,183 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/330005811.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2018.11.26"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"pipenv",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "doc_url":"https://pipenv-fork.readthedocs.io/en/latest/",
+   "home":"https://github.com/pypa/pipenv",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"LICENSE",
+   "summary":"Python Development Workflow for Humans."
+  },
+  "build":{
+   "entry_points":[
+    "pipenv=pipenv:cli",
+    "pewtwo=pipenv.patched.pew.pew:pew",
+    "pipenv-resolver=pipenv.resolver:main",
+    "pipenv=pipenv:cli",
+    "pewtwo=pipenv.patched.pew.pew:pew",
+    "pipenv-resolver=pipenv.resolver:main",
+    "pipenv=pipenv:cli",
+    "pewtwo=pipenv.patched.pew.pew:pew",
+    "pipenv-resolver=pipenv.resolver:main"
+   ],
+   "noarch":"python",
+   "number":"1",
+   "script":" -m pip install . -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "roccqqck",
+    "roccqqck",
+    "roccqqck"
+   ]
+  },
+  "package":{
+   "name":"pipenv",
+   "version":"2018.5.18"
+  },
+  "requirements":{
+   "host":[
+    "pip >=9.0.1",
+    "python",
+    "pip >=9.0.1",
+    "python",
+    "pip >=9.0.1",
+    "python"
+   ],
+   "run":[
+    "certifi",
+    "pip >=9.0.1",
+    "python",
+    "setuptools >=36.2.1",
+    "virtualenv",
+    "virtualenv-clone >=0.2.5",
+    "certifi",
+    "pip >=9.0.1",
+    "python",
+    "setuptools >=36.2.1",
+    "virtualenv",
+    "virtualenv-clone >=0.2.5",
+    "certifi",
+    "pip >=9.0.1",
+    "python",
+    "setuptools >=36.2.1",
+    "virtualenv",
+    "virtualenv-clone >=0.2.5"
+   ]
+  },
+  "source":{
+   "sha256":"04b9a8b02a3ff12a5502b335850cfdb192adcfd1d6bbdb7a7c47cae9ab9ddece",
+   "url":"https://pypi.io/packages/source/p/pipenv/pipenv-2018.5.18.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "pipenv --help",
+    "pipenv --help",
+    "pipenv --help"
+   ],
+   "imports":[
+    "pipenv",
+    "pipenv",
+    "pipenv"
+   ]
+  }
+ },
+ "name":"pipenv",
+ "new_version":"2018.11.26",
+ "pinning_version":"2019.10.11",
+ "raw_meta_yaml":"{% set name = \"pipenv\" %}\n{% set version = \"2018.5.18\" %}\n\npackage:\n  name: \"{{ name|lower }}\"\n  version: \"{{ version }}\"\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: 04b9a8b02a3ff12a5502b335850cfdb192adcfd1d6bbdb7a7c47cae9ab9ddece\n\nbuild:\n  noarch: python\n  number: 1\n  entry_points:\n    - pipenv=pipenv:cli\n    - pewtwo=pipenv.patched.pew.pew:pew\n    - pipenv-resolver=pipenv.resolver:main\n  script: \"{{ PYTHON }} -m pip install . -vv\"\n\nrequirements:\n  host:\n    - pip >=9.0.1\n    - python\n  run:\n    - certifi\n    - pip >=9.0.1\n    - python\n    - setuptools >=36.2.1\n    - virtualenv\n    - virtualenv-clone >=0.2.5\n\ntest:\n  imports:\n    - pipenv\n\n  commands:\n    - pipenv --help\n\nabout:\n  home: https://github.com/pypa/pipenv\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE\n  summary: \"Python Development Workflow for Humans.\"\n  doc_url: https://pipenv-fork.readthedocs.io/en/latest/\n\nextra:\n  recipe-maintainers:\n    - roccqqck\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "certifi",
+   "pip",
+   "python",
+   "setuptools",
+   "virtualenv",
+   "virtualenv-clone"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "certifi",
+    "pip",
+    "python",
+    "setuptools",
+    "virtualenv",
+    "virtualenv-clone"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.6.0",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip >=9.0.1",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "certifi",
+    "pip >=9.0.1",
+    "python",
+    "setuptools >=36.2.1",
+    "virtualenv",
+    "virtualenv-clone >=0.2.5"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/p/pipenv/pipenv-2018.5.18.tar.gz",
+ "version":"2018.5.18"
+}

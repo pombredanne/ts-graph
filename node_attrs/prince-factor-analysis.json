@@ -1,0 +1,232 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/359943980.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.6.4"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/360701564.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.6.5"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/375418888.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MatplotlibBase",
+    "migrator_version":0,
+    "name":"matplotlib-to-matplotlib-base"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/396109313.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.7.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"prince-factor-analysis",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "dev_url":"https://github.com/MaxHalford/prince",
+   "doc_url":"https://pypi.org/project/prince/",
+   "home":"https://github.com/MaxHalford/prince",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"LICENSE",
+   "summary":"Statistical factor analysis in Python"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":"-m pip install . -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "mwilson8",
+    "rluria14",
+    "benhuff",
+    "mwilson8",
+    "rluria14",
+    "benhuff",
+    "mwilson8",
+    "rluria14",
+    "benhuff"
+   ]
+  },
+  "package":{
+   "name":"prince-factor-analysis",
+   "version":"0.7.0"
+  },
+  "requirements":{
+   "host":[
+    "pip",
+    "python >=3.0",
+    "setuptools",
+    "pip",
+    "python >=3.0",
+    "setuptools",
+    "pip",
+    "python >=3.0",
+    "setuptools"
+   ],
+   "run":[
+    "matplotlib-base >=3.0.2",
+    "numpy >=1.16.1",
+    "pandas >=0.24.0",
+    "python >=3.0",
+    "scikit-learn >=0.20.1",
+    "scipy >=1.1.0",
+    "matplotlib-base >=3.0.2",
+    "numpy >=1.16.1",
+    "pandas >=0.24.0",
+    "python >=3.0",
+    "scikit-learn >=0.20.1",
+    "scipy >=1.1.0",
+    "matplotlib-base >=3.0.2",
+    "numpy >=1.16.1",
+    "pandas >=0.24.0",
+    "python >=3.0",
+    "scikit-learn >=0.20.1",
+    "scipy >=1.1.0"
+   ]
+  },
+  "source":{
+   "sha256":"db5876330a21f81df5862f0803b4f21ff47479cb27cde17656df8b1a2a692c47",
+   "url":"https://pypi.io/packages/source/p/prince/prince-0.7.0.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "prince",
+    "prince",
+    "prince"
+   ]
+  }
+ },
+ "name":"prince-factor-analysis",
+ "new_version":"0.7.0",
+ "pinning_version":"2020.03.30",
+ "raw_meta_yaml":"{% set name = \"prince\" %}\n{% set version = \"0.7.0\" %}\n\npackage:\n  name: {{ name|lower }}-factor-analysis\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: db5876330a21f81df5862f0803b4f21ff47479cb27cde17656df8b1a2a692c47\n\nbuild:\n  noarch: python\n  number: 0\n  script: {{ PYTHON }} -m pip install . -vv\nrequirements:\n  host:\n    - pip\n    - python >=3.0\n    - setuptools\n\n  run:\n    - matplotlib-base >=3.0.2\n    - numpy >=1.16.1\n    - pandas >=0.24.0\n    - python >=3.0\n    - scikit-learn >=0.20.1\n    - scipy >=1.1.0\n\ntest:\n  imports:\n    - prince\n\nabout:\n  home: https://github.com/MaxHalford/prince\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE\n  summary: Statistical factor analysis in Python\n  doc_url: https://pypi.org/project/prince/\n  dev_url: https://github.com/MaxHalford/prince\n\nextra:\n  recipe-maintainers:\n    - mwilson8\n    - rluria14\n    - benhuff\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "matplotlib-base",
+   "numpy",
+   "pandas",
+   "pip",
+   "python",
+   "scikit-learn",
+   "scipy",
+   "setuptools"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python",
+    "setuptools"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "matplotlib-base",
+    "numpy",
+    "pandas",
+    "python",
+    "scikit-learn",
+    "scipy"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.6.15",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3.0",
+    "setuptools"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "matplotlib-base >=3.0.2",
+    "numpy >=1.16.1",
+    "pandas >=0.24.0",
+    "python >=3.0",
+    "scikit-learn >=0.20.1",
+    "scipy >=1.1.0"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/p/prince/prince-0.6.3.tar.gz",
+ "version":"0.7.0"
+}

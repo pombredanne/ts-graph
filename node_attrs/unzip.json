@@ -1,0 +1,150 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "id":"a07fd9b7-4b5e-4615-8ffe-eea7aab99c15",
+    "merged_at":"fix aarch missing prs",
+    "state":"closed"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"ArchRebuild",
+    "migrator_version":1,
+    "name":"aarch64 and ppc64le addition"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "provider":{
+   "linux_aarch64":"default",
+   "linux_ppc64le":"default"
+  }
+ },
+ "feedstock_name":"unzip",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"http://www.info-zip.org/",
+   "license":"LicenseRef-BSD-like",
+   "license_file":"LICENSE",
+   "summary":"simple program for unzipping files"
+  },
+  "build":{
+   "number":"1",
+   "script":[
+    "make CC=$CC prefix=\"$PREFIX\" CF=\"$CFLAGS -DNO_LCHMOD -I.\" LFLAGS1=\"$LDFLAGS\" -f unix/Makefile generic",
+    "make prefix=\"$PREFIX\" -f unix/Makefile install",
+    "make CC=$CC prefix=\"$PREFIX\" CF=\"$CFLAGS -DNO_LCHMOD -I.\" LFLAGS1=\"$LDFLAGS\" -f unix/Makefile generic",
+    "make prefix=\"$PREFIX\" -f unix/Makefile install",
+    "make CC=$CC prefix=\"$PREFIX\" CF=\"$CFLAGS -DNO_LCHMOD -I.\" LFLAGS1=\"$LDFLAGS\" -f unix/Makefile generic",
+    "make prefix=\"$PREFIX\" -f unix/Makefile install"
+   ],
+   "skip":true
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "chrisburr",
+    "msarahan",
+    "jerowe",
+    "chrisburr",
+    "msarahan",
+    "jerowe",
+    "chrisburr",
+    "msarahan",
+    "jerowe"
+   ]
+  },
+  "package":{
+   "name":"unzip",
+   "version":"6.0"
+  },
+  "requirements":{
+   "build":[
+    "c_compiler_stub",
+    "make",
+    "c_compiler_stub",
+    "make",
+    "c_compiler_stub",
+    "make"
+   ]
+  },
+  "source":{
+   "sha256":"036d96991646d0449ed0aa952e4fbe21b476ce994abc276e49d30e686708bd37",
+   "url":"ftp://ftp.info-zip.org/pub/infozip/src/unzip60.tgz"
+  },
+  "test":{
+   "commands":[
+    "unzip -h",
+    "zipinfo -h",
+    "unzip -h",
+    "zipinfo -h",
+    "unzip -h",
+    "zipinfo -h"
+   ]
+  }
+ },
+ "name":"unzip",
+ "new_version":false,
+ "pinning_version":"2019.06.09",
+ "raw_meta_yaml":"{% set version = \"6.0\" %}\n{% set sha256 = \"036d96991646d0449ed0aa952e4fbe21b476ce994abc276e49d30e686708bd37\" %}\n\npackage:\n  name: unzip\n  version: {{ version }}\n\nsource:\n  url: ftp://ftp.info-zip.org/pub/infozip/src/unzip{{ version.replace(\".\", \"\") }}.tgz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 1\n  skip: True  # [win]\n  script:\n   # Can't build with bzip2 support due to:\n   # > A bzip2 library built with BZ_NO_STDIO should have an\n   # > unresolved external, \"bz_internal_error\".  The default,\n   # > full-function library will not mention it.\n   - make CC=$CC prefix=\"$PREFIX\" CF=\"$CFLAGS -DNO_LCHMOD -I.\" LFLAGS1=\"$LDFLAGS\" -f unix/Makefile generic\n   - make prefix=\"$PREFIX\" -f unix/Makefile install\n\nrequirements:\n  build:\n    - \"{{ compiler('c') }}\"\n    - make\n\ntest:\n  commands:\n    - unzip -h\n    - zipinfo -h\n\nabout:\n  home: http://www.info-zip.org/\n  license: LicenseRef-BSD-like\n  license_file: LICENSE\n  summary: simple program for unzipping files\n\nextra:\n  recipe-maintainers:\n    - chrisburr\n    - msarahan\n    - jerowe\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "c_compiler_stub",
+   "make"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "make"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.3.7",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "make"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"ftp://ftp.info-zip.org/pub/infozip/src/unzip60.tgz",
+ "version":"6.0"
+}

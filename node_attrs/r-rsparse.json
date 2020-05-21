@@ -1,0 +1,379 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/397162494.json"
+   },
+   "data":{
+    "bot_rerun":1589304285.9626873,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.4.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/412794197.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":2,
+    "migrator_version":0,
+    "name":"r400"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/416933740.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.4.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "bot":{
+   "automerge":true
+  }
+ },
+ "feedstock_name":"r-rsparse",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"https://github.com/dselivanov/rsparse",
+   "license":"GPL-2",
+   "license_family":"GPL2",
+   "license_file":[
+    "/lib/R/share/licenses/GPL-2",
+    "/lib/R/share/licenses/GPL-2",
+    "/lib/R/share/licenses/GPL-2"
+   ],
+   "summary":"Implements many algorithms for statistical learning on sparse matrices - matrix factorizations, matrix completion, elastic net regressions, factorization machines. Also 'rsparse' enhances 'Matrix' package by providing methods for multithreaded <sparse, dense> matrix products and native slicing of the sparse matrices in Compressed Sparse Row (CSR) format. List of the algorithms for regression problems: 1) Elastic Net regression via Follow The Proximally-Regularized Leader (FTRL) Stochastic Gradient Descent (SGD), as per McMahan et al(, <doi:10.1145/2487575.2488200>) 2) Factorization Machines via SGD, as per Rendle (2010, <doi:10.1109/ICDM.2010.127>) List of algorithms for matrix factorization and matrix completion: 1) Weighted Regularized Matrix Factorization (WRMF) via Alternating Least Squares (ALS) - paper by Hu, Koren, Volinsky (2008, <doi:10.1109/ICDM.2008.22>) 2) Maximum-Margin Matrix Factorization via ALS, paper by Rennie, Srebro (2005, <doi:10.1145/1102351.1102441>) 3) Fast Truncated Singular Value Decomposition (SVD), Soft-Thresholded SVD, Soft-Impute matrix completion via ALS - paper by Hastie, Mazumder et al. (2014, <arXiv:1410.2596>) 4) Linear-Flow matrix factorization, from 'Practical linear models for large-scale one-class collaborative filtering' by Sedhain, Bui, Kawale et al (2016, ISBN:978-1-57735-770-4) 5) GlobalVectors (GloVe) matrix factorization via SGD, paper by Pennington, Socher, Manning (2014, <https://www.aclweb.org/anthology/D14-1162>) Package is reasonably fast and memory efficient - it allows to work with large datasets - millions of rows and millions of columns. This is particularly useful for practitioners working on recommender systems."
+  },
+  "build":{
+   "merge_build_host":true,
+   "number":"0",
+   "rpaths":[
+    "lib/R/lib/",
+    "lib/",
+    "lib/R/lib/",
+    "lib/",
+    "lib/R/lib/",
+    "lib/"
+   ]
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "conda-forge/r",
+    "conda-forge/r",
+    "conda-forge/r"
+   ]
+  },
+  "package":{
+   "name":"r-rsparse",
+   "version":"0.4.0"
+  },
+  "requirements":{
+   "build":[
+    "m2w64_c_compiler_stub",
+    "m2w64_cxx_compiler_stub",
+    "filesystem",
+    "sed",
+    "grep",
+    "autoconf",
+    "automake-wrapper",
+    "pkg-config",
+    "make",
+    "coreutils",
+    "zip",
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "autoconf",
+    "automake",
+    "pkg-config",
+    "make",
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "autoconf",
+    "automake",
+    "pkg-config",
+    "make"
+   ],
+   "host":[
+    "libopenblas",
+    "r-base",
+    "r-matrix >=1.2",
+    "r-rcpp >=0.11",
+    "r-rcpparmadillo >=0.9.100.5.0",
+    "r-rhpcblasctl",
+    "r-data.table >=1.10.0",
+    "r-float >=0.2_2",
+    "r-lgr >=0.2",
+    "r-mlapi >=0.1.0",
+    "libopenblas",
+    "r-base",
+    "r-matrix >=1.2",
+    "r-rcpp >=0.11",
+    "r-rcpparmadillo >=0.9.100.5.0",
+    "r-rhpcblasctl",
+    "r-data.table >=1.10.0",
+    "r-float >=0.2_2",
+    "r-lgr >=0.2",
+    "r-mlapi >=0.1.0",
+    "libopenblas",
+    "_openmp_mutex",
+    "r-base",
+    "r-matrix >=1.2",
+    "r-rcpp >=0.11",
+    "r-rcpparmadillo >=0.9.100.5.0",
+    "r-rhpcblasctl",
+    "r-data.table >=1.10.0",
+    "r-float >=0.2_2",
+    "r-lgr >=0.2",
+    "r-mlapi >=0.1.0"
+   ],
+   "run":[
+    "libopenblas",
+    "r-base",
+    "gcc-libs",
+    "r-matrix >=1.2",
+    "r-rcpp >=0.11",
+    "r-rcpparmadillo >=0.9.100.5.0",
+    "r-rhpcblasctl",
+    "r-data.table >=1.10.0",
+    "r-float >=0.2_2",
+    "r-lgr >=0.2",
+    "r-mlapi >=0.1.0",
+    "libopenblas",
+    "r-base",
+    "r-matrix >=1.2",
+    "r-rcpp >=0.11",
+    "r-rcpparmadillo >=0.9.100.5.0",
+    "r-rhpcblasctl",
+    "r-data.table >=1.10.0",
+    "r-float >=0.2_2",
+    "r-lgr >=0.2",
+    "r-mlapi >=0.1.0",
+    "libopenblas",
+    "_openmp_mutex",
+    "r-base",
+    "r-matrix >=1.2",
+    "r-rcpp >=0.11",
+    "r-rcpparmadillo >=0.9.100.5.0",
+    "r-rhpcblasctl",
+    "r-data.table >=1.10.0",
+    "r-float >=0.2_2",
+    "r-lgr >=0.2",
+    "r-mlapi >=0.1.0"
+   ]
+  },
+  "source":{
+   "sha256":"29b79607483861a48b2682e1f721a0155ef175bcc11cef8dd500b6a85f2a8fae",
+   "url":[
+    "https://cran.r-project.org/src/contrib/rsparse_0.4.0.tar.gz",
+    "https://cran.r-project.org/src/contrib/Archive/rsparse/rsparse_0.4.0.tar.gz",
+    "https://cran.r-project.org/src/contrib/rsparse_0.4.0.tar.gz",
+    "https://cran.r-project.org/src/contrib/Archive/rsparse/rsparse_0.4.0.tar.gz",
+    "https://cran.r-project.org/src/contrib/rsparse_0.4.0.tar.gz",
+    "https://cran.r-project.org/src/contrib/Archive/rsparse/rsparse_0.4.0.tar.gz"
+   ]
+  },
+  "test":{
+   "commands":[
+    "\"%R%\" -e \"library('rsparse')\"",
+    "$R -e \"library('rsparse')\"",
+    "$R -e \"library('rsparse')\""
+   ]
+  }
+ },
+ "name":"r-rsparse",
+ "new_version":"0.4.0",
+ "new_version_attempts":{
+  "0.4.0":1
+ },
+ "new_version_errors":{},
+ "pinning_version":"2020.05.12.18.03.58",
+ "raw_meta_yaml":"{% set version = \"0.4.0\" %}\n{% set posix = 'm2-' if win else '' %}\n{% set native = 'm2w64-' if win else '' %}\n\npackage:\n  name: r-rsparse\n  version: {{ version|replace(\"-\", \"_\") }}\n\nsource:\n  url:\n    - {{ cran_mirror }}/src/contrib/rsparse_{{ version }}.tar.gz\n    - {{ cran_mirror }}/src/contrib/Archive/rsparse/rsparse_{{ version }}.tar.gz\n  sha256: 29b79607483861a48b2682e1f721a0155ef175bcc11cef8dd500b6a85f2a8fae\n\nbuild:\n  merge_build_host: true  # [win]\n  number: 0\n  # some dependencies are >=3.6 only\n  skip: true  # [r_base == \"3.5.1\"]\n  rpaths:\n    - lib/R/lib/\n    - lib/\n\nrequirements:\n  build:\n    - {{ compiler('c') }}              # [not win]\n    - {{ compiler('m2w64_c') }}        # [win]\n    - {{ compiler('cxx') }}            # [not win]\n    - {{ compiler('m2w64_cxx') }}      # [win]\n    - {{ posix }}filesystem        # [win]\n    - {{ posix }}sed               # [win]\n    - {{ posix }}grep              # [win]\n    - {{ posix }}autoconf\n    - {{ posix }}automake          # [not win]\n    - {{ posix }}automake-wrapper  # [win]\n    - {{ posix }}pkg-config\n    - {{ posix }}make\n    - {{ posix }}coreutils         # [win]\n    - {{ posix }}zip               # [win]\n  host:\n    - libopenblas\n    - _openmp_mutex              # [linux]\n    - r-base\n    - r-matrix >=1.2\n    - r-rcpp >=0.11\n    - r-rcpparmadillo >=0.9.100.5.0\n    - r-rhpcblasctl\n    - r-data.table >=1.10.0\n    - r-float >=0.2_2\n    - r-lgr >=0.2\n    - r-mlapi >=0.1.0\n  run:\n    - libopenblas\n    - _openmp_mutex              # [linux]\n    - r-base\n    - {{ native }}gcc-libs         # [win]\n    - r-matrix >=1.2\n    - r-rcpp >=0.11\n    - r-rcpparmadillo >=0.9.100.5.0\n    - r-rhpcblasctl\n    - r-data.table >=1.10.0\n    - r-float >=0.2_2\n    - r-lgr >=0.2\n    - r-mlapi >=0.1.0\n\ntest:\n  commands:\n    - $R -e \"library('rsparse')\"           # [not win]\n    - \"\\\"%R%\\\" -e \\\"library('rsparse')\\\"\"  # [win]\n\nabout:\n  home: https://github.com/dselivanov/rsparse\n  license: GPL-2\n  summary: \"Implements many algorithms for statistical learning on sparse matrices - matrix factorizations, matrix completion, elastic net regressions, factorization machines. Also 'rsparse' enhances 'Matrix' package by providing methods for multithreaded <sparse, dense> matrix products and native slicing of the sparse matrices\\\n    \\ in Compressed Sparse Row (CSR) format. List of the algorithms for regression problems: 1) Elastic Net regression via Follow The Proximally-Regularized Leader (FTRL) Stochastic Gradient Descent (SGD), as per McMahan et al(, <doi:10.1145/2487575.2488200>) 2) Factorization Machines via SGD, as per Rendle (2010, <doi:10.1109/ICDM.2010.127>)\\\n    \\ List of algorithms for matrix factorization and matrix completion: 1) Weighted Regularized Matrix Factorization (WRMF) via Alternating Least Squares (ALS) - paper by Hu, Koren, Volinsky (2008, <doi:10.1109/ICDM.2008.22>) 2) Maximum-Margin Matrix Factorization via ALS, paper by Rennie, Srebro (2005, <doi:10.1145/1102351.1102441>)\\\n    \\ 3) Fast Truncated Singular Value Decomposition (SVD), Soft-Thresholded SVD, Soft-Impute matrix completion via ALS - paper by Hastie, Mazumder et al. (2014, <arXiv:1410.2596>) 4) Linear-Flow matrix factorization, from 'Practical linear models for large-scale one-class collaborative filtering' by Sedhain, Bui, Kawale\\\n    \\ et al (2016, ISBN:978-1-57735-770-4) 5) GlobalVectors (GloVe) matrix factorization via SGD, paper by Pennington, Socher, Manning (2014, <https://www.aclweb.org/anthology/D14-1162>) Package is reasonably fast and memory efficient - it allows to work with large datasets - millions of rows and millions of columns. This\\\n    \\ is particularly useful for practitioners working on recommender systems.\"\n  license_family: GPL2\n  license_file:\n    - {{ environ[\"PREFIX\"] }}/lib/R/share/licenses/GPL-2\n\nextra:\n  recipe-maintainers:\n    - conda-forge/r\n\n# Package: rsparse\n# Type: Package\n# Title: Statistical Learning on Sparse Matrices\n# Version: 0.3.3.4\n# Authors@R: c( person(\"Dmitriy\", \"Selivanov\", role=c(\"aut\", \"cre\", \"cph\"), email=\"selivanov.dmitriy@gmail.com\", comment = c(ORCID = \"0000-0001-5413-1506\")), person(\"Drew\", \"Schmidt\", role=\"ctb\", comment=\"configure script for BLAS, LAPACK detection\"), person(\"Wei-Chen\", \"Chen\", role=\"ctb\", comment=\"configure script and work on linking to float package\") )\n# Maintainer: Dmitriy Selivanov <selivanov.dmitriy@gmail.com>\n# Description: Implements many algorithms for statistical learning on sparse matrices - matrix factorizations, matrix completion, elastic net regressions, factorization machines. Also 'rsparse' enhances 'Matrix' package by providing methods for multithreaded <sparse, dense> matrix products and native slicing of the sparse matrices in Compressed Sparse Row (CSR) format. List of the algorithms for regression problems: 1) Elastic Net regression via Follow The Proximally-Regularized Leader (FTRL) Stochastic Gradient Descent (SGD), as per McMahan et al(, <doi:10.1145/2487575.2488200>) 2) Factorization Machines via SGD, as per Rendle (2010, <doi:10.1109/ICDM.2010.127>) List of algorithms for matrix factorization and matrix completion: 1) Weighted Regularized Matrix Factorization (WRMF) via Alternating Least Squares (ALS) - paper by Hu, Koren, Volinsky (2008, <doi:10.1109/ICDM.2008.22>) 2) Maximum-Margin Matrix Factorization via ALS, paper by Rennie, Srebro (2005, <doi:10.1145/1102351.1102441>) 3) Fast Truncated Singular Value Decomposition (SVD), Soft-Thresholded SVD, Soft-Impute matrix completion via ALS - paper by Hastie, Mazumder et al. (2014, <arXiv:1410.2596>) 4) Linear-Flow matrix factorization, from 'Practical linear models for large-scale one-class collaborative filtering' by Sedhain, Bui, Kawale et al (2016, ISBN:978-1-57735-770-4) 5) GlobalVectors (GloVe) matrix factorization via SGD, paper by Pennington, Socher, Manning (2014, <https://www.aclweb.org/anthology/D14-1162>) Package is reasonably fast and memory efficient - it allows to work with large datasets - millions of rows and millions of columns. This is particularly useful for practitioners working on recommender systems.\n# License: GPL (>= 2)\n# Encoding: UTF-8\n# LazyData: true\n# ByteCompile: true\n# Depends: R (>= 3.6.0), methods\n# Imports: Matrix (>= 1.2), Rcpp (>= 0.11), mlapi (>= 0.1.0), data.table (>= 1.10.0), float (>= 0.2-2), RhpcBLASctl, lgr (>= 0.2)\n# LinkingTo: Rcpp, RcppArmadillo (>= 0.9.100.5.0)\n# Suggests: testthat, covr\n# StagedInstall: TRUE\n# URL: https://github.com/dselivanov/rsparse\n# BugReports: https://github.com/dselivanov/rsparse/issues\n# RoxygenNote: 6.1.1\n# NeedsCompilation: yes\n# Packaged: 2019-10-14 08:29:30 UTC; dselivanov\n# Author: Dmitriy Selivanov [aut, cre, cph] (<https://orcid.org/0000-0001-5413-1506>), Drew Schmidt [ctb] (configure script for BLAS, LAPACK detection), Wei-Chen Chen [ctb] (configure script and work on linking to float package)\n# Repository: CRAN\n# Date/Publication: 2019-11-14 12:30:02 UTC\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "_openmp_mutex",
+   "autoconf",
+   "automake",
+   "automake-wrapper",
+   "c_compiler_stub",
+   "coreutils",
+   "cxx_compiler_stub",
+   "filesystem",
+   "gcc-libs",
+   "grep",
+   "libopenblas",
+   "m2w64_c_compiler_stub",
+   "m2w64_cxx_compiler_stub",
+   "make",
+   "pkg-config",
+   "r-base",
+   "r-data.table",
+   "r-float",
+   "r-lgr",
+   "r-matrix",
+   "r-mlapi",
+   "r-rcpp",
+   "r-rcpparmadillo",
+   "r-rhpcblasctl",
+   "sed",
+   "zip"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "autoconf",
+    "automake",
+    "automake-wrapper",
+    "c_compiler_stub",
+    "coreutils",
+    "cxx_compiler_stub",
+    "filesystem",
+    "grep",
+    "m2w64_c_compiler_stub",
+    "m2w64_cxx_compiler_stub",
+    "make",
+    "pkg-config",
+    "sed",
+    "zip"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "_openmp_mutex",
+    "libopenblas",
+    "r-base",
+    "r-data.table",
+    "r-float",
+    "r-lgr",
+    "r-matrix",
+    "r-mlapi",
+    "r-rcpp",
+    "r-rcpparmadillo",
+    "r-rhpcblasctl"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "_openmp_mutex",
+    "gcc-libs",
+    "libopenblas",
+    "r-base",
+    "r-data.table",
+    "r-float",
+    "r-lgr",
+    "r-matrix",
+    "r-mlapi",
+    "r-rcpp",
+    "r-rcpparmadillo",
+    "r-rhpcblasctl"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.7.0\n",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "autoconf",
+    "automake",
+    "automake-wrapper",
+    "c_compiler_stub",
+    "coreutils",
+    "cxx_compiler_stub",
+    "filesystem",
+    "grep",
+    "m2w64_c_compiler_stub",
+    "m2w64_cxx_compiler_stub",
+    "make",
+    "pkg-config",
+    "sed",
+    "zip"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "_openmp_mutex",
+    "libopenblas",
+    "r-base",
+    "r-data.table >=1.10.0",
+    "r-float >=0.2_2",
+    "r-lgr >=0.2",
+    "r-matrix >=1.2",
+    "r-mlapi >=0.1.0",
+    "r-rcpp >=0.11",
+    "r-rcpparmadillo >=0.9.100.5.0",
+    "r-rhpcblasctl"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "_openmp_mutex",
+    "gcc-libs",
+    "libopenblas",
+    "r-base",
+    "r-data.table >=1.10.0",
+    "r-float >=0.2_2",
+    "r-lgr >=0.2",
+    "r-matrix >=1.2",
+    "r-mlapi >=0.1.0",
+    "r-rcpp >=0.11",
+    "r-rcpparmadillo >=0.9.100.5.0",
+    "r-rhpcblasctl"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":[
+  "https://cran.r-project.org/src/contrib/rsparse_0.3.3.4.tar.gz",
+  "https://cran.r-project.org/src/contrib/Archive/rsparse/rsparse_0.3.3.4.tar.gz",
+  "https://cran.r-project.org/src/contrib/rsparse_0.3.3.4.tar.gz",
+  "https://cran.r-project.org/src/contrib/Archive/rsparse/rsparse_0.3.3.4.tar.gz",
+  "https://cran.r-project.org/src/contrib/rsparse_0.3.3.4.tar.gz",
+  "https://cran.r-project.org/src/contrib/Archive/rsparse/rsparse_0.3.3.4.tar.gz"
+ ],
+ "version":"0.4.0"
+}

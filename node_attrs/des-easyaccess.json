@@ -1,0 +1,199 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/336365127.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"python38"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"des-easyaccess",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"easyaccess is an enhanced command line interpreter and Python package\ncreated to facilitate access to astronomical catalogs stored in SQL\nDatabases. It provides a custom interface with custom commands and was\nspecifically designed to access data from the Dark Energy Survey Oracle\ndatabase, including autocompletion of tables, columns, users and commands,\nsimple ways to upload and download tables using csv, fits and HDF5 formats,\niterators, search and description of tables among others. It can easily be\nextended to another surveys or SQL databases. The package was completely\nwritten in Python and support customized addition of commands and\nfunctionalities.\n",
+   "dev_url":"https://github.com/mgckind/easyaccess",
+   "home":"https://github.com/mgckind/easyaccess",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"LICENSE.txt",
+   "summary":"SQL command line interpreter for astronomical surveys"
+  },
+  "build":{
+   "number":"2",
+   "script":" -m pip install . --no-deps -vv",
+   "skip":true
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "beckermr",
+    "beckermr",
+    "beckermr"
+   ]
+  },
+  "package":{
+   "name":"des-easyaccess",
+   "version":"1.4.7"
+  },
+  "requirements":{
+   "host":[
+    "python",
+    "pip",
+    "python",
+    "pip",
+    "python",
+    "pip"
+   ],
+   "run":[
+    "python",
+    "future >=0.15.0",
+    "requests",
+    "pandas >=0.14",
+    "termcolor >=1.1.0",
+    "fitsio >=0.9.11",
+    "cx_oracle",
+    "numpy",
+    "python-dateutil",
+    "pytables",
+    "python",
+    "future >=0.15.0",
+    "requests",
+    "pandas >=0.14",
+    "termcolor >=1.1.0",
+    "fitsio >=0.9.11",
+    "cx_oracle",
+    "numpy",
+    "python-dateutil",
+    "pytables",
+    "gnureadline",
+    "python",
+    "future >=0.15.0",
+    "requests",
+    "pandas >=0.14",
+    "termcolor >=1.1.0",
+    "fitsio >=0.9.11",
+    "cx_oracle",
+    "numpy",
+    "python-dateutil",
+    "pytables"
+   ]
+  },
+  "source":{
+   "sha256":"3063c5df2e578c84f09f6a8adc5ec813452248c76493431bfd7bac637a85ff1d",
+   "url":"https://github.com/mgckind/easyaccess/archive/1.4.7.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "easyaccess",
+    "easyaccess",
+    "easyaccess"
+   ]
+  }
+ },
+ "name":"des-easyaccess",
+ "new_version":"1.4.7",
+ "pinning_version":"2019.11.01",
+ "raw_meta_yaml":"{% set name = \"des-easyaccess\" %}\n{% set version = \"1.4.7\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://github.com/mgckind/easyaccess/archive/{{ version }}.tar.gz\n  sha256: 3063c5df2e578c84f09f6a8adc5ec813452248c76493431bfd7bac637a85ff1d\n\nbuild:\n  number: 2\n  script: \"{{ PYTHON }} -m pip install . --no-deps -vv\"\n  skip: True  # [win]\n\nrequirements:\n  host:\n    - python\n    - pip\n  run:\n    - python\n    - future >=0.15.0\n    - requests\n    - pandas >=0.14\n    - termcolor >=1.1.0\n    - fitsio >=0.9.11\n    - cx_oracle\n    - {{ pin_compatible('numpy') }}\n    - python-dateutil\n    - pytables\n    - gnureadline  # [osx]\n\ntest:\n  imports:\n    - easyaccess\n\nabout:\n  home: https://github.com/mgckind/easyaccess\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE.txt\n  summary: SQL command line interpreter for astronomical surveys\n  description: |\n    easyaccess is an enhanced command line interpreter and Python package\n    created to facilitate access to astronomical catalogs stored in SQL\n    Databases. It provides a custom interface with custom commands and was\n    specifically designed to access data from the Dark Energy Survey Oracle\n    database, including autocompletion of tables, columns, users and commands,\n    simple ways to upload and download tables using csv, fits and HDF5 formats,\n    iterators, search and description of tables among others. It can easily be\n    extended to another surveys or SQL databases. The package was completely\n    written in Python and support customized addition of commands and\n    functionalities.\n  dev_url: https://github.com/mgckind/easyaccess\n\nextra:\n  recipe-maintainers:\n    - beckermr\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "cx_oracle",
+   "fitsio",
+   "future",
+   "gnureadline",
+   "numpy",
+   "pandas",
+   "pip",
+   "pytables",
+   "python",
+   "python-dateutil",
+   "requests",
+   "termcolor"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "cx_oracle",
+    "fitsio",
+    "future",
+    "gnureadline",
+    "numpy",
+    "pandas",
+    "pytables",
+    "python",
+    "python-dateutil",
+    "requests",
+    "termcolor"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.6.1",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "cx_oracle",
+    "fitsio >=0.9.11",
+    "future >=0.15.0",
+    "gnureadline",
+    "numpy",
+    "pandas >=0.14",
+    "pytables",
+    "python",
+    "python-dateutil",
+    "requests",
+    "termcolor >=1.1.0"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://github.com/mgckind/easyaccess/archive/1.4.7.tar.gz",
+ "version":"1.4.7"
+}

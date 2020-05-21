@@ -1,0 +1,282 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "id":"a81e3d0f-7c59-4b7c-a849-5208a5a5fbfd",
+    "merged_at":"never issued",
+    "state":"closed"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"python38"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"tardis-sn",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "dev_url":"https://github.com/tardis-sn/tardis",
+   "doc_url":"https://tardis-sn.github.io/tardis",
+   "home":"https://github.com/tardis-sn/tardis",
+   "license":"BSD-3-Clause",
+   "license_family":"BSD",
+   "license_file":"LICENSE.rst",
+   "summary":"TARDIS - Temperature And Radiative Diffusion In Supernovae"
+  },
+  "build":{
+   "number":"0",
+   "script":"-m pip install . --no-deps -vv",
+   "skip":true
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "epassaro",
+    "wkerzendorf",
+    "epassaro",
+    "wkerzendorf",
+    "epassaro",
+    "wkerzendorf"
+   ]
+  },
+  "package":{
+   "name":"tardis-sn",
+   "version":"3.0.a3"
+  },
+  "requirements":{
+   "build":[
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "c_compiler_stub",
+    "cxx_compiler_stub"
+   ],
+   "host":[
+    "python",
+    "pip",
+    "setuptools",
+    "astropy =3",
+    "cython >=0.29",
+    "python",
+    "pip",
+    "setuptools",
+    "astropy =3",
+    "cython >=0.29",
+    "python",
+    "pip",
+    "setuptools",
+    "astropy =3",
+    "cython >=0.29"
+   ],
+   "run":[
+    "python",
+    "astropy =3",
+    "numpy =1.15",
+    "scipy =1.1",
+    "pandas =0.24",
+    "pyne =0.5",
+    "numexpr",
+    "pyyaml",
+    "jsonschema",
+    "pytables",
+    "h5py",
+    "requests",
+    "tqdm",
+    "networkx",
+    "python",
+    "astropy =3",
+    "numpy =1.15",
+    "scipy =1.1",
+    "pandas =0.24",
+    "pyne =0.5",
+    "numexpr",
+    "pyyaml",
+    "jsonschema",
+    "pytables",
+    "h5py",
+    "requests",
+    "tqdm",
+    "networkx",
+    "python",
+    "astropy =3",
+    "numpy =1.15",
+    "scipy =1.1",
+    "pandas =0.24",
+    "pyne =0.5",
+    "numexpr",
+    "pyyaml",
+    "jsonschema",
+    "pytables",
+    "h5py",
+    "requests",
+    "tqdm",
+    "networkx"
+   ]
+  },
+  "source":[
+   {
+    "sha256":"a6bea10ebdc2b10e610953c30d6920bd914bf877f3c4418ed1d81c4d2e914289",
+    "url":"https://github.com/tardis-sn/tardis/archive/v3.0-alpha.3.tar.gz"
+   },
+   {
+    "folder":"astropy_helpers",
+    "sha256":"8ba7e693f1cc9a1c12be3b4ba9e65b67246bff1741c726b79a6dc7b233ba4cd4",
+    "url":"https://github.com/astropy/astropy-helpers/archive/v3.1.1.tar.gz"
+   },
+   {
+    "sha256":"a6bea10ebdc2b10e610953c30d6920bd914bf877f3c4418ed1d81c4d2e914289",
+    "url":"https://github.com/tardis-sn/tardis/archive/v3.0-alpha.3.tar.gz"
+   },
+   {
+    "folder":"astropy_helpers",
+    "sha256":"8ba7e693f1cc9a1c12be3b4ba9e65b67246bff1741c726b79a6dc7b233ba4cd4",
+    "url":"https://github.com/astropy/astropy-helpers/archive/v3.1.1.tar.gz"
+   },
+   {
+    "sha256":"a6bea10ebdc2b10e610953c30d6920bd914bf877f3c4418ed1d81c4d2e914289",
+    "url":"https://github.com/tardis-sn/tardis/archive/v3.0-alpha.3.tar.gz"
+   },
+   {
+    "folder":"astropy_helpers",
+    "sha256":"8ba7e693f1cc9a1c12be3b4ba9e65b67246bff1741c726b79a6dc7b233ba4cd4",
+    "url":"https://github.com/astropy/astropy-helpers/archive/v3.1.1.tar.gz"
+   }
+  ],
+  "test":{
+   "imports":[
+    "tardis",
+    "tardis",
+    "tardis"
+   ]
+  }
+ },
+ "name":"tardis-sn",
+ "new_version":"2.0.2",
+ "pinning_version":"2019.11.18",
+ "raw_meta_yaml":"{% set name = \"tardis-sn\" %}\n{% set version_tag = \"3.0-alpha.3\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version_tag.replace('-alpha.', '.a') }}\n\nsource:\n  - url: https://github.com/tardis-sn/tardis/archive/v{{ version_tag }}.tar.gz\n    sha256: a6bea10ebdc2b10e610953c30d6920bd914bf877f3c4418ed1d81c4d2e914289\n  - url: https://github.com/astropy/astropy-helpers/archive/v3.1.1.tar.gz\n    sha256: 8ba7e693f1cc9a1c12be3b4ba9e65b67246bff1741c726b79a6dc7b233ba4cd4\n    folder: astropy_helpers\n\nbuild:\n  number: 0\n  skip: True  # [win or py<36]\n  # A Python 3.7 build of pyne is not available\n  skip: True  # [py==37]\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  build:\n    - {{ compiler('c') }}\n    - {{ compiler('cxx') }}\n\n  host:\n    - python\n    - pip\n    - setuptools\n    - astropy =3\n    - cython >=0.29\n\n  run:\n    - python\n    - astropy =3\n    - numpy =1.15\n    - scipy =1.1\n    - pandas =0.24\n    - pyne =0.5\n    - numexpr\n    - pyyaml\n    - jsonschema\n    - pytables\n    - h5py\n    - requests\n    - tqdm\n    - networkx\n\ntest:\n  imports:\n    - tardis\n\nabout:\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: LICENSE.rst\n  summary: TARDIS - Temperature And Radiative Diffusion In Supernovae\n  home: https://github.com/tardis-sn/tardis\n  dev_url: https://github.com/tardis-sn/tardis\n  doc_url: https://tardis-sn.github.io/tardis\n\nextra:\n  recipe-maintainers:\n    - epassaro\n    - wkerzendorf\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "astropy",
+   "c_compiler_stub",
+   "cxx_compiler_stub",
+   "cython",
+   "h5py",
+   "jsonschema",
+   "networkx",
+   "numexpr",
+   "numpy",
+   "pandas",
+   "pip",
+   "pyne",
+   "pytables",
+   "python",
+   "pyyaml",
+   "requests",
+   "scipy",
+   "setuptools",
+   "tqdm"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "cxx_compiler_stub"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "astropy",
+    "cython",
+    "pip",
+    "python",
+    "setuptools"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "astropy",
+    "h5py",
+    "jsonschema",
+    "networkx",
+    "numexpr",
+    "numpy",
+    "pandas",
+    "pyne",
+    "pytables",
+    "python",
+    "pyyaml",
+    "requests",
+    "scipy",
+    "tqdm"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.6.2",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "cxx_compiler_stub"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "astropy =3",
+    "cython >=0.29",
+    "pip",
+    "python",
+    "setuptools"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "astropy =3",
+    "h5py",
+    "jsonschema",
+    "networkx",
+    "numexpr",
+    "numpy =1.15",
+    "pandas =0.24",
+    "pyne =0.5",
+    "pytables",
+    "python",
+    "pyyaml",
+    "requests",
+    "scipy =1.1",
+    "tqdm"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://github.com/tardis-sn/tardis/archive/v3.0-alpha.3.tar.gz",
+ "version":"3.0.a3"
+}

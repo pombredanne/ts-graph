@@ -1,0 +1,215 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/338864255.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.3.11"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/338865539.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"python38"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/391351035.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"pypy"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"jenkinsapi",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "doc_url":"https://jenkinsapi.readthedocs.org/",
+   "home":"https://github.com/salimfadhley/jenkinsapi",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"license.txt",
+   "summary":"A Python API for accessing resources on a Jenkins continuous-integration server."
+  },
+  "build":{
+   "missing_dso_whitelist":[
+    "*\\SHLWAPI.dll"
+   ],
+   "number":"1",
+   "script":" -m pip install . --no-deps --ignore-installed -vv --no-cache-dir"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "nehaljwani",
+    "nehaljwani",
+    "nehaljwani"
+   ]
+  },
+  "package":{
+   "name":"jenkinsapi",
+   "version":"0.3.11"
+  },
+  "requirements":{
+   "host":[
+    "pip",
+    "pbr",
+    "python",
+    "pip",
+    "pbr",
+    "python",
+    "pip",
+    "pbr",
+    "python"
+   ],
+   "run":[
+    "python",
+    "pytz >=2014.4",
+    "requests >=2.3.0",
+    "six >=1.10.0",
+    "python",
+    "pytz >=2014.4",
+    "requests >=2.3.0",
+    "six >=1.10.0",
+    "python",
+    "pytz >=2014.4",
+    "requests >=2.3.0",
+    "six >=1.10.0"
+   ]
+  },
+  "source":{
+   "sha256":"a212a244b0a6022a61657746c8120ac9b6db83432371b345154075eb8faceb61",
+   "url":"https://pypi.io/packages/source/j/jenkinsapi/jenkinsapi-0.3.11.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "jenkins_invoke --help",
+    "jenkinsapi_version --help"
+   ],
+   "imports":[
+    "jenkinsapi",
+    "jenkinsapi.command_line",
+    "jenkinsapi.utils",
+    "jenkinsapi_tests",
+    "jenkinsapi",
+    "jenkinsapi.command_line",
+    "jenkinsapi.utils",
+    "jenkinsapi_tests",
+    "jenkinsapi",
+    "jenkinsapi.command_line",
+    "jenkinsapi.utils",
+    "jenkinsapi_tests"
+   ]
+  }
+ },
+ "name":"jenkinsapi",
+ "new_version":"0.3.11",
+ "pinning_version":"2020.03.20",
+ "raw_meta_yaml":"{% set name = \"jenkinsapi\" %}\n{% set version = \"0.3.11\" %}\n\npackage:\n  name: \"{{ name|lower }}\"\n  version: \"{{ version }}\"\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: a212a244b0a6022a61657746c8120ac9b6db83432371b345154075eb8faceb61\n\nbuild:\n  number: 1\n  script: \"{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv --no-cache-dir\"\n  missing_dso_whitelist:  # [win]\n    - '*\\SHLWAPI.dll'     # [win]\n\nrequirements:\n  host:\n    - pip\n    - pbr\n    - python\n  run:\n    - python\n    - pytz >=2014.4\n    - requests >=2.3.0\n    - six >=1.10.0\n\ntest:\n  imports:\n    - jenkinsapi\n    - jenkinsapi.command_line\n    - jenkinsapi.utils\n    - jenkinsapi_tests\n  commands:                      # [unix]\n    - jenkins_invoke --help      # [unix]\n    - jenkinsapi_version --help  # [unix]\n\nabout:\n  home: https://github.com/salimfadhley/jenkinsapi\n  license: MIT\n  license_family: MIT\n  license_file: license.txt\n  summary: A Python API for accessing resources on a Jenkins continuous-integration server.\n  doc_url: https://jenkinsapi.readthedocs.org/\n\nextra:\n  recipe-maintainers:\n    - nehaljwani\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "pbr",
+   "pip",
+   "python",
+   "pytz",
+   "requests",
+   "six"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pbr",
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "python",
+    "pytz",
+    "requests",
+    "six"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.6.14",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pbr",
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "python",
+    "pytz >=2014.4",
+    "requests >=2.3.0",
+    "six >=1.10.0"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/j/jenkinsapi/jenkinsapi-0.3.10.tar.gz",
+ "version":"0.3.11"
+}

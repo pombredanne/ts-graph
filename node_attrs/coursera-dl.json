@@ -1,0 +1,278 @@
+{
+ "PRed":[
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.11.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/196995508.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.11.4"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/200045228.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Noarch",
+    "migrator_version":0
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/229139494.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/336110134.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"python38"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/353775875.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.11.5"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"coursera-dl",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "dev_url":"https://github.com/coursera-dl/coursera-dl",
+   "home":"https://github.com/coursera-dl/coursera-dl",
+   "license":"LGPL-3.0",
+   "license_family":"LGPL",
+   "license_file":"LICENSE",
+   "summary":"Script for downloading Coursera.org videos and naming them."
+  },
+  "build":{
+   "entry_points":[
+    "coursera-dl=coursera.coursera_dl:main",
+    "coursera-dl=coursera.coursera_dl:main",
+    "coursera-dl=coursera.coursera_dl:main"
+   ],
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . --no-deps -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "proinsias",
+    "proinsias",
+    "proinsias"
+   ]
+  },
+  "package":{
+   "name":"coursera-dl",
+   "version":"0.11.4"
+  },
+  "requirements":{
+   "build":[
+    "python",
+    "pip",
+    "python",
+    "pip",
+    "python",
+    "pip"
+   ],
+   "run":[
+    "python",
+    "beautifulsoup4 >=4.1.3",
+    "requests >=2.10.0",
+    "six >=1.5.0",
+    "urllib3 >=1.10",
+    "pyasn1 >=0.1.7",
+    "keyring >=4.0",
+    "configargparse >=0.12.0",
+    "attrs ==18.1.0",
+    "python",
+    "beautifulsoup4 >=4.1.3",
+    "requests >=2.10.0",
+    "six >=1.5.0",
+    "urllib3 >=1.10",
+    "pyasn1 >=0.1.7",
+    "keyring >=4.0",
+    "configargparse >=0.12.0",
+    "attrs ==18.1.0",
+    "python",
+    "beautifulsoup4 >=4.1.3",
+    "requests >=2.10.0",
+    "six >=1.5.0",
+    "urllib3 >=1.10",
+    "pyasn1 >=0.1.7",
+    "keyring >=4.0",
+    "configargparse >=0.12.0",
+    "attrs ==18.1.0"
+   ]
+  },
+  "source":{
+   "sha256":"8366ab3e22c712a3e7d4f944c8763ac6c5111210f73ce14f782d9bc24e2d8204",
+   "url":"https://pypi.io/packages/source/c/coursera-dl/coursera-dl-0.11.4.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "coursera-dl --help",
+    "coursera-dl --help",
+    "coursera-dl --help"
+   ],
+   "imports":[
+    "coursera",
+    "coursera",
+    "coursera"
+   ]
+  }
+ },
+ "name":"coursera-dl",
+ "new_version":"0.11.5",
+ "pinning_version":"2019.12.02",
+ "raw_meta_yaml":"{% set version = \"0.11.4\" %}\n\npackage:\n  name: coursera-dl\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/c/coursera-dl/coursera-dl-{{ version }}.tar.gz\n  sha256: 8366ab3e22c712a3e7d4f944c8763ac6c5111210f73ce14f782d9bc24e2d8204\n\nbuild:\n  number: 0\n  noarch: python\n  script: \"{{ PYTHON }} -m pip install . --no-deps -vv\"\n  entry_points:\n    - coursera-dl=coursera.coursera_dl:main\n\nrequirements:\n  build:\n    - python\n    - pip\n  run:\n    - python\n    - beautifulsoup4 >=4.1.3\n    - requests >=2.10.0\n    - six >=1.5.0\n    - urllib3 >=1.10\n    - pyasn1 >=0.1.7\n    - keyring >=4.0\n    - configargparse >=0.12.0\n    - attrs ==18.1.0\n\ntest:\n  imports:\n    - coursera\n  commands:\n    - coursera-dl --help\n\nabout:\n  home: https://github.com/coursera-dl/coursera-dl\n  license: LGPL-3.0\n  license_file: LICENSE\n  license_family: LGPL\n  summary: 'Script for downloading Coursera.org videos and naming them.'\n  dev_url: https://github.com/coursera-dl/coursera-dl\n\nextra:\n  recipe-maintainers:\n    - proinsias\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "attrs",
+   "beautifulsoup4",
+   "configargparse",
+   "keyring",
+   "pip",
+   "pyasn1",
+   "python",
+   "requests",
+   "six",
+   "urllib3"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "attrs",
+    "beautifulsoup4",
+    "configargparse",
+    "keyring",
+    "pyasn1",
+    "python",
+    "requests",
+    "six",
+    "urllib3"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.6.5",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "attrs ==18.1.0",
+    "beautifulsoup4 >=4.1.3",
+    "configargparse >=0.12.0",
+    "keyring >=4.0",
+    "pyasn1 >=0.1.7",
+    "python",
+    "requests >=2.10.0",
+    "six >=1.5.0",
+    "urllib3 >=1.10"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/c/coursera-dl/coursera-dl-0.8.0.tar.gz",
+ "version":"0.11.4"
+}

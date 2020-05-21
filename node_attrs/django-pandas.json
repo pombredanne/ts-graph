@@ -1,0 +1,215 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/242307622.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.5.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/244377406.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.6.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/270181149.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.6.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"django-pandas",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"Tools for working with pandas in your Django projects",
+   "dev_url":"https://github.com/chrisdev/django-pandas",
+   "doc_url":"https://media.readthedocs.org/pdf/django-pandas/latest/django-pandas.pdf",
+   "home":"https://github.com/chrisdev/django-pandas",
+   "license":"BSD-3-Clause",
+   "license_family":"BSD",
+   "license_file":"LICENSE.rst",
+   "summary":"Tools for working with pandas in your Django projects"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":"python setup.py install --single-version-externally-managed --record record.txt"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "cshaley",
+    "sannykr",
+    "cshaley",
+    "sannykr",
+    "cshaley",
+    "sannykr"
+   ]
+  },
+  "package":{
+   "name":"django-pandas",
+   "version":"0.6.1"
+  },
+  "requirements":{
+   "build":[
+    "python",
+    "setuptools",
+    "python",
+    "setuptools",
+    "python",
+    "setuptools"
+   ],
+   "run":[
+    "python",
+    "django >=1.4.5",
+    "django-model-utils >=1.4.0",
+    "pandas >=0.14.1",
+    "python",
+    "django >=1.4.5",
+    "django-model-utils >=1.4.0",
+    "pandas >=0.14.1",
+    "python",
+    "django >=1.4.5",
+    "django-model-utils >=1.4.0",
+    "pandas >=0.14.1"
+   ]
+  },
+  "source":{
+   "fn":"django-pandas-0.6.1.tar.gz",
+   "sha256":"788f4652012a67d2c5849191b01af58255f7af815ab612bebca019854235a9bc",
+   "url":"https://pypi.io/packages/source/d/django-pandas/django-pandas-0.6.1.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "django_pandas",
+    "django_pandas",
+    "django_pandas"
+   ],
+   "requires":[
+    "django >=1.4.2",
+    "pandas 0.20.1",
+    "coverage >=4.0",
+    "django >=1.4.2",
+    "pandas 0.20.1",
+    "coverage >=4.0",
+    "django >=1.4.2",
+    "pandas 0.20.1",
+    "coverage >=4.0"
+   ]
+  }
+ },
+ "name":"django-pandas",
+ "new_version":"0.6.1",
+ "pinning_version":"2019.04.12",
+ "raw_meta_yaml":"{% set name = \"django-pandas\" %}\n{% set version = \"0.6.1\" %}\n{% set sha256 = \"788f4652012a67d2c5849191b01af58255f7af815ab612bebca019854235a9bc\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  fn: {{ name }}-{{ version }}.tar.gz\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  noarch: python\n  script: python setup.py install --single-version-externally-managed --record record.txt\n\nrequirements:\n  build:\n    - python\n    - setuptools\n  run:\n    - python\n    - django >=1.4.5\n    - django-model-utils >=1.4.0\n    - pandas >=0.14.1\n\ntest:\n  imports:\n    - django_pandas\n  requires:\n    - django >=1.4.2\n    - pandas 0.20.1\n    - coverage >=4.0\n    \nabout:\n  home: https://github.com/chrisdev/django-pandas\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: LICENSE.rst\n  summary: 'Tools for working with pandas in your Django projects'\n  description: \n    Tools for working with pandas in your Django projects\n  doc_url: https://media.readthedocs.org/pdf/django-pandas/latest/django-pandas.pdf\n  dev_url: https://github.com/chrisdev/django-pandas\n\nextra:\n  recipe-maintainers:\n    - cshaley\n    - sannykr\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "django",
+   "django-model-utils",
+   "pandas",
+   "python",
+   "setuptools"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "python",
+    "setuptools"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "django",
+    "django-model-utils",
+    "pandas",
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "coverage",
+    "django",
+    "pandas"
+   ]
+  }
+ },
+ "smithy_version":"3.3.2",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "python",
+    "setuptools"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "django >=1.4.5",
+    "django-model-utils >=1.4.0",
+    "pandas >=0.14.1",
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "coverage >=4.0",
+    "django >=1.4.2",
+    "pandas 0.20.1"
+   ]
+  }
+ },
+ "url":"https://pypi.io/packages/source/d/django-pandas/django-pandas-0.6.1.tar.gz",
+ "version":"0.6.1"
+}

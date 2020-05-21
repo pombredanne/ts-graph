@@ -1,0 +1,229 @@
+{
+ "PRed":[
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.0.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/198541877.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Compiler",
+    "migrator_version":0
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "provider":{
+   "win":"appveyor"
+  }
+ },
+ "feedstock_name":"sdl2_mixer",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"Simple DirectMedia Layer is a cross-platform development library designed to\nprovide low level access to audio, keyboard, mouse, joystick, and graphics\nhardware via OpenGL and Direct3D.\n",
+   "dev_url":"http://hg.libsdl.org/SDL_mixer/",
+   "doc_url":"https://www.libsdl.org/projects/SDL_mixer/docs/index.html",
+   "home":"https://www.libsdl.org/projects/SDL_mixer/",
+   "license":"ZLIB",
+   "license_file":"COPYING.txt",
+   "summary":"Sample multi-channel audio mixer library"
+  },
+  "build":{
+   "number":"0"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "dschreij",
+    "matham",
+    "dschreij",
+    "matham",
+    "dschreij",
+    "matham"
+   ]
+  },
+  "package":{
+   "name":"sdl2_mixer",
+   "version":"2.0.4"
+  },
+  "requirements":{
+   "build":[
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "pkg-config",
+    "autoconf",
+    "automake",
+    "libtool",
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "pkg-config",
+    "autoconf",
+    "automake",
+    "libtool",
+    "c_compiler_stub",
+    "cxx_compiler_stub"
+   ],
+   "host":[
+    "sdl2 2.0.*",
+    "libogg 1.3.*",
+    "libvorbis 1.3.*",
+    "libflac 1.3.*",
+    "libmad 0.15.*",
+    "smpeg2 2.0.*",
+    "sdl2 2.0.*",
+    "libogg 1.3.*",
+    "libvorbis 1.3.*",
+    "libflac 1.3.*",
+    "libmad 0.15.*",
+    "smpeg2 2.0.*",
+    "sdl2 2.0.*",
+    "libogg 1.3.*",
+    "libvorbis 1.3.*",
+    "libflac 1.3.*",
+    "libmad 0.15.*",
+    "smpeg2 2.0.*"
+   ],
+   "run":[
+    "sdl2 2.0.*",
+    "smpeg2 2.0.*",
+    "sdl2 2.0.*",
+    "smpeg2 2.0.*",
+    "sdl2 2.0.*",
+    "smpeg2 2.0.*"
+   ]
+  },
+  "source":{
+   "fn":"SDL2_mixer-2.0.4.tar.gz",
+   "patches":null,
+   "sha256":"b4cf5a382c061cd75081cf246c2aa2f9df8db04bdda8dcdc6b6cca55bede2419",
+   "url":"https://www.libsdl.org/projects/SDL_mixer/release/SDL2_mixer-2.0.4.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "if not exist %LIBRARY_LIB%\\\\SDL2_mixer.lib exit 1",
+    "if not exist %LIBRARY_BIN%\\\\SDL2_mixer.dll exit 1",
+    "if not exist %LIBRARY_INC%\\\\SDL2\\\\SDL_mixer.h exit 1",
+    "test -f $PREFIX/lib/libSDL2_mixer.a",
+    "test -f $PREFIX/lib/libSDL2_mixer.dylib",
+    "test -f $PREFIX/include/SDL2/SDL_mixer.h",
+    "test -f $PREFIX/lib/libSDL2_mixer.a",
+    "test -f $PREFIX/lib/libSDL2_mixer.so",
+    "test -f $PREFIX/include/SDL2/SDL_mixer.h"
+   ]
+  }
+ },
+ "name":"sdl2_mixer",
+ "new_version":false,
+ "pinning_version":"2018.07.01",
+ "raw_meta_yaml":"{% set name = \"SDL2_mixer\" %}\n{% set version = \"2.0.4\" %}\n{% set sha256 = \"b4cf5a382c061cd75081cf246c2aa2f9df8db04bdda8dcdc6b6cca55bede2419\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  fn: {{ name }}-{{ version }}.tar.gz\n  url: https://www.libsdl.org/projects/SDL_mixer/release/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n  patches:\n    - vs2015_solution_upgrade.patch  # [win and c_compiler == 'vs2015']\n\nbuild:\n  number: 0\n  skip: true  # [win and c_compiler == 'vs2008']\n\nrequirements:\n  build:\n    - pkg-config  # [unix]\n    - autoconf  # [unix]\n    - automake  # [unix]\n    - libtool  # [unix]\n    - {{ compiler('c') }}\n    - {{ compiler('cxx') }}\n  host:\n    - sdl2 2.0.*\n    - libogg 1.3.*\n    - libvorbis 1.3.*\n    - libflac 1.3.*\n    - libmad 0.15.*\n    - smpeg2 2.0.*\n\n  run:\n    - sdl2 2.0.*\n    - smpeg2 2.0.*\n\ntest:\n  commands:\n    - test -f $PREFIX/lib/libSDL2_mixer.a  # [unix]\n    - test -f $PREFIX/lib/libSDL2_mixer.dylib  # [osx]\n    - test -f $PREFIX/lib/libSDL2_mixer.so  # [linux]\n    - test -f $PREFIX/include/SDL2/SDL_mixer.h  # [unix]\n    - if not exist %LIBRARY_LIB%\\\\SDL2_mixer.lib exit 1  # [win]\n    - if not exist %LIBRARY_BIN%\\\\SDL2_mixer.dll exit 1  # [win]\n    - if not exist %LIBRARY_INC%\\\\SDL2\\\\SDL_mixer.h exit 1  # [win]\n\nabout:\n  home: https://www.libsdl.org/projects/SDL_mixer/\n  license: ZLIB\n  license_file: COPYING.txt\n  summary: \"Sample multi-channel audio mixer library\"\n  description: |\n    Simple DirectMedia Layer is a cross-platform development library designed to\n    provide low level access to audio, keyboard, mouse, joystick, and graphics\n    hardware via OpenGL and Direct3D.\n  doc_url: https://www.libsdl.org/projects/SDL_mixer/docs/index.html\n  dev_url: http://hg.libsdl.org/SDL_mixer/\n\nextra:\n  recipe-maintainers:\n    - dschreij\n    - matham\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "autoconf",
+   "automake",
+   "c_compiler_stub",
+   "cxx_compiler_stub",
+   "libflac",
+   "libmad",
+   "libogg",
+   "libtool",
+   "libvorbis",
+   "pkg-config",
+   "sdl2",
+   "smpeg2"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "autoconf",
+    "automake",
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "libtool",
+    "pkg-config"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "libflac",
+    "libmad",
+    "libogg",
+    "libvorbis",
+    "sdl2",
+    "smpeg2"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "sdl2",
+    "smpeg2"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.1.6",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "autoconf",
+    "automake",
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "libtool",
+    "pkg-config"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "libflac 1.3.*",
+    "libmad 0.15.*",
+    "libogg 1.3.*",
+    "libvorbis 1.3.*",
+    "sdl2 2.0.*",
+    "smpeg2 2.0.*"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "sdl2 2.0.*",
+    "smpeg2 2.0.*"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://www.libsdl.org/projects/SDL_mixer/release/SDL2_mixer-2.0.4.tar.gz",
+ "version":"2.0.4"
+}

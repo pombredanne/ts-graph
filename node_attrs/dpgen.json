@@ -1,0 +1,277 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/316784356.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.3.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/322137700.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.4.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/325008185.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.5.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/336160028.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.6.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/361328634.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.7.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"dpgen",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "dev_url":"https://github.com/deepmodeling/dpgen",
+   "doc_url":"https://github.com/deepmodeling/dpgen",
+   "home":"https://github.com/deepmodeling/dpgen",
+   "license":"LGPL-3.0",
+   "license_family":"LGPL",
+   "license_file":"LICENSE",
+   "summary":"The deep potential generator"
+  },
+  "build":{
+   "entry_points":[
+    "dpgen = dpgen.main:main",
+    "dpgen = dpgen.main:main",
+    "dpgen = dpgen.main:main"
+   ],
+   "noarch":"python",
+   "number":"0",
+   "script":"SETUPTOOLS_SCM_PRETEND_VERSION=0.7.0  -m pip install . --no-deps -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "njzjz",
+    "njzjz",
+    "njzjz"
+   ]
+  },
+  "package":{
+   "name":"dpgen",
+   "version":"0.7.0"
+  },
+  "requirements":{
+   "host":[
+    "python >=3.5",
+    "pip",
+    "setuptools_scm",
+    "m2r",
+    "python >=3.5",
+    "pip",
+    "setuptools_scm",
+    "m2r",
+    "python >=3.5",
+    "pip",
+    "setuptools_scm",
+    "m2r"
+   ],
+   "run":[
+    "python >=3.5",
+    "numpy >=1.14.3",
+    "dpdata >=0.1.10",
+    "pymatgen >=2017.9.1",
+    "ase",
+    "monty >2.0.0",
+    "paramiko",
+    "custodian",
+    "openbabel",
+    "python >=3.5",
+    "numpy >=1.14.3",
+    "dpdata >=0.1.10",
+    "pymatgen >=2017.9.1",
+    "ase",
+    "monty >2.0.0",
+    "paramiko",
+    "custodian",
+    "openbabel",
+    "python >=3.5",
+    "numpy >=1.14.3",
+    "dpdata >=0.1.10",
+    "pymatgen >=2017.9.1",
+    "ase",
+    "monty >2.0.0",
+    "paramiko",
+    "custodian",
+    "openbabel"
+   ]
+  },
+  "source":{
+   "sha256":"f7d311dc102eb99ed0870479f8cb2d58b49634ad4e3b7aab5f0ad1ecde76f4c7",
+   "url":"https://github.com/deepmodeling/dpgen/archive/0.7.0.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "dpgen -h",
+    "dpgen -h",
+    "dpgen -h"
+   ],
+   "imports":[
+    "dpgen",
+    "dpgen",
+    "dpgen"
+   ]
+  }
+ },
+ "name":"dpgen",
+ "new_version":"0.7.0",
+ "pinning_version":"2020.01.08",
+ "raw_meta_yaml":"{% set name = \"dpgen\" %}\n{% set version = \"0.7.0\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://github.com/deepmodeling/{{ name }}/archive/{{ version }}.tar.gz\n  sha256: f7d311dc102eb99ed0870479f8cb2d58b49634ad4e3b7aab5f0ad1ecde76f4c7\n\nbuild:\n  number: 0\n  noarch: python\n  script: \"SETUPTOOLS_SCM_PRETEND_VERSION={{ version }} {{ PYTHON }} -m pip install . --no-deps -vv\"\n  entry_points:\n    - dpgen = dpgen.main:main\n\nrequirements:\n  host:\n    - python >=3.5\n    - pip\n    - setuptools_scm\n    - m2r\n  run:\n    - python >=3.5\n    - numpy >=1.14.3\n    - dpdata >=0.1.10\n    - pymatgen >=2017.9.1\n    - ase\n    - monty >2.0.0\n    - paramiko\n    - custodian\n    - openbabel\n\ntest:\n  imports:\n    - dpgen\n  commands:\n    - dpgen -h\n\nabout:\n  home: https://github.com/deepmodeling/dpgen\n  license: LGPL-3.0\n  license_family: LGPL\n  license_file: LICENSE\n  summary: 'The deep potential generator'\n  doc_url: https://github.com/deepmodeling/dpgen\n  dev_url: https://github.com/deepmodeling/dpgen\n\nextra:\n  recipe-maintainers:\n    - njzjz\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "ase",
+   "custodian",
+   "dpdata",
+   "m2r",
+   "monty",
+   "numpy",
+   "openbabel",
+   "paramiko",
+   "pip",
+   "pymatgen",
+   "python",
+   "setuptools_scm"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "m2r",
+    "pip",
+    "python",
+    "setuptools_scm"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "ase",
+    "custodian",
+    "dpdata",
+    "monty",
+    "numpy",
+    "openbabel",
+    "paramiko",
+    "pymatgen",
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.6.5",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "m2r",
+    "pip",
+    "python >=3.5",
+    "setuptools_scm"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "ase",
+    "custodian",
+    "dpdata >=0.1.10",
+    "monty >2.0.0",
+    "numpy >=1.14.3",
+    "openbabel",
+    "paramiko",
+    "pymatgen >=2017.9.1",
+    "python >=3.5"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://github.com/deepmodeling/dpgen/archive/v0.3.0.tar.gz",
+ "version":"0.7.0"
+}

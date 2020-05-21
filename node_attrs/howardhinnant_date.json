@@ -1,0 +1,141 @@
+{
+ "bad":false,
+ "conda-forge.yml":{
+  "provider":{
+   "win":"azure"
+  }
+ },
+ "feedstock_name":"howardhinnant_date",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"A date and time library based on the C++11/14/17 <chrono> header",
+   "dev_url":"http://github.com/HowardHinnant/date",
+   "doc_url":"http://howardhinnant.github.io/date/date.html",
+   "home":"http://github.com/HowardHinnant/date",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"LICENSE.txt",
+   "summary":"A C++ date and time library"
+  },
+  "build":{
+   "number":"0",
+   "skip":true
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "pidefrem",
+    "pidefrem",
+    "pidefrem"
+   ]
+  },
+  "package":{
+   "name":"howardhinnant_date",
+   "version":"2.4.1"
+  },
+  "requirements":{
+   "build":[
+    "cmake",
+    "cxx_compiler_stub",
+    "cmake",
+    "cxx_compiler_stub",
+    "cmake",
+    "cxx_compiler_stub"
+   ],
+   "host":[
+    "libcurl",
+    "libcurl",
+    "libcurl"
+   ],
+   "run":[
+    "libcurl",
+    "libcurl",
+    "libcurl"
+   ]
+  },
+  "source":{
+   "fn":"howardhinnant_date-2.4.1.tar.gz",
+   "sha256":"98907d243397483bd7ad889bf6c66746db0d7d2a39cc9aacc041834c40b65b98",
+   "url":"https://github.com/HowardHinnant/date/archive/v2.4.1.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "if exist %LIBRARY_PREFIX%\\include\\date\\date.h (exit 0) else (exit 1)",
+    "if exist %LIBRARY_PREFIX%\\lib\\tz.dll (exit 0) else (exit 1)",
+    "if exist %LIBRARY_PREFIX%\\lib\\cmake\\dateConfig.cmake (exit 0) else (exit 1)",
+    "test -d ${PREFIX}/include/date",
+    "test -f ${PREFIX}/include/date/date.h",
+    "test -f ${PREFIX}/lib/libtz${SHLIB_EXT}",
+    "test -f ${PREFIX}/lib/cmake/date/dateConfig.cmake",
+    "test -d ${PREFIX}/include/date",
+    "test -f ${PREFIX}/include/date/date.h",
+    "test -f ${PREFIX}/lib/libtz${SHLIB_EXT}",
+    "test -f ${PREFIX}/lib/cmake/date/dateConfig.cmake"
+   ]
+  }
+ },
+ "name":"howardhinnant_date",
+ "new_version":"2.4.1",
+ "raw_meta_yaml":"{% set name = \"howardhinnant_date\" %}\n{% set version = \"2.4.1\" %}\n{% set sha256 = \"98907d243397483bd7ad889bf6c66746db0d7d2a39cc9aacc041834c40b65b98\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  fn: {{ name }}-{{ version }}.tar.gz\n  url: https://github.com/HowardHinnant/date/archive/v{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  skip: True  # [win and vc<14]\n\nrequirements:\n  build:\n    - cmake\n    - {{ compiler('cxx') }}\n  host:\n    - libcurl\n  run:\n    - libcurl\n\ntest:\n  commands:\n    - test -d ${PREFIX}/include/date  # [unix]\n    - test -f ${PREFIX}/include/date/date.h  # [unix]\n    - test -f ${PREFIX}/lib/libtz${SHLIB_EXT}  # [unix]\n    - test -f ${PREFIX}/lib/cmake/date/dateConfig.cmake  # [unix]\n    - if exist %LIBRARY_PREFIX%\\include\\date\\date.h (exit 0) else (exit 1)  # [win]\n    - if exist %LIBRARY_PREFIX%\\lib\\tz.dll (exit 0) else (exit 1)  # [win]\n    - if exist %LIBRARY_PREFIX%\\lib\\cmake\\dateConfig.cmake (exit 0) else (exit 1)  # [win]\n\nabout:\n  home: http://github.com/HowardHinnant/date\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE.txt\n  summary: 'A C++ date and time library'\n  description: 'A date and time library based on the C++11/14/17 <chrono> header'\n  doc_url: http://howardhinnant.github.io/date/date.html\n  dev_url: http://github.com/HowardHinnant/date\n\nextra:\n  recipe-maintainers:\n    - pidefrem\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "cmake",
+   "cxx_compiler_stub",
+   "libcurl"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "cmake",
+    "cxx_compiler_stub"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "libcurl"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "libcurl"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "cmake",
+    "cxx_compiler_stub"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "libcurl"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "libcurl"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://github.com/HowardHinnant/date/archive/v2.4.1.tar.gz",
+ "version":"2.4.1"
+}

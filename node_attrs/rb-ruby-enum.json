@@ -1,0 +1,150 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/400090495.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.8.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"rb-ruby-enum",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "dev_url":"https://github.com/dblock/ruby-enum",
+   "doc_url":"https://www.rubydoc.info/gems/ruby-enum",
+   "home":"https://rubygems.org/gems/ruby-enum",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"ruby-enum-0.7.2/LICENSE.md",
+   "summary":"Enum-like behavior for Ruby."
+  },
+  "build":{
+   "noarch":"generic",
+   "number":"0",
+   "script":[
+    "gem install -N -l -V --norc --ignore-dependencies ruby-enum-0.7.2.gem",
+    "gem unpack ruby-enum-0.7.2.gem",
+    "gem install -N -l -V --norc --ignore-dependencies ruby-enum-0.7.2.gem",
+    "gem unpack ruby-enum-0.7.2.gem",
+    "gem install -N -l -V --norc --ignore-dependencies ruby-enum-0.7.2.gem",
+    "gem unpack ruby-enum-0.7.2.gem"
+   ],
+   "skip":null
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "sodre",
+    "sodre",
+    "sodre"
+   ]
+  },
+  "package":{
+   "name":"rb-ruby-enum",
+   "version":"0.7.2"
+  },
+  "requirements":{
+   "host":[
+    "ruby",
+    "ruby",
+    "ruby"
+   ],
+   "run":[
+    "ruby",
+    "rb-i18n >=0",
+    "ruby",
+    "rb-i18n >=0",
+    "ruby",
+    "rb-i18n >=0"
+   ]
+  },
+  "source":{
+   "sha256":"1d66e6ccbd65570193858616e181dc7ea82a95c5b4e32f6f9fc6a068e356c240",
+   "url":"https://rubygems.org/downloads/ruby-enum-0.7.2.gem"
+  },
+  "test":{
+   "commands":[
+    "ruby -r ruby-enum -e 'exit 0'",
+    "ruby -r ruby-enum -e 'exit 0'",
+    "ruby -r ruby-enum -e 'exit 0'"
+   ]
+  }
+ },
+ "name":"rb-ruby-enum",
+ "new_version":"0.8.0",
+ "new_version_attempts":{
+  "0.8.0":1
+ },
+ "pinning_version":"2020.04.07",
+ "raw_meta_yaml":"{% set name = \"ruby-enum\" %}\n{% set version = \"0.7.2\" %}\n\npackage:\n  name: rb-{{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://rubygems.org/downloads/{{ name }}-{{ version }}.gem\n  sha256: 1d66e6ccbd65570193858616e181dc7ea82a95c5b4e32f6f9fc6a068e356c240\n\nbuild:\n  noarch: generic\n  number: 0\n  script:\n    - gem install -N -l -V --norc --ignore-dependencies {{ name }}-{{ version }}.gem\n    - gem unpack {{ name }}-{{ version }}.gem\n  skip: {{ win }}\n\nrequirements:\n  host:\n    - ruby\n  run:\n    - ruby\n    - rb-i18n >=0\n\ntest:\n  commands:\n    - ruby -r {{ name }} -e 'exit 0'\n\nabout:\n  home: https://rubygems.org/gems/{{ name }}\n  license: MIT\n  license_family: MIT\n  license_file: {{ name }}-{{ version }}/LICENSE.md\n  summary: Enum-like behavior for Ruby.\n\n  doc_url: https://www.rubydoc.info/gems/{{ name }}\n  dev_url: https://github.com/dblock/{{ name }}\n\nextra:\n  recipe-maintainers:\n    - sodre\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "rb-i18n",
+   "ruby"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "ruby"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "rb-i18n",
+    "ruby"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.6.15",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "ruby"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "rb-i18n >=0",
+    "ruby"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://rubygems.org/downloads/ruby-enum-0.7.2.gem",
+ "version":"0.7.2"
+}

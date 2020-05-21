@@ -1,0 +1,515 @@
+{
+ "PRed":[
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.7.5"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/198516392.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.7.6"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/231717281.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/278686029.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.8.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/298742910.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"RBaseRebuild",
+    "migrator_version":0,
+    "name":"r-base-3.6.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/334002487.json"
+   },
+   "data":{
+    "bot_rerun":1579272528.233934,
+    "migrator_name":"ArchRebuild",
+    "migrator_version":1,
+    "name":"aarch64 and ppc64le addition"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/350536316.json"
+   },
+   "data":{
+    "bot_rerun":1580664197.7155912,
+    "migrator_name":"ArchRebuild",
+    "migrator_version":1,
+    "name":"aarch64 and ppc64le addition"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/369705359.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.8.4"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/385145226.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.8.5"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/404344014.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"ArchRebuild",
+    "migrator_version":1,
+    "name":"aarch64 and ppc64le addition"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/412680211.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":2,
+    "migrator_version":0,
+    "name":"r400"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "bot":{
+   "automerge":true
+  },
+  "provider":{
+   "linux_aarch64":"default",
+   "linux_ppc64le":"azure",
+   "win":"azure"
+  }
+ },
+ "feedstock_name":"r-dplyr",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"http://dplyr.tidyverse.org, https://github.com/tidyverse/dplyr",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":[
+    "/lib/R/share/licenses/MIT",
+    "LICENSE",
+    "/lib/R/share/licenses/MIT",
+    "LICENSE",
+    "/lib/R/share/licenses/MIT",
+    "LICENSE"
+   ],
+   "summary":"A fast, consistent tool for working with data frame like objects, both in memory and out of memory."
+  },
+  "build":{
+   "merge_build_host":true,
+   "number":"1",
+   "rpaths":[
+    "lib/R/lib/",
+    "lib/",
+    "lib/R/lib/",
+    "lib/",
+    "lib/R/lib/",
+    "lib/"
+   ]
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "conda-forge/r",
+    "philip-khor",
+    "conda-forge/r",
+    "philip-khor",
+    "conda-forge/r",
+    "philip-khor"
+   ]
+  },
+  "package":{
+   "name":"r-dplyr",
+   "version":"0.8.5"
+  },
+  "requirements":{
+   "build":[
+    "m2w64_c_compiler_stub",
+    "m2w64_cxx_compiler_stub",
+    "filesystem",
+    "make",
+    "sed",
+    "coreutils",
+    "zip",
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "make",
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "make"
+   ],
+   "host":[
+    "r-base",
+    "r-bh",
+    "r-ellipsis",
+    "r-r6",
+    "r-rcpp >=1.0.1",
+    "r-assertthat >=0.2.0",
+    "r-glue >=1.3.0",
+    "r-magrittr >=1.5",
+    "r-pkgconfig",
+    "r-plogr >=0.2.0",
+    "r-rlang >=0.4.0",
+    "r-tibble >=2.0.0",
+    "r-tidyselect >=0.2.5",
+    "r-base",
+    "r-bh",
+    "r-ellipsis",
+    "r-r6",
+    "r-rcpp >=1.0.1",
+    "r-assertthat >=0.2.0",
+    "r-glue >=1.3.0",
+    "r-magrittr >=1.5",
+    "r-pkgconfig",
+    "r-plogr >=0.2.0",
+    "r-rlang >=0.4.0",
+    "r-tibble >=2.0.0",
+    "r-tidyselect >=0.2.5",
+    "r-base",
+    "r-bh",
+    "r-ellipsis",
+    "r-r6",
+    "r-rcpp >=1.0.1",
+    "r-assertthat >=0.2.0",
+    "r-glue >=1.3.0",
+    "r-magrittr >=1.5",
+    "r-pkgconfig",
+    "r-plogr >=0.2.0",
+    "r-rlang >=0.4.0",
+    "r-tibble >=2.0.0",
+    "r-tidyselect >=0.2.5"
+   ],
+   "run":[
+    "r-base",
+    "gcc-libs",
+    "r-ellipsis",
+    "r-r6",
+    "r-rcpp >=1.0.1",
+    "r-assertthat >=0.2.0",
+    "r-glue >=1.3.0",
+    "r-magrittr >=1.5",
+    "r-pkgconfig",
+    "r-plogr >=0.2.0",
+    "r-rlang >=0.4.0",
+    "r-tibble >=2.0.0",
+    "r-tidyselect >=0.2.5",
+    "r-base",
+    "r-ellipsis",
+    "r-r6",
+    "r-rcpp >=1.0.1",
+    "r-assertthat >=0.2.0",
+    "r-glue >=1.3.0",
+    "r-magrittr >=1.5",
+    "r-pkgconfig",
+    "r-plogr >=0.2.0",
+    "r-rlang >=0.4.0",
+    "r-tibble >=2.0.0",
+    "r-tidyselect >=0.2.5",
+    "r-base",
+    "r-ellipsis",
+    "r-r6",
+    "r-rcpp >=1.0.1",
+    "r-assertthat >=0.2.0",
+    "r-glue >=1.3.0",
+    "r-magrittr >=1.5",
+    "r-pkgconfig",
+    "r-plogr >=0.2.0",
+    "r-rlang >=0.4.0",
+    "r-tibble >=2.0.0",
+    "r-tidyselect >=0.2.5"
+   ]
+  },
+  "source":{
+   "sha256":"5750d3bf4bda7b5448e08af264ed183b4f7bd0c59a9d828fe9dd399b14590218",
+   "url":[
+    "https://cran.r-project.org/src/contrib/dplyr_0.8.5.tar.gz",
+    "https://cran.r-project.org/src/contrib/Archive/dplyr/dplyr_0.8.5.tar.gz",
+    "https://cran.r-project.org/src/contrib/dplyr_0.8.5.tar.gz",
+    "https://cran.r-project.org/src/contrib/Archive/dplyr/dplyr_0.8.5.tar.gz",
+    "https://cran.r-project.org/src/contrib/dplyr_0.8.5.tar.gz",
+    "https://cran.r-project.org/src/contrib/Archive/dplyr/dplyr_0.8.5.tar.gz"
+   ]
+  },
+  "test":{
+   "commands":[
+    "\"%R%\" -e \"library('dplyr')\"",
+    "$R -e \"library('dplyr')\"",
+    "$R -e \"library('dplyr')\""
+   ]
+  }
+ },
+ "name":"r-dplyr",
+ "new_version":"0.8.5",
+ "pinning_version":"2020.05.03.19.37.20",
+ "raw_meta_yaml":"{% set version = \"0.8.5\" %}\n{% set posix = 'm2-' if win else '' %}\n{% set native = 'm2w64-' if win else '' %}\n\npackage:\n  name: r-dplyr\n  version: {{ version|replace(\"-\", \"_\") }}\n\nsource:\n  url:\n    - {{ cran_mirror }}/src/contrib/dplyr_{{ version }}.tar.gz\n    - {{ cran_mirror }}/src/contrib/Archive/dplyr/dplyr_{{ version }}.tar.gz\n  sha256: 5750d3bf4bda7b5448e08af264ed183b4f7bd0c59a9d828fe9dd399b14590218\n\nbuild:\n  merge_build_host: true  # [win]\n  number: 1\n  rpaths:\n    - lib/R/lib/\n    - lib/\n\nrequirements:\n  build:\n    - {{ compiler('c') }}              # [not win]\n    - {{ compiler('m2w64_c') }}        # [win]\n    - {{ compiler('cxx') }}            # [not win]\n    - {{ compiler('m2w64_cxx') }}      # [win]\n    - {{ posix }}filesystem        # [win]\n    - {{ posix }}make\n    - {{ posix }}sed               # [win]\n    - {{ posix }}coreutils         # [win]\n    - {{ posix }}zip               # [win]\n  host:\n    - r-base\n    - r-bh\n    - r-ellipsis\n    - r-r6\n    - r-rcpp >=1.0.1\n    - r-assertthat >=0.2.0\n    - r-glue >=1.3.0\n    - r-magrittr >=1.5\n    - r-pkgconfig\n    - r-plogr >=0.2.0\n    - r-rlang >=0.4.0\n    - r-tibble >=2.0.0\n    - r-tidyselect >=0.2.5\n  run:\n    - r-base\n    - {{ native }}gcc-libs         # [win]\n    # BH is the header-only part of Boost and thus a compile-time requirement only\n    # - r-bh\n    - r-ellipsis\n    - r-r6\n    - r-rcpp >=1.0.1\n    - r-assertthat >=0.2.0\n    - r-glue >=1.3.0\n    - r-magrittr >=1.5\n    - r-pkgconfig\n    - r-plogr >=0.2.0\n    - r-rlang >=0.4.0\n    - r-tibble >=2.0.0\n    - r-tidyselect >=0.2.5\n\ntest:\n  commands:\n    - $R -e \"library('dplyr')\"           # [not win]\n    - \"\\\"%R%\\\" -e \\\"library('dplyr')\\\"\"  # [win]\n\nabout:\n  home: http://dplyr.tidyverse.org, https://github.com/tidyverse/dplyr\n  license: MIT\n  summary: A fast, consistent tool for working with data frame like objects, both in memory and out of memory.\n  license_file:\n    - {{ environ[\"PREFIX\"] }}/lib/R/share/licenses/MIT\n    - LICENSE\n  license_family: MIT\n\nextra:\n  recipe-maintainers:\n    - conda-forge/r\n    - philip-khor\n\n# Type: Package\n# Package: dplyr\n# Title: A Grammar of Data Manipulation\n# Version: 0.8.3\n# Authors@R: c( person(\"Hadley\", \"Wickham\", , \"hadley@rstudio.com\", c(\"aut\", \"cre\"), comment = c(ORCID = \"0000-0003-4757-117X\")), person(\"Romain\", \"Fran\\u00e7ois\", role = \"aut\", comment = c(ORCID = \"0000-0002-2444-4226\")), person(\"Lionel\", \"Henry\", role = \"aut\"), person(\"Kirill\", \"M\\u00fcller\", role = \"aut\", comment = c(ORCID = \"0000-0002-1416-3412\")), person(\"RStudio\", role = c(\"cph\", \"fnd\")) )\n# Description: A fast, consistent tool for working with data frame like objects, both in memory and out of memory.\n# License: MIT + file LICENSE\n# URL: http://dplyr.tidyverse.org, https://github.com/tidyverse/dplyr\n# BugReports: https://github.com/tidyverse/dplyr/issues\n# Depends: R (>= 3.2.0)\n# Imports: assertthat (>= 0.2.0), glue (>= 1.3.0), magrittr (>= 1.5), methods, pkgconfig, R6, Rcpp (>= 1.0.1), rlang (>= 0.4.0), tibble (>= 2.0.0), tidyselect (>= 0.2.5), utils\n# Suggests: bit64, callr, covr, crayon (>= 1.3.4), DBI, dbplyr, dtplyr, ggplot2, hms, knitr, Lahman, lubridate, MASS, mgcv, microbenchmark, nycflights13, rmarkdown, RMySQL, RPostgreSQL, RSQLite, testthat, withr, broom, purrr, readr\n# LinkingTo: BH, plogr (>= 0.2.0), Rcpp (>= 1.0.1)\n# VignetteBuilder: knitr\n# Encoding: UTF-8\n# LazyData: yes\n# RoxygenNote: 6.1.1\n# NeedsCompilation: yes\n# Packaged: 2019-07-04 05:04:15 UTC; romainfrancois\n# Author: Hadley Wickham [aut, cre] (<https://orcid.org/0000-0003-4757-117X>), Romain Francois [aut] (<https://orcid.org/0000-0002-2444-4226>), Lionel Henry [aut], Kirill Muller [aut] (<https://orcid.org/0000-0002-1416-3412>), RStudio [cph, fnd]\n# Maintainer: Hadley Wickham <hadley@rstudio.com>\n# Repository: CRAN\n# Date/Publication: 2019-07-04 15:50:02 UTC\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "c_compiler_stub",
+   "coreutils",
+   "cxx_compiler_stub",
+   "filesystem",
+   "gcc-libs",
+   "m2w64_c_compiler_stub",
+   "m2w64_cxx_compiler_stub",
+   "make",
+   "r-assertthat",
+   "r-base",
+   "r-bh",
+   "r-ellipsis",
+   "r-glue",
+   "r-magrittr",
+   "r-pkgconfig",
+   "r-plogr",
+   "r-r6",
+   "r-rcpp",
+   "r-rlang",
+   "r-tibble",
+   "r-tidyselect",
+   "sed",
+   "zip"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "coreutils",
+    "cxx_compiler_stub",
+    "filesystem",
+    "m2w64_c_compiler_stub",
+    "m2w64_cxx_compiler_stub",
+    "make",
+    "sed",
+    "zip"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "r-assertthat",
+    "r-base",
+    "r-bh",
+    "r-ellipsis",
+    "r-glue",
+    "r-magrittr",
+    "r-pkgconfig",
+    "r-plogr",
+    "r-r6",
+    "r-rcpp",
+    "r-rlang",
+    "r-tibble",
+    "r-tidyselect"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "gcc-libs",
+    "r-assertthat",
+    "r-base",
+    "r-ellipsis",
+    "r-glue",
+    "r-magrittr",
+    "r-pkgconfig",
+    "r-plogr",
+    "r-r6",
+    "r-rcpp",
+    "r-rlang",
+    "r-tibble",
+    "r-tidyselect"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.7.0\n",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "coreutils",
+    "cxx_compiler_stub",
+    "filesystem",
+    "m2w64_c_compiler_stub",
+    "m2w64_cxx_compiler_stub",
+    "make",
+    "sed",
+    "zip"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "r-assertthat >=0.2.0",
+    "r-base",
+    "r-bh",
+    "r-ellipsis",
+    "r-glue >=1.3.0",
+    "r-magrittr >=1.5",
+    "r-pkgconfig",
+    "r-plogr >=0.2.0",
+    "r-r6",
+    "r-rcpp >=1.0.1",
+    "r-rlang >=0.4.0",
+    "r-tibble >=2.0.0",
+    "r-tidyselect >=0.2.5"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "gcc-libs",
+    "r-assertthat >=0.2.0",
+    "r-base",
+    "r-ellipsis",
+    "r-glue >=1.3.0",
+    "r-magrittr >=1.5",
+    "r-pkgconfig",
+    "r-plogr >=0.2.0",
+    "r-r6",
+    "r-rcpp >=1.0.1",
+    "r-rlang >=0.4.0",
+    "r-tibble >=2.0.0",
+    "r-tidyselect >=0.2.5"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":[
+  "https://cran.r-project.org/src/contrib/dplyr_0.8.3.tar.gz",
+  "https://cran.r-project.org/src/contrib/Archive/dplyr/dplyr_0.8.3.tar.gz",
+  "https://cran.r-project.org/src/contrib/dplyr_0.8.3.tar.gz",
+  "https://cran.r-project.org/src/contrib/Archive/dplyr/dplyr_0.8.3.tar.gz",
+  "https://cran.r-project.org/src/contrib/dplyr_0.8.3.tar.gz",
+  "https://cran.r-project.org/src/contrib/Archive/dplyr/dplyr_0.8.3.tar.gz"
+ ],
+ "version":"0.8.5"
+}

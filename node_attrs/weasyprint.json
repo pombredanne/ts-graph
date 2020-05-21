@@ -1,0 +1,376 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/299943237.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"48"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/299945031.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Rebuild",
+    "migrator_version":0,
+    "name":"pango-1.42.4"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/316502045.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"49"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/319246772.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"50"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/335914130.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"python38"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/356500799.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"51"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/0a4de393-cf47-4e0a-916c-9eb5b97e3b58.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"pypy"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"weasyprint",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"WeasyPrint is a smart solution helping web developers to create PDF\ndocuments. It turns simple HTML pages into gorgeous statistical\nreports, invoices, tickets\u2026\n",
+   "dev_url":"https://github.com/Kozea/WeasyPrint",
+   "doc_url":"https://weasyprint.readthedocs.io/en/stable/",
+   "home":"https://github.com/Kozea/WeasyPrint",
+   "license":"BSD-3-Clause",
+   "license_family":"BSD",
+   "license_file":"LICENSE",
+   "summary":"WeasyPrint converts web documents (HTML with CSS, SVG, \u2026) to PDF"
+  },
+  "build":{
+   "number":"0",
+   "script":" -m pip install . -vv",
+   "skip":true
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "mrandrewandrade",
+    "liZe",
+    "mrandrewandrade",
+    "liZe",
+    "mrandrewandrade",
+    "liZe"
+   ]
+  },
+  "package":{
+   "name":"weasyprint",
+   "version":"51"
+  },
+  "requirements":{
+   "host":[
+    "python",
+    "pip",
+    "pango",
+    "setuptools >=39.2.0",
+    "cffi >=0.6",
+    "html5lib >=0.999999999",
+    "cairocffi >=0.9.0",
+    "tinycss2 >=1.0.0",
+    "cssselect2 >=0.1",
+    "cairosvg >=2.4.0",
+    "pyphen >=0.8",
+    "pytest-runner",
+    "xorg-libxrender",
+    "xorg-libxext",
+    "python",
+    "pip",
+    "pango",
+    "setuptools >=39.2.0",
+    "cffi >=0.6",
+    "html5lib >=0.999999999",
+    "cairocffi >=0.9.0",
+    "tinycss2 >=1.0.0",
+    "cssselect2 >=0.1",
+    "cairosvg >=2.4.0",
+    "pyphen >=0.8",
+    "pytest-runner",
+    "xorg-libxrender",
+    "xorg-libxext",
+    "python",
+    "pip",
+    "pango",
+    "setuptools >=39.2.0",
+    "cffi >=0.6",
+    "html5lib >=0.999999999",
+    "cairocffi >=0.9.0",
+    "tinycss2 >=1.0.0",
+    "cssselect2 >=0.1",
+    "cairosvg >=2.4.0",
+    "pyphen >=0.8",
+    "pytest-runner",
+    "xorg-libxrender",
+    "xorg-libxext"
+   ],
+   "run":[
+    "python",
+    "pango",
+    "setuptools >=39.2.0",
+    "cffi >=0.6",
+    "html5lib >=0.999999999",
+    "cairocffi >=0.9.0",
+    "tinycss2 >=1.0.0",
+    "cssselect2 >=0.1",
+    "cairosvg >=2.4.0",
+    "pyphen >=0.8",
+    "xorg-libxrender",
+    "xorg-libxext",
+    "python",
+    "pango",
+    "setuptools >=39.2.0",
+    "cffi >=0.6",
+    "html5lib >=0.999999999",
+    "cairocffi >=0.9.0",
+    "tinycss2 >=1.0.0",
+    "cssselect2 >=0.1",
+    "cairosvg >=2.4.0",
+    "pyphen >=0.8",
+    "xorg-libxrender",
+    "xorg-libxext",
+    "python",
+    "pango",
+    "setuptools >=39.2.0",
+    "cffi >=0.6",
+    "html5lib >=0.999999999",
+    "cairocffi >=0.9.0",
+    "tinycss2 >=1.0.0",
+    "cssselect2 >=0.1",
+    "cairosvg >=2.4.0",
+    "pyphen >=0.8",
+    "xorg-libxrender",
+    "xorg-libxext"
+   ]
+  },
+  "source":{
+   "sha256":"9dd175bc8f22882a9d2293241416d4ca906ed2a15a98cebbc877026f8930dd98",
+   "url":"https://github.com/Kozea/WeasyPrint/archive/v51.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "weasyprint",
+    "weasyprint",
+    "weasyprint"
+   ]
+  }
+ },
+ "name":"weasyprint",
+ "new_version":"51",
+ "pinning_version":"2020.03.16",
+ "raw_meta_yaml":"{% set name = \"WeasyPrint\" %}\n{% set version = \"51\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://github.com/Kozea/{{ name }}/archive/v{{ version }}.tar.gz\n  sha256: 9dd175bc8f22882a9d2293241416d4ca906ed2a15a98cebbc877026f8930dd98\n\nbuild:\n  number: 0\n  skip: true  # [win]\n  script: \"{{ PYTHON }} -m pip install . -vv\"\n\nrequirements:\n  host:\n    - python\n    - pip\n    - pango\n    - setuptools >=39.2.0\n    - cffi >=0.6\n    - html5lib >=0.999999999\n    - cairocffi >=0.9.0\n    - tinycss2 >=1.0.0\n    - cssselect2 >=0.1\n    - cairosvg >=2.4.0\n    - pyphen >=0.8\n    - pytest-runner\n    - xorg-libxrender\n    - xorg-libxext\n    \n  run:\n    - python\n    - pango\n    - setuptools >=39.2.0\n    - cffi >=0.6\n    - html5lib >=0.999999999\n    - cairocffi >=0.9.0\n    - tinycss2 >=1.0.0\n    - cssselect2 >=0.1\n    - cairosvg >=2.4.0\n    - pyphen >=0.8\n    - xorg-libxrender\n    - xorg-libxext\n\ntest:\n  imports:\n    - weasyprint\n\nabout:\n  home: https://github.com/Kozea/WeasyPrint\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: LICENSE\n  summary: 'WeasyPrint converts web documents (HTML with CSS, SVG, \u2026) to PDF'\n\n  description: |\n    WeasyPrint is a smart solution helping web developers to create PDF\n    documents. It turns simple HTML pages into gorgeous statistical\n    reports, invoices, tickets\u2026\n\n  doc_url: https://weasyprint.readthedocs.io/en/stable/\n  dev_url: https://github.com/Kozea/WeasyPrint\n\nextra:\n  recipe-maintainers:\n    - mrandrewandrade\n    - liZe\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "cairocffi",
+   "cairosvg",
+   "cffi",
+   "cssselect2",
+   "html5lib",
+   "pango",
+   "pip",
+   "pyphen",
+   "pytest-runner",
+   "python",
+   "setuptools",
+   "tinycss2",
+   "xorg-libxext",
+   "xorg-libxrender"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "cairocffi",
+    "cairosvg",
+    "cffi",
+    "cssselect2",
+    "html5lib",
+    "pango",
+    "pip",
+    "pyphen",
+    "pytest-runner",
+    "python",
+    "setuptools",
+    "tinycss2",
+    "xorg-libxext",
+    "xorg-libxrender"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "cairocffi",
+    "cairosvg",
+    "cffi",
+    "cssselect2",
+    "html5lib",
+    "pango",
+    "pyphen",
+    "python",
+    "setuptools",
+    "tinycss2",
+    "xorg-libxext",
+    "xorg-libxrender"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.6.12",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "cairocffi >=0.9.0",
+    "cairosvg >=2.4.0",
+    "cffi >=0.6",
+    "cssselect2 >=0.1",
+    "html5lib >=0.999999999",
+    "pango",
+    "pip",
+    "pyphen >=0.8",
+    "pytest-runner",
+    "python",
+    "setuptools >=39.2.0",
+    "tinycss2 >=1.0.0",
+    "xorg-libxext",
+    "xorg-libxrender"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "cairocffi >=0.9.0",
+    "cairosvg >=2.4.0",
+    "cffi >=0.6",
+    "cssselect2 >=0.1",
+    "html5lib >=0.999999999",
+    "pango",
+    "pyphen >=0.8",
+    "python",
+    "setuptools >=39.2.0",
+    "tinycss2 >=1.0.0",
+    "xorg-libxext",
+    "xorg-libxrender"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://github.com/Kozea/WeasyPrint/archive/v48.tar.gz",
+ "version":"51"
+}

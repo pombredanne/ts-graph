@@ -1,0 +1,211 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/201502759.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Noarch",
+    "migrator_version":0
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/220717429.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/337714962.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"python38"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "provider":{
+   "win":"azure"
+  }
+ },
+ "feedstock_name":"nb_anacondacloud",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"https://github.com/Anaconda-Platform/nb_anacondacloud",
+   "license":"BSD-3-Clause",
+   "summary":"Interact with Anaconda Cloud"
+  },
+  "build":{
+   "number":"1",
+   "script":[
+    "python setup.py install --single-version-externally-managed --record=record.txt",
+    "jupyter nbextension install nb_anacondacloud --py --sys-prefix --overwrite",
+    "python setup.py install --single-version-externally-managed --record=record.txt",
+    "jupyter nbextension install nb_anacondacloud --py --sys-prefix --overwrite",
+    "python setup.py install --single-version-externally-managed --record=record.txt",
+    "jupyter nbextension install nb_anacondacloud --py --sys-prefix --overwrite"
+   ]
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "bollwyvl",
+    "damianavila",
+    "bollwyvl",
+    "damianavila",
+    "bollwyvl",
+    "damianavila"
+   ]
+  },
+  "package":{
+   "name":"nb_anacondacloud",
+   "version":"1.4.0"
+  },
+  "requirements":{
+   "build":[
+    "python",
+    "setuptools",
+    "notebook >=4.3.1",
+    "anaconda-client",
+    "python",
+    "setuptools",
+    "notebook >=4.3.1",
+    "anaconda-client",
+    "python",
+    "setuptools",
+    "notebook >=4.3.1",
+    "anaconda-client"
+   ],
+   "run":[
+    "python",
+    "notebook >=4.3.1",
+    "nb_conda_kernels >=2.0.0",
+    "anaconda-client",
+    "python",
+    "notebook >=4.3.1",
+    "nb_conda_kernels >=2.0.0",
+    "anaconda-client",
+    "python",
+    "notebook >=4.3.1",
+    "nb_conda_kernels >=2.0.0",
+    "anaconda-client"
+   ]
+  },
+  "source":{
+   "fn":"nb_anacondacloud-1.4.0.tar.gz",
+   "sha256":"3f6ab7c466d073281e05fc40937d65631c966d5ae50446ae847dd361f16bef48",
+   "url":"https://github.com/Anaconda-Platform/nb_anacondacloud/archive/1.4.0.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "nb_anacondacloud",
+    "nb_anacondacloud",
+    "nb_anacondacloud"
+   ]
+  }
+ },
+ "name":"nb_anacondacloud",
+ "new_version":"1.4.0",
+ "pinning_version":"2019.11.01",
+ "raw_meta_yaml":"{% set version = \"1.4.0\" %}\n{% set gh_org = \"Anaconda-Platform\" %}\n{% set gh_repo = \"nb_anacondacloud\" %}\n\npackage:\n  name: {{ gh_repo }}\n  version: {{ version }}\n\nsource:\n  fn: {{ gh_repo }}-{{ version }}.tar.gz\n  url: https://github.com/{{ gh_org }}/{{ gh_repo }}/archive/{{ version }}.tar.gz\n  sha256: 3f6ab7c466d073281e05fc40937d65631c966d5ae50446ae847dd361f16bef48\n\nbuild:\n  number: 1\n  script:\n    - python setup.py install --single-version-externally-managed --record=record.txt\n    - jupyter nbextension install nb_anacondacloud --py --sys-prefix --overwrite\n\nrequirements:\n  build:\n    - python\n    - setuptools\n    - notebook >=4.3.1\n    - anaconda-client\n\n  run:\n    - python\n    - notebook >=4.3.1\n    - nb_conda_kernels >=2.0.0\n    - anaconda-client\n\ntest:\n  imports:\n    - nb_anacondacloud\n\nabout:\n  home: https://github.com/{{ gh_org }}/{{ gh_repo }}\n  license: BSD-3-Clause\n  summary: Interact with Anaconda Cloud\n\nextra:\n  recipe-maintainers:\n    - bollwyvl\n    - damianavila\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "anaconda-client",
+   "nb_conda_kernels",
+   "notebook",
+   "python",
+   "setuptools"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "anaconda-client",
+    "notebook",
+    "python",
+    "setuptools"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "anaconda-client",
+    "nb_conda_kernels",
+    "notebook",
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.6.1",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "anaconda-client",
+    "notebook >=4.3.1",
+    "python",
+    "setuptools"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "anaconda-client",
+    "nb_conda_kernels >=2.0.0",
+    "notebook >=4.3.1",
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://github.com/Anaconda-Platform/nb_anacondacloud/archive/1.4.0.tar.gz",
+ "version":"1.4.0"
+}

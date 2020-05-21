@@ -1,0 +1,415 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/233268226.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/254058457.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.1.7"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/290130776.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.2.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/299629251.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"RBaseRebuild",
+    "migrator_version":0,
+    "name":"r-base-3.6.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/361043621.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.2.3"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/367635044.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.3.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/415180864.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":2,
+    "migrator_version":0,
+    "name":"r400"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "bot":{
+   "automerge":true
+  },
+  "provider":{
+   "win":"azure"
+  }
+ },
+ "feedstock_name":"r-esquisse",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"https://github.com/dreamRs/esquisse",
+   "license":"GPL-3",
+   "license_family":"GPL3",
+   "license_file":[
+    "/lib/R/share/licenses/GPL-3",
+    "LICENSE",
+    "/lib/R/share/licenses/GPL-3",
+    "LICENSE",
+    "/lib/R/share/licenses/GPL-3",
+    "LICENSE"
+   ],
+   "summary":"A 'shiny' gadget to create 'ggplot2' charts interactively with drag-and-drop to map your variables. You can quickly visualize your data accordingly to their type, export to 'PNG' or 'PowerPoint', and retrieve the code to reproduce the chart."
+  },
+  "build":{
+   "merge_build_host":true,
+   "noarch":"generic",
+   "number":"1",
+   "rpaths":[
+    "lib/R/lib/",
+    "lib/",
+    "lib/R/lib/",
+    "lib/",
+    "lib/R/lib/",
+    "lib/"
+   ]
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "conda-forge/r",
+    "conda-forge/r",
+    "conda-forge/r"
+   ]
+  },
+  "package":{
+   "name":"r-esquisse",
+   "version":"0.3.0"
+  },
+  "requirements":{
+   "build":null,
+   "host":[
+    "r-base",
+    "r-rcolorbrewer",
+    "r-ggplot2 >=3.0.0",
+    "r-ggthemes",
+    "r-hrbrthemes",
+    "r-htmltools",
+    "r-jsonlite",
+    "r-miniui",
+    "r-rlang >=0.3.1",
+    "r-rstudioapi",
+    "r-scales",
+    "r-shiny >=1.0.0",
+    "r-shinywidgets >=0.4.1",
+    "r-stringi",
+    "r-base",
+    "r-rcolorbrewer",
+    "r-ggplot2 >=3.0.0",
+    "r-ggthemes",
+    "r-hrbrthemes",
+    "r-htmltools",
+    "r-jsonlite",
+    "r-miniui",
+    "r-rlang >=0.3.1",
+    "r-rstudioapi",
+    "r-scales",
+    "r-shiny >=1.0.0",
+    "r-shinywidgets >=0.4.1",
+    "r-stringi",
+    "r-base",
+    "r-rcolorbrewer",
+    "r-ggplot2 >=3.0.0",
+    "r-ggthemes",
+    "r-hrbrthemes",
+    "r-htmltools",
+    "r-jsonlite",
+    "r-miniui",
+    "r-rlang >=0.3.1",
+    "r-rstudioapi",
+    "r-scales",
+    "r-shiny >=1.0.0",
+    "r-shinywidgets >=0.4.1",
+    "r-stringi"
+   ],
+   "run":[
+    "r-base",
+    "r-rcolorbrewer",
+    "r-ggplot2 >=3.0.0",
+    "r-ggthemes",
+    "r-hrbrthemes",
+    "r-htmltools",
+    "r-jsonlite",
+    "r-miniui",
+    "r-rlang >=0.3.1",
+    "r-rstudioapi",
+    "r-scales",
+    "r-shiny >=1.0.0",
+    "r-shinywidgets >=0.4.1",
+    "r-stringi",
+    "r-base",
+    "r-rcolorbrewer",
+    "r-ggplot2 >=3.0.0",
+    "r-ggthemes",
+    "r-hrbrthemes",
+    "r-htmltools",
+    "r-jsonlite",
+    "r-miniui",
+    "r-rlang >=0.3.1",
+    "r-rstudioapi",
+    "r-scales",
+    "r-shiny >=1.0.0",
+    "r-shinywidgets >=0.4.1",
+    "r-stringi",
+    "r-base",
+    "r-rcolorbrewer",
+    "r-ggplot2 >=3.0.0",
+    "r-ggthemes",
+    "r-hrbrthemes",
+    "r-htmltools",
+    "r-jsonlite",
+    "r-miniui",
+    "r-rlang >=0.3.1",
+    "r-rstudioapi",
+    "r-scales",
+    "r-shiny >=1.0.0",
+    "r-shinywidgets >=0.4.1",
+    "r-stringi"
+   ]
+  },
+  "source":{
+   "sha256":"33bb77f836623a92f55505cb1407f87b014047f0542b25b3307ddeae2b0663b1",
+   "url":[
+    "https://cran.r-project.org/src/contrib/esquisse_0.3.0.tar.gz",
+    "https://cran.r-project.org/src/contrib/Archive/esquisse/esquisse_0.3.0.tar.gz",
+    "https://cran.r-project.org/src/contrib/esquisse_0.3.0.tar.gz",
+    "https://cran.r-project.org/src/contrib/Archive/esquisse/esquisse_0.3.0.tar.gz",
+    "https://cran.r-project.org/src/contrib/esquisse_0.3.0.tar.gz",
+    "https://cran.r-project.org/src/contrib/Archive/esquisse/esquisse_0.3.0.tar.gz"
+   ]
+  },
+  "test":{
+   "commands":[
+    "\"%R%\" -e \"library('esquisse')\"",
+    "$R -e \"library('esquisse')\"",
+    "$R -e \"library('esquisse')\""
+   ]
+  }
+ },
+ "name":"r-esquisse",
+ "new_version":"0.3.0",
+ "pinning_version":"2020.05.06.22.15.02",
+ "raw_meta_yaml":"{% set version = \"0.3.0\" %}\n{% set posix = 'm2-' if win else '' %}\n{% set native = 'm2w64-' if win else '' %}\n\npackage:\n  name: r-esquisse\n  version: {{ version|replace(\"-\", \"_\") }}\n\nsource:\n  url:\n    - {{ cran_mirror }}/src/contrib/esquisse_{{ version }}.tar.gz\n    - {{ cran_mirror }}/src/contrib/Archive/esquisse/esquisse_{{ version }}.tar.gz\n  sha256: 33bb77f836623a92f55505cb1407f87b014047f0542b25b3307ddeae2b0663b1\n\nbuild:\n  merge_build_host: True  # [win]\n  number: 1\n  noarch: generic\n  rpaths:\n    - lib/R/lib/\n    - lib/\n\nrequirements:\n  build:\n    - {{ posix }}zip               # [win]\n  host:\n    - r-base\n    - r-rcolorbrewer\n    - r-ggplot2 >=3.0.0\n    - r-ggthemes\n    - r-hrbrthemes\n    - r-htmltools\n    - r-jsonlite\n    - r-miniui\n    - r-rlang >=0.3.1\n    - r-rstudioapi\n    - r-scales\n    - r-shiny >=1.0.0\n    - r-shinywidgets >=0.4.1\n    - r-stringi\n  run:\n    - r-base\n    - r-rcolorbrewer\n    - r-ggplot2 >=3.0.0\n    - r-ggthemes\n    - r-hrbrthemes\n    - r-htmltools\n    - r-jsonlite\n    - r-miniui\n    - r-rlang >=0.3.1\n    - r-rstudioapi\n    - r-scales\n    - r-shiny >=1.0.0\n    - r-shinywidgets >=0.4.1\n    - r-stringi\n\ntest:\n  commands:\n    - $R -e \"library('esquisse')\"           # [not win]\n    - \"\\\"%R%\\\" -e \\\"library('esquisse')\\\"\"  # [win]\n\nabout:\n  home: https://github.com/dreamRs/esquisse\n  license: GPL-3\n  summary: A 'shiny' gadget to create 'ggplot2' charts interactively with drag-and-drop to map\n    your variables. You can quickly visualize your data accordingly to their type, export\n    to 'PNG' or 'PowerPoint', and retrieve the code to reproduce the chart.\n  license_family: GPL3\n  license_file:\n    - '{{ environ[\"PREFIX\"] }}/lib/R/share/licenses/GPL-3'\n    - LICENSE\n\nextra:\n  recipe-maintainers:\n    - conda-forge/r\n\n# Package: esquisse\n# Type: Package\n# Title: Explore and Visualize Your Data Interactively\n# Version: 0.2.2\n# Authors@R: c(person(\"Fanny\", \"Meyer\", email = \"fanny.meyer@dreamrs.fr\", role = c(\"aut\")), person(\"Victor\", \"Perrier\", email = \"victor.perrier@dreamrs.fr\", role = c(\"aut\", \"cre\")), person(\"Ian\", \"Carroll\", comment = \"Facets support\", role = \"ctb\"))\n# Description: A 'shiny' gadget to create 'ggplot2' charts interactively with drag-and-drop to map your variables. You can quickly visualize your data accordingly to their type, export to 'PNG' or 'PowerPoint', and retrieve the code to reproduce the chart.\n# URL: https://github.com/dreamRs/esquisse\n# BugReports: https://github.com/dreamRs/esquisse/issues\n# License: GPL-3 | file LICENSE\n# Encoding: UTF-8\n# LazyData: true\n# RoxygenNote: 6.1.1\n# Imports: miniUI, rstudioapi, shiny (>= 1.0.0), htmltools, jsonlite, shinyWidgets (>= 0.4.1), ggplot2 (>= 3.0.0), ggthemes, hrbrthemes, RColorBrewer, scales, stringi, rlang (>= 0.3.1)\n# Suggests: officer, rvg, rio, DT, testthat (>= 2.1.0), knitr\n# VignetteBuilder: knitr\n# NeedsCompilation: no\n# Packaged: 2019-08-22 13:13:12 UTC; perri\n# Author: Fanny Meyer [aut], Victor Perrier [aut, cre], Ian Carroll [ctb] (Facets support)\n# Maintainer: Victor Perrier <victor.perrier@dreamrs.fr>\n# Repository: CRAN\n# Date/Publication: 2019-08-22 13:30:02 UTC\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "r-base",
+   "r-ggplot2",
+   "r-ggthemes",
+   "r-hrbrthemes",
+   "r-htmltools",
+   "r-jsonlite",
+   "r-miniui",
+   "r-rcolorbrewer",
+   "r-rlang",
+   "r-rstudioapi",
+   "r-scales",
+   "r-shiny",
+   "r-shinywidgets",
+   "r-stringi"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "r-base",
+    "r-ggplot2",
+    "r-ggthemes",
+    "r-hrbrthemes",
+    "r-htmltools",
+    "r-jsonlite",
+    "r-miniui",
+    "r-rcolorbrewer",
+    "r-rlang",
+    "r-rstudioapi",
+    "r-scales",
+    "r-shiny",
+    "r-shinywidgets",
+    "r-stringi"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "r-base",
+    "r-ggplot2",
+    "r-ggthemes",
+    "r-hrbrthemes",
+    "r-htmltools",
+    "r-jsonlite",
+    "r-miniui",
+    "r-rcolorbrewer",
+    "r-rlang",
+    "r-rstudioapi",
+    "r-scales",
+    "r-shiny",
+    "r-shinywidgets",
+    "r-stringi"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.7.0\n",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "r-base",
+    "r-ggplot2 >=3.0.0",
+    "r-ggthemes",
+    "r-hrbrthemes",
+    "r-htmltools",
+    "r-jsonlite",
+    "r-miniui",
+    "r-rcolorbrewer",
+    "r-rlang >=0.3.1",
+    "r-rstudioapi",
+    "r-scales",
+    "r-shiny >=1.0.0",
+    "r-shinywidgets >=0.4.1",
+    "r-stringi"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "r-base",
+    "r-ggplot2 >=3.0.0",
+    "r-ggthemes",
+    "r-hrbrthemes",
+    "r-htmltools",
+    "r-jsonlite",
+    "r-miniui",
+    "r-rcolorbrewer",
+    "r-rlang >=0.3.1",
+    "r-rstudioapi",
+    "r-scales",
+    "r-shiny >=1.0.0",
+    "r-shinywidgets >=0.4.1",
+    "r-stringi"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":[
+  "https://cran.r-project.org/src/contrib/esquisse_0.2.2.tar.gz",
+  "https://cran.r-project.org/src/contrib/Archive/esquisse/esquisse_0.2.2.tar.gz",
+  "https://cran.r-project.org/src/contrib/esquisse_0.2.2.tar.gz",
+  "https://cran.r-project.org/src/contrib/Archive/esquisse/esquisse_0.2.2.tar.gz",
+  "https://cran.r-project.org/src/contrib/esquisse_0.2.2.tar.gz",
+  "https://cran.r-project.org/src/contrib/Archive/esquisse/esquisse_0.2.2.tar.gz"
+ ],
+ "version":"0.3.0"
+}

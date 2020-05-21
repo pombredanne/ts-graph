@@ -1,0 +1,265 @@
+{
+ "PRed":[
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.8.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/206447819.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.9.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/221273302.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.0.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.0.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.0.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/314547886.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.1.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "compiler_stack":"comp7",
+  "max_py_ver":"37",
+  "max_r_ver":"35",
+  "provider":{
+   "win":"azure"
+  }
+ },
+ "feedstock_name":"cairocffi",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"https://github.com/Kozea/cairocffi",
+   "license":"BSD 3-Clause",
+   "license_family":"BSD",
+   "license_file":"LICENSE",
+   "summary":"cffi-based cairo bindings for Python"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "johanneskoester",
+    "carlodri",
+    "johanneskoester",
+    "carlodri",
+    "johanneskoester",
+    "carlodri"
+   ]
+  },
+  "package":{
+   "name":"cairocffi",
+   "version":"1.1.0"
+  },
+  "requirements":{
+   "build":[
+    "python >=3.5",
+    "pip",
+    "cffi >=1.1",
+    "cairo >=1.14",
+    "pytest-runner",
+    "python >=3.5",
+    "pip",
+    "cffi >=1.1",
+    "cairo >=1.14",
+    "pytest-runner",
+    "python >=3.5",
+    "pip",
+    "cffi >=1.1",
+    "cairo >=1.14",
+    "pytest-runner"
+   ],
+   "run":[
+    "python >=3.5",
+    "cffi >=1.1",
+    "cairo >=1.14",
+    "python >=3.5",
+    "cffi >=1.1",
+    "cairo >=1.14",
+    "python >=3.5",
+    "cffi >=1.1",
+    "cairo >=1.14"
+   ]
+  },
+  "source":{
+   "sha256":"f1c0c5878f74ac9ccb5d48b2601fcc75390c881ce476e79f4cfedd288b1b05db",
+   "url":"https://pypi.io/packages/source/c/cairocffi/cairocffi-1.1.0.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "cairocffi",
+    "cairocffi",
+    "cairocffi"
+   ]
+  }
+ },
+ "name":"cairocffi",
+ "new_version":"1.1.0",
+ "pinning_version":"2019.08.27",
+ "raw_meta_yaml":"{% set name = \"cairocffi\" %}\n{% set version = \"1.1.0\" %}\n\npackage:\n  name: cairocffi\n  version: \"{{ version }}\"\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: f1c0c5878f74ac9ccb5d48b2601fcc75390c881ce476e79f4cfedd288b1b05db\n\nbuild:\n  noarch: python\n  number: 0\n  script: \"{{ PYTHON }} -m pip install . -vv\"\n\nrequirements:\n  build:\n    - python >=3.5\n    - pip\n    - cffi >=1.1\n    - cairo >=1.14\n    - pytest-runner\n  run:\n    - python >=3.5\n    - cffi >=1.1\n    - cairo >=1.14\n\ntest:\n  imports:\n    - cairocffi\n\nabout:\n  home: https://github.com/Kozea/cairocffi\n  license: BSD 3-Clause\n  license_family: BSD\n  license_file: LICENSE\n  summary: 'cffi-based cairo bindings for Python'\n\nextra:\n  recipe-maintainers:\n    - johanneskoester\n    - carlodri\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "cairo",
+   "cffi",
+   "pip",
+   "pytest-runner",
+   "python"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "cairo",
+    "cffi",
+    "pip",
+    "pytest-runner",
+    "python"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "cairo",
+    "cffi",
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.4.2",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "cairo >=1.14",
+    "cffi >=1.1",
+    "pip",
+    "pytest-runner",
+    "python >=3.5"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "cairo >=1.14",
+    "cffi >=1.1",
+    "python >=3.5"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/c/cairocffi/cairocffi-0.9.0.tar.gz",
+ "version":"1.1.0"
+}

@@ -1,0 +1,198 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/419236499.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.18.3"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"sos-julia",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "dev_url":"https://github.com/vatlab/sos-julia",
+   "doc_url":"https://vatlab.github.io/sos-docs/",
+   "home":"https://github.com/vatlab/sos-julia",
+   "license":"BSD",
+   "license_family":"BSD",
+   "license_file":"LICENSE",
+   "summary":"SoS language module for Julia"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":[
+    "-m pip install . --no-deps --ignore-installed -vv",
+    "export JUPYTER_DATA_DIR=${PREFIX}/share/jupyter",
+    "export JUPYTER=$(which jupyter)",
+    "julia -e \"using Pkg;Pkg.add([\\\"IJulia\\\", \\\"Feather\\\", \\\"DataFrames\\\", \\\"NamedArrays\\\"])\"",
+    "-m pip install . --no-deps --ignore-installed -vv",
+    "export JUPYTER_DATA_DIR=${PREFIX}/share/jupyter",
+    "export JUPYTER=$(which jupyter)",
+    "julia -e \"using Pkg;Pkg.add([\\\"IJulia\\\", \\\"Feather\\\", \\\"DataFrames\\\", \\\"NamedArrays\\\"])\"",
+    "-m pip install . --no-deps --ignore-installed -vv",
+    "export JUPYTER_DATA_DIR=${PREFIX}/share/jupyter",
+    "export JUPYTER=$(which jupyter)",
+    "julia -e \"using Pkg;Pkg.add([\\\"IJulia\\\", \\\"Feather\\\", \\\"DataFrames\\\", \\\"NamedArrays\\\"])\""
+   ]
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "BoPeng",
+    "BoPeng",
+    "BoPeng"
+   ]
+  },
+  "package":{
+   "name":"sos-julia",
+   "version":"0.18.2"
+  },
+  "requirements":{
+   "host":[
+    "pip",
+    "python >=3.6",
+    "julia",
+    "pip",
+    "python >=3.6",
+    "julia",
+    "pip",
+    "python >=3.6",
+    "julia"
+   ],
+   "run":[
+    "sos-notebook >=0.19.4",
+    "feather-format",
+    "julia",
+    "python >=3.6",
+    "sos-notebook >=0.19.4",
+    "feather-format",
+    "julia",
+    "python >=3.6",
+    "sos-notebook >=0.19.4",
+    "feather-format",
+    "julia",
+    "python >=3.6"
+   ]
+  },
+  "source":{
+   "sha256":"53551d793ef9ac37dc2df39a4978321d3231e119c3a740edd0c924b38f6c9dbc",
+   "url":"https://pypi.io/packages/source/s/sos-julia/sos-julia-0.18.2.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "sos_julia",
+    "sos_julia",
+    "sos_julia"
+   ],
+   "requires":[
+    "nose",
+    "pytest",
+    "selenium",
+    "nose",
+    "pytest",
+    "selenium",
+    "nose",
+    "pytest",
+    "selenium"
+   ]
+  }
+ },
+ "name":"sos-julia",
+ "new_version":"0.18.3",
+ "new_version_attempts":{
+  "0.18.3":1
+ },
+ "new_version_errors":{},
+ "pinning_version":"2020.05.14.17.14.20",
+ "raw_meta_yaml":"{% set name = \"sos-julia\" %}\n{% set version = \"0.18.2\" %}\n\npackage:\n  name: \"{{ name|lower }}\"\n  version: \"{{ version }}\"\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: 53551d793ef9ac37dc2df39a4978321d3231e119c3a740edd0c924b38f6c9dbc\n\nbuild:\n  noarch: python\n  number: 0\n  script:\n    - {{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv\n    - export JUPYTER_DATA_DIR=${PREFIX}/share/jupyter\n    - export JUPYTER=$(which jupyter)\n    - julia -e \"using Pkg;Pkg.add([\\\"IJulia\\\", \\\"Feather\\\", \\\"DataFrames\\\", \\\"NamedArrays\\\"])\"\n\nrequirements:\n  host:\n    - pip\n    - python >=3.6\n    - julia\n  run:\n    - sos-notebook >=0.19.4\n    - feather-format\n    - julia\n    - python >=3.6\n\ntest:\n  requires:\n    - nose\n    - pytest\n    - selenium\n  imports:\n    - sos_julia\n\nabout:\n  home: https://github.com/vatlab/sos-julia\n  license: BSD\n  license_family: BSD\n  license_file: LICENSE\n  summary: \"SoS language module for Julia\"\n  doc_url: https://vatlab.github.io/sos-docs/\n  dev_url: https://github.com/vatlab/sos-julia\n\nextra:\n  recipe-maintainers:\n    - BoPeng\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "feather-format",
+   "julia",
+   "pip",
+   "python",
+   "sos-notebook"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "julia",
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "feather-format",
+    "julia",
+    "python",
+    "sos-notebook"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "nose",
+    "pytest",
+    "selenium"
+   ]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.7.2\n",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "julia",
+    "pip",
+    "python >=3.6"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "feather-format",
+    "julia",
+    "python >=3.6",
+    "sos-notebook >=0.19.4"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "nose",
+    "pytest",
+    "selenium"
+   ]
+  }
+ },
+ "url":"https://pypi.io/packages/source/s/sos-julia/sos-julia-0.18.2.tar.gz",
+ "version":"0.18.2"
+}

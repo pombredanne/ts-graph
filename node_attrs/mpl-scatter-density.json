@@ -1,0 +1,229 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/199922368.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Noarch",
+    "migrator_version":0
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/212923369.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.4"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/282967389.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.6"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/374999169.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MatplotlibBase",
+    "migrator_version":0,
+    "name":"matplotlib-to-matplotlib-base"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"mpl-scatter-density",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"Matplotlib helpers to make density scatter plots",
+   "dev_url":"http://github.com/astrofrog/mpl-scatter-density",
+   "doc_url":"http://github.com/astrofrog/mpl-scatter-density",
+   "home":"http://github.com/astrofrog/mpl-scatter-density",
+   "license":"BSD",
+   "license_family":"BSD",
+   "license_file":"LICENSE",
+   "summary":"Matplotlib helpers to make density scatter plots"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"1",
+   "script":"python -m pip install --no-deps --ignore-installed ."
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "astrofrog-conda-forge",
+    "astrofrog-conda-forge",
+    "astrofrog-conda-forge"
+   ]
+  },
+  "package":{
+   "name":"mpl-scatter-density",
+   "version":"0.6"
+  },
+  "requirements":{
+   "host":[
+    "pip",
+    "python",
+    "setuptools",
+    "numpy >=1.11",
+    "matplotlib-base >=2.0",
+    "fast-histogram >=0.3",
+    "pip",
+    "python",
+    "setuptools",
+    "numpy >=1.11",
+    "matplotlib-base >=2.0",
+    "fast-histogram >=0.3",
+    "pip",
+    "python",
+    "setuptools",
+    "numpy >=1.11",
+    "matplotlib-base >=2.0",
+    "fast-histogram >=0.3"
+   ],
+   "run":[
+    "python",
+    "numpy >=1.11",
+    "matplotlib-base >=2.0",
+    "fast-histogram >=0.3",
+    "python",
+    "numpy >=1.11",
+    "matplotlib-base >=2.0",
+    "fast-histogram >=0.3",
+    "python",
+    "numpy >=1.11",
+    "matplotlib-base >=2.0",
+    "fast-histogram >=0.3"
+   ]
+  },
+  "source":{
+   "fn":"mpl-scatter-density-0.6.tar.gz",
+   "sha256":"616d25a0bbbaf0f01295ab0b769180a99d09b1fdc51cfe5466a5785fe3fb5467",
+   "url":"https://pypi.io/packages/source/m/mpl-scatter-density/mpl-scatter-density-0.6.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "mpl_scatter_density",
+    "mpl_scatter_density",
+    "mpl_scatter_density"
+   ]
+  }
+ },
+ "name":"mpl-scatter-density",
+ "new_version":"0.6",
+ "pinning_version":"2020.02.12",
+ "raw_meta_yaml":"{% set name = \"mpl-scatter-density\" %}\n{% set version = \"0.6\" %}\n{% set sha256 = \"616d25a0bbbaf0f01295ab0b769180a99d09b1fdc51cfe5466a5785fe3fb5467\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  fn: {{ name }}-{{ version }}.tar.gz\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 1\n  script: python -m pip install --no-deps --ignore-installed .\n\nrequirements:\n  host:\n    - pip\n    - python\n    - setuptools\n    - numpy >=1.11\n    - matplotlib-base >=2.0\n    - fast-histogram >=0.3\n  run:\n    - python\n    - numpy >=1.11\n    - matplotlib-base >=2.0\n    - fast-histogram >=0.3\n\ntest:\n  imports:\n    - mpl_scatter_density\n\nabout:\n  home: http://github.com/astrofrog/mpl-scatter-density\n  license: BSD\n  license_family: BSD\n  license_file: LICENSE\n  summary: Matplotlib helpers to make density scatter plots\n  description: Matplotlib helpers to make density scatter plots\n  doc_url: http://github.com/astrofrog/mpl-scatter-density\n  dev_url: http://github.com/astrofrog/mpl-scatter-density\n\nextra:\n  recipe-maintainers:\n    - astrofrog-conda-forge\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "fast-histogram",
+   "matplotlib-base",
+   "numpy",
+   "pip",
+   "python",
+   "setuptools"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "fast-histogram",
+    "matplotlib-base",
+    "numpy",
+    "pip",
+    "python",
+    "setuptools"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "fast-histogram",
+    "matplotlib-base",
+    "numpy",
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.6.8",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "fast-histogram >=0.3",
+    "matplotlib-base >=2.0",
+    "numpy >=1.11",
+    "pip",
+    "python",
+    "setuptools"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "fast-histogram >=0.3",
+    "matplotlib-base >=2.0",
+    "numpy >=1.11",
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/m/mpl-scatter-density/mpl-scatter-density-0.6.tar.gz",
+ "version":"0.6"
+}

@@ -1,0 +1,209 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/277635266.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.0.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/336077256.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"python38"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "provider":{
+   "win":"azure"
+  }
+ },
+ "feedstock_name":"bmipy",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"An abstract base class for implementing a Basic Model Interface in Python.\nAlso included are some useful utilities for implementers.\n",
+   "dev_url":"https://github.com/csdms/bmi-python",
+   "doc_url":"http://bmipy.readthedocs.io/",
+   "home":"http://github.com/csdms/bmipy",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"LICENSE",
+   "summary":"Python bindings for the Basic Model Interface"
+  },
+  "build":{
+   "entry_points":[
+    "bmipy-render = bmipy.cmd:main",
+    "bmipy-render = bmipy.cmd:main",
+    "bmipy-render = bmipy.cmd:main"
+   ],
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . --no-deps -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "mcflugen",
+    "mcflugen",
+    "mcflugen"
+   ]
+  },
+  "package":{
+   "name":"bmipy",
+   "version":"2.0"
+  },
+  "requirements":{
+   "host":[
+    "python >=3",
+    "pip",
+    "python >=3",
+    "pip",
+    "python >=3",
+    "pip"
+   ],
+   "run":[
+    "python >=3",
+    "black",
+    "click",
+    "jinja2",
+    "numpy",
+    "six",
+    "python >=3",
+    "black",
+    "click",
+    "jinja2",
+    "numpy",
+    "six",
+    "python >=3",
+    "black",
+    "click",
+    "jinja2",
+    "numpy",
+    "six"
+   ]
+  },
+  "source":{
+   "sha256":"8f9698cee8832715d8b6826b6a1c9610990ae05a175dafcadafa6c2a58907c21",
+   "url":"https://github.com/csdms/bmi-python/archive/v2.0.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "bmipy-render --help",
+    "bmipy-render --version",
+    "bmipy-render MyBmi",
+    "bmipy-render --help",
+    "bmipy-render --version",
+    "bmipy-render MyBmi",
+    "bmipy-render --help",
+    "bmipy-render --version",
+    "bmipy-render MyBmi"
+   ],
+   "imports":[
+    "bmipy",
+    "bmipy",
+    "bmipy"
+   ]
+  }
+ },
+ "name":"bmipy",
+ "new_version":"2.0",
+ "pinning_version":"2019.11.01",
+ "raw_meta_yaml":"{% set version = \"2.0\" %}\n\npackage:\n  name: bmipy\n  version: {{ version }}\n\nsource:\n  url: https://github.com/csdms/bmi-python/archive/v{{ version }}.tar.gz\n  sha256: 8f9698cee8832715d8b6826b6a1c9610990ae05a175dafcadafa6c2a58907c21\n\nbuild:\n  number: 0\n  noarch: python\n  script: \"{{ PYTHON }} -m pip install . --no-deps -vv\"\n  entry_points:\n    - bmipy-render = bmipy.cmd:main\n\nrequirements:\n  host:\n    - python >=3\n    - pip\n  run:\n    - python >=3\n    - black\n    - click\n    - jinja2\n    - numpy\n    - six\n\ntest:\n  imports:\n    - bmipy\n  commands:\n    - bmipy-render --help\n    - bmipy-render --version\n    - bmipy-render MyBmi\n\n\nabout:\n  home: http://github.com/csdms/bmipy\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE\n  summary: 'Python bindings for the Basic Model Interface'\n  description: |\n    An abstract base class for implementing a Basic Model Interface in Python.\n    Also included are some useful utilities for implementers.\n  doc_url: http://bmipy.readthedocs.io/\n  dev_url: https://github.com/csdms/bmi-python\n\nextra:\n  recipe-maintainers:\n    - mcflugen\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "black",
+   "click",
+   "jinja2",
+   "numpy",
+   "pip",
+   "python",
+   "six"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "black",
+    "click",
+    "jinja2",
+    "numpy",
+    "python",
+    "six"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.6.1",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "black",
+    "click",
+    "jinja2",
+    "numpy",
+    "python >=3",
+    "six"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://github.com/csdms/bmi-python/archive/v0.3.2.tar.gz",
+ "version":"2.0"
+}

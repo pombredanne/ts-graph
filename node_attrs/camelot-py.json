@@ -1,0 +1,426 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/227048671.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.3.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/228019808.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.3.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/228138848.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/233241470.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.4.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/236234568.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.4.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/238368228.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.5.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/240759773.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.6.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/242428027.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.7.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/242482177.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.7.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/245378115.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.7.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/295096839.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.7.3"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/337134002.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"python38"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/375726732.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MatplotlibBase",
+    "migrator_version":0,
+    "name":"matplotlib-to-matplotlib-base"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "provider":{
+   "win":"azure"
+  }
+ },
+ "feedstock_name":"camelot-py",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"http://camelot-py.readthedocs.io/",
+   "license":"MIT",
+   "license_file":"LICENSE",
+   "summary":"PDF Table Extraction for Humans."
+  },
+  "build":{
+   "entry_points":[
+    "camelot = camelot.cli:cli",
+    "camelot = camelot.cli:cli",
+    "camelot = camelot.cli:cli"
+   ],
+   "number":"1",
+   "script":" -m pip install . --no-deps -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "vinayak-mehta",
+    "vinayak-mehta",
+    "vinayak-mehta"
+   ]
+  },
+  "package":{
+   "name":"camelot-py",
+   "version":"0.7.3"
+  },
+  "requirements":{
+   "host":[
+    "python",
+    "setuptools",
+    "pip",
+    "python",
+    "setuptools",
+    "pip",
+    "python",
+    "setuptools",
+    "pip"
+   ],
+   "run":[
+    "tk",
+    "click >=6.7",
+    "matplotlib-base >=2.2.3",
+    "numpy >=1.13.3",
+    "opencv >=3.2.0",
+    "openpyxl >=2.5.8",
+    "pandas >=0.23.4",
+    "pdfminer.six >=20181108",
+    "pycryptodome",
+    "pypdf2 >=1.26.0",
+    "python",
+    "tk",
+    "ghostscript",
+    "click >=6.7",
+    "matplotlib-base >=2.2.3",
+    "numpy >=1.13.3",
+    "opencv >=3.2.0",
+    "openpyxl >=2.5.8",
+    "pandas >=0.23.4",
+    "pdfminer.six >=20181108",
+    "pycryptodome",
+    "pypdf2 >=1.26.0",
+    "python",
+    "tk",
+    "ghostscript",
+    "click >=6.7",
+    "matplotlib-base >=2.2.3",
+    "numpy >=1.13.3",
+    "opencv >=3.2.0",
+    "openpyxl >=2.5.8",
+    "pandas >=0.23.4",
+    "pdfminer.six >=20181108",
+    "pycryptodome",
+    "pypdf2 >=1.26.0",
+    "python"
+   ]
+  },
+  "source":{
+   "sha256":"60da7906ec5b48984d95abcbd97beff9c3e80c93b47361205def214d507a240c",
+   "url":"https://github.com/socialcopsdev/camelot/archive/v0.7.3.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "camelot --help",
+    "camelot --help",
+    "camelot --help"
+   ],
+   "imports":[
+    "camelot",
+    "camelot",
+    "camelot"
+   ]
+  }
+ },
+ "name":"camelot-py",
+ "new_version":"0.7.3",
+ "pinning_version":"2020.02.12",
+ "raw_meta_yaml":"{% set version = \"0.7.3\" %}\n\npackage:\n  name: camelot-py\n  version: \"{{ version }}\"\n\nsource:\n  url: https://github.com/socialcopsdev/camelot/archive/v{{ version }}.tar.gz\n  sha256: 60da7906ec5b48984d95abcbd97beff9c3e80c93b47361205def214d507a240c\n\nbuild:\n  number: 1\n  entry_points:\n    - camelot = camelot.cli:cli\n  script: \"{{ PYTHON }} -m pip install . --no-deps -vv\"\n\nrequirements:\n  host:\n    - python\n    - setuptools\n    - pip\n  run:\n    - tk\n    - ghostscript  # [not win]\n    - click >=6.7\n    - matplotlib-base >=2.2.3\n    - numpy >=1.13.3\n    - opencv >=3.2.0\n    - openpyxl >=2.5.8\n    - pandas >=0.23.4\n    - pdfminer.six >=20181108\n    - pycryptodome\n    - pypdf2 >=1.26.0\n    - python\n\ntest:\n  imports:\n    - camelot\n  commands:\n    - camelot --help\n\nabout:\n  home: http://camelot-py.readthedocs.io/\n  license: MIT\n  license_file: LICENSE\n  summary: PDF Table Extraction for Humans.\n\nextra:\n  recipe-maintainers:\n    - vinayak-mehta\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "click",
+   "ghostscript",
+   "matplotlib-base",
+   "numpy",
+   "opencv",
+   "openpyxl",
+   "pandas",
+   "pdfminer.six",
+   "pip",
+   "pycryptodome",
+   "pypdf2",
+   "python",
+   "setuptools",
+   "tk"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python",
+    "setuptools"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "click",
+    "ghostscript",
+    "matplotlib-base",
+    "numpy",
+    "opencv",
+    "openpyxl",
+    "pandas",
+    "pdfminer.six",
+    "pycryptodome",
+    "pypdf2",
+    "python",
+    "tk"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.6.8",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python",
+    "setuptools"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "click >=6.7",
+    "ghostscript",
+    "matplotlib-base >=2.2.3",
+    "numpy >=1.13.3",
+    "opencv >=3.2.0",
+    "openpyxl >=2.5.8",
+    "pandas >=0.23.4",
+    "pdfminer.six >=20181108",
+    "pycryptodome",
+    "pypdf2 >=1.26.0",
+    "python",
+    "tk"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://github.com/socialcopsdev/camelot/archive/v0.7.3.tar.gz",
+ "version":"0.7.3"
+}

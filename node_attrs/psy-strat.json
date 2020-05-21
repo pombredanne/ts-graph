@@ -1,0 +1,219 @@
+{
+ "PRed":[
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/318982131.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.1.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/336278517.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"python38"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "provider":{
+   "win":"azure"
+  }
+ },
+ "feedstock_name":"psy-strat",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"This package defines a function to make a stratigraphic diagram that\ninterfaces with the interactive psyplot visualization framework. It is\nespecially useful to create pollen diagrams.\n",
+   "dev_url":"https://github.com/Chilipp/psy-strat",
+   "doc_url":"http://psy-strat.readthedocs.io/",
+   "home":"https://github.com/Chilipp/psy-strat",
+   "license":"GPLv2",
+   "license_family":"GPL2",
+   "license_file":"LICENSE",
+   "summary":"Python package for creating stratigraphic diagrams"
+  },
+  "build":{
+   "number":"0",
+   "script":"python -m pip install . --no-deps --ignore-installed -vvv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "Chilipp",
+    "Chilipp",
+    "Chilipp"
+   ]
+  },
+  "package":{
+   "name":"psy-strat",
+   "version":"0.1.1"
+  },
+  "requirements":{
+   "host":[
+    "python",
+    "pip",
+    "python",
+    "pip",
+    "python",
+    "pip"
+   ],
+   "run":[
+    "python",
+    "numpy >=1.12",
+    "psy-simple >=1.2.0",
+    "psyplot >=1.2.0",
+    "xarray !=0.13.0",
+    "python",
+    "psy-simple >=1.2.0",
+    "psyplot >=1.2.0",
+    "xarray !=0.13.0",
+    "python",
+    "psy-simple >=1.2.0",
+    "psyplot >=1.2.0",
+    "xarray !=0.13.0"
+   ]
+  },
+  "source":{
+   "fn":"psy-strat-0.1.1.tar.gz",
+   "sha256":"ca70e62a76d87cd9539d9db3fd3f34818321465f518a4d15c4b4e3d8fbd08468",
+   "url":"https://pypi.io/packages/source/p/psy-strat/psy-strat-0.1.1.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "psy_strat",
+    "psy_strat.stratplot",
+    "psy_strat.strat_widget",
+    "psy_strat",
+    "psy_strat.stratplot",
+    "psy_strat.strat_widget",
+    "psy_strat",
+    "psy_strat.stratplot",
+    "psy_strat.strat_widget"
+   ],
+   "requires":[
+    "psyplot-gui",
+    "pyqt >=5",
+    "psyplot-gui",
+    "pyqt >=5",
+    "psyplot-gui",
+    "pyqt >=5"
+   ]
+  }
+ },
+ "name":"psy-strat",
+ "new_version":"0.1.1",
+ "pinning_version":"2019.11.01",
+ "raw_meta_yaml":"{% set name = \"psy-strat\" %}\n{% set version = \"0.1.1\" %}\n{% set sha256 = \"ca70e62a76d87cd9539d9db3fd3f34818321465f518a4d15c4b4e3d8fbd08468\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  fn: {{ name }}-{{ version }}.tar.gz\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  script: python -m pip install . --no-deps --ignore-installed -vvv\n  skip: true  # [py == 27]\n\nrequirements:\n  host:\n    - python\n    - pip\n  run:\n    - python\n    - numpy >=1.12  # [win]\n    - psy-simple >=1.2.0\n    - psyplot >=1.2.0\n    - xarray !=0.13.0\n\ntest:\n  requires:\n    - psyplot-gui\n    - pyqt >=5\n  imports:\n    - psy_strat\n    - psy_strat.stratplot\n    - psy_strat.strat_widget\n\n\nabout:\n  home: https://github.com/Chilipp/psy-strat\n  license: GPLv2\n  license_family: GPL2\n  license_file: LICENSE\n  summary: 'Python package for creating stratigraphic diagrams'\n\n  description: |\n    This package defines a function to make a stratigraphic diagram that\n    interfaces with the interactive psyplot visualization framework. It is\n    especially useful to create pollen diagrams.\n  doc_url: http://psy-strat.readthedocs.io/\n  dev_url: https://github.com/Chilipp/psy-strat\n\nextra:\n  recipe-maintainers:\n    - Chilipp\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "numpy",
+   "pip",
+   "psy-simple",
+   "psyplot",
+   "python",
+   "xarray"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "numpy",
+    "psy-simple",
+    "psyplot",
+    "python",
+    "xarray"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "psyplot-gui",
+    "pyqt"
+   ]
+  }
+ },
+ "smithy_version":"3.6.1",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "numpy >=1.12",
+    "psy-simple >=1.2.0",
+    "psyplot >=1.2.0",
+    "python",
+    "xarray !=0.13.0"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "psyplot-gui",
+    "pyqt >=5"
+   ]
+  }
+ },
+ "url":"https://pypi.io/packages/source/p/psy-strat/psy-strat-0.1.0.tar.gz",
+ "version":"0.1.1"
+}

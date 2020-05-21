@@ -1,0 +1,218 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/215353649.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/253992299.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"ArchRebuild",
+    "migrator_version":1,
+    "name":"aarch64 and ppc64le addition"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "compiler_stack":"comp7",
+  "max_py_ver":"37",
+  "max_r_ver":"35",
+  "provider":{
+   "linux_aarch64":"azure",
+   "linux_ppc64le":"azure",
+   "win":"azure"
+  }
+ },
+ "feedstock_name":"gettext",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"https://www.gnu.org/software/gettext/",
+   "license":"GPL-2.0",
+   "license_file":"COPYING",
+   "summary":"Internationalization package"
+  },
+  "build":{
+   "number":"1002",
+   "run_exports":[
+    "gettext",
+    "gettext",
+    "gettext"
+   ]
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "scopatz",
+    "ocefpaf",
+    "scopatz",
+    "ocefpaf",
+    "scopatz",
+    "ocefpaf"
+   ]
+  },
+  "package":{
+   "name":"gettext",
+   "version":"0.19.8.1"
+  },
+  "requirements":{
+   "build":[
+    "posix",
+    "autoconf",
+    "automake1.15",
+    "libtool",
+    "patch",
+    "binutils",
+    "crt-git",
+    "vs2015_win-64",
+    "c_compiler_stub",
+    "make",
+    "c_compiler_stub",
+    "make"
+   ],
+   "host":[
+    "libffi",
+    "libiconv",
+    "libffi",
+    "libiconv",
+    "libffi"
+   ]
+  },
+  "source":{
+   "patches":null,
+   "sha256":"105556dbc5c3fbbc2aa0edb46d22d055748b6f5c7cd7a8d99f8e7eb84e938be4",
+   "url":"ftp://ftp.gnu.org/pub/gnu/gettext/gettext-0.19.8.1.tar.xz"
+  },
+  "test":{
+   "commands":[
+    "if not exist %PREFIX%\\Library\\lib\\gettextlib.dll.lib exit /b 1",
+    "if not exist %PREFIX%\\Library\\bin\\gettextlib-*.dll exit /b 1",
+    "if not exist %PREFIX%\\Library\\lib\\gettextpo.dll.lib exit /b 1",
+    "if not exist %PREFIX%\\Library\\bin\\gettextpo-*.dll exit /b 1",
+    "if not exist %PREFIX%\\Library\\lib\\gettextsrc.dll.lib exit /b 1",
+    "if not exist %PREFIX%\\Library\\bin\\gettextsrc-*.dll exit /b 1",
+    "if not exist %PREFIX%\\Library\\lib\\intl.dll.lib exit /b 1",
+    "if not exist %PREFIX%\\Library\\bin\\intl-*.dll exit /b 1",
+    "test -f ${PREFIX}/lib/libgettextlib$SHLIB_EXT",
+    "test -f ${PREFIX}/lib/libgettextpo$SHLIB_EXT",
+    "test -f ${PREFIX}/lib/libgettextsrc$SHLIB_EXT",
+    "test -f ${PREFIX}/lib/libintl$SHLIB_EXT",
+    "test -f ${PREFIX}/lib/libgettextlib$SHLIB_EXT",
+    "test -f ${PREFIX}/lib/libgettextpo$SHLIB_EXT",
+    "test -f ${PREFIX}/lib/libgettextsrc$SHLIB_EXT",
+    "test -f ${PREFIX}/lib/libintl$SHLIB_EXT"
+   ]
+  }
+ },
+ "name":"gettext",
+ "new_version":false,
+ "pinning_version":"2019.02.15",
+ "raw_meta_yaml":"{% set version = \"0.19.8.1\" %}\n{% set am_version = \"1.15\" %} #  keep synchronized with build.sh\n{% set posix = 'm2-' if win else '' %}\n{% set native = 'm2w64-' if win else '' %}\n\npackage:\n  name: gettext\n  version: {{ version }}\n\nsource:\n  url: ftp://ftp.gnu.org/pub/gnu/gettext/gettext-{{ version }}.tar.xz\n  sha256: 105556dbc5c3fbbc2aa0edb46d22d055748b6f5c7cd7a8d99f8e7eb84e938be4\n  patches:\n    - 0001-Mark-v-snprintf-as-available.patch                          # [win]\n    - 0002-Prevent-libtool-from-worrying-about-dependent-librar.patch  # [win]\n    - 0003-Fix-some-DLL-export-markings-in-libintl.patch               # [win]\n    - 0004-Fix-quoting-when-invoking-windres.patch                     # [win]\n    - 0005-CXXLD-is-not-a-thing.patch                                  # [win]\n    - 0006-Fix-an-inconsistent-noreturn-marking-in-gettext-tool.patch  # [win]\n    - 0007-Work-around-Unixisms-in-libgettextpo.patch                  # [win]\n    - 0008-Add-missing-extern-C-protectors.patch                       # [win]\n    - 0009-Use-the-C-hack-in-a-few-more-files.patch                    # [win]\n\nbuild:\n  number: 1002\n  run_exports:\n    # Seems pretty good: https://abi-laboratory.pro/tracker/timeline/gettext/\n    - {{ pin_subpackage('gettext') }}\n\nrequirements:\n  build:\n    - posix                              # [win]\n    - {{posix}}autoconf                  # [win]\n    - {{posix}}automake{{ am_version }}  # [win]\n    - {{posix}}libtool                   # [win]\n    - {{posix}}patch                     # [win]\n    - {{native}}binutils                 # [win]\n    - {{native}}crt-git                  # [win]\n    - {{ compiler('c') }}                # [not win]\n    - make                               # [unix]\n    - vs2015_win-64                      # [win] -- no VS2008 since it's just a pain to work with\n  host:\n    - libffi\n    - libiconv  # [not linux]\n\ntest:\n  commands:\n    {% set lib_idents = [ \"gettextlib\", \"gettextpo\", \"gettextsrc\" ] %}\n    {% set lib_idents = lib_idents + [ \"intl\" ] %}                         # [not linux]\n    {% for lib_ident in lib_idents %}\n    - test -f ${PREFIX}/lib/lib{{ lib_ident }}$SHLIB_EXT                   # [not win]\n    - if not exist %PREFIX%\\Library\\lib\\{{ lib_ident }}.dll.lib exit /b 1  # [win]\n    - if not exist %PREFIX%\\Library\\bin\\{{ lib_ident }}-*.dll exit /b 1    # [win]\n    {% endfor %}\n\nabout:\n  home: https://www.gnu.org/software/gettext/\n  license: GPL-2.0\n  license_file: COPYING\n  summary: Internationalization package\n\nextra:\n  recipe-maintainers:\n    - scopatz\n    - ocefpaf\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "autoconf",
+   "automake1.15",
+   "binutils",
+   "c_compiler_stub",
+   "crt-git",
+   "libffi",
+   "libiconv",
+   "libtool",
+   "make",
+   "patch",
+   "posix",
+   "vs2015_win-64"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "autoconf",
+    "automake1.15",
+    "binutils",
+    "c_compiler_stub",
+    "crt-git",
+    "libtool",
+    "make",
+    "patch",
+    "posix",
+    "vs2015_win-64"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "libffi",
+    "libiconv"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.2.13",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "autoconf",
+    "automake1.15",
+    "binutils",
+    "c_compiler_stub",
+    "crt-git",
+    "libtool",
+    "make",
+    "patch",
+    "posix",
+    "vs2015_win-64"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "libffi",
+    "libiconv"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"ftp://ftp.gnu.org/pub/gnu/gettext/gettext-0.19.8.1.tar.xz",
+ "version":"0.19.8.1"
+}

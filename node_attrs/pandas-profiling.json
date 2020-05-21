@@ -1,0 +1,503 @@
+{
+ "PRed":[
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.4.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/200147487.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Noarch",
+    "migrator_version":0
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/222643148.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/274094744.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.4.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/290879641.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.4.3"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/290890157.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.0.3"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/295045559.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.1.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/296872548.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.1.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/299814448.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.2.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/301756096.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.3.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/360273552.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.4.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/375313212.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.5.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/375698128.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MatplotlibBase",
+    "migrator_version":0,
+    "name":"matplotlib-to-matplotlib-base"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/402889314.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.6.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/414919893.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.7.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/417027287.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.8.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"pandas-profiling",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "dev_url":"http://github.com/pandas-profiling/pandas-profiling",
+   "doc_url":"https://pandas-profiling.github.io/pandas-profiling/docs/",
+   "home":"http://github.com/pandas-profiling/pandas-profiling",
+   "license":"MIT",
+   "license_file":"LICENSE",
+   "summary":"Generate profile report for pandas DataFrame"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":"-m pip install . --no-deps -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "sbrugman",
+    "proinsias",
+    "philip-khor",
+    "sbrugman",
+    "proinsias",
+    "philip-khor",
+    "sbrugman",
+    "proinsias",
+    "philip-khor"
+   ]
+  },
+  "package":{
+   "name":"pandas-profiling",
+   "version":"2.8.0"
+  },
+  "requirements":{
+   "build":[
+    "python",
+    "pip",
+    "python",
+    "pip",
+    "python",
+    "pip"
+   ],
+   "run":[
+    "python",
+    "scipy >=1.4.1",
+    "requests >=2.23.0",
+    "missingno >=0.4.2",
+    "pandas >=0.25.3,!=1.0.1,!=1.0.0,!=1.0.2",
+    "matplotlib-base >=3.2.0",
+    "jinja2 >=2.11.1",
+    "htmlmin >=0.1.12",
+    "phik >=0.9.10",
+    "confuse >=1.0.0",
+    "astropy >=4.0",
+    "visions >=0.4.4",
+    "numpy >=1.16.0",
+    "tangled-up-in-unicode >=0.0.6",
+    "tqdm >=4.43.0",
+    "ipywidgets >=7.5.1",
+    "imagehash",
+    "pillow",
+    "python",
+    "scipy >=1.4.1",
+    "requests >=2.23.0",
+    "missingno >=0.4.2",
+    "pandas >=0.25.3,!=1.0.1,!=1.0.0,!=1.0.2",
+    "matplotlib-base >=3.2.0",
+    "jinja2 >=2.11.1",
+    "htmlmin >=0.1.12",
+    "phik >=0.9.10",
+    "confuse >=1.0.0",
+    "astropy >=4.0",
+    "visions >=0.4.4",
+    "numpy >=1.16.0",
+    "tangled-up-in-unicode >=0.0.6",
+    "tqdm >=4.43.0",
+    "ipywidgets >=7.5.1",
+    "imagehash",
+    "pillow",
+    "python",
+    "scipy >=1.4.1",
+    "requests >=2.23.0",
+    "missingno >=0.4.2",
+    "pandas >=0.25.3,!=1.0.1,!=1.0.0,!=1.0.2",
+    "matplotlib-base >=3.2.0",
+    "jinja2 >=2.11.1",
+    "htmlmin >=0.1.12",
+    "phik >=0.9.10",
+    "confuse >=1.0.0",
+    "astropy >=4.0",
+    "visions >=0.4.4",
+    "numpy >=1.16.0",
+    "tangled-up-in-unicode >=0.0.6",
+    "tqdm >=4.43.0",
+    "ipywidgets >=7.5.1",
+    "imagehash",
+    "pillow"
+   ]
+  },
+  "source":{
+   "fn":"pandas-profiling-2.8.0.tar.gz",
+   "sha256":"8b050d38ecfc324fe4159abcafbb4f84a3316af9274955d37accb1349a6f998b",
+   "url":"https://pypi.io/packages/source/p/pandas-profiling/pandas-profiling-2.8.0.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "pandas_profiling",
+    "pandas_profiling",
+    "pandas_profiling"
+   ]
+  }
+ },
+ "name":"pandas-profiling",
+ "new_version":"2.8.0",
+ "new_version_attempts":{
+  "2.6.0":1,
+  "2.7.0":1,
+  "2.8.0":1
+ },
+ "new_version_errors":{},
+ "pinning_version":"2020.05.12.18.03.58",
+ "raw_meta_yaml":"{% set name = \"pandas-profiling\" %}\n{% set version = \"2.8.0\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  fn: {{ name }}-{{ version }}.tar.gz\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: 8b050d38ecfc324fe4159abcafbb4f84a3316af9274955d37accb1349a6f998b\n\nbuild:\n  number: 0\n  noarch: python\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  build:\n    - python\n    - pip\n  run:\n    - python\n    - scipy >=1.4.1\n    - requests >=2.23.0\n    - missingno >=0.4.2\n    - pandas >=0.25.3,!=1.0.1,!=1.0.0,!=1.0.2\n    - matplotlib-base >=3.2.0\n    - jinja2 >=2.11.1\n    - htmlmin >=0.1.12\n    - phik >=0.9.10\n    - confuse >=1.0.0\n    - astropy >=4.0\n    - visions >=0.4.4\n    - numpy >=1.16.0\n    - tangled-up-in-unicode >=0.0.6\n    - tqdm >=4.43.0\n    - ipywidgets >=7.5.1\n    - imagehash\n    - pillow\n\ntest:\n  imports:\n    - pandas_profiling\n\nabout:\n  home: http://github.com/pandas-profiling/pandas-profiling\n  license: MIT\n  license_file: LICENSE\n  summary: Generate profile report for pandas DataFrame\n  dev_url: http://github.com/pandas-profiling/pandas-profiling\n  doc_url: https://pandas-profiling.github.io/pandas-profiling/docs/\n\nextra:\n  recipe-maintainers:\n    - sbrugman\n    - proinsias\n    - philip-khor\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "astropy",
+   "confuse",
+   "htmlmin",
+   "imagehash",
+   "ipywidgets",
+   "jinja2",
+   "matplotlib-base",
+   "missingno",
+   "numpy",
+   "pandas",
+   "phik",
+   "pillow",
+   "pip",
+   "python",
+   "requests",
+   "scipy",
+   "tangled-up-in-unicode",
+   "tqdm",
+   "visions"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "astropy",
+    "confuse",
+    "htmlmin",
+    "imagehash",
+    "ipywidgets",
+    "jinja2",
+    "matplotlib-base",
+    "missingno",
+    "numpy",
+    "pandas",
+    "phik",
+    "pillow",
+    "python",
+    "requests",
+    "scipy",
+    "tangled-up-in-unicode",
+    "tqdm",
+    "visions"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.7.1\n",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "astropy >=4.0",
+    "confuse >=1.0.0",
+    "htmlmin >=0.1.12",
+    "imagehash",
+    "ipywidgets >=7.5.1",
+    "jinja2 >=2.11.1",
+    "matplotlib-base >=3.2.0",
+    "missingno >=0.4.2",
+    "numpy >=1.16.0",
+    "pandas >=0.25.3,!=1.0.1,!=1.0.0,!=1.0.2",
+    "phik >=0.9.10",
+    "pillow",
+    "python",
+    "requests >=2.23.0",
+    "scipy >=1.4.1",
+    "tangled-up-in-unicode >=0.0.6",
+    "tqdm >=4.43.0",
+    "visions >=0.4.4"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/p/pandas-profiling/pandas-profiling-2.3.0.tar.gz",
+ "version":"2.8.0"
+}

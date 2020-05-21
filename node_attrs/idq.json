@@ -1,0 +1,415 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/275046453.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.1.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/298160071.json"
+   },
+   "data":{
+    "bot_rerun":1579272528.691958,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.2.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/324835371.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.2.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/360567547.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.3.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/363296769.json"
+   },
+   "data":{
+    "bot_rerun":1588884967.6714041,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"python38"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/378415114.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.3.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/414946109.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"python38"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"idq",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "dev_url":"https://git.ligo.org/reed.essick/iDQ",
+   "doc_url":"https://docs.ligo.org/reed.essick/iDQ",
+   "home":"https://git.ligo.org/reed.essick/iDQ",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"LICENSE",
+   "summary":"a low-latency statistical data quality pipeline for glitch detection"
+  },
+  "build":{
+   "number":"1",
+   "script":" -m pip install . -vv",
+   "skip":true
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "myNameIsPatrick",
+    "myNameIsPatrick",
+    "myNameIsPatrick"
+   ]
+  },
+  "package":{
+   "name":"idq",
+   "version":"0.3.1"
+  },
+  "requirements":{
+   "host":[
+    "pip",
+    "python",
+    "setuptools",
+    "pip",
+    "python",
+    "setuptools",
+    "pip",
+    "python",
+    "setuptools"
+   ],
+   "run":[
+    "dqsegdb",
+    "h5py >=2.3.0",
+    "lscsoft-glue",
+    "ligo-common",
+    "ligo-segments",
+    "ligo-scald",
+    "libframe",
+    "matplotlib-base >=1.2.0",
+    "numpy >=1.7.1",
+    "python",
+    "python-confluent-kafka >=0.11.4",
+    "python-lal",
+    "python-lalframe",
+    "python-ldas-tools-framecpp",
+    "python-ligo-lw",
+    "scikit-learn >=0.18.2",
+    "scipy",
+    "dqsegdb",
+    "h5py >=2.3.0",
+    "lscsoft-glue",
+    "ligo-common",
+    "ligo-segments",
+    "ligo-scald",
+    "libframe",
+    "matplotlib-base >=1.2.0",
+    "numpy >=1.7.1",
+    "python",
+    "python-confluent-kafka >=0.11.4",
+    "python-lal",
+    "python-lalframe",
+    "python-ldas-tools-framecpp",
+    "python-ligo-lw",
+    "scikit-learn >=0.18.2",
+    "scipy",
+    "dqsegdb",
+    "h5py >=2.3.0",
+    "lscsoft-glue",
+    "ligo-common",
+    "ligo-segments",
+    "ligo-scald",
+    "libframe",
+    "matplotlib-base >=1.2.0",
+    "numpy >=1.7.1",
+    "python",
+    "python-confluent-kafka >=0.11.4",
+    "python-lal",
+    "python-lalframe",
+    "python-ldas-tools-framecpp",
+    "python-ligo-lw",
+    "scikit-learn >=0.18.2",
+    "scipy"
+   ]
+  },
+  "source":{
+   "sha256":"3efd56556e2a4e335887fc9d2cd96c7e884240bcc869fec45146cfa0cdb528c9",
+   "url":"http://software.ligo.org/lscsoft/source/iDQ-0.3.1.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "idq-batch --help",
+    "idq-calibrate --help",
+    "idq-condor_batch --help",
+    "idq-condor_train --help",
+    "idq-condor_evaluate --help",
+    "idq-condor_calibrate --help",
+    "idq-condor_timeseries --help",
+    "idq-check_config --help",
+    "idq-evaluate --help",
+    "idq-kwm2kws --help",
+    "idq-monitor --help",
+    "idq-report --help",
+    "idq-simtimeseries --help",
+    "idq-stream --help",
+    "idq-streaming_train --help",
+    "idq-streaming_evaluate --help",
+    "idq-streaming_calibrate --help",
+    "idq-streaming_timeseries --help",
+    "idq-streaming_report --help",
+    "idq-target-times --help",
+    "idq-timeseries --help",
+    "idq-train --help",
+    "idq-batch --help",
+    "idq-calibrate --help",
+    "idq-condor_batch --help",
+    "idq-condor_train --help",
+    "idq-condor_evaluate --help",
+    "idq-condor_calibrate --help",
+    "idq-condor_timeseries --help",
+    "idq-check_config --help",
+    "idq-evaluate --help",
+    "idq-kwm2kws --help",
+    "idq-monitor --help",
+    "idq-report --help",
+    "idq-simtimeseries --help",
+    "idq-stream --help",
+    "idq-streaming_train --help",
+    "idq-streaming_evaluate --help",
+    "idq-streaming_calibrate --help",
+    "idq-streaming_timeseries --help",
+    "idq-streaming_report --help",
+    "idq-target-times --help",
+    "idq-timeseries --help",
+    "idq-train --help",
+    "idq-batch --help",
+    "idq-calibrate --help",
+    "idq-condor_batch --help",
+    "idq-condor_train --help",
+    "idq-condor_evaluate --help",
+    "idq-condor_calibrate --help",
+    "idq-condor_timeseries --help",
+    "idq-check_config --help",
+    "idq-evaluate --help",
+    "idq-kwm2kws --help",
+    "idq-monitor --help",
+    "idq-report --help",
+    "idq-simtimeseries --help",
+    "idq-stream --help",
+    "idq-streaming_train --help",
+    "idq-streaming_evaluate --help",
+    "idq-streaming_calibrate --help",
+    "idq-streaming_timeseries --help",
+    "idq-streaming_report --help",
+    "idq-target-times --help",
+    "idq-timeseries --help",
+    "idq-train --help"
+   ],
+   "imports":[
+    "idq",
+    "idq",
+    "idq"
+   ]
+  }
+ },
+ "name":"idq",
+ "new_version":"0.3.1",
+ "pinning_version":"2020.05.06.22.15.02",
+ "raw_meta_yaml":"{% set name = \"iDQ\" %}\n{% set version = \"0.3.1\" %}\n{% set sha256 = \"3efd56556e2a4e335887fc9d2cd96c7e884240bcc869fec45146cfa0cdb528c9\" %}\n\npackage:\n  name: \"{{ name|lower }}\"\n  version: \"{{ version }}\"\n\nsource:\n  url: \"http://software.ligo.org/lscsoft/source/{{ name }}-{{ version }}.tar.gz\"\n  sha256: \"{{ sha256 }}\"\n\nbuild:\n  number: 1\n  script: \"{{ PYTHON }} -m pip install . -vv\"\n  skip: true  # [win]\n\nrequirements:\n  host:\n    - pip\n    - python\n    - setuptools\n\n  run:\n    - dqsegdb\n    - h5py >=2.3.0\n    - lscsoft-glue\n    - ligo-common\n    - ligo-segments\n    - ligo-scald\n    - libframe\n    - matplotlib-base >=1.2.0\n    - numpy >=1.7.1\n    - python\n    - python-confluent-kafka >=0.11.4\n    - python-lal\n    - python-lalframe\n    - python-ldas-tools-framecpp\n    - python-ligo-lw\n    - scikit-learn >=0.18.2\n    - scipy\n\ntest:\n  imports:\n    - idq\n  commands:\n    - idq-batch --help\n    - idq-calibrate --help\n    - idq-condor_batch --help\n    - idq-condor_train --help\n    - idq-condor_evaluate --help\n    - idq-condor_calibrate --help\n    - idq-condor_timeseries --help\n    - idq-check_config --help\n    - idq-evaluate --help\n    #- idq-kwm2hdf5 --help  <-- requires gstlal (not a user script)\n    - idq-kwm2kws --help\n    - idq-monitor --help\n    - idq-report --help\n    - idq-simtimeseries --help\n    - idq-stream --help\n    - idq-streaming_train --help\n    - idq-streaming_evaluate --help\n    - idq-streaming_calibrate --help\n    - idq-streaming_timeseries --help\n    - idq-streaming_report --help\n    - idq-target-times --help\n    - idq-timeseries --help\n    - idq-train --help\n\nabout:\n  home: \"https://git.ligo.org/reed.essick/iDQ\"\n  license: \"MIT\"\n  license_family: \"MIT\"\n  license_file: \"LICENSE\"\n  doc_url: \"https://docs.ligo.org/reed.essick/iDQ\"\n  dev_url: \"https://git.ligo.org/reed.essick/iDQ\"\n  summary: \"a low-latency statistical data quality pipeline for glitch detection\"\n\nextra:\n  recipe-maintainers:\n    -  myNameIsPatrick\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "dqsegdb",
+   "h5py",
+   "libframe",
+   "ligo-common",
+   "ligo-scald",
+   "ligo-segments",
+   "lscsoft-glue",
+   "matplotlib-base",
+   "numpy",
+   "pip",
+   "python",
+   "python-confluent-kafka",
+   "python-lal",
+   "python-lalframe",
+   "python-ldas-tools-framecpp",
+   "python-ligo-lw",
+   "scikit-learn",
+   "scipy",
+   "setuptools"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python",
+    "setuptools"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "dqsegdb",
+    "h5py",
+    "libframe",
+    "ligo-common",
+    "ligo-scald",
+    "ligo-segments",
+    "lscsoft-glue",
+    "matplotlib-base",
+    "numpy",
+    "python",
+    "python-confluent-kafka",
+    "python-lal",
+    "python-lalframe",
+    "python-ldas-tools-framecpp",
+    "python-ligo-lw",
+    "scikit-learn",
+    "scipy"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.7.0\n",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python",
+    "setuptools"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "dqsegdb",
+    "h5py >=2.3.0",
+    "libframe",
+    "ligo-common",
+    "ligo-scald",
+    "ligo-segments",
+    "lscsoft-glue",
+    "matplotlib-base >=1.2.0",
+    "numpy >=1.7.1",
+    "python",
+    "python-confluent-kafka >=0.11.4",
+    "python-lal",
+    "python-lalframe",
+    "python-ldas-tools-framecpp",
+    "python-ligo-lw",
+    "scikit-learn >=0.18.2",
+    "scipy"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"http://software.ligo.org/lscsoft/source/iDQ-0.1.1.tar.gz",
+ "version":"0.3.1"
+}

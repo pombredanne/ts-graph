@@ -1,0 +1,218 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/279251743.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.1.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/285032941.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.2.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/330301517.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.0.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"flask-dance",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "dev_url":"https://github.com/singingwolfboy/flask-dance",
+   "doc_url":"http://flask-dance.readthedocs.io/",
+   "home":"https://pypi.org/project/Flask-Dance/",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"LICENSE",
+   "summary":"Doing the OAuth dance with style using Flask, requests, and oauthlib."
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install --no-deps . -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "ericcina",
+    "ericcina",
+    "ericcina"
+   ]
+  },
+  "package":{
+   "name":"flask-dance",
+   "version":"2.2.0"
+  },
+  "requirements":{
+   "host":[
+    "python >=3",
+    "pip",
+    "python >=3",
+    "pip",
+    "python >=3",
+    "pip"
+   ],
+   "run":[
+    "python >=3",
+    "requests >=2.0",
+    "oauthlib",
+    "requests-oauthlib >=1.0.0",
+    "Flask >=0.7",
+    "urlobject",
+    "six",
+    "python >=3",
+    "requests >=2.0",
+    "oauthlib",
+    "requests-oauthlib >=1.0.0",
+    "Flask >=0.7",
+    "urlobject",
+    "six",
+    "python >=3",
+    "requests >=2.0",
+    "oauthlib",
+    "requests-oauthlib >=1.0.0",
+    "Flask >=0.7",
+    "urlobject",
+    "six"
+   ]
+  },
+  "source":{
+   "sha256":"83d6f8d684150ac8fe7d4f2ad8d71170c3233831a09601eb0e5b40d0c28e337d",
+   "url":"https://pypi.io/packages/source/F/Flask-Dance/Flask-Dance-2.2.0.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "flask_dance",
+    "flask_dance.consumer",
+    "flask_dance.consumer.storage",
+    "flask_dance.contrib",
+    "flask_dance",
+    "flask_dance.consumer",
+    "flask_dance.consumer.storage",
+    "flask_dance.contrib",
+    "flask_dance",
+    "flask_dance.consumer",
+    "flask_dance.consumer.storage",
+    "flask_dance.contrib"
+   ]
+  }
+ },
+ "name":"flask-dance",
+ "new_version":"3.0.0",
+ "pinning_version":"2019.10.11",
+ "raw_meta_yaml":"{% set name = \"Flask-Dance\" %}\n{% set version = \"2.2.0\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: 83d6f8d684150ac8fe7d4f2ad8d71170c3233831a09601eb0e5b40d0c28e337d\n\nbuild:\n  number: 0\n  noarch: python\n  script: \"{{ PYTHON }} -m pip install --no-deps . -vv\"\n\nrequirements:\n  host:\n    - python >=3\n    - pip\n  run:\n    - python >=3\n    - requests >=2.0\n    - oauthlib\n    - requests-oauthlib >=1.0.0\n    - Flask >=0.7\n    - urlobject\n    - six\n\ntest:\n  imports:\n    - flask_dance\n    - flask_dance.consumer\n    - flask_dance.consumer.storage\n    - flask_dance.contrib\n\nabout:\n  home: https://pypi.org/project/Flask-Dance/\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE\n  summary: 'Doing the OAuth dance with style using Flask, requests, and oauthlib.'\n\n  doc_url: http://flask-dance.readthedocs.io/\n  dev_url: https://github.com/singingwolfboy/flask-dance\n\nextra:\n  recipe-maintainers:\n    - ericcina\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "flask",
+   "oauthlib",
+   "pip",
+   "python",
+   "requests",
+   "requests-oauthlib",
+   "six",
+   "urlobject"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "flask",
+    "oauthlib",
+    "python",
+    "requests",
+    "requests-oauthlib",
+    "six",
+    "urlobject"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.6.0",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "Flask >=0.7",
+    "oauthlib",
+    "python >=3",
+    "requests >=2.0",
+    "requests-oauthlib >=1.0.0",
+    "six",
+    "urlobject"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/F/Flask-Dance/Flask-Dance-2.2.0.tar.gz",
+ "version":"2.2.0"
+}

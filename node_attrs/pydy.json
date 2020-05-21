@@ -1,0 +1,421 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/222928946.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/243484421.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.5.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/362846018.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"python38"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/375685608.json"
+   },
+   "data":{
+    "bot_rerun":1589819711.802952,
+    "migrator_name":"MatplotlibBase",
+    "migrator_version":0,
+    "name":"matplotlib-to-matplotlib-base"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/419630158.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MatplotlibBase",
+    "migrator_version":0,
+    "name":"matplotlib-to-matplotlib-base"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "compiler_stack":"comp7",
+  "max_py_ver":"37",
+  "max_r_ver":"35",
+  "provider":{
+   "win":"azure"
+  }
+ },
+ "feedstock_name":"pydy",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "dev_url":"http://github.com/pydy/pydy",
+   "doc_url":"http://pydy.readthedocs.io",
+   "home":"http://pydy.org",
+   "license":"BSD-3-Clause",
+   "license_family":"BSD",
+   "summary":"Python tool kit for multi-body dynamics."
+  },
+  "build":{
+   "number":"1003",
+   "script":"python setup.py install --single-version-externally-managed --record record.txt"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "moorepants",
+    "moorepants",
+    "moorepants"
+   ]
+  },
+  "outputs":[
+   {
+    "name":"pydy"
+   },
+   {
+    "about":{
+     "dev_url":"http://github.com/pydy/pydy",
+     "doc_url":"http://pydy.readthedocs.io",
+     "home":"http://pydy.org",
+     "license":"BSD 3-Clause",
+     "license_family":"BSD",
+     "summary":"A metapackage that installs all required and optional dependencies to run PyDy and its included examples."
+    },
+    "name":"pydy-optional",
+    "requirements":{
+     "run":[
+      "python",
+      "pydy 0.5.0",
+      "notebook 4.*",
+      "tornado <5",
+      "ipywidgets 4.*",
+      "cython >=0.23.4",
+      "theano >=0.8.0",
+      "version_information",
+      "matplotlib >=1.5.1"
+     ]
+    },
+    "test":{
+     "imports":[
+      "pydy",
+      "pydy.codegen",
+      "pydy.codegen.tests",
+      "pydy.models",
+      "pydy.system",
+      "pydy.utils",
+      "pydy.viz",
+      "pydy.viz.tests"
+     ]
+    },
+    "version":"0.5.0"
+   },
+   {
+    "name":"pydy"
+   },
+   {
+    "about":{
+     "dev_url":"http://github.com/pydy/pydy",
+     "doc_url":"http://pydy.readthedocs.io",
+     "home":"http://pydy.org",
+     "license":"BSD 3-Clause",
+     "license_family":"BSD",
+     "summary":"A metapackage that installs all required and optional dependencies to run PyDy and its included examples."
+    },
+    "name":"pydy-optional",
+    "requirements":{
+     "run":[
+      "python",
+      "pydy 0.5.0",
+      "notebook 4.*",
+      "tornado <5",
+      "ipywidgets 4.*",
+      "cython >=0.23.4",
+      "theano >=0.8.0",
+      "version_information",
+      "matplotlib >=1.5.1"
+     ]
+    },
+    "test":{
+     "imports":[
+      "pydy",
+      "pydy.codegen",
+      "pydy.codegen.tests",
+      "pydy.models",
+      "pydy.system",
+      "pydy.utils",
+      "pydy.viz",
+      "pydy.viz.tests"
+     ]
+    },
+    "version":"0.5.0"
+   },
+   {
+    "name":"pydy"
+   },
+   {
+    "about":{
+     "dev_url":"http://github.com/pydy/pydy",
+     "doc_url":"http://pydy.readthedocs.io",
+     "home":"http://pydy.org",
+     "license":"BSD 3-Clause",
+     "license_family":"BSD",
+     "summary":"A metapackage that installs all required and optional dependencies to run PyDy and its included examples."
+    },
+    "name":"pydy-optional",
+    "requirements":{
+     "run":[
+      "python",
+      "pydy 0.5.0",
+      "notebook 4.*",
+      "tornado <5",
+      "ipywidgets 4.*",
+      "cython >=0.23.4",
+      "theano >=0.8.0",
+      "version_information",
+      "matplotlib >=1.5.1"
+     ]
+    },
+    "test":{
+     "imports":[
+      "pydy",
+      "pydy.codegen",
+      "pydy.codegen.tests",
+      "pydy.models",
+      "pydy.system",
+      "pydy.utils",
+      "pydy.viz",
+      "pydy.viz.tests"
+     ]
+    },
+    "version":"0.5.0"
+   }
+  ],
+  "package":{
+   "name":"pydy",
+   "version":"0.5.0"
+  },
+  "requirements":{
+   "build":[
+    "python",
+    "setuptools >=20.7.0",
+    "python",
+    "setuptools >=20.7.0",
+    "python",
+    "setuptools >=20.7.0"
+   ],
+   "run":[
+    "python",
+    "setuptools >=20.7.0",
+    "sympy >=0.7.6.1",
+    "numpy >=1.11.0",
+    "scipy >=0.17.1",
+    "pywin32",
+    "python",
+    "setuptools >=20.7.0",
+    "sympy >=0.7.6.1",
+    "numpy >=1.11.0",
+    "scipy >=0.17.1",
+    "python",
+    "setuptools >=20.7.0",
+    "sympy >=0.7.6.1",
+    "numpy >=1.11.0",
+    "scipy >=0.17.1"
+   ],
+   "run_constrained":[
+    "cython >=0.23.4",
+    "theano >=0.8.0",
+    "cython >=0.23.4",
+    "theano >=0.8.0",
+    "cython >=0.23.4",
+    "theano >=0.8.0"
+   ]
+  },
+  "source":{
+   "fn":"pydy-0.5.0.tar.gz",
+   "sha256":"1b487a62b55a8c8664009b09bf789254b2c942cd704a380bedb1057418c94fa2",
+   "url":"https://pypi.io/packages/source/p/pydy/pydy-0.5.0.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "pydy",
+    "pydy.codegen",
+    "pydy.codegen.tests",
+    "pydy.models",
+    "pydy.system",
+    "pydy.utils",
+    "pydy.viz",
+    "pydy.viz.tests",
+    "pydy",
+    "pydy.codegen",
+    "pydy.codegen.tests",
+    "pydy.models",
+    "pydy.system",
+    "pydy.utils",
+    "pydy.viz",
+    "pydy.viz.tests",
+    "pydy",
+    "pydy.codegen",
+    "pydy.codegen.tests",
+    "pydy.models",
+    "pydy.system",
+    "pydy.utils",
+    "pydy.viz",
+    "pydy.viz.tests"
+   ]
+  }
+ },
+ "name":"pydy",
+ "new_version":"0.5.0",
+ "outputs_names":[
+  "pydy",
+  "pydy-optional"
+ ],
+ "pinning_version":"2020.05.18.14.31.44",
+ "raw_meta_yaml":"{% set name = \"pydy\" %}\n{% set version = \"0.5.0\" %}\n{% set sha256 = \"1b487a62b55a8c8664009b09bf789254b2c942cd704a380bedb1057418c94fa2\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  fn: pydy-{{ version }}.tar.gz\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 1003\n  script: python setup.py install --single-version-externally-managed --record record.txt\n\nrequirements:\n  build:\n    - python\n    - setuptools >=20.7.0\n  run:\n    - python\n    - setuptools >=20.7.0\n    - sympy >=0.7.6.1\n    - numpy >=1.11.0\n    - scipy >=0.17.1\n    - pywin32  # [win]\n  run_constrained:\n    # These packages offer enhancements to the code generation and are\n    # optional, but if installed in the same environment as PyDy they should\n    # meet these requirements. Note that I only include the optional\n    # dependencies that are required for \"pydy as a library\". Once the viz\n    # issues are ironed out, we could potentially add Jupyter notebook here.\n    - cython >=0.23.4\n    - theano >=0.8.0\n\ntest:\n  imports:\n    - pydy\n    - pydy.codegen\n    - pydy.codegen.tests\n    - pydy.models\n    - pydy.system\n    - pydy.utils\n    - pydy.viz\n    - pydy.viz.tests\n\noutputs:\n  - name: pydy\n  - name: pydy-optional\n    version: {{ version }}\n    requirements:\n      run:\n        - python\n        - pydy {{ version }}\n        # Optional dependencies:\n        - notebook 4.*\n        - tornado <5  # required for notebook 4\n        - ipywidgets 4.*\n        - cython >=0.23.4\n        - theano >=0.8.0\n        # Required for examples:\n        - version_information\n        - matplotlib >=1.5.1\n    test:\n      imports:\n        - pydy\n        - pydy.codegen\n        - pydy.codegen.tests\n        - pydy.models\n        - pydy.system\n        - pydy.utils\n        - pydy.viz\n        - pydy.viz.tests\n    about:\n      home: http://pydy.org\n      license: BSD 3-Clause\n      license_family: BSD\n      summary: 'A metapackage that installs all required and optional dependencies to run PyDy and its included examples.'\n      doc_url: http://pydy.readthedocs.io\n      dev_url: http://github.com/pydy/pydy\n\nabout:\n  home: http://pydy.org\n  license: BSD-3-Clause\n  license_family: BSD\n  summary: 'Python tool kit for multi-body dynamics.'\n  doc_url: http://pydy.readthedocs.io\n  dev_url: http://github.com/pydy/pydy\n\nextra:\n    recipe-maintainers:\n        - moorepants\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "cython",
+   "ipywidgets",
+   "matplotlib",
+   "notebook",
+   "numpy",
+   "pydy",
+   "python",
+   "pywin32",
+   "scipy",
+   "setuptools",
+   "sympy",
+   "theano",
+   "tornado",
+   "version_information"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "python",
+    "setuptools"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "cython",
+    "ipywidgets",
+    "matplotlib",
+    "notebook",
+    "numpy",
+    "pydy",
+    "python",
+    "pywin32",
+    "scipy",
+    "setuptools",
+    "sympy",
+    "theano",
+    "tornado",
+    "version_information"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.7.2\n",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "python",
+    "setuptools >=20.7.0"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "cython >=0.23.4",
+    "ipywidgets 4.*",
+    "matplotlib >=1.5.1",
+    "notebook 4.*",
+    "numpy >=1.11.0",
+    "pydy 0.5.0",
+    "python",
+    "pywin32",
+    "scipy >=0.17.1",
+    "setuptools >=20.7.0",
+    "sympy >=0.7.6.1",
+    "theano >=0.8.0",
+    "tornado <5",
+    "version_information"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/p/pydy/pydy-0.5.0.tar.gz",
+ "version":"0.5.0"
+}

@@ -1,0 +1,481 @@
+{
+ "PRed":[
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"5.2.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/228853996.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/231377335.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"5.3.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/240686734.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"5.4.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/262262168.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"BlasRebuild",
+    "migrator_version":0,
+    "name":"blas2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/270249349.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"5.0.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/271998052.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"5.1.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/358548672.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"ArchRebuild",
+    "migrator_version":1,
+    "name":"aarch64 and ppc64le addition"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/378025437.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"5.7.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/400654977.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"5.7.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/401090600.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"5.7.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "provider":{
+   "linux_aarch64":"default",
+   "linux_ppc64le":"azure"
+  }
+ },
+ "feedstock_name":"suitesparse",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "dev_url":"https://github.com/DrTimothyAldenDavis/SuiteSparse",
+   "home":"http://faculty.cse.tamu.edu/davis/suitesparse.html",
+   "license":"LGPL-2.1-or-later (AMD, BTF, etc.), BSD-3-clause (UFget), GPL-2.0-or-later (UMFPACK, RBIO, SPQR, GPUQRENGINE), Apache-2.0 (Metis)",
+   "license_file":"LICENSE.txt",
+   "summary":"A suite of sparse matrix algorithms"
+  },
+  "build":{
+   "number":"0",
+   "run_exports":[
+    "suitesparse",
+    "suitesparse",
+    "suitesparse"
+   ],
+   "skip":true
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "grlee77",
+    "jakirkham",
+    "basnijholt",
+    "minrk",
+    "jayfurmanek",
+    "grlee77",
+    "jakirkham",
+    "basnijholt",
+    "minrk",
+    "jayfurmanek",
+    "grlee77",
+    "jakirkham",
+    "basnijholt",
+    "minrk",
+    "jayfurmanek"
+   ]
+  },
+  "package":{
+   "name":"suitesparse",
+   "version":"5.7.2"
+  },
+  "requirements":{
+   "build":[
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "cmake",
+    "make",
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "cmake",
+    "make",
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "cmake",
+    "make"
+   ],
+   "host":[
+    "libblas",
+    "libcblas",
+    "liblapack",
+    "tbb-devel",
+    "metis",
+    "libblas",
+    "libcblas",
+    "liblapack",
+    "tbb-devel",
+    "metis",
+    "libblas",
+    "libcblas",
+    "liblapack",
+    "tbb-devel",
+    "metis"
+   ],
+   "run":[
+    "metis",
+    "metis",
+    "metis"
+   ]
+  },
+  "source":{
+   "sha256":"fe3bc7c3bd1efdfa5cffffb5cebf021ff024c83b5daf0ab445429d3d741bd3ad",
+   "url":"https://github.com/DrTimothyAldenDavis/SuiteSparse/archive/v5.7.2.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "test ! -f ${PREFIX}/bin/mongoose",
+    "test ! -f ${PREFIX}/include/GraphBLAS.h",
+    "test ! -f ${PREFIX}/include/Mongoose.hpp",
+    "test ! -f ${PREFIX}/lib/libgraphblas${SHLIB_EXT}",
+    "test ! -f ${PREFIX}/lib/libmongoose${SHLIB_EXT}",
+    "test ! -f ${PREFIX}/lib/libgraphblas.a",
+    "test ! -f ${PREFIX}/lib/libmongoose.a",
+    "test -f ${PREFIX}/include/amd.h",
+    "test -f ${PREFIX}/include/umfpack.h",
+    "test -f ${PREFIX}/lib/libamd${SHLIB_EXT}",
+    "test -f ${PREFIX}/lib/libbtf${SHLIB_EXT}",
+    "test -f ${PREFIX}/lib/libcamd${SHLIB_EXT}",
+    "test -f ${PREFIX}/lib/libccolamd${SHLIB_EXT}",
+    "test -f ${PREFIX}/lib/libcholmod${SHLIB_EXT}",
+    "test -f ${PREFIX}/lib/libcolamd${SHLIB_EXT}",
+    "test -f ${PREFIX}/lib/libcxsparse${SHLIB_EXT}",
+    "test -f ${PREFIX}/lib/libklu${SHLIB_EXT}",
+    "test -f ${PREFIX}/lib/libldl${SHLIB_EXT}",
+    "test -f ${PREFIX}/lib/librbio${SHLIB_EXT}",
+    "test -f ${PREFIX}/lib/libspqr${SHLIB_EXT}",
+    "test -f ${PREFIX}/lib/libsuitesparseconfig${SHLIB_EXT}",
+    "test -f ${PREFIX}/lib/libumfpack${SHLIB_EXT}",
+    "test -f ${PREFIX}/lib/libumfpack${SHLIB_EXT}",
+    "test -f ${PREFIX}/lib/libamd.a",
+    "test -f ${PREFIX}/lib/libbtf.a",
+    "test -f ${PREFIX}/lib/libcamd.a",
+    "test -f ${PREFIX}/lib/libccolamd.a",
+    "test -f ${PREFIX}/lib/libcholmod.a",
+    "test -f ${PREFIX}/lib/libcolamd.a",
+    "test -f ${PREFIX}/lib/libcxsparse.a",
+    "test -f ${PREFIX}/lib/libklu.a",
+    "test -f ${PREFIX}/lib/libldl.a",
+    "test -f ${PREFIX}/lib/librbio.a",
+    "test -f ${PREFIX}/lib/libspqr.a",
+    "test -f ${PREFIX}/lib/libsuitesparseconfig.a",
+    "test -f ${PREFIX}/lib/libumfpack.a",
+    "test ! -f ${PREFIX}/bin/mongoose",
+    "test ! -f ${PREFIX}/include/GraphBLAS.h",
+    "test ! -f ${PREFIX}/include/Mongoose.hpp",
+    "test ! -f ${PREFIX}/lib/libgraphblas${SHLIB_EXT}",
+    "test ! -f ${PREFIX}/lib/libmongoose${SHLIB_EXT}",
+    "test ! -f ${PREFIX}/lib/libgraphblas.a",
+    "test ! -f ${PREFIX}/lib/libmongoose.a",
+    "test -f ${PREFIX}/include/amd.h",
+    "test -f ${PREFIX}/include/umfpack.h",
+    "test -f ${PREFIX}/lib/libamd${SHLIB_EXT}",
+    "test -f ${PREFIX}/lib/libbtf${SHLIB_EXT}",
+    "test -f ${PREFIX}/lib/libcamd${SHLIB_EXT}",
+    "test -f ${PREFIX}/lib/libccolamd${SHLIB_EXT}",
+    "test -f ${PREFIX}/lib/libcholmod${SHLIB_EXT}",
+    "test -f ${PREFIX}/lib/libcolamd${SHLIB_EXT}",
+    "test -f ${PREFIX}/lib/libcxsparse${SHLIB_EXT}",
+    "test -f ${PREFIX}/lib/libklu${SHLIB_EXT}",
+    "test -f ${PREFIX}/lib/libldl${SHLIB_EXT}",
+    "test -f ${PREFIX}/lib/librbio${SHLIB_EXT}",
+    "test -f ${PREFIX}/lib/libspqr${SHLIB_EXT}",
+    "test -f ${PREFIX}/lib/libsuitesparseconfig${SHLIB_EXT}",
+    "test -f ${PREFIX}/lib/libumfpack${SHLIB_EXT}",
+    "test -f ${PREFIX}/lib/libumfpack${SHLIB_EXT}",
+    "test -f ${PREFIX}/lib/libamd.a",
+    "test -f ${PREFIX}/lib/libbtf.a",
+    "test -f ${PREFIX}/lib/libcamd.a",
+    "test -f ${PREFIX}/lib/libccolamd.a",
+    "test -f ${PREFIX}/lib/libcholmod.a",
+    "test -f ${PREFIX}/lib/libcolamd.a",
+    "test -f ${PREFIX}/lib/libcxsparse.a",
+    "test -f ${PREFIX}/lib/libklu.a",
+    "test -f ${PREFIX}/lib/libldl.a",
+    "test -f ${PREFIX}/lib/librbio.a",
+    "test -f ${PREFIX}/lib/libspqr.a",
+    "test -f ${PREFIX}/lib/libsuitesparseconfig.a",
+    "test -f ${PREFIX}/lib/libumfpack.a",
+    "test ! -f ${PREFIX}/bin/mongoose",
+    "test ! -f ${PREFIX}/include/GraphBLAS.h",
+    "test ! -f ${PREFIX}/include/Mongoose.hpp",
+    "test ! -f ${PREFIX}/lib/libgraphblas${SHLIB_EXT}",
+    "test ! -f ${PREFIX}/lib/libmongoose${SHLIB_EXT}",
+    "test ! -f ${PREFIX}/lib/libgraphblas.a",
+    "test ! -f ${PREFIX}/lib/libmongoose.a",
+    "test -f ${PREFIX}/include/amd.h",
+    "test -f ${PREFIX}/include/umfpack.h",
+    "test -f ${PREFIX}/lib/libamd${SHLIB_EXT}",
+    "test -f ${PREFIX}/lib/libbtf${SHLIB_EXT}",
+    "test -f ${PREFIX}/lib/libcamd${SHLIB_EXT}",
+    "test -f ${PREFIX}/lib/libccolamd${SHLIB_EXT}",
+    "test -f ${PREFIX}/lib/libcholmod${SHLIB_EXT}",
+    "test -f ${PREFIX}/lib/libcolamd${SHLIB_EXT}",
+    "test -f ${PREFIX}/lib/libcxsparse${SHLIB_EXT}",
+    "test -f ${PREFIX}/lib/libklu${SHLIB_EXT}",
+    "test -f ${PREFIX}/lib/libldl${SHLIB_EXT}",
+    "test -f ${PREFIX}/lib/librbio${SHLIB_EXT}",
+    "test -f ${PREFIX}/lib/libspqr${SHLIB_EXT}",
+    "test -f ${PREFIX}/lib/libsuitesparseconfig${SHLIB_EXT}",
+    "test -f ${PREFIX}/lib/libumfpack${SHLIB_EXT}",
+    "test -f ${PREFIX}/lib/libumfpack${SHLIB_EXT}",
+    "test -f ${PREFIX}/lib/libamd.a",
+    "test -f ${PREFIX}/lib/libbtf.a",
+    "test -f ${PREFIX}/lib/libcamd.a",
+    "test -f ${PREFIX}/lib/libccolamd.a",
+    "test -f ${PREFIX}/lib/libcholmod.a",
+    "test -f ${PREFIX}/lib/libcolamd.a",
+    "test -f ${PREFIX}/lib/libcxsparse.a",
+    "test -f ${PREFIX}/lib/libklu.a",
+    "test -f ${PREFIX}/lib/libldl.a",
+    "test -f ${PREFIX}/lib/librbio.a",
+    "test -f ${PREFIX}/lib/libspqr.a",
+    "test -f ${PREFIX}/lib/libsuitesparseconfig.a",
+    "test -f ${PREFIX}/lib/libumfpack.a"
+   ]
+  }
+ },
+ "name":"suitesparse",
+ "new_version":"5.7.2",
+ "new_version_attempts":{
+  "5.7.0":1,
+  "5.7.2":1
+ },
+ "new_version_errors":{},
+ "pinning_version":"2020.04.09",
+ "raw_meta_yaml":"{% set version = \"5.7.2\" %}\n\npackage:\n  name: suitesparse\n  version: {{ version }}\n\nsource:\n  url: https://github.com/DrTimothyAldenDavis/SuiteSparse/archive/v{{ version }}.tar.gz\n  sha256: fe3bc7c3bd1efdfa5cffffb5cebf021ff024c83b5daf0ab445429d3d741bd3ad\n\nbuild:\n  skip: true  # [win]\n  number: 0\n  run_exports:\n    - {{ pin_subpackage(\"suitesparse\") }}\n\nrequirements:\n  build:\n    - {{ compiler('c') }}\n    - {{ compiler('cxx') }}\n    - cmake\n    - make\n  host:\n    - libblas\n    - libcblas\n    - liblapack\n    - tbb-devel\n    - metis\n  run:\n    - metis\n\ntest:\n  commands:\n    # graphblas and mongoose are omitted\n    - test ! -f ${PREFIX}/bin/mongoose\n    - test ! -f ${PREFIX}/include/GraphBLAS.h\n    - test ! -f ${PREFIX}/include/Mongoose.hpp\n    - test ! -f ${PREFIX}/lib/libgraphblas${SHLIB_EXT}\n    - test ! -f ${PREFIX}/lib/libmongoose${SHLIB_EXT}\n    - test ! -f ${PREFIX}/lib/libgraphblas.a\n    - test ! -f ${PREFIX}/lib/libmongoose.a\n\n    - test -f ${PREFIX}/include/amd.h\n    - test -f ${PREFIX}/include/umfpack.h\n    - test -f ${PREFIX}/lib/libamd${SHLIB_EXT}\n    - test -f ${PREFIX}/lib/libbtf${SHLIB_EXT}\n    - test -f ${PREFIX}/lib/libcamd${SHLIB_EXT}\n    - test -f ${PREFIX}/lib/libccolamd${SHLIB_EXT}\n    - test -f ${PREFIX}/lib/libcholmod${SHLIB_EXT}\n    - test -f ${PREFIX}/lib/libcolamd${SHLIB_EXT}\n    - test -f ${PREFIX}/lib/libcxsparse${SHLIB_EXT}\n    - test -f ${PREFIX}/lib/libklu${SHLIB_EXT}\n    - test -f ${PREFIX}/lib/libldl${SHLIB_EXT}\n    - test -f ${PREFIX}/lib/librbio${SHLIB_EXT}\n    - test -f ${PREFIX}/lib/libspqr${SHLIB_EXT}\n    - test -f ${PREFIX}/lib/libsuitesparseconfig${SHLIB_EXT}\n    - test -f ${PREFIX}/lib/libumfpack${SHLIB_EXT}\n    - test -f ${PREFIX}/lib/libumfpack${SHLIB_EXT}\n    - test -f ${PREFIX}/lib/libamd.a\n    - test -f ${PREFIX}/lib/libbtf.a\n    - test -f ${PREFIX}/lib/libcamd.a\n    - test -f ${PREFIX}/lib/libccolamd.a\n    - test -f ${PREFIX}/lib/libcholmod.a\n    - test -f ${PREFIX}/lib/libcolamd.a\n    - test -f ${PREFIX}/lib/libcxsparse.a\n    - test -f ${PREFIX}/lib/libklu.a\n    - test -f ${PREFIX}/lib/libldl.a\n    - test -f ${PREFIX}/lib/librbio.a\n    - test -f ${PREFIX}/lib/libspqr.a\n    - test -f ${PREFIX}/lib/libsuitesparseconfig.a\n    - test -f ${PREFIX}/lib/libumfpack.a\n\nabout:\n  home: http://faculty.cse.tamu.edu/davis/suitesparse.html\n  license: LGPL-2.1-or-later (AMD, BTF, etc.), BSD-3-clause (UFget), GPL-2.0-or-later (UMFPACK, RBIO, SPQR, GPUQRENGINE), Apache-2.0 (Metis)\n  license_file: LICENSE.txt\n  summary: A suite of sparse matrix algorithms\n  dev_url: https://github.com/DrTimothyAldenDavis/SuiteSparse\n\nextra:\n  recipe-maintainers:\n    - grlee77\n    - jakirkham\n    - basnijholt\n    - minrk\n    - jayfurmanek\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "c_compiler_stub",
+   "cmake",
+   "cxx_compiler_stub",
+   "libblas",
+   "libcblas",
+   "liblapack",
+   "make",
+   "metis",
+   "tbb-devel"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "cmake",
+    "cxx_compiler_stub",
+    "make"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "libblas",
+    "libcblas",
+    "liblapack",
+    "metis",
+    "tbb-devel"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "metis"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.6.16",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "cmake",
+    "cxx_compiler_stub",
+    "make"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "libblas",
+    "libcblas",
+    "liblapack",
+    "metis",
+    "tbb-devel"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "metis"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"http://faculty.cse.tamu.edu/davis/SuiteSparse/SuiteSparse-4.5.6.tar.gz",
+ "version":"5.7.2"
+}

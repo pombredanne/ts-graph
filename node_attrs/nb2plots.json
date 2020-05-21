@@ -1,0 +1,194 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/375720782.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MatplotlibBase",
+    "migrator_version":0,
+    "name":"matplotlib-to-matplotlib-base"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"nb2plots",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"nb2plots converts Jupyter notebooks to ReST files for Sphinx, and back again.\nNb2plots assumes that the ReST document will become the source for your Sphinx\nweb pages, but also for future versions of the notebook. The notebook may\nserve as a draft for the polished ReST page, and an output format from the Sphinx build.\n",
+   "dev_url":"http://github.com/matthew-brett/nb2plots",
+   "doc_url":"https://matthew-brett.github.com/nb2plots",
+   "home":"http://github.com/matthew-brett/nb2plots",
+   "license":"BSD-2-Clause",
+   "license_family":"BSD",
+   "license_file":"LICENSE",
+   "summary":"Converting between ipython notebooks and sphinx docs"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"1",
+   "script":"python -m pip install --no-deps --ignore-installed ."
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "CurtLH",
+    "CurtLH",
+    "CurtLH"
+   ]
+  },
+  "package":{
+   "name":"nb2plots",
+   "version":"0.6"
+  },
+  "requirements":{
+   "host":[
+    "python",
+    "pip",
+    "python",
+    "pip",
+    "python",
+    "pip"
+   ],
+   "run":[
+    "python",
+    "ipython[notebook] >=3.0",
+    "sphinx >=1.4",
+    "numpy >=1.6.1",
+    "matplotlib-base >=1.1.0",
+    "six >=1.7.0",
+    "sphinxtesters",
+    "texext",
+    "nbconvert",
+    "python",
+    "ipython[notebook] >=3.0",
+    "sphinx >=1.4",
+    "numpy >=1.6.1",
+    "matplotlib-base >=1.1.0",
+    "six >=1.7.0",
+    "sphinxtesters",
+    "texext",
+    "nbconvert",
+    "python",
+    "ipython[notebook] >=3.0",
+    "sphinx >=1.4",
+    "numpy >=1.6.1",
+    "matplotlib-base >=1.1.0",
+    "six >=1.7.0",
+    "sphinxtesters",
+    "texext",
+    "nbconvert"
+   ]
+  },
+  "source":{
+   "sha256":"ed3e62fad6701c0d3f4575b8a7037e69584e2d6e6cff47f786dd7a8c73fc9a6a",
+   "url":"https://pypi.io/packages/source/n/nb2plots/nb2plots-0.6.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "nb2plots",
+    "nb2plots.testing",
+    "nb2plots.tests",
+    "nb2plots",
+    "nb2plots.testing",
+    "nb2plots.tests",
+    "nb2plots",
+    "nb2plots.testing",
+    "nb2plots.tests"
+   ]
+  }
+ },
+ "name":"nb2plots",
+ "new_version":"0.6",
+ "pinning_version":"2020.02.12",
+ "raw_meta_yaml":"{% set name = \"nb2plots\" %}\n{% set version = \"0.6\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: ed3e62fad6701c0d3f4575b8a7037e69584e2d6e6cff47f786dd7a8c73fc9a6a\n\nbuild:\n  noarch: python\n  number: 1\n  script: python -m pip install --no-deps --ignore-installed .\n\nrequirements:\n  host:\n    - python\n    - pip\n  run:\n    - python\n    - ipython[notebook] >=3.0\n    - sphinx >=1.4\n    - numpy >=1.6.1\n    - matplotlib-base >=1.1.0\n    - six >=1.7.0\n    - sphinxtesters\n    - texext\n    - nbconvert\n\ntest:\n  imports:\n    - nb2plots\n    - nb2plots.testing\n    - nb2plots.tests\n\nabout:\n  home: http://github.com/matthew-brett/nb2plots\n  license: BSD-2-Clause\n  license_family: BSD\n  license_file: LICENSE\n  summary: 'Converting between ipython notebooks and sphinx docs'\n\n  description: |\n    nb2plots converts Jupyter notebooks to ReST files for Sphinx, and back again.\n    Nb2plots assumes that the ReST document will become the source for your Sphinx\n    web pages, but also for future versions of the notebook. The notebook may\n    serve as a draft for the polished ReST page, and an output format from the Sphinx build. \n  doc_url: https://matthew-brett.github.com/nb2plots\n  dev_url: http://github.com/matthew-brett/nb2plots\n\nextra:\n  recipe-maintainers:\n    - CurtLH\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "ipython",
+   "matplotlib-base",
+   "nbconvert",
+   "numpy",
+   "pip",
+   "python",
+   "six",
+   "sphinx",
+   "sphinxtesters",
+   "texext"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "ipython",
+    "matplotlib-base",
+    "nbconvert",
+    "numpy",
+    "python",
+    "six",
+    "sphinx",
+    "sphinxtesters",
+    "texext"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.6.8",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "ipython[notebook] >=3.0",
+    "matplotlib-base >=1.1.0",
+    "nbconvert",
+    "numpy >=1.6.1",
+    "python",
+    "six >=1.7.0",
+    "sphinx >=1.4",
+    "sphinxtesters",
+    "texext"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/n/nb2plots/nb2plots-0.6.tar.gz",
+ "version":"0.6"
+}

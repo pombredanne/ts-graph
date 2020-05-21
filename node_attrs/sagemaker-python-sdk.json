@@ -1,0 +1,466 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/338880620.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.43.4.post1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/339414922.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"python38"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/342292395.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.43.5"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/343798246.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.44.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/344294029.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.44.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/344984037.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.44.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/345579176.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.44.3"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/347457361.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.44.4"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/348699969.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.45.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/349757790.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.45.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/352525368.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.45.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/352546073.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.46.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/416916117.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"pypy"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"sagemaker-python-sdk",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "dev_url":"https://github.com/aws/sagemaker-python-sdk/",
+   "doc_url":"https://sagemaker.readthedocs.io/en/stable/",
+   "home":"https://github.com/aws/sagemaker-python-sdk/",
+   "license":"Apache-2.0",
+   "license_family":"APACHE",
+   "license_file":"LICENSE.txt",
+   "summary":"Open source library for training and deploying models on Amazon SageMaker."
+  },
+  "build":{
+   "entry_points":[
+    "sagemaker=sagemaker.cli.main:main",
+    "sagemaker=sagemaker.cli.main:main",
+    "sagemaker=sagemaker.cli.main:main"
+   ],
+   "number":"0",
+   "script":" -m pip install . -vv",
+   "skip":true
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "rluria14",
+    "benhuff",
+    "oblute",
+    "rluria14",
+    "benhuff",
+    "oblute",
+    "rluria14",
+    "benhuff",
+    "oblute"
+   ]
+  },
+  "package":{
+   "name":"sagemaker-python-sdk",
+   "version":"1.45.1"
+  },
+  "requirements":{
+   "host":[
+    "pip",
+    "python",
+    "pip",
+    "python",
+    "pip",
+    "python"
+   ],
+   "run":[
+    "boto3 >=1.10.32",
+    "docker-compose >=1.23.0",
+    "numpy >=1.9.0",
+    "protobuf >=3.1",
+    "protobuf3-to-dict >=0.1.5",
+    "pyyaml >=3.10,<5",
+    "python",
+    "requests >=2.20.0,<2.21",
+    "scipy >=0.19.0",
+    "urllib3 >=1.21,<1.25",
+    "smdebug-rulesconfig >=0.1.2",
+    "boto3 >=1.10.32",
+    "docker-compose >=1.23.0",
+    "numpy >=1.9.0",
+    "protobuf >=3.1",
+    "protobuf3-to-dict >=0.1.5",
+    "pyyaml >=3.10,<5",
+    "python",
+    "requests >=2.20.0,<2.21",
+    "scipy >=0.19.0",
+    "urllib3 >=1.21,<1.25",
+    "smdebug-rulesconfig >=0.1.2",
+    "boto3 >=1.10.32",
+    "docker-compose >=1.23.0",
+    "numpy >=1.9.0",
+    "protobuf >=3.1",
+    "protobuf3-to-dict >=0.1.5",
+    "pyyaml >=3.10,<5",
+    "python",
+    "requests >=2.20.0,<2.21",
+    "scipy >=0.19.0",
+    "urllib3 >=1.21,<1.25",
+    "smdebug-rulesconfig >=0.1.2"
+   ]
+  },
+  "source":{
+   "patches":"smdebug_setuppy.patch",
+   "sha256":"770a8b4d42b94d2e373937e3efc953dc545011f1bba86d8aeec508207f61f291",
+   "url":"https://github.com/aws/sagemaker-python-sdk/archive/v1.45.1.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "sagemaker --help",
+    "sagemaker --help",
+    "sagemaker --help"
+   ],
+   "imports":[
+    "sagemaker",
+    "sagemaker.amazon",
+    "sagemaker.chainer",
+    "sagemaker.cli",
+    "sagemaker.local",
+    "sagemaker.mxnet",
+    "sagemaker.pytorch",
+    "sagemaker.rl",
+    "sagemaker.sklearn",
+    "sagemaker.sparkml",
+    "sagemaker.tensorflow",
+    "sagemaker.tensorflow.tensorflow_serving",
+    "sagemaker.tensorflow.tensorflow_serving.apis",
+    "sagemaker.workflow",
+    "sagemaker.xgboost",
+    "sagemaker",
+    "sagemaker.amazon",
+    "sagemaker.chainer",
+    "sagemaker.cli",
+    "sagemaker.local",
+    "sagemaker.mxnet",
+    "sagemaker.pytorch",
+    "sagemaker.rl",
+    "sagemaker.sklearn",
+    "sagemaker.sparkml",
+    "sagemaker.tensorflow",
+    "sagemaker.tensorflow.tensorflow_serving",
+    "sagemaker.tensorflow.tensorflow_serving.apis",
+    "sagemaker.workflow",
+    "sagemaker.xgboost",
+    "sagemaker",
+    "sagemaker.amazon",
+    "sagemaker.chainer",
+    "sagemaker.cli",
+    "sagemaker.local",
+    "sagemaker.mxnet",
+    "sagemaker.pytorch",
+    "sagemaker.rl",
+    "sagemaker.sklearn",
+    "sagemaker.sparkml",
+    "sagemaker.tensorflow",
+    "sagemaker.tensorflow.tensorflow_serving",
+    "sagemaker.tensorflow.tensorflow_serving.apis",
+    "sagemaker.workflow",
+    "sagemaker.xgboost"
+   ]
+  }
+ },
+ "name":"sagemaker-python-sdk",
+ "new_version":"1.46.0",
+ "pinning_version":"2020.05.12.18.03.58",
+ "raw_meta_yaml":"{% set name = \"sagemaker-python-sdk\" %}\n{% set version = \"1.45.1\" %}\n\npackage:\n  name: \"{{ name|lower }}\"\n  version: \"{{ version }}\"\n\nsource:\n  url: \"https://github.com/aws/{{ name }}/archive/v{{ version }}.tar.gz\"\n  sha256: 770a8b4d42b94d2e373937e3efc953dc545011f1bba86d8aeec508207f61f291\n  patches:\n    smdebug_setuppy.patch\n\nbuild:\n  number: 0\n  entry_points:\n    - sagemaker=sagemaker.cli.main:main\n  script: \"{{ PYTHON }} -m pip install . -vv\"\n  skip: True  # [win or py35 or py37]\n\nrequirements:\n  host:\n    - pip\n    - python\n  run:\n    - boto3 >=1.10.32\n    - docker-compose >=1.23.0\n    - numpy >=1.9.0\n    - protobuf >=3.1\n    - protobuf3-to-dict >=0.1.5\n    - pyyaml >=3.10,<5\n    - python\n    - requests >=2.20.0,<2.21\n    - scipy >=0.19.0\n    - urllib3 >=1.21,<1.25\n    - smdebug-rulesconfig >=0.1.2\n\ntest:\n  imports:\n    - sagemaker\n    - sagemaker.amazon\n    - sagemaker.chainer\n    - sagemaker.cli\n    - sagemaker.local\n    - sagemaker.mxnet\n    - sagemaker.pytorch\n    - sagemaker.rl\n    - sagemaker.sklearn\n    - sagemaker.sparkml\n    - sagemaker.tensorflow\n    - sagemaker.tensorflow.tensorflow_serving\n    - sagemaker.tensorflow.tensorflow_serving.apis\n    - sagemaker.workflow\n    - sagemaker.xgboost\n  commands:\n    - sagemaker --help\n\nabout:\n  home: \"https://github.com/aws/sagemaker-python-sdk/\"\n  license: Apache-2.0\n  license_family: APACHE\n  license_file: LICENSE.txt\n  summary: \"Open source library for training and deploying models on Amazon SageMaker.\"\n  doc_url: https://sagemaker.readthedocs.io/en/stable/\n  dev_url: https://github.com/aws/sagemaker-python-sdk/\n\nextra:\n  recipe-maintainers:\n    - rluria14\n    - benhuff\n    - oblute\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "boto3",
+   "docker-compose",
+   "numpy",
+   "pip",
+   "protobuf",
+   "protobuf3-to-dict",
+   "python",
+   "pyyaml",
+   "requests",
+   "scipy",
+   "smdebug-rulesconfig",
+   "urllib3"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "boto3",
+    "docker-compose",
+    "numpy",
+    "protobuf",
+    "protobuf3-to-dict",
+    "python",
+    "pyyaml",
+    "requests",
+    "scipy",
+    "smdebug-rulesconfig",
+    "urllib3"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.7.0\n",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "boto3 >=1.10.32",
+    "docker-compose >=1.23.0",
+    "numpy >=1.9.0",
+    "protobuf >=3.1",
+    "protobuf3-to-dict >=0.1.5",
+    "python",
+    "pyyaml >=3.10,<5",
+    "requests >=2.20.0,<2.21",
+    "scipy >=0.19.0",
+    "smdebug-rulesconfig >=0.1.2",
+    "urllib3 >=1.21,<1.25"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://github.com/aws/sagemaker-python-sdk/archive/v1.43.4.tar.gz",
+ "version":"1.45.1"
+}

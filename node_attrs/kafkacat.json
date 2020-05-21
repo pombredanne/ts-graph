@@ -1,0 +1,211 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/196932815.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Compiler",
+    "migrator_version":0
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/268274046.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.4.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/316807644.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.5.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/403511985.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"librdkafka14"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"kafkacat",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"https://github.com/edenhill/kafkacat",
+   "license":"BSD 2-Clause",
+   "license_file":"LICENSE",
+   "summary":"Generic command line non-JVM Apache Kafka producer and consumer"
+  },
+  "build":{
+   "number":"0",
+   "skip":true
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "rmax",
+    "rmax",
+    "rmax"
+   ]
+  },
+  "package":{
+   "name":"kafkacat",
+   "version":"1.3.1"
+  },
+  "requirements":{
+   "build":[
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "c_compiler_stub",
+    "cxx_compiler_stub"
+   ],
+   "host":[
+    "librdkafka",
+    "yajl 2.1.*",
+    "librdkafka",
+    "yajl 2.1.*",
+    "librdkafka",
+    "yajl 2.1.*"
+   ],
+   "run":[
+    "librdkafka",
+    "yajl 2.1.*",
+    "librdkafka",
+    "yajl 2.1.*",
+    "librdkafka",
+    "yajl 2.1.*"
+   ]
+  },
+  "source":{
+   "fn":"kafkacat-1.3.1.tar.gz",
+   "sha256":"385f231d7edee417c71b43f6f9d6dd843e9e41bff1bd30483792c6271c09b12b",
+   "url":"https://github.com/edenhill/kafkacat/archive/1.3.1.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "kafkacat -V",
+    "kafkacat -V",
+    "conda inspect linkages kafkacat",
+    "conda inspect objects kafkacat",
+    "kafkacat -V",
+    "conda inspect linkages kafkacat"
+   ]
+  }
+ },
+ "name":"kafkacat",
+ "new_version":"1.5.0",
+ "pinning_version":"2020.04.15.00.37.28",
+ "raw_meta_yaml":"{% set name = \"kafkacat\" %}\n{% set version = \"1.3.1\" %}\n{% set sha256hash = \"385f231d7edee417c71b43f6f9d6dd843e9e41bff1bd30483792c6271c09b12b\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  fn: {{ name }}-{{ version }}.tar.gz\n  url: https://github.com/edenhill/{{ name }}/archive/{{ version }}.tar.gz\n  sha256: {{ sha256hash }}\n\nbuild:\n  number: 0\n  skip: true  # [win]\n\nrequirements:\n  build:\n    - {{ compiler('c') }}\n    - {{ compiler('cxx') }}\n  host:\n    # Compiling with latest 0.9.4 breaks backwards ABI compatibility.\n    - librdkafka\n    - yajl 2.1.*\n\n  run:\n    - librdkafka\n    - yajl 2.1.*\n\ntest:\n  commands:\n    - kafkacat -V\n\n    - conda inspect linkages {{ name }}  # [unix]\n    - conda inspect objects {{ name }}   # [osx]\n\nabout:\n  home: https://github.com/edenhill/kafkacat\n  license: BSD 2-Clause\n  license_file: LICENSE\n  summary: \"Generic command line non-JVM Apache Kafka producer and consumer\"\n\nextra:\n  recipe-maintainers:\n    - rmax\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "c_compiler_stub",
+   "cxx_compiler_stub",
+   "librdkafka",
+   "yajl"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "cxx_compiler_stub"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "librdkafka",
+    "yajl"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "librdkafka",
+    "yajl"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.6.16",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "cxx_compiler_stub"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "librdkafka",
+    "yajl 2.1.*"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "librdkafka",
+    "yajl 2.1.*"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://github.com/edenhill/kafkacat/archive/1.3.1.tar.gz",
+ "version":"1.3.1"
+}

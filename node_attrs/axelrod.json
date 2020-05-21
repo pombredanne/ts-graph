@@ -1,0 +1,423 @@
+{
+ "PRed":[
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"4.2.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/200078978.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"4.2.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/204886269.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"4.2.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/211992334.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"4.3.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/226786640.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/227410867.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"4.4.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/249224675.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"4.5.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/280311199.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"4.6.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/331679069.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"4.7.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/339462325.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"python38"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/353697692.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"4.8.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/374593371.json"
+   },
+   "data":{
+    "bot_rerun":1589819706.8041267,
+    "migrator_name":"MatplotlibBase",
+    "migrator_version":0
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/400459225.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"4.9.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "compiler_stack":"comp7",
+  "max_py_ver":"37",
+  "max_r_ver":"35",
+  "provider":{
+   "win":"azure"
+  }
+ },
+ "feedstock_name":"axelrod",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"Axelrod is a library for conducting research in Iterated Prisoner's\nDilemma and enable reproducibilty of research on Iterated Prisoner's\nDilemma. The library contains over 150 strategies for IPD and supports\nPython 3.5 and 3.6\n",
+   "dev_url":"https://github.com/Axelrod-Python/Axelrod",
+   "doc_url":"http://axelrod.readthedocs.io",
+   "home":"http://github.com/Axelrod-Python/Axelrod",
+   "license":"MIT",
+   "license_file":"LICENSE.txt",
+   "summary":"Research tool for Iterated Prisoners Dilemma in Python"
+  },
+  "build":{
+   "number":"1",
+   "script":"python setup.py install --single-version-externally-managed --record record.txt"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "drvinceknight",
+    "marcharper",
+    "meatballs",
+    "souravsingh",
+    "drvinceknight",
+    "marcharper",
+    "meatballs",
+    "souravsingh",
+    "drvinceknight",
+    "marcharper",
+    "meatballs",
+    "souravsingh"
+   ]
+  },
+  "package":{
+   "name":"axelrod",
+   "version":"4.5.0"
+  },
+  "requirements":{
+   "build":[
+    "python",
+    "setuptools",
+    "python",
+    "setuptools",
+    "python",
+    "setuptools"
+   ],
+   "run":[
+    "python",
+    "numpy >=1.9.2",
+    "matplotlib-base >=1.4.2",
+    "tqdm >=3.4.0",
+    "prompt_toolkit >=1.0.7,<2",
+    "scipy >=0.19.0",
+    "dask >=0.11.0",
+    "pandas >=0.18.1",
+    "toolz >=0.8.0",
+    "cloudpickle >=0.2.1",
+    "python",
+    "numpy >=1.9.2",
+    "matplotlib-base >=1.4.2",
+    "tqdm >=3.4.0",
+    "prompt_toolkit >=1.0.7,<2",
+    "scipy >=0.19.0",
+    "dask >=0.11.0",
+    "pandas >=0.18.1",
+    "toolz >=0.8.0",
+    "cloudpickle >=0.2.1",
+    "python",
+    "numpy >=1.9.2",
+    "matplotlib-base >=1.4.2",
+    "tqdm >=3.4.0",
+    "prompt_toolkit >=1.0.7,<2",
+    "scipy >=0.19.0",
+    "dask >=0.11.0",
+    "pandas >=0.18.1",
+    "toolz >=0.8.0",
+    "cloudpickle >=0.2.1"
+   ]
+  },
+  "source":{
+   "fn":"Axelrod-4.5.0.tar.gz",
+   "sha256":"bc6135291936bece3d458a0cbfdae50b647cd42134e4745331f8548d36f9a465",
+   "url":"https://pypi.io/packages/source/A/Axelrod/Axelrod-4.5.0.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "axelrod",
+    "axelrod.data",
+    "axelrod.strategies",
+    "axelrod.tests",
+    "axelrod",
+    "axelrod.data",
+    "axelrod.strategies",
+    "axelrod.tests",
+    "axelrod",
+    "axelrod.data",
+    "axelrod.strategies",
+    "axelrod.tests"
+   ]
+  }
+ },
+ "name":"axelrod",
+ "new_version":"4.9.1",
+ "new_version_attempts":{
+  "4.9.0":1
+ },
+ "new_version_errors":{},
+ "pinning_version":"2020.04.08",
+ "raw_meta_yaml":"{% set name = \"Axelrod\" %}\n{% set version = \"4.5.0\" %}\n{% set sha256 = \"bc6135291936bece3d458a0cbfdae50b647cd42134e4745331f8548d36f9a465\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  fn: {{ name }}-{{ version }}.tar.gz\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 1\n  script: python setup.py install --single-version-externally-managed --record record.txt\n  skip: true  # [py2k]\n\nrequirements:\n  build:\n    - python\n    - setuptools\n  \n  run:\n    - python\n    - numpy >=1.9.2\n    - matplotlib-base >=1.4.2\n    - tqdm >=3.4.0\n    - prompt_toolkit >=1.0.7,<2\n    - scipy >=0.19.0\n    - dask >=0.11.0\n    - pandas >=0.18.1\n    - toolz >=0.8.0\n    - cloudpickle >=0.2.1\n\ntest:\n  imports:\n    - axelrod\n    - axelrod.data\n    - axelrod.strategies\n    - axelrod.tests\n\nabout:\n  home: http://github.com/Axelrod-Python/Axelrod\n  license: MIT\n  license_file: LICENSE.txt\n  summary: 'Research tool for Iterated Prisoners Dilemma in Python'\n\n  description: |\n    Axelrod is a library for conducting research in Iterated Prisoner's\n    Dilemma and enable reproducibilty of research on Iterated Prisoner's\n    Dilemma. The library contains over 150 strategies for IPD and supports \n    Python 3.5 and 3.6\n  doc_url: http://axelrod.readthedocs.io\n  dev_url: https://github.com/Axelrod-Python/Axelrod\n\nextra:\n  recipe-maintainers:\n    - drvinceknight\n    - marcharper\n    - meatballs\n    - souravsingh\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "cloudpickle",
+   "dask",
+   "matplotlib-base",
+   "numpy",
+   "pandas",
+   "prompt_toolkit",
+   "python",
+   "scipy",
+   "setuptools",
+   "toolz",
+   "tqdm"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "python",
+    "setuptools"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "cloudpickle",
+    "dask",
+    "matplotlib-base",
+    "numpy",
+    "pandas",
+    "prompt_toolkit",
+    "python",
+    "scipy",
+    "toolz",
+    "tqdm"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.6.15",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "python",
+    "setuptools"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "cloudpickle >=0.2.1",
+    "dask >=0.11.0",
+    "matplotlib-base >=1.4.2",
+    "numpy >=1.9.2",
+    "pandas >=0.18.1",
+    "prompt_toolkit >=1.0.7,<2",
+    "python",
+    "scipy >=0.19.0",
+    "toolz >=0.8.0",
+    "tqdm >=3.4.0"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/A/Axelrod/Axelrod-4.5.0.tar.gz",
+ "version":"4.5.0"
+}

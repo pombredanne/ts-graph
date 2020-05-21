@@ -1,0 +1,145 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/356546293.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.10.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"rb-rb-inotify",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "dev_url":"https://github.com/guard/rb-inotify",
+   "doc_url":"https://www.rubydoc.info/gems/rb-inotify",
+   "home":"https://rubygems.org/gems/rb-inotify",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"rb-inotify-0.10.0/LICENSE.md",
+   "summary":"A Ruby wrapper for Linux inotify, using FFI"
+  },
+  "build":{
+   "noarch":"generic",
+   "number":"1",
+   "script":[
+    "gem install -N -l -V --norc --ignore-dependencies rb-inotify-0.10.0.gem",
+    "gem unpack rb-inotify-0.10.0.gem",
+    "gem install -N -l -V --norc --ignore-dependencies rb-inotify-0.10.0.gem",
+    "gem unpack rb-inotify-0.10.0.gem",
+    "gem install -N -l -V --norc --ignore-dependencies rb-inotify-0.10.0.gem",
+    "gem unpack rb-inotify-0.10.0.gem"
+   ],
+   "skip":null
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "sodre",
+    "sodre",
+    "sodre"
+   ]
+  },
+  "package":{
+   "name":"rb-rb-inotify",
+   "version":"0.10.0"
+  },
+  "requirements":{
+   "host":[
+    "ruby",
+    "ruby",
+    "ruby"
+   ],
+   "run":[
+    "ruby",
+    "rb-ffi >=1.0,<2",
+    "ruby",
+    "rb-ffi >=1.0,<2",
+    "ruby",
+    "rb-ffi >=1.0,<2"
+   ]
+  },
+  "source":{
+   "sha256":"4481d9ce69159774be31215d10917684413ad3416b2018bdd8dc9b976a8747bb",
+   "url":"https://rubygems.org/downloads/rb-inotify-0.10.0.gem"
+  },
+  "test":{
+   "commands":[
+    "ruby -r rb-inotify -e 'exit 0'"
+   ]
+  }
+ },
+ "name":"rb-rb-inotify",
+ "new_version":"0.10.1",
+ "pinning_version":"2019.12.18",
+ "raw_meta_yaml":"{% set name = \"rb-inotify\" %}\n{% set version = \"0.10.0\" %}\n\npackage:\n  name: rb-{{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://rubygems.org/downloads/{{ name }}-{{ version }}.gem\n  sha256: 4481d9ce69159774be31215d10917684413ad3416b2018bdd8dc9b976a8747bb\n\nbuild:\n  noarch: generic\n  number: 1\n  script:\n    - gem install -N -l -V --norc --ignore-dependencies {{ name }}-{{ version }}.gem\n    - gem unpack {{ name }}-{{ version }}.gem\n  skip: {{ win }}\n\nrequirements:\n  host:\n    - ruby\n  run:\n    - ruby\n    - rb-ffi >=1.0,<2\n\ntest:\n  commands:\n    - ruby -r {{ name }} -e 'exit 0'  # [linux]\n\nabout:\n  home: https://rubygems.org/gems/{{ name }}\n  license: MIT\n  license_family: MIT\n  license_file: {{ name }}-{{ version }}/LICENSE.md\n  summary: A Ruby wrapper for Linux inotify, using FFI\n\n  doc_url: https://www.rubydoc.info/gems/{{ name }}\n  dev_url: https://github.com/guard/rb-inotify\n\nextra:\n  recipe-maintainers:\n    - sodre\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "rb-ffi",
+   "ruby"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "ruby"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "rb-ffi",
+    "ruby"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.6.5",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "ruby"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "rb-ffi >=1.0,<2",
+    "ruby"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://rubygems.org/downloads/rb-inotify-0.10.0.gem",
+ "version":"0.10.0"
+}

@@ -1,0 +1,492 @@
+{
+ "PRed":[
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.0.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/205375525.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.0.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/221127361.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.0.3"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/221691351.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/239503597.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.0.4"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/259612559.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.0.5"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/279532274.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.0.6"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/301259991.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.0.7"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/304670966.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.1.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/337025478.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"python38"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/386201832.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.0.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "provider":{
+   "win":"azure"
+  }
+ },
+ "feedstock_name":"nbdime",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "dev_url":"https://github.com/jupyter/nbdime",
+   "doc_url":"https://nbdime.readthedocs.io/",
+   "home":"https://nbdime.readthedocs.io/",
+   "license":"BSD-3-Clause",
+   "license_family":"BSD",
+   "license_file":"LICENSE.md",
+   "summary":"Diff and merge of Jupyter Notebooks"
+  },
+  "build":{
+   "entry_points":[
+    "nbdime=nbdime.__main__:main_dispatch",
+    "nbshow=nbdime.nbshowapp:main",
+    "nbdiff=nbdime.nbdiffapp:main",
+    "nbdiff-web=nbdime.webapp.nbdiffweb:main",
+    "nbmerge=nbdime.nbmergeapp:main",
+    "nbmerge-web=nbdime.webapp.nbmergeweb:main",
+    "git-nbdiffdriver=nbdime.vcs.git.diffdriver:main",
+    "git-nbdifftool=nbdime.vcs.git.difftool:main",
+    "git-nbmergedriver=nbdime.vcs.git.mergedriver:main",
+    "git-nbmergetool=nbdime.vcs.git.mergetool:main",
+    "hg-nbdiff=nbdime.vcs.hg.diff:main",
+    "hg-nbdiffweb=nbdime.vcs.hg.diffweb:main",
+    "hg-nbmerge=nbdime.vcs.hg.merge:main",
+    "hg-nbmergeweb=nbdime.vcs.hg.mergeweb:main",
+    "nbdime=nbdime.__main__:main_dispatch",
+    "nbshow=nbdime.nbshowapp:main",
+    "nbdiff=nbdime.nbdiffapp:main",
+    "nbdiff-web=nbdime.webapp.nbdiffweb:main",
+    "nbmerge=nbdime.nbmergeapp:main",
+    "nbmerge-web=nbdime.webapp.nbmergeweb:main",
+    "git-nbdiffdriver=nbdime.vcs.git.diffdriver:main",
+    "git-nbdifftool=nbdime.vcs.git.difftool:main",
+    "git-nbmergedriver=nbdime.vcs.git.mergedriver:main",
+    "git-nbmergetool=nbdime.vcs.git.mergetool:main",
+    "hg-nbdiff=nbdime.vcs.hg.diff:main",
+    "hg-nbdiffweb=nbdime.vcs.hg.diffweb:main",
+    "hg-nbmerge=nbdime.vcs.hg.merge:main",
+    "hg-nbmergeweb=nbdime.vcs.hg.mergeweb:main",
+    "nbdime=nbdime.__main__:main_dispatch",
+    "nbshow=nbdime.nbshowapp:main",
+    "nbdiff=nbdime.nbdiffapp:main",
+    "nbdiff-web=nbdime.webapp.nbdiffweb:main",
+    "nbmerge=nbdime.nbmergeapp:main",
+    "nbmerge-web=nbdime.webapp.nbmergeweb:main",
+    "git-nbdiffdriver=nbdime.vcs.git.diffdriver:main",
+    "git-nbdifftool=nbdime.vcs.git.difftool:main",
+    "git-nbmergedriver=nbdime.vcs.git.mergedriver:main",
+    "git-nbmergetool=nbdime.vcs.git.mergetool:main",
+    "hg-nbdiff=nbdime.vcs.hg.diff:main",
+    "hg-nbdiffweb=nbdime.vcs.hg.diffweb:main",
+    "hg-nbmerge=nbdime.vcs.hg.merge:main",
+    "hg-nbmergeweb=nbdime.vcs.hg.mergeweb:main"
+   ],
+   "noarch":"python",
+   "number":"1",
+   "script":[
+    "-m pip install . --no-deps --ignore-installed --no-cache-dir -vvv",
+    "jupyter nbextension install --sys-prefix --py nbdime",
+    "-m pip install . --no-deps --ignore-installed --no-cache-dir -vvv",
+    "jupyter nbextension install --sys-prefix --py nbdime",
+    "-m pip install . --no-deps --ignore-installed --no-cache-dir -vvv",
+    "jupyter nbextension install --sys-prefix --py nbdime"
+   ]
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "kain88-de",
+    "minrk",
+    "ocefpaf",
+    "kain88-de",
+    "minrk",
+    "ocefpaf",
+    "kain88-de",
+    "minrk",
+    "ocefpaf"
+   ]
+  },
+  "package":{
+   "name":"nbdime",
+   "version":"2.0.0"
+  },
+  "requirements":{
+   "host":[
+    "python >=3.5",
+    "pip",
+    "colorama",
+    "notebook",
+    "python >=3.5",
+    "pip",
+    "colorama",
+    "notebook",
+    "python >=3.5",
+    "pip",
+    "colorama",
+    "notebook"
+   ],
+   "run":[
+    "python >=3.5",
+    "colorama",
+    "gitpython !=2.1.4,!=2.1.5,!=2.1.6",
+    "jinja2 >=2.9",
+    "nbformat",
+    "notebook",
+    "pygments",
+    "requests",
+    "six",
+    "tornado",
+    "python >=3.5",
+    "colorama",
+    "gitpython !=2.1.4,!=2.1.5,!=2.1.6",
+    "jinja2 >=2.9",
+    "nbformat",
+    "notebook",
+    "pygments",
+    "requests",
+    "six",
+    "tornado",
+    "python >=3.5",
+    "colorama",
+    "gitpython !=2.1.4,!=2.1.5,!=2.1.6",
+    "jinja2 >=2.9",
+    "nbformat",
+    "notebook",
+    "pygments",
+    "requests",
+    "six",
+    "tornado"
+   ]
+  },
+  "source":{
+   "sha256":"896f79a23557f190b73a3981fdceb128a2d24454701daef74d82aac2aa10715d",
+   "url":"https://pypi.io/packages/source/n/nbdime/nbdime-2.0.0.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "pip check",
+    "nbdime show -h",
+    "nbshow -h",
+    "nbdiff -h",
+    "nbdiff-web -h",
+    "nbmerge -h",
+    "nbmerge-web -h",
+    "git-nbdifftool -h",
+    "git-nbmergetool -h",
+    "git-nbdiffdriver -h",
+    "git-nbmergedriver -h",
+    "hg-nbdiff -h",
+    "hg-nbdiffweb -h",
+    "hg-nbmerge -h",
+    "hg-nbmergeweb -h",
+    "pip check",
+    "nbdime show -h",
+    "nbshow -h",
+    "nbdiff -h",
+    "nbdiff-web -h",
+    "nbmerge -h",
+    "nbmerge-web -h",
+    "git-nbdifftool -h",
+    "git-nbmergetool -h",
+    "git-nbdiffdriver -h",
+    "git-nbmergedriver -h",
+    "hg-nbdiff -h",
+    "hg-nbdiffweb -h",
+    "hg-nbmerge -h",
+    "hg-nbmergeweb -h",
+    "pip check",
+    "nbdime show -h",
+    "nbshow -h",
+    "nbdiff -h",
+    "nbdiff-web -h",
+    "nbmerge -h",
+    "nbmerge-web -h",
+    "git-nbdifftool -h",
+    "git-nbmergetool -h",
+    "git-nbdiffdriver -h",
+    "git-nbmergedriver -h",
+    "hg-nbdiff -h",
+    "hg-nbdiffweb -h",
+    "hg-nbmerge -h",
+    "hg-nbmergeweb -h"
+   ],
+   "imports":[
+    "nbdime",
+    "nbdime.diffing",
+    "nbdime",
+    "nbdime.diffing",
+    "nbdime",
+    "nbdime.diffing"
+   ],
+   "requires":[
+    "pip",
+    "pip",
+    "pip"
+   ]
+  }
+ },
+ "name":"nbdime",
+ "new_version":"2.0.0",
+ "pinning_version":"2020.03.09",
+ "raw_meta_yaml":"{% set version = \"2.0.0\" %}\n\npackage:\n  name: nbdime\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/n/nbdime/nbdime-{{ version }}.tar.gz\n  sha256: 896f79a23557f190b73a3981fdceb128a2d24454701daef74d82aac2aa10715d\n\nbuild:\n  number: 1\n  noarch: python\n  script:\n    - {{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv\n    - jupyter nbextension install --sys-prefix --py nbdime\n  entry_points:\n    - nbdime=nbdime.__main__:main_dispatch\n    - nbshow=nbdime.nbshowapp:main\n    - nbdiff=nbdime.nbdiffapp:main\n    - nbdiff-web=nbdime.webapp.nbdiffweb:main\n    - nbmerge=nbdime.nbmergeapp:main\n    - nbmerge-web=nbdime.webapp.nbmergeweb:main\n    - git-nbdiffdriver=nbdime.vcs.git.diffdriver:main\n    - git-nbdifftool=nbdime.vcs.git.difftool:main\n    - git-nbmergedriver=nbdime.vcs.git.mergedriver:main\n    - git-nbmergetool=nbdime.vcs.git.mergetool:main\n    - hg-nbdiff=nbdime.vcs.hg.diff:main\n    - hg-nbdiffweb=nbdime.vcs.hg.diffweb:main\n    - hg-nbmerge=nbdime.vcs.hg.merge:main\n    - hg-nbmergeweb=nbdime.vcs.hg.mergeweb:main\n\nrequirements:\n  host:\n    - python >=3.5\n    - pip\n    - colorama\n    - notebook\n  run:\n    - python >=3.5\n    - colorama\n    - gitpython !=2.1.4,!=2.1.5,!=2.1.6\n    - jinja2 >=2.9\n    - nbformat\n    - notebook\n    - pygments\n    - requests\n    - six\n    - tornado\n\ntest:\n  requires:\n    - pip\n  imports:\n    - nbdime\n    - nbdime.diffing\n  commands:\n    - pip check\n    - nbdime show -h\n    - nbshow -h\n    - nbdiff -h\n    - nbdiff-web -h\n    - nbmerge -h\n    - nbmerge-web -h\n    - git-nbdifftool -h\n    - git-nbmergetool -h\n    - git-nbdiffdriver -h\n    - git-nbmergedriver -h\n    - hg-nbdiff -h\n    - hg-nbdiffweb -h\n    - hg-nbmerge -h\n    - hg-nbmergeweb -h\n\nabout:\n  home: https://nbdime.readthedocs.io/\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: LICENSE.md\n  summary: Diff and merge of Jupyter Notebooks\n  doc_url: https://nbdime.readthedocs.io/\n  dev_url: https://github.com/jupyter/nbdime\n\nextra:\n  recipe-maintainers:\n    - kain88-de\n    - minrk\n    - ocefpaf\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "colorama",
+   "gitpython",
+   "jinja2",
+   "nbformat",
+   "notebook",
+   "pip",
+   "pygments",
+   "python",
+   "requests",
+   "six",
+   "tornado"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "colorama",
+    "notebook",
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "colorama",
+    "gitpython",
+    "jinja2",
+    "nbformat",
+    "notebook",
+    "pygments",
+    "python",
+    "requests",
+    "six",
+    "tornado"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "pip"
+   ]
+  }
+ },
+ "smithy_version":"3.6.11",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "colorama",
+    "notebook",
+    "pip",
+    "python >=3.5"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "colorama",
+    "gitpython !=2.1.4,!=2.1.5,!=2.1.6",
+    "jinja2 >=2.9",
+    "nbformat",
+    "notebook",
+    "pygments",
+    "python >=3.5",
+    "requests",
+    "six",
+    "tornado"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "pip"
+   ]
+  }
+ },
+ "url":"https://pypi.io/packages/source/n/nbdime/nbdime-1.1.0.tar.gz",
+ "version":"2.0.0"
+}

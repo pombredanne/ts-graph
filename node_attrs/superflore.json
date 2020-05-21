@@ -1,0 +1,334 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/336065166.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"python38"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/356500930.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.3.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/411864225.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/416877828.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"pypy"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"superflore",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"https://github.com/ros-infrastructure/superflore",
+   "license":"Apache-2.0",
+   "license_family":"Apache",
+   "license_file":"LICENSE",
+   "summary":"Super Bloom. An extended platform release manager for Robot Operating System."
+  },
+  "build":{
+   "entry_points":[
+    "superflore-gen-ebuilds = superflore.generators.ebuild:main",
+    "superflore-gen-oe-recipes = superflore.generators.bitbake:main",
+    "superflore-check-ebuilds = superflore.test_integration.gentoo:main",
+    "superflore-gen-ebuilds = superflore.generators.ebuild:main",
+    "superflore-gen-oe-recipes = superflore.generators.bitbake:main",
+    "superflore-check-ebuilds = superflore.test_integration.gentoo:main",
+    "superflore-gen-ebuilds = superflore.generators.ebuild:main",
+    "superflore-gen-oe-recipes = superflore.generators.bitbake:main",
+    "superflore-check-ebuilds = superflore.test_integration.gentoo:main"
+   ],
+   "number":"1",
+   "script":" -m pip install . --no-deps --ignore-installed -vv "
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "seanyen",
+    "wolfv",
+    "allenh1",
+    "seanyen",
+    "wolfv",
+    "allenh1",
+    "seanyen",
+    "wolfv",
+    "allenh1"
+   ]
+  },
+  "package":{
+   "name":"superflore",
+   "version":"0.3.2"
+  },
+  "requirements":{
+   "host":[
+    "pip",
+    "python",
+    "setuptools",
+    "pip",
+    "python",
+    "setuptools",
+    "pip",
+    "python",
+    "setuptools"
+   ],
+   "run":[
+    "git",
+    "pywin32",
+    "beautifulsoup4",
+    "catkin_pkg >=0.4.0",
+    "docker-py",
+    "gitpython",
+    "pygithub",
+    "python",
+    "pyyaml",
+    "requests",
+    "rosdep >=0.15.2",
+    "rosdistro >=0.7.4",
+    "rosinstall_generator",
+    "rospkg >=1.1.8",
+    "setuptools",
+    "termcolor",
+    "xmltodict",
+    "git",
+    "beautifulsoup4",
+    "catkin_pkg >=0.4.0",
+    "docker-py",
+    "gitpython",
+    "pygithub",
+    "python",
+    "pyyaml",
+    "requests",
+    "rosdep >=0.15.2",
+    "rosdistro >=0.7.4",
+    "rosinstall_generator",
+    "rospkg >=1.1.8",
+    "setuptools",
+    "termcolor",
+    "xmltodict",
+    "git",
+    "beautifulsoup4",
+    "catkin_pkg >=0.4.0",
+    "docker-py",
+    "gitpython",
+    "pygithub",
+    "python",
+    "pyyaml",
+    "requests",
+    "rosdep >=0.15.2",
+    "rosdistro >=0.7.4",
+    "rosinstall_generator",
+    "rospkg >=1.1.8",
+    "setuptools",
+    "termcolor",
+    "xmltodict"
+   ]
+  },
+  "source":{
+   "sha256":"3d6598761e428736a0f6f43912d98a254cb3758e634e7f53e2f58a5dc3f0094d",
+   "url":"https://github.com/ros-infrastructure/superflore/archive/v0.3.2.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "superflore-gen-ebuilds --help",
+    "superflore-gen-oe-recipes --help",
+    "superflore-gen-ebuilds --help",
+    "superflore-gen-oe-recipes --help",
+    "superflore-gen-ebuilds --help",
+    "superflore-gen-oe-recipes --help"
+   ],
+   "imports":[
+    "superflore",
+    "superflore.generators",
+    "superflore.generators.bitbake",
+    "superflore.generators.ebuild",
+    "superflore.test_integration",
+    "superflore.test_integration.gentoo",
+    "superflore",
+    "superflore.generators",
+    "superflore.generators.bitbake",
+    "superflore.generators.ebuild",
+    "superflore.test_integration",
+    "superflore.test_integration.gentoo",
+    "superflore",
+    "superflore.generators",
+    "superflore.generators.bitbake",
+    "superflore.generators.ebuild",
+    "superflore.test_integration",
+    "superflore.test_integration.gentoo"
+   ]
+  }
+ },
+ "name":"superflore",
+ "new_version":"0.3.2",
+ "new_version_attempts":{
+  "0.3.2":1
+ },
+ "new_version_errors":{},
+ "pinning_version":"2020.05.11.16.49.47",
+ "raw_meta_yaml":"{% set name = \"superflore\" %}\n{% set version = \"0.3.2\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://github.com/ros-infrastructure/{{ name }}/archive/v{{ version }}.tar.gz\n  sha256: 3d6598761e428736a0f6f43912d98a254cb3758e634e7f53e2f58a5dc3f0094d\n\nbuild:\n  number: 1\n  skip: true  # [py2k]\n  entry_points:\n    - superflore-gen-ebuilds = superflore.generators.ebuild:main\n    - superflore-gen-oe-recipes = superflore.generators.bitbake:main\n    - superflore-check-ebuilds = superflore.test_integration.gentoo:main\n  script: '{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv '\n\nrequirements:\n  host:\n    - pip\n    - python\n    - setuptools\n  run:\n    - git\n    - pywin32  # [win]\n    - beautifulsoup4\n    - catkin_pkg >=0.4.0\n    - docker-py\n    - gitpython\n    - pygithub\n    - python\n    - pyyaml\n    - requests\n    - rosdep >=0.15.2\n    - rosdistro >=0.7.4\n    - rosinstall_generator\n    - rospkg >=1.1.8\n    - setuptools\n    - termcolor\n    - xmltodict\n\ntest:\n  imports:\n    - superflore\n    - superflore.generators\n    - superflore.generators.bitbake\n    - superflore.generators.ebuild\n    - superflore.test_integration\n    - superflore.test_integration.gentoo\n  commands:\n    - superflore-gen-ebuilds --help\n    - superflore-gen-oe-recipes --help\n\nabout:\n  home: https://github.com/ros-infrastructure/superflore\n  license: Apache-2.0\n  license_family: Apache\n  license_file: LICENSE\n  summary: Super Bloom. An extended platform release manager for Robot Operating System.\n\nextra:\n  recipe-maintainers:\n    - seanyen\n    - wolfv\n    - allenh1\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "beautifulsoup4",
+   "catkin_pkg",
+   "docker-py",
+   "git",
+   "gitpython",
+   "pip",
+   "pygithub",
+   "python",
+   "pywin32",
+   "pyyaml",
+   "requests",
+   "rosdep",
+   "rosdistro",
+   "rosinstall_generator",
+   "rospkg",
+   "setuptools",
+   "termcolor",
+   "xmltodict"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python",
+    "setuptools"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "beautifulsoup4",
+    "catkin_pkg",
+    "docker-py",
+    "git",
+    "gitpython",
+    "pygithub",
+    "python",
+    "pywin32",
+    "pyyaml",
+    "requests",
+    "rosdep",
+    "rosdistro",
+    "rosinstall_generator",
+    "rospkg",
+    "setuptools",
+    "termcolor",
+    "xmltodict"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.7.0\n",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python",
+    "setuptools"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "beautifulsoup4",
+    "catkin_pkg >=0.4.0",
+    "docker-py",
+    "git",
+    "gitpython",
+    "pygithub",
+    "python",
+    "pywin32",
+    "pyyaml",
+    "requests",
+    "rosdep >=0.15.2",
+    "rosdistro >=0.7.4",
+    "rosinstall_generator",
+    "rospkg >=1.1.8",
+    "setuptools",
+    "termcolor",
+    "xmltodict"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://github.com/ros-infrastructure/superflore/archive/v0.3.0.tar.gz",
+ "version":"0.3.2"
+}

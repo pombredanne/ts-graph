@@ -1,0 +1,279 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/256291233.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Rebuild",
+    "migrator_object_version":3,
+    "migrator_version":0,
+    "name":"OpenSSL"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/293468936.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Rebuild",
+    "migrator_version":0,
+    "name":"readline-8.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/0e042680-7bbe-447b-a284-4014517d6a0c.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"krb51171"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"postgres-xl",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"Postgres-XL (eXtensible Lattice) allows you to either partition tables across multiple nodes,\nor replicate them. Partitioning (or distributing) tables allows for write scalability across\nmultiple nodes as well as massively parallel processing (MPP) for Big Data type of workloads.\n",
+   "home":"https://www.postgres-xl.org/",
+   "license":"PostgreSQL",
+   "license_file":"COPYRIGHT",
+   "summary":"[conflicts with postgresql] Postgres-XL is an all-purpose fully ACID open source scale-out SQL database solution."
+  },
+  "build":{
+   "number":"3",
+   "skip":true
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "sodre",
+    "sodre",
+    "sodre"
+   ]
+  },
+  "package":{
+   "name":"postgres-xl",
+   "version":"9.5r1.6"
+  },
+  "requirements":{
+   "build":[
+    "c_compiler_stub",
+    "c_compiler_stub",
+    "c_compiler_stub"
+   ],
+   "host":[
+    "bison",
+    "flex",
+    "openssl",
+    "zlib",
+    "krb5",
+    "libxml2",
+    "libxslt",
+    "bison",
+    "flex",
+    "openssl",
+    "readline",
+    "zlib",
+    "libxml2",
+    "libxslt",
+    "libuuid",
+    "bison",
+    "flex",
+    "openssl",
+    "readline",
+    "zlib",
+    "krb5",
+    "libxml2",
+    "libxslt",
+    "libuuid"
+   ],
+   "run":[
+    "openssl",
+    "zlib",
+    "krb5",
+    "libxml2",
+    "libxslt",
+    "openssl",
+    "readline",
+    "zlib",
+    "libxml2",
+    "libxslt",
+    "libuuid",
+    "openssl",
+    "readline",
+    "zlib",
+    "krb5",
+    "libxml2",
+    "libxslt",
+    "libuuid"
+   ]
+  },
+  "source":{
+   "patches":[
+    "00-disable-failed-contrib.patch",
+    "00-disable-failed-contrib.patch",
+    "00-disable-failed-contrib.patch"
+   ],
+   "sha256":"0dab9c2b6c749161ce56ccdef8e7bfc80c607a30c55e0089ec50c7d05af5fa97",
+   "url":"https://www.postgres-xl.org/downloads/postgres-xl-9.5r1.6.tar.bz2"
+  },
+  "test":{
+   "commands":[
+    "pg_config",
+    "pg_ctl --help",
+    "postgres --help",
+    "pgxc_ctl --help",
+    "pgxc_monitor --help",
+    "gtm --help",
+    "gtm_ctl --help",
+    "gtm_proxy --help",
+    "pg_config",
+    "pg_ctl --help",
+    "postgres --help",
+    "pgxc_ctl --help",
+    "pgxc_monitor --help",
+    "gtm --help",
+    "gtm_ctl --help",
+    "gtm_proxy --help",
+    "conda inspect linkages $PKG_NAME",
+    "conda inspect objects $PKG_NAME",
+    "pg_config",
+    "pg_ctl --help",
+    "postgres --help",
+    "pgxc_ctl --help",
+    "pgxc_monitor --help",
+    "gtm --help",
+    "gtm_ctl --help",
+    "gtm_proxy --help",
+    "conda inspect linkages $PKG_NAME"
+   ]
+  }
+ },
+ "name":"postgres-xl",
+ "new_version":false,
+ "pinning_version":"2020.03.23",
+ "raw_meta_yaml":"{% set version = \"9.5r1.6\" %}\n\npackage:\n  name: postgres-xl\n  version: {{ version }}\n\nsource:\n  url: https://www.postgres-xl.org/downloads/postgres-xl-{{version}}.tar.bz2\n  sha256: 0dab9c2b6c749161ce56ccdef8e7bfc80c607a30c55e0089ec50c7d05af5fa97\n  patches:\n    - 00-disable-failed-contrib.patch\n\nbuild:\n  skip: True  # [win or osx]\n  number: 3\n\nrequirements:\n  build:\n    - {{ compiler('c') }}\n  host:\n    - bison\n    - flex\n    - openssl\n    - readline  # [not win]\n    - zlib\n    - krb5  # [not osx]\n    - libxml2\n    - libxslt\n    - libuuid  # [not win]\n  run:\n    - openssl\n    - readline  # [not win]\n    - zlib\n    - krb5  # [not osx]\n    - libxml2\n    - libxslt\n    - libuuid  # [not win]\n\ntest:\n  commands:\n    - pg_config\n    - pg_ctl --help\n    - postgres --help\n    - pgxc_ctl --help\n    - pgxc_monitor --help\n    - gtm --help\n    - gtm_ctl --help\n    - gtm_proxy --help\n    - conda inspect linkages $PKG_NAME  # [not win]\n    - conda inspect objects $PKG_NAME  # [osx]\n\nabout:\n  home: https://www.postgres-xl.org/\n  license: PostgreSQL\n  license_file: COPYRIGHT\n  summary: '[conflicts with postgresql] Postgres-XL is an all-purpose fully ACID open source scale-out SQL database solution.'\n\n  description: |\n      Postgres-XL (eXtensible Lattice) allows you to either partition tables across multiple nodes,\n      or replicate them. Partitioning (or distributing) tables allows for write scalability across\n      multiple nodes as well as massively parallel processing (MPP) for Big Data type of workloads.\n\nextra:\n  recipe-maintainers:\n    - sodre\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "bison",
+   "c_compiler_stub",
+   "flex",
+   "krb5",
+   "libuuid",
+   "libxml2",
+   "libxslt",
+   "openssl",
+   "readline",
+   "zlib"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "bison",
+    "flex",
+    "krb5",
+    "libuuid",
+    "libxml2",
+    "libxslt",
+    "openssl",
+    "readline",
+    "zlib"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "krb5",
+    "libuuid",
+    "libxml2",
+    "libxslt",
+    "openssl",
+    "readline",
+    "zlib"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.6.15",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "bison",
+    "flex",
+    "krb5",
+    "libuuid",
+    "libxml2",
+    "libxslt",
+    "openssl",
+    "readline",
+    "zlib"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "krb5",
+    "libuuid",
+    "libxml2",
+    "libxslt",
+    "openssl",
+    "readline",
+    "zlib"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://www.postgres-xl.org/downloads/postgres-xl-9.5r1.6.tar.bz2",
+ "version":"9.5r1.6"
+}

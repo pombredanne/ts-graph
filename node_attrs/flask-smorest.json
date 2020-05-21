@@ -1,0 +1,288 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/325202261.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.18.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/330303294.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.18.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/356507873.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.18.3"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/360089180.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.18.4"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/369153175.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.18.5"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/377086184.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.19.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/377643597.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.19.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/377821931.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.19.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"flask-smorest",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "dev_url":"https://github.com/marshmallow-code/flask-smorest",
+   "doc_url":"https://flask-smorest.readthedocs.io/",
+   "home":"https://github.com/marshmallow-code/flask-smorest",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"LICENSE",
+   "summary":"DB agnostic framework to build auto-documented REST APIs with Flask and marshmallow"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"1",
+   "script":"-m pip install . -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "mcs07",
+    "mcs07",
+    "mcs07"
+   ]
+  },
+  "package":{
+   "name":"flask-smorest",
+   "version":"0.21.0"
+  },
+  "requirements":{
+   "host":[
+    "python >=3",
+    "pip",
+    "python >=3",
+    "pip",
+    "python >=3",
+    "pip"
+   ],
+   "run":[
+    "apispec >=3",
+    "flask >=1.1",
+    "marshmallow >=2.15.2",
+    "python >=3",
+    "webargs >=6",
+    "werkzeug >=0.15",
+    "apispec >=3",
+    "flask >=1.1",
+    "marshmallow >=2.15.2",
+    "python >=3",
+    "webargs >=6",
+    "werkzeug >=0.15",
+    "apispec >=3",
+    "flask >=1.1",
+    "marshmallow >=2.15.2",
+    "python >=3",
+    "webargs >=6",
+    "werkzeug >=0.15"
+   ]
+  },
+  "source":{
+   "sha256":"13dcb87eaeaf552c5b498a22b6536d67c2b52bdbd8cb1b7e73e5eb352c2c2697",
+   "url":"https://pypi.io/packages/source/f/flask-smorest/flask-smorest-0.21.0.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "flask_smorest",
+    "flask_smorest",
+    "flask_smorest"
+   ]
+  }
+ },
+ "name":"flask-smorest",
+ "new_version":"0.21.0",
+ "pinning_version":"2020.02.20",
+ "raw_meta_yaml":"{% set name = \"flask-smorest\" %}\n{% set version = \"0.21.0\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: 13dcb87eaeaf552c5b498a22b6536d67c2b52bdbd8cb1b7e73e5eb352c2c2697\n\nbuild:\n  noarch: python\n  number: 1\n  script: {{ PYTHON }} -m pip install . -vv\n\nrequirements:\n  host:\n    - python >=3\n    - pip\n  run:\n    - apispec >=3\n    - flask >=1.1\n    - marshmallow >=2.15.2\n    - python >=3\n    - webargs >=6\n    - werkzeug >=0.15\n\ntest:\n  imports:\n    - flask_smorest\n\nabout:\n  home: https://github.com/marshmallow-code/flask-smorest\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE\n  summary: DB agnostic framework to build auto-documented REST APIs with Flask and marshmallow\n  doc_url: https://flask-smorest.readthedocs.io/\n  dev_url: https://github.com/marshmallow-code/flask-smorest\n\nextra:\n  recipe-maintainers:\n    - mcs07\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "apispec",
+   "flask",
+   "marshmallow",
+   "pip",
+   "python",
+   "webargs",
+   "werkzeug"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "apispec",
+    "flask",
+    "marshmallow",
+    "python",
+    "webargs",
+    "werkzeug"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.6.8",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "apispec >=3",
+    "flask >=1.1",
+    "marshmallow >=2.15.2",
+    "python >=3",
+    "webargs >=6",
+    "werkzeug >=0.15"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/f/flask-smorest/flask-smorest-0.18.0.tar.gz",
+ "version":"0.21.0"
+}

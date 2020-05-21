@@ -1,0 +1,175 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/368676523.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.9.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"aiozmq",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "dev_url":"https://github.com/aio-libs/aiozmq",
+   "doc_url":"https://aiozmq.readthedocs.io/",
+   "home":"http://aiozmq.readthedocs.org",
+   "license":"BSD-2-Clause",
+   "license_family":"BSD",
+   "license_file":"LICENSE.txt",
+   "summary":"ZeroMQ integration with asyncio."
+  },
+  "build":{
+   "entry_points":[
+    "aiozmq-proxy = aiozmq.cli.proxy:main",
+    "aiozmq-proxy = aiozmq.cli.proxy:main",
+    "aiozmq-proxy = aiozmq.cli.proxy:main"
+   ],
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . --no-deps --ignore-installed -vvv "
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "cjw85",
+    "cjw85",
+    "cjw85"
+   ]
+  },
+  "package":{
+   "name":"aiozmq",
+   "version":"0.7.1"
+  },
+  "requirements":{
+   "host":[
+    "pip",
+    "python >=3.4,<3.7",
+    "pip",
+    "python >=3.4,<3.7",
+    "pip",
+    "python >=3.4,<3.7"
+   ],
+   "run":[
+    "python >=3.4,<3.7",
+    "pyzmq >=13.1",
+    "python >=3.4,<3.7",
+    "pyzmq >=13.1",
+    "python >=3.4,<3.7",
+    "pyzmq >=13.1"
+   ],
+   "run_constrained":[
+    "msgpack >=0.4.0",
+    "msgpack >=0.4.0",
+    "msgpack >=0.4.0"
+   ]
+  },
+  "source":{
+   "sha256":"b41d589a715acc0d42b525ef7084bbcdc03c986ef5a90e212ee7f086125cf6c0",
+   "url":"https://pypi.io/packages/source/a/aiozmq/aiozmq-0.7.1.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "aiozmq-proxy --help",
+    "aiozmq-proxy --help",
+    "aiozmq-proxy --help"
+   ],
+   "imports":[
+    "aiozmq",
+    "aiozmq.cli",
+    "aiozmq.rpc",
+    "aiozmq",
+    "aiozmq.cli",
+    "aiozmq.rpc",
+    "aiozmq",
+    "aiozmq.cli",
+    "aiozmq.rpc"
+   ],
+   "requires":[
+    "msgpack-python",
+    "msgpack-python",
+    "msgpack-python"
+   ]
+  }
+ },
+ "name":"aiozmq",
+ "new_version":"0.9.0",
+ "pinning_version":"2020.01.27",
+ "raw_meta_yaml":"{% set name = \"aiozmq\" %}\n{% set version = \"0.7.1\" %}\n\npackage:\n  name: \"{{ name|lower }}\"\n  version: \"{{ version }}\"\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: b41d589a715acc0d42b525ef7084bbcdc03c986ef5a90e212ee7f086125cf6c0\n\nbuild:\n  noarch: python\n  number: 0\n  entry_points:\n    - aiozmq-proxy = aiozmq.cli.proxy:main\n  script: \"{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vvv \"\n\nrequirements:\n  host:\n    - pip\n    - python >=3.4,<3.7\n  run:\n    - python >=3.4,<3.7\n    - pyzmq >=13.1\n  run_constrained:\n    - msgpack >=0.4.0\n\ntest:\n  imports:\n    - aiozmq\n    - aiozmq.cli\n    - aiozmq.rpc\n  commands:\n    - aiozmq-proxy --help\n  requires:\n    - msgpack-python\n\nabout:\n  home: http://aiozmq.readthedocs.org\n  license: BSD-2-Clause\n  license_family: BSD\n  license_file: LICENSE.txt \n  summary: ZeroMQ integration with asyncio.\n  doc_url: https://aiozmq.readthedocs.io/\n  dev_url: https://github.com/aio-libs/aiozmq\n\nextra:\n  recipe-maintainers:\n    - cjw85\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "pip",
+   "python",
+   "pyzmq"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "python",
+    "pyzmq"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "msgpack-python"
+   ]
+  }
+ },
+ "smithy_version":"3.6.6",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3.4,<3.7"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "python >=3.4,<3.7",
+    "pyzmq >=13.1"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "msgpack-python"
+   ]
+  }
+ },
+ "url":"https://pypi.io/packages/source/a/aiozmq/aiozmq-0.7.1.tar.gz",
+ "version":"0.7.1"
+}

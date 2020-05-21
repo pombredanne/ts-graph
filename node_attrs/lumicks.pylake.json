@@ -1,0 +1,265 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/235926827.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.3.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/265029185.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.3.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/365329306.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.4.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/374663231.json"
+   },
+   "data":{
+    "bot_rerun":1588884956.1273394,
+    "migrator_name":"MatplotlibBase",
+    "migrator_version":0
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/392877992.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.4.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/414929247.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MatplotlibBase",
+    "migrator_version":0,
+    "name":"matplotlib-to-matplotlib-base"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"lumicks.pylake",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "dev_url":"https://github.com/lumicks/pylake",
+   "home":"https://github.com/lumicks/pylake",
+   "license":"Apache-2.0",
+   "license_file":"license.md",
+   "summary":"Data analysis tools for Lumicks Bluelake"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"2",
+   "script":"-m pip install . --no-deps -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "dean0x7d",
+    "onnodb",
+    "JoepVanlier",
+    "dean0x7d",
+    "onnodb",
+    "JoepVanlier",
+    "dean0x7d",
+    "onnodb",
+    "JoepVanlier"
+   ]
+  },
+  "package":{
+   "name":"lumicks.pylake",
+   "version":"0.4.1"
+  },
+  "requirements":{
+   "host":[
+    "python >=3.6",
+    "pip",
+    "python >=3.6",
+    "pip",
+    "python >=3.6",
+    "pip"
+   ],
+   "run":[
+    "python >=3.6,<4",
+    "numpy >=1.14,<2",
+    "matplotlib-base >=2.2",
+    "h5py >=2.9,<3",
+    "pytest >=3.5",
+    "scipy >=1.1,<2",
+    "tifffile >=0.15,<1.0",
+    "python >=3.6,<4",
+    "numpy >=1.14,<2",
+    "matplotlib-base >=2.2",
+    "h5py >=2.9,<3",
+    "pytest >=3.5",
+    "scipy >=1.1,<2",
+    "tifffile >=0.15,<1.0",
+    "python >=3.6,<4",
+    "numpy >=1.14,<2",
+    "matplotlib-base >=2.2",
+    "h5py >=2.9,<3",
+    "pytest >=3.5",
+    "scipy >=1.1,<2",
+    "tifffile >=0.15,<1.0"
+   ]
+  },
+  "source":{
+   "sha256":"b5b3239775b2e29c291cf12fb5316fc9921d8cfc96d7b4546ef09310616a906b",
+   "url":"https://pypi.io/packages/source/l/lumicks.pylake/lumicks.pylake-0.4.1.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "lumicks.pylake",
+    "lumicks.pylake.tests",
+    "lumicks.pylake",
+    "lumicks.pylake.tests",
+    "lumicks.pylake",
+    "lumicks.pylake.tests"
+   ]
+  }
+ },
+ "name":"lumicks.pylake",
+ "new_version":"0.4.1",
+ "pinning_version":"2020.05.06.22.15.02",
+ "raw_meta_yaml":"{% set name = \"lumicks.pylake\" %}\n{% set version = \"0.4.1\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: b5b3239775b2e29c291cf12fb5316fc9921d8cfc96d7b4546ef09310616a906b\n\nbuild:\n  noarch: python\n  number: 2\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  host:\n    - python >=3.6\n    - pip\n  run:\n    - python >=3.6,<4\n    - numpy >=1.14,<2\n    - matplotlib-base >=2.2\n    - h5py >=2.9,<3\n    - pytest >=3.5\n    - scipy >=1.1,<2\n    - tifffile >=0.15,<1.0\n\ntest:\n  imports:\n    - lumicks.pylake\n    - lumicks.pylake.tests\n\nabout:\n  home: https://github.com/lumicks/pylake\n  license: Apache-2.0\n  license_file: license.md\n  summary: Data analysis tools for Lumicks Bluelake\n  dev_url: https://github.com/lumicks/pylake\n\nextra:\n  recipe-maintainers:\n    - dean0x7d\n    - onnodb\n    - JoepVanlier\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "h5py",
+   "matplotlib-base",
+   "numpy",
+   "pip",
+   "pytest",
+   "python",
+   "scipy",
+   "tifffile"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "h5py",
+    "matplotlib-base",
+    "numpy",
+    "pytest",
+    "python",
+    "scipy",
+    "tifffile"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.7.0\n",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3.6"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "h5py >=2.9,<3",
+    "matplotlib-base >=2.2",
+    "numpy >=1.14,<2",
+    "pytest >=3.5",
+    "python >=3.6,<4",
+    "scipy >=1.1,<2",
+    "tifffile >=0.15,<1.0"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/l/lumicks.pylake/lumicks.pylake-0.3.1.tar.gz",
+ "version":"0.4.1"
+}

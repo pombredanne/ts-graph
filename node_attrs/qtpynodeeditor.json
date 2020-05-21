@@ -1,0 +1,5 @@
+{
+ "bad":false,
+ "feedstock_name":"qtpynodeeditor",
+ "raw_meta_yaml":"{% set name = \"qtpynodeeditor\" %}\n{% set version = \"0.1.0\" %}\n{% set sha256 = \"ec2e5dc591110bce52b8a8f1781ddfef86e540dce841350abde599bd3ac53a0c\" %}\n\npackage:\n  name: \"{{ name|lower }}\"\n  version: \"{{ version }}\"\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  noarch: python\n  script: \"{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv \"\n\nrequirements:\n  host:\n    - python >=3.6\n    - pip\n\n  run:\n    - python >=3.6\n    - qtpy\n    - pyqt\n    - qt\n\ntest:\n  imports:\n    - qtpynodeeditor\n    - qtpynodeeditor.examples\n    - qtpynodeeditor.tests\n\nabout:\n  home: https://github.com/klauer/qtpynodeeditor\n  license: BSD 3-Clause\n  license_family: BSD\n  license_file: LICENSE\n  summary: Python Qt node editor\n  doc_url: https://klauer.github.io/qtpynodeeditor/\n\nextra:\n  recipe-maintainers:\n    - klauer\n"
+}

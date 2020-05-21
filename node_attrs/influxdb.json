@@ -1,0 +1,174 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/402057699.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"5.3.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"influxdb",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"InfluxDB-Python is a client for interacting with InfluxDB. InfluxDB is an\nopen-source distributed time series database, find more about InfluxDB at\nhttps://docs.influxdata.com/influxdb/latest\n",
+   "dev_url":"https://github.com/simplejson/simplejson",
+   "doc_url":"http://simplejson.readthedocs.io/",
+   "home":"https://github.com/influxdata/influxdb-python",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"LICENSE",
+   "summary":"Python client for InfluxDB"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":"setup.py install --single-version-externally-managed --record=record.txt"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "DanielBok",
+    "DanielBok",
+    "DanielBok"
+   ]
+  },
+  "package":{
+   "name":"influxdb",
+   "version":"5.3.0"
+  },
+  "requirements":{
+   "host":[
+    "python",
+    "pip",
+    "python",
+    "pip",
+    "python",
+    "pip"
+   ],
+   "run":[
+    "msgpack-python",
+    "requests >=2.17.0",
+    "six >=1.10.0",
+    "python",
+    "python-dateutil >=2.6.0",
+    "pytz",
+    "msgpack-python",
+    "requests >=2.17.0",
+    "six >=1.10.0",
+    "python",
+    "python-dateutil >=2.6.0",
+    "pytz",
+    "msgpack-python",
+    "requests >=2.17.0",
+    "six >=1.10.0",
+    "python",
+    "python-dateutil >=2.6.0",
+    "pytz"
+   ]
+  },
+  "source":{
+   "sha256":"9bcaafd57ac152b9824ab12ed19f204206ef5df8af68404770554c5b55b475f6",
+   "url":"https://pypi.io/packages/source/i/influxdb/influxdb-5.3.0.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "influxdb",
+    "influxdb",
+    "influxdb"
+   ]
+  }
+ },
+ "name":"influxdb",
+ "new_version":"5.3.0",
+ "new_version_attempts":{
+  "5.3.0":1
+ },
+ "new_version_errors":{},
+ "pinning_version":"2020.04.10.18.29.06",
+ "raw_meta_yaml":"{% set name = \"influxdb\" %}\n{% set version = \"5.3.0\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: 9bcaafd57ac152b9824ab12ed19f204206ef5df8af68404770554c5b55b475f6\n\nbuild:\n  noarch: python\n  number: 0\n  script: {{ PYTHON }} setup.py install --single-version-externally-managed --record=record.txt\n\nrequirements:\n  host:\n    - python\n    - pip\n  run:\n    - msgpack-python\n    - requests >=2.17.0\n    - six >=1.10.0\n    - python\n    - python-dateutil >=2.6.0\n    - pytz\n\ntest:\n  imports:\n    - influxdb\n\nabout:\n  home: https://github.com/influxdata/influxdb-python\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE\n  summary: Python client for InfluxDB\n  description: |\n    InfluxDB-Python is a client for interacting with InfluxDB. InfluxDB is an \n    open-source distributed time series database, find more about InfluxDB at \n    https://docs.influxdata.com/influxdb/latest\n  doc_url: http://simplejson.readthedocs.io/\n  dev_url: https://github.com/simplejson/simplejson\n\nextra:\n  recipe-maintainers:\n    - DanielBok\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "msgpack-python",
+   "pip",
+   "python",
+   "python-dateutil",
+   "pytz",
+   "requests",
+   "six"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "msgpack-python",
+    "python",
+    "python-dateutil",
+    "pytz",
+    "requests",
+    "six"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.6.16",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "msgpack-python",
+    "python",
+    "python-dateutil >=2.6.0",
+    "pytz",
+    "requests >=2.17.0",
+    "six >=1.10.0"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/i/influxdb/influxdb-5.2.3.tar.gz",
+ "version":"5.3.0"
+}

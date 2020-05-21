@@ -1,0 +1,6 @@
+{
+ "bad":"Upstream: Error getting upstream version",
+ "feedstock_name":"cursor",
+ "new_version":false,
+ "raw_meta_yaml":"{% set name = \"cursor\" %}\n{% set version = \"1.3.4\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: 33f279a17789c04efd27a92501a0dad62bb011f8a4cdff93867c798d26508940\n\nbuild:\n  entry_points:\n    - cursor_hide = cursor:hide\n    - cursor_show = cursor:show\n  noarch: python\n  number: 0\n  script: '{{ PYTHON }} -m pip install . -vv'\n\nrequirements:\n  host:\n    - pip\n    - python\n  run:\n    - python\n\ntest:\n  imports:\n    - cursor\n  commands:\n    - cursor_hide\n    - cursor_show\n\nabout:\n  home: https://github.com/GijsTimmers/cursor\n  license: GPL-3.0-or-later\n  license_family: GPL\n  license_file: LICENSE\n  summary: A small Python package to hide or show the terminal cursor\n\nextra:\n  recipe-maintainers:\n    - duncanmmacleod\n"
+}

@@ -1,0 +1,313 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/274271803.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.6.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/394671129.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.6.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "bot":{
+   "automerge":true
+  }
+ },
+ "feedstock_name":"catlearn",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"Utilities for building and testing atomic machine learning models.\nGaussian Processes (GP) regression machine learning routines are\nimplemented. These will take any numpy array of training and test\nfeature matrices along with a vector of target values.\nIn general, any data prepared in this fashion can be fed to the\nGP routines, a number of additional functions have been added that\ninterface with ASE. This integration allows for the manipulation of\natoms objects through GP predictions, as well as dynamic generation\nof descriptors through use of the many ASE functions.\n",
+   "dev_url":"https://github.com/SUNCAT-Center/CatLearn",
+   "doc_url":"http://catlearn.readthedocs.io/",
+   "home":"https://github.com/SUNCAT-Center/CatLearn",
+   "license":"GPL-3.0",
+   "license_family":"GPL",
+   "license_file":"LICENSE.txt",
+   "summary":"A machine learning environment for atomic-scale modeling in surface science and catalysis."
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":"-m pip install . --no-deps -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "jan-janssen",
+    "jan-janssen",
+    "jan-janssen"
+   ]
+  },
+  "package":{
+   "name":"catlearn",
+   "version":"0.6.2"
+  },
+  "requirements":{
+   "build":[
+    "c_compiler_stub",
+    "c_compiler_stub",
+    "c_compiler_stub"
+   ],
+   "host":[
+    "python",
+    "pip",
+    "python",
+    "pip",
+    "python",
+    "pip"
+   ],
+   "run":[
+    "python",
+    "pip",
+    "ase >=3.17.0",
+    "click >=6.7",
+    "cycler >=0.10.0",
+    "decorator >=4.3.0",
+    "flask >=1.0.2",
+    "h5py >=2.7.1",
+    "itsdangerous >=0.24",
+    "jinja2 >=2.10",
+    "kiwisolver >=1.0.1",
+    "markupsafe >=1.0",
+    "networkx >=2.1.0",
+    "numpy >=1.14.3",
+    "pandas >=0.23.0",
+    "psutil >=5.4.3",
+    "pyparsing >=2.2.0",
+    "python-dateutil >=2.7.3",
+    "pytz >=2018.4",
+    "scikit-learn >=0.19.1",
+    "scipy >=1.1.0",
+    "six >=1.11.0",
+    "tqdm >=4.23.3",
+    "werkzeug >=0.14.1",
+    "python",
+    "pip",
+    "ase >=3.17.0",
+    "click >=6.7",
+    "cycler >=0.10.0",
+    "decorator >=4.3.0",
+    "flask >=1.0.2",
+    "h5py >=2.7.1",
+    "itsdangerous >=0.24",
+    "jinja2 >=2.10",
+    "kiwisolver >=1.0.1",
+    "markupsafe >=1.0",
+    "networkx >=2.1.0",
+    "numpy >=1.14.3",
+    "pandas >=0.23.0",
+    "psutil >=5.4.3",
+    "pyparsing >=2.2.0",
+    "python-dateutil >=2.7.3",
+    "pytz >=2018.4",
+    "scikit-learn >=0.19.1",
+    "scipy >=1.1.0",
+    "six >=1.11.0",
+    "tqdm >=4.23.3",
+    "werkzeug >=0.14.1",
+    "python",
+    "pip",
+    "ase >=3.17.0",
+    "click >=6.7",
+    "cycler >=0.10.0",
+    "decorator >=4.3.0",
+    "flask >=1.0.2",
+    "h5py >=2.7.1",
+    "itsdangerous >=0.24",
+    "jinja2 >=2.10",
+    "kiwisolver >=1.0.1",
+    "markupsafe >=1.0",
+    "networkx >=2.1.0",
+    "numpy >=1.14.3",
+    "pandas >=0.23.0",
+    "psutil >=5.4.3",
+    "pyparsing >=2.2.0",
+    "python-dateutil >=2.7.3",
+    "pytz >=2018.4",
+    "scikit-learn >=0.19.1",
+    "scipy >=1.1.0",
+    "six >=1.11.0",
+    "tqdm >=4.23.3",
+    "werkzeug >=0.14.1"
+   ]
+  },
+  "source":{
+   "sha256":"5af6622e4660f3b5760267fccd9c5da6f1a4a88aad0aacc044067a68f92e2bbd",
+   "url":"https://pypi.io/packages/source/C/CatLearn/CatLearn-0.6.2.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "pip check",
+    "pip check",
+    "pip check"
+   ],
+   "imports":[
+    "catlearn",
+    "catlearn",
+    "catlearn"
+   ]
+  }
+ },
+ "name":"catlearn",
+ "new_version":"0.6.2",
+ "pinning_version":"2020.03.24",
+ "raw_meta_yaml":"{% set name = \"catlearn\" %}\n{% set version = \"0.6.2\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/C/CatLearn/CatLearn-{{ version }}.tar.gz\n  sha256: 5af6622e4660f3b5760267fccd9c5da6f1a4a88aad0aacc044067a68f92e2bbd\n\nbuild:\n  noarch: python\n  number: 0\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  build:\n    - {{ compiler('c') }}\n  host:\n    - python\n    - pip\n  run:\n    - python\n    - pip\n    - ase >=3.17.0\n    - click >=6.7\n    - cycler >=0.10.0\n    - decorator >=4.3.0\n    - flask >=1.0.2\n    - h5py >=2.7.1\n    - itsdangerous >=0.24\n    - jinja2 >=2.10\n    - kiwisolver >=1.0.1\n    - markupsafe >=1.0\n    - networkx >=2.1.0\n    - numpy >=1.14.3\n    - pandas >=0.23.0\n    - psutil >=5.4.3\n    - pyparsing >=2.2.0\n    - python-dateutil >=2.7.3\n    - pytz >=2018.4\n    - scikit-learn >=0.19.1\n    - scipy >=1.1.0\n    - six >=1.11.0\n    - tqdm >=4.23.3\n    - werkzeug >=0.14.1\n\ntest:\n  imports:\n    - catlearn\n  commands:\n    - pip check\n\nabout:\n  home: https://github.com/SUNCAT-Center/CatLearn\n  license: GPL-3.0\n  license_family: GPL\n  license_file: LICENSE.txt\n  summary: A machine learning environment for atomic-scale modeling in surface science and catalysis.\n\n  description: |\n    Utilities for building and testing atomic machine learning models. \n    Gaussian Processes (GP) regression machine learning routines are \n    implemented. These will take any numpy array of training and test \n    feature matrices along with a vector of target values.\n    In general, any data prepared in this fashion can be fed to the \n    GP routines, a number of additional functions have been added that \n    interface with ASE. This integration allows for the manipulation of \n    atoms objects through GP predictions, as well as dynamic generation \n    of descriptors through use of the many ASE functions.    \n  doc_url: http://catlearn.readthedocs.io/\n  dev_url: https://github.com/SUNCAT-Center/CatLearn\n\nextra:\n  recipe-maintainers:\n    - jan-janssen\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "ase",
+   "c_compiler_stub",
+   "click",
+   "cycler",
+   "decorator",
+   "flask",
+   "h5py",
+   "itsdangerous",
+   "jinja2",
+   "kiwisolver",
+   "markupsafe",
+   "networkx",
+   "numpy",
+   "pandas",
+   "pip",
+   "psutil",
+   "pyparsing",
+   "python",
+   "python-dateutil",
+   "pytz",
+   "scikit-learn",
+   "scipy",
+   "six",
+   "tqdm",
+   "werkzeug"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "ase",
+    "click",
+    "cycler",
+    "decorator",
+    "flask",
+    "h5py",
+    "itsdangerous",
+    "jinja2",
+    "kiwisolver",
+    "markupsafe",
+    "networkx",
+    "numpy",
+    "pandas",
+    "pip",
+    "psutil",
+    "pyparsing",
+    "python",
+    "python-dateutil",
+    "pytz",
+    "scikit-learn",
+    "scipy",
+    "six",
+    "tqdm",
+    "werkzeug"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.6.15",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "ase >=3.17.0",
+    "click >=6.7",
+    "cycler >=0.10.0",
+    "decorator >=4.3.0",
+    "flask >=1.0.2",
+    "h5py >=2.7.1",
+    "itsdangerous >=0.24",
+    "jinja2 >=2.10",
+    "kiwisolver >=1.0.1",
+    "markupsafe >=1.0",
+    "networkx >=2.1.0",
+    "numpy >=1.14.3",
+    "pandas >=0.23.0",
+    "pip",
+    "psutil >=5.4.3",
+    "pyparsing >=2.2.0",
+    "python",
+    "python-dateutil >=2.7.3",
+    "pytz >=2018.4",
+    "scikit-learn >=0.19.1",
+    "scipy >=1.1.0",
+    "six >=1.11.0",
+    "tqdm >=4.23.3",
+    "werkzeug >=0.14.1"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/C/CatLearn/CatLearn-0.6.1.tar.gz",
+ "version":"0.6.2"
+}

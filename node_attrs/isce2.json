@@ -1,0 +1,453 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/286293645.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Rebuild",
+    "migrator_version":0,
+    "name":"hdf5-1.10.5"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/299077880.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/306292736.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Rebuild",
+    "migrator_version":0,
+    "name":"libgdal-3.0.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/306321811.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Rebuild",
+    "migrator_version":0,
+    "name":"gdal-3.0.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/308395191.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"GFortranOSXRebuild",
+    "migrator_version":0,
+    "name":"fortran_compiler_stub-7"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/339439427.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"python38"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/397899557.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.3.3"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"isce2",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"InSAR Scientific Computing Environment (ISCE) is a framework designed\nfor processing Synthetic Aperture Radar (SAR) And Interferometric SAR\n(InSAR) data. Currently, ISCE supports processing of data acquired by\nfollowing platforms - ALOS, ALOS2, COSMO-SkyMed, EnviSAT, ERS,\nKOMPSAT5,  RadarSAT2, RISAT1, Sentinel1, TerraSAR-X, Tandem-X,\nand UAVSAR. ISCE can also read some SICD format data.\n",
+   "dev_url":"https://github.com/isce-framework/isce2",
+   "doc_url":"https://github.com/isce-framework/isce2-docs",
+   "home":"http://github.com/isce-framework/isce2",
+   "license":"Apache-2.0",
+   "license_family":"Apache",
+   "license_file":"isce2/LICENSE-2.0.txt",
+   "summary":"InSAR Scientific Computing Environment"
+  },
+  "build":{
+   "number":"1",
+   "skip":true
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "bryanvriel",
+    "piyushrpt",
+    "rtburns-jpl",
+    "bryanvriel",
+    "piyushrpt",
+    "rtburns-jpl",
+    "bryanvriel",
+    "piyushrpt",
+    "rtburns-jpl"
+   ]
+  },
+  "package":{
+   "name":"isce2",
+   "version":"2.3.3"
+  },
+  "requirements":{
+   "build":[
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "fortran_compiler_stub",
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "fortran_compiler_stub",
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "fortran_compiler_stub"
+   ],
+   "host":[
+    "python",
+    "numpy",
+    "cython",
+    "scons",
+    "hdf5",
+    "libgdal",
+    "fftw",
+    "opencv 3.4",
+    "python",
+    "numpy",
+    "cython",
+    "scons",
+    "hdf5",
+    "libgdal",
+    "fftw",
+    "opencv 3.4",
+    "python",
+    "numpy",
+    "cython",
+    "scons",
+    "hdf5",
+    "libgdal",
+    "fftw",
+    "opencv 3.4",
+    "openmotif-dev",
+    "xorg-libxt",
+    "xorg-libxft",
+    "xorg-libxmu"
+   ],
+   "run":[
+    "python",
+    "numpy",
+    "scipy",
+    "hdf5",
+    "h5py",
+    "opencv 3.4",
+    "gdal",
+    "libgdal",
+    "fftw",
+    "requests",
+    "python",
+    "numpy",
+    "scipy",
+    "hdf5",
+    "h5py",
+    "opencv 3.4",
+    "gdal",
+    "libgdal",
+    "fftw",
+    "requests",
+    "python",
+    "numpy",
+    "scipy",
+    "hdf5",
+    "h5py",
+    "opencv 3.4",
+    "gdal",
+    "libgdal",
+    "fftw",
+    "xorg-libxt",
+    "xorg-libxft",
+    "xorg-libxmu",
+    "xorg-libxdmcp",
+    "openmotif",
+    "requests"
+   ]
+  },
+  "source":[
+   {
+    "folder":"isce2",
+    "sha256":"f093086846426b855aa279bcee7de59668587faf1bd8324f6546b216578bfea6",
+    "url":"https://github.com/isce-framework/isce2/archive/v2.3.3.tar.gz"
+   },
+   {
+    "folder":"autorift",
+    "sha256":"0fb07d147c9ea72417aea82ff289d668b5d2c3182b508a7f60b1117f2981502f",
+    "url":"https://github.com/leiyangleon/autoRIFT/archive/v1.0.6.tar.gz"
+   },
+   {
+    "folder":"isce2",
+    "sha256":"f093086846426b855aa279bcee7de59668587faf1bd8324f6546b216578bfea6",
+    "url":"https://github.com/isce-framework/isce2/archive/v2.3.3.tar.gz"
+   },
+   {
+    "folder":"autorift",
+    "sha256":"0fb07d147c9ea72417aea82ff289d668b5d2c3182b508a7f60b1117f2981502f",
+    "url":"https://github.com/leiyangleon/autoRIFT/archive/v1.0.6.tar.gz"
+   },
+   {
+    "folder":"isce2",
+    "sha256":"f093086846426b855aa279bcee7de59668587faf1bd8324f6546b216578bfea6",
+    "url":"https://github.com/isce-framework/isce2/archive/v2.3.3.tar.gz"
+   },
+   {
+    "folder":"autorift",
+    "sha256":"0fb07d147c9ea72417aea82ff289d668b5d2c3182b508a7f60b1117f2981502f",
+    "url":"https://github.com/leiyangleon/autoRIFT/archive/v1.0.6.tar.gz"
+   }
+  ],
+  "test":{
+   "commands":[
+    "ISCEHOME=`$PYTHON -c \"import isce, os; print(os.path.dirname(isce.__file__))\" | tail -n 1`",
+    "${ISCEHOME}/applications/topsApp.py --help --steps",
+    "${ISCEHOME}/applications/stripmapApp.py --help --steps",
+    "${ISCEHOME}/applications/dem.py --help",
+    "${ISCEHOME}/applications/isce2gis.py -h",
+    "${ISCEHOME}/applications/imageMath.py -h",
+    "${ISCEHOME}/applications/alos2App.py --help --steps",
+    "${ISCEHOME}/applications/alos2burstApp.py --help --steps",
+    "${ISCEHOME}/applications/testautoRIFT.py -h",
+    "${ISCEHOME}/applications/testautoRIFT_ISCE.py -h",
+    "python /run_test.py",
+    "ISCEHOME=`$PYTHON -c \"import isce, os; print(os.path.dirname(isce.__file__))\" | tail -n 1`",
+    "${ISCEHOME}/applications/topsApp.py --help --steps",
+    "${ISCEHOME}/applications/stripmapApp.py --help --steps",
+    "${ISCEHOME}/applications/dem.py --help",
+    "${ISCEHOME}/applications/isce2gis.py -h",
+    "${ISCEHOME}/applications/imageMath.py -h",
+    "${ISCEHOME}/applications/alos2App.py --help --steps",
+    "${ISCEHOME}/applications/alos2burstApp.py --help --steps",
+    "${ISCEHOME}/applications/testautoRIFT.py -h",
+    "${ISCEHOME}/applications/testautoRIFT_ISCE.py -h",
+    "python /run_test.py",
+    "ISCEHOME=`$PYTHON -c \"import isce, os; print(os.path.dirname(isce.__file__))\" | tail -n 1`",
+    "${ISCEHOME}/applications/topsApp.py --help --steps",
+    "${ISCEHOME}/applications/stripmapApp.py --help --steps",
+    "${ISCEHOME}/applications/dem.py --help",
+    "${ISCEHOME}/applications/isce2gis.py -h",
+    "${ISCEHOME}/applications/imageMath.py -h",
+    "${ISCEHOME}/applications/alos2App.py --help --steps",
+    "${ISCEHOME}/applications/alos2burstApp.py --help --steps",
+    "${ISCEHOME}/applications/testautoRIFT.py -h",
+    "${ISCEHOME}/applications/testautoRIFT_ISCE.py -h",
+    "python /run_test.py",
+    "${ISCEHOME}/bin/mdx"
+   ],
+   "imports":[
+    "isce",
+    "isce",
+    "isce"
+   ]
+  }
+ },
+ "name":"isce2",
+ "new_version":"2.3.3",
+ "pinning_version":"2020.04.02",
+ "raw_meta_yaml":"{% set name = \"isce2\" %}\n{% set version = \"2.3.3\" %}\n{% set autoriftver = \"1.0.6\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n    - url: https://github.com/isce-framework/isce2/archive/v{{ version }}.tar.gz\n      sha256: f093086846426b855aa279bcee7de59668587faf1bd8324f6546b216578bfea6\n      folder: isce2\n\n    - url: https://github.com/leiyangleon/autoRIFT/archive/v{{ autoriftver }}.tar.gz\n      sha256: 0fb07d147c9ea72417aea82ff289d668b5d2c3182b508a7f60b1117f2981502f\n      folder: autorift\n\nbuild:\n  number: 1\n  skip: true  # [win or py2k]\n\nrequirements:\n  build:\n    - {{ compiler('c') }}\n    - {{ compiler('cxx') }}\n    - {{ compiler('fortran') }}\n  host:\n    - python\n    - numpy\n    - cython\n    - scons\n    - hdf5\n    - libgdal\n    - fftw\n    - opencv 3.4\n    - openmotif-dev  # [linux]\n    - xorg-libxt     # [linux]\n    - xorg-libxft    # [linux]\n    - xorg-libxmu    # [linux]\n  run:\n    - python\n    - {{ pin_compatible('numpy') }}\n    - scipy\n    - hdf5\n    - h5py\n    - opencv 3.4\n    - gdal\n    - libgdal\n    - fftw\n    - xorg-libxt  # [linux]\n    - xorg-libxft  # [linux]\n    - xorg-libxmu  # [linux]\n    - xorg-libxdmcp  # [linux]\n    - openmotif  # [linux]\n    - requests\n\ntest:\n  imports:\n    - isce\n  commands:\n    - ISCEHOME=`$PYTHON -c \"import isce, os; print(os.path.dirname(isce.__file__))\" | tail -n 1`\n    - ${ISCEHOME}/applications/topsApp.py --help --steps\n    - ${ISCEHOME}/applications/stripmapApp.py --help --steps\n    - ${ISCEHOME}/applications/dem.py --help\n    - ${ISCEHOME}/applications/isce2gis.py -h\n    - ${ISCEHOME}/applications/imageMath.py -h\n    - ${ISCEHOME}/applications/alos2App.py --help --steps\n    - ${ISCEHOME}/applications/alos2burstApp.py --help --steps\n    - ${ISCEHOME}/applications/testautoRIFT.py -h\n    - ${ISCEHOME}/applications/testautoRIFT_ISCE.py -h\n    - python {{ RECIPE_DIR }}/run_test.py\n    - ${ISCEHOME}/bin/mdx    # [linux]\n\nabout:\n  home: http://github.com/isce-framework/isce2\n  license: Apache-2.0\n  license_family: Apache\n  license_file: isce2/LICENSE-2.0.txt\n  summary: InSAR Scientific Computing Environment\n\n  description: |\n    InSAR Scientific Computing Environment (ISCE) is a framework designed\n    for processing Synthetic Aperture Radar (SAR) And Interferometric SAR\n    (InSAR) data. Currently, ISCE supports processing of data acquired by\n    following platforms - ALOS, ALOS2, COSMO-SkyMed, EnviSAT, ERS,\n    KOMPSAT5,  RadarSAT2, RISAT1, Sentinel1, TerraSAR-X, Tandem-X, \n    and UAVSAR. ISCE can also read some SICD format data.\n\n  doc_url: https://github.com/isce-framework/isce2-docs\n  dev_url: https://github.com/isce-framework/isce2\n\nextra:\n  recipe-maintainers:\n    - bryanvriel\n    - piyushrpt\n    - rtburns-jpl\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "c_compiler_stub",
+   "cxx_compiler_stub",
+   "cython",
+   "fftw",
+   "fortran_compiler_stub",
+   "gdal",
+   "h5py",
+   "hdf5",
+   "libgdal",
+   "numpy",
+   "opencv",
+   "openmotif",
+   "openmotif-dev",
+   "python",
+   "requests",
+   "scipy",
+   "scons",
+   "xorg-libxdmcp",
+   "xorg-libxft",
+   "xorg-libxmu",
+   "xorg-libxt"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "fortran_compiler_stub"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "cython",
+    "fftw",
+    "hdf5",
+    "libgdal",
+    "numpy",
+    "opencv",
+    "openmotif-dev",
+    "python",
+    "scons",
+    "xorg-libxft",
+    "xorg-libxmu",
+    "xorg-libxt"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "fftw",
+    "gdal",
+    "h5py",
+    "hdf5",
+    "libgdal",
+    "numpy",
+    "opencv",
+    "openmotif",
+    "python",
+    "requests",
+    "scipy",
+    "xorg-libxdmcp",
+    "xorg-libxft",
+    "xorg-libxmu",
+    "xorg-libxt"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.6.15",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "fortran_compiler_stub"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "cython",
+    "fftw",
+    "hdf5",
+    "libgdal",
+    "numpy",
+    "opencv 3.4",
+    "openmotif-dev",
+    "python",
+    "scons",
+    "xorg-libxft",
+    "xorg-libxmu",
+    "xorg-libxt"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "fftw",
+    "gdal",
+    "h5py",
+    "hdf5",
+    "libgdal",
+    "numpy",
+    "opencv 3.4",
+    "openmotif",
+    "python",
+    "requests",
+    "scipy",
+    "xorg-libxdmcp",
+    "xorg-libxft",
+    "xorg-libxmu",
+    "xorg-libxt"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://github.com/isce-framework/isce2/archive/v2.3.2.tar.gz",
+ "version":"2.3.3"
+}

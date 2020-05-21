@@ -1,0 +1,267 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/348692068.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"python38"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/349719500.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.9.10"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/350348427.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.9.11"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/369269556.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.9.12"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"cesium",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "dev_url":"https://github.com/cesium-ml/cesium",
+   "doc_url":"http://cesium-ml.org/docs/",
+   "home":"http://cesium-ml.org/",
+   "license":"BSD 3-Clause",
+   "license_family":"BSD",
+   "license_file":"LICENSE.txt",
+   "summary":"Machine Learning Time-Series Platform"
+  },
+  "build":{
+   "number":"0",
+   "script":" -m pip install . --no-deps --ignore-installed -vv ",
+   "skip":true
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "cbcunc",
+    "cbcunc",
+    "cbcunc"
+   ]
+  },
+  "package":{
+   "name":"cesium",
+   "version":"0.9.9"
+  },
+  "requirements":{
+   "build":[
+    "c_compiler_stub",
+    "c_compiler_stub",
+    "c_compiler_stub"
+   ],
+   "host":[
+    "pip",
+    "python",
+    "numpy >=1.14.3",
+    "cython",
+    "pip",
+    "python",
+    "numpy >=1.14.3",
+    "cython",
+    "pip",
+    "python",
+    "numpy >=1.14.3",
+    "cython"
+   ],
+   "run":[
+    "python",
+    "numpy",
+    "scipy >=0.16.0",
+    "scikit-learn >=0.18.1",
+    "pandas >=0.17.0",
+    "dask >=1.0.0",
+    "toolz",
+    "gatspy >=0.3.0",
+    "cloudpickle",
+    "python",
+    "numpy",
+    "scipy >=0.16.0",
+    "scikit-learn >=0.18.1",
+    "pandas >=0.17.0",
+    "dask >=1.0.0",
+    "toolz",
+    "gatspy >=0.3.0",
+    "cloudpickle",
+    "python",
+    "numpy",
+    "scipy >=0.16.0",
+    "scikit-learn >=0.18.1",
+    "pandas >=0.17.0",
+    "dask >=1.0.0",
+    "toolz",
+    "gatspy >=0.3.0",
+    "cloudpickle"
+   ]
+  },
+  "source":{
+   "sha256":"7cbde6817c00e1f0c3e51aaf860cf7784dfc58766f2d4e68a6ca613be10d3d81",
+   "url":"https://pypi.io/packages/source/c/cesium/cesium-0.9.9.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "cesium",
+    "cesium.datasets",
+    "cesium.features",
+    "cesium",
+    "cesium.datasets",
+    "cesium.features",
+    "cesium",
+    "cesium.datasets",
+    "cesium.features"
+   ]
+  }
+ },
+ "name":"cesium",
+ "new_version":"0.9.12",
+ "pinning_version":"2020.01.27",
+ "raw_meta_yaml":"{% set name = \"cesium\" %}\n{% set version = \"0.9.9\" %}\n\npackage:\n  name: \"{{ name|lower }}\"\n  version: \"{{ version }}\"\n\nsource:\n  url: \"https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\"\n  sha256: \"7cbde6817c00e1f0c3e51aaf860cf7784dfc58766f2d4e68a6ca613be10d3d81\"\n\nbuild:\n  number: 0\n  skip: True  # [win]\n  script: \"{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv \"\n\nrequirements:\n  build:\n    - {{ compiler('c') }}\n  host:\n    - pip\n    - python\n    - numpy >=1.14.3\n    - cython\n  run:\n    - python\n    - {{ pin_compatible('numpy') }}\n    - scipy >=0.16.0\n    - scikit-learn >=0.18.1\n    - pandas >=0.17.0\n    - dask >=1.0.0\n    - toolz\n    - gatspy >=0.3.0\n    - cloudpickle\n\ntest:\n  imports:\n    - cesium\n    - cesium.datasets\n    - cesium.features\n\nabout:\n  home: \"http://cesium-ml.org/\"\n  license: \"BSD 3-Clause\"\n  license_family: \"BSD\"\n  license_file: \"LICENSE.txt\"\n  summary: \"Machine Learning Time-Series Platform\"\n  doc_url: \"http://cesium-ml.org/docs/\"\n  dev_url: \"https://github.com/cesium-ml/cesium\"\n\nextra:\n  recipe-maintainers:\n    - cbcunc\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "c_compiler_stub",
+   "cloudpickle",
+   "cython",
+   "dask",
+   "gatspy",
+   "numpy",
+   "pandas",
+   "pip",
+   "python",
+   "scikit-learn",
+   "scipy",
+   "toolz"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "cython",
+    "numpy",
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "cloudpickle",
+    "dask",
+    "gatspy",
+    "numpy",
+    "pandas",
+    "python",
+    "scikit-learn",
+    "scipy",
+    "toolz"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.6.6",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "cython",
+    "numpy >=1.14.3",
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "cloudpickle",
+    "dask >=1.0.0",
+    "gatspy >=0.3.0",
+    "numpy",
+    "pandas >=0.17.0",
+    "python",
+    "scikit-learn >=0.18.1",
+    "scipy >=0.16.0",
+    "toolz"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/c/cesium/cesium-0.9.9.tar.gz",
+ "version":"0.9.9"
+}

@@ -1,0 +1,127 @@
+{
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"mdx_gh_links",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"https://github.com/Python-Markdown/github-links/",
+   "license":"BSD-3-Clause",
+   "license_family":"BSD",
+   "license_file":"LICENSE",
+   "summary":"An extension to Python-Markdown which adds support for shorthand links to GitHub users, repositories, issues and commits."
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":"python -m pip install --no-deps --ignore-installed ."
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "ocefpaf",
+    "ocefpaf",
+    "ocefpaf"
+   ]
+  },
+  "package":{
+   "name":"mdx_gh_links",
+   "version":"0.2"
+  },
+  "requirements":{
+   "host":[
+    "python",
+    "pip",
+    "markdown >=2.6.11",
+    "python",
+    "pip",
+    "markdown >=2.6.11",
+    "python",
+    "pip",
+    "markdown >=2.6.11"
+   ],
+   "run":[
+    "python",
+    "markdown >=2.6.11",
+    "python",
+    "markdown >=2.6.11",
+    "python",
+    "markdown >=2.6.11"
+   ]
+  },
+  "source":{
+   "sha256":"59fb8dafdf62bd0757593d6ab1f13b554d1d3ef0dcc44bedea2eca71970cf398",
+   "url":"https://pypi.io/packages/source/m/mdx_gh_links/mdx_gh_links-0.2.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "mdx_gh_links",
+    "mdx_gh_links",
+    "mdx_gh_links"
+   ]
+  }
+ },
+ "name":"mdx_gh_links",
+ "new_version":"0.2",
+ "raw_meta_yaml":"{% set version = \"0.2\" %}\n\npackage:\n  name: mdx_gh_links\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/m/mdx_gh_links/mdx_gh_links-{{ version }}.tar.gz\n  sha256: 59fb8dafdf62bd0757593d6ab1f13b554d1d3ef0dcc44bedea2eca71970cf398\n\nbuild:\n  number: 0\n  noarch: python\n  script: python -m pip install --no-deps --ignore-installed .\n\nrequirements:\n  host:\n    - python\n    - pip\n    - markdown >=2.6.11\n  run:\n    - python\n    - markdown >=2.6.11\n\ntest:\n  imports:\n    - mdx_gh_links\n\nabout:\n  home: https://github.com/Python-Markdown/github-links/\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: LICENSE\n  summary: An extension to Python-Markdown which adds support for shorthand links to GitHub users, repositories, issues and commits.\n\nextra:\n  recipe-maintainers:\n    - ocefpaf\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "markdown",
+   "pip",
+   "python"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "markdown",
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "markdown",
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "markdown >=2.6.11",
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "markdown >=2.6.11",
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/m/mdx_gh_links/mdx_gh_links-0.2.tar.gz",
+ "version":"0.2"
+}

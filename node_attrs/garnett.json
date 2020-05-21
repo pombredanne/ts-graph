@@ -1,0 +1,185 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/336104253.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"python38"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "provider":{
+   "win":"azure"
+  }
+ },
+ "feedstock_name":"garnett",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "dev_url":"https://github.com/glotzerlab/garnett",
+   "doc_url":"https://garnett.readthedocs.io/",
+   "home":"https://github.com/glotzerlab/garnett",
+   "license":"BSD-3-Clause",
+   "license_family":"BSD",
+   "license_file":"LICENSE.txt",
+   "summary":"This is a collection of samples, parsers and writers for formats used in the Glotzer Group at the University of Michigan, Ann Arbor."
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "lyrivera",
+    "klywang",
+    "bdice",
+    "joaander",
+    "lyrivera",
+    "klywang",
+    "bdice",
+    "joaander",
+    "lyrivera",
+    "klywang",
+    "bdice",
+    "joaander"
+   ]
+  },
+  "package":{
+   "name":"garnett",
+   "version":"0.7.1"
+  },
+  "requirements":{
+   "host":[
+    "pip",
+    "python >=3.5",
+    "setuptools",
+    "pip",
+    "python >=3.5",
+    "setuptools",
+    "pip",
+    "python >=3.5",
+    "setuptools"
+   ],
+   "run":[
+    "deprecation >=2",
+    "numpy >=1.14",
+    "python >=3.5",
+    "rowan >=1.2",
+    "tqdm >=4.35",
+    "deprecation >=2",
+    "numpy >=1.14",
+    "python >=3.5",
+    "rowan >=1.2",
+    "tqdm >=4.35",
+    "deprecation >=2",
+    "numpy >=1.14",
+    "python >=3.5",
+    "rowan >=1.2",
+    "tqdm >=4.35"
+   ]
+  },
+  "source":{
+   "fn":"garnett-0.7.1.tar.gz",
+   "sha256":"cdf53f0ed66c3b70242069e0bc7e715537672d6ae228188ec5fe954ebf6f9e34",
+   "url":"https://github.com/glotzerlab/garnett/archive/v0.7.1.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "garnett",
+    "garnett",
+    "garnett"
+   ]
+  }
+ },
+ "name":"garnett",
+ "new_version":false,
+ "pinning_version":"2019.11.01",
+ "raw_meta_yaml":"{% set name = \"garnett\" %}\n{% set version = \"0.7.1\" %}\n{% set sha256 = \"cdf53f0ed66c3b70242069e0bc7e715537672d6ae228188ec5fe954ebf6f9e34\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  fn: {{ name }}-{{ version }}.tar.gz\n  url: https://github.com/glotzerlab/garnett/archive/v{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 0\n  script: \"{{ PYTHON }} -m pip install . -vv\"\n\nrequirements:\n  host:\n    - pip\n    - python >=3.5\n    - setuptools\n\n  run:\n    - deprecation >=2\n    - numpy >=1.14\n    - python >=3.5\n    - rowan >=1.2\n    - tqdm >=4.35\n\ntest:\n  imports:\n    - garnett\n\nabout:\n  home: https://github.com/glotzerlab/{{ name }}\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: LICENSE.txt\n  summary: 'This is a collection of samples, parsers and writers for formats used in the Glotzer Group at the University of Michigan, Ann Arbor.'\n  doc_url: https://{{ name }}.readthedocs.io/\n  dev_url: https://github.com/glotzerlab/{{ name }}\n\nextra:\n  recipe-maintainers:\n    - lyrivera\n    - klywang\n    - bdice\n    - joaander\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "deprecation",
+   "numpy",
+   "pip",
+   "python",
+   "rowan",
+   "setuptools",
+   "tqdm"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python",
+    "setuptools"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "deprecation",
+    "numpy",
+    "python",
+    "rowan",
+    "tqdm"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.6.1",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3.5",
+    "setuptools"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "deprecation >=2",
+    "numpy >=1.14",
+    "python >=3.5",
+    "rowan >=1.2",
+    "tqdm >=4.35"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://glotzerlab.engin.umich.edu/Downloads/garnett/garnett-v0.5.0.tar.gz",
+ "version":"0.7.1"
+}

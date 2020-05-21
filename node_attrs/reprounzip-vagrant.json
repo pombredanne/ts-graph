@@ -1,0 +1,149 @@
+{
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"reprounzip-vagrant",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"ReproZip is a tool aimed at simplifying the process of creating reproducible\nexperiments from command-line executions, a frequently-used common\ndenominator in computational science. It tracks operating system calls and\ncreates a package that contains all the binaries, files and dependencies\nrequired to run a given command on the author's computational environment\n(packing step). A reviewer can then extract the experiment in his\nenvironment to reproduce the results (unpacking step).\n",
+   "dev_url":"https://github.com/ViDA-NYU/reprozip",
+   "doc_url":"https://docs.reprozip.org/",
+   "home":"http://github.com/ViDA-NYU/reprozip",
+   "license":"BSD-3-Clause",
+   "license_family":"BSD",
+   "license_file":"LICENSE.txt",
+   "summary":"Linux tool enabling reproducible experiments (vagrant plugin)"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"1",
+   "script":"python -m pip install --no-deps --ignore-installed ."
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "remram44",
+    "remram44",
+    "remram44"
+   ]
+  },
+  "package":{
+   "name":"reprounzip-vagrant",
+   "version":"1.0.13"
+  },
+  "requirements":{
+   "host":[
+    "pip",
+    "python",
+    "setuptools",
+    "pip",
+    "python",
+    "setuptools",
+    "pip",
+    "python",
+    "setuptools"
+   ],
+   "run":[
+    "python",
+    "reprounzip >=1.0.10",
+    "rpaths >=0.8",
+    "paramiko",
+    "python",
+    "reprounzip >=1.0.10",
+    "rpaths >=0.8",
+    "paramiko",
+    "python",
+    "reprounzip >=1.0.10",
+    "rpaths >=0.8",
+    "paramiko"
+   ]
+  },
+  "source":{
+   "fn":"reprounzip-vagrant-1.0.13.tar.gz",
+   "sha256":"72573a03faef73e30b92a1bcf93a6cbf3dc0162ea93b40414c76e468faef91e5",
+   "url":"https://pypi.io/packages/source/r/reprounzip-vagrant/reprounzip-vagrant-1.0.13.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "reprounzip vagrant --help",
+    "reprounzip vagrant --help",
+    "reprounzip vagrant --help"
+   ],
+   "imports":[
+    "reprounzip.unpackers.vagrant",
+    "reprounzip.unpackers.vagrant",
+    "reprounzip.unpackers.vagrant"
+   ]
+  }
+ },
+ "name":"reprounzip-vagrant",
+ "new_version":"1.0.13",
+ "raw_meta_yaml":"{% set name = \"reprounzip-vagrant\" %}\n{% set version = \"1.0.13\" %}\n{% set sha256 = \"72573a03faef73e30b92a1bcf93a6cbf3dc0162ea93b40414c76e468faef91e5\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  fn: {{ name }}-{{ version }}.tar.gz\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 1\n  script: python -m pip install --no-deps --ignore-installed .\n\nrequirements:\n  host:\n    - pip\n    - python\n    - setuptools\n  run:\n    - python\n    - reprounzip >=1.0.10\n    - rpaths >=0.8\n    - paramiko\n\ntest:\n  imports:\n    - reprounzip.unpackers.vagrant\n\n  commands:\n    - reprounzip vagrant --help\n\nabout:\n  home: http://github.com/ViDA-NYU/reprozip\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: LICENSE.txt\n  summary: 'Linux tool enabling reproducible experiments (vagrant plugin)'\n  description: |\n    ReproZip is a tool aimed at simplifying the process of creating reproducible\n    experiments from command-line executions, a frequently-used common\n    denominator in computational science. It tracks operating system calls and\n    creates a package that contains all the binaries, files and dependencies\n    required to run a given command on the author's computational environment\n    (packing step). A reviewer can then extract the experiment in his\n    environment to reproduce the results (unpacking step).\n  doc_url: https://docs.reprozip.org/\n  dev_url: https://github.com/ViDA-NYU/reprozip\n\nextra:\n  recipe-maintainers:\n    - remram44\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "paramiko",
+   "pip",
+   "python",
+   "reprounzip",
+   "rpaths",
+   "setuptools"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python",
+    "setuptools"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "paramiko",
+    "python",
+    "reprounzip",
+    "rpaths"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python",
+    "setuptools"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "paramiko",
+    "python",
+    "reprounzip >=1.0.10",
+    "rpaths >=0.8"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/r/reprounzip-vagrant/reprounzip-vagrant-1.0.13.tar.gz",
+ "version":"1.0.13"
+}

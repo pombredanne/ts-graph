@@ -1,0 +1,159 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/378729171.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.0.4"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"libusb-compat",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"https://sourceforge.net/projects/libusb/files/libusb-0.1%20%28LEGACY%29/",
+   "license":"LGPL-2.1",
+   "license_family":"LGPL",
+   "license_file":"LICENSE",
+   "summary":"(Legacy) A cross-platform library that gives apps easy access to USB devices"
+  },
+  "build":{
+   "number":"0",
+   "run_exports":[
+    "libusb-compat",
+    "libusb-compat",
+    "libusb-compat"
+   ],
+   "skip":true
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "hmaarrfk",
+    "hmaarrfk",
+    "hmaarrfk"
+   ]
+  },
+  "package":{
+   "name":"libusb-compat",
+   "version":"0.1.12"
+  },
+  "requirements":{
+   "build":[
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "libtool",
+    "pkg-config",
+    "make",
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "libtool",
+    "pkg-config",
+    "make"
+   ]
+  },
+  "source":{
+   "sha256":"37f6f7d9de74196eb5fc0bbe0aea9b5c939de7f500acba3af6fd643f3b538b44",
+   "url":"http://downloads.sourceforge.net/libusb/libusb-0.1.12.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "test -f $PREFIX/include/usb.h",
+    "test -f $PREFIX/include/usbpp.h",
+    "test -f $PREFIX/bin/libusb-config",
+    "test -f $PREFIX/lib/libusb.so",
+    "test -f $PREFIX/lib/libusb-0.1.so.4",
+    "test -f $PREFIX/include/usb.h",
+    "test -f $PREFIX/include/usbpp.h",
+    "test -f $PREFIX/bin/libusb-config",
+    "test -f $PREFIX/lib/libusb.so",
+    "test -f $PREFIX/lib/libusb-0.1.so.4",
+    "test -f $PREFIX/include/usb.h",
+    "test -f $PREFIX/include/usbpp.h",
+    "test -f $PREFIX/bin/libusb-config",
+    "test -f $PREFIX/lib/libusb.so",
+    "test -f $PREFIX/lib/libusb-0.1.so.4"
+   ]
+  }
+ },
+ "name":"libusb-compat",
+ "new_version":"1.0.4",
+ "pinning_version":"2020.02.20",
+ "raw_meta_yaml":"{% set version = \"0.1.12\" %}\n\npackage:\n  name: libusb-compat\n  version: {{ version }}\n\nsource:\n  url: http://downloads.sourceforge.net/libusb/libusb-{{ version }}.tar.gz\n  sha256: 37f6f7d9de74196eb5fc0bbe0aea9b5c939de7f500acba3af6fd643f3b538b44\n\nbuild:\n  number: 0\n  run_exports:\n    # This package is very unlikely to change in the near future as it is\n    # legacy code\n    - {{ pin_subpackage('libusb-compat') }}\n  # For now, start with linux builds ony\n  skip: True  # [not linux]\n\nrequirements:\n  build:\n    - {{ compiler('c') }}\n    - {{ compiler('cxx') }}\n    - libtool  # [unix]\n    - pkg-config  # [unix]\n    - make  # [unix]\n\ntest:\n  commands:\n    - test -f $PREFIX/include/usb.h\n    - test -f $PREFIX/include/usbpp.h\n    - test -f $PREFIX/bin/libusb-config\n    - test -f $PREFIX/lib/libusb.so\n    - test -f $PREFIX/lib/libusb-0.1.so.4\n\nabout:\n  home: https://sourceforge.net/projects/libusb/files/libusb-0.1%20%28LEGACY%29/\n  license: LGPL-2.1\n  license_family: LGPL\n  license_file: LICENSE\n  summary: '(Legacy) A cross-platform library that gives apps easy access to USB devices'\n\nextra:\n  recipe-maintainers:\n    - hmaarrfk\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "c_compiler_stub",
+   "cxx_compiler_stub",
+   "libtool",
+   "make",
+   "pkg-config"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "libtool",
+    "make",
+    "pkg-config"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.6.8",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "libtool",
+    "make",
+    "pkg-config"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"http://downloads.sourceforge.net/libusb/libusb-0.1.12.tar.gz",
+ "version":"0.1.12"
+}

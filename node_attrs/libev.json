@@ -1,0 +1,179 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/196932987.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Compiler",
+    "migrator_version":0
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/215152781.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/240390408.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"4.25"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "compiler_stack":"comp7",
+  "max_py_ver":"37",
+  "max_r_ver":"35"
+ },
+ "feedstock_name":"libev",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"http://software.schmorp.de/pkg/libev.html",
+   "license":"BSD-2-Clause",
+   "license_family":"BSD",
+   "license_file":"LICENSE",
+   "summary":"A full-featured and high-performance event loop that is loosely modeled after libevent, but without its limitations and bugs."
+  },
+  "build":{
+   "number":"1000",
+   "skip":true
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "petercable",
+    "carlodri",
+    "petercable",
+    "carlodri",
+    "petercable",
+    "carlodri"
+   ]
+  },
+  "package":{
+   "name":"libev",
+   "version":"4.25"
+  },
+  "requirements":{
+   "build":[
+    "libtool",
+    "c_compiler_stub",
+    "libtool",
+    "c_compiler_stub",
+    "libtool",
+    "c_compiler_stub"
+   ],
+   "host":null
+  },
+  "source":{
+   "fn":"libev-4.25.tar.gz",
+   "sha256":"78757e1c27778d2f3795251d9fe09715d51ce0422416da4abb34af3929c02589",
+   "url":"http://dist.schmorp.de/libev/Attic/libev-4.25.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "test -f \"${PREFIX}/include/ev.h\"",
+    "test -f \"${PREFIX}/include/ev++.h\"",
+    "test -f \"${PREFIX}/include/event.h\"",
+    "test -f \"${PREFIX}/lib/libev.a\"",
+    "test -f \"${PREFIX}/include/ev.h\"",
+    "test -f \"${PREFIX}/include/ev++.h\"",
+    "test -f \"${PREFIX}/include/event.h\"",
+    "test -f \"${PREFIX}/lib/libev.a\"",
+    "test -f \"${PREFIX}/lib/libev.dylib\"",
+    "test -f \"${PREFIX}/include/ev.h\"",
+    "test -f \"${PREFIX}/include/ev++.h\"",
+    "test -f \"${PREFIX}/include/event.h\"",
+    "test -f \"${PREFIX}/lib/libev.a\"",
+    "test -f \"${PREFIX}/lib/libev.so\""
+   ]
+  }
+ },
+ "name":"libev",
+ "new_version":false,
+ "pinning_version":"2018.12.18",
+ "raw_meta_yaml":"{% set name = \"libev\" %}\n{% set version = \"4.25\" %}\n{% set sha256 = \"78757e1c27778d2f3795251d9fe09715d51ce0422416da4abb34af3929c02589\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  fn: {{ name }}-{{ version }}.tar.gz\n  url: http://dist.schmorp.de/libev/Attic/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 1000\n  skip: true  # [win]\n\nrequirements:\n  build:\n    - libtool\n    - {{ compiler('c') }}\n  host:\n\ntest:\n  commands:\n    # Check for headers.\n    - test -f \"${PREFIX}/include/ev.h\"\n    - test -f \"${PREFIX}/include/ev++.h\"\n    - test -f \"${PREFIX}/include/event.h\"\n\n    # Check for libraries.\n    {% set libs = [\n        \"libev\",\n    ] %}\n\n    {% for each_lib in libs %}\n    - test -f \"${PREFIX}/lib/{{ each_lib }}.a\"\n    - test -f \"${PREFIX}/lib/{{ each_lib }}.dylib\"         # [osx]\n    - test -f \"${PREFIX}/lib/{{ each_lib }}.so\"            # [linux]\n    {% endfor %}\n\n\nabout:\n  home: http://software.schmorp.de/pkg/libev.html\n  license: BSD-2-Clause\n  license_family: BSD\n  license_file: LICENSE\n  summary: A full-featured and high-performance event loop that is loosely modeled after libevent, but without its limitations and bugs.\n\nextra:\n  recipe-maintainers:\n    - petercable\n    - carlodri\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "c_compiler_stub",
+   "libtool"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "libtool"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.2.2",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "libtool"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"http://dist.schmorp.de/libev/Attic/libev-4.25.tar.gz",
+ "version":"4.25"
+}

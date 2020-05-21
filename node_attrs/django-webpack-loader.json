@@ -1,0 +1,5 @@
+{
+ "bad":false,
+ "feedstock_name":"django-webpack-loader",
+ "raw_meta_yaml":"{% set name = \"django-webpack-loader\" %}\n{% set version = \"0.7.0\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: 7a3c88201aa54481f9399465615cbe7b9aece8081496a6d0287b7cb8e232f447\n\nbuild:\n  noarch: python\n  number: 0\n  script: {{ PYTHON }} -m pip install . -vv\n\nrequirements:\n  host:\n    - pip\n    - python\n  run:\n    - python\n\ntest:\n  imports:\n    - webpack_loader\n    - webpack_loader.contrib\n    - webpack_loader.templatetags\n\nabout:\n  home: https://github.com/owais/django-webpack-loader\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE\n  summary: \"Transparently use webpack with django\"\n  dev_url: https://github.com/owais/django-webpack-loader\n\nextra:\n  recipe-maintainers:\n    - rluria14\n    - oblute\n"
+}

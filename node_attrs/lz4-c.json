@@ -1,0 +1,349 @@
+{
+ "PRed":[
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.8.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/214799426.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.8.3"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/215121261.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.9.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/253757935.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"ArchRebuild",
+    "migrator_version":1,
+    "name":"aarch64 and ppc64le addition"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/272844367.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.9.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/309175683.json"
+   },
+   "data":{
+    "bot_rerun":1586420100.2076097,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.9.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/272563031.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"ArchRebuild",
+    "migrator_version":1,
+    "name":"aarch64 and ppc64le addition"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/401285891.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.9.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "provider":{
+   "linux_aarch64":"azure",
+   "linux_ppc64le":"azure"
+  }
+ },
+ "feedstock_name":"lz4-c",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"LZ4 is lossless compression algorithm, providing compression speed at 400\nMB/s per core (0.16 Bytes/cycle). It features an extremely fast decoder,\nwith speed in multiple GB/s per core (0.71 Bytes/cycle). A high compression\nderivative, called LZ4_HC, is available, trading customizable CPU time for\ncompression ratio. LZ4 library is provided as open source software using a\nBSD license.\n",
+   "home":"https://www.lz4.org",
+   "license":"BSD-2-Clause",
+   "license_file":"lib/LICENSE",
+   "summary":"Extremely Fast Compression algorithm"
+  },
+  "build":{
+   "number":"1",
+   "run_exports":[
+    "lz4-c",
+    "lz4-c",
+    "lz4-c"
+   ],
+   "skip":true
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "mingwandroid",
+    "rmax",
+    "wesm",
+    "xhochy",
+    "mingwandroid",
+    "rmax",
+    "wesm",
+    "xhochy",
+    "mingwandroid",
+    "rmax",
+    "wesm",
+    "xhochy"
+   ]
+  },
+  "package":{
+   "name":"lz4-c",
+   "version":"1.9.2"
+  },
+  "requirements":{
+   "build":[
+    "c_compiler_stub",
+    "m2-patch",
+    "m2-gcc-libs",
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "make",
+    "patch",
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "make",
+    "patch"
+   ],
+   "host":[
+    "ripgrep",
+    "ripgrep",
+    "ripgrep"
+   ]
+  },
+  "source":{
+   "fn":"lz4-1.9.2.tar.gz",
+   "patches":[
+    "patches/0001-Add-WindowsTargetPlatformVersion-of-10.0-and-lz4-exe.1.patch",
+    "patches/0001-Add-WindowsTargetPlatformVersion-of-10.0-and-lz4-exe.2.patch",
+    "patches/0001-Add-WindowsTargetPlatformVersion-of-10.0-and-lz4-exe.1.patch",
+    "patches/0001-Add-WindowsTargetPlatformVersion-of-10.0-and-lz4-exe.2.patch",
+    "patches/0001-Add-WindowsTargetPlatformVersion-of-10.0-and-lz4-exe.1.patch",
+    "patches/0001-Add-WindowsTargetPlatformVersion-of-10.0-and-lz4-exe.2.patch"
+   ],
+   "sha256":"658ba6191fa44c92280d4aa2c271b0f4fbc0e34d249578dd05e50e76d0e5efcc",
+   "url":"https://github.com/lz4/lz4/archive/v1.9.2.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "lz4 -h",
+    "if not exist %LIBRARY_INC%\\\\lz4.h exit 1",
+    "if not exist %LIBRARY_INC%\\\\lz4hc.h exit 1",
+    "if not exist %LIBRARY_INC%\\\\lz4frame.h exit 1",
+    "if not exist %LIBRARY_BIN%\\\\liblz4.dll exit 1",
+    "if not exist %LIBRARY_LIB%\\\\liblz4.lib exit 1",
+    "if not exist %LIBRARY_LIB%\\\\liblz4_static.lib exit 1",
+    "lz4 -h",
+    "lz4c -h",
+    "lz4cat -h",
+    "unlz4 -h",
+    "test -f ${PREFIX}/include/lz4.h",
+    "test -f ${PREFIX}/include/lz4hc.h",
+    "test -f ${PREFIX}/include/lz4frame.h",
+    "test -f ${PREFIX}/lib/liblz4.a",
+    "test -f ${PREFIX}/lib/liblz4.dylib",
+    "test -f ${PREFIX}/lib/pkgconfig/liblz4.pc",
+    "pkg-config --cflags --libs liblz4",
+    "lz4 -h",
+    "lz4c -h",
+    "lz4cat -h",
+    "unlz4 -h",
+    "test -f ${PREFIX}/include/lz4.h",
+    "test -f ${PREFIX}/include/lz4hc.h",
+    "test -f ${PREFIX}/include/lz4frame.h",
+    "test -f ${PREFIX}/lib/liblz4.a",
+    "test -f ${PREFIX}/lib/liblz4.so",
+    "test -f ${PREFIX}/lib/pkgconfig/liblz4.pc",
+    "pkg-config --cflags --libs liblz4"
+   ],
+   "requires":[
+    "pkg-config"
+   ]
+  }
+ },
+ "name":"lz4-c",
+ "new_version":"1.9.2",
+ "new_version_attempts":{
+  "1.9.2":1
+ },
+ "new_version_errors":{},
+ "pinning_version":"2020.04.09",
+ "raw_meta_yaml":"{% set pkg_name = \"lz4-c\" %}\n{% set author = \"lz4\" %}\n{% set name = \"lz4\" %}\n{% set version = \"1.9.2\" %}\n{% set sha256sum = \"658ba6191fa44c92280d4aa2c271b0f4fbc0e34d249578dd05e50e76d0e5efcc\" %}\n{% set build = 1 %}\n\npackage:\n  name: {{ pkg_name }}\n  version: {{ version }}\n\nsource:\n  fn: {{ name }}-{{ version }}.tar.gz\n  url: https://github.com/{{ author }}/{{ name }}/archive/v{{ version }}.tar.gz\n  sha256: {{ sha256sum }}\n  patches:\n    # Split into 2 patches due to a bug in conda-build\n    # - patches/0001-Add-WindowsTargetPlatformVersion-of-10.0-and-lz4-exe.patch\n    - patches/0001-Add-WindowsTargetPlatformVersion-of-10.0-and-lz4-exe.1.patch\n    - patches/0001-Add-WindowsTargetPlatformVersion-of-10.0-and-lz4-exe.2.patch\n    # fullbench build used to cause \"an internal compiler error\".\n    # - patches/0002-Do-not-build-tests-binaries-on-VS-project.patch  # [win]\n\nbuild:\n  skip: true  # [win and vc<14]\n  number: {{ build }}\n  # https://abi-laboratory.pro/index.php?view=timeline&l=lz4\n  run_exports:\n    - {{ pin_subpackage(pkg_name, max_pin='x.x') }}\n\nrequirements:\n  build:\n    - {{ compiler('c') }}\n    - {{ compiler('cxx') }}  # [not win]\n    - make  # [not win]\n    - patch  # [unix]\n    - m2-patch  # [win]\n    - m2-gcc-libs  # [win]\n  host:\n    - ripgrep\n\ntest:\n  requires:\n    - pkg-config  # [unix]\n\n  commands:\n    - lz4 -h\n    - lz4c -h    # [unix]\n    - lz4cat -h  # [unix]\n    - unlz4 -h   # [unix]\n\n    - test -f ${PREFIX}/include/lz4.h       # [unix]\n    - test -f ${PREFIX}/include/lz4hc.h     # [unix]\n    - test -f ${PREFIX}/include/lz4frame.h  # [unix]\n\n    - if not exist %LIBRARY_INC%\\\\lz4.h exit 1       # [win]\n    - if not exist %LIBRARY_INC%\\\\lz4hc.h exit 1     # [win]\n    - if not exist %LIBRARY_INC%\\\\lz4frame.h exit 1  # [win]\n\n    - test -f ${PREFIX}/lib/liblz4.a      # [unix]\n    - test -f ${PREFIX}/lib/liblz4.dylib  # [osx]\n    - test -f ${PREFIX}/lib/liblz4.so     # [linux]\n\n    - if not exist %LIBRARY_BIN%\\\\liblz4.dll exit 1         # [win]\n    - if not exist %LIBRARY_LIB%\\\\liblz4.lib exit 1         # [win]\n    - if not exist %LIBRARY_LIB%\\\\liblz4_static.lib exit 1  # [win]\n\n    - test -f ${PREFIX}/lib/pkgconfig/liblz4.pc  # [unix]\n    - pkg-config --cflags --libs liblz4          # [unix]\n\nabout:\n  home: https://www.lz4.org\n  license: BSD-2-Clause\n  license_file: lib/LICENSE\n  summary: Extremely Fast Compression algorithm\n  description: |\n    LZ4 is lossless compression algorithm, providing compression speed at 400\n    MB/s per core (0.16 Bytes/cycle). It features an extremely fast decoder,\n    with speed in multiple GB/s per core (0.71 Bytes/cycle). A high compression\n    derivative, called LZ4_HC, is available, trading customizable CPU time for\n    compression ratio. LZ4 library is provided as open source software using a\n    BSD license.\n\nextra:\n  recipe-maintainers:\n    - mingwandroid\n    - rmax\n    - wesm\n    - xhochy\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "c_compiler_stub",
+   "cxx_compiler_stub",
+   "m2-gcc-libs",
+   "m2-patch",
+   "make",
+   "patch",
+   "ripgrep"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "m2-gcc-libs",
+    "m2-patch",
+    "make",
+    "patch"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "ripgrep"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "pkg-config"
+   ]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.6.16",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "m2-gcc-libs",
+    "m2-patch",
+    "make",
+    "patch"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "ripgrep"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "pkg-config"
+   ]
+  }
+ },
+ "url":"https://github.com/lz4/lz4/archive/v1.9.1.tar.gz",
+ "version":"1.9.2"
+}

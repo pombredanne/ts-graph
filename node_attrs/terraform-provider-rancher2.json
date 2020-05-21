@@ -1,0 +1,124 @@
+{
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"terraform-provider-rancher2",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "dev_url":"https://github.com/terraform-providers/terraform-provider-rancher2",
+   "doc_url":"https://www.terraform.io/docs/providers/rancher2/index.html",
+   "home":"https://www.terraform.io",
+   "license":"MPL-2.0",
+   "license_file":"LICENSE",
+   "summary":"The Terraform rancher2 provider"
+  },
+  "build":{
+   "number":"0",
+   "script":[
+    "go build -v -o terraform-provider-rancher2_v1.8.3_x4",
+    "go build -v -o terraform-provider-rancher2_v1.8.3_x4",
+    "go build -v -o terraform-provider-rancher2_v1.8.3_x4"
+   ]
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "conda-forge/terraform",
+    "conda-forge/terraform",
+    "conda-forge/terraform"
+   ]
+  },
+  "package":{
+   "name":"terraform-provider-rancher2",
+   "version":"1.8.3"
+  },
+  "requirements":{
+   "build":[
+    "go_compiler_stub 1.13",
+    "go_compiler_stub 1.13",
+    "go_compiler_stub 1.13"
+   ],
+   "run":[
+    "terraform 0.12",
+    "terraform 0.12",
+    "terraform 0.12"
+   ]
+  },
+  "source":{
+   "sha256":"faa39125d55dbfd8e8beafa0b51b651b09822c634bcb29e3cce1fc5b3eb694ef",
+   "url":"https://github.com/terraform-providers/terraform-provider-rancher2/archive/v1.8.3.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "echo provider \"rancher2\" { version=\"1.8.3\" } > init.tf",
+    "terraform init",
+    "if not exist .terraform\\plugins\\_\\lock.json exit 1",
+    "if exist .terraform\\plugins\\_\\terraform-provider-rancher2_v1.8.3_x4 exit 1",
+    "echo 'provider \"rancher2\" { version=\"1.8.3\" }' > init.tf",
+    "terraform init",
+    "test -f .terraform/plugins/_/lock.json",
+    "test ! -f .terraform/plugins/_/terraform-provider-rancher2_v1.8.3_x4",
+    "echo 'provider \"rancher2\" { version=\"1.8.3\" }' > init.tf",
+    "terraform init",
+    "test -f .terraform/plugins/_/lock.json",
+    "test ! -f .terraform/plugins/_/terraform-provider-rancher2_v1.8.3_x4"
+   ]
+  }
+ },
+ "name":"terraform-provider-rancher2",
+ "new_version":"1.8.3",
+ "raw_meta_yaml":"{% set provider = \"rancher2\" %}\n{% set goname = \"github.com/terraform-providers/terraform-provider-\"+provider.lower() %}\n{% set version = \"1.8.3\" %}\n\n{% set name = goname.split('/')[-1] %}\n\n{% set x4_plugin = name + '_v' + version + \"_x4\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://{{ goname }}/archive/v{{ version }}.tar.gz\n  sha256: faa39125d55dbfd8e8beafa0b51b651b09822c634bcb29e3cce1fc5b3eb694ef\n\nbuild:\n  number: 0\n  script:\n    - go build -v -o {{ target_gobin }}{{ x4_plugin }}{{ target_goexe }}\n\nrequirements:\n  build:\n    - {{ compiler('go') }} 1.13\n  run:\n    - terraform 0.12\n\ntest:\n  commands:\n    # Create a sample init.tf loading the provider\n    - echo 'provider \"{{ provider|lower }}\" { version=\"{{ version }}\" }' > init.tf  # [unix]\n    - echo provider \"{{ provider|lower }}\" { version=\"{{ version }}\" } > init.tf    # [win]\n\n    # Initialize\n    - terraform init\n\n    # Tests that init was successful\n    - test -f .terraform/plugins/{{ target_goos }}_{{ target_goarch }}/lock.json              # [unix]\n    - if not exist .terraform\\plugins\\{{ target_goos }}_{{ target_goarch }}\\lock.json exit 1  # [win]\n\n    # Test that the provider was not downloaded\n    - test ! -f .terraform/plugins/{{ target_goos }}_{{ target_goarch }}/{{ x4_plugin }}{{ target_goexe }}        # [unix]\n    - if exist .terraform\\plugins\\{{ target_goos }}_{{ target_goarch }}\\{{ x4_plugin }}{{ target_goexe }} exit 1  # [win]\n\nabout:\n  home: https://www.terraform.io\n  license: MPL-2.0\n  license_file: LICENSE\n  summary: The Terraform {{ provider }} provider\n  doc_url: https://www.terraform.io/docs/providers/{{ provider|lower }}/index.html\n  dev_url: https://github.com/terraform-providers/{{ name }}\n\nextra:\n  recipe-maintainers:\n    - conda-forge/terraform\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "go_compiler_stub",
+   "terraform"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "go_compiler_stub"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "terraform"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "go_compiler_stub 1.13"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "terraform 0.12"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://github.com/terraform-providers/terraform-provider-rancher2/archive/v1.8.3.tar.gz",
+ "version":"1.8.3"
+}

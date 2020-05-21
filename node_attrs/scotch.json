@@ -1,0 +1,653 @@
+{
+ "PRed":[
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"6.0.5"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/199744804.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Compiler",
+    "migrator_version":0
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/201460477.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"6.0.6"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/220985480.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/280138489.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"6.0.7"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/311134964.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"6.0.8"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/316903146.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Rebuild",
+    "migrator_version":0,
+    "name":"scotch-6.0.8"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/336274452.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"6.0.9"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/21a41026-6ba8-4162-972b-13c22388da8e.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"scotch609"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "compiler_stack":"comp7",
+  "max_py_ver":"37",
+  "max_r_ver":"35",
+  "provider":{
+   "linux_aarch64":"default",
+   "linux_ppc64le":"default"
+  }
+ },
+ "feedstock_name":"scotch",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"Software package and libraries for sequential and parallel\ngraph partitioning, static mapping and clustering, sequential\nmesh and hypergraph partitioning, and sequential and parallel\nsparse matrix block ordering.\n",
+   "doc_url":"http://gforge.inria.fr/docman/?group_id=248&dirid=326",
+   "home":"https://www.labri.fr/perso/pelegrin/scotch/",
+   "license":"CECILL-C",
+   "license_file":"doc/CeCILL-C_V1-en.txt",
+   "summary":"SCOTCH: Static Mapping, Graph, Mesh and Hypergraph Partitioning, and Parallel and Sequential Sparse Matrix Ordering Package"
+  },
+  "build":{
+   "number":"1",
+   "skip":true
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "basnijholt",
+    "dalcinl",
+    "minrk",
+    "davidbrochart",
+    "SylvainCorlay",
+    "basnijholt",
+    "dalcinl",
+    "minrk",
+    "davidbrochart",
+    "SylvainCorlay",
+    "basnijholt",
+    "dalcinl",
+    "minrk",
+    "davidbrochart",
+    "SylvainCorlay"
+   ]
+  },
+  "outputs":[
+   {
+    "build":{
+     "run_exports":[
+      "scotch"
+     ],
+     "script":"${RECIPE_DIR}/build.sh"
+    },
+    "name":"scotch",
+    "requirements":{
+     "build":[
+      "c_compiler_stub",
+      "make",
+      "mpi *"
+     ],
+     "host":[
+      "bison",
+      "flex",
+      "zlib"
+     ],
+     "run":[
+      "zlib"
+     ]
+    },
+    "test":{
+     "commands":[
+      "test -f \"${PREFIX}/lib/libscotch${SHLIB_EXT}\"",
+      "test -f \"${PREFIX}/lib/libscotch-6${SHLIB_EXT}\"",
+      "test -f \"${PREFIX}/lib/libscotcherr${SHLIB_EXT}\"",
+      "test -f \"${PREFIX}/lib/libscotcherr-6${SHLIB_EXT}\"",
+      "test -f \"${PREFIX}/lib/libscotcherrexit${SHLIB_EXT}\"",
+      "test -f \"${PREFIX}/lib/libscotcherrexit-6${SHLIB_EXT}\"",
+      "test -f \"${PREFIX}/lib/libscotchmetis${SHLIB_EXT}\"",
+      "test -f \"${PREFIX}/lib/libscotchmetis-6${SHLIB_EXT}\"",
+      "test -f \"${PREFIX}/lib/libesmumps${SHLIB_EXT}\"",
+      "test -f \"${PREFIX}/lib/libesmumps-6${SHLIB_EXT}\"",
+      "test -f \"${PREFIX}/include/scotch.h\"",
+      "test -f \"${PREFIX}/include/scotchf.h\"",
+      "test -f \"${PREFIX}/include/esmumps.h\"",
+      "test -f \"${PREFIX}/include/scotch/metis.h\"",
+      "test ! -f \"${PREFIX}/include/metis.h\""
+     ],
+     "files":[
+      "Makefile.inc"
+     ],
+     "requires":[
+      "c_compiler_stub"
+     ],
+     "source_files":[
+      "src/check",
+      "src/libscotch/common.h",
+      "src/libscotch/module.h",
+      "src/libscotch/fibo.h"
+     ]
+    }
+   },
+   {
+    "about":{
+     "summary":"PT-SCOTCH: (Parallel) Static Mapping, Graph, Mesh and Hypergraph Partitioning, and Parallel and Sequential Sparse Matrix Ordering Package"
+    },
+    "build":{
+     "run_exports":[
+      "ptscotch"
+     ],
+     "script":"${RECIPE_DIR}/build.sh"
+    },
+    "name":"ptscotch",
+    "requirements":{
+     "build":[
+      "c_compiler_stub",
+      "make"
+     ],
+     "host":[
+      "flex",
+      null,
+      "scotch",
+      "zlib"
+     ],
+     "run":[
+      null,
+      "scotch",
+      "zlib"
+     ]
+    },
+    "test":{
+     "commands":[
+      "test -f \"${PREFIX}/lib/libptscotch${SHLIB_EXT}\"",
+      "test -f \"${PREFIX}/lib/libptscotch-6${SHLIB_EXT}\"",
+      "test -f \"${PREFIX}/lib/libptscotcherr${SHLIB_EXT}\"",
+      "test -f \"${PREFIX}/lib/libptscotcherr-6${SHLIB_EXT}\"",
+      "test -f \"${PREFIX}/lib/libptscotcherrexit${SHLIB_EXT}\"",
+      "test -f \"${PREFIX}/lib/libptscotcherrexit-6${SHLIB_EXT}\"",
+      "test -f \"${PREFIX}/lib/libptscotchparmetis${SHLIB_EXT}\"",
+      "test -f \"${PREFIX}/lib/libptscotchparmetis-6${SHLIB_EXT}\"",
+      "test -f \"${PREFIX}/lib/libptesmumps${SHLIB_EXT}\"",
+      "test -f \"${PREFIX}/lib/libptesmumps-6${SHLIB_EXT}\"",
+      "test -f \"${PREFIX}/include/ptscotch.h\"",
+      "test -f \"${PREFIX}/include/ptscotchf.h\"",
+      "test -f \"${PREFIX}/include/esmumps.h\"",
+      "test -f \"${PREFIX}/include/scotch/parmetis.h\"",
+      "test ! -f \"${PREFIX}/include/parmetis.h\""
+     ],
+     "files":[
+      "Makefile.inc"
+     ],
+     "requires":[
+      "c_compiler_stub",
+      "cxx_compiler_stub"
+     ],
+     "source_files":[
+      "src/check",
+      "src/libscotch/common.h",
+      "src/libscotch/module.h"
+     ]
+    }
+   },
+   {
+    "build":{
+     "run_exports":[
+      "scotch"
+     ],
+     "script":"${RECIPE_DIR}/build.sh"
+    },
+    "name":"scotch",
+    "requirements":{
+     "build":[
+      "c_compiler_stub",
+      "make",
+      "mpi *"
+     ],
+     "host":[
+      "bison",
+      "flex",
+      "zlib"
+     ],
+     "run":[
+      "zlib"
+     ]
+    },
+    "test":{
+     "commands":[
+      "test -f \"${PREFIX}/lib/libscotch${SHLIB_EXT}\"",
+      "test -f \"${PREFIX}/lib/libscotch-6${SHLIB_EXT}\"",
+      "test -f \"${PREFIX}/lib/libscotcherr${SHLIB_EXT}\"",
+      "test -f \"${PREFIX}/lib/libscotcherr-6${SHLIB_EXT}\"",
+      "test -f \"${PREFIX}/lib/libscotcherrexit${SHLIB_EXT}\"",
+      "test -f \"${PREFIX}/lib/libscotcherrexit-6${SHLIB_EXT}\"",
+      "test -f \"${PREFIX}/lib/libscotchmetis${SHLIB_EXT}\"",
+      "test -f \"${PREFIX}/lib/libscotchmetis-6${SHLIB_EXT}\"",
+      "test -f \"${PREFIX}/lib/libesmumps${SHLIB_EXT}\"",
+      "test -f \"${PREFIX}/lib/libesmumps-6${SHLIB_EXT}\"",
+      "test -f \"${PREFIX}/include/scotch.h\"",
+      "test -f \"${PREFIX}/include/scotchf.h\"",
+      "test -f \"${PREFIX}/include/esmumps.h\"",
+      "test -f \"${PREFIX}/include/scotch/metis.h\"",
+      "test ! -f \"${PREFIX}/include/metis.h\""
+     ],
+     "files":[
+      "Makefile.inc"
+     ],
+     "requires":[
+      "c_compiler_stub"
+     ],
+     "source_files":[
+      "src/check",
+      "src/libscotch/common.h",
+      "src/libscotch/module.h",
+      "src/libscotch/fibo.h"
+     ]
+    }
+   },
+   {
+    "about":{
+     "summary":"PT-SCOTCH: (Parallel) Static Mapping, Graph, Mesh and Hypergraph Partitioning, and Parallel and Sequential Sparse Matrix Ordering Package"
+    },
+    "build":{
+     "run_exports":[
+      "ptscotch"
+     ],
+     "script":"${RECIPE_DIR}/build.sh"
+    },
+    "name":"ptscotch",
+    "requirements":{
+     "build":[
+      "c_compiler_stub",
+      "make"
+     ],
+     "host":[
+      "flex",
+      null,
+      "scotch",
+      "zlib"
+     ],
+     "run":[
+      null,
+      "scotch",
+      "zlib"
+     ]
+    },
+    "test":{
+     "commands":[
+      "test -f \"${PREFIX}/lib/libptscotch${SHLIB_EXT}\"",
+      "test -f \"${PREFIX}/lib/libptscotch-6${SHLIB_EXT}\"",
+      "test -f \"${PREFIX}/lib/libptscotcherr${SHLIB_EXT}\"",
+      "test -f \"${PREFIX}/lib/libptscotcherr-6${SHLIB_EXT}\"",
+      "test -f \"${PREFIX}/lib/libptscotcherrexit${SHLIB_EXT}\"",
+      "test -f \"${PREFIX}/lib/libptscotcherrexit-6${SHLIB_EXT}\"",
+      "test -f \"${PREFIX}/lib/libptscotchparmetis${SHLIB_EXT}\"",
+      "test -f \"${PREFIX}/lib/libptscotchparmetis-6${SHLIB_EXT}\"",
+      "test -f \"${PREFIX}/lib/libptesmumps${SHLIB_EXT}\"",
+      "test -f \"${PREFIX}/lib/libptesmumps-6${SHLIB_EXT}\"",
+      "test -f \"${PREFIX}/include/ptscotch.h\"",
+      "test -f \"${PREFIX}/include/ptscotchf.h\"",
+      "test -f \"${PREFIX}/include/esmumps.h\"",
+      "test -f \"${PREFIX}/include/scotch/parmetis.h\"",
+      "test ! -f \"${PREFIX}/include/parmetis.h\""
+     ],
+     "files":[
+      "Makefile.inc"
+     ],
+     "requires":[
+      "c_compiler_stub",
+      "cxx_compiler_stub"
+     ],
+     "source_files":[
+      "src/check",
+      "src/libscotch/common.h",
+      "src/libscotch/module.h"
+     ]
+    }
+   },
+   {
+    "build":{
+     "run_exports":[
+      "scotch"
+     ],
+     "script":"${RECIPE_DIR}/build.sh"
+    },
+    "name":"scotch",
+    "requirements":{
+     "build":[
+      "c_compiler_stub",
+      "make",
+      "mpi *"
+     ],
+     "host":[
+      "bison",
+      "flex",
+      "zlib"
+     ],
+     "run":[
+      "zlib"
+     ]
+    },
+    "test":{
+     "commands":[
+      "test -f \"${PREFIX}/lib/libscotch${SHLIB_EXT}\"",
+      "test -f \"${PREFIX}/lib/libscotch-6${SHLIB_EXT}\"",
+      "test -f \"${PREFIX}/lib/libscotcherr${SHLIB_EXT}\"",
+      "test -f \"${PREFIX}/lib/libscotcherr-6${SHLIB_EXT}\"",
+      "test -f \"${PREFIX}/lib/libscotcherrexit${SHLIB_EXT}\"",
+      "test -f \"${PREFIX}/lib/libscotcherrexit-6${SHLIB_EXT}\"",
+      "test -f \"${PREFIX}/lib/libscotchmetis${SHLIB_EXT}\"",
+      "test -f \"${PREFIX}/lib/libscotchmetis-6${SHLIB_EXT}\"",
+      "test -f \"${PREFIX}/lib/libesmumps${SHLIB_EXT}\"",
+      "test -f \"${PREFIX}/lib/libesmumps-6${SHLIB_EXT}\"",
+      "test -f \"${PREFIX}/include/scotch.h\"",
+      "test -f \"${PREFIX}/include/scotchf.h\"",
+      "test -f \"${PREFIX}/include/esmumps.h\"",
+      "test -f \"${PREFIX}/include/scotch/metis.h\"",
+      "test ! -f \"${PREFIX}/include/metis.h\""
+     ],
+     "files":[
+      "Makefile.inc"
+     ],
+     "requires":[
+      "c_compiler_stub"
+     ],
+     "source_files":[
+      "src/check",
+      "src/libscotch/common.h",
+      "src/libscotch/module.h",
+      "src/libscotch/fibo.h"
+     ]
+    }
+   },
+   {
+    "about":{
+     "summary":"PT-SCOTCH: (Parallel) Static Mapping, Graph, Mesh and Hypergraph Partitioning, and Parallel and Sequential Sparse Matrix Ordering Package"
+    },
+    "build":{
+     "run_exports":[
+      "ptscotch"
+     ],
+     "script":"${RECIPE_DIR}/build.sh"
+    },
+    "name":"ptscotch",
+    "requirements":{
+     "build":[
+      "c_compiler_stub",
+      "make"
+     ],
+     "host":[
+      "flex",
+      null,
+      "scotch",
+      "zlib"
+     ],
+     "run":[
+      null,
+      "scotch",
+      "zlib"
+     ]
+    },
+    "test":{
+     "commands":[
+      "test -f \"${PREFIX}/lib/libptscotch${SHLIB_EXT}\"",
+      "test -f \"${PREFIX}/lib/libptscotch-6${SHLIB_EXT}\"",
+      "test -f \"${PREFIX}/lib/libptscotcherr${SHLIB_EXT}\"",
+      "test -f \"${PREFIX}/lib/libptscotcherr-6${SHLIB_EXT}\"",
+      "test -f \"${PREFIX}/lib/libptscotcherrexit${SHLIB_EXT}\"",
+      "test -f \"${PREFIX}/lib/libptscotcherrexit-6${SHLIB_EXT}\"",
+      "test -f \"${PREFIX}/lib/libptscotchparmetis${SHLIB_EXT}\"",
+      "test -f \"${PREFIX}/lib/libptscotchparmetis-6${SHLIB_EXT}\"",
+      "test -f \"${PREFIX}/lib/libptesmumps${SHLIB_EXT}\"",
+      "test -f \"${PREFIX}/lib/libptesmumps-6${SHLIB_EXT}\"",
+      "test -f \"${PREFIX}/include/ptscotch.h\"",
+      "test -f \"${PREFIX}/include/ptscotchf.h\"",
+      "test -f \"${PREFIX}/include/esmumps.h\"",
+      "test -f \"${PREFIX}/include/scotch/parmetis.h\"",
+      "test ! -f \"${PREFIX}/include/parmetis.h\""
+     ],
+     "files":[
+      "Makefile.inc"
+     ],
+     "requires":[
+      "c_compiler_stub",
+      "cxx_compiler_stub"
+     ],
+     "source_files":[
+      "src/check",
+      "src/libscotch/common.h",
+      "src/libscotch/module.h"
+     ]
+    }
+   }
+  ],
+  "package":{
+   "name":"scotch-pkgs",
+   "version":"6.0.9"
+  },
+  "source":{
+   "fn":"scotch-6.0.9.tar.gz",
+   "patches":[
+    "patch1.diff",
+    "debian-dynamic.patch",
+    "patch1.diff",
+    "debian-dynamic.patch",
+    "patch1.diff",
+    "debian-dynamic.patch"
+   ],
+   "sha256":"622b4143cf01c480bb15708b3651b29c25e4aeb00c8c6447ff196aca2eca5c93",
+   "url":"https://gforge.inria.fr/frs/download.php/latestfile/298/scotch_6.0.9.tar.gz"
+  }
+ },
+ "name":"scotch-pkgs",
+ "new_version":false,
+ "outputs_names":[
+  "ptscotch",
+  "scotch"
+ ],
+ "pinning_version":"2020.04.10",
+ "raw_meta_yaml":"{% set name = \"scotch\" %}\n{% set build = 1 %}\n{% set version = \"6.0.9\" %}\n{% set sha256 = \"622b4143cf01c480bb15708b3651b29c25e4aeb00c8c6447ff196aca2eca5c93\" %}\n\n{% set major = version.split('.')[0] %}\npackage:\n  name: {{ name }}-pkgs\n  version: {{ version }}\n\nsource:\n  fn: {{ name }}-{{ version }}.tar.gz\n  url: https://gforge.inria.fr/frs/download.php/latestfile/298/scotch_{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n  patches:\n    - patch1.diff\n    - debian-dynamic.patch\n\nbuild:\n  skip: true  # [win]\n  number: {{ build }}\n\noutputs:\n  - name: scotch\n    build:\n      script: ${RECIPE_DIR}/build.sh\n      run_exports:\n        - {{ pin_subpackage('scotch', max_pin='x.x.x') }}\n    requirements:\n      build:\n        - {{ compiler('c') }}\n        - make\n        # preserve mpi variant for builds\n        - mpi * {{ mpi }}\n      host:\n        - bison\n        - flex\n        - zlib\n      run:\n        - zlib\n\n    test:\n      requires:\n        - {{ compiler('c') }}\n      source_files:\n        - src/check\n        - src/libscotch/common.h\n        - src/libscotch/module.h\n        - src/libscotch/fibo.h\n      files:\n        - Makefile.inc\n      commands:\n        {% for lib in [\n          'scotch',\n          'scotcherr',\n          'scotcherrexit',\n          'scotchmetis',\n          'esmumps',\n        ]\n        %}\n        - test -f \"${PREFIX}/lib/lib{{ lib }}${SHLIB_EXT}\"\n        - test -f \"${PREFIX}/lib/lib{{ lib }}-{{ major }}${SHLIB_EXT}\"\n        {% endfor %}\n        - test -f \"${PREFIX}/include/scotch.h\"\n        - test -f \"${PREFIX}/include/scotchf.h\"\n        - test -f \"${PREFIX}/include/esmumps.h\"\n        - test -f \"${PREFIX}/include/scotch/metis.h\"\n        - test ! -f \"${PREFIX}/include/metis.h\"\n  - name: ptscotch\n    build:\n      script: ${RECIPE_DIR}/build.sh\n      run_exports:\n        - {{ pin_subpackage('ptscotch', max_pin='x.x.x') }}\n    requirements:\n      build:\n        - {{ compiler('c') }}\n        - make\n      host:\n        - flex\n        - {{ mpi }}\n        - scotch\n        - zlib\n      run:\n        - {{ mpi }}\n        - {{ pin_subpackage('scotch', max_pin='x.x.x') }}\n        - zlib\n    test:\n      requires:\n        - {{ compiler('c') }}\n        - {{ compiler('cxx') }}\n      source_files:\n        - src/check\n        - src/libscotch/common.h\n        - src/libscotch/module.h\n      files:\n        - Makefile.inc\n      commands:\n        {% for lib in [\n          'ptscotch',\n          'ptscotcherr',\n          'ptscotcherrexit',\n          'ptscotchparmetis',\n          'ptesmumps',\n        ]\n        %}\n        - test -f \"${PREFIX}/lib/lib{{ lib }}${SHLIB_EXT}\"\n        - test -f \"${PREFIX}/lib/lib{{ lib }}-{{ major }}${SHLIB_EXT}\"\n        {% endfor %}\n        - test -f \"${PREFIX}/include/ptscotch.h\"\n        - test -f \"${PREFIX}/include/ptscotchf.h\"\n        - test -f \"${PREFIX}/include/esmumps.h\"\n        - test -f \"${PREFIX}/include/scotch/parmetis.h\"\n        - test ! -f \"${PREFIX}/include/parmetis.h\"\n    about:\n      summary: 'PT-SCOTCH: (Parallel) Static Mapping, Graph, Mesh and Hypergraph Partitioning, and Parallel and Sequential Sparse Matrix Ordering Package'\n\n\n\nabout:\n  home: https://www.labri.fr/perso/pelegrin/scotch/\n  license: CECILL-C\n  license_file: doc/CeCILL-C_V1-en.txt\n  summary: 'SCOTCH: Static Mapping, Graph, Mesh and Hypergraph Partitioning, and Parallel and Sequential Sparse Matrix Ordering Package'\n  description: |\n    Software package and libraries for sequential and parallel\n    graph partitioning, static mapping and clustering, sequential\n    mesh and hypergraph partitioning, and sequential and parallel\n    sparse matrix block ordering.\n  doc_url: http://gforge.inria.fr/docman/?group_id=248&dirid=326\n\nextra:\n  recipe-maintainers:\n    - basnijholt\n    - dalcinl\n    - minrk\n    - davidbrochart\n    - SylvainCorlay\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "bison",
+   "c_compiler_stub",
+   "flex",
+   "make",
+   "mpi",
+   "scotch",
+   "zlib"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "make",
+    "mpi"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "bison",
+    "flex",
+    "scotch",
+    "zlib"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "scotch",
+    "zlib"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "cxx_compiler_stub"
+   ]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.6.16",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "make",
+    "mpi *"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "bison",
+    "flex",
+    "scotch",
+    "zlib"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "scotch",
+    "zlib"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "cxx_compiler_stub"
+   ]
+  }
+ },
+ "url":"https://gforge.inria.fr/frs/download.php/latestfile/298/scotch_6.0.8.tar.gz",
+ "version":"6.0.9"
+}

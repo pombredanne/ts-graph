@@ -1,0 +1,133 @@
+{
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"scour",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "dev_url":"https://github.com/scour-project/scour",
+   "doc_url":"https://github.com/scour-project/scour",
+   "home":"https://github.com/scour-project/scour",
+   "license":"Apache-2.0",
+   "license_family":"Apache",
+   "summary":"Scour SVG Optimizer"
+  },
+  "build":{
+   "entry_points":[
+    "scour = scour.scour:run",
+    "scour = scour.scour:run",
+    "scour = scour.scour:run"
+   ],
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . --no-deps -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "njzjz",
+    "njzjz",
+    "njzjz"
+   ]
+  },
+  "package":{
+   "name":"scour",
+   "version":"0.37"
+  },
+  "requirements":{
+   "host":[
+    "python",
+    "pip",
+    "python",
+    "pip",
+    "python",
+    "pip"
+   ],
+   "run":[
+    "python",
+    "six >=1.9.0",
+    "python",
+    "six >=1.9.0",
+    "python",
+    "six >=1.9.0"
+   ]
+  },
+  "source":{
+   "sha256":"963113779c6877cbdd99bb6ea30ac0576dbe8b4156459ac62e579f8d22726116",
+   "url":"https://pypi.io/packages/source/s/scour/scour-0.37.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "scour -h",
+    "scour -h",
+    "scour -h"
+   ],
+   "imports":[
+    "scour.scour",
+    "scour.scour",
+    "scour.scour"
+   ]
+  }
+ },
+ "name":"scour",
+ "new_version":"0.37",
+ "raw_meta_yaml":"{% set name = \"scour\" %}\n{% set version = \"0.37\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: 963113779c6877cbdd99bb6ea30ac0576dbe8b4156459ac62e579f8d22726116\n\nbuild:\n  noarch: python\n  number: 0\n  entry_points:\n    - scour = scour.scour:run\n  script: \"{{ PYTHON }} -m pip install . --no-deps -vv\"\n\nrequirements:\n  host:\n    - python\n    - pip\n  run:\n    - python\n    - six >=1.9.0\n\ntest:\n  imports:\n    - scour.scour\n  commands:\n    - scour -h\n\nabout:\n  home: https://github.com/scour-project/scour\n  license: Apache-2.0\n  license_family: Apache\n  summary: 'Scour SVG Optimizer'\n  doc_url: https://github.com/scour-project/scour\n  dev_url: https://github.com/scour-project/scour\n\nextra:\n  recipe-maintainers:\n    - njzjz\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "pip",
+   "python",
+   "six"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "python",
+    "six"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "python",
+    "six >=1.9.0"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/s/scour/scour-0.37.tar.gz",
+ "version":"0.37"
+}

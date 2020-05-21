@@ -1,0 +1,269 @@
+{
+ "PRed":[
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.4.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/203978717.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Compiler",
+    "migrator_version":0
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/222908144.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/339392256.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"python38"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/395341970.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"pypy"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"nipy",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"http://nipy.org/nipy",
+   "license":"BSD-3-Clause",
+   "license_file":"LICENSE",
+   "summary":"Neuroimaging in Python FMRI analysis package"
+  },
+  "build":{
+   "number":"1002",
+   "script":" -m pip install . --no-deps -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "ocefpaf",
+    "ocefpaf",
+    "ocefpaf"
+   ]
+  },
+  "package":{
+   "name":"nipy",
+   "version":"0.4.2"
+  },
+  "requirements":{
+   "build":[
+    "c_compiler_stub",
+    "c_compiler_stub",
+    "c_compiler_stub"
+   ],
+   "host":[
+    "python",
+    "pip",
+    "cython >=0.12.1",
+    "numpy",
+    "python",
+    "pip",
+    "cython >=0.12.1",
+    "numpy",
+    "python",
+    "pip",
+    "cython >=0.12.1",
+    "numpy"
+   ],
+   "run":[
+    "python",
+    "numpy",
+    "numpy <1.18",
+    "scipy >=0.9.0,<1.3.0",
+    "sympy >=0.7.0",
+    "nibabel >=1.2.0",
+    "python",
+    "numpy",
+    "numpy <1.18",
+    "scipy >=0.9.0,<1.3.0",
+    "sympy >=0.7.0",
+    "nibabel >=1.2.0",
+    "python",
+    "numpy",
+    "numpy <1.18",
+    "scipy >=0.9.0,<1.3.0",
+    "sympy >=0.7.0",
+    "nibabel >=1.2.0"
+   ]
+  },
+  "source":{
+   "sha256":"d30bed60e1662f0b79ef665396e98b1b2e57b1734d3d11510a3d7fa66d18c7de",
+   "url":"https://pypi.io/packages/source/n/nipy/nipy-0.4.2.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "nipy",
+    "nipy.algorithms",
+    "nipy.core",
+    "nipy.interfaces",
+    "nipy.io",
+    "nipy.labs",
+    "nipy.modalities",
+    "nipy",
+    "nipy.algorithms",
+    "nipy.core",
+    "nipy.interfaces",
+    "nipy.io",
+    "nipy.labs",
+    "nipy.modalities",
+    "nipy",
+    "nipy.algorithms",
+    "nipy.core",
+    "nipy.interfaces",
+    "nipy.io",
+    "nipy.labs",
+    "nipy.modalities"
+   ]
+  }
+ },
+ "name":"nipy",
+ "new_version":"0.4.2",
+ "pinning_version":"2020.03.28",
+ "raw_meta_yaml":"{% set version = \"0.4.2\" %}\n\npackage:\n  name: nipy\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/n/nipy/nipy-{{ version }}.tar.gz\n  sha256: d30bed60e1662f0b79ef665396e98b1b2e57b1734d3d11510a3d7fa66d18c7de\n\nbuild:\n  number: 1002\n  # due to the scipy pin, remove once a new release is out\n  skip: True  # [py>=38]\n  script: \"{{ PYTHON }} -m pip install . --no-deps -vv\"\n\nrequirements:\n  build:\n    - {{ compiler('c') }}\n  host:\n    - python\n    - pip\n    - cython >=0.12.1\n    - numpy\n  run:\n    - python\n    - {{ pin_compatible('numpy') }}\n    - numpy <1.18\n    - scipy >=0.9.0,<1.3.0\n    - sympy >=0.7.0\n    - nibabel >=1.2.0\n\ntest:\n  imports:\n    - nipy\n    - nipy.algorithms\n    - nipy.core\n    - nipy.interfaces\n    - nipy.io\n    - nipy.labs\n    - nipy.modalities\n\nabout:\n  home: http://nipy.org/nipy\n  license: BSD-3-Clause\n  license_file: LICENSE\n  summary: 'Neuroimaging in Python FMRI analysis package'\n\nextra:\n  recipe-maintainers:\n    - ocefpaf\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "c_compiler_stub",
+   "cython",
+   "nibabel",
+   "numpy",
+   "pip",
+   "python",
+   "scipy",
+   "sympy"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "cython",
+    "numpy",
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "nibabel",
+    "numpy",
+    "python",
+    "scipy",
+    "sympy"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.6.15",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "cython >=0.12.1",
+    "numpy",
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "nibabel >=1.2.0",
+    "numpy",
+    "numpy <1.18",
+    "python",
+    "scipy >=0.9.0,<1.3.0",
+    "sympy >=0.7.0"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/n/nipy/nipy-0.4.1.zip",
+ "version":"0.4.2"
+}

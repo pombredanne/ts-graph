@@ -1,0 +1,142 @@
+{
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"octokitpy",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "dev_url":"https://github.com/khornberg/octokit.py",
+   "doc_url":"https://octokitpy.readthedocs.io/en/latest/",
+   "home":"https://github.com/khornberg/octokit.py",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"LICENSE",
+   "summary":"Python client for GitHub API"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":"-m pip install . -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "oblute",
+    "rluria14",
+    "ndmaxar",
+    "oblute",
+    "rluria14",
+    "ndmaxar",
+    "oblute",
+    "rluria14",
+    "ndmaxar"
+   ]
+  },
+  "package":{
+   "name":"octokitpy",
+   "version":"0.14.1"
+  },
+  "requirements":{
+   "host":[
+    "pip",
+    "python",
+    "pip",
+    "python",
+    "pip",
+    "python"
+   ],
+   "run":[
+    "python",
+    "octokitpy-routes >=2.2.0",
+    "python-jose >=3.1.0",
+    "requests >=2.23.0",
+    "python",
+    "octokitpy-routes >=2.2.0",
+    "python-jose >=3.1.0",
+    "requests >=2.23.0",
+    "python",
+    "octokitpy-routes >=2.2.0",
+    "python-jose >=3.1.0",
+    "requests >=2.23.0"
+   ]
+  },
+  "source":{
+   "sha256":"644351b782bd53966f545fe0250c4488ad14d96d71fbf2b073e0c0c477316004",
+   "url":"https://pypi.io/packages/source/o/octokitpy/octokitpy-0.14.1.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "octokit",
+    "octokit",
+    "octokit"
+   ]
+  }
+ },
+ "name":"octokitpy",
+ "new_version":"0.14.1",
+ "raw_meta_yaml":"{% set name = \"octokitpy\" %}\n{% set version = \"0.14.1\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: 644351b782bd53966f545fe0250c4488ad14d96d71fbf2b073e0c0c477316004\n\nbuild:\n  noarch: python\n  number: 0\n  script: {{ PYTHON }} -m pip install . -vv\n\nrequirements:\n  host:\n    - pip\n    - python\n  run:\n    - python\n    - octokitpy-routes >=2.2.0\n    - python-jose >=3.1.0\n    - requests >=2.23.0\n\ntest:\n  imports:\n    - octokit\n\nabout:\n  home: https://github.com/khornberg/octokit.py\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE\n  summary: \"Python client for GitHub API\"\n  doc_url: https://octokitpy.readthedocs.io/en/latest/\n  dev_url: https://github.com/khornberg/octokit.py\n\nextra:\n  recipe-maintainers:\n    - oblute\n    - rluria14\n    - ndmaxar\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "octokitpy-routes",
+   "pip",
+   "python",
+   "python-jose",
+   "requests"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "octokitpy-routes",
+    "python",
+    "python-jose",
+    "requests"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "octokitpy-routes >=2.2.0",
+    "python",
+    "python-jose >=3.1.0",
+    "requests >=2.23.0"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/o/octokitpy/octokitpy-0.14.1.tar.gz",
+ "version":"0.14.1"
+}

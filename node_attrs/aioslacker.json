@@ -1,0 +1,156 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/222663739.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.0.11"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"aioslacker",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "dev_url":"https://github.com/aio-libs/aioslacker",
+   "home":"https://github.com/aio-libs/aioslacker",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"LICENSE",
+   "summary":"slacker wrapper for asyncio"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"1",
+   "script":" -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "synapticarbors",
+    "synapticarbors",
+    "synapticarbors"
+   ]
+  },
+  "package":{
+   "name":"aioslacker",
+   "version":"0.0.11"
+  },
+  "requirements":{
+   "host":[
+    "python >=3.5",
+    "pip",
+    "python >=3.5",
+    "pip",
+    "python >=3.5",
+    "pip"
+   ],
+   "run":[
+    "python >=3.5",
+    "aiohttp >=1.3.0",
+    "slacker <=0.9.42",
+    "async_timeout >=2.0.0",
+    "python >=3.5",
+    "aiohttp >=1.3.0",
+    "slacker <=0.9.42",
+    "async_timeout >=2.0.0",
+    "python >=3.5",
+    "aiohttp >=1.3.0",
+    "slacker <=0.9.42",
+    "async_timeout >=2.0.0"
+   ]
+  },
+  "source":{
+   "sha256":"254b727e2d3897e63576f3b7e58b19750c40420124451e1067e33237357e006a",
+   "url":"https://pypi.io/packages/source/a/aioslacker/aioslacker-0.0.11.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "aioslacker",
+    "aioslacker",
+    "aioslacker"
+   ]
+  }
+ },
+ "name":"aioslacker",
+ "new_version":"0.0.11",
+ "pinning_version":"2018.10.11",
+ "raw_meta_yaml":"{% set name = \"aioslacker\" %}\n{% set version = \"0.0.11\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: 254b727e2d3897e63576f3b7e58b19750c40420124451e1067e33237357e006a\n\nbuild:\n  noarch: python\n  number: 1\n  script: \"{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv\"\n\nrequirements:\n  host:\n    - python >=3.5\n    - pip\n  run:\n    - python >=3.5\n    - aiohttp >=1.3.0\n    - slacker <=0.9.42\n    - async_timeout >=2.0.0\n\ntest:\n  imports:\n    - aioslacker\n\nabout:\n  home: https://github.com/aio-libs/aioslacker\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE\n  summary: 'slacker wrapper for asyncio' \n  dev_url: https://github.com/aio-libs/aioslacker\n\nextra:\n  recipe-maintainers:\n    - synapticarbors\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "aiohttp",
+   "async_timeout",
+   "pip",
+   "python",
+   "slacker"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "aiohttp",
+    "async_timeout",
+    "python",
+    "slacker"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.1.12",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3.5"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "aiohttp >=1.3.0",
+    "async_timeout >=2.0.0",
+    "python >=3.5",
+    "slacker <=0.9.42"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/a/aioslacker/aioslacker-0.0.11.tar.gz",
+ "version":"0.0.11"
+}

@@ -1,0 +1,189 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/418702542.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"4.2.11.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/418760173.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"4.2.11.3"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"rb-activesupport",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "doc_url":"https://www.rubydoc.info/gems/activesupport",
+   "home":"https://rubygems.org/gems/activesupport",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"activesupport-4.2.11.1/MIT-LICENSE",
+   "summary":"A toolkit of support libraries and Ruby core extensions extracted from the Rails framework."
+  },
+  "build":{
+   "noarch":"generic",
+   "number":"0",
+   "script":[
+    "gem install -N -l -V --norc --ignore-dependencies activesupport-4.2.11.1.gem",
+    "gem unpack activesupport-4.2.11.1.gem",
+    "gem install -N -l -V --norc --ignore-dependencies activesupport-4.2.11.1.gem",
+    "gem unpack activesupport-4.2.11.1.gem",
+    "gem install -N -l -V --norc --ignore-dependencies activesupport-4.2.11.1.gem",
+    "gem unpack activesupport-4.2.11.1.gem"
+   ],
+   "skip":null
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "sodre",
+    "sodre",
+    "sodre"
+   ]
+  },
+  "package":{
+   "name":"rb-activesupport",
+   "version":"4.2.11.1"
+  },
+  "requirements":{
+   "host":[
+    "ruby",
+    "ruby",
+    "ruby"
+   ],
+   "run":[
+    "ruby",
+    "rb-i18n >=0.7,<1",
+    "rb-minitest >=5.1,<6",
+    "rb-thread_safe >=0.3.4,<1",
+    "rb-tzinfo >=1.1,<2",
+    "ruby",
+    "rb-i18n >=0.7,<1",
+    "rb-minitest >=5.1,<6",
+    "rb-thread_safe >=0.3.4,<1",
+    "rb-tzinfo >=1.1,<2",
+    "ruby",
+    "rb-i18n >=0.7,<1",
+    "rb-minitest >=5.1,<6",
+    "rb-thread_safe >=0.3.4,<1",
+    "rb-tzinfo >=1.1,<2"
+   ]
+  },
+  "source":{
+   "sha256":"264782453d1912cf99f80b6bbf3f2e0e0592874e740e2c66f4dbad02903a78ed",
+   "url":"https://rubygems.org/downloads/activesupport-4.2.11.1.gem"
+  },
+  "test":{
+   "commands":[
+    "gem list -i activesupport -v 4.2.11.1",
+    "ruby -r active_support -e 'exit 0'",
+    "gem list -i activesupport -v 4.2.11.1",
+    "ruby -r active_support -e 'exit 0'",
+    "gem list -i activesupport -v 4.2.11.1",
+    "ruby -r active_support -e 'exit 0'"
+   ]
+  }
+ },
+ "name":"rb-activesupport",
+ "new_version":"4.2.11.3",
+ "new_version_attempts":{
+  "4.2.11.2":1,
+  "4.2.11.3":1
+ },
+ "new_version_errors":{},
+ "pinning_version":"2020.05.14.17.14.20",
+ "raw_meta_yaml":"{% set name = \"activesupport\" %}\n{% set version = \"4.2.11.1\" %}\n\npackage:\n  name: rb-{{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://rubygems.org/downloads/{{ name }}-{{ version }}.gem\n  sha256: 264782453d1912cf99f80b6bbf3f2e0e0592874e740e2c66f4dbad02903a78ed\n\nbuild:\n  noarch: generic\n  number: 0\n  script:\n    - gem install -N -l -V --norc --ignore-dependencies {{ name }}-{{ version }}.gem\n    - gem unpack {{ name }}-{{ version }}.gem\n  skip: {{ win }}\n\nrequirements:\n  host:\n    - ruby\n  run:\n    - ruby\n    - rb-i18n >=0.7,<1\n    - rb-minitest >=5.1,<6\n    - rb-thread_safe >=0.3.4,<1\n    - rb-tzinfo >=1.1,<2\n\ntest:\n  commands:\n    - gem list -i {{ name }} -v {{ version }}\n    - ruby -r active_support -e 'exit 0'\n\nabout:\n  home: https://rubygems.org/gems/{{ name }}\n  license: MIT\n  license_family: MIT\n  license_file: {{ name }}-{{ version }}/MIT-LICENSE\n  summary: A toolkit of support libraries and Ruby core extensions extracted from the Rails framework. \n\n  doc_url: https://www.rubydoc.info/gems/{{ name }}\n\nextra:\n  recipe-maintainers:\n    - sodre\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "rb-i18n",
+   "rb-minitest",
+   "rb-thread_safe",
+   "rb-tzinfo",
+   "ruby"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "ruby"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "rb-i18n",
+    "rb-minitest",
+    "rb-thread_safe",
+    "rb-tzinfo",
+    "ruby"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.7.1\n",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "ruby"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "rb-i18n >=0.7,<1",
+    "rb-minitest >=5.1,<6",
+    "rb-thread_safe >=0.3.4,<1",
+    "rb-tzinfo >=1.1,<2",
+    "ruby"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://rubygems.org/downloads/activesupport-4.2.11.1.gem",
+ "version":"4.2.11.1"
+}

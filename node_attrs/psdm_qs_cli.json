@@ -1,0 +1,6 @@
+{
+ "bad":"Upstream: Error getting upstream version",
+ "feedstock_name":"psdm_qs_cli",
+ "new_version":false,
+ "raw_meta_yaml":"{% set name = \"psdm_qs_cli\" %}\n{% set version = \"0.3.1\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://github.com/slaclab/{{ name }}/archive/v{{ version }}.tar.gz\n  sha256: be225c77d5a0941c24bb48e127ee15a9f8a880e134206b38b37ede996c91c7d2\n\nbuild:\n  number: 0\n  script: \"{{ PYTHON }} -m pip install . --no-deps -vv\"\n  noarch: python\n  entry_points:\n    - QSGenerateExcelSpreadSheet.py = psdm_qs_cli.QSGenerateExcelSpreadSheet:main\n    - QSGenerateJSON.py = psdm_qs_cli.QSGenerateJSON:main\n\nrequirements:\n  host:\n    - python\n    - pip\n  run:\n    - python\n    - krtc\n    - six\n    - requests\n    - openpyxl\n\ntest:\n  imports:\n    - psdm_qs_cli\n  commands:\n    - QSGenerateExcelSpreadSheet.py --help\n    - QSGenerateJSON.py --help\n\nabout:\n  home: https://github.com/slaclab/psdm_qs_cli\n  dev_url: https://github.com/slaclab/psdm_qs_cli\n  summary: |\n     Python clients for interacting with SLAC National Accelerator Laboratory's\n     PCDS LCLS experimental questionnaire\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE\n\nextra:\n  recipe-maintainers:\n    - klauer\n    - hhslepicka\n"
+}

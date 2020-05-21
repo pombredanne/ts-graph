@@ -1,0 +1,117 @@
+{
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"openfile",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "doc_url":"https://github.com/luismsgomes/openfile/blob/master/README.rst",
+   "home":"https://github.com/luismsgomes/openfile",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"LICENSE",
+   "summary":"A convenience function that delegates to the appropriate standard library function."
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . --no-deps --ignore-installed -vv "
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "monaldoj",
+    "monaldoj",
+    "monaldoj"
+   ]
+  },
+  "package":{
+   "name":"openfile",
+   "version":"0.0.7"
+  },
+  "requirements":{
+   "host":[
+    "pip",
+    "python >=3.5",
+    "pip",
+    "python >=3.5",
+    "pip",
+    "python >=3.5"
+   ],
+   "run":[
+    "python >=3.5",
+    "python >=3.5",
+    "python >=3.5"
+   ]
+  },
+  "source":{
+   "sha256":"ea4e8f19112049f578ec161b12f70c1113144988c0a488ab173a138b50f37479",
+   "url":"https://pypi.io/packages/source/o/openfile/openfile-0.0.7.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "openfile",
+    "openfile",
+    "openfile"
+   ]
+  }
+ },
+ "name":"openfile",
+ "new_version":"0.0.7",
+ "raw_meta_yaml":"{% set name = \"openfile\" %}\n{% set version = \"0.0.7\" %}\n\npackage:\n  name: \"{{ name|lower }}\"\n  version: \"{{ version }}\"\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: ea4e8f19112049f578ec161b12f70c1113144988c0a488ab173a138b50f37479\n\nbuild:\n  number: 0\n  noarch: python\n  script: \"{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv \"\n\nrequirements:\n  host:\n    - pip\n    - python >=3.5\n  run:\n    - python >=3.5\n\ntest:\n  imports:\n    - openfile\n\nabout:\n  home: https://github.com/luismsgomes/openfile\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE\n  summary: A convenience function that delegates to the appropriate standard library function.\n  doc_url: https://github.com/luismsgomes/openfile/blob/master/README.rst\n\nextra:\n  recipe-maintainers:\n    - monaldoj\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "pip",
+   "python"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3.5"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "python >=3.5"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/o/openfile/openfile-0.0.7.tar.gz",
+ "version":"0.0.7"
+}

@@ -1,0 +1,276 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/231782055.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/298916153.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"RBaseRebuild",
+    "migrator_version":0,
+    "name":"r-base-3.6.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/365250256.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.2_3"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/413678057.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":2,
+    "migrator_version":0,
+    "name":"r400"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "bot":{
+   "automerge":true
+  },
+  "provider":{
+   "win":"azure"
+  }
+ },
+ "feedstock_name":"r-spacetime",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"http://github.com/edzer/spacetime",
+   "license":"GPL (>= 2)",
+   "license_family":"GPL3",
+   "license_file":"/lib/R/share/licenses/GPL-3",
+   "summary":"Classes and methods for spatio-temporal data, including space-time regular lattices, sparse lattices, irregular data, and trajectories; utility functions for plotting data as map sequences (lattice or animation) or multiple time series; methods for spatial and temporal selection and subsetting, as well as for spatial/temporal/spatio-temporal matching or aggregation, retrieving coordinates, print, summary, etc."
+  },
+  "build":{
+   "merge_build_host":true,
+   "noarch":"generic",
+   "number":"1",
+   "rpaths":[
+    "lib/R/lib/",
+    "lib/",
+    "lib/R/lib/",
+    "lib/",
+    "lib/R/lib/",
+    "lib/"
+   ]
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "conda-forge/r",
+    "jsignell",
+    "conda-forge/r",
+    "jsignell",
+    "conda-forge/r",
+    "jsignell"
+   ]
+  },
+  "package":{
+   "name":"r-spacetime",
+   "version":"1.2_3"
+  },
+  "requirements":{
+   "build":null,
+   "host":[
+    "r-base",
+    "r-intervals",
+    "r-lattice",
+    "r-sp >=1.1_0",
+    "r-xts >=0.8_8",
+    "r-zoo >=1.7_9",
+    "r-base",
+    "r-intervals",
+    "r-lattice",
+    "r-sp >=1.1_0",
+    "r-xts >=0.8_8",
+    "r-zoo >=1.7_9",
+    "r-base",
+    "r-intervals",
+    "r-lattice",
+    "r-sp >=1.1_0",
+    "r-xts >=0.8_8",
+    "r-zoo >=1.7_9"
+   ],
+   "run":[
+    "r-base",
+    "r-intervals",
+    "r-lattice",
+    "r-sp >=1.1_0",
+    "r-xts >=0.8_8",
+    "r-zoo >=1.7_9",
+    "r-base",
+    "r-intervals",
+    "r-lattice",
+    "r-sp >=1.1_0",
+    "r-xts >=0.8_8",
+    "r-zoo >=1.7_9",
+    "r-base",
+    "r-intervals",
+    "r-lattice",
+    "r-sp >=1.1_0",
+    "r-xts >=0.8_8",
+    "r-zoo >=1.7_9"
+   ]
+  },
+  "source":{
+   "fn":"spacetime_1.2-3.tar.gz",
+   "sha256":"ca7c0b962d5da0741f6dd85b271d693598756e0eeeb364ada828dbb6d1b9b25b",
+   "url":[
+    "https://cran.r-project.org/src/contrib/spacetime_1.2-3.tar.gz",
+    "https://cran.r-project.org/src/contrib/Archive/spacetime/spacetime_1.2-3.tar.gz",
+    "https://cran.r-project.org/src/contrib/spacetime_1.2-3.tar.gz",
+    "https://cran.r-project.org/src/contrib/Archive/spacetime/spacetime_1.2-3.tar.gz",
+    "https://cran.r-project.org/src/contrib/spacetime_1.2-3.tar.gz",
+    "https://cran.r-project.org/src/contrib/Archive/spacetime/spacetime_1.2-3.tar.gz"
+   ]
+  },
+  "test":{
+   "commands":[
+    "\"%R%\" -e \"library('spacetime')\"",
+    "$R -e \"library('spacetime')\"",
+    "conda inspect linkages -p $PREFIX r-spacetime",
+    "conda inspect objects -p $PREFIX r-spacetime",
+    "$R -e \"library('spacetime')\"",
+    "conda inspect linkages -p $PREFIX r-spacetime"
+   ]
+  }
+ },
+ "name":"r-spacetime",
+ "new_version":"1.2_3",
+ "pinning_version":"2020.05.04.19.59.17",
+ "raw_meta_yaml":"{% set version = \"1.2-3\" %}\n{% set posix = 'm2-' if win else '' %}\n{% set native = 'm2w64-' if win else '' %}\n\npackage:\n  name: r-spacetime\n  version: {{ version|replace(\"-\", \"_\") }}\n\nsource:\n  fn: spacetime_{{ version }}.tar.gz\n  url:\n    - {{ cran_mirror }}/src/contrib/spacetime_{{ version }}.tar.gz\n    - {{ cran_mirror }}/src/contrib/Archive/spacetime/spacetime_{{ version }}.tar.gz\n  sha256: ca7c0b962d5da0741f6dd85b271d693598756e0eeeb364ada828dbb6d1b9b25b\n\nbuild:\n  noarch: generic\n  merge_build_host: True  # [win]\n  number: 1\n  rpaths:\n    - lib/R/lib/\n    - lib/\n\nrequirements:\n  build:\n    - {{ posix }}zip               # [win]\n  host:\n    - r-base\n    - r-intervals\n    - r-lattice\n    - r-sp >=1.1_0\n    - r-xts >=0.8_8\n    - r-zoo >=1.7_9\n  run:\n    - r-base\n    - r-intervals\n    - r-lattice\n    - r-sp >=1.1_0\n    - r-xts >=0.8_8\n    - r-zoo >=1.7_9\n\ntest:\n  commands:\n    - $R -e \"library('spacetime')\"           # [not win]\n    - \"\\\"%R%\\\" -e \\\"library('spacetime')\\\"\"  # [win]\n    - conda inspect linkages -p $PREFIX r-spacetime  # [not win]\n    - conda inspect objects -p $PREFIX r-spacetime  # [osx]\n\nabout:\n  home: http://github.com/edzer/spacetime\n  license: GPL (>= 2)\n  summary: Classes and methods for spatio-temporal data, including space-time regular lattices,\n    sparse lattices, irregular data, and trajectories; utility functions for plotting\n    data as map sequences (lattice or animation) or multiple time series; methods for\n    spatial and temporal selection and subsetting, as well as for spatial/temporal/spatio-temporal\n    matching or aggregation, retrieving coordinates, print, summary, etc.\n  license_family: GPL3\n  license_file: '{{ environ[\"PREFIX\"] }}/lib/R/share/licenses/GPL-3'\n\nextra:\n  recipe-maintainers:\n    - conda-forge/r\n    - jsignell\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "r-base",
+   "r-intervals",
+   "r-lattice",
+   "r-sp",
+   "r-xts",
+   "r-zoo"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "r-base",
+    "r-intervals",
+    "r-lattice",
+    "r-sp",
+    "r-xts",
+    "r-zoo"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "r-base",
+    "r-intervals",
+    "r-lattice",
+    "r-sp",
+    "r-xts",
+    "r-zoo"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.7.0\n",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "r-base",
+    "r-intervals",
+    "r-lattice",
+    "r-sp >=1.1_0",
+    "r-xts >=0.8_8",
+    "r-zoo >=1.7_9"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "r-base",
+    "r-intervals",
+    "r-lattice",
+    "r-sp >=1.1_0",
+    "r-xts >=0.8_8",
+    "r-zoo >=1.7_9"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":[
+  "https://cran.r-project.org/src/contrib/spacetime_1.2-2.tar.gz",
+  "https://cran.r-project.org/src/contrib/Archive/spacetime/spacetime_1.2-2.tar.gz",
+  "https://cran.r-project.org/src/contrib/spacetime_1.2-2.tar.gz",
+  "https://cran.r-project.org/src/contrib/Archive/spacetime/spacetime_1.2-2.tar.gz",
+  "https://cran.r-project.org/src/contrib/spacetime_1.2-2.tar.gz",
+  "https://cran.r-project.org/src/contrib/Archive/spacetime/spacetime_1.2-2.tar.gz"
+ ],
+ "version":"1.2_3"
+}

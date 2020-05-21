@@ -1,0 +1,269 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/304672314.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.14.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/314937898.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.15.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/316986775.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.16.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/366497800.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.16.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"dtool_info",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "dev_url":"https://github.com/jic-dtool/dtool-info",
+   "home":"http://github.com/jic-dtool/dtool-info",
+   "license":"MIT",
+   "license_file":"LICENSE.rst",
+   "summary":"dtool CLI commands for getting information about datasets"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "preserve_egg_dir":true,
+   "script":" -m pip install . --no-deps -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "pvanheus",
+    "pvanheus",
+    "pvanheus"
+   ]
+  },
+  "package":{
+   "name":"dtool_info",
+   "version":"0.13.0"
+  },
+  "requirements":{
+   "host":[
+    "python",
+    "pip",
+    "python",
+    "pip",
+    "python",
+    "pip"
+   ],
+   "run":[
+    "python",
+    "click",
+    "setuptools",
+    "dtoolcore",
+    "dtool_cli",
+    "jinja2",
+    "pygments",
+    "python",
+    "click",
+    "setuptools",
+    "dtoolcore",
+    "dtool_cli",
+    "jinja2",
+    "pygments",
+    "python",
+    "click",
+    "setuptools",
+    "dtoolcore",
+    "dtool_cli",
+    "jinja2",
+    "pygments"
+   ]
+  },
+  "source":{
+   "sha256":"bbc5d1ae822d33053b24eedbb91524f5634ab77869b9f3f88222302875b9e250",
+   "url":"https://github.com/jic-dtool/dtool-info/archive/0.13.0.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "dtool diff --help",
+    "dtool ls --help",
+    "dtool summary --help",
+    "dtool item --help",
+    "dtool identifiers --help",
+    "dtool verify --help",
+    "dtool overlay --help",
+    "dtool inventory --help",
+    "dtool uuid --help",
+    "dtool diff --help",
+    "dtool ls --help",
+    "dtool summary --help",
+    "dtool item --help",
+    "dtool identifiers --help",
+    "dtool verify --help",
+    "dtool overlay --help",
+    "dtool inventory --help",
+    "dtool uuid --help",
+    "dtool diff --help",
+    "dtool ls --help",
+    "dtool summary --help",
+    "dtool item --help",
+    "dtool identifiers --help",
+    "dtool verify --help",
+    "dtool overlay --help",
+    "dtool inventory --help",
+    "dtool uuid --help"
+   ],
+   "imports":[
+    "dtool_info",
+    "dtool_info.dataset",
+    "dtool_info.inventory",
+    "dtool_info.overlay",
+    "dtool_info.templates",
+    "dtool_info.utils",
+    "dtool_info",
+    "dtool_info.dataset",
+    "dtool_info.inventory",
+    "dtool_info.overlay",
+    "dtool_info.templates",
+    "dtool_info.utils",
+    "dtool_info",
+    "dtool_info.dataset",
+    "dtool_info.inventory",
+    "dtool_info.overlay",
+    "dtool_info.templates",
+    "dtool_info.utils"
+   ]
+  }
+ },
+ "name":"dtool_info",
+ "new_version":"0.16.1",
+ "pinning_version":"2020.01.16",
+ "raw_meta_yaml":"{% set name = \"dtool_info\" %}\n{% set reponame = \"dtool-info\" %}\n{% set author = \"jic-dtool\" %}\n{% set version = \"0.13.0\" %}\n{% set sha256 = \"bbc5d1ae822d33053b24eedbb91524f5634ab77869b9f3f88222302875b9e250\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://github.com/{{ author }}/{{ reponame }}/archive/{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  noarch: python\n  preserve_egg_dir: True\n  script: \"{{ PYTHON }} -m pip install . --no-deps -vv\"\n\nrequirements:\n  host:\n    - python\n    - pip\n  run:\n    - python\n    - click\n    - setuptools\n    - dtoolcore\n    - dtool_cli\n    - jinja2\n    - pygments\ntest:\n  imports:\n    - dtool_info\n    - dtool_info.dataset\n    - dtool_info.inventory\n    - dtool_info.overlay\n    - dtool_info.templates\n    - dtool_info.utils\n  commands:\n    - dtool diff --help\n    - dtool ls --help\n    - dtool summary --help\n    - dtool item --help\n    - dtool identifiers --help\n    - dtool verify --help\n    - dtool overlay --help\n    - dtool inventory --help\n    - dtool uuid --help\n\nabout:\n  home: http://github.com/{{ author }}/{{ reponame }}\n  license: MIT\n  license_file: LICENSE.rst\n  summary: 'dtool CLI commands for getting information about datasets'\n\n  dev_url: https://github.com/{{ author }}/{{ reponame }}\n\nextra:\n  recipe-maintainers:\n    - pvanheus\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "click",
+   "dtool_cli",
+   "dtoolcore",
+   "jinja2",
+   "pip",
+   "pygments",
+   "python",
+   "setuptools"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "click",
+    "dtool_cli",
+    "dtoolcore",
+    "jinja2",
+    "pygments",
+    "python",
+    "setuptools"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.6.5",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "click",
+    "dtool_cli",
+    "dtoolcore",
+    "jinja2",
+    "pygments",
+    "python",
+    "setuptools"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://github.com/jic-dtool/dtool-info/archive/0.13.0.tar.gz",
+ "version":"0.13.0"
+}

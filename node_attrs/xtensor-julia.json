@@ -1,0 +1,285 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/248875579.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/265783063.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.8.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/271520152.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.8.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/272037434.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.8.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/310877666.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.8.3"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/310989459.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.8.4"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "head":{
+     "ref":"<this_is_not_a_branch>"
+    },
+    "state":"closed"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.9.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"xtensor-julia",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"Multi dimensional arrays with broadcasting and lazy computing",
+   "dev_url":"https://github.com/QuantStack/xtensor-julia",
+   "doc_url":"http://xtensor-julia.readthedocs.io",
+   "home":"http://quantstack.net/xtensor",
+   "license":"BSD-3-Clause",
+   "license_family":"BSD",
+   "license_file":"LICENSE",
+   "summary":"Julia bindings for the xtensor C++ multi-dimensional array library."
+  },
+  "build":{
+   "number":"0",
+   "skip":true
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "SylvainCorlay",
+    "JohanMabille",
+    "wolfv",
+    "SylvainCorlay",
+    "JohanMabille",
+    "wolfv",
+    "SylvainCorlay",
+    "JohanMabille",
+    "wolfv"
+   ]
+  },
+  "package":{
+   "name":"xtensor-julia",
+   "version":"0.9.0"
+  },
+  "requirements":{
+   "build":[
+    "cxx_compiler_stub",
+    "cmake",
+    "cxx_compiler_stub",
+    "cmake",
+    "cxx_compiler_stub",
+    "cmake"
+   ],
+   "host":[
+    "xtl >=0.6.9,<0.7",
+    "xtensor >=0.21.2,<0.22",
+    "libcxxwrap-julia >=0.5.3,<0.6",
+    "xtl >=0.6.9,<0.7",
+    "xtensor >=0.21.2,<0.22",
+    "libcxxwrap-julia >=0.5.3,<0.6",
+    "xtl >=0.6.9,<0.7",
+    "xtensor >=0.21.2,<0.22",
+    "libcxxwrap-julia >=0.5.3,<0.6"
+   ],
+   "run":[
+    "xtl",
+    "xtensor",
+    "xtl",
+    "xtensor",
+    "xtl",
+    "xtensor"
+   ]
+  },
+  "source":{
+   "sha256":"c62d23365d02cc463155347042cf830d4c09ac4c79bc7bdd5d18d21c0c8ba802",
+   "url":"https://github.com/QuantStack/xtensor-julia/archive/0.9.0.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "if exist %LIBRARY_PREFIX%\\include\\xtensor-julia\\jlarray.hpp (exit 0) else (exit 1)",
+    "if exist %LIBRARY_PREFIX%\\lib\\cmake\\xtensor-juliaConfig.cmake (exit 0) else (exit 1)",
+    "if exist %LIBRARY_PREFIX%\\lib\\cmake\\xtensor-juliaConfigVersion.cmake (exit 0) else (exit 1)",
+    "test -d ${PREFIX}/include/xtensor-julia",
+    "test -f ${PREFIX}/include/xtensor-julia/jlarray.hpp",
+    "test -f ${PREFIX}/lib/cmake/xtensor-julia/xtensor-juliaConfig.cmake",
+    "test -f ${PREFIX}/lib/cmake/xtensor-julia/xtensor-juliaConfigVersion.cmake",
+    "test -d ${PREFIX}/include/xtensor-julia",
+    "test -f ${PREFIX}/include/xtensor-julia/jlarray.hpp",
+    "test -f ${PREFIX}/lib/cmake/xtensor-julia/xtensor-juliaConfig.cmake",
+    "test -f ${PREFIX}/lib/cmake/xtensor-julia/xtensor-juliaConfigVersion.cmake"
+   ]
+  }
+ },
+ "name":"xtensor-julia",
+ "new_version":"0.9.0",
+ "pinning_version":"2019.12.17",
+ "raw_meta_yaml":"{% set name = \"xtensor-julia\" %}\n{% set version = \"0.9.0\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://github.com/QuantStack/xtensor-julia/archive/{{ version }}.tar.gz\n  sha256: c62d23365d02cc463155347042cf830d4c09ac4c79bc7bdd5d18d21c0c8ba802 \n\nbuild:\n  number: 0\n  # Julia and libcxxwrap-julia have not been packaged for conda on Windows\n  skip: True  # [win]\n\nrequirements:\n  build:\n    - {{ compiler('cxx') }}\n    - cmake\n  host:\n    - xtl >=0.6.9,<0.7\n    - xtensor >=0.21.2,<0.22\n    - libcxxwrap-julia >=0.5.3,<0.6\n  run:\n    - {{ pin_compatible('xtl', max_pin='x.x') }}\n    - {{ pin_compatible('xtensor', max_pin='x.x') }}\n\ntest:\n  commands:\n    - test -d ${PREFIX}/include/xtensor-julia  # [unix]\n    - test -f ${PREFIX}/include/xtensor-julia/jlarray.hpp  # [unix]\n    - test -f ${PREFIX}/lib/cmake/xtensor-julia/xtensor-juliaConfig.cmake  # [unix]\n    - test -f ${PREFIX}/lib/cmake/xtensor-julia/xtensor-juliaConfigVersion.cmake  # [unix]\n    - if exist %LIBRARY_PREFIX%\\include\\xtensor-julia\\jlarray.hpp (exit 0) else (exit 1)  # [win]\n    - if exist %LIBRARY_PREFIX%\\lib\\cmake\\xtensor-juliaConfig.cmake (exit 0) else (exit 1)  # [win]\n    - if exist %LIBRARY_PREFIX%\\lib\\cmake\\xtensor-juliaConfigVersion.cmake (exit 0) else (exit 1)  # [win]\n\nabout:\n  home: http://quantstack.net/xtensor\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: LICENSE\n  summary: 'Julia bindings for the xtensor C++ multi-dimensional array library.'\n  description: 'Multi dimensional arrays with broadcasting and lazy computing'\n  doc_url: http://xtensor-julia.readthedocs.io\n  dev_url: https://github.com/QuantStack/xtensor-julia\n\nextra:\n  recipe-maintainers:\n    - SylvainCorlay\n    - JohanMabille\n    - wolfv\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "cmake",
+   "cxx_compiler_stub",
+   "libcxxwrap-julia",
+   "xtensor",
+   "xtl"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "cmake",
+    "cxx_compiler_stub"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "libcxxwrap-julia",
+    "xtensor",
+    "xtl"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "xtensor",
+    "xtl"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.6.5",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "cmake",
+    "cxx_compiler_stub"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "libcxxwrap-julia >=0.5.3,<0.6",
+    "xtensor >=0.21.2,<0.22",
+    "xtl >=0.6.9,<0.7"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "xtensor",
+    "xtl"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://github.com/QuantStack/xtensor-julia/archive/0.8.4.tar.gz",
+ "version":"0.9.0"
+}

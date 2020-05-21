@@ -1,0 +1,129 @@
+{
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"overly",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "dev_url":"https://github.com/theelous3/overly",
+   "home":"https://github.com/theelous3/overly",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"LICENCE",
+   "summary":"overly - http client testing for hoomans"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "CJ-Wright",
+    "CJ-Wright",
+    "CJ-Wright"
+   ]
+  },
+  "package":{
+   "name":"overly",
+   "version":"0.1.81"
+  },
+  "requirements":{
+   "host":[
+    "pip",
+    "python >=3.6",
+    "pip",
+    "python >=3.6",
+    "pip",
+    "python >=3.6"
+   ],
+   "run":[
+    "h11",
+    "python >=3.6",
+    "sansio-multipart",
+    "h11",
+    "python >=3.6",
+    "sansio-multipart",
+    "h11",
+    "python >=3.6",
+    "sansio-multipart"
+   ]
+  },
+  "source":{
+   "sha256":"19c632229f5c9bf9d35f94141ed3f9075b67f965f822df1a07329ae195118a0a",
+   "url":"https://pypi.io/packages/source/o/overly/overly-0.1.81.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "overly",
+    "overly",
+    "overly"
+   ]
+  }
+ },
+ "name":"overly",
+ "new_version":"0.1.81",
+ "raw_meta_yaml":"{% set name = \"overly\" %}\n{% set version = \"0.1.81\" %}\n\npackage:\n  name: \"{{ name|lower }}\"\n  version: \"{{ version }}\"\n\nsource:\n  url: \"https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\"\n  sha256: 19c632229f5c9bf9d35f94141ed3f9075b67f965f822df1a07329ae195118a0a\n\nbuild:\n  noarch: python\n  number: 0\n  script: \"{{ PYTHON }} -m pip install . -vv\"\n\nrequirements:\n  host:\n    - pip\n    - python >=3.6\n  run:\n    - h11\n    - python >=3.6\n    - sansio-multipart\n\ntest:\n  imports:\n    - overly\n\nabout:\n  home: \"https://github.com/theelous3/overly\"\n  license: MIT\n  license_family: MIT\n  license_file: LICENCE\n  summary: \"overly - http client testing for hoomans\"\n  dev_url: https://github.com/theelous3/overly\n\nextra:\n  recipe-maintainers:\n    - CJ-Wright\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "h11",
+   "pip",
+   "python",
+   "sansio-multipart"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "h11",
+    "python",
+    "sansio-multipart"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3.6"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "h11",
+    "python >=3.6",
+    "sansio-multipart"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/o/overly/overly-0.1.81.tar.gz",
+ "version":"0.1.81"
+}

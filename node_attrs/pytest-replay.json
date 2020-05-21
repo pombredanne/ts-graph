@@ -1,0 +1,192 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/316159721.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.0.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/339641207.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.1.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/341133847.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.2.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"pytest-replay",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"Saves shell scripts that allow re-execute previous pytest runs to reproduce crashes or flaky tests",
+   "dev_url":"https://github.com/ESSS/pytest-replay",
+   "home":"https://github.com/ESSS/pytest-replay",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"LICENSE",
+   "summary":"Saves shell scripts that allow re-execute previous pytest runs to reproduce crashes or flaky tests"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":"-m pip install . --no-deps -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "nicoddemus",
+    "tadeu",
+    "prusse-martin",
+    "nicoddemus",
+    "tadeu",
+    "prusse-martin",
+    "nicoddemus",
+    "tadeu",
+    "prusse-martin"
+   ]
+  },
+  "package":{
+   "name":"pytest-replay",
+   "version":"1.2.0"
+  },
+  "requirements":{
+   "build":[
+    "pip",
+    "python >=3.6",
+    "setuptools_scm",
+    "pip",
+    "python >=3.6",
+    "setuptools_scm",
+    "pip",
+    "python >=3.6",
+    "setuptools_scm"
+   ],
+   "run":[
+    "pytest >=3.0.0",
+    "python >=3.6",
+    "pytest >=3.0.0",
+    "python >=3.6",
+    "pytest >=3.0.0",
+    "python >=3.6"
+   ]
+  },
+  "source":{
+   "fn":"pytest-replay-1.2.0.tar.gz",
+   "sha256":"09d28df66bd2336e13909e7b6fc9ee63adb2c34cf5b4f2d601de445103f96aac",
+   "url":"https://pypi.io/packages/source/p/pytest-replay/pytest-replay-1.2.0.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "pytest_replay",
+    "pytest_replay",
+    "pytest_replay"
+   ]
+  }
+ },
+ "name":"pytest-replay",
+ "new_version":"1.2.0",
+ "pinning_version":"2019.11.13",
+ "raw_meta_yaml":"{% set name = \"pytest-replay\" %}\n{% set version = \"1.2.0\" %}\n{% set hash_type = \"sha256\" %}\n{% set hash_value = \"09d28df66bd2336e13909e7b6fc9ee63adb2c34cf5b4f2d601de445103f96aac\" %}\n\npackage:\n  name: '{{ name|lower }}'\n  version: '{{ version }}'\n\nsource:\n  fn: '{{ name }}-{{ version }}.tar.gz'\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  '{{ hash_type }}': '{{ hash_value }}'\n\nbuild:\n  number: 0\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n  noarch: python\n\nrequirements:\n  build:\n    - pip\n    - python >=3.6\n    - setuptools_scm    \n  run:    \n    - pytest >=3.0.0\n    - python >=3.6\n\ntest:\n  imports:\n    - pytest_replay\n\nabout:\n  home: https://github.com/ESSS/pytest-replay\n  license: MIT\n  license_family: MIT\n  license_file: 'LICENSE'\n  summary: Saves shell scripts that allow re-execute previous pytest runs to reproduce crashes or flaky tests\n  description: \"Saves shell scripts that allow re-execute previous pytest runs to reproduce crashes or flaky tests\"\n  dev_url: https://github.com/ESSS/pytest-replay\n\nextra:\n  recipe-maintainers:\n    - nicoddemus\n    - tadeu\n    - prusse-martin\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "pip",
+   "pytest",
+   "python",
+   "setuptools_scm"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python",
+    "setuptools_scm"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "pytest",
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.6.2",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3.6",
+    "setuptools_scm"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "pytest >=3.0.0",
+    "python >=3.6"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/p/pytest-replay/pytest-replay-0.2.2.tar.gz",
+ "version":"1.2.0"
+}

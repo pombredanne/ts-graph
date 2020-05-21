@@ -1,0 +1,190 @@
+{
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"deepchem",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"https://github.com/deepchem/deepchem",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"LICENSE",
+   "summary":"Democratizing Deep-Learning for Drug Discovery, Quantum Chemistry, Materials Science and Biology"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":"PBR_VERSION=${PKG_VERSION} && export PBR_VERSION &&  -m pip install . --no-deps --ignore-installed -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "rbharath",
+    "simonbray",
+    "rbharath",
+    "simonbray",
+    "rbharath",
+    "simonbray"
+   ]
+  },
+  "package":{
+   "name":"deepchem",
+   "version":"2.3.0"
+  },
+  "requirements":{
+   "host":[
+    "python >=3.5",
+    "pip",
+    "setuptools",
+    "pbr",
+    "python >=3.5",
+    "pip",
+    "setuptools",
+    "pbr",
+    "python >=3.5",
+    "pip",
+    "setuptools",
+    "pbr"
+   ],
+   "run":[
+    "python >=3.5",
+    "joblib",
+    "scikit-learn",
+    "networkx",
+    "xgboost",
+    "pandas",
+    "zlib",
+    "requests",
+    "rdkit",
+    "tensorflow =1.14.0",
+    "python >=3.5",
+    "joblib",
+    "scikit-learn",
+    "networkx",
+    "xgboost",
+    "pandas",
+    "zlib",
+    "requests",
+    "rdkit",
+    "tensorflow =1.14.0",
+    "python >=3.5",
+    "joblib",
+    "scikit-learn",
+    "networkx",
+    "xgboost",
+    "pandas",
+    "zlib",
+    "requests",
+    "rdkit",
+    "tensorflow =1.14.0"
+   ]
+  },
+  "source":{
+   "sha256":"eec0d4dfa23e234d26d171ef20c62a699052a1bc230bbace341047e0c2673030",
+   "url":"https://github.com/deepchem/deepchem/archive/2.3.0.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "python run_test.py",
+    "python run_test.py",
+    "python run_test.py"
+   ],
+   "imports":[
+    "deepchem",
+    "deepchem",
+    "deepchem"
+   ]
+  }
+ },
+ "name":"deepchem",
+ "new_version":"2.3.0",
+ "raw_meta_yaml":"{% set name = \"deepchem\" %}\n{% set version = \"2.3.0\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://github.com/deepchem/deepchem/archive/{{ version }}.tar.gz\n  sha256: eec0d4dfa23e234d26d171ef20c62a699052a1bc230bbace341047e0c2673030\n\nbuild:\n  noarch: python\n  number: 0\n  script: \"PBR_VERSION=${PKG_VERSION} && export PBR_VERSION && {{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv\"\n\nrequirements:\n  host:\n    - python >=3.5\n    - pip\n    - setuptools\n    - pbr\n\n  run:\n    - python >=3.5\n    - joblib\n    - scikit-learn\n    - networkx\n    - xgboost\n    - pandas\n    - zlib\n    - requests\n    - rdkit\n    - tensorflow =1.14.0\n\ntest:\n  imports:\n    - deepchem\n\n  commands:\n    - python run_test.py\n\nabout:\n  home: https://github.com/deepchem/deepchem\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE\n  summary: 'Democratizing Deep-Learning for Drug Discovery, Quantum Chemistry, Materials Science and Biology'\n\nextra:\n  recipe-maintainers:\n    - rbharath\n    - simonbray\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "joblib",
+   "networkx",
+   "pandas",
+   "pbr",
+   "pip",
+   "python",
+   "rdkit",
+   "requests",
+   "scikit-learn",
+   "setuptools",
+   "tensorflow",
+   "xgboost",
+   "zlib"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pbr",
+    "pip",
+    "python",
+    "setuptools"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "joblib",
+    "networkx",
+    "pandas",
+    "python",
+    "rdkit",
+    "requests",
+    "scikit-learn",
+    "tensorflow",
+    "xgboost",
+    "zlib"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pbr",
+    "pip",
+    "python >=3.5",
+    "setuptools"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "joblib",
+    "networkx",
+    "pandas",
+    "python >=3.5",
+    "rdkit",
+    "requests",
+    "scikit-learn",
+    "tensorflow =1.14.0",
+    "xgboost",
+    "zlib"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://github.com/deepchem/deepchem/archive/2.3.0.tar.gz",
+ "version":"2.3.0"
+}

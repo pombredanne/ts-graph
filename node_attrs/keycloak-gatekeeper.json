@@ -1,0 +1,251 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/378729990.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"9.0.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/393349523.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"9.0.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/403318605.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"9.0.3"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/410803922.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"10.0.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "provider":{
+   "win":"azure"
+  }
+ },
+ "feedstock_name":"keycloak-gatekeeper",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"Keycloak is an open source Identity and Access Management solution aimed\nat modern applications and services. It makes it easy to secure applications\nand services with little to no code. Some of its features include Single-Sign On,\nIdentity Brokering and Social Login, User Federation and Client Adapters.\n",
+   "dev_url":"https://github.com/keycloak/keycloak-gatekeeper",
+   "doc_url":"https://www.keycloak.org/docs/latest/securing_apps/index.html#_keycloak_generic_adapter",
+   "home":"https://github.com/keycloak/keycloak-gatekeeper",
+   "license":"Apache 2.0",
+   "license_family":"Apache",
+   "license_file":"src/github.com/keycloak/keycloak-gatekeeper/LICENSE",
+   "summary":"An adapter for use with OpenID Connect that supports both access tokens in a browser cookie or bearer tokens"
+  },
+  "build":{
+   "number":"4",
+   "script":[
+    "pushd src/github.com/keycloak/keycloak-gatekeeper",
+    "dep ensure",
+    "patch -p1 -i /client_secret.patch",
+    "patch -p1 -i /rs512.patch",
+    "go test -v .",
+    "go install -v .",
+    "pushd src/github.com/keycloak/keycloak-gatekeeper",
+    "dep ensure",
+    "patch -p1 -i /client_secret.patch",
+    "patch -p1 -i /rs512.patch",
+    "go test -v .",
+    "go install -v .",
+    "pushd src/github.com/keycloak/keycloak-gatekeeper",
+    "dep ensure",
+    "patch -p1 -i /client_secret.patch",
+    "patch -p1 -i /rs512.patch",
+    "go test -v .",
+    "go install -v ."
+   ]
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "adbeda",
+    "sodre",
+    "rluria14",
+    "oblute",
+    "adbeda",
+    "sodre",
+    "rluria14",
+    "oblute",
+    "adbeda",
+    "sodre",
+    "rluria14",
+    "oblute"
+   ]
+  },
+  "package":{
+   "name":"keycloak-gatekeeper",
+   "version":"2.3.0"
+  },
+  "requirements":{
+   "build":[
+    "go_compiler_stub >=1.11.3",
+    "go-dep",
+    "m2-patch",
+    "go_compiler_stub >=1.11.3",
+    "go-dep",
+    "patch",
+    "go_compiler_stub >=1.11.3",
+    "go-dep",
+    "patch"
+   ]
+  },
+  "source":[
+   {
+    "folder":"src/github.com/keycloak/keycloak-gatekeeper",
+    "patches":[
+     "access_token.patch"
+    ],
+    "sha256":"cb19406a35797165fb135a5152c8e6ace17315f892ad5a3d0e13b89ca9aae2cd",
+    "url":"https://github.com/keycloak/keycloak-gatekeeper/archive/v2.3.0.tar.gz"
+   },
+   {
+    "folder":"src/github.com/keycloak/keycloak-gatekeeper",
+    "patches":[
+     "access_token.patch"
+    ],
+    "sha256":"cb19406a35797165fb135a5152c8e6ace17315f892ad5a3d0e13b89ca9aae2cd",
+    "url":"https://github.com/keycloak/keycloak-gatekeeper/archive/v2.3.0.tar.gz"
+   },
+   {
+    "folder":"src/github.com/keycloak/keycloak-gatekeeper",
+    "patches":[
+     "access_token.patch"
+    ],
+    "sha256":"cb19406a35797165fb135a5152c8e6ace17315f892ad5a3d0e13b89ca9aae2cd",
+    "url":"https://github.com/keycloak/keycloak-gatekeeper/archive/v2.3.0.tar.gz"
+   }
+  ],
+  "test":{
+   "commands":[
+    "bash -c \"keycloak-gatekeeper -v\"",
+    "bash -c \"keycloak-gatekeeper -v\"",
+    "bash -c \"keycloak-gatekeeper -v\""
+   ],
+   "requires":null
+  }
+ },
+ "name":"keycloak-gatekeeper",
+ "new_version":"10.0.0",
+ "new_version_attempts":{
+  "10.0.0":1,
+  "9.0.3":1
+ },
+ "new_version_errors":{},
+ "pinning_version":"2020.04.28.13.02.26",
+ "raw_meta_yaml":"{% set goname = \"github.com/keycloak/keycloak-gatekeeper\" %}\n{% set version = \"2.3.0\" %}\n\n{% set name = goname.split('/')[-1] %}\n{% set pkg_src = ('src/'+goname).replace(\"/\", \"\\\\\" if win else \"/\") %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  - folder: {{ pkg_src }}\n    url: https://{{ goname}}/archive/v{{ version }}.tar.gz\n    sha256: cb19406a35797165fb135a5152c8e6ace17315f892ad5a3d0e13b89ca9aae2cd\n    patches:\n      # Parse and Verify the ID Token before trying to use the access-token\n      - access_token.patch\n\nbuild:\n  number: 4\n  script:\n    - pushd {{ pkg_src }}\n    - dep ensure\n    - patch -p1 -i {{ RECIPE_DIR }}{{ os.sep }}client_secret.patch\n    - patch -p1 -i {{ RECIPE_DIR }}{{ os.sep }}rs512.patch\n    - go test -v .\n    - go install -v .\n\nrequirements:\n  build:\n    - {{ compiler(\"go\") }} >=1.11.3\n    - go-dep\n    - patch  # [unix]\n    - m2-patch  # [win]\n\ntest:\n  requires:\n    - m2-bash  # [win]\n  commands:\n    - bash -c \"{{ name|lower }} -v\"\n\nabout:\n  home: https://github.com/keycloak/keycloak-gatekeeper\n\n  license: Apache 2.0\n  license_family: Apache\n  license_file: {{ pkg_src }}/LICENSE\n  summary: 'An adapter for use with OpenID Connect that supports both access tokens in a browser cookie or bearer tokens'\n\n  description: |\n    Keycloak is an open source Identity and Access Management solution aimed\n    at modern applications and services. It makes it easy to secure applications\n    and services with little to no code. Some of its features include Single-Sign On,\n    Identity Brokering and Social Login, User Federation and Client Adapters.\n  doc_url: https://www.keycloak.org/docs/latest/securing_apps/index.html#_keycloak_generic_adapter\n\n  dev_url: https://github.com/keycloak/keycloak-gatekeeper\n\nextra:\n  recipe-maintainers:\n    - adbeda\n    - sodre\n    - rluria14\n    - oblute\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "go-dep",
+   "go_compiler_stub",
+   "m2-patch",
+   "patch"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "go-dep",
+    "go_compiler_stub",
+    "m2-patch",
+    "patch"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.7.0",
+ "strong_exports":false,
+ "time":1568135305.982172,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "go-dep",
+    "go_compiler_stub >=1.11.3",
+    "m2-patch",
+    "patch"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://github.com/keycloak/keycloak-gatekeeper/archive/v2.3.0.tar.gz",
+ "version":"2.3.0"
+}

@@ -1,0 +1,153 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/199918279.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Noarch",
+    "migrator_version":0
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"pydoe",
+ "hash_type":"sha1",
+ "meta_yaml":{
+  "about":{
+   "description":"The pyDOE package is designed to help the scientist, engineer, statistician, etc., to construct appropriate experimental designs.",
+   "home":"https://github.com/tisimst/pyDOE",
+   "license":"BSD 3-Clause",
+   "summary":"Design of experiments for Python"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"1",
+   "script":"python -m pip install --no-deps --ignore-installed ."
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "melund",
+    "melund",
+    "melund"
+   ]
+  },
+  "package":{
+   "name":"pydoe",
+   "version":"0.3.8"
+  },
+  "requirements":{
+   "host":[
+    "pip",
+    "python",
+    "setuptools",
+    "pip",
+    "python",
+    "setuptools",
+    "pip",
+    "python",
+    "setuptools"
+   ],
+   "run":[
+    "python",
+    "scipy >=0.13",
+    "numpy >=1.8",
+    "python",
+    "scipy >=0.13",
+    "numpy >=1.8",
+    "python",
+    "scipy >=0.13",
+    "numpy >=1.8"
+   ]
+  },
+  "source":{
+   "fn":"pyDOE-0.3.8.zip",
+   "sha1":"211c4d74a74109ac134dff31ed20c33141b48dbe",
+   "url":"https://pypi.io/packages/source/p/pyDOE/pyDOE-0.3.8.zip"
+  },
+  "test":{
+   "imports":[
+    "pyDOE",
+    "pyDOE",
+    "pyDOE"
+   ]
+  }
+ },
+ "name":"pydoe",
+ "new_version":"0.3.8",
+ "pinning_version":"2018.07.01",
+ "raw_meta_yaml":"{% set version = \"0.3.8\" %}\n\npackage:\n  name: pydoe\n  version: {{ version }}\n\nsource:\n    fn: pyDOE-{{ version }}.zip\n    url: https://pypi.io/packages/source/p/pyDOE/pyDOE-{{ version }}.zip\n    sha1: 211c4d74a74109ac134dff31ed20c33141b48dbe\n\nbuild:\n  noarch: python\n  script: python -m pip install --no-deps --ignore-installed .\n  number: 1\n\nrequirements:\n  host:\n    - pip\n    - python\n    - setuptools\n\n  run:\n    - python\n    - scipy >=0.13\n    - numpy >=1.8\n\ntest:\n  imports:\n    - pyDOE\n\nabout:\n  home: https://github.com/tisimst/pyDOE\n  license: BSD 3-Clause\n  summary: Design of experiments for Python\n  description: The pyDOE package is designed to help the scientist, engineer, statistician, etc., to construct appropriate experimental designs.\n\nextra:\n  recipe-maintainers:\n    - melund\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "numpy",
+   "pip",
+   "python",
+   "scipy",
+   "setuptools"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python",
+    "setuptools"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "numpy",
+    "python",
+    "scipy"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.1.6",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python",
+    "setuptools"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "numpy >=1.8",
+    "python",
+    "scipy >=0.13"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/p/pyDOE/pyDOE-0.3.8.zip",
+ "version":"0.3.8"
+}

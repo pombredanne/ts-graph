@@ -1,0 +1,288 @@
+{
+ "PRed":[
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.9.5"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/196873648.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Compiler",
+    "migrator_version":0
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/221273336.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/308285306.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"GFortranOSXRebuild",
+    "migrator_version":0,
+    "name":"fortran_compiler_stub-7"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "compiler_stack":"comp7",
+  "max_py_ver":"37",
+  "max_r_ver":"35"
+ },
+ "feedstock_name":"giza",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"http://giza.sourceforge.net/",
+   "license":"GPLv2",
+   "license_file":"COPYING",
+   "summary":"A drop-in replacement for PGPLOT using C and Cairo."
+  },
+  "build":{
+   "number":"1001",
+   "skip":true
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "pkgw",
+    "pkgw",
+    "pkgw"
+   ]
+  },
+  "package":{
+   "name":"giza",
+   "version":"0.9.5"
+  },
+  "requirements":{
+   "build":[
+    "pkg-config",
+    "fortran_compiler_stub",
+    "c_compiler_stub",
+    "pkg-config",
+    "fortran_compiler_stub",
+    "c_compiler_stub",
+    "pkg-config",
+    "fortran_compiler_stub",
+    "c_compiler_stub"
+   ],
+   "host":[
+    "pthread-stubs",
+    "cairo",
+    "xorg-libice 1.0.*",
+    "xorg-libsm 1.2.*",
+    "xorg-libx11 1.6.*",
+    "xorg-libxext 1.3.*",
+    "xorg-libxrender 0.9.*",
+    "xz",
+    "pthread-stubs",
+    "cairo",
+    "xorg-libice 1.0.*",
+    "xorg-libsm 1.2.*",
+    "xorg-libx11 1.6.*",
+    "xorg-libxext 1.3.*",
+    "xorg-libxrender 0.9.*",
+    "xz",
+    "pthread-stubs",
+    "cairo",
+    "xorg-libice 1.0.*",
+    "xorg-libsm 1.2.*",
+    "xorg-libx11 1.6.*",
+    "xorg-libxext 1.3.*",
+    "xorg-libxrender 0.9.*",
+    "xz"
+   ],
+   "run":[
+    "cairo",
+    "xorg-libice 1.0.*",
+    "xorg-libsm 1.2.*",
+    "xorg-libx11 1.6.*",
+    "xorg-libxext 1.3.*",
+    "xorg-libxrender 0.9.*",
+    "xz",
+    "cairo",
+    "xorg-libice 1.0.*",
+    "xorg-libsm 1.2.*",
+    "xorg-libx11 1.6.*",
+    "xorg-libxext 1.3.*",
+    "xorg-libxrender 0.9.*",
+    "xz",
+    "cairo",
+    "xorg-libice 1.0.*",
+    "xorg-libsm 1.2.*",
+    "xorg-libx11 1.6.*",
+    "xorg-libxext 1.3.*",
+    "xorg-libxrender 0.9.*",
+    "xz"
+   ]
+  },
+  "source":{
+   "patches":[
+    "fix-tests.patch",
+    "fix-tests.patch",
+    "disable-macos-tests.patch",
+    "fix-tests.patch"
+   ],
+   "sha256":"0151be118d8249161b1bc547ef4dd5f28f6340106f1e209e71ad8a0b6617b7b1",
+   "url":"https://downloads.sourceforge.net/project/giza/giza-0.9.5.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "test -e $PREFIX/lib/libgiza$SHLIB_EXT",
+    "test -e $PREFIX/lib/libpgplot$SHLIB_EXT",
+    "test -e $PREFIX/lib/libcpgplot$SHLIB_EXT",
+    "conda inspect linkages -p $PREFIX $PKG_NAME",
+    "conda inspect objects -p $PREFIX $PKG_NAME",
+    "test -e $PREFIX/lib/libgiza$SHLIB_EXT",
+    "test -e $PREFIX/lib/libpgplot$SHLIB_EXT",
+    "test -e $PREFIX/lib/libcpgplot$SHLIB_EXT",
+    "conda inspect linkages -p $PREFIX $PKG_NAME",
+    "test -e $PREFIX/lib/libgiza$SHLIB_EXT",
+    "test -e $PREFIX/lib/libpgplot$SHLIB_EXT",
+    "test -e $PREFIX/lib/libcpgplot$SHLIB_EXT"
+   ]
+  }
+ },
+ "name":"giza",
+ "new_version":false,
+ "pinning_version":"2019.08.12",
+ "raw_meta_yaml":"# TODO: this package should be marked as conflicting with pgplot.\n\n{% set name = 'giza' %}\n{% set version = \"0.9.5\" %}\n{% set sha256 = \"0151be118d8249161b1bc547ef4dd5f28f6340106f1e209e71ad8a0b6617b7b1\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://downloads.sourceforge.net/project/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n  patches:\n    - fix-tests.patch\n    - disable-macos-tests.patch  # [osx]\n\nbuild:\n  number: 1001\n  skip: true  # [win]\n\nrequirements:\n  build:\n    - pkg-config\n    - {{ compiler('fortran') }}\n    - {{ compiler('c') }}\n  host:\n    - pthread-stubs\n    - cairo\n    - xorg-libice 1.0.*\n    - xorg-libsm 1.2.*\n    - xorg-libx11 1.6.*\n    - xorg-libxext 1.3.*\n    - xorg-libxrender 0.9.*\n    - xz\n  run:\n    - cairo\n    - xorg-libice 1.0.*\n    - xorg-libsm 1.2.*\n    - xorg-libx11 1.6.*\n    - xorg-libxext 1.3.*\n    - xorg-libxrender 0.9.*\n    - xz\n\ntest:\n  # note: most tests are run in build.sh\n  commands:\n    - conda inspect linkages -p $PREFIX $PKG_NAME  # [not win]\n    - conda inspect objects -p $PREFIX $PKG_NAME  # [osx]\n    - test -e $PREFIX/lib/libgiza$SHLIB_EXT\n    - test -e $PREFIX/lib/libpgplot$SHLIB_EXT\n    - test -e $PREFIX/lib/libcpgplot$SHLIB_EXT\n\nabout:\n  home: http://giza.sourceforge.net/\n  license: GPLv2\n  license_file: COPYING\n  summary: A drop-in replacement for PGPLOT using C and Cairo.\n\nextra:\n  recipe-maintainers:\n    - pkgw\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "c_compiler_stub",
+   "cairo",
+   "fortran_compiler_stub",
+   "pkg-config",
+   "pthread-stubs",
+   "xorg-libice",
+   "xorg-libsm",
+   "xorg-libx11",
+   "xorg-libxext",
+   "xorg-libxrender",
+   "xz"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "fortran_compiler_stub",
+    "pkg-config"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "cairo",
+    "pthread-stubs",
+    "xorg-libice",
+    "xorg-libsm",
+    "xorg-libx11",
+    "xorg-libxext",
+    "xorg-libxrender",
+    "xz"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "cairo",
+    "xorg-libice",
+    "xorg-libsm",
+    "xorg-libx11",
+    "xorg-libxext",
+    "xorg-libxrender",
+    "xz"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.4.1",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub",
+    "fortran_compiler_stub",
+    "pkg-config"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "cairo",
+    "pthread-stubs",
+    "xorg-libice 1.0.*",
+    "xorg-libsm 1.2.*",
+    "xorg-libx11 1.6.*",
+    "xorg-libxext 1.3.*",
+    "xorg-libxrender 0.9.*",
+    "xz"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "cairo",
+    "xorg-libice 1.0.*",
+    "xorg-libsm 1.2.*",
+    "xorg-libx11 1.6.*",
+    "xorg-libxext 1.3.*",
+    "xorg-libxrender 0.9.*",
+    "xz"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://downloads.sourceforge.net/project/giza/giza-0.9.5.tar.gz",
+ "version":"0.9.5"
+}

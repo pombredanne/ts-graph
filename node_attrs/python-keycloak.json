@@ -1,0 +1,6 @@
+{
+ "bad":"Upstream: Error getting upstream version",
+ "feedstock_name":"python-keycloak",
+ "new_version":false,
+ "raw_meta_yaml":"{% set name = \"python-keycloak\" %}\n{% set version = \"0.19.0\" %}\n\npackage:\n  name: \"{{ name|lower }}\"\n  version: \"{{ version }}\"\n\nsource:\n  url: \"https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\"\n  sha256: e3f6abcef245aca721d54b0db7fdeefc1fc13fffed8802e56715d5bf13b4ee36\n\nbuild:\n  number: 0\n  noarch: python\n  script: \"{{ PYTHON }} -m pip install . -vv\"\n\nrequirements:\n  host:\n    - pip\n    - python >=3.6\n  run:\n    - python >=3.6\n    - python-jose >=1.4.0\n    - requests >=2.20.0\n\ntest:\n  imports:\n    - keycloak\n    - keycloak.authorization\n    - keycloak.tests\n\nabout:\n  home: \"https://github.com/marcospereirampj/python-keycloak\"\n  license: MIT\n  license_family: MIT\n  # PR upstream to package license https://github.com/marcospereirampj/python-keycloak/pull/68\n  license_file: LICENSE.txt\n  summary: \"python-keycloak is a Python package providing access to the Keycloak API.\"\n\nextra:\n  recipe-maintainers:\n    - edennuriel\n"
+}

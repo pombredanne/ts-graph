@@ -1,0 +1,258 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/201500479.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Noarch",
+    "migrator_version":0
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/374464588.json"
+   },
+   "data":{
+    "bot_rerun":1581584931.578156,
+    "migrator_name":"MatplotlibBase",
+    "migrator_version":0
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/375074000.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MatplotlibBase",
+    "migrator_version":0,
+    "name":"matplotlib-to-matplotlib-base"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/383155607.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.4.3"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"reducer",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"reducer provides a a widget interface in a Jupyter notebook to the ccdproc package\nfor calibrating astronomical images.\n",
+   "dev_url":"https://github.com/mwcraig/reducer",
+   "doc_url":"http://reducer.readthedocs.org",
+   "home":"http://reducer.readthedocs.org",
+   "license":"BSD 3-clause",
+   "license_family":"BSD",
+   "license_file":"LICENSE.rst",
+   "summary":"Jupyter widget-based package for reducing FITS images"
+  },
+  "build":{
+   "entry_points":[
+    "reducer = reducer:main",
+    "reducer = reducer:main",
+    "reducer = reducer:main"
+   ],
+   "noarch":"python",
+   "number":"2",
+   "script":"python -m pip install --no-deps --ignore-installed ."
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "mwcraig",
+    "mwcraig",
+    "mwcraig"
+   ]
+  },
+  "package":{
+   "name":"reducer",
+   "version":"0.4.1"
+  },
+  "requirements":{
+   "host":[
+    "pip",
+    "python",
+    "setuptools",
+    "pip",
+    "python",
+    "setuptools",
+    "pip",
+    "python",
+    "setuptools"
+   ],
+   "run":[
+    "python",
+    "astropy >=2.0",
+    "numpy",
+    "scipy",
+    "scikit-image",
+    "ipywidgets >=7",
+    "msumastro >=0.9",
+    "ccdproc >=1.2",
+    "matplotlib-base",
+    "dask",
+    "python",
+    "astropy >=2.0",
+    "numpy",
+    "scipy",
+    "scikit-image",
+    "ipywidgets >=7",
+    "msumastro >=0.9",
+    "ccdproc >=1.2",
+    "matplotlib-base",
+    "dask",
+    "python",
+    "astropy >=2.0",
+    "numpy",
+    "scipy",
+    "scikit-image",
+    "ipywidgets >=7",
+    "msumastro >=0.9",
+    "ccdproc >=1.2",
+    "matplotlib-base",
+    "dask"
+   ]
+  },
+  "source":{
+   "fn":"reducer-0.4.1.tar.gz",
+   "sha256":"77a8cc5e48adc360e044e0eaf4ad39e2aced049d1d015f0cad6046ee7ef6dfde",
+   "url":"https://pypi.io/packages/source/r/reducer/reducer-0.4.1.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "reducer --help",
+    "reducer --help",
+    "reducer --help"
+   ],
+   "imports":[
+    "reducer",
+    "reducer",
+    "reducer"
+   ]
+  }
+ },
+ "name":"reducer",
+ "new_version":"0.4.3",
+ "pinning_version":"2020.03.03",
+ "raw_meta_yaml":"{% set name = \"reducer\" %}\n{% set version = \"0.4.1\" %}\n{% set file_ext = \"tar.gz\" %}\n{% set hash_type = \"sha256\" %}\n{% set hash_value = \"77a8cc5e48adc360e044e0eaf4ad39e2aced049d1d015f0cad6046ee7ef6dfde\" %}\n\npackage:\n  name: '{{ name|lower }}'\n  version: '{{ version }}'\n\nsource:\n  fn: '{{ name }}-{{ version }}.{{ file_ext }}'\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.{{ file_ext }}\n  '{{ hash_type }}': '{{ hash_value }}'\n\nbuild:\n  noarch: python\n  number: 2\n  entry_points:\n    - reducer = reducer:main\n  script: python -m pip install --no-deps --ignore-installed .\n\nrequirements:\n  host:\n    - pip\n    - python\n    - setuptools\n  run:\n    - python\n    - astropy >=2.0\n    - numpy\n    - scipy\n    - scikit-image\n    - ipywidgets >=7\n    - msumastro >=0.9\n    - ccdproc >=1.2\n    - matplotlib-base\n    - dask\n\ntest:\n  imports:\n    - reducer\n  commands:\n    - reducer --help\n\nabout:\n  home: http://reducer.readthedocs.org\n  license: BSD 3-clause\n  license_family: BSD\n  license_file: LICENSE.rst\n  summary: Jupyter widget-based package for reducing FITS images\n  description: |\n    reducer provides a a widget interface in a Jupyter notebook to the ccdproc package\n    for calibrating astronomical images.\n  doc_url: http://reducer.readthedocs.org\n  dev_url: https://github.com/mwcraig/reducer\n\nextra:\n  recipe-maintainers:\n    - mwcraig\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "astropy",
+   "ccdproc",
+   "dask",
+   "ipywidgets",
+   "matplotlib-base",
+   "msumastro",
+   "numpy",
+   "pip",
+   "python",
+   "scikit-image",
+   "scipy",
+   "setuptools"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python",
+    "setuptools"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "astropy",
+    "ccdproc",
+    "dask",
+    "ipywidgets",
+    "matplotlib-base",
+    "msumastro",
+    "numpy",
+    "python",
+    "scikit-image",
+    "scipy"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.6.9",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python",
+    "setuptools"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "astropy >=2.0",
+    "ccdproc >=1.2",
+    "dask",
+    "ipywidgets >=7",
+    "matplotlib-base",
+    "msumastro >=0.9",
+    "numpy",
+    "python",
+    "scikit-image",
+    "scipy"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/r/reducer/reducer-0.4.1.tar.gz",
+ "version":"0.4.1"
+}

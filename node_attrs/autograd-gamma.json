@@ -1,0 +1,138 @@
+{
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"autograd-gamma",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "dev_url":"https://github.com/CamDavidsonPilon/autograd-gamma",
+   "home":"https://github.com/CamDavidsonPilon/autograd-gamma",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"LICENSE",
+   "summary":"Autograd compatible approximations to the gamma family of functions"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . --no-deps --ignore-installed -vv "
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "mariusvniekerk",
+    "CamDavidsonPilon",
+    "mariusvniekerk",
+    "CamDavidsonPilon",
+    "mariusvniekerk",
+    "CamDavidsonPilon"
+   ]
+  },
+  "package":{
+   "name":"autograd-gamma",
+   "version":"0.4.1"
+  },
+  "requirements":{
+   "host":[
+    "pip",
+    "python",
+    "pip",
+    "python",
+    "pip",
+    "python"
+   ],
+   "run":[
+    "python",
+    "autograd >=1.2.0",
+    "scipy >=1.2.0",
+    "python",
+    "autograd >=1.2.0",
+    "scipy >=1.2.0",
+    "python",
+    "autograd >=1.2.0",
+    "scipy >=1.2.0"
+   ]
+  },
+  "source":{
+   "sha256":"3b4349cb415bd6e28dd2fac5055e34de1b6c87fe711757a0e42a84bd650fba35",
+   "url":"https://pypi.io/packages/source/a/autograd-gamma/autograd-gamma-0.4.1.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "autograd_gamma",
+    "autograd_gamma",
+    "autograd_gamma"
+   ]
+  }
+ },
+ "name":"autograd-gamma",
+ "new_version":"0.4.2",
+ "new_version_attempts":{
+  "0.4.2":736
+ },
+ "new_version_errors":{
+  "0.4.2":"The recipe did not change in the version migration, a URL did not hash, or there is jinja2 syntax the bot cannot handle!\n\nPlease check the URLs in your recipe with version '0.4.2' to make sure they exist!\n\nWe also found the following errors:\n\n - could not hash URL template 'https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz'\n"
+ },
+ "raw_meta_yaml":"{% set name = \"autograd-gamma\" %}\n{% set version = \"0.4.1\" %}\n\npackage:\n  name: \"{{ name|lower }}\"\n  version: \"{{ version }}\"\n\nsource:\n  url: \"https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\"\n  sha256: \"3b4349cb415bd6e28dd2fac5055e34de1b6c87fe711757a0e42a84bd650fba35\"\n\nbuild:\n  noarch: python\n  number: 0\n  script: \"{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv \"\n\nrequirements:\n  host:\n    - pip\n    - python\n  run:\n    - python\n    - autograd >=1.2.0\n    - scipy >=1.2.0\n\ntest:\n  imports:\n    - autograd_gamma\n\nabout:\n  home: \"https://github.com/CamDavidsonPilon/autograd-gamma\"\n  license: \"MIT\"\n  license_family: \"MIT\"\n  license_file: \"LICENSE\"\n  summary: \"Autograd compatible approximations to the gamma family of functions\"\n  dev_url: \"https://github.com/CamDavidsonPilon/autograd-gamma\"\n\nextra:\n  recipe-maintainers:\n    - mariusvniekerk\n    - CamDavidsonPilon\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "autograd",
+   "pip",
+   "python",
+   "scipy"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "autograd",
+    "python",
+    "scipy"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "autograd >=1.2.0",
+    "python",
+    "scipy >=1.2.0"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/a/autograd-gamma/autograd-gamma-0.4.1.tar.gz",
+ "version":"0.4.1"
+}

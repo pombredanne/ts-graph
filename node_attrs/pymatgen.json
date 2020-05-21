@@ -1,0 +1,817 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/300024955.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2019.7.21"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/302364234.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2019.7.30"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/307465173.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2019.8.14"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/310523694.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2019.8.23"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/315242515.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2019.9.7"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/315247362.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2019.9.8"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/317070817.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2019.9.12"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/317903162.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2019.9.16"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/323746235.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2019.10.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/324211659.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2019.10.3"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/324815623.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2019.10.4"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/328995575.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2019.10.16"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/339384745.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"python38"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/339485871.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2019.11.11"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/348452542.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2019.12.3"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/356495126.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2019.12.22"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/361669796.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2020.1.10"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/368325790.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2020.1.28"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/375782537.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MatplotlibBase",
+    "migrator_version":0,
+    "name":"matplotlib-to-matplotlib-base"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/382593169.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2020.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/388064285.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2020.3.13"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/397900634.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2020.4.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/410851748.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2020.4.29"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "bot":{
+   "automerge":true
+  },
+  "provider":{
+   "win":"azure"
+  }
+ },
+ "feedstock_name":"pymatgen",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"Python Materials Genomics is a robust materials analysis code that defines\ncore object representations for structures and molecules with support for many\nelectronic structure codes. It is currently the core analysis code powering the\nMaterials Project (https://www.materialsproject.org).\n",
+   "dev_url":"https://github.com/materialsproject/pymatgen",
+   "doc_url":"http://www.pymatgen.org",
+   "home":"http://www.pymatgen.org",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"LICENSE.rst",
+   "summary":"Python Materials Genomics is an analysis code for materials science."
+  },
+  "build":{
+   "entry_points":[
+    "pmg = pymatgen.cli.pmg:main",
+    "feff_input_generation = pymatgen.cli.feff_input_generation:main",
+    "feff_plot_cross_section = pymatgen.cli.feff_plot_cross_section:main",
+    "feff_plot_dos = pymatgen.cli.feff_plot_dos:main",
+    "gaussian_analyzer = pymatgen.cli.gaussian_analyzer:main",
+    "get_environment = pymatgen.cli.get_environment:main",
+    "pmg = pymatgen.cli.pmg:main",
+    "feff_input_generation = pymatgen.cli.feff_input_generation:main",
+    "feff_plot_cross_section = pymatgen.cli.feff_plot_cross_section:main",
+    "feff_plot_dos = pymatgen.cli.feff_plot_dos:main",
+    "gaussian_analyzer = pymatgen.cli.gaussian_analyzer:main",
+    "get_environment = pymatgen.cli.get_environment:main",
+    "pmg = pymatgen.cli.pmg:main",
+    "feff_input_generation = pymatgen.cli.feff_input_generation:main",
+    "feff_plot_cross_section = pymatgen.cli.feff_plot_cross_section:main",
+    "feff_plot_dos = pymatgen.cli.feff_plot_dos:main",
+    "gaussian_analyzer = pymatgen.cli.gaussian_analyzer:main",
+    "get_environment = pymatgen.cli.get_environment:main"
+   ],
+   "number":"0",
+   "script":"-m pip install . -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "jan-janssen",
+    "shyuep",
+    "mkhorton",
+    "jan-janssen",
+    "shyuep",
+    "mkhorton",
+    "jan-janssen",
+    "shyuep",
+    "mkhorton"
+   ]
+  },
+  "package":{
+   "name":"pymatgen",
+   "version":"2020.4.29"
+  },
+  "requirements":{
+   "build":[
+    "cxx_compiler_stub",
+    "cxx_compiler_stub",
+    "cxx_compiler_stub"
+   ],
+   "host":[
+    "python",
+    "pip",
+    "setuptools >=18.0",
+    "cython",
+    "numpy =1.14",
+    "python",
+    "pip",
+    "setuptools >=18.0",
+    "cython",
+    "numpy =1.14",
+    "python",
+    "pip",
+    "setuptools >=18.0",
+    "cython",
+    "numpy =1.14"
+   ],
+   "run":[
+    "python",
+    "pip",
+    "requests",
+    "ruamel.yaml >=0.15.6",
+    "scipy >=1.0.1",
+    "monty >=1.0.6",
+    "tabulate",
+    "spglib >=1.9.9.44",
+    "networkx >=2.2",
+    "matplotlib-base >=1.5",
+    "palettable >=3.1.1",
+    "sympy",
+    "pandas",
+    "pybtex",
+    "apscheduler >=2.1.0",
+    "netcdf4",
+    "tqdm",
+    "ase >=3.3",
+    "vtk >=6.0.0",
+    "plotly >=4.5",
+    "beautifulsoup4",
+    "numpy",
+    "python",
+    "pip",
+    "requests",
+    "ruamel.yaml >=0.15.6",
+    "scipy >=1.0.1",
+    "monty >=1.0.6",
+    "tabulate",
+    "spglib >=1.9.9.44",
+    "networkx >=2.2",
+    "matplotlib-base >=1.5",
+    "palettable >=3.1.1",
+    "sympy",
+    "pandas",
+    "pybtex",
+    "apscheduler >=2.1.0",
+    "netcdf4",
+    "tqdm",
+    "ase >=3.3",
+    "vtk >=6.0.0",
+    "plotly >=4.5",
+    "beautifulsoup4",
+    "numpy",
+    "python",
+    "pip",
+    "requests",
+    "ruamel.yaml >=0.15.6",
+    "scipy >=1.0.1",
+    "monty >=1.0.6",
+    "tabulate",
+    "spglib >=1.9.9.44",
+    "networkx >=2.2",
+    "matplotlib-base >=1.5",
+    "palettable >=3.1.1",
+    "sympy",
+    "pandas",
+    "pybtex",
+    "apscheduler >=2.1.0",
+    "netcdf4",
+    "tqdm",
+    "ase >=3.3",
+    "vtk >=6.0.0",
+    "plotly >=4.5",
+    "beautifulsoup4",
+    "numpy"
+   ]
+  },
+  "source":{
+   "sha256":"cf9c89f2c742acf524f3a778cd269164abf582e87ab5f297cd83802fe00c309d",
+   "url":"https://pypi.io/packages/source/p/pymatgen/pymatgen-2020.4.29.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "pip check",
+    "pmg --help",
+    "gaussian_analyzer --help",
+    "pip check",
+    "pmg --help",
+    "gaussian_analyzer --help",
+    "pip check",
+    "pmg --help",
+    "gaussian_analyzer --help"
+   ],
+   "imports":[
+    "pymatgen",
+    "pymatgen.alchemy",
+    "pymatgen.analysis",
+    "pymatgen.analysis.chemenv",
+    "pymatgen.analysis.chemenv.coordination_environments",
+    "pymatgen.analysis.chemenv.coordination_environments.coordination_geometries_files",
+    "pymatgen.analysis.chemenv.coordination_environments.strategy_files",
+    "pymatgen.analysis.chemenv.utils",
+    "pymatgen.analysis.cost",
+    "pymatgen.analysis.defects",
+    "pymatgen.analysis.diffraction",
+    "pymatgen.analysis.elasticity",
+    "pymatgen.analysis.hhi",
+    "pymatgen.analysis.pourbaix_diagram",
+    "pymatgen.apps",
+    "pymatgen.apps.battery",
+    "pymatgen.apps.borg",
+    "pymatgen.cli",
+    "pymatgen.command_line",
+    "pymatgen.core",
+    "pymatgen.electronic_structure",
+    "pymatgen.entries",
+    "pymatgen.io",
+    "pymatgen.io.abinit",
+    "pymatgen.io.feff",
+    "pymatgen.io.lammps",
+    "pymatgen.io.vasp",
+    "pymatgen.ext.matproj",
+    "pymatgen.optimization",
+    "pymatgen.analysis.phase_diagram",
+    "pymatgen.analysis.structure_prediction",
+    "pymatgen.symmetry",
+    "pymatgen.transformations",
+    "pymatgen.util",
+    "pymatgen.vis",
+    "pymatgen",
+    "pymatgen.alchemy",
+    "pymatgen.analysis",
+    "pymatgen.analysis.chemenv",
+    "pymatgen.analysis.chemenv.coordination_environments",
+    "pymatgen.analysis.chemenv.coordination_environments.coordination_geometries_files",
+    "pymatgen.analysis.chemenv.coordination_environments.strategy_files",
+    "pymatgen.analysis.chemenv.utils",
+    "pymatgen.analysis.cost",
+    "pymatgen.analysis.defects",
+    "pymatgen.analysis.diffraction",
+    "pymatgen.analysis.elasticity",
+    "pymatgen.analysis.hhi",
+    "pymatgen.analysis.pourbaix_diagram",
+    "pymatgen.apps",
+    "pymatgen.apps.battery",
+    "pymatgen.apps.borg",
+    "pymatgen.cli",
+    "pymatgen.command_line",
+    "pymatgen.core",
+    "pymatgen.electronic_structure",
+    "pymatgen.entries",
+    "pymatgen.io",
+    "pymatgen.io.abinit",
+    "pymatgen.io.feff",
+    "pymatgen.io.lammps",
+    "pymatgen.io.vasp",
+    "pymatgen.ext.matproj",
+    "pymatgen.optimization",
+    "pymatgen.analysis.phase_diagram",
+    "pymatgen.analysis.structure_prediction",
+    "pymatgen.symmetry",
+    "pymatgen.transformations",
+    "pymatgen.util",
+    "pymatgen.vis",
+    "pymatgen",
+    "pymatgen.alchemy",
+    "pymatgen.analysis",
+    "pymatgen.analysis.chemenv",
+    "pymatgen.analysis.chemenv.coordination_environments",
+    "pymatgen.analysis.chemenv.coordination_environments.coordination_geometries_files",
+    "pymatgen.analysis.chemenv.coordination_environments.strategy_files",
+    "pymatgen.analysis.chemenv.utils",
+    "pymatgen.analysis.cost",
+    "pymatgen.analysis.defects",
+    "pymatgen.analysis.diffraction",
+    "pymatgen.analysis.elasticity",
+    "pymatgen.analysis.hhi",
+    "pymatgen.analysis.pourbaix_diagram",
+    "pymatgen.apps",
+    "pymatgen.apps.battery",
+    "pymatgen.apps.borg",
+    "pymatgen.cli",
+    "pymatgen.command_line",
+    "pymatgen.core",
+    "pymatgen.electronic_structure",
+    "pymatgen.entries",
+    "pymatgen.io",
+    "pymatgen.io.abinit",
+    "pymatgen.io.feff",
+    "pymatgen.io.lammps",
+    "pymatgen.io.vasp",
+    "pymatgen.ext.matproj",
+    "pymatgen.optimization",
+    "pymatgen.analysis.phase_diagram",
+    "pymatgen.analysis.structure_prediction",
+    "pymatgen.symmetry",
+    "pymatgen.transformations",
+    "pymatgen.util",
+    "pymatgen.vis"
+   ]
+  }
+ },
+ "name":"pymatgen",
+ "new_version":"2020.4.29",
+ "new_version_attempts":{
+  "2020.4.29":1
+ },
+ "new_version_errors":{},
+ "pinning_version":"2020.04.28.13.02.26",
+ "raw_meta_yaml":"{% set name = \"pymatgen\" %}\n{% set version = \"2020.4.29\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: cf9c89f2c742acf524f3a778cd269164abf582e87ab5f297cd83802fe00c309d\n\nbuild:\n  skip: true  # [py<35]\n  number: 0\n  script: {{ PYTHON }} -m pip install . -vv\n  entry_points:\n    - pmg = pymatgen.cli.pmg:main\n    - feff_input_generation = pymatgen.cli.feff_input_generation:main\n    - feff_plot_cross_section = pymatgen.cli.feff_plot_cross_section:main\n    - feff_plot_dos = pymatgen.cli.feff_plot_dos:main\n    - gaussian_analyzer = pymatgen.cli.gaussian_analyzer:main\n    - get_environment = pymatgen.cli.get_environment:main\n\nrequirements:\n  build:\n    - {{ compiler('cxx') }}\n  host:\n    - python\n    - pip\n    - setuptools >=18.0\n    - cython\n    - numpy =1.14\n  run:\n    - python\n    - pip\n    - requests\n    - ruamel.yaml >=0.15.6\n    - scipy >=1.0.1\n    - monty >=1.0.6\n    - tabulate\n    - spglib >=1.9.9.44\n    - networkx >=2.2\n    - matplotlib-base >=1.5\n    - palettable >=3.1.1\n    - sympy\n    - pandas\n    - pybtex\n    - apscheduler >=2.1.0\n    - netcdf4\n    - tqdm\n    - ase >=3.3\n    - vtk >=6.0.0\n    - dataclasses >=0.6  # [py<37]\n    - plotly >=4.5\n    - beautifulsoup4\n    - {{ pin_compatible(\"numpy\") }}\n\ntest:\n  commands:\n    - pip check\n    - pmg --help\n    - gaussian_analyzer --help\n  imports:\n    - pymatgen\n    - pymatgen.alchemy\n    - pymatgen.analysis\n    - pymatgen.analysis.chemenv\n    - pymatgen.analysis.chemenv.coordination_environments\n    - pymatgen.analysis.chemenv.coordination_environments.coordination_geometries_files\n    - pymatgen.analysis.chemenv.coordination_environments.strategy_files\n    - pymatgen.analysis.chemenv.utils\n    - pymatgen.analysis.cost\n    - pymatgen.analysis.defects\n    - pymatgen.analysis.diffraction\n    - pymatgen.analysis.elasticity\n    - pymatgen.analysis.hhi\n    - pymatgen.analysis.pourbaix_diagram\n    - pymatgen.apps\n    - pymatgen.apps.battery\n    - pymatgen.apps.borg\n    - pymatgen.cli\n    - pymatgen.command_line\n    - pymatgen.core\n    - pymatgen.electronic_structure\n    - pymatgen.entries\n    - pymatgen.io\n    - pymatgen.io.abinit\n    - pymatgen.io.feff\n    - pymatgen.io.lammps\n    - pymatgen.io.vasp\n    - pymatgen.ext.matproj\n    - pymatgen.optimization\n    - pymatgen.analysis.phase_diagram\n    - pymatgen.analysis.structure_prediction\n    - pymatgen.symmetry\n    - pymatgen.transformations\n    - pymatgen.util\n    - pymatgen.vis\n\nabout:\n  home: http://www.pymatgen.org\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE.rst\n  summary: Python Materials Genomics is an analysis code for materials science.\n  description: |\n    Python Materials Genomics is a robust materials analysis code that defines\n    core object representations for structures and molecules with support for many\n    electronic structure codes. It is currently the core analysis code powering the\n    Materials Project (https://www.materialsproject.org).\n  doc_url: http://www.pymatgen.org\n  dev_url: https://github.com/materialsproject/pymatgen\n\nextra:\n  recipe-maintainers:\n    - jan-janssen\n    - shyuep\n    - mkhorton\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "apscheduler",
+   "ase",
+   "beautifulsoup4",
+   "cxx_compiler_stub",
+   "cython",
+   "matplotlib-base",
+   "monty",
+   "netcdf4",
+   "networkx",
+   "numpy",
+   "palettable",
+   "pandas",
+   "pip",
+   "plotly",
+   "pybtex",
+   "python",
+   "requests",
+   "ruamel.yaml",
+   "scipy",
+   "setuptools",
+   "spglib",
+   "sympy",
+   "tabulate",
+   "tqdm",
+   "vtk"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "cxx_compiler_stub"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "cython",
+    "numpy",
+    "pip",
+    "python",
+    "setuptools"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "apscheduler",
+    "ase",
+    "beautifulsoup4",
+    "matplotlib-base",
+    "monty",
+    "netcdf4",
+    "networkx",
+    "numpy",
+    "palettable",
+    "pandas",
+    "pip",
+    "plotly",
+    "pybtex",
+    "python",
+    "requests",
+    "ruamel.yaml",
+    "scipy",
+    "spglib",
+    "sympy",
+    "tabulate",
+    "tqdm",
+    "vtk"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.7.0",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "cxx_compiler_stub"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "cython",
+    "numpy =1.14",
+    "pip",
+    "python",
+    "setuptools >=18.0"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "apscheduler >=2.1.0",
+    "ase >=3.3",
+    "beautifulsoup4",
+    "matplotlib-base >=1.5",
+    "monty >=1.0.6",
+    "netcdf4",
+    "networkx >=2.2",
+    "numpy",
+    "palettable >=3.1.1",
+    "pandas",
+    "pip",
+    "plotly >=4.5",
+    "pybtex",
+    "python",
+    "requests",
+    "ruamel.yaml >=0.15.6",
+    "scipy >=1.0.1",
+    "spglib >=1.9.9.44",
+    "sympy",
+    "tabulate",
+    "tqdm",
+    "vtk >=6.0.0"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/p/pymatgen/pymatgen-2019.9.8.tar.gz",
+ "version":"2020.4.29"
+}

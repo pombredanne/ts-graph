@@ -1,0 +1,598 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/286194142.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Rebuild",
+    "migrator_version":0,
+    "name":"hdf5-1.10.5"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/290512666.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.0.3"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/328789855.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"libnetcdf-4"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/333140926.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.0.4"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/339437960.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"python38"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/341030156.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.0.5"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/353678697.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"libnetcdf473"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/366523297.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.0.6"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/379343198.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.0.7"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/383050519.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.0.8"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/384549090.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.0.9"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/396009973.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"libnetcdf474"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/401630920.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.0.10"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/404865122.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"MigrationYaml",
+    "migrator_object_version":1,
+    "migrator_version":0,
+    "name":"hdf51106"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_object_version",
+    "migrator_version",
+    "name"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"mpas_tools",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"A set of tools for creating and manipulating meshes for the climate\ncomponents based on the Model for Prediction Across Scales (MPAS) framework\n",
+   "dev_url":"https://github.com/MPAS-Dev/MPAS-Tools/",
+   "doc_url":"https://github.com/MPAS-Dev/MPAS-Tools/README.md",
+   "home":"https://github.com/MPAS-Dev/MPAS-Tools/",
+   "license":"BSD-3-Clause",
+   "license_family":"BSD",
+   "license_file":"LICENSE",
+   "summary":"Mesh tools for Model for Prediction Across Scales (MPAS)"
+  },
+  "build":{
+   "entry_points":[
+    "planar_hex = mpas_tools.planar_hex:main",
+    "translate_planar_grid = mpas_tools.translate:main",
+    "merge_grids = mpas_tools.merge_grids:main",
+    "split_grids = mpas_tools.split_grids:main",
+    "planar_hex = mpas_tools.planar_hex:main",
+    "translate_planar_grid = mpas_tools.translate:main",
+    "merge_grids = mpas_tools.merge_grids:main",
+    "split_grids = mpas_tools.split_grids:main",
+    "planar_hex = mpas_tools.planar_hex:main",
+    "translate_planar_grid = mpas_tools.translate:main",
+    "merge_grids = mpas_tools.merge_grids:main",
+    "split_grids = mpas_tools.split_grids:main"
+   ],
+   "number":"2",
+   "skip":true
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "xylar",
+    "jhkennedy",
+    "xylar",
+    "jhkennedy",
+    "xylar",
+    "jhkennedy"
+   ]
+  },
+  "package":{
+   "name":"mpas_tools",
+   "version":"0.0.10"
+  },
+  "requirements":{
+   "build":[
+    "cxx_compiler_stub",
+    "cmake",
+    "cxx_compiler_stub",
+    "cmake",
+    "cxx_compiler_stub",
+    "cmake"
+   ],
+   "host":[
+    "python",
+    "hdf5",
+    "hdf5 * nompi_*",
+    "libnetcdf",
+    "libnetcdf * nompi_*",
+    "setuptools",
+    "pip",
+    "netcdf4",
+    "python",
+    "hdf5",
+    "hdf5 * nompi_*",
+    "libnetcdf",
+    "libnetcdf * nompi_*",
+    "setuptools",
+    "pip",
+    "netcdf4",
+    "openmp",
+    "python",
+    "hdf5",
+    "hdf5 * nompi_*",
+    "libnetcdf",
+    "libnetcdf * nompi_*",
+    "setuptools",
+    "pip",
+    "netcdf4"
+   ],
+   "run":[
+    "python",
+    "netcdf4",
+    "hdf5",
+    "libnetcdf",
+    "numpy",
+    "scipy",
+    "xarray",
+    "dask",
+    "geometric_features",
+    "pyevtk",
+    "future",
+    "backports.tempfile",
+    "python",
+    "netcdf4",
+    "hdf5",
+    "libnetcdf",
+    "numpy",
+    "scipy",
+    "xarray",
+    "dask",
+    "geometric_features",
+    "pyevtk",
+    "future",
+    "backports.tempfile",
+    "python",
+    "netcdf4",
+    "hdf5",
+    "libnetcdf",
+    "numpy",
+    "scipy",
+    "xarray",
+    "dask",
+    "geometric_features",
+    "pyevtk",
+    "future",
+    "backports.tempfile"
+   ]
+  },
+  "source":{
+   "sha256":"c27021856e1f1c9cca9da7779b91c46867b3759d946c368faabb8ed9878aa1da",
+   "url":"https://github.com/MPAS-Dev/MPAS-Tools/archive/0.0.10.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "planar_hex --nx=10 --ny=20 --dc=1000. --outFileName='periodic_mesh_10x20_1km.nc'",
+    "translate_planar_grid -f 'periodic_mesh_10x20_1km.nc' -x 1000. -y 2000.",
+    "translate_planar_grid -f 'periodic_mesh_10x20_1km.nc' -c",
+    "planar_hex --nx=20 --ny=40 --dc=1000. --outFileName='periodic_mesh_20x40_1km.nc'",
+    "translate_planar_grid -f 'periodic_mesh_10x20_1km.nc' -d 'periodic_mesh_20x40_1km.nc'",
+    "MpasMeshConverter.x mesh_tools/mesh_conversion_tools/test/mesh.QU.1920km.151026.nc mesh.nc",
+    "MpasCellCuller.x mesh.nc culled_mesh.nc -m mesh_tools/mesh_conversion_tools/test/land_mask_final.nc",
+    "MpasMaskCreator.x mesh.nc arctic_mask.nc -f mesh_tools/mesh_conversion_tools/test/Arctic_Ocean.geojson",
+    "planar_hex --nx=30 --ny=20 --dc=1000. --npx --npy --outFileName='nonperiodic_mesh_30x20_1km.nc'",
+    "MpasCellCuller.x nonperiodic_mesh_30x20_1km.nc culled_nonperiodic_mesh_30x20_1km.nc",
+    "python -m pytest conda_package/mpas_tools/tests",
+    "mark_horns_for_culling.py --help",
+    "set_lat_lon_fields_in_planar_grid.py --help",
+    "create_SCRIP_file_from_MPAS_mesh.py --help",
+    "create_landice_grid_from_generic_MPAS_grid.py --help",
+    "define_cullMask.py --help",
+    "interpolate_to_mpasli_grid.py --help",
+    "mark_domain_boundaries_dirichlet.py --help",
+    "add_land_locked_cells_to_mask.py --help",
+    "widen_transect_edge_masks.py --help",
+    "add_critical_land_blockages_to_mask.py --help",
+    "paraview_vtk_field_extractor.py -f mesh_tools/mesh_conversion_tools/test/mesh.QU.1920km.151026.nc -v latCell,lonCell --ignore_time -o vtk_test",
+    "split_grids --help",
+    "merge_grids --help",
+    "planar_hex --nx=10 --ny=20 --dc=1000. --outFileName='periodic_mesh_10x20_1km.nc'",
+    "translate_planar_grid -f 'periodic_mesh_10x20_1km.nc' -x 1000. -y 2000.",
+    "translate_planar_grid -f 'periodic_mesh_10x20_1km.nc' -c",
+    "planar_hex --nx=20 --ny=40 --dc=1000. --outFileName='periodic_mesh_20x40_1km.nc'",
+    "translate_planar_grid -f 'periodic_mesh_10x20_1km.nc' -d 'periodic_mesh_20x40_1km.nc'",
+    "MpasMeshConverter.x mesh_tools/mesh_conversion_tools/test/mesh.QU.1920km.151026.nc mesh.nc",
+    "MpasCellCuller.x mesh.nc culled_mesh.nc -m mesh_tools/mesh_conversion_tools/test/land_mask_final.nc",
+    "MpasMaskCreator.x mesh.nc arctic_mask.nc -f mesh_tools/mesh_conversion_tools/test/Arctic_Ocean.geojson",
+    "planar_hex --nx=30 --ny=20 --dc=1000. --npx --npy --outFileName='nonperiodic_mesh_30x20_1km.nc'",
+    "MpasCellCuller.x nonperiodic_mesh_30x20_1km.nc culled_nonperiodic_mesh_30x20_1km.nc",
+    "python -m pytest conda_package/mpas_tools/tests",
+    "mark_horns_for_culling.py --help",
+    "set_lat_lon_fields_in_planar_grid.py --help",
+    "create_SCRIP_file_from_MPAS_mesh.py --help",
+    "create_landice_grid_from_generic_MPAS_grid.py --help",
+    "define_cullMask.py --help",
+    "interpolate_to_mpasli_grid.py --help",
+    "mark_domain_boundaries_dirichlet.py --help",
+    "add_land_locked_cells_to_mask.py --help",
+    "widen_transect_edge_masks.py --help",
+    "add_critical_land_blockages_to_mask.py --help",
+    "paraview_vtk_field_extractor.py -f mesh_tools/mesh_conversion_tools/test/mesh.QU.1920km.151026.nc -v latCell,lonCell --ignore_time -o vtk_test",
+    "split_grids --help",
+    "merge_grids --help",
+    "planar_hex --nx=10 --ny=20 --dc=1000. --outFileName='periodic_mesh_10x20_1km.nc'",
+    "translate_planar_grid -f 'periodic_mesh_10x20_1km.nc' -x 1000. -y 2000.",
+    "translate_planar_grid -f 'periodic_mesh_10x20_1km.nc' -c",
+    "planar_hex --nx=20 --ny=40 --dc=1000. --outFileName='periodic_mesh_20x40_1km.nc'",
+    "translate_planar_grid -f 'periodic_mesh_10x20_1km.nc' -d 'periodic_mesh_20x40_1km.nc'",
+    "MpasMeshConverter.x mesh_tools/mesh_conversion_tools/test/mesh.QU.1920km.151026.nc mesh.nc",
+    "MpasCellCuller.x mesh.nc culled_mesh.nc -m mesh_tools/mesh_conversion_tools/test/land_mask_final.nc",
+    "MpasMaskCreator.x mesh.nc arctic_mask.nc -f mesh_tools/mesh_conversion_tools/test/Arctic_Ocean.geojson",
+    "planar_hex --nx=30 --ny=20 --dc=1000. --npx --npy --outFileName='nonperiodic_mesh_30x20_1km.nc'",
+    "MpasCellCuller.x nonperiodic_mesh_30x20_1km.nc culled_nonperiodic_mesh_30x20_1km.nc",
+    "python -m pytest conda_package/mpas_tools/tests",
+    "mark_horns_for_culling.py --help",
+    "set_lat_lon_fields_in_planar_grid.py --help",
+    "create_SCRIP_file_from_MPAS_mesh.py --help",
+    "create_landice_grid_from_generic_MPAS_grid.py --help",
+    "define_cullMask.py --help",
+    "interpolate_to_mpasli_grid.py --help",
+    "mark_domain_boundaries_dirichlet.py --help",
+    "add_land_locked_cells_to_mask.py --help",
+    "widen_transect_edge_masks.py --help",
+    "add_critical_land_blockages_to_mask.py --help",
+    "paraview_vtk_field_extractor.py -f mesh_tools/mesh_conversion_tools/test/mesh.QU.1920km.151026.nc -v latCell,lonCell --ignore_time -o vtk_test",
+    "split_grids --help",
+    "merge_grids --help"
+   ],
+   "requires":[
+    "pytest",
+    "pytest",
+    "pytest"
+   ],
+   "source_files":[
+    "mesh_tools/mesh_conversion_tools/test/Arctic_Ocean.geojson",
+    "mesh_tools/mesh_conversion_tools/test/mesh.QU.1920km.151026.nc",
+    "mesh_tools/mesh_conversion_tools/test/land_mask_final.nc",
+    "conda_package/mpas_tools/tests/*",
+    "mesh_tools/mesh_conversion_tools/test/Arctic_Ocean.geojson",
+    "mesh_tools/mesh_conversion_tools/test/mesh.QU.1920km.151026.nc",
+    "mesh_tools/mesh_conversion_tools/test/land_mask_final.nc",
+    "conda_package/mpas_tools/tests/*",
+    "mesh_tools/mesh_conversion_tools/test/Arctic_Ocean.geojson",
+    "mesh_tools/mesh_conversion_tools/test/mesh.QU.1920km.151026.nc",
+    "mesh_tools/mesh_conversion_tools/test/land_mask_final.nc",
+    "conda_package/mpas_tools/tests/*"
+   ]
+  }
+ },
+ "name":"mpas_tools",
+ "new_version":"0.0.10",
+ "new_version_attempts":{
+  "0.0.10":1
+ },
+ "new_version_errors":{},
+ "pinning_version":"2020.04.16.16.23.46",
+ "raw_meta_yaml":"{% set name = \"mpas_tools\" %}\n{% set version = \"0.0.10\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://github.com/MPAS-Dev/MPAS-Tools/archive/{{ version }}.tar.gz\n  sha256: c27021856e1f1c9cca9da7779b91c46867b3759d946c368faabb8ed9878aa1da\n\nbuild:\n  number: 2\n  skip: true  # [win]\n  entry_points:\n    - planar_hex = mpas_tools.planar_hex:main\n    - translate_planar_grid = mpas_tools.translate:main\n    - merge_grids = mpas_tools.merge_grids:main\n    - split_grids = mpas_tools.split_grids:main\n\nrequirements:\n  build:\n    - {{ compiler('cxx') }}\n    - cmake\n  host:\n    - python\n    - hdf5\n    - hdf5 * nompi_*\n    - libnetcdf\n    - libnetcdf * nompi_*\n    - setuptools\n    - pip\n    - netcdf4\n    - openmp  # [osx]\n  run:\n    - python\n    - netcdf4\n    - hdf5\n    - libnetcdf\n    - numpy\n    - scipy\n    - xarray\n    - dask\n    - geometric_features\n    - pyevtk\n    - future\n    - backports.tempfile\n\ntest:\n  requires:\n    - pytest\n  source_files:\n    - mesh_tools/mesh_conversion_tools/test/Arctic_Ocean.geojson\n    - mesh_tools/mesh_conversion_tools/test/mesh.QU.1920km.151026.nc\n    - mesh_tools/mesh_conversion_tools/test/land_mask_final.nc\n    - conda_package/mpas_tools/tests/*\n  commands:\n    - planar_hex --nx=10 --ny=20 --dc=1000. --outFileName='periodic_mesh_10x20_1km.nc'\n    - translate_planar_grid -f 'periodic_mesh_10x20_1km.nc' -x 1000. -y 2000.\n    - translate_planar_grid -f 'periodic_mesh_10x20_1km.nc' -c\n    - planar_hex --nx=20 --ny=40 --dc=1000. --outFileName='periodic_mesh_20x40_1km.nc'\n    - translate_planar_grid -f 'periodic_mesh_10x20_1km.nc' -d 'periodic_mesh_20x40_1km.nc'\n    - MpasMeshConverter.x mesh_tools/mesh_conversion_tools/test/mesh.QU.1920km.151026.nc mesh.nc\n    - MpasCellCuller.x mesh.nc culled_mesh.nc -m mesh_tools/mesh_conversion_tools/test/land_mask_final.nc\n    - MpasMaskCreator.x mesh.nc arctic_mask.nc -f mesh_tools/mesh_conversion_tools/test/Arctic_Ocean.geojson\n    - planar_hex --nx=30 --ny=20 --dc=1000. --npx --npy --outFileName='nonperiodic_mesh_30x20_1km.nc'\n    - MpasCellCuller.x nonperiodic_mesh_30x20_1km.nc culled_nonperiodic_mesh_30x20_1km.nc\n    - python -m pytest conda_package/mpas_tools/tests\n    - mark_horns_for_culling.py --help\n    - set_lat_lon_fields_in_planar_grid.py --help\n    - create_SCRIP_file_from_MPAS_mesh.py --help\n    - create_landice_grid_from_generic_MPAS_grid.py --help\n    - define_cullMask.py --help\n    - interpolate_to_mpasli_grid.py --help\n    - mark_domain_boundaries_dirichlet.py --help\n    - add_land_locked_cells_to_mask.py --help\n    - widen_transect_edge_masks.py --help\n    - add_critical_land_blockages_to_mask.py --help\n    - paraview_vtk_field_extractor.py -f mesh_tools/mesh_conversion_tools/test/mesh.QU.1920km.151026.nc -v latCell,lonCell --ignore_time -o vtk_test\n    - split_grids --help\n    - merge_grids --help\n\nabout:\n  home: https://github.com/MPAS-Dev/MPAS-Tools/\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: LICENSE\n  summary: Mesh tools for Model for Prediction Across Scales (MPAS)\n  description: |\n    A set of tools for creating and manipulating meshes for the climate\n    components based on the Model for Prediction Across Scales (MPAS) framework\n  doc_url: https://github.com/MPAS-Dev/MPAS-Tools/README.md\n  dev_url: https://github.com/MPAS-Dev/MPAS-Tools/\n\nextra:\n  recipe-maintainers:\n    - xylar\n    - jhkennedy\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "backports.tempfile",
+   "cmake",
+   "cxx_compiler_stub",
+   "dask",
+   "future",
+   "geometric_features",
+   "hdf5",
+   "libnetcdf",
+   "netcdf4",
+   "numpy",
+   "openmp",
+   "pip",
+   "pyevtk",
+   "python",
+   "scipy",
+   "setuptools",
+   "xarray"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "cmake",
+    "cxx_compiler_stub"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "hdf5",
+    "libnetcdf",
+    "netcdf4",
+    "openmp",
+    "pip",
+    "python",
+    "setuptools"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "backports.tempfile",
+    "dask",
+    "future",
+    "geometric_features",
+    "hdf5",
+    "libnetcdf",
+    "netcdf4",
+    "numpy",
+    "pyevtk",
+    "python",
+    "scipy",
+    "xarray"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "pytest"
+   ]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.6.16",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "cmake",
+    "cxx_compiler_stub"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "hdf5",
+    "hdf5 * nompi_*",
+    "libnetcdf",
+    "libnetcdf * nompi_*",
+    "netcdf4",
+    "openmp",
+    "pip",
+    "python",
+    "setuptools"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "backports.tempfile",
+    "dask",
+    "future",
+    "geometric_features",
+    "hdf5",
+    "libnetcdf",
+    "netcdf4",
+    "numpy",
+    "pyevtk",
+    "python",
+    "scipy",
+    "xarray"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "pytest"
+   ]
+  }
+ },
+ "url":"https://github.com/MPAS-Dev/MPAS-Tools/archive/0.0.3.tar.gz",
+ "version":"0.0.10"
+}

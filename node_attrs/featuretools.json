@@ -1,0 +1,577 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/239325722.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.5.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/239343529.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.5.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/249330530.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.6.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.6.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/265820820.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.7.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/273212722.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.7.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/280068879.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.8.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/289888231.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.9.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/294337040.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.9.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/308820641.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.10.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/310727281.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.10.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/323013698.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.11.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/335203806.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.12.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/347264559.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.13.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/357608051.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.13.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/369839881.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.13.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/381659271.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.13.3"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/394916359.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.13.4"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/411884522.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.14.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"featuretools",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "dev_url":"https://github.com/Featuretools/featuretools/",
+   "doc_url":"https://docs.featuretools.com",
+   "home":"https://featuretools.com",
+   "license":"BSD-3-Clause",
+   "license_family":"BSD",
+   "license_file":"LICENSE",
+   "summary":"a framework for automated feature engineering"
+  },
+  "build":{
+   "entry_points":[
+    "featuretools = featuretools.__main__:cli",
+    "featuretools = featuretools.__main__:cli",
+    "featuretools = featuretools.__main__:cli"
+   ],
+   "noarch":"python",
+   "number":"0",
+   "script":"-m pip install . --no-deps -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "kmax12",
+    "rwedge",
+    "kmax12",
+    "rwedge",
+    "kmax12",
+    "rwedge"
+   ]
+  },
+  "package":{
+   "name":"featuretools",
+   "version":"0.14.0"
+  },
+  "requirements":{
+   "host":[
+    "pip",
+    "python >=3.6.*",
+    "pip",
+    "python >=3.6.*",
+    "pip",
+    "python >=3.6.*"
+   ],
+   "run":[
+    "click >=7.0.0",
+    "cloudpickle >=0.4.0",
+    "dask >=1.1.0",
+    "distributed >=1.24.2",
+    "numpy >=1.13.3",
+    "pandas >=0.24.1",
+    "psutil >=5.4.8",
+    "python >=3.6.*",
+    "pyyaml >=3.12",
+    "scipy >=0.13.3",
+    "tqdm >=4.32.0",
+    "click >=7.0.0",
+    "cloudpickle >=0.4.0",
+    "dask >=1.1.0",
+    "distributed >=1.24.2",
+    "numpy >=1.13.3",
+    "pandas >=0.24.1",
+    "psutil >=5.4.8",
+    "python >=3.6.*",
+    "pyyaml >=3.12",
+    "scipy >=0.13.3",
+    "tqdm >=4.32.0",
+    "click >=7.0.0",
+    "cloudpickle >=0.4.0",
+    "dask >=1.1.0",
+    "distributed >=1.24.2",
+    "numpy >=1.13.3",
+    "pandas >=0.24.1",
+    "psutil >=5.4.8",
+    "python >=3.6.*",
+    "pyyaml >=3.12",
+    "scipy >=0.13.3",
+    "tqdm >=4.32.0"
+   ]
+  },
+  "source":{
+   "sha256":"e8e8c0939f1d60e6bd886d24b3b4c4d09d002dcd30744f65b9c27a89b717ec1b",
+   "url":"https://pypi.io/packages/source/f/featuretools/featuretools-0.14.0.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "featuretools --help",
+    "featuretools info",
+    "featuretools list-primitives",
+    "pytest --pyargs featuretools",
+    "featuretools --help",
+    "featuretools info",
+    "featuretools list-primitives",
+    "pytest --pyargs featuretools",
+    "featuretools --help",
+    "featuretools info",
+    "featuretools list-primitives",
+    "pytest --pyargs featuretools"
+   ],
+   "imports":[
+    "featuretools",
+    "featuretools",
+    "featuretools"
+   ],
+   "requires":[
+    "boto3 >=1.10.45",
+    "fastparquet >=0.1.6",
+    "moto >=1.3.13",
+    "pip >=0.20.2",
+    "pympler >=0.5,<0.6",
+    "pytest >=5.2.*",
+    "python-graphviz >=0.8.4",
+    "smart_open >=1.8.4",
+    "boto3 >=1.10.45",
+    "fastparquet >=0.1.6",
+    "moto >=1.3.13",
+    "pip >=0.20.2",
+    "pympler >=0.5,<0.6",
+    "pytest >=5.2.*",
+    "python-graphviz >=0.8.4",
+    "smart_open >=1.8.4",
+    "boto3 >=1.10.45",
+    "fastparquet >=0.1.6",
+    "moto >=1.3.13",
+    "pip >=0.20.2",
+    "pympler >=0.5,<0.6",
+    "pytest >=5.2.*",
+    "python-graphviz >=0.8.4",
+    "smart_open >=1.8.4"
+   ],
+   "source_files":[
+    "featuretools/*",
+    "featuretools/*",
+    "featuretools/*"
+   ]
+  }
+ },
+ "name":"featuretools",
+ "new_version":"0.14.0",
+ "new_version_attempts":{
+  "0.14.0":1
+ },
+ "new_version_errors":{},
+ "pinning_version":"2020.04.30.15.41.11",
+ "raw_meta_yaml":"{% set version = \"0.14.0\" %}\n\npackage:\n  name: featuretools\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/f/featuretools/featuretools-{{ version }}.tar.gz\n  sha256: e8e8c0939f1d60e6bd886d24b3b4c4d09d002dcd30744f65b9c27a89b717ec1b\n\nbuild:\n  entry_points:\n    - featuretools = featuretools.__main__:cli\n  noarch: python\n  number: 0\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  host:\n    - pip\n    - python >=3.6.*\n  run:\n    - click >=7.0.0\n    - cloudpickle >=0.4.0\n    - dask >=1.1.0\n    - distributed >=1.24.2\n    - numpy >=1.13.3\n    - pandas >=0.24.1\n    - psutil >=5.4.8\n    - python >=3.6.*\n    - pyyaml >=3.12\n    - scipy >=0.13.3\n    - tqdm >=4.32.0\n\ntest:\n  commands:\n    - featuretools --help\n    - featuretools info\n    - featuretools list-primitives\n    - pytest --pyargs featuretools\n  imports:\n    - featuretools\n  requires:\n    - boto3 >=1.10.45\n    - fastparquet >=0.1.6\n    - moto >=1.3.13\n    - pip >=0.20.2\n    - pympler >=0.5,<0.6\n    - pytest >=5.2.*\n    - python-graphviz >=0.8.4\n    - smart_open >=1.8.4\n  source_files:\n    - featuretools/*\n\nabout:\n  doc_url: https://docs.featuretools.com\n  dev_url: https://github.com/Featuretools/featuretools/\n  home: https://featuretools.com\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: LICENSE\n  summary: a framework for automated feature engineering\n\nextra:\n  recipe-maintainers:\n    - kmax12\n    - rwedge\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "click",
+   "cloudpickle",
+   "dask",
+   "distributed",
+   "numpy",
+   "pandas",
+   "pip",
+   "psutil",
+   "python",
+   "pyyaml",
+   "scipy",
+   "tqdm"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "click",
+    "cloudpickle",
+    "dask",
+    "distributed",
+    "numpy",
+    "pandas",
+    "psutil",
+    "python",
+    "pyyaml",
+    "scipy",
+    "tqdm"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "boto3",
+    "fastparquet",
+    "moto",
+    "pip",
+    "pympler",
+    "pytest",
+    "python-graphviz",
+    "smart_open"
+   ]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.7.0",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3.6.*"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "click >=7.0.0",
+    "cloudpickle >=0.4.0",
+    "dask >=1.1.0",
+    "distributed >=1.24.2",
+    "numpy >=1.13.3",
+    "pandas >=0.24.1",
+    "psutil >=5.4.8",
+    "python >=3.6.*",
+    "pyyaml >=3.12",
+    "scipy >=0.13.3",
+    "tqdm >=4.32.0"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "boto3 >=1.10.45",
+    "fastparquet >=0.1.6",
+    "moto >=1.3.13",
+    "pip >=0.20.2",
+    "pympler >=0.5,<0.6",
+    "pytest >=5.2.*",
+    "python-graphviz >=0.8.4",
+    "smart_open >=1.8.4"
+   ]
+  }
+ },
+ "url":"https://pypi.io/packages/source/f/featuretools/featuretools-0.10.1.tar.gz",
+ "version":"0.14.0"
+}

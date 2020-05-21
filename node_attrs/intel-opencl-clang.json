@@ -1,0 +1,179 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/382299728.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"9.0.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/395158831.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"10.0.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"intel-opencl-clang",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"https://github.com/intel/opencl-clang",
+   "license":"NCSA",
+   "license_family":"BSD",
+   "license_file":"LICENSE",
+   "summary":"Common clang is a thin wrapper library around clang. Common clang has OpenCL-oriented API and is capable to compile OpenCL C kernels to SPIR-V modules."
+  },
+  "build":{
+   "number":"0",
+   "skip":true
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "isuruf",
+    "isuruf",
+    "isuruf"
+   ]
+  },
+  "package":{
+   "name":"intel-opencl-clang",
+   "version":"9.0.0"
+  },
+  "requirements":{
+   "build":[
+    "cxx_compiler_stub",
+    "cmake",
+    "cxx_compiler_stub",
+    "cmake",
+    "cxx_compiler_stub",
+    "cmake"
+   ],
+   "host":[
+    "llvmdev   9.0.0",
+    "llvm      9.0.0",
+    "clangdev  9.0.0",
+    "llvm-spirv   9.0.0",
+    "llvmdev   9.0.0",
+    "llvm      9.0.0",
+    "clangdev  9.0.0",
+    "llvm-spirv   9.0.0",
+    "llvmdev   9.0.0",
+    "llvm      9.0.0",
+    "clangdev  9.0.0",
+    "llvm-spirv   9.0.0"
+   ],
+   "run":[
+    "llvm-spirv",
+    "llvm-spirv",
+    "llvm-spirv"
+   ]
+  },
+  "source":{
+   "sha256":"f98b9122da4066e96853429a3cff9e6c0bfb0fee14fa2be5a22e43546a5cfd93",
+   "url":"https://github.com/intel/opencl-clang/archive/v9.0.0.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "test -f ${PREFIX}/lib/libopencl_clang${SHLIB_EXT}"
+   ]
+  }
+ },
+ "name":"intel-opencl-clang",
+ "new_version":"10.0.0",
+ "pinning_version":"2020.03.28",
+ "raw_meta_yaml":"{% set name = \"opencl-clang\" %}\n{% set version = \"9.0.0\" %}\n{% set llvm_version = version %}\n\npackage:\n  name: intel-opencl-clang\n  version: {{ version }}\n\nsource:\n  url: https://github.com/intel/{{ name }}/archive/v{{ version }}.tar.gz\n  sha256: f98b9122da4066e96853429a3cff9e6c0bfb0fee14fa2be5a22e43546a5cfd93\n\nbuild:\n  number: 0\n  skip: True  # [not linux]\n\nrequirements:\n  build:\n    - {{ compiler('cxx') }}\n    - cmake\n  host:\n    - llvmdev   {{ llvm_version }}\n    - llvm      {{ llvm_version }}\n    - clangdev  {{ llvm_version }}\n    - llvm-spirv   {{ llvm_version }}\n  run:\n    - {{ pin_compatible(\"llvm-spirv\", exact=True) }}\n\ntest:\n  commands:\n    - test -f ${PREFIX}/lib/libopencl_clang${SHLIB_EXT}  # [unix]\n\nabout:\n  home: https://github.com/intel/opencl-clang\n  license: NCSA\n  license_file: LICENSE\n  license_family: BSD\n  summary: 'Common clang is a thin wrapper library around clang. Common clang has OpenCL-oriented API and is capable to compile OpenCL C kernels to SPIR-V modules.'\n\nextra:\n  recipe-maintainers:\n    - isuruf\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "clangdev",
+   "cmake",
+   "cxx_compiler_stub",
+   "llvm",
+   "llvm-spirv",
+   "llvmdev"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "cmake",
+    "cxx_compiler_stub"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "clangdev",
+    "llvm",
+    "llvm-spirv",
+    "llvmdev"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "llvm-spirv"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.6.15",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "cmake",
+    "cxx_compiler_stub"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "clangdev  9.0.0",
+    "llvm      9.0.0",
+    "llvm-spirv   9.0.0",
+    "llvmdev   9.0.0"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "llvm-spirv"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://github.com/intel/opencl-clang/archive/v9.0.0.tar.gz",
+ "version":"9.0.0"
+}

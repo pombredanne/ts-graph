@@ -1,0 +1,165 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/367113052.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.6.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{},
+ "feedstock_name":"aiohttp-debugtoolbar",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"https://github.com/aio-libs/aiohttp-debugtoolbar",
+   "license":"Apache Software",
+   "license_family":"APACHE",
+   "license_file":"LICENSE",
+   "summary":"debugtoolbar for aiohttp"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . --no-deps --ignore-installed -vv "
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "epruesse",
+    "epruesse",
+    "epruesse"
+   ]
+  },
+  "package":{
+   "name":"aiohttp-debugtoolbar",
+   "version":"0.5.0"
+  },
+  "requirements":{
+   "host":[
+    "aiohttp >=2.0.7",
+    "aiohttp-jinja2",
+    "pip",
+    "python >3",
+    "aiohttp >=2.0.7",
+    "aiohttp-jinja2",
+    "pip",
+    "python >3",
+    "aiohttp >=2.0.7",
+    "aiohttp-jinja2",
+    "pip",
+    "python >3"
+   ],
+   "run":[
+    "aiohttp >=2.0.7",
+    "aiohttp-jinja2",
+    "python >3",
+    "aiohttp >=2.0.7",
+    "aiohttp-jinja2",
+    "python >3",
+    "aiohttp >=2.0.7",
+    "aiohttp-jinja2",
+    "python >3"
+   ]
+  },
+  "source":{
+   "sha256":"697c9cfac4017d532e26a8c05f14c1a43b3b147f53460daacb0ed144401df441",
+   "url":"https://pypi.io/packages/source/a/aiohttp-debugtoolbar/aiohttp-debugtoolbar-0.5.0.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "aiohttp_debugtoolbar",
+    "aiohttp_debugtoolbar.panels",
+    "aiohttp_debugtoolbar.tbtools",
+    "aiohttp_debugtoolbar",
+    "aiohttp_debugtoolbar.panels",
+    "aiohttp_debugtoolbar.tbtools",
+    "aiohttp_debugtoolbar",
+    "aiohttp_debugtoolbar.panels",
+    "aiohttp_debugtoolbar.tbtools"
+   ]
+  }
+ },
+ "name":"aiohttp-debugtoolbar",
+ "new_version":"0.6.0",
+ "pinning_version":"2020.01.24",
+ "raw_meta_yaml":"{% set name = \"aiohttp-debugtoolbar\" %}\n{% set version = \"0.5.0\" %}\n\npackage:\n  name: \"{{ name|lower }}\"\n  version: \"{{ version }}\"\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: 697c9cfac4017d532e26a8c05f14c1a43b3b147f53460daacb0ed144401df441\n\nbuild:\n  number: 0\n  noarch: python\n  script: \"{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv \"\n\nrequirements:\n  host:\n    - aiohttp >=2.0.7\n    - aiohttp-jinja2\n    - pip\n    - python >3\n  run:\n    - aiohttp >=2.0.7\n    - aiohttp-jinja2\n    - python >3\n\ntest:\n  imports:\n    - aiohttp_debugtoolbar\n    - aiohttp_debugtoolbar.panels\n    - aiohttp_debugtoolbar.tbtools\n\nabout:\n  home: https://github.com/aio-libs/aiohttp-debugtoolbar\n  license: Apache Software\n  license_family: APACHE\n  license_file: LICENSE\n  summary: debugtoolbar for aiohttp\n\nextra:\n  recipe-maintainers:\n    - epruesse\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "aiohttp",
+   "aiohttp-jinja2",
+   "pip",
+   "python"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "aiohttp",
+    "aiohttp-jinja2",
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "aiohttp",
+    "aiohttp-jinja2",
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.6.6",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "aiohttp >=2.0.7",
+    "aiohttp-jinja2",
+    "pip",
+    "python >3"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "aiohttp >=2.0.7",
+    "aiohttp-jinja2",
+    "python >3"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/a/aiohttp-debugtoolbar/aiohttp-debugtoolbar-0.5.0.tar.gz",
+ "version":"0.5.0"
+}

@@ -1,0 +1,157 @@
+{
+ "bad":false,
+ "conda-forge.yml":{
+  "bot":{
+   "automerge":true
+  }
+ },
+ "feedstock_name":"pylammpsmpi",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "description":"Parallel Lammps Python interface\n",
+   "dev_url":"https://github.com/pyiron/pylammpsmpi",
+   "doc_url":"https://pylammpsmpi.readthedocs.io/",
+   "home":"https://github.com/pyiron/pylammpsmpi",
+   "license":"BSD-3-Clause",
+   "license_family":"BSD",
+   "license_file":"LICENSE",
+   "summary":"Parallel Lammps Python interface"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "jan-janssen",
+    "srmnitc",
+    "jan-janssen",
+    "srmnitc",
+    "jan-janssen",
+    "srmnitc"
+   ]
+  },
+  "package":{
+   "name":"pylammpsmpi",
+   "version":"0.0.3"
+  },
+  "requirements":{
+   "host":[
+    "python >2.7",
+    "pip",
+    null,
+    "python >2.7",
+    "pip",
+    null,
+    "python >2.7",
+    "pip",
+    null
+   ],
+   "run":[
+    "python >2.7",
+    "pip",
+    "mpi4py",
+    "lammps",
+    "dask",
+    "python >2.7",
+    "pip",
+    "mpi4py",
+    "lammps",
+    "dask",
+    "python >2.7",
+    "pip",
+    "mpi4py",
+    "lammps",
+    "dask"
+   ]
+  },
+  "source":{
+   "sha256":"2cf858efdcd5a1e7678d1ea692de2099da2148dc2b49c535bba3cab1a0938ec6",
+   "url":"https://pypi.io/packages/source/p/pylammpsmpi/pylammpsmpi-0.0.3.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "pip check",
+    "pip check",
+    "pip check"
+   ],
+   "imports":[
+    "pylammpsmpi",
+    "pylammpsmpi",
+    "pylammpsmpi"
+   ]
+  }
+ },
+ "name":"pylammpsmpi",
+ "new_version":"0.0.3",
+ "raw_meta_yaml":"{% set name = \"pylammpsmpi\" %}\n{% set version = \"0.0.3\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: 2cf858efdcd5a1e7678d1ea692de2099da2148dc2b49c535bba3cab1a0938ec6\n\nbuild:\n  number: 0\n  script: \"{{ PYTHON }} -m pip install . -vv\"\n  noarch: python\n\nrequirements:\n  host:\n    - python >2.7\n    - pip\n    - {{ mpi }}\n  run:\n    - python >2.7\n    - pip\n    - mpi4py\n    - lammps\n    - dask\n\ntest:\n  imports:\n    - pylammpsmpi\n  commands:\n    - pip check\n\nabout:\n  home: https://github.com/pyiron/pylammpsmpi\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: LICENSE\n  summary: 'Parallel Lammps Python interface'\n\n  description: |\n    Parallel Lammps Python interface\n  doc_url: https://pylammpsmpi.readthedocs.io/\n  dev_url: https://github.com/pyiron/pylammpsmpi\n\nextra:\n  recipe-maintainers:\n    - jan-janssen\n    - srmnitc\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "dask",
+   "lammps",
+   "mpi4py",
+   "pip",
+   "python"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "dask",
+    "lammps",
+    "mpi4py",
+    "pip",
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >2.7"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "dask",
+    "lammps",
+    "mpi4py",
+    "pip",
+    "python >2.7"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/p/pylammpsmpi/pylammpsmpi-0.0.3.tar.gz",
+ "version":"0.0.3"
+}

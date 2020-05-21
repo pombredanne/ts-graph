@@ -1,0 +1,6 @@
+{
+ "archived":true,
+ "bad":"Upstream: Error getting upstream version",
+ "feedstock_name":"blah_",
+ "new_version":false
+}

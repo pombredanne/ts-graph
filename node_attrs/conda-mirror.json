@@ -1,0 +1,213 @@
+{
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/221744943.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"CompilerRebuild",
+    "migrator_version":1,
+    "name":"Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "name"
+   ]
+  },
+  {
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.8.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/331157904.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.8.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
+ "conda-forge.yml":{
+  "compiler_stack":"comp7",
+  "max_py_ver":"37",
+  "max_r_ver":"35",
+  "provider":{
+   "win":"azure"
+  }
+ },
+ "feedstock_name":"conda-mirror",
+ "hash_type":"sha256",
+ "meta_yaml":{
+  "about":{
+   "home":"https://github.com/regro/conda-mirror",
+   "license":"BSD-3-Clause",
+   "license_family":"BSD",
+   "license_file":"LICENSE",
+   "summary":"mirror an upstream conda channel to a local directory"
+  },
+  "build":{
+   "entry_points":[
+    "conda-mirror = conda_mirror.conda_mirror:cli",
+    "conda-mirror = conda_mirror.conda_mirror:cli",
+    "conda-mirror = conda_mirror.conda_mirror:cli"
+   ],
+   "noarch":"python",
+   "number":"1",
+   "script":" -m pip install . -vv"
+  },
+  "extra":{
+   "recipe-maintainers":[
+    "ericdill",
+    "parente",
+    "scopatz",
+    "xhochy",
+    "ericdill",
+    "parente",
+    "scopatz",
+    "xhochy",
+    "ericdill",
+    "parente",
+    "scopatz",
+    "xhochy"
+   ]
+  },
+  "package":{
+   "name":"conda-mirror",
+   "version":"0.8.2"
+  },
+  "requirements":{
+   "host":[
+    "python >=3",
+    "pip",
+    "setuptools",
+    "python >=3",
+    "pip",
+    "setuptools",
+    "python >=3",
+    "pip",
+    "setuptools"
+   ],
+   "run":[
+    "python >=3",
+    "requests",
+    "pyyaml",
+    "python >=3",
+    "requests",
+    "pyyaml",
+    "python >=3",
+    "requests",
+    "pyyaml"
+   ]
+  },
+  "source":{
+   "fn":"conda-mirror-0.8.2.tar.gz",
+   "sha256":"80d09cfa2481574d2420bd4ed4913b926c4a2dd65ba8ac41cf98555ee695d92c",
+   "url":"https://pypi.io/packages/source/c/conda_mirror/conda_mirror-0.8.2.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "conda-mirror --help",
+    "conda-mirror --help",
+    "conda-mirror --help"
+   ],
+   "imports":[
+    "conda_mirror",
+    "conda_mirror",
+    "conda_mirror"
+   ]
+  }
+ },
+ "name":"conda-mirror",
+ "new_version":"0.8.2",
+ "pinning_version":"2019.10.11",
+ "raw_meta_yaml":"{% set name = \"conda-mirror\" %}\n{% set version = \"0.8.2\" %}\n\n{% set url_name = name.replace(\"-\", \"_\") %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  fn: {{ name }}-{{ version }}.tar.gz\n  url: https://pypi.io/packages/source/{{ url_name[0] }}/{{ url_name }}/{{ url_name }}-{{ version }}.tar.gz\n  sha256: 80d09cfa2481574d2420bd4ed4913b926c4a2dd65ba8ac41cf98555ee695d92c\n\nbuild:\n  number: 1\n  noarch: python\n  script: \"{{ PYTHON }} -m pip install . -vv\"\n  entry_points:\n    - conda-mirror = conda_mirror.conda_mirror:cli\n\nrequirements:\n  host:\n    - python >=3\n    - pip\n    - setuptools\n  run:\n    - python >=3\n    - requests\n    - pyyaml\n\ntest:\n  imports:\n    - conda_mirror\n\n  commands:\n    - conda-mirror --help\n\nabout:\n  home: https://github.com/regro/conda-mirror\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: LICENSE\n  summary: 'mirror an upstream conda channel to a local directory'\n\nextra:\n  recipe-maintainers:\n    - ericdill\n    - parente\n    - scopatz\n    - xhochy\n    \n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "pip",
+   "python",
+   "pyyaml",
+   "requests",
+   "setuptools"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python",
+    "setuptools"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "python",
+    "pyyaml",
+    "requests"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "smithy_version":"3.6.0",
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3",
+    "setuptools"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "python >=3",
+    "pyyaml",
+    "requests"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/c/conda_mirror/conda_mirror-0.8.0.tar.gz",
+ "version":"0.8.2"
+}
