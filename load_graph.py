@@ -2,6 +2,7 @@ import logging
 import os
 
 from conda_forge_tick.utils import setup_logger, load_graph
+from conda_forge_tick.update_sources import *
 
 logger = logging.getLogger("conda_forge_tick.ts-graph_update_version")
 
@@ -12,7 +13,7 @@ CONDA_FORGE_TICK_DEBUG = os.environ.get("CONDA_FORGE_TICK_DEBUG", False)
 def new_update_upstream_versions(
     gx: nx.DiGraph, sources: Iterable[AbstractSource] = None
 ) -> None:
-    # sources = ( (PyPI(), CRAN(), NPM(), ROSDistro(), RawURL(), Github()) if sources is None else sources)
+    sources = (PyPI(), CRAN(), NPM(), ROSDistro(), RawURL(), Github())
     # updater = ( _update_upstream_versions_sequential if CONDA_FORGE_TICK_DEBUG else _update_upstream_versions_process_pool)
 
     logger.info("Updating upstream versions")
