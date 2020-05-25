@@ -1,3 +1,15 @@
+import abc
+import typing
+from typing import (
+    Any,
+    Optional,
+    Iterable,
+    Set,
+    Iterator,
+    List,
+)
+import feedparser
+import requests
 
 
 class AbstractSource(abc.ABC):
