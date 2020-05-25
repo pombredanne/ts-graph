@@ -48,8 +48,7 @@ def new_update_upstream_versions(gx: nx.DiGraph, sources: Iterable[AbstractSourc
                     se = "Bad exception string: {}".format(ee)
                 logger.warning(f"Warning: Error getting upstream version of {node}: {se}")
             else:
-                print(
-                    f"# {Node_count:<5} - {node:<30} - ver: {attrs.get('version'):<10} - new ver: {new_version}"
+                logger.info(f"# {Node_count:<5} - {node:<30} - ver: {attrs.get('version'):<10} - new ver: {new_version}"
                 )
             to_update["nodes"].append({"id": str(node), "version": str(new_version)})
             Node_count += 1
@@ -72,9 +71,7 @@ def main(args: Any = None) -> None:
 
     logger.info("writing out file")
     with open("new_version.json", "w") as outfile:
-        print(outfile)
-        # this may change according to nx.DiGraph will be used or not;
-        # json.dump(to_update, outfile)
+        json.dump(to_update, outfile)
 
 
 if __name__ == "__main__":
