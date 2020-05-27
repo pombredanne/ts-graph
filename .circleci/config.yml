@@ -21,7 +21,7 @@ jobs:
           conda info
           conda config --show-sources
           conda list --show-channel-urls
-          
+          conda install yaml
     - run:
         name: Load Sources
         command: 'python conda_forge_tick/update_sources.py'
