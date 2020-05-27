@@ -1,7 +1,6 @@
 version: 2
 jobs:
   build:
-    working_directory: ~/ts-graph
     docker:
       - image: continuumio/miniconda3:latest
     steps:
@@ -14,7 +13,6 @@ jobs:
           conda update --all
           conda install --quiet --yes --file requirements.txt
   test:
-    working_directory: ~/ts-graph
     docker:
       - image: continuumio/miniconda3:latest
     steps:
