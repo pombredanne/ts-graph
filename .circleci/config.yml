@@ -1,12 +1,11 @@
 version: 2.1
-
 jobs:
-  build-and-test:
+  build:
+    working_directory: ~/ts-graph
     docker:
-    - image: continuumio/miniconda3:latest
+      - image: continuumio/miniconda3:latest
     steps:
     - checkout
-    - python/load-cache
     - run:
         name: Update Conda
         command: |
@@ -14,12 +13,21 @@ jobs:
           conda config --prepend channels conda-forge
           conda update --all
           conda install --quiet --yes --file requirements.txt
-    - python/save-cache
+  test:
+    working_directory: ~/ts-graph
+    docker:
+      - image: continuumio/miniconda3:latest
+    steps:
+    - checkout
     - run:
-      command: python conda_forge_tick/migrate_update_version.py  
-      name: update_versions
+      name: Update Versions
+      command: 'python conda_forge_tick/migrate_update_version.py'
 
 workflows:
-  main:
+  version: 2.1
+  builda_and_test:
     jobs:
-      - build-and-test
+      - build
+      - test:
+        requires:
+          - build
