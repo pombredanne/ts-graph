@@ -23,9 +23,9 @@ jobs:
 
 workflows:
   version: 2
-  builda_and_test:
+  build_and_test:
     jobs:
       - build
       - test:
-        requires:
-          - build
+          requires:
+            - build
