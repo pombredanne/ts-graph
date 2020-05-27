@@ -1,6 +1,6 @@
 version: 2
 jobs:
-  build_and_setup:
+  build:
     docker:
       - image: continuumio/miniconda3:latest
     steps:
@@ -13,6 +13,11 @@ jobs:
           conda update --all
           conda install --quiet --yes --file requirements.txt
     
+  setup_and_test:
+    docker:
+      - image: continuumio/miniconda3:latest
+    steps:
+    - checkout    
     - run:
         name: Setup new Enviroment
         command: |
@@ -22,13 +27,6 @@ jobs:
           conda info
           conda config --show-sources
           conda list --show-channel-urls
-  test:
-    docker:
-      - image: continuumio/miniconda3:latest
-    steps:
-    - run: |
-        source activate run_env
-    - checkout
     - run:
         name: Update Versions
         command: 'python conda_forge_tick/migrate_update_version.py'
@@ -37,7 +35,7 @@ workflows:
   version: 2
   build_and_test:
     jobs:
-      - build_and_setup
-      - test:
+      - build
+      - setup_and_test:
           requires:
-            - build_and_setup
+            - build
