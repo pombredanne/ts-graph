@@ -47,10 +47,14 @@ def get_latest_version(
             logger.debug("Upstream: unknown source")
         return False
 
+
 # It's expected that your environment provide this info.
 CONDA_FORGE_TICK_DEBUG = os.environ.get("CONDA_FORGE_TICK_DEBUG", False)
 
-def new_update_upstream_versions(gx: nx.DiGraph, sources: Iterable[AbstractSource] = None) -> None:
+
+def new_update_upstream_versions(
+    gx: nx.DiGraph, sources: Iterable[AbstractSource] = None
+) -> None:
     sources = (
         (PyPI(), CRAN(), NPM(), ROSDistro(), RawURL(), Github())
         if sources is None
@@ -74,11 +78,12 @@ def new_update_upstream_versions(gx: nx.DiGraph, sources: Iterable[AbstractSourc
                 to_update["nodes"].append({"id": str(node), "version": "False"})
                 Node_count += 1
                 continue
-            
+
             # verify the actual situation of the package;
             actual_ver = str(attrs.get("version"))
             if attrs.get("bad") or attrs.get("archived"):
-                logger.info(f"# {Node_count:<5} - {node:<30} - ver: {actual_ver:<10} - bad/archived"
+                logger.info(
+                    f"# {Node_count:<5} - {node:<30} - ver: {actual_ver:<10} - bad/archived"
                 )
                 Node_count += 1
                 continue
@@ -90,14 +95,13 @@ def new_update_upstream_versions(gx: nx.DiGraph, sources: Iterable[AbstractSourc
                     se = repr(e)
                 except Exception as ee:
                     se = "Bad exception string: {}".format(ee)
-                logger.warning(f"Warning: Error getting upstream version of {node}: {se}")
-            else:
-                try:
-                    logger.info(f"# {Node_count:<5} - {node:<30} - ver: {actual_ver:<10} - new ver: {new_version}"
+                logger.warning(
+                    f"Warning: Error getting upstream version of {node}: {se}"
                 )
-                except TypeError as expt:
-                    logger.warning(f"Warning: {expt} on {node}")
-                logger.info(f"# {Node_count:<5} - {node:<30} - ver: {actual_ver:<10} - new ver: {new_version}")
+
+            logger.info(
+                f"# {Node_count:<5} - {node:<30} - ver: {actual_ver:<10} - new ver: {new_version}"
+            )
             to_update["nodes"].append({"id": str(node), "version": str(new_version)})
             Node_count += 1
     return to_update
@@ -124,4 +128,3 @@ def main(args: Any = None) -> None:
 
 if __name__ == "__main__":
     main()
-
