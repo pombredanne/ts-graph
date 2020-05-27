@@ -9,34 +9,46 @@ jobs:
         name: Update Conda
         command: |
           conda config --set always_yes True
+          conda config --prepend channels conda-forge
+          conda update --all
+          conda install --quiet --yes --file requirements.txt
+    
+    - run:
+        name: Setup Environment
+        command: |
+          conda create -n run_env --quiet --file requirements/run
+          source activate run_env
+          
           conda config --add channels conda-forge
           conda config --set channel_priority strict
           
-          conda config --prepend channels conda-forge
-          conda install conda 
-          conda update conda
           conda info
-    
+          conda config --show-sources
+          conda list --show-channel-urls
+          
     - run:
         name: Force Install
         command: |
-          conda install --quiet --yes --file requirements.txt
+          source activate run_env
           conda install --quiet --yes --file requirements/run
-        
-          pip install yaml 
-          conda update conda
-        
+                
           conda info
           conda config --show-sources
           conda list --show-channel-urls
                
     - run:
         name: Load Sources
-        command: 'python conda_forge_tick/update_sources.py'
+        command: |
+        source activate run_env
+        
+        python conda_forge_tick/update_sources.py
         
     - run:
         name: Update Versions
-        command: 'python conda_forge_tick/migrate_update_version.py'
+        command: |
+        source activate run_env
+        
+        python conda_forge_tick/migrate_update_version.py
 
 workflows:
   version: 2
