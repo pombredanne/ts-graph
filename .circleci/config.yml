@@ -30,7 +30,8 @@ jobs:
         name: Force Install
         command: |
           source activate run_env
-          conda install --quiet --yes --file requirements/run
+          pip install -r requirements/run
+          conda update conda
                 
           conda info
           conda config --show-sources
