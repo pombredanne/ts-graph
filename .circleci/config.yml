@@ -9,20 +9,20 @@ jobs:
         name: Update Conda
         command: |
           conda config --set always_yes True
+          conda config --add channels conda-forge
+          conda config --set channel_priority strict
+          
           conda config --prepend channels conda-forge
-          conda update --all
+          conda update conda
           conda install --quiet --yes --file requirements.txt
-    
-  setup_and_test:
-    docker:
-      - image: continuumio/miniconda3:latest
-    steps:
-    - checkout    
+        
     - run:
         name: Setup new Enviroment
         command: |
           conda create -n run_env --quiet --file requirements/run
           source activate run_env
+          conda update --all
+          conda install --quiet --yes --file requirements.txt
 
           conda info
           conda config --show-sources
@@ -36,6 +36,3 @@ workflows:
   build_and_test:
     jobs:
       - build
-      - setup_and_test:
-          requires:
-            - build
