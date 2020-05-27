@@ -1,4 +1,4 @@
-version: 2.1
+version: 2
 jobs:
   build:
     working_directory: ~/ts-graph
@@ -24,7 +24,7 @@ jobs:
       command: 'python conda_forge_tick/migrate_update_version.py'
 
 workflows:
-  version: 2.1
+  version: 2
   builda_and_test:
     jobs:
       - build
