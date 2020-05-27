@@ -18,8 +18,8 @@ jobs:
     steps:
     - checkout
     - run:
-      name: Update Versions
-      command: 'python conda_forge_tick/migrate_update_version.py'
+        name: Update Versions
+        command: 'python conda_forge_tick/migrate_update_version.py'
 
 workflows:
   version: 2
