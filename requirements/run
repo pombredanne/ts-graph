@@ -8,3 +8,4 @@ conda
 attrs
 tqdm
 jinja2
+boto3
