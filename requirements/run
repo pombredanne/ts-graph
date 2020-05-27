@@ -1,5 +1,3 @@
-yaml
-setuptools
 attrs==19.3.0
 boto3 @ file:///home/conda/feedstock_root/build_artifacts/boto3_1589835896686/work
 botocore @ file:///home/conda/feedstock_root/build_artifacts/botocore_1590177727407/work
