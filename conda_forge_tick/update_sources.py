@@ -1,4 +1,8 @@
 import abc
+import collections.abc
+import subprocess
+import re
+import logging
 import typing
 from typing import (
     Any,
@@ -8,8 +12,82 @@ from typing import (
     Iterator,
     List,
 )
+import yaml
 import feedparser
 import requests
+from conda.models.version import VersionOrder
+from utils import parse_meta_yaml
+
+from hashing import hash_url
+
+# TODO: parse_version has bad type annotations
+from pkg_resources import parse_version
+
+CRAN_INDEX: Optional[dict] = None
+
+logger = logging.getLogger("cft._update_version.update_sources")
+
+
+def urls_from_meta(meta_yaml: "MetaYamlTypedDict") -> Set[str]:
+    source: "SourceTypedDict" = meta_yaml["source"]
+    sources: typing.List["SourceTypedDict"]
+    if isinstance(source, collections.abc.Mapping):
+        sources = [source]
+    else:
+        sources = typing.cast("typing.List[SourceTypedDict]", source)
+    urls = set()
+    for s in sources:
+        if "url" in s:
+            # if it is a list for instance
+            if not isinstance(s["url"], str):
+                urls.update(s["url"])
+            else:
+                urls.add(s["url"])
+    return urls
+
+
+def _split_alpha_num(ver: str) -> List[str]:
+    for i, c in enumerate(ver):
+        if c.isalpha():
+            return [ver[0:i], ver[i:]]
+    return [ver]
+
+
+def next_version(ver: str) -> Iterator[str]:
+    ver_split = []
+    ver_dot_split = ver.split(".")
+    n_dot = len(ver_dot_split)
+    for idot, sdot in enumerate(ver_dot_split):
+
+        ver_under_split = sdot.split("_")
+        n_under = len(ver_under_split)
+        for iunder, sunder in enumerate(ver_under_split):
+
+            ver_dash_split = sunder.split("-")
+            n_dash = len(ver_dash_split)
+            for idash, sdash in enumerate(ver_dash_split):
+
+                for el in _split_alpha_num(sdash):
+                    ver_split.append(el)
+
+                if idash < n_dash - 1:
+                    ver_split.append("-")
+
+            if iunder < n_under - 1:
+                ver_split.append("_")
+
+        if idot < n_dot - 1:
+            ver_split.append(".")
+
+    for k in reversed(range(len(ver_split))):
+        try:
+            t = int(ver_split[k])
+        except Exception:
+            continue
+        else:
+            ver_split[k] = str(t + 1)
+            yield "".join(ver_split)
+            ver_split[k] = "0"
 
 
 class AbstractSource(abc.ABC):
@@ -164,6 +242,7 @@ class CRAN(AbstractSource):
     def get_version(self, url) -> Optional[str]:
         return str(url[1]).replace("-", "_") if url[1] else None
 
+ROS_DISTRO_INDEX: Optional[dict] = None
 
 class ROSDistro(AbstractSource):
     name = "rosdistro"
@@ -238,6 +317,41 @@ class ROSDistro(AbstractSource):
     def get_version(self, url):
         return self.version_url_cache[url]
 
+def get_sha256(url: str) -> Optional[str]:
+    try:
+        return hash_url(url, timeout=120, hash_type="sha256")
+    except Exception as e:
+        logger.debug("url hashing exception: %s", repr(e))
+        return None
+
+
+def url_exists(url: str) -> bool:
+    try:
+        output = subprocess.check_output(
+            ["wget", "--spider", url], stderr=subprocess.STDOUT, timeout=1,
+        )
+    except Exception:
+        return False
+    # For FTP servers an exception is not thrown
+    if "No such file" in output.decode("utf-8"):
+        return False
+    if "not retrieving" in output.decode("utf-8"):
+        return False
+
+    return True
+
+
+def url_exists_swap_exts(url: str):
+    if url_exists(url):
+        return True, url
+
+    # TODO this is too expensive
+    # from conda_forge_tick.url_transforms import gen_transformed_urls
+    # for new_url in gen_transformed_urls(url):
+    #     if url_exists(new_url):
+    #         return True, new_url
+
+    return False, None
 
 class RawURL(AbstractSource):
     name = "RawURL"
