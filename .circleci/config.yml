@@ -9,19 +9,20 @@ jobs:
         name: Update Conda
         command: |
           conda config --set always_yes True
-          conda config --add channels conda-forge
+          sudo conda config --add channels conda-forge
           conda config --set channel_priority strict
           
           conda config --prepend channels conda-forge
           conda install conda
           conda install --quiet --yes --file requirements.txt
-          conda install --quiet --yes --file requirements/run
-          conda update conda
+          sudo conda install --quiet --yes --file requirements/run
+          sudo conda update conda
           
           conda info
           conda config --show-sources
           conda list --show-channel-urls
-          conda install yaml
+          sudo conda install yaml
+          sudo conda install pyyalm
     - run:
         name: Load Sources
         command: 'python conda_forge_tick/update_sources.py'
