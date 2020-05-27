@@ -93,12 +93,11 @@ def new_update_upstream_versions(gx: nx.DiGraph, sources: Iterable[AbstractSourc
                 logger.warning(f"Warning: Error getting upstream version of {node}: {se}")
             else:
                 try:
-                    logger.info(f"# {Node_count:<5} - {node:<30} - ver: {attrs.get('version'):<10} - new ver: {new_version}"
+                    logger.info(f"# {Node_count:<5} - {node:<30} - ver: {actual_ver:<10} - new ver: {new_version}"
                 )
                 except TypeError as expt:
-                    logger.warning(f"Warning: {expt} on {node}: {new_version} --> str")
-                    new_version = "None"
-                    logger.info(f"# {Node_count:<5} - {node:<30} - ver: {attrs.get('version'):<10} - new ver: {new_version}")
+                    logger.warning(f"Warning: {expt} on {node}")
+                logger.info(f"# {Node_count:<5} - {node:<30} - ver: {actual_ver:<10} - new ver: {new_version}")
             to_update["nodes"].append({"id": str(node), "version": str(new_version)})
             Node_count += 1
     return to_update
