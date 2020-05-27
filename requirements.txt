@@ -1,1 +1,22 @@
+<<<<<<< HEAD
 requests
+=======
+conda
+abc
+collections.abc
+github3.py
+networkx
+subprocess
+random
+time
+re
+concurrent.futures
+yaml
+logging
+typing
+requests
+feedparser
+conda.models.version
+attrs
+tqdm
+>>>>>>> 1810cea7030af0b901eb3632aca3508085a98a75

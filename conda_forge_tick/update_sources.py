@@ -17,7 +17,10 @@ import feedparser
 import requests
 from conda.models.version import VersionOrder
 from utils import parse_meta_yaml
+<<<<<<< HEAD
 
+=======
+>>>>>>> 1810cea7030af0b901eb3632aca3508085a98a75
 from hashing import hash_url
 
 # TODO: parse_version has bad type annotations
@@ -449,3 +452,4 @@ class LibrariesIO(VersionFromFeed):
                 continue
             pkg = self.package_name(url)
             return f"https://libraries.io/{self.name}/{pkg}/versions.atom"
+
