@@ -13,14 +13,18 @@ jobs:
           conda config --set channel_priority strict
           
           conda config --prepend channels conda-forge
+          conda install conda
+          conda install --quiet --yes --file requirements.txt
+          conda install --quiet --yes --file requirements/run
           conda update conda
           
           conda info
           conda config --show-sources
           conda list --show-channel-urls
           
-          conda install --quiet --yes --file requirements.txt
-          conda install --quiet --yes --file requirements/run
+    - run:
+        name: Load Sources
+        command: 'python conda_forge_tick/update_sources.py'
         
     - run:
         name: Update Versions
