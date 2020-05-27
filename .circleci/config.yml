@@ -16,7 +16,7 @@ jobs:
     - run:
         name: Force Install
         command: |
-          pip install -r requirements/run
+          conda install --quiet --yes --file requirements/run
           conda update conda
                 
           conda info
@@ -26,13 +26,12 @@ jobs:
     - run:
         name: Setup Environment
         command: |
-          conda create -n run_env --quiet
+          conda create -n run_env --quiet --file requirements/run 
           source activate run_env
           
           conda config --add channels conda-forge
           conda config --set channel_priority strict
-          
-          pip install -r requirements/run
+         
           conda update conda
           
           conda info
