@@ -39,16 +39,16 @@ jobs:
     - run:
         name: Load Sources
         command: |
-        source activate run_env
+          source activate run_env
         
-        python conda_forge_tick/update_sources.py
+          python conda_forge_tick/update_sources.py
         
     - run:
         name: Update Versions
         command: |
-        source activate run_env
+          source activate run_env
         
-        python conda_forge_tick/migrate_update_version.py
+          python conda_forge_tick/migrate_update_version.py
 
 workflows:
   version: 2
