@@ -19,10 +19,10 @@ jobs:
           conda config --show-sources
           conda list --show-channel-urls
     
-    - run: sudo conda install --quiet --yes --file requirements.txt
-    - run: sudo conda install --quiet --yes --file requirements/run
-    - run: sudo pip install yaml
-    - run: sudo conda update conda
+    - run:
+        name: Force Install
+        command: 'sudo conda install --quiet --yes --file requirements.txt &&
+        sudo conda install --quiet --yes --file requirements/run && sudo pip install yaml && sudo conda update conda'
                
     - run:
         name: Load Sources
