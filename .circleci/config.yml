@@ -78,9 +78,6 @@ jobs:
             set -e
             git clone https://github.com/viniciusdc/ts-graph.git
             cd ts-graph
-            
-	          git fetch origin --verbose
-            git checkout origin/v1
 	    
             export GIT_FULL_HASH=$(git rev-parse HEAD)
             conda create -n run_env --quiet --file requirements/run
