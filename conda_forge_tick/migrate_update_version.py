@@ -115,7 +115,7 @@ def new_update_upstream_versions(
                 attrs["bad"] = "Upstream: Error getting upstream version"
             else:
                 logger.info(
-                    f"# {Node_count:<5} - {node:<30} - ver: {attrs.get('version'):<10} - new ver: {attrs.get('new_version')}",
+                    f"# {Node_count:<5} - {node} - {attrs.get('version')} - {attrs.get('new_version')}",
                 )
             up_to[f"{node}"] = {
                 "bad": attrs.get("bad"),
