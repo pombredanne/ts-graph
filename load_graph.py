@@ -4,15 +4,60 @@ import random
 import json
 import os
 
+sys.path.append("..")
 from conda_forge_tick.utils import setup_logger, load_graph
-from conda_forge_tick.update_sources import *
+from conda_forge_tick.update_sources import (
+    AbstractSource,
+    PyPI,
+    CRAN,
+    NPM,
+    ROSDistro,
+    RawURL,
+    Github,
+)
+from typing import (
+    Any,
+    Optional,
+    Iterable,
+    Set,
+    Iterator,
+    List,
+)
 
-logger = logging.getLogger("conda_forge_tick.ts-graph_update_version")
+# conda_forge_tick :: cft
+logger = logging.getLogger("cft._update_versions")
+
+
+def get_latest_version(
+    name: str, payload_meta_yaml: Any, sources: Iterable[AbstractSource]
+):
+    with payload_meta_yaml as meta_yaml:
+        for source in sources:
+            logger.debug("source: %s", source.__class__.__name__)
+            url = source.get_url(meta_yaml)
+            logger.debug("url: %s", url)
+            if url is None:
+                continue
+            ver = source.get_version(url)
+            logger.debug("ver: %s", ver)
+            if ver:
+                return ver
+            else:
+                logger.debug(f"Upstream: Could not find version on {source.name}")
+        if not meta_yaml.get("bad"):
+            logger.debug("Upstream: unknown source")
+        return False
 
 # It's expected that your environment provide this info.
 CONDA_FORGE_TICK_DEBUG = os.environ.get("CONDA_FORGE_TICK_DEBUG", False)
 
 def new_update_upstream_versions(gx: nx.DiGraph, sources: Iterable[AbstractSource] = None) -> None:
+    sources = (
+        (PyPI(), CRAN(), NPM(), ROSDistro(), RawURL(), Github())
+        if sources is None
+        else sources
+    )
+
     _all_nodes = [t for t in gx.nodes.items()]
     random.shuffle(_all_nodes)
 
@@ -45,18 +90,22 @@ def new_update_upstream_versions(gx: nx.DiGraph, sources: Iterable[AbstractSourc
                 try:
                     se = repr(e)
                 except Exception as ee:
-                    se = "Bad exception string: {}".format(ee)
-                logger.warning(f"Warning: Error getting upstream version of {node}: {se}")
+                    se = f"Bad exception string: {ee}"
+                logger.error(f"# {Node_count:<5} - Error getting upstream version of {node}: {se}")
             else:
-                logger.info(f"# {Node_count:<5} - {node:<30} - ver: {attrs.get('version'):<10} - new ver: {new_version}"
+                try:
+                    logger.info(f"# {Node_count:<5} - {node:<30} - ver: {actual_ver:<10} - new ver: {new_version}"
                 )
+                except TypeError as expt:
+                    logger.warning(f"Warning: {expt} on {node}")
+                logger.info(f"# {Node_count:<5} - {node:<30} - ver: {actual_ver:<10} - new ver: {new_version}")
             to_update["nodes"].append({"id": str(node), "version": str(new_version)})
             Node_count += 1
+    return to_update
 
 
 def main(args: Any = None) -> None:
-    sources = (PyPI(), CRAN(), NPM(), ROSDistro(), RawURL(), Github())
-
+    logger.info("cft :: conda_forge_tick")
     if CONDA_FORGE_TICK_DEBUG:
         setup_logger(logger, level="debug")
     else:
@@ -67,7 +116,7 @@ def main(args: Any = None) -> None:
     gx = load_graph()
 
     # call update
-    new_update_upstream_versions(gx)
+    to_update = new_update_upstream_versions(gx)
 
     logger.info("writing out file")
     with open("new_version.json", "w") as outfile:
@@ -76,3 +125,5 @@ def main(args: Any = None) -> None:
 
 if __name__ == "__main__":
     main()
+
+
