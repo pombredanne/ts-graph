@@ -37,3 +37,4 @@ ruamel.yaml.clib
 tblib==1.6.0
 tqdm 
 typed-ast==1.4.1
+xonsh
