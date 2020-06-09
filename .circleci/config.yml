@@ -75,6 +75,7 @@ jobs:
             conda create -n run_env --quiet --file requirements/run
             source activate run_env
             conda info
+            conda update conda
             conda config --show-sources
             conda list --show-channel-urls
       - run:
