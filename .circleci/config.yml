@@ -50,7 +50,7 @@ jobs:
         command: |
           source activate run_env
         
-          python conda_forge_tick/migrate_update_version.py
+          python migrate_update_version.py
   
   run_bot:
     docker:
@@ -98,4 +98,4 @@ workflows:
   version: 2
   build_and_test:
     jobs:
-      - run_bot
+      - build
