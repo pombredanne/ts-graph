@@ -53,7 +53,6 @@ jobs:
           python conda_forge_tick/migrate_update_version.py
   
   run_bot:
-    working_directory: ~/repo
     docker:
       - image: continuumio/miniconda3:latest
     steps:
