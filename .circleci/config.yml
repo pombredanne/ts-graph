@@ -50,7 +50,7 @@ jobs:
         command: |
           source activate run_env
         
-          python load_graph.py
+          python  conda_forge_tick/migrate_update_version.py
   
   run_bot:
     docker:
