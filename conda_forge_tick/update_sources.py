@@ -16,10 +16,9 @@ import yaml
 import feedparser
 import requests
 from conda.models.version import VersionOrder
-import sys
-sys.path.append("..")
-from conda_forge_tick.utils import parse_meta_yaml
-from conda_forge_tick.hashing import hash_url
+
+from utils import parse_meta_yaml
+from hashing import hash_url
 
 # TODO: parse_version has bad type annotations
 from pkg_resources import parse_version
