@@ -71,15 +71,8 @@ jobs:
             git config --global user.name viniciusdc
             git config --global user.email vinivdc2009@hotmail.com
       - run:
-          name: Clone and Setup
+          name: Setup
           command: |
-            export START_TIME=$(date +%s)
-            export TIMEOUT=7200
-            set -e
-            git clone https://github.com/viniciusdc/ts-graph.git
-            cd ts-graph
-	    
-            export GIT_FULL_HASH=$(git rev-parse HEAD)
             conda create -n run_env --quiet --file requirements/run
             source activate run_env
             conda info
