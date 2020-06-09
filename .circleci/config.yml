@@ -50,7 +50,7 @@ jobs:
         command: |
           source activate run_env
         
-          python migrate_update_version.py
+          python load_graph.py
   
   run_bot:
     docker:
