@@ -2,7 +2,7 @@ version: 2
 jobs:
   build:
     docker:
-      - image: continuumio/miniconda3:latest
+    - {image: 'continuumio/miniconda3:latest'}
     steps:
     - checkout
     - run:
@@ -12,87 +12,30 @@ jobs:
           conda config --prepend channels conda-forge
           conda update --all
           conda install --quiet --yes --file requirements.txt
-          
-    - run:
-        name: Force Install
-        command: |
-          conda install --quiet --yes --file requirements/run
-          conda update conda
-                
-          conda info
-          conda config --show-sources
-          conda list --show-channel-urls
-        
     - run:
         name: Setup Environment
         command: |
-          conda create -n run_env --quiet --file requirements/run 
+          conda create -n run_env --quiet --file requirements/run
           source activate run_env
-          
-          conda config --add channels conda-forge
-          conda config --set channel_priority strict
-         
-          conda update conda
-          
           conda info
           conda config --show-sources
           conda list --show-channel-urls
-          
     - run:
         name: Load Sources
         command: |
           source activate run_env
         
           python conda_forge_tick/update_sources.py
-        
     - run:
-        name: Update Versions
+        name: populate versions
         command: |
           source activate run_env
-        
-          python  conda_forge_tick/migrate_update_version.py
-  
-  run_bot:
-    docker:
-      - image: continuumio/miniconda3:latest
-    steps:
-      - checkout
-      - run:
-          name: Update Conda
-          command: |
-            conda config --set always_yes True
-            conda config --prepend channels conda-forge
-            conda update --all
-            conda install --quiet --yes --file requirements.txt
-      - run:
-          name: Git user
-          command: |
-            git config --global user.name viniciusdc
-            git config --global user.email vinivdc2009@hotmail.com
-      - run:
-          name: Setup
-          command: |
-            conda create -n run_env --quiet --file requirements/run
-            source activate run_env
-            conda info
-            conda update conda
-            conda config --show-sources
-            conda list --show-channel-urls
-      - run:
-          name: make the graph
-          command: |
-            source activate run_env
-            python conda_forge_tick/make_graph.py
-      - run:
-          name: update upstream versions
-          command: |
-            source activate run_env
-            python migrate_update_version.py
-      - run:
-          name: re-make graph
-          command: |
-            source activate run_env
-            python conda_forge_tick/make_graph.py
+          python  conda_forge_tick/migrate_update_version.py    
+    - run:
+        name: deploy
+        command: |
+          source activate run_env
+          python conda_forge_tick/deploy.py
 
 workflows:
   version: 2
