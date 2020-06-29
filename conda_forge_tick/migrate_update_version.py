@@ -7,9 +7,8 @@ import os
 import tqdm
 from concurrent.futures import as_completed
 
-
-from utils import setup_logger, load_graph, executor
-from update_sources import (
+from .utils import setup_logger, load_graph, executor
+from .update_sources import (
     AbstractSource,
     PyPI,
     CRAN,
@@ -18,18 +17,21 @@ from update_sources import (
     RawURL,
     Github,
 )
-from typing import (
-    Any,
-    Iterable
-)
+from typing import Any, Iterable
 
 # conda_forge_tick :: cft
 logger = logging.getLogger("conda-forge-tick._update_versions")
 
 
 def get_latest_version(
-        name: str, payload_meta_yaml: Any, sources: Iterable[AbstractSource],
-):
+    name: str, payload_meta_yaml: Any, sources: Iterable[AbstractSource],
+) -> dict:
+    version_data = {}
+    # avoid
+    if name == "ca-policy-lcg":
+        version_data["new_version"] = False
+        return version_data
+
     with payload_meta_yaml as meta_yaml:
         for source in sources:
             logger.debug("source: %s", source.__class__.__name__)
@@ -40,14 +42,19 @@ def get_latest_version(
             ver = source.get_version(url)
             logger.debug("ver: %s", ver)
             if ver:
-                return ver
+                version_data["new_version"] = ver
+                return version_data
             else:
                 logger.debug(f"Upstream: Could not find version on {source.name}")
-                meta_yaml["bad"] = f"Upstream: Could not find version on {source.name}"
+                version_data[
+                    "bad"
+                ] = f"Upstream: Could not find version on {source.name}"
         if not meta_yaml.get("bad"):
             logger.debug("Upstream: unknown source")
-            meta_yaml["bad"] = "Upstream: unknown source"
-        return False
+            version_data["bad"] = "Upstream: unknown source"
+
+        version_data["new_version"] = False
+        return version_data
 
 
 # It's expected that your environment provide this info.
@@ -55,36 +62,31 @@ CONDA_FORGE_TICK_DEBUG = os.environ.get("CONDA_FORGE_TICK_DEBUG", False)
 
 
 def _update_upstream_versions_sequential(
-        gx: nx.DiGraph, sources: Iterable[AbstractSource] = None,
+    gx: nx.DiGraph, sources: Iterable[AbstractSource] = None,
 ) -> None:
+
     _all_nodes = [t for t in gx.nodes.items()]
     random.shuffle(_all_nodes)
 
     # Inspection the graph object and node update:
+    # print(f"Number of nodes: {len(gx.nodes)}")
     node_count = 0
     to_update = []
     for node, node_attrs in _all_nodes:
         with node_attrs["payload"] as attrs:
             if attrs.get("bad") or attrs.get("archived"):
-                attrs["new_version"] = False
                 continue
             to_update.append((node, attrs))
 
     for node, node_attrs in to_update:
         # checking each node
         with node_attrs as attrs:
-            up_to = {}
-
-            # avoid
-            if node == "ca-policy-lcg":
-                up_to["ca-policy-lcg"] = {"bad": attrs.get("bad"), "new_version": False}
-                node_count += 1
-                continue
+            version_data = {}
 
             # New version request
             try:
-                new_version = get_latest_version(node, attrs, sources)
-                attrs["new_version"] = new_version or attrs["new_version"]
+                # check for latest version
+                version_data.update(get_latest_version(node, attrs, sources))
             except Exception as e:
                 try:
                     se = repr(e)
@@ -93,24 +95,21 @@ def _update_upstream_versions_sequential(
                 logger.warning(
                     f"Warning: Error getting upstream version of {node}: {se}",
                 )
-                attrs["bad"] = "Upstream: Error getting upstream version"
+                version_data["bad"] = "Upstream: Error getting upstream version"
             else:
                 logger.info(
-                    f"# {node_count:<5} - {node} - {attrs.get('version')} - {attrs.get('new_version')}",
+                    f"# {node_count:<5} - {node} - {attrs.get('version')} - {version_data.get('new_version')}",
                 )
 
             logger.debug("writing out file")
             with open(f"versions/{node}.json", "w") as outfile:
-                up_to[f"{node}"] = {
-                    "bad": attrs.get("bad"),
-                    "new_version": attrs.get("new_version"),
-                }
-                json.dump(up_to, outfile)
+                json.dump(version_data, outfile)
             node_count += 1
 
 
-def _update_upstream_versions_process_pool(gx: nx.DiGraph, sources: Iterable[AbstractSource],
-                                           ) -> None:
+def _update_upstream_versions_process_pool(
+    gx: nx.DiGraph, sources: Iterable[AbstractSource],
+) -> None:
     futures = {}
     # this has to be threads because the url hashing code uses a Pipe which
     # cannot be spawned from a process
@@ -121,12 +120,8 @@ def _update_upstream_versions_process_pool(gx: nx.DiGraph, sources: Iterable[Abs
         for node, node_attrs in tqdm.tqdm(_all_nodes):
             with node_attrs["payload"] as attrs:
                 if attrs.get("bad") or attrs.get("archived"):
-                    attrs["new_version"] = False
                     continue
-                # avoid
-                if node == "ca-policy-lcg":
-                    attrs["new_version"] = False
-                    continue
+
                 futures.update(
                     {
                         pool.submit(get_latest_version, node, attrs, sources): (
@@ -142,7 +137,6 @@ def _update_upstream_versions_process_pool(gx: nx.DiGraph, sources: Iterable[Abs
         # eta :: elapsed time average
         eta = -1
         for f in as_completed(futures):
-            up_to = {}
 
             n_left -= 1
             if n_left % 10 == 0:
@@ -150,9 +144,10 @@ def _update_upstream_versions_process_pool(gx: nx.DiGraph, sources: Iterable[Abs
 
             node, node_attrs = futures[f]
             with node_attrs as attrs:
+                version_data = {}
                 try:
-                    new_version = f.result()
-                    attrs["new_version"] = new_version or attrs["new_version"]
+                    # check for latest version
+                    version_data.update(f.result())
                 except Exception as e:
                     try:
                         se = repr(e)
@@ -163,7 +158,7 @@ def _update_upstream_versions_process_pool(gx: nx.DiGraph, sources: Iterable[Abs
                         "Error getting upstream version of %s: %s"
                         % (n_left, eta, node, se),
                     )
-                    attrs["bad"] = "Upstream: Error getting upstream version"
+                    version_data["bad"] = "Upstream: Error getting upstream version"
                 else:
                     logger.info(
                         "itr % 5d - eta % 5ds: %s - %s - %s"
@@ -172,20 +167,16 @@ def _update_upstream_versions_process_pool(gx: nx.DiGraph, sources: Iterable[Abs
                             eta,
                             node,
                             attrs.get("version", "<no-version>"),
-                            attrs["new_version"],
+                            version_data["new_version"],
                         ),
                     )
                 # writing out file
                 with open(f"versions/{node}.json", "w") as outfile:
-                    up_to[f"{node}"] = {
-                        "bad": attrs.get("bad"),
-                        "new_version": attrs.get("new_version"),
-                    }
-                    json.dump(up_to, outfile)
+                    json.dump(version_data, outfile)
 
 
 def update_upstream_versions(
-        gx: nx.DiGraph, sources: Iterable[AbstractSource] = None,
+    gx: nx.DiGraph, sources: Iterable[AbstractSource] = None,
 ) -> None:
     sources = (
         (PyPI(), CRAN(), NPM(), ROSDistro(), RawURL(), Github())
