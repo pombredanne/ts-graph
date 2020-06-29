@@ -7,8 +7,8 @@ import os
 import tqdm
 from concurrent.futures import as_completed
 
-from .utils import setup_logger, load_graph, executor
-from .update_sources import (
+from utils import setup_logger, load_graph, executor
+from update_sources import (
     AbstractSource,
     PyPI,
     CRAN,
